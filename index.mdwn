@@ -1,6 +1,6 @@
 Welcome to your new experimental wiki.
 
-[[server-documentation]]
+[[documentation/server]]
 
 ----
 
