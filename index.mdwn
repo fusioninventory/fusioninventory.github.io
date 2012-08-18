@@ -1,4 +1,4 @@
-Welcome to your new wiki.
+Welcome to your new experimnetal wiki.
 
 All wikis are supposed to have a [[SandBox]], so this one does too.
 
