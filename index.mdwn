@@ -2,6 +2,8 @@ Welcome to your new experimental wiki.
 
 [[documentation/server]]
 
+Old documentation from DITA to migrate: [[documentation/old]]
+
 ----
 
 This wiki is powered by [[ikiwiki]].
