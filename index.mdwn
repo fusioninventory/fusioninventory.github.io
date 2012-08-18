@@ -1,5 +1,7 @@
 Welcome to your new experimental wiki.
 
+[[server-documentation]]
+
 ----
 
 This wiki is powered by [[ikiwiki]].
