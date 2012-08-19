@@ -6,8 +6,7 @@
 
 ## Automated update of the assets
 FusionInventory acts like a gateway and collect information sent by the agents.
-It will create or update the information in GLPI it minimal effort from the
-administrator.
+It will create or update the information in GLPI it minimal effort from the administrator.
 
 For now, these class of devices are supported:
 
@@ -33,8 +32,7 @@ FusionInventory supports different virtualization mechanisms.
 
 ## Software deployment
 
-You can use FusionInventory to install, update or remove software. You can also
-push administration scripts.
+You can use FusionInventory to install, update or remove software. You can also push administration scripts.
 
 The solution can be run on any kind of operating system, espcially:
 
@@ -46,9 +44,7 @@ FusionInventory is designed to take care of the network bandwidth.
 
 ## Wake on Lan
 
-The agent can send Wake on Lan order on its local network. By using the GLPI
-plugin, you can planify when computers have to be awaken and from which
-agent.
+The agent can send Wake on Lan order on its local network. By using the GLPI plugin, you can planify when computers have to be awaken and from which agent.
 
 # The solution main components
 
