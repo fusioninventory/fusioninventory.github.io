@@ -45,3 +45,9 @@ The plugin installation follow the same process:
     make install
 
 # SSL
+
+SSL communication are based on IO::Socket::SSL. You build it you will need
+openssl header files. Those files are in general in /usr/include/openssl/.
+
+If you don't want to use SSL, you can avoid keep this dependency uninstalled.
+The agent will disable SSL by itself.
