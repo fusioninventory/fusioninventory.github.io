@@ -1,0 +1,19 @@
+# Using FusionInventory debian packages
+
+Installation with the debian packages
+
+Some distributions like Debian do already have versions of the FusionInventory agent  in their distribution repositories - But they are more lilkely being older or even quite outdated.
+
+The FusionInventory project  maintains an up-to-date debian package of the most recent version, in a extra repository. To use it, edit the following file:
+
+/etc/apt/sources.list
+
+Add the following line: 
+
+Update the local package list:
+
+List all the FusionInventory packages available:
+
+Simply run  apt-get install fusioninventory to install the FusionInventory agent and his dependencies. If you want additional tasks to be performed by this agent (like network discovery and SNMP inventory), you&apos;ll have to install additionnal packages : libfusioninventory-agent-task-netdiscovery-perl and libfusioninventory-agent-task-snmpquery-perl.
+
+

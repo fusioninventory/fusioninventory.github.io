@@ -1,0 +1,24 @@
+# How to use ikiwiki with git
+
+## Get the wiki sources
+
+First, you need you ssh key to be accepted. Please send your ssh public key
+to <goneri@rulezlan.org>. Once, this step is done, you can clone the
+wiki:
+
+    git clone wiki@wiki.fusioninventory.org:wiki.git
+
+## Hack
+
+    vi foo.mdwn
+    git commit -m "my awesome changes" foo.mdwn
+
+## Push
+
+    git push
+
+# There is various way to convery a mdwn (Markdown) file to HTML.
+
+For example, with pandoc:
+
+    pandoc -f markdown -t html5 foo.mdwn > foo.html5

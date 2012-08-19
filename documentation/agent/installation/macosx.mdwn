@@ -1,0 +1,16 @@
+## Using Mac OS X Installer
+
+
+Installation of the agent with the Mac OS X installer
+
+The FusionInventory project provides 2 Mac OS X packages: one for powerpc computers and the other for Intel macs.
+
+The package is a .pkg file, and is designed for silent installation. Agent&apos;s configuration needs to be done before install, by going into the package, and edit the Content\Resources\agent.cfg file.
+
+By default, the agent runs as a daemon, and stores his files in /opt/fusioninventory-agent.
+
+Please note that FusionInventory agent is not a Mac OS X application, and his invisible for users.
+
+Once configured, the agent can be deployed either manually (by double clicking on the .pkg file), nor automatically using tools like Apple Remote Desktop.
+
+

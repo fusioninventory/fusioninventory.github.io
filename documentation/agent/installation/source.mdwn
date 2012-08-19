@@ -1,0 +1,47 @@
+# Installation from the source tarball
+
+## agent from sources
+
+We strongly recommand the use of __GNU tar__ because some file path lenght are greater
+than 100 caracters. Some tar version will silently ignore those files like for example
+HP-UX.
+
+
+First, you need to extract the source and run the Makefile.PL
+
+    tar xfz FusionInventory-Agent-2.2.5.tar.gz
+    cd FusionInventory-Agent-2.2.5
+    perl Makefile.PL
+
+Makefile.PL will ensure all the required dependencies are available and
+prepare the build tree.
+
+At this point, you will probably have some missing required modules. The best tool
+to resolve the situation is cpanm. Just run:
+
+    cpanm .
+
+You can use the _--notest_ flag if you are brave and want to skip the test-suite
+execution.
+
+Once this is done, run once again:
+
+    perl Makefile.Pl
+
+This time the execution should success and you can finish the installation
+
+    make test
+    make install
+
+## plugins installation from source
+
+The plugin installation follow the same process:
+
+    tar xfz FusionInventory-Agent-Task-Foo-0.1.2.tar.gz
+    cd FusionInventory-Agent-Task-Foo-0.1.2
+    cpanm .
+    perl Makefile.PL
+    make test
+    make install
+
+# SSL

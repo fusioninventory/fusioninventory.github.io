@@ -1,0 +1,22 @@
+# Using RPM packages
+
+
+Installation with the rpm package
+
+The RPM-Packages are mainained by  Remi Collet.
+
+
+http://fedoraproject.org/wiki/EPEL http://blog.famillecollet.com/pages/Config First of all, you need to enable EPEL repository (
+
+To install FusionInventory-Agent, simply execute the following command: 
+
+yum --enablerepo=remi install fusioninventory-agent
+
+IMPORTANT Never use Perl packages provided by RPMForge.
+
+Never use Perl packages provided by RPMForge.
+
+
+
+
+

@@ -1,0 +1,11 @@
+<div class="infobox">
+<TMPL_VAR text>
+</div>
+<TMPL_UNLESS text>
+Use this template to insert a info box into a page. The note will be styled to
+float to the right of other text on the page. This template has one
+parameter:
+<ul>
+<li>`text` - the text to display in the note
+</ul>
+</TMPL_UNLESS>

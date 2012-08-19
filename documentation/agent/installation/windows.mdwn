@@ -1,0 +1,38 @@
+# Windows installation
+
+## Parameter for Windows installer
+
+- /h: Display the help
+- /S: Run setup in silent mode
+- /server=url1,url2: Set URL of the server
+- /tag=tagame: Set tag of agent
+- /user=username: Set user name
+- /pass=password: Set password
+- /realm=realm: Set realmi (optional)
+- /ca-cert-file=filename: set the file name of the certificate
+- /no-ssl-check: No certificate check when establishing SSL connection
+- /proxy=http://proxy/: Set proxy
+- /debug: Set debug mode
+- /rpc-trust-localhost: Allow local user to wake agent up
+- /scan-homedirs: Look for virtual machines in users home directories
+- /runnow: Turn this parameter on if you want a first inventory just after the installation
+A list of parameter are availaible to perform silent installation :
+   
+
+
+   Example:
+   
+
+
+##### Windows installer
+
+
+How to install the agent under Windows
+
+http://prebuilt.fusioninventory.org/stable/windows-i386/ You have to download the installer package from the following  FusionInventory page:
+
+You will just have to launch the installer for an interactive installation process.
+
+oups
+http://nmap.org/download.html oups
+
