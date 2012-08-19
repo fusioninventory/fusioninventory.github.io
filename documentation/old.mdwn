@@ -15,18 +15,16 @@ Address of the forge
 
 The development forge can be found under: 
 
-http://forge.fusioninventory.org/ - 
+http://forge.fusioninventory.org/
 
 #### Mailing lists
 
 
 Address of mailing lists
 
-http://lists.alioth.debian.org/mailman/listinfo/fusioninventory-user http://lists.alioth.debian.org/pipermail/fusioninventory-devel/ -  ()
-http://lists.alioth.debian.org/mailman/listinfo/fusioninventory-devel http://lists.alioth.debian.org/pipermail/fusioninventory-user/ -  ()
-http://lists.alioth.debian.org/mailman/listinfo/fusioninventory-i18n http://lists.alioth.debian.org/pipermail/fusioninventory-i18n/ -  ()
-FusionInventory users (archive)FusionInventory developers (archive)FusionInventory internationalization and translation (archive)
-
+* FusionInventory Users list http://lists.alioth.debian.org/mailman/listinfo/fusioninventory-user
+* FusionInventory Developers list http://lists.alioth.debian.org/mailman/listinfo/fusioninventory-devel
+* FusinInventory translater list http://lists.alioth.debian.org/mailman/listinfo/fusioninventory-i18n
 
 #### IRC-Channel
 
