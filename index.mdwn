@@ -56,11 +56,6 @@ Two of these tasks are included in agent source distribution, local inventory
 and wake on lan. Other tasks are distributed separatly, excepted for binary
 distributions where they are bundled together.
 
-More:
-
-* [[User documentation|documentation/agent/userdoc]]
-* [Tested plateforms](http://forge.fusioninventory.org/projects/fusioninventory-agent/wiki/Agent_supportedplateforms)
-
 ## The GLPI Plugin
 
 [GLPI](http://www.glpi-project.org) is the Information Resource-Manager with an additional Administration
@@ -78,9 +73,4 @@ GLPI stands for "Gestionnaire libre de parc informatique", which means in french
 “Free IT Asset Management Software”.
 
 __FusionInventory for GLPI__ is a plugin for GLPI.
-
-More:
-
-* [[User documentation|documentation/fi4g/userdoc]]
-
 
