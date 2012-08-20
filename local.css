@@ -15,7 +15,6 @@
  *  */
 /* variables copy pasted from the corporate website */
 .pageheader {
-  padding: 2em 2em 3em 2em;
   position: relative;
   overflow: hidden;
   background: #404040;
@@ -67,6 +66,7 @@ input#searchbox {
   box-shadow: inset 2px 2px 2px #1a1a1a; }
 
 .pageheader .actions {
+  visibility: hidden; /* Gonéri */
   position: absolute;
   bottom: 0;
   right: 2em;
@@ -299,3 +299,14 @@ tr:nth-child(even) {
   margin-top: 0.5em;
   padding: 0 0 0 2ex;
   border-color: red; }
+
+#backlinks {
+  right: 2em;
+  text-align: right;
+}
+
+.pagedate {
+  text-align: right;
+  font-size: 63%;
+}
+
