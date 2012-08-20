@@ -1,3 +1,8 @@
+[[!sidebar  content="""
+This is my custom sidebar for this page.
+"""]]
+[[!sidebar ]]
+
 [[!toc ]]
 
 [[!template id=info text="""This is a info message"""]]
