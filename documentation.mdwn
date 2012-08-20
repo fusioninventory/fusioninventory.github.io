@@ -1,0 +1,3 @@
+
+* [[FusionInventory Agent|documentation/agent]]
+* [[FusionInventory for GLPI|documentation/fi4g]]
