@@ -1,0 +1,92 @@
+/* ikiwiki local style sheet */
+
+/* Add local styling here, instead of modifying style.css. */
+html {
+  background:#f9f9f9;
+}
+body{
+  background:#fff;
+  color:#333;
+  font-family:"Lucida Grande",Verdana,Arial,"Bitstream Vera Sans",sans-serif;
+  margin:2em auto;
+  width:700px;
+  padding:1em 2em;
+  -moz-border-radius:11px;
+  -khtml-border-radius:11px;
+  -webkit-border-radius:11px;
+  border-radius:11px;
+  border:1px solid #dfdfdf;
+}
+a{
+  color:#2583ad;
+  text-decoration:none;
+}
+a:hover{
+  color:#d54e21;
+}
+h1{
+  border-bottom:1px solid #dadada;
+  clear:both;
+  color:#666;
+  font:24px Georgia,"Times New Roman",Times,serif;
+  margin:5px 0 0 -4px;
+  padding:0;
+  padding-bottom:7px;
+}
+h2{
+  font-size:16px;
+}
+p,li,dd,dt{
+  padding-bottom:2px;
+  font-size:12px;
+  line-height:18px;
+}
+code,.code{
+  margin:35px;
+  padding:15px;
+  border-left:2px groove #CCC;
+  border-top:2px groove #CCC;
+  float: left;
+  font-family:monospace;
+}
+ul,ol,dl{
+  padding:5px 5px 5px 22px;
+}
+a img{border:0;
+}
+
+.pagedate,
+.pagelicense,
+.pagecopyright {
+  font-style: italic;
+  display: block;
+  margin-top: 1em;
+  text-align:right;
+  font-size:12px;
+}
+
+.todobox {
+  background: url(smileys/attention.png) no-repeat;
+  background-color: #fff;
+  background-position: 0 50%;
+  font-weight: bold;
+  color: #000;
+  padding-left: 18px;
+  float: right;
+  padding: 3ex 4ex;
+  border: 1px solid #aaa;
+  color: black !important;
+}
+
+.infobox {
+  background: url(smileys/icon-info.png) no-repeat;
+  background-color: #fff;
+  background-position: 0 50%;
+  font-weight: bold;
+  color: #000;
+  padding-left: 18px;
+  float: right;
+  padding: 3ex 4ex;
+  border: 1px solid #aaa;
+  color: black !important;
+}
