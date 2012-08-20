@@ -1,0 +1,28 @@
+[[!template id=plugin name=sidebar author="Tuomo Valkonen"]]
+[[!tag type/chrome]]
+
+This plugin allows adding a sidebar to pages in the wiki.
+
+By default, and unless the `global_sidebars` setting is turned off,
+a sidebar is added to all pages in the wiki. The content of the sidebar
+is simply the content of a page named "sidebar" (ie, create a "sidebar.mdwn").
+
+Typically this will be a page in the root of the wiki, but it can also be a
+[[ikiwiki/SubPage]]. In fact, this page,
+[[plugins/sidebar|plugins/sidebar]], will be treated as a sidebar for the
+[[plugins]] page, and of all of its SubPages, if the plugin is enabled.
+
+There is also a [[ikiwiki/directive/sidebar]] directive that can be used
+to provide a custom sidebar content for a page.
+
+----
+
+Warning: Any change to the sidebar page will cause a rebuild of the whole
+wiki, since every page includes a copy that has to be updated. This can
+especially be a problem if the sidebar includes an
+[[ikiwiki/directive/inline]] directive, since any changes to pages inlined
+into the sidebar will change the sidebar and cause a full wiki rebuild.
+
+Instead, if you include a [[ikiwiki/directive/map]] directive on the sidebar,
+and it does not use the `show` parameter, only adding or removing pages
+included in the map will cause a full rebuild. Modifying pages will not.
