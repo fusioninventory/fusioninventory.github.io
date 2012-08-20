@@ -1,4 +1,4 @@
-* [[News|new]]
+* [[News|news]]
 * [[Overview|index]]
 * [[Screenshots|screenshots]]
 * [[Documentation|documentation]]
