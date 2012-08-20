@@ -1,6 +1,3 @@
-[[!template id=plugin name=sidebar author="Tuomo Valkonen"]]
-[[!tag type/chrome]]
-
 This plugin allows adding a sidebar to pages in the wiki.
 
 By default, and unless the `global_sidebars` setting is turned off,
