@@ -1,2 +1,2 @@
-[[!inline pages="fi4g/*" rootpage="fi4g"]]
+[[!inline pages="fi4g/*" rootpage="documentation"]]
 
