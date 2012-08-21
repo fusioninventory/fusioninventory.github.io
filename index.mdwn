@@ -1,5 +1,5 @@
 # Feature Overview
-[[test]]
+
 ## Automated update of the assets
 FusionInventory acts like a gateway and collect information sent by the agents.
 It will create or update the information in GLPI it minimal effort from the administrator.
