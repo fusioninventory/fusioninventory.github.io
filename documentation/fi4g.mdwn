@@ -1,1 +1,3 @@
-[[!inline pages="./fi4g/*" rootpage="documentation" ]]
+[[userdoc]]
+[[installation]]
+
