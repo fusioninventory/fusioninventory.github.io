@@ -1,3 +1,2 @@
-[[userdoc]]
-[[installation]]
+[[!inline pages="fi4g/*"]]
 
