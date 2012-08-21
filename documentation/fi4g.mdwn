@@ -1,6 +1,3 @@
-#[[!toc ]]
-#[[!inline pages="./fi4g/*" rootpage="documentation"]]
-
 Documentation
 
 *[[userdoc]]
