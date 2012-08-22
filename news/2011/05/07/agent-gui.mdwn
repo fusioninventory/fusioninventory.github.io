@@ -1,0 +1,10 @@
+[[!meta  date="2011-05-07 13:02:31"]]
+# Agent GUI
+
+<a href="http://fusioninventory.org/wordpress/wp-content/uploads/2011/04/fusioninventory-agent-gui-macosx.png"><img src="http://fusioninventory.org/wordpress/wp-content/uploads/2011/04/fusioninventory-agent-gui-macosx.png" alt="" title="fusioninventory-agent-gui-macosx" class="aligncenter size-medium wp-image-1077" /></a>
+<p>
+For your information, we are working on a GUI for the agent. The first release is planned in the coming weeks. Even if we do this especially for MacOSX,iIt will be also available on Windows and Linux since the code is written in C++/QT4.
+</p>
+<p>
+This GUI goal is to simplify the initial agent configuration.
+</p>

@@ -1,0 +1,6 @@
+[[!meta  date="2010-03-22 23:01:27"]]
+# Windows support
+
+We're still working on Windows portage. Progress are good on the Inventory part, there is still some code to clean up and missing section.
+
+<a href="http://fusioninventory.org/wordpress/wp-content/uploads/2010/03/windows.png"><img class="alignnone size-medium wp-image-135" title="windows-mini" src="http://fusioninventory.org/wordpress/wp-content/uploads/2010/03/windows-mini-300x263.png" alt="" width="300" height="263" /></a>.
