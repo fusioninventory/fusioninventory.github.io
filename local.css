@@ -879,7 +879,7 @@ div.page {
         display: inline;
         font-family: 'Verdana', Monaco, Arial, Times;
         font-size: 16px;
-        line-height: 75px;
+        line-height: 60px;
         text-transform:uppercase;
 }
 
@@ -901,7 +901,7 @@ ul.sidebar li a{line-height:65px; vertical-align: middle; padding:0px 10px; font
         background: #ffffff url(images/module_gradient.png) repeat-x bottom center;
         position: relative;
         height: auto;
-	margin-top:60px;
+	margin-top:75px;
         display: block;
         text-align: left;
 }
