@@ -342,9 +342,9 @@ nav {
 	display: inline;
 	padding: .2em;
 }
-.pageheader .actions ul {
-	border-bottom: 1px solid #000;
-}
+#.pageheader .actions ul {
+#	border-bottom: 1px solid #000;
+#}
 
 .inlinepage .actions ul {
 	border-bottom: 0;
