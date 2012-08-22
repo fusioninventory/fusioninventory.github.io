@@ -66,7 +66,7 @@ input#searchbox {
   box-shadow: inset 2px 2px 2px #1a1a1a; }
 
 .pageheader .actions {
-  visibility: hidden; /* Gonéri */
+/*  visibility: hidden; /* Gonéri */
   position: absolute;
   bottom: 0;
   right: 2em;
