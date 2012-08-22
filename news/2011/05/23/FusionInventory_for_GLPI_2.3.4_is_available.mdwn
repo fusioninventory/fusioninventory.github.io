@@ -3,7 +3,7 @@
 
 The plugins FusionInventory for GLPI is now available in 2.3.4. It's a fix version.
 
-To download : <a href='http://forge.fusioninventory.org/attachments/download/386/fusioninventory-for-glpi-metapackage_2.3.4.tar.gz'>http://forge.fusioninventory.org/attachments/download/386/fusioninventory-for-glpi-metapackage_2.3.4.tar.gz</a>
+To download : [http://forge.fusioninventory.org/attachments/download/386/fusioninventory-for-glpi-metapackage_2.3.4.tar.gz](http://forge.fusioninventory.org/attachments/download/386/fusioninventory-for-glpi-metapackage_2.3.4.tar.gz)
 
 This is the changelog : 
 <strong>FusionInventory 2.3.4</strong>

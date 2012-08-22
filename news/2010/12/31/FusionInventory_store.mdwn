@@ -6,12 +6,12 @@ Hi,
 Fancy wearing a FusionInventory T-shirt? We opened three stores:
 * 
 
-<a href="http://www.cafepress.com/FusionInventory">cafepress ($)</a>
+[cafepress ($)](http://www.cafepress.com/FusionInventory)
 
 
-<a href="http://www.comboutique.com/fusioninventory">comboutique (€)</a>
+[comboutique (€)](http://www.comboutique.com/fusioninventory)
 
 
-<a href="https://fusioninventory.spreadshirt.fr/">spreadshirt (€)</a>
+[spreadshirt (€)](https://fusioninventory.spreadshirt.fr/)
 
 </li>

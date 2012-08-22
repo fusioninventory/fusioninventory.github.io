@@ -9,4 +9,4 @@ Here are the translation of some excerpts from their interview :
 <blockquote>Jean-Philippe : About FusionInventory, our objective is of course to use the association with GLPI, but also to make easier the implementation of monitoring and, on the long term, of the CMDB.</blockquote>
 <blockquote>Michael : About FusionInventory, it's clearly a major block in the adoption of a CMDB [...] the challenge for the version 3 i very high and we will need innovations like FusionInventory to have the most practical answer for our users.</blockquote>
 <blockquote>Sébastien : Shinken as FusionInventory are very interesting and deserve to be studied and tested. The world of  monitoring moves, innovates, we must take it into account and no stay "closed".</blockquote>
-For more details read <a href="http://www.monitoring-fr.org/2010/12/eon-interview-de-lequipe/">the interview of the EON community by monitoring-fr</a> (in french).
+For more details read [the interview of the EON community by monitoring-fr](http://www.monitoring-fr.org/2010/12/eon-interview-de-lequipe/) (in french).

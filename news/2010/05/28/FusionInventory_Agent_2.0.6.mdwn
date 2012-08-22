@@ -3,5 +3,5 @@
 
 This stable release fix a serious bug with nmap and local inventory.
 
-* <a href="http://forge.fusioninventory.org/news/8">The changelog</a>
-* <a href="http://forge.fusioninventory.org/projects/fusioninventory-agent/files">Download</a>
+* [The changelog](http://forge.fusioninventory.org/news/8)
+* [Download](http://forge.fusioninventory.org/projects/fusioninventory-agent/files)

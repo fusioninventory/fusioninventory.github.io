@@ -5,7 +5,7 @@
 
 New version of plugin FusionInventory for GLPI (fixes version).
 
-You can download this version <a href="http://forge.fusioninventory.org/attachments/download/120/fusioninventory-for-glpi-2.2.2-release.tar.gz">here</a>
+You can download this version [here](http://forge.fusioninventory.org/attachments/download/120/fusioninventory-for-glpi-2.2.2-release.tar.gz)
 
 To upgrade :
 

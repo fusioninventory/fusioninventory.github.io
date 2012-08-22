@@ -1,9 +1,9 @@
 [[!meta  date="2012-05-30 16:25:00"]]
 # FusionInventory at RMLL/LSM, July 2012, Geneva, Switzerland
 
-<img src="http://fusioninventory.org/wordpress/wp-content/uploads/2012/05/logo-rmll-2012-en.png" alt="" title="logo-rmll-2012-en" width="206" height="83" class="aligncenter size-full wp-image-1397" />
+<img src="/news/2012/05/logo-rmll-2012-en.png" alt="" title="logo-rmll-2012-en" width="206" height="83" class="aligncenter size-full wp-image-1397" />
 
-<a href="http://2012.rmll.info/">RMLL/LSM</a> is a non-commercial cycle of conferences, round tables and practical workshops based on Libre Software and its uses. Its aim is to provide a platform for Libre Software users, developers and stakeholders. 
+[RMLL/LSM](http://2012.rmll.info/) is a non-commercial cycle of conferences, round tables and practical workshops based on Libre Software and its uses. Its aim is to provide a platform for Libre Software users, developers and stakeholders. 
 
-FusionInventory team will hold <a href="http://schedule2012.rmll.info/FusionInventory-est-un-outil-d-inventaire-de-decouverte-reseau-et-de-telediffusion-d-applications">a presentation of the solution</a> in French the 12th of July.
+FusionInventory team will hold [a presentation of the solution](http://schedule2012.rmll.info/FusionInventory-est-un-outil-d-inventaire-de-decouverte-reseau-et-de-telediffusion-d-applications) in French the 12th of July.
 

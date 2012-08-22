@@ -15,6 +15,6 @@ These 3 parts will be modified and require more test before the 2.4.0 release (a
 
 Thanks you to users reports bugs.
 
-Don't forget to help to translate online : <a href="https://www.transifex.net/projects/p/FusionInventory/">https://www.transifex.net/projects/p/FusionInventory/</a>
+Don't forget to help to translate online : [https://www.transifex.net/projects/p/FusionInventory/](https://www.transifex.net/projects/p/FusionInventory/)
 
 You can download 2.4.0 RC3 Version for GLPI 0.80.x <a href="http://forge.fusioninventory.org/attachments/download/447/fusioninventory-for-glpi-metapackage_2.4.0-RC3.tar.gz" target="_blank">here</a>.

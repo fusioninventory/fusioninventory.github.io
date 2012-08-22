@@ -6,7 +6,7 @@
 ## First talk in France
 
 A large part of the FusionInventory team was present at <a title="rmll.info : FusionInventory: an inventory project" href="http://2010.rmll.info/FusionInventory.html">Libre Software Meeting 2010 in Bordeaux</a> this week. We had a talk just after the talk of <a title="GLPI project" href="http://glpi-project.org">GLPI project</a>, and could present to a large audience, for the first time in France, the result of all the work that has been done in the last months.
-<a href="http://fusioninventory.org/wordpress/wp-content/uploads/2010/07/rmll2010.pdf"><img class="aligncenter size-full wp-image-464" title="fusioninventory-rmll2010" src="http://fusioninventory.org/wordpress/wp-content/uploads/2010/07/fusioninventory-rmll2010.png" alt="" width="300" height="212" /></a>
+<a href="/news/2010/07/rmll2010.pdf"><img class="aligncenter size-full wp-image-464" title="fusioninventory-rmll2010" src="/news/2010/07/fusioninventory-rmll2010.png" alt="" width="300" height="212" /></a>
 We now provide an unique agent running on multiple OSes like Windows, MacOS X, Linux, *BSD, HP-UX. This agent is modular and already can perform serveral tasks like local inventory of computers, network inventory with SNMP, network discovery, remote wake up of computers, remote wake up of the agent, deployment of packages using OCSNG methods. And as the FusionInventory agent is modular, everybody can add his own task. On the server side, a generic library is also on the way to communicate with the agents. This library will be the core of an integration into GLPI.
 
 ## Hot new stuff

@@ -14,24 +14,24 @@ We released a first release candidat of 0.80+1.1.
 
 Thank you for test and bug reports.
 
-You can download this version <a href="http://forge.fusioninventory.org/attachments/download/502/fusioninventory-for-glpi-metapackage_0.80_1.1-RC1.tar.gz">here</a>
+You can download this version [here](http://forge.fusioninventory.org/attachments/download/502/fusioninventory-for-glpi-metapackage_0.80_1.1-RC1.tar.gz)
 
 
-Changelog is available <a href="http://forge.fusioninventory.org/projects/fusioninventory-for-glpi/roadmap#0.80+1.1">here</a>
+Changelog is available [here](http://forge.fusioninventory.org/projects/fusioninventory-for-glpi/roadmap#0.80+1.1)
 
 ## New Deploy feature
 
 This release comes with a new “Deploy” plugin. The feature requires a 2.2.x agent. This agent is also in a RC/validation cycle. You can download it here:
 
-* <a href="http://prebuilt.fusioninventory.org/devel/2.2.x/windows-i386/">Windows</a>
+* [Windows](http://prebuilt.fusioninventory.org/devel/2.2.x/windows-i386/)
 * <a href="http://prebuilt.fusioninventory.org/devel/2.2.x/macosx-intel/">MacOSX Intel</<a>
-* <a href="https://github.com/fusinv/fusioninventory-agent/tarball/2.2.x">Agent source tarball</<a> and the <a href="https://github.com/fusinv/fusioninventory-agent-task-deploy/tarball/master">Deploy modules</a>
+* <a href="https://github.com/fusinv/fusioninventory-agent/tarball/2.2.x">Agent source tarball</<a> and the [Deploy modules](https://github.com/fusinv/fusioninventory-agent-task-deploy/tarball/master)
 * <a href="http://prebuilt.fusioninventory.org/devel/2.2.x/">Other systems</<a>
 
 
 
 
-<a href="http://fusioninventory.org/wordpress/wp-content/uploads/2011/12/presentation_deploy_3.jpg"><img src="http://fusioninventory.org/wordpress/wp-content/uploads/2011/12/presentation_deploy_3-300x195.jpg" alt="" title="presentation_deploy_3" width="300" height="195" class="aligncenter size-medium wp-image-1352" /></a>
+<a href="/news/2011/12/presentation_deploy_3.jpg"><img src="/news/2011/12/presentation_deploy_3-300x195.jpg" alt="" title="presentation_deploy_3" width="300" height="195" class="aligncenter size-medium wp-image-1352" /></a>
 
 ## Upload from the last BETA release
 

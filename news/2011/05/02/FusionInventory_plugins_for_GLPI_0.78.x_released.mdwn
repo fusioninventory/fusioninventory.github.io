@@ -53,10 +53,10 @@ The team would like to thank:
 
 Useful links :
 
-* <a href="http://forge.fusioninventory.org/attachments/download/373/fusioninventory-for-glpi-metapackage_2.3.2.tar.gz">Meta package which contains all plugins</a>
-* <a href="http://forge.fusioninventory.org/projects/fusioninventory/wiki/Features_And_Compatibility">Functionnalities and compatibility matrix</a>
-* <a href="http://forge.fusioninventory.org/">Communitiy forge</a>
-* <a href="http://www.glpi-project.org">GLPI</a>
+* [Meta package which contains all plugins](http://forge.fusioninventory.org/attachments/download/373/fusioninventory-for-glpi-metapackage_2.3.2.tar.gz)
+* [Functionnalities and compatibility matrix](http://forge.fusioninventory.org/projects/fusioninventory/wiki/Features_And_Compatibility)
+* [Communitiy forge](http://forge.fusioninventory.org/)
+* [GLPI](http://www.glpi-project.org)
 
 
 

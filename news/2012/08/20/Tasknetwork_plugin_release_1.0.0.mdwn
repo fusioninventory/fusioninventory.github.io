@@ -16,12 +16,12 @@ This release brings the following changes:
 
 
 The source distribution for the plugin is available from the project forge:
-<a href="http://forge.fusioninventory.org/attachments/download/708/FusionInventory-Agent-Task-Network-1.0.0.tar.gz">http://forge.fusioninventory.org/attachments/download/708/FusionInventory-Agent-Task-Network-1.0.0.tar.gz</a>
+[http://forge.fusioninventory.org/attachments/download/708/FusionInventory-Agent-Task-Network-1.0.0.tar.gz](http://forge.fusioninventory.org/attachments/download/708/FusionInventory-Agent-Task-Network-1.0.0.tar.gz)
 
 It is also available from CPAN:
-<a href="http://search.cpan.org/CPAN/authors/id/G/GR/GROUSSE/FusionInventory-Agent-Task-Network-1.0.0.tar.gz">http://search.cpan.org/CPAN/authors/id/G/GR/GROUSSE/FusionInventory-Agent-Task-Network-1.0.0.tar.gz</a>
+[http://search.cpan.org/CPAN/authors/id/G/GR/GROUSSE/FusionInventory-Agent-Task-Network-1.0.0.tar.gz](http://search.cpan.org/CPAN/authors/id/G/GR/GROUSSE/FusionInventory-Agent-Task-Network-1.0.0.tar.gz)
 
 The windows distribution of the agent has also been updated to include the latest version:
-<a href="http://prebuilt.fusioninventory.org/stable/windows-i386/fusioninventory-agent_windows-i386_2.2.5-1.exe">http://prebuilt.fusioninventory.org/stable/windows-i386/fusioninventory-agent_windows-i386_2.2.5-1.exe</a>
+[http://prebuilt.fusioninventory.org/stable/windows-i386/fusioninventory-agent_windows-i386_2.2.5-1.exe](http://prebuilt.fusioninventory.org/stable/windows-i386/fusioninventory-agent_windows-i386_2.2.5-1.exe)
 
 Enjoy :)

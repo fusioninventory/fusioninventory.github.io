@@ -5,6 +5,6 @@ The Ocs Inventory team just released the first release candidate of their new ve
 
 The FusionInventory team remains focused on providing an agent compatible with both the OCS server (1.x and 2.x) and the upcoming FusionInventory Server for GLPI 0.78.
 
-As the new OCS server only accepts inventories coming from official OCS agents, you need to apply the following patch available on our wiki : <a href="http://forge.fusioninventory.org/projects/fusioninventory-agent/wiki/Patch_ocs_server">http://forge.fusioninventory.org/projects/fusioninventory-agent/wiki/Patch_ocs_server</a>
+As the new OCS server only accepts inventories coming from official OCS agents, you need to apply the following patch available on our wiki : [http://forge.fusioninventory.org/projects/fusioninventory-agent/wiki/Patch_ocs_server](http://forge.fusioninventory.org/projects/fusioninventory-agent/wiki/Patch_ocs_server)
 
 The FusionInventory team.

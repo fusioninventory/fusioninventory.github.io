@@ -3,10 +3,10 @@
 
 Hi,
 
-<img src="http://fusioninventory.org/wordpress/wp-content/uploads/2012/05/solutions-linux-chapo_vignette.jpg" alt="" title="solutions-linux-chapo_vignette" width="260" height="195" class="aligncenter size-full wp-image-1380" />
+<img src="/news/2012/05/solutions-linux-chapo_vignette.jpg" alt="" title="solutions-linux-chapo_vignette" width="260" height="195" class="aligncenter size-full wp-image-1380" />
 
-Like the past year, we will share a booth with the <a href="www.glpi-project.org">GLPI project</a> at <a href="http://www.solutionslinux.fr/">Solutions Linux 2012</a>. The conference will be hold from the 19 to the 21th of june in Paris la Défense.
+Like the past year, we will share a booth with the [GLPI project](www.glpi-project.org) at [Solutions Linux 2012](http://www.solutionslinux.fr/). The conference will be hold from the 19 to the 21th of june in Paris la Défense.
 
-The 19th of june, one of the FusionInventory developer will present <a href="http://www.otrs.com/en/">OTRS</a> and its new FusionInventory connector <a href="http://www.solutionslinux.fr/animation_78_168_2464_p.html?cid=1339">(details)</a>.
+The 19th of june, one of the FusionInventory developer will present [OTRS](http://www.otrs.com/en/) and its new FusionInventory connector [(details)](http://www.solutionslinux.fr/animation_78_168_2464_p.html?cid=1339).
 
 See you there!

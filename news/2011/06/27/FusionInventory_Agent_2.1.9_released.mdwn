@@ -4,15 +4,15 @@
 Hello FusionInventory users,
 
 Last week, we did a new maintenance release of FusionInventory Agent.
-<a href="http://fusioninventory.org/wordpress/download-fusioninventory/">http://fusioninventory.org/wordpress/download-fusioninventory/</a>
+[http://fusioninventory.org/wordpress/download-fusioninventory/](http://fusioninventory.org/wordpress/download-fusioninventory/)
 
 We also regenerated new "prebuilt" package to embed two new scripts:
  - fusioninventory-esx: generate inventory of remote ESX/ESXi/vCenter server
  - fusioninventory-injector: load inventory file in a remote server
-<a href="http://prebuilt.fusioninventory.org/stable/">http://prebuilt.fusioninventory.org/stable/</a>
+[http://prebuilt.fusioninventory.org/stable/](http://prebuilt.fusioninventory.org/stable/)
 
 The 2.1.10 development is open. You can have a look on the roadmap here.
-<a href="http://forge.fusioninventory.org/versions/show/93">http://forge.fusioninventory.org/versions/show/93</a>
+[http://forge.fusioninventory.org/versions/show/93](http://forge.fusioninventory.org/versions/show/93)
 
 This is the full changelog for this release.
 HPUX

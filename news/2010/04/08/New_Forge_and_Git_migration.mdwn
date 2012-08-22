@@ -19,12 +19,12 @@ repository.
 
 Now our repositories are in Git format, depending on what people
 needs, we can provide public Gateway to Mercurial or Bzr. Even svn
-through Github! (<a href="http://github.com/blog/626-announcing-svn-support">http://github.com/blog/626-announcing-svn-support</a>)
+through Github! ([http://github.com/blog/626-announcing-svn-support](http://github.com/blog/626-announcing-svn-support))
 
 Gitorious (which is based on FreeSoftware!):
-<a href="http://www.gitorious.net/fusioninventory">http://www.gitorious.net/fusioninventory</a>
+[http://www.gitorious.net/fusioninventory](http://www.gitorious.net/fusioninventory)
 
 GitHub (which is not 100% free):
-<a href="http://github.com/fusinv">http://github.com/fusinv
-</a>
+[http://github.com/fusinv
+](http://github.com/fusinv)
 Fork us! It's easy!
