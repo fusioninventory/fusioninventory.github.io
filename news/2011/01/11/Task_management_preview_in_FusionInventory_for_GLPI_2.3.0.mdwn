@@ -34,4 +34,4 @@ Quick overview of the improvements :
 
 
 
-<a href="/news/2011/01/test.png"><img class="aligncenter wp-image-847" title="Tasks in FusionInventory 2.3.0 (developement version) " src="/news/2011/01/test-300x193.png" alt="" width="300" height="193" /></a>
+<a href="/news/2011/01/11/test.png"><img class="aligncenter wp-image-847" title="Tasks in FusionInventory 2.3.0 (developement version) " src="/news/2011/01/11/test-300x193.png" alt="" width="300" height="193" /></a>

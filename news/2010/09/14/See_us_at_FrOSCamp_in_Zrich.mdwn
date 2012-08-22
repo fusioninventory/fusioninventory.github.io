@@ -5,6 +5,6 @@ Most of the team will be at [FrOSCamp](http://fusioninventory.org/wordpress/wp-a
 
 Please check on the [exhibitor map](http://wiki.froscamp.org/images/7/73/Exhibition.png) our booth's location or just find the place where people speak french.
 
-<a href="/news/2010/09/FrOSCamp.png"><img class="aligncenter size-medium wp-image-617" title="FrOSCamp" src="/news/2010/09/FrOSCamp-253x300.png" alt="" width="253" height="300" /></a>
+<a href="/news/2010/09/14/FrOSCamp.png"><img class="aligncenter size-medium wp-image-617" title="FrOSCamp" src="/news/2010/09/14/FrOSCamp-253x300.png" alt="" width="253" height="300" /></a>
 
 A talk is scheduled Friday at 4pm. We will publish the slides as soon as possible.

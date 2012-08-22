@@ -1,7 +1,7 @@
 [[!meta  date="2011-03-30 16:56:38"]]
 # FusionInventory talk at LinuxTAG 2011
 
-<a href="/news/2011/03/800pxLogo_LinuxTag.svg_.png"><img class="aligncenter size-medium wp-image-991" title="800pxLogo_LinuxTag.svg_" src="/news/2011/03/800pxLogo_LinuxTag.svg_-300x200.png" alt="" width="300" height="200" /></a>
+<a href="/news/2011/03/30/800pxLogo_LinuxTag.svg_.png"><img class="aligncenter size-medium wp-image-991" title="800pxLogo_LinuxTag.svg_" src="/news/2011/03/30/800pxLogo_LinuxTag.svg_-300x200.png" alt="" width="300" height="200" /></a>
 
 [LinuxTag](http://en.wikipedia.org/wiki/LinuxTag) in Berlin is a major FreeSoftware event in Europe. Members of the FusionInventory and GLPI teams will there.
 

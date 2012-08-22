@@ -1,7 +1,7 @@
 [[!meta  date="2011-09-21 15:34:47"]]
 # OpenWorldForum
 
-<img src="/news/2011/09/logo_owf-300x113.png" alt="" title="logo_owf" width="300" height="113" class="aligncenter size-medium wp-image-1256" />
+<img src="/news/2011/09/21/logo_owf-300x113.png" alt="" title="logo_owf" width="300" height="113" class="aligncenter size-medium wp-image-1256" />
 
 We will present FusionInventory during the [OpenWorldForum 2011](http://www.openworldforum.org/).
 

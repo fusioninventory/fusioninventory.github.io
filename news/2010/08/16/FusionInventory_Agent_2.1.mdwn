@@ -11,6 +11,6 @@ Prebuilt standalone installers are also available as a convenience for other ope
 
 More information on the [download page](http://fusioninventory.org/wordpress/download-fusioninventory/).
 
-<a href="/news/2010/08/fusioninventory-2.1-goneri.png"><img class="aligncenter size-medium wp-image-532" title="fusioninventory-2.1-goneri" src="/news/2010/08/fusioninventory-2.1-goneri-300x225.png" alt="" width="300" height="225" /></a>
+<a href="/news/2010/08/16/fusioninventory-2.1-goneri.png"><img class="aligncenter size-medium wp-image-532" title="fusioninventory-2.1-goneri" src="/news/2010/08/16/fusioninventory-2.1-goneri-300x225.png" alt="" width="300" height="225" /></a>
 
 We are still working on the release of FusionInventory For GLPI.

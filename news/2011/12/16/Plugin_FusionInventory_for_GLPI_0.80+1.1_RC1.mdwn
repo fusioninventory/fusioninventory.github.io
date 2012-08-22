@@ -31,7 +31,7 @@ This release comes with a new “Deploy” plugin. The feature requires a 2.2.x 
 
 
 
-<a href="/news/2011/12/presentation_deploy_3.jpg"><img src="/news/2011/12/presentation_deploy_3-300x195.jpg" alt="" title="presentation_deploy_3" width="300" height="195" class="aligncenter size-medium wp-image-1352" /></a>
+<a href="/news/2011/12/16/presentation_deploy_3.jpg"><img src="/news/2011/12/16/presentation_deploy_3-300x195.jpg" alt="" title="presentation_deploy_3" width="300" height="195" class="aligncenter size-medium wp-image-1352" /></a>
 
 ## Upload from the last BETA release
 

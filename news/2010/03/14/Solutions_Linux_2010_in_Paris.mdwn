@@ -5,4 +5,4 @@ We will be present during [Solutions Linux](http://www.solutionslinux.fr/) meeti
 
 You can meet with us in GLPI booth (David, Vincent, Walid, Fabrice), in LLV GLPI [Le Libre Vendéen] (Goneri, Benoît) and in GOsa²  booth (Benoît again).
 
-You can see the flyer in french here: [plaquette_sol2010](/news/2010/03/plaquette_sol2010.pdf).
+You can see the flyer in french here: [plaquette_sol2010](/news/2010/03/14/plaquette_sol2010.pdf).

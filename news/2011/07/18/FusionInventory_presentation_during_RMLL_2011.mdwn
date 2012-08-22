@@ -13,8 +13,8 @@ We want to give a big THANKS to the RMLL team.
 
 <h1>Slides</1h>
 
-* [FusionInventory presentation - RMLL 2011 (pdf)](/news/2011/07/glpi-rmll-2011.pdf'>GLPI presentation - RMLL 2011 (pdf)</a>
-* <a href='/news/2011/07/fusioninventory-rmll-2011.pdf)
+* [FusionInventory presentation - RMLL 2011 (pdf)](/news/2011/07/18/glpi-rmll-2011.pdf'>GLPI presentation - RMLL 2011 (pdf)</a>
+* <a href='/news/2011/07/18/fusioninventory-rmll-2011.pdf)
 
 
 
