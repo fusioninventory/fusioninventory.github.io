@@ -4,7 +4,7 @@
 Hi,
 
 <p>
-Last we were at Strasbourg, France for the [RMLL](http://2011.rmll.info/) meeting. We did a GLPI presentation and another one regarding FusionInventory. Like last year, the meeting was great to meet the contributors, users and people from other project like [Shinken Monitoring](http://www.shinken-monitoring.org), [Centreon](http://www.centreon.com) or [FusionDirectory](http://www.fusiondirectory.org).
+Last we were at Strasbourg, France for the <a href="http://2011.rmll.info/">RMLL</a> meeting. We did a GLPI presentation and another one regarding FusionInventory. Like last year, the meeting was great to meet the contributors, users and people from other project like <a href="http://www.shinken-monitoring.org">Shinken Monitoring</a>, <a href="http://www.centreon.com">Centreon</a> or <a href="http://www.fusiondirectory.org">FusionDirectory</a>.
 </p>
 <p>
 We want to give a big THANKS to the RMLL team.
@@ -13,8 +13,8 @@ We want to give a big THANKS to the RMLL team.
 
 <h1>Slides</1h>
 
-* [FusionInventory presentation - RMLL 2011 (pdf)](http://fusioninventory.org/wordpress/wp-content/uploads/2011/07/glpi-rmll-2011.pdf'>GLPI presentation - RMLL 2011 (pdf)</a>
-* <a href='http://fusioninventory.org/wordpress/wp-content/uploads/2011/07/fusioninventory-rmll-2011.pdf)
+* <a href='http://fusioninventory.org/wordpress/wp-content/uploads/2011/07/glpi-rmll-2011.pdf'>GLPI presentation - RMLL 2011 (pdf)</a>
+* <a href='http://fusioninventory.org/wordpress/wp-content/uploads/2011/07/fusioninventory-rmll-2011.pdf'>FusionInventory presentation - RMLL 2011 (pdf)</a>
 
 
 

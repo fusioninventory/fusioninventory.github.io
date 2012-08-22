@@ -23,7 +23,7 @@ New beta version with a lot of fixes.
 
 
 
-* Announcement &amp; changelog here:  ﻿[http://forge.fusioninventory.org/news/3](http://forge.fusioninventory.org/news/3)
+* Announcement &amp; changelog here:  ﻿<a href="http://forge.fusioninventory.org/news/3">http://forge.fusioninventory.org/news/3</a>
 
 
 

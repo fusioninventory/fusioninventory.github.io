@@ -6,7 +6,7 @@ An update from FusionInventory for GLPI development branch ...
 The future release will be named 2.3.0, and come with major improvements. This release target GLPI 0.78 as the supported platform. The  task management module has been greatly improved.
 
 <iframe title="YouTube video player" class="youtube-player" type="text/html" width="640" height="390" src="http://www.youtube.com/embed/Gzg98lMeAtU" frameborder="0"></iframe>
-See also translations of this screencast [in portuguses](http://youtu.be/ab0tSeOjDEw' >in french</a>,  [.in spanish](http://youtu.be/m9cx3Zn4KBs) and  <a href='http://youtu.be/vfvlOn2u3K8).
+See also translations of this screencast <a href='http://youtu.be/ab0tSeOjDEw' >in french</a>,  <a href='http://youtu.be/m9cx3Zn4KBs' >in spanish</a> and  <a href='http://youtu.be/vfvlOn2u3K8' >in portuguses</a>.
 
 Quick overview of the improvements :
 * <strong>Communication mode </strong>: both pull and push communication are supported.

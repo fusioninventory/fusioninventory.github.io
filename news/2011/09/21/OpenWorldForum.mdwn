@@ -3,7 +3,7 @@
 
 <img src="http://fusioninventory.org/wordpress/wp-content/uploads/2011/09/logo_owf-300x113.png" alt="" title="logo_owf" width="300" height="113" class="aligncenter size-medium wp-image-1256" />
 
-We will present FusionInventory during the [OpenWorldForum 2011](http://www.openworldforum.org/).
+We will present FusionInventory during the <a href="http://www.openworldforum.org/">OpenWorldForum 2011</a>.
 
 The conference will cover the project and will give a technical overview of:
  - the different features
@@ -14,6 +14,6 @@ The conference will cover the project and will give a technical overview of:
 
 When: September 23rd, 2011
 Where: EUROSITE GEORGES V, Paris
-[Conference details are available on the website.](http://www.openworldforum.org/fre/Conferences/L-inventaire-de-vos-machines-avec-FusionInventory)
+<a href="http://www.openworldforum.org/fre/Conferences/L-inventaire-de-vos-machines-avec-FusionInventory">Conference details are available on the website.</a>
 
 See you there!

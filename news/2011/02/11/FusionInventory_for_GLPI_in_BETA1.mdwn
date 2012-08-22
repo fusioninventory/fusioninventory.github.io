@@ -13,8 +13,8 @@ The 3 FusionInventory plugins to test are :
 * FusInvInventory: local inventory of computers
 * FusInvSNMP: remote inventory and network discovery of network devices
 
-Files are available here : [http://forge.fusioninventory.org/attachments/download/257/fusioninventory_2.3.0-BETA1.tar.gz](http://forge.fusioninventory.org/attachments/download/257/fusioninventory_2.3.0-BETA1.tar.gz)
+Files are available here : <a href="http://forge.fusioninventory.org/attachments/download/257/fusioninventory_2.3.0-BETA1.tar.gz">http://forge.fusioninventory.org/attachments/download/257/fusioninventory_2.3.0-BETA1.tar.gz</a>
 
-To become a beta tester, please read this page : [http://forge.fusioninventory.org/projects/fusioninventory-for-glpi/wiki/Beta_test](http://forge.fusioninventory.org/projects/fusioninventory-for-glpi/wiki/Beta_test)
+To become a beta tester, please read this page : <a href="http://forge.fusioninventory.org/projects/fusioninventory-for-glpi/wiki/Beta_test">http://forge.fusioninventory.org/projects/fusioninventory-for-glpi/wiki/Beta_test</a>
 
 Thanks to all!

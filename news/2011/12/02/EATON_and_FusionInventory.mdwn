@@ -1,9 +1,9 @@
 [[!meta  date="2011-12-02 12:28:30"]]
 # EATON and FusionInventory
 
-[EATON](http://www.eaton.com/) sent us an Eaton 5PX to help us support it in FusionInventory.
+<a href="http://www.eaton.com/">EATON</a> sent us an Eaton 5PX to help us support it in FusionInventory.
 
-This is a great news for the UPS users. We will be able to speed up a lot the [nut](http://www.networkupstools.org/) integration in FusionInventory and GLPI.
+This is a great news for the UPS users. We will be able to speed up a lot the <a href="http://www.networkupstools.org/">nut</a> integration in FusionInventory and GLPI.
 
 Thanks to them and especially Arnaud Quette!
 

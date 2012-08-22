@@ -40,9 +40,8 @@ print F "# $title\n\n";
 #                $content =~ s/<(ul|center)>/\n/gi;
                 $content =~ s/<[\/]{0,1}(ul|center|en|)>/\n/gi;
                 $content =~ s/&gt;/>/gi;
-                $content =~ s/<a\s+href=["']([^"]+)["']\s*>([^<]+)<\/a>/[$2]($1)/gi;
-                $content =~ s/<a\s+href=["']([^"]+)["']\s*(|title="([^"]+)")\s*>([^<]*)<\/a>/[$3.$4]($1)/gi;
-#                $content =~ s/alt|width|height|class|title="\w+"//gi;
+#                $content =~ s/<a\s+href=["']([^"]+)["']\s*>([^<]+)<\/a>/[$2]($1)/gi;
+#                $content =~ s/<a\s+href=["']([^"]+)["']\s*(|title="([^"]+)")\s*>([^<]*)<\/a>/[$3.$4]($1)/gi;
                 $content =~ s/\s+<li>/\n* /gi;
                 $content =~ s/&nbsp;/\n/gi;
 
