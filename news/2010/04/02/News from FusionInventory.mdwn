@@ -1,0 +1,5 @@
+[[!meta  date="2010-04-02"]]
+# News from FusionInventory
+
+<strong>Windows support</strong>
+Some task tasks still need to be done.

@@ -1,4 +1,0 @@
-[[!meta  date="2010-05-07 15:14:26"]]
-# RPM packages available for Fedora and Mandriva !
-
-Thanks to Remi Collet and Guillaume Rousse, we now provide RPM packages for Fedora and Mandriva.

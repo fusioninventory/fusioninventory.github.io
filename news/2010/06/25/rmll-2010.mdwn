@@ -1,6 +1,0 @@
-[[!meta  date="2010-06-25 00:00:38"]]
-# RMLL 2010
-
-Vous pouvez venir découvrir le projet lors des [RMLL à Bordeaux](http://www.rmll.info). En particulier, une présentation qui faite données le jeudi 8 : [FusionInventory : gestion de parc informatique](http://2010.rmll.info/FusionInventory-gestion-de-parc-informatique)
-
-<img src="http://2010.rmll.info/IMG/png/RMLL_2010_banniere_200x200.png" alt="RMLL baniere" />
