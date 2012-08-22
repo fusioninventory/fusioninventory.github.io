@@ -1,4 +1,4 @@
-[[!meta  date="2011-02-07"]]
+[[!meta  date="2011-02-07 13:14:29"]]
 # FusionInventory at FOSDEM 2011
 
 Most of the project's european contributors and developers where present at FOSDEM 2011 in Brussels, Belgium. We had very interesting talks about the future of the project.

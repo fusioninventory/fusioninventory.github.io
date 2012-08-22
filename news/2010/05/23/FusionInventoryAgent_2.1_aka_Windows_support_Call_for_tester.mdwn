@@ -1,4 +1,4 @@
-[[!meta  date="2010-05-23"]]
+[[!meta  date="2010-05-23 14:04:40"]]
 # FusionInventory-Agent 2.1 aka: Windows support: Call for tester
 
 <div>

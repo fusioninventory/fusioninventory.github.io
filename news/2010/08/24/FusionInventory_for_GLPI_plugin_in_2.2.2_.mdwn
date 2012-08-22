@@ -1,4 +1,4 @@
-[[!meta  date="2010-08-24"]]
+[[!meta  date="2010-08-24 14:15:30"]]
 # FusionInventory for GLPI plugin in 2.2.2 !
 
 <div>

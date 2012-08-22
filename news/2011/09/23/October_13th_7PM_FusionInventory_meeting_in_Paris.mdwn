@@ -1,4 +1,4 @@
-[[!meta  date="2011-09-23"]]
+[[!meta  date="2011-09-23 16:24:30"]]
 # October 13th - 7PM, FusionInventory meeting in Paris
 
 The FusionInventory team organize a meeting in Paris the 13th of october at 7pm. We will introduce last months major releases and talk about the future or the project.

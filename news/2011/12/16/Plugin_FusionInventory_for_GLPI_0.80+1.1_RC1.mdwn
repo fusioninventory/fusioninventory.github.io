@@ -1,4 +1,4 @@
-[[!meta  date="2011-12-16"]]
+[[!meta  date="2011-12-16 11:36:05"]]
 # Plugin FusionInventory for GLPI 0.80+1.1 RC1
 
 We released a first release candidat of 0.80+1.1.

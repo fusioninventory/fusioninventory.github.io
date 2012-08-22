@@ -1,4 +1,4 @@
-[[!meta  date="2011-02-14"]]
+[[!meta  date="2011-02-14 14:41:09"]]
 # Happy birthday FusionInventory
 
 The FusionInventory project was started 1 year ago, during FOSDEM 2010.

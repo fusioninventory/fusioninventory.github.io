@@ -1,4 +1,4 @@
-[[!meta  date="2011-03-29"]]
+[[!meta  date="2011-03-29 15:02:13"]]
 # FusionInventory at LinuxTAG 2011
 
 

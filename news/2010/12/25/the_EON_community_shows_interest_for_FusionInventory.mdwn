@@ -1,4 +1,4 @@
-[[!meta  date="2010-12-25"]]
+[[!meta  date="2010-12-25 14:31:16"]]
 # the EON community shows interest for FusionInventory
 
 The monitoring-fr team made an interview of people from the Eyes Of Network community. EON is a software appliance grouping OpenSource tools acting in the domain of supervision.

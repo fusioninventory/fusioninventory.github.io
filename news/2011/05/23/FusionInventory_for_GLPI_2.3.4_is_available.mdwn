@@ -1,4 +1,4 @@
-[[!meta  date="2011-05-23"]]
+[[!meta  date="2011-05-23 20:25:17"]]
 # FusionInventory for GLPI 2.3.4 is available!
 
 The plugins FusionInventory for GLPI is now available in 2.3.4. It's a fix version.

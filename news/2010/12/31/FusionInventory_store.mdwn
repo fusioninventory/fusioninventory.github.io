@@ -1,4 +1,4 @@
-[[!meta  date="2010-12-31"]]
+[[!meta  date="2010-12-31 17:15:23"]]
 # FusionInventory store
 
 Hi,

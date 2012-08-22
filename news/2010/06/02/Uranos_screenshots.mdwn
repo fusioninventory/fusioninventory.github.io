@@ -1,4 +1,4 @@
-[[!meta  date="2010-06-02"]]
+[[!meta  date="2010-06-02 23:27:49"]]
 # Uranos screenshots
 
 <img class="alignnone size-full wp-image-420" title="Uranos" src="http://fusioninventory.org/wordpress/wp-content/uploads/2010/06/unattended-gui.jpg" alt="" width="140" height="130" />

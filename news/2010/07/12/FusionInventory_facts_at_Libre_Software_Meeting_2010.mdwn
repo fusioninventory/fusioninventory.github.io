@@ -1,4 +1,4 @@
-[[!meta  date="2010-07-12"]]
+[[!meta  date="2010-07-12 22:16:53"]]
 # FusionInventory facts at Libre Software Meeting 2010
 
 <!-- p, li { white-space: pre-wrap; } -->

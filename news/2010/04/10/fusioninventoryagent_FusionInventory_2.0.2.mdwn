@@ -1,4 +1,4 @@
-[[!meta  date="2010-04-10"]]
+[[!meta  date="2010-04-10 23:35:52"]]
 # fusioninventory-agent - FusionInventory 2.0.2
 
 2.0.2     Sat Apr 10 23:31:48 2010 +0200

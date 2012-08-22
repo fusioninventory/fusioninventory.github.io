@@ -1,4 +1,4 @@
-[[!meta  date="2010-04-02"]]
+[[!meta  date="2010-04-02 21:54:40"]]
 # News from FusionInventory
 
 <strong>Windows support</strong>

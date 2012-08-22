@@ -1,4 +1,4 @@
-[[!meta  date="2011-02-11"]]
+[[!meta  date="2011-02-11 13:13:57"]]
 # FusionInventory for GLPI in BETA1
 
 Dear FusionInventory users !

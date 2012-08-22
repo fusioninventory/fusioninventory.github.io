@@ -1,4 +1,4 @@
-[[!meta  date="2011-01-03"]]
+[[!meta  date="2011-01-03 12:01:39"]]
 # Assets management with FusionInventory and GLPI
 
 Another presentation about assets management with FusionInventory and GLPI, made for Esquimaux/Inuits training sessions :

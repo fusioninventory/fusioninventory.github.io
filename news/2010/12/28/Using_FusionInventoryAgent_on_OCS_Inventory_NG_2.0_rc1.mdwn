@@ -1,4 +1,4 @@
-[[!meta  date="2010-12-28"]]
+[[!meta  date="2010-12-28 21:08:53"]]
 # Using FusionInventory-Agent on OCS Inventory NG 2.0 rc1
 
 The Ocs Inventory team just released the first release candidate of their new version 2.0, with new features like UTF8 support, new web console and improved IPDiscover. We would like to congratulate them for their hard work on this new release.

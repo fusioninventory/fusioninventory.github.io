@@ -1,4 +1,4 @@
-[[!meta  date="2010-03-14"]]
+[[!meta  date="2010-03-14 00:13:30"]]
 # Solutions Linux 2010 in Paris
 
 We will be present during [Solutions Linux](http://www.solutionslinux.fr/) meeting in Paris.

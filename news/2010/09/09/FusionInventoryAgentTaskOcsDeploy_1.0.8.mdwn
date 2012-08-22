@@ -1,4 +1,4 @@
-[[!meta  date="2010-09-09"]]
+[[!meta  date="2010-09-09 15:54:59"]]
 # FusionInventory-Agent-Task-OcsDeploy 1.0.8
 
 We are glade to annonce a new release of the plugin for the agent that add OCS Inventory software deploment support. It comes after intensive testing on various platforms (Windows, Linux and Mac OS X).

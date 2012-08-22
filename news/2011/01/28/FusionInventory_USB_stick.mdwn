@@ -1,4 +1,4 @@
-[[!meta  date="2011-01-28"]]
+[[!meta  date="2011-01-28 18:16:19"]]
 # FusionInventory USB stick
 
 

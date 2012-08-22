@@ -1,4 +1,4 @@
-[[!meta  date="2011-08-08"]]
+[[!meta  date="2011-08-08 23:38:48"]]
 # Plugins FusionInventory 2.4.0 RC2 available
 
 We have released 2.4.0 RC2 version (so release in couple of days :) ).

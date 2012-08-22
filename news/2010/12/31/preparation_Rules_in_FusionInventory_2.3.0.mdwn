@@ -1,4 +1,4 @@
-[[!meta  date="2010-12-31"]]
+[[!meta  date="2010-12-31 11:32:20"]]
 # [preparation] Rules in FusionInventory 2.3.0
 
 We have implemented rules in differents parts of FusionInventory 2.3.0 :

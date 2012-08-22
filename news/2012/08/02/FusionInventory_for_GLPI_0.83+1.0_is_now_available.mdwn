@@ -1,4 +1,4 @@
-[[!meta  date="2012-08-02"]]
+[[!meta  date="2012-08-02 23:06:40"]]
 # FusionInventory for GLPI 0.83+1.0 is now available
 
 The FusionInventory is proud to introduce the first release compatible with GLPI 0.83, after several months of beta and RC versions!

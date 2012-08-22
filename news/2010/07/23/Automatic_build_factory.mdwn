@@ -1,4 +1,4 @@
-[[!meta  date="2010-07-23"]]
+[[!meta  date="2010-07-23 00:03:10"]]
 # Automatic build factory
 
 We're happy to introduce our new agent's build factory.
