@@ -1,0 +1,4 @@
+[[!meta  date="2010-12-31 10:48:16"]]
+# [preparation] Inventory of computers in FusionInventory 2.3.0
+
+
