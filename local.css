@@ -925,8 +925,7 @@ div#pagebody {
         margin: 0;
         padding: 0;
         display: inline;
-	background: url(images/background_conntent.png);
-	background-repeat:repeat-y;
+	background: url(images/content_wrapper_edges_shadow.png) repeat top center;
 	background-attachment: scroll;
 	background-position: center top;
 	background-clip: border-box;
