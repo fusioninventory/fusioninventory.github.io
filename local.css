@@ -27,7 +27,9 @@
 
 h1, h2, h3, h4, h5, h6 {
 #  font-weight: bold;
-  color: gray; }
+#  color: gray; 
+	color: rgb(218,51,36);
+}
 
 .header {
 #  font-size: 200%; }
