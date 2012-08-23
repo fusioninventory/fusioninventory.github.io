@@ -111,10 +111,15 @@ body {
 
 a {
   text-decoration: none;
-  color: #f27f0d; }
+#  color: #f27f0d; 
+	color: #327fbd;
+}
 
 a:hover {
-  color: #ad661f; }
+#  color: #ad661f; 
+	color: #327fbd;
+	text-decoration: underline;
+}
 
 hr {
   border-style: none;
@@ -885,9 +890,6 @@ div.page {
         text-transform:uppercase;
 }
 
-ul.sidebar li a {
-	color: #327FBD;
-}
 
 ul.sidebar {margin:0; padding:0 10px; z-index:0; height:75px}
 ul.sidebar * {list-style:none}
