@@ -1,4 +1,4 @@
-[[!toc  ]]
+[[!toc levels=3]]
 
 # Introduction
 
