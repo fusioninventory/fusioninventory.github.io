@@ -1,6 +1,7 @@
 Documentation
 
-* [[userdoc]]
 * [[installation]]
+* [[Computer inventory|computerinventory]]
+* [[userdoc]]
 
 
