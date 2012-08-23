@@ -925,7 +925,7 @@ div.pagebody {
         margin: 0;
         padding: 0;
         display: inline;
-	background: url(images/content_wrapper_edges_shadow.png) repeat top center;
+	background: url(images/background_conntent.png) repeat top center;
 	background-repeat: repeat;
 	background-attachment: scroll;
 	background-position: center top;
@@ -943,3 +943,5 @@ div.actions {
 #	width: 980px;
 	border-width: 0px;
 }
+
+
