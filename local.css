@@ -915,7 +915,7 @@ ul.sidebar li a{line-height:65px; vertical-align: middle; padding:0px 10px; font
 }
 
 
-div.pagebody {
+div#pagebody {
         clear: left;
         width: 980px;
         text-align: center;
