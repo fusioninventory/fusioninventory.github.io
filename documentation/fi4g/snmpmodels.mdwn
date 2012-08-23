@@ -54,12 +54,18 @@ Create a SNMP model mean manage OID mapping for your device.
  
 1. Go in menu _Check a sysdescr_
 1. Define the itemtype : if it's a printer, network equipment (switch, routers)
-1. put the sysdescr of your device
-1. valid
+1. Put the sysdescr of your device
+1. Submit
 
 ## upload snmpwalk file
 
+If the device with this sysdescr exist on the server, you can go to the next section _Device information_
+
+Once you have submit sysdescr, a form appear with possibility to upload a snmpwalk file. The command to generate this file is writer in the interface. In thi case, you will go directly in section _Edit OID_
+
 ## Device information
+
+
 
 ## Edit OID
 
