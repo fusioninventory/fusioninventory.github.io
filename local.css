@@ -498,6 +498,7 @@ div.recentchanges {
 	padding: 10px 10px;
 	border: 1px solid #aaa;
 #	overflow: auto;
+	overflow: hidden;
 }
 
 .pagedate,
