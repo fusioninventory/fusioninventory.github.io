@@ -2,6 +2,10 @@ Documentation
 
 * [[installation]]
 * [[Computer inventory|computerinventory]]
+* [[Network discovery|networkdiscovery]]
+* [Network inventory (by SNMP)|networkinventory]]
+* [[Create SNMP models|snmpmodels]]
+* [[Teledeployment]]
 * [[userdoc]]
 
 
