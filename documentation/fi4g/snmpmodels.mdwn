@@ -48,7 +48,24 @@ You can access SNMP tool menu by go to __Plugins__ > __FusionInventory__ > __SNM
 
 # Create SNMP model
 
+Create a SNMP model mean manage OID mapping for your device.
 
+## Upload sysdescr
  
+1. Go in menu _Check a sysdescr_
+1. Define the itemtype : if it's a printer, network equipment (switch, routers)
+1. put the sysdescr of your device
+1. valid
+
+## upload snmpwalk file
+
+## Device information
+
+## Edit OID
+
+### Color legend
+
+
+### What to check
 
 
