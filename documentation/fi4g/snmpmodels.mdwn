@@ -9,3 +9,40 @@ NOTE: The tool is available only in version of plugins FusionInventory for GLPI 
 
 # How it works
 
+The tool have 2 parts:
+
+* Client part: it's in the plugin FusionInventory for GLPI
+* Server part: in one of our server
+
+This is a short description of the steps for create de model
+
+* Client authenticate on the server
+* User add sysdescr of the device into GLPI and send it to server
+* Server say if yet exist or not
+* User upload the snmpwalk file into his own GLPI
+* Server get all OID available in server
+* User check OID mapping and send to server
+* Server receive OID mapping, update the database and create models
+* User can get models
+
+# Preparing
+
+You need 2 thing for using this tool:
+
+* Have an account on server, for this, send mail to d.durieux@siprossii.com with object 'SNMP TOOL ACCOUNT'
+* Open your firewall for IP 93.93.45.69 and the port 9000 (TCP)
+
+# Add account info in plugin
+
+TODO
+
+# Access Tool
+
+You can access SNMP tool menu by go to plugins > FusionInventory > SNMP > SNMP models creation
+
+# Create SNMP model
+
+
+ 
+
+
