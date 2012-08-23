@@ -16,14 +16,14 @@ The tool have 2 parts:
 
 This is a short description of the steps for create de model
 
-* Client authenticate on the server
-* User add sysdescr of the device into GLPI and send it to server
-* Server say if yet exist or not
-* User upload the snmpwalk file into his own GLPI
-* Server get all OID available in server
-* User check OID mapping and send to server
-* Server receive OID mapping, update the database and create models
-* User can get models
+1. Client authenticate on the server
+1. User add sysdescr of the device into GLPI and send it to server
+1. Server say if yet exist or not
+1. User upload the snmpwalk file into his own GLPI
+1. Server get all OID available in server
+1. User check OID mapping and send to server
+1. Server receive OID mapping, update the database and create models
+1. User can get models
 
 # Preparing
 
@@ -34,11 +34,17 @@ You need 2 thing for using this tool:
 
 # Add account info in plugin
 
-TODO
+To add an account: 
+
+1. You get account information we send to you by email
+1. Go in menu __Administration__ > __Users__ 
+1. Go in your user form
+1. in tab _SNMP model tool account_, put login name, password and the key
+
 
 # Access Tool
 
-You can access SNMP tool menu by go to plugins > FusionInventory > SNMP > SNMP models creation
+You can access SNMP tool menu by go to __Plugins__ > __FusionInventory__ > __SNMP__ > __SNMP models creation__
 
 # Create SNMP model
 
