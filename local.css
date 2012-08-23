@@ -184,7 +184,8 @@ label[for="editmessage"] {
 
 .inlineheader {
   font-size: 1.1em;
-  border-top: 2px solid gray; }
+#  border-top: 2px solid gray; 
+}
 
 /* Smaller headings for inline pages */
 #.inlinepage h1 {
