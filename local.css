@@ -33,8 +33,9 @@ h1, h2, h3, h4, h5, h6 {
 #  font-size: 200%; }
 
 h1 {
-  font-size: 160%;
-  border-top: 5px solid gray; }
+  font-size: 20;
+  color: rgb(218, 51, 36);
+#  border-top: 5px solid gray; }
 
 h2 {
   font-size: 130%;
