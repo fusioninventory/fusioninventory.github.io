@@ -1,5 +1,5 @@
-* [[News|news]]
-* [[Overview|index]]
+* [[News|index]]
+* [[Overview|overview]]
 * [[Screenshots|screenshots]]
 * [[Documentation|documentation]]
 * [[Resources|resources]]
