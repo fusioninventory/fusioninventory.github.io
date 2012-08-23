@@ -908,7 +908,7 @@ ul.sidebar li a{line-height:65px; vertical-align: middle; padding:0px 10px; font
         background: #ffffff url(images/module_gradient.png) repeat-x bottom center;
         position: relative;
         height: auto;
-	margin-top:20px;
+	margin-top:0px;
         display: block;
         text-align: left;
 	margin-left:5px;
@@ -925,7 +925,7 @@ div#pagebody {
         margin: 0;
         padding: 0;
         display: inline;
-	background: #ffffff url(images/content_wrapper_edges_shadow.png) repeat top center;
+	background: url(images/content_wrapper_edges_shadow.png) repeat top center;
 	background-attachment: scroll;
 	background-position: center top;
 	background-clip: border-box;
