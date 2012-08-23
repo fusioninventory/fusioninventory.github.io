@@ -494,6 +494,7 @@ div.recentchanges {
 }
 
 .blogform, #blogform {
+        visibility: hidden;
 	padding: 10px 10px;
 	border: 1px solid #aaa;
 	background: #eee;
