@@ -26,14 +26,14 @@
 #  float: left; }
 
 h1, h2, h3, h4, h5, h6 {
-  font-weight: bold;
+#  font-weight: bold;
   color: gray; }
 
 .header {
 #  font-size: 200%; }
 
 h1 {
-  font-size: 20;
+  font-size: 24;
   color: rgb(218, 51, 36);
 #  border-top: 5px solid gray; }
 
