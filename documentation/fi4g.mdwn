@@ -1,11 +1,24 @@
 Documentation
 
-* [[installation]]
-* [[Computer inventory|computerinventory]]
-* [[Network discovery|networkdiscovery]]
-* [[Network inventory (by SNMP)|networkinventory]]
-* [[Create SNMP models|snmpmodels]]
-* [[Teledeployment]]
+# Getting started with plugins FusionInventory for GLPI
+
+* [[How to install plugins FusionInventory for GLPI|installation]]
+* [[How to update plugins FusionInventory for GLPI|update]]
+* [[How to inventory a computer|computerinventory]]
+* [[How works 'Equipment import and link rules'|importrules]]
+* [[How to scan my network|networkdiscovery]]
+* [[How to inventory my network devices (by SNMP)|networkinventory]]
+* [[How to inventory my ESX server|esxinventory]]
+* [[How to deploy softwares with teledeployment module|teledeployment]]
+
+# Advanced topics
+
+* [[Create & manage SNMP models|snmpmodels]]
+* [[How to debug my installation|debugmode]]
+
+# older documentation
 * [[userdoc]]
+
+
 
 
