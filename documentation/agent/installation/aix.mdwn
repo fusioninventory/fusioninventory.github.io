@@ -1,5 +1,7 @@
 # Installation on AIX
 
+[[!template  id=note text="We are looking for an **AIX RPM maintainer**"]]
+
 ## Installation from source
 
 [[Installation from source|documentation/agent/installation/source]].

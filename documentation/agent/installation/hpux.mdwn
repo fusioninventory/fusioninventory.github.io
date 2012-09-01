@@ -1,5 +1,7 @@
 # Installation on HP-UX
 
+[[!template  id=note text="We are looking for a **HP-UX .depot maintainer**"]]
+
 ## Installation from source
 
 [[Installation from source|documentation/agent/installation/source]].
