@@ -915,6 +915,8 @@ ul.sidebar li a{line-height:65px; vertical-align: middle; padding:0px 10px; font
 	margin-left:5px;
         padding-bottom: 20px;
         padding-left: 20px;
+        padding-top: 20px;
+        top: -10px;
 }
 
 
