@@ -1,0 +1,6 @@
+
+[[!template id=partnaire
+  logo="teclib.png"
+  name="TECLIB'"
+  location="Paris, Chartres, Colmar, Montpellier, Caen – France"
+]]
