@@ -1,16 +1,36 @@
-## Using Mac OS X Installer
+## FusionInventory Agent installation on MacOS X
 
+## Get the Agent
 
-Installation of the agent with the Mac OS X installer
+First, get the agent mpkg archive [Intel](http://prebuilt.fusioninventory.org/stable/macosx-intel/) or [PowerPC](http://prebuilt.fusioninventory.org/stable/macosx-ppc/).
 
-The FusionInventory project provides 2 Mac OS X packages: one for powerpc computers and the other for Intel macs.
+You must download the **.pkg.tar.gz** package.
 
-The package is a .pkg file, and is designed for silent installation. Agent&apos;s configuration needs to be done before install, by going into the package, and edit the Content\Resources\agent.cfg file.
+## Extract Agent
 
-By default, the agent runs as a daemon, and stores his files in /opt/fusioninventory-agent.
+Once the FusionInventory-Agent-XXX.pkg.tar.gz archive is downloaded, you must extract it this way.
 
-Please note that FusionInventory agent is not a Mac OS X application, and his invisible for users.
+[[!img documentation/agent/installation/macosx/FusionInventoryAgent-1.png ]]
 
-Once configured, the agent can be deployed either manually (by double clicking on the .pkg file), nor automatically using tools like Apple Remote Desktop.
+[[!img documentation/agent/installation/macosx/FusionInventoryAgent-2.png ]]
 
+[[!img documentation/agent/installation/macosx/FusionInventoryAgent-3.png ]]
 
+Do a right click on it to extract its content. You should now have two different file.
+Agent configuration
+
+[[!img documentation/agent/installation/macosx/FusionInventoryAgent-5.png ]]
+
+[[!img documentation/agent/installation/macosx/FusionInventoryAgent-4.png ]]
+
+## Configuration
+
+To configure the agent, do a right clic on the FusionInventory-Agent.pkg package and select “Show the package content”".
+
+Go in the **Resources** directory and modify the **agent.cfg** file according to you needs.
+
+## Agent Installation
+
+You're done. To launch the installer, just do a double clic on the FusionInventory-Agent.pkg and follow the different steps.
+
+The installer will ask for you login and password during the installation process.
