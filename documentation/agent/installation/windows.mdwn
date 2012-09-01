@@ -54,17 +54,3 @@ Upgrade with FusionInventory Deploy
 
 If you upgrade the agent with FusionInventory Deploy and the agent is launched with a Service, you will need an agent > 2.2.0-2 and the /execmode=none parameter. This way, the agent won't remove or add service or update the Tasks Scheduler setting. So you will keep the previous settings.
 
-
-
-##### Windows installer
-
-
-How to install the agent under Windows
-
-http://prebuilt.fusioninventory.org/stable/windows-i386/ You have to download the installer package from the following  FusionInventory page:
-
-You will just have to launch the installer for an interactive installation process.
-
-oups
-http://nmap.org/download.html oups
-
