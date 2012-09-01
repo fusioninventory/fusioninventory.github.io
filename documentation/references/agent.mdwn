@@ -1,0 +1,12 @@
+# Reference documentation
+
+##fusioninventory-agent
+
+* [[2.1.x|documentation/references/agent/2.1.x/fusioninventory-agent]]
+* [[2.2.x|documentation/references/agent/2.2.x/fusioninventory-agent]]
+* [[2.3.x|documentation/references/agent/2.3.x/fusioninventory-agent]]
+##fusioninventory-injector
+
+* [[2.1.x|documentation/references/agent/2.1.x/fusioninventory-injector]]
+* [[2.2.x|documentation/references/agent/2.2.x/fusioninventory-injector]]
+* [[2.3.x|documentation/references/agent/2.3.x/fusioninventory-injector]]
