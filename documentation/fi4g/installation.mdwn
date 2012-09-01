@@ -6,21 +6,14 @@ Download archive here: http://forge.fusioninventory.org/projects/fusioninventory
 
 Uncompress the archive into the plugin folder of GLPI. File list seems to be like :
 
--- glpi
-
---- plugins
-
------fusioninventory
-
--------index.php
-
-------- hook.php
-
-------- front
-
-------- inc
-
-etc...
+    → glpi
+      → plugins
+        → fusioninventory
+          ø index.php
+          ø hook.php
+          → front
+          → inc
+          …
 
 * Connect on GLPI
 * Go in the menu _Setup_ > _Plugins_
