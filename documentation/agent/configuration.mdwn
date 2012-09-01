@@ -9,3 +9,8 @@ Depending on the OperatingSystem and the installation method, the agent will rea
 * /usr/local/etc/fusioninventory/agent.cfg: FreeBSD port
 * /usr/local/etc/fusioninventory/agent.cfg: FreeBSD port
 * HKEY_LOCAL_MACHINE\SOFTWARE\FusionInventory-Agent (and the associated place on Win64): Windows
+
+The keys are documented in the OPTIONS section of fusioninventory-agent reference documentation:
+* [[2.1.x (old stable)|documentation/agent/references/agent/2.1.x/fusioninventory-agent]]
+* [[2.2.x (stable)|documentation/agent/references/agent/2.2.x/fusioninventory-agent]]
+* [[2.3.x (dev)|documentation/agent/references/agent/2.3.x/fusioninventory-agent]]
