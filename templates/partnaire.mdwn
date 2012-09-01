@@ -1,6 +1,9 @@
 <div class="partnaire">
 <img src="/partnaires/<TMPL_VAR logo>" />
 <TMPL_VAR name>
+<TMPL_VAR web>
+<TMPL_VAR email>
+
 <TMPL_VAR location>
 <TMPL_IF NAME="codecontrib">
 <img src="/partnaires/codecontrib.png" /><TMPL_VAR codecontrib>
