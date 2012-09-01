@@ -1,0 +1,13 @@
+# NAME
+
+fusioninventory-injector - A tool to push inventory in an OCS Inventory or compatible server.
+
+# DESCRIPTION
+
+This tool can be used to test your server, do benchmark or push inventory from off-line machine.
+
+# SYNOPSIS
+
+Please see: 
+
+__fusioninventory-injector__ \--help
