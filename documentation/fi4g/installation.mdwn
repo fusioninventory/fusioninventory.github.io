@@ -1,8 +1,13 @@
-FusionInventory for GLPI installation
+# FusionInventory for GLPI installation
 
-To install it, you must do:
+First, download archive the here: http://forge.fusioninventory.org/projects/fusioninventory-for-glpi/files
 
-Download archive here: http://forge.fusioninventory.org/projects/fusioninventory-for-glpi/files
+FusionInventory for GLPI tarball name follow this convention:
+
+* fusioninventory-for-glpi-metapackage_
+* GLPI major release (0.80, 0.83, 0.84, etc)
+* a '+' symbol
+* FusionInventory release
 
 Uncompress the archive into the plugin folder of GLPI. File list seems to be like :
 
