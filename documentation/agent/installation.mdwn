@@ -1,0 +1,1 @@
+[[!inline pages="./installation/* and !*/Discussion" rootpage="documentation" postform="no" postformtext="nothing" show="30" rss="no" atom="no"]]
