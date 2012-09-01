@@ -19,8 +19,6 @@ Once the FusionInventory-Agent-XXX.pkg.tar.gz archive is downloaded, you must ex
 Do a right click on it to extract its content. You should now have two different file.
 Agent configuration
 
-[[!img documentation/agent/installation/macosx/FusionInventoryAgent-5.png ]]
-
 [[!img documentation/agent/installation/macosx/FusionInventoryAgent-4.png ]]
 
 ## Configuration
@@ -34,3 +32,5 @@ Go in the **Resources** directory and modify the **agent.cfg** file according to
 You're done. To launch the installer, just do a double clic on the FusionInventory-Agent.pkg and follow the different steps.
 
 The installer will ask for you login and password during the installation process.
+
+[[!img documentation/agent/installation/macosx/FusionInventoryAgent-5.png ]]
