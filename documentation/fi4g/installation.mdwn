@@ -13,13 +13,8 @@ FusionInventory for GLPI tarball name follow this convention:
 
 ## Installation
 
-If FusionInventory for GLPI is already installed. You should disabled the plugins.
-
-__ATTENTION__: Don't click on "UNINSTALL" link. If you do this, you will LOOSE all FusionInventory data! 
-
 It's also always a good idea to do a backup of your database.
 
-* Remove folders glpi/plugins/fus* if they exist
 * Uncompress the archive into the plugin folder of GLPI. File list seems to be like :
 
 -- glpi
@@ -39,8 +34,8 @@ It's also always a good idea to do a backup of your database.
 -------- …
 
 * Connect to _GLPI_
-* Go in the menu _Setup_ → _Plugins_
-* Install or Upgrade the plugins
+* Go in the menu _Setup_ > _Plugins_
+* Install the plugins
 * Activate FusionInventory 
 
 These operations will create tables in database MySQL and rights on the plugin.
