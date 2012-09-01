@@ -1,6 +1,7 @@
 # FusionInventory Agent
 
 * [[Installation|documentation/agent/installation]]
+* [[Configuration|documentation/agent/configuration]]
 
 # FusionInventory for GLPI
 

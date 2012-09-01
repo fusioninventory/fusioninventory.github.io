@@ -1,0 +1,11 @@
+#Agent configuration
+
+The agent reads the configuration from a list of key / value. Sometime, value can be a list of value, in such case, a comma is used a field separator (e.g: server).
+
+Depending on the OperatingSystem and the installation method, the agent will read its configuration from different places:
+
+* /etc/fusioninventory/agent.cfg: default
+* /opt/fusioninventory/agent.cfg: MacOSx mpkg
+* /usr/local/etc/fusioninventory/agent.cfg: FreeBSD port
+* /usr/local/etc/fusioninventory/agent.cfg: FreeBSD port
+* HKEY_LOCAL_MACHINE\SOFTWARE\FusionInventory-Agent (and the associated place on Win64): Windows
