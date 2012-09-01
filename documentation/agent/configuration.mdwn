@@ -18,7 +18,7 @@ Depending on the OperatingSystem and the installation method, the agent will rea
 * debug: debug can be 0, 1 or 2. We suggest to use 2 to help you understand what append
 * httpd-trust: it's always a good idea to configure this key with the **IP address** (not the hostname) of the server. This way you will be able to use the **push** mode later.
 
-Once this is done, you can [[force an inventory|documentation/agent/force_an_inventory]].
+Once this is done, you can [[force an inventory|documentation/agent/launch_the_agent]].
 
 ## Advanced configuration
 

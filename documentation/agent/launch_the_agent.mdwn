@@ -1,0 +1,21 @@
+# How to force an inventory
+
+You can force an inventory with the [[fusioninventory-agent|documentation/references/agent/2.2.x/fusioninventory-agent]] command.
+
+## Windows
+
+On Windows, go in the **c:\Program files\FusionInventory-Agent\perl\bin** (adjust this path depending on your configuration) directory and run:
+
+    perl fusioninventory-agent
+
+# MacOSX
+
+On MacOSX, go in /opt/fusioninventory-agent and run the following command
+
+    todo
+
+# Other
+
+Just run:
+
+    fusioninventory-agent
