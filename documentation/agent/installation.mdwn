@@ -1,1 +1,7 @@
-[[!inline pages="./installation/* and !*/Discussion" rootpage="documentation" postform="no" postformtext="nothing" show="30" rss="no" atom="no"]]
+[[MacOSX|documentation/agent/installation/macosx.mdwn]]
+[[Linux|documentation/agent/installation/linux.mdwn]]
+[[Windows|documentation/agent/installation/windows.mdwn]]
+[[AIX|documentation/agent/installation/aix.mdwn]]
+[[Solaris|documentation/agent/installation/solaris.mdwn]]
+[[HP-UX|documentation/agent/installation/hpux.mdwn]]
+[[BSD|documentation/agent/installation/bsd.mdwn]]
