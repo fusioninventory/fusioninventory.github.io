@@ -3,4 +3,5 @@
   logo="teclib.png"
   name="TECLIB'"
   location="Paris, Chartres, Colmar, Montpellier, Caen – France"
+  codecontrib="Main contributor on FusionInventory agent, FusionInventory-Android-Agent and software deployment module. Also active contributor on FusionInventory for GLPI"
 ]]
