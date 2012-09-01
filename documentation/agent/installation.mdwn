@@ -1,7 +1,0 @@
-* [[MacOSX|documentation/agent/installation/macosx]]
-* [[Linux|documentation/agent/installation/linux]]
-* [[Windows|documentation/agent/installation/windows]]
-* [[AIX|documentation/agent/installation/aix]]
-* [[Solaris|documentation/agent/installation/solaris]]
-* [[HP-UX|documentation/agent/installation/hpux]]
-* [[BSD|documentation/agent/installation/bsd]]
