@@ -15,18 +15,28 @@ FusionInventory for GLPI tarball name follow this convention:
 
 If FusionInventory for GLPI is already installed. You should disabled the plugins.
 
+__ATTENTION__: Don't click on "UNINSTALL" link. If you do this, you will LOOSE all FusionInventory data! 
+
 It's also always a good idea to do a backup of your database.
 
-Uncompress the archive into the plugin folder of GLPI. File list seems to be like :
+* Remove folders glpi/plugins/fus* if they exist
+* Uncompress the archive into the plugin folder of GLPI. File list seems to be like :
 
-    → glpi
-      → plugins
-        → fusioninventory
-          ø index.php
-          ø hook.php
-          → front
-          → inc
-          …
+-- glpi
+
+---- plugins
+
+------ fusioninventory
+
+-------- index.php
+
+-------- hook.php
+
+-------- front
+
+-------- inc
+
+-------- …
 
 * Connect to _GLPI_
 * Go in the menu _Setup_ → _Plugins_
