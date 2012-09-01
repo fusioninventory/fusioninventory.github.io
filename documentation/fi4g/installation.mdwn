@@ -1,6 +1,6 @@
 # FusionInventory for GLPI installation
 
-First, download archive the here: http://forge.fusioninventory.org/projects/fusioninventory-for-glpi/files
+First, download archive the here: <http://forge.fusioninventory.org/projects/fusioninventory-for-glpi/files>
 
 FusionInventory for GLPI tarball name follow this convention:
 
