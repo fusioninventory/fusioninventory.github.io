@@ -10,7 +10,7 @@ To install FusionInventory-Agent, simply execute the following command:
 
     yum --enablerepo=remi install fusioninventory-agent
 
-[[!template  id=warning text="Never use Perl packages provided by RPMForge"]]
+[[!template  id=info text="Never use Perl packages provided by RPMForge"]]
 
 
 h1. Installation of the Agent on Fedora, RHEL, Centos and other RHEL clones
