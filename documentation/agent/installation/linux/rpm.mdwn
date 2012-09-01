@@ -1,20 +1,92 @@
 # Using RPM packages
 
+# Installation of the Agent on Fedora, RHEL, Centos and other RHEL clones
 
-Installation with the rpm package
+The RPM-Packages was mainained by Remi Collet. He resigned, a new maintainer is welcome.
 
-The RPM-Packages are mainained by  Remi Collet.
-
-
-http://fedoraproject.org/wiki/EPEL http://blog.famillecollet.com/pages/Config First of all, you need to enable EPEL repository (
+First of all, you need to enable EPEL repository (
 
 To install FusionInventory-Agent, simply execute the following command: 
 
-yum --enablerepo=remi install fusioninventory-agent
+    yum --enablerepo=remi install fusioninventory-agent
 
-IMPORTANT Never use Perl packages provided by RPMForge.
+[[!template  id=warning text="Never use Perl packages provided by RPMForge"]]
 
-Never use Perl packages provided by RPMForge.
+
+h1. Installation of the Agent on Fedora, RHEL, Centos and other RHEL clones
+
+h2. 1. Repositories
+
+h3. 1.1.Redhat Enterprise Linux, CentOS and other RHEL clones
+
+*fusioninventory-agent* is available in the *EPEL* repository for EL 6
+
+*fusioninventory-agent* is available in the *remi* third party repository for EL >= 4
+
+
+The *EPEL* repository is required for perl dependencies.
+For [RHEL]([http://www.redhat.com/rhel/) Users, the *RHEL Server Optional* channel is also mandatory, it must be enabled from [RHN](https://rhn.redhat.com/).
+
+Package from other repositories, such as RPM Forge, will probably not work (and will not be supported)
+
+See [Extra Packages for Enterprise Linux (EPEL)](https://fedoraproject.org/wiki/EPEL)
+See [Remi repository configuration](http://blog.famillecollet.com/pages/Config-en)
+
+## Maintained Fedora version
+
+*fusioninventory-agent* is part of the *official repository* for fedora >= 14
+
+# EOL Fedora version
+
+*fusioninventory-agent* is available in the *remi* third party repository for fedora >= 8
+
+See [Remi repository configuration](http://blog.famillecollet.com/pages/Config-en)
+
+
+## Agent installation
+
+Full installation:
+
+    yum install fusioninventory-agent  perl-FusionInventory-Agent-\*
+
+
+Only *fusioninventory-agent* is mandatory, other packages are optional:
+
+* *perl-FusionInventory-Agent-Task-ESX* - vCenter/ESX/ESXi remote inventory for FusionInventory Agent 
+* *perl-FusionInventory-Agent-Task-NetDiscovery* - Network discovery support for FusionInventory Agent 
+* *perl-FusionInventory-Agent-Task-OcsDeploy* - Gestion du déploiement logiciel OCS Inventory NG avec FusionInventory 
+* *perl-FusionInventory-Agent-Task-SNMPQuery* - SNMP Query support for FusionInventory Agent 
+
+You can also install the *yum plugin* which will request a inventory after each yum operation
+
+    yum install fusioninventory-agent-yum-plugin
+
+
+
+# Agent Configuration
+
+The service takes its configuration from the */etc/sysconfig/fusioninventory-agent* file
+
+Per example:
+
+    # Add tools directory if needed (tw_cli, hpacucli, ipssend, ...)
+    PATH=/sbin:/bin:/usr/sbin:/usr/bin
+    
+    # Global options (debug for verbose log, rpc-trust-localhost for yum-plugin)
+    FUSINVOPT='--debug --rpc-trust-localhost'
+    
+    OCSMODE[0]=daemon
+    OCSSERVER[0]=http://<yourserverdnsnameorip>/glpi/plugins/fusioninventory/
+
+
+When configured, start the service
+
+    service fusioninventory-agent start
+
+
+Remember to enable it to be launch on reboot
+
+    chkconfig fusioninventory-agent on
 
 
 
