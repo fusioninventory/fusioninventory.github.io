@@ -17,7 +17,7 @@ Makefile.PL will ensure all the required dependencies are available and
 prepare the build tree.
 
 At this point, you will probably have some missing required modules. The best tool
-to resolve the situation is cpanm. Just run:
+to resolve the situation is [cpanm](https://raw.github.com/miyagawa/cpanminus/master/cpanm). Just run:
 
     cpanm .
 
