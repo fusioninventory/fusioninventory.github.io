@@ -6,6 +6,9 @@
 
 A FreeBSD port is available in **net-mgmt/p5-FusionInventory-Agent**.
 
+    cd /usr/ports/net-mgmt/p5-FusionInventory-Agent/
+    make install clean
+
 ## Installation from source
 
 [[Installation from source|documentation/agent/installation/source]].

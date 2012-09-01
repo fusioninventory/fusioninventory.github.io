@@ -384,7 +384,7 @@ nav {
 
 #pageinfo {
 	margin: 1em 0;
-	border-top: 1px solid #000;
+	border-top: 0px solid #000;
 }
 
 .tags {
@@ -905,7 +905,7 @@ ul.sidebar li a{line-height:65px; vertical-align: middle; padding:0px 10px; font
 
 
 #content {
-        width: 970px;
+        width: 950px;
         background: #ffffff url(images/module_gradient.png) repeat-x bottom center;
         position: relative;
         height: auto;
@@ -913,6 +913,8 @@ ul.sidebar li a{line-height:65px; vertical-align: middle; padding:0px 10px; font
         display: block;
         text-align: left;
 	margin-left:5px;
+        padding-bottom: 20px;
+        padding-left: 20px;
 }
 
 
