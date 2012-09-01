@@ -4,5 +4,11 @@
   name="TECLIB'"
   location="Paris, Chartres, Colmar, Montpellier, Caen – France"
   codecontrib="Main contributor on FusionInventory agent, FusionInventory-Android-Agent and software deployment module. Also active contributor on FusionInventory for GLPI"
+  qa="Daily tests and bugfixes."
   promote="Conferences, presentations, TShirts and stickers."
+  doc="Documentation."
+  support="Daily support."
+  training="GLPI and FusionInventory training."
+  web="http://teclib.com"
+  email="goneri@teclib.com"
 ]]
