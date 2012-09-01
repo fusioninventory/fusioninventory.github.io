@@ -1,3 +1,25 @@
+# FusionInventory Agent
 
-* [[FusionInventory Agent|documentation/agent]]
-* [[FusionInventory for GLPI|documentation/fi4g]]
+* [[Installation|documentation/agent/installation]]
+
+# FusionInventory for GLPI
+
+* [[How to install plugins FusionInventory for GLPI|documentation/fi4g/installation]]
+* [[How to update plugins FusionInventory for GLPI|documentation/fi4g/update]]
+* [[How to inventory a computer|documentation/fi4g/computerinventory]]
+* [[How works 'Equipment import and link rules'|documentation/fi4g/importrules]]
+* [[How to scan my network|documentation/fi4g/networkdiscovery]]
+* [[How to inventory my network devices (by SNMP)|documentation/fi4g/networkinventory]]
+* [[How to inventory my ESX server|documentation/fi4g/esxinventory]]
+* [[How to deploy softwares with teledeployment module|documentation/fi4g/teledeployment]]
+
+# Advanced topics
+
+* [[Create & manage SNMP models|documentation/fi4g/snmpmodels]]
+* [[How to debug my installation|documentation/fi4g/debugmode]]
+
+# older documentation
+* [[documentation/fi4g/userdoc]]
+
+
+
