@@ -14,6 +14,10 @@
 * [[How to inventory my ESX server|documentation/fi4g/esxinventory]]
 * [[How to deploy softwares with teledeployment module|documentation/fi4g/teledeployment]]
 
+# Troubleshooting
+
+* [[My computer does not show up in GLPI|documentation/troubleshooting/inventory-in-glpi]]
+
 # Advanced topics
 
 * [[Create & manage SNMP models|documentation/fi4g/snmpmodels]]
