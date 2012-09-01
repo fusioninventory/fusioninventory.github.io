@@ -6,7 +6,7 @@ First, download the archive: <http://prebuilt.fusioninventory.org/stable/windows
 
 The file name convention is:
 
-* **fusioninventory-agent_windows-i386_**
+* fusioninventory-agent_windows-i386_
 * FusionInventory Agent version (e.g: 2.2.5)
 * a *-* (dash)
 * the package revision. e.g: 2, for the 2nd installer generated for the 2.2.5 release
