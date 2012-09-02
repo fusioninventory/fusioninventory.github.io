@@ -5,7 +5,7 @@ involved in FusionInventory developement and having a great knowledge of the
 product.
 
 Those companies are familiar with FusionInventory and GLPI deployment and able
-to drive a FusionInventory integration project from the very begning to its success.
+to drive a FusionInventory integration project from the very begining to its success.
 
 This list is open and if you believe your company deservice to be added, please
 [contact us](goneri@rulezlan.org).
