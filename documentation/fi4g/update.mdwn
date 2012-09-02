@@ -1,4 +1,4 @@
-# FusionInventory for GLPI installation
+# How to update plugins FusionInventory for GLPI
 
 ## Get the archive for your GLPI
 
@@ -11,10 +11,15 @@ FusionInventory for GLPI tarball name follow this convention:
 * a '+' symbol
 * FusionInventory release
 
-## Installation
+## Update
+
+You should disabled the plugins FusionInventory.
+
+__ATTENTION__: Don't click on "UNINSTALL" link. If you do this, you will LOOSE all FusionInventory data! 
 
 It's also always a good idea to do a backup of your database.
 
+* Remove folders glpi/plugins/fus*
 * Uncompress the archive into the plugin folder of GLPI. File list seems to be like :
 
 -- glpi
@@ -35,8 +40,8 @@ It's also always a good idea to do a backup of your database.
 
 * Connect to _GLPI_
 * Go in the menu _Setup_ > _Plugins_
-* Install the plugins
+* Upgrade the plugins
 * Activate FusionInventory 
 
-These operations will create tables in database MySQL and rights on the plugin.
+These operations will update tables in database MySQL for the plugin.
 Do the same for all fus* plugins
