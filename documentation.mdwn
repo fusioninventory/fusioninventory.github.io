@@ -3,6 +3,10 @@
 * [[Installation|documentation/agent/installation]]
 * [[Configuration|documentation/agent/configuration]]
 
+## Agent Features
+
+* [[Network|documentation/agent/task-network]]
+
 # FusionInventory for GLPI
 
 * [[How to install plugins FusionInventory for GLPI|documentation/fi4g/installation]]

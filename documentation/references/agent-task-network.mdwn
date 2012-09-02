@@ -1,0 +1,10 @@
+# Reference documentation
+
+
+##fusioninventory-netdiscovery
+
+* [[master|documentation/references/agent-task-network/master/fusioninventory-netdiscovery]]
+
+##fusioninventory-netinventory
+
+* [[master|documentation/references/agent-task-network/master/fusioninventory-netinventory]]
