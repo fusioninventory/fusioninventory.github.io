@@ -1,3 +1,12 @@
+# Partnaires
+
+This page is a list of trusted partnaires. Those companies are know for being
+involved in FusionInventory developement and having a great knowledge of the
+product.
+
+This list is open and if you believe your company deservice to be added, please
+[contact us](goneri@rulezlan.org).
+
 
 [[!template id=partnaire
   logo="siprossii.png"
