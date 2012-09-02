@@ -7,8 +7,8 @@
 
 <TMPL_VAR location>
 <li>
-<TMPL_IF NAME="codecontrib">
-<img src="/partnaires/logo/code.png" />Code contribution: <TMPL_VAR codecontrib>
+<TMPL_IF NAME="code">
+<img src="/partnaires/logo/code.png" />Code contribution: <TMPL_VAR code>
 </li>
 </TMPL_IF>
 
