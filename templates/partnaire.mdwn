@@ -6,27 +6,27 @@
 
 <TMPL_VAR location>
 <TMPL_IF NAME="codecontrib">
-<img src="/partnaires/codecontrib.png" /><TMPL_VAR codecontrib>
+<img src="/partnaires/logo/code.png" /><p><TMPL_VAR codecontrib></p>
 </TMPL_IF>
 
 <TMPL_IF NAME="qa">
-<img src="/partnaires/qa.png" /><TMPL_VAR codecontrib>
+<img src="/partnaires/logo/qa.png" /><p><TMPL_VAR qa></p>
 </TMPL_IF>
 
 <TMPL_IF NAME="promote">
-<img src="/partnaires/promote.png" /><TMPL_VAR codecontrib>
+<img src="/partnaires/logo/promote.png" /><p><TMPL_VAR promote></p>
 </TMPL_IF>
 
 <TMPL_IF NAME="doc">
-<img src="/partnaires/doc.png" /><TMPL_VAR codecontrib>
+<img src="/partnaires/logo/doc.png" /><p><TMPL_VAR doc></p>
 </TMPL_IF>
 
 <TMPL_IF NAME="support">
-<img src="/partnaires/support.png" /><TMPL_VAR codecontrib>
+<img src="/partnaires/logo/support.png" /><p><TMPL_VAR support></p>
 </TMPL_IF>
 
 <TMPL_IF NAME="training">
-<img src="/partnaires/training.png" /><TMPL_VAR codecontrib>
+<img src="/partnaires/logo/training.png" /></p><TMPL_VAR training></p>
 </TMPL_IF>
 
 
