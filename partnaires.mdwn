@@ -1,6 +1,6 @@
 
 [[!template id=partnaire
-  logo="teclib.png"
+  logo="siprossii.png"
   name="siprossii"
   location="Beaujeu – France"
   code="FusionInventory for GLPI and Agent"
