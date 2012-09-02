@@ -12,17 +12,17 @@ for production.
 
 We strongly recommand the use of __GNU tar__ because some file path lenght are greater
 than 100 caracters. Some tar version will silently ignore those files like for example
-HP-UX.
-
+on HP-UX.
 
 First, you need to extract the source and run the Makefile.PL
 
     tar xfz FusionInventory-Agent-2.2.5.tar.gz
     cd FusionInventory-Agent-2.2.5
-    perl Makefile.PL
 
 Makefile.PL will ensure all the required dependencies are available and
 prepare the build tree.
+
+    perl Makefile.PL
 
 At this point, you will probably have some missing required modules. The best tool
 to resolve the situation is [cpanm](https://raw.github.com/miyagawa/cpanminus/master/cpanm). Just run:
@@ -36,8 +36,20 @@ Once this is done, run once again:
 
     perl Makefile.Pl
 
-This time the execution should success and you can finish the installation
+This time the execution should success and you can finish the installation. Here again
+we recommand GNU make (gmake):
 
+    make
+    make test
+    make install
+
+## Change the installation directory
+
+If you don't want to use the default directory (/usr/local), you can use the PREFIX
+parameter during the Makefile.PL step:
+
+    perl Makefile.PL PREFIX=/opt/fusioninventory
+    make
     make test
     make install
 
