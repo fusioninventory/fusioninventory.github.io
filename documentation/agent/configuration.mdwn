@@ -10,7 +10,8 @@ Depending on the OperatingSystem and the installation method, the agent will rea
 * /opt/fusioninventory/agent.cfg: MacOSx mpkg
 * /usr/local/etc/fusioninventory/agent.cfg: FreeBSD port
 * /usr/local/etc/fusioninventory/agent.cfg: FreeBSD port
-* HKEY_LOCAL_MACHINE\SOFTWARE\FusionInventory-Agent (and the associated place on Win64): Windows
+* HKEY_LOCAL_MACHINE\SOFTWARE\FusionInventory-Agent: Windows
+* HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\FusionInventory-Agent: Windows 64 bits
 
 ## Minimal configuration
 
