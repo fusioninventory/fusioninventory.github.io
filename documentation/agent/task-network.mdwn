@@ -17,23 +17,23 @@ intended to be used with a GLPI server with FusionInventory plugin.
 
 Additional mandatory perl modules:
 
-* Net::SNMP
+* [[!cpan Net::SNMP]]
 
 Additional optional perl modules:
 
-* Net::NBName
+* [[!cpan Net::NBName]]
 
 Additional optional programs:
 
-* nmap
+* [[nmap|http://www.nmap.org]]
 
 ## Usage
 
 The NetDiscovery task uses the following methods to scan IP networks:
 
 * ICMP scan, using nmap external command
-* NetBIOS scan, using Net::NBName perl module
-* SNMP scan, using Net::SNMP perl module
+* NetBIOS scan, using [[!cpan Net::NBName]] perl module
+* SNMP scan, using [[!Net::SNMP]] perl module
 
 Any device replying to one of those protocols will be discovered, with just
 minimal information, such as mac address and hostname.
@@ -82,7 +82,7 @@ description model for your devices, your different options are:
 * use the SNMP description model generation tool, included in FusionInventory
   for GLPI starting with version 0.83+2.0, to create a dedicated model
 * try a newer snapshot of the database, available from
-  http://fusioninventory.org/snmpmodels
+  <http://fusioninventory.org/snmpmodels>
 * try to use another model that seems close enough
 
 Only the first option brings some ensurance of full coverage of information:
