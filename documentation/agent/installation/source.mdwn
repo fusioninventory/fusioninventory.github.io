@@ -1,5 +1,13 @@
 # Installation from the source tarball
 
+## Get the sources Luke!
+
+You can download the last tarball archive from [the forge](http://forge.fusioninventory.org/projects/fusioninventory-agent/files)
+or directly from [the CPAN](https://metacpan.org/release/FusionInventory-Agent).
+
+Tarball with a **rc** or **beta** version suffix are developpement release not ready
+for production.
+
 ## agent from sources
 
 We strongly recommand the use of __GNU tar__ because some file path lenght are greater
