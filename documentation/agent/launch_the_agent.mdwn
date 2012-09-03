@@ -4,7 +4,9 @@ You can force an inventory with the [[fusioninventory-agent|documentation/refere
 
 ## Windows
 
-On Windows, go in the **c:\Program files\FusionInventory-Agent\perl\bin** (adjust this path depending on your configuration) directory and run:
+First, you must open a cmd.exe console. Ensure you started with with *Administrator* privilege (*right clic* → *Run as Administrator* on Vista and Seven *Start menu*).
+
+Go in the **c:\Program files\FusionInventory-Agent\perl\bin** (adjust this path depending on your configuration) directory and run:
 
     perl fusioninventory-agent
 
