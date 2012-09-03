@@ -1,5 +1,0 @@
-FusionInventory Agent tarball can be found from
-[here](http://foobar.example.com/download/).
-
-There's also a Subversion repository, at
-`svn://foobar.example.com/foobar/trunk`.
