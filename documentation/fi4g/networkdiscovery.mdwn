@@ -1,0 +1,15 @@
+# network discovery
+
+## configure agents allowed to make scan of my network
+
+
+## Define number of threads
+
+
+## Create tasks
+
+### Wizard
+
+
+### tasks management
+
