@@ -1,4 +1,9 @@
-# How to use ikiwiki with git
+# With HTTP
+
+You can edit the documentation/* pages by yourself, there is no need to register.
+You can use an existing account for GMail, Wordpress, etc.
+
+# With git (advanced)
 
 ## Get the wiki sources
 
