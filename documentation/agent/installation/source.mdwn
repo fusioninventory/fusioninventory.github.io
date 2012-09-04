@@ -32,6 +32,8 @@ to resolve the situation is [cpanm](https://raw.github.com/miyagawa/cpanminus/ma
 You can use the _--notest_ flag if you are brave and want to skip the test-suite
 execution.
 
+You may also need to install some [[system specific dependencies|documentation/agent/system_dep]].
+
 Once this is done, run once again:
 
     perl Makefile.Pl
@@ -71,3 +73,5 @@ openssl header files and a C compiler.
 
 If you don't want to use SSL, you can avoid keep this dependency uninstalled.
 The agent will disable SSL by itself.
+
+

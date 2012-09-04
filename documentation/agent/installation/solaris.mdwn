@@ -1,3 +1,7 @@
+# System-specific informations
+
+You may need to install some [[system specific dependencies|documentation/agent/system_dep]].
+
 # Installation on Solaris
 
 ## OpenCSW package
