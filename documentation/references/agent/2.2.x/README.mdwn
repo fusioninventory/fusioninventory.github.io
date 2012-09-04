@@ -76,7 +76,7 @@ will get discarded for other kind of target.
 # System-specific informations
 
 On Solaris/SPARC, you must install sneep and record the Serial Number with it.
-Download it from http://www.sun.com/download/products.xml?id=4304155a.
+Download it from <http://www.sun.com/download/products.xml?id=4304155a>.
 
 On Windows, we use an additional dmidecode binary shipped in the windows
 distribution to retrieve many informations not available otherwise, including
@@ -148,13 +148,13 @@ The available workaround:
 
 Project websites:
 
-* main site: http://www.fusioninventory.org
-* forge: http://forge.fusioninventory.org
+* main site: <http://www.fusioninventory.org>
+* forge: <http://forge.fusioninventory.org>
 
 Project mailing lists:
 
-* http://lists.alioth.debian.org/mailman/listinfo/fusioninventory-user
-* http://lists.alioth.debian.org/mailman/listinfo/fusioninventory-devel
+* <http://lists.alioth.debian.org/mailman/listinfo/fusioninventory-user>
+* <http://lists.alioth.debian.org/mailman/listinfo/fusioninventory-devel>
 
 Project IRC channel:
 
