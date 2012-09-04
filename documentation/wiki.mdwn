@@ -27,3 +27,30 @@ wiki:
 For example, with pandoc:
 
     pandoc -f markdown -t html5 foo.mdwn > foo.html5
+
+# Directory structure
+
+## documentation/
+
+### documentation/references/
+
+This directory includes 4 subdirectories:
+
+* agent
+* agent-task-network
+* agent-task-esx
+* agent-task-deploy
+
+Each of them are related to a subproject with it's own release. After every,
+the following files are extracted from the tarball:
+
+* README
+* fusioninventory-* scripts POD documentation
+
+For example, FusionInventory-Agent-2.2.5 comes with:
+
+* README → documentation/references/agent/2.2.5/README (converted to Markdown)
+* fusioninvenventory-agent → documentation/references/agent/2.2.5/fusioninventory-agent (converted to Markdown)
+* fusioninventortory-injector → documentation/references/agent/2.2.5/fusioninventory-injectory
+
+A symlink is also created from documentation/references/agent/last to documentation/references/agent/2.2.5.
