@@ -28,6 +28,7 @@
 * [[Create & manage SNMP models|documentation/fi4g/snmpmodels]]
 * [[How to debug my installation|documentation/fi4g/debugmode]]
 * [[Security and SSL|documentation/agent/security_and_ssl]]
+* [[for developers|documentation/dev]]
 
 # older documentation
 
