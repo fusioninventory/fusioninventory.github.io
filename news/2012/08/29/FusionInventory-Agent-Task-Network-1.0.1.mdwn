@@ -1,5 +1,4 @@
 [[!meta  date="2012-08-29"]]
-# FusionInventory-Agent-Task-Network FusionInventory Agent Task Network
 
 Hello FusionInventory users,
 
