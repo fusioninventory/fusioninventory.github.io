@@ -30,7 +30,7 @@
 * [[Security and SSL|documentation/agent/security_and_ssl]]
 * [[for developers|documentation/dev]]
 
-# older documentation
+# Older documentation
 
 * [[documentation/fi4g/userdoc]]
 
