@@ -57,7 +57,6 @@ foreach my $line (split(/\n/, $changelog)) {
         print OUT "[[!meta  date=\""
           . $datetime->ymd
           . "\"]]\n"
-          . "# $project $projectWithDash\n\n"
           . "Hello FusionInventory users,\n\n"
           . "The $projectWithDash maintainers are glad to announce the $release release.\n\n"
           . "You can download the archive from [the forge]($url)\n"
@@ -85,3 +84,4 @@ print OUT "\n\nWe did our best to provide a solid release, please [[contact us|/
 
 system("vim", $file);
 system("mutt", "-i", $file, "-s", "$projectWithDash $release released!", 'fusioninventory-user@lists.alioth.debian.org',  )
+
