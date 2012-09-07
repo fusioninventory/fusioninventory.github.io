@@ -1,8 +1,5 @@
-[[!if test="enabled(sidebar)" then="""
-[[!sidebar]]
-""" else="""
-[[!inline pages=sidebar raw=yes]]
-"""]]
+This is where announcements of new releases, features, and other news is
+posted. FusionInventory users are recommended to subscribe to this page's RSS
+feed.
 
-[[!inline pages="page(./posts/*) and !*/Discussion" show="10"
-actions=yes rootpage="posts"]]
+[[!inline pages="page(./news/*) and !*/Discussion" rootpage="news" postform="no" postformtext="nothing" show="30" rss="no" atom="no"]]

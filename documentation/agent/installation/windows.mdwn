@@ -1,0 +1,56 @@
+# Windows installation
+
+## Get the installer
+
+First, download the archive: <http://prebuilt.fusioninventory.org/stable/windows-i386/>
+
+The file name convention is:
+
+* fusioninventory-agent_windows-i386_
+* FusionInventory Agent version (e.g: 2.2.5)
+* a *-* (dash)
+* the package revision. e.g: 2, for the 2nd installer generated for the 2.2.5 release
+* .exe
+
+The installer can be used either on 32 or 64 bit Windows.
+
+## Installer command line parameters
+
+* /help   Display this help. The space in front of /help is mandatory!
+* /S      Run setup in silent mode
+* /installdir=dirname     Set installation directory of agent
+* /server=url1,url2       Set url of server
+* /tag=tagame     Set tag of agent
+* /user=username  Set username
+* /pass=password  Set password
+* /realm=realm    Set realm
+* /ca-cert-file=filename  Set filename of certificate
+* /no-ssl-check   No certificate check when establishing SSL connection
+* /proxy=http://proxy/    Set proxy
+* /debug  Set debug mode
+* /rpc-port       Set RPC port number
+* /scan-homedirs  Look for virtual machines in home directories
+* /runnow         Run agent after end of installation
+* /update-firewall        Update the Firewall to register the agent
+* /execmode=option        launch the agent with a service(service)/windows task scheduler(task)/or keep settings unchanged(none) (default is service)
+
+## Usage
+
+To pass the parameters, do for example:
+
+fusioninventory-agent_windows-i386_2.x.x-1.exe /S /debug /runnow /server=https://server1/glpi/plugins/fusioninventory/
+
+this mean that i want to install fusioninventory in silent mode, run an inventory after installation, and send the inventory by https
+
+fusioninventory-agent_windows-i386_2.x.x-1.exe /S /debug /runnow /server=http://server1/glpi/plugins/fusioninventory/
+
+The same as above but with a plain http connection
+
+And installation directory of the agent can be changed via command-line as below:
+
+fusioninventory-agent_windows-i386_2.x.x-1.exe /S "/installdir=C:\Program Files\FusInv"
+Edit
+Upgrade with FusionInventory Deploy
+
+If you upgrade the agent with FusionInventory Deploy and the agent is launched with a Service, you will need an agent > 2.2.0-2 and the /execmode=none parameter. This way, the agent won't remove or add service or update the Tasks Scheduler setting. So you will keep the previous settings.
+

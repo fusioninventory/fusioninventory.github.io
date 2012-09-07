@@ -1,0 +1,54 @@
+FusionInventory Agent user doc
+
+# installation
+
+* [[Windows|documentation/agent/installation/windows]]
+* [[MacOSX|documentation/agent/installation/macosx]]
+* [[Linux|documentation/agent/installation/linux]]
+* [[BSD|documentation/agent/installation/bsd]]
+* [[Solaris|documentation/agent/installation/solaris]]
+* [[AIX|documentation/agent/installation/aix]]
+* [[HP-UX|documentation/agent/installation/hpux]]
+
+
+# Configuration
+
+How to configure the agent
+
+The agent settings are based on a classic key/value mechanism.
+
+* Windows: with the registry keys located at KEY_LOCAL_MACHINE/SOFTWARE/FusionInventory-Agent
+* MacOSX: the configuration file is located in /opt/fusionInventory-agent/agent.cfg
+* UNIX/Linux: on UNIX/Linux, the agent expect its configuration to be here /etc/fusioninventory/agent.cfg
+* prebuilt: if you use a prebuilt package, the agent.cfg configuration is in the packages&apos; root directory.
+      
+# Local machine inventory
+
+You can generate a local inventory of a machine in XML or HTML :
+
+on Windows, you must first go in the FusionInventory-Agent installation directory and then in the perl/bin subdirectory:
+          
+
+
+          on an UNIX systems:
+          
+
+
+          To perform an HTML inventory, add the 
+
+
+## Send a local XML inventory file to an inventory server
+
+
+IMPORTANT  fusioninventory-injector is avalaible only since the 2.1.7 release of the agent. 
+
+You can push a local generated inventory file to a FusionInventory for  GLPI server by using the fusioninventory-injector command:
+      
+
+
+      If you want to use a HTTP proxy, you can declare it with the http_proxy environment variable:
+      
+
+Please note that this scripts works with both FusionInventory for GLPI and OCS Inventory NG Server.
+
+

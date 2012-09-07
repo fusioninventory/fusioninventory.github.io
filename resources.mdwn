@@ -1,0 +1,39 @@
+# Resources and web sites
+
+<http://www.fusioninventory.org/> is the official web site.
+
+## Development forge
+
+Developement are done on FusionInventory forge:
+<http://forge.fusioninventory.org/>.
+
+The forge includes Bugtracker, Download page, Source browser and internal Wiki.
+
+Git repositories are synchronised on [Github FusionInventory page](http://www.github.com/fusinv)
+regulary.
+
+## Mailing lists
+
+* [FusionInventory Users list](http://lists.alioth.debian.org/mailman/listinfo/fusioninventory-user)
+* [FusionInventory Developers list](http://lists.alioth.debian.org/mailman/listinfo/fusioninventory-devel)
+* [FusinInventory translater list](http://lists.alioth.debian.org/mailman/listinfo/fusioninventory-i18n)
+
+## IRC-Channel
+
+FusionInventory has got an IRC chanel on Freenode call __#fusioninventory__.
+IRC is used mainly to coordonate developement effort between contributors.
+
+* Network: [FreeNode](http://irc.freenode.net)
+* Channel: #fusioninventory
+
+## Forums
+
+[A forum](http://forum.fusioninventory.org/) is also avalaible for end users. This forum is not directly supported
+by the FusionInventory team but by the users.
+
+If you want to report bugs or contract the developement team, please use the
+mailing lists or the bug tracker on the forge.
+
+## Partnaires
+
+A list of trusted companies is maintain on the [[partnaires]] page.

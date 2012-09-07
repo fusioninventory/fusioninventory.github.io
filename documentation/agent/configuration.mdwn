@@ -1,0 +1,31 @@
+#Agent configuration
+
+The agent reads the configuration from a list of key / value. Sometime, value can be a list of value, in such case, a comma is used a field separator (e.g: server).
+
+## Where is the configuration?
+
+Depending on the OperatingSystem and the installation method, the agent will read its configuration from different places:
+
+* /etc/fusioninventory/agent.cfg: default
+* /opt/fusioninventory/agent.cfg: MacOSx mpkg
+* /usr/local/etc/fusioninventory/agent.cfg: FreeBSD port
+* HKEY_LOCAL_MACHINE\SOFTWARE\FusionInventory-Agent: Windows
+* HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\FusionInventory-Agent: Windows 64 bits
+
+## Minimal configuration
+
+* server: the URL to the server, in general, it's http://glpiserver/plugins/fusioninventory/
+* debug: debug can be 0, 1 or 2. We suggest to use 2 to help you understand what append
+* httpd-trust: it's always a good idea to configure this key with the **IP address** (not the hostname) of the server. This way you will be able to use the **push** mode later.
+
+Once this is done, you can [[force an inventory|documentation/agent/launch_the_agent]].
+
+## Advanced configuration
+
+All the keys are documented in the OPTIONS section of fusioninventory-agent reference documentation:
+
+* [[2.1.x (old stable)|documentation/references/agent/2.1.x/fusioninventory-agent]]
+* [[2.2.x (stable)|documentation/references/agent/2.2.x/fusioninventory-agent]]
+* [[2.3.x (dev)|documentation/references/agent/2.3.x/fusioninventory-agent]]
+
+

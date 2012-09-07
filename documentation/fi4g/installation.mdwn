@@ -1,0 +1,35 @@
+# FusionInventory for GLPI installation
+
+## Get the archive for your GLPI
+
+First, download archive the here: <http://forge.fusioninventory.org/projects/fusioninventory-for-glpi/files>
+
+FusionInventory for GLPI tarball name follow this convention:
+
+* fusioninventory-for-glpi-metapackage_
+* GLPI major release (0.80, 0.83, 0.84, etc)
+* a '+' symbol
+* FusionInventory release
+
+## Installation
+
+It's also always a good idea to do a backup of your database.
+
+* Uncompress the archive into the plugin folder of GLPI. File list seems to be like :
+
+    D glpi
+      D plugins
+        D fusioninventory
+          F index.php
+          F hook.php
+          D front
+          D inc
+          …
+
+* Connect to _GLPI_
+* Go in the menu _Setup_ > _Plugins_
+* Install the plugins
+* Activate FusionInventory 
+
+These operations will create tables in database MySQL and rights on the plugin.
+Do the same for all fus* plugins

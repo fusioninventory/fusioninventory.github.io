@@ -1,0 +1,34 @@
+## Usage
+
+They are two different ways to run the agent:
+
+*  as a temporary process, exiting after completing its run
+*  as a permanent process, staying in memory permanently (daemon under Unix,
+  service under Windows)
+
+In the first case, the agent execution scheduling is controlled from local
+system, and the memory footprint between agent executions is zero.
+
+In second case, the agent execution scheduling is controlled from GLPI server,
+as the agent runs regulary according to a parameter initially set in its
+configuration (delaytime), overrided by the server at the first connection
+(PROLOG_FREQ). Additionaly, the server may also initiate additional
+out-of-schedule executions by sending HTTP requests if the web interface is
+used. However, it also mean you have a full perl interpreter loaded in memory
+constantly, and a network port open on your system with a process running with
+full system privileges attached to it.
+
+If you don't need to control agent execution from the server, and if you're
+able to periodically launch the agent without resorting to its internal
+scheduler, through cron on Unix systems, or scheduled tasks on Windows, you'd
+better use first execution mode. The various installation procedure may offer
+limited choice about initial configuration, but you should always be able to
+change it thereafter.
+
+When executing, the agent tries to run every available task for every
+configured target. A task is a specific kind of work to perform (local
+inventory, network discovery, wake on lan, etc...), while a target is both a
+recipient for the result and a controller for this work (an OCS server, a GLPI
+server, a local directory, etc...). Only the local inventory task is compatible
+with all kind of target, tough, all others require a GLPI server target, and
+will get discarded for other kind of target.

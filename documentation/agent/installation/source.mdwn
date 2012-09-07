@@ -1,0 +1,77 @@
+# Installation from the source tarball
+
+## Get the sources Luke!
+
+You can download the last tarball archive from [the forge](http://forge.fusioninventory.org/projects/fusioninventory-agent/files)
+or directly from [the CPAN](https://metacpan.org/release/FusionInventory-Agent).
+
+Tarball with a **rc** or **beta** version suffix are developpement release not ready
+for production.
+
+## agent from sources
+
+We strongly recommand the use of __GNU tar__ because some file path lenght are greater
+than 100 caracters. Some tar version will silently ignore those files like for example
+on HP-UX.
+
+First, you need to extract the source and run the Makefile.PL
+
+    tar xfz FusionInventory-Agent-2.2.5.tar.gz
+    cd FusionInventory-Agent-2.2.5
+
+Makefile.PL will ensure all the required dependencies are available and
+prepare the build tree.
+
+    perl Makefile.PL
+
+At this point, you will probably have some missing required modules. The best tool
+to resolve the situation is [cpanm](https://raw.github.com/miyagawa/cpanminus/master/cpanm). Just run:
+
+    cpanm .
+
+You can use the _--notest_ flag if you are brave and want to skip the test-suite
+execution.
+
+You may also need to install some [[system specific dependencies|documentation/agent/system_dep]].
+
+Once this is done, run once again:
+
+    perl Makefile.Pl
+
+This time the execution should success and you can finish the installation. Here again
+we recommand GNU make (gmake):
+
+    make
+    make test
+    make install
+
+## Change the installation directory
+
+If you don't want to use the default directory (/usr/local), you can use the PREFIX
+parameter during the Makefile.PL step:
+
+    perl Makefile.PL PREFIX=/opt/fusioninventory
+    make
+    make test
+    make install
+
+## plugins installation from source
+
+The plugin installation follow the same process:
+
+    tar xfz FusionInventory-Agent-Task-Foo-0.1.2.tar.gz
+    cd FusionInventory-Agent-Task-Foo-0.1.2
+    cpanm .
+    perl Makefile.PL
+    make test
+    make install
+
+# SSL
+
+SSL communication are based on IO::Socket::SSL. You build it you will need
+openssl header files and a C compiler.
+
+If you don't want to use SSL, you can avoid keep this dependency uninstalled.
+The agent will disable SSL by itself.
+
+

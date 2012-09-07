@@ -1,0 +1,12 @@
+# Installation on AIX
+
+[[!template  id=note text="We are looking for an **AIX RPM maintainer**"]]
+
+## Installation from source
+
+[[Installation from source|documentation/agent/installation/source]].
+
+## Prebuilt package
+
+Even if it's not the recommended installation method, sometime it's helpful to be able to
+run an inventory without system modification. In this case, you can use the [[prebuilt packages|documentation/agent/installation/prebuilt]].

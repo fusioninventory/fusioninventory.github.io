@@ -1,0 +1,30 @@
+# How to scan my network
+
+## configure agents allowed to make scan of my network
+
+By default, any agent are allowed to make scan of the network.
+
+There are 2 cases for allow them:
+
+* Allow all: in menu _plugins_ > _FusionInventory_ > _Configuration_ and in tab _Agents modules_. You can check _Network discovery_ by default.
+* Allow ony some agents: in menu _plugins_ > _FusionInventory_ > _FusionInventory_ > _Agents management_ go in agent form and in tab _Agents modules_, check _Network discovery_.
+
+__ATTENTION__: if you want to get switches, it use SNMP and check if you don't have only some computers allowed to query them (ACL)
+
+## Define number of threads
+
+To have network discovery running more faster, you can define number of simultaneous IP queries. For exemple, if you use 10 threads, agent will query 10 IP is same time, and so it's very more faster.
+
+You have 2 choices:
+
+* General configuration: You can define it for all agents, in menu _plugins_ > _FusionInventory_ > _Configuration_ and in tab _FusionInventory SNMP_. define value _Threads number (network discovery)_. 
+* Personalized configuration: you can overwrite general configuration for an agent (for exemple if the computer is better faster), in menu _plugins_ > _FusionInventory_ > _FusionInventory_ > _Agents management_ go in agent form and in tab _Threads number_, and define value _Threads number (network discovery)_.
+
+## Create tasks
+
+
+### Wizard
+
+
+### tasks management
+

@@ -1,0 +1,10 @@
+[[!meta  date="2010-09-14 21:23:17"]]
+# See us at FrOSCamp in Zürich
+
+Most of the team will be at [FrOSCamp](http://fusioninventory.org/wordpress/wp-admin/post.php?action=edit&amp;post=616) in Zürich. We will share a booth with [GLPI](http://www.glpi-project.org) during the event.
+
+Please check on the [exhibitor map](http://wiki.froscamp.org/images/7/73/Exhibition.png) our booth's location or just find the place where people speak french.
+
+<a href="/news/2010/09/14/FrOSCamp.png"><img class="aligncenter size-medium wp-image-617" title="FrOSCamp" src="/news/2010/09/14/FrOSCamp-253x300.png" alt="" width="253" height="300" /></a>
+
+A talk is scheduled Friday at 4pm. We will publish the slides as soon as possible.

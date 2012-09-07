@@ -1,0 +1,58 @@
+# Partnaires
+
+This page is a list of trusted partnaires. Those companies are know for being
+involved in FusionInventory developement and having a great knowledge of the
+product.
+
+Those companies are familiar with FusionInventory and GLPI deployment and able
+to drive a FusionInventory integration project from the very begining to its success.
+
+This list is open and if you believe your company deservice to be added, please
+[contact us](goneri@rulezlan.org).
+
+[[!template id=partnaire
+  logo="siprossii.png"
+  name="siprossii"
+  location="Beaujeu – France"
+  code="FusionInventory for GLPI and Agent"
+  qa="Daily tests and bugfixes."
+  promote="Conferences, presentations, TShirts and stickers."
+  doc="Documentation."
+  support="Daily support."
+  training="GLPI and FusionInventory training."
+  web="http://www.siprossii.com/"
+  email="d.durieux@siprossii.com"
+]]
+
+[[!template id=partnaire
+  logo="teclib.png"
+  name="TECLIB'"
+  location="Paris, Chartres, Colmar, Montpellier, Caen – France"
+  code="FusionInventory for GLPI and Agent"
+  qa="Daily tests and bugfixes."
+  promote="Conferences, presentations, TShirts and stickers."
+  doc="Documentation."
+  support="Daily support."
+  training="GLPI and FusionInventory training."
+  web="http://teclib.com"
+  email="goneri@teclib.com"
+]]
+
+[[!template id=partnaire
+  logo="normation.png"
+  name="Normation"
+  location="Paris – France"
+  code="Agent"
+  qa="bug reports"
+  promote="Conferences"
+  web="http://normation.com"
+  email="jonathan.clarke@normation.com"
+]]
+
+This page is open to now contributor, if you want to be registered here, please contact us.
+
+These companies did some contributions in the past but are not active developer of FusionInventory:
+
+* [OpenSides](http://www.opensides.be): Benoit Mortier <benoit.mortier@opensides.be>
+
+
