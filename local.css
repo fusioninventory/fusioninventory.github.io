@@ -599,7 +599,6 @@ div.progress-done {
 
 /* infobox template */
 .infobox {
-        background: #d2d7dc url(images/info.png) no-repeat top center;
 	float: right;
 	margin-left: 2ex;
 	margin-top: 1ex;
@@ -612,7 +611,6 @@ div.progress-done {
 
 /* warningbox template */
 .warningbox {
-        background: #d2d7dc url(images/warning.png) no-repeat top center;
 	float: right;
 	margin-left: 2ex;
 	margin-top: 1ex;

@@ -1,4 +1,5 @@
 <div class="infobox">
+<img src="/images/info.png" />
 <TMPL_VAR text>
 </div>
 <TMPL_UNLESS text>

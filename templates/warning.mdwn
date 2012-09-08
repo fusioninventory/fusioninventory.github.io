@@ -1,4 +1,5 @@
 <div class="warningbox">
+<img src="/images/warning.png" />
 <TMPL_VAR text>
 </div>
 <TMPL_UNLESS text>
