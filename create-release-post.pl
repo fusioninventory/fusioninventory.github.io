@@ -60,7 +60,7 @@ foreach my $line (split(/\n/, $changelog)) {
           . "Hello FusionInventory users,\n\n"
           . "The $projectWithDash maintainers are glad to announce the $release release.\n\n"
           . "You can download the archive from [the forge]($url)\n"
-          . "or directly from [the CPAN](https://metacpan.org/release/FusionInventory-Agent)\n\n"
+          . "or directly from [the CPAN](https://metacpan.org/release/$project)\n\n"
           . "## This release changelog\n\n";
         $in = 1;
     }
