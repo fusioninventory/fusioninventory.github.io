@@ -46,7 +46,8 @@ This is the full changelog for this release.
      http://forge.fusioninventory.org/issues/778
    thanks: Guillaume Rousse, Amir Pakdel
 
-INTERNAL
+## INTERNAL
+
 * Change message &quot;Force run now&quot;
        commit:03c651
      http://forge.fusioninventory.org/issues/535
@@ -80,7 +81,8 @@ INTERNAL
        commit:000fcb
      http://forge.fusioninventory.org/issues/946
 
-LINUX
+## LINUX
+
 * rhn inventory
        commit:e13d10
      http://forge.fusioninventory.org/issues/713
@@ -102,7 +104,8 @@ LINUX
      http://forge.fusioninventory.org/issues/852
    thanks: Guillaume Rousse, İbrahim Özgür Erişen
 
-MACOSX
+## MACOSX
+
 * Software installed on parallel virtual guest listed in physical host inventory
        commit:69ffe5
      http://forge.fusioninventory.org/issues/716
@@ -124,19 +127,22 @@ MACOSX
      http://forge.fusioninventory.org/issues/936
    thanks: Loic Lhermitte
 
-SOLARIS
+## SOLARIS
+
 * SolarisZones module ignored in fusioninventory-agent  2.1.8_rc1
        commit:9368ea
      http://forge.fusioninventory.org/issues/787
    thanks: Christian Lete
 
-TEST-SUITE
+## TEST-SUITE
+
 * FusionInventory::Agent::RPC build fails is no JSON
        commit:782834
      http://forge.fusioninventory.org/issues/955
    thanks: Remi Collet
 
-WINDOWS
+## WINDOWS
+
 * The agent still conflicts with Oracle Perl
        commit:a63eba commit:1d18c6 commit:4afe98
      http://forge.fusioninventory.org/issues/889
