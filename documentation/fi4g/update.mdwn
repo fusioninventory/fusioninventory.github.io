@@ -13,7 +13,7 @@ FusionInventory for GLPI tarball name follow this convention:
 
 ## Update
 
-You should disabled the plugins FusionInventory.
+You *must* first disabled the plugins FusionInventory.
 
 __ATTENTION__: Don't click on "UNINSTALL" link. If you do this, you will LOOSE all FusionInventory data! 
 

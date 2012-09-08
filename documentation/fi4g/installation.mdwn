@@ -13,6 +13,8 @@ FusionInventory for GLPI tarball name follow this convention:
 
 ## Installation
 
+[[!template  id=warning text="If a previous FusionInventory version is already installed, you must read the Update section."]]
+
 It's also always a good idea to do a backup of your database.
 
 * Uncompress the archive into the plugin folder of GLPI. File list seems to be like :

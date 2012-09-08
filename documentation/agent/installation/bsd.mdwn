@@ -1,6 +1,6 @@
 # Installation on BSD OSes
 
-[[!template  id=note text="We are looking for a **NetBSD pkgsrc porter**"]]
+[[!template  id=info text="We are looking for a **NetBSD pkgsrc porter**"]]
 
 ## FreeBSD port
 
