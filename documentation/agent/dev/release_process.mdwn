@@ -46,9 +46,9 @@ Tarball has to be uploaded on the forge and on CPAN.
 
 Publish official announcement:
 
-    git clone wiki@wiki.fusioninventory.org:wiki.git
-    cd wiki
-    ./create-release-post.pl <URL tarball on the forge>
+* [[Get the wiki source|documentation/wiki]]
+* Go in fusioninventory.branchable.com directory
+* Launch `./create-release-post.pl <URL tarball on the forge>`
 
 At the end the process this should be done:
 

@@ -12,4 +12,4 @@
 
 ## Installation from tarball
 
-[[from source|documentation/agent/installation/source]]
+* [[from source|documentation/agent/installation/source]]
