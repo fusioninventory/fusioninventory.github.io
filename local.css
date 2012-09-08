@@ -599,6 +599,7 @@ div.progress-done {
 
 /* infobox template */
 .infobox {
+        background: #d2d7dc url(images/info.png) no-repeat top center;
 	float: right;
 	margin-left: 2ex;
 	margin-top: 1ex;
@@ -609,18 +610,20 @@ div.progress-done {
 	color: black !important;
 }
 
-/* notebox template */
-.notebox {
+/* warningbox template */
+.warningbox {
+        background: #d2d7dc url(images/warning.png) no-repeat top center;
 	float: right;
 	margin-left: 2ex;
 	margin-top: 1ex;
 	margin-bottom: 1ex;
 	padding: 1ex 1ex;
 	border: 1px solid #aaa;
-	width: 25%;
 	background: white;
 	color: black !important;
 }
+
+
 
 /* popup template and backlinks hiding */
 .popup {
