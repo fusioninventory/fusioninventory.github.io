@@ -62,17 +62,17 @@ to be able to awake your agent to for an inventory or a job."]]
 
 To pass the parameters, do for example:
 
-fusioninventory-agent_windows-i386_2.x.x-1.exe /S /debug /runnow /server=https://server1/glpi/plugins/fusioninventory/
+    fusioninventory-agent_windows-i386_2.x.x-1.exe /S /debug /runnow /server=https://server1/glpi/plugins/fusioninventory/
 
 this mean that i want to install fusioninventory in silent mode, run an inventory after installation, and send the inventory by https
 
-fusioninventory-agent_windows-i386_2.x.x-1.exe /S /debug /runnow /server=http://server1/glpi/plugins/fusioninventory/
+    fusioninventory-agent_windows-i386_2.x.x-1.exe /S /debug /runnow /server=http://server1/glpi/plugins/fusioninventory/
 
 The same as above but with a plain http connection
 
 And installation directory of the agent can be changed via command-line as below:
 
-fusioninventory-agent_windows-i386_2.x.x-1.exe /S "/installdir=C:\Program Files\FusInv"
+    fusioninventory-agent_windows-i386_2.x.x-1.exe /S "/installdir=C:\Program Files\FusInv"
 Edit
 Upgrade with FusionInventory Deploy
 
