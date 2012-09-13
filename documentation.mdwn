@@ -3,6 +3,7 @@
 * [[Installation|documentation/agent/installation]]
 * [[Configuration|documentation/agent/configuration]]
 * [[Usage|documentation/agent/usage]]
+* [[Report bug|documentation/agent/bugreport]]
 
 ## Agent Features
 
