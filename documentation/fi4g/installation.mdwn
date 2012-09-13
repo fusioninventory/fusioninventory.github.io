@@ -11,6 +11,14 @@ FusionInventory for GLPI tarball name follow this convention:
 * a '+' symbol
 * FusionInventory release
 
+WebServices GLPI plugin is a dependency of the Deploy feature, you can download it from the forge: <https://forge.indepnet.net/projects/webservices/files>
+
+## Update
+
+You *must* first disabled the FusionInventory plugins *FIRST*.
+
+[[!template  id=warning text="Don't click on "UNINSTALL" link. If you do this, you will LOOSE all FusionInventory data."]]
+
 ## Installation
 
 [[!template  id=warning text="If a previous FusionInventory version is already installed, you must read the Update section."]]
@@ -33,5 +41,5 @@ It's also always a good idea to do a backup of your database.
 * Install the plugins
 * Activate FusionInventory 
 
-These operations will create tables in database MySQL and rights on the plugin.
+These operations will create or upgrade the database and set the correct rights on the plugin.
 Do the same for all fus* plugins

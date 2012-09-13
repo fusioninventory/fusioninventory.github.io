@@ -10,8 +10,7 @@
 
 # FusionInventory for GLPI
 
-* [[How to install plugins FusionInventory for GLPI|documentation/fi4g/installation]]
-* [[How to update plugins FusionInventory for GLPI|documentation/fi4g/update]]
+* [[How to install or update FusionInventory for GLPI|documentation/fi4g/installation]]
 * [[How to inventory a computer|documentation/fi4g/computerinventory]]
 * [[How works 'Equipment import and link rules'|documentation/fi4g/importrules]]
 * [[How to scan my network|documentation/fi4g/networkdiscovery]]
