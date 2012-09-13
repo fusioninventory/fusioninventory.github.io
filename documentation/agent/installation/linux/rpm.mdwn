@@ -6,7 +6,7 @@ The RPM-Packages was maintained by Remi Collet. He resigned, a new maintainer is
 *fusioninventory-agent* is available in the *remi* repository for EL >= 4
 
     rpm -Uvh http://rpms.famillecollet.com/enterprise/remi-release-4.rpm
-    yum --enablerepo=remi install fusioninventory-agent
+    up2date -i install fusioninventory-agent
 
 ## RHEL, Centos 5
 First of all, you need to enable EPEL repository
