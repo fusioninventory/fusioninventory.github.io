@@ -5,29 +5,29 @@ The RPM-Packages was maintained by Remi Collet. He resigned, a new maintainer is
 ## RHEL, Centos 4
 *fusioninventory-agent* is available in the *remi* repository for EL >= 4
 
-    rpm -Uvh http://rpms.famillecollet.com/enterprise/remi-release-4.rpm
-    up2date -i install fusioninventory-agent
+    # rpm -Uvh http://rpms.famillecollet.com/enterprise/remi-release-4.rpm
+    # up2date -i install fusioninventory-agent
 
 ## RHEL, Centos 5
 First of all, you need to enable EPEL repository
 
-    rpm -Uvh http://dl.fedoraproject.org/pub/epel/5/i386/epel-release-5-4.noarch.rpm
+    # rpm -Uvh http://dl.fedoraproject.org/pub/epel/5/i386/epel-release-5-4.noarch.rpm
 
 To install FusionInventory-Agent, simply execute the following command: 
 
-    yum --enablerepo=remi install fusioninventory-agent
+    # yum --enablerepo=remi install fusioninventory-agent
 
 ## RHEL/Centos 6.X 
 *fusioninventory-agent* is available in the *EPEL6* repository. You need to enable this repository.
 
-    rpm -Uvh http://dl.fedoraproject.org/pub/epel/6/i386/epel-release-6-7.noarch.rpm
+    # rpm -Uvh http://dl.fedoraproject.org/pub/epel/6/i386/epel-release-6-7.noarch.rpm
 
 The *EPEL* repository is required for perl dependencies.
 For [RHEL]([http://www.redhat.com/rhel/) Users, the *RHEL Server Optional* channel is also mandatory, it must be enabled from [RHN](https://rhn.redhat.com/).
 
 To install FusionInventory-Agent : 
 
-    yum --enablerepo=remi --enablerepo=optional-rhn install fusioninventory-agent
+    # yum --enablerepo=remi --enablerepo=optional-rhn install fusioninventory-agent
 
 
 Package from other repositories, such as RPM Forge, will probably not work (and will not be supported)
@@ -50,7 +50,7 @@ See [Remi repository configuration](http://blog.famillecollet.com/pages/Config-e
 
 Full installation:
 
-    yum install fusioninventory-agent  perl-FusionInventory-Agent-\*
+    # yum install fusioninventory-agent  perl-FusionInventory-Agent-\*
 
 
 Only *fusioninventory-agent* is mandatory, other packages are optional:
@@ -62,7 +62,7 @@ Only *fusioninventory-agent* is mandatory, other packages are optional:
 
 You can also install the *yum plugin* which will request a inventory after each yum operation
 
-    yum install fusioninventory-agent-yum-plugin
+    # yum install fusioninventory-agent-yum-plugin
 
 
 
@@ -83,16 +83,16 @@ Per example:
 
 Enable it to be launch on reboot
 
-    chkconfig --add fusioninventory-agent
+    # chkconfig --add fusioninventory-agent
 
 When configured, start the service 
 
-    service fusioninventory-agent start
+    # service fusioninventory-agent start
 
 ## Force inventory 
-    wget http://127.0.0.1:62354/now -O /tmp/now
+    $ wget http://127.0.0.1:62354/now -O /tmp/now
 
 ## Debug Agent
 You can see the log in /var/log/fusioninventory-agent/fusioninventory-agent.log
 
-    tail -f /var/log/fusioninventory-agent/fusioninventory-agent.log
+    # tail -f /var/log/fusioninventory-agent/fusioninventory-agent.log
