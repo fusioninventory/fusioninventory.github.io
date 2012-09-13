@@ -1,15 +1,15 @@
-= How to report issues efficiently
+# How to report issues efficiently
 
 In order for the developers to track and fix issues properly, you need to use the "forge bug tracker":http://forge.fusioninventory.org/projects/fusioninventory-agent/issues. Here are a few usage rules, so as to avoid wasting efforts both for the reporters and for the assignees.
 
-== Get a full log
+## Get a full log
 
 You can increase the agent verbosity if you:
 
 * add debug=2 in agent.cfg or set the debug key to 2 in the Windows registry. You will need to restart the daemon or service after that.
 * call fusioninventory-agent with 2 --debug parameters: `fusioninventory-agent --debug --debug`
 
-== Bug priority and category
+## Bug priority and category
 
 It is useless to set a priority, it will be re-evaluated by the assignee anyway.
 
@@ -17,7 +17,7 @@ However, you have to identify is your problem is an agent or a server issue. If 
 
 The easiest way to make the distinction is to look at the raw XML content sent by the agent, available in GLPI. You can also force a local agent execution, with either --stdout or --local /any/where flags, and look at the resulting content. If the information is missing or erroneous in the agent output, that's an agent issue. If the information is present, but not visible from the server, that's a server issue.
 
-== Problem description
+## Problem description
 
 You have to use english, for sake of internationalization.
 
@@ -30,13 +30,13 @@ You can get the versions of the agent and its sub-tasks with these commands:
 * fusioninventory-agent --version
 * fusioninventory-agent --list-tasks
 
-== Problem reproductability
+## Problem reproductability
 
 That's quite useless to report a problem, if there is no way for the assignee to reproduce it.
 
 If the problem is related to an erroneous analysis of some system input, the best way is to provide a sample of the information, and the related excerpt of agent output. Identifying the exact system input is usually quite easy to do from reading the agent code.
 
-== Providing additional content
+## Providing additional content
 
 If you need to provide additional command output samples, here are a few important rules:
 
