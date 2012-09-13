@@ -1,31 +1,34 @@
-# Using RPM packages
-
 # Installation of the Agent on Fedora, RHEL, Centos and other RHEL clones
 
-The RPM-Packages was mainained by Remi Collet. He resigned, a new maintainer is welcome.
+The RPM-Packages was maintained by Remi Collet. He resigned, a new maintainer is welcome.
 
-First of all, you need to enable EPEL repository (
+## RHEL, Centos 4
+*fusioninventory-agent* is available in the *remi* repository for EL >= 4
+
+    rpm -Uvh http://rpms.famillecollet.com/enterprise/remi-release-4.rpm
+    yum --enablerepo=remi install fusioninventory-agent
+
+## RHEL, Centos 5
+First of all, you need to enable EPEL repository
+
+    rpm -Uvh http://dl.fedoraproject.org/pub/epel/5/i386/epel-release-5-4.noarch.rpm
 
 To install FusionInventory-Agent, simply execute the following command: 
 
     yum --enablerepo=remi install fusioninventory-agent
 
-[[!template  id=info text="Never use Perl packages provided by RPMForge. They are not compatible."]]
+## RHEL/Centos 6.X 
+*fusioninventory-agent* is available in the *EPEL6* repository. You need to enable this repository.
 
-
-h1. Installation of the Agent on Fedora, RHEL, Centos and other RHEL clones
-
-h2. 1. Repositories
-
-h3. 1.1.Redhat Enterprise Linux, CentOS and other RHEL clones
-
-*fusioninventory-agent* is available in the *EPEL* repository for EL 6
-
-*fusioninventory-agent* is available in the *remi* third party repository for EL >= 4
-
+    rpm -Uvh http://dl.fedoraproject.org/pub/epel/6/i386/epel-release-6-7.noarch.rpm
 
 The *EPEL* repository is required for perl dependencies.
 For [RHEL]([http://www.redhat.com/rhel/) Users, the *RHEL Server Optional* channel is also mandatory, it must be enabled from [RHN](https://rhn.redhat.com/).
+
+To install FusionInventory-Agent : 
+
+    yum --enablerepo=remi --enablerepo=optional-rhn install fusioninventory-agent
+
 
 Package from other repositories, such as RPM Forge, will probably not work (and will not be supported)
 
@@ -36,7 +39,7 @@ See [Remi repository configuration](http://blog.famillecollet.com/pages/Config-e
 
 *fusioninventory-agent* is part of the *official repository* for fedora >= 14
 
-# EOL Fedora version
+## EOL Fedora version
 
 *fusioninventory-agent* is available in the *remi* third party repository for fedora >= 8
 
@@ -63,7 +66,7 @@ You can also install the *yum plugin* which will request a inventory after each 
 
 
 
-# Agent Configuration
+## Agent Configuration
 
 The service takes its configuration from the */etc/sysconfig/fusioninventory-agent* file
 
@@ -78,17 +81,10 @@ Per example:
     OCSMODE[0]=daemon
     OCSSERVER[0]=http://<yourserverdnsnameorip>/glpi/plugins/fusioninventory/
 
+Enable it to be launch on reboot
 
-When configured, start the service
+    chkconfig --add fusioninventory-agent
+
+When configured, start the service 
 
     service fusioninventory-agent start
-
-
-Remember to enable it to be launch on reboot
-
-    chkconfig fusioninventory-agent on
-
-
-
-
-
