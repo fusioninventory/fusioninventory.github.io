@@ -14,6 +14,30 @@ The file name convention is:
 
 The installer can be used either on 32 or 64 bit Windows.
 
+## Settings
+
+[[!img documentation/agent/installation/windows-installer-settings-1.png]]
+
+1. Enter the full URL to your server.
+2. You can configure a key word to be able to sort out your machine later (TAG).
+
+[[!template  id=warning text="A common mistake is to mix HTTP and HTTPS here."]]
+
+## Advanced settings
+
+[[!img documentation/agent/installation/windows-installer-settings-2.png]]
+
+1. Enter here an optional HTTP login and password. This is unrelated with GLPI.
+2. Enter the full path to you certificat file. This is important only if you use HTTPS. 
+3. This check box will disable the HTTPS certificat check.
+4. You can configure here a HTTP proxy. For example, proxy:3128
+5. This is the port of the HTTP service of the agent. You need to change it on the server too.
+6. This check box will increase *a lot* the verbosity of the agent. The log is available in the agent-log.txt file.
+7. The installer can configure the Firewall for you if you want too allow connection on RPC port.
+
+[[!template  id=info text="Agent HTTP service is optional. It is only required if you want
+to be able to awake your agent to for an inventory or a job."]]
+
 ## Installer command line parameters
 
 * /help   Display this help. The space in front of /help is mandatory!
