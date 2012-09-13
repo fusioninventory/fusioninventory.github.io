@@ -92,3 +92,7 @@ When configured, start the service
 ## Force inventory 
     wget http://127.0.0.1:62354/now -O /tmp/now
 
+## Debug Agent
+You can see the log in /var/log/fusioninventory-agent/fusioninventory-agent.log
+
+    tail -f /var/log/fusioninventory-agent/fusioninventory-agent.log
