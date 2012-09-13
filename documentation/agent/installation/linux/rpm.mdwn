@@ -88,3 +88,7 @@ Enable it to be launch on reboot
 When configured, start the service 
 
     service fusioninventory-agent start
+
+## Force inventory 
+    wget http://127.0.0.1:62354/now -O /tmp/now
+
