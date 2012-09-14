@@ -32,6 +32,7 @@ Ensures the full test suite, with developper tests enabled, executes correctly o
 
 ## Tarball creation
 
+    ./tools/updatePciids.sh # For the agent
     perl Mafile.PL
     make manifest
     make disttest
