@@ -49,7 +49,7 @@ foreach my $line (split(/\n/, $changelog)) {
         my $datetime = DateTime::Format::Mail->parse_datetime($date);
 
         $file =
-          sprintf( "../wiki/news/%d/%02d/%02d/%s-%s.mdwn",
+          sprintf( "news/%d/%02d/%02d/%s-%s.mdwn",
             $datetime->year, $datetime->month, $datetime->day, $project, $release );
         make_path( dirname($file) );
         open OUT, ">$file" or die;
