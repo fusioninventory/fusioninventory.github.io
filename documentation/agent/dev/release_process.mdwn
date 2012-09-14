@@ -32,11 +32,11 @@ Ensures the full test suite, with developper tests enabled, executes correctly o
 
 ## Tarball creation
 
-  perl Mafile.PL
-  make manifest
-  make disttest
-  make distsign
-  make dist
+    perl Mafile.PL
+    make manifest
+    make disttest
+    make distsign
+    make dist
 
 ## Tarball upload
 
