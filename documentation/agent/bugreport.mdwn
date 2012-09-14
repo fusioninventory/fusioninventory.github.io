@@ -1,6 +1,10 @@
 # How to report issues efficiently
 
-In order for the developers to track and fix issues properly, you need to use the forge bug tracker (<http://forge.fusioninventory.org/projects/fusioninventory-agent/issues>). Here are a few usage rules, so as to avoid wasting efforts both for the reporters and for the assignees.
+In order for the developers to track and fix issues properly, you need to use the forge bug tracker (<http://forge.fusioninventory.org/projects/fusioninventory-agent/issues>). A account is required.
+
+# Best practice
+
+Here are a few usage rules, so as to avoid wasting efforts both for the reporters and for the assignees.
 
 ## Get a full log
 
