@@ -125,7 +125,7 @@ foreach my $repo (@repoList) {
             open OUT, ">" . $mdwnFile . '.mdwn' or die "$!";
 
             if ($branch->{status} !~ /stable/) {
-                print OUT '[[!template  id=warning text="This is the documentation of a software still in developpement."]]'."\n\n";
+                print OUT '[[!template  id=warning text="The '.$branch->{serie}.' serie is still in developpement."]]'."\n\n";
             } elsif ($branch->{status} eq 'oldstable') {
                 print OUT '[[!template  id=info text="The '.$branch->{serie}.' is not maintained anymore. You should consider an upgrade to the last stable release."]]'."\n\n";
             }

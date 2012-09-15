@@ -1,4 +1,4 @@
-[[!template  id=warning text="This is the documentation of a software still in developpement."]]
+[[!template  id=warning text="The 2.3.x serie is still in developpement."]]
 
 # NAME
 
