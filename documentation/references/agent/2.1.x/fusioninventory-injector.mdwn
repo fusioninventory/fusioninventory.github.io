@@ -1,4 +1,4 @@
-[[!template  id=warning text="The 2.1.x is not maintained anymore. You should consider an upgrade to the last stable release."]]
+[[!template  id=info text="The 2.1.x is not maintained anymore. You should consider an upgrade to the last stable release."]]
 
 # NAME
 

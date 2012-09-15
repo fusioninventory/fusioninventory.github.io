@@ -117,7 +117,7 @@ foreach my $repo (@repoList) {
             my $mdwnFile = sprintf("documentation/references/%s/%s/%s", $repo->{name}, $branch->{serie}, $file);
             print $mdwnFile. "\n";
 
-            next unless$content;
+            next unless $content;
 
             my $parser = Pod::Markdown->new;
             $parser->parse_from_file("$localDir/tmpfile");
@@ -127,7 +127,7 @@ foreach my $repo (@repoList) {
             if ($branch->{status} !~ /stable/) {
                 print OUT '[[!template  id=warning text="This is the documentation of a software still in developpement."]]'."\n\n";
             } elsif ($branch->{status} eq 'oldstable') {
-                print OUT '[[!template  id=warning text="The '.$branch->{serie}.' is not maintained anymore. You should consider an upgrade to the last stable release."]]'."\n\n";
+                print OUT '[[!template  id=info text="The '.$branch->{serie}.' is not maintained anymore. You should consider an upgrade to the last stable release."]]'."\n\n";
             }
             print OUT $parser->as_markdown;
             close OUT;
