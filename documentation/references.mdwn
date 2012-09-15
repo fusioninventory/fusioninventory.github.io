@@ -1,0 +1,32 @@
+# Reference documentation
+
+## fusioninventory-agent
+
+* [[2.1.x (oldstable)|documentation/references/agent/2.1.x/fusioninventory-agent]]
+* [[2.2.x (stable)|documentation/references/agent/2.2.x/fusioninventory-agent]]
+* [[2.3.x (dev)|documentation/references/agent/2.3.x/fusioninventory-agent]]
+* [[3.0.x (dev)|documentation/references/agent/3.0.x/fusioninventory-agent]]
+
+## fusioninventory-injector
+
+* [[2.1.x (oldstable)|documentation/references/agent/2.1.x/fusioninventory-injector]]
+* [[2.2.x (stable)|documentation/references/agent/2.2.x/fusioninventory-injector]]
+* [[2.3.x (dev)|documentation/references/agent/2.3.x/fusioninventory-injector]]
+* [[3.0.x (dev)|documentation/references/agent/3.0.x/fusioninventory-injector]]
+
+## fusioninventory-inventory
+
+* [[2.3.x (dev)|documentation/references/agent/2.3.x/fusioninventory-inventory]]
+* [[3.0.x (dev)|documentation/references/agent/3.0.x/fusioninventory-inventory]]
+
+## fusioninventory-esx
+
+* [[2.x (stable)|documentation/references/agent-task-esx/2.x/fusioninventory-esx]]
+
+## fusioninventory-netdiscovery
+
+* [[1.0.x (stable)|documentation/references/agent-task-network/1.0.x/fusioninventory-netdiscovery]]
+
+## fusioninventory-netinventory
+
+* [[1.0.x (stable)|documentation/references/agent-task-network/1.0.x/fusioninventory-netinventory]]
