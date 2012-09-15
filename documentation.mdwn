@@ -4,10 +4,11 @@
 * [[Configuration|documentation/agent/configuration]]
 * [[Usage|documentation/agent/usage]]
 * [[Report bug|documentation/agent/bugreport]]
+* [[References documentation|documentation/references]]
 
 ## Agent Features
 
-* [[Network|documentation/agent/task-network]]
+* [[Report bug|documentation/agent/bugreport]]
 
 # FusionInventory for GLPI
 
