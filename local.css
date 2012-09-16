@@ -49,17 +49,7 @@ h3, h4, h5, h6 {
 #searchform {
   position: absolute;
   top: 0.5em;
-  right: 2em;
-  visibility: hidden;
-  }
-
-#parentlinks {
-  position: absolute;
-  top: 0.5em;
-  right: 2em;
-  visibility: hidden;
-  z-index: 6;
-  }
+  right: 2em; }
 
 input#searchbox {
   border: none;
@@ -80,9 +70,7 @@ input#searchbox {
   bottom: 0;
   right: 2em;
   width: 100%;
-  text-align: right;
-  z-index: 1;
-  }
+  text-align: right; }
 
 .pageheader .actions ul {
   border-style: none; }
