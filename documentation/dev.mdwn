@@ -4,4 +4,4 @@
 
 # Get the sources
 
-* [[Git|documentation/dev/git]]
+* [[Git (UNIX)|documentation/dev/git_unix]]
