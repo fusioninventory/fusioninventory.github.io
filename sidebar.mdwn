@@ -3,3 +3,5 @@
 * [[Screenshots|screenshots]]
 * [[Documentation|documentation]]
 * [[Resources|resources]]
+
+[[GET FUSIONINVENTORY|get]]
