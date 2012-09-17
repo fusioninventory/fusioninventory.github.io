@@ -13,7 +13,7 @@
 You can also install FusionInventory from source:
 
 * [[Source|documentation/agent/installation/source]]
-* [[Git|documentation/dev/git]]
+* Git: [[UNIX|documentation/agent/dev/git_unix]], [[Windows|documentation/agent/dev/git_windows]]
 
 
 ## Server
