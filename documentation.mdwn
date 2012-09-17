@@ -23,6 +23,7 @@
 # Troubleshooting
 
 * [[My computer does not show up in GLPI|documentation/troubleshooting/inventory-in-glpi]]
+* [[FAQ|documentation/faq]]
 
 # Advanced topics
 

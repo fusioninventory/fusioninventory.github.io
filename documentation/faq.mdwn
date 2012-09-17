@@ -1,0 +1,9 @@
+# FAQ
+
+## Tasks are not enabled
+
+    Task NetInventory is not enabled
+    Task NetDiscovery is not enabled
+
+These messages show up in the agent log when the server do not ask for an Network
+Discovery or a Network Inventory.
