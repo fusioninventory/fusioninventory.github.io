@@ -79,4 +79,4 @@ If you upgrade the agent with FusionInventory Deploy and the agent is launched w
 
 # Installation from sources
 
-If you are an developer, or an advanced user, you can also install FusionInventory [[from sources|documentation/agent/installation/windows/from_sources]].
+If you are an developer, or an advanced user, you can also install FusionInventory [[from sources|documentation/agent/dev/git_windows]].
