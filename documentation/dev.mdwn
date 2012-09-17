@@ -4,4 +4,5 @@
 
 # Get the sources
 
-* [[Git (UNIX)|documentation/dev/git_unix]]
+* [[Source|documentation/agent/installation/source]]
+* Git: [[UNIX|documentation/agent/dev/git_unix]], [[Windows|documentation/agent/dev/git_windows]]
