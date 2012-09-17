@@ -1,3 +1,7 @@
 # Agent specific
 
 * [[Release process|documentation/agent/dev/release_process]]
+
+# Get the sources
+
+* [[Git|documentation/dev/git]]

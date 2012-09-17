@@ -1,0 +1,21 @@
+# Get FusionInventory
+
+## Agent
+
+* [[Windows|documentation/agent/installation/windows]]
+* [[Linux|documentation/agent/installation/linux]]
+* [[MacOSX|documentation/agent/installation/macosx]]
+* [[Solaris|documentation/agent/installation/solaris]]
+* [[AIX|documentation/agent/installation/aix]]
+* [[HP-UX|documentation/agent/installation/hpux]]
+* [[*BSD|documentation/agent/installation/bsd]]
+
+You can also install FusionInventory from source:
+
+* [[Source|documentation/agent/installation/source]]
+* [[Git|documentation/dev/git]]
+
+
+## Server
+
+* [[FusionInventory for GLPI|documentation/fi4g/installation]]
