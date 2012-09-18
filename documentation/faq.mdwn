@@ -8,7 +8,7 @@
 These messages show up in the agent log when the server do not ask for an Network
 Discovery or a Network Inventory.
 
-## How to redirect OCS agent in FusionInventory
+## How to redirect OCS agent with Apache
 
 You can use an [alias](http://httpd.apache.org/docs/2.2/mod/mod_alias.html) directive to
 redirect traffic from /ocsinventory to FusionInventory.
@@ -16,5 +16,20 @@ redirect traffic from /ocsinventory to FusionInventory.
     Alias /ocsinventory "/var/www/html/glpi/plugins/fusioninventory/front/communication.php"
 
 Take care to declare this directive before an `Alias / XXX` or it will be ignored.
+
+For example:
+
+    Alias /ocsinventory "/var/www/html/glpi/plugins/fusioninventory/front/communication.php"
+    Alias / /var/www/html/glpi/
+    
+    <Directory /var/www/html/glpi>
+        Options None
+        AllowOverride Limit Options FileInfo
+    
+        php_value memory_limit 256M
+    
+        Order Deny,Allow
+        Allow from all
+    </Directory>
 
 It's also possible to use a regular expression for that.
