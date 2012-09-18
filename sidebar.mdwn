@@ -1,7 +1,7 @@
-# [[GET FUSIONINVENTORY|get]]
-
 * [[News|index]]
 * [[Overview|overview]]
 * [[Screenshots|screenshots]]
 * [[Documentation|documentation]]
 * [[Resources|resources]]
+
+# [[GET FUSIONINVENTORY|get]]
