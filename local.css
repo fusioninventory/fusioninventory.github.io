@@ -73,7 +73,10 @@ input#searchbox {
   text-align: right; }
 
 .pageheader .actions ul {
-  border-style: none; }
+  border-style: none;
+  font-size: 50%;
+  
+  }
 
 .actions ul {
   padding: 1em;
@@ -422,6 +425,7 @@ img.img {
 }
 
 #searchform {
+        visibility: hidden;
 	display: inline;
 	float: right;
 }
