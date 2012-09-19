@@ -30,7 +30,9 @@ special account
 convert or generate Markdown
 from different formats (HTML, ODT, DOC, etc).
 
-## We are looking for people willing to help us for the documentation_
+The website is hosted at [Branchable.com](http://www.branchable.com/).
+
+## We are looking for people willing to help us for the documentation
 
 * You made a tutorial for your company and want to share it.
 * You want to fix some issues with the current documentation.
