@@ -5,7 +5,7 @@ Last week, FusionInventory.org website has been migrated from
 
 ## Why
 
-Some years ago, we decided to use DITA XML for documentation and
+Some years ago, we decided to use [DITA XML](http://en.wikipedia.org/wiki/Darwin_Information_Typing_Architecture) for documentation and
 [Wordpress](http://www.wordpress.org) for the Website. DITA is to complex for us
 without major benefit (tool chain, hard to translate, require an XML editor for most of
 the humain).
