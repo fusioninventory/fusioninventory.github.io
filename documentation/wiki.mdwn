@@ -19,7 +19,7 @@ This site is version controlled using [Git](http://git-scm.com/). Anyone can acc
 
 Users with configured ssh keys can modify the git repository:
 
-    git clone ssh://b-fusioninventory@fusioninventory.branchable.com/ fusioninventory.org
+    git clone ssh://b-fusioninventory@fusioninventory.org/ fusioninventory.org
 
 # Directory structure
 
