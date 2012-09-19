@@ -1,0 +1,27 @@
+[[!meta  date="2012-09-19"]]
+
+Last week, FusionInventory.org website has been migrated from
+[Wordpress](http://www.wordpress.com) to [Ikiwiki](http://www.ikiwiki.info).
+
+Some year ago, we decide to use DITA XML for documentation and
+[Wordpress](http://www.wordpress.org) for the Website. DITA is to complex for us
+without major benefit (complex tool chain, hard to translate, require an XML editor).
+Wordpress is a great product, but we were using it only to publish static page time to
+time.
+
+So we decide to change the situation to be able to provide an up to date documentation
+directly on the website. For this, we are very happy with Ikiwiki:
+
+* We can maintain the documentation directly with Git and a text editor
+* Anyone can update documentation/* pages from the Web without any special account
+* The [[Markdown syntax|ikiwiki/formatting]] is simple enough
+* Tools like [pandoc](http://johnmacfarlane.net/pandoc/) exist to convert or generate Markdown
+from different formats (HTML, ODT, DOC, etc).
+
+_We are looking for people willing to help us for the documentation_:
+
+* You did a tutorial for your company and want to share it.
+* You want to fix some issues with the current documentation.
+* You are a translator?
+
+Please [[contact us|resources]]!
