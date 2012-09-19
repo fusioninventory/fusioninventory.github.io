@@ -4,4 +4,4 @@
 * [[Documentation|documentation]]
 * [[Resources|resources]]
 
-# [[GET FUSIONINVENTORY|get]]
+# [[<i class="icon-download-alt"></i>GET FUSIONINVENTORY|get]]
