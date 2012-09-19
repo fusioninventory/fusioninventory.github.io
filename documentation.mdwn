@@ -5,6 +5,7 @@
 * [[Usage|documentation/agent/usage]]
 * [[Report bug|documentation/agent/bugreport]]
 * [[References documentation|documentation/references]]
+* [[Network less inventory|documentation/agent/network_less]]
 
 ## Agent Features
 
