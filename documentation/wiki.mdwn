@@ -15,11 +15,11 @@ This site is hosted by [Branchable](http://www.branchable.com).
 
 This site is version controlled using [Git](http://git-scm.com/). Anyone can access its anonymous git repository:
 
-    git clone git://fusioninventory.branchable.com/
+    git clone git://fusioninventory.org/
 
 Users with configured ssh keys can modify the git repository:
 
-    git clone ssh://b-fusioninventory@fusioninventory.branchable.com/ fusioninventory.branchable.com
+    git clone ssh://b-fusioninventory@fusioninventory.branchable.com/ fusioninventory.org
 
 # Directory structure
 
