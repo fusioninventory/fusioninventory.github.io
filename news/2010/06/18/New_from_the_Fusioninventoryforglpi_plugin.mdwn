@@ -1,5 +1,5 @@
 [[!meta  date="2010-06-18 09:00:32"]]
-# New from the Fusioninventory-for-glpi plugin
+
 
 We're working hard to split the  FusionInventoroy For GLPI plugin (for GLPI 0.78) in serveral plugins. It'll be easier to maintain and become possible to write additionnal modules.
 

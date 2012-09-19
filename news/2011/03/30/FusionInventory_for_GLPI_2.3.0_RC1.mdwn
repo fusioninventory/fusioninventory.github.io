@@ -1,5 +1,5 @@
 [[!meta  date="2011-03-30 23:45:52"]]
-# FusionInventory for GLPI 2.3.0 RC1
+
 
 After 8 month of development and 4 beta version, the FusionInventory team is happy to announce the first release candidate of the FusionInventory for GLPI 2.3.0 plugin.
 

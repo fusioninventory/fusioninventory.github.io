@@ -1,5 +1,5 @@
 [[!meta  date="2011-02-11 13:13:57"]]
-# FusionInventory for GLPI in BETA1
+
 
 Dear FusionInventory users !
 Good news : FusionInventory for GLPI is now in Beta 1 !

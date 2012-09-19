@@ -1,5 +1,5 @@
 [[!meta  date="2011-06-27 17:09:07"]]
-# FusionInventory Agent 2.1.9 released
+
 
 Hello FusionInventory users,
 

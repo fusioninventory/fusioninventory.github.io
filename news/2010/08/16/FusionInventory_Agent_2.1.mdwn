@@ -1,5 +1,5 @@
 [[!meta  date="2010-08-16 00:31:35"]]
-# FusionInventory Agent 2.1!
+
 
 <strong>This is the first release of FusionInventory Agent with Windows support!</strong>
 

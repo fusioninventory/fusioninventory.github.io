@@ -1,5 +1,5 @@
 [[!meta  date="2010-04-11 21:21:07"]]
-# Talk about Fusioninventory at Loadays
+
 
 There was a talk about Fusioninventory at Linux Open Administration Days (LOADAYS) in Antwerpen (Belgium), on 11/04/2020. Fabrice explained origins of the project, what it's currently possible to do with the agent and the associated tools, how to get the software, and why you should use the fusioninventory agent. You can find here the [slides of the talk](/news/2010/04/11/fusioninventory-at-loadays-2010.pdf). The room was full and we had a lot of interesting questions from the audience. Apart from this, Loadays was awesome, with a lot of presentations and side talks about configuration management databases, massive deployment. A great event for system administrators and devops!
 

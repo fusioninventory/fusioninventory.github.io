@@ -1,5 +1,5 @@
 [[!meta  date="2011-12-02 12:28:30"]]
-# EATON and FusionInventory
+
 
 [EATON](http://www.eaton.com/) sent us an Eaton 5PX to help us support it in FusionInventory.
 
