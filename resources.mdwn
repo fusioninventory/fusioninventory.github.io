@@ -34,6 +34,6 @@ by the FusionInventory team but by the users.
 If you want to report bugs or contract the developement team, please use the
 mailing lists or the bug tracker on the forge.
 
-## Partnaires
+## Partners
 
-A list of trusted companies is maintain on the [[partnaires]] page.
+A list of trusted companies is maintain on the [[partners]] page.

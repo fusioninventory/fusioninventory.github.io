@@ -1,6 +1,6 @@
-# Partnaires
+# Partners
 
-This page is a list of trusted partnaires. Those companies are know for being
+This page is a list of trusted partners. Those companies are know for being
 involved in FusionInventory developement and having a great knowledge of the
 product.
 
@@ -10,7 +10,7 @@ to drive a FusionInventory integration project from the very begining to its suc
 This list is open and if you believe your company deservice to be added, please
 [contact us](goneri@rulezlan.org).
 
-[[!template id=partnaire
+[[!template id=partner
   logo="siprossii.png"
   name="siprossii"
   location="Beaujeu – France"
@@ -24,7 +24,7 @@ This list is open and if you believe your company deservice to be added, please
   email="d.durieux@siprossii.com"
 ]]
 
-[[!template id=partnaire
+[[!template id=partner
   logo="teclib.png"
   name="TECLIB'"
   location="Paris, Chartres, Colmar, Montpellier, Caen – France"
@@ -38,7 +38,7 @@ This list is open and if you believe your company deservice to be added, please
   email="goneri@teclib.com"
 ]]
 
-[[!template id=partnaire
+[[!template id=partner
   logo="normation.png"
   name="Normation"
   location="Paris – France"
