@@ -409,11 +409,11 @@ img.img {
 	margin-top: 1em;
 }
 
-#searchform {
-/*         visibility: hidden;*/
+/*#searchform {
+        visibility: hidden;
 	display: inline;
 	float: right;
-}
+}*/
 
 #editcontent {
 	width: 98%;
