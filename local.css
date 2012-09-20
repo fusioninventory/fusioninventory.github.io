@@ -31,9 +31,7 @@ h3, h4, h5, h6 {
   font-size: 110%; }
 
 #searchform {
-  position: absolute;
-  top: 0.5em;
-  right: 2em;
+  visibility: hidden;
 }
 
 input#searchbox {
@@ -101,12 +99,10 @@ body {
 
 a {
   text-decoration: none;
-#  color: #f27f0d; 
 	color: #327fbd;
 }
 
 a:hover {
-#  color: #ad661f; 
 	color: #327fbd;
 	text-decoration: underline;
 }
@@ -172,12 +168,7 @@ label[for="editmessage"] {
 
 .inlineheader {
   font-size: 1.1em;
-#  border-top: 2px solid gray; 
 }
-
-/* Smaller headings for inline pages */
-#.inlinepage h1 {
-#  font-size: 1.1em; }
 
 .inlinepage h2 {
   font-size: 1.01em; }
@@ -339,9 +330,6 @@ nav {
 	display: inline;
 	padding: .2em;
 }
-#.pageheader .actions ul {
-#	border-bottom: 1px solid #000;
-#}
 
 .inlinepage .actions ul {
 	border-bottom: 0;
@@ -408,12 +396,6 @@ img.img {
 #backlinks {
 	margin-top: 1em;
 }
-
-/*#searchform {
-        visibility: hidden;
-	display: inline;
-	float: right;
-}*/
 
 #editcontent {
 	width: 98%;
@@ -495,7 +477,6 @@ div.recentchanges {
 .inlinepage {
 	padding: 10px 10px;
 	border: 1px solid #aaa;
-#	overflow: auto;
 	overflow: hidden;
 }
 
