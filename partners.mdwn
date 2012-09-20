@@ -8,7 +8,7 @@ Those companies are familiar with FusionInventory and GLPI deployment and able
 to drive a FusionInventory integration project from the very begining to its success.
 
 This list is open and if you believe your company deservice to be added, please
-[contact us](goneri@rulezlan.org).
+[contact us](mailto:goneri@rulezlan.org).
 
 [[!template id=partner
   logo="siprossii.png"

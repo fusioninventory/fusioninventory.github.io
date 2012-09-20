@@ -1,5 +1,5 @@
 [[!meta  date="2012-08-16"]]
-# FusionInventory Agent 2.2.5
+
 The FusionInventory Agent maintainers are glad to announce the 2.2.5 release.
 
 You can download the archive from [the forge](http://forge.fusioninventory.org/projects/fusioninventory-agent/files)

@@ -1,5 +1,5 @@
 [[!meta  date="2011-08-29 12:51:21"]]
-# Plugins FusionInventory 2.4.0 RC3 available
+
 
 We have released 2.4.0 RC3 version (so release in couple of days :) ).
 

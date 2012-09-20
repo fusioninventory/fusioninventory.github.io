@@ -1,5 +1,5 @@
 [[!meta  date="2011-09-13 16:35:24"]]
-# First release for FusionInventory Agent for Android
+
 
 The FusionInventory team is proud to announce the support of a new platform: Android.
 <h1>FusionInventory Agent for Android 1.0.1 is out!</h1>

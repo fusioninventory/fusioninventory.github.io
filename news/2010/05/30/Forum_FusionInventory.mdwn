@@ -1,5 +1,5 @@
 [[!meta  date="2010-05-30 04:12:22"]]
-# Forum FusionInventory
+
 
 The forum is now open at: <a title="http://forum.fusioninventory.org/" href="http://forum.fusioninventory.org/">http://forum.fusioninventory.org/</a>
 

@@ -1,5 +1,5 @@
 [[!meta  date="2010-02-18 08:40:44"]]
-# FusionInventory Agent 2.0beta2
+
 
 And the second release to fix SNMP/NetDiscovery issues :)
 

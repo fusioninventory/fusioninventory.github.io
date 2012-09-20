@@ -3,53 +3,36 @@
  *
  * by Danny Castonguay
  *********************************/
-/* # HSLA(hue, saturation, lightness,alpha)
- * ## hue
- * R:0, O:30, Y:60, G:115, cyan:180, B:220, I:260, V:280, pink:300
- * ## saturation
- * 0% is gray, 100% is pure color
- * ## lightness
- * 0% is black, 100% is white
- * ## alpha
- * 0% is opaque, 100% is transparent
- *  */
-/* variables copy pasted from the corporate website */
-.pageheader {
-#  position: relative;
-#  overflow: hidden;
-#  background: #404040;
-#  border-color: gray;
-#  border-style: none none solid none;
-#  border-width: 1px; }
+
 
 .pageheader .header {
-#  float: left; }
+  z-index: 19;
+
+}
 
 h1, h2, h3, h4, h5, h6 {
-#  font-weight: bold;
-#  color: gray; 
 	color: rgb(218,51,36);
 }
 
 .header {
-#  font-size: 200%; }
+  font-size: 110%;
+  }
 
 h1 {
   font-size: 24px;
   color: rgb(218, 51, 36);
-#  border-top: 5px solid gray; }
+}
 
 h2 {
   font-size: 130%;
-#  border-top: 2px solid gray; }
+}
 
 h3, h4, h5, h6 {
   font-size: 110%; }
 
 #searchform {
-  position: absolute;
-  top: 0.5em;
-  right: 2em; }
+  visibility: hidden;
+}
 
 input#searchbox {
   border: none;
@@ -116,12 +99,10 @@ body {
 
 a {
   text-decoration: none;
-#  color: #f27f0d; 
 	color: #327fbd;
 }
 
 a:hover {
-#  color: #ad661f; 
 	color: #327fbd;
 	text-decoration: underline;
 }
@@ -187,12 +168,7 @@ label[for="editmessage"] {
 
 .inlineheader {
   font-size: 1.1em;
-#  border-top: 2px solid gray; 
 }
-
-/* Smaller headings for inline pages */
-#.inlinepage h1 {
-#  font-size: 1.1em; }
 
 .inlinepage h2 {
   font-size: 1.01em; }
@@ -329,7 +305,7 @@ nav {
 .header {
         width: 980px;
         text-align: left;
-        height: 20px;
+        height: 30px;
         position: relative;
         padding: 0;
         margin: 0;
@@ -354,9 +330,6 @@ nav {
 	display: inline;
 	padding: .2em;
 }
-#.pageheader .actions ul {
-#	border-bottom: 1px solid #000;
-#}
 
 .inlinepage .actions ul {
 	border-bottom: 0;
@@ -422,12 +395,6 @@ img.img {
 
 #backlinks {
 	margin-top: 1em;
-}
-
-#searchform {
-        visibility: hidden;
-	display: inline;
-	float: right;
 }
 
 #editcontent {
@@ -510,7 +477,6 @@ div.recentchanges {
 .inlinepage {
 	padding: 10px 10px;
 	border: 1px solid #aaa;
-#	overflow: auto;
 	overflow: hidden;
 }
 

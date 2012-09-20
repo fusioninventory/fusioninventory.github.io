@@ -1,5 +1,5 @@
 [[!meta  date="2010-09-14 21:23:17"]]
-# See us at FrOSCamp in Zürich
+
 
 Most of the team will be at [FrOSCamp](http://fusioninventory.org/wordpress/wp-admin/post.php?action=edit&amp;post=616) in Zürich. We will share a booth with [GLPI](http://www.glpi-project.org) during the event.
 

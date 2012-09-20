@@ -1,4 +1,4 @@
 [[!meta  date="2010-04-11 00:42:40"]]
-# fusioninventory-agent - FusionInventory 2.0.3
+
 
 This release fix a breakage with the 2.0.2.

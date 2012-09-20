@@ -1,5 +1,5 @@
 [[!meta  date="2010-09-15 00:33:10"]]
-# FusionInventory Agent 2.1.4
+
 
 Hi,
 

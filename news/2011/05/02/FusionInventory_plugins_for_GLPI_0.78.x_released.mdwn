@@ -1,5 +1,5 @@
 [[!meta  date="2011-05-02 16:04:03"]]
-# FusionInventory plugins for GLPI 0.78.x released!
+
 
 The FusionInventory plugins for GLPI 0.78.x are now available!
 

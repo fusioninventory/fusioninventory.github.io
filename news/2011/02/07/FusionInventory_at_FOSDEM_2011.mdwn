@@ -1,5 +1,5 @@
 [[!meta  date="2011-02-07 13:14:29"]]
-# FusionInventory at FOSDEM 2011
+
 
 Most of the project's european contributors and developers where present at FOSDEM 2011 in Brussels, Belgium. We had very interesting talks about the future of the project.
 Gonéri le Bouder and Walid Nouh did a talk in the Configuration management devroom, and for the first time demonstrate direct inventory into GLPI using FusionInventory for GLPI 2.3.0 : we had a lot of questions, and people were interesting in the project.

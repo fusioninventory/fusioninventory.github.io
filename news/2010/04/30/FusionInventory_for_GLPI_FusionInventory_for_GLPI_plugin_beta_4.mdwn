@@ -1,5 +1,5 @@
 [[!meta  date="2010-04-30 00:33:36"]]
-# FusionInventory for GLPI - FusionInventory for GLPI plugin beta 4
+
 
 New beta version with a lot of fixes.
 

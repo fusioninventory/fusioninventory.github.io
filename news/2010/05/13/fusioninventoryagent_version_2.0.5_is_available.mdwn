@@ -1,5 +1,5 @@
 [[!meta  date="2010-05-13 17:42:59"]]
-# fusioninventory-agent : version 2.0.5 is available
+
 
 This is a maintenance release.
 
