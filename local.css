@@ -3,31 +3,14 @@
  *
  * by Danny Castonguay
  *********************************/
-/* # HSLA(hue, saturation, lightness,alpha)
- * ## hue
- * R:0, O:30, Y:60, G:115, cyan:180, B:220, I:260, V:280, pink:300
- * ## saturation
- * 0% is gray, 100% is pure color
- * ## lightness
- * 0% is black, 100% is white
- * ## alpha
- * 0% is opaque, 100% is transparent
- *  */
-/* variables copy pasted from the corporate website */
-.pageheader {
-#  position: relative;
-#  overflow: hidden;
-#  background: #404040;
-#  border-color: gray;
-#  border-style: none none solid none;
-#  border-width: 1px; }
+
 
 .pageheader .header {
-#  float: left; }
+  z-index: 19;
+
+}
 
 h1, h2, h3, h4, h5, h6 {
-#  font-weight: bold;
-#  color: gray; 
 	color: rgb(218,51,36);
 }
 
@@ -38,11 +21,11 @@ h1, h2, h3, h4, h5, h6 {
 h1 {
   font-size: 24px;
   color: rgb(218, 51, 36);
-#  border-top: 5px solid gray; }
+}
 
 h2 {
   font-size: 130%;
-#  border-top: 2px solid gray; }
+}
 
 h3, h4, h5, h6 {
   font-size: 110%; }
@@ -50,7 +33,8 @@ h3, h4, h5, h6 {
 #searchform {
   position: absolute;
   top: 0.5em;
-  right: 2em; }
+  right: 2em;
+}
 
 input#searchbox {
   border: none;
@@ -426,7 +410,7 @@ img.img {
 }
 
 #searchform {
-        visibility: hidden;
+/*         visibility: hidden;*/
 	display: inline;
 	float: right;
 }
