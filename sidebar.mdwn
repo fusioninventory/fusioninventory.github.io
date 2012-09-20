@@ -1,7 +1,7 @@
 * [[News|index]]
 * [[Overview|overview]]
-* [[Screenshots|screenshots]]
-* [[Documentation|documentation]]
+* [[<i class="icon-picture"></i> Screenshots|screenshots]]
+* [[<i class="icon-book"></i> Documentation|documentation]]
 * [[Resources|resources]]
 
-# [[<i class="icon-download-alt"></i>GET FUSIONINVENTORY|get]]
+# [[<i class="icon-download-alt"></i> GET FUSIONINVENTORY|get]]
