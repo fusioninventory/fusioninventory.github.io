@@ -1,5 +1,5 @@
-* [[News|index]]
-* [[Overview|overview]]
+* [[<i class="icon-comment"></i> News|index]]
+* [[<i class="icon-info-sign"></i> Overview|overview]]
 * [[<i class="icon-picture"></i> Screenshots|screenshots]]
 * [[<i class="icon-book"></i> Documentation|documentation]]
 * [[Resources|resources]]
