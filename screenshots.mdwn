@@ -1,10 +1,25 @@
+## FusionInventory for GLPI
+
 [[!img screenshots/fusioninventory-storages.png size="200x200" alt="clouds"]]
-[[!img screenshots/agent-300x230.png size="200x200" alt="clouds"]]
 [[!img screenshots/fusioninventory-detail-300x146.png size="200x200" alt="clouds"]]
 [[!img screenshots/fusioninventory-hardware-300x146.png size="200x200" alt="clouds"]]
+
+## Agent
+[[!img screenshots/installer.png size="200x200" alt="clouds"]]
+[[!img screenshots/agent-300x230.png size="200x200" alt="clouds"]]
+
+## OCS Inventory 
+
+An example of Cyrillic content FusionInventory Agent with OCS Inventory:
+
+[[!img screenshots/ocsreport-cyrillic-290x300.png size="200x200" alt="clouds"]]
+
+## Uranos
+
+[Uranos](http://uranos.sourceforge.net/www/index.php?loadsub=quwiki&func=wiki&type=index) is another
+server that support FusionInventory Agent.
+
 [[!img screenshots/308.png size="200x200" alt="clouds"]]
 [[!img screenshots/309.png size="200x200" alt="clouds"]]
-[[!img screenshots/installer.png size="200x200" alt="clouds"]]
-[[!img screenshots/ocsreport-cyrillic-290x300.png size="200x200" alt="clouds"]]
 [[!img screenshots/299.png size="200x200" alt="clouds"]]
 
