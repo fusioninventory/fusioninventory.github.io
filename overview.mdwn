@@ -10,6 +10,7 @@ For now, these class of devices are supported:
 * Network devices
 * Printers
 * Virtual machines
+* Android phone
 
 ## Virtual machines inventory
 
