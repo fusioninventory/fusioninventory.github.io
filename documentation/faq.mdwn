@@ -33,3 +33,13 @@ For example:
     </Directory>
 
 It's also possible to use a regular expression for that.
+
+## I get *Unable to find agent to run this job* message
+
+You will get *Unable to find agent to run this job* message when the server can't find an agent
+to run a task in push mode:
+
+* Ensure an agent is running as service or daemon
+* The server can contact http://$agentIP:62354 directly
+* Check in http://glpi/plugins/fusioninventory/front/agent.php if the agent has *Network discovery*
+  and *Network inventory (SNMP)* modules turned on
