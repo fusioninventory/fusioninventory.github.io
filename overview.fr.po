@@ -38,11 +38,11 @@ msgid "For now, these class of devices are supported:"
 msgstr ""
 
 #. type: Bullet: '* '
-msgid "Computers"
+msgid "Ordinateurs"
 msgstr ""
 
 #. type: Bullet: '* '
-msgid "Network devices"
+msgid "Equipements réseaux"
 msgstr ""
 
 #. type: Bullet: '* '
