@@ -1,0 +1,102 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2012-09-21 12:35+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. type: Plain text
+#, no-wrap
+msgid "[[!meta  date=\"2011-03-30 23:45:52\"]]\n"
+msgstr ""
+
+#. type: Plain text
+msgid ""
+"After 8 month of development and 4 beta version, the FusionInventory team is "
+"happy to announce the first release candidate of the FusionInventory for "
+"GLPI 2.3.0 plugin."
+msgstr ""
+
+#. type: Plain text
+msgid "It is a major step for the project."
+msgstr ""
+
+#. type: Plain text
+msgid "Communcation :"
+msgstr ""
+
+#. type: Bullet: '* '
+msgid "compatible with GLPI 0.78.x"
+msgstr ""
+
+#. type: Bullet: '* '
+msgid ""
+"new tasks management : ability to schedule tasks and split jobs between "
+"agents"
+msgstr ""
+
+#. type: Bullet: '* '
+msgid "wake agent up when needed"
+msgstr ""
+
+#. type: Bullet: '* '
+msgid "wake on lan (WOL)"
+msgstr ""
+
+#. type: Plain text
+msgid "Network inventory improvements :"
+msgstr ""
+
+#. type: Bullet: '* '
+msgid "improve SNMP capabilities : detection using netbios, nmap and snmp"
+msgstr ""
+
+#. type: Bullet: '* '
+msgid "more than 1300 network devices supported in SNMP"
+msgstr ""
+
+#. type: Bullet: '* '
+msgid ""
+"full support for HP ProCurve, Cisco and Nortel switches (inventory and "
+"devices connected on each port)"
+msgstr ""
+
+#. type: Plain text
+msgid "Local inventory :"
+msgstr ""
+
+#. type: Bullet: '* '
+msgid "inventory into GLPI : no need to use an external inventory server anymore"
+msgstr ""
+
+#. type: Bullet: '* '
+msgid "antivirus inventory on Windows workstations (from Windows XP to Windows 7)"
+msgstr ""
+
+#. type: Plain text
+msgid "Don't hesistate to test it and reports bugs !"
+msgstr ""
+
+#. type: Plain text
+msgid ""
+"To download it : "
+"﻿﻿[http://forge.fusioninventory.org/projects/fusioninventory-for-glpi/files](http://forge.fusioninventory.org/projects/fusioninventory-for-glpi/files)"
+msgstr ""
+
+#. type: Plain text
+msgid ""
+"In the meantime, version 2.4.0 for GLPI 0.80 RC1 is in beta stage and  also "
+"brings virtual machine managements into GLPI  (VMware ESX/ESXI/vCenter "
+"inventory will come soon)."
+msgstr ""

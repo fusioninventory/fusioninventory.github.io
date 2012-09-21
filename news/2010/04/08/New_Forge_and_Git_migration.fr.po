@@ -1,0 +1,71 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2012-09-21 12:35+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. type: Plain text
+#, no-wrap
+msgid "[[!meta  date=\"2010-04-08 23:52:06\"]]\n"
+msgstr ""
+
+#. type: Plain text
+msgid "Hi,"
+msgstr ""
+
+#. type: Plain text
+#, no-wrap
+msgid ""
+"Thanks to David Durieux effort, the project is now hosted on a Redmine "
+"Forge:\n"
+"<a title=\"Forge FusionInventory\" href=\"http://Forge.FusionInventory.org\" "
+"target=\"_blank\">http://Forge.FusionInventory.org</a>\n"
+msgstr ""
+
+#. type: Plain text
+msgid "We're still working on the bug and the feature request migration."
+msgstr ""
+
+#. type: Plain text
+msgid "We will then turn these options off on our LaunchPad project."
+msgstr ""
+
+#. type: Plain text
+msgid ""
+"We also decide to migrate the Bzr repositories to Git for various "
+"reasons. Bzr repository format uses to be changed in a incompatible way by "
+"Bzr maintainers. Unlike Mercurial, Bzr repository format can't also be "
+"export/import in Git/Hg format without a mapping file. Because of that It's "
+"very hard to work with Mercurial or Git on a Bzr repository."
+msgstr ""
+
+#. type: Plain text
+msgid ""
+"Now our repositories are in Git format, depending on what people needs, we "
+"can provide public Gateway to Mercurial or Bzr. Even svn through Github! "
+"([http://github.com/blog/626-announcing-svn-support](http://github.com/blog/626-announcing-svn-support))"
+msgstr ""
+
+#. type: Plain text
+msgid ""
+"Gitorious (which is based on FreeSoftware!): "
+"[http://www.gitorious.net/fusioninventory](http://www.gitorious.net/fusioninventory)"
+msgstr ""
+
+#. type: Plain text
+msgid ""
+"GitHub (which is not 100% free): [http://github.com/fusinv "
+"](http://github.com/fusinv)  Fork us! It's easy!"
+msgstr ""

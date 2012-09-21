@@ -1,0 +1,67 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2012-09-21 12:35+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. type: Plain text
+#, no-wrap
+msgid "[[!meta  date=\"2011-08-29 12:51:21\"]]\n"
+msgstr ""
+
+#. type: Plain text
+msgid "We have released 2.4.0 RC3 version (so release in couple of days :) )."
+msgstr ""
+
+#. type: Plain text
+msgid "We have fixed many minor and big bugs and we ask users to test :"
+msgstr ""
+
+#. type: Bullet: '* '
+msgid "Task scheduler / management"
+msgstr ""
+
+#. type: Bullet: '* '
+msgid "Rules for import devices"
+msgstr ""
+
+#. type: Bullet: '* '
+msgid "Wizard"
+msgstr ""
+
+#. type: Plain text
+msgid ""
+"These 3 parts will be modified and require more test before the 2.4.0 "
+"release (all unit test pass but perhaps we have forgotten something to test "
+":p)."
+msgstr ""
+
+#. type: Plain text
+msgid "Thanks you to users reports bugs."
+msgstr ""
+
+#. type: Plain text
+msgid ""
+"Don't forget to help to translate online : "
+"[https://www.transifex.net/projects/p/FusionInventory/](https://www.transifex.net/projects/p/FusionInventory/)"
+msgstr ""
+
+#. type: Plain text
+#, no-wrap
+msgid ""
+"You can download 2.4.0 RC3 Version for GLPI 0.80.x <a "
+"href=\"http://forge.fusioninventory.org/attachments/download/447/fusioninventory-for-glpi-metapackage_2.4.0-RC3.tar.gz\" "
+"target=\"_blank\">here</a>.\n"
+msgstr ""

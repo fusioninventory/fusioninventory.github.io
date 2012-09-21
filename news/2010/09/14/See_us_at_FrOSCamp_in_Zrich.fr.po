@@ -1,0 +1,52 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2012-09-21 12:35+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. type: Plain text
+#, no-wrap
+msgid "[[!meta  date=\"2010-09-14 21:23:17\"]]\n"
+msgstr ""
+
+#. type: Plain text
+msgid ""
+"Most of the team will be at "
+"[FrOSCamp](http://fusioninventory.org/wordpress/wp-admin/post.php?action=edit&amp;post=616) "
+"in Zürich. We will share a booth with [GLPI](http://www.glpi-project.org) "
+"during the event."
+msgstr ""
+
+#. type: Plain text
+msgid ""
+"Please check on the [exhibitor "
+"map](http://wiki.froscamp.org/images/7/73/Exhibition.png) our booth's "
+"location or just find the place where people speak french."
+msgstr ""
+
+#. type: Plain text
+#, no-wrap
+msgid ""
+"<a href=\"/news/2010/09/14/FrOSCamp.png\"><img class=\"aligncenter "
+"size-medium wp-image-617\" title=\"FrOSCamp\" "
+"src=\"/news/2010/09/14/FrOSCamp-253x300.png\" alt=\"\" width=\"253\" "
+"height=\"300\" /></a>\n"
+msgstr ""
+
+#. type: Plain text
+msgid ""
+"A talk is scheduled Friday at 4pm. We will publish the slides as soon as "
+"possible."
+msgstr ""

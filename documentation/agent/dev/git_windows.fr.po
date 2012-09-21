@@ -1,0 +1,139 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2012-09-21 12:35+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. type: Title #
+#, no-wrap
+msgid "How to setup a FusionInventory Agent on Windows from sources"
+msgstr ""
+
+#. type: Title #
+#, no-wrap
+msgid "Get Perl"
+msgstr ""
+
+#. type: Plain text
+msgid ""
+"Download the latest version of [Strawberry Perl](http://strawberryperl.com/) "
+"and install it."
+msgstr ""
+
+#. type: Title #
+#, no-wrap
+msgid "Install the additional perl modules"
+msgstr ""
+
+#. type: Plain text
+msgid ""
+"Launch Perl command line (from Windows Start Menu) and launch CPAN plus "
+"shell: cpanp"
+msgstr ""
+
+#. type: Plain text
+#, no-wrap
+msgid "[[!img documentation/agent/installation/windows/from_sources-1.png]]\n"
+msgstr ""
+
+#. type: Plain text
+#, no-wrap
+msgid "Install the following perl modules: `install <module>`\n"
+msgstr ""
+
+#. type: Bullet: '* '
+msgid "XML::TreePP"
+msgstr ""
+
+#. type: Bullet: '* '
+msgid "UNIVERSAL::require"
+msgstr ""
+
+#. type: Bullet: '* '
+msgid "File::Which"
+msgstr ""
+
+#. type: Bullet: '* '
+msgid "Text::Template"
+msgstr ""
+
+#. type: Plain text
+#, no-wrap
+msgid "[[!img documentation/agent/installation/windows/from_sources-2.png]]\n"
+msgstr ""
+
+#. type: Title #
+#, no-wrap
+msgid "Install the agent"
+msgstr ""
+
+#. type: Title ##
+#, no-wrap
+msgid "From source tarball"
+msgstr ""
+
+#. type: Plain text
+msgid ""
+"You can download latest git content as a [.zip file from "
+"github](https://github.com/fusinv/fusioninventory-agent/downloads) web "
+"interface."
+msgstr ""
+
+#. type: Title ##
+#, no-wrap
+msgid "From git repository"
+msgstr ""
+
+#. type: Plain text
+msgid ""
+"Download the latest version of MSysGit, and install it. Clone the git "
+"repository:"
+msgstr ""
+
+#. type: Bullet: '* '
+msgid "Launch git GUI (from Windows Start Menu)"
+msgstr ""
+
+#. type: Bullet: '* '
+msgid "select *clone an existing repository*"
+msgstr ""
+
+#. type: Bullet: '* '
+msgid "use *git://github.com/fusinv/fusioninventory-agent.git* as source URL"
+msgstr ""
+
+#. type: Bullet: '* '
+msgid "use any directory as target directory"
+msgstr ""
+
+#. type: Bullet: '* '
+msgid "click \"clone\" button"
+msgstr ""
+
+#. type: Title #
+#, no-wrap
+msgid "Running the agent"
+msgstr ""
+
+#. type: Plain text
+msgid ""
+"Open Windows commande line and go to the directory when agent's sources are "
+"located run the agent:"
+msgstr ""
+
+#. type: Plain text
+#, no-wrap
+msgid "     perl fusioninventory-agent --stdout\n"
+msgstr ""
