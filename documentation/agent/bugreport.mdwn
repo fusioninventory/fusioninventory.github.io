@@ -48,3 +48,4 @@ If you need to provide additional command output samples, here are a few importa
 * always run command under non-localized environment (`LC_ALL=C` under unix systems)
 * windows WMI queries can be exported with `wmic` tool
 * windows registry content can be exported with regedit tool
+* We may also request a dmidecode output ([[dmidecode On Windows|documentation/agent/bugreport/dmidecode_on_windows]])
