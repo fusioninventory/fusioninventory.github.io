@@ -42,8 +42,8 @@ msgid "Computers"
 msgstr "Ordinateurs"
 
 #. type: Bullet: '* '
-msgid "Equipements réseaux"
-msgstr ""
+msgid "Network devices"
+msgstr "Equipements réseaux"
 
 #. type: Bullet: '* '
 msgid "Printers"
