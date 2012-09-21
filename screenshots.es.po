@@ -1,0 +1,100 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2012-09-21 12:38+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. type: Title ##
+#, no-wrap
+msgid "FusionInventory for GLPI"
+msgstr ""
+
+#. type: Plain text
+#, no-wrap
+msgid "[[!img screenshots/308.png size=\"200x200\" alt=\"clouds\"]]\n"
+msgstr ""
+
+#. type: Plain text
+#, no-wrap
+msgid "[[!img screenshots/309.png size=\"200x200\" alt=\"clouds\"]]\n"
+msgstr ""
+
+#. type: Plain text
+#, no-wrap
+msgid "[[!img screenshots/299.png size=\"200x200\" alt=\"clouds\"]]\n"
+msgstr ""
+
+#. type: Title ##
+#, no-wrap
+msgid "Agent"
+msgstr ""
+
+#. type: Plain text
+#, no-wrap
+msgid "[[!img screenshots/installer.png size=\"200x200\" alt=\"clouds\"]]\n"
+msgstr ""
+
+#. type: Plain text
+#, no-wrap
+msgid "[[!img screenshots/agent-300x230.png size=\"200x200\" alt=\"clouds\"]]\n"
+msgstr ""
+
+#. type: Title ##
+#, no-wrap
+msgid "OCS Inventory "
+msgstr ""
+
+#. type: Plain text
+msgid "An example of Cyrillic content FusionInventory Agent with OCS Inventory:"
+msgstr ""
+
+#. type: Plain text
+#, no-wrap
+msgid ""
+"[[!img screenshots/ocsreport-cyrillic-290x300.png size=\"200x200\" "
+"alt=\"clouds\"]]\n"
+msgstr ""
+
+#. type: Title ##
+#, no-wrap
+msgid "Uranos"
+msgstr ""
+
+#. type: Plain text
+msgid ""
+"[Uranos](http://uranos.sourceforge.net/www/index.php?loadsub=quwiki&func=wiki&type=index) "
+"is another server that support FusionInventory Agent."
+msgstr ""
+
+#. type: Plain text
+#, no-wrap
+msgid ""
+"[[!img screenshots/fusioninventory-storages.png size=\"200x200\" "
+"alt=\"clouds\"]]\n"
+msgstr ""
+
+#. type: Plain text
+#, no-wrap
+msgid ""
+"[[!img screenshots/fusioninventory-detail-300x146.png size=\"200x200\" "
+"alt=\"clouds\"]]\n"
+msgstr ""
+
+#. type: Plain text
+#, no-wrap
+msgid ""
+"[[!img screenshots/fusioninventory-hardware-300x146.png size=\"200x200\" "
+"alt=\"clouds\"]]\n"
+msgstr ""

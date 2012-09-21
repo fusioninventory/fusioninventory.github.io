@@ -1,0 +1,40 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2012-09-21 12:38+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. type: Plain text
+#, no-wrap
+msgid "[[!meta  date=\"2011-02-25 14:15:29\"]]\n"
+msgstr ""
+
+#. type: Plain text
+#, no-wrap
+msgid ""
+"<p style=\"text-align: left;\">The FusionInventory team organize a meeting "
+"in Paris. This meeting is in french, and you need to confirm before coming "
+"(see the flyers below).</p>\n"
+"<p style=\"text-align: left;\">L'équipe de FusionInventory organise un "
+"meeting à Paris. <strong>Veuillez-nous confirmer votre venue suivant les "
+"instructions présentes dans le flyer ci-dessous.</strong></p>\n"
+"<p style=\"text-align: left;\">N'hésitez pas à apporter votre breuvage "
+"préféré pour le partager avec nous !</p>\n"
+"<p style=\"text-align: left;\"><a "
+"href=\"/news/2011/02/25/invitation-finale.jpg\"><img class=\"aligncenter "
+"size-medium wp-image-964\" title=\"FusionInventory meeting\" "
+"src=\"/news/2011/02/25/invitation-finale-300x219.jpg\" alt=\"\" "
+"width=\"300\" height=\"219\" /></a></p>\n"
+msgstr ""

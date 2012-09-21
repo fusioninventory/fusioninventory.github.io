@@ -1,0 +1,801 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2012-09-21 12:38+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. type: Title #
+#, no-wrap
+msgid "NAME"
+msgstr ""
+
+#. type: Plain text
+msgid ""
+"fusioninventory-agent - FusionInventory agent For Linux/UNIX, Windows and "
+"MacOSX"
+msgstr ""
+
+#. type: Title #
+#, no-wrap
+msgid "SYNOPSIS"
+msgstr ""
+
+#. type: Plain text
+msgid ""
+"__fusioninventory-agent__ \\[options\\] \\[--server server|--local "
+"directory|--sdout\\]"
+msgstr ""
+
+#. type: Plain text
+#, no-wrap
+msgid ""
+"    Target definition options\n"
+"      -s --server=URI     send tasks result to a server\n"
+"      -l --local=DIR      write tasks results in a directory\n"
+"      --stdout            write tasks result on STDOUT\n"
+msgstr ""
+
+#. type: Plain text
+#, no-wrap
+msgid ""
+"    Target scheduling options\n"
+"      --delaytime=DURATION        maximum initial delay before first target, "
+"in seconds (3600)\n"
+"      -w --wait=DURATION          maximum delay between each target, in "
+"seconds\n"
+"      --lazy                      do not contact the target before next "
+"scheduled time\n"
+msgstr ""
+
+#. type: Plain text
+#, no-wrap
+msgid ""
+"    Task selection options\n"
+"      --list-tasks        list available tasks and exit\n"
+"      --no-task=TASK      do not run given task\n"
+msgstr ""
+
+#. type: Plain text
+#, no-wrap
+msgid ""
+"    Inventory task specific options\n"
+"      --no-category=CATEGORY do not list given category items\n"
+"      --scan-homedirs     allow to scan use home directories (false)\n"
+"      --html              save the inventory as HTML (false)\n"
+"      -f --force          always send data to server (false)\n"
+"      -t --tag=TAG        mark the machine with given tag\n"
+"      --backend-collect-timeout   timeout for inventory modules execution "
+"(30)\n"
+"      --additional-content=FILE   additional inventory content\n"
+msgstr ""
+
+#. type: Plain text
+#, no-wrap
+msgid ""
+"    Package deployment task specific options\n"
+"      --no-p2p            do not use peer to peer to download files "
+"(false)\n"
+msgstr ""
+
+#. type: Plain text
+#, no-wrap
+msgid ""
+"    Network options:\n"
+"      -P --proxy=PROXY    proxy address\n"
+"      -u --user=USER      user name for server authentication\n"
+"      -p --password=PWD   password for server authentication\n"
+"      --ca-cert-dir=D     path to the CA certificates directory\n"
+"      --ca-cert-file=F    path to the CA certificates file\n"
+"      --no-ssl-check      do not check server SSL certificates (false)\n"
+"      --timeout           connection timeout (180)\n"
+msgstr ""
+
+#. type: Plain text
+#, no-wrap
+msgid ""
+"    Web interface options\n"
+"      --no-httpd                 disable embedded web server (false)\n"
+"      --httpd-ip=IP              network interface to listen to\n"
+"      --httpd-port=PORT          network port to listen to (62354)\n"
+"      --httpd-trust=RANGE        trust requests from range without "
+"authentication token (false)\n"
+msgstr ""
+
+#. type: Plain text
+#, no-wrap
+msgid ""
+"    Logging options\n"
+"      --logger=BACKEND            logger backend [Stderr|File|Syslog] "
+"(Stderr)\n"
+"      --logfile=FILE              log file\n"
+"      --logfile-maxsize=X         maximum size of the log file in MB (0)\n"
+"      --logfacility=FACILITY      syslog facility (LOG_USER)\n"
+"      --color                     use color in the console (false)\n"
+msgstr ""
+
+#. type: Plain text
+#, no-wrap
+msgid ""
+"    Configuration options\n"
+"      --config=BACKEND            configuration backend "
+"[file|registry|none]\n"
+"      --conf-file=FILE            configuration file\n"
+msgstr ""
+
+#. type: Plain text
+#, no-wrap
+msgid ""
+"    Execution mode options\n"
+"      -d --daemon                 run the agent as a daemon (false)\n"
+"      --no-fork                   don't fork in background (false)\n"
+"      --debug                     debug mode (false)\n"
+"      --version                   print the version and exit\n"
+msgstr ""
+
+#. type: Title #
+#, no-wrap
+msgid "EXAMPLES"
+msgstr ""
+
+#. type: Plain text
+#, no-wrap
+msgid ""
+"    % fusioninventory-agent --server localhost\n"
+"    # execute all available tasks required by a local server\n"
+msgstr ""
+
+#. type: Plain text
+#, no-wrap
+msgid ""
+"    % fusioninventory-agent --server http://localhost/ocsinventory2\n"
+"    # execute all available tasks required by a local server, using a "
+"specific\n"
+"    # URI\n"
+msgstr ""
+
+#. type: Plain text
+#, no-wrap
+msgid ""
+"    % fusioninventory-agent --server https://localhost/ocsinventory\n"
+"    # execute all available tasks required by a local server, using a "
+"secure\n"
+"    # connection\n"
+msgstr ""
+
+#. type: Plain text
+#, no-wrap
+msgid ""
+"    % fusioninventory-agent --server localhost --user test --password "
+"s3cr3t\n"
+"    # execute all available tasks required by a local server, using HTTP\n"
+"    # authentication\n"
+msgstr ""
+
+#. type: Plain text
+#, no-wrap
+msgid ""
+"    % fusioninventory-agent --local /tmp\n"
+"    # execute all available tasks and write the result in /tmp directory\n"
+msgstr ""
+
+#. type: Plain text
+#, no-wrap
+msgid ""
+"    % fusioninventory-agent --local /tmp --html\n"
+"    # execute all available tasks and write the result in /tmp directory "
+"in\n"
+"    # HTML format\n"
+msgstr ""
+
+#. type: Title #
+#, no-wrap
+msgid "DESCRIPTION"
+msgstr ""
+
+#. type: Plain text
+msgid ""
+"`fusioninventory-agent` is an agent for OCS Inventory server and "
+"FusionInventory for GLPI servers. It creates local inventory of the machines "
+"(hardware and software) and send it to the server. It can also write it in a "
+"local XML file.  This agent is the successor of the former linux\\_agent "
+"which was released with OCS 1.01 and prior. It also replaces the "
+"Solaris/AIX/BSD unofficial agents."
+msgstr ""
+
+#. type: Plain text
+msgid "Supported systems:"
+msgstr ""
+
+#. type: Plain text
+msgid ""
+"- `Windows` (since Windows 2000)  - `GNU/Linux` - `MacOSX` - `Solaris` - "
+"`FreeBSD` - `NetBSD` - `OpenBSD` - `AIX` - `HP-UX` - `GNU/kFreeBSD`"
+msgstr ""
+
+#. type: Title #
+#, no-wrap
+msgid "OCS INVENTORY PROTOCOL"
+msgstr ""
+
+#. type: Plain text
+msgid ""
+"FusionInventory Agent uses OCS Inventory protocol and is compatible with OCS "
+"Inventory server. The agent uses the same protocol with the FusionInventory "
+"For GLPI plugin."
+msgstr ""
+
+#. type: Plain text
+msgid "The OCS protocol is basicly an exchange of XML file done over HTTP(S)."
+msgstr ""
+
+#. type: Title ##
+#, no-wrap
+msgid "First, The PROLOG"
+msgstr ""
+
+#. type: Plain text
+msgid ""
+"The agent send a first message to give it's ID (DEVICEID). The server send "
+"back to the agent an XML file with a list of parameter. It's the PROLOG "
+"RESP. You can see it if you're in Debug mode.  In this PROLOG, the server "
+"send the PROLOG\\_FREQ. The agent will use it to know when it need to "
+"contact the server for the next time."
+msgstr ""
+
+#. type: Plain text
+msgid "The agent compute the next query date this way:"
+msgstr ""
+
+#. type: Plain text
+#, no-wrap
+msgid "     PROLOG_FREQ/2+RANDOM(PROLOG_FREQ/2)\n"
+msgstr ""
+
+#. type: Title ##
+#, no-wrap
+msgid "Module execution"
+msgstr ""
+
+#. type: Plain text
+msgid ""
+"The agent will launch each modules and pass the list of options found in the "
+"PROLOG RESP as parameter. The module can send information directly to the "
+"server (inventory, SNMP scan result, etc)"
+msgstr ""
+
+#. type: Title ##
+#, no-wrap
+msgid "Server mode (Windows service or Unix daemon)"
+msgstr ""
+
+#. type: Plain text
+msgid ""
+"In server mode, the agent wait during a period between the last PROLOG and "
+"PROLOG\\_FREQ. If PROLOG\\_FREQ is not set, it will use --delaytime value.  "
+"The default value is 3600."
+msgstr ""
+
+#. type: Title #
+#, no-wrap
+msgid "OPTIONS"
+msgstr ""
+
+#. type: Plain text
+msgid ""
+"Most of the options are available in a _short_ form and a _long_ form.  For "
+"example, the two lines below are all equivalent:"
+msgstr ""
+
+#. type: Plain text
+#, no-wrap
+msgid ""
+"    % fusioninventory-agent -s localhost\n"
+"    % fusioninventory-agent --server localhost\n"
+msgstr ""
+
+#. type: Title ##
+#, no-wrap
+msgid "Target definition options"
+msgstr ""
+
+#. type: Plain text
+msgid "- __\\-s__, __\\--server__=_URI_"
+msgstr ""
+
+#. type: Plain text
+msgid "Send results of tasks execution to given server."
+msgstr ""
+
+#. type: Plain text
+msgid ""
+"If _URI_ doesn't start with http:// or https://, the agent assume the "
+"parameter is a hostname and rewrite it as:"
+msgstr ""
+
+#. type: Plain text
+#, no-wrap
+msgid "    % --server=http://servername/ocsinventory\n"
+msgstr ""
+
+#. type: Plain text
+msgid "In general, OCS Inventory server URL have this format:"
+msgstr ""
+
+#. type: Plain text
+#, no-wrap
+msgid "    http://servername/ocsinventory\n"
+msgstr ""
+
+#. type: Plain text
+msgid "and FusionInventory for GLPI this one:"
+msgstr ""
+
+#. type: Plain text
+#, no-wrap
+msgid ""
+"    "
+"http://servername/glpi/plugins/fusioninventory/front/plugin_fusioninventory.communication.php\n"
+msgstr ""
+
+#. type: Plain text
+#:  
+msgid "Multiple values can be specified, using comma as a separator."
+msgstr ""
+
+#. type: Plain text
+msgid "- __\\-l__, __\\--local__=_DIR_"
+msgstr ""
+
+#. type: Plain text
+msgid "Write the results of tasks execution to given directory."
+msgstr ""
+
+#. type: Plain text
+msgid "- __\\--stdout__"
+msgstr ""
+
+#. type: Plain text
+msgid "Write the results of tasks execution on stdout."
+msgstr ""
+
+#. type: Title ##
+#, no-wrap
+msgid "Target scheduling options"
+msgstr ""
+
+#. type: Plain text
+msgid "- __\\--delaytime__=_LIMIT_"
+msgstr ""
+
+#. type: Plain text
+msgid ""
+"Set an initial delay before the first target, whose value is computed "
+"randomly between LIMIT / 2 and LIMIT seconds. This setting is ignored for "
+"server targets after the initial contact, in favor of server-specified "
+"parameter (PROLOG\\_FREQ)."
+msgstr ""
+
+#. type: Plain text
+msgid "- __\\-w__ _LIMIT_, __\\--wait__=_LIMIT_"
+msgstr ""
+
+#. type: Plain text
+msgid ""
+"Set a delay between each targets, whose value is computed randomly between 0 "
+"and LIMIT seconds."
+msgstr ""
+
+#. type: Plain text
+msgid "- __\\--lazy__"
+msgstr ""
+
+#. type: Plain text
+msgid "Do not contact the target before next scheduled time."
+msgstr ""
+
+#. type: Plain text
+msgid "This option is only available when the agent is not run as a server."
+msgstr ""
+
+#. type: Title ##
+#, no-wrap
+msgid "Task selection options"
+msgstr ""
+
+#. type: Plain text
+msgid "- __\\--no-task__=_TASK_"
+msgstr ""
+
+#. type: Plain text
+msgid "Disable the given task"
+msgstr ""
+
+#. type: Plain text
+msgid "- __\\--list-tasks__"
+msgstr ""
+
+#. type: Plain text
+msgid "List available tasks and exit"
+msgstr ""
+
+#. type: Title ##
+#, no-wrap
+msgid "Inventory task specific options"
+msgstr ""
+
+#. type: Plain text
+msgid "- __\\--no-category__=_CATEGORY_"
+msgstr ""
+
+#. type: Plain text
+msgid "Do not list given category items in inventory. It can be:"
+msgstr ""
+
+#. type: Plain text
+#, no-wrap
+msgid ""
+"                - printer\n"
+"            - software\n"
+"        - environment\n"
+"    - process\n"
+msgstr ""
+
+#. type: Plain text
+msgid "- __\\--scan-homedirs__"
+msgstr ""
+
+#. type: Plain text
+msgid "Allow the agent to scan home directories for virtual machines."
+msgstr ""
+
+#. type: Plain text
+msgid "- __\\--html__"
+msgstr ""
+
+#. type: Plain text
+msgid "Save the inventory as HTML."
+msgstr ""
+
+#. type: Plain text
+msgid "This is only used for local inventories."
+msgstr ""
+
+#. type: Plain text
+msgid "- __\\-f__, __\\--force__"
+msgstr ""
+
+#. type: Plain text
+msgid "Send an inventory to the server, even if this last one doesn't ask for it."
+msgstr ""
+
+#. type: Plain text
+msgid "- __\\--tag__=_TAG_"
+msgstr ""
+
+#. type: Plain text
+msgid "Mark the machine with given tag."
+msgstr ""
+
+#. type: Plain text
+msgid "- __\\--backend-collect-timeout__=_TIME_"
+msgstr ""
+
+#. type: Plain text
+msgid "Timeout for inventory modules execution."
+msgstr ""
+
+#. type: Title ##
+#, no-wrap
+msgid "Package deployment task specific options"
+msgstr ""
+
+#. type: Plain text
+msgid "- __\\--no-p2p__"
+msgstr ""
+
+#. type: Plain text
+msgid "Do not use peer to peer to download files."
+msgstr ""
+
+#. type: Title ##
+#, no-wrap
+msgid "Server target specific options"
+msgstr ""
+
+#. type: Plain text
+msgid "- __\\-P__, __\\--proxy__=_PROXY_"
+msgstr ""
+
+#. type: Plain text
+msgid "Use _PROXY_ as HTTP proxy."
+msgstr ""
+
+#. type: Plain text
+msgid "By default, the agent uses HTTP\\_PROXY environment variable."
+msgstr ""
+
+#. type: Plain text
+msgid "- __\\-u__ _USER_, __\\--user__=_USER_"
+msgstr ""
+
+#. type: Plain text
+msgid "Use _USER_ for server authentication."
+msgstr ""
+
+#. type: Plain text
+msgid "- __\\-p__, __\\--password__=_PASSWORD_"
+msgstr ""
+
+#. type: Plain text
+msgid "Use _PASSWORD_ for server authentication."
+msgstr ""
+
+#. type: Plain text
+msgid "- __\\--ca-cert-dir__=_PATH_"
+msgstr ""
+
+#. type: Plain text
+msgid "Path to the CA certificates directory."
+msgstr ""
+
+#. type: Plain text
+msgid "- __\\--ca-cert-file__=_FILE_"
+msgstr ""
+
+#. type: Plain text
+msgid "Path to the CA certificates file."
+msgstr ""
+
+#. type: Plain text
+msgid "- __\\--no-ssl-check__"
+msgstr ""
+
+#. type: Plain text
+msgid "Do not check server SSL certificates."
+msgstr ""
+
+#. type: Plain text
+msgid ""
+"Hint: you can set HTTPS\\_DEBUG environment variable to get SSL error "
+"messages in the console."
+msgstr ""
+
+#. type: Title ##
+#, no-wrap
+msgid "Web interface options"
+msgstr ""
+
+#. type: Plain text
+msgid "- __\\--no-httpd__"
+msgstr ""
+
+#. type: Plain text
+msgid "Disable the embedded web server."
+msgstr ""
+
+#. type: Plain text
+msgid "- __\\--httpd-ip__=_IP_"
+msgstr ""
+
+#. type: Plain text
+msgid ""
+"The network interface to use for the embedded web server (all available "
+"interfaces)."
+msgstr ""
+
+#. type: Plain text
+msgid "- __\\--httpd-port__=_PORT_"
+msgstr ""
+
+#. type: Plain text
+msgid "The network port to use for the embedded web server (62354)."
+msgstr ""
+
+#. type: Plain text
+msgid "- __\\--httpd-trust__=_RANGE_"
+msgstr ""
+
+#. type: Plain text
+msgid "Trust requests from given range without authentication token (false)."
+msgstr ""
+
+#. type: Plain text
+msgid ""
+"For example: \"192.168.0.0/24\", \"192.68.168.0.5\" or an IP range like "
+"\"20.34.101.207 - 201.3.9.99\". See "
+"[Net::IP](http://search.cpan.org/perldoc?Net::IP) documentation to get more "
+"example."
+msgstr ""
+
+#. type: Title ##
+#, no-wrap
+msgid "Logging options"
+msgstr ""
+
+#. type: Plain text
+msgid "- __\\--logger__=_BACKEND_"
+msgstr ""
+
+#. type: Plain text
+msgid "Logger backend to use. It can be:"
+msgstr ""
+
+#. type: Plain text
+#, no-wrap
+msgid ""
+"            - Stderr: log messages directly in the console.\n"
+"        - File: log messages in a file.\n"
+"    - Syslog: log messages through the local syslog server\n"
+msgstr ""
+
+#. type: Plain text
+msgid "- __\\--logfile__=_FILE_"
+msgstr ""
+
+#. type: Plain text
+msgid "Log message in _FILE_ (implies File logger backend)"
+msgstr ""
+
+#. type: Plain text
+msgid "- __\\--logfile-maxsize__=_FILE_"
+msgstr ""
+
+#. type: Plain text
+msgid ""
+"Max logfile size in MB, default is unlimited. When the max size is reached, "
+"the file is truncated. This is only useful if there is no log rotation "
+"mechanism on the system."
+msgstr ""
+
+#. type: Plain text
+msgid "- __\\--logfacility__=_FACILITY_"
+msgstr ""
+
+#. type: Plain text
+msgid "Syslog facility to use (default LOG\\_USER)"
+msgstr ""
+
+#. type: Plain text
+msgid "- __\\--color__"
+msgstr ""
+
+#. type: Plain text
+msgid "Display color on the terminal, when the Stderr backend is used."
+msgstr ""
+
+#. type: Plain text
+msgid "This options is ignored on Windows."
+msgstr ""
+
+#. type: Title ##
+#, no-wrap
+msgid "Configuration options"
+msgstr ""
+
+#. type: Plain text
+msgid "- __\\--conf-file__=_FILE_"
+msgstr ""
+
+#. type: Plain text
+msgid "Use _FILE_ as configuration file (implies file configuration backend)"
+msgstr ""
+
+#. type: Plain text
+msgid "- __\\--config__=_BACKEND_"
+msgstr ""
+
+#. type: Plain text
+msgid "Configuration backend to use. It can be:"
+msgstr ""
+
+#. type: Plain text
+#, no-wrap
+msgid ""
+"            - file: read configuration from a file (default anywhere else as "
+"Windows)\n"
+"        - registry: read configuration from the registry (default on "
+"Windows)\n"
+"    - none: don't read any configuration\n"
+msgstr ""
+
+#. type: Title ##
+#, no-wrap
+msgid "Execution mode options"
+msgstr ""
+
+#. type: Plain text
+msgid "- __\\-d__, __\\--daemon__"
+msgstr ""
+
+#. type: Plain text
+msgid "Run the agent as a daemon."
+msgstr ""
+
+#. type: Plain text
+msgid "- __\\--no-fork__"
+msgstr ""
+
+#. type: Plain text
+msgid "Don't fork in background."
+msgstr ""
+
+#. type: Plain text
+msgid "This is only useful when running as a daemon."
+msgstr ""
+
+#. type: Plain text
+msgid "- __\\--debug__"
+msgstr ""
+
+#. type: Plain text
+msgid "Turn the debug mode on."
+msgstr ""
+
+#. type: Plain text
+msgid "- __\\--setup__"
+msgstr ""
+
+#. type: Plain text
+msgid "Print the agent setup directories and exit."
+msgstr ""
+
+#. type: Plain text
+msgid "- __\\--version__"
+msgstr ""
+
+#. type: Plain text
+msgid "Print the version and exit."
+msgstr ""
+
+#. type: Title #
+#, no-wrap
+msgid "CONFIGURATION"
+msgstr ""
+
+#. type: Plain text
+msgid ""
+"The agent is able to use multiple configuration backends. The registry "
+"backend is the default on Windows platform, and the file backend is the "
+"default everywhere else. Another backend can be specified using the "
+"__\\--config__ option."
+msgstr ""
+
+#. type: Plain text
+msgid ""
+"The _file_ backend reads configuration directives from a configuration file, "
+"whose default location is determined at installation time as "
+"PREFIX/etc/agent.cfg. An alternative location can also be given with "
+"__\\--conf-file__ option."
+msgstr ""
+
+#. type: Plain text
+msgid ""
+"The _registry_ backend reads configuration directives from the Windows "
+"registry, with an arch-dependant location:"
+msgstr ""
+
+#. type: Plain text
+msgid ""
+"- `HKEY\\_LOCAL\\_MACHINE\\\\SOFTWARE\\\\FusionInventory-Agent` for 32 bits "
+"machines - "
+"`HKEY\\_LOCAL\\_MACHINE\\\\SOFTWARE\\\\Wow6432Node\\\\FusionInventory-Agent` "
+"for 64 bits machines"
+msgstr ""
+
+#. type: Plain text
+msgid ""
+"The _none_ backend doesn't read any configuration directive at all, allowing "
+"to isolate the agent execution from any installed configuration."
+msgstr ""
