@@ -36,4 +36,5 @@ mailing lists or the bug tracker on the forge.
 
 ## Partners
 
-A list of trusted companies is maintain on the [[partners]] page.
+A list of trusted companies is maintain on the [[partners]] page. Those companies are involved in FusionInventory
+developement.
