@@ -1,5 +1,7 @@
 # FAQ
 
+[[!toc  ]]
+
 ## Tasks are not enabled
 
     Task NetInventory is not enabled
