@@ -1,6 +1,6 @@
 # FAQ
 
-[[!toc  ]]
+[[!toc  levels=2]]
 
 ## Tasks are not enabled
 
@@ -46,7 +46,7 @@ to run a task in push mode:
 * Check in http://glpi/plugins/fusioninventory/front/agent.php if the agent has *Network discovery*
   and *Network inventory (SNMP)* modules turned on
 
-# On which platforms is the FusionInventory agent available?
+## On which platforms is the FusionInventory agent available?
 
 The agent is available on Windows, MacOS X, Linux, FreeBSD, OpenBSD,
 NetBSD, DragonFlyBSD, AIX, Solaris, HP-UX. The agent shares the same
@@ -54,7 +54,7 @@ codebase on all these platforms.
 
 An agent for Android is also available on [Google Play](https://play.google.com/store/apps/details?id=org.fusioninventory).
 
-# How can I configure two or more servers
+## How can I configure two or more servers
 
  In the agent configuration file, you can define several servers to
 communicate with.
@@ -65,7 +65,7 @@ for GLPI 0.80 and 0.38, and OCSInventory server:
 The agent will contact each server in the order defined in the configuration
 file, and perform the actions requested from each of them.
 
-# Is FusionInventory agent compatible with OCS Inventory NG Server?
+## Is FusionInventory agent compatible with OCS Inventory NG Server?
 
 Yes, your server will need to be configured to accept the Fusioninventory UserAgent in the ocsinventory-server.conf
 
