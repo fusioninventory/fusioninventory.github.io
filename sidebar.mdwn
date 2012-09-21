@@ -1,6 +1,6 @@
 * [[<i class="icon-comment"></i>News|index]]
 * [[<i class="icon-info-sign"></i>Overview|overview]]
 * [[<i class="icon-picture"></i>Screenshots|screenshots]]
-* [[<i class="icon-book"></i>Documentation|documentation]]
+* [[<i class="icon-book"></i>Doc|documentation]]
 * [[<i class="icon-wrench"></i>Resources|resources]]
 * **[[<i class="icon-download-alt"></i>GET!|get]]**
