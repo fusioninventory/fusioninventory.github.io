@@ -1,0 +1,132 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2012-09-21 12:35+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. type: Plain text
+#, no-wrap
+msgid "[[!meta  date=\"2010-02-08 20:00:29\"]]\n"
+msgstr ""
+
+#. type: Plain text
+#, no-wrap
+msgid "<strong>The FusionInventory project</strong>\n"
+msgstr ""
+
+#. type: Plain text
+msgid ""
+"During the FOSDEM meeting, a group of people decided to join their force to "
+"create a new independent project called FusionInventory. FusionInventory "
+"project aims to provide a better integration between the different asset "
+"management projects including OCS Inventory, GLPI and GOSA."
+msgstr ""
+
+#. type: Plain text
+#, no-wrap
+msgid "<strong>Components</strong>\n"
+msgstr ""
+
+#. type: Plain text
+#, no-wrap
+msgid ""
+"*  FusionInventory Agent (former OCS Inventory UNIX agent). We want it to be "
+"the sole agent installed on the machines. Because of that we improved its "
+"internal architecture to be more modular and we will port it to Windows.\n"
+"* FusionInventory For GLPI (former GLPI Tracker plugin ). Today's Tracker is "
+"a powerful SNMP/Network discovery extension for GLPI. This plugin will be "
+"the interface between the agent and GLPI.\n"
+msgstr ""
+
+#. type: Plain text
+#, no-wrap
+msgid "<strong>Roadmap</strong>\n"
+msgstr ""
+
+#. type: Bullet: '*  '
+msgid "Feb 2010: Alpha release of the agent including SNMP, WakeOnLan"
+msgstr ""
+
+#. type: Bullet: '*  '
+msgid "Mar 2010: Beta release of the agent including P2P OCS Deployment"
+msgstr ""
+
+#. type: Bullet: '*  '
+msgid "Apr 2010: 2.1 release, Windows support"
+msgstr ""
+
+#. type: Bullet: '*  '
+msgid ""
+"May 2010: GOsa² integration including Linux and Windows OS deployment (FAI "
+"and OPSI) and LTSP support"
+msgstr ""
+
+#. type: Plain text
+#, no-wrap
+msgid "<strong>Others</strong>\n"
+msgstr ""
+
+#. type: Bullet: '*  '
+msgid ""
+"The current agent already supports VirtualMachines detection. We wish to "
+"integrate it with GLPI &amp; OCS quickly."
+msgstr ""
+
+#. type: Plain text
+msgid ""
+"About OCS. We believe in FreeSoftware, standard and interoperability. OCS "
+"Inventory is a major software for our users and it's critical to keep the "
+"compatibility with it. That's why we use OCS network protocol and XML "
+"format. We want to continue to work with OCS Team to keep the compatibility "
+"as good as possible. This IS a major point for us."
+msgstr ""
+
+#. type: Plain text
+msgid ""
+"Everybody is welcome in this project. Even more if you love cooperation "
+"between projects and are open-minded :). We look for:"
+msgstr ""
+
+#. type: Bullet: '*  '
+msgid "Windows packager of the agent"
+msgstr ""
+
+#. type: Bullet: '*  '
+msgid "Perl &amp; PHP programmers"
+msgstr ""
+
+#. type: Bullet: '*  '
+msgid "Beta testers"
+msgstr ""
+
+#. type: Bullet: '*  '
+msgid "Friendly people on IRC"
+msgstr ""
+
+#. type: Bullet: '*  '
+msgid "<strong>YOURSELF</strong>!"
+msgstr ""
+
+#. type: Plain text
+#, no-wrap
+msgid ""
+"<strong>Who we are</strong>\n"
+"- Myself, former OCS Inventory core Team Member and OCS Inventory UNIX Agent "
+"maintainer\n"
+"- Benoit Mortier, GOsa² core Team Member, FAI and OPSI contributor\n"
+"- David Durieux, \"FusionInventory For GLPI\" core member, \"FusionInventory "
+"Agent\" contributor, GLPI conributor\n"
+"- And more...\n"
+msgstr ""

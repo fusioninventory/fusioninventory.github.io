@@ -1,0 +1,121 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2012-09-21 12:38+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. type: Title #
+#, no-wrap
+msgid "Resources and web sites"
+msgstr ""
+
+#. type: Plain text
+msgid "<http://www.fusioninventory.org/> is the official web site."
+msgstr ""
+
+#. type: Title ##
+#, no-wrap
+msgid "Development forge"
+msgstr ""
+
+#. type: Plain text
+msgid ""
+"Developement are done on FusionInventory forge: "
+"<http://forge.fusioninventory.org/>."
+msgstr ""
+
+#. type: Plain text
+msgid ""
+"The forge includes Bugtracker, Download page, Source browser and internal "
+"Wiki."
+msgstr ""
+
+#. type: Plain text
+msgid ""
+"Git repositories are synchronised on [Github FusionInventory "
+"page](http://www.github.com/fusinv)  regulary."
+msgstr ""
+
+#. type: Title ##
+#, no-wrap
+msgid "Mailing lists"
+msgstr ""
+
+#. type: Bullet: '* '
+msgid ""
+"[FusionInventory Users "
+"list](http://lists.alioth.debian.org/mailman/listinfo/fusioninventory-user)"
+msgstr ""
+
+#. type: Bullet: '* '
+msgid ""
+"[FusionInventory Developers "
+"list](http://lists.alioth.debian.org/mailman/listinfo/fusioninventory-devel)"
+msgstr ""
+
+#. type: Bullet: '* '
+msgid ""
+"[FusinInventory translater "
+"list](http://lists.alioth.debian.org/mailman/listinfo/fusioninventory-i18n)"
+msgstr ""
+
+#. type: Title ##
+#, no-wrap
+msgid "IRC-Channel"
+msgstr ""
+
+#. type: Plain text
+msgid ""
+"FusionInventory has got an IRC chanel on Freenode call "
+"__#fusioninventory__.  IRC is used mainly to coordonate developement effort "
+"between contributors."
+msgstr ""
+
+#. type: Bullet: '* '
+msgid "Network: [FreeNode](http://irc.freenode.net)"
+msgstr ""
+
+#. type: Bullet: '* '
+msgid "Channel: #fusioninventory"
+msgstr ""
+
+#. type: Title ##
+#, no-wrap
+msgid "Forums"
+msgstr ""
+
+#. type: Plain text
+msgid ""
+"[A forum](http://forum.fusioninventory.org/) is also avalaible for end "
+"users. This forum is not directly supported by the FusionInventory team but "
+"by the users."
+msgstr ""
+
+#. type: Plain text
+msgid ""
+"If you want to report bugs or contract the developement team, please use the "
+"mailing lists or the bug tracker on the forge."
+msgstr ""
+
+#. type: Title ##
+#, no-wrap
+msgid "Partners"
+msgstr ""
+
+#. type: Plain text
+msgid ""
+"A list of trusted companies is maintain on the [[partners]] page. Those "
+"companies are involved in FusionInventory developement."
+msgstr ""

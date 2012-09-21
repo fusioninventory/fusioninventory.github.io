@@ -1,0 +1,172 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2012-09-21 12:38+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. type: Title #
+#, no-wrap
+msgid "ReleaseProcess"
+msgstr ""
+
+#. type: Title ##
+#, no-wrap
+msgid "Changes list validation"
+msgstr ""
+
+#. type: Plain text
+msgid ""
+"Ensures the Change file contains references to all majors changes since "
+"latest release, with references to all resolved bugs."
+msgstr ""
+
+#. type: Plain text
+msgid ""
+"Fix the date of the release in the Changelog. The date can be generated with "
+"the following command:"
+msgstr ""
+
+#. type: Plain text
+#, no-wrap
+msgid "    date -R\n"
+msgstr ""
+
+#. type: Plain text
+msgid "The changelog section entry must start with a line in the following format:"
+msgstr ""
+
+#. type: Plain text
+#, no-wrap
+msgid "    2.2.5  Thu, 16 Aug 2012 12:03:30 +0200\n"
+msgstr ""
+
+#. type: Bullet: '* '
+msgid "version"
+msgstr ""
+
+#. type: Bullet: '* '
+msgid "2 spaces"
+msgstr ""
+
+#. type: Bullet: '* '
+msgid "date -R"
+msgstr ""
+
+#. type: Title ##
+#, no-wrap
+msgid "Test suite validation"
+msgstr ""
+
+#. type: Plain text
+msgid ""
+"Ensures the full test suite, with developper tests enabled, executes "
+"correctly on the following platforms:"
+msgstr ""
+
+#. type: Bullet: '* '
+msgid "Linux"
+msgstr ""
+
+#. type: Bullet: '* '
+msgid "Windows"
+msgstr ""
+
+#. type: Plain text
+#, no-wrap
+msgid "    make test TEST_AUTHOR=1\n"
+msgstr ""
+
+#. type: Title ##
+#, no-wrap
+msgid "Repository tagging"
+msgstr ""
+
+#. type: Plain text
+#, no-wrap
+msgid ""
+"    git tag -s X.Z.Z\n"
+"    git push --tags\n"
+msgstr ""
+
+#. type: Title ##
+#, no-wrap
+msgid "Tarball creation"
+msgstr ""
+
+#. type: Plain text
+#, no-wrap
+msgid ""
+"    ./tools/updatePciids.sh # For the agent\n"
+"    perl Mafile.PL\n"
+"    make manifest\n"
+"    make disttest\n"
+"    make distsign\n"
+"    make dist\n"
+msgstr ""
+
+#. type: Title ##
+#, no-wrap
+msgid "Tarball upload"
+msgstr ""
+
+#. type: Plain text
+msgid "Tarball has to be uploaded on the forge and on CPAN."
+msgstr ""
+
+#. type: Title ##
+#, no-wrap
+msgid "Release announcement"
+msgstr ""
+
+#. type: Plain text
+msgid "Publish official announcement:"
+msgstr ""
+
+#. type: Bullet: '* '
+msgid "[[Get the wiki source|documentation/wiki]]"
+msgstr ""
+
+#. type: Bullet: '* '
+msgid "Go in fusioninventory.branchable.com directory"
+msgstr ""
+
+#. type: Bullet: '* '
+msgid "Launch `./create-release-post.pl <URL tarball on the forge>`"
+msgstr ""
+
+#. type: Plain text
+msgid "At the end the process this should be done:"
+msgstr ""
+
+#. type: Bullet: '* '
+msgid "as a post to the user mailing-list"
+msgstr ""
+
+#. type: Bullet: '* '
+msgid "as a news on the website"
+msgstr ""
+
+#. type: Title ##
+#, no-wrap
+msgid "Bugtracker update"
+msgstr ""
+
+#. type: Plain text
+msgid ""
+"Switch all bugs resolved by the latest release from 'resolved' to 'closed "
+"state'.  Move all still open bugs to next planned version if you still "
+"believe they will be fixed in a timely fashion. Otherwise you should unset "
+"the “planned version” field of the bugs."
+msgstr ""

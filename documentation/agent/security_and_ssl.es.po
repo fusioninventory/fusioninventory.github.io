@@ -1,0 +1,112 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2012-09-21 12:38+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. type: Title #
+#, no-wrap
+msgid "Security"
+msgstr ""
+
+#. type: Plain text
+msgid "They are several potential security issues in fusioninventory."
+msgstr ""
+
+#. type: Plain text
+msgid ""
+"First, the server automatically trust any received message, using the "
+"identifier found in the message (unfortunatly called DEVICEID) to identify "
+"the sending agent. If you want to protect your machine inventory from rogue "
+"reports, you have to restrict access to the plugin location on your GLPI "
+"server, typically using HTTP authentication. And preferentially over HTTPS, "
+"to prevent password sniffing."
+msgstr ""
+
+#. type: Plain text
+msgid ""
+"Second, some messages between the server and the agent may contain sensible "
+"informations. For instance, NetInventory tasks involves sending SNMP "
+"credentials from the server to the agent. In this case, HTTPS usage ensures "
+"proper communication encryption."
+msgstr ""
+
+#. type: Plain text
+msgid ""
+"Third, some tasks are explicitely designed to make the agent execute "
+"arbitrary commands on its host. For instance, the Deploy task is used to "
+"install software on agent side. In this case, HTTPS usage ensures proper "
+"server authentication."
+msgstr ""
+
+#. type: Title #
+#, no-wrap
+msgid "SSL support"
+msgstr ""
+
+#. type: Plain text
+msgid ""
+"LWP (also known as libwww-perl) is able to use either Crypt::SSLeay or "
+"IO::Socket::SSL transparently as underlying socket implementation for HTTPS "
+"support. However, only the second one is able to perform server certificate "
+"validation. As a consequence, the agent will refuse to use HTTPS, and exit "
+"immediatly if IO::Socket::SSL is not available, unless certificate checking "
+"has been explicitely disabled (--no-ssl-check command line parameter, or "
+"no-ssl-check configuration parameter)."
+msgstr ""
+
+#. type: Plain text
+msgid ""
+"The SSL protocol version supported by the agent is dependant of openssl "
+"version. In particular, usage of specific certificate signature algorithms "
+"such as SHA requires at least openssl 0.9.8o, as it is supposed to be "
+"allowed starting from TLS 1.1 only. Failure to comply will result in error "
+"message such as: warning: TLS library problem: 14710:error:0D0C50A1:asn1 "
+"encoding routines:ASN1_item_verify:unknown message digest "
+"algorithm:a_verify.c:146:"
+msgstr ""
+
+#. type: Plain text
+msgid "This can be controlled in the certificate itself:"
+msgstr ""
+
+#. type: Plain text
+#, no-wrap
+msgid ""
+"    [guillaume@beria ~]$ openssl x509 -noout -text -in cert.pem | grep "
+"Signature\n"
+"    Signature Algorithm: sha256WithRSAEncryption\n"
+"    Signature Algorithm: sha256WithRSAEncryption\n"
+msgstr ""
+
+#. type: Plain text
+msgid "The available workaround:"
+msgstr ""
+
+#. type: Bullet: '* '
+msgid ""
+"ensure server certificate complies with clients capacities, using controlled "
+"certificate generation parameters"
+msgstr ""
+
+#. type: Bullet: '* '
+msgid ""
+"ensure clients capacities matches server certificate properties, upgrading "
+"openssl and its perl bindings (Net::SSLeay)"
+msgstr ""
+
+#. type: Bullet: '* '
+msgid "disable server certificate checking on client"
+msgstr ""

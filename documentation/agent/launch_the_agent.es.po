@@ -1,0 +1,80 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2012-09-21 12:38+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. type: Title #
+#, no-wrap
+msgid "How to force an inventory"
+msgstr ""
+
+#. type: Plain text
+msgid ""
+"You can force an inventory with the "
+"[[fusioninventory-agent|documentation/references/agent/2.2.x/fusioninventory-agent]] "
+"command."
+msgstr ""
+
+#. type: Title ##
+#, no-wrap
+msgid "Windows"
+msgstr ""
+
+#. type: Plain text
+msgid ""
+"First, you must open a cmd.exe console. Ensure you started with with "
+"*Administrator* privilege (*right clic* → *Run as Administrator* on Vista "
+"and Seven *Start menu*)."
+msgstr ""
+
+#. type: Plain text
+msgid ""
+"Go in the **c:\\Program files\\FusionInventory-Agent\\perl\\bin** (adjust "
+"this path depending on your configuration) directory and run:"
+msgstr ""
+
+#. type: Plain text
+#, no-wrap
+msgid "    perl fusioninventory-agent\n"
+msgstr ""
+
+#. type: Title #
+#, no-wrap
+msgid "MacOSX"
+msgstr ""
+
+#. type: Plain text
+msgid "On MacOSX, go in /opt/fusioninventory-agent and run the following command"
+msgstr ""
+
+#. type: Plain text
+#, no-wrap
+msgid "    todo\n"
+msgstr ""
+
+#. type: Title #
+#, no-wrap
+msgid "Other"
+msgstr ""
+
+#. type: Plain text
+msgid "Just run:"
+msgstr ""
+
+#. type: Plain text
+#, no-wrap
+msgid "    fusioninventory-agent\n"
+msgstr ""

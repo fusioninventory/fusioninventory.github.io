@@ -1,0 +1,36 @@
+# Traduction de ikiwiki
+# Copyright (C) 2009 Debian French l10n team <debian-l10n-french@lists.debian.org>
+# This file is distributed under the same license as the PACKAGE Ikiwiki.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: ikiwiki\n"
+"POT-Creation-Date: 2012-09-21 12:35+0000\n"
+"PO-Revision-Date: 2009-08-23 18:50+0200\n"
+"Last-Translator: Philippe Batailler <philippe.batailler@free.fr>\n"
+"Language-Team: French <debian-l10n-french@lists.debian.org>\n"
+"Language: fr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. type: Plain text
+msgid ""
+"This is where announcements of new releases, features, and other news is "
+"posted. FusionInventory users are recommended to subscribe to this page's "
+"RSS feed."
+msgstr ""
+
+#. type: Plain text
+#, no-wrap
+msgid "[[!inline pages=\"page(./news/*) and !*.pl and !*/Discussion\" rootpage=\"news\" postform=\"no\" postformtext=\"nothing\" show=\"30\" rss=\"no\" atom=\"no\"]]\n"
+msgstr ""
+
+#~ msgid "Welcome to your new wiki."
+#~ msgstr "Bienvenue sur votre nouveau wiki."
+
+#~ msgid "All wikis are supposed to have a [[SandBox]], so this one does too."
+#~ msgstr "Comme tous les wikis, ce wiki possède une page [[SandBox]]."
+
+#~ msgid "This wiki is powered by [[ikiwiki]]."
+#~ msgstr "Ce wiki est propulsé par [[ikiwiki]]."

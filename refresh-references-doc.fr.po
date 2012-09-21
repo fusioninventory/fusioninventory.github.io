@@ -1,0 +1,263 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2012-09-21 12:35+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. type: Plain text
+#, no-wrap
+msgid "#!/usr/bin/perl\n"
+msgstr ""
+
+#. type: Plain text
+msgid "use strict; use warnings;"
+msgstr ""
+
+#. type: Plain text
+msgid ""
+"use File::Basename; use File::Path qw(make_path); use Pod::Markdown; use "
+"Git::Repository;"
+msgstr ""
+
+#. type: Plain text
+msgid "my $tmpDir = \"/home/goneri/fusioninventory/tmp/wikigit\";"
+msgstr ""
+
+#. type: Plain text
+#, no-wrap
+msgid ""
+"my @repoList = (\n"
+"    {\n"
+msgstr ""
+
+#. type: Plain text
+#, no-wrap
+msgid ""
+"        name => 'agent',\n"
+"        url =>\n"
+"          "
+"'git+ssh://forge.fusioninventory.org/git/fusioninventory/agent.git',\n"
+"        branches => [\n"
+"            {\n"
+"                serie  => '2.1.x',\n"
+"                branch => '2.1.x',\n"
+"                status => 'oldstable'\n"
+"            },\n"
+"            {\n"
+"                serie  => '2.2.x',\n"
+"                branch => '2.2.x',\n"
+"                status => 'stable'\n"
+"            },\n"
+"            {\n"
+"                'serie'  => '2.3.x',\n"
+"                'branch' => '2.3.x',\n"
+"                'status' => 'dev',\n"
+"            },\n"
+"            {\n"
+"                'serie'  => '3.0.x',\n"
+"                'branch' => 'master',\n"
+"                'status' => 'dev'\n"
+"            },\n"
+"        ],\n"
+"        files => [\n"
+"            'fusioninventory-agent', 'fusioninventory-injector',\n"
+"            'fusioninventory-inventory'\n"
+"          ]\n"
+msgstr ""
+
+#. type: Plain text
+#:  
+#, no-wrap
+msgid ""
+"    },\n"
+"    {\n"
+msgstr ""
+
+#. type: Plain text
+#, no-wrap
+msgid ""
+"        name => 'agent-task-esx',\n"
+"        url =>\n"
+"          "
+"'git+ssh://forge.fusioninventory.org/git/fusioninventory/agent-task-esx.git',\n"
+"        branches => [\n"
+"            {\n"
+"                serie  => '2.x',\n"
+"                branch => 'master',\n"
+"                status => 'stable'\n"
+"            }\n"
+"        ],\n"
+"        files => [\n"
+"            'fusioninventory-esx'\n"
+"        ]\n"
+msgstr ""
+
+#. type: Plain text
+#, no-wrap
+msgid ""
+"        name => 'agent-task-network',\n"
+"        url =>\n"
+"          "
+"'git+ssh://forge.fusioninventory.org/git/fusioninventory/agent-task-network.git',\n"
+"        branches => [\n"
+"            {\n"
+"                serie  => '1.0.x',\n"
+"                branch => 'master',\n"
+"                status => 'stable'\n"
+"            }\n"
+"        ],\n"
+"        files => [\n"
+"            'fusioninventory-netdiscovery', 'fusioninventory-netinventory'\n"
+"          ]\n"
+msgstr ""
+
+#. type: Plain text
+#, no-wrap
+msgid "    },\n"
+msgstr ""
+
+#. type: Plain text
+msgid ");"
+msgstr ""
+
+#. type: Plain text
+msgid "my $indexContent = \"# Reference documentation\\n\";"
+msgstr ""
+
+#. type: Plain text
+#, no-wrap
+msgid ""
+"my $wiki = Git::Repository->new( work_tree => '.' );\n"
+"eval { $wiki->run('rm', '-rf', \"documentation/references\") };\n"
+msgstr ""
+
+#. type: Plain text
+#, no-wrap
+msgid ""
+"foreach my $repo (@repoList) {\n"
+"    my $localDir = sprintf( \"%s/%s\", $tmpDir, $repo->{name} );\n"
+msgstr ""
+
+#. type: Plain text
+#, no-wrap
+msgid ""
+"    if ( !-d $localDir && !make_path($localDir) ) {\n"
+"        die \"mkdir failed\\n\";\n"
+"    }\n"
+msgstr ""
+
+#. type: Plain text
+#, no-wrap
+msgid ""
+"    if ( !-d \"$localDir/.git\" ) {\n"
+"        Git::Repository->run( 'clone' => $repo->{url}, $localDir );\n"
+"    }\n"
+"    my $r = Git::Repository->new( work_tree => $localDir );\n"
+"    $r->run( 'fetch', 'origin' );\n"
+msgstr ""
+
+#. type: Plain text
+#, no-wrap
+msgid "    foreach my $file ( @{ $repo->{files} } ) {\n"
+msgstr ""
+
+#. type: Plain text
+#, no-wrap
+msgid "        $indexContent .= \"\\n## $file\\n\\n\";\n"
+msgstr ""
+
+#. type: Plain text
+#, no-wrap
+msgid "        foreach my $branch ( @{ $repo->{branches} } ) {\n"
+msgstr ""
+
+#. type: Plain text
+#, no-wrap
+msgid ""
+"            my $content =\n"
+"              eval{ $r->run( 'show', 'origin/' . $branch->{branch} . ':' "
+". $file ) };\n"
+msgstr ""
+
+#. type: Plain text
+#, no-wrap
+msgid ""
+"            open TMP, \">$localDir/tmpfile\" or die;\n"
+"            print TMP $content;\n"
+"            close TMP;\n"
+msgstr ""
+
+#. type: Plain text
+#, no-wrap
+msgid ""
+"            my $mdwnFile = sprintf(\"documentation/references/%s/%s/%s\", "
+"$repo->{name}, $branch->{serie}, $file);\n"
+"            print $mdwnFile. \"\\n\";\n"
+msgstr ""
+
+#. type: Plain text
+#, no-wrap
+msgid "            next unless $content;\n"
+msgstr ""
+
+#. type: Plain text
+#, no-wrap
+msgid ""
+"            my $parser = Pod::Markdown->new;\n"
+"            $parser->parse_from_file(\"$localDir/tmpfile\");\n"
+"            make_path( dirname( $mdwnFile . '.mdwn' ) );\n"
+"            open OUT, \">\" . $mdwnFile . '.mdwn' or die \"$!\";\n"
+msgstr ""
+
+#. type: Plain text
+#, no-wrap
+msgid ""
+"            if ($branch->{status} !~ /stable/) {\n"
+"                print OUT '[[!template  id=warning text=\"The "
+"'.$branch->{serie}.' serie is still in developpement.\"]]'.\"\\n\\n\";\n"
+"            } elsif ($branch->{status} eq 'oldstable') {\n"
+"                print OUT '[[!template  id=info text=\"The "
+"'.$branch->{serie}.' is not maintained anymore. You should consider an "
+"upgrade to the last stable release.\"]]'.\"\\n\\n\";\n"
+"            }\n"
+"            print OUT $parser->as_markdown;\n"
+"            close OUT;\n"
+"            $wiki->run('add', $mdwnFile . '.mdwn');\n"
+"            $indexContent .= \"* [[\".$branch->{serie}.\" "
+"(\".$branch->{status}.\")|$mdwnFile]]\\n\";\n"
+msgstr ""
+
+#. type: Plain text
+#, no-wrap
+msgid "        }\n"
+msgstr ""
+
+#. type: Plain text
+#, no-wrap
+msgid "    }\n"
+msgstr ""
+
+#. type: Plain text
+msgid "}"
+msgstr ""
+
+#. type: Plain text
+#, no-wrap
+msgid ""
+"open INDEX, \">documentation/references.mdwn\" or die;\n"
+"print INDEX $indexContent;\n"
+"close INDEX;\n"
+"$wiki->run('add', \"documentation/references.mdwn\");\n"
+msgstr ""

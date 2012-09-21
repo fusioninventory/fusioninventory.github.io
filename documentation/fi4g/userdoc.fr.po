@@ -1,0 +1,1736 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2012-09-21 12:35+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. type: Title #
+#, no-wrap
+msgid "FusionInventory for GLPI user documentation"
+msgstr ""
+
+#. type: Title ###
+#:         
+#, no-wrap
+msgid "Description"
+msgstr ""
+
+#. type: Plain text
+msgid ""
+"Network inventory as for goal to get by SNMP informations of network devices "
+"like switch, network printers..."
+msgstr ""
+
+#. type: Plain text
+#:  
+#, no-wrap
+msgid "Hardware and software informations"
+msgstr ""
+
+#. type: Plain text
+msgid "We can get informations like :"
+msgstr ""
+
+#. type: Plain text
+msgid ""
+"- Device name - Device model - Firmware (version)  - Serial number - Memory "
+"- Manufacturer name - IP - MAC"
+msgstr ""
+
+#. type: Plain text
+#:    
+#, no-wrap
+msgid "Network ports informations"
+msgstr ""
+
+#. type: Plain text
+msgid "Network inventory get each physical port and its informations :"
+msgstr ""
+
+#. type: Bullet: '- '
+msgid "Name : port name"
+msgstr ""
+
+#. type: Bullet: '- '
+msgid "MTU :"
+msgstr ""
+
+#. type: Bullet: '- '
+msgid "Speed : Port speed (10, 100, 1000... Mbps)"
+msgstr ""
+
+#. type: Bullet: '- '
+msgid "Internal status : port is active or not"
+msgstr ""
+
+#. type: Plain text
+#, no-wrap
+msgid ""
+"- Last changement : time since last modification of port\n"
+"- \n"
+"        Number of octets received\n"
+msgstr ""
+
+#. type: Bullet: '- 
+#. type:         '
+msgid "Number of errors in input"
+msgstr ""
+
+#. type: Bullet: '- 
+#. type:         '
+msgid "Number of octets sent"
+msgstr ""
+
+#. type: Bullet: '- 
+#. type:         '
+msgid "Number of errors in output"
+msgstr ""
+
+#. type: Plain text
+msgid ""
+"- Duplex : Port is in half-duplex or full duplex - Internal MAC : MAC "
+"address of the port (can be different of switch mac address)  - VLAN : - "
+"Connexion : List of MAC connected to the port - Description port :"
+msgstr ""
+
+#. type: Plain text
+#:  
+#, no-wrap
+msgid "Devices connected on each port"
+msgstr ""
+
+#. type: Plain text
+msgid "This module can get MAC addresses of devices connected on each ports."
+msgstr ""
+
+#. type: Plain text
+msgid ""
+"IMPORTANT These MAC addresses can be get only on switch of the manufacturers "
+"Cisco, Hewlett-Packard and Nortel."
+msgstr ""
+
+#. type: Plain text
+msgid "oupsattention"
+msgstr ""
+
+#. type: Plain text
+#:  
+#, no-wrap
+msgid "Switch and router informations"
+msgstr ""
+
+#. type: Plain text
+msgid "Network inventory get more informations of switch and routers."
+msgstr ""
+
+#. type: Plain text
+#:      
+msgid "TODO"
+msgstr ""
+
+#. type: Title #####
+#, no-wrap
+msgid "Cartridges state"
+msgstr ""
+
+#. type: Plain text
+msgid "Informations of cartridges state"
+msgstr ""
+
+#. type: Title #####
+#, no-wrap
+msgid "Pages counter"
+msgstr ""
+
+#. type: Plain text
+msgid "Pages counter informations"
+msgstr ""
+
+#. type: Plain text
+#:  
+#, no-wrap
+msgid "Printers informations"
+msgstr ""
+
+#. type: Plain text
+#:  
+#, no-wrap
+msgid "Informations retrieved"
+msgstr ""
+
+#. type: Plain text
+msgid "Description of inventoried data."
+msgstr ""
+
+#. type: Title ##
+#, no-wrap
+msgid "Network inventory"
+msgstr ""
+
+#. type: Plain text
+msgid "network inventory"
+msgstr ""
+
+#. type: Plain text
+msgid ""
+"Wake on LAN (WoL) allows remote wake-up of computers and workstation over "
+"the network by sending a signal over the network that is then received by "
+"the clients&apos; network adapter which then powers up the motherboard."
+msgstr ""
+
+#. type: Plain text
+msgid ""
+"Sometimes it can be useful e.g. for installing updates outside working hours "
+"in the night so the users aren&apos;t disturbed."
+msgstr ""
+
+#. type: Plain text
+msgid "It&apos;s with this focus that this module has been developed."
+msgstr ""
+
+#. type: Title ###
+#, no-wrap
+msgid "Wake on LAN on OSI Layer 2"
+msgstr ""
+
+#. type: Plain text
+msgid "The OSI Layer 2"
+msgstr ""
+
+#. type: Plain text
+msgid ""
+"This method is the best. The agent send magic packet directly on layer 2 of "
+"OSI on the network."
+msgstr ""
+
+#. type: Plain text
+msgid ""
+"IMPORTANT Yet this method only works with agents installed on Linux "
+"distributions (Debian, Fedora, RedHat, Ubuntu ...)."
+msgstr ""
+
+#. type: Plain text
+#:  
+#, no-wrap
+msgid "Wake on LAN over UDP"
+msgstr ""
+
+#. type: Plain text
+msgid ""
+"This metod is a substitute for the method that works on OSI Layer 2. This "
+"method sends a magic-packet over UDP (usually Port 7 or 9). This is using a "
+"broadcast and won&apos;t work normally in routed networks. Sometimes you may "
+"need to used so-called directed broadcasts which normally requires "
+"configuration steps on your switches / routers."
+msgstr ""
+
+#. type: Plain text
+msgid ""
+"IMPORTANT This method won&apos;t always work. Il peut y avoir un nombre "
+"important d&apos;échecs de démarrage des machines."
+msgstr ""
+
+#. type: Title ##
+#, no-wrap
+msgid "Wake on LAN"
+msgstr ""
+
+#. type: Plain text
+msgid "Wake on LAN: Remote wake up of computer"
+msgstr ""
+
+#. type: Plain text
+msgid "This chapter treats the remote wake up of computers - with FusionInventory."
+msgstr ""
+
+#. type: Plain text
+msgid ""
+"This mode allows (unattended) deployment of applications, execution of "
+"commands and allows also simple file transfer."
+msgstr ""
+
+#. type: Title ###
+#, no-wrap
+msgid "How peer 2 peer deployment feature works"
+msgstr ""
+
+#. type: Plain text
+msgid "How the peer 2 peer feature works"
+msgstr ""
+
+#. type: Plain text
+msgid "Peer 2 peer (P2P) allows:"
+msgstr ""
+
+#. type: Plain text
+msgid ""
+"- Reduce bandwidth between central server (useful when have remote site) and "
+"the computer - Get files very quickly How it works:"
+msgstr ""
+
+#. type: Plain text
+msgid ""
+"- The first client downloads the fragments of a pckage from the central "
+"server.  - if the fragments are found on other computers, then they are "
+"downloaded (they will then only be downloaded from the local site)  - if the "
+"fragments are not found on other agents / systems, then they will be "
+"downloaded from the central server.  - The other computers check the other "
+"clients&apos; agents on the local site whether they have these "
+"fragments. Depending on the answers the agent gets: During a deployment on "
+"serveral machines who are on the same site, you can see a significant better "
+"bandwith usage."
+msgstr ""
+
+#. type: Plain text
+msgid "oups"
+msgstr ""
+
+#. type: Title ##
+#, no-wrap
+msgid "OCS Deploy P2P"
+msgstr ""
+
+#. type: Plain text
+msgid "OCS deploy P2P: Application deployment with peer to peer data exchange"
+msgstr ""
+
+#. type: Plain text
+msgid ""
+"http://wiki.ocsinventory-ng.org/index.php/Main_Page This module is designed "
+"to work with an OCS Inventory server and especially with the OCS Reports web "
+"console. Please read OCS Inventory documentaton to go further."
+msgstr ""
+
+#. type: Title #
+#, no-wrap
+msgid "FusionInventory-Agent"
+msgstr ""
+
+#. type: Plain text
+msgid "Everything you need to know about the agent."
+msgstr ""
+
+#. type: Plain text
+msgid "Learn his different capacities, how to install and configure it."
+msgstr ""
+
+#. type: Plain text
+msgid "Description of plugin for GLPI : fusioninventory (core)"
+msgstr ""
+
+#. type: Plain text
+msgid "This plugin is the core of different other plugins (fusinv....)."
+msgstr ""
+
+#. type: Plain text
+msgid "It gives many functions and have the communication part with the agents."
+msgstr ""
+
+#. type: Title ###
+#:   
+#, no-wrap
+msgid "Requirements"
+msgstr ""
+
+#. type: Plain text
+msgid "Requirements for using this plugin for GLPI : fusioninventory"
+msgstr ""
+
+#. type: Plain text
+msgid ""
+"In order to install and use the plugin FusionInventory for GPLI on your "
+"server, the following requirements must be verified:"
+msgstr ""
+
+#. type: Plain text
+msgid ""
+"- GLPI 0.78.x (0.72 and older is not supported)  - PHP 5 or greater - "
+"PHP-ZLIB - PHP-GD - MySQL 5 or greater"
+msgstr ""
+
+#. type: Title ###
+#:   
+#, no-wrap
+msgid "Features"
+msgstr ""
+
+#. type: Plain text
+#:   
+msgid "Features list"
+msgstr ""
+
+#. type: Plain text
+#:   
+msgid "This is features list :"
+msgstr ""
+
+#. type: Plain text
+msgid ""
+"- Communication in HTTP and/or HTTPS between agent and plugin (server).  - "
+"Agent wake up features.  - Agents management with actions (enable / "
+"disable), link with computers.  - Management of unknown devices.  - Complete "
+"scheduled task system."
+msgstr ""
+
+#. type: Title ####
+#:   
+#, no-wrap
+msgid "New installation"
+msgstr ""
+
+#. type: Plain text
+msgid "How to install the plugin fusioninventory"
+msgstr ""
+
+#. type: Plain text
+#:   
+msgid "To install it, you must do :"
+msgstr ""
+
+#. type: Plain text
+msgid ""
+"http://forge.fusioninventory.org/projects/fusioninventory-for-glpi/files - "
+"Download archive here : Uncompress the file into the plugin folder of "
+"GLPI. File list seems to be like :"
+msgstr ""
+
+#. type: Plain text
+#:     
+msgid "- glpi"
+msgstr ""
+
+#. type: Plain text
+#:     
+msgid "--- plugins"
+msgstr ""
+
+#. type: Plain text
+#:   
+msgid "-----fusioninventory"
+msgstr ""
+
+#. type: Plain text
+#:     
+msgid "-------index.php"
+msgstr ""
+
+#. type: Plain text
+#:     
+msgid "------- hook.php"
+msgstr ""
+
+#. type: Plain text
+#:     
+msgid "------- front"
+msgstr ""
+
+#. type: Plain text
+#:     
+msgid "------- inc"
+msgstr ""
+
+#. type: Plain text
+#:     
+msgid "etc..."
+msgstr ""
+
+#. type: Plain text
+msgid ""
+"- - Connect on GLPI on super-admin - Go into the menu Configuration &gt; "
+"Plugins - Install FusionInventory - Activate FusionInventory These "
+"operations will create tables in database MySQL and rights on the plugin."
+msgstr ""
+
+#. type: Title ####
+#, no-wrap
+msgid "Update plugin FusionInventory for GLPI"
+msgstr ""
+
+#. type: Plain text
+msgid "This describe how to update plugin FusionInventory for GLPI"
+msgstr ""
+
+#. type: Plain text
+#:  
+msgid "To update, you must :"
+msgstr ""
+
+#. type: Plain text
+msgid ""
+"http://forge.fusioninventory.org/projects/fusioninventory-for-glpi/files - "
+"Download archive of the plugin here : - Delete the folder "
+"&quot;fusioninventory&quot; in glpi/plugins Uncompress the file into the "
+"plugin folder of GLPI. File list seems to be like :"
+msgstr ""
+
+#. type: Plain text
+msgid ""
+"- - Connect to GLPI on super-admin - Go into the menu Configuration &gt; "
+"Plugins - Install FusionInventory. The plugin will update. Update process "
+"can be short (few seconds) to long (many minutes or one/two hours).  - "
+"Activate FusionInventory These operations will modify tables and datas in "
+"database MySQL and rights on the plugin."
+msgstr ""
+
+#. type: Title ####
+#, no-wrap
+msgid "Update from Tracker plugin"
+msgstr ""
+
+#. type: Plain text
+msgid "How to update Tracker plugin to FusionInventory plugin"
+msgstr ""
+
+#. type: Plain text
+msgid "Tracker is the old name of the plugin FusionInventory for GLPI."
+msgstr ""
+
+#. type: Plain text
+msgid ""
+"- Delete the folder &quot;tracker&quot; in glpi/plugins "
+"http://forge.fusioninventory.org/projects/fusioninventory-for-glpi/files - "
+"Download archive of the plugin here : Uncompress the file into the plugin "
+"folder of GLPI. File list seems to be like : :"
+msgstr ""
+
+#. type: Plain text
+msgid ""
+"- - Connect to GLPI on super-admin - Go into the menu Configuration &gt; "
+"Plugins Install FusionInventory. The plugin will update the plugin. Update "
+"process can be short (few seconds) to long (many minutes or one/two hours) "
+"if you have a very old version of Tracker and if you have lots of data in "
+"the plugin."
+msgstr ""
+
+#. type: Plain text
+msgid ""
+"- - Activate FusionInventory These operations will modify tables and datas "
+"in database MySQL and rights on the plugin."
+msgstr ""
+
+#. type: Title ###
+#:   
+#, no-wrap
+msgid "Installation"
+msgstr ""
+
+#. type: Plain text
+#:   
+msgid "Plugin installation"
+msgstr ""
+
+#. type: Plain text
+msgid "Procedure list of installation on different cases."
+msgstr ""
+
+#. type: Plain text
+#:  
+#, no-wrap
+msgid "General configuration"
+msgstr ""
+
+#. type: Plain text
+msgid "This is available in the tab General configuration."
+msgstr ""
+
+#. type: Plain text
+msgid ""
+"- SSL only for agent : activate or not communication only in HTTPS between "
+"plugin and agents.  - Inventory frequency (in hours) : parameter for the "
+"PROLOG function of agent. With it, agent must contact plugin (server) always "
+"between 0 and xx hours (configured here).  - Delete tasks after : Delete "
+"tasks logs xx hours after they are finished.  - Agent port : it&apos;s the "
+"port of agent to wake it from the plugin. (by default, port is 62354).  - "
+"Extra-debug : plugin write log files to debug, with one file for "
+"communication trace, another for the rules usage..."
+msgstr ""
+
+#. type: Plain text
+#:    
+#, no-wrap
+msgid "Agents modules"
+msgstr ""
+
+#. type: Plain text
+#:  
+msgid "This is available in the tab Agents modules."
+msgstr ""
+
+#. type: Plain text
+msgid "It is possible to define for an agent what it is allowing to do."
+msgstr ""
+
+#. type: Plain text
+msgid ""
+"Each plugin fusinv[...] can add one or more modules in this menu; by "
+"default, you have only WAKEONLAN because it is integrated in this plugin."
+msgstr ""
+
+#. type: Plain text
+#, no-wrap
+msgid " For each module you can configure : \n"
+msgstr ""
+
+#. type: Plain text
+msgid ""
+"- Activation by default : default activation of this module for all agents "
+"(it&apos;s activated or not).  Agents exceptions : It depends on Activation "
+"by default but invert activation for each agent selected."
+msgstr ""
+
+#. type: Plain text
+msgid "Example:"
+msgstr ""
+
+#. type: Plain text
+msgid "- ."
+msgstr ""
+
+#. type: Plain text
+#:   
+#, no-wrap
+msgid "Configuration"
+msgstr ""
+
+#. type: Plain text
+msgid "Configuration of plugin for GLPI : fusioninventory"
+msgstr ""
+
+#. type: Plain text
+msgid "In this topic, the general configuration is describe."
+msgstr ""
+
+#. type: Plain text
+msgid ""
+"This configuration page is available in menu Plugins &gt; FusionInventory "
+"and after by the icon with a key in the top of the page."
+msgstr ""
+
+#. type: Plain text
+#:  
+#, no-wrap
+msgid "Agents creation"
+msgstr ""
+
+#. type: Plain text
+msgid "How agents is created here?"
+msgstr ""
+
+#. type: Plain text
+msgid "It is so simple : Creation is created itself!"
+msgstr ""
+
+#. type: Plain text
+msgid ""
+"When installation of agent is done on a computer, agent run and contact for "
+"the first time the server (plugin fusioninventory).  The plugin register the "
+"agent with some informations in this menu."
+msgstr ""
+
+#. type: Plain text
+#:  
+#, no-wrap
+msgid "Agents information"
+msgstr ""
+
+#. type: Plain text
+msgid ""
+"Some informations are get from agent dynamically and can&apos;t be modified "
+":"
+msgstr ""
+
+#. type: Plain text
+msgid ""
+"- device_id : it&apos;s the identifier of the agent generated it is running "
+"first time.  - Token : it&apos;s the key used to wake agent remotely. It is "
+"regenerated each time agent begin to run and sent to server.  - Version : "
+"it&apos;s the versions of agent (version core and for each modules). This "
+"version is only get when agent send informations of each modules to plugin.  "
+"- Last contact : it&apos;s the last time agent have contacted plugin.  Other "
+"informations can be modified :"
+msgstr ""
+
+#. type: Plain text
+msgid ""
+"- Name : it&apos;s the name of agent. By default, name is device_id.  - "
+"Locked : if it&apos;s set to YES, when agent contact plugin to get list of "
+"actions, server answer to do nothing. With this, agent is temporary "
+"disabled.  - Computer link: It&apos;s the link with a GLPI computer. The "
+"goal is to have IP of computer to wake up the agent. This link can be made "
+"automatically if you use Inventory function (inventory of the computer where "
+"agent is installed)."
+msgstr ""
+
+#. type: Plain text
+msgid ""
+"In this tab, is displaying the fusioninventory modules and if they are "
+"activated or not for this agent."
+msgstr ""
+
+#. type: Plain text
+msgid ""
+"So you can see in this tab what modules are allowed to be running for this "
+"agent."
+msgstr ""
+
+#. type: Plain text
+msgid ""
+"pluginglpi_fusioninventory_configuration_modules.dita The default activation "
+"(or not activation) is controlled by the general configuration page ("
+msgstr ""
+
+#. type: Plain text
+#:  
+#, no-wrap
+msgid "Agents management"
+msgstr ""
+
+#. type: Plain text
+msgid ""
+"This is available in the menu Plugins &gt; FusionInventory &gt; Agents "
+"management."
+msgstr ""
+
+#. type: Plain text
+msgid "It&apos;s possible to manage and configure agents here."
+msgstr ""
+
+#. type: Plain text
+#:  
+#, no-wrap
+msgid "Tasks description"
+msgstr ""
+
+#. type: Plain text
+msgid "The tasks are defined by 2 things :"
+msgstr ""
+
+#. type: Plain text
+msgid ""
+"- Tasks : task are great definition with name, activation, communication...  "
+"- Actions : defined in a task, theses actions are designed to make "
+"wakeonlan, inventory, netdiscovery... on agents. You can have many actions "
+"on one task.  These tasks are used to order to agents what to do. They can "
+"be scheduled and have periodicity parameter to run for example every hour."
+msgstr ""
+
+#. type: Plain text
+#:  
+#, no-wrap
+msgid "Tasks usage"
+msgstr ""
+
+#. type: Plain text
+msgid "The tasks must be defined by different fields :"
+msgstr ""
+
+#. type: Plain text
+msgid ""
+"- Name : used to identify task. Think to put a complete name because if "
+"there is lots of tasks, it must be better to find task you want to display "
+"or configure.  - Active : enable or disable a task.  - Push (server wake "
+"agent, agent contact server and give task to it)  - Pull (server wait agent "
+"contact server itself and get tasks to it)  - Communication type : - "
+"Permanent : some tasks may be permanent. these tasks are defined in other "
+"menu (like in IP range of fusinvsnmp plugin). Permanent mean task can be "
+"controlled and is attached to an other GLPI object.  - Scheduled date: You "
+"define the date / time of next execution of the task. This date will be "
+"updated after each running if periodicity is set.  - Periodicity : define "
+"time between 2 runs of this task."
+msgstr ""
+
+#. type: Plain text
+#:  
+#, no-wrap
+msgid "Action description"
+msgstr ""
+
+#. type: Plain text
+msgid "An action is defined by fields:"
+msgstr ""
+
+#. type: Plain text
+msgid ""
+"- Name: name for identify this action.  oupscaution - Time between task "
+"start and start this action: It&apos;s the time when action will start after "
+"the task is beginning. If are set 10 minutes, task start at 1 hour am and "
+"this action begin at 1 hour and 10 minutes am.  - Number of trials: "
+"It&apos;s possible to define number of trials if there are errors on "
+"execution of the task.  - Time between 2 trials (in minutes): Number of "
+"minutes between 2 trials.  - Module: Module defined the action (WakeOnLan, "
+"Inventory, netdiscovery...). These modules come from each plugins "
+"fusinv[...] installed."
+msgstr ""
+
+#. type: Plain text
+#:  
+#, no-wrap
+msgid "Action definition"
+msgstr ""
+
+#. type: Plain text
+msgid ""
+"Definition in action describe what definition of action like a computer to "
+"wake up (WakeOnLan module), IP range to netdiscovery (network discovery) ..."
+msgstr ""
+
+#. type: Plain text
+msgid ""
+"You can select a type defined for each module and after an object of this "
+"type. Click on Add button to add it in selection list. You can have many "
+"objects in this definition list."
+msgstr ""
+
+#. type: Plain text
+#:  
+#, no-wrap
+msgid "Action action"
+msgstr ""
+
+#. type: Plain text
+msgid ""
+"Action in an action witch describe with what agent or computer you can to "
+"this tack action."
+msgstr ""
+
+#. type: Plain text
+msgid "One or more agents can be selected."
+msgstr ""
+
+#. type: Plain text
+msgid "For some method, you can have 2 other choices for agent actions :"
+msgstr ""
+
+#. type: Plain text
+msgid ""
+"- Auto management dynamic of agents: can be used only in push "
+"communication. Task will detect online and not running agent are allowed to "
+"run this method and give definitions to these agents.  - Auto management "
+"dynamic of agents (same subnet): can be used only in push "
+"communication. Task will detect online and not running agent in the same "
+"subnet of definition (for SNMP inventory switchs for example) are allowed to "
+"run this method and give definitions to these agents."
+msgstr ""
+
+#. type: Plain text
+#:  
+#, no-wrap
+msgid "Task actions"
+msgstr ""
+
+#. type: Plain text
+msgid "A tasks is defined by one or more action."
+msgstr ""
+
+#. type: Plain text
+msgid ""
+"Depends of plugins fusinv[...] installed, for example, you can have a "
+"wakeonlan of a computer at 1 hour am and a local inventory at 2 hours am."
+msgstr ""
+
+#. type: Plain text
+msgid "There are 2 types of tabs :"
+msgstr ""
+
+#. type: Plain text
+msgid ""
+"- New action: form used to add a new action.  - Action [number]: it&apos;s "
+"an action defined. Number is incremental, so if there are 4 actions, 4 tabs "
+"are displayed : Action 1, Action 2, Action 3 and Action 4. These tabs are "
+"sorted by time of execution (Action 1 at 0 seconds after task begin , Action "
+"2 at 30 minutes after the first action etc...)."
+msgstr ""
+
+#. type: Plain text
+#:  
+#, no-wrap
+msgid "Tasks management"
+msgstr ""
+
+#. type: Plain text
+msgid ""
+"This is available in the menu Plugins &gt; FusionInventory &gt; Task "
+"management."
+msgstr ""
+
+#. type: Plain text
+msgid "It is possible to manage tasks and configure here."
+msgstr ""
+
+#. type: Plain text
+#:  
+#, no-wrap
+msgid "Rules description"
+msgstr ""
+
+#. type: Plain text
+msgid ""
+"These rules are used to search and link the device (insert or update datas) "
+"get from agent with devices in GLPI."
+msgstr ""
+
+#. type: Plain text
+msgid "The engine rules will stop when a rule is checked."
+msgstr ""
+
+#. type: Plain text
+#:  
+#, no-wrap
+msgid "Rules criteria"
+msgstr ""
+
+#. type: Plain text
+msgid "Many possibilities are possible to have a criteria."
+msgstr ""
+
+#. type: Plain text
+msgid "This is the different operators :"
+msgstr ""
+
+#. type: Plain text
+msgid ""
+"- is : the criteria is a value - is not : the criteria is not a value - "
+"contains : the criteria have this value in the name - does not contain : the "
+"criteria don&apos;t have this value in the name - start with : the criteria "
+"have is a name begin with this value - finished by : the criteria have is a "
+"name finish with this value - regular expression checks : the criteria check "
+"this regular expression - regular expression does not check : the criteria "
+"doesn&apos;t check this regular expression - exist : the criteria is defined "
+"- not exist : the criteria is not defined - is present in GLPI : this "
+"criteria value is find in GLPI - is empty : this criteria is empty With all "
+"of these operators, it is possible to make really powerfull rules."
+msgstr ""
+
+#. type: Plain text
+#:  
+#, no-wrap
+msgid "Rules actions"
+msgstr ""
+
+#. type: Plain text
+msgid "These are 2 possibilities for actions."
+msgstr ""
+
+#. type: Plain text
+msgid ""
+"- link if possible : the rule will link a device enter in rules with a GLPI "
+"device if find it or continue this next rule - link if possible, else import "
+"denied : the rule will link a device enter in rules with a GLPI device if "
+"find it, else end rules here and device not created (so device import "
+"ignored)."
+msgstr ""
+
+#. type: Plain text
+#:  
+#, no-wrap
+msgid "Rules working"
+msgstr ""
+
+#. type: Plain text
+msgid "This section will describe how rules works."
+msgstr ""
+
+#. type: Plain text
+msgid ""
+"For each import device from agent, device informations pass on rules to try "
+"to discover is device exist in GLPI inventory. If find, this device will be "
+"updated, else device will be created."
+msgstr ""
+
+#. type: Title ###
+#, no-wrap
+msgid "Rules (Equipment import and link rules)"
+msgstr ""
+
+#. type: Plain text
+msgid "Rules system for import and link equipments"
+msgstr ""
+
+#. type: Title ###
+#, no-wrap
+msgid "Unknown devices"
+msgstr ""
+
+#. type: Plain text
+msgid ""
+"Management of temporary area between real devices and devices managed in "
+"GLPI"
+msgstr ""
+
+#. type: Plain text
+msgid ""
+"Unknown devices is a temporary area between real devices and devices managed "
+"into GLPI."
+msgstr ""
+
+#. type: Plain text
+msgid "What does it mean?"
+msgstr ""
+
+#. type: Plain text
+msgid ""
+"Want agent find a device and not be in GLPI inventory, FusionInventory "
+"create this device in unknown devices. A user will decide if this device "
+"must be imported in GLPI inventory (devices managed by company) or not."
+msgstr ""
+
+#. type: Plain text
+msgid "For example"
+msgstr ""
+
+#. type: Plain text
+msgid "Many informations can be managed on these devices :"
+msgstr ""
+
+#. type: Title ###
+#, no-wrap
+msgid "Informations of these devices"
+msgstr ""
+
+#. type: Plain text
+msgid ""
+"- Name: Name of the component - Entity: Entity of the device - Type: GLPI "
+"type of device (computer, printer, network device...)  - Alternate username "
+": Name of the user uses this device - Location : - Domain: - Approuved "
+"devices : If this device is approuved, you know if this unknown devices is "
+"allowed to be in your network.  - Serial number: - Network hub : use by "
+"fusinvsnmp plugin - Inventory number: - Comments :"
+msgstr ""
+
+#. type: Title ###
+#, no-wrap
+msgid "Tab connections"
+msgstr ""
+
+#. type: Title ###
+#, no-wrap
+msgid "Tab import"
+msgstr ""
+
+#. type: Plain text
+msgid ""
+"Used to import this unknown device into GLPI inventory. In fact, if this "
+"device have a type Computer, when we clic on import button, the plugin will "
+"create a computer with the informations and delete this unknown device. It "
+"will get the network port of unknown device to set to the computer to keep "
+"history and relations between network ports."
+msgstr ""
+
+#. type: Plain text
+msgid "IMPORTANT Importation canwork only if the type is defined."
+msgstr ""
+
+#. type: Title ###
+#, no-wrap
+msgid "Tab FusInv XML"
+msgstr ""
+
+#. type: Plain text
+msgid ""
+"In this tab, you can see XML of all data get by agent (if creation has been "
+"made by agent)."
+msgstr ""
+
+#. type: Title ##
+#, no-wrap
+msgid "Plugin for GLPI : fusioninventory (core)"
+msgstr ""
+
+#. type: Plain text
+msgid ""
+"Installation guide and users manual for the plugin for GLPI : "
+"fusioninventory (core)."
+msgstr ""
+
+#. type: Plain text
+msgid "Description of plugin for GLPI : fusinvinventory"
+msgstr ""
+
+#. type: Plain text
+msgid ""
+"The goal of this plugin is to get inventory (hardware, software) of "
+"computers and display it in GLPI."
+msgstr ""
+
+#. type: Plain text
+msgid "Requirements for using this plugin for GLPI : fusinvinventory"
+msgstr ""
+
+#. type: Plain text
+msgid ""
+"In order to install and use the plugin fusinvinventory on your server, you "
+"have to meet the following requirements:"
+msgstr ""
+
+#. type: Plain text
+#:  
+msgid ""
+"- GLPI 0.78.x (0.72 and older is not supported)  "
+"pluginglpi_fusioninventory.dita -"
+msgstr ""
+
+#. type: Plain text
+msgid "Get many informations of computers :"
+msgstr ""
+
+#. type: Plain text
+msgid ""
+"- Hardware informations (serial number, computer model, manufacturer, "
+"components like processor, memory, network card...)  - Software informations "
+"(all softwares installed in the computer)  - Antivirus informations (for "
+"Windows only)  -"
+msgstr ""
+
+#. type: Plain text
+msgid "How to install the plugin fusinvinventory"
+msgstr ""
+
+#. type: Plain text
+#:  
+msgid "Download file here :"
+msgstr ""
+
+#. type: Plain text
+msgid ""
+"http://forge.fusioninventory.org/projects/pluginfusinvinventory/files - "
+"Uncompress the file into the plugin folder of GLPI. File list seems to be "
+"like :"
+msgstr ""
+
+#. type: Plain text
+msgid "-----fusinvinventory"
+msgstr ""
+
+#. type: Plain text
+msgid ""
+"- - Connect on GLPI on super-admin - Go into the menu Configuration &gt; "
+"Plugins - Install FusionInventory INVENTORY.  - Activate FusionInventory "
+"INVENTORY.  These operations will create tables in database MySQL and rights "
+"on the plugin."
+msgstr ""
+
+#. type: Plain text
+#:  
+msgid ""
+"pluginglpi_fusioninventory.dita IMPORTANT Link for install / activate this "
+"plugin is hidden if plugin"
+msgstr ""
+
+#. type: Plain text
+#:  
+msgid "Procedure list of installation on different case."
+msgstr ""
+
+#. type: Title ###
+#, no-wrap
+msgid "How it works"
+msgstr ""
+
+#. type: Plain text
+msgid "How to plugin fusinvinventory works?"
+msgstr ""
+
+#. type: Plain text
+msgid "This is a description of the processus to inventory computers."
+msgstr ""
+
+#. type: Plain text
+msgid ""
+"- [Agent] contact server (plugin fusioninventory).  "
+"pluginglpi_fusioninventory_agentsmanagement.dita - [Plugin fusioninventory] "
+"create agent the first time (see ).  - [Plugin fusinvinventory] get "
+"information if this agent is allowed to execute local inventory module. If "
+"no, Agent return order with no inventory request. If yes, go on next step.  "
+"- [Agent] get all informations of computer.  - [Agent] send XML of inventory "
+"to plugin.  - [Plugin fusioninventory] get XML file and send it to plugin "
+"fusinvinventory.  - [Plugin fusinvinventory] receive XML file, parse it and "
+"remove fields that are blacklisted.  - [Plugin fusinvinventory] Data are "
+"sent to criteria rules.  - [Plugin fusinvinventory] Criteria rules check, "
+"and send to the libserver fusioninventory.  - [Libserver fusioninventory] "
+"Lib create a file and send all data to plugin fusinvinventory. In case of "
+"computer is yet created, it send only modifications of inventory to plugin "
+"fusinvinventory.  - [Plugin fusinvinventory] Get data, create computer, send "
+"to entity rules to get the right entity.  - [Plugin fusinvinventory] All "
+"data of XML file will be created in GLPI (for some fields, before write in "
+"GLPI, dictionnaries are used to rewrite them).  - Your computer is in GLPI ! "
+"IMPORTANT To make inventory, you don&apos;t need use task management they "
+"are bypassed)."
+msgstr ""
+
+#. type: Title ##
+#, no-wrap
+msgid "Plugin for GLPI : fusinvinventory "
+msgstr ""
+
+#. type: Plain text
+msgid ""
+"Installation guide and users manual for the plugin for GLPI : "
+"fusinvinventory."
+msgstr ""
+
+#. type: Plain text
+msgid "Description of plugin for GLPI : fusinvsnmp"
+msgstr ""
+
+#. type: Plain text
+msgid ""
+"The goal of this plugin is to get remotly inventory of network equipment "
+"(switch, printers...) and to discovery all devices connected to the network."
+msgstr ""
+
+#. type: Plain text
+msgid "Requirements for using this plugin for GLPI : fusinvsnmp"
+msgstr ""
+
+#. type: Plain text
+msgid ""
+"In order to install and use the plugin fusinvsnmp on your server, you have "
+"to meet the following requirements:"
+msgstr ""
+
+#. type: Plain text
+msgid "Get many informations of switch:"
+msgstr ""
+
+#. type: Plain text
+msgid ""
+"- Hardware informations (serial number, model, manufacturer, firmware, mac "
+"caddress...)  - Ports informations (name, description, MTU, erors...)  - "
+"Connections on each port (what mac is connected on this port)  - Get many "
+"informations of printer:"
+msgstr ""
+
+#. type: Plain text
+msgid ""
+"- Hardware informations (serial number, model, manufacturer, firmware, "
+"memory...)  - Cartridges state (empty, full, percent of ink)  - Page counter "
+"(counter registred all days and possibility to display graph of these datas, "
+"get counter total, color counter, black and white counter...)  - Discovery "
+"all devices connected on the network"
+msgstr ""
+
+#. type: Plain text
+msgid ""
+"- Scan by NMAP (if installed, get mac address and dns name)  - Scan by "
+"NETBIOS (get netbios name, workgroup or domain, user connected)  - Scan by "
+"SNMP (get serial number, mac address, name)  -"
+msgstr ""
+
+#. type: Plain text
+msgid "How to install the plugin fusinvsnmp"
+msgstr ""
+
+#. type: Plain text
+msgid ""
+"http://forge.fusioninventory.org/projects/pluginfusinvsnmp/files - "
+"Uncompress the file into the plugin folder of GLPI. File list seems to be "
+"like :"
+msgstr ""
+
+#. type: Plain text
+msgid "-----fusinvsnmp"
+msgstr ""
+
+#. type: Plain text
+msgid ""
+"- - Connect on GLPI on super-admin - Go into the menu Configuration &gt; "
+"Plugins - Install FusionInventory SNMP.  - Activate FusionInventory SNMP.  "
+"These operations will create tables in database MySQL and rights on the "
+"plugin."
+msgstr ""
+
+#. type: Plain text
+#:  
+#, no-wrap
+msgid "SNMP models"
+msgstr ""
+
+#. type: Plain text
+msgid "The SNMP models are maintened and generated by FusionInventory team."
+msgstr ""
+
+#. type: Plain text
+msgid ""
+"They are usefull to get right informations in the right SNMP oid because "
+"depend on device, manufacturer, device and sometimes firmware."
+msgstr ""
+
+#. type: Plain text
+msgid "This list is updated for each release of plugin fusinvsnmp."
+msgstr ""
+
+#. type: Plain text
+msgid "There are some things to know of the models :"
+msgstr ""
+
+#. type: Plain text
+msgid ""
+"http://forge.fusioninventory.org/projects/fusioninventory/wiki/Sending_snmpwalk "
+"- If SNMP device have no model associated, we can create the model by "
+"sending us the snmpwalk. See "
+"http://forge.fusioninventory.org/projects/pluginfusinvsnmp/wiki/switch_list "
+"- To see if your device have model, in stable or in devel version, you can "
+"see (only for switch for the moment)"
+msgstr ""
+
+#. type: Title ###
+#, no-wrap
+msgid "Add a SNMP model"
+msgstr ""
+
+#. type: Plain text
+msgid "There are many possibilities to add a model when clic on + button:"
+msgstr ""
+
+#. type: Plain text
+msgid ""
+"- Import a model with a file generated by FusionInventory team.  - Import "
+"all models (mass importation) in folder plugins/fusinvsnmp/models/.  - "
+"Create a model yourself (not very recommanded)."
+msgstr ""
+
+#. type: Title ###
+#, no-wrap
+msgid "Content of a model"
+msgstr ""
+
+#. type: Plain text
+msgid "A model is defined by :"
+msgstr ""
+
+#. type: Plain text
+msgid ""
+"- Name : Name of the model (number randomly generated)  - Type : Type of "
+"devices designed to work (network equipment, printers...  - Comments : List "
+"of SNMP sysdescr compatible with this model - List of oids : List of the "
+"different oids associated to a GLPI information"
+msgstr ""
+
+#. type: Plain text
+#:  
+#, no-wrap
+msgid "SNMP authentication"
+msgstr ""
+
+#. type: Plain text
+msgid "This is the list of authentication for permit to read SNMP of the devices."
+msgstr ""
+
+#. type: Plain text
+msgid ""
+"FusionInventory support SNMP v1, v2c and v3 (no crypt, half crypt and full "
+"crypt)."
+msgstr ""
+
+#. type: Plain text
+msgid "Authentication is defined by :"
+msgstr ""
+
+#. type: Plain text
+msgid ""
+"- Name : Name of the authentication - SNMP version : Version of SNMP (v1, "
+"v2c or v3)"
+msgstr ""
+
+#. type: Title ###
+#, no-wrap
+msgid "For versions 1 and 2c only : "
+msgstr ""
+
+#. type: Plain text
+msgid "- Community : Used by versions 1 and 2c (it&apos;s like a password)"
+msgstr ""
+
+#. type: Title ###
+#, no-wrap
+msgid "For version 3 only : "
+msgstr ""
+
+#. type: Plain text
+msgid ""
+"- User : Name of user allowed to read SNMP used only for communication - "
+"Encryption protocol for authentication : Set encryption protocol (MD5 or "
+"SHA) used only for communication - Password : password used only for "
+"communication - Encryption protocol for data : set encryption protocol (DES, "
+"AES128, AES192 or AES256) used only to get SNMP data.  - Password : password "
+"used only to get SNMP data."
+msgstr ""
+
+#. type: Title ###
+#, no-wrap
+msgid "IP ranges"
+msgstr ""
+
+#. type: Plain text
+msgid "Management of IP ranges"
+msgstr ""
+
+#. type: Plain text
+msgid ""
+"The range IP must be defined for network discovery and SNMP inventory by the "
+"agents."
+msgstr ""
+
+#. type: Plain text
+msgid ""
+"- Name : Name of the range - Start of IP range : First IP address of the "
+"range - End of IP range: Last IP address of the range - Entity : Associate "
+"this range IP to an entity oups"
+msgstr ""
+
+#. type: Title ###
+#, no-wrap
+msgid "Tab Permanent task - discovery (SNMP)"
+msgstr ""
+
+#. type: Plain text
+msgid "This tab is used to create a netdiscovery task easily."
+msgstr ""
+
+#. type: Plain text
+msgid ""
+"pluginglpi_fusioninventory_tasksmanagement.dita Clic on link Create task "
+"easily to create the task. After configuration is required. For "
+"configuration, see"
+msgstr ""
+
+#. type: Plain text
+msgid "In this tab, history and complete logs of last executions is displayed."
+msgstr ""
+
+#. type: Title ###
+#, no-wrap
+msgid "Tab Permanent task - inventory (SNMP)"
+msgstr ""
+
+#. type: Plain text
+msgid ""
+"This tab is used to create an inventory (SNMP) task easily. See section "
+"before Tab Permanent task - discovery (SNMP)."
+msgstr ""
+
+#. type: Title ###
+#, no-wrap
+msgid "Network ports"
+msgstr ""
+
+#. type: Plain text
+msgid "Port visualization of network components (switches, routers)"
+msgstr ""
+
+#. type: Plain text
+msgid ""
+"This page is available on from of a network equipment and go on tab FusInv "
+"SNMP."
+msgstr ""
+
+#. type: Title ###
+#, no-wrap
+msgid "SNMP Informations"
+msgstr ""
+
+#. type: Plain text
+msgid "Data seen here are :"
+msgstr ""
+
+#. type: Plain text
+msgid ""
+"- Sysdescr : it&apos;s the sysdescr of the switch (SNMP)  "
+"pluginglpi_fusinvsnmp_snmpmodels.dita - SNMP models : it&apos;s the SNMP "
+"model associated with this switch. The button Load the correct model can be "
+"used to set the right model with help of the sysdescr and if is present in "
+"the SNMP definitions ().  - SNMP authentication : Authentication used to "
+"access query SNMP oid.  - Last inventory : date of last inventory of this "
+"switch - CPU usage (in %) : % of CPU when have made last inventory - Memory "
+"usage (in %) : % of memory used (in most case of switch this value is the "
+"storage of operating system (firmware)  - Uptime : Uptime since last reboot "
+"of switch"
+msgstr ""
+
+#. type: Title ###
+#, no-wrap
+msgid "IP"
+msgstr ""
+
+#. type: Plain text
+msgid "A switch can have many IP. This array display all of these IP addresses."
+msgstr ""
+
+#. type: Title ###
+#, no-wrap
+msgid "Ports array"
+msgstr ""
+
+#. type: Plain text
+msgid "This is list of columns / informations of each port :"
+msgstr ""
+
+#. type: Plain text
+msgid ""
+"- Name: Shops the name of the network port - MTU: Shows the maximum packet "
+"size traversing this port oups - Speed: Show the speed the port is operating "
+"at - Internal status : Display with a colored dot if the port is active or "
+"not - Last change : Display time since last modification of the port (not "
+"works very well on some manufacturer switch)  - Number of bytes received : "
+"Display number of bytes the port have received - Number of input errors : "
+"Display number of errors when port received data. If more than 0, this case "
+"have red background color to identify quickly - Number of bytes sent : "
+"Display number of bytes port have sent - Number of errors in reception : "
+"Display number of errors when port send data. If more than 0, this case have "
+"red background color to identify quickly - Duplex : Display if the port is "
+"in half-duplex or full duplex - Internal MAC : Display MAC address of the "
+"port (can be different than switch MAC)  - VLAN: Show the VLAN of this port "
+"- Connected to : Display on witch GLPI device this port is connected oups - "
+"Connection : Display with colored dot if a device is connected and power on "
+"- Description du port : Display description of the port There are many "
+"colors line (Background color) :"
+msgstr ""
+
+#. type: Plain text
+msgid ""
+"- Grey: This port has no connection with any device - Orange with the "
+"wording &quot;Trunk port&quot;: A connected port that is connected with a "
+"switch or server using port trunking / link aggregation (or is tagged)  - "
+"Orange with the wording &quot;Connected port&quot;: A port connected to "
+"equipment without usage of trunks.  The history of each port can be "
+"visualized by clicking on the + which gen be found in the first cell. An "
+"array will display all modifications of informations and all connections and "
+"disconnections of devices."
+msgstr ""
+
+#. type: Title ###
+#, no-wrap
+msgid "Cartridge state of printers"
+msgstr ""
+
+#. type: Plain text
+msgid "See cartridge state of printers"
+msgstr ""
+
+#. type: Title ###
+#, no-wrap
+msgid "Printer page counter"
+msgstr ""
+
+#. type: Plain text
+msgid "Visualization of page counters from printers"
+msgstr ""
+
+#. type: Title ##
+#, no-wrap
+msgid "Plugin for GLPI : fusinvsnmp "
+msgstr ""
+
+#. type: Plain text
+msgid "Installation guide and users manual for the plugin for GLPI : fusinvsnmp."
+msgstr ""
+
+#. type: Plain text
+msgid "Il faut commencer à configurer le plugin FusionInventory pour GLPI."
+msgstr ""
+
+#. type: Plain text
+msgid ""
+"pluginglpi_fusioninventory_configuration.dita "
+"pluginglpi_fusioninventory_configuration_criterii.dita Dans la"
+msgstr ""
+
+#. type: Plain text
+msgid ""
+"- IP : Non - Nom : Non - Numéro de série : Oui - Adresse Mac : Non - "
+"Critères 1 : - IP : Non - Nom : Non - Numéro de série : Non - Adresse Mac : "
+"Oui - Critères 2 : pluginglpi_fusioninventory_configuration_modules.dita - "
+"Snmp - Découverte d&apos;équipements Dans les"
+msgstr ""
+
+#. type: Plain text
+#:  
+#, no-wrap
+msgid "Configuration de l&apos;agent"
+msgstr ""
+
+#. type: Plain text
+msgid "agent_installing.dita Il faut"
+msgstr ""
+
+#. type: Plain text
+msgid "Il faut configurer l&apos;agent avec cette variable :"
+msgstr ""
+
+#. type: Plain text
+msgid ""
+"- "
+"server=http://192.168.0.10/glpi/plugins/fusioninventory/front/plugin_fusioninventory.communication.php "
+"Lancer l&apos;agent une fois."
+msgstr ""
+
+#. type: Plain text
+#:  
+#, no-wrap
+msgid "Configuration de l&apos;agent dans GLPI"
+msgstr ""
+
+#. type: Plain text
+msgid "L&apos;agent a été créé dans GLPI."
+msgstr ""
+
+#. type: Plain text
+msgid ""
+"Il faut activer les modules nécessaires pour faire la découverte ainsi que "
+"l&apos;inventaire réseau."
+msgstr ""
+
+#. type: Plain text
+msgid ""
+"Dans Plugins &gt; FusionInventory &gt; Gestion des agents, cliquer sur le "
+"nom de l&apos; agent et mettre à Oui les champs suivants :"
+msgstr ""
+
+#. type: Plain text
+msgid ""
+"- Découverte d&apos;équipements - Interrogation SNMP Valider les "
+"modifications."
+msgstr ""
+
+#. type: Plain text
+#:  
+#, no-wrap
+msgid "Configuration d&apos;une plage IP"
+msgstr ""
+
+#. type: Plain text
+msgid "pluginglpi_fusioninventory_rangeip.dita Il faut maintenant"
+msgstr ""
+
+#. type: Plain text
+msgid ""
+"- Nom : réseau interne - Début de la plage IP : 192.168.0.1 - Fin de la "
+"plage IP : 192.168.0.254 - Agent découverte : L&apos;agent qui a dû se créer "
+"(on ne doit en avoir qu&apos;un seul dans la liste)  - Agent interrogation : "
+"L&apos;agent qui a dû se créer (on ne doit en avoir qu&apos;un seul dans la "
+"liste) IP - Découverte : Oui - Interrogation : Non"
+msgstr ""
+
+#. type: Title ###
+#, no-wrap
+msgid "Découverte de matériels"
+msgstr ""
+
+#. type: Plain text
+msgid "Découverte de matériel"
+msgstr ""
+
+#. type: Plain text
+msgid "Nous pouvons désormais découvrir nos matériels réseau."
+msgstr ""
+
+#. type: Plain text
+msgid ""
+"On lance l&apos;agent une nouvelle fois pour qu&apos;il découvre les "
+"matériels."
+msgstr ""
+
+#. type: Plain text
+msgid "Une fois que l&apos;agent a terminé, on passe au chapitre suivant."
+msgstr ""
+
+#. type: Plain text
+#:  
+#, no-wrap
+msgid "Gestion du matériel inconnu découvert"
+msgstr ""
+
+#. type: Plain text
+msgid "pluginglpi_fusioninventory_unknowndevices.dita Dans ce"
+msgstr ""
+
+#. type: Plain text
+msgid "On va importer les switchs découverts."
+msgstr ""
+
+#. type: Plain text
+#:  
+#, no-wrap
+msgid "Inventaire du matériel réseau"
+msgstr ""
+
+#. type: Plain text
+msgid ""
+"pluginglpi_fusioninventory_rangeip.dita Pour inventorier nos switch, il faut "
+"modifier notre"
+msgstr ""
+
+#. type: Plain text
+msgid ""
+"- Découverte : Non - Interrogation : Oui On relance l&apos;agent et quand il "
+"a fini, toutes les données sont dans la fiche de chaque switch."
+msgstr ""
+
+#. type: Title ##
+#, no-wrap
+msgid "Exemple de mise en place"
+msgstr ""
+
+#. type: Plain text
+msgid "Exemple de mise en place de FusionInventory"
+msgstr ""
+
+#. type: Plain text
+msgid "Nous souhaitons :"
+msgstr ""
+
+#. type: Plain text
+msgid ""
+"- Faire une découverte de nos switchs - Faire un inventaire de nos switchs "
+"découverts Voici les données utilisées dans cet exemple :"
+msgstr ""
+
+#. type: Plain text
+msgid ""
+"- Plage IP de notre réseau : 192.168.0.1 à 192.168.0.254 - Serveur GLPI : "
+"192.168.0.10 - GLPI est accessible via l&apos;url http://192.168.0.10/glpi/ "
+"- L&apos;agent sera installé sur le serveur 192.168.0.11 (mais il pourrait "
+"être installé sur le même serveur que le serveur GLPI)  - Communauté "
+"utilisée : versions 1 &amp; 2c &quot;public&quot;"
+msgstr ""
+
+#. type: Title #
+#, no-wrap
+msgid "Plugins FusionInventory for GLPI "
+msgstr ""
+
+#. type: Plain text
+msgid "Installation guide and users manual for the plugins FusionInventory for GLPI"
+msgstr ""
+
+#. type: Plain text
+#:  
+#, no-wrap
+msgid "Addresse MAC"
+msgstr ""
+
+#. type: Plain text
+msgid "[En cours d&apos;écriture]"
+msgstr ""
+
+#. type: Plain text
+#:  
+#, no-wrap
+msgid "Glossary"
+msgstr ""
+
+#. type: Plain text
+msgid "[Work in progress]"
+msgstr ""
