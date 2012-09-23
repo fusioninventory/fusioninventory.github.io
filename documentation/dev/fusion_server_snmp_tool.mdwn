@@ -1,1 +1,77 @@
 Fusion server (SNMP tool server)
+
+
+h1. Communication
+
+h2. Protocol
+
+The protocol used is the HTTP.
+The client (plugin Fusioninventory for GLPI) use curl to get/send data.
+
+h2. Port 
+
+The port configured in the server is: 9000.
+But to access it, we use port 80, because the reverse proxy redirect port 80 (frontend) to port 9000 (backend)
+
+
+h1. Data format
+
+h2. JSON
+
+The dat received is in JSON format in the POST value of HTTP
+
+h2. Composition of messages
+
+All messages are 2 parts:
+
+h3. 'auth' => authentication
+Authentication is verified on each data received by server
+this auth has 3 values:
+* login
+* password
+* key
+for example: {"auth":{"login":"ddurieux","password":"oh my god","key":"5678"}}
+
+h3. Methods
+
+The second part of data is a method. This is a description:
+
+h4. getSysdescr
+
+
+
+h4. getdeviceid
+
+
+
+h4. getallmodels
+
+
+
+h4. setLock
+
+
+
+h4. getDevice
+
+
+
+h4. updateMib
+
+
+
+h4. createSingleModel
+
+
+
+h4. getSingleModel
+
+
+
+h4. getMultipleModel
+
+
+
+h4. addOid
+ 
+
