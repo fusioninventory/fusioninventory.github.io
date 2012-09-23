@@ -52,7 +52,7 @@ input#searchbox {
   position: absolute;
   bottom: 0;
   right: 2em;
-  width: 100%;
+  width: 400px;
   text-align: right; }
 
 .pageheader .actions ul {
