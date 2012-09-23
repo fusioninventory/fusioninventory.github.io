@@ -6,3 +6,7 @@
 
 * [[Source|documentation/agent/installation/source]]
 * Git: [[UNIX|documentation/agent/dev/git_unix]], [[Windows|documentation/agent/dev/git_windows]]
+
+# Fusion server
+
+[[How works fusion server (SNMP tool server)|fusion_server_snmp_tool]]
