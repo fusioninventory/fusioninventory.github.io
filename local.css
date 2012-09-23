@@ -53,7 +53,9 @@ input#searchbox {
   bottom: 0;
   right: 2em;
   width: 400px;
-  text-align: right; }
+  text-align: right; 
+  z-index: 10;
+}
 
 .pageheader .actions ul {
   border-style: none;
