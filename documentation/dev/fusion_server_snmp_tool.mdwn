@@ -13,6 +13,9 @@ h2. Port
 The port configured in the server is: 9000.
 But to access it, we use port 80, because the reverse proxy redirect port 80 (frontend) to port 9000 (backend)
 
+h2. Many connections
+
+To manage many connections, all new connection is started in a new thread and is destroyed when finish run operations
 
 h1. Data format
 
@@ -38,40 +41,60 @@ The second part of data is a method. This is a description:
 
 h4. getSysdescr
 
+Get 2 values:
 
+* sysdescr
+* itemtype
+
+Server return information of this sysdescr if exist in the DB
 
 h4. getdeviceid
 
+Get 1 value:
+
+* id of the device 
+
+Server return information of this id if exist in the DB
 
 
 h4. getallmodels
 
+Get simple list of all devices + models associated
 
 
 h4. setLock
 
-
+Set a lock in a device. This lock is a date + user account and deny all other user modify this device (and so oids) for one hour
 
 h4. getDevice
 
+Get all oids, mibs, mapping and calculate % of the usage of this oid in all models and send to client
 
 
 h4. updateMib
 
+Update oids for the device and at the end, regenerate the model if something is modified
 
 
 h4. createSingleModel
 
-
+Generate XML SNMP model and return to client (in the JSON format of course) only for a device
 
 h4. getSingleModel
 
-
+Only return to client the XML SNMP model (in the JSON format of course) only for a snmpmodel id
 
 h4. getMultipleModel
 
-
+Only return to client XML SNMP models (in the JSON format of course) for an array of snmpmodel id
 
 h4. addOid
  
+Add possibility to ad a new oid with its mapping
 
+Require fields:
+
+* mapping
+* numeric_oid
+* mib_oid
+* nboids_after
