@@ -31,10 +31,14 @@ All messages are 2 parts:
 ### 'auth' => authentication
 Authentication is verified on each data received by server
 this auth has 3 values:
+
 * login
 * password
 * key
-for example: {"auth":{"login":"ddurieux","password":"oh my god","key":"5678"}}
+
+for example: 
+
+    {"auth":{"login":"ddurieux","password":"oh my god","key":"5678"}}
 
 ### Methods
 
