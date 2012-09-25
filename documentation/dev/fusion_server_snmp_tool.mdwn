@@ -1,45 +1,50 @@
-Fusion server (SNMP tool server)
+**Fusion server (SNMP tool server)**
 
+[[!toc levels=4]]
 
-h1. Communication
+# Communication
 
-h2. Protocol
+## Protocol
 
 The protocol used is the HTTP.
 The client (plugin Fusioninventory for GLPI) use curl to get/send data.
 
-h2. Port 
+## Port 
 
 The port configured in the server is: 9000.
 But to access it, we use port 80, because the reverse proxy redirect port 80 (frontend) to port 9000 (backend)
 
-h2. Many connections
+## Many connections
 
 To manage many connections, all new connection is started in a new thread and is destroyed when finish run operations
 
-h1. Data format
+# Data format
 
-h2. JSON
+## JSON
 
 The dat received is in JSON format in the POST value of HTTP
 
-h2. Composition of messages
+## Composition of messages
 
 All messages are 2 parts:
 
-h3. 'auth' => authentication
+### 'auth' => authentication
 Authentication is verified on each data received by server
 this auth has 3 values:
+
 * login
 * password
 * key
-for example: {"auth":{"login":"ddurieux","password":"oh my god","key":"5678"}}
 
-h3. Methods
+for example: 
+
+    {"auth":{"login":"ddurieux","password":"oh my god","key":"5678"}}
+
+### Methods
 
 The second part of data is a method. This is a description:
 
-h4. getSysdescr
+#### getSysdescr
 
 Get 2 values:
 
@@ -48,7 +53,7 @@ Get 2 values:
 
 Server return information of this sysdescr if exist in the DB
 
-h4. getdeviceid
+#### getdeviceid
 
 Get 1 value:
 
@@ -57,38 +62,38 @@ Get 1 value:
 Server return information of this id if exist in the DB
 
 
-h4. getallmodels
+#### getallmodels
 
 Get simple list of all devices + models associated
 
 
-h4. setLock
+#### setLock
 
 Set a lock in a device. This lock is a date + user account and deny all other user modify this device (and so oids) for one hour
 
-h4. getDevice
+#### getDevice
 
 Get all oids, mibs, mapping and calculate % of the usage of this oid in all models and send to client
 
 
-h4. updateMib
+#### updateMib
 
 Update oids for the device and at the end, regenerate the model if something is modified
 
 
-h4. createSingleModel
+#### createSingleModel
 
 Generate XML SNMP model and return to client (in the JSON format of course) only for a device
 
-h4. getSingleModel
+#### getSingleModel
 
 Only return to client the XML SNMP model (in the JSON format of course) only for a snmpmodel id
 
-h4. getMultipleModel
+#### getMultipleModel
 
 Only return to client XML SNMP models (in the JSON format of course) for an array of snmpmodel id
 
-h4. addOid
+#### addOid
  
 Add possibility to ad a new oid with its mapping
 
