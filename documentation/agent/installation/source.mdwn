@@ -83,7 +83,7 @@ This is an example of an /etc/crontab entry:
 
 # SSL
 
-SSL communication are based on IO::Socket::SSL. You build it you will need
+SSL communication are based on [IO::Socket::SSL](https://metacpan.org/module/IO::Socket::SSL). You build it you will need
 openssl header files and a C compiler.
 
 If you don't want to use SSL, you can avoid keep this dependency uninstalled.
