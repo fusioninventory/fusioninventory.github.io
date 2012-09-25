@@ -40,6 +40,8 @@ for example:
 
     {"auth":{"login":"ddurieux","password":"oh my god","key":"5678"}}
 
+Gonéri: What is the *key* parameter for ?
+
 ### Methods
 
 The second part of data is a method. This is a description:
@@ -53,6 +55,9 @@ Get 2 values:
 
 Server return information of this sysdescr if exist in the DB
 
+* Gonéri: Why the itemtype is required at this point?
+* Gonéri: what kind of information is returned?
+
 #### getdeviceid
 
 Get 1 value:
@@ -61,41 +66,54 @@ Get 1 value:
 
 Server return information of this id if exist in the DB
 
+* Gonéri: what kind of information is returned?
 
 #### getallmodels
 
 Get simple list of all devices + models associated
 
+* Gonéri : What is the format of the information?
 
 #### setLock
 
 Set a lock in a device. This lock is a date + user account and deny all other user modify this device (and so oids) for one hour
 
+* Gonéri : Lock uses to be a lot of pain, it is really required? Can we set it to 5 or 10 minutes instead of 1 hour.
+
 #### getDevice
 
 Get all oids, mibs, mapping and calculate % of the usage of this oid in all models and send to client
 
+* Gonéri : What is the format of the data send and receieved?
 
 #### updateMib
 
 Update oids for the device and at the end, regenerate the model if something is modified
 
+* Gonéri : What is the format of the data send and receieved?
 
 #### createSingleModel
 
 Generate XML SNMP model and return to client (in the JSON format of course) only for a device
 
+* Gonéri : What does *only for a device* means?
+* Gonéri : What is the format of the data send and receieved?
+
 #### getSingleModel
 
 Only return to client the XML SNMP model (in the JSON format of course) only for a snmpmodel id
+
+* Gonéri : What is the format of the data send and receieved?
 
 #### getMultipleModel
 
 Only return to client XML SNMP models (in the JSON format of course) for an array of snmpmodel id
 
+* Gonéri : What is the format of the data send and receieved?
+
 #### addOid
  
-Add possibility to ad a new oid with its mapping
+Add possibility to add a new OID with its mapping
 
 Require fields:
 
@@ -103,3 +121,5 @@ Require fields:
 * numeric_oid
 * mib_oid
 * nboids_after
+
+* Gonéri : What is the format of the data send and receieved?
