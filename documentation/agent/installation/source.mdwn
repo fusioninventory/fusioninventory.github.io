@@ -66,6 +66,21 @@ The plugin installation follow the same process:
     make test
     make install
 
+# configuration
+
+Agent will read it's configuration from /etc/fusioninventory/agent.cfg. You need at least a `server` line:
+
+    server = http://server.domain.com/glpi/plugins/fusioninventory/
+
+# crontab
+
+You can use the [crontab](http://en.wikipedia.org/wiki/Cron) to launch the agent. The agent will need a correctly initialized $PATH environment variable.
+
+This is an example of an /etc/crontab entry:
+
+    PATH=/usr/local/sbin:/usr/local/bin:/sbin:/bin:/usr/sbin:/usr/bin
+    17 *    * * *   root   fusioninventory-agent
+
 # SSL
 
 SSL communication are based on IO::Socket::SSL. You build it you will need
