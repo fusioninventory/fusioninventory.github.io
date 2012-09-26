@@ -1,6 +1,7 @@
 # Installation
 To inventory ESX or Vcenter, there is no specific agent to be installed on the ESX. The Fusioninventory agent installed on Windows or Linux, will inventory remotely by a automatic task.
 For Windows host, the Agent Fusioninventory provided the module. For Linux distribution, you must install a package.
+
 On Redhat/Centos, run 
 
     # yum install perl-FusionInventory-Agent-Task-ESX
@@ -15,4 +16,19 @@ First, we must designate the fusion agents who will have to perform the inventor
 Go to Plugins → Home → FusionInventory → Agents management
 Chose a agent and enable : VMware host remote inventory :
 
+## Task management
 
+### Add authentication for remote devices (VMware)
+Add an authentification : 
+Goto Plugins  → FusionInventory → Authentication for remote devices (VMware)
+
+### Add remote devices to inventory (VMware)
+
+Goto  Plugins → FusionInventory → Remote devices to inventory (VMware)
+
+### Add a task 
+
+Click on + to add a task,
+* Configure the periodicity
+* Chose Module : VMware host remote inventory
+* Add Definition → Remote device inventory
