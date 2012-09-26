@@ -42,7 +42,7 @@ Click on + to add a device
 * Add an Authentication
 * IP : add an ip address
 
-[[!img 03_vmware_devices.png align="right" size="" alt=""]]
+[[!img 03_vmware_devices.png align="right" size="50%" alt=""]]
 
 ### Add a task 
 
