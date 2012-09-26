@@ -1,6 +1,6 @@
 # Installation
 To inventory ESX or Vcenter, there is no specific agent to be installed on the ESX. The Fusioninventory agent installed on Windows or Linux, will inventory remotely by a automatic task.
-For Windows host, the Agent Fusioninventory provided the module. For Linux distribution, you must install a package.
+For Windows host, the Fusioninventory Agent comes with the module. For Linux distribution, you must install a additional package.
 
 On Redhat/Centos, run 
 
@@ -10,7 +10,19 @@ On Debian/Ubuntu :
 
     # apt-get install libfusioninventory-agent-task-esx-perl
 
-# Task configuration in GLPI
+From Source, see the [[agent source installation page|documentation/agent/installation/source]].
+
+# From the Command line
+
+You can use [[fusioninventory-esx|documentation/references]] and [[fusioninventory-injector|documentation/references]] to:
+
+1. fetch the Inventories from the server
+2. push the Inventories in GLPI
+
+    user$ fusioninventory-esx --user root --password password --host esx-server --directory /tmp
+    user$ fusioninventory-injector -v --file /tmp/esx-server-2011-01-25-14-11-07.ocs -u https://myserver/plugins/fusioninventory/
+
+# From GLPI
 ##  Reconfiguration FusionInventory agent
 First, we must designate the fusion agents who will have to perform the inventory VMware (ESX or VCenter) host.
 
