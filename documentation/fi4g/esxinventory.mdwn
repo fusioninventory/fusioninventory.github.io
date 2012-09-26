@@ -1,3 +1,5 @@
+[[!template  id=warning text="DRAFT : In preparation"]]
+
 # Installation
 To inventory ESX or Vcenter, there is no specific agent to be installed on the ESX. The Fusioninventory agent installed on Windows or Linux, will inventory remotely by a automatic task.
 For Windows host, the Agent Fusioninventory provided the module. For Linux distribution, you must install a package.
