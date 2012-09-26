@@ -19,6 +19,8 @@ You can use [[fusioninventory-esx|documentation/references]] and [[fusioninvento
 1. fetch the Inventories from the server
 2. push the Inventories in GLPI
 
+For example:
+
     # fusioninventory-esx --user root --password password --host esx-server --directory /tmp
     # fusioninventory-injector -v --file /tmp/esx-server-2011-01-25-14-11-07.ocs -u https://myserver/plugins/fusioninventory/
 
