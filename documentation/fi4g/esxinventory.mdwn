@@ -20,7 +20,7 @@ Go to Plugins → Home → FusionInventory → Agents management
 
 Chose a agent and enable : VMware host remote inventory :
 
-[[!img 01_inventory-ESX.png align="right" size="" alt=""]]
+[[!img 01_inventory-ESX.png align="right" size="50%" alt=""]]
 
 ## Task management
 
