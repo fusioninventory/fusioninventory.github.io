@@ -13,18 +13,22 @@ On Debian/Ubuntu :
 # Task configuration in GLPI
 ##  Reconfiguration FusionInventory agent
 First, we must designate the fusion agents who will have to perform the inventory VMware (ESX or VCenter) host.
+
 Go to Plugins → Home → FusionInventory → Agents management
+
 Chose a agent and enable : VMware host remote inventory :
 
 ## Task management
 
 ### Add authentication for remote devices (VMware)
 Add an authentification : 
+
 Goto Plugins  → FusionInventory → Authentication for remote devices (VMware)
 
 ### Add remote devices to inventory (VMware)
 
 Goto  Plugins → FusionInventory → Remote devices to inventory (VMware)
+
 Click on + to add a device 
 
 * Name : Add a description
