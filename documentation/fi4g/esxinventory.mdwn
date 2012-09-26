@@ -28,7 +28,8 @@ Goto  Plugins → FusionInventory → Remote devices to inventory (VMware)
 
 ### Add a task 
 
-Click on + to add a task,
+Click on + to add a task :
+
 * Configure the periodicity
 * Chose Module : VMware host remote inventory
 * Add Definition → Remote device inventory
