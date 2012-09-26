@@ -25,6 +25,12 @@ Goto Plugins  → FusionInventory → Authentication for remote devices (VMware)
 ### Add remote devices to inventory (VMware)
 
 Goto  Plugins → FusionInventory → Remote devices to inventory (VMware)
+Click on + to add a device 
+
+* Name : Add a description
+* Type : "chose VMWARE Host"
+* Add an Authentication
+* IP : add an ip address
 
 ### Add a task 
 
