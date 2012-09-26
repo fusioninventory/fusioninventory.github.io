@@ -20,7 +20,7 @@ Go to Plugins → Home → FusionInventory → Agents management
 
 Chose a agent and enable : VMware host remote inventory :
 
-[[!img 01_inventory-ESX.png align="center" size="300x144" alt=""]]
+[[!img 01_inventory-ESX.png align="center" size="500x240" alt=""]]
 
 ## Task management
 
@@ -29,7 +29,7 @@ Add an authentification :
 
 Goto Plugins  → FusionInventory → Authentication for remote devices (VMware)
 
-[[!img 02_authentification_vcenter.png align="right" size="" alt=""]]
+[[!img 02_authentification_vcenter.png align="center" size="500x167" alt=""]]
 
 ### Add remote devices to inventory (VMware)
 
@@ -42,7 +42,7 @@ Click on + to add a device
 * Add an Authentication
 * IP : add an ip address
 
-[[!img 03_vmware_devices.png align="right" size="50%" alt=""]]
+[[!img 03_vmware_devices.png align="center" size="500x159" alt=""]]
 
 ### Add a task 
 
@@ -52,7 +52,7 @@ Click on + to add a task :
 * Chose Module : VMware host remote inventory
 * Add Definition → Remote device inventory
 
-[[!img 04_vmware_task.png align="right" size="" alt=""]]
+[[!img 04_vmware_task.png align="center" size="500x319" alt=""]]
 
 
 
