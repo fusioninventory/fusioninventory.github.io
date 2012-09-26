@@ -51,6 +51,7 @@ Click on + to add a task :
 * Configure the periodicity
 * Chose Module : VMware host remote inventory
 * Add Definition → Remote device inventory
+* Select the agent earlier reconfigured 
 
 [[!img 04_vmware_task.png align="center" size="500x319" alt=""]]
 
