@@ -2,8 +2,6 @@
 
 Installation with the debian packages
 
-Some distributions like Debian do already have versions of the FusionInventory agent  in their distribution repositories. We recommend to use this option if you only need inventory.
-
 ## FusionInventory Agent is also available in Debian Backports repository
 
     echo "deb http://backports.debian.org/debian-backports squeeze-backports main" >> /etc/apt/sources.list
@@ -12,16 +10,10 @@ Some distributions like Debian do already have versions of the FusionInventory a
 
 ## FusionInventory own repository
 
-[[!template  id=warning text="The internal repository will be remove in the coming month."]]
-
 The FusionInventory project maintains an up-to-date debian package of the most recent version, in a extra repository.
 
-    echo "deb http://debian.fusioninventory.org/debian/ stable main" >> /etc/apt/sources.list
+    echo "deb http://debian.fusioninventory.org/debian/ `lsb_release -cs` main" >> /etc/apt/sources.list
     wget -O - http://debian.fusioninventory.org/debian/archive.key | sudo apt-key add -
     apt-get update
     apt-get install fusioninventory-agent
-
-If you use https to contact your server, you will need to install Crypt::SSLeay:
-
-    apt-get install libcrypt-ssleay-perl
 
