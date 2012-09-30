@@ -1,4 +1,4 @@
-# Using FusionInventory debian packages
+# Using FusionInventory Debian (and Ubuntu) packages
 
 Installation with the debian packages
 
