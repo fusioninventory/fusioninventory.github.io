@@ -9,9 +9,10 @@ The RPM-Packages was maintained by Remi Collet. He resigned, a new maintainer is
     # up2date -i install fusioninventory-agent
 
 ## RHEL, Centos 5
-First of all, you need to enable EPEL repository
+First of all, you need to enable EPEL and Remi repository
 
     # rpm -Uvh http://dl.fedoraproject.org/pub/epel/5/i386/epel-release-5-4.noarch.rpm
+    # rpm -Uvh http://rpms.famillecollet.com/enterprise/remi-release-5.rpm
 
 To install FusionInventory-Agent, simply execute the following command: 
 
