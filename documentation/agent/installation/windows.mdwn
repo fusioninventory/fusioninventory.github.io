@@ -79,7 +79,7 @@ If you upgrade the agent with FusionInventory Deploy and the agent is launched w
 
 # Large installation
 
-A page is dedicated on the [[large installation of the agent on Windows|documentation/agent/installation/windows/marge_install]].
+A page is dedicated on the [[large installation of the agent on Windows|documentation/agent/installation/windows/large_install]].
 
 # Installation from sources
 
