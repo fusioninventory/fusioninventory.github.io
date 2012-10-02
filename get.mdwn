@@ -2,19 +2,9 @@
 
 ## Agent
 
-* [[Windows|documentation/agent/installation/windows]]
-* [[Linux|documentation/agent/installation/linux]]
-* [[MacOSX|documentation/agent/installation/macosx]]
-* [[Solaris|documentation/agent/installation/solaris]]
-* [[AIX|documentation/agent/installation/aix]]
-* [[HP-UX|documentation/agent/installation/hpux]]
-* [[*BSD|documentation/agent/installation/bsd]]
+The agent is used to collect informations, scan the network, deploy file and package, etc.
 
-You can also install FusionInventory from source:
-
-* [[Source|documentation/agent/installation/source]]
-* Git: [[UNIX|documentation/agent/dev/git_unix]], [[Windows|documentation/agent/dev/git_windows]]
-
+* [[Install the agent|documentation/agent/installation]].
 
 ## Server
 
