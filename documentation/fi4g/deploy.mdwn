@@ -1,0 +1,157 @@
+# Fusion Inventory Plugin - 0.83+2.0
+
+The Fusion Inventory Plugin is both integrated with
+[GLPI](/lepp/bin/view/Computing/GLPI) via "mass actions" and via the
+Plugin interface. The Plugin Interface is used most. \
+
+[[!img deploy/deploy/FusionInventoryMain.png]
+
+1.  Task Management is available via the
+    [FusionInventory](/lepp/bin/edit/Computing/FusionInventory?topicparent=Computing.FusionInventoryPlugin "FusionInventory (this topic does not yet exist; you can create it)")
+    dropdown. This is mostly used to deploy pachages, but can be used
+    for other tasks.
+2.  The Deploy dropdown is used to create deployable packages.
+
+[FusionInventory](/lepp/bin/edit/Computing/FusionInventory?topicparent=Computing.FusionInventoryPlugin "FusionInventory (this topic does not yet exist; you can create it)") Dropdown
+=====================================================================================================================================================================================
+
+Agents Management
+-----------------
+
+This is used to quickly check the status of a
+[FusionInventory](/lepp/bin/edit/Computing/FusionInventory?topicparent=Computing.FusionInventoryPlugin "FusionInventory (this topic does not yet exist; you can create it)")
+agent:
+
+-   If it's reporting in
+-   If [GLPI](/lepp/bin/view/Computing/GLPI) knows about it
+-   What it's TOKEN is (used to authenticate the server when pushing a
+    task)
+-   What it's unique ID is (used to uniquely identify one agent from
+    another).
+
+Task Management (Normal)
+------------------------
+
+Use the (Normal) display of Task Management. This is used to list and
+search the existing tasks in the Fusion Inventory system.\
+
+[[!img deploy/FusionTaskManagementNormalPage.png]]
+
+1.  Clicking this link will bring you to this page.
+2.  Clicking on the big "+", like in all of
+    [GLPI](/lepp/bin/view/Computing/GLPI), will create a new object in
+    the area you are working - in this case, a new task.
+3.  Clicking on a task name will allow you to edit existing tasks, check
+    their status, start them, stop them, etc.
+
+### Creating a deployment task
+
+**NOTE**: You **must** have created the package you want to deploy
+FIRST. Please read that section if you need help with that. \
+
+[[!img deploy/FusionInventoryTaskTest.png]]
+
+1.  Give the task a name
+2.  Select the communication type (push or pull). Traditionally we have
+    used Pull.
+3.  Set Advanced mode to Yes.
+
+Then:\
+
+[[!img deploy/FusionInventoryNewAction.png]]
+
+1.  Click on New Action
+2.  Give the job a name (Optional)
+3.  Select module to use - Package Deployment
+
+Then:\
+
+[[!img deploy/FusionInventoryJobDetails.png]
+
+1.  Click the plus sign next to definition, select a package, click add.
+2.  Click the plus sign next to Action, select computers etc, then use
+    find as you type to add in the selection to apply the task to. Click
+    add.
+
+#### Assigning Computers to a deployment task via Mass Action:
+
+1.  Make sure you have created but not activated a task and a deployment
+    package.
+2.  Use "Target a task" as the [Mass
+    Action](https://wiki.lepp.cornell.edu/lepp/bin/view/Computing/GLPIFAQ#Mass_Actions_0_83_4).
+3.  Select the existing non-active task.
+4.  Select the existing deployment package.
+5.  Click Post. This will create a new job for that task.
+
+### Running a Deployment Task
+
+You can run a deployment task more than once, and it is separate from
+creating one.\
+
+[[!img deploy/FusionInventoryTaskReady.png]]
+
+1.  First, set the task to Active and click update.
+2.  Then either force the task to start immediately with "Force Start"
+    OR schedule the task start and click update.
+
+### Checking a Tasks status
+
+#### Running Jobs
+
+When a job is running, you can see it by clicking on the
+[FusionInventory](/lepp/bin/edit/Computing/FusionInventory?topicparent=Computing.FusionInventoryPlugin "FusionInventory (this topic does not yet exist; you can create it)")
+menu and selecting Running Jobs.
+
+#### Task status on a PC
+
+When a task is running on a PC it will update information about its
+status. This log is saved after the task completes and can be reviewed
+from the Task Job page.\
+
+[[!img deploy/FusionInventoryTaskStatusDetails.png]]
+
+Deploy Dropdown
+===============
+
+This dropdown is used to create packages for deployment and to edit
+them, list them and look at groups of computers (which are internal to
+fusion inventory, there are also separate groups used by
+[GLPI](/lepp/bin/view/Computing/GLPI) for display etc).
+
+Package Management
+------------------
+
+### Create a package
+
+\
+
+[[!img deploy/FusionPluginPackageManagementMain.png]]
+
+1.  Use Add a Package to create a new package.
+2.  Click on an existing package to edit that package.
+
+### Edit package
+
+You can add checks before running the package, currently I prefer to do
+that with the deployed scripts.\
+
+[[!img deploy/FusionInventoryPackageCreation.png]]
+
+1.  Select to upload a file. You can upload a number of files, but must
+    upload one at a time. You can also elect to upload a zip file. I
+    generally build packages to use 2 files so upload them separately,
+    but this is not a rule.
+2.  Select to get the file "From this computer". Use the browse button
+    to select the file. Do **not** use
+    [P2P](/lepp/bin/edit/Computing/P2P?topicparent=Computing.FusionInventoryPlugin "P2P (this topic does not yet exist; you can create it)")
+    deployment.
+3.  Click OK and the file will be uploaded.
+4.  Click on "Add command", select "execute a command" then type in the
+    command you want, I usually use the script name here, but if you're
+    doing something else, any valid windows command (use full path
+    names) can be used.
+    -   You can optionally add return codes to validate against for
+        success or failure.
+
+-- [JamesPulver](/lepp/bin/view/Main/JamesPulver) - 2012-08-28
+
