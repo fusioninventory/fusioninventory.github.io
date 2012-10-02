@@ -1,0 +1,41 @@
+# Silent installation
+
+## fusioninventory.vbs
+
+[[fusioninventory.vbs|documentation/agent/installation/windows/fusioninventory.vbs]] is a VBS script used to:
+
+* Download the fusioninventory Windows installer from either a HTTP or CIFS share (*fusionsetupURL* parameter)
+* Remove OCS Inventory Agent (optional *uninstallocsagent* parameter)
+* Install or upgrade FusionInventory
+
+You can use this script to:
+
+* run a silent installation on a given machine
+* deploy the agent on your network using psexec
+* prepare a GPO to deploy the agent on all the machines of the Windows domain
+
+## run a silent installation on a given machine
+
+Just double clic on the script or run from a command console:
+
+    cscript fusioninventory.vbs
+
+## deploy the agent on your network using psexec
+
+To run the fusioninventory.vbs script on a machine computer1
+
+    psexec -u domain\user \\computer1 cscript \\foo\share\script.vbs
+
+
+Or if you want to run the install on all the computer of your domain:
+
+    psexec -u domain\user \\* cscript \\foo\share\script.vbs
+
+## GPO to deploy the agent on all the machines of the Windows domain
+
+Create a machine GPO, copy the script within and associate the fusioninventory.vbs script.
+
+You may be interested by these two GPO templates:
+
+* [[FusionInventory.adml|documentation/agent/installation/windows/FusionInventory.adml]]
+* [[FusionInventory.admx|documentation/agent/installation/windows/FusionInventory.admx]]
