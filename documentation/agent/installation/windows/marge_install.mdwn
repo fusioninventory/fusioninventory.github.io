@@ -4,11 +4,27 @@
 
 [[fusioninventory.vbs|documentation/agent/installation/windows/fusioninventory.vbs]] is a VBS script used to:
 
-* Download the fusioninventory Windows installer from either a HTTP or CIFS share (*fusionsetupURL* parameter)
-* Remove OCS Inventory Agent (optional *uninstallocsagent* parameter)
+* Download the fusioninventory Windows installer
+* Remove OCS Inventory Agent
 * Install or upgrade FusionInventory
 
-You can use this script to:
+You use the script, you must first download the script and then edit it. The first lines of the script
+must be adjusted for your configuration:
+
+    versionverification = "2.2.6-1"
+    fusionarguments = "/S /server=http://server1/glpi/plugins/fusioninventory/ /rpc-trust-localhost /runnow"
+    ' Depending on your needs, you can use either HTTP or Windows share
+    'fusionsetupURL = "\\server1\data\fusioninventory-agent_windows-i386_" & versionverification & ".exe"
+    fusionsetupURL = "http://prebuilt.fusioninventory.org/stable/windows-i386/fusioninventory-agent_windows-i386_" & versionverification & ".exe"
+    uninstallocsagent = "yes"
+
+* versionverification: the version of fusioninventory to install
+* fusionarguments: the command line argument for the [[Windows installer|documentation/agent/installation/windows]])
+* fusionsetupURL: the location of the Windows installer binary (either HTTP or Windows share)
+* uninstallocsagent: "yes" if OCS Agent has to be removed
+
+
+You can use this  script to:
 
 * run a silent installation on a given machine
 * deploy the agent on your network using psexec
