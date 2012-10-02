@@ -1,45 +1,36 @@
 # Fusion Inventory Plugin - 0.83+2.0
 
-The Fusion Inventory Plugin is both integrated with
-[GLPI](/lepp/bin/view/Computing/GLPI) via "mass actions" and via the
-Plugin interface. The Plugin Interface is used most. \
+The Fusion Inventory Plugin is both integrated with [[GLPI]] via *mass actions! and via the Plugin interface. The Plugin Interface is used most.
 
-[[!img deploy/deploy/FusionInventoryMain.png]
+[[!img deploy/FusionInventoryMain.png]
 
-1.  Task Management is available via the
-    [FusionInventory](/lepp/bin/edit/Computing/FusionInventory?topicparent=Computing.FusionInventoryPlugin "FusionInventory (this topic does not yet exist; you can create it)")
-    dropdown. This is mostly used to deploy pachages, but can be used
+1.  Task Management is available via the FusionInventory dropdown. This is mostly used to deploy pachages, but can be used
     for other tasks.
 2.  The Deploy dropdown is used to create deployable packages.
 
-[FusionInventory](/lepp/bin/edit/Computing/FusionInventory?topicparent=Computing.FusionInventoryPlugin "FusionInventory (this topic does not yet exist; you can create it)") Dropdown
-=====================================================================================================================================================================================
+# FusionInventory Dropdown
 
-Agents Management
------------------
+## Agents Management
 
-This is used to quickly check the status of a
-[FusionInventory](/lepp/bin/edit/Computing/FusionInventory?topicparent=Computing.FusionInventoryPlugin "FusionInventory (this topic does not yet exist; you can create it)")
-agent:
+This is used to quickly check the status of a FusionInventory agent:
 
 -   If it's reporting in
--   If [GLPI](/lepp/bin/view/Computing/GLPI) knows about it
+-   If [[GLPI]] knows about it
 -   What it's TOKEN is (used to authenticate the server when pushing a
     task)
 -   What it's unique ID is (used to uniquely identify one agent from
     another).
 
-Task Management (Normal)
-------------------------
+## Task Management (Normal)
 
 Use the (Normal) display of Task Management. This is used to list and
-search the existing tasks in the Fusion Inventory system.\
+search the existing tasks in the Fusion Inventory system.
 
 [[!img deploy/FusionTaskManagementNormalPage.png]]
 
 1.  Clicking this link will bring you to this page.
 2.  Clicking on the big "+", like in all of
-    [GLPI](/lepp/bin/view/Computing/GLPI), will create a new object in
+    [[GLPI]], will create a new object in
     the area you are working - in this case, a new task.
 3.  Clicking on a task name will allow you to edit existing tasks, check
     their status, start them, stop them, etc.
@@ -47,7 +38,7 @@ search the existing tasks in the Fusion Inventory system.\
 ### Creating a deployment task
 
 **NOTE**: You **must** have created the package you want to deploy
-FIRST. Please read that section if you need help with that. \
+FIRST. Please read that section if you need help with that.
 
 [[!img deploy/FusionInventoryTaskTest.png]]
 
@@ -56,7 +47,7 @@ FIRST. Please read that section if you need help with that. \
     used Pull.
 3.  Set Advanced mode to Yes.
 
-Then:\
+Then:
 
 [[!img deploy/FusionInventoryNewAction.png]]
 
@@ -64,7 +55,7 @@ Then:\
 2.  Give the job a name (Optional)
 3.  Select module to use - Package Deployment
 
-Then:\
+Then:
 
 [[!img deploy/FusionInventoryJobDetails.png]
 
@@ -77,8 +68,7 @@ Then:\
 
 1.  Make sure you have created but not activated a task and a deployment
     package.
-2.  Use "Target a task" as the [Mass
-    Action](https://wiki.lepp.cornell.edu/lepp/bin/view/Computing/GLPIFAQ#Mass_Actions_0_83_4).
+2.  Use "Target a task" as the Mass Action section
 3.  Select the existing non-active task.
 4.  Select the existing deployment package.
 5.  Click Post. This will create a new job for that task.
@@ -86,7 +76,7 @@ Then:\
 ### Running a Deployment Task
 
 You can run a deployment task more than once, and it is separate from
-creating one.\
+creating one.
 
 [[!img deploy/FusionInventoryTaskReady.png]]
 
@@ -98,32 +88,27 @@ creating one.\
 
 #### Running Jobs
 
-When a job is running, you can see it by clicking on the
-[FusionInventory](/lepp/bin/edit/Computing/FusionInventory?topicparent=Computing.FusionInventoryPlugin "FusionInventory (this topic does not yet exist; you can create it)")
+When a job is running, you can see it by clicking on the FusionInventory
 menu and selecting Running Jobs.
 
 #### Task status on a PC
 
 When a task is running on a PC it will update information about its
 status. This log is saved after the task completes and can be reviewed
-from the Task Job page.\
+from the Task Job page.
 
 [[!img deploy/FusionInventoryTaskStatusDetails.png]]
 
-Deploy Dropdown
-===============
+## Deploy Dropdown
 
 This dropdown is used to create packages for deployment and to edit
 them, list them and look at groups of computers (which are internal to
 fusion inventory, there are also separate groups used by
 [GLPI](/lepp/bin/view/Computing/GLPI) for display etc).
-
-Package Management
-------------------
+ 
+## Package Management
 
 ### Create a package
-
-\
 
 [[!img deploy/FusionPluginPackageManagementMain.png]]
 
@@ -133,7 +118,7 @@ Package Management
 ### Edit package
 
 You can add checks before running the package, currently I prefer to do
-that with the deployed scripts.\
+that with the deployed scripts.
 
 [[!img deploy/FusionInventoryPackageCreation.png]]
 
@@ -142,9 +127,7 @@ that with the deployed scripts.\
     generally build packages to use 2 files so upload them separately,
     but this is not a rule.
 2.  Select to get the file "From this computer". Use the browse button
-    to select the file. Do **not** use
-    [P2P](/lepp/bin/edit/Computing/P2P?topicparent=Computing.FusionInventoryPlugin "P2P (this topic does not yet exist; you can create it)")
-    deployment.
+    to select the file. Do **not** use P2P deployment.
 3.  Click OK and the file will be uploaded.
 4.  Click on "Add command", select "execute a command" then type in the
     command you want, I usually use the script name here, but if you're
