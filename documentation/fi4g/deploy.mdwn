@@ -2,7 +2,7 @@
 
 The Fusion Inventory Plugin is both integrated with [[GLPI]] via *mass actions! and via the Plugin interface. The Plugin Interface is used most.
 
-[[!img deploy/FusionInventoryMain.png]
+[[!img deploy/FusionInventoryMain.png]]
 
 1.  Task Management is available via the FusionInventory dropdown. This is mostly used to deploy pachages, but can be used
     for other tasks.
