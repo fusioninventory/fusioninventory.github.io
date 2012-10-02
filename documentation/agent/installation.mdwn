@@ -9,6 +9,7 @@
 * [[Solaris|documentation/agent/installation/solaris]]
 * [[HP-UX|documentation/agent/installation/hpux]]
 * [[BSD|documentation/agent/installation/bsd]]
+* [[Android|documentation/agent/installation/android]]
 
 ## Installation from tarball
 
