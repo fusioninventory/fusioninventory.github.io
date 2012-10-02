@@ -15,7 +15,7 @@
 * [[How to scan my network|documentation/fi4g/networkdiscovery]]
 * [[How to inventory my network devices (by SNMP)|documentation/fi4g/networkinventory]]
 * [[How to inventory my ESX server|documentation/fi4g/esxinventory]]
-* [[How to deploy softwares with teledeployment module|documentation/fi4g/teledeployment]]
+* [[How to deploy softwares with teledeployment module|documentation/fi4g/deploy]]
 
 # Troubleshooting
 
