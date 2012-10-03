@@ -1,10 +1,10 @@
-# Fusion Inventory Plugin - 0.83+2.0
+# Package Deployment
 
-The Fusion Inventory Plugin is both integrated with [[GLPI]] via *mass actions! and via the Plugin interface. The Plugin Interface is used most.
+Package Deployment is both integrated with [[GLPI]] via *massive actions* and via the Plugin interface.
 
 [[!img deploy/FusionInventoryMain.png]]
 
-1.  Task Management is available via the FusionInventory dropdown. This is mostly used to deploy pachages, but can be used
+1.  Task Management is available via the FusionInventory dropdown. This is mostly used to deploy packages, but can be used
     for other tasks.
 2.  The Deploy dropdown is used to create deployable packages.
 
@@ -14,10 +14,10 @@ The Fusion Inventory Plugin is both integrated with [[GLPI]] via *mass actions! 
 
 This is used to quickly check the status of a FusionInventory agent:
 
--   If it's reporting in
--   If [[GLPI]] knows about it
+-   If it's reporting in.
+-   If [[GLPI]] knows about it.
 -   What it's TOKEN is (used to authenticate the server when pushing a
-    task)
+    task).
 -   What it's unique ID is (used to uniquely identify one agent from
     another).
 
@@ -57,7 +57,7 @@ Then:
 
 Then:
 
-[[!img deploy/FusionInventoryJobDetails.png]
+[[!img deploy/FusionInventoryJobDetails.png]]
 
 1.  Click the plus sign next to definition, select a package, click add.
 2.  Click the plus sign next to Action, select computers etc, then use
@@ -105,14 +105,14 @@ This dropdown is used to create packages for deployment and to edit
 them, list them and look at groups of computers (which are internal to
 fusion inventory, there are also separate groups used by
 [GLPI](/lepp/bin/view/Computing/GLPI) for display etc).
- 
+
 ## Package Management
 
 ### Create a package
 
 [[!img deploy/FusionPluginPackageManagementMain.png]]
 
-1.  Use Add a Package to create a new package.
+1.  Use *Add a Package* to create a new package.
 2.  Click on an existing package to edit that package.
 
 ### Edit package
@@ -136,5 +136,4 @@ that with the deployed scripts.
     -   You can optionally add return codes to validate against for
         success or failure.
 
--- [JamesPulver](/lepp/bin/view/Main/JamesPulver) - 2012-08-28
-
+-- JamesPulver - 2012-08-28
