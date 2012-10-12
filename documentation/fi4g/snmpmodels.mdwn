@@ -2,8 +2,8 @@
 
 # Introduction
 
-To get complete inventory of switch and network printer by SNMP, we use SNMP models.
-A SNMP model is a mapping between the OID and fields we need into GLPI.
+To get complete inventory of network switches and network printers by SNMP, we use SNMP models.
+A SNMP model is a mapping from an OID to a field we need into GLPI.
 
 [[!template  id=warning text="The tool is available only in developer version of FusionInventory for GLPI (0.83+2.0)."]]
 
@@ -25,9 +25,9 @@ This is a short description of the steps for create de model
 1. Server receive OID mapping, update the database and create models
 1. User can get models
 
-# Preparing
+# Preparation
 
-You need 2 thing for using this tool:
+You need 2 things for using this tool:
 
 * Have an account on server, for this, send mail to d.durieux@siprossii.com with object 'SNMP TOOL ACCOUNT'
 * Open your firewall for IP 93.93.45.69 and the port 9000 (TCP)
@@ -41,7 +41,6 @@ To add an account:
 1. Go in your user form
 1. in tab _SNMP model tool account_, put login name, password and the key
 
-
 # Access Tool
 
 You can access SNMP tool menu by go to __Plugins__ > __FusionInventory__ > __SNMP__ > __SNMP models creation__
@@ -50,8 +49,8 @@ You can access SNMP tool menu by go to __Plugins__ > __FusionInventory__ > __SNM
 
 Create a SNMP model mean manage OID mapping for your device.
 
-## Upload sysdescr
- 
+## Search for a sysdescr
+
 1. Go in menu _Check a sysdescr_
 1. Define the itemtype : if it's a printer, network equipment (switch, routers)
 1. Put the sysdescr of your device
@@ -66,8 +65,10 @@ Once you have submit sysdescr, a form appear with possibility to upload a snmpwa
 ## Device information
 
 
-
 ## Edit OID
+
+WARNING: Because FusionInventory use **firmware** or **firmware1+firmware2**,
+make sure to only add firmware one of those combinations.
 
 ### Color legend
 
