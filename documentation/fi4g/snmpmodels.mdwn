@@ -2,37 +2,37 @@
 
 # Introduction
 
-To get complete inventory of network switches and network printers by SNMP, we use SNMP models.
-A SNMP model is a mapping from an OID to a field we need into GLPI.
+To get complete inventory of switches, printers and other devices over the network, we use SNMP models.
+An SNMP model is an XML file that will match an OID to a field in a GLPI network device object.
 
 [[!template  id=warning text="The tool is available only in developer version of FusionInventory for GLPI (0.83+2.0)."]]
 
 # How it works
 
-The tool have 2 parts:
+The tool has 2 parts:
 
-* Client part: it's in the plugin FusionInventory for GLPI
-* Server part: in one of our server
+* Client part: Panel in the FusionInventory for GLPI plugin
+* Server part: Maintained by the FusionInventory project
 
 This is a short description of the steps for create de model
 
-1. Client authenticate on the server
-1. User add sysdescr of the device into GLPI and send it to server
-1. Server say if yet exist or not
-1. User upload the snmpwalk file into his own GLPI
-1. Server get all OID available in server
-1. User check OID mapping and send to server
-1. Server receive OID mapping, update the database and create models
-1. User can get models
+1. Client authenticates on the server
+1. User adds sysdescr of the device into GLPI and sends it to server
+1. Server checks and responds if it already exists
+1. User uploads an SNMP walk file into his local GLPI
+1. Server gets all OIDs available in server
+1. User checks OID mapping and sends it to server
+1. Server receives OID mapping, updates the database and creates new models
+1. (All!) User can now get the new models
 
 # Preparation
 
 You need 2 things for using this tool:
 
-* Have an account on server, for this, send mail to d.durieux@siprossii.com with object 'SNMP TOOL ACCOUNT'
+* Have an account on SNMP model creation server, for this, send mail to d.durieux@siprossii.com with object 'SNMP TOOL ACCOUNT'
 * Open your firewall for IP 93.93.45.69 and the port 9000 (TCP)
 
-# Add account info in plugin
+# Add SNMP submission account info in plugin
 
 To add an account: 
 
@@ -74,5 +74,3 @@ make sure to only add firmware one of those combinations.
 
 
 ### What to check
-
-

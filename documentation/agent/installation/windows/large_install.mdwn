@@ -8,7 +8,7 @@
 * Remove OCS Inventory Agent
 * Install or upgrade FusionInventory
 
-You use the script, you must first download the script and then edit it. The first lines of the script
+To use this script, you must first download the script and then edit it. The first lines of the script
 must be adjusted for your configuration:
 
     versionverification = "2.2.6-1"
