@@ -13,8 +13,10 @@ use Data::Dumper;
 
 my $title = shift;
 
-die unless $title;
-die if $title =~ /\ /;
+if (!$title || $title =~ /\ /) {
+    print "Usage: ./create-post.pl Post_title_without_space\n";
+    exit(1);
+}
 
 my $datetime = DateTime->now;
 my $file = sprintf( "tmp_news/%d/%02d/%02d/%s.mdwn",
