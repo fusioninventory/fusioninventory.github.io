@@ -51,26 +51,40 @@ Create a SNMP model mean manage OID mapping for your device.
 
 ## Search for a sysdescr
 
+[[!img screenshots/snmpmodels-sysdescr.png]]
+
 1. Go in menu _Check a sysdescr_
 1. Define the itemtype : if it's a printer, network equipment (switch, routers)
 1. Put the sysdescr of your device
 1. Submit
 
-## upload snmpwalk file
+## Upload an SNMPwalk file
 
-If the device with this sysdescr exist on the server, you can go to the next section _Device information_
+If the device with this __sysdescr__ exist on the server, you can go to the next section _Device information_
 
-Once you have submit sysdescr, a form appear with possibility to upload a snmpwalk file. The command to generate this file is writer in the interface. In thi case, you will go directly in section _Edit OID_
+Once you have submit __sysdescr__, a form appear with possibility to upload an
+snmpwalk file.  The command to generate this file is  in the interface.
 
-## Device information
+[[!img screenshots/snmpmodels-upload_snmpwalk.png]]
+
+In this case, you will go directly in section __Edit OID__
 
 
-## Edit OID
+## Edit an SNMP model
 
-WARNING: Because FusionInventory use **firmware** or **firmware1+firmware2**,
-make sure to only add firmware one of those combinations.
+[[!img screenshots/snmpmodels-construct_model.png]]
+
+[[!template  id=warning text="""
+Because SNMP Inventory update existing network devices with either a __serial
+number__ or a __MAC address__ , you'll have to make sure that at least one of those OID are checked.
+"""]]
+
+[[!template  id=warning text="""
+Because FusionInventory Agent uses either **firmware** or **firmware1+firmware2**,
+make sure to only check one of those combinations.
+"""]]
 
 ### Color legend
 
+## Device information
 
-### What to check
