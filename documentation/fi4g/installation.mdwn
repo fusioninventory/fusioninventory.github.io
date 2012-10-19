@@ -44,6 +44,8 @@ It's also always a good idea to do a backup of your database.
 These operations will create or upgrade the database and set the correct rights on the plugin.
 Do the same for all fus* plugins
 
+Once these is done, you can [[install your first agent|documentation/agent/installation]].
+
 ## Security
 
 We recommend to activate SSL on the server side to ensure no one will be able to read password
