@@ -42,7 +42,12 @@ that with the deployed scripts.
     generally build packages to use 2 files so upload them separately,
     but this is not a rule.
 2.  Select to get the file "From this computer". Use the browse button
-    to select the file. Do **not** use P2P deployment.
+    to select the file.
+    * With **P2P** enabled, computers will keep and share the downloaded
+      files to the other computers of the LAN. This allow you to speed
+      up a large download.
+    * If **Extract** is enabled, FusionInventory will try to extract the
+      archive (.7z, .zip, tar.gz, .tar)
 3.  Click OK and the file will be uploaded.
 4.  Click on "Add command", select "execute a command" then type in the
     command you want, I usually use the script name here, but if you're
@@ -50,6 +55,7 @@ that with the deployed scripts.
     names) can be used.
     -   You can optionally add return codes to validate against for
         success or failure.
+
 
 ## Task Management (Normal)
 
