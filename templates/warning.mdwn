@@ -1,6 +1,7 @@
 <div class="warningbox">
-<img src="/images/warning.png" />
-<TMPL_VAR text>
+    <div class="boxcontent">
+    <TMPL_VAR text>
+    </div>
 </div>
 <TMPL_UNLESS text>
 Use this template to insert a info box into a page. The note will be styled to

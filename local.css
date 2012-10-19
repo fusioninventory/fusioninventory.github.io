@@ -120,16 +120,11 @@ code, pre {
 
 pre {
   padding: .5em;
-  margin: 1em;
   border-style: solid;
-  border-width: 2px;
+  border-width: 1px;
   border-color: gray;
-  -moz-border-radius: 4px;
-  -webkit-border-radius: 4px;
   border-radius: 4px;
-  -moz-box-shadow: 0px 0px 2px #1a1a1a;
-  -webkit-box-shadow: 0px 0px 2px #1a1a1a;
-  box-shadow: 0px 0px 2px #1a1a1a; }
+  box-shadow: 0px 0px 5px #B3B3B3; }
 
 #comments, #footer {
   margin: 1em 2em; }
@@ -384,7 +379,8 @@ nav {
 }
 
 img.img {
-	margin: 0.5ex;
+    display:block;
+	margin: 0 auto;
 }
 
 .align-left {
@@ -571,29 +567,53 @@ div.progress-done {
 
 /* infobox template */
 .infobox {
-	float: right;
-	margin-left: 2ex;
+    float:none;
+    padding: 0;
+    margin: 0;
 	margin-top: 1ex;
 	margin-bottom: 1ex;
-	padding: 1ex 1ex;
+/*	padding: 1ex 1ex;*/
+    padding-left: 48px;
+    min-height: 48px;
 	border: 1px solid #aaa;
-	background: white;
+
+	background: #7F93C4;
 	color: black !important;
+    background-image: url(images/info.png);
+    background-repeat: no-repeat;
+    background-position-y: 50%;
 }
 
 /* warningbox template */
 .warningbox {
-	float: right;
-	margin-left: 2ex;
+    float:none;
+    padding: 0;
+    margin: 0;
 	margin-top: 1ex;
 	margin-bottom: 1ex;
-	padding: 1ex 1ex;
+/*	padding: 1ex 1ex;*/
+    padding-left: 48px;
+    min-height: 48px;
 	border: 1px solid #aaa;
-	background: white;
+
+	background: #FFDA94;
 	color: black !important;
+    background-image: url(images/warning.png);
+    background-repeat: no-repeat;
+    background-position-y: 50%;
+}
+.boxcontent {
+    background-color:white;
+    display:block;
+    clear:both;
+    min-height: inherit;
+    padding-left: 1em;
 }
 
-
+.boxcontent > p {
+    margin:0;
+    padding: 1em 0;
+}
 
 /* popup template and backlinks hiding */
 .popup {
@@ -878,7 +898,7 @@ ul.sidebar li a{line-height:65px; vertical-align: middle; padding:0px 10px; font
 
 
 #content {
-        width: 950px;
+        width: 930px;
         background: #ffffff url(images/module_gradient.png) repeat-x bottom center;
         position: relative;
         height: auto;
@@ -888,6 +908,7 @@ ul.sidebar li a{line-height:65px; vertical-align: middle; padding:0px 10px; font
 	margin-left:5px;
         padding-bottom: 20px;
         padding-left: 20px;
+        padding-right: 20px;
         padding-top: 20px;
         top: -10px;
 }
