@@ -18,9 +18,11 @@ The installer can be used either on 32 or 64 bit Windows.
 
 [[!img documentation/agent/installation/windows-installer-settings-1.png]]
 
-[[!template  id=warning text="A common mistake is to mix HTTP and HTTPS here."]]
 1. Enter the full URL to your server.
 2. You can configure a key word to be able to sort out your machine later (TAG).
+[[!template  id=warning text="""
+A common mistake is to mix HTTP and HTTPS in URL.
+"""]]
 
 ## Advanced settings
 
@@ -34,28 +36,32 @@ The installer can be used either on 32 or 64 bit Windows.
 6. This check box will increase *a lot* the verbosity of the agent. The log is available in the agent-log.txt file.
 7. The installer can configure the Firewall for you if you want too allow connection on RPC port.
 
-[[!template  id=info text="Agent HTTP service is optional. It is only required if you want
-to be able to awake your agent to for an inventory or a job."]]
+[[!template  id=info text="""
+Agent HTTP service is optional. It is only required if you want
+to be able to awake your agent to for an inventory or a job.
+"""]]
 
 ## Installer command line parameters
 
-* /help   Display this help. The space in front of /help is mandatory!
-* /S      Run setup in silent mode
-* /installdir=dirname     Set installation directory of agent
-* /server=url1,url2       Set url of server
-* /tag=tagame     Set tag of agent
-* /user=username  Set username
-* /pass=password  Set password
-* /realm=realm    Set realm
-* /ca-cert-file=filename  Set filename of certificate
-* /no-ssl-check   No certificate check when establishing SSL connection
-* /proxy=http://proxy/    Set proxy
-* /debug  Set debug mode
-* /rpc-port       Set RPC port number
-* /scan-homedirs  Look for virtual machines in home directories
-* /runnow         Run agent after end of installation
-* /update-firewall        Update the Firewall to register the agent
-* /execmode=option        launch the agent with a service(service)/windows task scheduler(task)/or keep settings unchanged(none) (default is service)
+~~~~
+/help                   Display this help. The space in front of /help is mandatory!
+/S                      Run setup in silent mode
+/installdir=dirname     Set installation directory of agent
+/server=url1,url2       Set url of server
+/tag=tagame             Set tag of agent
+/user=username          Set username
+/pass=password          Set password
+/realm=realm            Set realm
+/ca-cert-file=filename  Set filename of certificate
+/no-ssl-check           No certificate check when establishing SSL connection
+/proxy=http://proxy/    Set proxy
+/debug                  Set debug mode
+/rpc-port               Set RPC port number
+/scan-homedirs          Look for virtual machines in home directories
+/runnow                 Run agent after end of installation
+/update-firewall        Update the Firewall to register the agent
+/execmode=option        launch the agent with a service(service)/windows task scheduler(task)/or keep settings unchanged(none) (default is service)
+~~~~
 
 ## Usage
 
