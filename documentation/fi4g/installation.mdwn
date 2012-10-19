@@ -47,4 +47,4 @@ Do the same for all fus* plugins
 ## Security
 
 We recommend to activate SSL on the server side to ensure no one will be able to read password
-during authentifcation and [for some other good reason|documentation/agent/security_and_ssl].
+during authentifcation and [[for some other good reason|documentation/agent/security_and_ssl]].
