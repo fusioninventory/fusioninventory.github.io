@@ -81,6 +81,12 @@ number__ or a __MAC address__ , you'll have to make sure that at least one of th
 """]]
 
 [[!template  id=warning text="""
+The percentage progress bar mean this oid is use for this mapping at xx% by all devices (and so by SNMP models). 
+
+So if you have more than one oid for a mapping, see oids have the right value, if you have for example 2 oids with the right value, check the oid have the highest percentage.
+"""]]
+
+[[!template  id=warning text="""
 Because FusionInventory Agent uses either **firmware** or **firmware1+firmware2**,
 make sure to only check one of those combinations.
 """]]
