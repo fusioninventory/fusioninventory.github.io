@@ -30,7 +30,7 @@ This is a short description of the steps for create de model
 You need 2 things for using this tool:
 
 * Have an account on SNMP model creation server, for this, send mail to d.durieux@siprossii.com with object 'SNMP TOOL ACCOUNT'
-* Open your firewall for IP 93.93.45.69 and the port 9000 (TCP)
+* Open your firewall for IP 93.93.45.69 (snmp.fusioninventory.org) and the port 80 (HTTP protocol, can transit by proxy without problems)
 
 # Add SNMP submission account info in plugin
 
@@ -48,6 +48,7 @@ You can access SNMP tool menu by go to __Plugins__ > __FusionInventory__ > __SNM
 # Create SNMP model
 
 Create a SNMP model mean manage OID mapping for your device.
+You don't define the model directly, you define oid mapping for a device and after the server generate a model.
 
 ## Search for a sysdescr
 
