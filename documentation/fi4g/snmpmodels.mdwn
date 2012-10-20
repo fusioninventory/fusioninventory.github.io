@@ -86,5 +86,12 @@ make sure to only check one of those combinations.
 
 ### Color legend
 
+Around each frame in a mapping name (comment, serial, firmware...), you can have 3 colors:
+
+* green: it's the oid already used (in case you edit an existing device)
+* blue: it's the oid suggested by the program
+* red: it's the oid not suggested but in some case can be used
+
+
 ## Device information
 
