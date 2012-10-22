@@ -1,12 +1,10 @@
 # How to report issues efficiently
 
-In order for the developers to track and fix issues properly, you need to use the forge bug tracker (<http://forge.fusioninventory.org/projects/fusioninventory-agent/issues>). A account is required.
-
-# Best practice
+In order for the developers to track and fix issues properly, you need to use the forge bug tracker (<http://forge.fusioninventory.org/projects/fusioninventory-agent/issues>). An account is required.
 
 Here are a few usage rules, so as to avoid wasting efforts both for the reporters and for the assignees.
 
-## Get a full log
+## Agent verbosity
 
 You can increase the agent verbosity if you:
 
@@ -19,7 +17,7 @@ It is useless to set a priority, it will be re-evaluated by the assignee anyway.
 
 However, you have to identify is your problem is an agent or a server issue. If you don't, that will be the first question anyway.
 
-The easiest way to make the distinction is to look at the raw XML content sent by the agent, available in GLPI. You can also force a local agent execution, with either `--stdout` or `--local` /any/where flags, and look at the resulting content. If the information is missing or erroneous in the agent output, that's an agent issue. If the information is present, but not visible from the server, that's a server issue.
+The easiest way to make the distinction is to look at the raw XML content sent by the agent, available in GLPI. You can also force a local agent execution, with either `--stdout` or `--local /some/where` parameters, and look at the resulting content. If the information is missing or erroneous in the agent output, that's an agent issue. If the information is present, but not visible from the server, that's a server issue.
 
 ## Problem description
 
@@ -29,7 +27,7 @@ You have to describe your problem clearly and precisely, for someone without any
 
 Also, the agent is available for different platforms, with different versions, and different installation methods. You have to specify at least the system you're using, and the agent version.
 
-You can get the versions of the agent and its sub-tasks with these commands:
+You can get the agent version and the list of available tasks with these commands:
 
 * `fusioninventory-agent --version`
 * `fusioninventory-agent --list-tasks`
@@ -46,6 +44,6 @@ If you need to provide additional command output samples, here are a few importa
 
 * always attach external files, rather than pasting content, as some invisible formating can be lost
 * always run command under non-localized environment (`LC_ALL=C` under unix systems)
-* windows WMI queries can be exported with `wmic` tool
+* windows WMI queries can be exported with wmic tool (`wmic path <somequery> get /Format:list > <somefile>`)
 * windows registry content can be exported with regedit tool
 * We may also request a dmidecode output ([[dmidecode On Windows|documentation/agent/bugreport/dmidecode_on_windows]])
