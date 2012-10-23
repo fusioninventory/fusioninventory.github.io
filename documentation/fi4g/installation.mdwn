@@ -15,7 +15,7 @@ WebServices GLPI plugin is a dependency of the Deploy feature, you can download 
 
 ## Update
 
-You *must* *FIRST* disabled the FusionInventory plugins and move somewhere else the FusionInventory plugins.
+You *must* *FIRST* disabled the FusionInventory plugins and move somewhere else the FusionInventory plugins (because you never unpack new archive under previous files).
 
 [[!template  id=warning text="Don't click on *UNINSTALL* link. If you do this, you will LOOSE all FusionInventory data."]]
 

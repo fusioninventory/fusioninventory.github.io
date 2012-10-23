@@ -30,7 +30,7 @@ This is a short description of the steps for create de model
 You need 2 things for using this tool:
 
 * Have an account on SNMP model creation server, for this, send mail to d.durieux@siprossii.com with object 'SNMP TOOL ACCOUNT'
-* Open your firewall for IP 93.93.45.69 and the port 9000 (TCP)
+* Open your firewall for IP 93.93.45.69 (snmp.fusioninventory.org) and the port 80 (HTTP protocol, can transit by proxy without problems)
 
 # Add SNMP submission account info in plugin
 
@@ -48,6 +48,7 @@ You can access SNMP tool menu by go to __Plugins__ > __FusionInventory__ > __SNM
 # Create SNMP model
 
 Create a SNMP model mean manage OID mapping for your device.
+You don't define the model directly, you define oid mapping for a device and after the server generate a model.
 
 ## Search for a sysdescr
 
@@ -80,11 +81,24 @@ number__ or a __MAC address__ , you'll have to make sure that at least one of th
 """]]
 
 [[!template  id=warning text="""
+The percentage progress bar mean this oid is use for this mapping at xx% by all devices (and so by SNMP models). 
+
+So if you have more than one oid for a mapping, see oids have the right value, if you have for example 2 oids with the right value, check the oid have the highest percentage.
+"""]]
+
+[[!template  id=warning text="""
 Because FusionInventory Agent uses either **firmware** or **firmware1+firmware2**,
 make sure to only check one of those combinations.
 """]]
 
 ### Color legend
+
+Around each frame in a mapping name (comment, serial, firmware...), you can have 3 colors:
+
+* green: it's the oid already used (in case you edit an existing device)
+* blue: it's the oid suggested by the program
+* red: it's the oid not suggested but in some case can be used
+
 
 ## Device information
 
