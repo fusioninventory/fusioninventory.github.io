@@ -2,11 +2,16 @@
 
 ## Get the sources Luke!
 
-You can download the last tarball archive from [the forge](http://forge.fusioninventory.org/projects/fusioninventory-agent/files)
+You can download the last official release from [the forge](http://forge.fusioninventory.org/projects/fusioninventory-agent/files)
 or directly from [the CPAN](https://metacpan.org/release/FusionInventory-Agent).
 
 Tarball with a **rc** or **beta** version suffix are developpement release not ready
 for production.
+
+It's also possible to get snapshot from Github:
+
+* [Agent 2.2.x](https://github.com/fusinv/fusioninventory-agent/tarball/2.2.x)
+* [Agent 2.3.x](https://github.com/fusinv/fusioninventory-agent/tarball/2.3.x)
 
 ## agent from sources
 
