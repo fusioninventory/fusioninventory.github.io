@@ -49,6 +49,6 @@ Once these is done, you can [[install your first agent|documentation/agent/insta
 ## Security
 
 [[!template  id=warning text="We strongly recommend to activate SSL on the server side to ensure no one will be able to read password
-during authentifcation and [[for some other good reason|documentation/agent/security_and_ssl]]."]]
+during authentifcation and [[for some other good reason|documentation/agent/security_and_ssl]]. A [[documentation is available to explain how to enable it|documentation/fi4g/ssl]]."]]
 
-A [[documentation is available to explain how to enable it|documentation/fi4g/ssl]].
+
