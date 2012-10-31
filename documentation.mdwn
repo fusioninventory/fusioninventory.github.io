@@ -15,6 +15,7 @@
 * [[How to inventory my network devices (SNMP)|documentation/fi4g/networkinventory]]
 * [[How to inventory my ESX server|documentation/fi4g/esxinventory]]
 * [[How to deploy softwares with teledeployment module|documentation/fi4g/deploy]]
+* [[How to deal with DMZ network|documentation/fi4g/dmz]]
 
 # Troubleshooting
 

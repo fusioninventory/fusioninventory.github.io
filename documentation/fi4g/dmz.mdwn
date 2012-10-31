@@ -1,0 +1,13 @@
+# How to collect inventory in DMZ
+
+## Collect the inventory within the DMZ
+
+You can collect your inventory be using a limited script that get the POST
+request of the agents.
+
+An [[example is avalaible here|documentation/fi4g/dmz/collect.php]].
+
+## Push them yourself
+
+Once the inventory files are written, you can move the outside of the DMZ and
+push them with [[fusioninventory-injector|documentation/references]].
