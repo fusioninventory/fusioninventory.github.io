@@ -1,23 +1,47 @@
 # How to force an inventory
 
+## With the HTTP interface
+
+If you agent is running as a service or a daemon, you may be able to access the web interface at <http://localhost:62354>.
+
+If `rpc-trust-localhost` [[configuration key|documentation/agent/configuration]] is true or if `httpd-trust=127.0.0.1`,
+a link will be available to force the agent execution.
+
+[[!template  id=warning text="A bug fixed in 2.2.7 prevent the use of `rpc-trust-localhost` and `httpd-trust`."]]
+
+## Command line
+
 You can force an inventory with the [[fusioninventory-agent|documentation/references/agent/2.2.x/fusioninventory-agent]] command.
 
-## Windows
+### Windows
 
 First, you must open a cmd.exe console. Ensure you started with with *Administrator* privilege (*right clic* → *Run as Administrator* on Vista and Seven *Start menu*).
 
 Go in the **c:\Program files\FusionInventory-Agent\perl\bin** (adjust this path depending on your configuration) directory and run:
 
-    perl fusioninventory-agent
+    # perl fusioninventory-agent
 
-# MacOSX
+### MacOSX
 
 On MacOSX, go in /opt/fusioninventory-agent and run the following command
 
-    todo
+    # cd /opt/fusioninventory-agent
+    # ./fusioninventory-agent
 
-# Other
+### Other
 
 Just run:
 
-    fusioninventory-agent
+    # fusioninventory-agent
+
+### Advanced option
+
+You can write a local XML inventory with:
+
+    # fusioninventory-agent --local /tmp
+
+to generate a HTML file instead, add the `--html` flag:
+
+    # fusioninventory-agent --local /tmp --html
+
+Please read [[the fusioninventory-agent reference page|documentation/references]] to get the complet list of supported options.

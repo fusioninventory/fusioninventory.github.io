@@ -26,3 +26,8 @@ With no SSL check  and no authentification :
 
     curl --header "Content-Type: Application/x-compress" -k --data @/tmp/monposte.local-2012-10-04-12-21-23.ocs https://myglpiserver/plugins/fusioninventory/
 
+## HTTP Proxy
+
+If you want to use a HTTP proxy, you can declare it with the http_proxy environment variable:
+
+    export http_proxy=http://myproxy:3128
