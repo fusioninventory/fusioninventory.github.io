@@ -32,10 +32,6 @@
 
 * [[Report a bug on the Agent|documentation/agent/bugreport]]
 
-# Older documentation
-
-* [[documentation/fi4g/userdoc]]
-
 # Contributor 
 
 * [[How to use this wiki|documentation/wiki]]
