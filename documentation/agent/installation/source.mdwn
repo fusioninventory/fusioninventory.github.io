@@ -47,7 +47,6 @@ This time the execution should success and you can finish the installation. Here
 we recommand GNU make (gmake):
 
     make
-    make test
     make install
 
 ## Change the installation directory
@@ -68,7 +67,6 @@ The plugin installation follow the same process:
     cd FusionInventory-Agent-Task-Foo-0.1.2
     cpanm .
     perl Makefile.PL
-    make test
     make install
 
 # configuration
@@ -94,4 +92,11 @@ openssl header files and a C compiler.
 If you don't want to use SSL, you can avoid keep this dependency uninstalled.
 The agent will disable SSL by itself.
 
+# Test-suite
+
+FusionInventory components come with a test-suite. You can run it after the `perl Makefile.PL` with this command:
+
+    make test
+
+The test-suites require some additional dependencies like Test::More.
 
