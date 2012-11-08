@@ -82,3 +82,12 @@ be developped anymore.
 If you’re looking for a software deployment solution, FusionInventory
 provides it’s own, which is integrated into GLPI.
 
+## My agent refuses to start a job with the "Bad token" error
+
+“Bad token” problems means the agent and the server are not synchronized anymore. You can resolve the situation either:
+
+* just by running an inventory
+* by using `httpd-trust` parameter to allow request from the server IP.
+
+
+[[!template  id=warning text="A bug fixed in 2.2.7 prevent the use of `rpc-trust-localhost` and `httpd-trust`."]]
