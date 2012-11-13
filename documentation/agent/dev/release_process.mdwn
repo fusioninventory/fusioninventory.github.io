@@ -43,6 +43,10 @@ Ensures the full test suite, with developper tests enabled, executes correctly o
 
 Tarball has to be uploaded on the forge and on CPAN.
 
+## Mark bugs as closed
+
+Go on the [forge](http://forge.fusioninventory.org/) and change the status of the fixed from to closed.
+
 ## Release announcement
 
 Publish official announcement:
