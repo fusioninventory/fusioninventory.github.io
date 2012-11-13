@@ -34,7 +34,7 @@ A common mistake is to mix HTTP and HTTPS in URL.
 4. You can configure here a HTTP proxy. For example, proxy:3128
 5. This is the port of the HTTP service of the agent. You need to change it on the server too.
 6. This check box will increase *a lot* the verbosity of the agent. The log is available in the agent-log.txt file.
-7. The installer can configure the Firewall for you if you want too allow connection on RPC port.
+7. The installer can configure the Firewall for you if you want to allow connection on RPC port.
 
 [[!template  id=info text="""
 Agent HTTP service is optional. It is only required if you want
