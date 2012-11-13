@@ -34,9 +34,9 @@ Ensures the full test suite, with developper tests enabled, executes correctly o
 
     ./tools/updatePciids.sh # For the agent
     perl Mafile.PL
-    make manifest
-    make disttest
     make distsign
+    make disttest
+    make manifest
     make dist
 
 ## Tarball upload
@@ -61,6 +61,6 @@ At the end the process this should be done:
 Switch all bugs resolved by the latest release from 'resolved' to 'closed state'.
 Move all still open bugs to next planned version if you still believe they will be fixed in a timely fashion. Otherwise you should unset the “planned version” field of the bugs.
 
-## Update FreshMe^WFreecode status
+## Update FreshMe\^WFreecode status
 
 * [FusionInventory Agent page](http://freecode.com/projects/fusioninventory-agent)
