@@ -56,4 +56,4 @@ The available workaround:
 
 This page explain how to generate a certificat for you installation:
 
-* [how to configure SSL|documentation/fi4g/ssl]
+* [[how to configure SSL|documentation/fi4g/ssl]]
