@@ -51,3 +51,9 @@ The available workaround:
 * ensure clients capacities matches server certificate properties, upgrading
   openssl and its perl bindings (Net::SSLeay)
 * disable server certificate checking on client
+
+# SSL certificat creation
+
+This page explain how to generate a certificat for you installation:
+
+* [how to configure SSL|documentation/fi4g/ssl]
