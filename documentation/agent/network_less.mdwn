@@ -10,6 +10,10 @@ You can get the full documentation of the agent in the [[reference page|document
 
 # Push my inventories in the server
 
+## Through FusionInventory Interface
+
+Go in *Plugins > FusionInventory > Import agent XML* Menu and upload the XML.
+
 ## fusioninventory-injector
 
     fusioninventory-injector -v -f myfile.xml -u http://glpi083/plugins/fusioninventory/
