@@ -70,8 +70,5 @@ about your network-topology.
 
 GLPI also comes with an integrated Request Tracking solution.
 
-GLPI stands for "Gestionnaire libre de parc informatique", which means in french
-“Free IT Asset Management Software”.
-
 __FusionInventory for GLPI__ is a plugin for GLPI.
 
