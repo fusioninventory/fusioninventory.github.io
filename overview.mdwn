@@ -50,7 +50,7 @@ The agent can send Wake on Lan order on its local network. By using the GLPI plu
 The __FusionInventory Agent__ is a generic multi-platform agent. It can perform a
 large array of management tasks, such as local inventory, software deployment
 or network discovery. It can be used either standalone, or in combination
-with a compatible server (OCS, GLPI, OTRS, Uranos, ...) acting as a centralized
+with a compatible server (OCS Inventory, GLPI, OTRS, Uranos, ...) acting as a centralized
 control point.
 
 Two of these tasks are included in agent source distribution, local inventory
