@@ -55,3 +55,10 @@ You may be interested by these two GPO templates:
 
 * [[FusionInventory.adml|documentation/agent/installation/windows/FusionInventory.adml]]
 * [[FusionInventory.admx|documentation/agent/installation/windows/FusionInventory.admx]]
+
+# Alternative VBS script
+
+An [[alternative script|documentation/agent/installation/windows/fusioninventory-alternative.vbs]] maintain
+by ZenAdm also exists.
+
+This script is still *experimental* but it is already much easier to understand.
