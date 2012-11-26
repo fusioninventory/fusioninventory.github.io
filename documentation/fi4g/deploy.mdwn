@@ -56,6 +56,7 @@ that with the deployed scripts.
     -   You can optionally add return codes to validate against for
         success or failure.
 
+If you use "move" command, use "*" in case from if the agent get the file from GLPI
 
 ## Task Management (Normal)
 
