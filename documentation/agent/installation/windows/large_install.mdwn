@@ -58,7 +58,7 @@ You may be interested by these two GPO templates:
 
 # Alternative VBS script
 
-An [[alternative script|documentation/agent/installation/windows/fusioninventory-alternative.vbs]] maintain
+An [[alternative script|documentation/agent/installation/windows/fusioninventory-alternative.vbs]] maintained
 by ZenAdm also exists.
 
 This script is still *experimental* but it is already much easier to understand.
