@@ -167,7 +167,7 @@ chosen this last option.
 The following steps depends of your operative system.
 
 
-## Microsoft Windows
+### Microsoft Windows
 
 From your Microsoft Windows command interpreter executes
 
@@ -183,7 +183,7 @@ From your Microsoft Windows command interpreter executes
 You should be able to see the new installers in that directory.
 
 
-## Unix OS
+### Unix OS
 
     $ cd fusioninventory-agent-windows-installer
     $ chmod 0744 NSIS/*.sh Perl/Scripts/*.sh
@@ -348,7 +348,7 @@ for '2.2.5.zip - 2.2.5 release') you need change the value of the variable
        Text::Template UNIVERSAL::require Win32::Daemon Win32::Job Win32::OLE
        Win32::TieRegistry XML::TreePP'
 
-Note that they are only two lines.
+They are only two lines:
 
 In the case of FusionInventory-Agent-Task-Deploy v2.0.3 the list of the
 required and recommended Perl modules are the same that for v2.0.2, so there
@@ -374,7 +374,7 @@ Remember, this task can be done only from Microsoft Windows OS.
     # .\build-strawberry-perl-package-for-fusioninventory-agent.bat
     # .\uninstall-strawberry-perl.bat
 
-   Now you can load the new package and its associated files into your public
+Now you can load the new package and its associated files into your public
 repository of Strawberry Perl Packages for FusionInventory-Agent. This
 can be a local repository; you only have to change the 'strawberry_pepfia_url'
 variable of the file './Perl/Scripts/load-perl-environment'. For example, to
@@ -386,8 +386,8 @@ following:
      +declare -r strawberry_pepfia_url='file://c/.../fusioninventory-agent-windows
       -installer/Perl/Strawberry'
 
-Note that they are only two lines.
- 
+They are only two lines.
+
             Remember, 'file://' is dependent of the OS and must be written as
             a absolute path. Make sure, in any case, that the value of the
             'strawberry_pepfia_url' variable is correct.
@@ -410,7 +410,7 @@ Finally, you should change the following constants of the file './NSIS/
       PRODUCT_VERSION_RELEASE
       PRODUCT_VERSION_BUILD
 
-   They are at the beginning of the file. Following the example,
+They are at the beginning of the file. Following the example,
 
    -!define FIA_RELEASE "2.2.5"
    -!define FIA_TASK_DEPLOY_RELEASE "2.0.2"
@@ -420,7 +420,7 @@ Finally, you should change the following constants of the file './NSIS/
    -!define PRODUCT_VERSION_RELEASE "5"
    +!define PRODUCT_VERSION_RELEASE "6"
 
-   With the new Strawberry Perl Package for FusionInventory-Agent ready, and
+With the new Strawberry Perl Package for FusionInventory-Agent ready, and
 these last changes, you can continue as it were a normal build process.
 See 'How to generate the installers' above.
 
@@ -445,7 +445,7 @@ The process is very similar to that described in 'How to upgrade the agent
 and its tasks'. Then you chose a new stable release, in this case you choose
 a branch name or a commit name.
 
-   Let's look at an example about how to build the installers for the,
+Let's look at an example about how to build the installers for the,
 nowadays, development branch '2.3.x' supposing you have the builder ready to
 build the installers with FusionInventory-Agent v2.2.6, FusionInventory-Agent-
 -Task-Deploy v2.0.3, FusionInventory-Agent-Task-ESX v2.2.0 and FusionInventory-
