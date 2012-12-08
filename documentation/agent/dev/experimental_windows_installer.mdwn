@@ -5,15 +5,16 @@
 The FusionInventory Agent Microsoft Windows Installer is an open source
 project than has as goal to build the installer program of the FusionInventory
 Agent and its tasks for Microsoft Windows operative systems. It makes use of
-some others open source projects, like the Nullsoft Scriptable Install System
+some others open source projects, like the
+[Nullsoft Scriptable Install System](http://nsis.sourceforge.net/Main_Page)
 (in forward NSIS), Strawberry Perl, Curl, etcetera, to obtain its objective.
 
-  It is born to cover a basic goal; be able to install new FusionInventory Agent
+It is born to cover a basic goal; be able to install new FusionInventory Agent
 versions based on the previous configuration in the system, whether it exists.
 In summary, it is  born to be able to update the existing agent, and not only to
 install a new version from scratch.
 
-  It has more purposes, of course. The following are some of them.
+It has more purposes, of course. The following are some of them.
 
 
 ## Features
@@ -49,7 +50,7 @@ install a new version from scratch.
 This is than you need to build the installer:
 
 * Whether you use Microsoft Windows OS
-    * NSIS 2.46: You can get NSIS 2.46 from http://nsis.sourceforge.net/Download
+    * NSIS 2.46: You can get NSIS 2.46 from <http://nsis.sourceforge.net/Download>
     * Whether you use a Unix OS (Curl, NSIS 2.46)
 
     Check your distribution for more information about these packages
@@ -74,7 +75,6 @@ Nowadays, the contents of the project is:
 
 This is the current directory tree of the project.
 
-    .
     |-- NSIS
     |   |-- FusionInventory-Agent
     |   |   |-- Contrib
@@ -143,7 +143,7 @@ branch.
 
 Note than you can put it in a single line.
 
-    Once you have the '*.tar.gz' file, uncompress and unpack it. This is an
+Once you have the '*.tar.gz' file, uncompress and unpack it. This is an
 example, continuing the previous one, using tar.
 
     $ mkdir fusioninventory-agent-windows-installer-master
@@ -161,10 +161,10 @@ example, continuing the previous one, using tar.
 [[!template  id=info text="Note that you should change <branch_name> for the name of branch\
 you wish download."]]
 
-            I'm sure you don't need much more explications about Git whether
-            you have chosen this last option.
+I'm sure you don't need much more explications about Git whether you have
+chosen this last option.
 
-   The following steps depends of your operative system.
+The following steps depends of your operative system.
 
 
 ## Microsoft Windows
@@ -221,14 +221,14 @@ will show to you where is the built package.
 
 ## How to upgrade the Strawberry Perl distribution
 
- Let's look at an exemple.
+Let's look at an exemple.
 
-   Suppose has been released the new Strawberry Perl Nov 2012 Portable Edition
+Suppose has been released the new Strawberry Perl Nov 2012 Portable Edition
 (5.16.2.1-32/64bits). Nowadays, the installers  are run on Strawberry Perl Aug
 2012 Portable Edition (5.16.1.1-32/64bits) and you want to upgrade it. These
 are the steps you should carry out.
 
-    Update variables 'strawberry_version' and 'strawberry_release' of file
+Update variables 'strawberry_version' and 'strawberry_release' of file
 './Perl/Scripts/load-perl-environment' to reflect the new values.
 
     -declare -r strawberry_version='5.16.1.1'
@@ -236,7 +236,7 @@ are the steps you should carry out.
     +declare -r strawberry_version='5.16.2.1'
     +declare -r strawberry_release='Nov 2012'
 
-   Update constant 'STRAWBERRY_RELEASE' of file './NSIS/
+Update constant 'STRAWBERRY_RELEASE' of file './NSIS/
 /FusionInventory.nsi' to adapt it to its new value:
 
       -!define STRAWBERRY_RELEASE "5.16.1.1"
@@ -245,9 +245,9 @@ are the steps you should carry out.
    And finally, rebuild the installers.
 
 
-How to upgrade the agent and its tasks
---------------------------------------
-   Let's look at an example.
+##How to upgrade the agent and its tasks
+
+Let's look at an example.
 
    Suppose you know there are new stable releases for FusionInventory-Agent
 and FusionInventory-Agent-Task-Deploy. You have the builder ready to build the
