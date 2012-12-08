@@ -129,11 +129,11 @@ these URL's in that order.
     https://github.com/tabad/fusioninventory-agent-windows-installer/branches
     https://github.com/tabad/fusioninventory-agent-windows-installer/commits
 
-            Note that, in the last case, you should select after the wished
-            branch name or end up the URL with the name of that branch, like
-            this '...-windows-installer/commits/<branch_name>'.
+[[!template  id=info text="Note that, in the last case, you should select after the wished
+branch name or end up the URL with the name of that branch, like
+this '...-windows-installer/commits/<branch_name>'."]]
 
-   This is an example using cURL to download the last commit of 'master'
+This is an example using cURL to download the last commit of 'master'
 branch.
 
     $ curl --location \
@@ -141,7 +141,7 @@ branch.
       https://github.com/tabad/fusioninventory-agent-windows-installer/\
       tarball/master
 
-            Note than you can put it in a single line.
+Note than you can put it in a single line.
 
     Once you have the '*.tar.gz' file, uncompress and unpack it. This is an
 example, continuing the previous one, using tar.
