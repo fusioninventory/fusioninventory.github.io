@@ -158,8 +158,8 @@ example, continuing the previous one, using tar.
     $ git clone --branch <branch_name> \
       https://github.com/tabad/fusioninventory-agent-windows-installer.git
 
-            Note that you should change <branch_name> for the name of branch\
-            you wish download.
+[[!template  id=info text="Note that you should change <branch_name> for the name of branch\
+you wish download."]]
 
             I'm sure you don't need much more explications about Git whether
             you have chosen this last option.
@@ -294,10 +294,10 @@ maintain its values, unless there are changes in GitHub.
       -declare +r fusinv_task_deploy_commit='2.0.2'
       +declare +r fusinv_task_deploy_commit='2.0.3'
 
-            Note that, in these cases, '2.2.6' and '2.0.3' are 'tags' in Git
-            terminology; that is, in our case, stable releases. A tag makes
-            reference, in last term, to a commit, therefore the name of the
-            variable.
+[[!template  id=info text="Note that, in these cases, '2.2.6' and '2.0.3' are 'tags' in Git
+terminology; that is, in our case, stable releases. A tag makes
+reference, in last term, to a commit, therefore the name of the
+variable."]]
 
    An important thing to take into account is that, probably, these new releases
 require new, or simply different, Perl modules. Whether it is so, you should
@@ -311,11 +311,11 @@ fier and b) to update the list of required and recommended Perl modules.
       -declare -r strawberry_pepfia_build_id='1'
       +declare -r strawberry_pepfia_build_id='2'
 
-            Note that the variable 'strawberry_pepfia_branch' is not necessary
-            to change it in this case since the branch 2.2.x match with the
-            branch of FusionInventory-Agent release 2.2.6.
+[[!template  id=info text="Note that the variable 'strawberry_pepfia_branch' is not necessary
+to change it in this case since the branch 2.2.x match with the
+branch of FusionInventory-Agent release 2.2.6."]]
 
-   The second one is, most of the times, more tedious. You should check whether
+The second one is, most of the times, more tedious. You should check whether
 there is new requirements or recommendations comparing the files 'Makefile.PL'
 of each FusionInventory-Agent package you want to update. Then, whether there
 are changes, you must update the respective variable 'fusinv_agent_mod_depen-
@@ -323,9 +323,9 @@ dences', 'fusinv_task_deploy_mod_dependences', 'fusinv_task_esx_mod_dependences'
 or 'fusinv_task_network_mod_dependences' of './Perl/Scripts/load-perl-environ-
 ment' file to reflect these changes.
 
-   Let's look at an example for FusionInventory-Agent.
+Let's look at an example for FusionInventory-Agent.
 
-   In https://github.com/fusinv/fusioninventory-agent/tags you can see all
+In https://github.com/fusinv/fusioninventory-agent/tags you can see all
 stable releases of FusionInventory-Agent. In that, below '2.2.6.zip - 2.2.6 re-
 lease' appears the sequence '6f67b7d73c'; the short form for its SHA1 commit.
 Do click on it, and after, do click on 'Browse code' (up and right). In the list
@@ -348,31 +348,31 @@ for '2.2.5.zip - 2.2.5 release') you need change the value of the variable
        Text::Template UNIVERSAL::require Win32::Daemon Win32::Job Win32::OLE
        Win32::TieRegistry XML::TreePP'
 
-            Note that they are only two lines.
+Note that they are only two lines.
 
-   In the case of FusionInventory-Agent-Task-Deploy v2.0.3 the list of the
+In the case of FusionInventory-Agent-Task-Deploy v2.0.3 the list of the
 required and recommended Perl modules are the same that for v2.0.2, so there
 is not needed any additional change.
 
-   As the list of modules for FusionInventory-Agent has changed, it is necessary
+As the list of modules for FusionInventory-Agent has changed, it is necessary
 to generate a new package Strawberry Perl Package.
 
-            Note that this is an strange case and that is not totally necessary.
+[[!template  id=info text="Note that this is an strange case and that is not totally necessary."]]
 
-   You should start with a clean Strawberry Perl distribution too, so the
+You should start with a clean Strawberry Perl distribution too, so the
 recommended steps are:
 
-            Remember, this task can be done only from Microsoft Windows OS.
+Remember, this task can be done only from Microsoft Windows OS.
 
-   > cd fusioninventory-agent-windows-installer
-   > cd Perl\Scripts
-   > .\install-gnu-utilities-collection.bat
-   > .\uninstall-strawberry-perl.bat
-   > .\install-strawberry-perl.bat
-   > .\install-perl-modules-and-dependencies.bat
-   > .\delete-perl-modules-and-dependencies-temporary-files.bat
-   > .\build-strawberry-perl-package-for-fusioninventory-agent.bat
-   > .\uninstall-strawberry-perl.bat
+    # cd fusioninventory-agent-windows-installer
+    # cd Perl\Scripts
+    # .\install-gnu-utilities-collection.bat
+    # .\uninstall-strawberry-perl.bat
+    # .\install-strawberry-perl.bat
+    # .\install-perl-modules-and-dependencies.bat
+    # .\delete-perl-modules-and-dependencies-temporary-files.bat
+    # .\build-strawberry-perl-package-for-fusioninventory-agent.bat
+    # .\uninstall-strawberry-perl.bat
 
    Now you can load the new package and its associated files into your public
 repository of Strawberry Perl Packages for FusionInventory-Agent. This
@@ -381,18 +381,18 @@ variable of the file './Perl/Scripts/load-perl-environment'. For example, to
 leave the default directory as the default repository, you only have to do the
 following:
 
-   -declare -r strawberry_pepfia_url='https://github.com/downloads/tabad/fusioni
-    nventory-agent-windows-installer'
-   +declare -r strawberry_pepfia_url='file://c/.../fusioninventory-agent-windows
-    -installer/Perl/Strawberry'
+     -declare -r strawberry_pepfia_url='https://github.com/downloads/tabad/fusioni
+      nventory-agent-windows-installer'
+     +declare -r strawberry_pepfia_url='file://c/.../fusioninventory-agent-windows
+      -installer/Perl/Strawberry'
 
-            Note that they are only two lines.
-
+Note that they are only two lines.
+ 
             Remember, 'file://' is dependent of the OS and must be written as
             a absolute path. Make sure, in any case, that the value of the
             'strawberry_pepfia_url' variable is correct.
 
-   Finally, you should change the following constants of the file './NSIS/
+Finally, you should change the following constants of the file './NSIS/
 /FusionInventory.nsi' to adapt them to their new values:
 
       FIA_RELEASE
@@ -427,8 +427,8 @@ See 'How to generate the installers' above.
 
 How to know whether is needed to build a new Strawberry Perl Package for
 FusionInventory-Agent
-------------------------------------------------------------------------
-   Basically you should check whether there is new requirements or recommen-
+
+Basically you should check whether there is new requirements or recommen-
 dations comparing the files 'Makefile.PL' of each FusionInventory-Agent
 package you want to update. Then, whether there are changes, you must update
 the respective variable 'fusinv_agent_mod_dependences', 'fusinv_task_deploy_-
@@ -436,12 +436,12 @@ mod_dependences', 'fusinv_task_esx_mod_dependences' or 'fusinv_task_network_-
 mod_dependences' of './Perl/Scripts/load-perl-environment' file to reflect
 these changes.
 
-   See 'How to upgrade the agent and its tasks' above for more information.
+See 'How to upgrade the agent and its tasks' above for more information.
 
 
-How to build the installers for a development version of FusionInventory-Agent
-------------------------------------------------------------------------------
-   The process is very similar to that described in 'How to upgrade the agent
+## How to build the installers for a development version of FusionInventory-Agent
+
+The process is very similar to that described in 'How to upgrade the agent
 and its tasks'. Then you chose a new stable release, in this case you choose
 a branch name or a commit name.
 
@@ -451,7 +451,7 @@ build the installers with FusionInventory-Agent v2.2.6, FusionInventory-Agent-
 -Task-Deploy v2.0.3, FusionInventory-Agent-Task-ESX v2.2.0 and FusionInventory-
 -Agent-Task-Network v1.0.1.
 
-   Edit the './Perl/Scripts/load-perl-environment' file and carry out these
+Edit the './Perl/Scripts/load-perl-environment' file and carry out these
 changes.
 
       -declare -r strawberry_pepfia_branch='2.2.x'
