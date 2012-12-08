@@ -1,6 +1,7 @@
 # Agent specific
 
 * [[Release process|documentation/agent/dev/release_process]]
+* [[The experimental Windows installer (2.3.x)|documentation/agent/dev/experimental_windows_installer]]
 
 # Get the sources
 
