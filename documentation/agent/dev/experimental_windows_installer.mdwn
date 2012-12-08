@@ -605,7 +605,7 @@ Please report any issues on project forge bugtracker (see forge URL above).
 
 ## Author
 
-* Tomás Abad <tabadgp@gmail.com>
+* Tomás Abad <tabad@fusioninventory.org>
 
 Copyright 2012 FusionInventory Team
 
