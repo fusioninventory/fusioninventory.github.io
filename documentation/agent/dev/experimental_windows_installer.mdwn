@@ -215,7 +215,7 @@ From your Microsoft Windows command interpreter executes
     # .\build-strawberry-perl-package-for-fusioninventory-agent.bat
     # .\uninstall-strawberry-perl.bat
 
-The script 'build-strawberry-perl-package-for-fusioninventory-agent.bat'
+The script `build-strawberry-perl-package-for-fusioninventory-agent.bat`
 will show to you where is the built package.
 
 
@@ -231,10 +231,10 @@ are the steps you should carry out.
     Update variables 'strawberry_version' and 'strawberry_release' of file
 './Perl/Scripts/load-perl-environment' to reflect the new values.
 
-      -declare -r strawberry_version='5.16.1.1'
-      -declare -r strawberry_release='Aug 2012'
-      +declare -r strawberry_version='5.16.2.1'
-      +declare -r strawberry_release='Nov 2012'
+    -declare -r strawberry_version='5.16.1.1'
+    -declare -r strawberry_release='Aug 2012'
+    +declare -r strawberry_version='5.16.2.1'
+    +declare -r strawberry_release='Nov 2012'
 
    Update constant 'STRAWBERRY_RELEASE' of file './NSIS/
 /FusionInventory.nsi' to adapt it to its new value:
