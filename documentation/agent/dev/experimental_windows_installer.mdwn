@@ -596,6 +596,9 @@ Project IRC channel:
 
 Please report any issues on project forge bugtracker (see forge URL above).
 
+## Dmidecode for Windows
+
+[Dmidecode port on Windows](https://github.com/goneri/dmidecode-win32)
 
 ## Author
 
