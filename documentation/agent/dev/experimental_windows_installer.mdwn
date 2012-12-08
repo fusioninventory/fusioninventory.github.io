@@ -584,14 +584,17 @@ See 'How to generate the installers' above.
 ## Contacts
 
 Project websites:
-* main site: http://www.fusioninventory.org
-* forge: http://forge.fusioninventory.org/projects/fusioninventory-agent-windows-installer
+
+* main site: <http://www.fusioninventory.org>
+* forge: <http://forge.fusioninventory.org/projects/fusioninventory-agent-windows-installer>
 
 Project mailing lists:
-* http://lists.alioth.debian.org/mailman/listinfo/fusioninventory-user
-* http://lists.alioth.debian.org/mailman/listinfo/fusioninventory-devel
+
+* <http://lists.alioth.debian.org/mailman/listinfo/fusioninventory-user>
+* <http://lists.alioth.debian.org/mailman/listinfo/fusioninventory-devel>
 
 Project IRC channel:
+
 * #FusionInventory on FreeNode IRC Network
 
 Please report any issues on project forge bugtracker (see forge URL above).
