@@ -19,7 +19,7 @@ if (!$title || $title =~ /\ /) {
 }
 
 my $datetime = DateTime->now;
-my $file = sprintf( "tmp_news/%d/%02d/%02d/%s.mdwn",
+my $file = sprintf( "news/%d/%02d/%02d/%s.mdwn",
         $datetime->year, $datetime->month, $datetime->day, $title );
 make_path( dirname($file) );
 open OUT, ">$file" or die;
