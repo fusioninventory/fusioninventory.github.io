@@ -12,7 +12,7 @@ This plugin is used to do:
 
 This is just a bugfix release, with the following changes:
 
-* work around Net::IP bug [[!bug 71510]], [[!bug 1880]
+* work around Net::IP bug [[!bug 71510]], [[!bug 1880]]
 * fix mac address double normalisation
 * don't overwrite already computed values [[!bug 1837]]
 * don't install packlist files
