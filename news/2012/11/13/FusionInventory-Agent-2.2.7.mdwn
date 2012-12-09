@@ -24,3 +24,10 @@ We did our best to provide a solid release, please [[contact us|/resources]] is 
 
 The prebuilt and Windows installer archive will be generated as soon as the
 FusionInventory-Agent-Task-Network distribution is released.
+
+## Update
+
+Packages have been finally generated, including the last Deploy and Network bug fix releases.
+
+Please read the [[agent installation|/documentation/agent/installation/]]
+page for further informations.
