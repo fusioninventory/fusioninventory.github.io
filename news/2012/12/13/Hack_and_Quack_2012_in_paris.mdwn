@@ -25,8 +25,8 @@ uses to be time to time on IRC (tabad).
 
 ## What we achieved
 
-* clarify what had to be done to finish the current release 2.3.0 release of the agent
-* Decided to migrate to AnyEvent, thanks to Olivier Mengué ( dolmen )
+* clarify what had to be done to finish the 2.3.0 release of the agent
+* Decided to migrate to AnyEvent, thanks to [Olivier Mengué ( dolmen )](http://o.mengue.free.fr/)
 * Fixed numerous bugs and long time issues
 * Uploded on [CPAN](http://www.metacpan.org) bug fix releases for Task-Network and Task-Deploy
 
