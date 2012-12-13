@@ -32,7 +32,8 @@ uses to be time to time on IRC (tabad).
 
 ## Thanks
 
-We want to sent a big thank you to the people and companies 
+We want to sent a big thanks (and some [round TUIT](http://en.wiktionary.org/wiki/round_tuit))
+to the people and companies who supported the meeting.
 
 * [DuckDuckGo](https://duckduckgo.com/)
 * [The great Perl community and the french Mongueurs](http://mongueurs.net/)
