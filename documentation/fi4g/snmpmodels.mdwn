@@ -104,12 +104,12 @@ Around each frame in a mapping name (comment, serial, firmware...), you can have
 
 # Get SNMP models and available for all
 
-When you have an account, you have access to all models created on the server. For that, go in menu Plugins > FusionInventory > SNMP > SNMP models creation > See All SNMP models.
+When you have an account, you have access to all models created on the server. For that, go in menu __Plugins__ > __FusionInventory__ > __SNMP__ > __SNMP models creation__ > __See All SNMP models__.
 
 In this page, you can see:
 
-* Models not imported (so new models since last release of plugin FUsionInventory)
-* Models to be updated (so modified models since last release of plugin FUsionInventory)
+* Models not imported (so new models since last release of plugin FusionInventory)
+* Models to be updated (so modified models since last release of plugin FusionInventory)
 * Models up to date 
 
 You can check models you want to import and click, on bottom, on button import. The model is in your plugin FusionInventory and can used it now.
