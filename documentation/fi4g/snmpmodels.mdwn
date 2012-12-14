@@ -102,3 +102,16 @@ Around each frame in a mapping name (comment, serial, firmware...), you can have
 
 ## Device information
 
+# Get SNMP models and available for all
+
+When you have an account, you have access to all models created on the server. For that, go in menu Plugins > FusionInventory > SNMP > SNMP models creation > See All SNMP models.
+
+In this page, you can see:
+
+* Models not imported (so new models since last release of plugin FUsionInventory)
+* Models to be updated (so modified models since last release of plugin FUsionInventory)
+* Models up to date 
+
+You can check models you want to import and click, on bottom, on button import. The model is in your plugin FusionInventory and can used it now.
+
+When we release the plugin FusionInventory for GLPI, we mark all these models as stable.
