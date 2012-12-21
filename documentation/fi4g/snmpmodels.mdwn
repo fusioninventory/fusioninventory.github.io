@@ -5,7 +5,7 @@
 To get complete inventory of switches, printers and other devices over the network, we use SNMP models.
 An SNMP model is an XML file that will match an OID to a field in a GLPI network device object.
 
-[[!template  id=warning text="The tool is available only in developer version of FusionInventory for GLPI (0.83+2.0)."]]
+The tool is available since FusionInventory for GLPI (0.83+2.0).
 
 # How it works
 
