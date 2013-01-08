@@ -1,0 +1,75 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2013-01-08 09:28+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. type: Plain text
+#, no-wrap
+msgid "[[!meta  date=\"2012-06-07 09:01:06\"]]\n"
+msgstr ""
+
+#. type: Plain text
+#, no-wrap
+msgid ""
+"It's a pleasure to announce the version 0.80+1.4 of plugins fusioninventory "
+"for GLPI (<strong>so for GLPI 0.80.x</strong>, not for GLPI 0.83.x !).\n"
+msgstr ""
+
+#. type: Plain text
+msgid ""
+"This version fix mainly bugs, but there are some modifications on "
+"deployement features (thanks to kiniou), so works better ;)."
+msgstr ""
+
+#. type: Plain text
+#, no-wrap
+msgid ""
+"You can see tickets <a title=\"here\" "
+"href=\"http://forge.fusioninventory.org/versions/129\">here</a>\n"
+msgstr ""
+
+#. type: Plain text
+#, no-wrap
+msgid ""
+"You can download this version <a title=\"here\" "
+"href=\"http://forge.fusioninventory.org/attachments/download/644/fusioninventory-for-glpi-metapackage_0.80+1.4.tar.gz\">here</a>\n"
+msgstr ""
+
+#. type: Plain text
+msgid "This is the procedure to update this version:"
+msgstr ""
+
+#. type: Bullet: '* '
+msgid "disable fus* plugins in menu Setup > Plugins (disable, not uninstall!!)"
+msgstr ""
+
+#. type: Bullet: '* '
+msgid ""
+"Remove folders fusi* in glpi/_plugins/* uncompress the new archive ( "
+"fusioninventory-for-glpi-metapackage_0.80+1.4.tar.gz ) in this folder"
+msgstr ""
+
+#. type: Bullet: '* '
+msgid "reconnect to GLPI (log in)"
+msgstr ""
+
+#. type: Bullet: '* '
+msgid "update + activate the fus* plugins in the menu Setup > Plugins"
+msgstr ""
+
+#. type: Plain text
+msgid "To end this announce, thanks to users report the bugs ;)"
+msgstr ""

@@ -1,0 +1,206 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2013-01-08 09:28+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. type: Title #
+#, no-wrap
+msgid "Installation"
+msgstr ""
+
+#. type: Plain text
+msgid ""
+"To inventory ESX or Vcenter, there is no specific agent to be installed on "
+"the ESX. The Fusioninventory agent installed on Windows or Linux, will "
+"inventory remotely by a automatic task.  For Windows host, the "
+"Fusioninventory Agent comes with the module. For Linux distribution, you "
+"must install a additional package."
+msgstr ""
+
+#. type: Plain text
+msgid "On Redhat/Centos, run"
+msgstr ""
+
+#. type: Plain text
+#, no-wrap
+msgid "    # yum install perl-FusionInventory-Agent-Task-ESX\n"
+msgstr ""
+
+#. type: Plain text
+msgid "On Debian/Ubuntu :"
+msgstr ""
+
+#. type: Plain text
+#, no-wrap
+msgid "    # apt-get install libfusioninventory-agent-task-esx-perl\n"
+msgstr ""
+
+#. type: Plain text
+msgid ""
+"From Source, see the [[agent source installation "
+"page|documentation/agent/installation/source]]."
+msgstr ""
+
+#. type: Title #
+#, no-wrap
+msgid "From the Command line"
+msgstr ""
+
+#. type: Plain text
+msgid ""
+"You can use [[fusioninventory-esx|documentation/references]] and "
+"[[fusioninventory-injector|documentation/references]] to:"
+msgstr ""
+
+#. type: Bullet: '1. '
+msgid "fetch the Inventories from the server"
+msgstr ""
+
+#. type: Bullet: '2. '
+msgid "push the Inventories in GLPI"
+msgstr ""
+
+#. type: Plain text
+msgid "For example:"
+msgstr ""
+
+#. type: Plain text
+#, no-wrap
+msgid ""
+"    # fusioninventory-esx --user root --password password --host esx-server "
+"--directory /tmp\n"
+"    # fusioninventory-injector -v --file "
+"/tmp/esx-server-2011-01-25-14-11-07.ocs -u "
+"https://myserver/plugins/fusioninventory/\n"
+msgstr ""
+
+#. type: Title #
+#, no-wrap
+msgid "From GLPI"
+msgstr ""
+
+#. type: Title ##
+#, no-wrap
+msgid "Reconfiguration FusionInventory agent"
+msgstr ""
+
+#. type: Plain text
+msgid ""
+"First, we must designate the fusion agents who will have to perform the "
+"inventory VMware (ESX or VCenter) host."
+msgstr ""
+
+#. type: Plain text
+msgid "Go to Plugins → Home → FusionInventory → Agents management"
+msgstr ""
+
+#. type: Plain text
+msgid "Chose a agent and enable : VMware host remote inventory :"
+msgstr ""
+
+#. type: Plain text
+#, no-wrap
+msgid "[[!img 01_inventory-ESX.png align=\"center\" size=\"500x240\" alt=\"\"]]\n"
+msgstr ""
+
+#. type: Title ##
+#, no-wrap
+msgid "Task management"
+msgstr ""
+
+#. type: Title ###
+#, no-wrap
+msgid "Add authentication for remote devices (VMware)"
+msgstr ""
+
+#. type: Plain text
+msgid "Add an authentification :"
+msgstr ""
+
+#. type: Plain text
+msgid "Goto Plugins → FusionInventory → Authentication for remote devices (VMware)"
+msgstr ""
+
+#. type: Plain text
+#, no-wrap
+msgid ""
+"[[!img 02_authentification_vcenter.png align=\"center\" size=\"500x167\" "
+"alt=\"\"]]\n"
+msgstr ""
+
+#. type: Title ###
+#, no-wrap
+msgid "Add remote devices to inventory (VMware)"
+msgstr ""
+
+#. type: Plain text
+msgid "Goto Plugins → FusionInventory → Remote devices to inventory (VMware)"
+msgstr ""
+
+#. type: Plain text
+msgid "Click on + to add a device"
+msgstr ""
+
+#. type: Bullet: '* '
+msgid "Name : Add a description"
+msgstr ""
+
+#. type: Bullet: '* '
+msgid "Type : \"chose VMWARE Host\""
+msgstr ""
+
+#. type: Bullet: '* '
+msgid "Add an Authentication"
+msgstr ""
+
+#. type: Bullet: '* '
+msgid "IP : add an ip address"
+msgstr ""
+
+#. type: Plain text
+#, no-wrap
+msgid "[[!img 03_vmware_devices.png align=\"center\" size=\"500x159\" alt=\"\"]]\n"
+msgstr ""
+
+#. type: Title ###
+#, no-wrap
+msgid "Add a task "
+msgstr ""
+
+#. type: Plain text
+msgid "Click on + to add a task :"
+msgstr ""
+
+#. type: Bullet: '* '
+msgid "Configure the periodicity"
+msgstr ""
+
+#. type: Bullet: '* '
+msgid "Chose Module : VMware host remote inventory"
+msgstr ""
+
+#. type: Bullet: '* '
+msgid "Add Definition → Remote device inventory"
+msgstr ""
+
+#. type: Bullet: '* '
+msgid "Select the agent earlier reconfigured"
+msgstr ""
+
+#. type: Plain text
+#, no-wrap
+msgid "[[!img 04_vmware_task.png align=\"center\" size=\"500x319\" alt=\"\"]]\n"
+msgstr ""

@@ -1,0 +1,57 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2013-01-08 09:28+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. type: Title #
+#, no-wrap
+msgid "How to get dmidecode on Windows"
+msgstr ""
+
+#. type: Plain text
+msgid ""
+"We use dmidecode to get BIOS and system information on Windows like we do "
+"for other operating system. This in order to get consistent output."
+msgstr ""
+
+#. type: Plain text
+msgid "Time to time, we may request a dmidecode.exe output to complet a bug report:"
+msgstr ""
+
+#. type: Plain text
+msgid ""
+"First you need to open a `cmd.exe` console as Administrator. The process is "
+"to such console has changed since Windows Vista and 7, please read ( "
+"<http://www.sevenforums.com/tutorials/11841-run-administrator.html>, "
+"<http://www.howtogeek.com/howto/windows-vista/run-a-command-as-administrator-from-the-windows-vista-run-box/> "
+")."
+msgstr ""
+
+#. type: Plain text
+msgid ""
+"Once the console is open, you must go in the "
+"_FusionIninventory-Agent-directory_\\perl\\bin directory and you can now "
+"run:"
+msgstr ""
+
+#. type: Plain text
+#, no-wrap
+msgid "    dmidecode > output.txt\n"
+msgstr ""
+
+#. type: Plain text
+msgid "output.txt is the file to attach to your bug report."
+msgstr ""

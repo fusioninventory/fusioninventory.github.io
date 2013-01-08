@@ -1,0 +1,51 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2013-01-08 09:28+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. type: Title #
+#, no-wrap
+msgid "System specific dependencies"
+msgstr ""
+
+#. type: Plain text
+msgid ""
+"On Solaris/SPARC, you must install sneep and record the Serial Number with "
+"it.  Download it from "
+"<http://www.sun.com/download/products.xml?id=4304155a>."
+msgstr ""
+
+#. type: Plain text
+msgid ""
+"On Windows, we use an additional dmidecode binary shipped in the windows "
+"distribution to retrieve many informations not available otherwise, "
+"including fine-grained multi-cores CPUs identification. Unfortunatly, this "
+"binary is not reliable enough to be used on Windows 2003, leading to less "
+"precise inventories."
+msgstr ""
+
+#. type: Plain text
+msgid ""
+"On any system, the privilege level used to run the agent will change "
+"inventory results. Generally speaking, this means less results when run with "
+"lesser privileges. On Windows, tough, running agent with SYSTEM privileges, "
+"which is implicit if running as a service, does sometimes gives less "
+"results, especially for shared printers only visible from a user account."
+msgstr ""
+
+#. type: Plain text
+msgid "On Linux, lspci will be used to collect PCI, AGP, PCI-X, ... informations."
+msgstr ""

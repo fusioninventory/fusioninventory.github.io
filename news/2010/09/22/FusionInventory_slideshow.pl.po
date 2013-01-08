@@ -1,0 +1,42 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2013-01-08 09:28+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. type: Plain text
+#, no-wrap
+msgid "[[!meta  date=\"2010-09-22 23:54:42\"]]\n"
+msgstr ""
+
+#. type: Plain text
+#, no-wrap
+msgid ""
+"<strong>English (FrOSCamp 2010)</strong>\n"
+"<div style=\"width:425px\" id=\"__ss_5261935\"><strong "
+"style=\"display:block;margin:12px 0 4px\">[Fusioninventory "
+"froscamp2010.Fusioninventory "
+"froscamp2010](http://www.slideshare.net/goneri/fusioninventory-froscamp2010)</strong><object "
+"id=\"__sse5261935\" width=\"425\" height=\"355\"><param name=\"movie\" "
+"value=\"http://static.slidesharecdn.com/swf/ssplayer2.swf?doc=fusioninventory-froscamp2010-100922162927-phpapp02&stripped_title=fusioninventory-froscamp2010&userName=goneri\" "
+"/><param name=\"allowFullScreen\" value=\"true\"/><param "
+"name=\"allowScriptAccess\" value=\"always\"/><embed name=\"__sse5261935\" "
+"src=\"http://static.slidesharecdn.com/swf/ssplayer2.swf?doc=fusioninventory-froscamp2010-100922162927-phpapp02&stripped_title=fusioninventory-froscamp2010&userName=goneri\" "
+"type=\"application/x-shockwave-flash\" allowscriptaccess=\"always\" "
+"allowfullscreen=\"true\" width=\"425\" height=\"355\"></embed></object><div "
+"style=\"padding:5px 0 12px\">View more "
+"[presentations](http://www.slideshare.net/) from "
+"[goneri](http://www.slideshare.net/goneri).</div></div>\n"
+msgstr ""
