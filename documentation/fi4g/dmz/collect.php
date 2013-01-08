@@ -59,7 +59,7 @@ if (preg_match('/QUERY>PROLOG<\/QUERY/', $xml)) {
     $reply = "<?xml version='1.0' encoding='UTF-8'?>
        <REPLY>
        </REPLY>";
-    $invFile = sprintf('/tmp/%s.xml', $_SERVER['REMOTE_ADDR']);
+    $invFile = sprintf('%s/%s.xml', $dumpDir, $_SERVER['REMOTE_ADDR']);
     if (!file_put_contents($invFile, $xml)) {
         error_log("Failed to write ");
     }
