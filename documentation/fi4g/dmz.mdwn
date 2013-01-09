@@ -8,8 +8,10 @@ request of the agents.
 An [[example is avalaible here|documentation/fi4g/dmz/collect.php]].
 
 Then, you can configure agents in DMZ machines this way:
-fusioninventory-agent --server http://server/collect.php
-, where "server" is the name of the computer to which you copied the script (collect.php).
+
+    fusioninventory-agent --server http://server/collect.php
+
+where "server" is the name of the computer to which you copied the script (collect.php).
 
 ## Import results with fusioninventory-injector
 
