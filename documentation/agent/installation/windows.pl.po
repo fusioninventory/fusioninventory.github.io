@@ -18,7 +18,7 @@ msgstr ""
 
 #. type: Title #
 #, no-wrap
-msgid "Windows installation"
+msgid "Instalacja w Windows"
 msgstr ""
 
 #. type: Title ##
@@ -28,12 +28,12 @@ msgstr ""
 
 #. type: Plain text
 msgid ""
-"First, download the archive: "
+"W pierwszej kolejności ściągnij archiwum z adresu: "
 "<http://prebuilt.fusioninventory.org/stable/windows-i386/>"
 msgstr ""
 
 #. type: Plain text
-msgid "The file name convention is:"
+msgid "Pliki są nazywane w konwencji:"
 msgstr ""
 
 #. type: Bullet: '* '
@@ -59,12 +59,12 @@ msgid ".exe"
 msgstr ""
 
 #. type: Plain text
-msgid "The installer can be used either on 32 or 64 bit Windows."
+msgid "Instalator działa na wersji Windows zarówno 32 jak i 64 bitowej."
 msgstr ""
 
 #. type: Title ##
 #, no-wrap
-msgid "Settings"
+msgid "Ustawienia"
 msgstr ""
 
 #. type: Plain text
