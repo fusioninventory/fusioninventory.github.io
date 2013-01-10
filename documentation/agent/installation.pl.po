@@ -61,7 +61,7 @@ msgstr ""
 #. type: Title ##
 #, no-wrap
 msgid "Installation from tarball"
-msgstr "Installation from tarball"
+msgstr "Installation from tarball."
 
 #. type: Bullet: '* '
 msgid "[[from source|documentation/agent/installation/source]]"
