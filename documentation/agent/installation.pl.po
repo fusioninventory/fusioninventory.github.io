@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2013-01-08 09:28+0000\n"
+"POT-Creation-Date: 2013-01-10 11:59+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -35,7 +35,9 @@ msgid "[[Linux|documentation/agent/installation/linux]]"
 msgstr ""
 
 #. type: Bullet: '* '
-msgid "[[Windows|documentation/agent/installation/windows]]"
+msgid ""
+"[[Windows|documentation/agent/installation/windows]] ([[large installation|"
+"documentation/agent/installation/windows/large_install]])"
 msgstr ""
 
 #. type: Bullet: '* '
