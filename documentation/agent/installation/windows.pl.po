@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2013-01-08 09:28+0000\n"
+"POT-Creation-Date: 2013-01-10 11:43+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -18,7 +18,7 @@ msgstr ""
 
 #. type: Title #
 #, no-wrap
-msgid "Instalacja w Windows"
+msgid "Windows installation"
 msgstr ""
 
 #. type: Title ##
@@ -28,12 +28,12 @@ msgstr ""
 
 #. type: Plain text
 msgid ""
-"W pierwszej kolejności ściągnij archiwum z adresu: "
-"<http://prebuilt.fusioninventory.org/stable/windows-i386/>"
+"First, download the archive: <http://prebuilt.fusioninventory.org/stable/"
+"windows-i386/>"
 msgstr ""
 
 #. type: Plain text
-msgid "Pliki są nazywane w konwencji:"
+msgid "The file name convention is:"
 msgstr ""
 
 #. type: Bullet: '* '
@@ -59,12 +59,12 @@ msgid ".exe"
 msgstr ""
 
 #. type: Plain text
-msgid "Instalator działa na wersji Windows zarówno 32 jak i 64 bitowej."
+msgid "The installer can be used either on 32 or 64 bit Windows."
 msgstr ""
 
 #. type: Title ##
 #, no-wrap
-msgid "Ustawienia"
+msgid "Settings"
 msgstr ""
 
 #. type: Plain text
@@ -79,8 +79,7 @@ msgstr ""
 #. type: Plain text
 #, no-wrap
 msgid ""
-"2. You can configure a key word to be able to sort out your machine later "
-"(TAG).\n"
+"2. You can configure a key word to be able to sort out your machine later (TAG).\n"
 "[[!template  id=warning text=\"\"\"\n"
 msgstr ""
 
@@ -99,7 +98,8 @@ msgid "[[!img documentation/agent/installation/windows-installer-settings-2.png]
 msgstr ""
 
 #. type: Bullet: '1. '
-msgid "Enter here an optional HTTP login and password. This is unrelated with GLPI."
+msgid ""
+"Enter here an optional HTTP login and password. This is unrelated with GLPI."
 msgstr ""
 
 #. type: Bullet: '2. '
@@ -154,8 +154,7 @@ msgstr ""
 #, no-wrap
 msgid ""
 "~~~~\n"
-"/help                   Display this help. The space in front of /help is "
-"mandatory!\n"
+"/help                   Display this help. The space in front of /help is mandatory!\n"
 "/S                      Run setup in silent mode\n"
 "/installdir=dirname     Set installation directory of agent\n"
 "/server=url1,url2       Set url of server\n"
@@ -164,16 +163,14 @@ msgid ""
 "/pass=password          Set password\n"
 "/realm=realm            Set realm\n"
 "/ca-cert-file=filename  Set filename of certificate\n"
-"/no-ssl-check           No certificate check when establishing SSL "
-"connection\n"
+"/no-ssl-check           No certificate check when establishing SSL connection\n"
 "/proxy=http://proxy/    Set proxy\n"
 "/debug                  Set debug mode\n"
 "/rpc-port               Set RPC port number\n"
 "/scan-homedirs          Look for virtual machines in home directories\n"
 "/runnow                 Run agent after end of installation\n"
 "/update-firewall        Update the Firewall to register the agent\n"
-"/execmode=option        launch the agent with a service(service)/windows "
-"task scheduler(task)/or keep settings unchanged(none) (default is service)\n"
+"/execmode=option        launch the agent with a service(service)/windows task scheduler(task)/or keep settings unchanged(none) (default is service)\n"
 "~~~~\n"
 msgstr ""
 
@@ -188,9 +185,7 @@ msgstr ""
 
 #. type: Plain text
 #, no-wrap
-msgid ""
-"    fusioninventory-agent_windows-i386_2.x.x-1.exe /S /debug /runnow "
-"/server=https://server1/glpi/plugins/fusioninventory/\n"
+msgid "    fusioninventory-agent_windows-i386_2.x.x-1.exe /S /debug /runnow /server=https://server1/glpi/plugins/fusioninventory/\n"
 msgstr ""
 
 #. type: Plain text
@@ -201,9 +196,7 @@ msgstr ""
 
 #. type: Plain text
 #, no-wrap
-msgid ""
-"    fusioninventory-agent_windows-i386_2.x.x-1.exe /S /debug /runnow "
-"/server=http://server1/glpi/plugins/fusioninventory/\n"
+msgid "    fusioninventory-agent_windows-i386_2.x.x-1.exe /S /debug /runnow /server=http://server1/glpi/plugins/fusioninventory/\n"
 msgstr ""
 
 #. type: Plain text
@@ -219,20 +212,14 @@ msgstr ""
 #. type: Plain text
 #, no-wrap
 msgid ""
-"    fusioninventory-agent_windows-i386_2.x.x-1.exe /S "
-"\"/installdir=C:\\Program Files\\FusInv\"\n"
+"    fusioninventory-agent_windows-i386_2.x.x-1.exe /S \"/installdir=C:\\Program Files\\FusInv\"\n"
 "Edit\n"
 "Upgrade with FusionInventory Deploy\n"
 msgstr ""
 
 #. type: Plain text
 #, no-wrap
-msgid ""
-"If you upgrade the agent with FusionInventory Deploy and the agent is "
-"launched with a Service, you will need an agent > 2.2.0-2 and the "
-"/execmode=none parameter. This way, the agent won't remove or add service or "
-"update the Tasks Scheduler setting. So you will keep the previous "
-"settings.\n"
+msgid "If you upgrade the agent with FusionInventory Deploy and the agent is launched with a Service, you will need an agent > 2.2.0-2 and the /execmode=none parameter. This way, the agent won't remove or add service or update the Tasks Scheduler setting. So you will keep the previous settings.\n"
 msgstr ""
 
 #. type: Title #
@@ -242,8 +229,8 @@ msgstr ""
 
 #. type: Plain text
 msgid ""
-"A page is dedicated to explain how to [[deploy the agent on a Windows "
-"domain|documentation/agent/installation/windows/large_install]]."
+"A page is dedicated to explain how to [[deploy the agent on a Windows domain|"
+"documentation/agent/installation/windows/large_install]]."
 msgstr ""
 
 #. type: Title #
