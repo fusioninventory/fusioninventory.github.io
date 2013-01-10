@@ -4,7 +4,7 @@
 
 * [[MacOSX|documentation/agent/installation/macosx]]
 * [[Linux|documentation/agent/installation/linux]]
-* [[Windows|documentation/agent/installation/windows]]
+* [[Windows|documentation/agent/installation/windows]] ([[large installation|documentation/agent/installation/windows/large_install]])
 * [[AIX|documentation/agent/installation/aix]]
 * [[Solaris|documentation/agent/installation/solaris]]
 * [[HP-UX|documentation/agent/installation/hpux]]
