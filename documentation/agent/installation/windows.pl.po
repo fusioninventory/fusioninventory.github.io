@@ -24,7 +24,7 @@ msgstr ""
 #. type: Title ##
 #, no-wrap
 msgid "Get the installer"
-msgstr ""
+msgstr "Get the installer"
 
 #. type: Plain text
 msgid ""
