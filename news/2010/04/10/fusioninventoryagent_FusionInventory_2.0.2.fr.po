@@ -1,0 +1,74 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2013-01-11 14:06+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. type: Plain text
+#, no-wrap
+msgid "[[!meta  date=\"2010-04-10 23:35:52\"]]\n"
+msgstr ""
+
+#. type: Plain text
+#, no-wrap
+msgid "2.0.2     Sat Apr 10 23:31:48 2010 +0200\n"
+msgstr ""
+
+#. type: Bullet: '* '
+msgid "fusioninventory-agent-config: Fix a typo, thank you Act"
+msgstr ""
+
+#. type: Bullet: '* '
+msgid "--delaytime really read the parameter, thanks Walid NOUH"
+msgstr ""
+
+#. type: Bullet: '* '
+msgid "fix --no-socket"
+msgstr ""
+
+#. type: Bullet: '* '
+msgid "Fix a typo in fusioninventory-agent-config, logtotate (Girish NAVUDA)"
+msgstr ""
+
+#. type: Bullet: '* '
+msgid "Do not load Crypt::SSLeay and IO::Socket::SSL at the same"
+msgstr ""
+
+#. type: Bullet: '* '
+msgid "POD doc, explain how to use more than one server"
+msgstr ""
+
+#. type: Bullet: '* '
+msgid ""
+"Fix: between two server query, really wait during a random period still "
+"based on server PROLOG_FREQ"
+msgstr ""
+
+#. type: Bullet: '* '
+msgid ""
+"SNMP.pm: Correct bug when oid result is pack and put mac in right format "
+"(David DURIEUX)"
+msgstr ""
+
+#. type: Bullet: '* '
+msgid "Set 2.0.1 release date in Changes file"
+msgstr ""
+
+#. type: Plain text
+#, no-wrap
+msgid ""
+"<a class=\"external\" "
+"href=\"http://forge.fusioninventory.org/attachments/download/13/FusionInventory-Agent-2.0.2.tar.gz\">FusionInventory-Agent-2.0.2.tar.gz</a>\n"
+msgstr ""

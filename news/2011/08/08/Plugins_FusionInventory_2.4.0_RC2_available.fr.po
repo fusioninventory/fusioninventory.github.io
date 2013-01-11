@@ -1,0 +1,210 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2013-01-11 14:06+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. type: Plain text
+#, no-wrap
+msgid "[[!meta  date=\"2011-08-08 23:38:48\"]]\n"
+msgstr ""
+
+#. type: Plain text
+msgid "We have released 2.4.0 RC2 version (so release in couple of days :) )."
+msgstr ""
+
+#. type: Plain text
+msgid "Since RC1, this is all fixes (many fixes in 2 weeks only) :"
+msgstr ""
+
+#. type: Bullet: '* '
+msgid ""
+"Fix rule with only name EXISTS. <a "
+"href=\"http://forge.fusioninventory.org/issues/1036\" "
+"target=\"_blank\">Ticket 1036</a>"
+msgstr ""
+
+#. type: Bullet: '* '
+msgid ""
+"Add rule \"computer + name\" by default (only on install plugin). <a "
+"href=\"http://forge.fusioninventory.org/issues/1039\" "
+"target=\"_blank\">Ticket 1039</a>"
+msgstr ""
+
+#. type: Bullet: '* '
+msgid "Fix wizard with computers options."
+msgstr ""
+
+#. type: Bullet: '* '
+msgid ""
+"Add menu for inventory of computer in wizard to display url link of "
+"communication server."
+msgstr ""
+
+#. type: Bullet: '* '
+msgid ""
+"Fix rules and add unit test for this. <a "
+"href=\"http://forge.fusioninventory.org/issues/1048\" "
+"target=\"_blank\">Ticket 1048</a>"
+msgstr ""
+
+#. type: Bullet: '* '
+msgid ""
+"Fix modify entity of agent. <a "
+"href=\"http://forge.fusioninventory.org/issues/1047\" "
+"target=\"_blank\">Ticket 1047</a>"
+msgstr ""
+
+#. type: Bullet: '* '
+msgid "Fix rule tests form."
+msgstr ""
+
+#. type: Bullet: '* '
+msgid ""
+"Add transfer massive action to transfer task on another entity. <a "
+"href=\"http://forge.fusioninventory.org/issues/1046\" "
+"target=\"_blank\">Ticket1 1046</a>"
+msgstr ""
+
+#. type: Bullet: '* '
+msgid ""
+"Fix on reinstall same version : sql-errors and problem on configuration. <a "
+"href=\"http://forge.fusioninventory.org/issues/1042\" "
+"target=\"_blank\">Ticket 1042</a>"
+msgstr ""
+
+#. type: Bullet: '* '
+msgid "Fix error php when add unknown device."
+msgstr ""
+
+#. type: Bullet: '* '
+msgid "Fix on manage hub (unknown device)."
+msgstr ""
+
+#. type: Bullet: '* '
+msgid ""
+"Fix inconsistent vocabulary. <a "
+"href=\"http://forge.fusioninventory.org/issues/1032\" "
+"target=\"_blank\">Ticket 1032</a>"
+msgstr ""
+
+#. type: Bullet: '* '
+msgid "Modify code get XML from agent and so win time and cpu usage."
+msgstr ""
+
+#. type: Bullet: '* '
+msgid ""
+"Add code to unable to install on version &lt; 0.80 and > 0.81 (prevent "
+"errors)."
+msgstr ""
+
+#. type: Bullet: '* '
+msgid ""
+"Fix entity problems when add taskjob. <a "
+"href=\"http://forge.fusioninventory.org/issues/1051\" "
+"target=\"_blank\">Ticket 1051</a>"
+msgstr ""
+
+#. type: Bullet: '* '
+msgid ""
+"Fix problem on lock alternate username when first inventory of a "
+"computer. <a href=\"http://forge.fusioninventory.org/issues/1040\" "
+"target=\"_blank\">Ticket 1040</a>"
+msgstr ""
+
+#. type: Bullet: '* '
+msgid ""
+"Add XML writing for unknown device if rule put computer into unknonwn "
+"device."
+msgstr ""
+
+#. type: Bullet: '* '
+msgid ""
+"Add computer to unknown device if it's an unknown device (before computer "
+"not imported)."
+msgstr ""
+
+#. type: Bullet: '* '
+msgid ""
+"FIx problem with SMODEL and MMODEL. <a "
+"href=\"http://forge.fusioninventory.org/issues/1043\" "
+"target=\"_blank\">Ticket 1043</a>"
+msgstr ""
+
+#. type: Bullet: '* '
+msgid ""
+"Fix display Array for Unknown device import rules. <a "
+"href=\"http://forge.fusioninventory.org/issues/1035\" "
+"target=\"_blank\">Ticket 1035</a>"
+msgstr ""
+
+#. type: Bullet: '* '
+msgid ""
+"Fix creation of switch and printer port in entity root instead switch or "
+"printer entity. <a href=\"http://forge.fusioninventory.org/issues/1049\" "
+"target=\"_blank\">Ticket 1049</a>"
+msgstr ""
+
+#. type: Bullet: '* '
+msgid ""
+"Fix sql-error on net discovery. <a "
+"href=\"http://forge.fusioninventory.org/issues/1044\" "
+"target=\"_blank\">Ticket 1044</a>"
+msgstr ""
+
+#. type: Bullet: '* '
+msgid "Update for error when plugin fusioninventory not present."
+msgstr ""
+
+#. type: Bullet: '* '
+msgid ""
+"Fix error on search in unknown device. <a "
+"href=\"http://forge.fusioninventory.org/issues/1041\" "
+"target=\"_blank\">Ticket 1041</a>"
+msgstr ""
+
+#. type: Bullet: '* '
+msgid ""
+"Fix purging unfinished actions prevent task rescheduling. <a "
+"href=\"http://forge.fusioninventory.org/issues/1033\" "
+"target=\"_blank\">Ticket 1033</a>"
+msgstr ""
+
+#. type: Plain text
+msgid "Thanks you to users reports bugs."
+msgstr ""
+
+#. type: Plain text
+#, no-wrap
+msgid "<strong>2 things will be very great to do by community: </strong>\n"
+msgstr ""
+
+#. type: Bullet: '* '
+msgid "- Test and report bugs if you find them"
+msgstr ""
+
+#. type: Bullet: '* '
+msgid ""
+"- Translate plugins FusionInventory in your languages (references languages "
+"are \"en\" and \"fr\" file"
+msgstr ""
+
+#. type: Plain text
+#, no-wrap
+msgid ""
+"You can download 2.4.0 RC2 Version for GLPI 0.80.X <a "
+"href=\"http://forge.fusioninventory.org/attachments/download/417/fusioninventory-for-glpi-metapackage_2.4.0-RC2.tar.gz\" "
+"target=\"_blank\">here</a>.\n"
+msgstr ""

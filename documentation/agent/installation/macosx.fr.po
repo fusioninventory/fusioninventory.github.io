@@ -1,0 +1,124 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2013-01-11 14:06+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. type: Title ##
+#, no-wrap
+msgid "FusionInventory Agent installation on MacOS X"
+msgstr ""
+
+#. type: Title ##
+#, no-wrap
+msgid "Get the Agent"
+msgstr ""
+
+#. type: Plain text
+msgid ""
+"First, get the agent mpkg archive "
+"[Intel](http://prebuilt.fusioninventory.org/stable/macosx-intel/) or "
+"[PowerPC](http://prebuilt.fusioninventory.org/stable/macosx-ppc/)."
+msgstr ""
+
+#. type: Plain text
+msgid "You must download the **.pkg.tar.gz** package."
+msgstr ""
+
+#. type: Title ##
+#, no-wrap
+msgid "Extract Agent"
+msgstr ""
+
+#. type: Plain text
+msgid ""
+"Once the FusionInventory-Agent-XXX.pkg.tar.gz archive is downloaded, you "
+"must extract it this way."
+msgstr ""
+
+#. type: Plain text
+#, no-wrap
+msgid ""
+"[[!img documentation/agent/installation/macosx/FusionInventoryAgent-1.png "
+"]]\n"
+msgstr ""
+
+#. type: Plain text
+#, no-wrap
+msgid ""
+"[[!img documentation/agent/installation/macosx/FusionInventoryAgent-2.png "
+"]]\n"
+msgstr ""
+
+#. type: Plain text
+#, no-wrap
+msgid ""
+"[[!img documentation/agent/installation/macosx/FusionInventoryAgent-3.png "
+"]]\n"
+msgstr ""
+
+#. type: Plain text
+msgid ""
+"Do a right click on it to extract its content. You should now have two "
+"different file.  Agent configuration"
+msgstr ""
+
+#. type: Plain text
+#, no-wrap
+msgid ""
+"[[!img documentation/agent/installation/macosx/FusionInventoryAgent-4.png "
+"]]\n"
+msgstr ""
+
+#. type: Title ##
+#, no-wrap
+msgid "Configuration"
+msgstr ""
+
+#. type: Plain text
+msgid ""
+"To configure the agent, do a right clic on the FusionInventory-Agent.pkg "
+"package and select “Show the package content”\"."
+msgstr ""
+
+#. type: Plain text
+msgid ""
+"Go in the **Resources** directory and modify the **agent.cfg** file "
+"according to you needs."
+msgstr ""
+
+#. type: Title ##
+#, no-wrap
+msgid "Agent Installation"
+msgstr ""
+
+#. type: Plain text
+msgid ""
+"You're done. To launch the installer, just do a double clic on the "
+"FusionInventory-Agent.pkg and follow the different steps."
+msgstr ""
+
+#. type: Plain text
+msgid ""
+"The installer will ask for you login and password during the installation "
+"process."
+msgstr ""
+
+#. type: Plain text
+#, no-wrap
+msgid ""
+"[[!img documentation/agent/installation/macosx/FusionInventoryAgent-5.png "
+"]]\n"
+msgstr ""

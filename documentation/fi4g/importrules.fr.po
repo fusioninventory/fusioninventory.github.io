@@ -1,0 +1,179 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2013-01-11 14:06+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. type: Title #
+#, no-wrap
+msgid "How works 'Equipment import and link rules'"
+msgstr ""
+
+#. type: Title ##
+#, no-wrap
+msgid "First thing to know"
+msgstr ""
+
+#. type: Plain text
+msgid "The engine stops on the first checked rule."
+msgstr ""
+
+#. type: Title ##
+#, no-wrap
+msgid "When these rules are played?"
+msgstr ""
+
+#. type: Plain text
+msgid "It's played in these cases:"
+msgstr ""
+
+#. type: Bullet: '* '
+msgid "Computer inventory (and so too ESX inventory)"
+msgstr ""
+
+#. type: Bullet: '* '
+msgid "Network discovery"
+msgstr ""
+
+#. type: Bullet: '* '
+msgid "Network Inventory (switches, printers...)"
+msgstr ""
+
+#. type: Plain text
+msgid ""
+"__IMPORTANT:__ When network inventory get MAC addresses of devices on each "
+"port of a switch and search in GLPI if this mac address exist, theses rules "
+"is not played!"
+msgstr ""
+
+#. type: Title ##
+#, no-wrap
+msgid "Criteria of a rule"
+msgstr ""
+
+#. type: Plain text
+msgid "The criteria have in reality 2 types"
+msgstr ""
+
+#. type: Title ###
+#, no-wrap
+msgid "Normal criteria"
+msgstr ""
+
+#. type: Plain text
+msgid "The normal criteria are defined by:"
+msgstr ""
+
+#. type: Bullet: '* '
+msgid "_is_"
+msgstr ""
+
+#. type: Bullet: '* '
+msgid "_is not_"
+msgstr ""
+
+#. type: Bullet: '* '
+msgid "_contains_"
+msgstr ""
+
+#. type: Bullet: '* '
+msgid "_does not contains_"
+msgstr ""
+
+#. type: Bullet: '* '
+msgid "_starting with_"
+msgstr ""
+
+#. type: Bullet: '* '
+msgid "_finished by_"
+msgstr ""
+
+#. type: Bullet: '* '
+msgid "_regular expression checks_"
+msgstr ""
+
+#. type: Bullet: '* '
+msgid "_regular expression does not match_"
+msgstr ""
+
+#. type: Bullet: '* '
+msgid ""
+"_exists_: mean the value exist and not be empty in the inventory come from "
+"the agent"
+msgstr ""
+
+#. type: Bullet: '* '
+msgid ""
+"_does not exist_: mean the value doesn't exist in the inventory come from "
+"the agent"
+msgstr ""
+
+#. type: Title ###
+#, no-wrap
+msgid "Global criteria"
+msgstr ""
+
+#. type: Plain text
+msgid ""
+"If all _normal criteria_ are checked, run these global criteria and defined "
+"by:"
+msgstr ""
+
+#. type: Bullet: '* '
+msgid ""
+"_is already present in GLPI_: search in GLPI database if the device exist "
+"with this value defined"
+msgstr ""
+
+#. type: Bullet: '* '
+msgid "_is empty in GLPI_"
+msgstr ""
+
+#. type: Plain text
+msgid ""
+"If the device is found, all criteria are checked, this rule is checked and "
+"now run the actions"
+msgstr ""
+
+#. type: Title ##
+#, no-wrap
+msgid "Actions of a rule"
+msgstr ""
+
+#. type: Plain text
+msgid "The actions are defined by:"
+msgstr ""
+
+#. type: Bullet: '* '
+msgid ""
+"_FusionInventory link_ > _Link if possible, else create device_: if device "
+"is found (in case use a global criteria), update this device, else create a "
+"new device with itemtype defined in inventory (computer, switches...)"
+msgstr ""
+
+#. type: Bullet: '* '
+msgid ""
+"_FusionInventory link_ > _Link if possible, else import denied_: if device "
+"is found (in case use a global criteria), update this device, else deny "
+"creation of device and so is not be imported in GLPI inventory"
+msgstr ""
+
+#. type: Bullet: '* '
+msgid "_FusionInventory link_ > _Import denied_"
+msgstr ""
+
+#. type: Bullet: '* '
+msgid "_To be unaware of import_"
+msgstr ""

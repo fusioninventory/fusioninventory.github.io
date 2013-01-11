@@ -1,0 +1,68 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2013-01-11 14:06+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. type: Title #
+#, no-wrap
+msgid "Using FusionInventory Debian (and Ubuntu) packages"
+msgstr ""
+
+#. type: Plain text
+msgid "Installation with the debian packages"
+msgstr ""
+
+#. type: Title ##
+#, no-wrap
+msgid "FusionInventory Agent is also available in Debian Backports repository"
+msgstr ""
+
+#. type: Plain text
+#, no-wrap
+msgid ""
+"    echo \"deb http://backports.debian.org/debian-backports "
+"squeeze-backports main\" >> /etc/apt/sources.list\n"
+"    apt-get update\n"
+"    apt-get install -t squeeze-backports fusioninventory-agent\n"
+msgstr ""
+
+#. type: Title ##
+#, no-wrap
+msgid "FusionInventory own repository"
+msgstr ""
+
+#. type: Plain text
+msgid ""
+"The FusionInventory project maintains an up-to-date debian package of the "
+"most recent version, in a extra repository."
+msgstr ""
+
+#. type: Plain text
+#, no-wrap
+msgid ""
+"    echo \"deb http://debian.fusioninventory.org/debian/ `lsb_release -cs` "
+"main\" >> /etc/apt/sources.list\n"
+"    wget -O - http://debian.fusioninventory.org/debian/archive.key | sudo "
+"apt-key add -\n"
+"    apt-get update\n"
+"    apt-get install fusioninventory-agent\n"
+msgstr ""
+
+#. type: Plain text
+msgid ""
+"The content of the [dists](http://debian.fusioninventory.org/debian/dists/) "
+"pages can help you do identify support operating system."
+msgstr ""

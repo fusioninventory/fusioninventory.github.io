@@ -1,0 +1,112 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2013-01-11 14:06+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. type: Plain text
+#, no-wrap
+msgid "[[!meta  date=\"2012-11-13\"]]\n"
+msgstr ""
+
+#. type: Plain text
+msgid "Hello FusionInventory users,"
+msgstr ""
+
+#. type: Plain text
+msgid ""
+"The FusionInventory Agent maintainers are glad to announce the 2.2.7 "
+"release."
+msgstr ""
+
+#. type: Plain text
+msgid ""
+"You can download the archive from [the "
+"forge](http://forge.fusioninventory.org/attachments/download/867/FusionInventory-Agent-2.2.7.tar.gz)  "
+"or directly from [the "
+"CPAN](https://metacpan.org/release/FusionInventory-Agent)"
+msgstr ""
+
+#. type: Title ##
+#, no-wrap
+msgid "This release changelog"
+msgstr ""
+
+#. type: Title ###
+#, no-wrap
+msgid "General:"
+msgstr ""
+
+#. type: Bullet: '* '
+msgid "additional hack for LG screens [[!bug 1848]]"
+msgstr ""
+
+#. type: Bullet: '* '
+msgid "additional model for ACER screens hack [[!bug 1840]]"
+msgstr ""
+
+#. type: Bullet: '* '
+msgid ""
+"fix directory creation error handling with older File::Path versions [[!bug "
+"1817]]"
+msgstr ""
+
+#. type: Bullet: '* '
+msgid "fix initial delay randomness [[!bug 1809]]"
+msgstr ""
+
+#. type: Bullet: '* '
+msgid "fix spurious null character in decoded strings [[!bug 1837]]"
+msgstr ""
+
+#. type: Title ###
+#, no-wrap
+msgid "Windows:"
+msgstr ""
+
+#. type: Bullet: '* '
+msgid ""
+"fix missing bios release information on some machines [[!bug 1820]], [[!bug "
+"1825]]"
+msgstr ""
+
+#. type: Plain text
+msgid ""
+"We did our best to provide a solid release, please [[contact us|/resources]] "
+"is you believe you find something unexpected."
+msgstr ""
+
+#. type: Plain text
+msgid ""
+"The prebuilt and Windows installer archive will be generated as soon as the "
+"FusionInventory-Agent-Task-Network distribution is released."
+msgstr ""
+
+#. type: Title ##
+#, no-wrap
+msgid "Update"
+msgstr ""
+
+#. type: Plain text
+msgid ""
+"Packages have been finally generated, including the last Deploy and Network "
+"bug fix releases."
+msgstr ""
+
+#. type: Plain text
+msgid ""
+"Please read the [[agent installation|/documentation/agent/installation/]] "
+"page for further informations."
+msgstr ""

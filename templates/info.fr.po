@@ -1,0 +1,36 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2013-01-11 14:06+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. type: Plain text
+#, no-wrap
+msgid ""
+"<div class=\"infobox\">\n"
+"    <div class=\"boxcontent\">\n"
+"    <TMPL_VAR text>\n"
+"    </div>\n"
+"</div>\n"
+"<TMPL_UNLESS text>\n"
+"Use this template to insert a info box into a page. The note will be styled "
+"to\n"
+"float to the right of other text on the page. This template has one\n"
+"parameter:\n"
+"<ul>\n"
+"<li>`text` - the text to display in the note\n"
+"</ul>\n"
+"</TMPL_UNLESS>\n"
+msgstr ""

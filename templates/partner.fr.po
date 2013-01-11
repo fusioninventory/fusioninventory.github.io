@@ -1,0 +1,101 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2013-01-11 14:06+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. type: Plain text
+#, no-wrap
+msgid ""
+"<div class=\"partner\">\n"
+"<img src=\"/partners/<TMPL_VAR logo>\" />\n"
+"<ul>\n"
+"<li><TMPL_VAR name></li>\n"
+"<li>web: <a href=\"<TMPL_VAR web>\"><TMPL_VAR web></a></li>\n"
+"<li>mail: <a href=\"mailto:<TMPL_VAR email>\"><TMPL_VAR email></a></li>\n"
+msgstr ""
+
+#. type: Plain text
+#, no-wrap
+msgid ""
+"<TMPL_VAR location>\n"
+"<li>\n"
+"<TMPL_IF NAME=\"code\">\n"
+"<img src=\"/partners/logo/code.png\" />Code contribution: <TMPL_VAR code>\n"
+"</li>\n"
+"</TMPL_IF>\n"
+msgstr ""
+
+#. type: Plain text
+#, no-wrap
+msgid ""
+"<TMPL_IF NAME=\"qa\">\n"
+"<li>\n"
+"<img src=\"/partners/logo/qa.png\" />Tests and bug reports: <TMPL_VAR qa>\n"
+"</TMPL_IF>\n"
+msgstr ""
+
+#. type: Plain text
+#, no-wrap
+msgid ""
+"<TMPL_IF NAME=\"promote\">\n"
+"<li>\n"
+"<img src=\"/partners/logo/promote.png\" />Promotion and Communication: "
+"<TMPL_VAR promote>\n"
+"</li>\n"
+"</TMPL_IF>\n"
+msgstr ""
+
+#. type: Plain text
+#, no-wrap
+msgid ""
+"<TMPL_IF NAME=\"doc\">\n"
+"<li>\n"
+"<img src=\"/partners/logo/doc.png\" />Documentation: <TMPL_VAR doc>\n"
+"</li>\n"
+"</TMPL_IF>\n"
+msgstr ""
+
+#. type: Plain text
+#, no-wrap
+msgid ""
+"<TMPL_IF NAME=\"support\">\n"
+"<li>\n"
+"<img src=\"/partners/logo/support.png\" />User support (Forum, IRC…): "
+"<TMPL_VAR support>\n"
+"</li>\n"
+"</TMPL_IF>\n"
+msgstr ""
+
+#. type: Plain text
+#, no-wrap
+msgid ""
+"<TMPL_IF NAME=\"training\">\n"
+"<li>\n"
+"<img src=\"/partners/logo/training.png\" />Training: <TMPL_VAR "
+"training></p>\n"
+"</li>\n"
+"</TMPL_IF>\n"
+msgstr ""
+
+#. type: Plain text
+#, no-wrap
+msgid "</ul>\n"
+msgstr ""
+
+#. type: Plain text
+#, no-wrap
+msgid "</div>\n"
+msgstr ""
