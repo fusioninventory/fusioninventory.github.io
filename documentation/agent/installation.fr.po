@@ -67,4 +67,4 @@ msgstr ""
 
 #. type: Bullet: '* '
 msgid "[[from source|documentation/agent/installation/source]]"
-msgstr ""
+msgstr "depuis les sources"
