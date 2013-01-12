@@ -23,7 +23,7 @@ msgstr ""
 
 #. type: Plain text
 msgid "Happy new year!"
-msgstr ""
+msgstr "Bonne année !"
 
 #. type: Plain text
 msgid ""
