@@ -64,7 +64,7 @@ msgstr "[[Android|documentation/agent/installation/android]]"
 #. type: Title ##
 #, no-wrap
 msgid "Installation from tarball"
-msgstr "Installation avec le «tarball»"
+msgstr "Installation avec l'archive «tarball»"
 
 #. type: Bullet: '* '
 msgid "[[from source|documentation/agent/installation/source]]"
