@@ -19,16 +19,18 @@ msgstr ""
 #. type: Title #
 #, no-wrap
 msgid "Using FusionInventory Debian (and Ubuntu) packages"
-msgstr ""
+msgstr "Utiliser les paquets Debian (et Ubuntu) de FusionInventory"
 
 #. type: Plain text
 msgid "Installation with the debian packages"
-msgstr ""
+msgstr "Installation avec les paquets Debian (.deb)"
 
 #. type: Title ##
 #, no-wrap
 msgid "FusionInventory Agent is also available in Debian Backports repository"
 msgstr ""
+"L'agent FusionInventory est seulement disponible dans les dépôts "
+"Backports Debian"
 
 #. type: Plain text
 #, no-wrap
@@ -38,17 +40,23 @@ msgid ""
 "    apt-get update\n"
 "    apt-get install -t squeeze-backports fusioninventory-agent\n"
 msgstr ""
+"    echo \"deb http://backports.debian.org/debian-backports "
+"squeeze-backports main\" >> /etc/apt/sources.list\n"
+"    apt-get update\n"
+"    apt-get install -t squeeze-backports fusioninventory-agent\n"
 
 #. type: Title ##
 #, no-wrap
 msgid "FusionInventory own repository"
-msgstr ""
+msgstr "Notre dépôt pour FusionInventory"
 
 #. type: Plain text
 msgid ""
 "The FusionInventory project maintains an up-to-date debian package of the "
 "most recent version, in a extra repository."
 msgstr ""
+"Le projet FusionInventory maintient à jour un dépôt spécial pour les "
+"dernières versions des paquets Debian."
 
 #. type: Plain text
 #, no-wrap
@@ -60,9 +68,17 @@ msgid ""
 "    apt-get update\n"
 "    apt-get install fusioninventory-agent\n"
 msgstr ""
+"    echo \"deb http://debian.fusioninventory.org/debian/ `lsb_release -cs` "
+"main\" >> /etc/apt/sources.list\n"
+"    wget -O - http://debian.fusioninventory.org/debian/archive.key | sudo "
+"apt-key add -\n"
+"    apt-get update\n"
+"    apt-get install fusioninventory-agent\n"
 
 #. type: Plain text
 msgid ""
 "The content of the [dists](http://debian.fusioninventory.org/debian/dists/) "
 "pages can help you do identify support operating system."
 msgstr ""
+"Le contenu de cette [page](http://debian.fusioninventory.org/debian/dists/) "
+"vous aidera à identifier les versions des systèmes d'opérations supportés."
