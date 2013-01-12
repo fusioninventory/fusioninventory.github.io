@@ -55,7 +55,7 @@ msgstr ""
 
 #. type: Bullet: '* '
 msgid "Android phone"
-msgstr ""
+msgstr "Téléphone Android"
 
 #. type: Title ##
 #, no-wrap
