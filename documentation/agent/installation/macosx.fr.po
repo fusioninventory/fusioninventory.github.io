@@ -19,12 +19,12 @@ msgstr ""
 #. type: Title ##
 #, no-wrap
 msgid "FusionInventory Agent installation on MacOS X"
-msgstr ""
+msgstr "Installation de l'agent FusionInventory pour MacOS X"
 
 #. type: Title ##
 #, no-wrap
 msgid "Get the Agent"
-msgstr ""
+msgstr "Télécharger l'agent"
 
 #. type: Plain text
 msgid ""
@@ -32,21 +32,26 @@ msgid ""
 "[Intel](http://prebuilt.fusioninventory.org/stable/macosx-intel/) or "
 "[PowerPC](http://prebuilt.fusioninventory.org/stable/macosx-ppc/)."
 msgstr ""
+"En premier, sélectionner l'archive mpkg de l'agent correspondant à votre machine "
+"[Intel](http://prebuilt.fusioninventory.org/stable/macosx-intel/) ou "
+"[PowerPC](http://prebuilt.fusioninventory.org/stable/macosx-ppc/)."
 
 #. type: Plain text
 msgid "You must download the **.pkg.tar.gz** package."
-msgstr ""
+msgstr "Vous devez télécharger le paquet **.pkg.tar.gz**."
 
 #. type: Title ##
 #, no-wrap
 msgid "Extract Agent"
-msgstr ""
+msgstr "Extraire l'agent"
 
 #. type: Plain text
 msgid ""
 "Once the FusionInventory-Agent-XXX.pkg.tar.gz archive is downloaded, you "
 "must extract it this way."
 msgstr ""
+"Une fois l'archive FusionInventory-Agent-XXX.pkg.tar.gz téléchargée, vous "
+"devez l'extraire comme ça."
 
 #. type: Plain text
 #, no-wrap
@@ -54,6 +59,8 @@ msgid ""
 "[[!img documentation/agent/installation/macosx/FusionInventoryAgent-1.png "
 "]]\n"
 msgstr ""
+"[[!img documentation/agent/installation/macosx/FusionInventoryAgent-1.png "
+"]]\n"
 
 #. type: Plain text
 #, no-wrap
@@ -61,6 +68,8 @@ msgid ""
 "[[!img documentation/agent/installation/macosx/FusionInventoryAgent-2.png "
 "]]\n"
 msgstr ""
+"[[!img documentation/agent/installation/macosx/FusionInventoryAgent-2.png "
+"]]\n"
 
 #. type: Plain text
 #, no-wrap
@@ -68,12 +77,30 @@ msgid ""
 "[[!img documentation/agent/installation/macosx/FusionInventoryAgent-3.png "
 "]]\n"
 msgstr ""
+"[[!img documentation/agent/installation/macosx/FusionInventoryAgent-3.png "
+"]]\n"
 
 #. type: Plain text
 msgid ""
 "Do a right click on it to extract its content. You should now have two "
 "different file.  Agent configuration"
 msgstr ""
+"Faites un clic droit sur le fichier compréssé pour l'extraire. "
+"Vous trouverez un fichier pkg."
+
+
+#. type: Title ##
+#, no-wrap
+msgid "Configuration"
+msgstr "Configuration"
+
+#. type: Plain text
+msgid ""
+"To configure the agent, do a right clic on the FusionInventory-Agent.pkg "
+"package and select “Show the package content”\"."
+msgstr ""
+"Pour configurer l'agent, faites un clic droit sur le fichier FusionInventory-Agent.pkg"
+" et sélectionnez «Afficher le contenu du paquet». "
 
 #. type: Plain text
 #, no-wrap
@@ -81,40 +108,37 @@ msgid ""
 "[[!img documentation/agent/installation/macosx/FusionInventoryAgent-4.png "
 "]]\n"
 msgstr ""
-
-#. type: Title ##
-#, no-wrap
-msgid "Configuration"
-msgstr ""
-
-#. type: Plain text
-msgid ""
-"To configure the agent, do a right clic on the FusionInventory-Agent.pkg "
-"package and select “Show the package content”\"."
-msgstr ""
+"[[!img documentation/agent/installation/macosx/FusionInventoryAgent-4.png "
+"]]\n"
 
 #. type: Plain text
 msgid ""
 "Go in the **Resources** directory and modify the **agent.cfg** file "
 "according to you needs."
 msgstr ""
+"Allez dans le dossier **Resources** et modifiez le fichier **agent.cfg** "
+"selon vos besoins."
 
 #. type: Title ##
 #, no-wrap
 msgid "Agent Installation"
-msgstr ""
+msgstr "Installation de l'agent"
 
 #. type: Plain text
 msgid ""
 "You're done. To launch the installer, just do a double clic on the "
 "FusionInventory-Agent.pkg and follow the different steps."
 msgstr ""
+"Pour lancer l'installation, faites un double clic sur le fichier "
+"FusionInventory-Agent.pkg et suivez les différentes étapes."
 
 #. type: Plain text
 msgid ""
 "The installer will ask for you login and password during the installation "
 "process."
 msgstr ""
+"Durant l'installation, vous devrez taper votre login et mot de passe "
+"administrateur."
 
 #. type: Plain text
 #, no-wrap
@@ -122,3 +146,5 @@ msgid ""
 "[[!img documentation/agent/installation/macosx/FusionInventoryAgent-5.png "
 "]]\n"
 msgstr ""
+"[[!img documentation/agent/installation/macosx/FusionInventoryAgent-5.png "
+"]]\n"
