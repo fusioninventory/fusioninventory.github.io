@@ -19,12 +19,12 @@ msgstr ""
 #. type: Title #
 #, no-wrap
 msgid "FusionInventory Agent installation"
-msgstr ""
+msgstr "Installation des agents FusionInventory"
 
 #. type: Title ##
 #, no-wrap
 msgid "Package based installation"
-msgstr ""
+msgstr "Installations basées sur des paquets"
 
 #. type: Bullet: '* '
 msgid "[[MacOSX|documentation/agent/installation/macosx]]"
