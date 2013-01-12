@@ -26,7 +26,7 @@ msgstr ""
 
 #. type: Bullet: '* '
 msgid "[[<i class=\"icon-picture\"></i>Screenshots|screenshots]]"
-msgstr ""
+msgstr "[[<i class=\"icon-picture\"></i>Captures d'écran|screenshots]]"
 
 #. type: Bullet: '* '
 msgid "[[<i class=\"icon-book\"></i>Doc|documentation]]"
@@ -38,4 +38,4 @@ msgstr ""
 
 #. type: Bullet: '* '
 msgid "**[[<i class=\"icon-download-alt\"></i>GET IT!|get]]**"
-msgstr ""
+msgstr "**[[<i class=\"icon-download-alt\"></i>Télécharger!|get]]**"
