@@ -28,7 +28,7 @@ msgstr ""
 #. type: Title ##
 #, no-wrap
 msgid "Development forge"
-msgstr ""
+msgstr "Forge utilisée pour le développement"
 
 #. type: Plain text
 msgid ""
