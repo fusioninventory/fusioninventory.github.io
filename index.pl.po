@@ -26,4 +26,4 @@ msgstr ""
 #. type: Plain text
 #, no-wrap
 msgid "[[!inline pages=\"page(./news/*) and currentlang() and !*.pl and !*/Discussion\" rootpage=\"news\" postform=\"no\" postformtext=\"nothing\" show=\"5\" rss=\"yes\" atom=\"yes\"]]\n"
-msgstr ""
+msgstr "[[!inline pages=\"page(./news/*) and currentlang() and !*.pl and !*/Discussion\" rootpage=\"news\" postform=\"no\" postformtext=\"nothing\" show=\"5\" rss=\"yes\" atom=\"yes\"]]\n"
