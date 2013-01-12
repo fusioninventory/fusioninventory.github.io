@@ -28,42 +28,43 @@ msgstr "Installations basées sur des paquets"
 
 #. type: Bullet: '* '
 msgid "[[MacOSX|documentation/agent/installation/macosx]]"
-msgstr ""
+msgstr "[[MacOSX|documentation/agent/installation/macosx]]"
 
 #. type: Bullet: '* '
 msgid "[[Linux|documentation/agent/installation/linux]]"
-msgstr ""
+msgstr "[[Linux|documentation/agent/installation/linux]]"
 
 #. type: Bullet: '* '
 msgid ""
 "[[Windows|documentation/agent/installation/windows]] ([[large "
 "installation|documentation/agent/installation/windows/large_install]])"
-msgstr ""
+msgstr "[[Windows|documentation/agent/installation/windows]] ([[installation "
+"en masse|documentation/agent/installation/windows/large_install]])"
 
 #. type: Bullet: '* '
 msgid "[[AIX|documentation/agent/installation/aix]]"
-msgstr ""
+msgstr "[[AIX|documentation/agent/installation/aix]]"
 
 #. type: Bullet: '* '
 msgid "[[Solaris|documentation/agent/installation/solaris]]"
-msgstr ""
+msgstr "[[Solaris|documentation/agent/installation/solaris]]"
 
 #. type: Bullet: '* '
 msgid "[[HP-UX|documentation/agent/installation/hpux]]"
-msgstr ""
+msgstr "[[HP-UX|documentation/agent/installation/hpux]]"
 
 #. type: Bullet: '* '
 msgid "[[BSD|documentation/agent/installation/bsd]]"
-msgstr ""
+msgstr "[[BSD|documentation/agent/installation/bsd]]"
 
 #. type: Bullet: '* '
 msgid "[[Android|documentation/agent/installation/android]]"
-msgstr ""
+msgstr "[[Android|documentation/agent/installation/android]]"
 
 #. type: Title ##
 #, no-wrap
 msgid "Installation from tarball"
-msgstr ""
+msgstr "Installation avec le «tarball»"
 
 #. type: Bullet: '* '
 msgid "[[from source|documentation/agent/installation/source]]"
