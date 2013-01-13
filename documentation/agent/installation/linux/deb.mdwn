@@ -19,3 +19,17 @@ The FusionInventory project maintains an up-to-date debian package of the most r
 
 
 The content of the [dists](http://debian.fusioninventory.org/debian/dists/) pages can help you do identify support operating system.
+
+## Install the additional packages
+
+Network inventory tasks:
+
+    apt-get install libfusioninventory-agent-task-network-perl
+
+ESX inventory task:
+
+    apt-get install libfusioninventory-agent-task-esx-perl
+
+Deploy task:
+
+    apt-get install libfusioninventory-agent-task-deploy-perl
