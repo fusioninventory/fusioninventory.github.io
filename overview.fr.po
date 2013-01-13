@@ -24,7 +24,7 @@ msgstr ""
 #. type: Title ##
 #, no-wrap
 msgid "Automated update of the assets"
-msgstr ""
+msgstr "Mise à jour automatique des équipements"
 
 #. type: Plain text
 msgid ""
@@ -35,23 +35,23 @@ msgstr ""
 
 #. type: Plain text
 msgid "For now, these class of devices are supported:"
-msgstr ""
+msgstr "Pour le moment, les classes suivantes d'équipement sont supportées :"
 
 #. type: Bullet: '* '
 msgid "Computers"
-msgstr ""
+msgstr "Ordinateurs"
 
 #. type: Bullet: '* '
 msgid "Network devices"
-msgstr ""
+msgstr "Equipements réseaux"
 
 #. type: Bullet: '* '
 msgid "Printers"
-msgstr ""
+msgstr "Imprimantes"
 
 #. type: Bullet: '* '
 msgid "Virtual machines"
-msgstr ""
+msgstr "Machines virtuelles"
 
 #. type: Bullet: '* '
 msgid "Android phone"
@@ -60,31 +60,31 @@ msgstr "Téléphone Android"
 #. type: Title ##
 #, no-wrap
 msgid "Virtual machines inventory"
-msgstr ""
+msgstr "Inventaire des machines virtuelles"
 
 #. type: Plain text
 msgid "FusionInventory supports different virtualization mechanisms."
-msgstr ""
+msgstr "FusionInventory supporte divers systèmes de virtualisation"
 
 #. type: Bullet: '* '
 msgid "VMware vCenter/ESX/ESXi"
-msgstr ""
+msgstr "VMware vCenter/ESX/ESXi"
 
 #. type: Bullet: '* '
 msgid "Virtualbox"
-msgstr ""
+msgstr "Virtualbox"
 
 #. type: Bullet: '* '
 msgid "Libvirt"
-msgstr ""
+msgstr "Libvirt"
 
 #. type: Bullet: '* '
 msgid "Xen"
-msgstr ""
+msgstr "Xen"
 
 #. type: Bullet: '* '
 msgid "OpenVZ/Virtuozzo"
-msgstr ""
+msgstr "OpenVZ/Virtuozzo"
 
 #. type: Bullet: '* '
 msgid "Parallels"
