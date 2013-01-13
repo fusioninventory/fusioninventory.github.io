@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2013-01-11 14:06+0000\n"
+"POT-Creation-Date: 2013-01-13 13:00+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -28,20 +28,16 @@ msgstr "Installation avec les paquets Debian (.deb)"
 #. type: Title ##
 #, no-wrap
 msgid "FusionInventory Agent is also available in Debian Backports repository"
-msgstr ""
-"L'agent FusionInventory est seulement disponible dans les dépôts "
-"Backports Debian"
+msgstr "L'agent FusionInventory est seulement disponible dans les dépôts Backports Debian"
 
 #. type: Plain text
 #, no-wrap
 msgid ""
-"    echo \"deb http://backports.debian.org/debian-backports "
-"squeeze-backports main\" >> /etc/apt/sources.list\n"
+"    echo \"deb http://backports.debian.org/debian-backports squeeze-backports main\" >> /etc/apt/sources.list\n"
 "    apt-get update\n"
 "    apt-get install -t squeeze-backports fusioninventory-agent\n"
 msgstr ""
-"    echo \"deb http://backports.debian.org/debian-backports "
-"squeeze-backports main\" >> /etc/apt/sources.list\n"
+"    echo \"deb http://backports.debian.org/debian-backports squeeze-backports main\" >> /etc/apt/sources.list\n"
 "    apt-get update\n"
 "    apt-get install -t squeeze-backports fusioninventory-agent\n"
 
@@ -61,17 +57,13 @@ msgstr ""
 #. type: Plain text
 #, no-wrap
 msgid ""
-"    echo \"deb http://debian.fusioninventory.org/debian/ `lsb_release -cs` "
-"main\" >> /etc/apt/sources.list\n"
-"    wget -O - http://debian.fusioninventory.org/debian/archive.key | sudo "
-"apt-key add -\n"
+"    echo \"deb http://debian.fusioninventory.org/debian/ `lsb_release -cs` main\" >> /etc/apt/sources.list\n"
+"    wget -O - http://debian.fusioninventory.org/debian/archive.key | sudo apt-key add -\n"
 "    apt-get update\n"
 "    apt-get install fusioninventory-agent\n"
 msgstr ""
-"    echo \"deb http://debian.fusioninventory.org/debian/ `lsb_release -cs` "
-"main\" >> /etc/apt/sources.list\n"
-"    wget -O - http://debian.fusioninventory.org/debian/archive.key | sudo "
-"apt-key add -\n"
+"    echo \"deb http://debian.fusioninventory.org/debian/ `lsb_release -cs` main\" >> /etc/apt/sources.list\n"
+"    wget -O - http://debian.fusioninventory.org/debian/archive.key | sudo apt-key add -\n"
 "    apt-get update\n"
 "    apt-get install fusioninventory-agent\n"
 
@@ -82,3 +74,36 @@ msgid ""
 msgstr ""
 "Le contenu de cette [page](http://debian.fusioninventory.org/debian/dists/) "
 "vous aidera à identifier les versions des systèmes d'opérations supportés."
+
+#. type: Title ##
+#, fuzzy, no-wrap
+#| msgid "Installation with the debian packages"
+msgid "Install the additional packages"
+msgstr "Installation avec les paquets Debian (.deb)"
+
+#. type: Plain text
+msgid "Network inventory tasks:"
+msgstr ""
+
+#. type: Plain text
+#, no-wrap
+msgid "    apt-get install libfusioninventory-agent-task-network-perl\n"
+msgstr ""
+
+#. type: Plain text
+msgid "ESX inventory task:"
+msgstr ""
+
+#. type: Plain text
+#, no-wrap
+msgid "    apt-get install libfusioninventory-agent-task-esx-perl\n"
+msgstr ""
+
+#. type: Plain text
+msgid "Deploy task:"
+msgstr ""
+
+#. type: Plain text
+#, no-wrap
+msgid "    apt-get install libfusioninventory-agent-task-deploy-perl\n"
+msgstr ""
