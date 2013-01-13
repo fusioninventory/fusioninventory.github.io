@@ -19,7 +19,7 @@ msgstr ""
 #. type: Title #
 #, no-wrap
 msgid "Installation from the source tarball"
-msgstr ""
+msgstr "Installation depuis les sources"
 
 #. type: Title ##
 #, no-wrap
@@ -38,7 +38,7 @@ msgstr ""
 msgid ""
 "Tarball with a **rc** or **beta** version suffix are developpement release "
 "not ready for production."
-msgstr ""
+msgstr "Les archives avec les suffixes **rc** ou **beta** dans la version ne sont pas destinées à être mises en production."
 
 #. type: Plain text
 msgid "It's also possible to get snapshot from Github:"
@@ -46,11 +46,11 @@ msgstr ""
 
 #. type: Bullet: '* '
 msgid "[Agent 2.2.x](https://github.com/fusinv/fusioninventory-agent/tarball/2.2.x)"
-msgstr ""
+msgstr "[Agent 2.2.x](https://github.com/fusinv/fusioninventory-agent/tarball/2.2.x)"
 
 #. type: Bullet: '* '
 msgid "[Agent 2.3.x](https://github.com/fusinv/fusioninventory-agent/tarball/2.3.x)"
-msgstr ""
+msgstr "[Agent 2.3.x](https://github.com/fusinv/fusioninventory-agent/tarball/2.3.x)"
 
 #. type: Title ##
 #, no-wrap
@@ -66,7 +66,7 @@ msgstr ""
 
 #. type: Plain text
 msgid "First, you need to extract the source and run the Makefile.PL"
-msgstr ""
+msgstr "Dans un premier temps, vous devez extraire les sources et lancer le fichier Makefile.PL"
 
 #. type: Plain text
 #, no-wrap
