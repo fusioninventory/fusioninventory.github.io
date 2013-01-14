@@ -19,62 +19,65 @@ msgstr ""
 #. type: Title #
 #, no-wrap
 msgid "Windows installation"
-msgstr ""
+msgstr "Installation pour Windows"
 
 #. type: Title ##
 #, no-wrap
 msgid "Get the installer"
-msgstr ""
+msgstr "Prendre l'installeur"
 
 #. type: Plain text
 msgid ""
 "First, download the archive: "
 "<http://prebuilt.fusioninventory.org/stable/windows-i386/>"
 msgstr ""
+"Premièrement, téléchargez l'archive: "
+"<http://prebuilt.fusioninventory.org/stable/windows-i386/>"
 
 #. type: Plain text
 msgid "The file name convention is:"
-msgstr ""
+msgstr "La convention pour le nom est :"
 
 #. type: Bullet: '* '
 msgid "fusioninventory-agent_windows-i386_"
-msgstr ""
+msgstr "fusioninventory-agent_windows-i386_"
 
 #. type: Bullet: '* '
 msgid "FusionInventory Agent version (e.g: 2.2.5)"
-msgstr ""
+msgstr "Numéro de version de l'agent FusionInventory (ex: 2.2.5)"
 
 #. type: Bullet: '* '
 msgid "a *-* (dash)"
-msgstr ""
+msgstr "le symbole *-* (tiret)"
 
 #. type: Bullet: '* '
 msgid ""
 "the package revision. e.g: 2, for the 2nd installer generated for the 2.2.5 "
 "release"
 msgstr ""
+"La version du paquet. exemple: 2, pour le 2è installeur généré pour la version stable 2.2.5"
 
 #. type: Bullet: '* '
 msgid ".exe"
-msgstr ""
+msgstr ".exe"
 
 #. type: Plain text
 msgid "The installer can be used either on 32 or 64 bit Windows."
-msgstr ""
+msgstr "L'installeur peut être utilisé aussi bien sur les Windows 32 ou 64 bit."
 
 #. type: Title ##
 #, no-wrap
 msgid "Settings"
-msgstr ""
+msgstr "Paramétrages"
 
 #. type: Plain text
 #, no-wrap
 msgid "[[!img documentation/agent/installation/windows-installer-settings-1.png]]\n"
-msgstr ""
+msgstr "[[!img documentation/agent/installation/windows-installer-settings-1.png]]\n"
 
 #. type: Bullet: '1. '
 msgid "Enter the full URL to your server."
-msgstr ""
+msgstr "Entrez l'URL complète pour votre serveur."
 
 #. type: Plain text
 #, no-wrap
@@ -83,20 +86,22 @@ msgid ""
 "(TAG).\n"
 "[[!template  id=warning text=\"\"\"\n"
 msgstr ""
+"2. Vous pouvez configurer un *Tag* pour retrouver votre machine plus tard par mot clé.\n"
+"[[!template  id=warning text=\"\"\"\n"
 
 #. type: Plain text
 msgid "A common mistake is to mix HTTP and HTTPS in URL."
-msgstr ""
+msgstr "Une erreur classique est de mélanger HTTP et HTTPS dans l'URL."
 
 #. type: Title ##
 #, no-wrap
 msgid "Advanced settings"
-msgstr ""
+msgstr "Paramétrage avancés"
 
 #. type: Plain text
 #, no-wrap
 msgid "[[!img documentation/agent/installation/windows-installer-settings-2.png]]\n"
-msgstr ""
+msgstr "[[!img documentation/agent/installation/windows-installer-settings-2.png]]\n"
 
 #. type: Bullet: '1. '
 msgid "Enter here an optional HTTP login and password. This is unrelated with GLPI."
