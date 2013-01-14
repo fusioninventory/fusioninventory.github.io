@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2013-01-13 13:00+0000\n"
+"POT-Creation-Date: 2013-01-14 20:16+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -48,11 +48,11 @@ msgstr "Własne repozytorium FusionInventory"
 
 #. type: Plain text
 msgid ""
-"The content of the [dists](http://debian.fusioninventory.org/debian/dists/) "
-"pages can help you do identify support operating system."
+"The FusionInventory project maintains an up-to-date debian package of the "
+"most recent version, in a extra repository."
 msgstr ""
-"Na stronie spisu [dystrybucji](http://debian.fusioninventory.org/debian/dists/) "
-"jest aktualna lista wspieranych systemów operacyjnych."
+"Projekt FusionInventory utrzymuje aktualne paczki debiana w dodatkowym "
+"repozytorium."
 
 #. type: Plain text
 #, no-wrap
@@ -69,11 +69,11 @@ msgstr ""
 
 #. type: Plain text
 msgid ""
-"The FusionInventory project maintains an up-to-date debian package of the "
-"most recent version, in a extra repository."
+"The content of the [dists](http://debian.fusioninventory.org/debian/dists/) "
+"pages can help you do identify support operating system."
 msgstr ""
-"Projekt FusionInventory utrzymuje aktualne paczki debiana "
-"w dodatkowym repozytorium."
+"Na stronie spisu [dystrybucji](http://debian.fusioninventory.org/debian/"
+"dists/) jest aktualna lista wspieranych systemów operacyjnych."
 
 #. type: Title ##
 #, no-wrap
