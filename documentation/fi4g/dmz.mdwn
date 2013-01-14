@@ -6,7 +6,7 @@ You can collect your DMZ inventories by using a limited script that get the POST
 request of the agents.
 
 Download [[collect.php|documentation/fi4g/dmz/collect.php]] and copy it somewhere
-PHP in enabled. For example `/var/www` or `/var/www/html`.
+PHP is enabled. For example `/var/www` or `/var/www/html`.
 
 Then, you can configure agents in DMZ machines this way:
 
