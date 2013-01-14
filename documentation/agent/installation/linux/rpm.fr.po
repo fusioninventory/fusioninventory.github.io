@@ -25,7 +25,9 @@ msgstr "Installation de l'agent pour Fedora, RHEL, Centos et autres clones de RH
 msgid ""
 "The RPM-Packages was maintained by Remi Collet. He resigned, a new "
 "maintainer is welcome."
-msgstr "Les paquets RPM étaient maintenus par Remi Collet. Il a décidé d'arrêter, donc nous recherchons un nouveau mainteneur."
+msgstr ""
+"Les paquets RPM étaient maintenus par Remi Collet. Il a décidé d'arrêter, "
+"donc nous recherchons un nouveau mainteneur."
 
 #. type: Title ##
 #, no-wrap
@@ -35,7 +37,7 @@ msgstr "RHEL, Centos 4"
 #. type: Plain text
 #, no-wrap
 msgid "*fusioninventory-agent* is available in the *remi* repository for EL >= 4\n"
-msgstr "L'agent FusionInventory est disponible pour EL >= 4 dans le dépôt de *Rémi* \n"
+msgstr "L'agent *FusionInventory* est disponible pour EL >= 4 dans le dépôt de *Rémi* \n"
 
 #. type: Plain text
 #, no-wrap
@@ -127,6 +129,8 @@ msgid ""
 "Package from other repositories, such as RPM Forge, will probably not work "
 "(and will not be supported)"
 msgstr ""
+"Les paquets venant d'autres dépôts, comme RPM Forge, ne devrait pas fonctionner "
+"(et ne sont pas supportés)"
 
 #. type: Plain text
 msgid ""
@@ -134,11 +138,14 @@ msgid ""
 "(EPEL)](https://fedoraproject.org/wiki/EPEL)  See [Remi repository "
 "configuration](http://blog.famillecollet.com/pages/Config-en)"
 msgstr ""
+"Reportez vous à [Extra Packages for Enterprise Linux "
+"(EPEL)](https://fedoraproject.org/wiki/EPEL)  et [Remi repository "
+"configuration](http://blog.famillecollet.com/pages/Config-en)"
 
 #. type: Title ##
 #, no-wrap
 msgid "Maintained Fedora version"
-msgstr ""
+msgstr "Version maintenu de Fedora"
 
 #. type: Plain text
 #, no-wrap
@@ -146,11 +153,13 @@ msgid ""
 "*fusioninventory-agent* is part of the *official repository* for fedora >= "
 "14\n"
 msgstr ""
+"L'agent *FusionInventory* fait parti du dépôt officiel pour Fedora >= "
+"14\n"
 
 #. type: Title ##
 #, no-wrap
 msgid "EOL Fedora version"
-msgstr ""
+msgstr "Version EOL de Fedora"
 
 #. type: Plain text
 #, no-wrap
@@ -158,80 +167,97 @@ msgid ""
 "*fusioninventory-agent* is available in the *remi* third party repository "
 "for fedora >= 8\n"
 msgstr ""
+"l'agent *FusionInventory* est disponible pour tiers-partie dans le dépôt de *Rémi* "
+"pour Fedora >= 8\n"
 
 #. type: Plain text
 msgid ""
 "See [Remi repository "
 "configuration](http://blog.famillecollet.com/pages/Config-en)"
 msgstr ""
+"Reportez vous à [Remi repository "
+"configuration](http://blog.famillecollet.com/pages/Config-en)"
 
 #. type: Title ##
 #, no-wrap
 msgid "Agent installation"
-msgstr ""
+msgstr "Installation de l'agent"
 
 #. type: Plain text
 msgid "Full installation:"
-msgstr ""
+msgstr "Installation complète"
 
 #. type: Plain text
 #, no-wrap
 msgid "    # yum install fusioninventory-agent  perl-FusionInventory-Agent-\\*\n"
-msgstr ""
+msgstr "    # yum install fusioninventory-agent  perl-FusionInventory-Agent-\\*\n"
 
 #. type: Plain text
 msgid "Only *fusioninventory-agent* is mandatory, other packages are optional:"
-msgstr ""
+msgstr "Seul le paquet *fusioninventory-agent* est obligatoire, les autres paquets "
+"sont optionnels :"
 
 #. type: Bullet: '* '
 msgid ""
 "*perl-FusionInventory-Agent-Task-ESX* - vCenter/ESX/ESXi remote inventory "
 "for FusionInventory Agent"
 msgstr ""
+"*perl-FusionInventory-Agent-Task-ESX* - Inventaire distant des vCenter/ESX/ESXi "
+"par l'agent FusionInventory "
 
 #. type: Bullet: '* '
 msgid ""
 "*perl-FusionInventory-Agent-Task-NetDiscovery* - Network discovery support "
 "for FusionInventory Agent"
 msgstr ""
+"*perl-FusionInventory-Agent-Task-NetDiscovery* - Découverte du réseau "
+"par l'agent FusionInventory "
 
 #. type: Bullet: '* '
 msgid ""
+"*perl-FusionInventory-Agent-Task-OcsDeploy* - Deploy software tool  "
+"for OCS Inventory NG by FusionInventory"
+msgstr ""
 "*perl-FusionInventory-Agent-Task-OcsDeploy* - Gestion du déploiement "
 "logiciel OCS Inventory NG avec FusionInventory"
-msgstr ""
 
 #. type: Bullet: '* '
 msgid ""
 "*perl-FusionInventory-Agent-Task-SNMPQuery* - SNMP Query support for "
 "FusionInventory Agent"
 msgstr ""
+"*perl-FusionInventory-Agent-Task-SNMPQuery* - Inventaire de matériel avec SNMP "
+"par l'agent FusionInventory "
 
 #. type: Plain text
 msgid ""
 "You can also install the *yum plugin* which will request a inventory after "
 "each yum operation"
 msgstr ""
+"Vous pouvez aussi installer le *yum plugin* qui lancera un inventaire après "
+"chaque utilisation de yum"
 
 #. type: Plain text
 #, no-wrap
 msgid "    # yum install fusioninventory-agent-yum-plugin\n"
-msgstr ""
+msgstr "    # yum install fusioninventory-agent-yum-plugin\n"
 
 #. type: Title ##
 #, no-wrap
 msgid "Agent Configuration"
-msgstr ""
+msgstr "Configuration de l'agent"
 
 #. type: Plain text
 msgid ""
 "The service takes its configuration from the "
 "*/etc/sysconfig/fusioninventory-agent* file"
 msgstr ""
+"Le service est configuré à partir du fichier "
+"*/etc/sysconfig/fusioninventory-agent* "
 
 #. type: Plain text
 msgid "Per example:"
-msgstr ""
+msgstr "Par exemple :"
 
 #. type: Plain text
 #, no-wrap
@@ -239,6 +265,8 @@ msgid ""
 "    # Add tools directory if needed (tw_cli, hpacucli, ipssend, ...)\n"
 "    PATH=/sbin:/bin:/usr/sbin:/usr/bin\n"
 msgstr ""
+"    # Add tools directory if needed (tw_cli, hpacucli, ipssend, ...)\n"
+"    PATH=/sbin:/bin:/usr/sbin:/usr/bin\n"
 
 #. type: Plain text
 #, no-wrap
@@ -247,6 +275,9 @@ msgid ""
 "yum-plugin)\n"
 "    FUSINVOPT='--debug --rpc-trust-localhost'\n"
 msgstr ""
+"    # Global options (debug for verbose log, rpc-trust-localhost for "
+"yum-plugin)\n"
+"    FUSINVOPT='--debug --rpc-trust-localhost'\n"
 
 #. type: Plain text
 #, no-wrap
@@ -255,47 +286,52 @@ msgid ""
 "    "
 "OCSSERVER[0]=http://<yourserverdnsnameorip>/glpi/plugins/fusioninventory/\n"
 msgstr ""
+"    OCSMODE[0]=daemon\n"
+"    "
+"OCSSERVER[0]=http://<yourserverdnsnameorip>/glpi/plugins/fusioninventory/\n"
 
 #. type: Plain text
 msgid "Enable it to be launch on reboot"
-msgstr ""
+msgstr "Activation pour être lancé au redémarrage"
 
 #. type: Plain text
 #, no-wrap
 msgid "    # chkconfig --add fusioninventory-agent\n"
-msgstr ""
+msgstr "    # chkconfig --add fusioninventory-agent\n"
 
 #. type: Plain text
 msgid "When configured, start the service"
-msgstr ""
+msgstr "Comment lancer le service"
 
 #. type: Plain text
 #, no-wrap
 msgid "    # service fusioninventory-agent start\n"
-msgstr ""
+msgstr "    # service fusioninventory-agent start\n"
 
 #. type: Title ##
 #, no-wrap
 msgid "Force inventory "
-msgstr ""
+msgstr "Forcer l'inventaire"
 
 #. type: Plain text
 #, no-wrap
 msgid "    $ wget http://127.0.0.1:62354/now -O /tmp/now\n"
-msgstr ""
+msgstr "    $ wget http://127.0.0.1:62354/now -O /tmp/now\n"
 
 #. type: Title ##
 #, no-wrap
 msgid "Debug Agent"
-msgstr ""
+msgstr "Débug de l'agent"
 
 #. type: Plain text
 msgid ""
 "You can see the log in "
 "/var/log/fusioninventory-agent/fusioninventory-agent.log"
 msgstr ""
+"Vous pouvez regarder le fichier de log situé "
+"/var/log/fusioninventory-agent/fusioninventory-agent.log"
 
 #. type: Plain text
 #, no-wrap
 msgid "    # tail -f /var/log/fusioninventory-agent/fusioninventory-agent.log\n"
-msgstr ""
+msgstr "    # tail -f /var/log/fusioninventory-agent/fusioninventory-agent.log\n"
