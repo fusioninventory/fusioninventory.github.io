@@ -77,33 +77,32 @@ msgstr ""
 
 #. type: Title ##
 #, fuzzy, no-wrap
-#| msgid "Installation with the debian packages"
 msgid "Install the additional packages"
-msgstr "Installation avec les paquets Debian (.deb)"
+msgstr "Installation des paquets additionnels Debian (.deb)"
 
 #. type: Plain text
 msgid "Network inventory tasks:"
-msgstr ""
+msgstr "Tâches d'inventaire réseau"
 
 #. type: Plain text
 #, no-wrap
 msgid "    apt-get install libfusioninventory-agent-task-network-perl\n"
-msgstr ""
+msgstr "    apt-get install libfusioninventory-agent-task-network-perl\n"
 
 #. type: Plain text
 msgid "ESX inventory task:"
-msgstr ""
+msgstr "Tâche d'inventaire des ESX"
 
 #. type: Plain text
 #, no-wrap
 msgid "    apt-get install libfusioninventory-agent-task-esx-perl\n"
-msgstr ""
+msgstr "    apt-get install libfusioninventory-agent-task-esx-perl\n"
 
 #. type: Plain text
 msgid "Deploy task:"
-msgstr ""
+msgstr "Tâche de déploiement"
 
 #. type: Plain text
 #, no-wrap
 msgid "    apt-get install libfusioninventory-agent-task-deploy-perl\n"
-msgstr ""
+msgstr "    apt-get install libfusioninventory-agent-task-deploy-perl\n"
