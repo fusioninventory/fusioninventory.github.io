@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2013-01-11 14:06+0000\n"
+"POT-Creation-Date: 2013-01-14 19:52+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -18,8 +18,8 @@ msgstr ""
 
 #. type: Title #
 #, no-wrap
-msgid "Agent Installation on Linux"
-msgstr "Installation de l'agent sur Linux"
+msgid "Instalacja agenta FusionInventory na LinuxAgent Installation on Linux"
+msgstr ""
 
 #. type: Bullet: '* '
 msgid "[[Debian and Ubuntu|documentation/agent/installation/linux/deb]]"
@@ -27,8 +27,12 @@ msgstr "[[Debian et Ubuntu (.deb)|documentation/agent/installation/linux/deb]]"
 
 #. type: Bullet: '* '
 msgid "[[Fedora, RHEL, etc|documentation/agent/installation/linux/rpm]]"
-msgstr "[[Fedora, RHEL, etc (.rpm)|documentation/agent/installation/linux/rpm]]"
+msgstr ""
+"[[Fedora, RHEL, etc (.rpm)|documentation/agent/installation/linux/rpm]]"
 
 #. type: Bullet: '* '
 msgid "[[Source|documentation/agent/installation/source]]"
 msgstr "[[Source|documentation/agent/installation/source]]"
+
+#~ msgid "Agent Installation on Linux"
+#~ msgstr "Installation de l'agent sur Linux"
