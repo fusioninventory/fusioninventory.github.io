@@ -1,4 +1,4 @@
-# Instalacja agenta FusionInventory na LinuxAgent Installation on Linux
+# Agent Installation on Linux
 
 * [[Debian and Ubuntu|documentation/agent/installation/linux/deb]]
 * [[Fedora, RHEL, etc|documentation/agent/installation/linux/rpm]]
