@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2013-01-10 09:58+0000\n"
+"POT-Creation-Date: 2013-01-14 12:33+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -33,7 +33,9 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-msgid "An [[example is avalaible here|documentation/fi4g/dmz/collect.php]]."
+msgid ""
+"Download [[collect.php|documentation/fi4g/dmz/collect.php]] and copy it "
+"somewhere PHP in enabled. For example `/var/www` or `/var/www/html`."
 msgstr ""
 
 #. type: Plain text
@@ -49,6 +51,17 @@ msgstr ""
 msgid ""
 "where \"server\" is the name of the computer to which you copied the script "
 "(collect.php)."
+msgstr ""
+
+#. type: Plain text
+msgid ""
+"The inventory files will be generated in /tmp. This is the default, you can "
+"adjust the $dumDir key at the begining of the script."
+msgstr ""
+
+#. type: Plain text
+#, no-wrap
+msgid "    $dumpDir = '/tmp';\n"
 msgstr ""
 
 #. type: Title ##
