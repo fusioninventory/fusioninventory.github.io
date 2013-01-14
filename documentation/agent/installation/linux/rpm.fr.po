@@ -35,7 +35,7 @@ msgstr "RHEL, Centos 4"
 #. type: Plain text
 #, no-wrap
 msgid "*fusioninventory-agent* is available in the *remi* repository for EL >= 4\n"
-msgstr ""
+msgstr "L'agent FusionInventory est disponible pour EL >= 4 dans le dépôt de *Rémi* \n"
 
 #. type: Plain text
 #, no-wrap
@@ -43,15 +43,17 @@ msgid ""
 "    # rpm -Uvh http://rpms.famillecollet.com/enterprise/remi-release-4.rpm\n"
 "    # up2date -i install fusioninventory-agent\n"
 msgstr ""
+"    # rpm -Uvh http://rpms.famillecollet.com/enterprise/remi-release-4.rpm\n"
+"    # up2date -i install fusioninventory-agent\n"
 
 #. type: Title ##
 #, no-wrap
 msgid "RHEL, Centos 5"
-msgstr ""
+msgstr "RHEL, Centos 5"
 
 #. type: Plain text
 msgid "First of all, you need to enable EPEL and Remi repository"
-msgstr ""
+msgstr "Premièrement, vous devez activer les dépôts d'EPEL et de Rémi"
 
 #. type: Plain text
 #, no-wrap
@@ -60,20 +62,23 @@ msgid ""
 "http://dl.fedoraproject.org/pub/epel/5/i386/epel-release-5-4.noarch.rpm\n"
 "    # rpm -Uvh http://rpms.famillecollet.com/enterprise/remi-release-5.rpm\n"
 msgstr ""
+"    # rpm -Uvh "
+"http://dl.fedoraproject.org/pub/epel/5/i386/epel-release-5-4.noarch.rpm\n"
+"    # rpm -Uvh http://rpms.famillecollet.com/enterprise/remi-release-5.rpm\n"
 
 #. type: Plain text
 msgid "To install FusionInventory-Agent, simply execute the following command:"
-msgstr ""
+msgstr "Pour installer l'agent FusionInventory, exécutez simplement la commande ssuivante:"
 
 #. type: Plain text
 #, no-wrap
 msgid "    # yum --enablerepo=remi install fusioninventory-agent\n"
-msgstr ""
+msgstr "    # yum --enablerepo=remi install fusioninventory-agent\n"
 
 #. type: Title ##
 #, no-wrap
 msgid "RHEL/Centos 6.X "
-msgstr ""
+msgstr "RHEL/Centos 6.X"
 
 #. type: Plain text
 #, no-wrap
@@ -81,6 +86,8 @@ msgid ""
 "*fusioninventory-agent* is available in the *EPEL6* repository. You need to "
 "enable this repository.\n"
 msgstr ""
+"L'agent FusionInventory est disponible dans le dépôt de *EPEL6*. Vous devez "
+"l'activer.\n"
 
 #. type: Plain text
 #, no-wrap
@@ -88,6 +95,8 @@ msgid ""
 "    # rpm -Uvh "
 "http://dl.fedoraproject.org/pub/epel/6/i386/epel-release-6-7.noarch.rpm\n"
 msgstr ""
+"    # rpm -Uvh "
+"http://dl.fedoraproject.org/pub/epel/6/i386/epel-release-6-7.noarch.rpm\n"
 
 #. type: Plain text
 msgid ""
@@ -96,10 +105,13 @@ msgid ""
 "channel is also mandatory, it must be enabled from "
 "[RHN](https://rhn.redhat.com/)."
 msgstr ""
+"Le dépôt *EPEL* est nécessaire pour les dépendances de Perl. Pour les utilisateurs de "
+"[RHEL]([http://www.redhat.com/rhel/), le *RHEL Server Optional* "
+"[RHN](https://rhn.redhat.com/)."
 
 #. type: Plain text
 msgid "To install FusionInventory-Agent :"
-msgstr ""
+msgstr "Pour installer l'agent FusionInventory :"
 
 #. type: Plain text
 #, no-wrap
@@ -107,6 +119,8 @@ msgid ""
 "    # yum --enablerepo=remi --enablerepo=optional-rhn install "
 "fusioninventory-agent\n"
 msgstr ""
+"    # yum --enablerepo=remi --enablerepo=optional-rhn install "
+"fusioninventory-agent\n"
 
 #. type: Plain text
 msgid ""
