@@ -76,7 +76,7 @@ msgstr ""
 "vous aidera à identifier les versions des systèmes d'opérations supportés."
 
 #. type: Title ##
-#, fuzzy, no-wrap
+#, no-wrap
 msgid "Install the additional packages"
 msgstr "Installation des paquets additionnels Debian (.deb)"
 
