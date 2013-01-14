@@ -19,12 +19,12 @@ msgstr ""
 #. type: Title ##
 #, no-wrap
 msgid "FusionInventory Agent installation on MacOS X"
-msgstr ""
+msgstr "Instalacja agenta FusinInventory na systemie MacOX X"
 
 #. type: Title ##
 #, no-wrap
 msgid "Get the Agent"
-msgstr ""
+msgstr "Pobierz agenta"
 
 #. type: Plain text
 msgid ""
@@ -32,15 +32,14 @@ msgid ""
 "[Intel](http://prebuilt.fusioninventory.org/stable/macosx-intel/) or "
 "[PowerPC](http://prebuilt.fusioninventory.org/stable/macosx-ppc/)."
 msgstr ""
-
 #. type: Plain text
 msgid "You must download the **.pkg.tar.gz** package."
-msgstr ""
+msgstr "Musisz ściągnąć paczkę **.pkg.tar.gz**"
 
 #. type: Title ##
 #, no-wrap
 msgid "Extract Agent"
-msgstr ""
+msgstr "Rozpakuj agenta"
 
 #. type: Plain text
 msgid ""
@@ -68,6 +67,8 @@ msgid ""
 "[[!img documentation/agent/installation/macosx/FusionInventoryAgent-3.png "
 "]]\n"
 msgstr ""
+"[[!img documentation/agent/installation/macosx/FusionInventoryAgent-3.png "
+"]]\n"
 
 #. type: Plain text
 msgid ""
@@ -81,17 +82,21 @@ msgid ""
 "[[!img documentation/agent/installation/macosx/FusionInventoryAgent-4.png "
 "]]\n"
 msgstr ""
+"[[!img documentation/agent/installation/macosx/FusionInventoryAgent-4.png "
+"]]\n"
 
 #. type: Title ##
 #, no-wrap
 msgid "Configuration"
-msgstr ""
+msgstr "Konfiguracja"
 
 #. type: Plain text
 msgid ""
 "To configure the agent, do a right clic on the FusionInventory-Agent.pkg "
 "package and select “Show the package content”\"."
 msgstr ""
+" Aby skonfigurować agenta, kliknij prawym przyciskiem na FusionInventory-Agent.pkg "
+" i wybierz “Pokaż zawartość pakietu”\"."
 
 #. type: Plain text
 msgid ""
@@ -102,19 +107,23 @@ msgstr ""
 #. type: Title ##
 #, no-wrap
 msgid "Agent Installation"
-msgstr ""
+msgstr "Instalacja Agenta"
 
 #. type: Plain text
 msgid ""
 "You're done. To launch the installer, just do a double clic on the "
 "FusionInventory-Agent.pkg and follow the different steps."
 msgstr ""
+"Skończyłeś. W celu uruchomienia instalatora kliknij podwójnie na "
+"FusionInventory-Agent.pkg i postępuj zgodnie ze wskazówkami"
 
 #. type: Plain text
 msgid ""
 "The installer will ask for you login and password during the installation "
 "process."
 msgstr ""
+"Instalator poprosi o login i hasło podczas "
+"procesu instalacji"
 
 #. type: Plain text
 #, no-wrap
@@ -122,3 +131,5 @@ msgid ""
 "[[!img documentation/agent/installation/macosx/FusionInventoryAgent-5.png "
 "]]\n"
 msgstr ""
+"[[!img documentation/agent/installation/macosx/FusionInventoryAgent-5.png "
+"]]\n"
