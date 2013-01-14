@@ -37,7 +37,9 @@ msgid ""
 "    apt-get update\n"
 "    apt-get install -t squeeze-backports fusioninventory-agent\n"
 msgstr ""
-
+"    echo \"deb http://backports.debian.org/debian-backports squeeze-backports main\" >> /etc/apt/sources.list\n"
+"    apt-get update\n"
+"    apt-get install -t squeeze-backports fusioninventory-agent\n"
 #. type: Title ##
 #, no-wrap
 msgid "FusionInventory own repository"
@@ -58,6 +60,10 @@ msgid ""
 "    apt-get update\n"
 "    apt-get install fusioninventory-agent\n"
 msgstr ""
+"    echo \"deb http://debian.fusioninventory.org/debian/ `lsb_release -cs` main\" >> /etc/apt/sources.list\n"
+"    wget -O - http://debian.fusioninventory.org/debian/archive.key | sudo apt-key add -\n"
+"    apt-get update\n"
+"    apt-get install fusioninventory-agent\n"
 
 #. type: Plain text
 msgid ""
@@ -79,7 +85,7 @@ msgstr "Zadania inwentaryzacji sieci:"
 #. type: Plain text
 #, no-wrap
 msgid "    apt-get install libfusioninventory-agent-task-network-perl\n"
-msgstr ""
+msgstr "    apt-get install libfusioninventory-agent-task-network-perl\n"
 
 #. type: Plain text
 msgid "ESX inventory task:"
@@ -88,7 +94,7 @@ msgstr "zadanie inwentaryzacji ESX:"
 #. type: Plain text
 #, no-wrap
 msgid "    apt-get install libfusioninventory-agent-task-esx-perl\n"
-msgstr ""
+msgstr "    apt-get install libfusioninventory-agent-task-esx-perl\n"
 
 #. type: Plain text
 msgid "Deploy task:"
@@ -97,4 +103,4 @@ msgstr "Zadania zdalnej instalacji:"
 #. type: Plain text
 #, no-wrap
 msgid "    apt-get install libfusioninventory-agent-task-deploy-perl\n"
-msgstr ""
+msgstr "    apt-get install libfusioninventory-agent-task-deploy-perl\n"
