@@ -96,7 +96,7 @@ msgstr "Une erreur classique est de mélanger HTTP et HTTPS dans l'URL."
 #. type: Title ##
 #, no-wrap
 msgid "Advanced settings"
-msgstr "Paramétrage avancés"
+msgstr "Paramétrages avancés"
 
 #. type: Plain text
 #, no-wrap
@@ -105,27 +105,30 @@ msgstr "[[!img documentation/agent/installation/windows-installer-settings-2.png
 
 #. type: Bullet: '1. '
 msgid "Enter here an optional HTTP login and password. This is unrelated with GLPI."
-msgstr ""
+msgstr " Entrez ici l'authentification HTTP si besoin. Cela n'a aucun lien avec GLPI."
 
 #. type: Bullet: '2. '
 msgid ""
 "Enter the full path to you certificat file. This is important only if you "
 "use HTTPS."
-msgstr ""
+msgstr "Entrez le chemin complet de votre certificat. Cela n'est important que seulement "
+"si vous utilisez HTTPS."
 
 #. type: Bullet: '3. '
 msgid "This check box will disable the HTTPS certificat check."
-msgstr ""
+msgstr "Cette option est utilée pour désactiver la vérification du certificat HTTPS."
 
 #. type: Bullet: '4. '
 msgid "You can configure here a HTTP proxy. For example, proxy:3128"
-msgstr ""
+msgstr "Vous pouvez configurer ici les paramètres d'un proxy HTTP. Exemple, proxy:3128"
 
 #. type: Bullet: '5. '
 msgid ""
 "This is the port of the HTTP service of the agent. You need to change it on "
 "the server too."
 msgstr ""
+"C'est le port HTTP du service utilisé par l'agent. Vous devrez aussi le changer "
+"sur le serveur."
 
 #. type: Bullet: '6. '
 msgid ""
