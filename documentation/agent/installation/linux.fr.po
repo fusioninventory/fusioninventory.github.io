@@ -18,8 +18,8 @@ msgstr ""
 
 #. type: Title #
 #, no-wrap
-msgid "Instalacja agenta FusionInventory na LinuxAgent Installation on Linux"
-msgstr ""
+msgid "Agent Installation on Linux"
+msgstr "Installation de l'agent sur Linux"
 
 #. type: Bullet: '* '
 msgid "[[Debian and Ubuntu|documentation/agent/installation/linux/deb]]"
@@ -33,6 +33,3 @@ msgstr ""
 #. type: Bullet: '* '
 msgid "[[Source|documentation/agent/installation/source]]"
 msgstr "[[Source|documentation/agent/installation/source]]"
-
-#~ msgid "Agent Installation on Linux"
-#~ msgstr "Installation de l'agent sur Linux"

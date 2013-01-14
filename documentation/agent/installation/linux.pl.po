@@ -18,7 +18,7 @@ msgstr ""
 
 #. type: Title #
 #, no-wrap
-msgid "Instalacja agenta FusionInventory na LinuxAgent Installation on Linux"
+msgid "Agent Installation on Linux"
 msgstr ""
 
 #. type: Bullet: '* '
