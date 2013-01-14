@@ -32,7 +32,7 @@ msgstr "[[MacOSX|documentation/agent/installation/macosx]]"
 
 #. type: Bullet: '* '
 msgid "[[Linux|documentation/agent/installation/linux]]"
-msgstr "[[Linux|documentation/agent/installation/linux.pl]]"
+msgstr "[[Linux|documentation/agent/installation/linux/index.pl.html]]"
 
 #. type: Bullet: '* '
 msgid ""
