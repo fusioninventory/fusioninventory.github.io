@@ -50,8 +50,9 @@ msgid ""
 "The content of the [dists](http://debian.fusioninventory.org/debian/dists/) "
 "pages can help you do identify support operating system."
 msgstr ""
-"Projekt FusionInventory utrzymuje aktualne paczki debiana "
-"w dodatkowym repozytorium."
+"Na stronie spisu [page](http://debian.fusioninventory.org/debian/dists/) "
+"jest aktualna lista wspieranych systemów operacyjnych."
+
 #. type: Plain text
 #, no-wrap
 msgid ""
