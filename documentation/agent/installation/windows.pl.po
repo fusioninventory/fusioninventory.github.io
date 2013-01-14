@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "POT-Creation-Date: 2013-01-10 11:43+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Last-Translator: Piotr Adamcio <p.adamcio@czluchow.org.pl>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: \n"
 "MIME-Version: 1.0\n"
@@ -115,17 +115,19 @@ msgstr ""
 
 #. type: Bullet: '3. '
 msgid "This check box will disable the HTTPS certificat check."
-msgstr ""
+msgstr "Ten check box wyłącza sprawdzanie certyfikatu HTTPS"
 
 #. type: Bullet: '4. '
 msgid "You can configure here a HTTP proxy. For example, proxy:3128"
-msgstr ""
+msgstr "Możesz tutaj skonfigurować proxy. Na przykład, proxy:3128"
 
 #. type: Bullet: '5. '
 msgid ""
 "This is the port of the HTTP service of the agent. You need to change it on "
 "the server too."
 msgstr ""
+"To jest port usługi HTTP agenta. Musisz zmienić go również"
+" na serwerze"
 
 #. type: Bullet: '6. '
 msgid ""
@@ -138,11 +140,13 @@ msgid ""
 "The installer can configure the Firewall for you if you want to allow "
 "connection on RPC port."
 msgstr ""
+"Instalator może skonfigurować dla ciebie Firewall jeśli chcesz zezwolić"
+"na połączenia przez port RPC."
 
 #. type: Plain text
 #, no-wrap
 msgid "[[!template  id=info text=\"\"\"\n"
-msgstr ""
+msgstr "[[!template  id=info text=\"\"\"\n"
 
 #. type: Plain text
 msgid ""
