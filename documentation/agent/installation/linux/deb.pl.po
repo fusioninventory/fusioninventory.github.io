@@ -40,6 +40,7 @@ msgstr ""
 "    echo \"deb http://backports.debian.org/debian-backports squeeze-backports main\" >> /etc/apt/sources.list\n"
 "    apt-get update\n"
 "    apt-get install -t squeeze-backports fusioninventory-agent\n"
+
 #. type: Title ##
 #, no-wrap
 msgid "FusionInventory own repository"
