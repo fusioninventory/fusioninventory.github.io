@@ -1,7 +1,7 @@
 # SOME DESCRIPTIVE TITLE
 # Copyright (C) YEAR Free Software Foundation, Inc.
 # This file is distributed under the same license as the PACKAGE package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# FIRST AUTHOR <p.adamcio@czluchow.org.pl>, YEAR.
 #
 #, fuzzy
 msgid ""
@@ -18,16 +18,16 @@ msgstr ""
 
 #. type: Title #
 #, no-wrap
-msgid "Using FusionInventory Debian (and Ubuntu) packages"
+msgid "Używanie paczek FusionInventory dla Debian (i Ubuntu)"
 msgstr ""
 
 #. type: Plain text
-msgid "Installation with the debian packages"
+msgid "Instalacja z paczek debiana"
 msgstr ""
 
 #. type: Title ##
 #, no-wrap
-msgid "FusionInventory Agent is also available in Debian Backports repository"
+msgid "Agent FusionInventory jest także dostępny w repozytorium Debian Backports"
 msgstr ""
 
 #. type: Plain text
@@ -40,13 +40,13 @@ msgstr ""
 
 #. type: Title ##
 #, no-wrap
-msgid "FusionInventory own repository"
+msgid "Własne repozytorium FusionInventory"
 msgstr ""
 
 #. type: Plain text
 msgid ""
-"The FusionInventory project maintains an up-to-date debian package of the "
-"most recent version, in a extra repository."
+"Projekt FusionInventory utrzymuje aktualne paczki debiana "
+"w dodatkowym repozytorium."
 msgstr ""
 
 #. type: Plain text
@@ -60,17 +60,17 @@ msgstr ""
 
 #. type: Plain text
 msgid ""
-"The content of the [dists](http://debian.fusioninventory.org/debian/dists/) "
-"pages can help you do identify support operating system."
+"Na stronie spisu [dystrybucji](http://debian.fusioninventory.org/debian/dists/) "
+"jest aktualna lista wspieranych systemów operacyjnych."
 msgstr ""
 
 #. type: Title ##
 #, no-wrap
-msgid "Install the additional packages"
+msgid "Instalacja dodatkowych paczek"
 msgstr ""
 
 #. type: Plain text
-msgid "Network inventory tasks:"
+msgid "Zadania inwentaryzacji sieci:"
 msgstr ""
 
 #. type: Plain text
@@ -88,7 +88,7 @@ msgid "    apt-get install libfusioninventory-agent-task-esx-perl\n"
 msgstr ""
 
 #. type: Plain text
-msgid "Deploy task:"
+msgid "Zadania zdalnej instalacji:"
 msgstr ""
 
 #. type: Plain text
