@@ -3,13 +3,11 @@
 use strict;
 use warnings;
 
-use DateTime::Format::Mail;
+use DateTime;
 use File::Basename;
 use File::Path qw(make_path);
-use LWP::Simple;
-use Archive::Tar;
 use File::Temp qw/ tempfile /;
-use Data::Dumper;
+#use Data::Dumper;
 
 my $title = shift;
 
