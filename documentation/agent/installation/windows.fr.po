@@ -283,6 +283,10 @@ msgid ""
 "update the Tasks Scheduler setting. So you will keep the previous "
 "settings.\n"
 msgstr ""
+"Si vous mettez à jour l'agent avec FusionInventory Deploy et un agent lancé "
+"en mode Service, vous avez besoin d'un agent > 2.2.0-2 et de l'option "
+"/execmode=none. De cette façon, l'agent ne sera pas supprimé ou ajouté en plus ou "
+"modifiera les paramètres du planificateur de tâche. Ainsi vous garderez la configuration.\n"
 
 #. type: Title #
 #, no-wrap
