@@ -135,6 +135,8 @@ msgid ""
 "This check box will increase *a lot* the verbosity of the agent. The log is "
 "available in the agent-log.txt file."
 msgstr ""
+"Cette option permet d'augmenter la verbosité de l'agent. Le contenu du log "
+"est disponible dans agent-log.txt, situé dans le dossier d'installation."
 
 #. type: Bullet: '7. '
 msgid ""
