@@ -156,11 +156,13 @@ msgid ""
 "Agent HTTP service is optional. It is only required if you want to be able "
 "to awake your agent to for an inventory or a job."
 msgstr ""
+"Le service HTTP de l'agent est optionnel. C'est seulement requis si vous "
+"désirez lancer manuellement l'agent pour un inventaire ou une action."
 
 #. type: Title ##
 #, no-wrap
 msgid "Installer command line parameters"
-msgstr ""
+msgstr "Paramètres en ligne de commande de l'installeur"
 
 #. type: Plain text
 #, no-wrap
