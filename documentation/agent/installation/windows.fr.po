@@ -252,13 +252,14 @@ msgstr ""
 
 #. type: Plain text
 msgid "The same as above but with a plain http connection"
-msgstr ""
+msgstr "La même chose qu'au dessus mais avec une connexion http"
 
 #. type: Plain text
 msgid ""
 "And installation directory of the agent can be changed via command-line as "
 "below:"
 msgstr ""
+"Et le dossier d'installation de l'agent peut être changé via la commande comme suit:"
 
 #. type: Plain text
 #, no-wrap
