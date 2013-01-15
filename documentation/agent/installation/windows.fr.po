@@ -143,11 +143,13 @@ msgid ""
 "The installer can configure the Firewall for you if you want to allow "
 "connection on RPC port."
 msgstr ""
+"L'installeur peut configurer le pare-feu pour vous si vous autorisez les "
+"connexions au port RPC."
 
 #. type: Plain text
 #, no-wrap
 msgid "[[!template  id=info text=\"\"\"\n"
-msgstr ""
+msgstr "[[!template  id=info text=\"\"\"\n"
 
 #. type: Plain text
 msgid ""
