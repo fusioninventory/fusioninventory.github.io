@@ -25,10 +25,11 @@ Go in the **c:\Program files\FusionInventory-Agent\perl\bin** (adjust this path 
 
 First, ensure `daemon` key is not defined or false in `agent.cfg`. This key is enabled on MacOSX default settings (`/opt/fusioninventory-agent/agent.cfg`).
 
-Go in /opt/fusioninventory-agent and run the following command
+Go in /opt/fusioninventory-agent and run the following command:
 
-    # cd /opt/fusioninventory-agent
-    # ./run.sh 
+    $ sudo /opt/fusioninventory-agent/fusioninventory-agent
+
+See [[the MacOSX documentation for further details|documentation/agent/installation/macosx]].
 
 ### Other
 
