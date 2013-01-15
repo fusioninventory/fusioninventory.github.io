@@ -269,6 +269,10 @@ msgid ""
 "Edit\n"
 "Upgrade with FusionInventory Deploy\n"
 msgstr ""
+"    fusioninventory-agent_windows-i386_2.x.x-1.exe /S "
+"\"/installdir=C:\\Program Files\\FusInv\"\n"
+"\n"
+"Mettre à jour avec FusionInventory Deploy\n"
 
 #. type: Plain text
 #, no-wrap
