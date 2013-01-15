@@ -218,11 +218,11 @@ msgstr ""
 #. type: Title ##
 #, no-wrap
 msgid "Usage"
-msgstr ""
+msgstr "Usage"
 
 #. type: Plain text
 msgid "To pass the parameters, do for example:"
-msgstr ""
+msgstr "Pour positionner les paramètres, faites comme l'exemple:"
 
 #. type: Plain text
 #, no-wrap
@@ -230,6 +230,8 @@ msgid ""
 "    fusioninventory-agent_windows-i386_2.x.x-1.exe /S /debug /runnow "
 "/server=https://server1/glpi/plugins/fusioninventory/\n"
 msgstr ""
+"    fusioninventory-agent_windows-i386_2.x.x-1.exe /S /debug /runnow "
+"/server=https://server1/glpi/plugins/fusioninventory/\n"
 
 #. type: Plain text
 msgid ""
