@@ -291,21 +291,25 @@ msgstr ""
 #. type: Title #
 #, no-wrap
 msgid "Large installation"
-msgstr ""
+msgstr "Installation en masse"
 
 #. type: Plain text
 msgid ""
 "A page is dedicated to explain how to [[deploy the agent on a Windows "
 "domain|documentation/agent/installation/windows/large_install]]."
 msgstr ""
+"Une page est dédiée pour la procédure de déploiement de l'agent sur un domain "
+"Windows, [[ici|documentation/agent/installation/windows/large_install]]."
 
 #. type: Title #
 #, no-wrap
 msgid "Installation from sources"
-msgstr ""
+msgstr "Installation depuis les sources"
 
 #. type: Plain text
 msgid ""
 "If you are an developer, or an advanced user, you can also install "
 "FusionInventory [[from sources|documentation/agent/dev/git_windows]]."
 msgstr ""
+"Si vous êtes développeur, ou un utilisateur expérimenté, vous pouvez aussi "
+"installer FusionInventory [[depuis les sources|documentation/agent/dev/git_windows]]."
