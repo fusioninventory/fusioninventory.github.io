@@ -63,7 +63,7 @@ msgid ""
 "64 bits"
 msgstr ""
 "`HKEY_LOCAL_MACHINE\\SOFTWARE\\Wow6432Node\\FusionInventory-Agent`: Windows "
-"64 bits"
+"64 bitowy"
 
 #. type: Title ##
 #, no-wrap
@@ -84,7 +84,7 @@ msgid ""
 "what append"
 msgstr ""
 "`debug`: debug może być wartość  0, 1 lub 2. Sugerujemy używać wartości 2 aby zrozumieć"
-"co się dzieje"
+" co się dzieje"
 
 #. type: Bullet: '* '
 msgid ""
@@ -92,6 +92,8 @@ msgid ""
 "address** (not the hostname) of the server. This way you will be able to use "
 "the **push** mode later."
 msgstr ""
+"`httpd-trust`: zawsze jest dobrym pomysłem, aby skonfigurować ten klucz z **adresem "
+"IP** (nie nazwą hosta) serwera. To zawsze pozwoli ci później użyć opcji **push**."
 
 #. type: Plain text
 msgid ""
@@ -102,26 +104,32 @@ msgstr ""
 #. type: Title ##
 #, no-wrap
 msgid "Advanced configuration"
-msgstr ""
+msgstr "Zaawansowana konfiguracja"
 
 #. type: Plain text
 msgid ""
 "All the keys are documented in the OPTIONS section of fusioninventory-agent "
 "reference documentation:"
 msgstr ""
+"Wszystkie klucze są udokumentowane w sekcji OPCJE dokumentacji "
+"agenta fusioninventory:"
 
 #. type: Bullet: '* '
 msgid ""
 "[[2.1.x (old "
 "stable)|documentation/references/agent/2.1.x/fusioninventory-agent]]"
 msgstr ""
+"[[2.1.x (stara "
+"stabilna)|documentation/references/agent/2.1.x/fusioninventory-agent]]"
 
 #. type: Bullet: '* '
 msgid ""
 "[[2.2.x "
 "(stable)|documentation/references/agent/2.2.x/fusioninventory-agent]]"
 msgstr ""
+"[[2.2.x "
+"(stabilna)|documentation/references/agent/2.2.x/fusioninventory-agent]]"
 
 #. type: Bullet: '* '
 msgid "[[2.3.x (dev)|documentation/references/agent/2.3.x/fusioninventory-agent]]"
-msgstr ""
+msgstr "[[2.3.x (rozwojowa)|documentation/references/agent/2.3.x/fusioninventory-agent]]"
