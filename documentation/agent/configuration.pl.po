@@ -100,6 +100,8 @@ msgid ""
 "Once this is done, you can [[force an "
 "inventory|documentation/agent/launch_the_agent]]."
 msgstr ""
+"Jeśli powyższe zostanie ustawione możesz [[wymusić "
+"inwentaryzacje|documentation/agent/launch_the_agent]]."
 
 #. type: Title ##
 #, no-wrap
