@@ -19,7 +19,7 @@ msgstr ""
 #. type: Plain text
 #, no-wrap
 msgid "#Agent configuration\n"
-msgstr ""
+msgstr "#Konfiguracja agenta\n"
 
 #. type: Plain text
 msgid ""
@@ -31,52 +31,60 @@ msgstr ""
 #. type: Title ##
 #, no-wrap
 msgid "Where is the configuration?"
-msgstr ""
+msgstr "Gdzie znajduje się konfiguracja?"
 
 #. type: Plain text
 msgid ""
 "Depending on the OperatingSystem and the installation method, the agent will "
 "read its configuration from different places:"
 msgstr ""
+"W zalezności od systemu operacyjnego i metody instalacji, agent czyta "
+"swoją konfiguracje z różnych miejsc:"
 
 #. type: Bullet: '* '
 msgid "`/etc/fusioninventory/agent.cfg`: default"
-msgstr ""
+msgstr "`/etc/fusioninventory/agent.cfg`: domyslnie"
 
 #. type: Bullet: '* '
 msgid "`/opt/fusioninventory/agent.cfg`: MacOSx mpkg"
-msgstr ""
+msgstr "`/opt/fusioninventory/agent.cfg`: MacOSx mpkg"
 
 #. type: Bullet: '* '
 msgid "`/usr/local/etc/fusioninventory/agent.cfg`: FreeBSD port"
-msgstr ""
+msgstr "`/usr/local/etc/fusioninventory/agent.cfg`: FreeBSD port"
 
 #. type: Bullet: '* '
 msgid "`HKEY_LOCAL_MACHINE\\SOFTWARE\\FusionInventory-Agent`: Windows"
-msgstr ""
+msgstr "`HKEY_LOCAL_MACHINE\\SOFTWARE\\FusionInventory-Agent`: Windows"
 
 #. type: Bullet: '* '
 msgid ""
 "`HKEY_LOCAL_MACHINE\\SOFTWARE\\Wow6432Node\\FusionInventory-Agent`: Windows "
 "64 bits"
 msgstr ""
+"`HKEY_LOCAL_MACHINE\\SOFTWARE\\Wow6432Node\\FusionInventory-Agent`: Windows "
+"64 bits"
 
 #. type: Title ##
 #, no-wrap
 msgid "Minimal configuration"
-msgstr ""
+msgstr "Minimalna konfiguracja"
 
 #. type: Bullet: '* '
 msgid ""
 "`server`: the URL to the server, in general, it's "
 "http://glpiserver/plugins/fusioninventory/"
 msgstr ""
+"`server`: adres URL do serwera, zwykle to jest "
+"http://glpiserver/plugins/fusioninventory/"
 
 #. type: Bullet: '* '
 msgid ""
 "`debug`: debug can be 0, 1 or 2. We suggest to use 2 to help you understand "
 "what append"
 msgstr ""
+"`debug`: debug może być wartość  0, 1 lub 2. Sugerujemy używać wartości 2 aby zrozumieć"
+"co się dzieje"
 
 #. type: Bullet: '* '
 msgid ""
