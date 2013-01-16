@@ -25,6 +25,8 @@
 
 This will generate a glpi.mycompany.com.key and a glpi.mycompany.com.crt. Save them:
 
+CAUTION: assuming your URL to contact server is http(s)://glpi.mycompany.com/. You have to inform both in file names and in "Common Name" the name of your server.
+
      # cp glpi.mycompany.com.key /etc/pki/tls/private/
      # cp glpi.mycompany.com.crt /etc/pki/tls/certs/
 
