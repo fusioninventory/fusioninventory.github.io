@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2013-01-11 14:06+0000\n"
+"POT-Creation-Date: 2013-01-17 14:58+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -60,17 +60,17 @@ msgstr "Premièrement, vous devez activer les dépôts d'EPEL et de Rémi"
 #. type: Plain text
 #, no-wrap
 msgid ""
-"    # rpm -Uvh "
-"http://dl.fedoraproject.org/pub/epel/5/i386/epel-release-5-4.noarch.rpm\n"
+"    # rpm -Uvh http://dl.fedoraproject.org/pub/epel/5/i386/epel-release-5-4.noarch.rpm\n"
 "    # rpm -Uvh http://rpms.famillecollet.com/enterprise/remi-release-5.rpm\n"
 msgstr ""
-"    # rpm -Uvh "
-"http://dl.fedoraproject.org/pub/epel/5/i386/epel-release-5-4.noarch.rpm\n"
+"    # rpm -Uvh http://dl.fedoraproject.org/pub/epel/5/i386/epel-release-5-4.noarch.rpm\n"
 "    # rpm -Uvh http://rpms.famillecollet.com/enterprise/remi-release-5.rpm\n"
 
 #. type: Plain text
 msgid "To install FusionInventory-Agent, simply execute the following command:"
-msgstr "Pour installer l'agent FusionInventory, exécutez simplement la commande ssuivante:"
+msgstr ""
+"Pour installer l'agent FusionInventory, exécutez simplement la commande "
+"ssuivante:"
 
 #. type: Plain text
 #, no-wrap
@@ -84,32 +84,23 @@ msgstr "RHEL/Centos 6.X"
 
 #. type: Plain text
 #, no-wrap
-msgid ""
-"*fusioninventory-agent* is available in the *EPEL6* repository. You need to "
-"enable this repository.\n"
-msgstr ""
-"L'agent FusionInventory est disponible dans le dépôt de *EPEL6*. Vous devez "
-"l'activer.\n"
+msgid "*fusioninventory-agent* is available in the *EPEL6* repository. You need to enable this repository.\n"
+msgstr "L'agent FusionInventory est disponible dans le dépôt de *EPEL6*. Vous devez l'activer.\n"
 
 #. type: Plain text
 #, no-wrap
-msgid ""
-"    # rpm -Uvh "
-"http://dl.fedoraproject.org/pub/epel/6/i386/epel-release-6-7.noarch.rpm\n"
-msgstr ""
-"    # rpm -Uvh "
-"http://dl.fedoraproject.org/pub/epel/6/i386/epel-release-6-7.noarch.rpm\n"
+msgid "    # rpm -Uvh http://dl.fedoraproject.org/pub/epel/6/i386/epel-release-6-7.noarch.rpm\n"
+msgstr "    # rpm -Uvh http://dl.fedoraproject.org/pub/epel/6/i386/epel-release-6-7.noarch.rpm\n"
 
 #. type: Plain text
 msgid ""
-"The *EPEL* repository is required for perl dependencies.  For "
-"[RHEL]([http://www.redhat.com/rhel/) Users, the *RHEL Server Optional* "
-"channel is also mandatory, it must be enabled from "
-"[RHN](https://rhn.redhat.com/)."
+"The *EPEL* repository is required for perl dependencies.  For [RHEL]([http://"
+"www.redhat.com/rhel/) Users, the *RHEL Server Optional* channel is also "
+"mandatory, it must be enabled from [RHN](https://rhn.redhat.com/)."
 msgstr ""
-"Le dépôt *EPEL* est nécessaire pour les dépendances de Perl. Pour les utilisateurs de "
-"[RHEL]([http://www.redhat.com/rhel/), le *RHEL Server Optional* "
-"[RHN](https://rhn.redhat.com/)."
+"Le dépôt *EPEL* est nécessaire pour les dépendances de Perl. Pour les "
+"utilisateurs de [RHEL]([http://www.redhat.com/rhel/), le *RHEL Server "
+"Optional* [RHN](https://rhn.redhat.com/)."
 
 #. type: Plain text
 msgid "To install FusionInventory-Agent :"
@@ -117,30 +108,26 @@ msgstr "Pour installer l'agent FusionInventory :"
 
 #. type: Plain text
 #, no-wrap
-msgid ""
-"    # yum --enablerepo=remi --enablerepo=optional-rhn install "
-"fusioninventory-agent\n"
-msgstr ""
-"    # yum --enablerepo=remi --enablerepo=optional-rhn install "
-"fusioninventory-agent\n"
+msgid "    # yum --enablerepo=remi --enablerepo=optional-rhn install fusioninventory-agent\n"
+msgstr "    # yum --enablerepo=remi --enablerepo=optional-rhn install fusioninventory-agent\n"
 
 #. type: Plain text
 msgid ""
 "Package from other repositories, such as RPM Forge, will probably not work "
 "(and will not be supported)"
 msgstr ""
-"Les paquets venant d'autres dépôts, comme RPM Forge, ne devrait pas fonctionner "
-"(et ne sont pas supportés)"
+"Les paquets venant d'autres dépôts, comme RPM Forge, ne devrait pas "
+"fonctionner (et ne sont pas supportés)"
 
 #. type: Plain text
 msgid ""
-"See [Extra Packages for Enterprise Linux "
-"(EPEL)](https://fedoraproject.org/wiki/EPEL)  See [Remi repository "
-"configuration](http://blog.famillecollet.com/pages/Config-en)"
+"See [Extra Packages for Enterprise Linux (EPEL)](https://fedoraproject.org/"
+"wiki/EPEL)  See [Remi repository configuration](http://blog.famillecollet."
+"com/pages/Config-en)"
 msgstr ""
-"Reportez vous à [Extra Packages for Enterprise Linux "
-"(EPEL)](https://fedoraproject.org/wiki/EPEL)  et [Remi repository "
-"configuration](http://blog.famillecollet.com/pages/Config-en)"
+"Reportez vous à [Extra Packages for Enterprise Linux (EPEL)](https://"
+"fedoraproject.org/wiki/EPEL)  et [Remi repository configuration](http://blog."
+"famillecollet.com/pages/Config-en)"
 
 #. type: Title ##
 #, no-wrap
@@ -149,12 +136,8 @@ msgstr "Version maintenu de Fedora"
 
 #. type: Plain text
 #, no-wrap
-msgid ""
-"*fusioninventory-agent* is part of the *official repository* for fedora >= "
-"14\n"
-msgstr ""
-"L'agent *FusionInventory* fait parti du dépôt officiel pour Fedora >= "
-"14\n"
+msgid "*fusioninventory-agent* is part of the *official repository* for fedora >= 14\n"
+msgstr "L'agent *FusionInventory* fait parti du dépôt officiel pour Fedora >= 14\n"
 
 #. type: Title ##
 #, no-wrap
@@ -163,20 +146,16 @@ msgstr "Version EOL de Fedora"
 
 #. type: Plain text
 #, no-wrap
-msgid ""
-"*fusioninventory-agent* is available in the *remi* third party repository "
-"for fedora >= 8\n"
-msgstr ""
-"l'agent *FusionInventory* est disponible pour tiers-partie dans le dépôt de *Rémi* "
-"pour Fedora >= 8\n"
+msgid "*fusioninventory-agent* is available in the *remi* third party repository for fedora >= 8\n"
+msgstr "l'agent *FusionInventory* est disponible pour tiers-partie dans le dépôt de *Rémi* pour Fedora >= 8\n"
 
 #. type: Plain text
 msgid ""
-"See [Remi repository "
-"configuration](http://blog.famillecollet.com/pages/Config-en)"
+"See [Remi repository configuration](http://blog.famillecollet.com/pages/"
+"Config-en)"
 msgstr ""
-"Reportez vous à [Remi repository "
-"configuration](http://blog.famillecollet.com/pages/Config-en)"
+"Reportez vous à [Remi repository configuration](http://blog.famillecollet."
+"com/pages/Config-en)"
 
 #. type: Title ##
 #, no-wrap
@@ -194,7 +173,8 @@ msgstr "    # yum install fusioninventory-agent  perl-FusionInventory-Agent-\\*\
 
 #. type: Plain text
 msgid "Only *fusioninventory-agent* is mandatory, other packages are optional:"
-msgstr "Seul le paquet *fusioninventory-agent* est obligatoire, les autres paquets "
+msgstr ""
+"Seul le paquet *fusioninventory-agent* est obligatoire, les autres paquets "
 "sont optionnels :"
 
 #. type: Bullet: '* '
@@ -202,21 +182,25 @@ msgid ""
 "*perl-FusionInventory-Agent-Task-ESX* - vCenter/ESX/ESXi remote inventory "
 "for FusionInventory Agent"
 msgstr ""
-"*perl-FusionInventory-Agent-Task-ESX* - Inventaire distant des vCenter/ESX/ESXi "
-"par l'agent FusionInventory "
+"*perl-FusionInventory-Agent-Task-ESX* - Inventaire distant des vCenter/ESX/"
+"ESXi par l'agent FusionInventory "
 
 #. type: Bullet: '* '
 msgid ""
 "*perl-FusionInventory-Agent-Task-NetDiscovery* - Network discovery support "
 "for FusionInventory Agent"
 msgstr ""
-"*perl-FusionInventory-Agent-Task-NetDiscovery* - Découverte du réseau "
-"par l'agent FusionInventory "
+"*perl-FusionInventory-Agent-Task-NetDiscovery* - Découverte du réseau par "
+"l'agent FusionInventory "
 
 #. type: Bullet: '* '
+#, fuzzy
+#| msgid ""
+#| "*perl-FusionInventory-Agent-Task-OcsDeploy* - Deploy software tool  for "
+#| "OCS Inventory NG by FusionInventory"
 msgid ""
-"*perl-FusionInventory-Agent-Task-OcsDeploy* - Deploy software tool  "
-"for OCS Inventory NG by FusionInventory"
+"*perl-FusionInventory-Agent-Task-OcsDeploy* - Gestion du déploiement "
+"logiciel OCS Inventory NG avec FusionInventory"
 msgstr ""
 "*perl-FusionInventory-Agent-Task-OcsDeploy* - Gestion du déploiement "
 "logiciel OCS Inventory NG avec FusionInventory"
@@ -226,8 +210,8 @@ msgid ""
 "*perl-FusionInventory-Agent-Task-SNMPQuery* - SNMP Query support for "
 "FusionInventory Agent"
 msgstr ""
-"*perl-FusionInventory-Agent-Task-SNMPQuery* - Inventaire de matériel avec SNMP "
-"par l'agent FusionInventory "
+"*perl-FusionInventory-Agent-Task-SNMPQuery* - Inventaire de matériel avec "
+"SNMP par l'agent FusionInventory "
 
 #. type: Plain text
 msgid ""
@@ -249,11 +233,11 @@ msgstr "Configuration de l'agent"
 
 #. type: Plain text
 msgid ""
-"The service takes its configuration from the "
-"*/etc/sysconfig/fusioninventory-agent* file"
+"The service takes its configuration from the */etc/sysconfig/fusioninventory-"
+"agent* file"
 msgstr ""
-"Le service est configuré à partir du fichier "
-"*/etc/sysconfig/fusioninventory-agent* "
+"Le service est configuré à partir du fichier */etc/sysconfig/fusioninventory-"
+"agent* "
 
 #. type: Plain text
 msgid "Per example:"
@@ -271,24 +255,20 @@ msgstr ""
 #. type: Plain text
 #, no-wrap
 msgid ""
-"    # Global options (debug for verbose log, rpc-trust-localhost for "
-"yum-plugin)\n"
+"    # Global options (debug for verbose log, rpc-trust-localhost for yum-plugin)\n"
 "    FUSINVOPT='--debug --rpc-trust-localhost'\n"
 msgstr ""
-"    # Global options (debug for verbose log, rpc-trust-localhost for "
-"yum-plugin)\n"
+"    # Global options (debug for verbose log, rpc-trust-localhost for yum-plugin)\n"
 "    FUSINVOPT='--debug --rpc-trust-localhost'\n"
 
 #. type: Plain text
 #, no-wrap
 msgid ""
 "    OCSMODE[0]=daemon\n"
-"    "
-"OCSSERVER[0]=http://<yourserverdnsnameorip>/glpi/plugins/fusioninventory/\n"
+"    OCSSERVER[0]=http://<yourserverdnsnameorip>/glpi/plugins/fusioninventory/\n"
 msgstr ""
 "    OCSMODE[0]=daemon\n"
-"    "
-"OCSSERVER[0]=http://<yourserverdnsnameorip>/glpi/plugins/fusioninventory/\n"
+"    OCSSERVER[0]=http://<yourserverdnsnameorip>/glpi/plugins/fusioninventory/\n"
 
 #. type: Plain text
 msgid "Enable it to be launch on reboot"
@@ -325,11 +305,11 @@ msgstr "Débug de l'agent"
 
 #. type: Plain text
 msgid ""
-"You can see the log in "
-"/var/log/fusioninventory-agent/fusioninventory-agent.log"
+"You can see the log in /var/log/fusioninventory-agent/fusioninventory-agent."
+"log"
 msgstr ""
-"Vous pouvez regarder le fichier de log situé "
-"/var/log/fusioninventory-agent/fusioninventory-agent.log"
+"Vous pouvez regarder le fichier de log situé /var/log/fusioninventory-agent/"
+"fusioninventory-agent.log"
 
 #. type: Plain text
 #, no-wrap
