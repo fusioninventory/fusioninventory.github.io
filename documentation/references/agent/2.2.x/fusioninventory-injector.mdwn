@@ -18,6 +18,10 @@ fusioninventory-injector \[options\] \[--file <file>|--directory <directory>|--s
     Examples:
       fusioninventory-injector -v -f /tmp/toto-2010-09-10-11-42-22.ocs --url https://login:pw@server/ocsinventory
 
+Or: --url https://server/glpi/plugins/fusioninventory 
+
+You can also use this tool with inventories in xml format.
+
 # DESCRIPTION
 
 This tool can be used to test your server, do benchmark or push inventory from
