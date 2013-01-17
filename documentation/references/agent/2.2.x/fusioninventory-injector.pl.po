@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2013-01-17 18:21+0000\n"
+"POT-Creation-Date: 2013-01-17 18:22+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -54,7 +54,9 @@ msgstr ""
 #, no-wrap
 msgid ""
 "    Examples:\n"
-"      fusioninventory-injector -v -f /tmp/toto-2010-09-10-11-42-22.ocs --url https://login:pw@server/ocsinventory Or: --url https://server/glpi/plugins/fusioninventory You can also use this tool with inventories in xml format.\n"
+"      fusioninventory-injector -v -f /tmp/toto-2010-09-10-11-42-22.ocs --url https://login:pw@server/ocsinventory \n"
+"Or: --url https://server/glpi/plugins/fusioninventory\n"
+"You can also use this tool with inventories in xml format.\n"
 msgstr ""
 
 #. type: Title #
