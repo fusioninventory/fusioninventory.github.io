@@ -1,7 +1,7 @@
 Option Explicit
 Dim versionverification, fusionarguments, uninstallocsagent, fusionsetupURL
 ''''' USER SETTINGS '''''
-versionverification = "2.2.6-1" 
+versionverification = "2.2.7-3" 
 fusionarguments = "/S /server=http://server1/glpi/plugins/fusioninventory/ /rpc-trust-localhost /runnow" 
 ' Depending on your needs, you can use either HTTP or Windows share
 'fusionsetupURL = "\\server1\data\fusioninventory-agent_windows-i386_" & versionverification & ".exe" 
