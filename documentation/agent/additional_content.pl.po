@@ -1,0 +1,68 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2013-01-18 16:42+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. type: Title #
+#, no-wrap
+msgid "How to push additional content in my inventory"
+msgstr ""
+
+#. type: Title ##
+#, no-wrap
+msgid "--additional-content"
+msgstr ""
+
+#. type: Plain text
+msgid ""
+"You can ask your agent to inject additional content during the inventory "
+"creation:"
+msgstr ""
+
+#. type: Plain text
+#, no-wrap
+msgid ""
+"    # cat /tmp/foo.xml \n"
+"    <?xml version=\"1.0\" encoding=\"UTF-8\" ?>\n"
+"    <REQUEST>\n"
+"      <CONTENT>\n"
+"          <SOFTWARES>\n"
+"              <NAME>foo</NAME>\n"
+"              <VERSION>bar</VERSION>\n"
+"          </SOFTWARES>\n"
+"      </CONTENT>\n"
+"    </REQUEST> \n"
+"    # fusioninventory-agent --additional-content /tmp/foo.xml\n"
+msgstr ""
+
+#. type: Plain text
+msgid "`additional-content` can also be a registry key."
+msgstr ""
+
+#. type: Title ##
+#, no-wrap
+msgid "Your own Perl module"
+msgstr ""
+
+#. type: Plain text
+msgid ""
+"You can extend FusionInventory by creating your own collect module in "
+"'lib/FusionInventory/Agent/Task/Inventory/Input/Generic/Softwares/'."
+msgstr ""
+
+#. type: Plain text
+msgid "The module will be automaticly loaded at run time."
+msgstr ""
