@@ -1,0 +1,27 @@
+# How to push additional content in my inventory
+
+## --additional-content
+
+You can ask your agent to inject additional content during the inventory
+creation:
+
+    # cat /tmp/foo.xml 
+    <?xml version="1.0" encoding="UTF-8" ?>
+    <REQUEST>
+      <CONTENT>
+          <SOFTWARES>
+              <NAME>foo</NAME>
+              <VERSION>bar</VERSION>
+          </SOFTWARES>
+      </CONTENT>
+    </REQUEST> 
+    # fusioninventory-agent --additional-content /tmp/foo.xml
+
+`additional-content` can also be a registry key.
+
+## Your own Perl module
+
+You can extend FusionInventory by creating your own collect module in
+'lib/FusionInventory/Agent/Task/Inventory/Input/Generic/Softwares/'.
+
+The module will be automaticly loaded at run time.
