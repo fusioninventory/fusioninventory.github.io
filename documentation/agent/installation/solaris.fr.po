@@ -19,23 +19,25 @@ msgstr ""
 #. type: Title #
 #, no-wrap
 msgid "System-specific informations"
-msgstr ""
+msgstr "Informations spécifiques du Sytème"
 
 #. type: Plain text
 msgid ""
 "You may need to install some [[system specific "
 "dependencies|documentation/agent/system_dep]]."
 msgstr ""
+"Vous devez installer plusieurs [[dépendances "
+"spécifiques au système|documentation/agent/system_dep]]."
 
 #. type: Title #
 #, no-wrap
 msgid "Installation on Solaris"
-msgstr ""
+msgstr "Installation sur Solaris"
 
 #. type: Title ##
 #, no-wrap
 msgid "OpenCSW package"
-msgstr ""
+msgstr "Paquet OpenCSW"
 
 #. type: Plain text
 msgid ""
@@ -43,26 +45,32 @@ msgid ""
 "[OpenCSW](http://www.opencsw.org/packages/fusioninventory_agent/) "
 "repository.  http://www.opencsw.org/packages/fusioninventory_agent/"
 msgstr ""
+"Un paquet est disponible sur le dépôt "
+"[OpenCSW](http://www.opencsw.org/packages/fusioninventory_agent/) "
+" http://www.opencsw.org/packages/fusioninventory_agent/"
 
 #. type: Plain text
 msgid ""
 "[OpenCSW package installation "
 "documentation](http://www.opencsw.org/manual/for-administrators/getting-started.html)."
 msgstr ""
+"[Documentation sur l'installation des paquets "
+"OpenCSW](http://www.opencsw.org/manual/for-administrators/getting-started.html)."
 
 #. type: Title ##
 #, no-wrap
 msgid "Installation from source"
-msgstr ""
+msgstr "Installation depuis les sources"
 
 #. type: Plain text
 msgid "[[Installation from source|documentation/agent/installation/source]]."
-msgstr ""
+msgstr "[[Installation depuis les sources"
+"|documentation/agent/installation/source]]."
 
 #. type: Title ##
 #, no-wrap
 msgid "Prebuilt package"
-msgstr ""
+msgstr "Paquet Prebuilt"
 
 #. type: Plain text
 msgid ""
@@ -71,3 +79,7 @@ msgid ""
 "you can use the [[prebuilt "
 "packages|documentation/agent/installation/prebuilt]]."
 msgstr ""
+"Même si ce n'est pas la méthode d'installation recommandée, "
+"parfois il est utile d'être en mesure d'exécuter un inventaire "
+"sans modification du système. Dans ce cas, vous pouvez utiliser "
+"le [[paquet prebuilt|documentation/agent/installation/prebuilt]]."
