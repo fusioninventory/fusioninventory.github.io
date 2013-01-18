@@ -19,7 +19,7 @@ msgstr ""
 #. type: Title #
 #, no-wrap
 msgid "FusionInventoryAgent on Android"
-msgstr ""
+msgstr "FusionInventoryAgent pour Android"
 
 #. type: Plain text
 msgid ""
@@ -28,3 +28,7 @@ msgid ""
 "is available directly on the [Google "
 "Play](https://play.google.com/store/apps/details?id=org.fusioninventory&hl=en)."
 msgstr ""
+"[[FusionInventory pour "
+"Android|/news/2011/09/13/First_release_for_FusionInventory_Agent_for_Android]] "
+"est disponible directement sur [Google "
+"Play](https://play.google.com/store/apps/details?id=org.fusioninventory&hl=en)."
