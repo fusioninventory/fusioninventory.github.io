@@ -7,7 +7,6 @@
 * [[References documentation|documentation/references]]
 * [[Network less inventory|documentation/agent/network_less]]
 * [[Force an inventory|documentation/agent/launch_the_agent]]
-* [[Extend inventory content|documentation/agent/additional_content]]
 
 # FusionInventory for GLPI
 
@@ -29,6 +28,7 @@
 * [[Create and manage SNMP models|documentation/fi4g/snmpmodels]]
 * [[How to debug my installation|documentation/fi4g/debugmode]]
 * [[Security and SSL|documentation/agent/security_and_ssl]]
+* [[Extend a computer inventory content|documentation/agent/additional_content]]
 
 # Bug report
 
