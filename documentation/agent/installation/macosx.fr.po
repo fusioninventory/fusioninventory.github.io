@@ -95,10 +95,6 @@ msgstr ""
 "Agent.pkg et sélectionnez «Afficher le contenu du paquet». "
 
 #. type: Plain text
-#, fuzzy
-#| msgid ""
-#| "Go in the **Resources** directory and modify the **agent.cfg** file "
-#| "according to you needs."
 msgid ""
 "Go in the **Resources** directory and modify the **agent.cfg** file "
 "according to you needs:"
@@ -108,13 +104,15 @@ msgstr ""
 
 #. type: Bullet: '* '
 msgid "add the `server=` line"
-msgstr ""
+msgstr "Ajouter la ligne `server=`"
 
 #. type: Bullet: '* '
 msgid ""
 "you can also uncomment the `logfile = /var/log/fusioninventory.log` to get "
 "some log files"
 msgstr ""
+"Vous pouvez aussi décommenter la ligne `logfile = /var/log/fusioninventory.log` "
+"pour avoir les logs"
 
 #. type: Title ##
 #, no-wrap
@@ -148,16 +146,18 @@ msgid ""
 "file '/opt/fusioninventory-agent/agent.cfg'.  You will have to restart the "
 "service after (see below);"
 msgstr ""
+"Une fois l'agent installé, vous pouvez le configurer en modifiant le fichier "
+"'/opt/fusioninventory-agent/agent.cfg'. Vous devrez redémarrer le service "
+"après (voir ci-dessous);"
 
 #. type: Title ##
-#, fuzzy, no-wrap
-#| msgid "Agent Installation"
+#, no-wrap
 msgid "Command line installation"
-msgstr "Installation de l'agent"
+msgstr "Installation en ligne de commande"
 
 #. type: Plain text
 msgid "Retrieve the .pkg.tar.gz archive and do:"
-msgstr ""
+msgstr "Télécharger l'archive .pkg.tar.gz et faites:"
 
 #. type: Plain text
 #, no-wrap
@@ -168,19 +168,24 @@ msgid ""
 "    installer: Upgrading at base path /\n"
 "    installer: The upgrade was successful.\n"
 msgstr ""
+"    $ tar xfz fusioninventory-agent_macosx-intel_XXX.pkg.tar.gz\n"
+"    $ sudo installer -pkg FusionInventory-Agent.pkg -target / -lang en\n"
+"    installer: Package name is FusionInventory-Agent\n"
+"    installer: Upgrading at base path /\n"
+"    installer: The upgrade was successful.\n"
 
 #. type: Plain text
 msgid "You can either reboot or restart the service, see below."
-msgstr ""
+msgstr "Vous pouvez soit redémarrer ou relancer le service, voir ci-dessous."
 
 #. type: Title ##
 #, no-wrap
 msgid "Manage the service"
-msgstr ""
+msgstr "Gérer le service"
 
 #. type: Plain text
 msgid "To see if the service is running:"
-msgstr ""
+msgstr "Pour voir si le service tourne:"
 
 #. type: Plain text
 #, no-wrap
@@ -188,12 +193,16 @@ msgid ""
 "    $ sudo launchctl list|grep fusion\n"
 "    266     -       org.fusioninventory.agent\n"
 msgstr ""
+"    $ sudo launchctl list|grep fusion\n"
+"    266     -       org.fusioninventory.agent\n"
 
 #. type: Plain text
 msgid ""
 "The process is running with PID 266. If the process is stopped, you will get "
 "a line like this one:"
 msgstr ""
+"Le processus fonctionne avec le PID 266. Si le processus est arrêté, vous "
+"obtiendrez une ligne comme celle-ci:"
 
 #. type: Plain text
 #, no-wrap
@@ -201,35 +210,37 @@ msgid ""
 "    $sudo launchctl list|grep fusion\n"
 "    -       1       org.fusioninventory.agent\n"
 msgstr ""
+"    $sudo launchctl list|grep fusion\n"
+"    -       1       org.fusioninventory.agent\n"
 
 #. type: Plain text
 msgid "To stop the service:"
-msgstr ""
+msgstr "Pour arrêter le service:"
 
 #. type: Plain text
 #, no-wrap
 msgid "    $ sudo launchctl stop org.fusioninventory.agent\n"
-msgstr ""
+msgstr "    $ sudo launchctl stop org.fusioninventory.agent\n"
 
 #. type: Plain text
 msgid "To start the service:"
-msgstr ""
+msgstr "Pour démarrer le service:"
 
 #. type: Plain text
 #, no-wrap
 msgid "    $ sudo launchctl start org.fusioninventory.agent\n"
-msgstr ""
+msgstr "    $ sudo launchctl start org.fusioninventory.agent\n"
 
 #. type: Title ##
 #, no-wrap
 msgid "Force an inventory"
-msgstr ""
+msgstr "Forcer un inventaire"
 
 #. type: Plain text
 msgid "To force an inventory:"
-msgstr ""
+msgstr "Pour forcer un inventaire:"
 
 #. type: Plain text
 #, no-wrap
 msgid "    $ sudo /opt/fusioninventory-agent/fusioninventory-agent\n"
-msgstr ""
+msgstr "    $ sudo /opt/fusioninventory-agent/fusioninventory-agent\n"
