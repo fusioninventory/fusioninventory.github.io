@@ -19,7 +19,7 @@ msgstr ""
 #. type: Title #
 #, no-wrap
 msgid "Installation on HP-UX"
-msgstr ""
+msgstr "Installation sur HP-UX"
 
 #. type: Plain text
 #, no-wrap
@@ -27,20 +27,23 @@ msgid ""
 "[[!template  id=info text=\"We are looking for a **HP-UX .depot "
 "maintainer**\"]]\n"
 msgstr ""
+"[[!template  id=info text=\"Nous recherchons un **HP-UX .depot "
+"maintainer**\"]]\n"
 
 #. type: Title ##
 #, no-wrap
 msgid "Installation from source"
-msgstr ""
+msgstr "Installation depuis les sources"
 
 #. type: Plain text
 msgid "[[Installation from source|documentation/agent/installation/source]]."
-msgstr ""
+msgstr "[[Installation depuis les sources"
+"|documentation/agent/installation/source]]."
 
 #. type: Title ##
 #, no-wrap
 msgid "Prebuilt package"
-msgstr ""
+msgstr "Paquet Prebuilt"
 
 #. type: Plain text
 msgid ""
@@ -49,3 +52,7 @@ msgid ""
 "you can use the [[prebuilt "
 "packages|documentation/agent/installation/prebuilt]]."
 msgstr ""
+"Même si ce n'est pas la méthode d'installation recommandée, "
+"parfois il est utile d'être en mesure d'exécuter un inventaire "
+"sans modification du système. Dans ce cas, vous pouvez utiliser "
+"le [[paquet prebuilt|documentation/agent/installation/prebuilt]]."
