@@ -19,28 +19,28 @@ msgstr ""
 #. type: Title #
 #, no-wrap
 msgid "Get FusionInventory"
-msgstr ""
+msgstr "Télécharger FusionInventory"
 
 #. type: Title ##
 #, no-wrap
 msgid "Agent"
-msgstr ""
+msgstr "Agent"
 
 #. type: Plain text
 msgid ""
 "The agent is used to collect informations, scan the network, deploy file and "
 "package, etc."
-msgstr ""
+msgstr "L'agent est utilisé pour collecter des informations, faire des scannes réseaux, télédiffuser des fichiers et des paquets, etc."
 
 #. type: Bullet: '* '
 msgid "[[Install the agent|documentation/agent/installation]]."
-msgstr ""
+msgstr "[[Install the agent|documentation/agent/installation]]."
 
 #. type: Title ##
 #, no-wrap
 msgid "Server"
-msgstr ""
+msgstr "Serveur"
 
 #. type: Bullet: '* '
 msgid "[[FusionInventory for GLPI|documentation/fi4g/installation]]"
-msgstr ""
+msgstr "[[FusionInventory pour GLPI|documentation/fi4g/installation]]"

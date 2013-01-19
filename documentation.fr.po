@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2013-01-11 14:06+0000\n"
+"POT-Creation-Date: 2013-01-18 16:53+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -49,6 +49,10 @@ msgstr ""
 msgid "[[Force an inventory|documentation/agent/launch_the_agent]]"
 msgstr ""
 
+#. type: Bullet: '* '
+msgid "[[Extend inventory content|documentation/agent/additional_content]]"
+msgstr ""
+
 #. type: Title #
 #, no-wrap
 msgid "FusionInventory for GLPI"
@@ -56,14 +60,14 @@ msgstr ""
 
 #. type: Bullet: '* '
 msgid ""
-"[[How to install or update FusionInventory for "
-"GLPI|documentation/fi4g/installation]]"
+"[[How to install or update FusionInventory for GLPI|documentation/fi4g/"
+"installation]]"
 msgstr ""
 
 #. type: Bullet: '* '
 msgid ""
-"[[How works «Equipment import and link "
-"rules»|documentation/fi4g/importrules]]"
+"[[How works «Equipment import and link rules»|documentation/fi4g/"
+"importrules]]"
 msgstr ""
 
 #. type: Bullet: '* '
@@ -72,8 +76,8 @@ msgstr ""
 
 #. type: Bullet: '* '
 msgid ""
-"[[How to inventory my network devices "
-"(SNMP)|documentation/fi4g/networkinventory]]"
+"[[How to inventory my network devices (SNMP)|documentation/fi4g/"
+"networkinventory]]"
 msgstr ""
 
 #. type: Bullet: '* '
@@ -82,8 +86,8 @@ msgstr ""
 
 #. type: Bullet: '* '
 msgid ""
-"[[How to deploy softwares with teledeployment "
-"module|documentation/fi4g/deploy]]"
+"[[How to deploy softwares with teledeployment module|documentation/fi4g/"
+"deploy]]"
 msgstr ""
 
 #. type: Bullet: '* '
@@ -97,8 +101,8 @@ msgstr ""
 
 #. type: Bullet: '* '
 msgid ""
-"[[My computer does not show up in "
-"GLPI|documentation/troubleshooting/inventory-in-glpi]]"
+"[[My computer does not show up in GLPI|documentation/troubleshooting/"
+"inventory-in-glpi]]"
 msgstr ""
 
 #. type: Bullet: '* '
