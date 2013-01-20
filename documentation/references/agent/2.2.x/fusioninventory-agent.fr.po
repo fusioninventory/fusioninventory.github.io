@@ -19,24 +19,28 @@ msgstr ""
 #. type: Title #
 #, no-wrap
 msgid "NAME"
-msgstr ""
+msgstr "Nom"
 
 #. type: Plain text
 msgid ""
 "fusioninventory-agent - FusionInventory agent For Linux/UNIX, Windows and "
 "MacOSX"
 msgstr ""
+"fusioninventory-agent - Agent FusionInventory pour Linux/UNIX, Windows et "
+"MacOSX"
 
 #. type: Title #
 #, no-wrap
 msgid "SYNOPSIS"
-msgstr ""
+msgstr "SYNOPSIS"
 
 #. type: Plain text
 msgid ""
 "__fusioninventory-agent__ \\[options\\] \\[--server server|--local "
 "directory|--sdout\\]"
 msgstr ""
+"__fusioninventory-agent__ \\[options\\] \\[--server serveur|--local "
+"dossier|--sdout\\]"
 
 #. type: Plain text
 #, no-wrap
@@ -46,6 +50,10 @@ msgid ""
 "      -l --local=DIR      write tasks results in a directory\n"
 "      --stdout            write tasks result on STDOUT\n"
 msgstr ""
+"    Options pour definir la destination des résultats\n"
+"      -s --server=URI     Envoyer les résultats à un serveur\n"
+"      -l --local=DIR      Écrire les résultats dans un dossier\n"
+"      --stdout            Envoyer les résultats sur la sortie STDOUT\n"
 
 #. type: Plain text
 #, no-wrap
@@ -58,6 +66,13 @@ msgid ""
 "      --lazy                      do not contact the target before next "
 "scheduled time\n"
 msgstr ""
+"    Options de planification de l'agent\n"
+"      --delaytime=DURÉE        Temps initial maximal avant le 1er lancement, "
+"en seconds (3600)\n"
+"      -w --wait=DURÉE          Délai maximal entre chaque lancement, en "
+"seconds\n"
+"      --lazy                     Ne pas lancer l'agent avant la prochaine "
+"heure planifiée\n"
 
 #. type: Plain text
 #, no-wrap
@@ -66,6 +81,9 @@ msgid ""
 "      --list-tasks        list available tasks and exit\n"
 "      --no-task=TASK      do not run given task\n"
 msgstr ""
+"    Options de selection des tâches\n"
+"      --list-tasks        Liste les tâches valides et sortie\n"
+"      --no-task=TASK      ne pas exécuter la tâche donnée\n"
 
 #. type: Plain text
 #, no-wrap
@@ -80,6 +98,19 @@ msgid ""
 "(30)\n"
 "      --additional-content=FILE   additional inventory content\n"
 msgstr ""
+"    Options spécifiques de l'inventaire\n"
+"      --no-category=CATÉGORIE  ne dresse pas la liste des éléments "
+"de catégorie donnée\n"
+"      --scan-homedirs          Active l'analyse des dossiers "
+"personnels (false)\n"
+"      --html                   Enregistre l'inventaire en HTML "
+"(false)\n"
+"      -f --force               Toujours envoyer les données au "
+"serveur (false)\n"
+"      -t --tag=TAG             Assigne à la machine ce TAG\n"
+"      --backend-collect-timeout   délai d'attente pour l'exécution "
+"des modules d'inventaire (30)\n"
+"      --additional-content=FILE   contenu inventaire supplémentaire\n"
 
 #. type: Plain text
 #, no-wrap
