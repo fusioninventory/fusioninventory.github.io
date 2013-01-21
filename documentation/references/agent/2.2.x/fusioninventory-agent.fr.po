@@ -135,6 +135,16 @@ msgid ""
 "      --no-ssl-check      do not check server SSL certificates (false)\n"
 "      --timeout           connection timeout (180)\n"
 msgstr ""
+"    Options réseau:\n"
+"      -P --proxy=PROXY    adresse du proxy\n"
+"      -u --user=USER      Nom pour authentification sur le serveur\n"
+"      -p --password=PWD   Mot de passe pour authentification sur le "
+"serveur\n"
+"      --ca-cert-dir=D     Chemin du dossier du certificat CA-cert\n"
+"      --ca-cert-file=F    Chemin du fichier CA-cert\n"
+"      --no-ssl-check      Ne pas vérifier le certificat SSL du "
+"serveur(false)\n"
+"      --timeout           Délai maxi de connexion (180)\n"
 
 #. type: Plain text
 #, no-wrap
