@@ -119,6 +119,9 @@ msgid ""
 "      --no-p2p            do not use peer to peer to download files "
 "(false)\n"
 msgstr ""
+"    Option spécifique au tâche de déploiement de paquet\n"
+"      --no-p2p            Ne pas utiliser le téléchargement de fichier "
+"par peer to peer (P2P) (false)\n"
 
 #. type: Plain text
 #, no-wrap
