@@ -156,6 +156,15 @@ msgid ""
 "      --httpd-trust=RANGE        trust requests from range without "
 "authentication token (false)\n"
 msgstr ""
+"    Options de l'interface web de l'agent\n"
+"      --no-httpd                 Désactive le serveur web intégré "
+"(false)\n"
+"      --httpd-ip=IP              Adresse IP utilisée par l'interface "
+"web\n"
+"      --httpd-port=PORT          Port réseau utilisé par l'interface "
+"web(62354)\n"
+"      --httpd-trust=RANGE        Accepter les requêtes de la plage "
+"désignée sans authentification \n"
 
 #. type: Plain text
 #, no-wrap
