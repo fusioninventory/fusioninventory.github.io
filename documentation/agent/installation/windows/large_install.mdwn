@@ -49,7 +49,7 @@ Or if you want to run the install on all the computer of your domain:
 
 ## GPO to deploy the agent on all the machines of the Windows domain
 
-Create a machine GPO, copy the script within and associate the fusioninventory.vbs script.
+Create a GPO and copy the script within and associate the fusioninventory.vbs script. The GPO has to be configured to run during machine start up.
 
 You may be interested by these two GPO templates:
 
