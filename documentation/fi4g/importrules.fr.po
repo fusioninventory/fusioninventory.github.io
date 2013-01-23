@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2013-01-23 14:34+0000\n"
+"POT-Creation-Date: 2013-01-23 14:46+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -164,4 +164,18 @@ msgstr ""
 
 #. type: Bullet: '* '
 msgid "_FusionInventory link_ > _Import denied_"
+msgstr ""
+
+#. type: Title #
+#, no-wrap
+msgid "Example"
+msgstr ""
+
+#. type: Plain text
+#, no-wrap
+msgid ""
+"[[!graph  src=\"\n"
+"a -> b -> c;\n"
+"a -> c;\n"
+"\"]]\n"
 msgstr ""
