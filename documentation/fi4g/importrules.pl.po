@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2013-01-23 17:03+0000\n"
+"POT-Creation-Date: 2013-01-23 17:05+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -133,10 +133,8 @@ msgid "Network Inventory (switches, printers...)"
 msgstr ""
 
 #. type: Plain text
-msgid ""
-"__IMPORTANT:__ When network inventory get MAC addresses of devices on each "
-"port of a switch and search in GLPI if this mac address exist, theses rules "
-"is not played!"
+#, no-wrap
+msgid "[[!template  id=note text=\"Port MAC addresses from network switch are not used as criterias\"]]\n"
 msgstr ""
 
 #. type: Title ##
