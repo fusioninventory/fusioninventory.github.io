@@ -63,7 +63,7 @@ It's played in these cases:
 * Network discovery 
 * Network Inventory (switches, printers...)
 
-__IMPORTANT:__ When network inventory get MAC addresses of devices on each port of a switch and search in GLPI if this mac address exist, theses rules is not played!
+[[!template  id=note text="Port MAC addresses from network switch are not used as criterias"]]
 
 ## Criteria of a rule
 
