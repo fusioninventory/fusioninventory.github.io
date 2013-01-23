@@ -1,5 +1,8 @@
 # How works 'Equipment import and link rules'
 
+[[!template  id=warning text="“Equipment import and link rules” are complex and misconfiguration can seriously hurt your GLPI."]]
+
+
 ## First thing to know
 
 The rules engine goal is to detect if a device exists
