@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2013-01-23 17:16+0000\n"
+"POT-Creation-Date: 2013-01-23 17:19+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -15,11 +15,6 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-
-#. type: Plain text
-#, no-wrap
-msgid "[[!toc levels=3]]\n"
-msgstr ""
 
 #. type: Title #
 #, no-wrap
@@ -29,8 +24,12 @@ msgstr ""
 #. type: Plain text
 msgid ""
 "To get complete inventory of switches, printers and other devices over the "
-"network, we use SNMP models.  An SNMP model is an XML file that will match "
-"an OID to a field in a GLPI network device object."
+"network, we use SNMP.  Depending on the device, SNMP query may be very "
+"different and we use some kind of “driver”."
+msgstr ""
+
+#. type: Plain text
+msgid "An SNMP model is an XML file that will map OID to GLPI fields."
 msgstr ""
 
 #. type: Plain text
@@ -74,7 +73,9 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-msgid "The tool is available since FusionInventory for GLPI (0.83+2.0)."
+msgid ""
+"Since FusionInventory for GLPI 0.83+2.0, we provide a tool to create "
+"yourself your model fil."
 msgstr ""
 
 #. type: Title #
