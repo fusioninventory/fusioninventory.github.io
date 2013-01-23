@@ -1,8 +1,11 @@
 # Installation of the Agent on Fedora, RHEL, Centos and other RHEL clones
 
+[[!template  id=warning text="rpmforge RPM are not compatible with RPM from EPEL. Please remove rpmforge RPM before installing FusionInventory-Agent."]]
+
 The RPM-Packages was maintained by Remi Collet. He resigned, a new maintainer is welcome.
 
 ## RHEL, Centos 4
+
 *fusioninventory-agent* is available in the *remi* repository for EL >= 4
 
     # rpm -Uvh http://rpms.famillecollet.com/enterprise/remi-release-4.rpm
@@ -18,7 +21,8 @@ To install FusionInventory-Agent, simply execute the following command:
 
     # yum --enablerepo=remi install fusioninventory-agent
 
-## RHEL/Centos 6.X 
+## RHEL/Centos 6.X
+
 *fusioninventory-agent* is available in the *EPEL6* repository. You need to enable this repository.
 
     # rpm -Uvh http://dl.fedoraproject.org/pub/epel/6/i386/epel-release-6-7.noarch.rpm
@@ -91,9 +95,11 @@ When configured, start the service
     # service fusioninventory-agent start
 
 ## Force inventory 
-    $ wget http://127.0.0.1:62354/now -O /tmp/now
+
+    # fusioninventory-agent
 
 ## Debug Agent
+
 You can see the log in /var/log/fusioninventory-agent/fusioninventory-agent.log
 
     # tail -f /var/log/fusioninventory-agent/fusioninventory-agent.log
