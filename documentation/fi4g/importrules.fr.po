@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2013-01-11 14:06+0000\n"
+"POT-Creation-Date: 2013-01-23 14:34+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -40,7 +40,7 @@ msgid "It's played in these cases:"
 msgstr ""
 
 #. type: Bullet: '* '
-msgid "Computer inventory (and so too ESX inventory)"
+msgid "Computer inventory, including ESX servers"
 msgstr ""
 
 #. type: Bullet: '* '
@@ -73,7 +73,9 @@ msgid "Normal criteria"
 msgstr ""
 
 #. type: Plain text
-msgid "The normal criteria are defined by:"
+msgid ""
+"The normal criteria are defined by an information (IP, MAC, etc) and a "
+"filter:"
 msgstr ""
 
 #. type: Bullet: '* '
@@ -125,20 +127,10 @@ msgstr ""
 msgid "Global criteria"
 msgstr ""
 
-#. type: Plain text
-msgid ""
-"If all _normal criteria_ are checked, run these global criteria and defined "
-"by:"
-msgstr ""
-
 #. type: Bullet: '* '
 msgid ""
-"_is already present in GLPI_: search in GLPI database if the device exist "
-"with this value defined"
-msgstr ""
-
-#. type: Bullet: '* '
-msgid "_is empty in GLPI_"
+"_Search GLPI equipement with this status_: search in GLPI database if the "
+"device exist with value defined"
 msgstr ""
 
 #. type: Plain text
@@ -172,8 +164,4 @@ msgstr ""
 
 #. type: Bullet: '* '
 msgid "_FusionInventory link_ > _Import denied_"
-msgstr ""
-
-#. type: Bullet: '* '
-msgid "_To be unaware of import_"
 msgstr ""
