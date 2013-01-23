@@ -9,7 +9,7 @@ There are 2 cases for allow them:
 * Allow all: in menu _plugins_ > _FusionInventory_ > _Configuration_ and in tab _Agents modules_. You can check _Network discovery_ by default.
 * Allow ony some agents: in menu _plugins_ > _FusionInventory_ > _FusionInventory_ > _Agents management_ go in agent form and in tab _Agents modules_, check _Network discovery_.
 
-__ATTENTION__: if you want to get switches, it use SNMP and check if you don't have only some computers allowed to query them (ACL)
+[[!template  id=warning text="If you want to get switches, it use SNMP and check if you don't have only some computers allowed to query them (ACL)."]]
 
 ## Define number of threads
 
