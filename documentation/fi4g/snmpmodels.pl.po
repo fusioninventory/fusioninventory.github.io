@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2013-01-23 17:14+0000\n"
+"POT-Creation-Date: 2013-01-23 17:16+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -62,23 +62,15 @@ msgstr ""
 #. type: Plain text
 #, no-wrap
 msgid ""
-"        subgraph cluster_1 {\n"
-"                style=filled;\n"
-"                color=lightgrey;\n"
-"                node [style=filled,color=white];\n"
-"                \"XML\" -> \"collector\" \n"
-"                label = \"FusionInventory for GLPI\";\n"
-"        }\n"
+"     \"device\" -> \"SNMP\";\n"
+"     \"XML\" -> \"FusionInventory for GLPI\" \n"
 msgstr ""
 
 #. type: Plain text
 #, no-wrap
-msgid "    \"device\" -> \"SNMP\";\n"
-msgstr ""
-
-#. type: Plain text
-#, no-wrap
-msgid "    \"device\" [ shape = \"Mrecord\" ];\n"
+msgid ""
+"    \"SNMP\" [ shape = \"Mrecord\" ];\n"
+"    \"XML\" [ shape = \"Mrecord\" ];\n"
 msgstr ""
 
 #. type: Plain text
