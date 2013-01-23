@@ -119,6 +119,9 @@ msgid ""
 "      --no-p2p            do not use peer to peer to download files "
 "(false)\n"
 msgstr ""
+"    Option spécifique au tâche de déploiement de paquet\n"
+"      --no-p2p            Ne pas utiliser le téléchargement de fichier "
+"par peer to peer (P2P) (false)\n"
 
 #. type: Plain text
 #, no-wrap
@@ -132,6 +135,16 @@ msgid ""
 "      --no-ssl-check      do not check server SSL certificates (false)\n"
 "      --timeout           connection timeout (180)\n"
 msgstr ""
+"    Options réseau:\n"
+"      -P --proxy=PROXY    adresse du proxy\n"
+"      -u --user=USER      Nom pour authentification sur le serveur\n"
+"      -p --password=PWD   Mot de passe pour authentification sur le "
+"serveur\n"
+"      --ca-cert-dir=D     Chemin du dossier du certificat CA-cert\n"
+"      --ca-cert-file=F    Chemin du fichier CA-cert\n"
+"      --no-ssl-check      Ne pas vérifier le certificat SSL du "
+"serveur(false)\n"
+"      --timeout           Délai maxi de connexion (180)\n"
 
 #. type: Plain text
 #, no-wrap
@@ -143,6 +156,15 @@ msgid ""
 "      --httpd-trust=RANGE        trust requests from range without "
 "authentication token (false)\n"
 msgstr ""
+"    Options de l'interface web de l'agent\n"
+"      --no-httpd                 Désactive le serveur web intégré "
+"(false)\n"
+"      --httpd-ip=IP              Adresse IP utilisée par l'interface "
+"web\n"
+"      --httpd-port=PORT          Port réseau utilisé par l'interface "
+"web(62354)\n"
+"      --httpd-trust=RANGE        Accepter les requêtes de la plage "
+"désignée sans authentification \n"
 
 #. type: Plain text
 #, no-wrap
@@ -151,10 +173,21 @@ msgid ""
 "      --logger=BACKEND            logger backend [Stderr|File|Syslog] "
 "(Stderr)\n"
 "      --logfile=FILE              log file\n"
-"      --logfile-maxsize=X         maximum size of the log file in MB (0)\n"
+"      --logfile-maxsize=X         maximum size of the log file in MB "
+"(0)\n"
 "      --logfacility=FACILITY      syslog facility (LOG_USER)\n"
 "      --color                     use color in the console (false)\n"
 msgstr ""
+"    Options du log\n"
+"      --logger=BACKEND            Type de log [Stderr=>sortie erreur|"
+"File=>fichier|Syslog=>gestionnaire log] (Stderr)\n"
+"      --logfile=FILE              Nom du fichier de log\n"
+"      --logfile-maxsize=X         Taille maxi du fichier de log en MB "
+"(0)\n"
+"      --logfacility=FACILITY      Option facility pour syslog "
+"(LOG_USER)\n"
+"      --color                     Utiliser la couleur dans la console "
+"(false)\n"
 
 #. type: Plain text
 #, no-wrap
@@ -164,6 +197,10 @@ msgid ""
 "[file|registry|none]\n"
 "      --conf-file=FILE            configuration file\n"
 msgstr ""
+"    Options de configuration\n"
+"      --config=BACKEND            Type de configuration "
+"[file=>fichier|registry=>base de registre|aucune]\n"
+"      --conf-file=FILE            Fichier de configuration\n"
 
 #. type: Plain text
 #, no-wrap
@@ -174,11 +211,17 @@ msgid ""
 "      --debug                     debug mode (false)\n"
 "      --version                   print the version and exit\n"
 msgstr ""
+"    Options sur le mode d'exécution\n"
+"      -d --daemon                 Lance l'agent en mode démon(false)\n"
+"      --no-fork                   Ne pas dupliquer en arrière plan"
+"(false)\n"
+"      --debug                     Mode debug (false)\n"
+"      --version                   Affiche juste la version\n"
 
 #. type: Title #
 #, no-wrap
 msgid "EXAMPLES"
-msgstr ""
+msgstr "EXEMPLES"
 
 #. type: Plain text
 #, no-wrap
@@ -186,6 +229,8 @@ msgid ""
 "    % fusioninventory-agent --server localhost\n"
 "    # execute all available tasks required by a local server\n"
 msgstr ""
+"    % fusioninventory-agent --server localhost\n"
+"    # Exécute toutes les tâches valides requis par le serveur local\n"
 
 #. type: Plain text
 #, no-wrap
@@ -195,6 +240,10 @@ msgid ""
 "specific\n"
 "    # URI\n"
 msgstr ""
+"    % fusioninventory-agent --server http://localhost/ocsinventory2\n"
+"    # Exécute toutes les tâches valides requis par le serveur en "
+"utilisant"
+" l'URI spécifiée\n"
 
 #. type: Plain text
 #, no-wrap
@@ -204,6 +253,10 @@ msgid ""
 "secure\n"
 "    # connection\n"
 msgstr ""
+"    % fusioninventory-agent --server https://localhost/ocsinventory\n"
+"    # Exécute toutes les tâches valides requis par le serveur en "
+"utilisant"
+" une connexion sécurisée\n"
 
 #. type: Plain text
 #, no-wrap
@@ -213,6 +266,10 @@ msgid ""
 "    # execute all available tasks required by a local server, using HTTP\n"
 "    # authentication\n"
 msgstr ""
+"    % fusioninventory-agent --server localhost --user test --password "
+"s3cr3t\n"
+"    # Exécute toutes les tâches valides requis par le serveur local, "
+" en utilisant une authentification HTTP\n"
 
 #. type: Plain text
 #, no-wrap
@@ -220,6 +277,10 @@ msgid ""
 "    % fusioninventory-agent --local /tmp\n"
 "    # execute all available tasks and write the result in /tmp directory\n"
 msgstr ""
+"    % fusioninventory-agent --local /tmp\n"
+"    # Exécute toutes les tâches valides et écrire le résultat "
+"dans un dossier"
+" temporaire (tmp)\n"
 
 #. type: Plain text
 #, no-wrap
@@ -229,11 +290,15 @@ msgid ""
 "in\n"
 "    # HTML format\n"
 msgstr ""
+"    % fusioninventory-agent --local /tmp --html\n"
+"    # Exécute toutes les tâches valides et écrire le résultat dans un "
+"dossier "
+" temporaire (tmp) dans un format HTML\n"
 
 #. type: Title #
 #, no-wrap
 msgid "DESCRIPTION"
-msgstr ""
+msgstr "DESCRIPTION"
 
 #. type: Plain text
 msgid ""
