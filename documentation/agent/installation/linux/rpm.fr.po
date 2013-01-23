@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2013-01-17 14:58+0000\n"
+"POT-Creation-Date: 2013-01-23 15:42+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -20,6 +20,11 @@ msgstr ""
 #, no-wrap
 msgid "Installation of the Agent on Fedora, RHEL, Centos and other RHEL clones"
 msgstr "Installation de l'agent pour Fedora, RHEL, Centos et autres clones de RHEL"
+
+#. type: Plain text
+#, no-wrap
+msgid "[[!template  id=warning text=\"rpmforge RPM are not compatible with RPM from EPEL. Please remove rpmforge RPM before installing FusionInventory-Agent.\"]]\n"
+msgstr ""
 
 #. type: Plain text
 msgid ""
@@ -78,8 +83,9 @@ msgid "    # yum --enablerepo=remi install fusioninventory-agent\n"
 msgstr "    # yum --enablerepo=remi install fusioninventory-agent\n"
 
 #. type: Title ##
-#, no-wrap
-msgid "RHEL/Centos 6.X "
+#, fuzzy, no-wrap
+#| msgid "RHEL/Centos 6.X "
+msgid "RHEL/Centos 6.X"
 msgstr "RHEL/Centos 6.X"
 
 #. type: Plain text
@@ -294,9 +300,10 @@ msgid "Force inventory "
 msgstr "Forcer l'inventaire"
 
 #. type: Plain text
-#, no-wrap
-msgid "    $ wget http://127.0.0.1:62354/now -O /tmp/now\n"
-msgstr "    $ wget http://127.0.0.1:62354/now -O /tmp/now\n"
+#, fuzzy, no-wrap
+#| msgid "    # service fusioninventory-agent start\n"
+msgid "    # fusioninventory-agent\n"
+msgstr "    # service fusioninventory-agent start\n"
 
 #. type: Title ##
 #, no-wrap
@@ -315,3 +322,6 @@ msgstr ""
 #, no-wrap
 msgid "    # tail -f /var/log/fusioninventory-agent/fusioninventory-agent.log\n"
 msgstr "    # tail -f /var/log/fusioninventory-agent/fusioninventory-agent.log\n"
+
+#~ msgid "    $ wget http://127.0.0.1:62354/now -O /tmp/now\n"
+#~ msgstr "    $ wget http://127.0.0.1:62354/now -O /tmp/now\n"
