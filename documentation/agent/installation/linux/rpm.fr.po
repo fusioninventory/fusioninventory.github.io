@@ -24,7 +24,7 @@ msgstr "Installation de l'agent pour Fedora, RHEL, Centos et autres clones de RH
 #. type: Plain text
 #, no-wrap
 msgid "[[!template  id=warning text=\"rpmforge RPM are not compatible with RPM from EPEL. Please remove rpmforge RPM before installing FusionInventory-Agent.\"]]\n"
-msgstr ""
+msgstr "[[!template  id=warning text=\"rpmforge RPM n'est pas compatible avec les RPM de EPEL. Merci de retirer les RPM rpmforge avant de commencer l'installation de FusionInventory-Agent.\"]]\n"
 
 #. type: Plain text
 msgid ""
