@@ -20,18 +20,12 @@ An SNMP model is an XML file that will match an OID to a field in a GLPI network
                 label = "FusionInventory Agent";
         }
 
-        subgraph cluster_1 {
-                style=filled;
-                color=lightgrey;
-                node [style=filled,color=white];
-                "XML" -> "collector" 
-                label = "FusionInventory for GLPI";
-        }
 
+     "device" -> "SNMP";
+     "XML" -> "FusionInventory for GLPI" 
 
-    "device" -> "SNMP";
-
-    "device" [ shape = "Mrecord" ];
+    "SNMP" [ shape = "Mrecord" ];
+    "XML" [ shape = "Mrecord" ];
 
 """]]
 
