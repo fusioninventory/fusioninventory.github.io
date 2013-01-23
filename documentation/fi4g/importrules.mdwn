@@ -2,6 +2,21 @@
 
 ## First thing to know
 
+The rules engine goal is to detect if a device exists
+of if it has to be created.
+
+The rule engine is used for:
+
+* computer
+* network devices
+* network printer
+
+Common problems related to the rule engine are:
+
+* duplicated device.
+* device pushed in the “Ignored import devices”
+
+
 [[!graph  src="""
 
     style=filled;
@@ -17,8 +32,10 @@
                 "collector" -> "EQUIPMENT IMPORT AND LINK RULES";
                 "EQUIPMENT IMPORT AND LINK RULES" -> "machine found";
                 "EQUIPMENT IMPORT AND LINK RULES" -> "machine not found";
+                "EQUIPMENT IMPORT AND LINK RULES" -> "not enough criterias";
                 "machine found" -> "update";
                 "machine not found" -> "create";
+                "not enough criterias" -> "pushed in ignored import list";
                 "create" -> "machine found";
                 label = "GLPI";
         }
@@ -27,6 +44,7 @@
     "Inventory" -> "collector";
     "machine found" [ shape = "Mrecord" ];
     "machine not found" [ shape = "Mrecord" ];
+    "not enough criterias" [ shape = "Mrecord" ];
 
 """]]
 
