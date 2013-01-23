@@ -2,6 +2,36 @@
 
 ## First thing to know
 
+[[!graph  src="""
+
+    style=filled;
+    color=lightgrey;
+    node [shape=box, color=purple];
+    size = "5, 5";
+
+
+        subgraph cluster_0 {
+                style=filled;
+                color=lightgrey;
+                node [style=filled,color=white];
+                "collector" -> "EQUIPMENT IMPORT AND LINK RULES";
+                "rules engine" -> "machine found";
+                "rules engine" -> "machine not found";
+                "machine found" -> "update";
+                "machine not found" -> "create";
+                "machine found" -> "create";
+                label = "GLPI";
+        }
+
+
+    "Inventory" -> "collector";
+    "machine found" [ shape = "Mrecord" ];
+    "machine not found" [ shape = "Mrecord" ];
+
+"""]]
+
+
+
 The engine stops on the first checked rule.
 
 ## When these rules are played?
