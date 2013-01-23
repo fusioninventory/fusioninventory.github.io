@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2013-01-11 14:06+0000\n"
+"POT-Creation-Date: 2013-01-23 17:08+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -48,9 +48,8 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-msgid ""
-"__ATTENTION__: if you want to get switches, it use SNMP and check if you "
-"don't have only some computers allowed to query them (ACL)"
+#, no-wrap
+msgid "[[!template  id=warning text=\"If you want to get switches, it use SNMP and check if you don't have only some computers allowed to query them (ACL).\"]]\n"
 msgstr ""
 
 #. type: Title ##
@@ -72,8 +71,8 @@ msgstr ""
 #. type: Bullet: '* '
 msgid ""
 "General configuration: You can define it for all agents, in menu _plugins_ > "
-"_FusionInventory_ > _Configuration_ and in tab _FusionInventory "
-"SNMP_. define value _Threads number (network discovery)_."
+"_FusionInventory_ > _Configuration_ and in tab _FusionInventory SNMP_. "
+"define value _Threads number (network discovery)_."
 msgstr ""
 
 #. type: Bullet: '* '
