@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2013-01-23 15:35+0000\n"
+"POT-Creation-Date: 2013-01-23 16:49+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -24,6 +24,45 @@ msgstr ""
 #. type: Title ##
 #, no-wrap
 msgid "First thing to know"
+msgstr ""
+
+#. type: Plain text
+#, no-wrap
+msgid "[[!graph  src=\"\"\"\n"
+msgstr ""
+
+#. type: Plain text
+#, no-wrap
+msgid ""
+"    style=filled;\n"
+"    color=lightgrey;\n"
+"    node [shape=box, color=purple];\n"
+"    size = \"5, 5\";\n"
+msgstr ""
+
+#. type: Plain text
+#, no-wrap
+msgid ""
+"        subgraph cluster_0 {\n"
+"                style=filled;\n"
+"                color=lightgrey;\n"
+"                node [style=filled,color=white];\n"
+"                \"collector\" -> \"EQUIPMENT IMPORT AND LINK RULES\";\n"
+"                \"rules engine\" -> \"machine found\";\n"
+"                \"rules engine\" -> \"machine not found\";\n"
+"                \"machine found\" -> \"update\";\n"
+"                \"machine not found\" -> \"create\";\n"
+"                \"machine found\" -> \"create\";\n"
+"                label = \"GLPI\";\n"
+"        }\n"
+msgstr ""
+
+#. type: Plain text
+#, no-wrap
+msgid ""
+"    \"Inventory\" -> \"collector\";\n"
+"    \"machine found\" [ shape = \"Mrecord\" ];\n"
+"    \"machine not found\" [ shape = \"Mrecord\" ];\n"
 msgstr ""
 
 #. type: Plain text
