@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2013-01-11 14:06+0000\n"
+"POT-Creation-Date: 2013-01-23 16:20+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -15,6 +15,73 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+
+#. type: Title #
+#, no-wrap
+msgid "Introduction"
+msgstr ""
+
+#. type: Plain text
+msgid ""
+"FusionInventory can contact a ESX/ESXi/vCenter serveur using the VMware SOAP "
+"API.  It will identify the ESX server and the associated virtual machine. At "
+"the end, it will push XML inventory of the machines to the server."
+msgstr ""
+
+#. type: Plain text
+msgid "FusionInventory *DO NOT* use VMware Perl library."
+msgstr ""
+
+#. type: Plain text
+#, no-wrap
+msgid "[[!graph  src=\"\n"
+msgstr ""
+
+#. type: Plain text
+msgid "digraph G {"
+msgstr ""
+
+#. type: Plain text
+#, no-wrap
+msgid ""
+"    style=filled;\n"
+"    color=lightgrey;\n"
+"    node [shape=box, color=purple];\n"
+"    size = \"5, 5\";\n"
+msgstr ""
+
+#. type: Plain text
+#, no-wrap
+msgid ""
+"        subgraph cluster_0 {\n"
+"                style=filled;\n"
+"                color=lightgrey;\n"
+"                node [style=filled,color=white];\n"
+"    \"vCenter1\" -> \"esx1\" -> \"vCenter1\";\n"
+"    \"vCenter1\" -> \"esx2\" -> \"vCenter1\";\n"
+"    \"vCenter1\" -> \"esx3\" -> \"vCenter1\";\n"
+"    \"esx1\" -> \"vm1\" -> \"esx1\";\n"
+"    \"esx2\" -> \"vm2\" -> \"esx2\";\n"
+"    \"esx2\" -> \"vm3\" -> \"esx2\";\n"
+"    \"esx3\" -> \"vm4\" -> \"esx3\";\n"
+"    \"esx3\" -> \"vm5\" -> \"esx3\";\n"
+"    \"esx4\" -> \"vm6\" -> \"esx4\";\n"
+"                label = \"VMware API\";\n"
+"        }\n"
+msgstr ""
+
+#. type: Plain text
+#, no-wrap
+msgid ""
+"    \"Serveur\" -> \"Agent\" -> \"Serveur\";\n"
+"    \"Agent\" -> \"vCenter1\" -> \"Agent\";\n"
+"    \"Agent\" -> \"esx4\" -> \"Agent\";\n"
+"}\n"
+msgstr ""
+
+#. type: Plain text
+msgid "\"]]"
+msgstr ""
 
 #. type: Title #
 #, no-wrap
@@ -50,8 +117,8 @@ msgstr ""
 
 #. type: Plain text
 msgid ""
-"From Source, see the [[agent source installation "
-"page|documentation/agent/installation/source]]."
+"From Source, see the [[agent source installation page|documentation/agent/"
+"installation/source]]."
 msgstr ""
 
 #. type: Title #
@@ -80,11 +147,8 @@ msgstr ""
 #. type: Plain text
 #, no-wrap
 msgid ""
-"    # fusioninventory-esx --user root --password password --host esx-server "
-"--directory /tmp\n"
-"    # fusioninventory-injector -v --file "
-"/tmp/esx-server-2011-01-25-14-11-07.ocs -u "
-"https://myserver/plugins/fusioninventory/\n"
+"    # fusioninventory-esx --user root --password password --host esx-server --directory /tmp\n"
+"    # fusioninventory-injector -v --file /tmp/esx-server-2011-01-25-14-11-07.ocs -u https://myserver/plugins/fusioninventory/\n"
 msgstr ""
 
 #. type: Title #
@@ -131,14 +195,13 @@ msgid "Add an authentification :"
 msgstr ""
 
 #. type: Plain text
-msgid "Goto Plugins → FusionInventory → Authentication for remote devices (VMware)"
+msgid ""
+"Goto Plugins → FusionInventory → Authentication for remote devices (VMware)"
 msgstr ""
 
 #. type: Plain text
 #, no-wrap
-msgid ""
-"[[!img 02_authentification_vcenter.png align=\"center\" size=\"500x167\" "
-"alt=\"\"]]\n"
+msgid "[[!img 02_authentification_vcenter.png align=\"center\" size=\"500x167\" alt=\"\"]]\n"
 msgstr ""
 
 #. type: Title ###
