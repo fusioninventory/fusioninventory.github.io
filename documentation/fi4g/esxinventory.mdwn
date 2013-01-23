@@ -1,3 +1,48 @@
+# Introduction
+
+FusionInventory can contact a ESX/ESXi/vCenter serveur using the VMware SOAP API.
+It will identify the ESX server and the associated virtual machine. At the
+end, it will push XML inventory of the machines to the server.
+
+FusionInventory *DO NOT* use VMware Perl library.
+
+
+[[!graph  src="
+
+digraph G {
+
+    style=filled;
+    color=lightgrey;
+    node [shape=box, color=purple];
+    size = "5, 5";
+
+
+        subgraph cluster_0 {
+                style=filled;
+                color=lightgrey;
+                node [style=filled,color=white];
+    "vCenter1" -> "esx1" -> "vCenter1";
+    "vCenter1" -> "esx2" -> "vCenter1";
+    "vCenter1" -> "esx3" -> "vCenter1";
+    "esx1" -> "vm1" -> "esx1";
+    "esx2" -> "vm2" -> "esx2";
+    "esx2" -> "vm3" -> "esx2";
+    "esx3" -> "vm4" -> "esx3";
+    "esx3" -> "vm5" -> "esx3";
+    "esx4" -> "vm6" -> "esx4";
+                label = "VMware API";
+        }
+
+
+
+    "Serveur" -> "Agent" -> "Serveur";
+    "Agent" -> "vCenter1" -> "Agent";
+    "Agent" -> "esx4" -> "Agent";
+}
+
+
+"]]
+
 # Installation
 To inventory ESX or Vcenter, there is no specific agent to be installed on the ESX. The Fusioninventory agent installed on Windows or Linux, will inventory remotely by a automatic task.
 For Windows host, the Fusioninventory Agent comes with the module. For Linux distribution, you must install a additional package.
