@@ -35,7 +35,7 @@ Common problems related to the rule engine are:
                 "EQUIPMENT IMPORT AND LINK RULES" -> "not enough criterias";
                 "machine found" -> "update";
                 "machine not found" -> "create";
-                "not enough criterias" -> "pushed in ignored import list";
+                "not enough criterias" -> "pushed in “Ignored import list”";
                 "create" -> "machine found";
                 label = "GLPI";
         }
