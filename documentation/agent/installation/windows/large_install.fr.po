@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2013-01-11 14:06+0000\n"
+"POT-Creation-Date: 2013-01-23 15:53+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -28,11 +28,11 @@ msgstr "fusioninventory.vbs"
 
 #. type: Plain text
 msgid ""
-"[[fusioninventory.vbs|documentation/agent/installation/windows/fusioninventory.vbs]] "
-"is a VBS script used to:"
+"[[fusioninventory.vbs|documentation/agent/installation/windows/"
+"fusioninventory.vbs]] is a VBS script used to:"
 msgstr ""
-"[[fusioninventory.vbs|documentation/agent/installation/windows/fusioninventory.vbs]] "
-"est un script à utiliser comme suis:"
+"[[fusioninventory.vbs|documentation/agent/installation/windows/"
+"fusioninventory.vbs]] est un script à utiliser comme suis:"
 
 #. type: Bullet: '* '
 msgid "Download the fusioninventory Windows installer"
@@ -51,36 +51,25 @@ msgid ""
 "To use this script, you must first download the script and then edit it. The "
 "first lines of the script must be adjusted for your configuration:"
 msgstr ""
-"Pour utiliser ce script, vous devez en premier le télécharger, puis l'éditer. "
-"Les premières lignes de ce script doivent être modifiées pour votre configuration:"
+"Pour utiliser ce script, vous devez en premier le télécharger, puis "
+"l'éditer. Les premières lignes de ce script doivent être modifiées pour "
+"votre configuration:"
 
 #. type: Plain text
 #, no-wrap
 msgid ""
 "    versionverification = \"2.2.6-1\"\n"
-"    fusionarguments = \"/S "
-"/server=http://server1/glpi/plugins/fusioninventory/ /rpc-trust-localhost "
-"/runnow\"\n"
+"    fusionarguments = \"/S /server=http://server1/glpi/plugins/fusioninventory/ /rpc-trust-localhost /runnow\"\n"
 "    ' Depending on your needs, you can use either HTTP or Windows share\n"
-"    'fusionsetupURL = "
-"\"\\\\server1\\data\\fusioninventory-agent_windows-i386_\" & "
-"versionverification & \".exe\"\n"
-"    fusionsetupURL = "
-"\"http://prebuilt.fusioninventory.org/stable/windows-i386/fusioninventory-agent_windows-i386_\" "
-"& versionverification & \".exe\"\n"
+"    'fusionsetupURL = \"\\\\server1\\data\\fusioninventory-agent_windows-i386_\" & versionverification & \".exe\"\n"
+"    fusionsetupURL = \"http://prebuilt.fusioninventory.org/stable/windows-i386/fusioninventory-agent_windows-i386_\" & versionverification & \".exe\"\n"
 "    uninstallocsagent = \"yes\"\n"
 msgstr ""
 "    versionverification = \"2.2.6-1\"\n"
-"    fusionarguments = \"/S "
-"/server=http://server1/glpi/plugins/fusioninventory/ /rpc-trust-localhost "
-"/runnow\"\n"
+"    fusionarguments = \"/S /server=http://server1/glpi/plugins/fusioninventory/ /rpc-trust-localhost /runnow\"\n"
 "    ' Depending on your needs, you can use either HTTP or Windows share\n"
-"    'fusionsetupURL = "
-"\"\\\\server1\\data\\fusioninventory-agent_windows-i386_\" & "
-"versionverification & \".exe\"\n"
-"    fusionsetupURL = "
-"\"http://prebuilt.fusioninventory.org/stable/windows-i386/fusioninventory-agent_windows-i386_\" "
-"& versionverification & \".exe\"\n"
+"    'fusionsetupURL = \"\\\\server1\\data\\fusioninventory-agent_windows-i386_\" & versionverification & \".exe\"\n"
+"    fusionsetupURL = \"http://prebuilt.fusioninventory.org/stable/windows-i386/fusioninventory-agent_windows-i386_\" & versionverification & \".exe\"\n"
 "    uninstallocsagent = \"yes\"\n"
 
 #. type: Bullet: '* '
@@ -89,11 +78,11 @@ msgstr "versionverification: Version de FusionInventory à installer"
 
 #. type: Bullet: '* '
 msgid ""
-"fusionarguments: the command line argument for the [[Windows "
-"installer|documentation/agent/installation/windows]])"
+"fusionarguments: the command line argument for the [[Windows installer|"
+"documentation/agent/installation/windows]])"
 msgstr ""
-"fusionarguments: Options en ligne de commande pour le [[Windows "
-"installer|documentation/agent/installation/windows]])"
+"fusionarguments: Options en ligne de commande pour le [[Windows installer|"
+"documentation/agent/installation/windows]])"
 
 #. type: Bullet: '* '
 msgid ""
@@ -112,21 +101,21 @@ msgid "You can use this script to:"
 msgstr "Vous pouvez utiliser ce script pour:"
 
 #. type: Title ##
-#:  
 #, no-wrap
 msgid "run a silent installation on a given machine"
 msgstr "Lancer une installation silencieuse sur une machine ciblée"
 
 #. type: Title ##
-#:  
 #, no-wrap
 msgid "deploy the agent on your network using psexec"
 msgstr "Déployer l'agent sur votre parc via psexec"
 
 #. type: Bullet: '* '
-msgid "prepare a GPO to deploy the agent on all the machines of the Windows domain"
-msgstr "Préparer une GPO pour déployer l'agent sur toutes les machines du "
-"domaine Windows"
+msgid ""
+"prepare a GPO to deploy the agent on all the machines of the Windows domain"
+msgstr ""
+"Préparer une GPO pour déployer l'agent sur toutes les machines du domaine "
+"Windows"
 
 #. type: Plain text
 msgid "Just double clic on the script or run from a command console:"
@@ -143,17 +132,14 @@ msgstr "Pour lancer le script fusioninventory.vbs sur une machine computer1"
 
 #. type: Plain text
 #, no-wrap
-msgid ""
-"    psexec -u domain\\user \\\\computer1 cscript "
-"\\\\foo\\share\\script.vbs\n"
-msgstr ""
-"    psexec -u domain\\user \\\\computer1 cscript "
-"\\\\foo\\share\\script.vbs\n"
+msgid "    psexec -u domain\\user \\\\computer1 cscript \\\\foo\\share\\script.vbs\n"
+msgstr "    psexec -u domain\\user \\\\computer1 cscript \\\\foo\\share\\script.vbs\n"
 
 #. type: Plain text
 msgid "Or if you want to run the install on all the computer of your domain:"
-msgstr "Ou si vous voulez lancer l'installation sur tous les machines de "
-"votre domaine:"
+msgstr ""
+"Ou si vous voulez lancer l'installation sur tous les machines de votre "
+"domaine:"
 
 #. type: Plain text
 #, no-wrap
@@ -166,23 +152,36 @@ msgid "GPO to deploy the agent on all the machines of the Windows domain"
 msgstr ""
 
 #. type: Plain text
+#, fuzzy
+#| msgid ""
+#| "Create a machine GPO, copy the script within and associate the "
+#| "fusioninventory.vbs script."
 msgid ""
-"Create a machine GPO, copy the script within and associate the "
-"fusioninventory.vbs script."
-msgstr "Créer une GPO machine, copier le script dedans et associer "
-"le script fusioninventory.vbs"
+"Create a GPO and copy the script within and associate the fusioninventory."
+"vbs script. The GPO has to be configured to run during machine start up."
+msgstr ""
+"Créer une GPO machine, copier le script dedans et associer le script "
+"fusioninventory.vbs"
 
 #. type: Plain text
 msgid "You may be interested by these two GPO templates:"
 msgstr "Vous serez peut être intéressés par deux templates GPO:"
 
 #. type: Bullet: '* '
-msgid "[[FusionInventory.adml|documentation/agent/installation/windows/FusionInventory.adml]]"
-msgstr "[[FusionInventory.adml|documentation/agent/installation/windows/FusionInventory.adml]]"
+msgid ""
+"[[FusionInventory.adml|documentation/agent/installation/windows/"
+"FusionInventory.adml]]"
+msgstr ""
+"[[FusionInventory.adml|documentation/agent/installation/windows/"
+"FusionInventory.adml]]"
 
 #. type: Bullet: '* '
-msgid "[[FusionInventory.admx|documentation/agent/installation/windows/FusionInventory.admx]]"
-msgstr "[[FusionInventory.admx|documentation/agent/installation/windows/FusionInventory.admx]]"
+msgid ""
+"[[FusionInventory.admx|documentation/agent/installation/windows/"
+"FusionInventory.admx]]"
+msgstr ""
+"[[FusionInventory.admx|documentation/agent/installation/windows/"
+"FusionInventory.admx]]"
 
 #. type: Title #
 #, no-wrap
@@ -191,17 +190,14 @@ msgstr "Autres scripts VBS"
 
 #. type: Plain text
 msgid ""
-"An [[alternative "
-"script|documentation/agent/installation/windows/fusioninventory-alternative.vbs]] "
-"maintained by ZenAdm also exists."
+"An [[alternative script|documentation/agent/installation/windows/"
+"fusioninventory-alternative.vbs]] maintained by ZenAdm also exists."
 msgstr ""
-"Un [[script alternatif"
-"|documentation/agent/installation/windows/fusioninventory-alternative.vbs]] "
-" maintenu par ZenAdm est aussi disponible."
+"Un [[script alternatif|documentation/agent/installation/windows/"
+"fusioninventory-alternative.vbs]]  maintenu par ZenAdm est aussi disponible."
 
 #. type: Plain text
 msgid ""
 "This script is still *experimental* but it is already much easier to "
 "understand."
-msgstr ""
-"Ce script est *experimental* mais il est plus facile à comprendre."
+msgstr "Ce script est *experimental* mais il est plus facile à comprendre."
