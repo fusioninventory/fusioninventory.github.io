@@ -47,9 +47,3 @@ The actions are defined by:
 * _FusionInventory link_ > _Link if possible, else import denied_: if device is found (in case use a global criteria), update this device, else deny creation of device and so is not be imported in GLPI inventory
 * _FusionInventory link_ > _Import denied_
 
-# Example
-
-[[!graph  src="
-a -> b -> c;
-a -> c;
-"]]
