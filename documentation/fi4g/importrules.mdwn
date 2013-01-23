@@ -67,7 +67,7 @@ It's played in these cases:
 
 ## Criteria of a rule
 
-The criteria have in reality 2 types
+The criteria can be either normal or global.
 
 ### Normal criteria
 
