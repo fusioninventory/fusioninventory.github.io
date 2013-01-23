@@ -8,7 +8,7 @@ The engine stops on the first checked rule.
 
 It's played in these cases:
 
-* Computer inventory (and so too ESX inventory)
+* Computer inventory, including  ESX servers
 * Network discovery 
 * Network Inventory (switches, printers...)
 
@@ -20,7 +20,7 @@ The criteria have in reality 2 types
 
 ### Normal criteria
 
-The normal criteria are defined by:
+The normal criteria are defined by an information (IP, MAC, etc) and a filter:
 
 * _is_
 * _is not_
@@ -34,10 +34,8 @@ The normal criteria are defined by:
 * _does not exist_: mean the value doesn't exist in the inventory come from the agent
 
 ### Global criteria
-If all _normal criteria_ are checked, run these global criteria and defined by:
 
-* _is already present in GLPI_: search in GLPI database if the device exist with this value defined
-* _is empty in GLPI_
+* _Search GLPI equipement with this status_: search in GLPI database if the device exist with value defined
 
 If the device is found, all criteria are checked, this rule is checked and now run the actions
 
@@ -48,5 +46,4 @@ The actions are defined by:
 * _FusionInventory link_ > _Link if possible, else create device_: if device is found (in case use a global criteria), update this device, else create a new device with itemtype defined in inventory (computer, switches...)
 * _FusionInventory link_ > _Link if possible, else import denied_: if device is found (in case use a global criteria), update this device, else deny creation of device and so is not be imported in GLPI inventory
 * _FusionInventory link_ > _Import denied_
-* _To be unaware of import_
 
