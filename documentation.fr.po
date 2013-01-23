@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2013-01-18 16:53+0000\n"
+"POT-Creation-Date: 2013-01-23 14:34+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -47,10 +47,6 @@ msgstr ""
 
 #. type: Bullet: '* '
 msgid "[[Force an inventory|documentation/agent/launch_the_agent]]"
-msgstr ""
-
-#. type: Bullet: '* '
-msgid "[[Extend inventory content|documentation/agent/additional_content]]"
 msgstr ""
 
 #. type: Title #
@@ -124,6 +120,12 @@ msgstr ""
 
 #. type: Bullet: '* '
 msgid "[[Security and SSL|documentation/agent/security_and_ssl]]"
+msgstr ""
+
+#. type: Bullet: '* '
+msgid ""
+"[[Extend a computer inventory content|documentation/agent/"
+"additional_content]]"
 msgstr ""
 
 #. type: Title #
