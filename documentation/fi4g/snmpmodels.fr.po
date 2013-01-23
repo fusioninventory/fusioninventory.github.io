@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2013-01-11 14:06+0000\n"
+"POT-Creation-Date: 2013-01-23 17:14+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -31,6 +31,54 @@ msgid ""
 "To get complete inventory of switches, printers and other devices over the "
 "network, we use SNMP models.  An SNMP model is an XML file that will match "
 "an OID to a field in a GLPI network device object."
+msgstr ""
+
+#. type: Plain text
+#, no-wrap
+msgid "[[!graph  src=\"\"\"\n"
+msgstr ""
+
+#. type: Plain text
+#, no-wrap
+msgid ""
+"    style=filled;\n"
+"    color=lightgrey;\n"
+"    node [shape=box, color=purple];\n"
+"    size = \"5, 5\";\n"
+msgstr ""
+
+#. type: Plain text
+#, no-wrap
+msgid ""
+"        subgraph cluster_0 {\n"
+"                style=filled;\n"
+"                color=lightgrey;\n"
+"                node [style=filled,color=white];\n"
+"                \"SNMP\" -> \"FusionInventory SNMP Model\" -> \"XML\" \n"
+"                label = \"FusionInventory Agent\";\n"
+"        }\n"
+msgstr ""
+
+#. type: Plain text
+#, no-wrap
+msgid ""
+"        subgraph cluster_1 {\n"
+"                style=filled;\n"
+"                color=lightgrey;\n"
+"                node [style=filled,color=white];\n"
+"                \"XML\" -> \"collector\" \n"
+"                label = \"FusionInventory for GLPI\";\n"
+"        }\n"
+msgstr ""
+
+#. type: Plain text
+#, no-wrap
+msgid "    \"device\" -> \"SNMP\";\n"
+msgstr ""
+
+#. type: Plain text
+#, no-wrap
+msgid "    \"device\" [ shape = \"Mrecord\" ];\n"
 msgstr ""
 
 #. type: Plain text
@@ -83,7 +131,8 @@ msgid "User checks OID mapping and sends it to server"
 msgstr ""
 
 #. type: Bullet: '1. '
-msgid "Server receives OID mapping, updates the database and creates new models"
+msgid ""
+"Server receives OID mapping, updates the database and creates new models"
 msgstr ""
 
 #. type: Bullet: '1. '
@@ -101,8 +150,8 @@ msgstr ""
 
 #. type: Bullet: '* '
 msgid ""
-"Have an account on SNMP model creation server, for this, send mail to "
-"d.durieux@siprossii.com with object 'SNMP TOOL ACCOUNT'"
+"Have an account on SNMP model creation server, for this, send mail to d."
+"durieux@siprossii.com with object 'SNMP TOOL ACCOUNT'"
 msgstr ""
 
 #. type: Bullet: '* '
@@ -143,9 +192,7 @@ msgstr ""
 
 #. type: Plain text
 #, no-wrap
-msgid ""
-"You can access SNMP tool menu by go to __Plugins__ > __FusionInventory__ > "
-"__SNMP__ > __SNMP models creation__\n"
+msgid "You can access SNMP tool menu by go to __Plugins__ > __FusionInventory__ > __SNMP__ > __SNMP models creation__\n"
 msgstr ""
 
 #. type: Title #
@@ -175,7 +222,8 @@ msgid "Go in menu _Check a sysdescr_"
 msgstr ""
 
 #. type: Bullet: '1. '
-msgid "Define the itemtype : if it's a printer, network equipment (switch, routers)"
+msgid ""
+"Define the itemtype : if it's a printer, network equipment (switch, routers)"
 msgstr ""
 
 #. type: Bullet: '1. '
@@ -223,7 +271,6 @@ msgid "[[!img screenshots/snmpmodels-construct_model.png]]\n"
 msgstr ""
 
 #. type: Plain text
-#:   
 #, no-wrap
 msgid "[[!template  id=warning text=\"\"\"\n"
 msgstr ""
@@ -289,10 +336,7 @@ msgstr ""
 
 #. type: Plain text
 #, no-wrap
-msgid ""
-"When you have an account, you have access to all models created on the "
-"server. For that, go in menu __Plugins__ > __FusionInventory__ > __SNMP__ > "
-"__SNMP models creation__ > __See All SNMP models__.\n"
+msgid "When you have an account, you have access to all models created on the server. For that, go in menu __Plugins__ > __FusionInventory__ > __SNMP__ > __SNMP models creation__ > __See All SNMP models__.\n"
 msgstr ""
 
 #. type: Plain text
