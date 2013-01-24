@@ -113,7 +113,8 @@ __FusionInventory for GLPI__ is a plugin for GLPI.
         "dmidecode" -> "Local Inventory";
         "PCI info" -> "Local Inventory";
         "USB info" -> "Local Inventory";
-        "others" -> "Local Inventory";
+        "virtual machines" -> "Local Inventory";
+        "more" -> "Local Inventory";
         "Deploy" -> "set some configuration";
         "Deploy" -> "add software";
         label = "Computer(s)";
