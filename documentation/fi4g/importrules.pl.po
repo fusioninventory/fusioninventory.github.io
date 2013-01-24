@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2013-01-24 09:37+0000\n"
+"POT-Creation-Date: 2013-01-24 09:39+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -76,7 +76,7 @@ msgid ""
 "    style=filled;\n"
 "    color=lightgrey;\n"
 "    node [shape=box, color=purple];\n"
-"    size = \"5, 5\";\n"
+"    size = \"7, 7\";\n"
 msgstr ""
 
 #. type: Plain text
