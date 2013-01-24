@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2013-01-24 10:25+0000\n"
+"POT-Creation-Date: 2013-01-24 13:16+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -180,6 +180,13 @@ msgstr ""
 msgid "[[!img 01_inventory-ESX.png align=\"center\" size=\"500x240\" alt=\"\"]]\n"
 msgstr ""
 
+#. type: Plain text
+#, no-wrap
+msgid ""
+"[[!template  id=warning text=\"Since some account credentials will be send by the agent,\n"
+"we strongly recommend the user of a known machine with SSL enabled.\"]]\n"
+msgstr ""
+
 #. type: Title ##
 #, no-wrap
 msgid "Task management"
@@ -196,12 +203,17 @@ msgstr ""
 
 #. type: Plain text
 msgid ""
-"Goto Plugins → FusionInventory → Authentication for remote devices (VMware)"
+"Go to Plugins → FusionInventory → Authentication for remote devices (VMware)"
 msgstr ""
 
 #. type: Plain text
 #, no-wrap
 msgid "[[!img 02_authentification_vcenter.png align=\"center\" size=\"500x167\" alt=\"\"]]\n"
+msgstr ""
+
+#. type: Plain text
+#, no-wrap
+msgid "[[!template  id=warning text=\"We strongly recommend the user of account with limited privilege.\"]]\n"
 msgstr ""
 
 #. type: Title ###
