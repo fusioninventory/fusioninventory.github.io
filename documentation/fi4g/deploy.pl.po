@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2013-01-08 09:28+0000\n"
+"POT-Creation-Date: 2013-01-24 10:13+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -65,11 +65,13 @@ msgid "If [[GLPI]] knows about it."
 msgstr ""
 
 #. type: Bullet: '-   '
-msgid "What it's TOKEN is (used to authenticate the server when pushing a task)."
+msgid ""
+"What it's TOKEN is (used to authenticate the server when pushing a task)."
 msgstr ""
 
 #. type: Bullet: '-   '
-msgid "What it's unique ID is (used to uniquely identify one agent from another)."
+msgid ""
+"What it's unique ID is (used to uniquely identify one agent from another)."
 msgstr ""
 
 #. type: Title ##
@@ -126,8 +128,7 @@ msgid ""
 "    * If **Extract** is enabled, FusionInventory will try to extract the\n"
 "      archive (.7z, .zip, tar.gz, .tar)\n"
 "3.  Click OK and the file will be uploaded.\n"
-"4.  Click on \"Add command\", select \"execute a command\" then type in "
-"the\n"
+"4.  Click on \"Add command\", select \"execute a command\" then type in the\n"
 "    command you want, I usually use the script name here, but if you're\n"
 "    doing something else, any valid windows command (use full path\n"
 "    names) can be used.\n"
@@ -147,30 +148,7 @@ msgid "Task Management (Normal)"
 msgstr ""
 
 #. type: Plain text
-msgid ""
-"Use the (Normal) display of Task Management. This is used to list and search "
-"the existing tasks in the Fusion Inventory system."
-msgstr ""
-
-#. type: Plain text
-#, no-wrap
-msgid "[[!img deploy/FusionTaskManagementNormalPage.png]]\n"
-msgstr ""
-
-#. type: Bullet: '1.  '
-msgid "Clicking this link will bring you to this page."
-msgstr ""
-
-#. type: Bullet: '2.  '
-msgid ""
-"Clicking on the big \"+\", like in all of [[GLPI]], will create a new object "
-"in the area you are working - in this case, a new task."
-msgstr ""
-
-#. type: Bullet: '3.  '
-msgid ""
-"Clicking on a task name will allow you to edit existing tasks, check their "
-"status, start them, stop them, etc."
+msgid "Please see the [[task creation|documentation/fi4g/tasks]] page."
 msgstr ""
 
 #. type: Title ###
@@ -205,7 +183,6 @@ msgid "Set Advanced mode to Yes."
 msgstr ""
 
 #. type: Plain text
-#:  
 msgid "Then:"
 msgstr ""
 
@@ -248,8 +225,7 @@ msgstr ""
 
 #. type: Bullet: '1.  '
 msgid ""
-"Make sure you have created but not activated a task and a deployment "
-"package."
+"Make sure you have created but not activated a task and a deployment package."
 msgstr ""
 
 #. type: Bullet: '2.  '
@@ -317,9 +293,9 @@ msgstr ""
 
 #. type: Plain text
 msgid ""
-"When a task is running on a PC it will update information about its "
-"status. This log is saved after the task completes and can be reviewed from "
-"the Task Job page."
+"When a task is running on a PC it will update information about its status. "
+"This log is saved after the task completes and can be reviewed from the Task "
+"Job page."
 msgstr ""
 
 #. type: Plain text
@@ -336,8 +312,8 @@ msgstr ""
 msgid ""
 "This dropdown is used to create packages for deployment and to edit them, "
 "list them and look at groups of computers (which are internal to fusion "
-"inventory, there are also separate groups used by "
-"[GLPI](/lepp/bin/view/Computing/GLPI) for display etc)."
+"inventory, there are also separate groups used by [GLPI](/lepp/bin/view/"
+"Computing/GLPI) for display etc)."
 msgstr ""
 
 #. type: Plain text

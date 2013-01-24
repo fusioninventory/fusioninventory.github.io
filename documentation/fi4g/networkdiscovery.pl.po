@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2013-01-23 17:08+0000\n"
+"POT-Creation-Date: 2013-01-24 10:13+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -21,23 +21,28 @@ msgstr ""
 msgid "How to scan my network"
 msgstr ""
 
+#. type: Plain text
+msgid ""
+"It's always a good idea to use an up to date agent for the network scan."
+msgstr ""
+
 #. type: Title ##
 #, no-wrap
-msgid "configure agents allowed to make scan of my network"
+msgid "Agent configuration"
 msgstr ""
 
 #. type: Plain text
-msgid "By default, any agent are allowed to make scan of the network."
+msgid "By default, agent are not allowed to do network scan."
 msgstr ""
 
 #. type: Plain text
-msgid "There are 2 cases for allow them:"
+msgid "There is two different way to grant them this privilege:"
 msgstr ""
 
 #. type: Bullet: '* '
 msgid ""
 "Allow all: in menu _plugins_ > _FusionInventory_ > _Configuration_ and in "
-"tab _Agents modules_. You can check _Network discovery_ by default."
+"tab _Agents modules_.  You can check _Network discovery_ by default."
 msgstr ""
 
 #. type: Bullet: '* '
@@ -48,13 +53,15 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#, no-wrap
-msgid "[[!template  id=warning text=\"If you want to get switches, it use SNMP and check if you don't have only some computers allowed to query them (ACL).\"]]\n"
+msgid ""
+"Network devices are inventoried using SNMP. You agent must be allowed to "
+"contact the devices. You may to add some specific privilege in a device "
+"Access Control List (ACL)."
 msgstr ""
 
-#. type: Title ##
+#. type: Title ###
 #, no-wrap
-msgid "Define number of threads"
+msgid "number of threads"
 msgstr ""
 
 #. type: Plain text
@@ -86,15 +93,28 @@ msgstr ""
 
 #. type: Title ##
 #, no-wrap
-msgid "Create tasks"
+msgid "Network range"
 msgstr ""
 
-#. type: Title ###
-#, no-wrap
-msgid "Wizard"
+#. type: Plain text
+msgid ""
+"you need to register your network ranges in the “IP range configuration” "
+"configuration. You can associate a network to an entity, in this case, the "
+"devices found on this network will be created in the given entity."
 msgstr ""
 
-#. type: Title ###
+#. type: Title ##
 #, no-wrap
-msgid "tasks management"
+msgid "Task creation"
+msgstr ""
+
+#. type: Plain text
+msgid ""
+"Now your agent is ready and the Network has been registered, you can create "
+"your first task. Go in _Task management (Normal)_ menu and create a new "
+"entry."
+msgstr ""
+
+#. type: Plain text
+msgid "Please see the [[task creation|documentation/fi4g/tasks]] page."
 msgstr ""
