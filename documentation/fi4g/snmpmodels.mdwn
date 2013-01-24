@@ -126,6 +126,16 @@ Around each frame in a mapping name (comment, serial, firmware...), you can have
 * blue: it's the oid suggested by the program
 * red: it's the oid not suggested but in some case can be used
 
+## Load the new model
+
+On the model is finish, you have to go in the _SNMP_ -> _SNMP models creation_ -> _See All SNMP models_
+screen, select and load the new model.
+
+[[!template  id=warning text="""
+Because of a known bug in 0.83+2.1 ([[!bug 1917]]), you wont be able to load the newly create module with
+the _Load the correct model_ button from the _FusInv SNMP_ screen. You have to associate it manually.
+"""]]
+
 
 ## Device information
 
