@@ -83,8 +83,7 @@ msgid "    # yum --enablerepo=remi install fusioninventory-agent\n"
 msgstr "    # yum --enablerepo=remi install fusioninventory-agent\n"
 
 #. type: Title ##
-#, fuzzy, no-wrap
-#| msgid "RHEL/Centos 6.X "
+#, no-wrap
 msgid "RHEL/Centos 6.X"
 msgstr "RHEL/Centos 6.X"
 
@@ -200,13 +199,9 @@ msgstr ""
 "l'agent FusionInventory "
 
 #. type: Bullet: '* '
-#, fuzzy
-#| msgid ""
-#| "*perl-FusionInventory-Agent-Task-OcsDeploy* - Deploy software tool  for "
-#| "OCS Inventory NG by FusionInventory"
 msgid ""
-"*perl-FusionInventory-Agent-Task-OcsDeploy* - Gestion du déploiement "
-"logiciel OCS Inventory NG avec FusionInventory"
+"*perl-FusionInventory-Agent-Task-OcsDeploy* - Deploy software tool  for "
+"OCS Inventory NG by FusionInventory"
 msgstr ""
 "*perl-FusionInventory-Agent-Task-OcsDeploy* - Gestion du déploiement "
 "logiciel OCS Inventory NG avec FusionInventory"
@@ -300,10 +295,9 @@ msgid "Force inventory "
 msgstr "Forcer l'inventaire"
 
 #. type: Plain text
-#, fuzzy, no-wrap
-#| msgid "    # service fusioninventory-agent start\n"
+#, no-wrap
 msgid "    # fusioninventory-agent\n"
-msgstr "    # service fusioninventory-agent start\n"
+msgstr "    # fusioninventory-agent\n"
 
 #. type: Title ##
 #, no-wrap
