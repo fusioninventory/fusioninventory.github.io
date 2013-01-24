@@ -149,7 +149,7 @@ msgstr "    psexec -u domain\\user \\\\* cscript \\\\foo\\share\\script.vbs\n"
 #. type: Title ##
 #, no-wrap
 msgid "GPO to deploy the agent on all the machines of the Windows domain"
-msgstr ""
+msgstr "GPO pour déployer l'agent sur toutes les machines du domaine Windows"
 
 #. type: Plain text
 msgid ""
