@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2013-01-24 09:36+0000\n"
+"POT-Creation-Date: 2013-01-24 09:37+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -104,7 +104,7 @@ msgid ""
 "    \"Inventory\" -> \"collector\";\n"
 "    \"machine found\" [ shape = \"Mdiamond\" ];\n"
 "    \"machine not found\" [ shape = \"Mdiamond\" ];\n"
-"    \"not enough criterias\" [ shape = \"MMdiamond\" ];\n"
+"    \"not enough criterias\" [ shape = \"Mdiamond\" ];\n"
 msgstr ""
 
 #. type: Plain text
