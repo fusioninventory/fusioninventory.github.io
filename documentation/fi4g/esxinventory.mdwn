@@ -104,6 +104,8 @@ Click on + to add a device
 
 ### Add a task 
 
+Please see the [[task creation|documentation/fi4g/tasks]] page.
+
 Click on + to add a task :
 
 * Configure the periodicity
