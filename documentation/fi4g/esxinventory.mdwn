@@ -5,7 +5,7 @@ It will identify the ESX server and the associated virtual machine. At the
 end, it will push XML inventory of the machines to the server:
 
 1. the agent contact the server
-** the server answer with a list of VMware servers to scan and some credentials
+    * the server answer with a list of VMware servers to scan and some credentials
 2. the agent scan each VMware servers and generate the associated XML content
 3. the agent send the XML to the server much like a local inventory
 
