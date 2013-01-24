@@ -145,7 +145,7 @@ __FusionInventory for GLPI__ is a plugin for GLPI.
         "printer 1" -> "Network Inventory";
         "printer 2" -> "Network Inventory";
         "switch 1" -> "Network Inventory";
-        "unknown device" -> "Network Inventory" [label="nmap"];
+        "unknown device" -> "Network Inventory";
         label = "Networks";
     }
 
