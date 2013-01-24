@@ -152,16 +152,13 @@ msgid "GPO to deploy the agent on all the machines of the Windows domain"
 msgstr ""
 
 #. type: Plain text
-#, fuzzy
-#| msgid ""
-#| "Create a machine GPO, copy the script within and associate the "
-#| "fusioninventory.vbs script."
 msgid ""
 "Create a GPO and copy the script within and associate the fusioninventory."
 "vbs script. The GPO has to be configured to run during machine start up."
 msgstr ""
-"Créer une GPO machine, copier le script dedans et associer le script "
-"fusioninventory.vbs"
+"Créer une GPO et copier le script dedans et associer le script "
+"fusioninventory.vbs. La GPO est configurée pour s'exécuter au démarrage "
+"de la machine."
 
 #. type: Plain text
 msgid "You may be interested by these two GPO templates:"
