@@ -80,7 +80,6 @@ __FusionInventory for GLPI__ is a plugin for GLPI.
     color=lightgrey;
     node [shape=box, color=purple ];
     rankdir=LR;
-    resolution = "600";
 
 
     subgraph cluster_0 {
