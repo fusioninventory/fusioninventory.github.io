@@ -13,7 +13,6 @@
 * [[How to install or update FusionInventory for GLPI|documentation/fi4g/installation]]
 * [[How works «Equipment import and link rules»|documentation/fi4g/importrules]]
 * [[How to scan my network|documentation/fi4g/networkdiscovery]]
-* [[How to inventory my network devices (SNMP)|documentation/fi4g/networkinventory]]
 * [[How to inventory my ESX server|documentation/fi4g/esxinventory]]
 * [[How to deploy softwares with software deployment module|documentation/fi4g/deploy]]
 * [[How to deal with DMZ network|documentation/fi4g/dmz]]
