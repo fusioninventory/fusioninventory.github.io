@@ -1,6 +1,6 @@
 # Agent Installation on Linux
 
 * [[Debian and Ubuntu|documentation/agent/installation/linux/deb]]
-* [[Fedora, RHEL, etc|documentation/agent/installation/linux/rpm]]
+* [[Fedora, RHEL, SUSE, OpenSUSE, etc|documentation/agent/installation/linux/rpm]]
 * [[Source|documentation/agent/installation/source]]
 * [[Generic “prebuilt” packages|documentation/agent/installation/prebuilt]]

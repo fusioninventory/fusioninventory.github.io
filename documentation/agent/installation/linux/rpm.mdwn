@@ -4,14 +4,18 @@
 
 The RPM-Packages was maintained by Remi Collet. He resigned, a new maintainer is welcome.
 
-## RHEL, Centos 4
+## 2.2.x -- SuSE/RHEL/CentOS
+
+A new experimental package is available on [OpenSUSE Build Service](https://build.opensuse.org/package/repositories?package=FusionInventory-Agent&project=home%3Aaevseev). Feedback about these RPM packages are welcome.
+
+## 2.1.x -- RHEL, Centos 4
 
 *fusioninventory-agent* is available in the *remi* repository for EL >= 4
 
     # rpm -Uvh http://rpms.famillecollet.com/enterprise/remi-release-4.rpm
     # up2date -i install fusioninventory-agent
 
-## RHEL, Centos 5
+## 2.1.x -- RHEL, Centos 5
 First of all, you need to enable EPEL and Remi repository
 
     # rpm -Uvh http://dl.fedoraproject.org/pub/epel/5/i386/epel-release-5-4.noarch.rpm
@@ -21,7 +25,7 @@ To install FusionInventory-Agent, simply execute the following command:
 
     # yum --enablerepo=remi install fusioninventory-agent
 
-## RHEL/Centos 6.X
+## 2.1.x - RHEL/Centos 6.X
 
 *fusioninventory-agent* is available in the *EPEL6* repository. You need to enable this repository.
 
@@ -40,18 +44,13 @@ Package from other repositories, such as RPM Forge, will probably not work (and 
 See [Extra Packages for Enterprise Linux (EPEL)](https://fedoraproject.org/wiki/EPEL)
 See [Remi repository configuration](http://blog.famillecollet.com/pages/Config-en)
 
-## Maintained Fedora version
+## 2.2.x -- Fedora
 
 *fusioninventory-agent* is part of the *official repository* for fedora >= 14
 
-## EOL Fedora version
-
-*fusioninventory-agent* is available in the *remi* third party repository for fedora >= 8
+*fusioninventory-agent* is available in the *remi* third party repository for EOL Fedora version (fedora >= 8)
 
 See [Remi repository configuration](http://blog.famillecollet.com/pages/Config-en)
-
-
-## Agent installation
 
 Full installation:
 
