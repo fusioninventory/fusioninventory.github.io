@@ -1,30 +1,40 @@
 # How to scan my network
 
-## configure agents allowed to make scan of my network
+It's always a good idea to use an up to date agent for the network scan.
+
+## Agent configuration
 
 By default, agent are not allowed to do network scan.
 
 There is two different way to grant them this privilege:
 
-* Allow all: in menu _plugins_ > _FusionInventory_ > _Configuration_ and in tab _Agents modules_. You can check _Network discovery_ by default.
-* Allow ony some agents: in menu _plugins_ > _FusionInventory_ > _FusionInventory_ > _Agents management_ go in agent form and in tab _Agents modules_, check _Network discovery_.
+* Allow all: in menu _plugins_ > _FusionInventory_ > _Configuration_ and in tab _Agents modules_.
+  You can check _Network discovery_ by default.
+* Allow ony some agents: in menu _plugins_ > _FusionInventory_ > _FusionInventory_ > _Agents management_
+  go in agent form and in tab _Agents modules_, check _Network discovery_.
 
-Network devices are inventoried using SNMP. You agent must be allowed to contact the devices. You may to add some specific privilege in a device Access Control List (ACL).
+Network devices are inventoried using SNMP. You agent must be allowed to contact the devices. You may
+to add some specific privilege in a device Access Control List (ACL).
 
-## Define number of threads
+### number of threads
 
-To have network discovery running more faster, you can define number of simultaneous IP queries. For exemple, if you use 10 threads, agent will query 10 IP is same time, and so it's very more faster.
+To have network discovery running more faster, you can define number of simultaneous IP queries. For
+exemple, if you use 10 threads, agent will query 10 IP is same time, and so it's very more faster.
 
 You have 2 choices:
 
 * General configuration: You can define it for all agents, in menu _plugins_ > _FusionInventory_ > _Configuration_ and in tab _FusionInventory SNMP_. define value _Threads number (network discovery)_. 
 * Personalized configuration: you can overwrite general configuration for an agent (for exemple if the computer is better faster), in menu _plugins_ > _FusionInventory_ > _FusionInventory_ > _Agents management_ go in agent form and in tab _Threads number_, and define value _Threads number (network discovery)_.
 
-## Create tasks
+## Network range
+
+you need to register your network ranges in the “IP range configuration” configuration. You can associate a
+network to an entity, in this case, the devices found on this network will be created in the given entity.
+
+## Task creation
+
+Now your agent is ready and the Network has been registered, you can create your first task. Go in _Task management (Normal)_ menu and create a new entry.
 
 
-### Wizard
-
-
-### tasks management
+Please see the [[task creation|documentation/fi4g/tasks]] page.
 
