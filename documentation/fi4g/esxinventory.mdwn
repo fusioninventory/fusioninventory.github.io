@@ -71,7 +71,9 @@ For example:
     # fusioninventory-injector -v --file /tmp/esx-server-2011-01-25-14-11-07.ocs -u https://myserver/plugins/fusioninventory/
 
 # From GLPI
+
 ##  Reconfiguration FusionInventory agent
+
 First, we must designate the fusion agents who will have to perform the inventory VMware (ESX or VCenter) host.
 
 Go to Plugins → Home → FusionInventory → Agents management
@@ -80,14 +82,20 @@ Chose a agent and enable : VMware host remote inventory :
 
 [[!img 01_inventory-ESX.png align="center" size="500x240" alt=""]]
 
+[[!template  id=warning text="Since some account credentials will be send by the agent,
+we strongly recommend the user of a known machine with SSL enabled."]]
+
 ## Task management
 
 ### Add authentication for remote devices (VMware)
+
 Add an authentification : 
 
-Goto Plugins  → FusionInventory → Authentication for remote devices (VMware)
+Go to Plugins  → FusionInventory → Authentication for remote devices (VMware)
 
 [[!img 02_authentification_vcenter.png align="center" size="500x167" alt=""]]
+
+[[!template  id=warning text="We strongly recommend the user of account with limited privilege."]]
 
 ### Add remote devices to inventory (VMware)
 
