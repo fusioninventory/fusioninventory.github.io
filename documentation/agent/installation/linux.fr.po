@@ -35,8 +35,8 @@ msgid "[[Source|documentation/agent/installation/source]]"
 msgstr "[[Source|documentation/agent/installation/source]]"
 
 #. type: Bullet: '* '
-#, fuzzy
 #| msgid "[[Source|documentation/agent/installation/source]]"
 msgid ""
 "[[Generic “prebuilt” packages|documentation/agent/installation/prebuilt]]"
-msgstr "[[Source|documentation/agent/installation/source]]"
+msgstr ""
+"[[Paquet généric “prebuilt”|documentation/agent/installation/prebuilt]]"
