@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2013-01-24 10:20+0000\n"
+"POT-Creation-Date: 2013-01-24 16:56+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -100,10 +100,6 @@ msgstr ""
 
 #. type: Bullet: '* '
 msgid "[[Create and manage SNMP models|documentation/fi4g/snmpmodels]]"
-msgstr ""
-
-#. type: Bullet: '* '
-msgid "[[How to debug my installation|documentation/fi4g/debugmode]]"
 msgstr ""
 
 #. type: Bullet: '* '
