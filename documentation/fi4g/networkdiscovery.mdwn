@@ -35,6 +35,5 @@ network to an entity, in this case, the devices found on this network will be cr
 
 Now your agent is ready and the Network has been registered, you can create your first task. Go in _Task management (Normal)_ menu and create a new entry.
 
-
 Please see the [[task creation|documentation/fi4g/tasks]] page.
 
