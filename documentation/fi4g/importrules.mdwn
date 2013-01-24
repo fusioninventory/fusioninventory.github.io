@@ -25,7 +25,7 @@ Common problems related to the rule engine are:
     style=filled;
     color=lightgrey;
     node [shape=box, color=purple];
-    size = "5, 5";
+    size = "7, 7";
 
 
         subgraph cluster_0 {
