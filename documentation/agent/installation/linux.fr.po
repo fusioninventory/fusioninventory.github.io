@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2013-01-23 16:32+0000\n"
+"POT-Creation-Date: 2013-01-24 17:14+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -26,7 +26,11 @@ msgid "[[Debian and Ubuntu|documentation/agent/installation/linux/deb]]"
 msgstr "[[Debian et Ubuntu (.deb)|documentation/agent/installation/linux/deb]]"
 
 #. type: Bullet: '* '
-msgid "[[Fedora, RHEL, etc|documentation/agent/installation/linux/rpm]]"
+#, fuzzy
+#| msgid "[[Fedora, RHEL, etc|documentation/agent/installation/linux/rpm]]"
+msgid ""
+"[[Fedora, RHEL, SUSE, OpenSUSE, etc|documentation/agent/installation/linux/"
+"rpm]]"
 msgstr ""
 "[[Fedora, RHEL, etc (.rpm)|documentation/agent/installation/linux/rpm]]"
 
@@ -35,7 +39,6 @@ msgid "[[Source|documentation/agent/installation/source]]"
 msgstr "[[Source|documentation/agent/installation/source]]"
 
 #. type: Bullet: '* '
-#| msgid "[[Source|documentation/agent/installation/source]]"
 msgid ""
 "[[Generic “prebuilt” packages|documentation/agent/installation/prebuilt]]"
 msgstr ""

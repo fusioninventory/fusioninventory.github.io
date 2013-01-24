@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2013-01-23 15:42+0000\n"
+"POT-Creation-Date: 2013-01-24 17:14+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -36,7 +36,20 @@ msgstr ""
 
 #. type: Title ##
 #, no-wrap
-msgid "RHEL, Centos 4"
+msgid "2.2.x -- SuSE/RHEL/CentOS"
+msgstr ""
+
+#. type: Plain text
+msgid ""
+"A new experimental package is available on [OpenSUSE Build Service](https://"
+"build.opensuse.org/package/repositories?package=FusionInventory-"
+"Agent&project=home%3Aaevseev). Feedback about these RPM packages are welcome."
+msgstr ""
+
+#. type: Title ##
+#, fuzzy, no-wrap
+#| msgid "RHEL, Centos 4"
+msgid "2.1.x -- RHEL, Centos 4"
 msgstr "RHEL, Centos 4"
 
 #. type: Plain text
@@ -54,8 +67,9 @@ msgstr ""
 "    # up2date -i install fusioninventory-agent\n"
 
 #. type: Title ##
-#, no-wrap
-msgid "RHEL, Centos 5"
+#, fuzzy, no-wrap
+#| msgid "RHEL, Centos 5"
+msgid "2.1.x -- RHEL, Centos 5"
 msgstr "RHEL, Centos 5"
 
 #. type: Plain text
@@ -83,8 +97,9 @@ msgid "    # yum --enablerepo=remi install fusioninventory-agent\n"
 msgstr "    # yum --enablerepo=remi install fusioninventory-agent\n"
 
 #. type: Title ##
-#, no-wrap
-msgid "RHEL/Centos 6.X"
+#, fuzzy, no-wrap
+#| msgid "RHEL/Centos 6.X"
+msgid "2.1.x - RHEL/Centos 6.X"
 msgstr "RHEL/Centos 6.X"
 
 #. type: Plain text
@@ -136,22 +151,18 @@ msgstr ""
 
 #. type: Title ##
 #, no-wrap
-msgid "Maintained Fedora version"
-msgstr "Version maintenu de Fedora"
+msgid "2.2.x -- Fedora"
+msgstr ""
 
 #. type: Plain text
 #, no-wrap
 msgid "*fusioninventory-agent* is part of the *official repository* for fedora >= 14\n"
 msgstr "L'agent *FusionInventory* fait parti du dépôt officiel pour Fedora >= 14\n"
 
-#. type: Title ##
-#, no-wrap
-msgid "EOL Fedora version"
-msgstr "Version EOL de Fedora"
-
 #. type: Plain text
-#, no-wrap
-msgid "*fusioninventory-agent* is available in the *remi* third party repository for fedora >= 8\n"
+#, fuzzy, no-wrap
+#| msgid "*fusioninventory-agent* is available in the *remi* third party repository for fedora >= 8\n"
+msgid "*fusioninventory-agent* is available in the *remi* third party repository for EOL Fedora version (fedora >= 8)\n"
 msgstr "l'agent *FusionInventory* est disponible pour tiers-partie dans le dépôt de *Rémi* pour Fedora >= 8\n"
 
 #. type: Plain text
@@ -161,11 +172,6 @@ msgid ""
 msgstr ""
 "Reportez vous à [Remi repository configuration](http://blog.famillecollet."
 "com/pages/Config-en)"
-
-#. type: Title ##
-#, no-wrap
-msgid "Agent installation"
-msgstr "Installation de l'agent"
 
 #. type: Plain text
 msgid "Full installation:"
@@ -199,9 +205,13 @@ msgstr ""
 "l'agent FusionInventory "
 
 #. type: Bullet: '* '
+#, fuzzy
+#| msgid ""
+#| "*perl-FusionInventory-Agent-Task-OcsDeploy* - Deploy software tool  for "
+#| "OCS Inventory NG by FusionInventory"
 msgid ""
-"*perl-FusionInventory-Agent-Task-OcsDeploy* - Deploy software tool  for "
-"OCS Inventory NG by FusionInventory"
+"*perl-FusionInventory-Agent-Task-OcsDeploy* - Gestion du déploiement "
+"logiciel OCS Inventory NG avec FusionInventory"
 msgstr ""
 "*perl-FusionInventory-Agent-Task-OcsDeploy* - Gestion du déploiement "
 "logiciel OCS Inventory NG avec FusionInventory"
@@ -316,6 +326,15 @@ msgstr ""
 #, no-wrap
 msgid "    # tail -f /var/log/fusioninventory-agent/fusioninventory-agent.log\n"
 msgstr "    # tail -f /var/log/fusioninventory-agent/fusioninventory-agent.log\n"
+
+#~ msgid "Maintained Fedora version"
+#~ msgstr "Version maintenu de Fedora"
+
+#~ msgid "EOL Fedora version"
+#~ msgstr "Version EOL de Fedora"
+
+#~ msgid "Agent installation"
+#~ msgstr "Installation de l'agent"
 
 #~ msgid "    $ wget http://127.0.0.1:62354/now -O /tmp/now\n"
 #~ msgstr "    $ wget http://127.0.0.1:62354/now -O /tmp/now\n"

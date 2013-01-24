@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2013-01-23 15:42+0000\n"
+"POT-Creation-Date: 2013-01-24 17:14+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -34,7 +34,19 @@ msgstr ""
 
 #. type: Title ##
 #, no-wrap
-msgid "RHEL, Centos 4"
+msgid "2.2.x -- SuSE/RHEL/CentOS"
+msgstr ""
+
+#. type: Plain text
+msgid ""
+"A new experimental package is available on [OpenSUSE Build Service](https://"
+"build.opensuse.org/package/repositories?package=FusionInventory-"
+"Agent&project=home%3Aaevseev). Feedback about these RPM packages are welcome."
+msgstr ""
+
+#. type: Title ##
+#, no-wrap
+msgid "2.1.x -- RHEL, Centos 4"
 msgstr ""
 
 #. type: Plain text
@@ -51,7 +63,7 @@ msgstr ""
 
 #. type: Title ##
 #, no-wrap
-msgid "RHEL, Centos 5"
+msgid "2.1.x -- RHEL, Centos 5"
 msgstr ""
 
 #. type: Plain text
@@ -76,7 +88,7 @@ msgstr ""
 
 #. type: Title ##
 #, no-wrap
-msgid "RHEL/Centos 6.X"
+msgid "2.1.x - RHEL/Centos 6.X"
 msgstr ""
 
 #. type: Plain text
@@ -120,7 +132,7 @@ msgstr ""
 
 #. type: Title ##
 #, no-wrap
-msgid "Maintained Fedora version"
+msgid "2.2.x -- Fedora"
 msgstr ""
 
 #. type: Plain text
@@ -128,25 +140,15 @@ msgstr ""
 msgid "*fusioninventory-agent* is part of the *official repository* for fedora >= 14\n"
 msgstr ""
 
-#. type: Title ##
-#, no-wrap
-msgid "EOL Fedora version"
-msgstr ""
-
 #. type: Plain text
 #, no-wrap
-msgid "*fusioninventory-agent* is available in the *remi* third party repository for fedora >= 8\n"
+msgid "*fusioninventory-agent* is available in the *remi* third party repository for EOL Fedora version (fedora >= 8)\n"
 msgstr ""
 
 #. type: Plain text
 msgid ""
 "See [Remi repository configuration](http://blog.famillecollet.com/pages/"
 "Config-en)"
-msgstr ""
-
-#. type: Title ##
-#, no-wrap
-msgid "Agent installation"
 msgstr ""
 
 #. type: Plain text
