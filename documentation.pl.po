@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2013-01-23 14:34+0000\n"
+"POT-Creation-Date: 2013-01-24 10:20+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -71,18 +71,12 @@ msgid "[[How to scan my network|documentation/fi4g/networkdiscovery]]"
 msgstr ""
 
 #. type: Bullet: '* '
-msgid ""
-"[[How to inventory my network devices (SNMP)|documentation/fi4g/"
-"networkinventory]]"
-msgstr ""
-
-#. type: Bullet: '* '
 msgid "[[How to inventory my ESX server|documentation/fi4g/esxinventory]]"
 msgstr ""
 
 #. type: Bullet: '* '
 msgid ""
-"[[How to deploy softwares with teledeployment module|documentation/fi4g/"
+"[[How to deploy softwares with software deployment module|documentation/fi4g/"
 "deploy]]"
 msgstr ""
 
@@ -93,12 +87,6 @@ msgstr ""
 #. type: Title #
 #, no-wrap
 msgid "Troubleshooting"
-msgstr ""
-
-#. type: Bullet: '* '
-msgid ""
-"[[My computer does not show up in GLPI|documentation/troubleshooting/"
-"inventory-in-glpi]]"
 msgstr ""
 
 #. type: Bullet: '* '
