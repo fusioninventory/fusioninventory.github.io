@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2013-01-23 17:19+0000\n"
+"POT-Creation-Date: 2013-01-24 12:45+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -315,6 +315,25 @@ msgstr ""
 
 #. type: Bullet: '* '
 msgid "red: it's the oid not suggested but in some case can be used"
+msgstr ""
+
+#. type: Title ##
+#, no-wrap
+msgid "Load the new model"
+msgstr ""
+
+#. type: Plain text
+#, no-wrap
+msgid ""
+"On the model is finish, you have to go in the _SNMP_ -> _SNMP models creation_ -> _See All SNMP models_\n"
+"screen, select and load the new model.\n"
+msgstr ""
+
+#. type: Plain text
+msgid ""
+"Because of a known bug in 0.83+2.1 ([[!bug 1917]]), you wont be able to load "
+"the newly create module with the _Load the correct model_ button from the "
+"_FusInv SNMP_ screen. You have to associate it manually."
 msgstr ""
 
 #. type: Title ##

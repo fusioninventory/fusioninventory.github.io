@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2013-01-08 09:28+0000\n"
+"POT-Creation-Date: 2013-01-24 12:45+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -164,8 +164,8 @@ msgid ""
 "The __FusionInventory Agent__ is a generic multi-platform agent. It can "
 "perform a large array of management tasks, such as local inventory, software "
 "deployment or network discovery. It can be used either standalone, or in "
-"combination with a compatible server (OCS Inventory, GLPI, OTRS, Uranos, "
-"...) acting as a centralized control point."
+"combination with a compatible server (OCS Inventory, GLPI, OTRS, "
+"Uranos, ...) acting as a centralized control point."
 msgstr ""
 
 #. type: Plain text
@@ -201,4 +201,121 @@ msgstr ""
 
 #. type: Plain text
 msgid "__FusionInventory for GLPI__ is a plugin for GLPI."
+msgstr ""
+
+#. type: Title ##
+#, no-wrap
+msgid "The big picture"
+msgstr ""
+
+#. type: Plain text
+#, no-wrap
+msgid "[[!graph  src=\"\"\"\n"
+msgstr ""
+
+#. type: Plain text
+#, no-wrap
+msgid ""
+"    style=filled;\n"
+"    color=lightgrey;\n"
+"    node [shape=box, color=purple ];\n"
+"    rankdir=LR;\n"
+"    resolution = \"600\";\n"
+msgstr ""
+
+#. type: Plain text
+#, no-wrap
+msgid ""
+"    subgraph cluster_0 {\n"
+"        style=filled;\n"
+"        color=lightgrey;\n"
+"        node [style=filled,color=white];\n"
+"        \"FusionInventory for GLPI\" -> \"GLPI engine\" -> \"DB\";\n"
+"        label = \"GLPI\";\n"
+"    }\n"
+msgstr ""
+
+#. type: Plain text
+#, no-wrap
+msgid "    subgraph cluster_1 {\n"
+msgstr ""
+
+#. type: Plain text
+#, no-wrap
+msgid "        subgraph cluster_4 {\n"
+msgstr ""
+
+#. type: Plain text
+#, no-wrap
+msgid ""
+"            color=gainsboro;\n"
+"            \"Local Inventory\" -> \"Agent\" -> \"FusionInventory for GLPI\";\n"
+"            \"ESX Inventory\" -> \"Agent\";\n"
+"            \"Network Inventory\" -> \"Agent\";\n"
+"            \"Agent\" -> \"Deploy\";\n"
+"            label = \"FusionInventory Agent\";\n"
+"        }\n"
+msgstr ""
+
+#. type: Plain text
+#, no-wrap
+msgid ""
+"        style=filled;\n"
+"        color=lightgrey;\n"
+"        node [style=filled,color=white];\n"
+"        \"dmidecode\" -> \"Local Inventory\";\n"
+"        \"dpkg\" -> \"Local Inventory\";\n"
+"        \"registry\" -> \"Local Inventory\";\n"
+"        \"rpm\" -> \"Local Inventory\";\n"
+"        \"WMI\" -> \"Local Inventory\";\n"
+"        \"dmidecode\" -> \"Local Inventory\";\n"
+"        \"PCI info\" -> \"Local Inventory\";\n"
+"        \"USB info\" -> \"Local Inventory\";\n"
+"        \"others\" -> \"Local Inventory\";\n"
+"        \"Deploy\" -> \"set some configuration\";\n"
+"        \"Deploy\" -> \"add software\";\n"
+"        label = \"Computer(s)\";\n"
+"    }\n"
+msgstr ""
+
+#. type: Plain text
+#, no-wrap
+msgid ""
+"    subgraph cluster_2 {\n"
+"        style=filled;\n"
+"        color=lightgrey;\n"
+"        node [style=filled,color=white];\n"
+"        \"vCenter1\" -> \"ESX Inventory\";\n"
+"        \"esx4\" -> \"ESX Inventory\";\n"
+msgstr ""
+
+#. type: Plain text
+#, no-wrap
+msgid ""
+"        \"esx1\" -> \"vCenter1\";\n"
+"        \"esx2\" -> \"vCenter1\";\n"
+"        \"esx3\" -> \"vCenter1\";\n"
+"        \"vm1\" -> \"esx1\";\n"
+"        \"vm2\" -> \"esx2\";\n"
+"        \"vm3\" -> \"esx2\";\n"
+"        \"vm4\" -> \"esx3\";\n"
+"        \"vm5\" -> \"esx3\";\n"
+"        \"vm6\" -> \"esx4\";\n"
+"        label = \"VMware API\";\n"
+"    }\n"
+msgstr ""
+
+#. type: Plain text
+#, no-wrap
+msgid ""
+"    subgraph cluster_3 {\n"
+"        style=filled;\n"
+"        color=lightgrey;\n"
+"        node [style=filled,color=white];\n"
+"        \"printer 1\" -> \"Network Inventory\";\n"
+"        \"printer 2\" -> \"Network Inventory\";\n"
+"        \"switch 1\" -> \"Network Inventory\";\n"
+"        \"unknown device\" -> \"Network Inventory\" [label=\"nmap\"];\n"
+"        label = \"Networks\";\n"
+"    }\n"
 msgstr ""
