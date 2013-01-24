@@ -2,14 +2,14 @@
 
 ## configure agents allowed to make scan of my network
 
-By default, any agent are allowed to make scan of the network.
+By default, agent are not allowed to do network scan.
 
-There are 2 cases for allow them:
+There is two different way to grant them this privilege:
 
 * Allow all: in menu _plugins_ > _FusionInventory_ > _Configuration_ and in tab _Agents modules_. You can check _Network discovery_ by default.
 * Allow ony some agents: in menu _plugins_ > _FusionInventory_ > _FusionInventory_ > _Agents management_ go in agent form and in tab _Agents modules_, check _Network discovery_.
 
-[[!template  id=warning text="If you want to get switches, it use SNMP and check if you don't have only some computers allowed to query them (ACL)."]]
+Network devices are inventoried using SNMP. You agent must be allowed to contact the devices. You may to add some specific privilege in a device Access Control List (ACL).
 
 ## Define number of threads
 
