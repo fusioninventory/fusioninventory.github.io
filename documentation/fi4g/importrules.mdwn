@@ -47,7 +47,7 @@ Common problems related to the rule engine are:
     "Inventory" -> "collector";
     "machine found" [ shape = "Mdiamond" ];
     "machine not found" [ shape = "Mdiamond" ];
-    "not enough criterias" [ shape = "MMdiamond" ];
+    "not enough criterias" [ shape = "Mdiamond" ];
 
 """]]
 
