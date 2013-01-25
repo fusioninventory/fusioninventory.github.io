@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2013-01-08 09:28+0000\n"
+"POT-Creation-Date: 2013-01-25 16:47+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -48,22 +48,20 @@ msgstr ""
 msgid ""
 "Tomás works on a new Windows installer for FusionInventory Agent. He already "
 "spent a lot of time to understand and clean the old NSIS scripts. He also "
-"maintain a [clear and complet "
-"documentation|/documentation/agent/dev/experimental_windows_installer] about "
-"the build process."
+"maintain a [[clear and complet documentation|/documentation/agent/dev/"
+"experimental_windows_installer]] about the build process."
 msgstr ""
 
 #. type: Plain text
 msgid ""
 "He plans to be ready for the 2.3.0 release of the agent. The job is done in "
-"the "
-"[fusioninventory-agent-windows-installer](http://forge.fusioninventory.org/projects/fusioninventory-agent-windows-installer)  "
-"project on the forge."
+"the [fusioninventory-agent-windows-installer](http://forge.fusioninventory."
+"org/projects/fusioninventory-agent-windows-installer)  project on the forge."
 msgstr ""
 
 #. type: Plain text
 msgid ""
-"You can contact him [[on the FusionInventory-Developer|/resources]] mailing "
+"You can contact him [[on the FusionInventory-Developer|resources]] mailing "
 "list. He also uses to be time to time on IRC (tabad)."
 msgstr ""
 
@@ -78,8 +76,8 @@ msgstr ""
 
 #. type: Bullet: '* '
 msgid ""
-"Decided to migrate to AnyEvent, thanks to [Olivier Mengué ( dolmen "
-")](http://o.mengue.free.fr/)"
+"Decided to migrate to AnyEvent, thanks to [Olivier Mengué ( dolmen )](http://"
+"o.mengue.free.fr/)"
 msgstr ""
 
 #. type: Bullet: '* '
@@ -99,9 +97,8 @@ msgstr ""
 
 #. type: Plain text
 msgid ""
-"We want to sent a big thanks (and some [round "
-"TUIT](http://en.wiktionary.org/wiki/round_tuit))  to the people and "
-"companies who supported the meeting."
+"We want to sent a big thanks (and some [round TUIT](http://en.wiktionary.org/"
+"wiki/round_tuit))  to the people and companies who supported the meeting."
 msgstr ""
 
 #. type: Bullet: '* '
@@ -109,7 +106,8 @@ msgid "[DuckDuckGo](https://duckduckgo.com/)"
 msgstr ""
 
 #. type: Bullet: '* '
-msgid "[The great Perl community and the french Mongueurs](http://mongueurs.net/)"
+msgid ""
+"[The great Perl community and the french Mongueurs](http://mongueurs.net/)"
 msgstr ""
 
 #. type: Bullet: '* '
