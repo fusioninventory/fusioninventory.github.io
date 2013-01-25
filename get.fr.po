@@ -3,18 +3,17 @@
 # This file is distributed under the same license as the PACKAGE package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
-#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "POT-Creation-Date: 2013-01-11 14:06+0000\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"PO-Revision-Date: 2013-01-25 12:59+0100\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
-"Language: \n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.5.4\n"
 
 #. type: Title #
 #, no-wrap
@@ -30,11 +29,13 @@ msgstr "Agent"
 msgid ""
 "The agent is used to collect informations, scan the network, deploy file and "
 "package, etc."
-msgstr "L'agent est utilisé pour collecter des informations, faire des scannes réseaux, télédiffuser des fichiers et des paquets, etc."
+msgstr ""
+"L'agent est utilisé pour collecter des informations, faire des scannes "
+"réseaux, télédiffuser des fichiers et des paquets, etc."
 
 #. type: Bullet: '* '
 msgid "[[Install the agent|documentation/agent/installation]]."
-msgstr "[[Install the agent|documentation/agent/installation]]."
+msgstr "[[Installer l'agent|documentation/agent/installation]]."
 
 #. type: Title ##
 #, no-wrap

@@ -1,4 +1,4 @@
-# SOME DESCRIPTIVE TITLE
+﻿# SOME DESCRIPTIVE TITLE
 # Copyright (C) YEAR Free Software Foundation, Inc.
 # This file is distributed under the same license as the PACKAGE package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
@@ -19,7 +19,7 @@ msgstr ""
 #. type: Title #
 #, no-wrap
 msgid "Feature Overview"
-msgstr ""
+msgstr "Vue des fonctionnalités"
 
 #. type: Title ##
 #, no-wrap
@@ -31,7 +31,10 @@ msgid ""
 "FusionInventory acts like a gateway and collect information sent by the "
 "agents.  It will create or update the information in GLPI it minimal effort "
 "from the administrator."
-msgstr ""
+msgstr "L'agent FusionInventory agit comme une passerelle et un collecteur "
+"d'information. Il crée et met à jour les données de GLPI dans un minimum "
+"d'effort "
+
 
 #. type: Plain text
 msgid "For now, these class of devices are supported:"
@@ -43,7 +46,7 @@ msgstr "Ordinateurs"
 
 #. type: Bullet: '* '
 msgid "Network devices"
-msgstr "Equipements réseaux"
+msgstr "Équipements réseaux"
 
 #. type: Bullet: '* '
 msgid "Printers"
@@ -88,59 +91,64 @@ msgstr "OpenVZ/Virtuozzo"
 
 #. type: Bullet: '* '
 msgid "Parallels"
-msgstr ""
+msgstr "Parallels"
 
 #. type: Bullet: '* '
 msgid "LXC"
-msgstr ""
+msgstr "LXC"
 
 #. type: Bullet: '* '
 msgid "FreeBSD Jails"
-msgstr ""
+msgstr "FreeBSD Jails"
 
 #. type: Bullet: '* '
 msgid "HPVM"
-msgstr ""
+msgstr "HPVM"
 
 #. type: Bullet: '* '
 msgid "Vserver"
-msgstr ""
+msgstr "Vserver"
 
 #. type: Title ##
 #, no-wrap
 msgid "Software deployment"
-msgstr ""
+msgstr "Déploiement de logiciel"
 
 #. type: Plain text
 msgid ""
 "You can use FusionInventory to install, update or remove software. You can "
 "also push administration scripts."
 msgstr ""
+"Vous pouvez utiliser FusionInventory pour installer, mettre à jour ou "
+"supprimer un logiciel. Vous pouvez également pousser vos scripts "
+"d'administration."
 
 #. type: Plain text
 msgid "The solution can be run on any kind of operating system, espcially:"
-msgstr ""
+msgstr "Cette solution peut fonctionner sur toute sorte de système  "
+"d'exploitation, en particulier :"
 
 #. type: Bullet: '* '
 msgid "Windows"
-msgstr ""
+msgstr "Windows"
 
 #. type: Bullet: '* '
 msgid "MacOSX"
-msgstr ""
+msgstr "MacOSX"
 
 #. type: Bullet: '* '
 msgid "Linux"
-msgstr ""
+msgstr "Linux"
 
 #. type: Plain text
 msgid "FusionInventory is designed to take care of the network bandwidth."
-msgstr ""
+msgstr "FusionInventory est conçu pour préserver la bande passante "
+"du réseau."
 
 #. type: Title ##
 #, no-wrap
 msgid "Wake on Lan"
-msgstr ""
+msgstr "Wake on Lan"
 
 #. type: Plain text
 msgid ""
@@ -148,16 +156,19 @@ msgid ""
 "plugin, you can planify when computers have to be awaken and from which "
 "agent."
 msgstr ""
+"L'agent peut envoyer un ordre WakeOnLan (réveil par réseau) sur son réseau local."
+" En utilisant le plugin GLPI, vous pouvez planifier quand les PC seront réveillés "
+"par un agent."
 
 #. type: Title #
 #, no-wrap
 msgid "The solution main components"
-msgstr ""
+msgstr "Les éléments de cette solution"
 
 #. type: Title ##
 #, no-wrap
 msgid "The agent"
-msgstr ""
+msgstr "L'agent"
 
 #. type: Plain text
 msgid ""
@@ -167,6 +178,11 @@ msgid ""
 "combination with a compatible server (OCS Inventory, GLPI, OTRS, "
 "Uranos, ...) acting as a centralized control point."
 msgstr ""
+"L'__Agent FusionInventory__ est un agent généric multi-plateforme. Il permet "
+"d'effectuer un large éventail de tâches de gestion, tel que l'inventaire "
+"local, le déploiement de logiciels ou la découverte du réseau. Il peut être "
+"utilisé seul ou avec un serveur compatible (OCS Inventory, GLPI, OTRS, "
+"Uranos, ...) qui centralisera le controle de l'agent."
 
 #. type: Plain text
 msgid ""
@@ -174,17 +190,22 @@ msgid ""
 "inventory and wake on lan. Other tasks are distributed separatly, excepted "
 "for binary distributions where they are bundled together."
 msgstr ""
+"Deux de ces tâches sont incluses dans la version source de l'agent, "
+"inventaire local et Wake on LAN. D'autres tâches sont distribuées séparément,"
+" sauf pour les versions binaires où ils sont incluses dans l'exécutable."
 
 #. type: Title ##
 #, no-wrap
 msgid "The GLPI Plugin"
-msgstr ""
+msgstr "Le plugin GLPI"
 
 #. type: Plain text
 msgid ""
 "[GLPI](http://www.glpi-project.org) is the Information Resource-Manager with "
 "an additional Administration Interface."
 msgstr ""
+"[GLPI](http://www.glpi-project.org) est un gestionnaire d'information avec "
+"en une interface d'administration."
 
 #. type: Plain text
 msgid ""
@@ -194,24 +215,30 @@ msgid ""
 "mail-notification and methods to build a database with information about "
 "your network-topology."
 msgstr ""
+"Vous pouvez l'utiliser pour créer une base de données avec un inventaire "
+"de votre entreprise (ordinateur, logiciels, imprimantes, ...). Il a des "
+"fonctions améliorées pour rendre la vie quotidienne plus facile aux "
+"administrateurs, comme un système de suivi des incidents avec notification "
+"par mail et des méthodes pour construire une base de données avec des "
+"informations sur la topologie de votre réseau."
 
 #. type: Plain text
 msgid "GLPI also comes with an integrated Request Tracking solution."
-msgstr ""
+msgstr "GLPI est également livré avec une solution intégrée de suivi de demande."
 
 #. type: Plain text
 msgid "__FusionInventory for GLPI__ is a plugin for GLPI."
-msgstr ""
+msgstr "__FusionInventory for GLPI__ est un plugin pour GLPI"
 
 #. type: Title ##
 #, no-wrap
 msgid "The big picture"
-msgstr ""
+msgstr "Vue du système"
 
 #. type: Plain text
 #, no-wrap
 msgid "[[!graph  src=\"\"\"\n"
-msgstr ""
+msgstr "[[!graph  src=\"\"\"\n"
 
 #. type: Plain text
 #, no-wrap
@@ -222,6 +249,11 @@ msgid ""
 "    rankdir=LR;\n"
 "    resolution = \"75\";\n"
 msgstr ""
+"    style=filled;\n"
+"    color=lightgrey;\n"
+"    node [shape=box, color=purple ];\n"
+"    rankdir=LR;\n"
+"    resolution = \"75\";\n"
 
 #. type: Plain text
 #, no-wrap
@@ -234,16 +266,23 @@ msgid ""
 "        label = \"GLPI\";\n"
 "    }\n"
 msgstr ""
+"    subgraph cluster_0 {\n"
+"        style=filled;\n"
+"        color=lightgrey;\n"
+"        node [style=filled,color=white];\n"
+"        \"FusionInventory for GLPI\" -> \"moteur GLPI\" -> \"BD\";\n"
+"        label = \"GLPI\";\n"
+"    }\n"
 
 #. type: Plain text
 #, no-wrap
 msgid "    subgraph cluster_1 {\n"
-msgstr ""
+msgstr "    subgraph cluster_1 {\n"
 
 #. type: Plain text
 #, no-wrap
 msgid "        subgraph cluster_4 {\n"
-msgstr ""
+msgstr "        subgraph cluster_4 {\n"
 
 #. type: Plain text
 #, no-wrap
@@ -256,6 +295,13 @@ msgid ""
 "            label = \"FusionInventory Agent\";\n"
 "        }\n"
 msgstr ""
+"            color=gainsboro;\n"
+"            \"Inventaire Local\" -> \"Agent\" -> \"FusionInventory for GLPI\";\n"
+"            \"Inventaire ESX\" -> \"Agent\";\n"
+"            \"Inventaire Réseau\" -> \"Agent\";\n"
+"            \"Agent\" -> \"Deployer\";\n"
+"            label = \"FusionInventory Agent\";\n"
+"        }\n"
 
 #. type: Plain text
 #, no-wrap
@@ -278,6 +324,23 @@ msgid ""
 "        label = \"Computer(s)\";\n"
 "    }\n"
 msgstr ""
+"        style=filled;\n"
+"        color=lightgrey;\n"
+"        node [style=filled,color=white];\n"
+"        \"dmidecode\" -> \"Inventaire Local\";\n"
+"        \"dpkg\" -> \"Inventaire Local\";\n"
+"        \"registry\" -> \"Inventaire Local\";\n"
+"        \"rpm\" -> \"Inventaire Local\";\n"
+"        \"WMI\" -> \"Inventaire Local\";\n"
+"        \"dmidecode\" -> \"Inventaire Local\";\n"
+"        \"PCI info\" -> \"Inventaire Local\";\n"
+"        \"USB info\" -> \"Inventaire Local\";\n"
+"        \"Machines Virtuelles\" -> \"Inventaire Local\";\n"
+"        \"Autres\" -> \"Inventaire Local\";\n"
+"        \"Deployer\" -> \"Configuration Système\";\n"
+"        \"Deployer\" -> \"Ajout Logiciel\";\n"
+"        label = \"Ordinateur(s)\";\n"
+"    }\n"
 
 #. type: Plain text
 #, no-wrap
@@ -289,6 +352,12 @@ msgid ""
 "        \"vCenter1\" -> \"ESX Inventory\";\n"
 "        \"esx4\" -> \"ESX Inventory\";\n"
 msgstr ""
+"    subgraph cluster_2 {\n"
+"        style=filled;\n"
+"        color=lightgrey;\n"
+"        node [style=filled,color=white];\n"
+"        \"vCenter1\" -> \"Inventaire ESX\";\n"
+"        \"esx4\" -> \"Inventaire ESX\";\n"
 
 #. type: Plain text
 #, no-wrap
@@ -305,6 +374,17 @@ msgid ""
 "        label = \"VMware API\";\n"
 "    }\n"
 msgstr ""
+"        \"esx1\" -> \"vCenter1\";\n"
+"        \"esx2\" -> \"vCenter1\";\n"
+"        \"esx3\" -> \"vCenter1\";\n"
+"        \"vm1\" -> \"esx1\";\n"
+"        \"vm2\" -> \"esx2\";\n"
+"        \"vm3\" -> \"esx2\";\n"
+"        \"vm4\" -> \"esx3\";\n"
+"        \"vm5\" -> \"esx3\";\n"
+"        \"vm6\" -> \"esx4\";\n"
+"        label = \"VMware API\";\n"
+"    }\n"
 
 #. type: Plain text
 #, no-wrap
@@ -320,3 +400,13 @@ msgid ""
 "        label = \"Networks\";\n"
 "    }\n"
 msgstr ""
+"    subgraph cluster_3 {\n"
+"        style=filled;\n"
+"        color=lightgrey;\n"
+"        node [style=filled,color=white];\n"
+"        \"imprimante 1\" -> \"Inventaire Réseau\";\n"
+"        \"imprimante 2\" -> \"Inventaire Réseau\";\n"
+"        \"switch 1\" -> \"Inventaire Réseau\";\n"
+"        \"Matériel inconnu\" -> \"Inventaire Réseau\";\n"
+"        label = \"Réseau\";\n"
+"    }\n"

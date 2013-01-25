@@ -1,4 +1,4 @@
-# SOME DESCRIPTIVE TITLE
+﻿# SOME DESCRIPTIVE TITLE
 # Copyright (C) YEAR Free Software Foundation, Inc.
 # This file is distributed under the same license as the PACKAGE package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
@@ -19,46 +19,46 @@ msgstr ""
 #. type: Title ##
 #, no-wrap
 msgid "FusionInventory for GLPI"
-msgstr ""
+msgstr "FusionInventory for GLPI"
 
 #. type: Plain text
 #, no-wrap
 msgid "[[!img screenshots/308.png size=\"200x200\" alt=\"clouds\"]]\n"
-msgstr ""
+msgstr "[[!img screenshots/308.png size=\"200x200\" alt=\"clouds\"]]\n"
 
 #. type: Plain text
 #, no-wrap
 msgid "[[!img screenshots/309.png size=\"200x200\" alt=\"clouds\"]]\n"
-msgstr ""
+msgstr "[[!img screenshots/309.png size=\"200x200\" alt=\"clouds\"]]\n"
 
 #. type: Plain text
 #, no-wrap
 msgid "[[!img screenshots/299.png size=\"200x200\" alt=\"clouds\"]]\n"
-msgstr ""
+msgstr "[[!img screenshots/299.png size=\"200x200\" alt=\"clouds\"]]\n"
 
 #. type: Title ##
 #, no-wrap
 msgid "Agent"
-msgstr ""
+msgstr "Agent"
 
 #. type: Plain text
 #, no-wrap
 msgid "[[!img screenshots/installer.png size=\"200x200\" alt=\"clouds\"]]\n"
-msgstr ""
+msgstr "[[!img screenshots/installer.png size=\"200x200\" alt=\"clouds\"]]\n"
 
 #. type: Plain text
 #, no-wrap
 msgid "[[!img screenshots/agent-300x230.png size=\"200x200\" alt=\"clouds\"]]\n"
-msgstr ""
+msgstr "[[!img screenshots/agent-300x230.png size=\"200x200\" alt=\"clouds\"]]\n"
 
 #. type: Title ##
 #, no-wrap
 msgid "OCS Inventory "
-msgstr ""
+msgstr "OCS Inventory "
 
 #. type: Plain text
 msgid "An example of Cyrillic content FusionInventory Agent with OCS Inventory:"
-msgstr ""
+msgstr "Un exemple de contenu par l'agent FusionInventory avec OCS Inventory:"
 
 #. type: Plain text
 #, no-wrap
@@ -66,17 +66,21 @@ msgid ""
 "[[!img screenshots/ocsreport-cyrillic-290x300.png size=\"200x200\" "
 "alt=\"clouds\"]]\n"
 msgstr ""
+"[[!img screenshots/ocsreport-cyrillic-290x300.png size=\"200x200\" "
+"alt=\"clouds\"]]\n"
 
 #. type: Title ##
 #, no-wrap
 msgid "Uranos"
-msgstr ""
+msgstr "Uranos"
 
 #. type: Plain text
 msgid ""
 "[Uranos](http://uranos.sourceforge.net/www/index.php?loadsub=quwiki&func=wiki&type=index) "
 "is another server that support FusionInventory Agent."
 msgstr ""
+"[Uranos](http://uranos.sourceforge.net/www/index.php?loadsub=quwiki&func=wiki&type=index) "
+"est un autre serveur pouvant communiquer avec FusionInventory Agent."
 
 #. type: Plain text
 #, no-wrap
@@ -84,6 +88,8 @@ msgid ""
 "[[!img screenshots/fusioninventory-storages.png size=\"200x200\" "
 "alt=\"clouds\"]]\n"
 msgstr ""
+"[[!img screenshots/fusioninventory-storages.png size=\"200x200\" "
+"alt=\"clouds\"]]\n"
 
 #. type: Plain text
 #, no-wrap
@@ -91,6 +97,8 @@ msgid ""
 "[[!img screenshots/fusioninventory-detail-300x146.png size=\"200x200\" "
 "alt=\"clouds\"]]\n"
 msgstr ""
+"[[!img screenshots/fusioninventory-detail-300x146.png size=\"200x200\" "
+"alt=\"clouds\"]]\n"
 
 #. type: Plain text
 #, no-wrap
@@ -98,3 +106,5 @@ msgid ""
 "[[!img screenshots/fusioninventory-hardware-300x146.png size=\"200x200\" "
 "alt=\"clouds\"]]\n"
 msgstr ""
+"[[!img screenshots/fusioninventory-hardware-300x146.png size=\"200x200\" "
+"alt=\"clouds\"]]\n"

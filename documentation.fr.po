@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2013-01-24 16:56+0000\n"
+"POT-Creation-Date: 2013-01-24 10:20+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -19,117 +19,125 @@ msgstr ""
 #. type: Title #
 #, no-wrap
 msgid "FusionInventory Agent"
-msgstr ""
+msgstr "Agent FusionInventory"
 
 #. type: Bullet: '* '
 msgid "[[Installation|documentation/agent/installation]]"
-msgstr ""
+msgstr "[[Installation|documentation/agent/installation]]"
 
 #. type: Bullet: '* '
 msgid "[[Configuration|documentation/agent/configuration]]"
-msgstr ""
+msgstr "[[Configuration|documentation/agent/configuration]]"
 
 #. type: Bullet: '* '
 msgid "[[Usage|documentation/agent/usage]]"
-msgstr ""
+msgstr "[[Usage|documentation/agent/usage]]"
 
 #. type: Bullet: '* '
 msgid "[[Report bug|documentation/agent/bugreport]]"
-msgstr ""
+msgstr "[[Signaler un bug|documentation/agent/bugreport]]"
 
 #. type: Bullet: '* '
 msgid "[[References documentation|documentation/references]]"
-msgstr ""
+msgstr "[[Documentation de références|documentation/references]]"
 
 #. type: Bullet: '* '
 msgid "[[Network less inventory|documentation/agent/network_less]]"
-msgstr ""
+msgstr "[[Inventaire hors réseau|documentation/agent/network_less]]"
 
 #. type: Bullet: '* '
 msgid "[[Force an inventory|documentation/agent/launch_the_agent]]"
-msgstr ""
+msgstr "[[Forcer un inventaire|documentation/agent/launch_the_agent]]"
 
 #. type: Title #
 #, no-wrap
 msgid "FusionInventory for GLPI"
-msgstr ""
+msgstr "FusionInventory pour GLPI"
 
 #. type: Bullet: '* '
 msgid ""
 "[[How to install or update FusionInventory for GLPI|documentation/fi4g/"
 "installation]]"
 msgstr ""
+"[[Installation ou mise à jour de FusionInventory pour GLPI"
+"|documentation/fi4g/installation]]"
 
 #. type: Bullet: '* '
 msgid ""
 "[[How works «Equipment import and link rules»|documentation/fi4g/"
 "importrules]]"
 msgstr ""
+"[[Procédures sur les «Règles d'import et de liaison des matériels»|"
+"documentation/fi4g/importrules]]"
 
 #. type: Bullet: '* '
 msgid "[[How to scan my network|documentation/fi4g/networkdiscovery]]"
-msgstr ""
+msgstr "[[Comment scanner mon réseau|documentation/fi4g/networkdiscovery]]"
 
 #. type: Bullet: '* '
 msgid "[[How to inventory my ESX server|documentation/fi4g/esxinventory]]"
-msgstr ""
+msgstr "[[Comment inventorier mon serveur ESX|documentation/fi4g/esxinventory]]"
 
 #. type: Bullet: '* '
 msgid ""
 "[[How to deploy softwares with software deployment module|documentation/fi4g/"
 "deploy]]"
 msgstr ""
+"[[Comment déployer des logiciels avec le module déploiement|documentation/fi4g/"
+"deploy]]"
 
 #. type: Bullet: '* '
 msgid "[[How to deal with DMZ network|documentation/fi4g/dmz]]"
-msgstr ""
+msgstr "[[Comment faire avec un réseau DMZ|documentation/fi4g/dmz]]"
 
 #. type: Title #
 #, no-wrap
 msgid "Troubleshooting"
-msgstr ""
+msgstr "Procédure de dépannage"
 
 #. type: Bullet: '* '
 msgid "[[FAQ|documentation/faq]]"
-msgstr ""
+msgstr "[[FAQ|documentation/faq]]"
 
 #. type: Title #
 #, no-wrap
 msgid "Advanced topics"
-msgstr ""
+msgstr "Rubriques avancées"
 
 #. type: Bullet: '* '
 msgid "[[Create and manage SNMP models|documentation/fi4g/snmpmodels]]"
-msgstr ""
+msgstr "[[Création et gestion des modèles SNMP|documentation/fi4g/snmpmodels]]"
 
 #. type: Bullet: '* '
 msgid "[[Security and SSL|documentation/agent/security_and_ssl]]"
-msgstr ""
+msgstr "[[Securité et SSL|documentation/agent/security_and_ssl]]"
 
 #. type: Bullet: '* '
 msgid ""
 "[[Extend a computer inventory content|documentation/agent/"
 "additional_content]]"
 msgstr ""
+"[[Ajouter un contenu à l'inventaire machine|documentation/agent/"
+"additional_content]]"
 
 #. type: Title #
 #, no-wrap
 msgid "Bug report"
-msgstr ""
+msgstr "Signaler un bug"
 
 #. type: Bullet: '* '
 msgid "[[Report a bug on the Agent|documentation/agent/bugreport]]"
-msgstr ""
+msgstr "[[Signaler un bug de l'Agent|documentation/agent/bugreport]]"
 
 #. type: Title #
 #, no-wrap
 msgid "Contributor "
-msgstr ""
+msgstr "Contribution"
 
 #. type: Bullet: '* '
 msgid "[[How to use this wiki|documentation/wiki]]"
-msgstr ""
+msgstr "[[Comment utiliser ce wiki|documentation/wiki]]"
 
 #. type: Bullet: '* '
 msgid "[[for developers|documentation/dev]]"
-msgstr ""
+msgstr "[[Pour les développeurs|documentation/dev]]"

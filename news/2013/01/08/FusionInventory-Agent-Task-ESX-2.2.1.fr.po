@@ -1,4 +1,4 @@
-# SOME DESCRIPTIVE TITLE
+﻿# SOME DESCRIPTIVE TITLE
 # Copyright (C) YEAR Free Software Foundation, Inc.
 # This file is distributed under the same license as the PACKAGE package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
@@ -19,7 +19,7 @@ msgstr ""
 #. type: Plain text
 #, no-wrap
 msgid "[[!meta  date=\"2013-01-08\"]]\n"
-msgstr ""
+msgstr "[[!meta  date=\"2013-01-08\"]]\n"
 
 #. type: Plain text
 msgid "Happy new year!"
@@ -30,6 +30,8 @@ msgid ""
 "The FusionInventory Agent maintainers are glad to announce the 2.2.1 release "
 "or the ESX task."
 msgstr ""
+"Les mainteneurs de l'Agent FusionInventory sont heureux d'annoncer la sortie "
+"de la version 2.2.1 de l'ESX Task
 
 #. type: Plain text
 msgid ""
@@ -37,10 +39,13 @@ msgid ""
 "was generated invalid inventory files with no DEVICEID. It was not possible "
 "to push them in a server with fusioninventory-injector."
 msgstr ""
+"Cette version corrige un bug de longue date avec la commande fusioninventory-esx."
+" Cela générait des fichiers d'inventaire invalide sans DEVIEDID. Cela empêchait "
+"de les pousser sur le serveur avec fusioninventory-injector."
 
 #. type: Plain text
 msgid "The release is integrated in the 2.2.7-3 prebuilts."
-msgstr ""
+msgstr "Cette version est intégrée dans le prebuilts 2.2.7-3."
 
 #. type: Plain text
 msgid ""
@@ -49,20 +54,24 @@ msgid ""
 "or directly from [the "
 "CPAN](https://metacpan.org/release/FusionInventory-Agent-Task-ESX)"
 msgstr ""
+"Vous pouvez télécharger l'archive à partir de la "
+"[forge](http://forge.fusioninventory.org/attachments/download/913/FusionInventory-Agent-Task-ESX-2.2.1.tar.gz)  "
+"ou directement via ["
+"CPAN](https://metacpan.org/release/FusionInventory-Agent-Task-ESX)"
 
 #. type: Title ##
 #, no-wrap
 msgid "This release changelog"
-msgstr ""
+msgstr "Modification pour cette version"
 
 #. type: Bullet: '* '
 msgid "ensure the DEVICEID is correctly set"
-msgstr ""
+msgstr "Vérifier que DEVICEID est correctement paramétré"
 
 #. type: Bullet: '* '
 msgid "convert the Change file to markdown format"
-msgstr ""
+msgstr "Convertir le fichier de Change vers le format markdown"
 
 #. type: Plain text
 msgid "Thank you Marc Caissial and the others who reported the bug."
-msgstr ""
+msgstr "Merci à Marc Caissial et aux autres personnes ayant signalés ce bug."
