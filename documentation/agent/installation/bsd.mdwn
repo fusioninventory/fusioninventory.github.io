@@ -1,7 +1,5 @@
 # Installation on BSD OSes
 
-[[!template  id=info text="We are looking for a **NetBSD pkgsrc porter**"]]
-
 ## FreeBSD port
 
 A FreeBSD port is available in **net-mgmt/p5-FusionInventory-Agent**.
