@@ -49,6 +49,18 @@ This list is open and if you believe your company deservice to be added, please
   email="jonathan.clarke@normation.com"
 ]]
 
+[[!template id=partner
+  logo="zenitique.png"
+  name="Zenitique"
+  location="Villers-lès-Nancy – France"
+  qa="bug reports"
+  support="forum moderator"
+  web="http://zenitique.fr/"
+  email="marc.caissial@zenitique.fr"
+]]
+
+
+
 This page is open to now contributor, if you want to be registered here, please contact us.
 
 These companies did some contributions in the past but are not active developer of FusionInventory:
