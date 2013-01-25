@@ -50,7 +50,7 @@ This list is open and if you believe your company deservice to be added, please
 ]]
 
 [[!template id=partner
-  logo="zenitique.png"
+  logo="zenetique.jpg"
   name="Zenitique"
   location="Villers-lès-Nancy – France"
   qa="bug reports"
