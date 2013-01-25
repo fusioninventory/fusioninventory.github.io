@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2013-01-11 14:06+0000\n"
+"POT-Creation-Date: 2013-01-25 15:56+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -93,6 +93,20 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
+#, no-wrap
+msgid ""
+"[[!template id=partner\n"
+"  logo=\"zenitique.png\"\n"
+"  name=\"Zenitique\"\n"
+"  location=\"Villers-lès-Nancy – France\"\n"
+"  qa=\"bug reports\"\n"
+"  support=\"forum moderator\"\n"
+"  web=\"http://zenitique.fr/\"\n"
+"  email=\"marc.caissial@zenitique.fr\"\n"
+"]]\n"
+msgstr ""
+
+#. type: Plain text
 msgid ""
 "This page is open to now contributor, if you want to be registered here, "
 "please contact us."
@@ -106,6 +120,6 @@ msgstr ""
 
 #. type: Bullet: '* '
 msgid ""
-"[OpenSides](http://www.opensides.be): Benoit Mortier "
-"<benoit.mortier@opensides.be>"
+"[OpenSides](http://www.opensides.be): Benoit Mortier <benoit."
+"mortier@opensides.be>"
 msgstr ""
