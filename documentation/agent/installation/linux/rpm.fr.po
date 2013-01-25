@@ -153,7 +153,7 @@ msgstr ""
 #. type: Title ##
 #, no-wrap
 msgid "2.2.x -- Fedora"
-msgstr ""
+msgstr "2.2.x -- Fedora"
 
 #. type: Plain text
 #, no-wrap
