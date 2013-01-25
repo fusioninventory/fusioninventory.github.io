@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2013-01-15 12:17+0000\n"
+"POT-Creation-Date: 2013-01-25 11:01+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -21,11 +21,6 @@ msgstr ""
 msgid "Installation on BSD OSes"
 msgstr "Installation pour .BSD "
 
-#. type: Plain text
-#, no-wrap
-msgid "[[!template  id=info text=\"We are looking for a **NetBSD pkgsrc porter**\"]]\n"
-msgstr "[[!template  id=info text=\"Nous recherchons un **NetBSD pkgsrc porter**\"]]\n"
-
 #. type: Title ##
 #, no-wrap
 msgid "FreeBSD port"
@@ -33,7 +28,8 @@ msgstr "Port FreeBSD"
 
 #. type: Plain text
 msgid "A FreeBSD port is available in **net-mgmt/p5-FusionInventory-Agent**."
-msgstr "Un port FreeBSD est disponible dans **net-mgmt/p5-FusionInventory-Agent**."
+msgstr ""
+"Un port FreeBSD est disponible dans **net-mgmt/p5-FusionInventory-Agent**."
 
 #. type: Plain text
 #, no-wrap
@@ -54,8 +50,8 @@ msgid ""
 "A [pkgsrc port](http://pkgsrc.se/net/p5-FusionInventory-Agent) is available "
 "in net/p5-FusionInventory-Agent"
 msgstr ""
-"Un [port pkgsrc](http://pkgsrc.se/net/p5-FusionInventory-Agent) est disponible "
-"dans **net/p5-FusionInventory-Agent**"
+"Un [port pkgsrc](http://pkgsrc.se/net/p5-FusionInventory-Agent) est "
+"disponible dans **net/p5-FusionInventory-Agent**"
 
 #. type: Title ##
 #, no-wrap
@@ -64,8 +60,8 @@ msgstr "Installation depuis les sources"
 
 #. type: Plain text
 msgid "[[Installation from source|documentation/agent/installation/source]]."
-msgstr "[[Installation depuis les sources"
-"|documentation/agent/installation/source]]."
+msgstr ""
+"[[Installation depuis les sources|documentation/agent/installation/source]]."
 
 #. type: Title ##
 #, no-wrap
@@ -76,10 +72,13 @@ msgstr "Paquet Prebuilt"
 msgid ""
 "Even if it's not the recommended installation method, sometime it's helpful "
 "to be able to run an inventory without system modification. In this case, "
-"you can use the [[prebuilt "
-"packages|documentation/agent/installation/prebuilt]]."
+"you can use the [[prebuilt packages|documentation/agent/installation/"
+"prebuilt]]."
 msgstr ""
-"Même si ce n'est pas la méthode d'installation recommandée, "
-"parfois il est utile d'être en mesure d'exécuter un inventaire "
-"sans modification du système. Dans ce cas, vous pouvez utiliser "
-"le [[paquet prebuilt|documentation/agent/installation/prebuilt]]."
+"Même si ce n'est pas la méthode d'installation recommandée, parfois il est "
+"utile d'être en mesure d'exécuter un inventaire sans modification du "
+"système. Dans ce cas, vous pouvez utiliser le [[paquet prebuilt|"
+"documentation/agent/installation/prebuilt]]."
+
+#~ msgid "[[!template  id=info text=\"We are looking for a **NetBSD pkgsrc porter**\"]]\n"
+#~ msgstr "[[!template  id=info text=\"Nous recherchons un **NetBSD pkgsrc porter**\"]]\n"

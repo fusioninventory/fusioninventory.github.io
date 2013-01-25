@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2013-01-15 12:17+0000\n"
+"POT-Creation-Date: 2013-01-25 11:01+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -19,11 +19,6 @@ msgstr ""
 #. type: Title #
 #, no-wrap
 msgid "Installation on BSD OSes"
-msgstr ""
-
-#. type: Plain text
-#, no-wrap
-msgid "[[!template  id=info text=\"We are looking for a **NetBSD pkgsrc porter**\"]]\n"
 msgstr ""
 
 #. type: Title ##
