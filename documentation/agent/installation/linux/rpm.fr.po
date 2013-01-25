@@ -37,7 +37,7 @@ msgstr ""
 #. type: Title ##
 #, no-wrap
 msgid "2.2.x -- SuSE/RHEL/CentOS"
-msgstr ""
+msgstr "2.2.x -- SuSE/RHEL/CentOS"
 
 #. type: Plain text
 msgid ""
@@ -45,12 +45,15 @@ msgid ""
 "build.opensuse.org/package/repositories?package=FusionInventory-"
 "Agent&project=home%3Aaevseev). Feedback about these RPM packages are welcome."
 msgstr ""
+"Un nouveau paquet expérimental est disponible sur l'[OpenSUSE Build Service]"
+"(https://build.opensuse.org/package/repositories?package=FusionInventory-"
+"Agent&project=home%3Aaevseev). Tout retour d'expérience sur ces paquets RPM "
+"sont les bienvenus."
 
 #. type: Title ##
-#, fuzzy, no-wrap
-#| msgid "RHEL, Centos 4"
+#, no-wrap
 msgid "2.1.x -- RHEL, Centos 4"
-msgstr "RHEL, Centos 4"
+msgstr "2.1.x -- RHEL, Centos 4"
 
 #. type: Plain text
 #, no-wrap
@@ -67,10 +70,9 @@ msgstr ""
 "    # up2date -i install fusioninventory-agent\n"
 
 #. type: Title ##
-#, fuzzy, no-wrap
-#| msgid "RHEL, Centos 5"
+#, no-wrap
 msgid "2.1.x -- RHEL, Centos 5"
-msgstr "RHEL, Centos 5"
+msgstr "2.1.x -- RHEL, Centos 5"
 
 #. type: Plain text
 msgid "First of all, you need to enable EPEL and Remi repository"
@@ -97,10 +99,9 @@ msgid "    # yum --enablerepo=remi install fusioninventory-agent\n"
 msgstr "    # yum --enablerepo=remi install fusioninventory-agent\n"
 
 #. type: Title ##
-#, fuzzy, no-wrap
-#| msgid "RHEL/Centos 6.X"
+#, no-wrap
 msgid "2.1.x - RHEL/Centos 6.X"
-msgstr "RHEL/Centos 6.X"
+msgstr "2.1.x - RHEL/Centos 6.X"
 
 #. type: Plain text
 #, no-wrap
@@ -160,10 +161,9 @@ msgid "*fusioninventory-agent* is part of the *official repository* for fedora >
 msgstr "L'agent *FusionInventory* fait parti du dépôt officiel pour Fedora >= 14\n"
 
 #. type: Plain text
-#, fuzzy, no-wrap
-#| msgid "*fusioninventory-agent* is available in the *remi* third party repository for fedora >= 8\n"
+#, no-wrap
 msgid "*fusioninventory-agent* is available in the *remi* third party repository for EOL Fedora version (fedora >= 8)\n"
-msgstr "l'agent *FusionInventory* est disponible pour tiers-partie dans le dépôt de *Rémi* pour Fedora >= 8\n"
+msgstr "l'agent *FusionInventory* est disponible pour tiers-partie dans le dépôt de *Rémi* pour la version EOL de Fedora >= 8\n"
 
 #. type: Plain text
 msgid ""
@@ -205,13 +205,9 @@ msgstr ""
 "l'agent FusionInventory "
 
 #. type: Bullet: '* '
-#, fuzzy
-#| msgid ""
-#| "*perl-FusionInventory-Agent-Task-OcsDeploy* - Deploy software tool  for "
-#| "OCS Inventory NG by FusionInventory"
 msgid ""
-"*perl-FusionInventory-Agent-Task-OcsDeploy* - Gestion du déploiement "
-"logiciel OCS Inventory NG avec FusionInventory"
+"*perl-FusionInventory-Agent-Task-OcsDeploy* - Deploy software tool  for "
+"OCS Inventory NG by FusionInventory"
 msgstr ""
 "*perl-FusionInventory-Agent-Task-OcsDeploy* - Gestion du déploiement "
 "logiciel OCS Inventory NG avec FusionInventory"
