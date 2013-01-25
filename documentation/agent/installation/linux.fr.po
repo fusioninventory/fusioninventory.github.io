@@ -26,13 +26,12 @@ msgid "[[Debian and Ubuntu|documentation/agent/installation/linux/deb]]"
 msgstr "[[Debian et Ubuntu (.deb)|documentation/agent/installation/linux/deb]]"
 
 #. type: Bullet: '* '
-#, fuzzy
-#| msgid "[[Fedora, RHEL, etc|documentation/agent/installation/linux/rpm]]"
 msgid ""
 "[[Fedora, RHEL, SUSE, OpenSUSE, etc|documentation/agent/installation/linux/"
 "rpm]]"
 msgstr ""
-"[[Fedora, RHEL, etc (.rpm)|documentation/agent/installation/linux/rpm]]"
+"[[Fedora, RHEL, SUSE, OpenSUSE, etc (.rpm)|documentation/agent/installation/"
+"linux/rpm]]"
 
 #. type: Bullet: '* '
 msgid "[[Source|documentation/agent/installation/source]]"
