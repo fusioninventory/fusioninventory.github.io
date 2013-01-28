@@ -2,7 +2,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2013-01-23 17:23+0000\n"
+"POT-Creation-Date: 2013-01-28 20:56+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -30,24 +30,24 @@ msgid ""
 "Developement are done on FusionInventory forge: <http://forge."
 "fusioninventory.org/>."
 msgstr ""
-"Le développement est situé sur la Forge de FusionInventory: "
-"<http://forge.fusioninventory.org/>."
+"Le développement est situé sur la Forge de FusionInventory: <http://forge."
+"fusioninventory.org/>."
 
 #. type: Plain text
 msgid ""
 "The forge includes Bugtracker, Download page, Source browser and internal "
 "Wiki."
 msgstr ""
-"La forge inclue un gestionnaire de Bug, une page de téléchargement, "
-"un aperçu des sources et un wiki interne."
+"La forge inclue un gestionnaire de Bug, une page de téléchargement, un "
+"aperçu des sources et un wiki interne."
 
 #. type: Plain text
 msgid ""
 "Git repositories are synchronised on [Github FusionInventory page](http://"
 "www.github.com/fusinv)  regulary."
 msgstr ""
-"Le dépôt Git est synchronisé régulièrement sur "
-"la [page Github FusionInventory](http://www.github.com/fusinv)."
+"Le dépôt Git est synchronisé régulièrement sur la [page Github "
+"FusionInventory](http://www.github.com/fusinv)."
 
 #. type: Title ##
 #, no-wrap
@@ -63,24 +63,28 @@ msgid ""
 "[FusionInventory Users list](http://lists.alioth.debian.org/mailman/listinfo/"
 "fusioninventory-user)"
 msgstr ""
-"[Liste des utilisateurs de FusionInventory]"
-"(http://lists.alioth.debian.org/mailman/listinfo/fusioninventory-user)"
+"[Liste des utilisateurs de FusionInventory](http://lists.alioth.debian.org/"
+"mailman/listinfo/fusioninventory-user)"
 
 #. type: Bullet: '* '
 msgid ""
 "[FusionInventory Developers list](http://lists.alioth.debian.org/mailman/"
 "listinfo/fusioninventory-devel)"
 msgstr ""
-"[Liste des développeurs de FusionInventory]"
-"(http://lists.alioth.debian.org/mailman/listinfo/fusioninventory-devel)"
+"[Liste des développeurs de FusionInventory](http://lists.alioth.debian.org/"
+"mailman/listinfo/fusioninventory-devel)"
 
 #. type: Bullet: '* '
+#, fuzzy
+#| msgid ""
+#| "[FusinInventory translater list](http://lists.alioth.debian.org/mailman/"
+#| "listinfo/fusioninventory-i18n)"
 msgid ""
-"[FusinInventory translater list](http://lists.alioth.debian.org/mailman/"
+"[FusinInventory translator list](http://lists.alioth.debian.org/mailman/"
 "listinfo/fusioninventory-i18n)"
 msgstr ""
-"[Liste des traducteurs de FusinInventory]"
-"(http://lists.alioth.debian.org/mailman/listinfo/fusioninventory-i18n)"
+"[Liste des traducteurs de FusinInventory](http://lists.alioth.debian.org/"
+"mailman/listinfo/fusioninventory-i18n)"
 
 #. type: Title ##
 #, no-wrap
@@ -94,8 +98,8 @@ msgid ""
 "between contributors."
 msgstr ""
 "FusionInventory utilise un canal IRC sur Freenode nommé "
-"__#fusioninventory__.  IRC est surtout utilisé pour coordonner"
-" le développement entre les contributeurs."
+"__#fusioninventory__.  IRC est surtout utilisé pour coordonner le "
+"développement entre les contributeurs."
 
 #. type: Bullet: '* '
 msgid "Network: [FreeNode](http://irc.freenode.net)"
@@ -116,8 +120,8 @@ msgid ""
 "users. This forum is not directly supported by the FusionInventory team but "
 "by the users."
 msgstr ""
-"[Un forum](http://forum.fusioninventory.org/) est aussi disponible pour "
-"les utilisateurs. Ce forum n'est pas directement supporté par l'équipe de "
+"[Un forum](http://forum.fusioninventory.org/) est aussi disponible pour les "
+"utilisateurs. Ce forum n'est pas directement supporté par l'équipe de "
 "FusionInventory mais pas les utilisateurs."
 
 #. type: Plain text
@@ -126,7 +130,8 @@ msgid ""
 "mailing lists or the bug tracker on the forge."
 msgstr ""
 "Si vous désirez signaler un bugs ou contacter l'équipe de développement, "
-"veuillez utiliser la liste de diffusion ou le gestionnaire de bug de la Forge."
+"veuillez utiliser la liste de diffusion ou le gestionnaire de bug de la "
+"Forge."
 
 #. type: Title ##
 #, no-wrap
@@ -138,5 +143,6 @@ msgid ""
 "A list of trusted companies is maintain on the [[partners]] page. Those "
 "companies are involved in FusionInventory developement."
 msgstr ""
-"La liste des entreprises partenaires est disponible sur la page: [[partners]]. Ces "
-"entreprises participent au développement de FusionInventory."
+"La liste des entreprises partenaires est disponible sur la page: "
+"[[partners]]. Ces entreprises participent au développement de "
+"FusionInventory."

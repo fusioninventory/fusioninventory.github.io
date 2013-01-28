@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2013-01-28 13:16+0000\n"
+"POT-Creation-Date: 2013-01-28 20:56+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -32,8 +32,8 @@ msgstr ""
 
 #. type: Plain text
 msgid ""
-"Developement are done on FusionInventory forge: "
-"<http://forge.fusioninventory.org/>."
+"Developement are done on FusionInventory forge: <http://forge."
+"fusioninventory.org/>."
 msgstr ""
 
 #. type: Plain text
@@ -44,8 +44,8 @@ msgstr ""
 
 #. type: Plain text
 msgid ""
-"Git repositories are synchronised on [Github FusionInventory "
-"page](http://www.github.com/fusinv)  regulary."
+"Git repositories are synchronised on [Github FusionInventory page](http://"
+"www.github.com/fusinv)  regulary."
 msgstr ""
 
 #. type: Title ##
@@ -59,20 +59,20 @@ msgstr ""
 
 #. type: Bullet: '* '
 msgid ""
-"[FusionInventory Users "
-"list](http://lists.alioth.debian.org/mailman/listinfo/fusioninventory-user)"
+"[FusionInventory Users list](http://lists.alioth.debian.org/mailman/listinfo/"
+"fusioninventory-user)"
 msgstr ""
 
 #. type: Bullet: '* '
 msgid ""
-"[FusionInventory Developers "
-"list](http://lists.alioth.debian.org/mailman/listinfo/fusioninventory-devel)"
+"[FusionInventory Developers list](http://lists.alioth.debian.org/mailman/"
+"listinfo/fusioninventory-devel)"
 msgstr ""
 
 #. type: Bullet: '* '
 msgid ""
-"[FusinInventory translater "
-"list](http://lists.alioth.debian.org/mailman/listinfo/fusioninventory-i18n)"
+"[FusinInventory translator list](http://lists.alioth.debian.org/mailman/"
+"listinfo/fusioninventory-i18n)"
 msgstr ""
 
 #. type: Title ##
