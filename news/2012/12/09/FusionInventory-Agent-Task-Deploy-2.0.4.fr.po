@@ -26,8 +26,8 @@ msgid ""
 "We are glad to announce the 2.0.4 release. This is a minor stable release "
 "already included in 2.2.7-1 prebuilt and Windows distributions."
 msgstr ""
-"Nous sommes heureux d'annoncer la version 2.0.4. C'est une Èvolution mineure "
-"de la version dÈj‡ incluse dans la prebuilt 2.2.7-1 et les exÈcutables Windows."
+"Nous sommes heureux d'annoncer la version 2.0.4. C'est une √©volution mineure "
+"de la version d√©j√† incluse dans la prebuilt 2.2.7-1 et les ex√©cutables Windows."
 
 #. type: Title ##
 #, no-wrap
@@ -39,7 +39,7 @@ msgid ""
 "Fix: test-suite was broken because of a missing dependency on "
 "DateTime::Format::Mail"
 msgstr ""
-"Fixe: Test-suite Ètait cassÈ ‡ cause d'une dÈpendence absente "
+"Fixe: Test-suite √©tait cass√© √† cause d'une d√©pendence absente "
 "dans DateTime::Format::Mail"
 
 #. type: Bullet: '* '
