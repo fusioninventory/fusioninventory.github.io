@@ -161,7 +161,7 @@ msgid "Gonéri: Why the itemtype is required at this point?"
 msgstr ""
 
 #. type: Bullet: '* '
-#:  
+#:
 msgid "Gonéri: what kind of information is returned?"
 msgstr ""
 
@@ -224,7 +224,7 @@ msgid ""
 msgstr ""
 
 #. type: Bullet: '* '
-#:      
+#:
 msgid "Gonéri : What is the format of the data send and receieved?"
 msgstr ""
 

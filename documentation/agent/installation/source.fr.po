@@ -46,7 +46,7 @@ msgstr "Les archives avec les suffixes **rc** ou **beta** dans la version ne son
 
 #. type: Plain text
 msgid "It's also possible to get snapshot from Github:"
-msgstr "Il est aussi possible de récupérer une image par Github:" 
+msgstr "Il est aussi possible de récupérer une image par Github:"
 
 #. type: Bullet: '* '
 msgid "[Agent 2.2.x](https://github.com/fusinv/fusioninventory-agent/tarball/2.2.x)"
@@ -91,7 +91,7 @@ msgid ""
 msgstr ""
 "Makefile.PL vérifiera que toutes les dépendances soient satisfaites et "
 "préparera l'organisation de construction."
- 
+
 #. type: Plain text
 #, no-wrap
 msgid "    perl Makefile.PL\n"

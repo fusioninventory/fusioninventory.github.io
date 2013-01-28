@@ -385,7 +385,7 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#:  
+#:
 msgid ""
 "You don't need to copy a public certificate on very agent if your private "
 "key is valide and was been signed by a valide certificate authority."
@@ -442,7 +442,7 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#:  
+#:
 msgid ""
 "This option can only be used as command line argument. It will be ignored if "
 "you set it in a config file or in Windows registry."
@@ -703,7 +703,7 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#:  
+#:
 msgid "- __\\--scan-homedirs__"
 msgstr ""
 
