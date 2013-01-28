@@ -31,7 +31,7 @@ msgid ""
 "or the ESX task."
 msgstr ""
 "Les mainteneurs de l'Agent FusionInventory sont heureux d'annoncer la sortie "
-"de la version 2.2.1 de l'ESX Task
+"de la version 2.2.1 de l'ESX Task"
 
 #. type: Plain text
 msgid ""
