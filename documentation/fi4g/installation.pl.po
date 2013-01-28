@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "POT-Creation-Date: 2013-01-08 09:28+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Last-Translator: Piotr Adamcio <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: \n"
 "MIME-Version: 1.0\n"
@@ -19,38 +19,40 @@ msgstr ""
 #. type: Title #
 #, no-wrap
 msgid "FusionInventory for GLPI installation"
-msgstr ""
+msgstr "Instalacja wtyczki FusionInventory w GLPI"
 
 #. type: Title ##
 #, no-wrap
 msgid "Get the archive for your GLPI"
-msgstr ""
+msgstr "Pobierz odpowiednią paczkę dla swojego GLPI"
 
 #. type: Plain text
 msgid ""
 "First, download archive the here: "
 "<http://forge.fusioninventory.org/projects/fusioninventory-for-glpi/files>"
 msgstr ""
+"Plik możesz pobrać z tąd: "
+"<http://forge.fusioninventory.org/projects/fusioninventory-for-glpi/files>"
 
 #. type: Plain text
 msgid "FusionInventory for GLPI tarball name follow this convention:"
-msgstr ""
+msgstr "Nazewnictwo paczek dla GLPI jest w konwencji:"
 
 #. type: Bullet: '* '
 msgid "fusioninventory-for-glpi-metapackage_"
-msgstr ""
+msgstr "fusioninventory-for-glpi-metapackage_"
 
 #. type: Bullet: '* '
 msgid "GLPI major release (0.80, 0.83, 0.84, etc)"
-msgstr ""
+msgstr "Główne wydanie GLPI (0.80, 0.83, 0.84, itp)"
 
 #. type: Bullet: '* '
 msgid "a '+' symbol"
-msgstr ""
+msgstr "symbol '+'"
 
 #. type: Bullet: '* '
 msgid "FusionInventory release"
-msgstr ""
+msgstr "Wydanie FusionInventory"
 
 #. type: Plain text
 msgid ""
@@ -58,11 +60,14 @@ msgid ""
 "download it from the forge: "
 "<https://forge.indepnet.net/projects/webservices/files>"
 msgstr ""
+"Wtyczkę WebServices GLPI niezbędną dla funkcji instalcji zdalnej "
+"możesz ściągnąć z forge: "
+"<https://forge.indepnet.net/projects/webservices/files>"
 
 #. type: Title ##
 #, no-wrap
 msgid "Update"
-msgstr ""
+msgstr "Aktualizacja"
 
 #. type: Plain text
 msgid ""
