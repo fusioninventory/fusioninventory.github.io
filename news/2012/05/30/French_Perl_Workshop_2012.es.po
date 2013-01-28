@@ -1,0 +1,44 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2013-01-28 13:43+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. type: Plain text
+#, no-wrap
+msgid "[[!meta  date=\"2012-05-30 15:39:32\"]]\n"
+msgstr ""
+
+#. type: Plain text
+#, no-wrap
+msgid ""
+"<img src=\"/news/2012/05/30/perl-onion-300x300.png\" alt=\"\" "
+"title=\"perl-onion\" width=\"300\" height=\"300\" class=\"aligncenter "
+"size-medium wp-image-1390\" />\n"
+"FusionInventory developers will present [the "
+"tool](http://journeesperl.fr/fpw2012/talk/4113) during the [French Perl "
+"Workshop 2012](http://journeesperl.fr/fpw2012/). This year, the conference "
+"session will be hold theJune 29-30, 2012 in Strasbourg, France.\n"
+msgstr ""
+
+#. type: Plain text
+msgid ""
+"The presentation will introduce the internal Perl structure of the agent but "
+"aims to be friendly to new comer."
+msgstr ""
+
+#. type: Plain text
+msgid "See you there!"
+msgstr ""

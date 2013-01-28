@@ -1,0 +1,390 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2013-01-28 13:44+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. type: Plain text
+#, no-wrap
+msgid "[[!meta  date=\"2010-08-24 14:15:30\"]]\n"
+msgstr ""
+
+#. type: Plain text
+#, no-wrap
+msgid "<div>\n"
+msgstr ""
+
+#. type: Plain text
+msgid "New version of plugin FusionInventory for GLPI (fixes version)."
+msgstr ""
+
+#. type: Plain text
+msgid ""
+"You can download this version "
+"[here](http://forge.fusioninventory.org/attachments/download/120/fusioninventory-for-glpi-2.2.2-release.tar.gz)"
+msgstr ""
+
+#. type: Plain text
+msgid "To upgrade :"
+msgstr ""
+
+#. type: Bullet: '* '
+msgid "Remove folder glpi/plugins/fusioninventory"
+msgstr ""
+
+#. type: Bullet: '* '
+msgid "uncompress archive in glpi/plugins folder"
+msgstr ""
+
+#. type: Bullet: '* '
+msgid "in GLPI : Configuration > plugins and clic on 'install' and after 'activate'"
+msgstr ""
+
+#. type: Plain text
+msgid "This is the changelog of this corrective version :"
+msgstr ""
+
+#. type: Plain text
+#, no-wrap
+msgid "<em>ENGLISH :</em>\n"
+msgstr ""
+
+#. type: Bullet: '* '
+msgid "Fix last contact date when agent contact the first time GLPI"
+msgstr ""
+
+#. type: Bullet: '* '
+msgid ""
+"Fix bug of inventory computer when agent configuration have inventory "
+"disabled"
+msgstr ""
+
+#. type: Bullet: '* '
+msgid ""
+"Fix prolog (time to next execution of agent) in XML structure on all XML "
+"files transmited to agent"
+msgstr ""
+
+#. type: Bullet: '* '
+msgid ""
+"Remove possibility to add manually agent, must added automatically when "
+"agent contact plugin"
+msgstr ""
+
+#. type: Bullet: '* '
+msgid "Fix port detection when already created in discovery mode"
+msgstr ""
+
+#. type: Bullet: '* '
+msgid "Add port on discovery when no port is in DB"
+msgstr ""
+
+#. type: Bullet: '* '
+msgid "Fix check locks on network ports in discovery mode"
+msgstr ""
+
+#. type: Bullet: '* '
+msgid "Fix update devices fields on discovery"
+msgstr ""
+
+#. type: Bullet: '* '
+msgid "Fix update port in discovery mode when IP is empty in GLPI DB"
+msgstr ""
+
+#. type: Bullet: '* '
+msgid "Auto assign snmp model to printer (in printer menu) in discovery mode"
+msgstr ""
+
+#. type: Bullet: '* '
+msgid "Fix display network port lock in printers and networking devices"
+msgstr ""
+
+#. type: Bullet: '* '
+msgid "Fix lock tab display when plugin not installed/activated"
+msgstr ""
+
+#. type: Bullet: '* '
+msgid "Fix deconnection when we clic on a task"
+msgstr ""
+
+#. type: Bullet: '* '
+msgid "Disable link into task because no task form required"
+msgstr ""
+
+#. type: Bullet: '* '
+msgid "Fix PHP errors on /front/networking.form.php?ID=2"
+msgstr ""
+
+#. type: Bullet: '* '
+msgid "Remove \"core\" field in processes list because it's obsolete"
+msgstr ""
+
+#. type: Bullet: '* '
+msgid "Fix standard codings"
+msgstr ""
+
+#. type: Bullet: '* '
+msgid "Optimize SQL query in unknown devices list"
+msgstr ""
+
+#. type: Bullet: '* '
+msgid "Fix error in history connections"
+msgstr ""
+
+#. type: Bullet: '* '
+msgid "Fix error in reports"
+msgstr ""
+
+#. type: Bullet: '* '
+msgid "Fix error in port history"
+msgstr ""
+
+#. type: Bullet: '* '
+msgid "Fix for networkport history"
+msgstr ""
+
+#. type: Bullet: '* '
+msgid "Fix sql error in task management"
+msgstr ""
+
+#. type: Bullet: '* '
+msgid "Manage hub creation / management when no CDP instead of no trunk mode"
+msgstr ""
+
+#. type: Bullet: '* '
+msgid "Fix of creation of hub into always root entity to entity of range IP"
+msgstr ""
+
+#. type: Bullet: '* '
+msgid "Fix hub management (big fix)"
+msgstr ""
+
+#. type: Bullet: '* '
+msgid "Fix communication page"
+msgstr ""
+
+#. type: Bullet: '* '
+msgid ""
+"Add management of models (add new, update old and remove not used) in update "
+"process"
+msgstr ""
+
+#. type: Bullet: '* '
+msgid "Update model list (400 new devices and many corrections on current devices)"
+msgstr ""
+
+#. type: Bullet: '* '
+msgid "New version of discovery.xml file to automatically get model for device"
+msgstr ""
+
+#. type: Bullet: '* '
+msgid "Creation of unit tests"
+msgstr ""
+
+#. type: Bullet: '* '
+msgid "Fix en_GB lang for ink cartridge"
+msgstr ""
+
+#. type: Bullet: '* '
+msgid "Fix lang in de_DE file"
+msgstr ""
+
+#. type: Bullet: '* '
+msgid "Fix lang traduction"
+msgstr ""
+
+#. type: Bullet: '* '
+msgid "Fix traduction of fusioninventory reports"
+msgstr ""
+
+#. type: Bullet: '* '
+msgid "Fix traduction of link : view complete port history"
+msgstr ""
+
+#. type: Plain text
+#, no-wrap
+msgid "<em>FRANCAIS :</em>\n"
+msgstr ""
+
+#. type: Bullet: '* '
+msgid ""
+"Correction de la mise à jour de la date de dernier contact de l'agent "
+"lorsque l'agent contacte GLPI pour la première fois"
+msgstr ""
+
+#. type: Bullet: '* '
+msgid ""
+"Correction du bug de demande d'inventorier l'ordinateur quand la "
+"configuration de l'agent a inventaire désactivé"
+msgstr ""
+
+#. type: Bullet: '* '
+msgid ""
+"Correction du prolog (temps pour la prochaine exécution de l'agent) dans la "
+"structure du XML pour tous les XML envoyés a l'agent"
+msgstr ""
+
+#. type: Bullet: '* '
+msgid ""
+"Suppression de la possibilité d'ajouter un agent, il est créé "
+"automatiquement quand l'agent contacte le plugin"
+msgstr ""
+
+#. type: Bullet: '* '
+msgid "Correction de la détection du port qui existe déjà en mode découverte"
+msgstr ""
+
+#. type: Bullet: '* '
+msgid "Ajout du port en mode découverte quand ce port n'est pas en base de données"
+msgstr ""
+
+#. type: Bullet: '* '
+msgid "Correction de la vérification du verrou sur les ports en mode découverte"
+msgstr ""
+
+#. type: Bullet: '* '
+msgid "Correction de la mise à jour des champs en mode découverte"
+msgstr ""
+
+#. type: Bullet: '* '
+msgid ""
+"Correction de la mise à jour des ports en mode découverte quand l'IP est "
+"vide dans la base de données"
+msgstr ""
+
+#. type: Bullet: '* '
+msgid "Assignation automatique du modèle SNMP aux imprimantes en mode découverte"
+msgstr ""
+
+#. type: Bullet: '* '
+msgid ""
+"Correction de l'affichage des verrous sur les ports réseau pour les "
+"imprimantes et matériels réseau"
+msgstr ""
+
+#. type: Bullet: '* '
+msgid ""
+"Correction de l'onglet des verrous qui s'affiche quand le plugin n'est pas "
+"installé / activé"
+msgstr ""
+
+#. type: Bullet: '* '
+msgid "Correction du bug qui deconnectait de GLPI quand on clic sur une tâche"
+msgstr ""
+
+#. type: Bullet: '* '
+msgid "Suppression du lien dans les tâches car le formulaire n'est pas requis"
+msgstr ""
+
+#. type: Bullet: '* '
+msgid "Correction d'erreurs PHP sur la page /front/networking.form.php?ID=2"
+msgstr ""
+
+#. type: Bullet: '* '
+msgid ""
+"Suppression du champs \"core\" dans la liste des process car celui ci est "
+"obsolète"
+msgstr ""
+
+#. type: Bullet: '* '
+msgid "Correction du code standardisé"
+msgstr ""
+
+#. type: Bullet: '* '
+msgid "Optimisation des requêtes SQL dans la liste du matériel inconnu"
+msgstr ""
+
+#. type: Bullet: '* '
+msgid "Correction des erreurs dans l'historique des connexions"
+msgstr ""
+
+#. type: Bullet: '* '
+msgid "Correction d'erreurs dans les rapports"
+msgstr ""
+
+#. type: Bullet: '* '
+msgid "Correction des erreurs dans l'historique des ports"
+msgstr ""
+
+#. type: Bullet: '* '
+msgid "Correction de l'historique des ports réseau"
+msgstr ""
+
+#. type: Bullet: '* '
+msgid "Correction des erreurs SQL dans la gestion des tâches"
+msgstr ""
+
+#. type: Bullet: '* '
+msgid "Gestion des hub quand il y a pas de CDP au lieu de pas de mode trunk"
+msgstr ""
+
+#. type: Bullet: '* '
+msgid "Correction de la création des hub de l'entité root à l'entité de la plage IP"
+msgstr ""
+
+#. type: Bullet: '* '
+msgid "Correction de la gestion des hub (Grosses corrections)"
+msgstr ""
+
+#. type: Bullet: '* '
+msgid "Correction de la page de communication"
+msgstr ""
+
+#. type: Bullet: '* '
+msgid ""
+"Ajout de la gestion des modèles (ajout, mise à jour, suppression des modèles "
+"pas utilisé) dans le processus de mise à jour"
+msgstr ""
+
+#. type: Bullet: '* '
+msgid ""
+"Mise à jour de la liste des modèles (400 nouveaux équipements et beaucoup de "
+"modifications sur les équipements dejà gérés)"
+msgstr ""
+
+#. type: Bullet: '* '
+msgid ""
+"Nouvelle version du discovery.xml pour prendre automatiquement le modèle "
+"pour le matériel"
+msgstr ""
+
+#. type: Bullet: '* '
+msgid "Création de tests unitaires"
+msgstr ""
+
+#. type: Bullet: '* '
+msgid "Correction de l'anglais pour les cartouches d'encre"
+msgstr ""
+
+#. type: Bullet: '* '
+msgid "Correction de la langue de_DE"
+msgstr ""
+
+#. type: Bullet: '* '
+msgid "Correction des traductions de langue"
+msgstr ""
+
+#. type: Bullet: '* '
+msgid "Correction de la traduction des rapports de fusioninventory"
+msgstr ""
+
+#. type: Bullet: '* '
+msgid "Correction de la traduction des liens : voir l'historique des ports"
+msgstr ""
+
+#. type: Plain text
+#, no-wrap
+msgid "</div>\n"
+msgstr ""

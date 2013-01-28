@@ -1,0 +1,56 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2013-01-28 13:43+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. type: Title #
+#, no-wrap
+msgid "How to use the pre-built versions"
+msgstr ""
+
+#. type: Plain text
+msgid ""
+"There are also pre-compiled or pre-built versions of the agent maintained by "
+"the project. The idea is to launch the agent without installing anything on "
+"your system. Here are the steps :"
+msgstr ""
+
+#. type: Plain text
+msgid ""
+"Download the prebuilt version for your OS "
+"<http://prebuilt.fusioninventory.org/stable/>:"
+msgstr ""
+
+#. type: Bullet: '* '
+msgid "Uncompress the downloaded archive"
+msgstr ""
+
+#. type: Bullet: '* '
+msgid "Configure the agent by editing the agent.cfg file"
+msgstr ""
+
+#. type: Bullet: '* '
+msgid ""
+"Launch the agent with the following command as root : "
+"`./fusioninventory-agent`"
+msgstr ""
+
+#. type: Plain text
+msgid ""
+"The FusionInventory project recommands usage of packages (deb, rpm, etc.) "
+"when it's possble. Prebuilts are interesting for testing, or when you have "
+"no possibility to install packages on your system."
+msgstr ""
