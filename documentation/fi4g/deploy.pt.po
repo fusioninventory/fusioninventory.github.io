@@ -1,0 +1,322 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2013-01-28 13:16+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. type: Title #
+#, no-wrap
+msgid "Package Deployment"
+msgstr ""
+
+#. type: Plain text
+msgid ""
+"Package Deployment is both integrated with [[GLPI]] via *massive actions* "
+"and via the Plugin interface."
+msgstr ""
+
+#. type: Plain text
+#, no-wrap
+msgid "[[!img deploy/FusionInventoryMain.png]]\n"
+msgstr ""
+
+#. type: Bullet: '1.  '
+msgid ""
+"Task Management is available via the FusionInventory dropdown. This is "
+"mostly used to deploy packages, but can be used for other tasks."
+msgstr ""
+
+#. type: Bullet: '2.  '
+msgid "The Deploy dropdown is used to create deployable packages."
+msgstr ""
+
+#. type: Title #
+#, no-wrap
+msgid "FusionInventory Dropdown"
+msgstr ""
+
+#. type: Title ##
+#, no-wrap
+msgid "Agents Management"
+msgstr ""
+
+#. type: Plain text
+msgid "This is used to quickly check the status of a FusionInventory agent:"
+msgstr ""
+
+#. type: Bullet: '-   '
+msgid "If it's reporting in."
+msgstr ""
+
+#. type: Bullet: '-   '
+msgid "If [[GLPI]] knows about it."
+msgstr ""
+
+#. type: Bullet: '-   '
+msgid "What it's TOKEN is (used to authenticate the server when pushing a task)."
+msgstr ""
+
+#. type: Bullet: '-   '
+msgid "What it's unique ID is (used to uniquely identify one agent from another)."
+msgstr ""
+
+#. type: Title ##
+#, no-wrap
+msgid "Package Management"
+msgstr ""
+
+#. type: Title ###
+#, no-wrap
+msgid "Create a package"
+msgstr ""
+
+#. type: Plain text
+#, no-wrap
+msgid "[[!img deploy/FusionPluginPackageManagementMain.png]]\n"
+msgstr ""
+
+#. type: Bullet: '1.  '
+msgid "Use *Add a Package* to create a new package."
+msgstr ""
+
+#. type: Bullet: '2.  '
+msgid "Click on an existing package to edit that package."
+msgstr ""
+
+#. type: Title ###
+#, no-wrap
+msgid "Edit package"
+msgstr ""
+
+#. type: Plain text
+msgid ""
+"You can add checks before running the package, currently I prefer to do that "
+"with the deployed scripts."
+msgstr ""
+
+#. type: Plain text
+#, no-wrap
+msgid "[[!img deploy/FusionInventoryPackageCreation.png]]\n"
+msgstr ""
+
+#. type: Plain text
+#, no-wrap
+msgid ""
+"1.  Select to upload a file. You can upload a number of files, but must\n"
+"    upload one at a time. You can also elect to upload a zip file. I\n"
+"    generally build packages to use 2 files so upload them separately,\n"
+"    but this is not a rule.\n"
+"2.  Select to get the file \"From this computer\". Use the browse button\n"
+"    to select the file.\n"
+"    * With **P2P** enabled, computers will keep and share the downloaded\n"
+"      files to the other computers of the LAN. This allow you to speed\n"
+"      up a large download.\n"
+"    * If **Extract** is enabled, FusionInventory will try to extract the\n"
+"      archive (.7z, .zip, tar.gz, .tar)\n"
+"3.  Click OK and the file will be uploaded.\n"
+"4.  Click on \"Add command\", select \"execute a command\" then type in "
+"the\n"
+"    command you want, I usually use the script name here, but if you're\n"
+"    doing something else, any valid windows command (use full path\n"
+"    names) can be used.\n"
+"    -   You can optionally add return codes to validate against for\n"
+"        success or failure.\n"
+msgstr ""
+
+#. type: Plain text
+msgid ""
+"If you use \"move\" command, use \"*\" in case from if the agent get the "
+"file from GLPI"
+msgstr ""
+
+#. type: Title ##
+#, no-wrap
+msgid "Task Management (Normal)"
+msgstr ""
+
+#. type: Plain text
+msgid "Please see the [[task creation|documentation/fi4g/tasks]] page."
+msgstr ""
+
+#. type: Title ###
+#, no-wrap
+msgid "Creating a deployment task"
+msgstr ""
+
+#. type: Plain text
+#, no-wrap
+msgid ""
+"**NOTE**: You **must** have created the package you want to deploy\n"
+"FIRST. Please read that section if you need help with that.\n"
+msgstr ""
+
+#. type: Plain text
+#, no-wrap
+msgid "[[!img deploy/FusionInventoryTaskTest.png]]\n"
+msgstr ""
+
+#. type: Bullet: '1.  '
+msgid "Give the task a name"
+msgstr ""
+
+#. type: Bullet: '2.  '
+msgid ""
+"Select the communication type (push or pull). Traditionally we have used "
+"Pull."
+msgstr ""
+
+#. type: Bullet: '3.  '
+msgid "Set Advanced mode to Yes."
+msgstr ""
+
+#. type: Plain text
+#:  
+msgid "Then:"
+msgstr ""
+
+#. type: Plain text
+#, no-wrap
+msgid "[[!img deploy/FusionInventoryNewAction.png]]\n"
+msgstr ""
+
+#. type: Bullet: '1.  '
+msgid "Click on New Action"
+msgstr ""
+
+#. type: Bullet: '2.  '
+msgid "Give the job a name (Optional)"
+msgstr ""
+
+#. type: Bullet: '3.  '
+msgid "Select module to use - Package Deployment"
+msgstr ""
+
+#. type: Plain text
+#, no-wrap
+msgid "[[!img deploy/FusionInventoryJobDetails.png]]\n"
+msgstr ""
+
+#. type: Bullet: '1.  '
+msgid "Click the plus sign next to definition, select a package, click add."
+msgstr ""
+
+#. type: Bullet: '2.  '
+msgid ""
+"Click the plus sign next to Action, select computers etc, then use find as "
+"you type to add in the selection to apply the task to. Click add."
+msgstr ""
+
+#. type: Title ####
+#, no-wrap
+msgid "Assigning Computers to a deployment task via Mass Action:"
+msgstr ""
+
+#. type: Bullet: '1.  '
+msgid ""
+"Make sure you have created but not activated a task and a deployment "
+"package."
+msgstr ""
+
+#. type: Bullet: '2.  '
+msgid "Use \"Target a task\" as the Mass Action section"
+msgstr ""
+
+#. type: Bullet: '3.  '
+msgid "Select the existing non-active task."
+msgstr ""
+
+#. type: Bullet: '4.  '
+msgid "Select the existing deployment package."
+msgstr ""
+
+#. type: Bullet: '5.  '
+msgid "Click Post. This will create a new job for that task."
+msgstr ""
+
+#. type: Title ###
+#, no-wrap
+msgid "Running a Deployment Task"
+msgstr ""
+
+#. type: Plain text
+msgid ""
+"You can run a deployment task more than once, and it is separate from "
+"creating one."
+msgstr ""
+
+#. type: Plain text
+#, no-wrap
+msgid "[[!img deploy/FusionInventoryTaskReady.png]]\n"
+msgstr ""
+
+#. type: Bullet: '1.  '
+msgid "First, set the task to Active and click update."
+msgstr ""
+
+#. type: Bullet: '2.  '
+msgid ""
+"Then either force the task to start immediately with \"Force Start\" OR "
+"schedule the task start and click update."
+msgstr ""
+
+#. type: Title ###
+#, no-wrap
+msgid "Checking a Tasks status"
+msgstr ""
+
+#. type: Title ####
+#, no-wrap
+msgid "Running Jobs"
+msgstr ""
+
+#. type: Plain text
+msgid ""
+"When a job is running, you can see it by clicking on the FusionInventory "
+"menu and selecting Running Jobs."
+msgstr ""
+
+#. type: Title ####
+#, no-wrap
+msgid "Task status on a PC"
+msgstr ""
+
+#. type: Plain text
+msgid ""
+"When a task is running on a PC it will update information about its "
+"status. This log is saved after the task completes and can be reviewed from "
+"the Task Job page."
+msgstr ""
+
+#. type: Plain text
+#, no-wrap
+msgid "[[!img deploy/FusionInventoryTaskStatusDetails.png]]\n"
+msgstr ""
+
+#. type: Title ##
+#, no-wrap
+msgid "Deploy Dropdown"
+msgstr ""
+
+#. type: Plain text
+msgid ""
+"This dropdown is used to create packages for deployment and to edit them, "
+"list them and look at groups of computers (which are internal to fusion "
+"inventory, there are also separate groups used by "
+"[GLPI](/lepp/bin/view/Computing/GLPI) for display etc)."
+msgstr ""
+
+#. type: Plain text
+msgid "-- JamesPulver - 2012-08-28"
+msgstr ""

@@ -1,0 +1,73 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2013-01-28 13:16+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. type: Plain text
+#, no-wrap
+msgid "[[!meta  date=\"2012-09-13\"]]\n"
+msgstr ""
+
+#. type: Plain text
+msgid "Hello FusionInventory users,"
+msgstr ""
+
+#. type: Plain text
+msgid ""
+"The FusionInventory Agent Task Deploy maintainers are glad to announce the "
+"2.0.3 release."
+msgstr ""
+
+#. type: Plain text
+msgid "This task allows the agent to perform software installation on its host."
+msgstr ""
+
+#. type: Plain text
+msgid ""
+"If the P2P option is turned on, the agent will looks for peer in its "
+"network. The network range size will be limited at 255 machines."
+msgstr ""
+
+#. type: Plain text
+msgid ""
+"You can download the archive from [the "
+"forge](http://forge.fusioninventory.org/attachments/download/725/FusionInventory-Agent-Task-Deploy-2.0.3.tar.gz)  "
+"or directly from [the "
+"CPAN](https://metacpan.org/release/FusionInventory-Agent-Task-Deploy)"
+msgstr ""
+
+#. type: Title ##
+#, no-wrap
+msgid "This release changelog"
+msgstr ""
+
+#. type: Bullet: '* '
+msgid "Don't give up if download failed, but retry 5 times in a row"
+msgstr ""
+
+#. type: Bullet: '* '
+msgid "Fix P2P on Linux"
+msgstr ""
+
+#. type: Bullet: '* '
+msgid "Add directoryExists and directoryMissing test"
+msgstr ""
+
+#. type: Plain text
+msgid ""
+"We did our best to provide a solid release, please [[contact us|/resources]] "
+"is you believe you find something unexpected."
+msgstr ""

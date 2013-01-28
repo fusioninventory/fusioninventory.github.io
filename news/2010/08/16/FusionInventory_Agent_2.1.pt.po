@@ -1,0 +1,72 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2013-01-28 13:17+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. type: Plain text
+#, no-wrap
+msgid "[[!meta  date=\"2010-08-16 00:31:35\"]]\n"
+msgstr ""
+
+#. type: Plain text
+#, no-wrap
+msgid ""
+"<strong>This is the first release of FusionInventory Agent with Windows "
+"support!</strong>\n"
+msgstr ""
+
+#. type: Plain text
+#, no-wrap
+msgid ""
+"This is the first Windows agent for OCS Inventory that support "
+"<strong>UTF-8</strong> and <strong>64bit</strong> software inventory. We "
+"also did a lot of improvement on <strong>MacOSX, HP-UX, Solaris and "
+"Linux</strong>.\n"
+msgstr ""
+
+#. type: Plain text
+msgid ""
+"You can download the archive from CPAN "
+"[http://search.cpan.org/~fusinv/](http://search.cpan.org/~fusinv/)."
+msgstr ""
+
+#. type: Plain text
+msgid ""
+"Prebuilt standalone installers are also available as a convenience for other "
+"operating systems. Just uncompress the archive and you get an usable agent "
+"for your platform "
+"[http://prebuilt.fusioninventory.org](http://prebuilt.fusioninventory.org)."
+msgstr ""
+
+#. type: Plain text
+msgid ""
+"More information on the [download "
+"page](http://fusioninventory.org/wordpress/download-fusioninventory/)."
+msgstr ""
+
+#. type: Plain text
+#, no-wrap
+msgid ""
+"<a href=\"/news/2010/08/16/fusioninventory-2.1-goneri.png\"><img "
+"class=\"aligncenter size-medium wp-image-532\" "
+"title=\"fusioninventory-2.1-goneri\" "
+"src=\"/news/2010/08/16/fusioninventory-2.1-goneri-300x225.png\" alt=\"\" "
+"width=\"300\" height=\"225\" /></a>\n"
+msgstr ""
+
+#. type: Plain text
+msgid "We are still working on the release of FusionInventory For GLPI."
+msgstr ""

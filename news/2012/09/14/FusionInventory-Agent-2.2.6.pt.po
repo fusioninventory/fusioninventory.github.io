@@ -1,0 +1,114 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2013-01-28 13:17+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. type: Plain text
+#, no-wrap
+msgid "[[!meta  date=\"2012-09-14\"]]\n"
+msgstr ""
+
+#. type: Plain text
+msgid "Hello FusionInventory users,"
+msgstr ""
+
+#. type: Plain text
+msgid ""
+"The FusionInventory Agent maintainers are glad to announce the 2.2.6 "
+"release."
+msgstr ""
+
+#. type: Plain text
+msgid ""
+"You can download the archive from [the "
+"forge](http://forge.fusioninventory.org/attachments/download/726/FusionInventory-Agent-2.2.6.tar.gz)  "
+"or directly from [the "
+"CPAN](https://metacpan.org/release/FusionInventory-Agent)"
+msgstr ""
+
+#. type: Title ##
+#, no-wrap
+msgid "Description"
+msgstr ""
+
+#. type: Plain text
+msgid ""
+"The FusionInventory agent is a generic management agent. It can perform a "
+"certain number of tasks, according to its own execution plan, or on behalf "
+"of a GLPI server with fusioninventory plugin, acting as a control point."
+msgstr ""
+
+#. type: Plain text
+msgid ""
+"Two of these tasks are included in agent source distribution, local "
+"inventory and wake on lan. Other tasks are distributed separatly, excepted "
+"for binary distributions where they are bundled together."
+msgstr ""
+
+#. type: Title ##
+#, no-wrap
+msgid "This release changelog"
+msgstr ""
+
+#. type: Title ###
+#, no-wrap
+msgid "Installation:"
+msgstr ""
+
+#. type: Bullet: '* '
+msgid "fix installation with older MakeMaker versions"
+msgstr ""
+
+#. type: Bullet: '* '
+msgid "do not generate html version of man pages"
+msgstr ""
+
+#. type: Bullet: '* '
+msgid "minor fixes to dependencies list"
+msgstr ""
+
+#. type: Title ###
+#, no-wrap
+msgid "General:"
+msgstr ""
+
+#. type: Bullet: '* '
+msgid "better fix for size parsing with HP RAID controllers, avoiding warnings"
+msgstr ""
+
+#. type: Plain text
+#, no-wrap
+msgid "  [[!bug #1807]]\n"
+msgstr ""
+
+#. type: Bullet: '* '
+msgid "implement model-specific hack for ACER screens serials [[!bug 1607]]"
+msgstr ""
+
+#. type: Title ###
+#, no-wrap
+msgid "Linux:"
+msgstr ""
+
+#. type: Bullet: '* '
+msgid "fix parsing of newer ifconfig output, such as used on Fedora 17"
+msgstr ""
+
+#. type: Plain text
+msgid ""
+"We did our best to provide a solid release, please [[contact us|/resources]] "
+"is you believe you find something unexpected."
+msgstr ""
