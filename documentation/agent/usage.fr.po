@@ -71,7 +71,6 @@ msgstr ""
 "avec un processus s'exécutant avec les privilèges système complets qui "
 "s'y rattachent."
 
-
 #. type: Plain text
 msgid ""
 "If you don't need to control agent execution from the server, and if you're "
