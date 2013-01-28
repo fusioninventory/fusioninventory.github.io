@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2013-01-24 17:14+0000\n"
+"POT-Creation-Date: 2013-01-28 11:56+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -163,8 +163,7 @@ msgstr "L'agent *FusionInventory* fait parti du dépôt officiel pour Fedora >= 
 #. type: Plain text
 #, no-wrap
 msgid "*fusioninventory-agent* is available in the *remi* third party repository for EOL Fedora version (fedora >= 8)\n"
-msgstr "l'agent *FusionInventory* est disponible pour tiers-partie dans le dépôt de *Rémi*"
-" pour la version EOL de Fedora >= 8\n"
+msgstr "l'agent *FusionInventory* est disponible pour tiers-partie dans le dépôt de *Rémi* pour la version EOL de Fedora >= 8\n"
 
 #. type: Plain text
 msgid ""
@@ -206,9 +205,13 @@ msgstr ""
 "l'agent FusionInventory "
 
 #. type: Bullet: '* '
+#, fuzzy
+#| msgid ""
+#| "*perl-FusionInventory-Agent-Task-OcsDeploy* - Deploy software tool  for "
+#| "OCS Inventory NG by FusionInventory"
 msgid ""
-"*perl-FusionInventory-Agent-Task-OcsDeploy* - Deploy software tool  for "
-"OCS Inventory NG by FusionInventory"
+"*perl-FusionInventory-Agent-Task-OcsDeploy* - Gestion du déploiement "
+"logiciel OCS Inventory NG avec FusionInventory"
 msgstr ""
 "*perl-FusionInventory-Agent-Task-OcsDeploy* - Gestion du déploiement "
 "logiciel OCS Inventory NG avec FusionInventory"

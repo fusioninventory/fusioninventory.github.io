@@ -1,0 +1,113 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2013-01-28 13:17+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. type: Plain text
+#, no-wrap
+msgid "[[!meta  date=\"2011-07-04 14:03:11\"]]\n"
+msgstr ""
+
+#. type: Plain text
+msgid ""
+"The plugins FusionInventory for GLPI is now available in 2.3.6. It's a fix "
+"version."
+msgstr ""
+
+#. type: Plain text
+msgid ""
+"To download : "
+"[fusioninventory-for-glpi-metapackage_2.3.6](http://forge.fusioninventory.org/attachments/download/410/fusioninventory-for-glpi-metapackage_2.3.6.tar.gz)  "
+"Remember : FusionInventory plugins 2.3.x is compatible only with GLPI 0.78.x "
+"and not with GLPI 0.80 !"
+msgstr ""
+
+#. type: Plain text
+#, no-wrap
+msgid ""
+"<strong>Tip</strong> : Delete the 3 plugins folder in glpi/plugins/ before "
+"unpack new version\n"
+msgstr ""
+
+#. type: Plain text
+#, no-wrap
+msgid ""
+"This is the changelog : \n"
+"<strong>Core (FusionInventory 2.3.6)</strong>\n"
+msgstr ""
+
+#. type: Bullet: '* '
+msgid ""
+"Add network port fields (IP and MAC) on unknown devices. ([ticket "
+"#925](http://forge.fusioninventory.org/issues/925))"
+msgstr ""
+
+#. type: Bullet: '* '
+msgid ""
+"Fix problem when import unknown device into GLPI when type is network "
+"equipment (port is now imported). ([ticket "
+"#982](http://forge.fusioninventory.org/issues/982))"
+msgstr ""
+
+#. type: Bullet: '* '
+msgid ""
+"Add lock in massive modifications of computers. ([ticket "
+"#933](http://forge.fusioninventory.org/issues/933))"
+msgstr ""
+
+#. type: Plain text
+#, no-wrap
+msgid "<strong>Local inventory (FusinvInventory 2.3.6-1)</strong>\n"
+msgstr ""
+
+#. type: Bullet: '* '
+msgid ""
+"Add model for monitor. ([ticket "
+"#969](http://forge.fusioninventory.org/issues/969))"
+msgstr ""
+
+#. type: Bullet: '* '
+msgid ""
+"Fix SQL Error when import computer with softwares and not have softwares in "
+"double (for old agents). ([ticket "
+"#999](http://forge.fusioninventory.org/issues/999))"
+msgstr ""
+
+#. type: Bullet: '* '
+msgid ""
+"Fix problem when use printer and monitor in global mode because plugin put "
+"right in global but duplicate monitors and peripheral. ([ticket "
+"#1000](http://forge.fusioninventory.org/issues/1000))"
+msgstr ""
+
+#. type: Bullet: '* '
+msgid ""
+"Use HARDWARE/CHASSIS_TYPE for computer type (with 2.1.9 version of agent).  "
+"([ticket #908](http://forge.fusioninventory.org/issues/908))"
+msgstr ""
+
+#. type: Plain text
+#, no-wrap
+msgid "<strong>Remote inventory (FusinvSnmp 2.3.6-1)</strong>\n"
+msgstr ""
+
+#. type: Bullet: '* '
+msgid "Fix printer page counter report."
+msgstr ""
+
+#. type: Bullet: '* '
+msgid "Fix and update SNMP models have some problems with oids"
+msgstr ""
