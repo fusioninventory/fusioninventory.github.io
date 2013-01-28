@@ -163,7 +163,8 @@ msgstr "L'agent *FusionInventory* fait parti du dépôt officiel pour Fedora >= 
 #. type: Plain text
 #, no-wrap
 msgid "*fusioninventory-agent* is available in the *remi* third party repository for EOL Fedora version (fedora >= 8)\n"
-msgstr "l'agent *FusionInventory* est disponible pour tiers-partie dans le dépôt de *Rémi* pour la version EOL de Fedora >= 8\n"
+msgstr "l'agent *FusionInventory* est disponible pour tiers-partie dans le dépôt de *Rémi*"
+" pour la version EOL de Fedora >= 8\n"
 
 #. type: Plain text
 msgid ""
