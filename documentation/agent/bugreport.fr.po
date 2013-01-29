@@ -120,7 +120,7 @@ msgid ""
 msgstr ""
 "Vous devez décrire le problème clairement et précisément, pour qu'une personne "
 "ne connaissant pas votre système puisse comprendre. Il ne suffit pas de poster "
-"une capture d'écran si vous pouvez décrire le problème." 
+"une capture d'écran si vous pouvez décrire le problème."
 
 #. type: Plain text
 msgid ""
