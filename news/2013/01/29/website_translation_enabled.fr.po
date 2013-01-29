@@ -1,0 +1,48 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2013-01-29 16:55+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. type: Plain text
+#, no-wrap
+msgid "[[!meta  date=\"2013-01-29\"]]\n"
+msgstr ""
+
+#. type: Plain text
+msgid "Hi all,"
+msgstr ""
+
+#. type: Plain text
+msgid ""
+"Some weeks ago, we enabled to translation plugin of "
+"[Ikiwiki](http://www.ikiwiki.info). The website can easily be translated and "
+"that's already what Emmanuel Le Normand (fr) and Piotr Adamcio (pl) are "
+"working on."
+msgstr ""
+
+#. type: Plain text
+msgid ""
+"Thanks to them most of the pages are already avalable in Polish and French "
+":)."
+msgstr ""
+
+#. type: Plain text
+msgid ""
+"If you want to translate FusionInventory, it's easy. You don't even need to "
+"create an account! Just take a look on [[this "
+"page|documentation/translation]].  If you're interested to do some "
+"proofreading and improve the documentation, Be bold, it's a wiki!"
+msgstr ""
