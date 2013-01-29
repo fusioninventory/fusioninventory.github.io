@@ -1,0 +1,78 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2013-01-28 13:44+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. type: Title #
+#, no-wrap
+msgid "Task creation"
+msgstr ""
+
+#. type: Plain text
+msgid ""
+"Use the (Normal) display of Task Management. This is used to list and search "
+"the existing tasks in the Fusion Inventory system."
+msgstr ""
+
+#. type: Plain text
+#, no-wrap
+msgid "[[!img documentation/fi4g/deploy/FusionTaskManagementNormalPage.png]]\n"
+msgstr ""
+
+#. type: Bullet: '1.  '
+msgid "Clicking on _Task management (Normal)_ link."
+msgstr ""
+
+#. type: Bullet: '2.  '
+msgid ""
+"Clicking on the big \"+\", like in all of [[GLPI]], will create a new object "
+"in the area you are working - in this case, a new task."
+msgstr ""
+
+#. type: Bullet: '3.  '
+msgid ""
+"Clicking on a task name will allow you to edit existing tasks, check their "
+"status, start them, stop them, etc."
+msgstr ""
+
+#. type: Title ##
+#, no-wrap
+msgid "“Agent contact the server” or  “Server contacts the agent”"
+msgstr ""
+
+#. type: Plain text
+msgid ""
+"There is two different way to publish a task once it is ready. You can "
+"either:"
+msgstr ""
+
+#. type: Bullet: '* '
+msgid "awake the agent from the server so it will start the task immediately."
+msgstr ""
+
+#. type: Bullet: '* '
+msgid "wait for the agent to contact the server like you do for an inventory."
+msgstr ""
+
+#. type: Plain text
+msgid ""
+"In the first case, the task will fail if the agent is not available. The "
+"agent has to be running has a daemon or a Windows service. The server must "
+"be able to contact the agent directly with the following URL: "
+"<http://agentIP:62354>. We advise you to use the `httpd-trust` agent "
+"configuration key to allow request from the server IP address. It is not "
+"mandatoried, but the fallback solution (token) has various drawback."
+msgstr ""

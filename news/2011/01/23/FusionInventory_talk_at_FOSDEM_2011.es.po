@@ -1,0 +1,39 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2013-01-28 13:44+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. type: Plain text
+#, no-wrap
+msgid "[[!meta  date=\"2011-01-23 18:10:02\"]]\n"
+msgstr ""
+
+#. type: Plain text
+#, no-wrap
+msgid ""
+"Most of  the FusionInventory developers and contributors will be present at "
+"<a title=\"FOSDEM\" href=\"http://www.fosdem.org\">FOSDEM 2011</a>.  The "
+"team will celebrate the [project's first "
+"birthday](http://fusioninventory.org/wordpress/2010/02/08/hello-world/) and "
+"discuss the future evolutions of the project.\n"
+msgstr ""
+
+#. type: Plain text
+msgid ""
+"A FusionInventory and GLPI talk is also scheduled on sunday 3d from 2pm in "
+"the ﻿﻿[Configuration &amp; Systems Management "
+"devroom](http://fosdem.org/2011/preview-sunday#configuration__systems_management_devroom)."
+msgstr ""

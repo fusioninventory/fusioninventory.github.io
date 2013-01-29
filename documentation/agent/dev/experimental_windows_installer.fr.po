@@ -347,13 +347,13 @@ msgid "The following steps depends of your operative system."
 msgstr ""
 
 #. type: Title ###
-#:  
+#:
 #, no-wrap
 msgid "Microsoft Windows"
 msgstr ""
 
 #. type: Plain text
-#:  
+#:
 msgid "From your Microsoft Windows command interpreter executes"
 msgstr ""
 
@@ -371,7 +371,7 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#:  
+#:
 msgid "You should be able to see the new installers in that directory."
 msgstr ""
 
@@ -688,7 +688,7 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#:  
+#:
 msgid ""
 "As the list of modules for FusionInventory-Agent has changed, it is "
 "necessary to generate a new package Strawberry Perl Package."
@@ -702,19 +702,19 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#:  
+#:
 msgid ""
 "You should start with a clean Strawberry Perl distribution too, so the "
 "recommended steps are:"
 msgstr ""
 
 #. type: Plain text
-#:  
+#:
 msgid "Remember, this task can be done only from Microsoft Windows OS."
 msgstr ""
 
 #. type: Plain text
-#:  
+#:
 #, no-wrap
 msgid ""
 "    # cd fusioninventory-agent-windows-installer\n"
@@ -763,14 +763,14 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#:  
+#:
 msgid ""
 "Finally, you should change the following constants of the file './NSIS/ "
 "/FusionInventory.nsi' to adapt them to their new values:"
 msgstr ""
 
 #. type: Plain text
-#:  
+#:
 #, no-wrap
 msgid ""
 "      FIA_RELEASE\n"
@@ -780,7 +780,7 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#:  
+#:
 #, no-wrap
 msgid ""
 "      FIA_TASK_INVENTORY_RELEASE\n"
@@ -790,7 +790,7 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#:  
+#:
 #, no-wrap
 msgid ""
 "      PRODUCT_VERSION_MAJOR\n"
@@ -820,7 +820,7 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#:  
+#:
 msgid ""
 "With the new Strawberry Perl Package for FusionInventory-Agent ready, and "
 "these last changes, you can continue as it were a normal build process.  See "
@@ -872,7 +872,7 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#:  
+#:
 msgid ""
 "Edit the './Perl/Scripts/load-perl-environment' file and carry out these "
 "changes."
@@ -892,7 +892,7 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#:  
+#:
 #, no-wrap
 msgid ""
 "      -declare -r fusinv_agent_mod_dependences='Compress::Zlib File::Which\n"
@@ -927,7 +927,7 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#:  
+#:
 #, no-wrap
 msgid ""
 "   -!define PRODUCT_VERSION_MINOR \"2\"\n"

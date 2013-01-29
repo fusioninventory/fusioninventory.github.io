@@ -1,4 +1,4 @@
-ï»¿# SOME DESCRIPTIVE TITLE
+# SOME DESCRIPTIVE TITLE
 # Copyright (C) YEAR Free Software Foundation, Inc.
 # This file is distributed under the same license as the PACKAGE package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
@@ -30,20 +30,20 @@ msgid ""
 "We just released version 1.0.2 of the network plugin for FusionInventory "
 "agent."
 msgstr ""
-"Nous avons sorti la version 1.0.2 du plugin réseau pour l'agent "
+"Nous avons sorti la version 1.0.2 du plugin rÃ©seau pour l'agent "
 "FusionInventory."
 
 #. type: Plain text
 msgid "This plugin is used to do:"
-msgstr "Ce plugin est utilisé pour faire:"
+msgstr "Ce plugin est utilisÃ© pour faire:"
 
 #. type: Bullet: '* '
 msgid "Network discovery: identify devices on the network"
-msgstr "Découverte réseau: Identifier les éléments connectés au réseau"
+msgstr "DÃ©couverte rÃ©seau: Identifier les Ã©lÃ©ments connectÃ©s au rÃ©seau"
 
 #. type: Bullet: '* '
 msgid "Network inventory: deep SNMP scan of suported devices"
-msgstr "Inventaire réseau: analyse SNMP des appareils supportés"
+msgstr "Inventaire rÃ©seau: analyse SNMP des appareils supportÃ©s"
 
 #. type: Plain text
 msgid "This is just a bugfix release, with the following changes:"
@@ -72,7 +72,7 @@ msgstr "add Test::Exception as test dependency"
 
 #. type: Plain text
 msgid "This plugin will be integrated in the 2.2.7-1 Windows installer."
-msgstr "Ce plugin sera intégré dans l'exécutable Windows 2.2.7-1."
+msgstr "Ce plugin sera intÃ©grÃ© dans l'exÃ©cutable Windows 2.2.7-1."
 
 #. type: Plain text
 msgid "Enjoy"

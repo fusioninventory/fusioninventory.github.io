@@ -198,7 +198,7 @@ msgid "    http://servername/glpi/plugins/fusioninventory/front/\n"
 msgstr ""
 
 #. type: Plain text
-#:    
+#:
 msgid "Multiple values can be specified, using comma as a separator."
 msgstr ""
 

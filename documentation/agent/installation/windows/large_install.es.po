@@ -1,0 +1,179 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2013-01-28 13:44+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. type: Title #
+#, no-wrap
+msgid "Silent installation"
+msgstr ""
+
+#. type: Title ##
+#, no-wrap
+msgid "fusioninventory.vbs"
+msgstr ""
+
+#. type: Plain text
+msgid ""
+"[[fusioninventory.vbs|documentation/agent/installation/windows/fusioninventory.vbs]] "
+"is a VBS script used to:"
+msgstr ""
+
+#. type: Bullet: '* '
+msgid "Download the fusioninventory Windows installer"
+msgstr ""
+
+#. type: Bullet: '* '
+msgid "Remove OCS Inventory Agent"
+msgstr ""
+
+#. type: Bullet: '* '
+msgid "Install or upgrade FusionInventory"
+msgstr ""
+
+#. type: Plain text
+msgid ""
+"To use this script, you must first download the script and then edit it. The "
+"first lines of the script must be adjusted for your configuration:"
+msgstr ""
+
+#. type: Plain text
+#, no-wrap
+msgid ""
+"    versionverification = \"2.2.6-1\"\n"
+"    fusionarguments = \"/S "
+"/server=http://server1/glpi/plugins/fusioninventory/ /rpc-trust-localhost "
+"/runnow\"\n"
+"    ' Depending on your needs, you can use either HTTP or Windows share\n"
+"    'fusionsetupURL = "
+"\"\\\\server1\\data\\fusioninventory-agent_windows-i386_\" & "
+"versionverification & \".exe\"\n"
+"    fusionsetupURL = "
+"\"http://prebuilt.fusioninventory.org/stable/windows-i386/fusioninventory-agent_windows-i386_\" "
+"& versionverification & \".exe\"\n"
+"    uninstallocsagent = \"yes\"\n"
+msgstr ""
+
+#. type: Bullet: '* '
+msgid "versionverification: the version of fusioninventory to install"
+msgstr ""
+
+#. type: Bullet: '* '
+msgid ""
+"fusionarguments: the command line argument for the [[Windows "
+"installer|documentation/agent/installation/windows]])"
+msgstr ""
+
+#. type: Bullet: '* '
+msgid ""
+"fusionsetupURL: the location of the Windows installer binary (either HTTP or "
+"Windows share)"
+msgstr ""
+
+#. type: Bullet: '* '
+msgid "uninstallocsagent: \"yes\" if OCS Agent has to be removed"
+msgstr ""
+
+#. type: Plain text
+msgid "You can use this script to:"
+msgstr ""
+
+#. type: Title ##
+#:  
+#, no-wrap
+msgid "run a silent installation on a given machine"
+msgstr ""
+
+#. type: Title ##
+#:  
+#, no-wrap
+msgid "deploy the agent on your network using psexec"
+msgstr ""
+
+#. type: Bullet: '* '
+msgid "prepare a GPO to deploy the agent on all the machines of the Windows domain"
+msgstr ""
+
+#. type: Plain text
+msgid "Just double clic on the script or run from a command console:"
+msgstr ""
+
+#. type: Plain text
+#, no-wrap
+msgid "    cscript fusioninventory.vbs\n"
+msgstr ""
+
+#. type: Plain text
+msgid "To run the fusioninventory.vbs script on a machine computer1"
+msgstr ""
+
+#. type: Plain text
+#, no-wrap
+msgid ""
+"    psexec -u domain\\user \\\\computer1 cscript "
+"\\\\foo\\share\\script.vbs\n"
+msgstr ""
+
+#. type: Plain text
+msgid "Or if you want to run the install on all the computer of your domain:"
+msgstr ""
+
+#. type: Plain text
+#, no-wrap
+msgid "    psexec -u domain\\user \\\\* cscript \\\\foo\\share\\script.vbs\n"
+msgstr ""
+
+#. type: Title ##
+#, no-wrap
+msgid "GPO to deploy the agent on all the machines of the Windows domain"
+msgstr ""
+
+#. type: Plain text
+msgid ""
+"Create a GPO and copy the script within and associate the "
+"fusioninventory.vbs script. The GPO has to be configured to run during "
+"machine start up."
+msgstr ""
+
+#. type: Plain text
+msgid "You may be interested by these two GPO templates:"
+msgstr ""
+
+#. type: Bullet: '* '
+msgid "[[FusionInventory.adml|documentation/agent/installation/windows/FusionInventory.adml]]"
+msgstr ""
+
+#. type: Bullet: '* '
+msgid "[[FusionInventory.admx|documentation/agent/installation/windows/FusionInventory.admx]]"
+msgstr ""
+
+#. type: Title #
+#, no-wrap
+msgid "Alternative VBS script"
+msgstr ""
+
+#. type: Plain text
+msgid ""
+"An [[alternative "
+"script|documentation/agent/installation/windows/fusioninventory-alternative.vbs]] "
+"maintained by ZenAdm also exists."
+msgstr ""
+
+#. type: Plain text
+msgid ""
+"This script is still *experimental* but it is already much easier to "
+"understand."
+msgstr ""

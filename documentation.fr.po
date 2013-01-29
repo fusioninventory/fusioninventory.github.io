@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2013-01-24 10:20+0000\n"
+"POT-Creation-Date: 2013-01-28 20:56+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -59,8 +59,8 @@ msgid ""
 "[[How to install or update FusionInventory for GLPI|documentation/fi4g/"
 "installation]]"
 msgstr ""
-"[[Installation ou mise à jour de FusionInventory pour GLPI"
-"|documentation/fi4g/installation]]"
+"[[Installation ou mise à jour de FusionInventory pour GLPI|documentation/"
+"fi4g/installation]]"
 
 #. type: Bullet: '* '
 msgid ""
@@ -76,15 +76,16 @@ msgstr "[[Comment scanner mon réseau|documentation/fi4g/networkdiscovery]]"
 
 #. type: Bullet: '* '
 msgid "[[How to inventory my ESX server|documentation/fi4g/esxinventory]]"
-msgstr "[[Comment inventorier mon serveur ESX|documentation/fi4g/esxinventory]]"
+msgstr ""
+"[[Comment inventorier mon serveur ESX|documentation/fi4g/esxinventory]]"
 
 #. type: Bullet: '* '
 msgid ""
 "[[How to deploy softwares with software deployment module|documentation/fi4g/"
 "deploy]]"
 msgstr ""
-"[[Comment déployer des logiciels avec le module déploiement|documentation/fi4g/"
-"deploy]]"
+"[[Comment déployer des logiciels avec le module déploiement|documentation/"
+"fi4g/deploy]]"
 
 #. type: Bullet: '* '
 msgid "[[How to deal with DMZ network|documentation/fi4g/dmz]]"
@@ -137,6 +138,12 @@ msgstr "Contribution"
 #. type: Bullet: '* '
 msgid "[[How to use this wiki|documentation/wiki]]"
 msgstr "[[Comment utiliser ce wiki|documentation/wiki]]"
+
+#. type: Bullet: '* '
+#, fuzzy
+#| msgid "[[Installation|documentation/agent/installation]]"
+msgid "[[Translation|documentation/translation]]"
+msgstr "[[Installation|documentation/agent/installation]]"
 
 #. type: Bullet: '* '
 msgid "[[for developers|documentation/dev]]"

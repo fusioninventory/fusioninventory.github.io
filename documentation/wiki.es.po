@@ -1,0 +1,94 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2013-01-28 13:44+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. type: Title #
+#, no-wrap
+msgid "How to edit this wiki"
+msgstr ""
+
+#. type: Plain text
+msgid "The wiki is [[Ikiwiki]]. It uses [[Markdown syntax|ikiwiki/formatting]]."
+msgstr ""
+
+#. type: Title ##
+#, no-wrap
+msgid "From HTTP"
+msgstr ""
+
+#. type: Plain text
+msgid ""
+"You can edit the documentation/* pages by yourself, there is no need to "
+"register.  You can use an existing account for GMail, Wordpress, etc."
+msgstr ""
+
+#. type: Title ##
+#, no-wrap
+msgid "From Git (advanced)"
+msgstr ""
+
+#. type: Plain text
+msgid "This site is hosted by [Branchable](http://www.branchable.com)."
+msgstr ""
+
+#. type: Title ##
+#, no-wrap
+msgid "Version Control"
+msgstr ""
+
+#. type: Plain text
+msgid ""
+"This site is version controlled using [Git](http://git-scm.com/). Anyone can "
+"access its anonymous git repository:"
+msgstr ""
+
+#. type: Plain text
+#, no-wrap
+msgid "    git clone git://fusioninventory.org/\n"
+msgstr ""
+
+#. type: Plain text
+msgid "Users with configured ssh keys can modify the git repository:"
+msgstr ""
+
+#. type: Plain text
+#, no-wrap
+msgid ""
+"    git clone ssh://b-fusioninventory@fusioninventory.org/ "
+"fusioninventory.org\n"
+msgstr ""
+
+#. type: Title #
+#, no-wrap
+msgid "Directory structure"
+msgstr ""
+
+#. type: Title ##
+#, no-wrap
+msgid "documentation/"
+msgstr ""
+
+#. type: Title ###
+#, no-wrap
+msgid "documentation/references/"
+msgstr ""
+
+#. type: Plain text
+msgid ""
+"Files in these directory are directly generated from the git repositories of "
+"the agent by a script."
+msgstr ""

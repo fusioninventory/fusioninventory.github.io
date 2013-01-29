@@ -45,7 +45,7 @@ msgid "Fix problem on update from old version"
 msgstr ""
 
 #. type: Bullet: '* '
-#:  
+#:
 msgid "Security fix (SQL injection)"
 msgstr ""
 

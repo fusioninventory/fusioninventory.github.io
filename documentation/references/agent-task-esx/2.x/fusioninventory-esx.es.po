@@ -1,0 +1,116 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2013-01-28 13:43+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. type: Title #
+#, no-wrap
+msgid "NAME"
+msgstr ""
+
+#. type: Plain text
+msgid "fusioninventory-esx - vCenter/ESX/ESXi remote inventory from command line"
+msgstr ""
+
+#. type: Title #
+#, no-wrap
+msgid "SYNOPSIS"
+msgstr ""
+
+#. type: Plain text
+#, no-wrap
+msgid ""
+"fusioninventory-esx --host <host> --user <user> --password <password> "
+"--directory <directory> --tag <tag>\n"
+msgstr ""
+
+#. type: Plain text
+#, no-wrap
+msgid ""
+"    Options:\n"
+"      --help                 this menu\n"
+"      --host hostname        ESX server hostname\n"
+"      --user username        user name\n"
+"      --password xxxx        user password\n"
+"      --directory directory  output directory\n"
+"      --tag tag              tag for the inventoried machine\n"
+msgstr ""
+
+#. type: Title #
+#, no-wrap
+msgid "EXAMPLES"
+msgstr ""
+
+#. type: Plain text
+#, no-wrap
+msgid ""
+"    % fusioninventory-esx --host myesx --user foo --password bar --directory "
+"/tmp\n"
+msgstr ""
+
+#. type: Plain text
+#, no-wrap
+msgid ""
+"You can import the .ocs file in your inventory server with the "
+"fusioninventory-injector tool.\n"
+"    %fusioninventory-injector -v --file /tmp/\\*.ocs -u "
+"https://myserver/ocsinventory\n"
+msgstr ""
+
+#. type: Title #
+#, no-wrap
+msgid "DESCRIPTION"
+msgstr ""
+
+#. type: Plain text
+msgid ""
+"`fusioninventory-esx` creates inventory of remote ESX/ESXi and vCenter "
+"VMware.  It uses the SOAP interface of the remote server."
+msgstr ""
+
+#. type: Plain text
+msgid "Supported systems:"
+msgstr ""
+
+#. type: Plain text
+msgid ""
+"- `ESX and ESXi 3.5` - `ESX and ESXi 4.1` - `ESXi 5.0` - `vCenter 4.1` - "
+"`vCenter 5.0`"
+msgstr ""
+
+#. type: Plain text
+msgid ""
+"Active Directory users, please note the AD authentication doesn't work. You "
+"must create a account on the VMware server."
+msgstr ""
+
+#. type: Title #
+#, no-wrap
+msgid "LIMITATION"
+msgstr ""
+
+#. type: Plain text
+msgid "So far, ESX serial number are not collected."
+msgstr ""
+
+#. type: Title #
+#, no-wrap
+msgid "SECURITY"
+msgstr ""
+
+#. type: Plain text
+msgid "The SSL hostname check of the server is disabled."
+msgstr ""

@@ -34,4 +34,5 @@
 # Contributor 
 
 * [[How to use this wiki|documentation/wiki]]
+* [[Translation|documentation/translation]]
 * [[for developers|documentation/dev]]

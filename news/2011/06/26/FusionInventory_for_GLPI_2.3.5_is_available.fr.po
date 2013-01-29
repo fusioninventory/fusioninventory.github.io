@@ -67,7 +67,7 @@ msgid ""
 msgstr ""
 
 #. type: Bullet: '* '
-#:  
+#:
 msgid "Fix chmod on some files (thanks Remi Collet)"
 msgstr ""
 

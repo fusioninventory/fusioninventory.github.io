@@ -4,19 +4,18 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 revision="1.0" schemaVersion="1.0"
 xmlns="http://schemas.microsoft.com/GroupPolicy/2006/07/PolicyDefinitions">
 
-  <displayName>entrer le nom complet ici</displayName>
-  <description>entrer la description ici</description>
+  <displayName>Enter Full Name Here</displayName>
+  <description>Enter A Description Here</description>
   <resources>
     <stringTable>
-      <string id="FusionInventory_ROOT">Agent Fusion
-      Inventory</string>
-      <string id="FusionInventory_CONFIGURE64">Configurer l'agent
+      <string id="FusionInventory_ROOT">Agent Fusion Inventory</string>
+      <string id="FusionInventory_CONFIGURE64">Configure the agent
       (64 bits)</string>
-      <string id="FusionInventory_CONFIGURE32">Configurer l'agent
+      <string id="FusionInventory_CONFIGURE32">Configure the agent
       (32 bits)</string>
       <string id="FusionInventory_CONFIGURE_EXPLAIN">
-      Sp&#195;&#169;cifie un jeu de param&#195;&#168;tres pour
-      l'agent Fusion Inventory.</string>
+      Specify the the paramaters for
+      The fusion Inventory Agent.</string>
     </stringTable>
     <presentationTable>
       <presentation id="FusionInventory_CONFIGURE">

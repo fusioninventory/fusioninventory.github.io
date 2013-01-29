@@ -1,0 +1,9 @@
+# How to translate FusionInventory
+
+FusionInventory for GLPI can be translated directly on Transifex. You will
+need an account: https://www.transifex.com/projects/p/FusionInventory/
+
+You can translate the website directly with a browser. If you want us to enable
+another langage, please contact Gonéri: goneri@rulezlan.org
+
+You may also be interested to join the [[Translator mailing list|resources]].
