@@ -101,3 +101,7 @@ With the default settings, FusionInventory for GLPI use the follow criteria to i
 * UUID
 
 One of this information is probably duplicated.
+
+## Can I use a mastering software like Ghost to deploy my agent
+
+Yes you can as soon as to clean up the 'var' directory just before the master creation.
