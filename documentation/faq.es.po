@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2013-01-28 13:44+0000\n"
+"POT-Creation-Date: 2013-01-29 16:39+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -57,9 +57,7 @@ msgstr ""
 
 #. type: Plain text
 #, no-wrap
-msgid ""
-"    Alias /ocsinventory "
-"\"/var/www/html/glpi/plugins/fusioninventory/front/communication.php\"\n"
+msgid "    Alias /ocsinventory \"/var/www/html/glpi/plugins/fusioninventory/front/communication.php\"\n"
 msgstr ""
 
 #. type: Plain text
@@ -75,8 +73,7 @@ msgstr ""
 #. type: Plain text
 #, no-wrap
 msgid ""
-"    Alias /ocsinventory "
-"\"/var/www/html/glpi/plugins/fusioninventory/front/communication.php\"\n"
+"    Alias /ocsinventory \"/var/www/html/glpi/plugins/fusioninventory/front/communication.php\"\n"
 "    Alias / /var/www/html/glpi/\n"
 msgstr ""
 
@@ -144,8 +141,8 @@ msgstr ""
 
 #. type: Plain text
 msgid ""
-"An agent for Android is also available on [Google "
-"Play](https://play.google.com/store/apps/details?id=org.fusioninventory)."
+"An agent for Android is also available on [Google Play](https://play.google."
+"com/store/apps/details?id=org.fusioninventory)."
 msgstr ""
 
 #. type: Title ##
@@ -165,12 +162,8 @@ msgstr ""
 #. type: Plain text
 #, no-wrap
 msgid ""
-"    "
-"server=http://glpi080/plugins/fusioninventory/front/plugin_fusioninventory.communication.php, "
-"http://glpi083/plugins/fusioninventory/, "
-"http://ocsinventory-ng/ocsinventory\n"
-"The agent will contact each server in the order defined in the "
-"configuration\n"
+"    server=http://glpi080/plugins/fusioninventory/front/plugin_fusioninventory.communication.php, http://glpi083/plugins/fusioninventory/, http://ocsinventory-ng/ocsinventory\n"
+"The agent will contact each server in the order defined in the configuration\n"
 "file, and perform the actions requested from each of them.\n"
 msgstr ""
 
@@ -189,8 +182,7 @@ msgstr ""
 #, no-wrap
 msgid ""
 "    #Path for external useragents reference file\n"
-"    #!! WARNING !! : external agents may not be supported by OCS NG "
-"Community ! \n"
+"    #!! WARNING !! : external agents may not be supported by OCS NG Community ! \n"
 "    #PerlSetEnv OCS_OPT_EXT_USERAGENTS_FILE_PATH /tmp/yourfile.txt\n"
 msgstr ""
 
@@ -232,9 +224,7 @@ msgstr ""
 
 #. type: Plain text
 #, no-wrap
-msgid ""
-"[[!template  id=warning text=\"A bug fixed in 2.2.7 prevent the use of "
-"`rpc-trust-localhost` and `httpd-trust`.\"]]\n"
+msgid "[[!template  id=warning text=\"A bug fixed in 2.2.7 prevent the use of `rpc-trust-localhost` and `httpd-trust`.\"]]\n"
 msgstr ""
 
 #. type: Title ##
@@ -262,4 +252,15 @@ msgstr ""
 
 #. type: Plain text
 msgid "One of this information is probably duplicated."
+msgstr ""
+
+#. type: Title ##
+#, no-wrap
+msgid "Can I use a mastering software like Ghost to deploy my agent"
+msgstr ""
+
+#. type: Plain text
+msgid ""
+"Yes you can as soon as to clean up the 'var' directory just before the "
+"master creation."
 msgstr ""

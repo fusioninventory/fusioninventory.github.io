@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2013-01-10 09:58+0000\n"
+"POT-Creation-Date: 2013-01-29 16:39+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -252,4 +252,15 @@ msgstr ""
 
 #. type: Plain text
 msgid "One of this information is probably duplicated."
+msgstr ""
+
+#. type: Title ##
+#, no-wrap
+msgid "Can I use a mastering software like Ghost to deploy my agent"
+msgstr ""
+
+#. type: Plain text
+msgid ""
+"Yes you can as soon as to clean up the 'var' directory just before the "
+"master creation."
 msgstr ""
