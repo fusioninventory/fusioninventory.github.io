@@ -42,7 +42,7 @@ msgstr ""
 #. type: Title ##
 #, no-wrap
 msgid "This release changelog"
-msgstr ""
+msgstr "Le journal des changements de cette version"
 
 #. type: Title ###
 #, no-wrap
@@ -74,7 +74,7 @@ msgstr ""
 #. type: Title ###
 #, no-wrap
 msgid "Windows:"
-msgstr ""
+msgstr "Windows :"
 
 #. type: Bullet: '* '
 msgid ""
@@ -110,3 +110,5 @@ msgid ""
 "Please read the [[agent installation|/documentation/agent/installation/]] "
 "page for further informations."
 msgstr ""
+"Merci de lire la page relative à [[l'installation de agent |/documentation/agent/installation/]]"
+"si vous voulez des informations complémentaires."
