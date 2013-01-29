@@ -19,7 +19,7 @@ msgstr ""
 #. type: Title #
 #, no-wrap
 msgid "How to use the pre-built versions"
-msgstr ""
+msgstr "Comment utiliser les versions pre-built"
 
 #. type: Plain text
 msgid ""
@@ -27,6 +27,9 @@ msgid ""
 "the project. The idea is to launch the agent without installing anything on "
 "your system. Here are the steps :"
 msgstr ""
+"Il existe également des versions pré-compilées ou pré-construit (prebuilt) "
+"de l'agent maintenues par le projet. L'idée est de pouvoir lancer l'agent "
+"sans rien installer sur votre système. Voici les étapes:"
 
 #. type: Plain text
 msgid ""

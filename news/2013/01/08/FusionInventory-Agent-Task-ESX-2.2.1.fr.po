@@ -31,7 +31,7 @@ msgid ""
 "or the ESX task."
 msgstr ""
 "Les mainteneurs de l'Agent FusionInventory sont heureux d'annoncer la sortie "
-"de la version 2.2.1 de l'ESX Task
+"de la version 2.2.1 de l'ESX Task"
 
 #. type: Plain text
 msgid ""
@@ -40,7 +40,7 @@ msgid ""
 "to push them in a server with fusioninventory-injector."
 msgstr ""
 "Cette version corrige un bug de longue date avec la commande fusioninventory-esx."
-" Cela générait des fichiers d'inventaire invalide sans DEVIEDID. Cela empêchait "
+" Cela générait des fichiers d'inventaire invalide sans DEVICEID. Cela empêchait "
 "de les pousser sur le serveur avec fusioninventory-injector."
 
 #. type: Plain text
