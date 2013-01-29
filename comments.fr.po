@@ -19,7 +19,7 @@ msgstr ""
 #. type: Plain text
 #, no-wrap
 msgid "[[!sidebar content=\"\"\"\n"
-msgstr ""
+msgstr "[[!sidebar content=\"\"\"\n"
 
 #. type: Plain text
 #, no-wrap
@@ -28,11 +28,14 @@ msgid ""
 "description=\"comments pending moderation\" show=-1]]\n"
 "Comments in the [[!commentmoderation desc=\"moderation queue\"]]:\n"
 msgstr ""
+"[[!inline pages=\"comment_pending(./posts/*)\" feedfile=pendingmoderation\n"
+"description=\"comments pending moderation\" show=-1]]\n"
+"Commentaires de la [[!commentmoderation desc=\"liste de modération\"]]:\n"
 
 #. type: Plain text
 #, no-wrap
 msgid "[[!pagecount pages=\"comment_pending(./posts/*)\"]]\n"
-msgstr ""
+msgstr "[[!pagecount pages=\"comment_pending(./posts/*)\"]]\n"
 
 #. type: Plain text
 #, no-wrap
@@ -41,3 +44,6 @@ msgid ""
 "[[!inline pages=\"./posts/*/Discussion or comment(./posts/*)\"\n"
 "template=\"comment\"]]\n"
 msgstr ""
+"Commantaires récents postés sur le [[blog|index]]:\n"
+"[[!inline pages=\"./posts/*/Discussion or comment(./posts/*)\"\n"
+"template=\"comment\"]]\n"

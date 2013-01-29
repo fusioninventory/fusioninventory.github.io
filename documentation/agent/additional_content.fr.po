@@ -19,18 +19,20 @@ msgstr ""
 #. type: Title #
 #, no-wrap
 msgid "How to push additional content in my inventory"
-msgstr ""
+msgstr "Comment transférer du contenu supplémentaire dans mon inventaire"
 
 #. type: Title ##
 #, no-wrap
 msgid "--additional-content"
-msgstr ""
+msgstr "--additional-content"
 
 #. type: Plain text
 msgid ""
 "You can ask your agent to inject additional content during the inventory "
 "creation:"
 msgstr ""
+"Vous pouvez injecter un contenu d'inventaire supplémentaire pendant "
+"sa création par l'agent:"
 
 #. type: Plain text
 #, no-wrap
@@ -47,22 +49,35 @@ msgid ""
 "    </REQUEST> \n"
 "    # fusioninventory-agent --additional-content /tmp/foo.xml\n"
 msgstr ""
+"    # cat /tmp/foo.xml \n"
+"    <?xml version=\"1.0\" encoding=\"UTF-8\" ?>\n"
+"    <REQUEST>\n"
+"      <CONTENT>\n"
+"          <SOFTWARES>\n"
+"              <NAME>Nom_Logiciel</NAME>\n"
+"              <VERSION>1.2.3.4</VERSION>\n"
+"          </SOFTWARES>\n"
+"      </CONTENT>\n"
+"    </REQUEST> \n"
+"    # fusioninventory-agent --additional-content /tmp/foo.xml\n"
 
 #. type: Plain text
 msgid "`additional-content` can also be a registry key."
-msgstr ""
+msgstr "`additional-content` peut aussi être une clé de registre."
 
 #. type: Title ##
 #, no-wrap
 msgid "Your own Perl module"
-msgstr ""
+msgstr "Votre propre module Perl"
 
 #. type: Plain text
 msgid ""
 "You can extend FusionInventory by creating your own collect module in "
 "'lib/FusionInventory/Agent/Task/Inventory/Input/Generic/Softwares/'."
 msgstr ""
+"Vous pouvez créer votre propre module de collecte pour fusioninventory "
+" et le placer dans 'lib/FusionInventory/Agent/Task/Inventory/Input/Generic/Softwares/'."
 
 #. type: Plain text
 msgid "The module will be automaticly loaded at run time."
-msgstr ""
+msgstr "Le module sera automatiquement utilisé à chaque lancement de l'agent."

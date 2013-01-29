@@ -36,20 +36,24 @@ msgid ""
 "Download the prebuilt version for your OS "
 "<http://prebuilt.fusioninventory.org/stable/>:"
 msgstr ""
+"Télécharger la version prebuilt pour votre OS"
+"<http://prebuilt.fusioninventory.org/stable/>:"
 
 #. type: Bullet: '* '
 msgid "Uncompress the downloaded archive"
-msgstr ""
+msgstr "Décompresser l'archive téléchargée"
 
 #. type: Bullet: '* '
 msgid "Configure the agent by editing the agent.cfg file"
-msgstr ""
+msgstr "Configurer l'agent en éditant le fichier agent.cfg"
 
 #. type: Bullet: '* '
 msgid ""
 "Launch the agent with the following command as root : "
 "`./fusioninventory-agent`"
 msgstr ""
+"Lancer l'agent avec la commande suivante en étant root : "
+"`./fusioninventory-agent`"
 
 #. type: Plain text
 msgid ""
@@ -57,3 +61,6 @@ msgid ""
 "when it's possble. Prebuilts are interesting for testing, or when you have "
 "no possibility to install packages on your system."
 msgstr ""
+"FusionInventory Projest vous recommande d'utiliser les paquets (deb,rpm,etc) "
+"quand c'est possible. Les prebuilts sont utiles pour faire des tests ou "
+"quand vous ne pouvez pas installer de paquets sur votre système."

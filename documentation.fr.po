@@ -140,10 +140,8 @@ msgid "[[How to use this wiki|documentation/wiki]]"
 msgstr "[[Comment utiliser ce wiki|documentation/wiki]]"
 
 #. type: Bullet: '* '
-#, fuzzy
-#| msgid "[[Installation|documentation/agent/installation]]"
 msgid "[[Translation|documentation/translation]]"
-msgstr "[[Installation|documentation/agent/installation]]"
+msgstr "[[Traduction|documentation/translation]]"
 
 #. type: Bullet: '* '
 msgid "[[for developers|documentation/dev]]"

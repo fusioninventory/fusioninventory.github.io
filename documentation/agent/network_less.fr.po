@@ -18,51 +18,57 @@ msgstr ""
 
 #. type: Title #
 #, no-wrap
-msgid "FusionInvent without network connection"
-msgstr ""
+msgid "FusionInventory without network connection"
+msgstr "FusionInventory sans connexion réseau"
 
 #. type: Plain text
 msgid "The agent is able to create an file with the inventory:"
-msgstr ""
+msgstr "L'agent est capable de créer un fichier d'inventaire:"
 
 #. type: Plain text
 #, no-wrap
 msgid "    fusioninventory-agent --local /tmp\n"
-msgstr ""
+msgstr "    fusioninventory-agent --local /tmp\n"
 
 #. type: Plain text
 msgid ""
 "On Windows, you can add the 'local' key in the the registry and associate it "
 "with a directory."
 msgstr ""
+"Sur windows, vous pouvez ajouter la clé 'local' dans le registre et "
+"l'associer avec un dossier."
 
 #. type: Plain text
 msgid ""
 "You can get the full documentation of the agent in the [[reference "
 "page|documentation/references]]."
 msgstr ""
+"Vous pouvez trouver la documentation complète de l'agent sur la page [[reference "
+"|documentation/references]]."
 
 #. type: Title #
 #, no-wrap
 msgid "Push my inventories in the server"
-msgstr ""
+msgstr "Intégrer mes inventaires sur le serveur"
 
 #. type: Title ##
 #, no-wrap
 msgid "Through FusionInventory for GLPI Interface"
-msgstr ""
+msgstr "Via l'interface FusionInventory for GLPI"
 
 #. type: Plain text
 #, no-wrap
 msgid ""
-"Go in *Plugins > FusionInventory > Import agent XML* Menu and upload the "
+"Go in *Plugins > FusionInventory > INVENTORY > Import agent XML* Menu and upload the "
 "XML.\n"
 msgstr ""
+"Aller dans *Plugins > FusionInventory > INVENTORY > Importer un fichier XML de l'agent"
+" XML* et téléverser le fichier XML.\n"
 
 #. type: Title ##
 #, no-wrap
 msgid "fusioninventory-injector"
-msgstr ""
+msgstr "fusioninventory-injector"
 
 #. type: Plain text
 #, no-wrap
@@ -70,17 +76,21 @@ msgid ""
 "    fusioninventory-injector -v -f myfile.xml -u "
 "http://glpi083/plugins/fusioninventory/\n"
 msgstr ""
+"    fusioninventory-injector -v -f myfile.xml -u "
+"http://glpi083/plugins/fusioninventory/\n"
 
 #. type: Plain text
 msgid ""
 "You can get the full documentation of fusioninventoy-injector in the "
 "[[reference page|documentation/references]]."
 msgstr ""
+"Vous trouverez toute la documentation de fusioninventoy-injector sur "
+"[[la page référence|documentation/references]]."
 
 #. type: Title ##
 #, no-wrap
 msgid "curl"
-msgstr ""
+msgstr "curl"
 
 #. type: Plain text
 msgid ""
@@ -88,6 +98,9 @@ msgid ""
 "if your perl installation has no SSL support and so you can not use the "
 "fusioninventory-injector command with a HTTPS only server:"
 msgstr ""
+"Vous pouvez aussi utiliser curl pour injecter un inventaire. Cela peut vous "
+"être utile par exemple si votre installation de Perl n'a pas le support de SSL "
+"et que vous ne pouvez utiliser fusioninventory-injector avec un serveur HTTPS:"
 
 #. type: Plain text
 #, no-wrap
@@ -97,10 +110,14 @@ msgid ""
 "@/tmp/lazer.local-2011-10-04-12-21-23.ocs "
 "https://glpi/plugins/fusioninventory/\n"
 msgstr ""
+"    curl --header \"Content-Type: Application/x-compress\" --cacert "
+"your-ca.pem -u username:password --data "
+"@/tmp/lazer.local-2011-10-04-12-21-23.ocs "
+"https://glpi/plugins/fusioninventory/\n"
 
 #. type: Plain text
 msgid "With no SSL check and no authentification :"
-msgstr ""
+msgstr "Sans vérification SSLet sans authentification:"
 
 #. type: Plain text
 #, no-wrap
@@ -109,3 +126,6 @@ msgid ""
 "@/tmp/monposte.local-2012-10-04-12-21-23.ocs "
 "https://myglpiserver/plugins/fusioninventory/\n"
 msgstr ""
+"    curl --header \"Content-Type: Application/x-compress\" -k --data "
+"@/tmp/monposte.local-2012-10-04-12-21-23.ocs "
+"https://myglpiserver/plugins/fusioninventory/\n"

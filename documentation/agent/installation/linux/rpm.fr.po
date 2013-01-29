@@ -205,13 +205,9 @@ msgstr ""
 "l'agent FusionInventory "
 
 #. type: Bullet: '* '
-#, fuzzy
-#| msgid ""
-#| "*perl-FusionInventory-Agent-Task-OcsDeploy* - Deploy software tool  for "
-#| "OCS Inventory NG by FusionInventory"
 msgid ""
-"*perl-FusionInventory-Agent-Task-OcsDeploy* - Gestion du déploiement "
-"logiciel OCS Inventory NG avec FusionInventory"
+"*perl-FusionInventory-Agent-Task-OcsDeploy* - Deploy software tool  for "
+"OCS Inventory NG by FusionInventory"
 msgstr ""
 "*perl-FusionInventory-Agent-Task-OcsDeploy* - Gestion du déploiement "
 "logiciel OCS Inventory NG avec FusionInventory"

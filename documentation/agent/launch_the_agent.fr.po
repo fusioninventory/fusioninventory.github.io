@@ -19,18 +19,20 @@ msgstr ""
 #. type: Title #
 #, no-wrap
 msgid "How to force an inventory"
-msgstr ""
+msgstr "Comment forcer un inventaire"
 
 #. type: Title ##
 #, no-wrap
 msgid "With the HTTP interface"
-msgstr ""
+msgstr "Avec l'interface HTTP"
 
 #. type: Plain text
 msgid ""
 "If you agent is running as a service or a daemon, you may be able to access "
 "the web interface at <http://localhost:62354>."
 msgstr ""
+"Si l'agent fonctionne en mode démon ou service, vous pouvez rendre accessible "
+"l'interface web  <http://localhost:62354>."
 
 #. type: Plain text
 msgid ""
@@ -38,27 +40,32 @@ msgid ""
 "configuration]] is true or if `httpd-trust=127.0.0.1`, a link will be "
 "available to force the agent execution."
 msgstr ""
+"Si la clé `rpc-trust-localhost` est [[configurée key|documentation/agent/"
+"configuration]] ou que `httpd-trust=127.0.0.1`, vous pouvez forcer "
+"l'exécution de l'agent."
 
 #. type: Plain text
 #, no-wrap
 msgid "[[!template  id=warning text=\"A bug fixed in 2.2.7 prevent the use of `rpc-trust-localhost` and `httpd-trust`.\"]]\n"
-msgstr ""
+msgstr "[[!template  id=warning text=\"Un bug corrigé dans la version 2.2.7 empêchait l'utilisation de `rpc-trust-localhost` et `httpd-trust`.\"]]\n"
 
 #. type: Title ##
 #, no-wrap
 msgid "Command line"
-msgstr ""
+msgstr "Ligne de commande"
 
 #. type: Plain text
 msgid ""
 "You can force an inventory with the [[fusioninventory-agent|documentation/"
 "references/agent/2.2.x/fusioninventory-agent]] command."
 msgstr ""
+"Vous pouvez forcer un inventaire avec la commande [[fusioninventory-agent|documentation/"
+"references/agent/2.2.x/fusioninventory-agent]]."
 
 #. type: Title ###
 #, no-wrap
 msgid "Windows"
-msgstr ""
+msgstr "Windows"
 
 #. type: Plain text
 msgid ""
@@ -66,22 +73,27 @@ msgid ""
 "*Administrator* privilege (*right clic* → *Run as Administrator* on Vista "
 "and Seven *Start menu*)."
 msgstr ""
+"Premièrement, vous devez ouvrir la console cmd.exe. Assurez vous de la"
+"démarrer avec les droits d'administrateur (*clic droit* → *Exécuter en tant "
+"que administrateur* sur Vista et Seven)"
 
 #. type: Plain text
 msgid ""
 "Go in the **c:\\Program files\\FusionInventory-Agent\\perl\\bin** (adjust "
 "this path depending on your configuration) directory and run:"
 msgstr ""
+"Allez dans **c:\\Program files\\FusionInventory-Agent\\perl\\bin** (adaptez "
+"ce chemin en fonction de votre configuration) et lancez:"
 
 #. type: Plain text
 #, no-wrap
 msgid "    # perl fusioninventory-agent\n"
-msgstr ""
+msgstr "    # perl fusioninventory-agent\n"
 
 #. type: Title ###
 #, no-wrap
 msgid "MacOSX"
-msgstr ""
+msgstr "MacOSX"
 
 #. type: Plain text
 msgid ""
@@ -89,61 +101,68 @@ msgid ""
 "is enabled on MacOSX default settings (`/opt/fusioninventory-agent/agent."
 "cfg`)."
 msgstr ""
+"En premier, vérifiez que la clé `daemon` n'est pas défini ou à false dans "
+" `agent.cfg`. Cette clé est active par défaut sur MacOSX dans le fichier "
+" (`/opt/fusioninventory-agent/agent.cfg`)."
 
 #. type: Plain text
 msgid "Go in /opt/fusioninventory-agent and run the following command:"
-msgstr ""
+msgstr "Allez dans /opt/fusioninventory-agent et lancez la commande suivante:"
 
 #. type: Plain text
 #, no-wrap
 msgid "    $ sudo /opt/fusioninventory-agent/fusioninventory-agent\n"
-msgstr ""
+msgstr "    $ sudo /opt/fusioninventory-agent/fusioninventory-agent\n"
 
 #. type: Plain text
 msgid ""
 "See [[the MacOSX documentation for further details|documentation/agent/"
 "installation/macosx]]."
 msgstr ""
+"Reportez vous à la page de documentation de MacOSX pour "
+"plus de [[détail|documentation/agent/installation/macosx]]."
 
 #. type: Title ###
 #, no-wrap
 msgid "Other"
-msgstr ""
+msgstr "Autres"
 
 #. type: Plain text
 msgid "Just run:"
-msgstr ""
+msgstr "Simplement lancez:"
 
 #. type: Plain text
 #, no-wrap
 msgid "    # fusioninventory-agent\n"
-msgstr ""
+msgstr "    # fusioninventory-agent\n"
 
 #. type: Title ###
 #, no-wrap
 msgid "Advanced option"
-msgstr ""
+msgstr "Options avancées"
 
 #. type: Plain text
 msgid "You can write a local XML inventory with:"
-msgstr ""
+msgstr "Vous pouvez écrire un inventaire local en XML avec:"
 
 #. type: Plain text
 #, no-wrap
 msgid "    # fusioninventory-agent --local /tmp\n"
-msgstr ""
+msgstr "    # fusioninventory-agent --local /tmp\n"
 
 #. type: Plain text
 msgid "to generate a HTML file instead, add the `--html` flag:"
-msgstr ""
+msgstr "Pour générer un fichier HTML, ajoutez le paramètre `--html`:"
 
 #. type: Plain text
 #, no-wrap
 msgid "    # fusioninventory-agent --local /tmp --html\n"
-msgstr ""
+msgstr "    # fusioninventory-agent --local /tmp --html\n"
 
 #. type: Plain text
 msgid ""
 "Please read [[the fusioninventory-agent reference page|documentation/"
 "references]] to get the complet list of supported options."
 msgstr ""
+"Veuillez vous reporter à [[la page de référence de  fusioninventory-agent"
+"|documentation/references]] pour voir la liste compète des options."

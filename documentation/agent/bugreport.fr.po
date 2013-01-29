@@ -19,7 +19,7 @@ msgstr ""
 #. type: Title #
 #, no-wrap
 msgid "How to report issues efficiently"
-msgstr ""
+msgstr "Comment signaler les problèmes efficacement"
 
 #. type: Plain text
 msgid ""
@@ -28,50 +28,64 @@ msgid ""
 "(<http://forge.fusioninventory.org/projects/fusioninventory-agent/issues>). "
 "An account is required."
 msgstr ""
+"Pour aider les développeurs à trouver et régler les problèmes correctement,vous "
+"devez utiliser la gestionnaire de bug de la Forge "
+"(<http://forge.fusioninventory.org/projects/fusioninventory-agent/issues>). "
+"Vous devrez avoir un compte."
 
 #. type: Plain text
 msgid ""
 "Here are a few usage rules, so as to avoid wasting efforts both for the "
 "reporters and for the assignees."
 msgstr ""
+"Voici quelques règles d'usage, afin d'éviter de gaspiller des efforts "
+"à la fois pour ceux signalent le problème que ceux qui le résoudront."
 
 #. type: Title ##
 #, no-wrap
 msgid "Agent verbosity"
-msgstr ""
+msgstr "Verbosité de l'Agent"
 
 #. type: Plain text
 msgid "You can increase the agent verbosity if you:"
-msgstr ""
+msgstr "Vous pouvez augmenter la verbosité de l'Agent si vous :"
 
 #. type: Bullet: '* '
 msgid ""
 "add debug=2 in agent.cfg or set the debug key to 2 in the Windows "
 "registry. You will need to restart the daemon or service after that."
 msgstr ""
+"ajoutez  debug=2 dans agent.cfg ou modifiez la clé de registre debug "
+"a 2 pour Windows. Vous devrez relancer le démon ou service après."
 
 #. type: Bullet: '* '
 msgid ""
 "call fusioninventory-agent with 2 `--debug` parameters: "
 "`fusioninventory-agent --debug --debug`"
 msgstr ""
+"lancez fusioninventory-agent avec 2 `--debug`, comme ça: "
+"`fusioninventory-agent --debug --debug`"
 
 #. type: Title ##
 #, no-wrap
 msgid "Bug priority and category"
-msgstr ""
+msgstr "Priorité et catégorie des bugs"
 
 #. type: Plain text
 msgid ""
 "It is useless to set a priority, it will be re-evaluated by the assignee "
 "anyway."
 msgstr ""
+"Il est inutile de définir une priorité, elle sera évaluée par celui en "
+"charge du problème."
 
 #. type: Plain text
 msgid ""
 "However, you have to identify is your problem is an agent or a server "
 "issue. If you don't, that will be the first question anyway."
 msgstr ""
+"Cependant, vous devrez identifier si le problème est dû à l'Agent ou "
+"au serveur. Cela sera la première question donc si vous ne savez pas..."
 
 #. type: Plain text
 msgid ""
@@ -82,15 +96,21 @@ msgid ""
 "the agent output, that's an agent issue. If the information is present, but "
 "not visible from the server, that's a server issue."
 msgstr ""
+"La meilleure façon de faire la distinction consiste à examiner le contenu "
+"brut du XML envoyé par l'agent, disponible dans GLPI. Vous pouvez aussi forcer "
+"l'exécution de l'agent localement, soit avec  `--stdout` ou `--local /some/where "
+"comme paramètre, et regarder les résultats. Si l'information est absente ou "
+"erronée dans le résultat, c'est un problème de l'agent. Si vous voyez l'information "
+" mais que cela n'apparait pas sur le serveur, c'est donc un problème coté serveur."
 
 #. type: Title ##
 #, no-wrap
 msgid "Problem description"
-msgstr ""
+msgstr "Description du problème"
 
 #. type: Plain text
 msgid "You have to use english, for sake of internationalization."
-msgstr ""
+msgstr "Vous devez utiliser l'anglais car c'est un projet international"
 
 #. type: Plain text
 msgid ""
@@ -98,6 +118,9 @@ msgid ""
 "any prior knowledge of your environment to understand it. Posting screenshot "
 "is not a solution if you're unable to explain it with words."
 msgstr ""
+"Vous devez décrire le problème clairement et précisément, pour qu'une personne "
+"ne connaissant pas votre système puisse comprendre. Il ne suffit pas de poster "
+"une capture d'écran si vous pouvez décrire le problème." 
 
 #. type: Plain text
 msgid ""
@@ -105,31 +128,38 @@ msgid ""
 "versions, and different installation methods. You have to specify at least "
 "the system you're using, and the agent version."
 msgstr ""
+"En outre, l'agent est disponible dans différentes plates-formes, avec "
+"des versions différentes et des méthodes d'installation différentes. Vous "
+"devez spécifier le système que vous utilisez, et la version de l'agent."
 
 #. type: Plain text
 msgid ""
 "You can get the agent version and the list of available tasks with these "
 "commands:"
 msgstr ""
+"Vous pouvez obtenir la version de l'agent et la liste des tâches disponibles "
+"avec ces commandes:"
 
 #. type: Bullet: '* '
 msgid "`fusioninventory-agent --version`"
-msgstr ""
+msgstr "`fusioninventory-agent --version`"
 
 #. type: Bullet: '* '
 msgid "`fusioninventory-agent --list-tasks`"
-msgstr ""
+msgstr "`fusioninventory-agent --list-tasks`"
 
 #. type: Title ##
 #, no-wrap
 msgid "Problem reproductability"
-msgstr ""
+msgstr "Reproductivité du problème"
 
 #. type: Plain text
 msgid ""
 "That's quite useless to report a problem, if there is no way for the "
 "assignee to reproduce it."
 msgstr ""
+"Ce n'est pas utile de signaler un problème s'il ne peut pas être "
+"reproduit par un développeur."
 
 #. type: Plain text
 msgid ""
@@ -138,42 +168,56 @@ msgid ""
 "of agent output. Identifying the exact system input is usually quite easy to "
 "do from reading the agent code."
 msgstr ""
+"Si le problème est lié à une analyse erronée d'entrées du système, le meilleur "
+"moyen est de donner un échantillon de cette information et un extrait lié à la "
+"sortie donnée par l'agent. Identifier l'entrée exacte du système est généralement "
+"assez facile à faire à la lecture du code de l'agent."
 
 #. type: Title ##
 #, no-wrap
 msgid "Providing additional content"
-msgstr ""
+msgstr "Donner un contenu supplémentaire"
 
 #. type: Plain text
 msgid ""
 "If you need to provide additional command output samples, here are a few "
 "important rules:"
 msgstr ""
+"Si vous avez besoin de fournir d'autres échantillons de sortie de commande, "
+"voici quelques règles importantes:"
 
 #. type: Bullet: '* '
 msgid ""
 "always attach external files, rather than pasting content, as some invisible "
 "formating can be lost"
 msgstr ""
+"toujours attacher des fichiers externes plutôt que de coller du texte car "
+"certains formatage invisible peuvent être perdus."
 
 #. type: Bullet: '* '
 msgid ""
 "always run command under non-localized environment (`LC_ALL=C` under unix "
 "systems)"
 msgstr ""
+"toujours lancer les commandes dans un environnement non localisé (`LC_ALL=C` "
+"sous un système unix)"
 
 #. type: Bullet: '* '
 msgid ""
 "windows WMI queries can be exported with wmic tool (`wmic path <somequery> "
 "get /Format:list > <somefile>`)"
 msgstr ""
+"Les requêtes Windows WMI peuvent être exportées avec l'outil wmic "
+"(`wmic path <requête> get /Format:list > <fichier>`)"
 
 #. type: Bullet: '* '
 msgid "windows registry content can be exported with regedit tool"
-msgstr ""
+msgstr "le contenu du registre windows peut être exporté avec l'outil regedit"
 
 #. type: Bullet: '* '
 msgid ""
 "We may also request a dmidecode output ([[dmidecode On "
 "Windows|documentation/agent/bugreport/dmidecode_on_windows]])"
 msgstr ""
+"Vous pouvez aussi utiliser des requêtes sur la sortie dmidecode ([[dmidecode On "
+"Windows|documentation/agent/bugreport/dmidecode_on_windows]])"

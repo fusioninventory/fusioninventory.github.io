@@ -20,11 +20,14 @@ msgid ""
 "posted. FusionInventory users are recommended to subscribe to this page's "
 "RSS feed."
 msgstr ""
+"C'est ici que vous trouverez les annonces de nouvelles versions, fonctionnalités "
+"ou autres fonctionnalités. Il est recommandé aux utilisateurs de FusionInventory "
+"de s'abonner aux flux RSS."
 
 #. type: Plain text
 #, no-wrap
 msgid "[[!inline pages=\"page(./news/*) and currentlang() and !*/Discussion\" rootpage=\"news\" postform=\"no\" postformtext=\"nothing\" show=\"5\" rss=\"yes\" atom=\"yes\"]]\n"
-msgstr ""
+msgstr "[[!inline pages=\"page(./news/*) and currentlang() and !*/Discussion\" rootpage=\"news\" postform=\"no\" postformtext=\"nothing\" show=\"5\" rss=\"yes\" atom=\"yes\"]]\n"
 
 #~ msgid "Welcome to your new wiki."
 #~ msgstr "Bienvenue sur votre nouveau wiki."
