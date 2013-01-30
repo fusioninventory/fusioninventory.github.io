@@ -82,7 +82,7 @@ be developped anymore.
 If you’re looking for a software deployment solution, FusionInventory
 provides it’s own, which is integrated into GLPI.
 
-## My agentt refuses to start a job with the "Bad token" error
+## My agent refuses to start a job with the "Bad token" error
 
 “Bad token” problems means the agent and the server are not synchronized anymore. You can resolve the situation either:
 
