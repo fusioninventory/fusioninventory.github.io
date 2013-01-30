@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2013-01-29 16:39+0000\n"
+"POT-Creation-Date: 2013-01-30 11:45+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -205,7 +205,7 @@ msgstr ""
 
 #. type: Title ##
 #, no-wrap
-msgid "My agentt refuses to start a job with the \"Bad token\" error"
+msgid "My agent refuses to start a job with the \"Bad token\" error"
 msgstr ""
 
 #. type: Plain text
