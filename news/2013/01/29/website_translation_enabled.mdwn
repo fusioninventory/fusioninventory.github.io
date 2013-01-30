@@ -5,7 +5,7 @@ Some weeks ago, we enabled to translation plugin of [Ikiwiki](http://www.ikiwiki
 website can easily be translated and that's already what Emmanuel Le Normand (fr) and
 Piotr Adamcio (pl) are working on.
 
-Thanks to them most of the pages are already avalable in Polish and French :).
+Thanks to them most of the pages are already available in Polish and French :).
 
 If you want to translate FusionInventory, it's easy. You don't even need to create an account! Just
 take a look on [[this page|documentation/translation]].
