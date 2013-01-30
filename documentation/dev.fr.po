@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2013-01-30 10:07+0000\n"
+"POT-Creation-Date: 2013-01-30 10:46+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -68,30 +68,48 @@ msgid ""
 msgstr ""
 
 #. type: Bullet: '* '
-msgid "[[API-REST (partially implemented)|spec/api/rest]]"
+msgid "[[API-REST (partially implemented)|documentation/dev/spec/api/rest]]"
 msgstr ""
 
 #. type: Bullet: '* '
-msgid "[[API-REST-ESX (in use)|spec/api/rest-esx]]"
+msgid "[[API-REST-ESX (in use)|documentation/dev/spec/api/rest-esx]]"
 msgstr ""
 
 #. type: Bullet: '* '
-msgid "[[API-REST-Deploy (in use)|spec/api/rest-deploy]]"
-msgstr ""
-
-#. type: Bullet: '* '
-msgid "[[API-REST-Inventory (in development)|spec/api/rest-inventory]]"
-msgstr ""
-
-#. type: Bullet: '* '
-msgid "[[API-REST-Collect (in development)|spec/api/rest-collect]]"
-msgstr ""
-
-#. type: Plain text
-msgid "Others:"
+msgid "[[API-REST-Deploy (in use)|documentation/dev/spec/api/rest-deploy]]"
 msgstr ""
 
 #. type: Bullet: '* '
 msgid ""
-"[[New directory layout (partially implemented)|spec/new-directory-layout]]"
+"[[API-REST-Inventory (in development)|documentation/dev/spec/api/rest-"
+"inventory]]"
+msgstr ""
+
+#. type: Bullet: '* '
+msgid ""
+"[[API-REST-Collect (in development)|documentation/dev/spec/api/rest-collect]]"
+msgstr ""
+
+#. type: Title ##
+#, no-wrap
+msgid "Inventory format"
+msgstr ""
+
+#. type: Plain text
+msgid ""
+"[[2.2.x Inventory structure|documentation/references/agent/2.2.x/lib/"
+"FusionInventory/Agent/Task/Inventory/Inventory.pm]] [[2.3.x Inventory "
+"structure|documentation/references/agent/2.3.x/lib/FusionInventory/Agent/"
+"Task/Inventory/Inventory.pm]]"
+msgstr ""
+
+#. type: Title ##
+#, no-wrap
+msgid "Others"
+msgstr ""
+
+#. type: Bullet: '* '
+msgid ""
+"[[New directory layout (partially implemented)|documentation/dev/spec/new-"
+"directory-layout]]"
 msgstr ""
