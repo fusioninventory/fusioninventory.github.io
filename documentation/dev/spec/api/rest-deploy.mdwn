@@ -384,10 +384,6 @@ The multipart is the list of the file to download (from one to unlimited). This 
 
 #  update jobs status /deploy?action=setStatus&machineid=$machineid&part=$part&uuid=$uuid&currentStep=$currentStep&status=$status&msg=$msg
 
-#  new parameters
-
-* --deploy-maxspeed: the download rate limit for this download in Kb/s, default is unlimited.
-
 ##  Request
 
 POST a log file for a given job.
