@@ -37,7 +37,6 @@ msgstr ""
 "Adamcio (pl) sont en train de faire. "
 
 #. type: Plain text
-#, fuzzy
 #| msgid ""
 #| "Thanks to them most of the pages are already avalable in Polish and "
 #| "French :)."
