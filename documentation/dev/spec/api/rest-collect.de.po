@@ -1,0 +1,234 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2013-01-30 10:07+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. type: Title #
+#, no-wrap
+msgid "API-REST-collect"
+msgstr ""
+
+#. type: Plain text
+msgid "Protocol specification used to collect specific information on a machine."
+msgstr ""
+
+#. type: Title ##
+#, no-wrap
+msgid "?action=getJob&machineid=$machineid"
+msgstr ""
+
+#. type: Bullet: '* '
+msgid "action:getJob"
+msgstr ""
+
+#. type: Bullet: '* '
+msgid "machineid: $machineid"
+msgstr ""
+
+#. type: Title ###
+#, no-wrap
+msgid "serveur answer:"
+msgstr ""
+
+#. type: Plain text
+msgid ""
+"Server will return an array of job to process, a job is: * a hash * a "
+"mandatory \"function\" key * an additional list of parameters"
+msgstr ""
+
+#. type: Plain text
+#, no-wrap
+msgid "*getFromRegistry*\n"
+msgstr ""
+
+#. type: Plain text
+#, no-wrap
+msgid ""
+"    [\n"
+"       {\n"
+"          \"function\" : \"getFromRegistry\",\n"
+"          \"64bit\" : 0, // not implemented yet\n"
+"          \"path\" : "
+"\"HKEY_LOCAL_MACHINE/SYSTEM/CurrentControlSet/Control/Session Manager\",\n"
+"          \"uuid\" : xxxx1\n"
+"       }\n"
+"    ]\n"
+msgstr ""
+
+#. type: Plain text
+msgid ""
+"path can finish with a wildcare, in such case, all the key/value of the "
+"current directory are returned."
+msgstr ""
+
+#. type: Plain text
+#, no-wrap
+msgid "*getFromWMI*\n"
+msgstr ""
+
+#. type: Plain text
+#, no-wrap
+msgid ""
+"    [\n"
+"       {\n"
+"          \"function\" : \"getFromWMI\",\n"
+"          \"moniker\" : \"foobar\" // default is "
+"winmgmts:{impersonationLevel=impersonate,(security)}!//./\n"
+"          \"class\" : \"Win32_Keyboard\",\n"
+"          \"properties\" : [ \"Name\", \"Caption\", \"Manufacturer\", "
+"\"Description\", \"Layout\" ],\n"
+"          \"uuid\" : xxxx3\n"
+"       }\n"
+"    ]\n"
+msgstr ""
+
+#. type: Plain text
+#, no-wrap
+msgid "*findFile*\n"
+msgstr ""
+
+#. type: Plain text
+#, no-wrap
+msgid ""
+"    [\n"
+"       {\n"
+"          \"function\" : \"findFile\",\n"
+"          \"command\" : \"route\",\n"
+"          \"limit\" : 5, # Number of entry to look for, default is 50\n"
+"          \"recursive\" : 0,\n"
+"          \"filter\" : // filter and its content is optional\n"
+"              {\n"
+"                          \"regex\" : \"\\d{4}\\.bmp$\",// regex done on the "
+"full path\n"
+"                          \"sizeEquals\" : \"445635\",\n"
+"                          \"sizeGreater\" : \"432455\",\n"
+"                          \"sizeLower\" : \"454545\",\n"
+"                          \"checkSumSHA512\" : \"xxxx\",\n"
+"                          \"checkSumSHA2\" : \"zzzzzz\",\n"
+"                          \"name\" : \"toto\",\n"
+"                          \"iname\" : \"ToTo\", // case insensitive\n"
+"                          \"is_file\" : 1,\n"
+"                          \"is_dir\" : 0\n"
+"              }\n"
+"          ,\n"
+"          \"uuid\" : xxxx3\n"
+"       }\n"
+"    ]\n"
+msgstr ""
+
+#. type: Plain text
+#, no-wrap
+msgid "*runCommand*\n"
+msgstr ""
+
+#. type: Plain text
+#, no-wrap
+msgid ""
+"    [\n"
+"       {\n"
+"          \"function\" : \"runCommand\",\n"
+"          \"dir\" : \"c:/\", # Where to run the command\n"
+"          \"uuid\" : xxxx3,\n"
+"          \"filter\" : { (optional)\n"
+"              \"firstMatch\" : \"(eth\\d+)\", // or (the first match for a "
+"regex)\n"
+"              \"firstLine\" : \"1\", // or (the first line)\n"
+"              \"lineCount\" : 1 // the number of lines\n"
+"          }\n"
+"       }\n"
+"    ]\n"
+msgstr ""
+
+#. type: Title ##
+#, no-wrap
+msgid "?action=setAnswer&uuid=$uuid"
+msgstr ""
+
+#. type: Plain text
+msgid "the agent POST the answer in a JSON XML with this structure:"
+msgstr ""
+
+#. type: Plain text
+msgid "The answer structure is always a array of key/val hash."
+msgstr ""
+
+#. type: Title ###
+#, no-wrap
+msgid "getFromRegistry"
+msgstr ""
+
+#. type: Bullet: '* '
+msgid "name1 : value1"
+msgstr ""
+
+#. type: Bullet: '* '
+msgid "name2 : value2"
+msgstr ""
+
+#. type: Bullet: '* '
+msgid "uuid : \"foo\""
+msgstr ""
+
+#. type: Title ###
+#, no-wrap
+msgid "getFromWMI"
+msgstr ""
+
+#. type: Bullet: '* '
+msgid "propertyfoo : \"bar\","
+msgstr ""
+
+#. type: Bullet: '* '
+msgid "propertybar : \"foo\","
+msgstr ""
+
+#. type: Bullet: '* '
+msgid "uuid : \"bibi1\""
+msgstr ""
+
+#. type: Title ###
+#, no-wrap
+msgid "findFile"
+msgstr ""
+
+#. type: Bullet: '* '
+msgid "path : \"c:/somewhere/picture.bmp\","
+msgstr ""
+
+#. type: Bullet: '* '
+msgid "uuid : \"XXXX\","
+msgstr ""
+
+#. type: Bullet: '* '
+msgid "size : 12345"
+msgstr ""
+
+#. type: Title ###
+#, no-wrap
+msgid "runCommand"
+msgstr ""
+
+#. type: Bullet: '* '
+msgid "output: \"blabla\","
+msgstr ""
+
+#. type: Bullet: '* '
+msgid "errorMsg: \"an optional error message in english\","
+msgstr ""
+
+#. type: Bullet: '* '
+msgid "uuid: \"drf\""
+msgstr ""

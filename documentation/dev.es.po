@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2013-01-28 13:43+0000\n"
+"POT-Creation-Date: 2013-01-30 10:07+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -27,8 +27,8 @@ msgstr ""
 
 #. type: Bullet: '* '
 msgid ""
-"[[The experimental Windows installer "
-"(2.3.x)|documentation/agent/dev/experimental_windows_installer]]"
+"[[The experimental Windows installer (2.3.x)|documentation/agent/dev/"
+"experimental_windows_installer]]"
 msgstr ""
 
 #. type: Title #
@@ -42,8 +42,8 @@ msgstr ""
 
 #. type: Bullet: '* '
 msgid ""
-"Git: [[UNIX|documentation/agent/dev/git_unix]], "
-"[[Windows|documentation/agent/dev/git_windows]]"
+"Git: [[UNIX|documentation/agent/dev/git_unix]], [[Windows|documentation/"
+"agent/dev/git_windows]]"
 msgstr ""
 
 #. type: Title #
@@ -52,5 +52,46 @@ msgid "Fusion server"
 msgstr ""
 
 #. type: Bullet: '* '
-msgid "[[How works fusion server (SNMP tool server)|dev/fusion_server_snmp_tool]]"
+msgid ""
+"[[How works fusion server (SNMP tool server)|dev/fusion_server_snmp_tool]]"
+msgstr ""
+
+#. type: Title #
+#, no-wrap
+msgid "technical documentation"
+msgstr ""
+
+#. type: Plain text
+msgid ""
+"API-REST is the New JSON based communication protocol used between the agent "
+"and the server."
+msgstr ""
+
+#. type: Bullet: '* '
+msgid "[[API-REST (partially implemented)|spec/api/rest]]"
+msgstr ""
+
+#. type: Bullet: '* '
+msgid "[[API-REST-ESX (in use)|spec/api/rest-esx]]"
+msgstr ""
+
+#. type: Bullet: '* '
+msgid "[[API-REST-Deploy (in use)|spec/api/rest-deploy]]"
+msgstr ""
+
+#. type: Bullet: '* '
+msgid "[[API-REST-Inventory (in development)|spec/api/rest-inventory]]"
+msgstr ""
+
+#. type: Bullet: '* '
+msgid "[[API-REST-Collect (in development)|spec/api/rest-collect]]"
+msgstr ""
+
+#. type: Plain text
+msgid "Others:"
+msgstr ""
+
+#. type: Bullet: '* '
+msgid ""
+"[[New directory layout (partially implemented)|spec/new-directory-layout]]"
 msgstr ""
