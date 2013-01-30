@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2013-01-30 11:50+0000\n"
+"POT-Creation-Date: 2013-01-30 11:52+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -144,7 +144,8 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-msgid "[!img images/service_url.png ]"
+#, no-wrap
+msgid "[[!img images/service_url.png ]]\n"
 msgstr ""
 
 #. type: Plain text
