@@ -102,7 +102,7 @@ foreach my $repo (@repoList) {
 
     foreach my $file ( @{ $repo->{files} } ) {
 
-        $indexContent .= "\n## $file\n\n";
+        $indexContent .= "\n## $file\n\n" unless $file =~ /pm$/;
 
         foreach my $branch ( @{ $repo->{branches} } ) {
 
@@ -132,7 +132,7 @@ foreach my $repo (@repoList) {
             print OUT $parser->as_markdown;
             close OUT;
             $wiki->run('add', $mdwnFile . '.mdwn');
-            $indexContent .= "* [[".$branch->{serie}." (".$branch->{status}.")|$mdwnFile]]\n";
+            $indexContent .= "* [[".$branch->{serie}." (".$branch->{status}.")|$mdwnFile]]\n" unless $file =~ /pm$/;
 
         }
 
