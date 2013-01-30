@@ -15,14 +15,18 @@ During the last year we developed what was supposed to be an abstraction layer o
 ##  URL
 
 The agent will sent its first query to $URL like usual by with a GET and a POST
-* $URL: the server URL, for example, http://glpiserver/glpi/plugins/fusioninventory?action=getConfig&&machineid=$machineid
+
+* $URL: the server URL, for example,
+    http://glpiserver/glpi/plugins/fusioninventory?action=getConfig&&machineid=$machineid
 * $machineid: the machine ID
 
 
 ##  The URL format
 
 This is the recommend URL format:
-http://server/glpi/plugins/fusioninventory/$task?action=$action&machineid=$machineid
+
+    http://server/glpi/plugins/fusioninventory/$task?action=$action&machineid=$machineid
+
 * $action: the method name
 * $machineid: the machine uniq ID
 * $protocol: the protocol revision used, unused for the moment
@@ -35,13 +39,15 @@ We reuse HTTP error code (400, 500, etc).
 ##  Initial contact: /?action=getConfig
 
 The config $task will replace the prolog. It goal is:
- - inform the agent when each task must be launched or disabled
- - when the next /config request must be done
+
+* inform the agent when each task must be launched or disabled
+* when the next /config request must be done
 
 ###  Request
 
 To request a new config, the agent use the getConfig method. It also needs to declare what modules are avalaible on this URL:
 http://server/glpi/plugins/fusioninventory/?action=getConfig&machineid=$machineid&task[Inventory]=2.18&task[SNMPQuery]=1.3&task[ESX]=1.0.1
+
 * $action: getConfig, the name of the method
 * $machineid: machineid
 * $task: a key/value array with the modules and their version
@@ -101,6 +107,7 @@ when the agent is behind a NAT connection or a firewall is not possible to use t
 ###  Request
 
 The /wait task will be used to keep the agent connected when need. 
+
 http://server/glpi/plugins/fusioninventory?action=wait&machineid=$machineid
 
 ###  Answer
@@ -127,6 +134,7 @@ We must keep the compatiblity with the OCS agent. To do so, we need to continue 
 The legacy agents will continue to use the /ocsinventory back as usual.
 
 The goal here is to migrate the following modules to the REST protocol:
+
 * snmpquery
 * netdiscovery
 
