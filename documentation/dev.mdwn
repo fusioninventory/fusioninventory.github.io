@@ -11,3 +11,18 @@
 # Fusion server
 
 * [[How works fusion server (SNMP tool server)|dev/fusion_server_snmp_tool]]
+
+# technical documentation
+
+API-REST is the New JSON based communication protocol used between the agent
+and the server. 
+
+* [[API-REST (partially implemented)|spec/api/rest]]
+* [[API-REST-ESX (in use)|spec/api/rest-esx]]
+* [[API-REST-Deploy (in use)|spec/api/rest-deploy]]
+* [[API-REST-Inventory (in development)|spec/api/rest-inventory]]
+* [[API-REST-Collect (in development)|spec/api/rest-collect]]
+
+Others:
+
+* [[New directory layout (partially implemented)|spec/new-directory-layout]]
