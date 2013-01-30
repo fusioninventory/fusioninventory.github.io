@@ -17,12 +17,17 @@
 API-REST is the New JSON based communication protocol used between the agent
 and the server. 
 
-* [[API-REST (partially implemented)|spec/api/rest]]
-* [[API-REST-ESX (in use)|spec/api/rest-esx]]
-* [[API-REST-Deploy (in use)|spec/api/rest-deploy]]
-* [[API-REST-Inventory (in development)|spec/api/rest-inventory]]
-* [[API-REST-Collect (in development)|spec/api/rest-collect]]
+* [[API-REST (partially implemented)|documentation/dev/spec/api/rest]]
+* [[API-REST-ESX (in use)|documentation/dev/spec/api/rest-esx]]
+* [[API-REST-Deploy (in use)|documentation/dev/spec/api/rest-deploy]]
+* [[API-REST-Inventory (in development)|documentation/dev/spec/api/rest-inventory]]
+* [[API-REST-Collect (in development)|documentation/dev/spec/api/rest-collect]]
 
-Others:
+## Inventory format
 
-* [[New directory layout (partially implemented)|spec/new-directory-layout]]
+[[2.2.x Inventory structure|documentation/references/agent/2.2.x/lib/FusionInventory/Agent/Task/Inventory/Inventory.pm]]
+[[2.3.x Inventory structure|documentation/references/agent/2.3.x/lib/FusionInventory/Agent/Task/Inventory/Inventory.pm]]
+
+## Others
+
+* [[New directory layout (partially implemented)|documentation/dev/spec/new-directory-layout]]
