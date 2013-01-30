@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2013-01-28 13:44+0000\n"
+"POT-Creation-Date: 2013-01-30 11:50+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -28,8 +28,8 @@ msgstr ""
 
 #. type: Plain text
 msgid ""
-"First, download archive the here: "
-"<http://forge.fusioninventory.org/projects/fusioninventory-for-glpi/files>"
+"First, download archive the here: <http://forge.fusioninventory.org/projects/"
+"fusioninventory-for-glpi/files>"
 msgstr ""
 
 #. type: Plain text
@@ -55,8 +55,8 @@ msgstr ""
 #. type: Plain text
 msgid ""
 "WebServices GLPI plugin is a dependency of the Deploy feature, you can "
-"download it from the forge: "
-"<https://forge.indepnet.net/projects/webservices/files>"
+"download it from the forge: <https://forge.indepnet.net/projects/webservices/"
+"files>"
 msgstr ""
 
 #. type: Title ##
@@ -73,9 +73,7 @@ msgstr ""
 
 #. type: Plain text
 #, no-wrap
-msgid ""
-"[[!template  id=warning text=\"Don't click on *UNINSTALL* link. If you do "
-"this, you will LOOSE all FusionInventory data.\"]]\n"
+msgid "[[!template  id=warning text=\"Don't click on *UNINSTALL* link. If you do this, you will LOOSE all FusionInventory data.\"]]\n"
 msgstr ""
 
 #. type: Title ##
@@ -85,9 +83,7 @@ msgstr ""
 
 #. type: Plain text
 #, no-wrap
-msgid ""
-"[[!template  id=warning text=\"If a previous FusionInventory version is "
-"already installed, you must read the Update section.\"]]\n"
+msgid "[[!template  id=warning text=\"If a previous FusionInventory version is already installed, you must read the Update section.\"]]\n"
 msgstr ""
 
 #. type: Plain text
@@ -135,10 +131,26 @@ msgid ""
 "rights on the plugin.  Do the same for all fus* plugins"
 msgstr ""
 
+#. type: Title ##
+#, no-wrap
+msgid "Initial configuration"
+msgstr ""
+
+#. type: Plain text
+#, no-wrap
+msgid ""
+"Once the plugin is activated, you will have to go on the _Plugins > FusionInventory > General configuration_\n"
+"page to set the *Service URL*. You need to enter the location of your GLPI server, for example `http://glpi.mydomain/`.\n"
+msgstr ""
+
+#. type: Plain text
+msgid "[!img images/service_url.png ]"
+msgstr ""
+
 #. type: Plain text
 msgid ""
-"Once these is done, you can [[install your first "
-"agent|documentation/agent/installation]]."
+"Once these is done, you can [[install your first agent|documentation/agent/"
+"installation]]."
 msgstr ""
 
 #. type: Title ##
@@ -149,9 +161,6 @@ msgstr ""
 #. type: Plain text
 #, no-wrap
 msgid ""
-"[[!template  id=warning text=\"We strongly recommend to activate SSL on the "
-"server side to ensure no one will be able to read password\n"
-"during authentifcation and [[for some other good "
-"reason|documentation/agent/security_and_ssl]]. A [[documentation is "
-"available to explain how to enable it|documentation/fi4g/ssl]].\"]]\n"
+"[[!template  id=warning text=\"We strongly recommend to activate SSL on the server side to ensure no one will be able to read password\n"
+"during authentifcation and [[for some other good reason|documentation/agent/security_and_ssl]]. A [[documentation is available to explain how to enable it|documentation/fi4g/ssl]].\"]]\n"
 msgstr ""
