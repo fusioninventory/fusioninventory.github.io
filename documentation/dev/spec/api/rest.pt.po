@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2013-01-30 10:07+0000\n"
+"POT-Creation-Date: 2013-01-30 10:09+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -62,9 +62,15 @@ msgstr ""
 #. type: Plain text
 msgid ""
 "The agent will sent its first query to $URL like usual by with a GET and a "
-"POST * $URL: the server URL, for example, "
-"http://glpiserver/glpi/plugins/fusioninventory?action=getConfig&&machineid=$machineid "
-"* $machineid: the machine ID"
+"POST"
+msgstr ""
+
+#. type: Plain text
+#, no-wrap
+msgid ""
+"* $URL: the server URL, for example,\n"
+"    http://glpiserver/glpi/plugins/fusioninventory?action=getConfig&&machineid=$machineid\n"
+"* $machineid: the machine ID\n"
 msgstr ""
 
 #. type: Title ##
@@ -73,12 +79,30 @@ msgid "The URL format"
 msgstr ""
 
 #. type: Plain text
+msgid "This is the recommend URL format:"
+msgstr ""
+
+#. type: Plain text
+#, no-wrap
+msgid "    http://server/glpi/plugins/fusioninventory/$task?action=$action&machineid=$machineid\n"
+msgstr ""
+
+#. type: Bullet: '* '
+msgid "$action: the method name"
+msgstr ""
+
+#. type: Bullet: '* '
+msgid "$machineid: the machine uniq ID"
+msgstr ""
+
+#. type: Bullet: '* '
+msgid "$protocol: the protocol revision used, unused for the moment"
+msgstr ""
+
+#. type: Bullet: '* '
 msgid ""
-"This is the recommend URL format: "
-"http://server/glpi/plugins/fusioninventory/$task?action=$action&machineid=$machineid "
-"* $action: the method name * $machineid: the machine uniq ID * $protocol: "
-"the protocol revision used, unused for the moment * additional can be added, "
-"it's also possible to push more information through a HTTP POST"
+"additional can be added, it's also possible to push more information through "
+"a HTTP POST"
 msgstr ""
 
 #. type: Title ##
@@ -96,15 +120,18 @@ msgid "Initial contact: /?action=getConfig"
 msgstr ""
 
 #. type: Plain text
-#, no-wrap
-msgid ""
-"The config $task will replace the prolog. It goal is:\n"
-" - inform the agent when each task must be launched or disabled\n"
-" - when the next /config request must be done\n"
+msgid "The config $task will replace the prolog. It goal is:"
+msgstr ""
+
+#. type: Bullet: '* '
+msgid "inform the agent when each task must be launched or disabled"
+msgstr ""
+
+#. type: Bullet: '* '
+msgid "when the next /config request must be done"
 msgstr ""
 
 #. type: Title ###
-#:  
 #, no-wrap
 msgid "Request"
 msgstr ""
@@ -112,14 +139,24 @@ msgstr ""
 #. type: Plain text
 msgid ""
 "To request a new config, the agent use the getConfig method. It also needs "
-"to declare what modules are avalaible on this URL: "
-"http://server/glpi/plugins/fusioninventory/?action=getConfig&machineid=$machineid&task[Inventory]=2.18&task[SNMPQuery]=1.3&task[ESX]=1.0.1 "
-"* $action: getConfig, the name of the method * $machineid: machineid * "
-"$task: a key/value array with the modules and their version"
+"to declare what modules are avalaible on this URL: http://server/glpi/"
+"plugins/fusioninventory/?action=getConfig&machineid=$machineid&task"
+"[Inventory]=2.18&task[SNMPQuery]=1.3&task[ESX]=1.0.1"
+msgstr ""
+
+#. type: Bullet: '* '
+msgid "$action: getConfig, the name of the method"
+msgstr ""
+
+#. type: Bullet: '* '
+msgid "$machineid: machineid"
+msgstr ""
+
+#. type: Bullet: '* '
+msgid "$task: a key/value array with the modules and their version"
 msgstr ""
 
 #. type: Title ###
-#:  
 #, no-wrap
 msgid "Answer"
 msgstr ""
@@ -139,13 +176,10 @@ msgid ""
 "    {\n"
 "       \"schedule\" : [\n"
 "          {\n"
-"             \"periodicity\" : 3600,                     ← time to wait "
-"between to call\n"
-"             \"delayStartup\" : 600,                   ← time to wait before "
-"the first startup, default is now+periodicity\n"
+"             \"periodicity\" : 3600,                     ← time to wait between to call\n"
+"             \"delayStartup\" : 600,                   ← time to wait before the first startup, default is now+periodicity\n"
 "             \"task\" : \"Inventory\",                        ← Task name\n"
-"             \"remote\" : \"https://server1/plugins/fusioninventory/b\"   ← "
-"Remote backend URL to contact\n"
+"             \"remote\" : \"https://server1/plugins/fusioninventory/b\"   ← Remote backend URL to contact\n"
 "          },\n"
 "          {\n"
 "             \"periodicity\" : 600,\n"
@@ -165,8 +199,7 @@ msgid ""
 "          {\n"
 "             \"periodicity\" : 5600,\n"
 "             \"task\" : \"FooBarAMQPService\",\n"
-"             \"remote\" : \"amqp://server1/plugins/fusinvinventory/b\" ← "
-"draft for an AMQP interface\n"
+"             \"remote\" : \"amqp://server1/plugins/fusinvinventory/b\" ← draft for an AMQP interface\n"
 "          }\n"
 "       ],\n"
 msgstr ""
@@ -181,12 +214,8 @@ msgid ""
 "          ],\n"
 "          \"port\" : 62354\n"
 "       },\n"
-"       \"configValidityPeriod\" : 600,   ← How long the agent should keep "
-"this configuration\n"
-"       \"requireSSLClientCert\" : 1 ← 1 if the agent must ask a SSL cert to "
-"the server, in this case it will request a cert from the server See: "
-"http://forge.fusioninventory.org/projects/fusioninventory-agent/wiki/API-REST-strong-SSL-support "
-"\n"
+"       \"configValidityPeriod\" : 600,   ← How long the agent should keep this configuration\n"
+"       \"requireSSLClientCert\" : 1 ← 1 if the agent must ask a SSL cert to the server, in this case it will request a cert from the server See: http://forge.fusioninventory.org/projects/fusioninventory-agent/wiki/API-REST-strong-SSL-support \n"
 "    }\n"
 msgstr ""
 
@@ -204,8 +233,11 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
+msgid "The /wait task will be used to keep the agent connected when need."
+msgstr ""
+
+#. type: Plain text
 msgid ""
-"The /wait task will be used to keep the agent connected when need.  "
 "http://server/glpi/plugins/fusioninventory?action=wait&machineid=$machineid"
 msgstr ""
 
@@ -254,9 +286,15 @@ msgid "The legacy agents will continue to use the /ocsinventory back as usual."
 msgstr ""
 
 #. type: Plain text
-msgid ""
-"The goal here is to migrate the following modules to the REST protocol: * "
-"snmpquery * netdiscovery"
+msgid "The goal here is to migrate the following modules to the REST protocol:"
+msgstr ""
+
+#. type: Bullet: '* '
+msgid "snmpquery"
+msgstr ""
+
+#. type: Bullet: '* '
+msgid "netdiscovery"
 msgstr ""
 
 #. type: Plain text
@@ -298,8 +336,7 @@ msgstr ""
 
 #. type: Bullet: '* '
 msgid ""
-"agent contact the server (/config) to know each tash must be started and "
-"when"
+"agent contact the server (/config) to know each tash must be started and when"
 msgstr ""
 
 #. type: Bullet: '* '
