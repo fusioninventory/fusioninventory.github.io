@@ -85,7 +85,7 @@ my @repoList = (
 my $indexContent = "# Reference documentation\n";
 
 my $wiki = Git::Repository->new( work_tree => '.' );
-eval { $wiki->run('rm', '-rf', "documentation/references") };
+#eval { $wiki->run('rm', '-rf', "documentation/references") };
 
 foreach my $repo (@repoList) {
     my $localDir = sprintf( "%s/%s", $tmpDir, $repo->{name} );
