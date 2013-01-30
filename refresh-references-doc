@@ -40,7 +40,7 @@ my @repoList = (
         ],
         files => [
             'fusioninventory-agent', 'fusioninventory-injector',
-            'fusioninventory-inventory'
+            'fusioninventory-inventory', 'lib/FusionInventory/Agent/Task/Inventory/Inventory.pm'
           ]
 
     },
