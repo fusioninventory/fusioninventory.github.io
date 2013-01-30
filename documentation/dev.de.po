@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2013-01-30 10:46+0000\n"
+"POT-Creation-Date: 2013-01-30 10:48+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -95,12 +95,16 @@ msgstr ""
 msgid "Inventory format"
 msgstr ""
 
-#. type: Plain text
+#. type: Bullet: '* '
 msgid ""
 "[[2.2.x Inventory structure|documentation/references/agent/2.2.x/lib/"
-"FusionInventory/Agent/Task/Inventory/Inventory.pm]] [[2.3.x Inventory "
-"structure|documentation/references/agent/2.3.x/lib/FusionInventory/Agent/"
-"Task/Inventory/Inventory.pm]]"
+"FusionInventory/Agent/Task/Inventory/Inventory.pm]]"
+msgstr ""
+
+#. type: Bullet: '* '
+msgid ""
+"[[2.3.x Inventory structure|documentation/references/agent/2.3.x/lib/"
+"FusionInventory/Agent/Task/Inventory/Inventory.pm]]"
 msgstr ""
 
 #. type: Title ##
