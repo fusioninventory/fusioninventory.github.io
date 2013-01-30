@@ -25,8 +25,8 @@ and the server.
 
 ## Inventory format
 
-[[2.2.x Inventory structure|documentation/references/agent/2.2.x/lib/FusionInventory/Agent/Task/Inventory/Inventory.pm]]
-[[2.3.x Inventory structure|documentation/references/agent/2.3.x/lib/FusionInventory/Agent/Task/Inventory/Inventory.pm]]
+* [[2.2.x Inventory structure|documentation/references/agent/2.2.x/lib/FusionInventory/Agent/Task/Inventory/Inventory.pm]]
+* [[2.3.x Inventory structure|documentation/references/agent/2.3.x/lib/FusionInventory/Agent/Task/Inventory/Inventory.pm]]
 
 ## Others
 
