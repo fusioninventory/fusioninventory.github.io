@@ -21,7 +21,7 @@ msgid ""
 "RSS feed."
 msgstr ""
 "C'est ici que vous trouverez les annonces de nouvelles versions, fonctionnalités "
-"ou autres fonctionnalités. Il est recommandé aux utilisateurs de FusionInventory "
+"ou toutes autres informations sur FusionInventory. Il est recommandé aux utilisateurs de FusionInventory "
 "de s'abonner aux flux RSS."
 
 #. type: Plain text

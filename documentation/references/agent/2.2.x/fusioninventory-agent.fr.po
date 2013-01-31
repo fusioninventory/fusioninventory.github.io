@@ -309,21 +309,29 @@ msgid ""
 "which was released with OCS 1.01 and prior. It also replaces the "
 "Solaris/AIX/BSD unofficial agents."
 msgstr ""
+"`fusioninventory-agent` est un agent pour le serveur OCS Inventory et "
+"le serveur FusionInventory for GLPI. Il crée un inventaire local des machines "
+"(matériel et logiciel) et l'envoie au serveur. Il peut aussi l'écrire localement "
+"dans un fichier XML. Cet agent est le successeur de l'ancien agent-linux sorti "
+"avec l'agent OCS 1.01. Il remplace aussi les agents non-officiels pour "
+"Solaris/AIX/BSD."
 
 #. type: Plain text
 msgid "Supported systems:"
-msgstr ""
+msgstr "Systèmes supportés:"
 
 #. type: Plain text
 msgid ""
 "- `Windows` (since Windows 2000)  - `GNU/Linux` - `MacOSX` - `Solaris` - "
 "`FreeBSD` - `NetBSD` - `OpenBSD` - `AIX` - `HP-UX` - `GNU/kFreeBSD`"
 msgstr ""
+"- `Windows` (depuis Windows 2000)  - `GNU/Linux` - `MacOSX` - `Solaris` - "
+"`FreeBSD` - `NetBSD` - `OpenBSD` - `AIX` - `HP-UX` - `GNU/kFreeBSD`"
 
 #. type: Title #
 #, no-wrap
 msgid "OCS INVENTORY PROTOCOL"
-msgstr ""
+msgstr "Protocole OCS Inventory"
 
 #. type: Plain text
 msgid ""
@@ -331,15 +339,18 @@ msgid ""
 "Inventory server. The agent uses the same protocol with the FusionInventory "
 "For GLPI plugin."
 msgstr ""
+"L'agent FusionInventory utilise le protocole d'OCS Inventory et il est "
+"compatible avec le serveur éponyme. L'agent utilise le même protocole "
+"avec le plugin FusionInventory For GLPI."
 
 #. type: Plain text
 msgid "The OCS protocol is basicly an exchange of XML file done over HTTP(S)."
-msgstr ""
+msgstr "Le protocole OCS est simplement un échange de fichier XML via HTTP(S)."
 
 #. type: Title ##
 #, no-wrap
 msgid "First, The PROLOG"
-msgstr ""
+msgstr "Premièrement, le PROLOG"
 
 #. type: Plain text
 msgid ""
