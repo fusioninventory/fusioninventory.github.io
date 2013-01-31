@@ -71,7 +71,7 @@ msgstr ""
 #. type: Plain text
 msgid ""
 "CAUTION: assuming your URL to contact server is "
-"http(s)://glpi.mycompany.com/. You have to inform both in file names and in "
+"http(s)://glpi.mycompany.com/. You (should) inform in file names and (have to) in "
 "\"Common Name\" the name of your server."
 msgstr ""
 
