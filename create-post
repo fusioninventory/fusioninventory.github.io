@@ -7,7 +7,6 @@ use DateTime;
 use File::Basename;
 use File::Path qw(make_path);
 use File::Temp qw/ tempfile /;
-#use Data::Dumper;
 
 my $title = shift;
 
