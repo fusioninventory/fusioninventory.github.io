@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2013-01-28 13:44+0000\n"
+"POT-Creation-Date: 2013-01-31 09:49+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -22,7 +22,8 @@ msgid "How to edit this wiki"
 msgstr ""
 
 #. type: Plain text
-msgid "The wiki is [[Ikiwiki]]. It uses [[Markdown syntax|ikiwiki/formatting]]."
+msgid ""
+"The wiki is [[Ikiwiki]]. It uses [[Markdown syntax|ikiwiki/formatting]]."
 msgstr ""
 
 #. type: Title ##
@@ -58,7 +59,7 @@ msgstr ""
 
 #. type: Plain text
 #, no-wrap
-msgid "    git clone git://fusioninventory.org/\n"
+msgid "    $ git clone git://fusioninventory.org/\n"
 msgstr ""
 
 #. type: Plain text
@@ -67,9 +68,23 @@ msgstr ""
 
 #. type: Plain text
 #, no-wrap
+msgid "    git clone ssh://b-fusioninventory@fusioninventory.org/ fusioninventory.org\n"
+msgstr ""
+
+#. type: Title ##
+#, no-wrap
+msgid "How to publish a new (admin only)"
+msgstr ""
+
+#. type: Plain text
+#, no-wrap
 msgid ""
-"    git clone ssh://b-fusioninventory@fusioninventory.org/ "
-"fusioninventory.org\n"
+"    $ git clone git://fusioninventory.org/\n"
+"    $ cd fusioninventory.org\n"
+"    $ ./create-post this_is_my_news\n"
+"    $ git add news/...\n"
+"    $ git commit -m \"this a great news\"\n"
+"    $ git push\n"
 msgstr ""
 
 #. type: Title #
