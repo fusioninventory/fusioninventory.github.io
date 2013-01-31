@@ -19,13 +19,15 @@ msgstr ""
 #. type: Title #
 #, no-wrap
 msgid "How to translate FusionInventory"
-msgstr ""
+msgstr "Comment Traduire FusionInventory"
 
 #. type: Plain text
 msgid ""
 "FusionInventory for GLPI can be translated directly on Transifex. You will "
 "need an account: https://www.transifex.com/projects/p/FusionInventory/"
 msgstr ""
+"FusionInventory pour GLPI peut être directement traduit sur Transifex. Il vous "
+"Faudra créer un compte: https://www.transifex.com/projects/p/FusionInventory/"
 
 #. type: Plain text
 msgid ""
