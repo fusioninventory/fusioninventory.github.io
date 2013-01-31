@@ -107,7 +107,7 @@ msgstr ""
 
 #. type: Plain text
 msgid "It's also possible to use a regular expression for that."
-msgstr ""
+msgstr "Il est également possible d'utiliser une expression régulière pour ça."
 
 #. type: Title ##
 #, no-wrap
