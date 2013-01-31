@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2013-01-28 13:17+0000\n"
+"POT-Creation-Date: 2013-01-31 21:43+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -21,14 +21,33 @@ msgstr ""
 msgid "Agent Installation on Linux"
 msgstr ""
 
+#. type: Plain text
+msgid ""
+"A FusionInventory agent package is available for various specific Linux "
+"distributions. However, for various constraints (maintainer availability, "
+"distribution freeze, etc...), they are not always up-to-date."
+msgstr ""
+
+#. type: Plain text
+msgid ""
+"Installation from source, though, ensures to have the latest release, and is "
+"quite easy to achieve through a CPAN client."
+msgstr ""
+
 #. type: Bullet: '* '
 msgid "[[Debian and Ubuntu|documentation/agent/installation/linux/deb]]"
 msgstr ""
 
 #. type: Bullet: '* '
-msgid ""
-"[[Fedora, RHEL, SUSE, OpenSUSE, "
-"etc|documentation/agent/installation/linux/rpm]]"
+msgid "[[RHEL and Centos|documentation/agent/installation/linux/rhel]]"
+msgstr ""
+
+#. type: Bullet: '* '
+msgid "[[Fedora|documentation/agent/installation/linux/fedora]]"
+msgstr ""
+
+#. type: Bullet: '* '
+msgid "[[Mageia and Mandriva|documentation/agent/installation/linux/mageia]]"
 msgstr ""
 
 #. type: Bullet: '* '
@@ -36,5 +55,6 @@ msgid "[[Source|documentation/agent/installation/source]]"
 msgstr ""
 
 #. type: Bullet: '* '
-msgid "[[Generic “prebuilt” packages|documentation/agent/installation/prebuilt]]"
+msgid ""
+"[[Generic “prebuilt” packages|documentation/agent/installation/prebuilt]]"
 msgstr ""

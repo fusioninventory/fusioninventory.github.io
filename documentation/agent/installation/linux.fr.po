@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2013-01-24 17:14+0000\n"
+"POT-Creation-Date: 2013-01-31 21:43+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -21,17 +21,40 @@ msgstr ""
 msgid "Agent Installation on Linux"
 msgstr "Installation de l'agent sur Linux"
 
+#. type: Plain text
+msgid ""
+"A FusionInventory agent package is available for various specific Linux "
+"distributions. However, for various constraints (maintainer availability, "
+"distribution freeze, etc...), they are not always up-to-date."
+msgstr ""
+
+#. type: Plain text
+msgid ""
+"Installation from source, though, ensures to have the latest release, and is "
+"quite easy to achieve through a CPAN client."
+msgstr ""
+
 #. type: Bullet: '* '
 msgid "[[Debian and Ubuntu|documentation/agent/installation/linux/deb]]"
 msgstr "[[Debian et Ubuntu (.deb)|documentation/agent/installation/linux/deb]]"
 
 #. type: Bullet: '* '
-msgid ""
-"[[Fedora, RHEL, SUSE, OpenSUSE, etc|documentation/agent/installation/linux/"
-"rpm]]"
-msgstr ""
-"[[Fedora, RHEL, SUSE, OpenSUSE, etc (.rpm)|documentation/agent/installation/"
-"linux/rpm]]"
+#, fuzzy
+#| msgid "[[Debian and Ubuntu|documentation/agent/installation/linux/deb]]"
+msgid "[[RHEL and Centos|documentation/agent/installation/linux/rhel]]"
+msgstr "[[Debian et Ubuntu (.deb)|documentation/agent/installation/linux/deb]]"
+
+#. type: Bullet: '* '
+#, fuzzy
+#| msgid "[[Source|documentation/agent/installation/source]]"
+msgid "[[Fedora|documentation/agent/installation/linux/fedora]]"
+msgstr "[[Source|documentation/agent/installation/source]]"
+
+#. type: Bullet: '* '
+#, fuzzy
+#| msgid "[[Debian and Ubuntu|documentation/agent/installation/linux/deb]]"
+msgid "[[Mageia and Mandriva|documentation/agent/installation/linux/mageia]]"
+msgstr "[[Debian et Ubuntu (.deb)|documentation/agent/installation/linux/deb]]"
 
 #. type: Bullet: '* '
 msgid "[[Source|documentation/agent/installation/source]]"
@@ -42,3 +65,10 @@ msgid ""
 "[[Generic “prebuilt” packages|documentation/agent/installation/prebuilt]]"
 msgstr ""
 "[[Paquet généric “prebuilt”|documentation/agent/installation/prebuilt]]"
+
+#~ msgid ""
+#~ "[[Fedora, RHEL, SUSE, OpenSUSE, etc|documentation/agent/installation/"
+#~ "linux/rpm]]"
+#~ msgstr ""
+#~ "[[Fedora, RHEL, SUSE, OpenSUSE, etc (.rpm)|documentation/agent/"
+#~ "installation/linux/rpm]]"

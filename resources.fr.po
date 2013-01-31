@@ -2,7 +2,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2013-01-28 20:56+0000\n"
+"POT-Creation-Date: 2013-01-31 21:42+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -75,12 +75,16 @@ msgstr ""
 "mailman/listinfo/fusioninventory-devel)"
 
 #. type: Bullet: '* '
+#, fuzzy
+#| msgid ""
+#| "[FusionInventory translator list](http://lists.alioth.debian.org/mailman/"
+#| "listinfo/fusioninventory-i18n)"
 msgid ""
-"[FusionInventory translator list](http://lists.alioth.debian.org/mailman/"
+"[FusinInventory translator list](http://lists.alioth.debian.org/mailman/"
 "listinfo/fusioninventory-i18n)"
 msgstr ""
-"[Liste des traducteurs de FusionInventory](http://lists.alioth.debian.org/mailman/"
-"listinfo/fusioninventory-i18n)"
+"[Liste des traducteurs de FusionInventory](http://lists.alioth.debian.org/"
+"mailman/listinfo/fusioninventory-i18n)"
 
 #. type: Title ##
 #, no-wrap
