@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "POT-Creation-Date: 2013-01-30 11:45+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Last-Translator: FULL NAME <contact@antoninbollin.fr>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: \n"
 "MIME-Version: 1.0\n"
@@ -19,7 +19,7 @@ msgstr ""
 #. type: Title #
 #, no-wrap
 msgid "FAQ"
-msgstr ""
+msgstr "FAQ"
 
 #. type: Plain text
 #, no-wrap
@@ -29,7 +29,7 @@ msgstr ""
 #. type: Title ##
 #, no-wrap
 msgid "Tasks are not enabled"
-msgstr ""
+msgstr "les Tâches ne sont pas activées"
 
 #. type: Plain text
 #, no-wrap
@@ -37,23 +37,29 @@ msgid ""
 "    Task NetInventory is not enabled\n"
 "    Task NetDiscovery is not enabled\n"
 msgstr ""
+"    La tâche NetInventory n'est pas activée\n"
+"    La tâche NetDiscovery n'est pas activée\n"
 
 #. type: Plain text
 msgid ""
 "These messages show up in the agent log when the server do not ask for an "
 "Network Discovery or a Network Inventory."
 msgstr ""
+"Ces messages apparaissent dans le journal de l'agent lorsque le serveur "
+"ne demande pas de découverte du réseau ou d'inventaire de réseau."
 
 #. type: Title ##
 #, no-wrap
 msgid "How to redirect OCS agent with Apache"
-msgstr ""
+msgstr "Comment rediriger l'agent OCS avec Apache"
 
 #. type: Plain text
 msgid ""
 "You can use an [alias](http://httpd.apache.org/docs/2.2/mod/mod_alias.html) "
 "directive to redirect traffic from /ocsinventory to FusionInventory."
 msgstr ""
+"Vous pouvez utiliser un [alias](http://httpd.apache.org/docs/2.2/mod/mod_alias.html) "
+"qui redirigera le trafic de /ocsinventory vers FusionInventory."
 
 #. type: Plain text
 #, no-wrap
@@ -65,10 +71,11 @@ msgid ""
 "Take care to declare this directive before an `Alias / XXX` or it will be "
 "ignored."
 msgstr ""
+"Prenez soin de déclarer cette directive avant un `Alias / XXX` ou il sera ignoré"
 
 #. type: Plain text
 msgid "For example:"
-msgstr ""
+msgstr "Par exemple:"
 
 #. type: Plain text
 #, no-wrap
@@ -100,7 +107,7 @@ msgstr ""
 
 #. type: Plain text
 msgid "It's also possible to use a regular expression for that."
-msgstr ""
+msgstr "Il est également possible d'utiliser une expression régulière pour ça."
 
 #. type: Title ##
 #, no-wrap
