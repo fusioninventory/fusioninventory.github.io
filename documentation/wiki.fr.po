@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "POT-Creation-Date: 2013-01-11 14:06+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Last-Translator: FULL NAME <contat@antoninbollin.fr>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: \n"
 "MIME-Version: 1.0\n"
@@ -19,16 +19,16 @@ msgstr ""
 #. type: Title #
 #, no-wrap
 msgid "How to edit this wiki"
-msgstr ""
+msgstr "Comment éditer ce wiki"
 
 #. type: Plain text
 msgid "The wiki is [[Ikiwiki]]. It uses [[Markdown syntax|ikiwiki/formatting]]."
-msgstr ""
+msgstr "Ce wiki est [[Ikiwiki]]. Il utilise des [[standards de mise en forme|ikiwiki/formatting]]."
 
 #. type: Title ##
 #, no-wrap
 msgid "From HTTP"
-msgstr ""
+msgstr "A partir d'http"
 
 #. type: Plain text
 msgid ""
