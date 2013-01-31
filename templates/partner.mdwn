@@ -1,43 +1,43 @@
 <div class="partner">
 <img src="/partners/<TMPL_VAR logo>" />
+<h2><TMPL_VAR name></h2>
 <ul>
-<li><TMPL_VAR name></li>
 <li>web: <a href="<TMPL_VAR web>"><TMPL_VAR web></a></li>
 <li>mail: <a href="mailto:<TMPL_VAR email>"><TMPL_VAR email></a></li>
 
 <TMPL_VAR location>
 <li>
 <TMPL_IF NAME="code">
-<img src="/partners/logo/code.png" />Code contribution: <TMPL_VAR code>
+<img src="/partners/logo/code.png" /><b>Code contribution:</b> <TMPL_VAR code>
 </li>
 </TMPL_IF>
 
 <TMPL_IF NAME="qa">
 <li>
-<img src="/partners/logo/qa.png" />Tests and bug reports: <TMPL_VAR qa>
+<img src="/partners/logo/qa.png" /><b>Tests and bug reports:</b> <TMPL_VAR qa>
 </TMPL_IF>
 
 <TMPL_IF NAME="promote">
 <li>
-<img src="/partners/logo/promote.png" />Promotion and Communication: <TMPL_VAR promote>
+<img src="/partners/logo/promote.png" /><b>Promotion and Communication:</b> <TMPL_VAR promote>
 </li>
 </TMPL_IF>
 
 <TMPL_IF NAME="doc">
 <li>
-<img src="/partners/logo/doc.png" />Documentation: <TMPL_VAR doc>
+<img src="/partners/logo/doc.png" /><b>Documentation:</b> <TMPL_VAR doc>
 </li>
 </TMPL_IF>
 
 <TMPL_IF NAME="support">
 <li>
-<img src="/partners/logo/support.png" />User support (Forum, IRC…): <TMPL_VAR support>
+<img src="/partners/logo/support.png" /><b>User support (Forum, IRC…):</b> <TMPL_VAR support>
 </li>
 </TMPL_IF>
 
 <TMPL_IF NAME="training">
 <li>
-<img src="/partners/logo/training.png" />Training: <TMPL_VAR training></p>
+<img src="/partners/logo/training.png" /><b>Training:</b> <TMPL_VAR training></p>
 </li>
 </TMPL_IF>
 
