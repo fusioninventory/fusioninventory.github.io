@@ -3,5 +3,6 @@
 * [[Debian and Ubuntu|documentation/agent/installation/linux/deb]]
 * [[RHEL and Centos|documentation/agent/installation/linux/rhel]]
 * [[Fedora|documentation/agent/installation/linux/fedora]]
+* [[Mageia and Mandriva|documentation/agent/installation/linux/mageia]]
 * [[Source|documentation/agent/installation/source]]
 * [[Generic “prebuilt” packages|documentation/agent/installation/prebuilt]]
