@@ -19,12 +19,12 @@ msgstr ""
 #. type: Title #
 #, no-wrap
 msgid "Installation from the source tarball"
-msgstr "Installation depuis les sources"
+msgstr "Installation depuis les sources archivées"
 
 #. type: Title ##
 #, no-wrap
 msgid "Get the sources Luke!"
-msgstr "Trouves la source, Luke!"
+msgstr "Trouves les sources, Luke!"
 
 #. type: Plain text
 msgid ""
@@ -42,8 +42,8 @@ msgid ""
 "Tarballs con sufijos de versión **rc** o **beta** son versiones de "
 "desarrollo y no están listas para ambientes de producción."
 msgstr ""
-"Les archives avec les suffixes **rc** ou **beta** dans la version ne sont "
-"pas destinées à être mises en production."
+"Les archives avec les suffixes de version **rc** ou **beta** sont des versions de "
+"développement et ne sont pas prêtes pour les environnements de production."
 
 #. type: Plain text
 msgid "It's also possible to get snapshot from Github:"
@@ -69,7 +69,7 @@ msgid ""
 "files like for example on HP-UX."
 msgstr ""
 "Nous vous recommandons fortement d'utiliser GNU tar, parce que plusieurs chemins de fichier "
-"sont long de plus de 100 caractères. D'autres version de tar risque d'ignorer ces fichiers "
+"sont long de plus de 100 caractères. D'autres versions de tar risquent d'ignorer ces fichiers "
 " comme par exemple sur HP-UX."
 
 #. type: Plain text
@@ -90,7 +90,7 @@ msgid ""
 "Makefile.PL will ensure all the required dependencies are available and "
 "prepare the build tree."
 msgstr ""
-"Makefile.PL vérifiera que toutes les dépendances soient satisfaites et "
+"Makefile.PL vérifiera que toutes les dépendances sont disponibles et "
 "préparera l'organisation de construction."
 
 #. type: Plain text
@@ -105,8 +105,8 @@ msgid ""
 "miyagawa/cpanminus/master/cpanm). Just run:"
 msgstr ""
 "A ce niveau, vous aurez probablement plusieurs modules requis absents. Le "
-"meilleur outil pour résoudre cette situation est "
-"[cpanm](https://raw.github.com/miyagawa/cpanminus/master/cpanm). Lancez :"
+"meilleur outil pour résoudre cette situation est [cpanm](https://raw.github.com/"
+"miyagawa/cpanminus/master/cpanm). Lancez :"
 
 #. type: Plain text
 #, no-wrap
@@ -118,20 +118,20 @@ msgid ""
 "You can use the _--notest_ flag if you are brave and want to skip the test-"
 "suite execution."
 msgstr ""
-"Vous pouvez utiliser l'option _--notest_ si vous aimez le risque et pour sauter le "
-"test-suite execution."
+"Vous pouvez utiliser l'option _--notest_ si vous aimez le risque et pour sauter le test-"
+"suite execution."
 
 #. type: Plain text
 msgid ""
 "You may also need to install some [[system specific dependencies|"
 "documentation/agent/system_dep]]."
 msgstr ""
-"Vous devrez aussi installer d'autres [[dépendances spécifiques "
-"à votre système|documentation/agent/system_dep]]."
+"Vous devrez aussi installer d'autres [[dépendances spécifiques à votre système|"
+"documentation/agent/system_dep]]."
 
 #. type: Plain text
 msgid "Once this is done, run once again:"
-msgstr "Une fois que cela sera fait, lancez une nouvelle fois:"
+msgstr "Une fois que cela est fait, lancez une nouvelle fois:"
 
 #. type: Plain text
 #, no-wrap
@@ -143,8 +143,8 @@ msgid ""
 "This time the execution should success and you can finish the installation. "
 "Here again we recommand GNU make (gmake):"
 msgstr ""
-"Cette fois l'exécution doit être un succès et vous pouvez terminer "
-"l'installation. Nous vous recommandons également GNU make (gmake):"
+"Cette fois l'exécution doit être un succès et vous pouvez terminer l'installation."
+"Ici aussi nous vous recommandons GNU make (gmake):"
 
 #. type: Plain text
 #, no-wrap
@@ -215,8 +215,8 @@ msgid ""
 "Agent will read it's configuration from /etc/fusioninventory/agent.cfg. You "
 "need at least a `server` line:"
 msgstr ""
-"L'agent trouve sa configuration dans le fichier /etc/fusioninventory/agent.cfg. Vous "
-"devez au moins paramétrer la ligne `server` :"
+"L'agent lira sa configuration à partir de /etc/fusioninventory/agent.cfg. Vous "
+"avez besoin au moins de la ligne `server` :"
 
 #. type: Plain text
 #, no-wrap
@@ -270,8 +270,8 @@ msgid ""
 "If you don't want to use SSL, you can avoid keep this dependency "
 "uninstalled.  The agent will disable SSL by itself."
 msgstr ""
-"Si vous n'avez pas besoin de SSL, vous pouvez vous passer de ces dépendances "
-" inactivées. L'agent désactivera tout seul SSL."
+"Si vous ne voulez pas utiliser le SSL, vous pouvez vous passer de ces dépendances "
+" inactivées. L'agent désactivera le SSL par lui-même."
 
 #. type: Title #
 #, no-wrap
@@ -293,4 +293,4 @@ msgstr "    make test\n"
 
 #. type: Plain text
 msgid "The test-suites require some additional dependencies like Test::More."
-msgstr "Les *test-suites* requirent plusieurs dépendances comme Test::More."
+msgstr "Les test-suites requirent plusieurs dépendances additionnelles comme Test::More."
