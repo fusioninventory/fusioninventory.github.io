@@ -44,7 +44,7 @@ msgstr ""
 "développement et ne sont pas prêtes pour les environnements de production."
 
 #. type: Plain text
-msgid "It's also possible to get snapshot from Github:"
+msgid "También es posible obtener un snapshot desde Github:"
 msgstr "Il est aussi possible de récupérer une image par Github:"
 
 #. type: Bullet: '* '
