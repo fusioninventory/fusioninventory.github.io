@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2013-01-31 21:44+0000\n"
+"POT-Creation-Date: 2013-02-01 16:00+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -29,21 +29,26 @@ msgstr "RHEL/Centos 6.X and 5.x"
 #. type: Plain text
 msgid ""
 "An up-to-date *fusioninventory-agent* package is maintained by "
-"FusionInventory team. You can retrieve it from [openSUSE Build "
-"Service](https://build.opensuse.org/project/show?project=home%3Aguillomovitch)."
+"FusionInventory team. You can retrieve it from [openSUSE Build Service]"
+"(https://build.opensuse.org/project/show?project=home%3Aguillomovitch)."
 msgstr ""
-"Un paquet à jour de *fusioninventory-agent* est maintenu par "
-"l'équipe FusionInventory. Vous pouvez le trouver sur le service "
-"[openSUSE Build](https://build.opensuse.org/project/show?project=home%3Aguillomovitch)."
+"Un paquet à jour de *fusioninventory-agent* est maintenu par l'équipe "
+"FusionInventory. Vous pouvez le trouver sur le service [openSUSE Build]"
+"(https://build.opensuse.org/project/show?project=home%3Aguillomovitch)."
 
 #. type: Plain text
+#, fuzzy
+#| msgid ""
+#| "Beware, you'all also need the *EPEL* repository is required for perl "
+#| "dependencies. See [EPEL wiki](https://fedoraproject.org/wiki/EPEL) for "
+#| "details."
 msgid ""
-"Beware, you'all also need the *EPEL* repository is required for perl "
-"dependencies. See [EPEL wiki](https://fedoraproject.org/wiki/EPEL) for "
-"details."
+"Beware, you'all also need the *EPEL* repository. See [EPEL wiki](https://"
+"fedoraproject.org/wiki/EPEL) for details."
 msgstr ""
-"Attention, vous aurez besoin d'avoir le dépôt EPEL pour les dépendances Perl. "
-"Reportez vous pour plus de détails à [EPEL wiki](https://fedoraproject.org/wiki/EPEL)."
+"Attention, vous aurez besoin d'avoir le dépôt EPEL pour les dépendances "
+"Perl. Reportez vous pour plus de détails à [EPEL wiki](https://fedoraproject."
+"org/wiki/EPEL)."
 
 #. type: Title ##
 #, no-wrap
@@ -52,20 +57,16 @@ msgstr "RHEL, Centos 4.x"
 
 #. type: Plain text
 #, no-wrap
-msgid ""
-"An old *fusioninventory-agent* package is available in the *remi* third "
-"party repository for EL >= 4\n"
-msgstr ""
-"Un ancien paquet de *fusioninventory-agent* est disponible sur le dépôts "
-"de *rémi* pour EL >= 4\n"
+msgid "An old *fusioninventory-agent* package is available in the *remi* third party repository for EL >= 4\n"
+msgstr "Un ancien paquet de *fusioninventory-agent* est disponible sur le dépôts de *rémi* pour EL >= 4\n"
 
 #. type: Plain text
 msgid ""
-"See [Remi repository "
-"configuration](http://blog.famillecollet.com/pages/Config-en) for details."
+"See [Remi repository configuration](http://blog.famillecollet.com/pages/"
+"Config-en) for details."
 msgstr ""
-"Reportez vous au [Remi repository "
-"configuration](http://blog.famillecollet.com/pages/Config-en) pour plus de détails."
+"Reportez vous au [Remi repository configuration](http://blog.famillecollet."
+"com/pages/Config-en) pour plus de détails."
 
 #. type: Title ##
 #, no-wrap
@@ -86,5 +87,5 @@ msgid ""
 "Only *fusioninventory-agent* is mandatory, other packages are additional "
 "tasks."
 msgstr ""
-"Seul *fusioninventory-agent* est obligatoire, les autres paquets sont "
-"pour les tâches additionnelles."
+"Seul *fusioninventory-agent* est obligatoire, les autres paquets sont pour "
+"les tâches additionnelles."
