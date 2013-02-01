@@ -6,8 +6,7 @@ An up-to-date *fusioninventory-agent* package is maintained by FusionInventory
 team. You can retrieve it from [openSUSE Build
 Service](https://build.opensuse.org/project/show?project=home%3Aguillomovitch).
 
-Beware, you'all also need the *EPEL* repository is required for perl
-dependencies. See [EPEL wiki](https://fedoraproject.org/wiki/EPEL) for details.
+Beware, you'all also need the *EPEL* repository. See [EPEL wiki](https://fedoraproject.org/wiki/EPEL) for details.
 
 ## RHEL, Centos 4.x
 
