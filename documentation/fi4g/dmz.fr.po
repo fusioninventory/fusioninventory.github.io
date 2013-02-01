@@ -35,9 +35,9 @@ msgstr "Vous pouvez collecter vos inventaires DMZ en utilisant un script limité
 #. type: Plain text
 msgid ""
 "Download [[collect.php|documentation/fi4g/dmz/collect.php]] and copy it "
-"somewhere PHP is enabled. For example `/var/www` ou `/var/www/html`."
+"somewhere PHP is enabled. For example `/var/www` or `/var/www/html`."
 msgstr "Télécharger [[collect.php|documentation/fi4g/dmz/collect.php]] et copiez le "
-"quelque part ou le PHP est activé. Par exemple `/var/www` or `/var/www/html`."
+"quelque part ou le PHP est activé. Par exemple `/var/www` ou `/var/www/html`."
 
 #. type: Plain text
 msgid "Then, you can configure agents in DMZ machines this way:"
