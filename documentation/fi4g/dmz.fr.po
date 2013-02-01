@@ -41,7 +41,7 @@ msgstr "Télécharger [[collect.php|documentation/fi4g/dmz/collect.php]] et copi
 
 #. type: Plain text
 msgid "Then, you can configure agents in DMZ machines this way:"
-msgstr "Puis vous pouvez configuere les agents dans les machines DMZ de cette manière:"
+msgstr "Puis vous pouvez configurer les agents dans les machines DMZ de cette manière:"
 
 #. type: Plain text
 #, no-wrap
