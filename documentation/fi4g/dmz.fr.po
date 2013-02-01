@@ -59,7 +59,7 @@ msgstr "Où \"server\" est le nom de l'ordinateur sur lequel vous avez copié le
 msgid ""
 "The inventory files will be generated in /tmp. This is the default, you can "
 "adjust the $dumDir key at the begining of the script."
-msgstr "Les fichiers d'inventaires seront générés dans /tmp. c'est par défaut, vous pouvez "
+msgstr "Les fichiers d'inventaires seront générés dans /tmp. par défaut, vous pouvez "
 "ajuster le $dumDir key au début du script."
 
 #. type: Plain text
@@ -77,7 +77,7 @@ msgid ""
 "Once the xml inventory files are written, you can move them outside of the "
 "DMZ and finally import these files to GLPI using [[fusioninventory-injector|"
 "documentation/references]]."
-msgstr "Une fois que les fichiers d'inventaire xml sont écrits, vous pouvez les bouger en dehors du "
+msgstr "Une fois que les fichiers d'inventaire xml sont écrits, vous pouvez les déplacer en dehors du "
 "DMZ et finalement les importez vers GLPI en utilisant [[fusioninventory-injector|"
 "documentation/references]]."
 
