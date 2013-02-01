@@ -16,8 +16,8 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#. type: Title
-#, fuzzy, no-wrap
+#. type: Title #
+#, no-wrap
 msgid "FusionInvententory without network connection"
 msgstr "FusionInventory sans connexion réseau"
 
