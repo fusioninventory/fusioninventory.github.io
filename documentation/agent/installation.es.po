@@ -18,12 +18,12 @@ msgstr ""
 
 #. type: Title #
 #, no-wrap
-msgid "FusionInventory Agent installation"
+msgid "Instalación del FusionInventory Agent"
 msgstr ""
 
 #. type: Title ##
 #, no-wrap
-msgid "Package based installation"
+msgid "Instalación desde Paquetes"
 msgstr ""
 
 #. type: Bullet: '* '
@@ -62,7 +62,7 @@ msgstr ""
 
 #. type: Title ##
 #, no-wrap
-msgid "Installation from tarball"
+msgid "Instalación desde el tarball"
 msgstr ""
 
 #. type: Bullet: '* '
