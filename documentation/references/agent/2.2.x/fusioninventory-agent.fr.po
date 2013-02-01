@@ -344,7 +344,7 @@ msgid ""
 msgstr ""
 "L'agent lancera chaque modules et passera la liste des options donner par "
 "le PROLOG RESP comme paramètre. Le module peut envoyer directement au "
-"serveur (inventaire, SNMP scan resultat, etc)." 
+"serveur (inventaire, SNMP scan resultat, etc)."
 
 #. type: Title ##
 #, no-wrap
