@@ -18,27 +18,28 @@ msgstr ""
 
 #. type: Title #
 #, no-wrap
-msgid "Une façon de traiter avec les inventaires dans DMZ"
+msgid "A way to deal with inventories in DMZ"
 msgstr ""
 
 #. type: Title ##
 #, no-wrap
-msgid "Collectez les inventaires à partir des agents DMZ"
+msgid "Collect the inventories from DMZ agents"
 msgstr ""
 
 #. type: Plain text
 msgid ""
-"Vous pouvez collecter vos inventaires DMZ en utilisant un script limité pour obtenir" "les requêtes POST des agents."
+"You can collect your DMZ inventories by using a limited script that get the "
+"POST request of the agents."
 msgstr ""
 
 #. type: Plain text
 msgid ""
-"Téléchargez [[collect.php|documentation/fi4g/dmz/collect.php]] et copiez le "
-"quelque part où le PHP est activé. Par exemple `/var/www` ou `/var/www/html`."
+"Download [[collect.php|documentation/fi4g/dmz/collect.php]] and copy it "
+"somewhere PHP is enabled. For example `/var/www` or `/var/www/html`."
 msgstr ""
 
 #. type: Plain text
-msgid "Puis, vous pouvez configurer les agents dans les machines DMZ de cette façon:"
+msgid "Then, you can configure agents in DMZ machines this way:"
 msgstr ""
 
 #. type: Plain text
@@ -48,14 +49,14 @@ msgstr ""
 
 #. type: Plain text
 msgid ""
-"Où \"server\" est le nom de l'ordinateur sur lequel vous avez copié le script"
+"where \"server\" is the name of the computer to which you copied the script "
 "(collect.php)."
 msgstr ""
 
 #. type: Plain text
 msgid ""
-"Les fichiers d'inventaires seront générés dans /tmp. C'est par défaut, vous pouvez,"
-"ajuster le $dumDir key au début du script."
+"The inventory files will be generated in /tmp. This is the default, you can "
+"adjust the $dumDir key at the begining of the script."
 msgstr ""
 
 #. type: Plain text
@@ -65,12 +66,13 @@ msgstr ""
 
 #. type: Title ##
 #, no-wrap
-msgid "Importez les resultats avec fusioninventory-injector"
+msgid "Import results with fusioninventory-injector"
 msgstr ""
 
 #. type: Plain text
 msgid ""
-"Une fois que les fichiers xml d'inventaires sont écrits, vous pouvez les déplacer en dehors du"
-"DMZ et finalement les importez vers GLPI en utilisant [[fusioninventory-injector|"
+"Once the xml inventory files are written, you can move them outside of the "
+"DMZ and finally import these files to GLPI using [[fusioninventory-injector|"
 "documentation/references]]."
 msgstr ""
+
