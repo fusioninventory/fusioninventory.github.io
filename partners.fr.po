@@ -19,7 +19,7 @@ msgstr ""
 #. type: Title #
 #, no-wrap
 msgid "Partners"
-msgstr "Partenaires"
+msgstr ""
 
 #. type: Plain text
 msgid ""
@@ -27,9 +27,6 @@ msgid ""
 "involved in FusionInventory developement and having a great knowledge of the "
 "product."
 msgstr ""
-"Cette page est liste des partenaires de confiance. Ces sociétés sont connus "
-"pour être impliquées dans le développement de FusionInventory et ont une "
-"grande connaissance du produit."
 
 #. type: Plain text
 msgid ""
@@ -37,17 +34,12 @@ msgid ""
 "able to drive a FusionInventory integration project from the very begining "
 "to its success."
 msgstr ""
-"Ces sociétés sont habituées à déployer FusionInventory et GLPI et seront "
-"capable de vous aider à conduire un projet pour intégrer FusionInventory "
-"dans votre système avec succès."
 
 #. type: Plain text
 msgid ""
 "This list is open and if you believe your company deservice to be added, "
 "please [contact us](mailto:goneri@rulezlan.org)."
 msgstr ""
-"Cette liste est ouverte à votre entreprises si vous pensez pouvoir offrir "
-"ce service, [contactez nous](mailto:goneri@rulezlan.org)."
 
 #. type: Plain text
 #, no-wrap
@@ -66,18 +58,6 @@ msgid ""
 "  email=\"vente@teclib.com\"\n"
 "]]\n"
 msgstr ""
-"[[!template id=partner\n"
-"  logo=\"teclib.png\"\n"
-"  name=\"TECLIB'\"\n"
-"  location=\"Paris, Chartres, Colmar, Montpellier, Caen – France\"\n"
-"  code=\"FusionInventory for GLPI et l'Agent\"\n"
-"  qa=\"Tests quotidien et correction de bugs.\"\n"
-"  promote=\"Conférences, présentations, TShirts et stickers.\"\n"
-"  doc=\"Documentation.\"\n"
-"  support=\"Support quotidien.\"\n"
-"  training=\"GLPI et FusionInventory training.\"\n"
-"  web=\"http://teclib.com\"\n"
-"  email=\"goneri@teclib.com\"\n"
 
 #. type: Plain text
 #, no-wrap
@@ -96,18 +76,6 @@ msgid ""
 "  email=\"d.durieux@siprossii.com\"\n"
 "]]\n"
 msgstr ""
-"[[!template id=partner\n"
-"  logo=\"siprossii.png\"\n"
-"  name=\"siprossii\"\n"
-"  location=\"Beaujeu – France\"\n"
-"  code=\"FusionInventory for GLPI et l'Agent\"\n"
-"  qa=\"Tests quotidien et correction de bug.\"\n"
-"  promote=\"Conférences, présentations, TShirts et stickers.\"\n"
-"  doc=\"Documentation.\"\n"
-"  support=\"Support quotidien.\"\n"
-"  training=\"GLPI et FusionInventory training.\"\n"
-"  web=\"http://www.siprossii.com/\"\n"
-"  email=\"d.durieux@siprossii.com\"\n"
 
 #. type: Plain text
 #, no-wrap
@@ -123,15 +91,6 @@ msgid ""
 "  email=\"jonathan.clarke@normation.com\"\n"
 "]]\n"
 msgstr ""
-"[[!template id=partner\n"
-"  logo=\"normation.png\"\n"
-"  name=\"Normation\"\n"
-"  location=\"Paris – France\"\n"
-"  code=\"Agent\"\n"
-"  qa=\"Signalement de bug\"\n"
-"  promote=\"Conférences\"\n"
-"  web=\"http://normation.com\"\n"
-"  email=\"jonathan.clarke@normation.com\"\n"
 
 #. type: Plain text
 #, no-wrap
@@ -146,36 +105,21 @@ msgid ""
 "  email=\"marc.caissial@zenitique.fr\"\n"
 "]]\n"
 msgstr ""
-"[[!template id=partner\n"
-"  logo=\"zenetique.jpg\"\n"
-"  name=\"Zenitique\"\n"
-"  location=\"Villers-lès-Nancy – France\"\n"
-"  qa=\"Signalement de bug\"\n"
-"  support=\"forum modérateur\"\n"
-"  web=\"http://zenitique.fr/\"\n"
-"  email=\"marc.caissial@zenitique.fr\"\n"
-"]]\n"
 
 #. type: Plain text
 msgid ""
 "This page is open to now contributor, if you want to be registered here, "
 "please contact us."
 msgstr ""
-"Cette page est ouverte au nouveau contributeur, si vous voulez être "
-"enregistrés, contactez nous."
 
 #. type: Plain text
 msgid ""
 "These companies did some contributions in the past but are not active "
 "developer of FusionInventory:"
 msgstr ""
-"Ces entreprises ont été actives dans le passé mais ils ne sont plus "
-"des développeurs actifs."
 
 #. type: Bullet: '* '
 msgid ""
 "[OpenSides](http://www.opensides.be): Benoit Mortier <benoit."
 "mortier@opensides.be>"
 msgstr ""
-"[OpenSides](http://www.opensides.be): Benoit Mortier <benoit."
-"mortier@opensides.be>"

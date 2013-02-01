@@ -27,34 +27,33 @@ msgid ""
 "distributions. However, for various constraints (maintainer availability, "
 "distribution freeze, etc...), they are not always up-to-date."
 msgstr ""
+"Un paquet de l'agent FusionInventory est disponible dans différentes versions "
+"de distributions Linux. Toutefois, en fonction de diverses contraintes ( mainteneurs "
+"disponibles, gel de la distribution, etc...), ils ne sont pas toujours à jour."
 
 #. type: Plain text
 msgid ""
 "Installation from source, though, ensures to have the latest release, and is "
 "quite easy to achieve through a CPAN client."
 msgstr ""
+"Cependant, l'installation à partir des sources, vous assure d'avoir la dernière "
+"version, et cela est facile à faire avec un client CPAN."
 
 #. type: Bullet: '* '
 msgid "[[Debian and Ubuntu|documentation/agent/installation/linux/deb]]"
 msgstr "[[Debian et Ubuntu (.deb)|documentation/agent/installation/linux/deb]]"
 
 #. type: Bullet: '* '
-#, fuzzy
-#| msgid "[[Debian and Ubuntu|documentation/agent/installation/linux/deb]]"
 msgid "[[RHEL and Centos|documentation/agent/installation/linux/rhel]]"
-msgstr "[[Debian et Ubuntu (.deb)|documentation/agent/installation/linux/deb]]"
+msgstr "[[RHEL et Centos|documentation/agent/installation/linux/rhel]]"
 
 #. type: Bullet: '* '
-#, fuzzy
-#| msgid "[[Source|documentation/agent/installation/source]]"
 msgid "[[Fedora|documentation/agent/installation/linux/fedora]]"
-msgstr "[[Source|documentation/agent/installation/source]]"
+msgstr "[[Fedora|documentation/agent/installation/linux/fedora]]"
 
 #. type: Bullet: '* '
-#, fuzzy
-#| msgid "[[Debian and Ubuntu|documentation/agent/installation/linux/deb]]"
 msgid "[[Mageia and Mandriva|documentation/agent/installation/linux/mageia]]"
-msgstr "[[Debian et Ubuntu (.deb)|documentation/agent/installation/linux/deb]]"
+msgstr "[[Mageia et Mandriva|documentation/agent/installation/linux/mageia]]"
 
 #. type: Bullet: '* '
 msgid "[[Source|documentation/agent/installation/source]]"

@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2013-01-08 09:28+0000\n"
+"POT-Creation-Date: 2013-02-01 14:24+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -28,28 +28,29 @@ msgstr ""
 
 #. type: Plain text
 msgid ""
-"You can download the last official release from [the "
-"forge](http://forge.fusioninventory.org/projects/fusioninventory-agent/files)  "
-"or directly from [the "
-"CPAN](https://metacpan.org/release/FusionInventory-Agent)."
+"Podés descargar el último release oficial desde [the forge](http://forge."
+"fusioninventory.org/projects/fusioninventory-agent/files)  o directamente "
+"desde [the CPAN](https://metacpan.org/release/FusionInventory-Agent)."
 msgstr ""
 
 #. type: Plain text
 msgid ""
-"Tarball with a **rc** or **beta** version suffix are developpement release "
-"not ready for production."
+"Tarballs con sufijos de versión **rc** o **beta** son versiones de "
+"desarrollo y no están listas para ambientes de producción."
 msgstr ""
 
 #. type: Plain text
-msgid "It's also possible to get snapshot from Github:"
+msgid "También es posible obtener un snapshot desde Github:"
 msgstr ""
 
 #. type: Bullet: '* '
-msgid "[Agent 2.2.x](https://github.com/fusinv/fusioninventory-agent/tarball/2.2.x)"
+msgid ""
+"[Agent 2.2.x](https://github.com/fusinv/fusioninventory-agent/tarball/2.2.x)"
 msgstr ""
 
 #. type: Bullet: '* '
-msgid "[Agent 2.3.x](https://github.com/fusinv/fusioninventory-agent/tarball/2.3.x)"
+msgid ""
+"[Agent 2.3.x](https://github.com/fusinv/fusioninventory-agent/tarball/2.3.x)"
 msgstr ""
 
 #. type: Title ##
@@ -89,8 +90,8 @@ msgstr ""
 #. type: Plain text
 msgid ""
 "At this point, you will probably have some missing required modules. The "
-"best tool to resolve the situation is "
-"[cpanm](https://raw.github.com/miyagawa/cpanminus/master/cpanm). Just run:"
+"best tool to resolve the situation is [cpanm](https://raw.github.com/"
+"miyagawa/cpanminus/master/cpanm). Just run:"
 msgstr ""
 
 #. type: Plain text
@@ -100,14 +101,14 @@ msgstr ""
 
 #. type: Plain text
 msgid ""
-"You can use the _--notest_ flag if you are brave and want to skip the "
-"test-suite execution."
+"You can use the _--notest_ flag if you are brave and want to skip the test-"
+"suite execution."
 msgstr ""
 
 #. type: Plain text
 msgid ""
-"You may also need to install some [[system specific "
-"dependencies|documentation/agent/system_dep]]."
+"You may also need to install some [[system specific dependencies|"
+"documentation/agent/system_dep]]."
 msgstr ""
 
 #. type: Plain text
@@ -121,8 +122,8 @@ msgstr ""
 
 #. type: Plain text
 msgid ""
-"This time the execution should success and you can finish the "
-"installation. Here again we recommand GNU make (gmake):"
+"This time the execution should success and you can finish the installation. "
+"Here again we recommand GNU make (gmake):"
 msgstr ""
 
 #. type: Plain text
@@ -217,9 +218,9 @@ msgstr ""
 
 #. type: Plain text
 msgid ""
-"SSL communication are based on "
-"[IO::Socket::SSL](https://metacpan.org/module/IO::Socket::SSL). You build it "
-"you will need openssl header files and a C compiler."
+"SSL communication are based on [IO::Socket::SSL](https://metacpan.org/module/"
+"IO::Socket::SSL). You build it you will need openssl header files and a C "
+"compiler."
 msgstr ""
 
 #. type: Plain text
