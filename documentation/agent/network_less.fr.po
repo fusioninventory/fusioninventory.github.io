@@ -18,7 +18,7 @@ msgstr ""
 
 #. type: Title #
 #, no-wrap
-msgid "FusionInvententory without network connection"
+msgid "FusionInventory without network connection"
 msgstr "FusionInventory sans connexion réseau"
 
 #. type: Plain text
