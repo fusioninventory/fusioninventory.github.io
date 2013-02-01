@@ -19,7 +19,7 @@ msgstr ""
 #. type: Title #
 #, no-wrap
 msgid "A way to deal with inventories in DMZ"
-msgstr "Une façon de traiter avec les inventaires dans DMZ"
+msgstr "Une façon de traiter avec les inventaires dans des DMZ"
 
 #. type: Title ##
 #, no-wrap
