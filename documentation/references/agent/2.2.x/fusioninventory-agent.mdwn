@@ -171,7 +171,7 @@ In general, OCS Inventory server URL have this format:
 
 and FusionInventory for GLPI this one:
 
-    http://servername/glpi/plugins/fusioninventory/front/plugin_fusioninventory.communication.php
+    http://servername/glpi/plugins/fusioninventory
 
 Multiple values can be specified, using comma as a separator.
 
