@@ -46,7 +46,7 @@ msgstr "Puis vous pouvez configurer les agents dans les machines DMZ de cette ma
 #. type: Plain text
 #, no-wrap
 msgid "    fusioninventory-agent --server=http://server/collect.php\n"
-msgstr ""
+msgstr "    fusioninventory-agent --server=http://server/collect.php\n"
 
 #. type: Plain text
 msgid ""
@@ -65,7 +65,7 @@ msgstr "Les fichiers d'inventaires seront générés dans /tmp. par défaut, vou
 #. type: Plain text
 #, no-wrap
 msgid "    $dumpDir = '/tmp';\n"
-msgstr ""
+msgstr "    $dumpDir = '/tmp';\n"
 
 #. type: Title ##
 #, no-wrap
