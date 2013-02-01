@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2013-01-28 13:17+0000\n"
+"POT-Creation-Date: 2013-02-01 15:59+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -51,12 +51,9 @@ msgstr ""
 #, no-wrap
 msgid ""
 "    Target scheduling options\n"
-"      --delaytime=DURATION        maximum initial delay before first target, "
-"in seconds (3600)\n"
-"      -w --wait=DURATION          maximum delay between each target, in "
-"seconds\n"
-"      --lazy                      do not contact the target before next "
-"scheduled time\n"
+"      --delaytime=DURATION        maximum initial delay before first target, in seconds (3600)\n"
+"      -w --wait=DURATION          maximum delay between each target, in seconds\n"
+"      --lazy                      do not contact the target before next scheduled time\n"
 msgstr ""
 
 #. type: Plain text
@@ -76,8 +73,7 @@ msgid ""
 "      --html              save the inventory as HTML (false)\n"
 "      -f --force          always send data to server (false)\n"
 "      -t --tag=TAG        mark the machine with given tag\n"
-"      --backend-collect-timeout   timeout for inventory modules execution "
-"(30)\n"
+"      --backend-collect-timeout   timeout for inventory modules execution (30)\n"
 "      --additional-content=FILE   additional inventory content\n"
 msgstr ""
 
@@ -85,8 +81,7 @@ msgstr ""
 #, no-wrap
 msgid ""
 "    Package deployment task specific options\n"
-"      --no-p2p            do not use peer to peer to download files "
-"(false)\n"
+"      --no-p2p            do not use peer to peer to download files (false)\n"
 msgstr ""
 
 #. type: Plain text
@@ -109,16 +104,14 @@ msgid ""
 "      --no-httpd                 disable embedded web server (false)\n"
 "      --httpd-ip=IP              network interface to listen to\n"
 "      --httpd-port=PORT          network port to listen to (62354)\n"
-"      --httpd-trust=RANGE        trust requests from range without "
-"authentication token (false)\n"
+"      --httpd-trust=RANGE        trust requests from range without authentication token (false)\n"
 msgstr ""
 
 #. type: Plain text
 #, no-wrap
 msgid ""
 "    Logging options\n"
-"      --logger=BACKEND            logger backend [Stderr|File|Syslog] "
-"(Stderr)\n"
+"      --logger=BACKEND            logger backend [Stderr|File|Syslog] (Stderr)\n"
 "      --logfile=FILE              log file\n"
 "      --logfile-maxsize=X         maximum size of the log file in MB (0)\n"
 "      --logfacility=FACILITY      syslog facility (LOG_USER)\n"
@@ -129,8 +122,7 @@ msgstr ""
 #, no-wrap
 msgid ""
 "    Configuration options\n"
-"      --config=BACKEND            configuration backend "
-"[file|registry|none]\n"
+"      --config=BACKEND            configuration backend [file|registry|none]\n"
 "      --conf-file=FILE            configuration file\n"
 msgstr ""
 
@@ -160,8 +152,7 @@ msgstr ""
 #, no-wrap
 msgid ""
 "    % fusioninventory-agent --server http://localhost/ocsinventory2\n"
-"    # execute all available tasks required by a local server, using a "
-"specific\n"
+"    # execute all available tasks required by a local server, using a specific\n"
 "    # URI\n"
 msgstr ""
 
@@ -169,16 +160,14 @@ msgstr ""
 #, no-wrap
 msgid ""
 "    % fusioninventory-agent --server https://localhost/ocsinventory\n"
-"    # execute all available tasks required by a local server, using a "
-"secure\n"
+"    # execute all available tasks required by a local server, using a secure\n"
 "    # connection\n"
 msgstr ""
 
 #. type: Plain text
 #, no-wrap
 msgid ""
-"    % fusioninventory-agent --server localhost --user test --password "
-"s3cr3t\n"
+"    % fusioninventory-agent --server localhost --user test --password s3cr3t\n"
 "    # execute all available tasks required by a local server, using HTTP\n"
 "    # authentication\n"
 msgstr ""
@@ -194,8 +183,7 @@ msgstr ""
 #, no-wrap
 msgid ""
 "    % fusioninventory-agent --local /tmp --html\n"
-"    # execute all available tasks and write the result in /tmp directory "
-"in\n"
+"    # execute all available tasks and write the result in /tmp directory in\n"
 "    # HTML format\n"
 msgstr ""
 
@@ -210,8 +198,8 @@ msgid ""
 "FusionInventory for GLPI servers. It creates local inventory of the machines "
 "(hardware and software) and send it to the server. It can also write it in a "
 "local XML file.  This agent is the successor of the former linux\\_agent "
-"which was released with OCS 1.01 and prior. It also replaces the "
-"Solaris/AIX/BSD unofficial agents."
+"which was released with OCS 1.01 and prior. It also replaces the Solaris/AIX/"
+"BSD unofficial agents."
 msgstr ""
 
 #. type: Plain text
@@ -344,13 +332,10 @@ msgstr ""
 
 #. type: Plain text
 #, no-wrap
-msgid ""
-"    "
-"http://servername/glpi/plugins/fusioninventory/front/plugin_fusioninventory.communication.php\n"
+msgid "    http://servername/glpi/plugins/fusioninventory\n"
 msgstr ""
 
 #. type: Plain text
-#:  
 msgid "Multiple values can be specified, using comma as a separator."
 msgstr ""
 
@@ -477,7 +462,8 @@ msgid "- __\\-f__, __\\--force__"
 msgstr ""
 
 #. type: Plain text
-msgid "Send an inventory to the server, even if this last one doesn't ask for it."
+msgid ""
+"Send an inventory to the server, even if this last one doesn't ask for it."
 msgstr ""
 
 #. type: Plain text
@@ -614,9 +600,8 @@ msgstr ""
 #. type: Plain text
 msgid ""
 "For example: \"192.168.0.0/24\", \"192.68.168.0.5\" or an IP range like "
-"\"20.34.101.207 - 201.3.9.99\". See "
-"[Net::IP](http://search.cpan.org/perldoc?Net::IP) documentation to get more "
-"example."
+"\"20.34.101.207 - 201.3.9.99\". See [Net::IP](http://search.cpan.org/perldoc?"
+"Net::IP) documentation to get more example."
 msgstr ""
 
 #. type: Title ##
@@ -703,10 +688,8 @@ msgstr ""
 #. type: Plain text
 #, no-wrap
 msgid ""
-"            - file: read configuration from a file (default anywhere else as "
-"Windows)\n"
-"        - registry: read configuration from the registry (default on "
-"Windows)\n"
+"            - file: read configuration from a file (default anywhere else as Windows)\n"
+"        - registry: read configuration from the registry (default on Windows)\n"
 "    - none: don't read any configuration\n"
 msgstr ""
 
@@ -768,16 +751,16 @@ msgstr ""
 msgid ""
 "The agent is able to use multiple configuration backends. The registry "
 "backend is the default on Windows platform, and the file backend is the "
-"default everywhere else. Another backend can be specified using the "
-"__\\--config__ option."
+"default everywhere else. Another backend can be specified using the __\\--"
+"config__ option."
 msgstr ""
 
 #. type: Plain text
 msgid ""
 "The _file_ backend reads configuration directives from a configuration file, "
-"whose default location is determined at installation time as "
-"PREFIX/etc/agent.cfg. An alternative location can also be given with "
-"__\\--conf-file__ option."
+"whose default location is determined at installation time as PREFIX/etc/"
+"agent.cfg. An alternative location can also be given with __\\--conf-file__ "
+"option."
 msgstr ""
 
 #. type: Plain text
@@ -789,9 +772,8 @@ msgstr ""
 #. type: Plain text
 msgid ""
 "- `HKEY\\_LOCAL\\_MACHINE\\\\SOFTWARE\\\\FusionInventory-Agent` for 32 bits "
-"machines - "
-"`HKEY\\_LOCAL\\_MACHINE\\\\SOFTWARE\\\\Wow6432Node\\\\FusionInventory-Agent` "
-"for 64 bits machines"
+"machines - `HKEY\\_LOCAL\\_MACHINE\\\\SOFTWARE\\\\Wow6432Node\\"
+"\\FusionInventory-Agent` for 64 bits machines"
 msgstr ""
 
 #. type: Plain text

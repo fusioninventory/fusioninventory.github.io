@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2013-01-31 21:44+0000\n"
+"POT-Creation-Date: 2013-02-01 16:00+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -29,15 +29,14 @@ msgstr ""
 #. type: Plain text
 msgid ""
 "An up-to-date *fusioninventory-agent* package is maintained by "
-"FusionInventory team. You can retrieve it from [openSUSE Build "
-"Service](https://build.opensuse.org/project/show?project=home%3Aguillomovitch)."
+"FusionInventory team. You can retrieve it from [openSUSE Build Service]"
+"(https://build.opensuse.org/project/show?project=home%3Aguillomovitch)."
 msgstr ""
 
 #. type: Plain text
 msgid ""
-"Beware, you'all also need the *EPEL* repository is required for perl "
-"dependencies. See [EPEL wiki](https://fedoraproject.org/wiki/EPEL) for "
-"details."
+"Beware, you'all also need the *EPEL* repository. See [EPEL wiki](https://"
+"fedoraproject.org/wiki/EPEL) for details."
 msgstr ""
 
 #. type: Title ##
@@ -47,15 +46,13 @@ msgstr ""
 
 #. type: Plain text
 #, no-wrap
-msgid ""
-"An old *fusioninventory-agent* package is available in the *remi* third "
-"party repository for EL >= 4\n"
+msgid "An old *fusioninventory-agent* package is available in the *remi* third party repository for EL >= 4\n"
 msgstr ""
 
 #. type: Plain text
 msgid ""
-"See [Remi repository "
-"configuration](http://blog.famillecollet.com/pages/Config-en) for details."
+"See [Remi repository configuration](http://blog.famillecollet.com/pages/"
+"Config-en) for details."
 msgstr ""
 
 #. type: Title ##
