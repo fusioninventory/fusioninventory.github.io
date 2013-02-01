@@ -31,11 +31,9 @@ msgid ""
 "Podés descargar el último release oficial desde [the forge](http://forge."
 "fusioninventory.org/projects/fusioninventory-agent/files)  o directamente "
 "desde [the CPAN](https://metacpan.org/release/FusionInventory-Agent)."
-msgstr ""
-"Vous pouvez télécharger la dernière version officielle stable par [the "
+msgstr "Vous pouvez télécharger la dernière version officielle stable par [the "
 "forge](http://forge.fusioninventory.org/projects/fusioninventory-agent/files)  "
-"ou directement par [the "
-"CPAN](https://metacpan.org/release/FusionInventory-Agent)."
+"ou directement par [the CPAN](https://metacpan.org/release/FusionInventory-Agent)."
 
 #. type: Plain text
 msgid ""
