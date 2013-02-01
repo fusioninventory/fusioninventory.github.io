@@ -24,7 +24,7 @@ msgstr "FusionInventory sans connexion réseau"
 
 #. type: Plain text
 msgid "The agent is able to create an file with the inventory:"
-msgstr "L'agent est capable de créer un fichier d'inventaire:"
+msgstr "L'agent est capable de créer un fichier avec l'inventaire:"
 
 #. type: Plain text
 #, no-wrap
@@ -44,8 +44,8 @@ msgid ""
 "You can get the full documentation of the agent in the [[reference page|"
 "documentation/references]]."
 msgstr ""
-"Vous pouvez trouver la documentation complète de l'agent sur la page "
-"[[reference |documentation/references]]."
+"Vous pouvez trouver la documentation complète de l'agent sur la [[reference de référence|"
+"documentation/references]]."
 
 #. type: Title #
 #, no-wrap
@@ -55,13 +55,12 @@ msgstr "Intégrer mes inventaires sur le serveur"
 #. type: Title ##
 #, no-wrap
 msgid "Through FusionInventory for GLPI Interface"
-msgstr "Via l'interface FusionInventory for GLPI"
+msgstr "Via l'interface FusionInventory pou GLPI"
 
 #. type: Plain text
 #, fuzzy, no-wrap
-#| msgid "Go in *Plugins > FusionInventory > INVENTORY > Import agent XML* Menu and upload the XML.\n"
-msgid "Go in *Plugins > FusionInventory > Import agent XML* Menu and upload the XML.\n"
-msgstr "Aller dans *Plugins > FusionInventory > INVENTORY > Importer un fichier XML de l'agent XML* et téléverser le fichier XML.\n"
+msgid "Go in *Plugins > FusionInventory > INVENTORY > Import agent XML* Menu and upload the XML.\n"
+msgstr "Aller dans *Plugins > FusionInventory > INVENTORY > Importer un fichier XML* de l'agent et uploader le fichier XML.\n"
 
 #. type: Title ##
 #, no-wrap
@@ -91,7 +90,7 @@ msgid ""
 "You can also use curl to push an inventory. This can be useful for example "
 "if your perl installation has no SSL support and so you can not use the "
 "fusioninventory-injector command with a HTTPS only server:"
-msgstr ""
+msgstr 
 "Vous pouvez aussi utiliser curl pour injecter un inventaire. Cela peut vous "
 "être utile par exemple si votre installation de Perl n'a pas le support de "
 "SSL et que vous ne pouvez utiliser fusioninventory-injector avec un serveur "
@@ -104,7 +103,7 @@ msgstr "    curl --header \"Content-Type: Application/x-compress\" --cacert your
 
 #. type: Plain text
 msgid "With no SSL check and no authentification :"
-msgstr "Sans vérification SSLet sans authentification:"
+msgstr "Sans vérification SSL et sans authentification:"
 
 #. type: Plain text
 #, no-wrap
