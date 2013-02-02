@@ -751,7 +751,7 @@ msgstr "- __\\--logfile__=_FILE_"
 
 #. type: Plain text
 msgid "Log message in _FILE_ (implies File logger backend)"
-msgstr "Log message in _FILE_ (implique un enregistreur de fichier backend)"
+msgstr "Enregistrer un message dans _FILE_ (implique un enregistreur de fichier backend)"
 
 #. type: Plain text
 msgid "- __\\--logfile-maxsize__=_FILE_"
