@@ -22,11 +22,13 @@ msgid ""
 "[[!template  id=warning text=\"The 2.3.x serie is still in "
 "developpement.\"]]\n"
 msgstr ""
+"[[!template  id=warning text=\"La version 3.0.x est toujours en "
+"développement.\"]]\n"
 
 #. type: Title #
 #, no-wrap
 msgid "NAME"
-msgstr ""
+msgstr "NOM"
 
 #. type: Plain text
 msgid ""
