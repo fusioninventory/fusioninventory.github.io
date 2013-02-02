@@ -19,21 +19,21 @@ msgstr ""
 #. type: Title #
 #, no-wrap
 msgid "NAME"
-msgstr ""
+msgstr "NOM"
 
 #. type: Plain text
 msgid "fusioninventory-netdiscovery - Standalone network discovery"
-msgstr ""
+msgstr "fusioninventory-netdiscovery - Découverte du réseau autonome"
 
 #. type: Title #
 #, no-wrap
 msgid "SYNOPSIS"
-msgstr ""
+msgstr "SYNOPSIS"
 
 #. type: Plain text
 #, no-wrap
 msgid "fusioninventory-netdiscovery \\[options\\] --first <start> --last <stop>\n"
-msgstr ""
+msgstr "fusioninventory-netdiscovery \\[options\\] --first <start> --last <stop>\n"
 
 #. type: Plain text
 #, no-wrap
@@ -50,14 +50,26 @@ msgid ""
 "      -h --help       print this message and exit\n"
 "      --version       print the task version and exit\n"
 msgstr ""
-
+"    Options:\n"
+"      --first address Premier rang d'adresse IP\n"
+"      --last address  Dernier rang d'adresse IP\n"
+"      --dictionnary   Dictionnaire de fichiers\n"
+"      --community     Chaîne de communauté (defaut: public)\n"
+"      --entity        GLPI entitée\n"
+"      --threads nb    nombre de discussions découvertes (defaut: 1)\n"
+"      --verbose       verbose sortie (messages de controle)\n"
+"      --debug         debug sortie (traces d'execution)\n"
+"      -h --help       imprimer ce message et sortez\n"
+"      --version       imprimer la version de travail et sortez\n"
 #. type: Title #
 #, no-wrap
 msgid "DESCRIPTION"
-msgstr ""
+msgstr "DESCRIPTION"
 
 #. type: Plain text
 msgid ""
 "`fusioninventory-netdiscovery` allows to run a network discovery task "
 "without a GLPI server."
 msgstr ""
+"`fusioninventory-netdiscovery` permet d'exécuter une tâche de découverte de réseau "
+"sans serveur GLPI."
