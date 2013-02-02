@@ -199,7 +199,7 @@ msgid ""
 "    % fusioninventory-agent --server localhost\n"
 "    # execute all available tasks required by a local server\n"
 msgstr ""
-"     fusioninventory-agent --server localhost\n"
+"     #fusioninventory-agent --server localhost\n"
 "     Exécute toutes les tâches valides requis par le serveur local\n"
 
 #. type: Plain text
@@ -209,7 +209,7 @@ msgid ""
 "    # execute all available tasks required by a local server, using a specific\n"
 "    # URI\n"
 msgstr ""
-"     fusioninventory-agent --server http://localhost/ocsinventory2\n"
+"     #fusioninventory-agent --server http://localhost/ocsinventory2\n"
 "     Exécute toutes les tâches valides requis par le serveur en utilisant\n"
 "     l'URI spécifiée\n"
 
@@ -220,7 +220,7 @@ msgid ""
 "    # execute all available tasks required by a local server, using a secure\n"
 "    # connection\n"
 msgstr ""
-"     fusioninventory-agent --server https://localhost/ocsinventory\n"
+"     #fusioninventory-agent --server https://localhost/ocsinventory\n"
 "     Exécute toutes les tâches valides requis par le serveur en utilisant une\n"
 "     connexion sécurisée\n"
 
@@ -231,7 +231,7 @@ msgid ""
 "    # execute all available tasks required by a local server, using HTTP\n"
 "    # authentication\n"
 msgstr ""
-"     fusioninventory-agent --server localhost --user test --password s3cr3t\n"
+"     #fusioninventory-agent --server localhost --user test --password s3cr3t\n"
 "     Exécute toutes les tâches valides requis par le serveur local,  en utilisant une authentification HTTP\n"
 
 #. type: Plain text
@@ -240,8 +240,8 @@ msgid ""
 "    % fusioninventory-agent --local /tmp\n"
 "    # execute all available tasks and write the result in /tmp directory\n"
 msgstr ""
-"    % fusioninventory-agent --local /tmp\n"
-"    # Exécute toutes les tâches valides et écrire le résultat dans un dossier temporaire (tmp)\n"
+"    #fusioninventory-agent --local /tmp\n"
+"    Exécute toutes les tâches valides et écrire le résultat dans un dossier temporaire (tmp)\n"
 
 #. type: Plain text
 #, no-wrap
@@ -250,8 +250,8 @@ msgid ""
 "    # execute all available tasks and write the result in /tmp directory in\n"
 "    # HTML format\n"
 msgstr ""
-"    % fusioninventory-agent --local /tmp --html\n"
-"    # Exécute toutes les tâches valides et écrire le résultat dans un dossier  temporaire (tmp) dans un format HTML\n"
+"    #fusioninventory-agent --local /tmp --html\n"
+"    Exécute toutes les tâches valides et écrire le résultat dans un dossier  temporaire (tmp) dans un format HTML\n"
 
 #. type: Title #
 #, no-wrap
@@ -428,12 +428,11 @@ msgstr "et *FusionInventory for GLPI* celui-ci:"
 #, fuzzy, no-wrap
 #| msgid "    http://servername/ocsinventory\n"
 msgid "    http://servername/glpi/plugins/fusioninventory\n"
-msgstr "    http://servername/ocsinventory\n"
+msgstr "    http://servername/glpi/plugins/fusioninventory\n"
 
 #. type: Plain text
 msgid "Multiple values can be specified, using comma as a separator."
-msgstr ""
-"Plusieurs valeurs peuvent être spécifiées en utilisant une virgule comme "
+msgstr "Plusieurs valeurs peuvent être spécifiées en utilisant une virgule comme "
 "séparateur."
 
 #. type: Plain text
@@ -495,8 +494,7 @@ msgstr "Ne pas contacter le serveur avant la prochaine heure prévue."
 
 #. type: Plain text
 msgid "This option is only available when the agent is not run as a server."
-msgstr ""
-"Cette option est seulement disponible quand l'agent ne fonctionne pas en "
+msgstr "Cette option est seulement disponible quand l'agent ne fonctionne pas en "
 "mode serveur."
 
 #. type: Title ##
@@ -531,8 +529,7 @@ msgstr "- __\\--no-category__=_CATEGORY_"
 
 #. type: Plain text
 msgid "Do not list given category items in inventory. It can be:"
-msgstr ""
-"Ne pas lister les catégories données dans l'inventaire. Cela peut être :"
+msgstr "Ne pas lister les catégories données dans l'inventaire. Cela peut être :"
 
 #. type: Plain text
 #, no-wrap
@@ -553,8 +550,7 @@ msgstr "- __\\--scan-homedirs__"
 
 #. type: Plain text
 msgid "Allow the agent to scan home directories for virtual machines."
-msgstr ""
-"Autoriser l'agent à rechercher dans les dossiers personnels les machines "
+msgstr "Autoriser l'agent à rechercher dans les dossiers personnels les machines "
 "virtuelles."
 
 #. type: Plain text
@@ -576,7 +572,8 @@ msgstr "- __\\-f__, __\\--force__"
 #. type: Plain text
 msgid ""
 "Send an inventory to the server, even if this last one doesn't ask for it."
-msgstr "Envoyer un inventaire au serveur, même s'il ne le demande pas."
+msgstr ""
+"Envoyer un inventaire au serveur, même s'il ne le demande pas."
 
 #. type: Plain text
 msgid "- __\\--tag__=_TAG_"
