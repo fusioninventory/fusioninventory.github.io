@@ -22,22 +22,26 @@ msgid ""
 "[[!template  id=warning text=\"The 3.0.x serie is still in "
 "developpement.\"]]\n"
 msgstr ""
+"[[!template  id=warning text=\"La version 3.0.x est toujours en "
+"développement.\"]]\n"
 
 #. type: Title #
 #, no-wrap
 msgid "NAME"
-msgstr ""
+msgstr "NOM"
 
 #. type: Plain text
 msgid ""
 "fusioninventory-injector - A tool to push inventory in an OCS Inventory or "
 "compatible server."
 msgstr ""
+"FusionInventory-injector - Un outil pour mettre l'inventaire dans OCS Inventory ou "
+"un serveur compatible."
 
 #. type: Title #
 #, no-wrap
 msgid "SYNOPSIS"
-msgstr ""
+msgstr "SYNOPSIS"
 
 #. type: Plain text
 #, no-wrap
@@ -45,7 +49,8 @@ msgid ""
 "fusioninventory-injector \\[options\\] \\[--file <file>|--directory "
 "<directory>|--stdin\\]\n"
 msgstr ""
-
+"fusioninventory-injector \\[options\\] \\[--file <file>|--directory "
+"<directory>|--stdin\\]\n"
 #. type: Plain text
 #, no-wrap
 msgid ""
@@ -58,6 +63,14 @@ msgid ""
 "      -v --verbose   verbose mode\n"
 "      --stdin        read data from STDIN\n"
 msgstr ""
+"    Options:\n"
+"      -h --help      ce menu\n"
+"      -d --directory charge tous les fichiers.ocs à partir d'un répertoire\n"
+"      -f --file      charge un fichier spécifique\n"
+"      -u --url       serveur URL\n"
+"      -r --remove    retire avec succès les fichiers injectés\n"
+"      -v --verbose   verbose mode\n"
+"      --stdin        lire les données de STDIN\n"
 
 #. type: Plain text
 #, no-wrap
@@ -66,14 +79,19 @@ msgid ""
 "      fusioninventory-injector -v -f /tmp/toto-2010-09-10-11-42-22.ocs --url "
 "https://login:pw@server/ocsinventory\n"
 msgstr ""
+"    Exemples:\n"
+"      fusioninventory-injector -v -f /tmp/toto-2010-09-10-11-42-22.ocs --url "
+"https://login:pw@server/ocsinventory\n"
 
 #. type: Title #
 #, no-wrap
 msgid "DESCRIPTION"
-msgstr ""
+msgstr "DESCRIPTION"
 
 #. type: Plain text
 msgid ""
 "This tool can be used to test your server, do benchmark or push inventory "
 "from off-line machine."
 msgstr ""
+"Cet outil peut être utilisé pour tester votre serveur, faire du benchmark ou imposer l'inventaire"
+"à partir d'une machine hors ligne."
