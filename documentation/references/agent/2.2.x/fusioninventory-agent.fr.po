@@ -19,7 +19,7 @@ msgstr ""
 #. type: Title #
 #, no-wrap
 msgid "NAME"
-msgstr "Nom"
+msgstr "NOM"
 
 #. type: Plain text
 msgid ""
@@ -128,7 +128,7 @@ msgstr ""
 "      --ca-cert-dir=D     Chemin du dossier du certificat CA-cert\n"
 "      --ca-cert-file=F    Chemin du fichier CA-cert\n"
 "      --no-ssl-check      Ne pas vérifier le certificat SSL du serveur(false)\n"
-"      --timeout           Délai maxi de connexion (180)\n"
+"      --timeout           Délai maximum de connexion (180)\n"
 
 #. type: Plain text
 #, no-wrap
@@ -701,15 +701,15 @@ msgstr "- __\\--httpd-port__=_PORT_"
 
 #. type: Plain text
 msgid "The network port to use for the embedded web server (62354)."
-msgstr ""
+msgstr "Le port réseau à utiliser pour le serveur Web intégré (62354)"
 
 #. type: Plain text
 msgid "- __\\--httpd-trust__=_RANGE_"
-msgstr ""
+msgstr "- __\\--httpd-trust__=_RANGE_"
 
 #. type: Plain text
 msgid "Trust requests from given range without authentication token (false)."
-msgstr ""
+msgstr "Accepte les requêtes de plage donnée sans d'authentification (faux)"
 
 #. type: Plain text
 msgid ""
@@ -717,19 +717,22 @@ msgid ""
 "\"20.34.101.207 - 201.3.9.99\". See [Net::IP](http://search.cpan.org/perldoc?"
 "Net::IP) documentation to get more example."
 msgstr ""
+"Par exemple: \"192.168.0.0/24\", \"192.68.168.0.5\" ou une plage d'IP comme "
+"\"20.34.101.207 - 201.3.9.99\". Voir [Net::IP](http://search.cpan.org/perldoc?"
+"Net::IP) la documentation pour avoir plus d'exemples."
 
 #. type: Title ##
 #, no-wrap
 msgid "Logging options"
-msgstr ""
+msgstr "Options d'enregistrement"
 
 #. type: Plain text
 msgid "- __\\--logger__=_BACKEND_"
-msgstr ""
+msgstr "- __\\--Enregitreur__=_BACKEND_"
 
 #. type: Plain text
 msgid "Logger backend to use. It can be:"
-msgstr ""
+msgstr "Enregistreur backend à utiliser. Ça peut être:"
 
 #. type: Plain text
 #, no-wrap
@@ -738,18 +741,21 @@ msgid ""
 "        - File: log messages in a file.\n"
 "    - Syslog: log messages through the local syslog server\n"
 msgstr ""
+"            - Stderr: enregistrer les messages directement dans la console.\n"
+"        - File: enregistrer les messages dans un fichier.\n"
+"    - Syslog: enregistrer les messages via le serveur syslog local\n"
 
 #. type: Plain text
 msgid "- __\\--logfile__=_FILE_"
-msgstr ""
+msgstr "- __\\--logfile__=_FILE_"
 
 #. type: Plain text
 msgid "Log message in _FILE_ (implies File logger backend)"
-msgstr ""
+msgstr "Log message in _FILE_ (implique un enregistreur de fichier backend)"
 
 #. type: Plain text
 msgid "- __\\--logfile-maxsize__=_FILE_"
-msgstr ""
+msgstr "- __\\--logfile-maxsize__=_FILE_"
 
 #. type: Plain text
 msgid ""
