@@ -58,6 +58,17 @@ msgid ""
 "      -h --help                      print this message and exit\n"
 "      --version                      print the task version and exit\n"
 msgstr ""
+"    Options:\n"
+"      --scan-homedirs                analyser l'utilisation répertoires (faux)\n"
+"      --html                         enregistrer l'inventaire au format HTML (faux)\n"
+"      -t --tag=TAG                   Marque la machine avec l'étiquette donnée\n"
+"      --backend-collect-timeout=TIME temps d'attente pour les modules d'inventaire\n"
+"                                       exécution (30)\n"
+"      --additional-content=FILE      fichier de contenu d'inventaire supplémentaire\n"
+"      --verbose                      verbose sortie (messages de contrôles)\n"
+"      --debug                        debug sortie (traces d'execution)\n"
+"      -h --help                      imprimez ce message et sortez\n"
+"      --version                      imprimez la version de travail et sortez\n"
 
 #. type: Title #
 #, no-wrap
