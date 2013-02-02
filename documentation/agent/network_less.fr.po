@@ -60,7 +60,7 @@ msgstr "Via l'interface FusionInventory pou GLPI"
 msgid ""
 "Go in *Plugins > FusionInventory > Import agent XML* Menu and upload the XML."
 msgstr ""
-"Aller dans *Plugins > FusionInventory > Importer l'agent XML * Menu et uploader le fichier XML."
+"Aller dans *Plugins > FusionInventory > Import agent XML* Menu et uploader le fichier XML."
 
 #. type: Title ##
 #, no-wrap
