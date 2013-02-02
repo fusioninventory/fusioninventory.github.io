@@ -22,6 +22,8 @@ msgid ""
 "[[!template  id=warning text=\"The 3.0.x serie is still in "
 "developpement.\"]]\n"
 msgstr ""
+"[[!template  id=warning text=\"La version 3.0.x est toujours en "
+"développement.\"]]\n"
 
 #. type: Title #
 #, no-wrap
