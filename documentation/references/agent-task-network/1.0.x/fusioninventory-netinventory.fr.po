@@ -63,8 +63,8 @@ msgstr ""
 "      --entity       GLPI entité\n"
 "      --verbose      verbose sortie (messages de controle)\n"
 "      --debug        debug sortie (traces d'execution)\n"
-"      -h --help      imprimer ce message et sortez\n"
-"      --version      imprimer la version de travail et sortez\n"
+"      -h --help      imprimer ce message et quittez\n"
+"      --version      imprimer la version de travail et quittez\n"
 
 #. type: Title #
 #, no-wrap
