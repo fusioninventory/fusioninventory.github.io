@@ -80,3 +80,4 @@ msgid ""
 "from off-line machine."
 msgstr ""
 "Cet outil peut être utilisé pour tester votre serveur, faire du benchmark ou imposer l'inventaire à partir d'une machine hors ligne."
+
