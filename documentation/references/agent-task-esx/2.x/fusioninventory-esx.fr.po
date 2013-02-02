@@ -95,7 +95,7 @@ msgid ""
 "`fusioninventory-esx` creates inventory of remote ESX/ESXi and vCenter "
 "VMware.  It uses the SOAP interface of the remote server."
 msgstr ""
-"`fusioninventory-esx` créé des inventaires à distance ESX/ESXi et vCenter "
+"`fusioninventory-esx` cré des inventaires à distance ESX/ESXi et vCenter "
 "VMware.  Il utilise l'interface SOAP du serveur distant."
 
 #. type: Plain text
