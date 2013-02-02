@@ -880,6 +880,10 @@ msgid ""
 "default everywhere else. Another backend can be specified using the __\\--"
 "config__ option."
 msgstr ""
+"L'agent est capable d'utiliser plusieurs configurations backends. Le registre de "
+"backend est par défaut sur les plate-formes Windows et le fichier backend est par "
+"défaut partout ailleurs. Un autre backend peut être spécifié en utilisant __\\--"
+"config__ option."
 
 #. type: Plain text
 msgid ""
@@ -888,6 +892,9 @@ msgid ""
 "agent.cfg. An alternative location can also be given with __\\--conf-file__ "
 "option."
 msgstr ""
+"Le fichier de backend lit les directives de configuration à partir d'un fichier de configuration, "
+"dont l' emplacement par défaut est déterminé au moment de l'installation comme PREFIX/etc/"
+"agent.cfg. Une alternative à l'emplacement peut aussi être donnée avec l'option __\\--conf-file__ ."
 
 #. type: Plain text
 msgid ""
