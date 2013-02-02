@@ -22,24 +22,26 @@ msgid ""
 "[[!template  id=warning text=\"The 2.3.x serie is still in "
 "developpement.\"]]\n"
 msgstr ""
+"[[!template  id=warning text=\"La version 2.3.x est toujours en "
+"développement.\"]]\n"
 
 #. type: Title #
 #, no-wrap
 msgid "NAME"
-msgstr ""
+msgstr "NOM"
 
 #. type: Plain text
 msgid "fusioninventory-inventory - Standalone inventory"
-msgstr ""
+msgstr "fusioninventory-inventory - Inventaire autonome"
 
 #. type: Title #
 #, no-wrap
 msgid "SYNOPSIS"
-msgstr ""
+msgstr "SYNOPSIS"
 
 #. type: Plain text
 msgid "fusioninventory-inventory \\[options\\]"
-msgstr ""
+msgstr "fusioninventory-inventory \\[options\\]"
 
 #. type: Plain text
 #, no-wrap
@@ -56,14 +58,27 @@ msgid ""
 "      -h --help                      print this message and exit\n"
 "      --version                      print the task version and exit\n"
 msgstr ""
+"    Options:\n"
+"      --scan-homedirs                analyser l'utilisation répertoires (faux)\n"
+"      --html                         enregistrer l'inventaire au format HTML (faux)\n"
+"      -t --tag=TAG                   Marque la machine avec l'étiquette donnée\n"
+"      --backend-collect-timeout=TIME temps d'attente pour les modules d'inventaire\n"
+"                                       exécution (30)\n"
+"      --additional-content=FILE      fichier de contenu d'inventaire supplémentaire\n"
+"      --verbose                      verbose sortie (messages de contrôles)\n"
+"      --debug                        debug sortie (traces d'execution)\n"
+"      -h --help                      imprimez ce message et sortez\n"
+"      --version                      imprimez la version de travail et sortez\n"
 
 #. type: Title #
 #, no-wrap
 msgid "DESCRIPTION"
-msgstr ""
+msgstr "DESCRIPTION"
 
 #. type: Plain text
 msgid ""
 "`fusioninventory-inventory` allows to run an inventory task without a GLPI "
 "server."
 msgstr ""
+"`fusioninventory-inventory` autorise à lancer une tâche d'inventaire sans "
+"serveur GLPI."
