@@ -37,11 +37,11 @@ msgstr "fusioninventory-inventory - Inventaire autonome"
 #. type: Title #
 #, no-wrap
 msgid "SYNOPSIS"
-msgstr ""
+msgstr "SYNOPSIS"
 
 #. type: Plain text
 msgid "fusioninventory-inventory \\[options\\]"
-msgstr ""
+msgstr "fusioninventory-inventory \\[options\\]"
 
 #. type: Plain text
 #, no-wrap
