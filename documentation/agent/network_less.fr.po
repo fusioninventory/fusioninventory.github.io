@@ -77,7 +77,7 @@ msgid ""
 "You can get the full documentation of fusioninventoy-injector in the "
 "[[reference page|documentation/references]]."
 msgstr ""
-"Vous trouverez toute la documentation de fusioninventoy-injector sur [[la "
+"Vous trouverez toute la documentation de fusioninventoy-injector sur la[[ "
 "page référence|documentation/references]]."
 
 #. type: Title ##
