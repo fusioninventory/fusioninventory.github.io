@@ -763,35 +763,38 @@ msgid ""
 "the file is truncated. This is only useful if there is no log rotation "
 "mechanism on the system."
 msgstr ""
+"Taille maximum du fichier de log en MB, par défaut c'est illimité. Quand la taille maximum est atteinte, "
+"le fichier est tronqué. C'est utile uniquement s'il n'y a pas de rotation de log "
+"mécanique sur le système ."
 
 #. type: Plain text
 msgid "- __\\--logfacility__=_FACILITY_"
-msgstr ""
+msgstr "- __\\--logfacility__=_FACILITY_"
 
 #. type: Plain text
 msgid "Syslog facility to use (default LOG\\_USER)"
-msgstr ""
+msgstr "Syslog à utiliser (défaut LOG\\_USER)"
 
 #. type: Plain text
 msgid "- __\\--color__"
-msgstr ""
+msgstr "- __\\--color__"
 
 #. type: Plain text
 msgid "Display color on the terminal, when the Stderr backend is used."
-msgstr ""
+msgstr "Afficher la couleur sur le terminal, quand le Stderr backend est utilisé"
 
 #. type: Plain text
 msgid "This options is ignored on Windows."
-msgstr ""
+msgstr "Ces options sont ignorées sous Windows"
 
 #. type: Title ##
 #, no-wrap
 msgid "Configuration options"
-msgstr ""
+msgstr "Options de configuration"
 
 #. type: Plain text
 msgid "- __\\--conf-file__=_FILE_"
-msgstr ""
+msgstr "- __\\--conf-file__=_FILE_"
 
 #. type: Plain text
 msgid "Use _FILE_ as configuration file (implies file configuration backend)"
