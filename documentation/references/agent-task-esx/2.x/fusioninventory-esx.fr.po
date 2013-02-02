@@ -23,7 +23,7 @@ msgstr "NOM"
 
 #. type: Plain text
 msgid "fusioninventory-esx - vCenter/ESX/ESXi remote inventory from command line"
-msgstr "fusioninventory-esx - vCenter/ESX/ESXi inventaire à distance à partir d'une ligne de commande"
+msgstr "FusionInventory-esx - vCenter/ESX/ESXi inventaire à distance à partir d'une ligne de commande"
 
 #. type: Title #
 #, no-wrap
