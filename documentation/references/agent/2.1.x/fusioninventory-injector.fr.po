@@ -58,8 +58,8 @@ msgstr "SYNOPSIS"
 
 #. type: Plain text
 msgid "Please see:"
-msgstr ""
+msgstr "Merci d'aller voir"
 
 #. type: Plain text
 msgid "__fusioninventory-injector__ \\--help"
-msgstr ""
+msgstr "__fusioninventory-injector__ \\--aide"
