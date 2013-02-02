@@ -32,7 +32,7 @@ msgstr "NOM"
 
 #. type: Plain text
 msgid "fusioninventory-inventory - Standalone inventory"
-msgstr "fusioninventory-inventory - Inventaire autonome"
+msgstr "FusionInventory-inventory - Inventaire autonome"
 
 #. type: Title #
 #, no-wrap
