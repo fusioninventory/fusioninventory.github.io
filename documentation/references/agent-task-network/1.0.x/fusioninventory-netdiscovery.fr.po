@@ -61,6 +61,7 @@ msgstr ""
 "      --debug         debug sortie (traces d'execution)\n"
 "      -h --help       imprimer ce message et sortez\n"
 "      --version       imprimer la version de travail et sortez\n"
+
 #. type: Title #
 #, no-wrap
 msgid "DESCRIPTION"
