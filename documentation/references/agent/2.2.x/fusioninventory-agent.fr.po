@@ -199,8 +199,8 @@ msgid ""
 "    % fusioninventory-agent --server localhost\n"
 "    # execute all available tasks required by a local server\n"
 msgstr ""
-"    % fusioninventory-agent --server localhost\n"
-"    # Exécute toutes les tâches valides requis par le serveur local\n"
+"     fusioninventory-agent --server localhost\n"
+"     Exécute toutes les tâches valides requis par le serveur local\n"
 
 #. type: Plain text
 #, no-wrap
@@ -209,9 +209,9 @@ msgid ""
 "    # execute all available tasks required by a local server, using a specific\n"
 "    # URI\n"
 msgstr ""
-"    % fusioninventory-agent --server http://localhost/ocsinventory2\n"
-"    # Exécute toutes les tâches valides requis par le serveur en utilisant\n"
-"    # l'URI spécifiée\n"
+"     fusioninventory-agent --server http://localhost/ocsinventory2\n"
+"     Exécute toutes les tâches valides requis par le serveur en utilisant\n"
+"     l'URI spécifiée\n"
 
 #. type: Plain text
 #, no-wrap
@@ -220,9 +220,9 @@ msgid ""
 "    # execute all available tasks required by a local server, using a secure\n"
 "    # connection\n"
 msgstr ""
-"    % fusioninventory-agent --server https://localhost/ocsinventory\n"
-"    # Exécute toutes les tâches valides requis par le serveur en utilisant une\n"
-"    # connexion sécurisée\n"
+"     fusioninventory-agent --server https://localhost/ocsinventory\n"
+"     Exécute toutes les tâches valides requis par le serveur en utilisant une\n"
+"     connexion sécurisée\n"
 
 #. type: Plain text
 #, no-wrap
@@ -231,8 +231,8 @@ msgid ""
 "    # execute all available tasks required by a local server, using HTTP\n"
 "    # authentication\n"
 msgstr ""
-"    % fusioninventory-agent --server localhost --user test --password s3cr3t\n"
-"    # Exécute toutes les tâches valides requis par le serveur local,  en utilisant une authentification HTTP\n"
+"     fusioninventory-agent --server localhost --user test --password s3cr3t\n"
+"     Exécute toutes les tâches valides requis par le serveur local,  en utilisant une authentification HTTP\n"
 
 #. type: Plain text
 #, no-wrap
