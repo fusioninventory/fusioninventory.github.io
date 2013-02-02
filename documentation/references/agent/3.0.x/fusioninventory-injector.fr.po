@@ -51,6 +51,7 @@ msgid ""
 msgstr ""
 "fusioninventory-injector \\[options\\] \\[--file <file>|--directory "
 "<directory>|--stdin\\]\n"
+
 #. type: Plain text
 #, no-wrap
 msgid ""
