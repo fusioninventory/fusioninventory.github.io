@@ -22,6 +22,8 @@ msgid ""
 "[[!template  id=info text=\"The 2.1.x is not maintained anymore. You should "
 "consider an upgrade to the last stable release.\"]]\n"
 msgstr ""
+"[[!template  id=info text=\"La version 2.1.x n'est plus maintenue. Vous devriez "
+"faire une mise à jour vers la dernière version stable.\"]]\n"
 
 #. type: Title #
 #, no-wrap
