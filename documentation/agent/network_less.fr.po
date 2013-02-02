@@ -89,11 +89,10 @@ msgid ""
 "You can also use curl to push an inventory. This can be useful for example "
 "if your perl installation has no SSL support and so you can not use the "
 "fusioninventory-injector command with a HTTPS only server:"
-msgstr 
+msgstr ""
 "Vous pouvez aussi utiliser curl pour injecter un inventaire. Cela peut vous "
 "être utile par exemple si votre installation de Perl n'a pas le support de "
-"SSL et que vous ne pouvez utiliser fusioninventory-injector avec un serveur "
-"HTTPS:"
+"SSL et que vous ne pouvez utiliser fusioninventory-injector avec un serveur HTTPS:"
 
 #. type: Plain text
 #, no-wrap
