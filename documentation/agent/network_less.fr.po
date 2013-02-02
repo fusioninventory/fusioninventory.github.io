@@ -43,7 +43,7 @@ msgid ""
 "You can get the full documentation of the agent in the [[reference page|"
 "documentation/references]]."
 msgstr ""
-"Vous pouvez trouver la documentation complète de l'agent sur la [[reference de référence|"
+"Vous pouvez trouver la documentation complète de l'agent sur la [[page de référence|"
 "documentation/references]]."
 
 #. type: Title #
