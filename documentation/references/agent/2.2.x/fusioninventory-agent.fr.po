@@ -210,7 +210,8 @@ msgid ""
 "    # URI\n"
 msgstr ""
 "    % fusioninventory-agent --server http://localhost/ocsinventory2\n"
-"    # Exécute toutes les tâches valides requis par le serveur en utilisant l'URI spécifiée\n"
+"    # Exécute toutes les tâches valides requis par le serveur en utilisant\n"
+"    # l'URI spécifiée\n"
 
 #. type: Plain text
 #, no-wrap
@@ -220,7 +221,8 @@ msgid ""
 "    # connection\n"
 msgstr ""
 "    % fusioninventory-agent --server https://localhost/ocsinventory\n"
-"    # Exécute toutes les tâches valides requis par le serveur en utilisant une connexion sécurisée\n"
+"    # Exécute toutes les tâches valides requis par le serveur en utilisant une\n"
+"    # connexion sécurisée\n"
 
 #. type: Plain text
 #, no-wrap
