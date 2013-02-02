@@ -19,16 +19,16 @@ msgstr ""
 #. type: Title #
 #, no-wrap
 msgid "NAME"
-msgstr ""
+msgstr "NOM"
 
 #. type: Plain text
 msgid "fusioninventory-esx - vCenter/ESX/ESXi remote inventory from command line"
-msgstr ""
+msgstr "fusioninventory-esx - vCenter/ESX/ESXi inventaire à distance à partir d'une ligne de commande"
 
 #. type: Title #
 #, no-wrap
 msgid "SYNOPSIS"
-msgstr ""
+msgstr "SYNOPSIS"
 
 #. type: Plain text
 #, no-wrap
@@ -36,6 +36,8 @@ msgid ""
 "fusioninventory-esx --host <host> --user <user> --password <password> "
 "--directory <directory> --tag <tag>\n"
 msgstr ""
+"fusioninventory-esx --host <host> --user <user> --password <password> "
+"--directory <directory> --tag <tag>\n"
 
 #. type: Plain text
 #, no-wrap
@@ -48,11 +50,18 @@ msgid ""
 "      --directory directory  output directory\n"
 "      --tag tag              tag for the inventoried machine\n"
 msgstr ""
+"    Options:\n"
+"      --help                 Ce Menu\n"
+"      --host hostname        ESX nom de domaine du serveur\n"
+"      --user username        nom d'utilisateur\n"
+"      --password xxxx        mot de passe utilisateur\n"
+"      --directory directory  répertoire de sortie\n"
+"      --tag tag              balise pour la machine inventoriée\n"
 
 #. type: Title #
 #, no-wrap
 msgid "EXAMPLES"
-msgstr ""
+msgstr "EXEMPLES"
 
 #. type: Plain text
 #, no-wrap
@@ -60,6 +69,8 @@ msgid ""
 "    % fusioninventory-esx --host myesx --user foo --password bar --directory "
 "/tmp\n"
 msgstr ""
+"    % fusioninventory-esx --host myesx --user foo --password bar --directory "
+"/tmp\n"
 
 #. type: Plain text
 #, no-wrap
@@ -69,48 +80,58 @@ msgid ""
 "    %fusioninventory-injector -v --file /tmp/\\*.ocs -u "
 "https://myserver/ocsinventory\n"
 msgstr ""
+"Vous pouvez importer le fichier .ocs dans votre serveur d'inventaire avec l' outil "
+"fusioninventory-injector.\n"
+"    %fusioninventory-injector -v --file /tmp/\\*.ocs -u "
+"https://myserver/ocsinventory\n"
 
 #. type: Title #
 #, no-wrap
 msgid "DESCRIPTION"
-msgstr ""
+msgstr "DESCRIPTION"
 
 #. type: Plain text
 msgid ""
 "`fusioninventory-esx` creates inventory of remote ESX/ESXi and vCenter "
 "VMware.  It uses the SOAP interface of the remote server."
 msgstr ""
+"`fusioninventory-esx` créé des inventaires à distance ESX/ESXi et vCenter "
+"VMware.  Il utilise l'interface SOAP du serveur distant."
 
 #. type: Plain text
 msgid "Supported systems:"
-msgstr ""
+msgstr "Systèmes supportés"
 
 #. type: Plain text
 msgid ""
 "- `ESX and ESXi 3.5` - `ESX and ESXi 4.1` - `ESXi 5.0` - `vCenter 4.1` - "
 "`vCenter 5.0`"
 msgstr ""
+"- `ESX and ESXi 3.5` - `ESX and ESXi 4.1` - `ESXi 5.0` - `vCenter 4.1` - "
+"`vCenter 5.0`"
 
 #. type: Plain text
 msgid ""
 "Active Directory users, please note the AD authentication doesn't work. You "
 "must create a account on the VMware server."
 msgstr ""
+"Utilisateurs d' Active Directory, merci de notez que l'authentification AD ne fonctionne pas. Vous"
+"devez créer un compte sur le serveur VMware."
 
 #. type: Title #
 #, no-wrap
 msgid "LIMITATION"
-msgstr ""
+msgstr "LIMITES"
 
 #. type: Plain text
 msgid "So far, ESX serial number are not collected."
-msgstr ""
+msgstr "Jusqu'à présent, les numéros de série ESX ne sont pas recueillis."
 
 #. type: Title #
 #, no-wrap
 msgid "SECURITY"
-msgstr ""
+msgstr "SÉCURITÉ"
 
 #. type: Plain text
 msgid "The SSL hostname check of the server is disabled."
-msgstr ""
+msgstr "Le nom de domaine SSL vérifie si le serveur est désactivé."
