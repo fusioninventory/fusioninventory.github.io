@@ -57,9 +57,8 @@ msgid "Through FusionInventory for GLPI Interface"
 msgstr "Via l'interface FusionInventory pou GLPI"
 
 #. type: Plain text
-#, fuzzy, no-wrap
-msgid "Go in *Plugins > FusionInventory > INVENTORY > Import agent XML* Menu and upload the XML.\n"
-msgstr "Aller dans *Plugins > FusionInventory > INVENTORY > Importer un fichier XML* de l'agent et uploader le fichier XML.\n"
+msgid "Go in *Plugins > FusionInventory > Import agent XML* Menu and upload the XML."
+msgstr "Aller dans *Plugins > FusionInventory > Importer un fichier XML* de l'agent et uploader le fichier XML."
 
 #. type: Title ##
 #, no-wrap
