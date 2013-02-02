@@ -866,12 +866,12 @@ msgstr "- __\\--version__"
 
 #. type: Plain text
 msgid "Print the version and exit."
-msgstr ""
+msgstr "Imprime la version et quitte"
 
 #. type: Title #
 #, no-wrap
 msgid "CONFIGURATION"
-msgstr ""
+msgstr "CONFIGURATION"
 
 #. type: Plain text
 msgid ""
