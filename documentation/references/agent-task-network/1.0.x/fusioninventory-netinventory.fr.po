@@ -22,8 +22,8 @@ msgid "NAME"
 msgstr "NOM"
 
 #. type: Plain text
-msgid "fusioninventory-netinventory - Inventaire de réseau autonome"
-msgstr ""
+msgid "fusioninventory-netinventory - Standalone network inventory"
+msgstr "fusioninventory-netinventory - Inventaire de réseau autonome"
 
 #. type: Title #
 #, no-wrap
