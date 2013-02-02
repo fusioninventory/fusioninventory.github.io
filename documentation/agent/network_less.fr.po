@@ -64,7 +64,7 @@ msgstr "Aller dans *Plugins > FusionInventory > INVENTORY > Importer un fichier 
 #. type: Title ##
 #, no-wrap
 msgid "fusioninventory-injector"
-msgstr "fusioninventory-injector"
+msgstr "Fusioninventory-injector"
 
 #. type: Plain text
 #, no-wrap
@@ -82,7 +82,7 @@ msgstr ""
 #. type: Title ##
 #, no-wrap
 msgid "curl"
-msgstr "curl"
+msgstr "Curl"
 
 #. type: Plain text
 msgid ""
