@@ -35,12 +35,13 @@ msgid ""
 "fusioninventory-injector - A tool to push inventory in an OCS Inventory or "
 "compatible server."
 msgstr ""
-"FusionInventory-injector - Un outils pour mettre l'inventaire dans OCS Inventory ou un" "serveur compatible."
+"FusionInventory-injector - Un outils pour mettre l'inventaire dans OCS Inventory ou un "
+"serveur compatible."
 
 #. type: Title #
 #, no-wrap
 msgid "DESCRIPTION"
-msgstr ""
+msgstr "DESCRIPTION"
 
 #. type: Plain text
 msgid ""
