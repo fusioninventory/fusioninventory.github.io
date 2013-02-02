@@ -19,16 +19,16 @@ msgstr ""
 #. type: Title #
 #, no-wrap
 msgid "NAME"
-msgstr ""
+msgstr "NOM"
 
 #. type: Plain text
-msgid "fusioninventory-netinventory - Standalone network inventory"
+msgid "fusioninventory-netinventory - Inventaire de réseau autonome"
 msgstr ""
 
 #. type: Title #
 #, no-wrap
 msgid "SYNOPSIS"
-msgstr ""
+msgstr "SYNOPSIS"
 
 #. type: Plain text
 #, no-wrap
@@ -37,6 +37,9 @@ msgid ""
 "<file>\\]\n"
 "  \\[--model <model>\\]\n"
 msgstr ""
+"fusioninventory-netinventory \\[options\\] \\[--host <host>--file "
+"<file>\\]\n"
+"  \\[--model <model>\\]\n"
 
 #. type: Plain text
 #, no-wrap
@@ -52,14 +55,26 @@ msgid ""
 "      -h --help      print this message and exit\n"
 "      --version      print the task version and exit\n"
 msgstr ""
+"    Options:\n"
+"      --host host    hôte pour inventorier\n"
+"      --file         snmpwalk fichier de sortie\n"
+"      --model model  XML fichier modèle\n"
+"      --community    chaîne de communauté (defaut: public)\n"
+"      --entity       GLPI entité\n"
+"      --verbose      verbose sortie (messages de controle)\n"
+"      --debug        debug sortie (traces d'execution)\n"
+"      -h --help      imprimer ce message et sortez\n"
+"      --version      imprimer la version de travail et sortez\n"
 
 #. type: Title #
 #, no-wrap
 msgid "DESCRIPTION"
-msgstr ""
+msgstr "DESCRIPTION"
 
 #. type: Plain text
 msgid ""
 "`fusioninventory-netinventory` allows to run a network inventory task "
 "without a GLPI server."
 msgstr ""
+"`fusioninventory-netinventory` autorise à lancer une tâche d'inventaire "
+"sans serveur GLPI."
