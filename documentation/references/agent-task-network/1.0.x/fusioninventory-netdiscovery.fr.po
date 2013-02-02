@@ -23,7 +23,7 @@ msgstr "NOM"
 
 #. type: Plain text
 msgid "fusioninventory-netdiscovery - Standalone network discovery"
-msgstr "fusioninventory-netdiscovery - Découverte du réseau autonome"
+msgstr "FusionInventory-netdiscovery - Découverte du réseau autonome"
 
 #. type: Title #
 #, no-wrap
