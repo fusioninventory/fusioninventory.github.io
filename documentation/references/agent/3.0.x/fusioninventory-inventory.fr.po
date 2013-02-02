@@ -67,8 +67,8 @@ msgstr ""
 "      --additional-content=FILE      fichier de contenu d'inventaire supplémentaire\n"
 "      --verbose                      verbose sortie (messages de contrôles)\n"
 "      --debug                        debug sortie (traces d'execution)\n"
-"      -h --help                      imprimez ce message et sortez\n"
-"      --version                      imprimez la version de travail et sortez\n"
+"      -h --help                      imprimez ce message et quittez\n"
+"      --version                      imprimez la version de travail et quittez\n"
 
 #. type: Title #
 #, no-wrap
