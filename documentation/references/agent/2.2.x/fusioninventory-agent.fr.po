@@ -773,7 +773,7 @@ msgstr "- __\\--logfacility__=_FACILITY_"
 
 #. type: Plain text
 msgid "Syslog facility to use (default LOG\\_USER)"
-msgstr "Syslog à utiliser (défaut LOG\\_USER)"
+msgstr "Syslog facility à utiliser (défaut LOG\\_USER)"
 
 #. type: Plain text
 msgid "- __\\--color__"
@@ -785,7 +785,7 @@ msgstr "Afficher la couleur sur le terminal, quand le Stderr backend est utilis�
 
 #. type: Plain text
 msgid "This options is ignored on Windows."
-msgstr "Ces options sont ignorées sous Windows"
+msgstr "Cette option est ignorée sous Windows"
 
 #. type: Title ##
 #, no-wrap
@@ -798,15 +798,15 @@ msgstr "- __\\--conf-file__=_FILE_"
 
 #. type: Plain text
 msgid "Use _FILE_ as configuration file (implies file configuration backend)"
-msgstr ""
+msgstr "Utilisez _FILE_ comme fichier de configuration (implique un fichier de configuration backend)"
 
 #. type: Plain text
 msgid "- __\\--config__=_BACKEND_"
-msgstr ""
+msgstr "- __\\--config__=_BACKEND_"
 
 #. type: Plain text
 msgid "Configuration backend to use. It can be:"
-msgstr ""
+msgstr "configuration backend à utiliser. Ça peut être:"
 
 #. type: Plain text
 #, no-wrap
