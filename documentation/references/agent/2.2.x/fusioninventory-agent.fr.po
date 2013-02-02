@@ -798,7 +798,7 @@ msgstr "- __\\--conf-file__=_FILE_"
 
 #. type: Plain text
 msgid "Use _FILE_ as configuration file (implies file configuration backend)"
-msgstr "Utilisez _FILE_ comme fichier de configuration (implique un fichier de configuration backend)"
+msgstr "Utilise _FILE_ comme fichier de configuration (implique un fichier de configuration backend)"
 
 #. type: Plain text
 msgid "- __\\--config__=_BACKEND_"
@@ -815,51 +815,54 @@ msgid ""
 "        - registry: read configuration from the registry (default on Windows)\n"
 "    - none: don't read any configuration\n"
 msgstr ""
+"            - file: lire la configuration à partir d'un fichier (par défaut partout sauf sur Windows)\n"
+"        - registry: lire la configuration à partir du registre (par défaut sur Windows)\n"
+"    - none: ne lire aucune configuration\n"
 
 #. type: Title ##
 #, no-wrap
 msgid "Execution mode options"
-msgstr ""
+msgstr "Options du mode d’exécution"
 
 #. type: Plain text
 msgid "- __\\-d__, __\\--daemon__"
-msgstr ""
+msgstr "- __\\-d__, __\\--daemon__"
 
 #. type: Plain text
 msgid "Run the agent as a daemon."
-msgstr ""
+msgstr "Lance l'agent comme un démon"
 
 #. type: Plain text
 msgid "- __\\--no-fork__"
-msgstr ""
+msgstr "- __\\--no-fork__"
 
 #. type: Plain text
 msgid "Don't fork in background."
-msgstr ""
+msgstr "Ne faites pas de fork en arrière-plan"
 
 #. type: Plain text
 msgid "This is only useful when running as a daemon."
-msgstr ""
+msgstr "C'est seulement utile quand il est lancé comme un démon"
 
 #. type: Plain text
 msgid "- __\\--debug__"
-msgstr ""
+msgstr "- __\\--debug__"
 
 #. type: Plain text
 msgid "Turn the debug mode on."
-msgstr ""
+msgstr "Active le mode debug"
 
 #. type: Plain text
 msgid "- __\\--setup__"
-msgstr ""
+msgstr "- __\\--setup__"
 
 #. type: Plain text
 msgid "Print the agent setup directories and exit."
-msgstr ""
+msgstr "Imprime les répertoires d'installation de l'agent et quitte"
 
 #. type: Plain text
 msgid "- __\\--version__"
-msgstr ""
+msgstr "- __\\--version__"
 
 #. type: Plain text
 msgid "Print the version and exit."
