@@ -73,10 +73,12 @@ msgstr ""
 #. type: Title #
 #, no-wrap
 msgid "DESCRIPTION"
-msgstr ""
+msgstr "DESCRIPTION"
 
 #. type: Plain text
 msgid ""
 "`fusioninventory-inventory` allows to run an inventory task without a GLPI "
 "server."
 msgstr ""
+"`fusioninventory-inventory` autorise à lancer une tâche d'inventaire sans "
+"serveur GLPI."
