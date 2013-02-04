@@ -62,6 +62,8 @@ msgid ""
 "    % fusioninventory-agent --server localhost\n"
 "    # send an inventory to the OCS server\n"
 msgstr ""
+"    % fusioninventory-agent --server localhost\n"
+"    # envoyer un inventaire vers un serveur OCS\n"
 
 #. type: Plain text
 #, no-wrap
@@ -70,6 +72,9 @@ msgid ""
 "    # send an inventory over http to a server with a non standard\n"
 "    # virtual directory\n"
 msgstr ""
+"    % fusioninventory-agent --server http://localhost/ocsinventory2\n"
+"    # envoyer un inventaire sur http vers un serveur qui n'a pas de répertoire\n"
+"    # virtuel standard\n"
 
 #. type: Plain text
 #, no-wrap
@@ -77,6 +82,8 @@ msgid ""
 "    % fusioninventory-agent --server https://localhost/ocsinventory\n"
 "    # send an inventory over https to the OCS server\n"
 msgstr ""
+"    % fusioninventory-agent --server https://localhost/ocsinventory\n"
+"    # envoyer un inventaire sur http vers le serveur OCS\n"
 
 #. type: Plain text
 #, no-wrap
@@ -84,6 +91,8 @@ msgid ""
 "    % fusioninventory-agent --local /tmp\n"
 "    # write an inventory in the /tmp directory\n"
 msgstr ""
+"    % fusioninventory-agent --local /tmp\n"
+"    # écrire un inventaire dans le répertoire /tmp\n"
 
 #. type: Plain text
 #, no-wrap
@@ -91,6 +100,8 @@ msgid ""
 "    % fusioninventory-agent --local /tmp --html\n"
 "    # Use the --html parameter to generate a HTML file\n"
 msgstr ""
+"    % fusioninventory-agent --local /tmp --html\n"
+"    # Utiliser les paramètres --html pour générer un fichier HTML\n"
 
 #. type: Plain text
 #, no-wrap
@@ -102,6 +113,11 @@ msgid ""
 "    # send an inventory only if a random delay between 0 and PROLOG_FREQ had "
 "been run over.\n"
 msgstr ""
+"    % fusioninventory-agent --server localhost --user=toto --password=pw "
+"--realm=\"Restricted Area\"\n"
+"    # envoyer un rapport vers un serveur protégé par une authentification basique\n"
+"    % fusioninventory-agent --lazy\n"
+"    # envoyer un inventaire seulement si un délai aléatoire compris entre 0 et PROLOG_FREQ avait été écrasé.\n"
 
 #. type: Plain text
 #, no-wrap
@@ -110,11 +126,14 @@ msgid ""
 "    # If NO PROLOG_FREQ has been preset, pick a time between execution and "
 "--delaytime for the agent to contact the server [default is 3600 seconds]\n"
 msgstr ""
+"    % fusioninventory-agent --delaytime 60 -d\n"
+"    # Si NO PROLOG_FREQ a été préréglé, choisir un temps entre l'exécution et"
+"--le temps que l'agent met à contacter le serveur [ par défaut c'est 3600 seconds]\n"
 
 #. type: Title #
 #, no-wrap
 msgid "DESCRIPTION"
-msgstr ""
+msgstr "DESCRIPTION"
 
 #. type: Plain text
 msgid ""
