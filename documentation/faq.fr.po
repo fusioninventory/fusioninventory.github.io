@@ -182,6 +182,10 @@ msgid ""
 "For example to communicate with three servers: FusionInventory Server\n"
 "for GLPI 0.80 and 0.38, and OCSInventory server:\n"
 msgstr ""
+" Dans le fichier de configuration de l'agent, vous pouvez définir plusieurs serveurs pour\n"
+"communiquer avec.\n"
+"Pas exemple pour communiquer avec trois serveurs : FusionInventory Serveur\n"
+"pour GLPI 0.80 et 0.38, et OCSInventory serveur:\n"
 
 #. type: Plain text
 #, no-wrap
@@ -190,17 +194,21 @@ msgid ""
 "The agent will contact each server in the order defined in the configuration\n"
 "file, and perform the actions requested from each of them.\n"
 msgstr ""
+"    server=http://glpi080/plugins/fusioninventory/front/plugin_fusioninventory.communication.php, http://glpi083/plugins/fusioninventory/, http://ocsinventory-ng/ocsinventory\n"
+"L'agent communiquera avec chaque serveur dans l'ordre défini dans le fichier de configuration,\n"
+"et effectuera les actions demandées à chacun d'eux.\n"
 
 #. type: Title ##
 #, no-wrap
 msgid "Is FusionInventory agent compatible with OCS Inventory NG Server?"
-msgstr ""
+msgstr "Est ce que l'agent FusionInventory est compatible avec OCS Inventory NG Serveur?"
 
 #. type: Plain text
 msgid ""
 "Yes, your server will need to be configured to accept the Fusioninventory "
 "UserAgent in the ocsinventory-server.conf"
 msgstr ""
+"Oui, votre serveur doit être configuré pour accepter l'agent fusioninventory dans l'ocsinventory-server.conf"
 
 #. type: Plain text
 #, no-wrap
@@ -209,6 +217,9 @@ msgid ""
 "    #!! WARNING !! : external agents may not be supported by OCS NG Community ! \n"
 "    #PerlSetEnv OCS_OPT_EXT_USERAGENTS_FILE_PATH /tmp/yourfile.txt\n"
 msgstr ""
+"    #Path for external useragents reference file\n"
+"    #!! WARNING !! : external agents may not be supported by OCS NG Community ! \n"
+"    #PerlSetEnv OCS_OPT_EXT_USERAGENTS_FILE_PATH /tmp/yourfile.txt\n"
 
 #. type: Plain text
 msgid "This step is not required with 1.x server."
