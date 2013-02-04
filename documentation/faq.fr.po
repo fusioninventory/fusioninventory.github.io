@@ -266,7 +266,7 @@ msgstr "en utilisant le paramètre `httpd-trust` qui autorisera l'IP du serveur.
 #. type: Plain text
 #, no-wrap
 msgid "[[!template  id=warning text=\"A bug fixed in 2.2.7 prevent the use of `rpc-trust-localhost` and `httpd-trust`.\"]]\n"
-msgstr "[[!template  id=warning text=\"Un bug à été fixé dans la 2.2.7 pour empêcher l'utilisation de `rpc-trust-localhost` et `httpd-trust`.\"]]\n"
+msgstr "[[!template  id=warning text=\"Un bug à été fixé dans la 2.2.7 pour empêcher l'utilisation de `rpc-trust-localhost` et `httpd-trust` simultanément.\"]]\n"
 
 #. type: Title ##
 #, no-wrap
