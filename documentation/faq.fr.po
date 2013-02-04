@@ -223,7 +223,7 @@ msgstr ""
 
 #. type: Plain text
 msgid "This step is not required with 1.x server."
-msgstr ""
+msgstr "Cette étape n'est pas requise avec les serveur en version 1.x"
 
 #. type: Plain text
 msgid ""
@@ -231,68 +231,75 @@ msgid ""
 "feature, and that OCS Deployment module is now deprecated and will not be "
 "developped anymore."
 msgstr ""
+"Veuillez noter que l'agent FusionInventory ne supporte pas la découverte IP d'OCS, "
+"mais aussi que l’outil de déploiement d'OCS est obsolète est ne sera pas plus développé"
 
 #. type: Plain text
 msgid ""
 "If you’re looking for a software deployment solution, FusionInventory "
 "provides it’s own, which is integrated into GLPI."
 msgstr ""
+"Si vous êtes à la recherche d'une solution de déploiement logiciel, FusionInventory fourni "
+"son propre outil, qui est intégré dans GLPI."
 
 #. type: Title ##
 #, no-wrap
 msgid "My agent refuses to start a job with the \"Bad token\" error"
-msgstr ""
+msgstr "Mon agent refuse de démarrer la tâche avec comme erreur \"Bad token\" "
 
 #. type: Plain text
 msgid ""
 "“Bad token” problems means the agent and the server are not synchronized "
 "anymore. You can resolve the situation either:"
 msgstr ""
+"Le message “Bad token” signifie que l'agent et le serveur ne sont pas synchronisés "
+"Vous pouvez résoudre la situation en faisant :"
 
 #. type: Bullet: '* '
 msgid "just by running an inventory"
-msgstr ""
+msgstr "En exécutant un inventaire"
 
 #. type: Bullet: '* '
 msgid "by using `httpd-trust` parameter to allow request from the server IP."
-msgstr ""
+msgstr "en utilisant le paramètre `httpd-trust` qui autorisera l'IP du serveur."
 
 #. type: Plain text
 #, no-wrap
 msgid "[[!template  id=warning text=\"A bug fixed in 2.2.7 prevent the use of `rpc-trust-localhost` and `httpd-trust`.\"]]\n"
-msgstr ""
+msgstr "[[!template  id=warning text=\"A bug fixed in 2.2.7 prevent the use of `rpc-trust-localhost` and `httpd-trust`.\"]]\n"
 
 #. type: Title ##
 #, no-wrap
 msgid "I get a duplicated computer, what appends?"
-msgstr ""
+msgstr "Je reçois un ordinateur dupliqué, qu'est ce qui s'ajoute ?"
 
 #. type: Plain text
 msgid ""
 "With the default settings, FusionInventory for GLPI use the follow criteria "
 "to identify computer:"
 msgstr ""
+"Avec les paramètres par défaut, FusionInventory pour GLPI utilisera ces critères pour identifier la machine :"
 
 #. type: Bullet: '* '
 msgid "MAC addresses"
-msgstr ""
+msgstr "Adresses Matérielles (adresses MAC)"
 
 #. type: Bullet: '* '
 msgid "serial number"
-msgstr ""
+msgstr "Numéro de Série"
 
 #. type: Bullet: '* '
 msgid "UUID"
-msgstr ""
+msgstr "UUID"
 
 #. type: Plain text
 msgid "One of this information is probably duplicated."
-msgstr ""
+msgstr "Une de ces informations est probablement dupliquée."
 
 #. type: Title ##
 #, no-wrap
 msgid "Can I use a mastering software like Ghost to deploy my agent"
-msgstr ""
+msgstr "Puis-je utiliser un gestionnaire d'image système comme Ghost pour déployer mon agent"
 
 #. type: Plain text
 msgid ""
