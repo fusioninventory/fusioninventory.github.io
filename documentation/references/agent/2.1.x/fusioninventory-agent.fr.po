@@ -128,7 +128,7 @@ msgid ""
 msgstr ""
 "    % fusioninventory-agent --delaytime 60 -d\n"
 "    # Si NO PROLOG_FREQ a été préréglé, choisir un temps entre l'exécution et"
-"--le temps que l'agent met à contacter le serveur [ par défaut c'est 3600 seconds]\n"
+" le temps que l'agent met à contacter le serveur [par défaut c'est 3600 seconds]\n"
 
 #. type: Title #
 #, no-wrap
