@@ -22,33 +22,39 @@ msgid ""
 "[[!template  id=info text=\"The 2.1.x is not maintained anymore. You should "
 "consider an upgrade to the last stable release.\"]]\n"
 msgstr ""
+"[[!template  id=info text=\"La version 2.1.x n'est plus maintenue. Vous devriez "
+"faire une mise à jour vers la dernière version stable.\"]]\n"
 
 #. type: Title #
 #, no-wrap
 msgid "NAME"
-msgstr ""
+msgstr "NOM"
 
 #. type: Plain text
 msgid ""
 "fusioninventory-agent - FusionInventory agent For Linux/UNIX, Windows and "
 "MacOSX"
 msgstr ""
+"fusioninventory-agent - Agent FusionInventory pour Linux/UNIX, Windows et "
+"MacOSX"
 
 #. type: Title #
 #, no-wrap
 msgid "SYNOPSIS"
-msgstr ""
+msgstr "SYNOPSIS"
 
 #. type: Plain text
 msgid ""
 "__fusioninventory-agent__ \\[&nbsp;...&nbsp;\\] "
 "\\[&nbsp;_\\--server&nbsp;server_&nbsp;|&nbsp;_\\--local&nbsp;/tmp_&nbsp;\\]..."
 msgstr ""
+"__fusioninventory-agent__ \\[&nbsp;...&nbsp;\\] "
+"\\[&nbsp;_\\--server&nbsp;server_&nbsp;|&nbsp;_\\--local&nbsp;/tmp_&nbsp;\\]..."
 
 #. type: Title #
 #, no-wrap
 msgid "EXAMPLES"
-msgstr ""
+msgstr "EXEMPLES"
 
 #. type: Plain text
 #, no-wrap
