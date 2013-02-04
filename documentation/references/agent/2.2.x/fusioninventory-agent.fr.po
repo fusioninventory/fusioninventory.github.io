@@ -232,7 +232,7 @@ msgid ""
 "    # authentication\n"
 msgstr ""
 "    % fusioninventory-agent --server localhost --user test --password s3cr3t\n"
-"    # Exécute toutes les tâches valides requis par le serveur local,  en utilisant\n" "    # une authentification HTTP\n"
+"    # Exécute toutes les tâches valides requis par le serveur local,  en utilisant une authentification HTTP\n"
 
 #. type: Plain text
 #, no-wrap
