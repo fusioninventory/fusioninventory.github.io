@@ -423,8 +423,6 @@ msgid "and FusionInventory for GLPI this one:"
 msgstr "et *FusionInventory for GLPI* celui-ci:"
 
 #. type: Plain text
-#, fuzzy, no-wrap
-#| msgid "    http://servername/ocsinventory\n"
 msgid "    http://servername/glpi/plugins/fusioninventory\n"
 msgstr "    http://servername/glpi/plugins/fusioninventory\n"
 
