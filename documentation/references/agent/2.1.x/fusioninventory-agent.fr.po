@@ -385,13 +385,15 @@ msgstr ""
 #. type: Title #
 #, no-wrap
 msgid "OPTIONS"
-msgstr ""
+msgstr "OPTIONS"
 
 #. type: Plain text
 msgid ""
 "Most of the options are available in a _short_ form and a _long_ form.  For "
 "example, the two lines below are all equivalent:"
 msgstr ""
+"La majorité des options sont disponibles dans une forme _courte_ ou "
+"_longue_. Par exemple, les deux lignes suivantes sont équivalentes:"
 
 #. type: Plain text
 #, no-wrap
@@ -399,10 +401,12 @@ msgid ""
 "    % fusioninventory-agent -s localhost\n"
 "    % fusioninventory-agent --server localhost\n"
 msgstr ""
+"    % fusioninventory-agent -s localhost\n"
+"    % fusioninventory-agent --server localhost\n"
 
 #. type: Plain text
 msgid "- __\\--backend-collect-timeout=SECONDS\\_BEFORE\\_KILL__"
-msgstr ""
+msgstr "- __\\--backend-collect-timeout=SECONDS\\_BEFORE\\_KILL__"
 
 #. type: Plain text
 msgid ""
