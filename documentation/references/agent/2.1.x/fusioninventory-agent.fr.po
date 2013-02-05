@@ -413,26 +413,28 @@ msgid ""
 "Time before the agent kills modules processing which don't end before the "
 "timeout."
 msgstr ""
+"Temps avant que l'agent tue les modules de traitement qui ne se terminent pas avant le"
+"délai d'expiration"
 
 #. type: Plain text
 msgid "- __\\--basevardir__=_DIR_"
-msgstr ""
+msgstr "- __\\--basevardir__=_DIR_"
 
 #. type: Plain text
 msgid "Indicate the place where the agent should store its files."
-msgstr ""
+msgstr "Indique l'endroit où l'agent doit stocker ses fichiers."
 
 #. type: Plain text
 msgid "- __\\--color__"
-msgstr ""
+msgstr "- __\\--color__"
 
 #. type: Plain text
 msgid "Display color on the terminal. This feature is disabled on Windows."
-msgstr ""
+msgstr "Affiche la couleur sur le terminal. Cette option est désactivé sous Windows"
 
 #. type: Plain text
 msgid "- __\\-d__, __\\--daemon__"
-msgstr ""
+msgstr "- __\\-d__, __\\--daemon__"
 
 #. type: Plain text
 msgid ""
