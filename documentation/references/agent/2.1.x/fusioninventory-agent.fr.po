@@ -370,7 +370,7 @@ msgstr ""
 #. type: Title ##
 #, no-wrap
 msgid "Windows service or Deamon mode"
-msgstr ""
+msgstr "Windows service ou mode Démon"
 
 #. type: Plain text
 msgid ""
@@ -378,6 +378,9 @@ msgid ""
 "PROLOG\\_FREQ. If PROLOG\\_FREQ is not set, it will use --delaytime value.  "
 "The default value is 3600."
 msgstr ""
+"Dans le mode Démon, l'agent attend durant une période compris entre le "
+"dernier PROLOG et le PROLOG\\_FREQ. Si le PROLOG\\_FREQ n'existe pas, il "
+"utilisera la valeur de --delaytime. Cette valeur est par défaut 3600."
 
 #. type: Title #
 #, no-wrap
