@@ -211,22 +211,24 @@ msgstr ""
 
 #. type: Plain text
 msgid "Additional optional programs:"
-msgstr ""
+msgstr "Programmes supplémentaires optionels "
 
 #. type: Plain text
 msgid ""
 "- nmap or ipdiscover, for network discovery - dmidecode (linux or bsd) for "
 "hardware inventory - lspci (linux or bsd) for hardware inventory"
 msgstr ""
+"- nmap ou ipdiscover, pour la découverte du réseau - dmidecode (linux or bsd) pour "
+"inventaire du matériel - lspci (linux ou bsd) inventaire du matériel"
 
 #. type: Title ##
 #, no-wrap
 msgid "PROCEDURE"
-msgstr ""
+msgstr "PROCEDURE"
 
 #. type: Plain text
 msgid "Once the archive is unpacked, use these commands:"
-msgstr ""
+msgstr "Une fois que l'archive est décompressée, utilisez ces commandes:"
 
 #. type: Plain text
 #, no-wrap
@@ -235,22 +237,27 @@ msgid ""
 "    make\n"
 "    make install\n"
 msgstr ""
+"    perl Makefile.PL\n"
+"    make\n"
+"    make install\n"
 
 #. type: Plain text
 msgid ""
 "You can also run the agent from the tarball directory. In this case, use the "
 "--devlib flag to load the library from the local directory."
 msgstr ""
+"Vous pouvez également exécuter l'agent à partir du répertoire d'archives. Dans ce cas, utilisez le "
+"--devlib flag pour charger la bibliothèque à partir du répertoire local."
 
 #. type: Title ##
 #, no-wrap
 msgid "SYSTEM-SPECIFIC INFORMATIONS"
-msgstr ""
+msgstr "INFORMATIONS SPÉCIFIQUES DU SYSTÈME"
 
 #. type: Title ###
 #, no-wrap
 msgid "Solaris"
-msgstr ""
+msgstr "Solaris"
 
 #. type: Plain text
 msgid ""
