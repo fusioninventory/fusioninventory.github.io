@@ -224,7 +224,7 @@ msgstr ""
 #. type: Title ##
 #, no-wrap
 msgid "PROCEDURE"
-msgstr "PROCEDURE"
+msgstr "PROCÉDURE"
 
 #. type: Plain text
 msgid "Once the archive is unpacked, use these commands:"
