@@ -266,6 +266,10 @@ msgid ""
 "the binary in /usr/perl5/5.XXXXX/bin, set you $PATH variable according to "
 "that."
 msgstr ""
+"Sun Studio semble être nécessaire pour construire la dépendance. Le Makefile "
+"généré à besoin de gmake pour être exécuté. L'installation par défaut installera "
+"le binaire dans /usr/perl5/5.XXXXX/bin, définissez votre variable $PATH selon "
+"ça."
 
 #. type: Plain text
 msgid ""
@@ -273,11 +277,14 @@ msgid ""
 "it.  Download it from "
 "[http://www.sun.com/download/products.xml?id=4304155a](http://www.sun.com/download/products.xml?id=4304155a)"
 msgstr ""
+"Sur Solaris/SPARC, vous devez installer sneep et enregistrer le numéro de série avec.  "
+"  Télécharchez à partir de "
+"[http://www.sun.com/download/products.xml?id=4304155a](http://www.sun.com/download/products.xml?id=4304155a)"
 
 #. type: Title ###
 #, no-wrap
 msgid "Windows"
-msgstr ""
+msgstr "Windows"
 
 #. type: Plain text
 msgid ""
@@ -285,20 +292,23 @@ msgid ""
 "installation process avalaible there: "
 "[http://forge.fusioninventory.org/projects/fusioninventory-agent/wiki/RunAgentWin32](http://forge.fusioninventory.org/projects/fusioninventory-agent/wiki/RunAgentWin32)"
 msgstr ""
+"Si vous ne voulez pas utiliser l'installateur pour Windows vous pouvez suivre le "
+"processus installation disponible ici: "
+"[http://forge.fusioninventory.org/projects/fusioninventory-agent/wiki/RunAgentWin32](http://forge.fusioninventory.org/projects/fusioninventory-agent/wiki/RunAgentWin32)"
 
 #. type: Title ##
 #, no-wrap
 msgid "POST-INSTALLATION"
-msgstr ""
+msgstr "POST-INSTALLATION"
 
 #. type: Plain text
 msgid "Run ./fusioninventory-agent-config for automatic configuration."
-msgstr ""
+msgstr "Lancez ./fusioninventory-agent-config pour une configuration automatique"
 
 #. type: Title #
 #, no-wrap
 msgid "OCS INVENTORY PROTOCOL"
-msgstr ""
+msgstr "PROTOCOLE OCS INVENTORY"
 
 #. type: Plain text
 msgid ""
@@ -306,15 +316,18 @@ msgid ""
 "Inventory server. The agent uses the same protocol with the FusionInventory "
 "For GLPI plugin."
 msgstr ""
+"L'agent FusionInventory utilise le protocole d'OCS Inventory et il est "
+"compatible avec le serveur éponyme. L'agent utilise le même protocole avec "
+"le plugin FusionInventory For GLPI."
 
 #. type: Plain text
 msgid "The OCS protocol is basicly an exchange of XML file done over HTTP(S)."
-msgstr ""
+msgstr "Le protocole OCS est simplement un échange de fichier XML via HTTP(S)."
 
 #. type: Title ##
 #, no-wrap
 msgid "First, The PROLOG"
-msgstr ""
+msgstr "Premièrement, le PROLOG"
 
 #. type: Plain text
 msgid ""
@@ -324,20 +337,25 @@ msgid ""
 "send the PROLOG\\_FREQ. The agent will use it to know when it need to "
 "contact the server for the next time."
 msgstr ""
+"L'agent envoie un premier message pour donner l'ID (DEVICEID). Le serveur "
+"envoie en retour à l'agent un fichier XML listant ses paramètres. C'est le "
+"PROLOG RESP. Vous pouvez le voir si le mode debug est activé. Dans ce "
+"PROLOG, le serveur donne le PROLOG\\_FREQ. L'agent utilisera cette "
+"information pour savoir quand ce fera la prochaine connexion avec le serveur."
 
 #. type: Plain text
 msgid "The agent compute the next query date this way:"
-msgstr ""
+msgstr "L'agent calcule la prochaine date de connexion comme ça:"
 
 #. type: Plain text
 #, no-wrap
 msgid "     PROLOG_FREQ/2+RANDOM(PROLOG_FREQ/2)\n"
-msgstr ""
+msgstr "     PROLOG_FREQ/2+RANDOM(PROLOG_FREQ/2)\n"
 
 #. type: Title ##
 #, no-wrap
 msgid "Module execution"
-msgstr ""
+msgstr "Exécution du module"
 
 #. type: Plain text
 msgid ""
@@ -345,6 +363,9 @@ msgid ""
 "PROLOG RESP as parameter. The module can send information directly to the "
 "server (inventory, SNMP scan result, etc)"
 msgstr ""
+"L'agent lancera chaque modules et passera la liste des options donner par "
+"le PROLOG RESP comme paramètre. Le module peut envoyer directement au "
+"serveur (inventaire, SNMP scan resultat, etc)."
 
 #. type: Title ##
 #, no-wrap
@@ -1125,3 +1146,7 @@ msgid ""
 "     Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301\n"
 "     USA\n"
 msgstr ""
+"     Vous avez dû recevoir une copie du GNU General Public License\n"
+"     avec ce paquet; sin ce n'est pas le cas, écrivez à Free Software\n"
+"     Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301\n"
+"     USA\n"
