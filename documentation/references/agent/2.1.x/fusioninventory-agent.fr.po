@@ -441,24 +441,28 @@ msgid ""
 "Launch fusioninventory-agent as daemon in background. Proc::Daemon is "
 "needed."
 msgstr ""
+"Lance fusioninventory-agent comme un démon en arrière plan. Proc::Daemon est "
+"nécessaire."
 
 #. type: Plain text
 msgid "- __\\-D__, __\\--daemon-no-fork__"
-msgstr ""
+msgstr "- __\\-D__, __\\--daemon-no-fork__"
 
 #. type: Plain text
 msgid "Launch fusioninventory-agent in daemon but do fork in background."
-msgstr ""
+msgstr "Lance fusioninventory-agent en démon mais fait fork en arrière plan"
 
 #. type: Plain text
 msgid "- __\\--ca-cert-dir__=_PATH_"
-msgstr ""
+msgstr "- __\\--ca-cert-dir__=_PATH_"
 
 #. type: Plain text
 msgid ""
 "The directory where public SSL certificates are stored. In general it's "
 "/etc/ssl/certs."
 msgstr ""
+"Le répertoire où les certificats publics SSL sont stocker. En général c'est "
+"/etc/ssl/certs."
 
 #. type: Plain text
 #:
