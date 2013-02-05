@@ -175,25 +175,27 @@ msgstr "PRÉREQUIS"
 
 #. type: Plain text
 msgid "Minimum perl version: 5.8"
-msgstr ""
+msgstr "Version minimum de perl: 5.8"
 
 #. type: Plain text
 msgid "The which command on UNIX/Linux/MacOSX system."
-msgstr ""
+msgstr "La commande qui sur les systèmes UNIX/Linux/MacOSX"
 
 #. type: Plain text
 msgid "Additional mandatory perl modules:"
-msgstr ""
+msgstr "Modules perl supplémentaires obligatoires"
 
 #. type: Plain text
 msgid ""
 "- Digest::MD5 - XML::Simple - LWP - Net::IP - UNIVERSAL::require - "
 "Mac::SysProfile (MacOs only)"
 msgstr ""
+"- Digest::MD5 - XML::Simple - LWP - Net::IP - UNIVERSAL::require - "
+"Mac::SysProfile (MacOs seulement)"
 
 #. type: Plain text
 msgid "Additional optional perl modules:"
-msgstr ""
+msgstr "Modules perl supplémentaires optionels"
 
 #. type: Plain text
 msgid ""
@@ -202,6 +204,10 @@ msgid ""
 "automatic data directory determination - Proc::Daemon, for daemon mode (Unix "
 "only)  - Proc::PID::File, for daemon mode (Unix only)"
 msgstr ""
+"- Compress::Zlib, pour compresser le message - HTTP::Daemon, pour interface web "
+"- Net::CUPS (v0.60 minimum), pour la détection des imprimantes - File::ShareDir, pour "
+"détermination automatique de répertoire de données - Proc::Daemon, pour le mode démon (Unix "
+"seulement)  - Proc::PID::fichier pour mode démon (Unix seulement)"
 
 #. type: Plain text
 msgid "Additional optional programs:"
