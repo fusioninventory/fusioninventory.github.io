@@ -24,7 +24,7 @@ msgstr "Comment fonctionne l'importation d'équipement et les règles de lien"
 #. type: Plain text
 #, no-wrap
 msgid "[[!template  id=warning text=\"“Equipment import and link rules” are complex and misconfiguration can seriously hurt your GLPI.\"]]\n"
-msgstr "[[!template  id=warning text=\"“l'importation d'équipement et les règles de lien” sont complexes et des erreurs de configuration peuvent sérieusement affecter voter GLPI.\"]]\n"
+msgstr "[[!template  id=warning text=\"“L'importation d'équipement et les règles de lien” sont complexes et des erreurs de configuration peuvent sérieusement affecter voter GLPI.\"]]\n"
 
 #. type: Title ##
 #, no-wrap
@@ -35,40 +35,41 @@ msgstr "Première chose à savoir "
 msgid ""
 "The rules engine goal is to detect if a device exists of if it has to be "
 "created."
-msgstr ""
+msgstr "Les règles du moteur ont pour but de détecter si un dispositif existe ou s'il doit être "
+"créé."
 
 #. type: Plain text
 msgid "The rule engine is used for:"
-msgstr ""
+msgstr "Le moteur de règles est utilisé pour:"
 
 #. type: Bullet: '* '
 msgid "computer"
-msgstr ""
+msgstr "ordinateur"
 
 #. type: Bullet: '* '
 msgid "network devices"
-msgstr ""
+msgstr "dispositifs réseau"
 
 #. type: Bullet: '* '
 msgid "network printer"
-msgstr ""
+msgstr "imprimantes réseau"
 
 #. type: Plain text
 msgid "Common problems related to the rule engine are:"
-msgstr ""
+msgstr "Les problèmes courants liés au moteur de règles sont"
 
 #. type: Bullet: '* '
 msgid "duplicated device."
-msgstr ""
+msgstr "double dispositif"
 
 #. type: Bullet: '* '
 msgid "device pushed in the “Ignored import devices”"
-msgstr ""
+msgstr "les dispositifs sont mis dans les “dispositifs importés ignorés”"
 
 #. type: Plain text
 #, no-wrap
 msgid "[[!graph  src=\"\"\"\n"
-msgstr ""
+msgstr "[[!graph  src=\"\"\"\n"
 
 #. type: Plain text
 #, no-wrap
@@ -78,6 +79,10 @@ msgid ""
 "    node [shape=box, color=purple];\n"
 "    size = \"7, 7\";\n"
 msgstr ""
+"    style=filled;\n"
+"    color=lightgrey;\n"
+"    node [shape=box, color=purple];\n"
+"    size = \"7, 7\";\n"
 
 #. type: Plain text
 #, no-wrap
