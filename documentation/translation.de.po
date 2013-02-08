@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2013-01-31 09:49+0000\n"
+"POT-Creation-Date: 2013-02-08 10:05+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -40,4 +40,52 @@ msgstr ""
 msgid ""
 "If you want us to enable another langage, please contact Gonéri "
 "'goneri@rulezlan.org' to the [[Translator mailing list|resources]]."
+msgstr ""
+
+#. type: Title ##
+#, no-wrap
+msgid "Glossary for translators"
+msgstr ""
+
+#. type: Plain text
+msgid ""
+"Here you will find technical words to be translated or not. Register on the "
+"[Mailing list for translators](http://lists.alioth.debian.org/mailman/"
+"listinfo/fusioninventory-i18ni)"
+msgstr ""
+
+#. type: Bullet: '* '
+msgid "FusionInventory For GLPI :"
+msgstr ""
+
+#. type: Bullet: '* '
+msgid "Plugin :"
+msgstr ""
+
+#. type: Bullet: '* '
+msgid "peer to peer :"
+msgstr ""
+
+#. type: Bullet: '* '
+msgid "Bug :"
+msgstr ""
+
+#. type: Bullet: '* '
+msgid "prebuilt :"
+msgstr ""
+
+#. type: Bullet: '* '
+msgid "Backend :"
+msgstr ""
+
+#. type: Bullet: '* '
+msgid "Benchmark :"
+msgstr ""
+
+#. type: Bullet: '* '
+msgid "net :"
+msgstr ""
+
+#. type: Bullet: '* '
+msgid "ip :"
 msgstr ""
