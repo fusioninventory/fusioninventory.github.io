@@ -11,3 +11,18 @@ to translate the .po files.
 
 If you want us to enable another langage, please contact Gonéri 'goneri@rulezlan.org'
 to the [[Translator mailing list|resources]].
+
+## Glossary for translators
+
+Here you will find technical words to be translated or not. Register on the 
+[Mailing list for translators](http://lists.alioth.debian.org/mailman/listinfo/fusioninventory-i18ni)
+
+* FusionInventory For GLPI :
+* Plugin :
+* peer to peer :
+* Bug :
+* prebuilt :
+* Backend :
+* Benchmark :
+* net :
+* ip :

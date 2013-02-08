@@ -75,10 +75,6 @@ msgstr ""
 "mailman/listinfo/fusioninventory-devel)"
 
 #. type: Bullet: '* '
-#, fuzzy
-#| msgid ""
-#| "[FusionInventory translator list](http://lists.alioth.debian.org/mailman/"
-#| "listinfo/fusioninventory-i18n)"
 msgid ""
 "[FusinInventory translator list](http://lists.alioth.debian.org/mailman/"
 "listinfo/fusioninventory-i18n)"

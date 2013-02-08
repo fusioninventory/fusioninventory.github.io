@@ -19,38 +19,41 @@ msgstr ""
 #. type: Title #
 #, no-wrap
 msgid "FusionInventory for GLPI installation"
-msgstr ""
+msgstr "Installation de FusionInventory for GLPI"
 
 #. type: Title ##
 #, no-wrap
 msgid "Get the archive for your GLPI"
-msgstr ""
+msgstr "Téléchargez l'archive pour votre version de GLPI"
 
 #. type: Plain text
 msgid ""
 "First, download archive the here: <http://forge.fusioninventory.org/projects/"
 "fusioninventory-for-glpi/files>"
 msgstr ""
+"En premier, trouvez l'archive ici : <http://forge.fusioninventory.org/projects/"
+"fusioninventory-for-glpi/files>"
 
 #. type: Plain text
 msgid "FusionInventory for GLPI tarball name follow this convention:"
-msgstr ""
+msgstr "Le nom du fichier de FusionInventory for GLPI utilise cette "
+"convention :"
 
 #. type: Bullet: '* '
 msgid "fusioninventory-for-glpi-metapackage_"
-msgstr ""
+msgstr "fusioninventory-for-glpi-paquet_"
 
 #. type: Bullet: '* '
 msgid "GLPI major release (0.80, 0.83, 0.84, etc)"
-msgstr ""
+msgstr "numéro de version majeur GLPI (0.80, 0.83, 0.84, etc)"
 
 #. type: Bullet: '* '
 msgid "a '+' symbol"
-msgstr ""
+msgstr "un symbole '+'"
 
 #. type: Bullet: '* '
 msgid "FusionInventory release"
-msgstr ""
+msgstr "numéro de version de FusionInventory"
 
 #. type: Plain text
 msgid ""
@@ -58,11 +61,14 @@ msgid ""
 "download it from the forge: <https://forge.indepnet.net/projects/webservices/"
 "files>"
 msgstr ""
+"le plugin WebService pour GLPI est nécessaire pour l'utilisation du déploiement ,"
+"vous pouvez le télécharger sur la Forge : <https://forge.indepnet.net/projects/webservices/"
+"files>"
 
 #. type: Title ##
 #, no-wrap
 msgid "Update"
-msgstr ""
+msgstr "Mise à jour"
 
 #. type: Plain text
 msgid ""
@@ -70,31 +76,36 @@ msgid ""
 "else the FusionInventory plugins. This to ensure deprecated files will "
 "properly be removed."
 msgstr ""
+"Vous *devez en PREMIER* désactiver le plugin FusionInventory for GLPI et "
+"déplacer les dossiers du plugin FusionInventory for GLPI. Cela pour être "
+"que les fichiers obsolètes seront proprement enlevés."
 
 #. type: Plain text
 #, no-wrap
 msgid "[[!template  id=warning text=\"Don't click on *UNINSTALL* link. If you do this, you will LOOSE all FusionInventory data.\"]]\n"
-msgstr ""
+msgstr "[[!template  id=warning text=\"Ne cliquez pas sur le lien *Désinstaller*. Si vous faites ça, vous perdrez toutes les données de FusionInventory.\"]]\n"
 
 #. type: Title ##
 #, no-wrap
 msgid "Installation"
-msgstr ""
+msgstr "Installation"
 
 #. type: Plain text
 #, no-wrap
 msgid "[[!template  id=warning text=\"If a previous FusionInventory version is already installed, you must read the Update section.\"]]\n"
-msgstr ""
+msgstr "[[!template  id=warning text=\"Si une ancienne version de FusionInventory est installée, vous devez lire la section *Mise à jour*.\"]]\n"
 
 #. type: Plain text
 msgid "It's also always a good idea to do a backup of your database."
-msgstr ""
+msgstr "Vous devriez penser à sauvegarder votre base de donnée."
 
 #. type: Bullet: '* '
 msgid ""
 "Uncompress the archive into the plugin folder of GLPI. File list seems to be "
 "like :"
 msgstr ""
+"Décompresser l'archive dans le dossier plugins de GLPI. La liste des fichiers "
+"devrait ressembler à ça :"
 
 #. type: Plain text
 #, no-wrap
@@ -108,33 +119,44 @@ msgid ""
 "            - D inc\n"
 "            - …\n"
 msgstr ""
+"    - D glpi\n"
+"      - D plugins\n"
+"         - D fusioninventory\n"
+"            - F index.php\n"
+"            - F hook.php\n"
+"            - D front\n"
+"            - D inc\n"
+"            - …\n"
 
 #. type: Bullet: '* '
 msgid "Connect to _GLPI_"
-msgstr ""
+msgstr "Connectez vous à _GLPI_"
 
 #. type: Bullet: '* '
 msgid "Go in the menu _Setup_ > _Plugins_"
-msgstr ""
+msgstr "Allez dans le menu _Configuration_ > _Plugins_"
 
 #. type: Bullet: '* '
 msgid "Install the plugins"
-msgstr ""
+msgstr "Installez les plugins"
 
 #. type: Bullet: '* '
 msgid "Activate FusionInventory"
-msgstr ""
+msgstr "Activez les plugins"
 
 #. type: Plain text
 msgid ""
 "These operations will create or upgrade the database and set the correct "
 "rights on the plugin.  Do the same for all fus* plugins"
 msgstr ""
+"Ces opérations vont créées ou mettre à jour la base de donnée et positionner "
+"correctement les droits sur les plugins. Faire la même chose sur tous les "
+"plugins Fus*."
 
 #. type: Title ##
 #, no-wrap
 msgid "Initial configuration"
-msgstr ""
+msgstr "Configuration initiale"
 
 #. type: Plain text
 #, no-wrap
@@ -142,22 +164,26 @@ msgid ""
 "Once the plugin is activated, you will have to go on the _Plugins > FusionInventory > General configuration_\n"
 "page to set the *Service URL*. You need to enter the location of your GLPI server, for example `http://glpi.mydomain/`.\n"
 msgstr ""
+"Une fois que le plugin est activé, vous devrez aller dans le menu _Plugins > FusionInventory > Configuration générale_\n"
+"pour paramétrer *URL d'accès au service*. Vous devrez écrire l'adresse de votre serveur GLPI, par exemple `http://glpi.mydomain/`.\n"
 
 #. type: Plain text
 #, no-wrap
 msgid "[[!img images/service_url.png ]]\n"
-msgstr ""
+msgstr "[[!img images/service_url.png ]]\n"
 
 #. type: Plain text
 msgid ""
 "Once these is done, you can [[install your first agent|documentation/agent/"
 "installation]]."
 msgstr ""
+"Une fois ces actions terminées, vous pouvez [[installer votre premier agent|documentation/agent/"
+"installation]]."
 
 #. type: Title ##
 #, no-wrap
 msgid "Security"
-msgstr ""
+msgstr "Sécurité"
 
 #. type: Plain text
 #, no-wrap
@@ -165,3 +191,5 @@ msgid ""
 "[[!template  id=warning text=\"We strongly recommend to activate SSL on the server side to ensure no one will be able to read password\n"
 "during authentifcation and [[for some other good reason|documentation/agent/security_and_ssl]]. A [[documentation is available to explain how to enable it|documentation/fi4g/ssl]].\"]]\n"
 msgstr ""
+"[[!template  id=warning text=\"Nous vous recommandons fortement d'activer SSL sur votre serveur pour être sûr que personne ne puisse lire le mot de passe\n"
+"pendant l'authentification et [[pour d'autre bonne raison|documentation/agent/security_and_ssl]]. Une [[documentation est disponible pour expliquer sa mise en service|documentation/fi4g/ssl]].\"]]\n"
