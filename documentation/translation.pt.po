@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2013-02-08 10:05+0000\n"
+"POT-Creation-Date: 2013-02-08 10:07+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -24,7 +24,7 @@ msgstr ""
 #. type: Plain text
 msgid ""
 "FusionInventory for GLPI can be translated directly on Transifex. You will "
-"need an account: https://www.transifex.com/projects/p/FusionInventory/"
+"need an account: <https://www.transifex.com/projects/p/FusionInventory/>"
 msgstr ""
 
 #. type: Plain text
