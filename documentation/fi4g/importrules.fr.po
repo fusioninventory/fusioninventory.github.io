@@ -19,17 +19,17 @@ msgstr ""
 #. type: Title #
 #, no-wrap
 msgid "How works 'Equipment import and link rules'"
-msgstr ""
+msgstr "Comment fonctionne l'importation d'équipement et les règles de lien"
 
 #. type: Plain text
 #, no-wrap
 msgid "[[!template  id=warning text=\"“Equipment import and link rules” are complex and misconfiguration can seriously hurt your GLPI.\"]]\n"
-msgstr ""
+msgstr "[[!template  id=warning text=\"“l'importation d'équipement et les règles de lien” sont complexes et des erreurs de configuration peuvent sérieusement affecter voter GLPI.\"]]\n"
 
 #. type: Title ##
 #, no-wrap
 msgid "First thing to know"
-msgstr ""
+msgstr "Première chose à savoir "
 
 #. type: Plain text
 msgid ""
