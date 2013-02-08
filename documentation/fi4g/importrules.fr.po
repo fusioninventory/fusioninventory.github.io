@@ -35,7 +35,7 @@ msgstr "Première chose à savoir "
 msgid ""
 "The rules engine goal is to detect if a device exists of if it has to be "
 "created."
-msgstr "Les règles du moteur ont pour but de détecter si un dispositif existe ou s'il doit être "
+msgstr "Les règles du moteur ont pour but de détecter si un appareil existe ou s'il doit être "
 "créé."
 
 #. type: Plain text
@@ -48,7 +48,7 @@ msgstr "ordinateur"
 
 #. type: Bullet: '* '
 msgid "network devices"
-msgstr "dispositifs réseau"
+msgstr "appareils réseau"
 
 #. type: Bullet: '* '
 msgid "network printer"
@@ -60,11 +60,11 @@ msgstr "Les problèmes courants liés au moteur de règles sont"
 
 #. type: Bullet: '* '
 msgid "duplicated device."
-msgstr "double dispositif"
+msgstr "double appareil"
 
 #. type: Bullet: '* '
 msgid "device pushed in the “Ignored import devices”"
-msgstr "les dispositifs sont mis dans les “dispositifs importés ignorés”"
+msgstr "les appareils sont mis dans les “appareils importés ignorés”"
 
 #. type: Plain text
 #, no-wrap
@@ -213,7 +213,7 @@ msgstr "_regular expression checks_ (contrôles d'expressions régulières)"
 
 #. type: Bullet: '* '
 msgid "_regular expression does not match_"
-msgstr "_regular expression does not match_(expression régulière ne correspond pas)"
+msgstr "_regular expression does not match_ (expression régulière ne correspond pas)"
 
 #. type: Bullet: '* '
 msgid ""
@@ -234,28 +234,32 @@ msgstr ""
 #. type: Title ###
 #, no-wrap
 msgid "Global criteria"
-msgstr ""
+msgstr "Critères globaux"
 
 #. type: Bullet: '* '
 msgid ""
 "_Search GLPI equipement with this status_: search in GLPI database if the "
 "device exist with value defined"
 msgstr ""
+"_Search GLPI equipement with this status_: cherche dans la bas de données GLPI si l' "
+"appareil existe avec la valeur définie"
 
 #. type: Plain text
 msgid ""
 "If the device is found, all criteria are checked, this rule is checked and "
 "now run the actions"
 msgstr ""
+"Si l' appareil est trouvé, tous les critères sont vérifiés, cette règle est vérifiée et "
+"maintenant lancez les actions"
 
 #. type: Title ##
 #, no-wrap
 msgid "Actions of a rule"
-msgstr ""
+msgstr "Actions d'une règle"
 
 #. type: Plain text
 msgid "The actions are defined by:"
-msgstr ""
+msgstr "Les actions sont définies par:"
 
 #. type: Bullet: '* '
 msgid ""
@@ -263,6 +267,9 @@ msgid ""
 "is found (in case use a global criteria), update this device, else create a "
 "new device with itemtype defined in inventory (computer, switches...)"
 msgstr ""
+"_FusionInventory link_ > _Link if possible, else create device_: if device "
+"is found (in case use a global criteria), update this device, else create a "
+"new device with itemtype defined in inventory (computer, switches...)"
 
 #. type: Bullet: '* '
 msgid ""
