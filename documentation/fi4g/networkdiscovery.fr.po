@@ -63,7 +63,7 @@ msgid ""
 "contact the devices. You may to add some specific privilege in a device "
 "Access Control List (ACL)."
 msgstr ""
-"Les appareils réseaux sont inventoriées en utilisant SNMP. Votre agent doit être autorisé à "
+"Les appareils réseaux sont inventoriés en utilisant SNMP. Votre agent doit être autorisé à "
 "contacter les appareils. Vous pouvez ajouter quelques privilèges spécifiques dans un appareil "
 "Access Control List (ACL)."
 
