@@ -38,10 +38,6 @@ msgstr ""
 
 #. type: Plain text
 #, fuzzy
-#| msgid ""
-#| "Beware, you'all also need the *EPEL* repository is required for perl "
-#| "dependencies. See [EPEL wiki](https://fedoraproject.org/wiki/EPEL) for "
-#| "details."
 msgid ""
 "Beware, you'all also need the *EPEL* repository. See [EPEL wiki](https://"
 "fedoraproject.org/wiki/EPEL) for details."
