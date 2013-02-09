@@ -37,7 +37,6 @@ msgstr ""
 "(https://build.opensuse.org/project/show?project=home%3Aguillomovitch)."
 
 #. type: Plain text
-#, fuzzy
 msgid ""
 "Beware, you'all also need the *EPEL* repository. See [EPEL wiki](https://"
 "fedoraproject.org/wiki/EPEL) for details."
