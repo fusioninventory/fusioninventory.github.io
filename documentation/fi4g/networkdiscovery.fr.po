@@ -24,7 +24,7 @@ msgstr "Comment scanner mon réseau"
 #. type: Plain text
 msgid ""
 "It's always a good idea to use an up to date agent for the network scan."
-msgstr "C'est toujours une bonne idée d’utiliser une mise à jour agent pour scanner le réseau."
+msgstr "C'est toujours une bonne idée d’utiliser un agent à jour pour les scannes du réseau."
 
 #. type: Title ##
 #, no-wrap
