@@ -19,7 +19,7 @@ msgstr ""
 #. type: Title #
 #, no-wrap
 msgid "System specific dependencies"
-msgstr ""
+msgstr "Système de dépendances spécifiques"
 
 #. type: Plain text
 msgid ""
@@ -27,6 +27,9 @@ msgid ""
 "it.  Download it from "
 "<http://www.sun.com/download/products.xml?id=4304155a>."
 msgstr ""
+"Sous Solaris / SPARC, vous devez installer Sneep et enregistrer le numéro de série "
+"avec. Téléchargez-le sur "
+"<http://www.sun.com/download/products.xml?id=4304155a>."
 
 #. type: Plain text
 msgid ""
@@ -36,6 +39,11 @@ msgid ""
 "binary is not reliable enough to be used on Windows 2003, leading to less "
 "precise inventories."
 msgstr ""
+"Sous Windows, nous utilisons un dmidecode binaire supplémentaire livré dans la "
+"distribution Windows pour récupérer de nombreuses informations qui ne sont pas disponibles autrement, "
+" y compris fine-grained multi-cores CPUs identification. Malheureusement, ce binaire "
+"n'est pas suffisamment fiable pour être utilisé sur Windows 2003, conduisant à des "
+"stocks moins précis. "
 
 #. type: Plain text
 msgid ""
