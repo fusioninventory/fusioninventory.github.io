@@ -70,7 +70,7 @@ msgstr ""
 #. type: Title ###
 #, no-wrap
 msgid "number of threads"
-msgstr "Nombre de threads"
+msgstr "Nombre de tâches"
 
 #. type: Plain text
 msgid ""
@@ -79,7 +79,7 @@ msgid ""
 "query 10 IP is same time, and so it's very more faster."
 msgstr ""
 "Pour avoir une exécution plus rapide de la découverte du réseau, vous pouvez définir"
-" le nombre de requêtes IP simultanées. Par exemple, si vous utilisez 10 threads, "
+" le nombre de requêtes IP simultanées. Par exemple, si vous utilisez 10 tâches, "
 "l'agent va interroger 10 IP en même temps et donc il est plus rapide."
 
 #. type: Plain text
