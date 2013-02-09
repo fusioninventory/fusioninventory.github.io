@@ -84,7 +84,7 @@ msgstr ""
 
 #. type: Plain text
 msgid "You have 2 choices:"
-msgstr ""
+msgstr "vous avez 2 choix:"
 
 #. type: Bullet: '* '
 msgid ""
@@ -92,6 +92,9 @@ msgid ""
 "_FusionInventory_ > _Configuration_ and in tab _FusionInventory SNMP_. "
 "define value _Threads number (network discovery)_."
 msgstr ""
+"General configuration: Vous pouvez le définir pour tous les agents, dans menu _plugins_ > "
+"_FusionInventory_ > _Configuration_ et dans l'onglet _FusionInventory SNMP_. "
+"définissez la valeur _Threads number (network discovery)_."
 
 #. type: Bullet: '* '
 msgid ""
@@ -101,6 +104,11 @@ msgid ""
 "and in tab _Threads number_, and define value _Threads number (network "
 "discovery)_."
 msgstr ""
+"Personalized configuration: vous pouvez écraser la configuration générale pour un "
+"agent (par exemple si l' ordinateur est plus rapide), dans menu _plugins_ > "
+"_FusionInventory_ > _FusionInventory_ > _Agents management_ allez dans agent form "
+"et dans l'onglet _Threads number_, et définissez la valeur _Threads number (network "
+"discovery)_."
 
 #. type: Title ##
 #, no-wrap
