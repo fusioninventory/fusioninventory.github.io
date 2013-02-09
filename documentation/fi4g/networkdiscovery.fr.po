@@ -78,6 +78,7 @@ msgid ""
 "simultaneous IP queries. For exemple, if you use 10 threads, agent will "
 "query 10 IP is same time, and so it's very more faster."
 msgstr ""
+"Pour avoir une exécution plus rapide de la découverte du réseau, vous pouvez définir"
 
 #. type: Plain text
 msgid "You have 2 choices:"
