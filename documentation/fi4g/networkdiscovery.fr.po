@@ -80,6 +80,7 @@ msgid ""
 msgstr ""
 "Pour avoir une exécution plus rapide de la découverte du réseau, vous pouvez définir"
 " le nombre de requêtes IP simultanées. Par exemple, si vous utilisez 10 threads, "
+"l'agent va interroger 10 IP en même temps et donc il est plus rapide."
 
 #. type: Plain text
 msgid "You have 2 choices:"
