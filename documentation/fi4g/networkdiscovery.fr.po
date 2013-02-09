@@ -70,7 +70,7 @@ msgstr ""
 #. type: Title ###
 #, no-wrap
 msgid "number of threads"
-msgstr "Nombre de tâches"
+msgstr "Nombre de processus"
 
 #. type: Plain text
 msgid ""
@@ -79,7 +79,7 @@ msgid ""
 "query 10 IP is same time, and so it's very more faster."
 msgstr ""
 "Pour avoir une exécution plus rapide de la découverte du réseau, vous pouvez définir"
-" le nombre de requêtes IP simultanées. Par exemple, si vous utilisez 10 tâches, "
+" le nombre de requêtes IP simultanées. Par exemple, si vous utilisez 10 processus, "
 "l'agent va interroger 10 IP en même temps et donc il est plus rapide."
 
 #. type: Plain text
@@ -113,7 +113,7 @@ msgstr ""
 #. type: Title ##
 #, no-wrap
 msgid "Network range"
-msgstr ""
+msgstr "Plages réseau"
 
 #. type: Plain text
 msgid ""
@@ -121,11 +121,14 @@ msgid ""
 "configuration. You can associate a network to an entity, in this case, the "
 "devices found on this network will be created in the given entity."
 msgstr ""
+"Vous devez enregistrer vos plages réseau dans “IP range configuration”."
+" Vous pouvez associer un réseau à une entité, dans ce cas, les "
+"appareils trouvés sur ce réseau seront créés dans l'entité donnée."
 
 #. type: Title ##
 #, no-wrap
 msgid "Task creation"
-msgstr ""
+msgstr "La création de tâches"
 
 #. type: Plain text
 msgid ""
