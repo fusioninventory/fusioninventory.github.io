@@ -84,7 +84,7 @@ msgstr ""
 
 #. type: Plain text
 msgid "You have 2 choices:"
-msgstr "vous avez 2 choix:"
+msgstr "Vous avez 2 choix:"
 
 #. type: Bullet: '* '
 msgid ""
