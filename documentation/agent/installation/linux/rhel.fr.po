@@ -38,11 +38,9 @@ msgstr ""
 
 #. type: Plain text
 #, fuzzy
-msgid ""
-"Beware, you'all also need the *EPEL* repository. See [EPEL \n"
+msgid "Beware, you'all also need the *EPEL* repository. See [EPEL \n"
 "wiki](https://fedoraproject.org/wiki/EPEL) for details.\n"
-msgstr ""
-"Attention, vous aurez besoin d'avoir le dépôt EPEL. Reportez vous pour \n"
+msgstr "Attention, vous aurez besoin d'avoir le dépôt EPEL. Reportez vous pour \n"
 "plus de détails à [EPEL wiki](https://fedoraproject.org/wiki/EPEL).\n"
 
 #. type: Title ##
