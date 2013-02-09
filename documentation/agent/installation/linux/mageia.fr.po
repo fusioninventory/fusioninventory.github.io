@@ -19,7 +19,7 @@ msgstr ""
 #. type: Title #
 #, no-wrap
 msgid "Installation of the Agent on Mageia and Mandriva"
-msgstr ""
+msgstr "Installation de l'agent sur Mageia et Mandriva"
 
 #. type: Plain text
 #, no-wrap
@@ -28,18 +28,23 @@ msgid ""
 "and\n"
 "mandriva.\n"
 msgstr ""
+"*fusioninventory-agent* fait partit du *official repository* pour mageia "
+"et\n"
+"mandriva.\n"
 
 #. type: Plain text
 msgid "Agent installation:"
-msgstr ""
+msgstr "Installation de l'agent"
 
 #. type: Plain text
 #, no-wrap
 msgid "    # urpmi fusioninventory-agent\n"
-msgstr ""
+msgstr "    # urpmi fusioninventory-agent\n"
 
 #. type: Plain text
 msgid ""
 "Only *fusioninventory-agent* is mandatory, other packages are additional "
 "tasks."
 msgstr ""
+"Seul *fusioninventory-agent* est obligatoire, les autres paquets sont des tâches "
+"additionnelles."
