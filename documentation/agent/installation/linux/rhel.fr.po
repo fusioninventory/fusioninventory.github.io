@@ -43,8 +43,7 @@ msgid ""
 "fedoraproject.org/wiki/EPEL) for details."
 msgstr ""
 "Attention, vous aurez besoin d'avoir le dépôt EPEL pour les dépendances "
-"Perl. Reportez vous pour plus de détails à [EPEL wiki](https://fedoraproject."
-"org/wiki/EPEL)."
+"Perl. Reportez vous pour plus de détails à [EPEL wiki](https://fedoraproject.org/wiki/EPEL)."
 
 #. type: Title ##
 #, no-wrap
