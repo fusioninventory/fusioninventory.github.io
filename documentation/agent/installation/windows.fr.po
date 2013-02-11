@@ -54,7 +54,6 @@ msgid "a *-* (dash)"
 msgstr "le symbole *-* (tiret)"
 
 #. type: Bullet: '* '
-#, fuzzy
 #| msgid ""
 #| "the package revision. e.g: 2, for the 2nd installer generated for the "
 #| "2.2.5 release"
@@ -89,7 +88,7 @@ msgid "Enter the full URL to your server."
 msgstr "Entrez l'URL complète pour votre serveur."
 
 #. type: Plain text
-#, fuzzy, no-wrap
+#, no-wrap
 #| msgid ""
 #| "2. You can configure a key word to be able to sort out your machine later (TAG).\n"
 #| "[[!template  id=warning text=\"\"\"\n"
@@ -134,7 +133,6 @@ msgstr ""
 "Cette option est utilée pour désactiver la vérification du certificat HTTPS."
 
 #. type: Bullet: '4. '
-#, fuzzy
 #| msgid "You can configure here a HTTP proxy. For example, proxy:3128"
 msgid "You can configure here a HTTP proxy. For example, proxy:3128"
 msgstr ""
