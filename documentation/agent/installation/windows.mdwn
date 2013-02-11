@@ -1,6 +1,6 @@
-# Instalacja w Windows
+# Windows installation
 
-## Pobierz instalator
+## Get the installer
 
 First, download the archive: <http://prebuilt.fusioninventory.org/stable/windows-i386/>
 
