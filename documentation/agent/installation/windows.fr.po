@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2013-02-11 06:58+0000\n"
+"POT-Creation-Date: 2013-02-11 07:30+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -28,16 +28,20 @@ msgid "Pobierz instalator"
 msgstr "Installation en masse"
 
 #. type: Plain text
+#, fuzzy
+#| msgid ""
+#| "First, download the archive: <http://prebuilt.fusioninventory.org/stable/"
+#| "windows-i386/>"
 msgid ""
-"First, download the archive: <http://prebuilt.fusioninventory.org/stable/"
-"windows-i386/>"
+"Najpierw ściągnij paczkę instalacyjną : <http://prebuilt.fusioninventory.org/"
+"stable/windows-i386/>"
 msgstr ""
 "Premièrement, téléchargez l'archive: <http://prebuilt.fusioninventory.org/"
 "stable/windows-i386/>"
 
 #. type: Plain text
-msgid "The file name convention is:"
-msgstr "La convention pour le nom est :"
+msgid "Konwencja nazewnicza plików :"
+msgstr ""
 
 #. type: Bullet: '* '
 msgid "fusioninventory-agent_windows-i386_"
@@ -52,9 +56,12 @@ msgid "a *-* (dash)"
 msgstr "le symbole *-* (tiret)"
 
 #. type: Bullet: '* '
+#, fuzzy
+#| msgid ""
+#| "the package revision. e.g: 2, for the 2nd installer generated for the "
+#| "2.2.5 release"
 msgid ""
-"the package revision. e.g: 2, for the 2nd installer generated for the 2.2.5 "
-"release"
+"wersja pakietu. np.: 2, for the 2nd installer generated for the 2.2.5 release"
 msgstr ""
 "La version du paquet. exemple: 2, pour le 2è installeur généré pour la "
 "version stable 2.2.5"
@@ -64,14 +71,13 @@ msgid ".exe"
 msgstr ".exe"
 
 #. type: Plain text
-msgid "The installer can be used either on 32 or 64 bit Windows."
+msgid "Instalator może być użyty zarówno dla wersji Windows 32 i 64 bitowej"
 msgstr ""
-"L'installeur peut être utilisé aussi bien sur les Windows 32 ou 64 bit."
 
 #. type: Title ##
 #, no-wrap
-msgid "Settings"
-msgstr "Paramétrages"
+msgid "Ustawienia"
+msgstr ""
 
 #. type: Plain text
 #, no-wrap
@@ -79,26 +85,29 @@ msgid "[[!img documentation/agent/installation/windows-installer-settings-1.png]
 msgstr "[[!img documentation/agent/installation/windows-installer-settings-1.png]]\n"
 
 #. type: Bullet: '1. '
-msgid "Enter the full URL to your server."
-msgstr "Entrez l'URL complète pour votre serveur."
+msgid "Wprowadź pełny URL do swojego serwera."
+msgstr ""
 
 #. type: Plain text
-#, no-wrap
+#, fuzzy, no-wrap
+#| msgid ""
+#| "2. You can configure a key word to be able to sort out your machine later (TAG).\n"
+#| "[[!template  id=warning text=\"\"\"\n"
 msgid ""
-"2. You can configure a key word to be able to sort out your machine later (TAG).\n"
+"2. Możesz skonfigurować słowo klucz by później móc sortować maszyny (TAG).\n"
 "[[!template  id=warning text=\"\"\"\n"
 msgstr ""
 "2. Vous pouvez configurer un *Tag* pour retrouver votre machine plus tard par mot clé.\n"
 "[[!template  id=warning text=\"\"\"\n"
 
 #. type: Plain text
-msgid "A common mistake is to mix HTTP and HTTPS in URL."
-msgstr "Une erreur classique est de mélanger HTTP et HTTPS dans l'URL."
+msgid "Podstawowy błędem jest mieszanie HTTP i HTTPS w adresie URL."
+msgstr ""
 
 #. type: Title ##
 #, no-wrap
-msgid "Advanced settings"
-msgstr "Paramétrages avancés"
+msgid "Zaawansowane ustawienia"
+msgstr ""
 
 #. type: Plain text
 #, no-wrap
@@ -106,26 +115,23 @@ msgid "[[!img documentation/agent/installation/windows-installer-settings-2.png]
 msgstr "[[!img documentation/agent/installation/windows-installer-settings-2.png]]\n"
 
 #. type: Bullet: '1. '
-msgid ""
-"Enter here an optional HTTP login and password. This is unrelated with GLPI."
+msgid "Wpisz tutaj opcjonalnie login i hasło HTTP. Nie ma to związku z GLPI."
 msgstr ""
-" Entrez ici l'authentification HTTP si besoin. Cela n'a aucun lien avec GLPI."
 
 #. type: Bullet: '2. '
 msgid ""
-"Enter the full path to you certificat file. This is important only if you "
-"use HTTPS."
+"Wpisz pełną ściezkę do pliku z certyfikatem. Jest niezbędne w przypadku "
+"stosowania HTTPS."
 msgstr ""
-"Entrez le chemin complet de votre certificat. Cela n'est important que "
-"seulement si vous utilisez HTTPS."
 
 #. type: Bullet: '3. '
-msgid "This check box will disable the HTTPS certificat check."
+msgid "Ten check box wyłącza sprawdzanie certyfikatu HTTPS."
 msgstr ""
-"Cette option est utilée pour désactiver la vérification du certificat HTTPS."
 
 #. type: Bullet: '4. '
-msgid "You can configure here a HTTP proxy. For example, proxy:3128"
+#, fuzzy
+#| msgid "You can configure here a HTTP proxy. For example, proxy:3128"
+msgid "Tutaj możesz skonfigurować HTTP proxy. Na przykład, proxy:3128"
 msgstr ""
 "Vous pouvez configurer ici les paramètres d'un proxy HTTP. Exemple, "
 "proxy:3128"
@@ -297,6 +303,44 @@ msgstr ""
 "Si vous êtes développeur, ou un utilisateur expérimenté, vous pouvez aussi "
 "installer FusionInventory [[depuis les sources|documentation/agent/dev/"
 "git_windows]]."
+
+#~ msgid "The file name convention is:"
+#~ msgstr "La convention pour le nom est :"
+
+#~ msgid "The installer can be used either on 32 or 64 bit Windows."
+#~ msgstr ""
+#~ "L'installeur peut être utilisé aussi bien sur les Windows 32 ou 64 bit."
+
+#~ msgid "Settings"
+#~ msgstr "Paramétrages"
+
+#~ msgid "Enter the full URL to your server."
+#~ msgstr "Entrez l'URL complète pour votre serveur."
+
+#~ msgid "A common mistake is to mix HTTP and HTTPS in URL."
+#~ msgstr "Une erreur classique est de mélanger HTTP et HTTPS dans l'URL."
+
+#~ msgid "Advanced settings"
+#~ msgstr "Paramétrages avancés"
+
+#~ msgid ""
+#~ "Enter here an optional HTTP login and password. This is unrelated with "
+#~ "GLPI."
+#~ msgstr ""
+#~ " Entrez ici l'authentification HTTP si besoin. Cela n'a aucun lien avec "
+#~ "GLPI."
+
+#~ msgid ""
+#~ "Enter the full path to you certificat file. This is important only if you "
+#~ "use HTTPS."
+#~ msgstr ""
+#~ "Entrez le chemin complet de votre certificat. Cela n'est important que "
+#~ "seulement si vous utilisez HTTPS."
+
+#~ msgid "This check box will disable the HTTPS certificat check."
+#~ msgstr ""
+#~ "Cette option est utilée pour désactiver la vérification du certificat "
+#~ "HTTPS."
 
 #~ msgid "Windows installation"
 #~ msgstr "Installation pour Windows"
