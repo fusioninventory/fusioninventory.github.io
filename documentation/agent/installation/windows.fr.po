@@ -27,7 +27,6 @@ msgid "Get the installer"
 msgstr "Prendre l'installeur"
 
 #. type: Plain text
-#, fuzzy
 #| msgid ""
 #| "First, download the archive: <http://prebuilt.fusioninventory.org/stable/"
 #| "windows-i386/>"
