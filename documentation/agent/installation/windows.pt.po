@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2013-02-11 07:30+0000\n"
+"POT-Creation-Date: 2013-02-11 11:22+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -18,22 +18,22 @@ msgstr ""
 
 #. type: Title #
 #, no-wrap
-msgid "Instalacja w Windows"
+msgid "Windows installation"
 msgstr ""
 
 #. type: Title ##
 #, no-wrap
-msgid "Pobierz instalator"
+msgid "Get the installer"
 msgstr ""
 
 #. type: Plain text
 msgid ""
-"Najpierw ściągnij paczkę instalacyjną : <http://prebuilt.fusioninventory.org/"
-"stable/windows-i386/>"
+"First, download the archive: <http://prebuilt.fusioninventory.org/stable/"
+"windows-i386/>"
 msgstr ""
 
 #. type: Plain text
-msgid "Konwencja nazewnicza plików :"
+msgid "The file name convention is:"
 msgstr ""
 
 #. type: Bullet: '* '
@@ -50,7 +50,8 @@ msgstr ""
 
 #. type: Bullet: '* '
 msgid ""
-"wersja pakietu. np.: 2, for the 2nd installer generated for the 2.2.5 release"
+"the package revision. e.g: 2, for the 2nd installer generated for the 2.2.5 "
+"release"
 msgstr ""
 
 #. type: Bullet: '* '
@@ -58,12 +59,12 @@ msgid ".exe"
 msgstr ""
 
 #. type: Plain text
-msgid "Instalator może być użyty zarówno dla wersji Windows 32 i 64 bitowej"
+msgid "The installer can be used either on 32 or 64 bit Windows."
 msgstr ""
 
 #. type: Title ##
 #, no-wrap
-msgid "Ustawienia"
+msgid "Settings"
 msgstr ""
 
 #. type: Plain text
@@ -72,23 +73,23 @@ msgid "[[!img documentation/agent/installation/windows-installer-settings-1.png]
 msgstr ""
 
 #. type: Bullet: '1. '
-msgid "Wprowadź pełny URL do swojego serwera."
+msgid "Enter the full URL to your server."
 msgstr ""
 
 #. type: Plain text
 #, no-wrap
 msgid ""
-"2. Możesz skonfigurować słowo klucz by później móc sortować maszyny (TAG).\n"
+"2. You can configure a key word to be able to sort out your machine later (TAG).\n"
 "[[!template  id=warning text=\"\"\"\n"
 msgstr ""
 
 #. type: Plain text
-msgid "Podstawowy błędem jest mieszanie HTTP i HTTPS w adresie URL."
+msgid "A common mistake is to mix HTTP and HTTPS in URL."
 msgstr ""
 
 #. type: Title ##
 #, no-wrap
-msgid "Zaawansowane ustawienia"
+msgid "Advanced settings"
 msgstr ""
 
 #. type: Plain text
@@ -97,21 +98,22 @@ msgid "[[!img documentation/agent/installation/windows-installer-settings-2.png]
 msgstr ""
 
 #. type: Bullet: '1. '
-msgid "Wpisz tutaj opcjonalnie login i hasło HTTP. Nie ma to związku z GLPI."
+msgid ""
+"Enter here an optional HTTP login and password. This is unrelated with GLPI."
 msgstr ""
 
 #. type: Bullet: '2. '
 msgid ""
-"Wpisz pełną ściezkę do pliku z certyfikatem. Jest niezbędne w przypadku "
-"stosowania HTTPS."
+"Enter the full path to you certificat file. This is important only if you "
+"use HTTPS."
 msgstr ""
 
 #. type: Bullet: '3. '
-msgid "Ten check box wyłącza sprawdzanie certyfikatu HTTPS."
+msgid "This check box will disable the HTTPS certificat check."
 msgstr ""
 
 #. type: Bullet: '4. '
-msgid "Tutaj możesz skonfigurować HTTP proxy. Na przykład, proxy:3128"
+msgid "You can configure here a HTTP proxy. For example, proxy:3128"
 msgstr ""
 
 #. type: Bullet: '5. '
