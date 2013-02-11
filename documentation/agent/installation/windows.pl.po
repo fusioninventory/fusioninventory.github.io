@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2013-01-10 11:43+0000\n"
+"POT-Creation-Date: 2013-02-11 06:58+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: Piotr Adamcio <p.adamcio@czluchow.org.pl>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -18,20 +18,21 @@ msgstr ""
 
 #. type: Title #
 #, no-wrap
-msgid "Windows installation"
-msgstr "Instalacja w Windows"
+msgid "Instalacja w Windows"
+msgstr ""
 
 #. type: Title ##
 #, no-wrap
-msgid "Get the installer"
-msgstr "Pobierz instalator"
+msgid "Pobierz instalator"
+msgstr ""
 
 #. type: Plain text
 msgid ""
 "First, download the archive: <http://prebuilt.fusioninventory.org/stable/"
 "windows-i386/>"
-msgstr "Ściągnij instalator: <http://prebuilt.fusioninventory.org/stable/"
-"windows-i386/>"
+msgstr ""
+"Ściągnij instalator: <http://prebuilt.fusioninventory.org/stable/windows-"
+"i386/>"
 
 #. type: Plain text
 msgid "The file name convention is:"
@@ -82,7 +83,8 @@ msgstr "Podaj pełny adres URL dla swojego serwera"
 msgid ""
 "2. You can configure a key word to be able to sort out your machine later (TAG).\n"
 "[[!template  id=warning text=\"\"\"\n"
-msgstr "Możesz skonfigurować słowo klucz by mieć później możliwość sortowania maszyn (TAG).\n"
+msgstr ""
+"Możesz skonfigurować słowo klucz by mieć później możliwość sortowania maszyn (TAG).\n"
 "[[!template  id=warning text=\"\"\"\n"
 
 #. type: Plain text
@@ -103,15 +105,16 @@ msgstr "[[!img documentation/agent/installation/windows-installer-settings-2.png
 msgid ""
 "Enter here an optional HTTP login and password. This is unrelated with GLPI."
 msgstr ""
-"Opcjonalnie możesz wstawić login i hasło HTTP. Nie ma to żadnego związku z GLPI."
+"Opcjonalnie możesz wstawić login i hasło HTTP. Nie ma to żadnego związku z "
+"GLPI."
 
 #. type: Bullet: '2. '
 msgid ""
 "Enter the full path to you certificat file. This is important only if you "
 "use HTTPS."
 msgstr ""
-"Podaj pełną ścieżkę do pliku z certyfikatem. Jest to istotne tylko jeśli"
-" używasz HTTPS"
+"Podaj pełną ścieżkę do pliku z certyfikatem. Jest to istotne tylko jeśli "
+"używasz HTTPS"
 
 #. type: Bullet: '3. '
 msgid "This check box will disable the HTTPS certificat check."
@@ -125,9 +128,7 @@ msgstr "Możesz tutaj skonfigurować proxy. Na przykład, proxy:3128"
 msgid ""
 "This is the port of the HTTP service of the agent. You need to change it on "
 "the server too."
-msgstr ""
-"To jest port usługi HTTP agenta. Musisz zmienić go również"
-" na serwerze"
+msgstr "To jest port usługi HTTP agenta. Musisz zmienić go również na serwerze"
 
 #. type: Bullet: '6. '
 msgid ""
@@ -140,8 +141,8 @@ msgid ""
 "The installer can configure the Firewall for you if you want to allow "
 "connection on RPC port."
 msgstr ""
-"Instalator może skonfigurować dla ciebie Firewall jeśli chcesz zezwolić"
-"na połączenia przez port RPC."
+"Instalator może skonfigurować dla ciebie Firewall jeśli chcesz zezwolićna "
+"połączenia przez port RPC."
 
 #. type: Plain text
 #, no-wrap
@@ -252,3 +253,9 @@ msgid ""
 "If you are an developer, or an advanced user, you can also install "
 "FusionInventory [[from sources|documentation/agent/dev/git_windows]]."
 msgstr ""
+
+#~ msgid "Windows installation"
+#~ msgstr "Instalacja w Windows"
+
+#~ msgid "Get the installer"
+#~ msgstr "Pobierz instalator"

@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2013-01-11 14:06+0000\n"
+"POT-Creation-Date: 2013-02-11 06:58+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -18,21 +18,22 @@ msgstr ""
 
 #. type: Title #
 #, no-wrap
-msgid "Windows installation"
-msgstr "Installation pour Windows"
+msgid "Instalacja w Windows"
+msgstr ""
 
 #. type: Title ##
-#, no-wrap
-msgid "Get the installer"
-msgstr "Prendre l'installeur"
+#, fuzzy, no-wrap
+#| msgid "Large installation"
+msgid "Pobierz instalator"
+msgstr "Installation en masse"
 
 #. type: Plain text
 msgid ""
-"First, download the archive: "
-"<http://prebuilt.fusioninventory.org/stable/windows-i386/>"
+"First, download the archive: <http://prebuilt.fusioninventory.org/stable/"
+"windows-i386/>"
 msgstr ""
-"Premièrement, téléchargez l'archive: "
-"<http://prebuilt.fusioninventory.org/stable/windows-i386/>"
+"Premièrement, téléchargez l'archive: <http://prebuilt.fusioninventory.org/"
+"stable/windows-i386/>"
 
 #. type: Plain text
 msgid "The file name convention is:"
@@ -55,7 +56,8 @@ msgid ""
 "the package revision. e.g: 2, for the 2nd installer generated for the 2.2.5 "
 "release"
 msgstr ""
-"La version du paquet. exemple: 2, pour le 2è installeur généré pour la version stable 2.2.5"
+"La version du paquet. exemple: 2, pour le 2è installeur généré pour la "
+"version stable 2.2.5"
 
 #. type: Bullet: '* '
 msgid ".exe"
@@ -63,7 +65,8 @@ msgstr ".exe"
 
 #. type: Plain text
 msgid "The installer can be used either on 32 or 64 bit Windows."
-msgstr "L'installeur peut être utilisé aussi bien sur les Windows 32 ou 64 bit."
+msgstr ""
+"L'installeur peut être utilisé aussi bien sur les Windows 32 ou 64 bit."
 
 #. type: Title ##
 #, no-wrap
@@ -82,8 +85,7 @@ msgstr "Entrez l'URL complète pour votre serveur."
 #. type: Plain text
 #, no-wrap
 msgid ""
-"2. You can configure a key word to be able to sort out your machine later "
-"(TAG).\n"
+"2. You can configure a key word to be able to sort out your machine later (TAG).\n"
 "[[!template  id=warning text=\"\"\"\n"
 msgstr ""
 "2. Vous pouvez configurer un *Tag* pour retrouver votre machine plus tard par mot clé.\n"
@@ -104,31 +106,37 @@ msgid "[[!img documentation/agent/installation/windows-installer-settings-2.png]
 msgstr "[[!img documentation/agent/installation/windows-installer-settings-2.png]]\n"
 
 #. type: Bullet: '1. '
-msgid "Enter here an optional HTTP login and password. This is unrelated with GLPI."
-msgstr " Entrez ici l'authentification HTTP si besoin. Cela n'a aucun lien avec GLPI."
+msgid ""
+"Enter here an optional HTTP login and password. This is unrelated with GLPI."
+msgstr ""
+" Entrez ici l'authentification HTTP si besoin. Cela n'a aucun lien avec GLPI."
 
 #. type: Bullet: '2. '
 msgid ""
 "Enter the full path to you certificat file. This is important only if you "
 "use HTTPS."
-msgstr "Entrez le chemin complet de votre certificat. Cela n'est important que seulement "
-"si vous utilisez HTTPS."
+msgstr ""
+"Entrez le chemin complet de votre certificat. Cela n'est important que "
+"seulement si vous utilisez HTTPS."
 
 #. type: Bullet: '3. '
 msgid "This check box will disable the HTTPS certificat check."
-msgstr "Cette option est utilée pour désactiver la vérification du certificat HTTPS."
+msgstr ""
+"Cette option est utilée pour désactiver la vérification du certificat HTTPS."
 
 #. type: Bullet: '4. '
 msgid "You can configure here a HTTP proxy. For example, proxy:3128"
-msgstr "Vous pouvez configurer ici les paramètres d'un proxy HTTP. Exemple, proxy:3128"
+msgstr ""
+"Vous pouvez configurer ici les paramètres d'un proxy HTTP. Exemple, "
+"proxy:3128"
 
 #. type: Bullet: '5. '
 msgid ""
 "This is the port of the HTTP service of the agent. You need to change it on "
 "the server too."
 msgstr ""
-"C'est le port HTTP du service utilisé par l'agent. Vous devrez aussi le changer "
-"sur le serveur."
+"C'est le port HTTP du service utilisé par l'agent. Vous devrez aussi le "
+"changer sur le serveur."
 
 #. type: Bullet: '6. '
 msgid ""
@@ -168,8 +176,7 @@ msgstr "Paramètres en ligne de commande de l'installeur"
 #, no-wrap
 msgid ""
 "~~~~\n"
-"/help                   Display this help. The space in front of /help is "
-"mandatory!\n"
+"/help                   Display this help. The space in front of /help is mandatory!\n"
 "/S                      Run setup in silent mode\n"
 "/installdir=dirname     Set installation directory of agent\n"
 "/server=url1,url2       Set url of server\n"
@@ -178,41 +185,34 @@ msgid ""
 "/pass=password          Set password\n"
 "/realm=realm            Set realm\n"
 "/ca-cert-file=filename  Set filename of certificate\n"
-"/no-ssl-check           No certificate check when establishing SSL "
-"connection\n"
+"/no-ssl-check           No certificate check when establishing SSL connection\n"
 "/proxy=http://proxy/    Set proxy\n"
 "/debug                  Set debug mode\n"
 "/rpc-port               Set RPC port number\n"
 "/scan-homedirs          Look for virtual machines in home directories\n"
 "/runnow                 Run agent after end of installation\n"
 "/update-firewall        Update the Firewall to register the agent\n"
-"/execmode=option        launch the agent with a service(service)/windows "
-"task scheduler(task)/or keep settings unchanged(none) (default is service)\n"
+"/execmode=option        launch the agent with a service(service)/windows task scheduler(task)/or keep settings unchanged(none) (default is service)\n"
 "~~~~\n"
 msgstr ""
 "~~~~\n"
-"/help                   Montre cette aide. L'espace devant /help est nécessaire !\n "
-"/S                      Active le mode d'installation silencieuse\n"
+"/help                   Montre cette aide. L'espace devant /help est nécessaire !\n"
+" /S                      Active le mode d'installation silencieuse\n"
 "/installdir=dirname     Sélectionne le dossier d'installation de l'agent\n"
 "/server=url1,url2       Active l'URL du(des) serveur(s) OCS ou GLPI\n"
 "/tag=tagame             Positionne le Tag\n"
 "/user=username          Active un nom de connexion\n"
 "/pass=password          Active un mot de pass de connexion\n"
 "/realm=realm            Positionne un domaine\n"
-"/ca-cert-file=filename  Donne le chemin pour trouver le certificat SSL pour "
-"connexion HTTPS\n"
-"/no-ssl-check           Désactive la vérification du certificat SSL pour les "
-"connexions HTTPS\n"
+"/ca-cert-file=filename  Donne le chemin pour trouver le certificat SSL pour connexion HTTPS\n"
+"/no-ssl-check           Désactive la vérification du certificat SSL pour les connexions HTTPS\n"
 "/proxy=http://proxy/    Positionne un proxy pour la connexion avec le serveur\n"
 "/debug                  Active le mode de débug\n"
 "/rpc-port               Positionne le port TCP de connexion RPC de l'agent\n"
-"/scan-homedirs          Active la recherche de machine virtuelle dans les dossiers"
-" utilisateurs\n"
+"/scan-homedirs          Active la recherche de machine virtuelle dans les dossiers utilisateurs\n"
 "/runnow                 Lance l'agent après l'installation\n"
 "/update-firewall        Met à jour le pare-feu pour autoriser l'agent\n"
-"/execmode=option        Active le mode de lancement de l'agent comme service(service), "
-"tâche planifier windows(task) ou laisse les paramètres inchangés(none) "
-"(par défaut c'est service)\n"
+"/execmode=option        Active le mode de lancement de l'agent comme service(service), tâche planifier windows(task) ou laisse les paramètres inchangés(none) (par défaut c'est service)\n"
 "~~~~\n"
 
 #. type: Title ##
@@ -226,29 +226,21 @@ msgstr "Pour positionner les paramètres, faites comme l'exemple:"
 
 #. type: Plain text
 #, no-wrap
-msgid ""
-"    fusioninventory-agent_windows-i386_2.x.x-1.exe /S /debug /runnow "
-"/server=https://server1/glpi/plugins/fusioninventory/\n"
-msgstr ""
-"    fusioninventory-agent_windows-i386_2.x.x-1.exe /S /debug /runnow "
-"/server=https://server1/glpi/plugins/fusioninventory/\n"
+msgid "    fusioninventory-agent_windows-i386_2.x.x-1.exe /S /debug /runnow /server=https://server1/glpi/plugins/fusioninventory/\n"
+msgstr "    fusioninventory-agent_windows-i386_2.x.x-1.exe /S /debug /runnow /server=https://server1/glpi/plugins/fusioninventory/\n"
 
 #. type: Plain text
 msgid ""
 "this mean that i want to install fusioninventory in silent mode, run an "
 "inventory after installation, and send the inventory by https"
 msgstr ""
-"Cela permet d'installer FusionInventory en mode silencieux, lance un inventaire "
-"après l'installation et envoie l'inventaire en https"
+"Cela permet d'installer FusionInventory en mode silencieux, lance un "
+"inventaire après l'installation et envoie l'inventaire en https"
 
 #. type: Plain text
 #, no-wrap
-msgid ""
-"    fusioninventory-agent_windows-i386_2.x.x-1.exe /S /debug /runnow "
-"/server=http://server1/glpi/plugins/fusioninventory/\n"
-msgstr ""
-"    fusioninventory-agent_windows-i386_2.x.x-1.exe /S /debug /runnow "
-"/server=http://server1/glpi/plugins/fusioninventory/\n"
+msgid "    fusioninventory-agent_windows-i386_2.x.x-1.exe /S /debug /runnow /server=http://server1/glpi/plugins/fusioninventory/\n"
+msgstr "    fusioninventory-agent_windows-i386_2.x.x-1.exe /S /debug /runnow /server=http://server1/glpi/plugins/fusioninventory/\n"
 
 #. type: Plain text
 msgid "The same as above but with a plain http connection"
@@ -259,34 +251,24 @@ msgid ""
 "And installation directory of the agent can be changed via command-line as "
 "below:"
 msgstr ""
-"Et le dossier d'installation de l'agent peut être changé via la commande comme suit:"
+"Et le dossier d'installation de l'agent peut être changé via la commande "
+"comme suit:"
 
 #. type: Plain text
 #, no-wrap
 msgid ""
-"    fusioninventory-agent_windows-i386_2.x.x-1.exe /S "
-"\"/installdir=C:\\Program Files\\FusInv\"\n"
+"    fusioninventory-agent_windows-i386_2.x.x-1.exe /S \"/installdir=C:\\Program Files\\FusInv\"\n"
 "Edit\n"
 "Upgrade with FusionInventory Deploy\n"
 msgstr ""
-"    fusioninventory-agent_windows-i386_2.x.x-1.exe /S "
-"\"/installdir=C:\\Program Files\\FusInv\"\n"
+"    fusioninventory-agent_windows-i386_2.x.x-1.exe /S \"/installdir=C:\\Program Files\\FusInv\"\n"
 "\n"
 "Mettre à jour avec FusionInventory Deploy\n"
 
 #. type: Plain text
 #, no-wrap
-msgid ""
-"If you upgrade the agent with FusionInventory Deploy and the agent is "
-"launched with a Service, you will need an agent > 2.2.0-2 and the "
-"/execmode=none parameter. This way, the agent won't remove or add service or "
-"update the Tasks Scheduler setting. So you will keep the previous "
-"settings.\n"
-msgstr ""
-"Si vous mettez à jour l'agent avec FusionInventory Deploy et un agent lancé "
-"en mode Service, vous avez besoin d'un agent > 2.2.0-2 et de l'option "
-"/execmode=none. De cette façon, l'agent ne sera pas supprimé ou ajouté en plus ou "
-"modifiera les paramètres du planificateur de tâche. Ainsi vous garderez la configuration.\n"
+msgid "If you upgrade the agent with FusionInventory Deploy and the agent is launched with a Service, you will need an agent > 2.2.0-2 and the /execmode=none parameter. This way, the agent won't remove or add service or update the Tasks Scheduler setting. So you will keep the previous settings.\n"
+msgstr "Si vous mettez à jour l'agent avec FusionInventory Deploy et un agent lancé en mode Service, vous avez besoin d'un agent > 2.2.0-2 et de l'option /execmode=none. De cette façon, l'agent ne sera pas supprimé ou ajouté en plus ou modifiera les paramètres du planificateur de tâche. Ainsi vous garderez la configuration.\n"
 
 #. type: Title #
 #, no-wrap
@@ -295,11 +277,12 @@ msgstr "Installation en masse"
 
 #. type: Plain text
 msgid ""
-"A page is dedicated to explain how to [[deploy the agent on a Windows "
-"domain|documentation/agent/installation/windows/large_install]]."
+"A page is dedicated to explain how to [[deploy the agent on a Windows domain|"
+"documentation/agent/installation/windows/large_install]]."
 msgstr ""
-"Une page est dédiée pour la procédure de déploiement de l'agent sur un domain "
-"Windows, [[ici|documentation/agent/installation/windows/large_install]]."
+"Une page est dédiée pour la procédure de déploiement de l'agent sur un "
+"domain Windows, [[ici|documentation/agent/installation/windows/"
+"large_install]]."
 
 #. type: Title #
 #, no-wrap
@@ -312,4 +295,11 @@ msgid ""
 "FusionInventory [[from sources|documentation/agent/dev/git_windows]]."
 msgstr ""
 "Si vous êtes développeur, ou un utilisateur expérimenté, vous pouvez aussi "
-"installer FusionInventory [[depuis les sources|documentation/agent/dev/git_windows]]."
+"installer FusionInventory [[depuis les sources|documentation/agent/dev/"
+"git_windows]]."
+
+#~ msgid "Windows installation"
+#~ msgstr "Installation pour Windows"
+
+#~ msgid "Get the installer"
+#~ msgstr "Prendre l'installeur"
