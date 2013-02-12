@@ -12,6 +12,6 @@ See these information:
 
 * To report a bug, create an account on [forge](http://forge.fusioninventory.org) and open a bug with this [page](http://forge.fusioninventory.org/projects/fusioninventory-for-glpi/issues/new). Don't forget to specify the target version: **0.84+1.0-BETA**
 
-* The user have opened the most bugs at the end of the hunter bug period will win a **Raspberry Pi** (yes we love open source!)
+* The user have opened the most bugs at the end of the hunter bug period will win a **Raspberry Pi** (yes we love free software!)
 
 [[!img  fusioninventoryneedsyou.png size="300x381" alt="clouds"]]
