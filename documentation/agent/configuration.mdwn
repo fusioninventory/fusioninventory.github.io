@@ -1,6 +1,12 @@
 #Agent configuration
 
-The agent reads the configuration from a list of key / value. Sometime, value can be a list of value, in such case, a comma is used a field separator (e.g: server).
+The agent reads its configuration from a configuration file (from the registry
+on Windows), then from the command line. Most parameters can be set from any
+method. For instance, the `server` parameter in configuration file is the same
+as the `--server` parameter on command line.
+
+Most configuration parameters are single-valued. Multi-valued ones use a comma
+field separator. For instance, `logger = Stderr, File`
 
 ## Where is the configuration?
 
@@ -14,8 +20,8 @@ Depending on the OperatingSystem and the installation method, the agent will rea
 
 ## Minimal configuration
 
-* `server`: the URL to the server, in general, it's http://glpiserver/plugins/fusioninventory/
-* `debug`: debug can be 0, 1 or 2. We suggest to use 2 to help you understand what append
+* `server`: the server URL, in general, it's http://glpiserver/plugins/fusioninventory/
+* `debug`: debug can be 0, 1 or 2. We suggest to use 2 to help you understand what happens
 * `httpd-trust`: it's always a good idea to configure this key with the **IP address** (not the hostname) of the server. This way you will be able to use the **push** mode later.
 
 Once this is done, you can [[force an inventory|documentation/agent/launch_the_agent]].
