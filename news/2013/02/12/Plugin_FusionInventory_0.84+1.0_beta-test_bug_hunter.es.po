@@ -1,0 +1,72 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2013-02-12 21:24+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. type: Plain text
+#, no-wrap
+msgid "[[!meta  date=\"2013-02-12\"]]\n"
+msgstr ""
+
+#. type: Plain text
+msgid ""
+"GLPI 0.84 version is now in beta test, see this post in [GLPI "
+"forum](http://www.glpi-project.org/forum/search.php?search_id=1785690941)."
+msgstr ""
+
+#. type: Plain text
+msgid ""
+"So we begin FusionInventory beta test for plugin FusionInventory for GLPI "
+"0.84+1.0 and open own bug hunter ;)"
+msgstr ""
+
+#. type: Plain text
+msgid "See these information:"
+msgstr ""
+
+#. type: Bullet: '* '
+msgid ""
+"To get version, download dev version on "
+"[github](https://github.com/fusinv/fusioninventory-for-glpi/archive/master.zip) "
+"or use GIT with [github "
+"repository](https://github.com/fusinv/fusioninventory-for-glpi), *master* "
+"branch ."
+msgstr ""
+
+#. type: Bullet: '* '
+msgid ""
+"You have now only one plugin 'fusioninventory' to put in glpi/plugins/ "
+"folder"
+msgstr ""
+
+#. type: Bullet: '* '
+msgid ""
+"To report a bug, create an account on "
+"[forge](http://forge.fusioninventory.org) and open a bug with this "
+"[page](http://forge.fusioninventory.org/projects/fusioninventory-for-glpi/issues/new). "
+"Don't forget to specify the target version: **0.84+1.0-BETA**"
+msgstr ""
+
+#. type: Bullet: '* '
+msgid ""
+"The user have opened the most bugs at the end of the hunter bug period will "
+"win a **Raspberry Pi** (yes we love open source!)"
+msgstr ""
+
+#. type: Plain text
+#, no-wrap
+msgid "[[!img  fusioninventoryneedsyou.png size=\"300x381\" alt=\"clouds\"]]\n"
+msgstr ""
