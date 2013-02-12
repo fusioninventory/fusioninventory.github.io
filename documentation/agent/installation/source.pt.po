@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2013-02-01 14:24+0000\n"
+"POT-Creation-Date: 2013-02-12 20:22+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -28,19 +28,13 @@ msgstr ""
 
 #. type: Plain text
 msgid ""
-"Podés descargar el último release oficial desde [the forge](http://forge."
-"fusioninventory.org/projects/fusioninventory-agent/files)  o directamente "
-"desde [the CPAN](https://metacpan.org/release/FusionInventory-Agent)."
+"The latest relase is available either from [our forge](http://forge."
+"fusioninventory.org/projects/fusioninventory-agent/files) or from [CPAN]"
+"(https://metacpan.org/release/FusionInventory-Agent)."
 msgstr ""
 
 #. type: Plain text
-msgid ""
-"Tarballs con sufijos de versión **rc** o **beta** son versiones de "
-"desarrollo y no están listas para ambientes de producción."
-msgstr ""
-
-#. type: Plain text
-msgid "También es posible obtener un snapshot desde Github:"
+msgid "It is also possible to retrieve a snapshot from Github:"
 msgstr ""
 
 #. type: Bullet: '* '
@@ -170,45 +164,6 @@ msgid ""
 "    cpanm .\n"
 "    perl Makefile.PL\n"
 "    make install\n"
-msgstr ""
-
-#. type: Title #
-#, no-wrap
-msgid "configuration"
-msgstr ""
-
-#. type: Plain text
-msgid ""
-"Agent will read it's configuration from /etc/fusioninventory/agent.cfg. You "
-"need at least a `server` line:"
-msgstr ""
-
-#. type: Plain text
-#, no-wrap
-msgid "    server = http://server.domain.com/glpi/plugins/fusioninventory/\n"
-msgstr ""
-
-#. type: Title #
-#, no-wrap
-msgid "crontab"
-msgstr ""
-
-#. type: Plain text
-msgid ""
-"You can use the [crontab](http://en.wikipedia.org/wiki/Cron) to launch the "
-"agent. The agent will need a correctly initialized $PATH environment "
-"variable."
-msgstr ""
-
-#. type: Plain text
-msgid "This is an example of an /etc/crontab entry:"
-msgstr ""
-
-#. type: Plain text
-#, no-wrap
-msgid ""
-"    PATH=/usr/local/sbin:/usr/local/bin:/sbin:/bin:/usr/sbin:/usr/bin\n"
-"    17 *    * * *   root   fusioninventory-agent\n"
 msgstr ""
 
 #. type: Title #
