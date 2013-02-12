@@ -2,12 +2,9 @@
 
 ## Get the sources Luke!
 
-Podés descargar el último release oficial desde [the forge](http://forge.fusioninventory.org/projects/fusioninventory-agent/files)
-o directamente desde [the CPAN](https://metacpan.org/release/FusionInventory-Agent).
+The latest relase is available either from [our forge](http://forge.fusioninventory.org/projects/fusioninventory-agent/files) or from [CPAN](https://metacpan.org/release/FusionInventory-Agent).
 
-Tarballs con sufijos de versión **rc** o **beta** son versiones de desarrollo  y no están listas para ambientes de producción.
-
-También es posible obtener un snapshot desde Github:
+It is also possible to retrieve a snapshot from Github:
 
 * [Agent 2.2.x](https://github.com/fusinv/fusioninventory-agent/tarball/2.2.x)
 * [Agent 2.3.x](https://github.com/fusinv/fusioninventory-agent/tarball/2.3.x)
