@@ -21,6 +21,7 @@ Depending on the OperatingSystem and the installation method, the agent will rea
 ## Minimal configuration
 
 The only minimal requirement is an execution target, which can be either:
+
 * `server`: a server URL, such as http://glpiserver/plugins/fusioninventory/
 * `local`: a output directory, such /tmp/inventory
 
@@ -28,6 +29,7 @@ The only minimal requirement is an execution target, which can be either:
 
 If you intend to run the agent in background, you'd rather set the additional
 parameters:
+
 * `debug`: 0, 1 or 2, to keep trace of agent execution
 * `httpd-trust`: a server IP address, so as to allows it to force agent execution
 
