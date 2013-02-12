@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2013-02-12 20:22+0000\n"
+"POT-Creation-Date: 2013-02-12 22:07+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -79,9 +79,22 @@ msgstr "Configuration minimale"
 
 #. type: Plain text
 msgid ""
-"The only minimal requirement is an execution target, which can be either: * "
-"`server`: a server URL, such as http://glpiserver/plugins/fusioninventory/ * "
-"`local`: a output directory, such /tmp/inventory"
+"The only minimal requirement is an execution target, which can be either:"
+msgstr ""
+
+#. type: Bullet: '* '
+#, fuzzy
+#| msgid ""
+#| "`server`: the URL to the server, in general, it's http://glpiserver/"
+#| "plugins/fusioninventory/"
+msgid ""
+"`server`: a server URL, such as http://glpiserver/plugins/fusioninventory/"
+msgstr ""
+"`server`: URL du serveur, en général, cela ressemble à http://glpiserver/"
+"glpi/plugins/fusioninventory/"
+
+#. type: Bullet: '* '
+msgid "`local`: a output directory, such /tmp/inventory"
 msgstr ""
 
 #. type: Title ##
@@ -93,9 +106,17 @@ msgstr "Configuration minimale"
 #. type: Plain text
 msgid ""
 "If you intend to run the agent in background, you'd rather set the "
-"additional parameters: * `debug`: 0, 1 or 2, to keep trace of agent "
-"execution * `httpd-trust`: a server IP address, so as to allows it to force "
-"agent execution"
+"additional parameters:"
+msgstr ""
+
+#. type: Bullet: '* '
+msgid "`debug`: 0, 1 or 2, to keep trace of agent execution"
+msgstr ""
+
+#. type: Bullet: '* '
+msgid ""
+"`httpd-trust`: a server IP address, so as to allows it to force agent "
+"execution"
 msgstr ""
 
 #. type: Plain text
@@ -148,13 +169,6 @@ msgstr ""
 #~ "L'agent lit la configuration suivant une liste de clé/valeur. Quelque "
 #~ "fois, la valeur peut être une liste de valeur, dans ce cas, une virgule "
 #~ "est utilisée comme séparateur (ex: server)."
-
-#~ msgid ""
-#~ "`server`: the URL to the server, in general, it's http://glpiserver/"
-#~ "plugins/fusioninventory/"
-#~ msgstr ""
-#~ "`server`: URL du serveur, en général, cela ressemble à http://glpiserver/"
-#~ "glpi/plugins/fusioninventory/"
 
 #~ msgid ""
 #~ "`debug`: debug can be 0, 1 or 2. We suggest to use 2 to help you "
