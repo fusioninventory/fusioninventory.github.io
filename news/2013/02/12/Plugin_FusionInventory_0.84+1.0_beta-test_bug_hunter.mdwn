@@ -2,11 +2,13 @@
 
 GLPI 0.84 version is now in beta test, see this post in [GLPI forum](http://www.glpi-project.org/forum/search.php?search_id=1785690941).
 
-So we begin FusionInventory beta test for plugin FusionInventory for GLPI 0.84+1.0 and open own bug hunter ;)
+So we begin FusionInventory beta test for plugin FusionInventory for GLPI 0.84+1.0 and open the bug hunting season ;)
 
 See these information:
 
-* To get version, download dev version on [github](https://github.com/fusinv/fusioninventory-for-glpi/archive/master.zip) or use GIT with [github repository](https://github.com/fusinv/fusioninventory-for-glpi), *master* branch .
+* First *Backup your data*
+
+* Get the last version, download a development archive from [github](https://github.com/fusinv/fusioninventory-for-glpi/archive/master.zip) or use the [[git|documentation/dev/git]] mirror with [github FusionInventory for GLPI repository](https://github.com/fusinv/fusioninventory-for-glpi), *master* branch .
 
 * You have now only one plugin 'fusioninventory' to put in glpi/plugins/ folder
 

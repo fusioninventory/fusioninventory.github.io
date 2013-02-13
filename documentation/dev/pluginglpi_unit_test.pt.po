@@ -1,0 +1,62 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2013-02-13 13:48+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. type: Plain text
+msgid "How to run unit tests for plugin FusionInventory for GLPI"
+msgstr ""
+
+#. type: Title #
+#, no-wrap
+msgid "Preprare installation"
+msgstr ""
+
+#. type: Bullet: '1. '
+msgid "Have a glpi installation"
+msgstr ""
+
+#. type: Bullet: '2. '
+msgid ""
+"URL to access this specific GLPI must be **http://127.0.0.1/fusion0.84** for "
+"version 0.84 of the plugin"
+msgstr ""
+
+#. type: Bullet: '3. '
+msgid "Put plugin FusionInventory in glpi/plugins like standard install"
+msgstr ""
+
+#. type: Bullet: '4. '
+msgid "Install a first time GLPI + plugin Fusion manually with web browser"
+msgstr ""
+
+#. type: Bullet: '5. '
+msgid ""
+"Install last version of phpunit, and all optionnal packages : "
+"<http://www.phpunit.de/manual/current/en/installation.html>"
+msgstr ""
+
+#. type: Title #
+#, no-wrap
+msgid "Run unit tests"
+msgstr ""
+
+#. type: Plain text
+#, no-wrap
+msgid ""
+"Go in folder glpi/plugins/fuioninventory/phpunit/ and run : \n"
+"> phpunit AllTests.php\n"
+msgstr ""

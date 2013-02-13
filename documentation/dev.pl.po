@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2013-01-30 10:48+0000\n"
+"POT-Creation-Date: 2013-02-13 13:41+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -54,6 +54,17 @@ msgstr ""
 #. type: Bullet: '* '
 msgid ""
 "[[How works fusion server (SNMP tool server)|dev/fusion_server_snmp_tool]]"
+msgstr ""
+
+#. type: Title #
+#, no-wrap
+msgid "Run unit tests for GLPI plugin"
+msgstr ""
+
+#. type: Bullet: '* '
+msgid ""
+"[[How to run unit tests for plugin FusionInventory for GLPI|dev/"
+"pluginglpi_unit_test]]"
 msgstr ""
 
 #. type: Title #
