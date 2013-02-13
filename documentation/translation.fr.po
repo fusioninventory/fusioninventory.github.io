@@ -22,25 +22,15 @@ msgid "How to translate FusionInventory"
 msgstr "Comment Traduire FusionInventory"
 
 #. type: Plain text
-#, fuzzy
-#| msgid ""
-#| "FusionInventory for GLPI can be translated directly on Transifex. You "
-#| "will need an account: https://www.transifex.com/projects/p/"
-#| "FusionInventory/"
 msgid ""
 "FusionInventory for GLPI can be translated directly on Transifex. You will "
 "need an account: <https://www.transifex.com/projects/p/FusionInventory/>"
 msgstr ""
-"FusionInventory pour GLPI peut être directement traduit sur Transifex. Il "
-"vous Faudra créer un compte: https://www.transifex.com/projects/p/"
+"*FusionInventory For GLPI* peut être directement traduit sur Transifex. Il "
+"vous faudra créer un compte: https://www.transifex.com/projects/p/"
 "FusionInventory/"
 
 #. type: Plain text
-#, fuzzy
-#| msgid ""
-#| "You can translate the website directly with a browser. It's also possible "
-#| "to work on [[your own copy of the website|documentation/wiki]]. You will "
-#| "just need a [Git client](http://git-scm.com/)."
 msgid ""
 "You can translate the website directly with a browser. It's also possible to "
 "work on [[your own copy of the website|documentation/wiki]]. You will just "
@@ -48,26 +38,23 @@ msgid ""
 "For your information, [Lokalize](http://userbase.kde.org/Lokalize) is a "
 "great tool to translate the .po files."
 msgstr ""
-"Vous pouvez traduire directement depuis votre naviguateur. Il est également "
-"possible de travailler sur [[Votre copie du site|documentation/wiki]]. Vous "
-"avez besoin d'un client [Git](http://git-scm.com/)."
+"Vous pouvez traduire directement depuis le site web avec votre navigateur. Il est également "
+"possible de travailler sur [[votre copie du site|documentation/wiki]]. Vous "
+"avez besoin d'un client [Git](http://git-scm.com/) pour avoir une copie du site. Pour information,"
+"[Lokalize](http://userbase.kde.org/Lokalize) est un bon outil pour traduire les fichiers .po ."
 
 #. type: Plain text
-#, fuzzy
-#| msgid ""
-#| "If you want us to enable another langage, please contact Gonéri "
-#| "'goneri@rulezlan.org'."
 msgid ""
 "If you want us to enable another langage, please contact [Gonéri](mailto:"
 "goneri@rulezlan.org) or the [[Translator mailing list|resources]]."
 msgstr ""
 "Si vous désirez utiliser une autre langue, s'il vous plait contactez Gonéri "
-"'goneri@rulezlan.org'."
+"'goneri@rulezlan.org' ou la [[liste de diffusion des traducteurs |resources]]."
 
 #. type: Title ##
 #, no-wrap
 msgid "Glossary for translators"
-msgstr ""
+msgstr "Glossaire pour les traducteurs"
 
 #. type: Plain text
 msgid ""
@@ -75,46 +62,46 @@ msgid ""
 "[Mailing list for translators](http://lists.alioth.debian.org/mailman/"
 "listinfo/fusioninventory-i18ni)"
 msgstr ""
+"Vous trouverez ici les mots techniques qui doivent ou non être traduit. Enregistrez vous "
+"sur la [liste de diffusion des traducteurs](http://lists.alioth.debian.org/mailman/"
+"listinfo/fusioninventory-i18ni) pour discuter des choix de traductions."
 
 #. type: Bullet: '* '
 msgid "FusionInventory For GLPI :"
-msgstr ""
+msgstr "FusionInventory For GLPI : Il faut laisser *FusionInventory For GLPI* car cela désigne le nom "
+"du plugin pour GLPI."
 
 #. type: Bullet: '* '
 msgid "Plugin :"
-msgstr ""
+msgstr "Plugin : ce mot ne doit pas être traduit car il est utilisé comme tel sous différents documents "
+"ou ressources de FusionInventory ou GLPI."
 
 #. type: Bullet: '* '
 msgid "peer to peer :"
-msgstr ""
+msgstr "peer to peer : il faut traduire ce terme par p2p"
 
 #. type: Bullet: '* '
 msgid "Bug :"
-msgstr ""
+msgstr "Bug : doit rester en anglais pour être en cohérence avec le gestionnaire de bug (bugtracker)"
 
 #. type: Bullet: '* '
 msgid "prebuilt :"
-msgstr ""
+msgstr "prebuilt : il faut laisser prebuilt pour bien différencier les exécutables ou paquets de distribution "
+" de ces versions *prebuilt* faites pour des cas de tests ou debug."
 
 #. type: Bullet: '* '
 msgid "Backend :"
-msgstr ""
+msgstr "Backend : à laisser en version anglaise "
 
 #. type: Bullet: '* '
 msgid "Benchmark :"
-msgstr ""
+msgstr "Benchmark : terme difficilement traduisible"
 
 #. type: Bullet: '* '
 msgid "net :"
-msgstr ""
+msgstr "net : ne pas traduire"
 
 #. type: Bullet: '* '
 msgid "ip :"
-msgstr ""
+msgstr "ip : ne pas traduire"
 
-#~ msgid ""
-#~ "You may also be interested to join the [[Translator mailing list|"
-#~ "resources]]."
-#~ msgstr ""
-#~ "Vous pouvez être aussi intéressé pour joindre [[La mailing list|"
-#~ "resources]]."
