@@ -27,11 +27,6 @@ msgid "Get the sources Luke!"
 msgstr "Trouves les sources, Luke!"
 
 #. type: Plain text
-#, fuzzy
-#| msgid ""
-#| "Podés descargar el último release oficial desde [the forge](http://forge."
-#| "fusioninventory.org/projects/fusioninventory-agent/files)  o directamente "
-#| "desde [the CPAN](https://metacpan.org/release/FusionInventory-Agent)."
 msgid ""
 "The latest relase is available either from [our forge](http://forge."
 "fusioninventory.org/projects/fusioninventory-agent/files) or from [CPAN]"
@@ -43,8 +38,6 @@ msgstr ""
 "Agent)."
 
 #. type: Plain text
-#, fuzzy
-#| msgid "También es posible obtener un snapshot desde Github:"
 msgid "It is also possible to retrieve a snapshot from Github:"
 msgstr "Il est aussi possible de récupérer une image par Github:"
 
@@ -256,46 +249,3 @@ msgid "The test-suites require some additional dependencies like Test::More."
 msgstr ""
 "Les test-suites requirent plusieurs dépendances additionnelles comme Test::"
 "More."
-
-#~ msgid ""
-#~ "Tarballs con sufijos de versión **rc** o **beta** son versiones de "
-#~ "desarrollo y no están listas para ambientes de producción."
-#~ msgstr ""
-#~ "Les archives avec les suffixes de version **rc** ou **beta** sont des "
-#~ "versions de développement et ne sont pas prêtes pour les environnements "
-#~ "de production."
-
-#~ msgid "configuration"
-#~ msgstr "Configuration"
-
-#~ msgid ""
-#~ "Agent will read it's configuration from /etc/fusioninventory/agent.cfg. "
-#~ "You need at least a `server` line:"
-#~ msgstr ""
-#~ "L'agent lira sa configuration à partir de /etc/fusioninventory/agent.cfg. "
-#~ "Vous avez besoin au moins de la ligne `server` :"
-
-#~ msgid "    server = http://server.domain.com/glpi/plugins/fusioninventory/\n"
-#~ msgstr "    server = http://server.domain.com/glpi/plugins/fusioninventory/\n"
-
-#~ msgid "crontab"
-#~ msgstr "crontab"
-
-#~ msgid ""
-#~ "You can use the [crontab](http://en.wikipedia.org/wiki/Cron) to launch "
-#~ "the agent. The agent will need a correctly initialized $PATH environment "
-#~ "variable."
-#~ msgstr ""
-#~ "Vous pouvez utiliser la [crontab](http://en.wikipedia.org/wiki/Cron) pour "
-#~ "lancer  l'agent. Il a besoin d'être correctement initialisé pour la "
-#~ "variable d'environnement $PATH."
-
-#~ msgid "This is an example of an /etc/crontab entry:"
-#~ msgstr "Voici un exemple de paramètre pour /etc/crontab:"
-
-#~ msgid ""
-#~ "    PATH=/usr/local/sbin:/usr/local/bin:/sbin:/bin:/usr/sbin:/usr/bin\n"
-#~ "    17 *    * * *   root   fusioninventory-agent\n"
-#~ msgstr ""
-#~ "    PATH=/usr/local/sbin:/usr/local/bin:/sbin:/bin:/usr/sbin:/usr/bin\n"
-#~ "    17 *    * * *   root   fusioninventory-agent\n"

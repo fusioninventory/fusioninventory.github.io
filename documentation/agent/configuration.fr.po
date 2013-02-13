@@ -28,6 +28,8 @@ msgid ""
 "from any method. For instance, the `server` parameter in configuration file "
 "is the same as the `--server` parameter on command line."
 msgstr ""
+"L'agent lit la configuration depuis le fichier de configuration (depuis la base de registre sur Windows),"
+" "
 
 #. type: Plain text
 msgid ""
@@ -83,10 +85,6 @@ msgid ""
 msgstr ""
 
 #. type: Bullet: '* '
-#, fuzzy
-#| msgid ""
-#| "`server`: the URL to the server, in general, it's http://glpiserver/"
-#| "plugins/fusioninventory/"
 msgid ""
 "`server`: a server URL, such as http://glpiserver/plugins/fusioninventory/"
 msgstr ""

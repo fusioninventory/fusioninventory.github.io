@@ -19,23 +19,27 @@ msgstr ""
 #. type: Plain text
 #, no-wrap
 msgid "[[!meta  date=\"2013-02-12\"]]\n"
-msgstr ""
+msgstr "[[!meta  date=\"2013-02-12\"]\n]"
 
 #. type: Plain text
 msgid ""
 "GLPI 0.84 version is now in beta test, see this post in [GLPI forum](http://"
 "www.glpi-project.org/forum/search.php?search_id=1785690941)."
 msgstr ""
+"La version de GLPI 0.84 est en version bêta pour faire des tests voir le [forum GLPI] (http://"
+"www.glpi-project.org/forum/search.php?search_id=1785690941)."
 
 #. type: Plain text
 msgid ""
 "So we begin FusionInventory beta test for plugin FusionInventory for GLPI "
 "0.84+1.0 and open own bug hunter ;)"
 msgstr ""
+"Donc, nous lançons les bêta tests de FusionInventory For GLPI pour cette version 0.84+1.0 "
+"et ouvrons notre chasse aux bug ;)"
 
 #. type: Plain text
 msgid "See these information:"
-msgstr ""
+msgstr "Voici les informations pour participer:"
 
 #. type: Bullet: '* '
 msgid ""
@@ -44,11 +48,16 @@ msgid ""
 "repository](https://github.com/fusinv/fusioninventory-for-glpi), *master* "
 "branch ."
 msgstr ""
+"Pour avoir cette version, téléchargez la version de dev par [github](https://github.com/fusinv/"
+"fusioninventory-for-glpi/archive/master.zip) ou utilisez Git avec les dépôts  [github"
+"](https://github.com/fusinv/fusioninventory-for-glpi), *master* "
+"branch ."
 
 #. type: Bullet: '* '
 msgid ""
 "You have now only one plugin 'fusioninventory' to put in glpi/plugins/ folder"
 msgstr ""
+"Vous aurez maintenant un seul plugin *fusioninventory* dans le dossier glpi/plugins/ "
 
 #. type: Bullet: '* '
 msgid ""
@@ -57,14 +66,20 @@ msgid ""
 "projects/fusioninventory-for-glpi/issues/new). Don't forget to specify the "
 "target version: **0.84+1.0-BETA**"
 msgstr ""
+"Pour signaler un bug, créez vous un compte sur la [Forge](http://forge.fusioninventory."
+"org) et ouvrez un bug sur cette [page](http://forge.fusioninventory.org/"
+"projects/fusioninventory-for-glpi/issues/new). N'oubliez pas de préciser la version utilisée:"
+" **0.84+1.0-BETA**"
 
 #. type: Bullet: '* '
 msgid ""
 "The user have opened the most bugs at the end of the hunter bug period will "
 "win a **Raspberry Pi** (yes we love free software!)"
 msgstr ""
+"La personne qui aura ouvert le plus de bugs à la fin de la période de chasse, gagnera "
+"un **Raspberry Pi** (Oui nous aimons les logiciels libres!)"
 
 #. type: Plain text
 #, no-wrap
 msgid "[[!img  fusioninventoryneedsyou.png size=\"300x381\" alt=\"clouds\"]]\n"
-msgstr ""
+msgstr "[[!img  fusioninventoryneedsyou.png size=\"300x381\" alt=\"clouds\"]]\n"
