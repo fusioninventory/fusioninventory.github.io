@@ -104,4 +104,7 @@ msgstr "net : ne pas traduire"
 #. type: Bullet: '* '
 msgid "ip :"
 msgstr "ip : ne pas traduire"
+<<<<<<< HEAD
 
+=======
+>>>>>>> 7156f2c67172287037e92badc90bc1c592b0e29a

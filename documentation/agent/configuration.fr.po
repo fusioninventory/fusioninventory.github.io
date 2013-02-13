@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2013-01-11 14:06+0000\n"
+"POT-Creation-Date: 2013-02-12 22:07+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -23,13 +23,17 @@ msgstr "#Configuration de l'agent\n"
 
 #. type: Plain text
 msgid ""
-"The agent reads the configuration from a list of key / value. Sometime, "
-"value can be a list of value, in such case, a comma is used a field "
-"separator (e.g: server)."
+"The agent reads its configuration from a configuration file (from the "
+"registry on Windows), then from the command line. Most parameters can be set "
+"from any method. For instance, the `server` parameter in configuration file "
+"is the same as the `--server` parameter on command line."
 msgstr ""
-"L'agent lit la configuration suivant une liste de clé/valeur. Quelque fois, "
-"la valeur peut être une liste de valeur, dans ce cas, une virgule est "
-"utilisée comme séparateur (ex: server)."
+
+#. type: Plain text
+msgid ""
+"Most configuration parameters are single-valued. Multi-valued ones use a "
+"comma field separator. For instance, `logger = Stderr, File`"
+msgstr ""
 
 #. type: Title ##
 #, no-wrap
@@ -41,8 +45,8 @@ msgid ""
 "Depending on the OperatingSystem and the installation method, the agent will "
 "read its configuration from different places:"
 msgstr ""
-"En fonction du système d'opération et de la méthode d'installation, l'agent lira "
-"la configuration en différent fichier:"
+"En fonction du système d'opération et de la méthode d'installation, l'agent "
+"lira la configuration en différent fichier:"
 
 #. type: Bullet: '* '
 msgid "`/etc/fusioninventory/agent.cfg`: default"
@@ -65,47 +69,63 @@ msgid ""
 "`HKEY_LOCAL_MACHINE\\SOFTWARE\\Wow6432Node\\FusionInventory-Agent`: Windows "
 "64 bits"
 msgstr ""
-"`HKEY_LOCAL_MACHINE\\SOFTWARE\\Wow6432Node\\FusionInventory-Agent`: pour Windows "
-"64 bits"
+"`HKEY_LOCAL_MACHINE\\SOFTWARE\\Wow6432Node\\FusionInventory-Agent`: pour "
+"Windows 64 bits"
 
 #. type: Title ##
 #, no-wrap
 msgid "Minimal configuration"
 msgstr "Configuration minimale"
 
-#. type: Bullet: '* '
+#. type: Plain text
 msgid ""
-"`server`: the URL to the server, in general, it's "
-"http://glpiserver/plugins/fusioninventory/"
+"The only minimal requirement is an execution target, which can be either:"
 msgstr ""
-"`server`: URL du serveur, en général, cela ressemble à "
-"http://glpiserver/glpi/plugins/fusioninventory/"
 
 #. type: Bullet: '* '
+#, fuzzy
+#| msgid ""
+#| "`server`: the URL to the server, in general, it's http://glpiserver/"
+#| "plugins/fusioninventory/"
 msgid ""
-"`debug`: debug can be 0, 1 or 2. We suggest to use 2 to help you understand "
-"what append"
+"`server`: a server URL, such as http://glpiserver/plugins/fusioninventory/"
 msgstr ""
-"`debug`: debug peut être à 0, 1 or 2. Nous vous suggérons d'utiliser le mode 2 "
-"pour vous aider à voir ce qui se passe."
+"`server`: URL du serveur, en général, cela ressemble à http://glpiserver/"
+"glpi/plugins/fusioninventory/"
 
 #. type: Bullet: '* '
-msgid ""
-"`httpd-trust`: it's always a good idea to configure this key with the **IP "
-"address** (not the hostname) of the server. This way you will be able to use "
-"the **push** mode later."
+msgid "`local`: a output directory, such /tmp/inventory"
 msgstr ""
-"`httpd-trust`: C'est toujours une bonne idée de configurer cette clé avec l'**adresse"
-" IP** (pas de nom DNS) du serveur. Cela vous permettra d'utiliser plus tard "
-"le mode **push**."
+
+#. type: Title ##
+#, fuzzy, no-wrap
+#| msgid "Minimal configuration"
+msgid "Additional configuration"
+msgstr "Configuration minimale"
 
 #. type: Plain text
 msgid ""
-"Once this is done, you can [[force an "
-"inventory|documentation/agent/launch_the_agent]]."
+"If you intend to run the agent in background, you'd rather set the "
+"additional parameters:"
 msgstr ""
-"Une fois que cela est fait, vous pouvez [[forcer un "
-"inventaire|documentation/agent/launch_the_agent]]."
+
+#. type: Bullet: '* '
+msgid "`debug`: 0, 1 or 2, to keep trace of agent execution"
+msgstr ""
+
+#. type: Bullet: '* '
+msgid ""
+"`httpd-trust`: a server IP address, so as to allows it to force agent "
+"execution"
+msgstr ""
+
+#. type: Plain text
+msgid ""
+"Once this is done, you can [[force an inventory|documentation/agent/"
+"launch_the_agent]]."
+msgstr ""
+"Une fois que cela est fait, vous pouvez [[forcer un inventaire|documentation/"
+"agent/launch_the_agent]]."
 
 #. type: Title ##
 #, no-wrap
@@ -122,20 +142,46 @@ msgstr ""
 
 #. type: Bullet: '* '
 msgid ""
-"[[2.1.x (old "
-"stable)|documentation/references/agent/2.1.x/fusioninventory-agent]]"
+"[[2.1.x (old stable)|documentation/references/agent/2.1.x/fusioninventory-"
+"agent]]"
 msgstr ""
-"[[2.1.x (ancienne "
-"version)|documentation/references/agent/2.1.x/fusioninventory-agent]]"
+"[[2.1.x (ancienne version)|documentation/references/agent/2.1.x/"
+"fusioninventory-agent]]"
 
 #. type: Bullet: '* '
 msgid ""
-"[[2.2.x "
-"(stable)|documentation/references/agent/2.2.x/fusioninventory-agent]]"
+"[[2.2.x (stable)|documentation/references/agent/2.2.x/fusioninventory-agent]]"
 msgstr ""
-"[[2.2.x (version "
-"actuelle)|documentation/references/agent/2.2.x/fusioninventory-agent]]"
+"[[2.2.x (version actuelle)|documentation/references/agent/2.2.x/"
+"fusioninventory-agent]]"
 
 #. type: Bullet: '* '
-msgid "[[2.3.x (dev)|documentation/references/agent/2.3.x/fusioninventory-agent]]"
-msgstr "[[2.3.x (dev)|documentation/references/agent/2.3.x/fusioninventory-agent]]"
+msgid ""
+"[[2.3.x (dev)|documentation/references/agent/2.3.x/fusioninventory-agent]]"
+msgstr ""
+"[[2.3.x (dev)|documentation/references/agent/2.3.x/fusioninventory-agent]]"
+
+#~ msgid ""
+#~ "The agent reads the configuration from a list of key / value. Sometime, "
+#~ "value can be a list of value, in such case, a comma is used a field "
+#~ "separator (e.g: server)."
+#~ msgstr ""
+#~ "L'agent lit la configuration suivant une liste de clé/valeur. Quelque "
+#~ "fois, la valeur peut être une liste de valeur, dans ce cas, une virgule "
+#~ "est utilisée comme séparateur (ex: server)."
+
+#~ msgid ""
+#~ "`debug`: debug can be 0, 1 or 2. We suggest to use 2 to help you "
+#~ "understand what append"
+#~ msgstr ""
+#~ "`debug`: debug peut être à 0, 1 or 2. Nous vous suggérons d'utiliser le "
+#~ "mode 2 pour vous aider à voir ce qui se passe."
+
+#~ msgid ""
+#~ "`httpd-trust`: it's always a good idea to configure this key with the "
+#~ "**IP address** (not the hostname) of the server. This way you will be "
+#~ "able to use the **push** mode later."
+#~ msgstr ""
+#~ "`httpd-trust`: C'est toujours une bonne idée de configurer cette clé avec "
+#~ "l'**adresse IP** (pas de nom DNS) du serveur. Cela vous permettra "
+#~ "d'utiliser plus tard le mode **push**."

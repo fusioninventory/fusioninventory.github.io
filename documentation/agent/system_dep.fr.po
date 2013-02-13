@@ -19,7 +19,7 @@ msgstr ""
 #. type: Title #
 #, no-wrap
 msgid "System specific dependencies"
-msgstr ""
+msgstr "Système de dépendances spécifiques"
 
 #. type: Plain text
 msgid ""
@@ -27,6 +27,9 @@ msgid ""
 "it.  Download it from "
 "<http://www.sun.com/download/products.xml?id=4304155a>."
 msgstr ""
+"Sous Solaris / SPARC, vous devez installer Sneep et enregistrer le numéro de série "
+"avec. Téléchargez-le sur "
+"<http://www.sun.com/download/products.xml?id=4304155a>."
 
 #. type: Plain text
 msgid ""
@@ -36,6 +39,11 @@ msgid ""
 "binary is not reliable enough to be used on Windows 2003, leading to less "
 "precise inventories."
 msgstr ""
+"Sous Windows, nous utilisons un dmidecode binaire supplémentaire livré dans la "
+"distribution Windows pour récupérer de nombreuses informations qui ne sont pas disponibles autrement, "
+" y compris l'identification fine-grained multi-cores CPUs. Malheureusement, ce binaire "
+"n'est pas suffisamment fiable pour être utilisé sur Windows 2003, conduisant à des "
+"stocks moins précis. "
 
 #. type: Plain text
 msgid ""
@@ -45,7 +53,12 @@ msgid ""
 "which is implicit if running as a service, does sometimes gives less "
 "results, especially for shared printers only visible from a user account."
 msgstr ""
+"Sur n'importe quel système, le niveau de privilège utilisé pour exécuter l'agent change "
+"les résultats de l'inventaire. De manière générale, cela signifie moins de résultats quand ils sont exécutés avec "
+"des privilèges moindres. Sous Windows, difficile, exécuter l'agent avec des privilèges SYSTEM, "
+"ce qui est implicite s'il fonctionne comme un service, donne parfois moins de résultats, "
+"en particulier pour les imprimantes partagées visibles uniquement à partir d'un compte utilisateur."
 
 #. type: Plain text
 msgid "On Linux, lspci will be used to collect PCI, AGP, PCI-X, ... informations."
-msgstr ""
+msgstr "Sous Linux, la commande lspci sera utilisé pour recueillir PCI, AGP, PCI-X, ... informations."

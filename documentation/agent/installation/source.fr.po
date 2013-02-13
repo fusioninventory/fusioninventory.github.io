@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2013-02-01 14:24+0000\n"
+"POT-Creation-Date: 2013-02-12 20:22+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -27,33 +27,38 @@ msgid "Get the sources Luke!"
 msgstr "Trouves les sources, Luke!"
 
 #. type: Plain text
+#, fuzzy
+#| msgid ""
+#| "Podés descargar el último release oficial desde [the forge](http://forge."
+#| "fusioninventory.org/projects/fusioninventory-agent/files)  o directamente "
+#| "desde [the CPAN](https://metacpan.org/release/FusionInventory-Agent)."
 msgid ""
-"Podés descargar el último release oficial desde [the forge](http://forge."
-"fusioninventory.org/projects/fusioninventory-agent/files)  o directamente "
-"desde [the CPAN](https://metacpan.org/release/FusionInventory-Agent)."
-msgstr "Vous pouvez télécharger la dernière version officielle stable par [the "
-"forge](http://forge.fusioninventory.org/projects/fusioninventory-agent/files)  "
-"ou directement par [the CPAN](https://metacpan.org/release/FusionInventory-Agent)."
-
-#. type: Plain text
-msgid ""
-"Tarballs con sufijos de versión **rc** o **beta** son versiones de "
-"desarrollo y no están listas para ambientes de producción."
+"The latest relase is available either from [our forge](http://forge."
+"fusioninventory.org/projects/fusioninventory-agent/files) or from [CPAN]"
+"(https://metacpan.org/release/FusionInventory-Agent)."
 msgstr ""
-"Les archives avec les suffixes de version **rc** ou **beta** sont des versions de "
-"développement et ne sont pas prêtes pour les environnements de production."
+"Vous pouvez télécharger la dernière version officielle stable par [the forge]"
+"(http://forge.fusioninventory.org/projects/fusioninventory-agent/files)  ou "
+"directement par [the CPAN](https://metacpan.org/release/FusionInventory-"
+"Agent)."
 
 #. type: Plain text
-msgid "También es posible obtener un snapshot desde Github:"
+#, fuzzy
+#| msgid "También es posible obtener un snapshot desde Github:"
+msgid "It is also possible to retrieve a snapshot from Github:"
 msgstr "Il est aussi possible de récupérer une image par Github:"
 
 #. type: Bullet: '* '
-msgid "[Agent 2.2.x](https://github.com/fusinv/fusioninventory-agent/tarball/2.2.x)"
-msgstr "[Agent 2.2.x](https://github.com/fusinv/fusioninventory-agent/tarball/2.2.x)"
+msgid ""
+"[Agent 2.2.x](https://github.com/fusinv/fusioninventory-agent/tarball/2.2.x)"
+msgstr ""
+"[Agent 2.2.x](https://github.com/fusinv/fusioninventory-agent/tarball/2.2.x)"
 
 #. type: Bullet: '* '
-msgid "[Agent 2.3.x](https://github.com/fusinv/fusioninventory-agent/tarball/2.3.x)"
-msgstr "[Agent 2.3.x](https://github.com/fusinv/fusioninventory-agent/tarball/2.3.x)"
+msgid ""
+"[Agent 2.3.x](https://github.com/fusinv/fusioninventory-agent/tarball/2.3.x)"
+msgstr ""
+"[Agent 2.3.x](https://github.com/fusinv/fusioninventory-agent/tarball/2.3.x)"
 
 #. type: Title ##
 #, no-wrap
@@ -66,13 +71,15 @@ msgid ""
 "are greater than 100 caracters. Some tar version will silently ignore those "
 "files like for example on HP-UX."
 msgstr ""
-"Nous vous recommandons fortement d'utiliser GNU tar, parce que plusieurs chemins de fichier "
-"sont long de plus de 100 caractères. D'autres versions de tar risquent d'ignorer ces fichiers "
-" comme par exemple sur HP-UX."
+"Nous vous recommandons fortement d'utiliser GNU tar, parce que plusieurs "
+"chemins de fichier sont long de plus de 100 caractères. D'autres versions de "
+"tar risquent d'ignorer ces fichiers  comme par exemple sur HP-UX."
 
 #. type: Plain text
 msgid "First, you need to extract the source and run the Makefile.PL"
-msgstr "Dans un premier temps, vous devez extraire les sources et lancer le fichier Makefile.PL"
+msgstr ""
+"Dans un premier temps, vous devez extraire les sources et lancer le fichier "
+"Makefile.PL"
 
 #. type: Plain text
 #, no-wrap
@@ -103,8 +110,8 @@ msgid ""
 "miyagawa/cpanminus/master/cpanm). Just run:"
 msgstr ""
 "A ce niveau, vous aurez probablement plusieurs modules requis absents. Le "
-"meilleur outil pour résoudre cette situation est [cpanm](https://raw.github.com/"
-"miyagawa/cpanminus/master/cpanm). Lancez :"
+"meilleur outil pour résoudre cette situation est [cpanm](https://raw.github."
+"com/miyagawa/cpanminus/master/cpanm). Lancez :"
 
 #. type: Plain text
 #, no-wrap
@@ -116,16 +123,16 @@ msgid ""
 "You can use the _--notest_ flag if you are brave and want to skip the test-"
 "suite execution."
 msgstr ""
-"Vous pouvez utiliser l'option _--notest_ si vous aimez le risque et pour sauter le test-"
-"suite execution."
+"Vous pouvez utiliser l'option _--notest_ si vous aimez le risque et pour "
+"sauter le test-suite execution."
 
 #. type: Plain text
 msgid ""
 "You may also need to install some [[system specific dependencies|"
 "documentation/agent/system_dep]]."
 msgstr ""
-"Vous devrez aussi installer d'autres [[dépendances spécifiques à votre système|"
-"documentation/agent/system_dep]]."
+"Vous devrez aussi installer d'autres [[dépendances spécifiques à votre "
+"système|documentation/agent/system_dep]]."
 
 #. type: Plain text
 msgid "Once this is done, run once again:"
@@ -141,8 +148,8 @@ msgid ""
 "This time the execution should success and you can finish the installation. "
 "Here again we recommand GNU make (gmake):"
 msgstr ""
-"Cette fois l'exécution doit être un succès et vous pouvez terminer l'installation."
-"Ici aussi nous vous recommandons GNU make (gmake):"
+"Cette fois l'exécution doit être un succès et vous pouvez terminer "
+"l'installation.Ici aussi nous vous recommandons GNU make (gmake):"
 
 #. type: Plain text
 #, no-wrap
@@ -163,8 +170,8 @@ msgid ""
 "If you don't want to use the default directory (/usr/local), you can use the "
 "PREFIX parameter during the Makefile.PL step:"
 msgstr ""
-"Si vous ne voulez pas utiliser le dossier par défaut (/usr/local), vous pouvez "
-"utiliser l'option PREFIX pendant l'utilisation de Makefile.PL:"
+"Si vous ne voulez pas utiliser le dossier par défaut (/usr/local), vous "
+"pouvez utiliser l'option PREFIX pendant l'utilisation de Makefile.PL:"
 
 #. type: Plain text
 #, no-wrap
@@ -205,51 +212,6 @@ msgstr ""
 
 #. type: Title #
 #, no-wrap
-msgid "configuration"
-msgstr "Configuration"
-
-#. type: Plain text
-msgid ""
-"Agent will read it's configuration from /etc/fusioninventory/agent.cfg. You "
-"need at least a `server` line:"
-msgstr ""
-"L'agent lira sa configuration à partir de /etc/fusioninventory/agent.cfg. Vous "
-"avez besoin au moins de la ligne `server` :"
-
-#. type: Plain text
-#, no-wrap
-msgid "    server = http://server.domain.com/glpi/plugins/fusioninventory/\n"
-msgstr "    server = http://server.domain.com/glpi/plugins/fusioninventory/\n"
-
-#. type: Title #
-#, no-wrap
-msgid "crontab"
-msgstr "crontab"
-
-#. type: Plain text
-msgid ""
-"You can use the [crontab](http://en.wikipedia.org/wiki/Cron) to launch the "
-"agent. The agent will need a correctly initialized $PATH environment "
-"variable."
-msgstr ""
-"Vous pouvez utiliser la [crontab](http://en.wikipedia.org/wiki/Cron) pour lancer "
-" l'agent. Il a besoin d'être correctement initialisé pour la variable d'environnement $PATH."
-
-#. type: Plain text
-msgid "This is an example of an /etc/crontab entry:"
-msgstr "Voici un exemple de paramètre pour /etc/crontab:"
-
-#. type: Plain text
-#, no-wrap
-msgid ""
-"    PATH=/usr/local/sbin:/usr/local/bin:/sbin:/bin:/usr/sbin:/usr/bin\n"
-"    17 *    * * *   root   fusioninventory-agent\n"
-msgstr ""
-"    PATH=/usr/local/sbin:/usr/local/bin:/sbin:/bin:/usr/sbin:/usr/bin\n"
-"    17 *    * * *   root   fusioninventory-agent\n"
-
-#. type: Title #
-#, no-wrap
 msgid "SSL"
 msgstr "SSL"
 
@@ -259,17 +221,17 @@ msgid ""
 "IO::Socket::SSL). You build it you will need openssl header files and a C "
 "compiler."
 msgstr ""
-"La communication par SSL est basée sur "
-"[IO::Socket::SSL](https://metacpan.org/module/IO::Socket::SSL). Pour l'activer, "
-"vous devez avoir les fichiers *openssl header* et un compilateur *C*."
+"La communication par SSL est basée sur [IO::Socket::SSL](https://metacpan."
+"org/module/IO::Socket::SSL). Pour l'activer, vous devez avoir les fichiers "
+"*openssl header* et un compilateur *C*."
 
 #. type: Plain text
 msgid ""
 "If you don't want to use SSL, you can avoid keep this dependency "
 "uninstalled.  The agent will disable SSL by itself."
 msgstr ""
-"Si vous ne voulez pas utiliser le SSL, vous pouvez vous passer de ces dépendances "
-" inactivées. L'agent désactivera le SSL par lui-même."
+"Si vous ne voulez pas utiliser le SSL, vous pouvez vous passer de ces "
+"dépendances  inactivées. L'agent désactivera le SSL par lui-même."
 
 #. type: Title #
 #, no-wrap
@@ -281,8 +243,8 @@ msgid ""
 "FusionInventory components come with a test-suite. You can run it after the "
 "`perl Makefile.PL` with this command:"
 msgstr ""
-"FusionInventory possède un *test-suite*. Vous pouvez le lancer après "
-"`perl Makefile.PL` avec cette commande:"
+"FusionInventory possède un *test-suite*. Vous pouvez le lancer après `perl "
+"Makefile.PL` avec cette commande:"
 
 #. type: Plain text
 #, no-wrap
@@ -291,4 +253,49 @@ msgstr "    make test\n"
 
 #. type: Plain text
 msgid "The test-suites require some additional dependencies like Test::More."
-msgstr "Les test-suites requirent plusieurs dépendances additionnelles comme Test::More."
+msgstr ""
+"Les test-suites requirent plusieurs dépendances additionnelles comme Test::"
+"More."
+
+#~ msgid ""
+#~ "Tarballs con sufijos de versión **rc** o **beta** son versiones de "
+#~ "desarrollo y no están listas para ambientes de producción."
+#~ msgstr ""
+#~ "Les archives avec les suffixes de version **rc** ou **beta** sont des "
+#~ "versions de développement et ne sont pas prêtes pour les environnements "
+#~ "de production."
+
+#~ msgid "configuration"
+#~ msgstr "Configuration"
+
+#~ msgid ""
+#~ "Agent will read it's configuration from /etc/fusioninventory/agent.cfg. "
+#~ "You need at least a `server` line:"
+#~ msgstr ""
+#~ "L'agent lira sa configuration à partir de /etc/fusioninventory/agent.cfg. "
+#~ "Vous avez besoin au moins de la ligne `server` :"
+
+#~ msgid "    server = http://server.domain.com/glpi/plugins/fusioninventory/\n"
+#~ msgstr "    server = http://server.domain.com/glpi/plugins/fusioninventory/\n"
+
+#~ msgid "crontab"
+#~ msgstr "crontab"
+
+#~ msgid ""
+#~ "You can use the [crontab](http://en.wikipedia.org/wiki/Cron) to launch "
+#~ "the agent. The agent will need a correctly initialized $PATH environment "
+#~ "variable."
+#~ msgstr ""
+#~ "Vous pouvez utiliser la [crontab](http://en.wikipedia.org/wiki/Cron) pour "
+#~ "lancer  l'agent. Il a besoin d'être correctement initialisé pour la "
+#~ "variable d'environnement $PATH."
+
+#~ msgid "This is an example of an /etc/crontab entry:"
+#~ msgstr "Voici un exemple de paramètre pour /etc/crontab:"
+
+#~ msgid ""
+#~ "    PATH=/usr/local/sbin:/usr/local/bin:/sbin:/bin:/usr/sbin:/usr/bin\n"
+#~ "    17 *    * * *   root   fusioninventory-agent\n"
+#~ msgstr ""
+#~ "    PATH=/usr/local/sbin:/usr/local/bin:/sbin:/bin:/usr/sbin:/usr/bin\n"
+#~ "    17 *    * * *   root   fusioninventory-agent\n"

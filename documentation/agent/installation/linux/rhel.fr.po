@@ -24,7 +24,7 @@ msgstr "Installation de l'agent pour RHEL, Centos et les variantes de RHEL"
 #. type: Title ##
 #, no-wrap
 msgid "RHEL/Centos 6.X and 5.x"
-msgstr "RHEL/Centos 6.X and 5.x"
+msgstr "RHEL/Centos 6.X et 5.x"
 
 #. type: Plain text
 msgid ""
@@ -37,18 +37,12 @@ msgstr ""
 "(https://build.opensuse.org/project/show?project=home%3Aguillomovitch)."
 
 #. type: Plain text
-#, fuzzy
-#| msgid ""
-#| "Beware, you'all also need the *EPEL* repository is required for perl "
-#| "dependencies. See [EPEL wiki](https://fedoraproject.org/wiki/EPEL) for "
-#| "details."
 msgid ""
 "Beware, you'all also need the *EPEL* repository. See [EPEL wiki](https://"
 "fedoraproject.org/wiki/EPEL) for details."
 msgstr ""
-"Attention, vous aurez besoin d'avoir le dépôt EPEL pour les dépendances "
-"Perl. Reportez vous pour plus de détails à [EPEL wiki](https://fedoraproject."
-"org/wiki/EPEL)."
+"Attention, vous aurez besoin d'avoir le dépôt EPEL. Reportez vous pour "
+"plus de détails à [EPEL wiki](https://fedoraproject.org/wiki/EPEL)."
 
 #. type: Title ##
 #, no-wrap

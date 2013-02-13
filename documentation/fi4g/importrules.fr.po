@@ -19,56 +19,57 @@ msgstr ""
 #. type: Title #
 #, no-wrap
 msgid "How works 'Equipment import and link rules'"
-msgstr ""
+msgstr "Comment fonctionne l'importation d'équipement et les règles de lien"
 
 #. type: Plain text
 #, no-wrap
 msgid "[[!template  id=warning text=\"“Equipment import and link rules” are complex and misconfiguration can seriously hurt your GLPI.\"]]\n"
-msgstr ""
+msgstr "[[!template  id=warning text=\"“L'importation d'équipement et les règles de lien” sont complexes et des erreurs de configuration peuvent sérieusement affecter voter GLPI.\"]]\n"
 
 #. type: Title ##
 #, no-wrap
 msgid "First thing to know"
-msgstr ""
+msgstr "Première chose à savoir "
 
 #. type: Plain text
 msgid ""
 "The rules engine goal is to detect if a device exists of if it has to be "
 "created."
-msgstr ""
+msgstr "Les règles du moteur ont pour but de détecter si un appareil existe ou s'il doit être "
+"créé."
 
 #. type: Plain text
 msgid "The rule engine is used for:"
-msgstr ""
+msgstr "Le moteur de règles est utilisé pour:"
 
 #. type: Bullet: '* '
 msgid "computer"
-msgstr ""
+msgstr "ordinateur"
 
 #. type: Bullet: '* '
 msgid "network devices"
-msgstr ""
+msgstr "appareils réseau"
 
 #. type: Bullet: '* '
 msgid "network printer"
-msgstr ""
+msgstr "imprimantes réseau"
 
 #. type: Plain text
 msgid "Common problems related to the rule engine are:"
-msgstr ""
+msgstr "Les problèmes courants liés au moteur de règles sont"
 
 #. type: Bullet: '* '
 msgid "duplicated device."
-msgstr ""
+msgstr "double appareil"
 
 #. type: Bullet: '* '
 msgid "device pushed in the “Ignored import devices”"
-msgstr ""
+msgstr "les appareils sont mis dans les “appareils importés ignorés”"
 
 #. type: Plain text
 #, no-wrap
 msgid "[[!graph  src=\"\"\"\n"
-msgstr ""
+msgstr "[[!graph  src=\"\"\"\n"
 
 #. type: Plain text
 #, no-wrap
@@ -78,6 +79,10 @@ msgid ""
 "    node [shape=box, color=purple];\n"
 "    size = \"7, 7\";\n"
 msgstr ""
+"    style=filled;\n"
+"    color=lightgrey;\n"
+"    node [shape=box, color=purple];\n"
+"    size = \"7, 7\";\n"
 
 #. type: Plain text
 #, no-wrap
@@ -97,6 +102,20 @@ msgid ""
 "                label = \"GLPI\";\n"
 "        }\n"
 msgstr ""
+"        subgraph cluster_0 {\n"
+"                style=filled;\n"
+"                color=lightgrey;\n"
+"                node [style=filled,color=white];\n"
+"                \"collector\" -> \"IMPORTATION D’ÉQUIPEMENT ET RÈGLES DE LIEN\";\n"
+"                \"IMPORTATION D’ÉQUIPEMENT ET RÈGLES DE LIEN\" -> \"machine trouvée\";\n"
+"                \"IMPORTATION D’ÉQUIPEMENT ET RÈGLES DE LIEN\" -> \"machine non trouvée\";\n"
+"                \"IMPORTATION D’ÉQUIPEMENT ET RÈGLES DE LIEN\" -> \"pas assez de critères\";\n"
+"                \"machine trouvée\" -> \"mise à jour\";\n"
+"                \"machine non trouvée\" -> \"creation\";\n"
+"                \"pas assez de critères\" -> \"mis dans “liste d’import ignorés”\";\n"
+"                \"creation\" -> \"machine trouvée\";\n"
+"                label = \"GLPI\";\n"
+"        }\n"
 
 #. type: Plain text
 #, no-wrap
@@ -106,126 +125,141 @@ msgid ""
 "    \"machine not found\" [ shape = \"Mdiamond\" ];\n"
 "    \"not enough criterias\" [ shape = \"Mdiamond\" ];\n"
 msgstr ""
+"    \"Inventaire\" -> \"collector\";\n"
+"    \"machine trouvée\" [ shape = \"Mdiamond\" ];\n"
+"    \"machine non trouvée\" [ shape = \"Mdiamond\" ];\n"
+"    \"pas assez de critères\" [ shape = \"Mdiamond\" ];\n"
 
 #. type: Plain text
 msgid "The engine stops on the first checked rule."
-msgstr ""
+msgstr "Le moteur s'arrête sur la première règle vérifiée."
 
 #. type: Title ##
 #, no-wrap
 msgid "When these rules are played?"
-msgstr ""
+msgstr "Quand ces règles sont elles jouées?"
 
 #. type: Plain text
 msgid "It's played in these cases:"
-msgstr ""
+msgstr "c'est joué dans ces cas:"
 
 #. type: Bullet: '* '
 msgid "Computer inventory, including ESX servers"
-msgstr ""
+msgstr "Inventaire d'ordinateurs, incluant les serveurs ESX"
 
 #. type: Bullet: '* '
 msgid "Network discovery"
-msgstr ""
+msgstr "La découverte du réseau"
 
 #. type: Bullet: '* '
 msgid "Network Inventory (switches, printers...)"
-msgstr ""
+msgstr "Inventaire du réseau (switchs, imprimantes...)"
 
 #. type: Plain text
 #, no-wrap
 msgid "[[!template  id=note text=\"Port MAC addresses from network switch are not used as criterias\"]]\n"
 msgstr ""
+"[[!template  id=note text=\"Les adresses port MAC du switch réseau ne sont pas utilisées comme critères\"]]\n"
 
 #. type: Title ##
 #, no-wrap
 msgid "Criteria of a rule"
-msgstr ""
+msgstr "Critères d'une règle"
 
 #. type: Plain text
 msgid "The criteria can be either normal or global."
-msgstr ""
+msgstr "Les critères peuvent aussi bien être normaux ou globaux."
 
 #. type: Title ###
 #, no-wrap
 msgid "Normal criteria"
-msgstr ""
+msgstr "Critères normaux"
 
 #. type: Plain text
 msgid ""
 "The normal criteria are defined by an information (IP, MAC, etc) and a "
 "filter:"
 msgstr ""
+"Les critères normaux sont définis par une information (IP, MAC, etc) et un "
+"filtre:"
 
 #. type: Bullet: '* '
 msgid "_is_"
-msgstr ""
+msgstr "_is_ (est)"
 
 #. type: Bullet: '* '
 msgid "_is not_"
-msgstr ""
+msgstr "_is not_ (n'est pas)"
 
 #. type: Bullet: '* '
 msgid "_contains_"
-msgstr ""
+msgstr "_contains_ (contient)"
 
 #. type: Bullet: '* '
 msgid "_does not contains_"
-msgstr ""
+msgstr "_does not contains_ (ne contient pas)"
 
 #. type: Bullet: '* '
 msgid "_starting with_"
-msgstr ""
+msgstr "_starting with_ (commence par)"
 
 #. type: Bullet: '* '
 msgid "_finished by_"
-msgstr ""
+msgstr "_finished by_ (fini part)"
 
 #. type: Bullet: '* '
 msgid "_regular expression checks_"
-msgstr ""
+msgstr "_regular expression checks_ (contrôles d'expressions régulières)"
 
 #. type: Bullet: '* '
 msgid "_regular expression does not match_"
-msgstr ""
+msgstr "_regular expression does not match_ (expression régulière ne correspond pas)"
 
 #. type: Bullet: '* '
 msgid ""
 "_exists_: mean the value exist and not be empty in the inventory come from "
 "the agent"
 msgstr ""
+"_exists_: signifie que la valeur existe et n'est pas vide dans l'inventaire venant de "
+"l' agent"
 
 #. type: Bullet: '* '
 msgid ""
 "_does not exist_: mean the value doesn't exist in the inventory come from "
 "the agent"
 msgstr ""
+"_does not exist_: signifie que la valeur n'existe pas dans l'inventaire venant de "
+"l' agent"
 
 #. type: Title ###
 #, no-wrap
 msgid "Global criteria"
-msgstr ""
+msgstr "Critères globaux"
 
 #. type: Bullet: '* '
 msgid ""
 "_Search GLPI equipement with this status_: search in GLPI database if the "
 "device exist with value defined"
 msgstr ""
+"_Search GLPI equipement with this status_: cherche dans la base de données GLPI si l' "
+"appareil existe avec la valeur définie"
 
 #. type: Plain text
 msgid ""
 "If the device is found, all criteria are checked, this rule is checked and "
 "now run the actions"
 msgstr ""
+"Si l' appareil est trouvé, tous les critères sont vérifiés, cette règle est vérifiée et "
+"maintenant lancez les actions"
 
 #. type: Title ##
 #, no-wrap
 msgid "Actions of a rule"
-msgstr ""
+msgstr "Actions d'une règle"
 
 #. type: Plain text
 msgid "The actions are defined by:"
-msgstr ""
+msgstr "Les actions sont définies par:"
 
 #. type: Bullet: '* '
 msgid ""
@@ -233,6 +267,9 @@ msgid ""
 "is found (in case use a global criteria), update this device, else create a "
 "new device with itemtype defined in inventory (computer, switches...)"
 msgstr ""
+"_FusionInventory link_ > _Link if possible, else create device_: si l'appareil "
+"est trouvé (dans ce cas utilisez un critère global), mettre à jour cet appareil, autre créer un "
+"nouvel appareil avec un itemtype défini dans l'inventaire (ordinateur, switchs...)"
 
 #. type: Bullet: '* '
 msgid ""
@@ -240,7 +277,10 @@ msgid ""
 "is found (in case use a global criteria), update this device, else deny "
 "creation of device and so is not be imported in GLPI inventory"
 msgstr ""
+"_FusionInventory link_ > _Link if possible, else import denied_: si l'appareil "
+"est trouvé (dans ce cas utilisez un critère global), mettre à jour cet appareil, autre refuser "
+"la création d'appareil et n'est donc pas impoté dans l'inventaire GLPI "
 
 #. type: Bullet: '* '
 msgid "_FusionInventory link_ > _Import denied_"
-msgstr ""
+msgstr "_FusionInventory link_ > _Import denied_: Importation refusée"

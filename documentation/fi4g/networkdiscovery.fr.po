@@ -19,31 +19,33 @@ msgstr ""
 #. type: Title #
 #, no-wrap
 msgid "How to scan my network"
-msgstr ""
+msgstr "Comment scanner mon réseau"
 
 #. type: Plain text
 msgid ""
 "It's always a good idea to use an up to date agent for the network scan."
-msgstr ""
+msgstr "C'est toujours une bonne idée d’utiliser un agent à jour pour les scannes du réseau."
 
 #. type: Title ##
 #, no-wrap
 msgid "Agent configuration"
-msgstr ""
+msgstr "Configuration de l'agent"
 
 #. type: Plain text
 msgid "By default, agent are not allowed to do network scan."
-msgstr ""
+msgstr "Par défaut, les agents ne sont pas autorisés à faire un scan du réseau"
 
 #. type: Plain text
 msgid "There is two different way to grant them this privilege:"
-msgstr ""
+msgstr "Il y a deux manières différentes de leur accorder ce privilège:"
 
 #. type: Bullet: '* '
 msgid ""
 "Allow all: in menu _plugins_ > _FusionInventory_ > _Configuration_ and in "
 "tab _Agents modules_.  You can check _Network discovery_ by default."
 msgstr ""
+"Allow all: dans menu _plugins_ > _FusionInventory_ > _Configuration_ et dans "
+"l'onglet _Agents modules_.  Vous pouvez cocher _Network discovery_ par défaut."
 
 #. type: Bullet: '* '
 msgid ""
@@ -51,6 +53,9 @@ msgid ""
 "_FusionInventory_ > _Agents management_ go in agent form and in tab _Agents "
 "modules_, check _Network discovery_."
 msgstr ""
+"Allow ony some agents: dans menu _plugins_ > _FusionInventory_ > "
+"_FusionInventory_ > _Agents management_ aller dans agent form et dans l'onglet _Agents "
+"modules_, cocher _Network discovery_."
 
 #. type: Plain text
 msgid ""
@@ -58,11 +63,14 @@ msgid ""
 "contact the devices. You may to add some specific privilege in a device "
 "Access Control List (ACL)."
 msgstr ""
+"Les appareils réseaux sont inventoriés en utilisant SNMP. Votre agent doit être autorisé à "
+"contacter les appareils. Vous pouvez ajouter quelques privilèges spécifiques dans un appareil "
+"Access Control List (ACL)."
 
 #. type: Title ###
 #, no-wrap
 msgid "number of threads"
-msgstr ""
+msgstr "Nombre de processus"
 
 #. type: Plain text
 msgid ""
@@ -70,10 +78,13 @@ msgid ""
 "simultaneous IP queries. For exemple, if you use 10 threads, agent will "
 "query 10 IP is same time, and so it's very more faster."
 msgstr ""
+"Pour avoir une exécution plus rapide de la découverte du réseau, vous pouvez définir"
+" le nombre de requêtes IP simultanées. Par exemple, si vous utilisez 10 processus, "
+"l'agent va interroger 10 IP en même temps et donc il est plus rapide."
 
 #. type: Plain text
 msgid "You have 2 choices:"
-msgstr ""
+msgstr "Vous avez 2 choix:"
 
 #. type: Bullet: '* '
 msgid ""
@@ -81,6 +92,9 @@ msgid ""
 "_FusionInventory_ > _Configuration_ and in tab _FusionInventory SNMP_. "
 "define value _Threads number (network discovery)_."
 msgstr ""
+"General configuration: Vous pouvez le définir pour tous les agents, dans menu _plugins_ > "
+"_FusionInventory_ > _Configuration_ et dans l'onglet _FusionInventory SNMP_. "
+"définissez la valeur _Threads number (network discovery)_."
 
 #. type: Bullet: '* '
 msgid ""
@@ -90,11 +104,16 @@ msgid ""
 "and in tab _Threads number_, and define value _Threads number (network "
 "discovery)_."
 msgstr ""
+"Personalized configuration: vous pouvez écraser la configuration générale pour un "
+"agent (par exemple si l' ordinateur est plus rapide), dans menu _plugins_ > "
+"_FusionInventory_ > _FusionInventory_ > _Agents management_ allez dans agent form "
+"et dans l'onglet _Threads number_, et définissez la valeur _Threads number (network "
+"discovery)_."
 
 #. type: Title ##
 #, no-wrap
 msgid "Network range"
-msgstr ""
+msgstr "Plages réseau"
 
 #. type: Plain text
 msgid ""
@@ -102,11 +121,14 @@ msgid ""
 "configuration. You can associate a network to an entity, in this case, the "
 "devices found on this network will be created in the given entity."
 msgstr ""
+"Vous devez enregistrer vos plages réseau dans “IP range configuration”."
+" Vous pouvez associer un réseau à une entité, dans ce cas, les "
+"appareils trouvés sur ce réseau seront créés dans l'entité donnée."
 
 #. type: Title ##
 #, no-wrap
 msgid "Task creation"
-msgstr ""
+msgstr "La création de tâches"
 
 #. type: Plain text
 msgid ""
@@ -114,7 +136,10 @@ msgid ""
 "your first task. Go in _Task management (Normal)_ menu and create a new "
 "entry."
 msgstr ""
+"Maintenant votre agent est prêt et le réseau a été enregistré, vous pouvez créer "
+"votre première tâche. Allez dans le menu _Task management (Normal)_ et créez une "
+"nouvelle entrée."
 
 #. type: Plain text
 msgid "Please see the [[task creation|documentation/fi4g/tasks]] page."
-msgstr ""
+msgstr "Merci d'allez voir la page [[task creation|documentation/fi4g/tasks]]."
