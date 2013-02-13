@@ -10,7 +10,7 @@ See these information:
 
 * Get the last version, download a development archive from [github](https://github.com/fusinv/fusioninventory-for-glpi/archive/master.zip) or use the [[git|documentation/dev/git]] mirror with [github FusionInventory for GLPI repository](https://github.com/fusinv/fusioninventory-for-glpi), *master* branch .
 
-* You have now only one plugin 'fusioninventory' to put in glpi/plugins/ folder
+* You have now only one plugin 'fusioninventory' to put in glpi/plugins/ folder and the webservice plugin is not necessary for deployment.
 
 * To report a bug, create an account on [forge](http://forge.fusioninventory.org) and open a bug with this [page](http://forge.fusioninventory.org/projects/fusioninventory-for-glpi/issues/new). Don't forget to specify the target version: **0.84+1.0-BETA**
 

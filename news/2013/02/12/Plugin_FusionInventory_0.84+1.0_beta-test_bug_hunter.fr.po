@@ -43,7 +43,7 @@ msgstr "Voici les informations pour participer:"
 
 #. type: Bullet: '* '
 msgid "First *Backup your data*"
-msgstr ""
+msgstr "Premièrement *Sauvegarder vos données*"
 
 #. type: Bullet: '* '
 msgid ""
@@ -53,8 +53,8 @@ msgid ""
 "repository](https://github.com/fusinv/fusioninventory-for-glpi), *master* "
 "branch ."
 msgstr ""
-"Pour avoir cette version, téléchargez la version de dev par [github](https://github.com/fusinv/"
-"fusioninventory-for-glpi/archive/master.zip) ou utilisez Git avec les dépôts  [github"
+"Pour avoir cette version, téléchargez la version de développement par [github](https://github.com/fusinv/"
+"fusioninventory-for-glpi/archive/master.zip) ou utilisez [[Git|documentation/dev/git]] avec les dépôts  [github"
 "](https://github.com/fusinv/fusioninventory-for-glpi), *master* "
 "branch ."
 
