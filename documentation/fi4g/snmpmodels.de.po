@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2013-01-28 13:17+0000\n"
+"POT-Creation-Date: 2013-02-14 08:47+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -124,7 +124,8 @@ msgid "User checks OID mapping and sends it to server"
 msgstr ""
 
 #. type: Bullet: '1. '
-msgid "Server receives OID mapping, updates the database and creates new models"
+msgid ""
+"Server receives OID mapping, updates the database and creates new models"
 msgstr ""
 
 #. type: Bullet: '1. '
@@ -142,14 +143,37 @@ msgstr ""
 
 #. type: Bullet: '* '
 msgid ""
-"Have an account on SNMP model creation server, for this, send mail to "
-"d.durieux@siprossii.com with object 'SNMP TOOL ACCOUNT'"
+"Have an account on SNMP model creation server, for this, send mail to d."
+"durieux@siprossii.com with object 'SNMP TOOL ACCOUNT'"
 msgstr ""
 
 #. type: Bullet: '* '
 msgid ""
 "Open your firewall for IP 93.93.45.69 (snmp.fusioninventory.org) and the "
 "port 80 (HTTP protocol, can transit by proxy without problems)"
+msgstr ""
+
+#. type: Title #
+#, no-wrap
+msgid "Install snmpwalk"
+msgstr ""
+
+#. type: Plain text
+msgid "Debian/Ubuntu:"
+msgstr ""
+
+#. type: Plain text
+#, no-wrap
+msgid "    # apt-get install snmp\n"
+msgstr ""
+
+#. type: Plain text
+msgid "RHEL/CentOS/SL/Fedora:"
+msgstr ""
+
+#. type: Plain text
+#, no-wrap
+msgid "    # yum install net-snmp-utils\n"
 msgstr ""
 
 #. type: Title #
@@ -184,9 +208,7 @@ msgstr ""
 
 #. type: Plain text
 #, no-wrap
-msgid ""
-"You can access SNMP tool menu by go to __Plugins__ > __FusionInventory__ > "
-"__SNMP__ > __SNMP models creation__\n"
+msgid "You can access SNMP tool menu by go to __Plugins__ > __FusionInventory__ > __SNMP__ > __SNMP models creation__\n"
 msgstr ""
 
 #. type: Title #
@@ -216,7 +238,8 @@ msgid "Go in menu _Check a sysdescr_"
 msgstr ""
 
 #. type: Bullet: '1. '
-msgid "Define the itemtype : if it's a printer, network equipment (switch, routers)"
+msgid ""
+"Define the itemtype : if it's a printer, network equipment (switch, routers)"
 msgstr ""
 
 #. type: Bullet: '1. '
@@ -241,7 +264,21 @@ msgstr ""
 #. type: Plain text
 msgid ""
 "Once you have submit __sysdescr__, a form appear with possibility to upload "
-"an snmpwalk file.  The command to generate this file is in the interface."
+"an snmpwalk file.  The command to generate this file is on the interface:"
+msgstr ""
+
+#. type: Plain text
+#, no-wrap
+msgid "    # snmpwalk -v [version] -Cc -On -c [community] [yourip] .1 > file.log\n"
+msgstr ""
+
+#. type: Plain text
+msgid "For example:"
+msgstr ""
+
+#. type: Plain text
+#, no-wrap
+msgid "    # snmpwalk -v 2c -Cc -On -c public 192.168.0.10 .1 > file.log\n"
 msgstr ""
 
 #. type: Plain text
@@ -264,7 +301,6 @@ msgid "[[!img screenshots/snmpmodels-construct_model.png]]\n"
 msgstr ""
 
 #. type: Plain text
-#:    
 #, no-wrap
 msgid "[[!template  id=warning text=\"\"\"\n"
 msgstr ""
@@ -326,8 +362,7 @@ msgstr ""
 #. type: Plain text
 #, no-wrap
 msgid ""
-"On the model is finish, you have to go in the _SNMP_ -> _SNMP models "
-"creation_ -> _See All SNMP models_\n"
+"On the model is finish, you have to go in the _SNMP_ -> _SNMP models creation_ -> _See All SNMP models_\n"
 "screen, select and load the new model.\n"
 msgstr ""
 
@@ -350,10 +385,7 @@ msgstr ""
 
 #. type: Plain text
 #, no-wrap
-msgid ""
-"When you have an account, you have access to all models created on the "
-"server. For that, go in menu __Plugins__ > __FusionInventory__ > __SNMP__ > "
-"__SNMP models creation__ > __See All SNMP models__.\n"
+msgid "When you have an account, you have access to all models created on the server. For that, go in menu __Plugins__ > __FusionInventory__ > __SNMP__ > __SNMP models creation__ > __See All SNMP models__.\n"
 msgstr ""
 
 #. type: Plain text
