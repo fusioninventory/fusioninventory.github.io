@@ -19,9 +19,7 @@ msgstr ""
 #. type: Plain text
 #, no-wrap
 msgid "[[!meta  date=\"2013-02-12\"]]\n"
-msgstr ""
-"[[!meta  date=\"2013-02-12\"]\n"
-"]"
+msgstr "[[!meta  date=\"2013-02-12\"]]\n"
 
 #. type: Plain text
 msgid ""
@@ -29,7 +27,7 @@ msgid ""
 "www.glpi-project.org/forum/search.php?search_id=1785690941)."
 msgstr ""
 "La version de GLPI 0.84 est en version bêta pour faire des tests voir le "
-"[forum GLPI] (http://www.glpi-project.org/forum/search.php?"
+"[forum GLPI](http://www.glpi-project.org/forum/search.php?"
 "search_id=1785690941)."
 
 #. type: Plain text
@@ -62,16 +60,12 @@ msgstr ""
 "(https://github.com/fusinv/fusioninventory-for-glpi), *master* branch ."
 
 #. type: Bullet: '* '
-#, fuzzy
-#| msgid ""
-#| "You have now only one plugin 'fusioninventory' to put in glpi/plugins/ "
-#| "folder"
 msgid ""
 "You have now only one plugin 'fusioninventory' to put in glpi/plugins/ "
 "folder and the webservice plugin is not necessary for deployment."
 msgstr ""
 "Vous aurez maintenant un seul plugin *fusioninventory* dans le dossier glpi/"
-"plugins/ "
+"plugins/ et Le plugin Webservice n'est plus nécessaire pour faire du déploiement."
 
 #. type: Bullet: '* '
 msgid ""
