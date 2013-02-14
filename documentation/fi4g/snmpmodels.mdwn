@@ -59,6 +59,16 @@ You need 2 things for using this tool:
 * Have an account on SNMP model creation server, for this, send mail to d.durieux@siprossii.com with object 'SNMP TOOL ACCOUNT'
 * Open your firewall for IP 93.93.45.69 (snmp.fusioninventory.org) and the port 80 (HTTP protocol, can transit by proxy without problems)
 
+# Install snmpwalk
+
+Debian/Ubuntu:
+
+    # apt-get install snmp
+
+RHEL/CentOS/SL/Fedora:
+
+    # yum install net-snmp-utils
+
 # Add SNMP submission account info in plugin
 
 To add an account: 
@@ -91,7 +101,13 @@ You don't define the model directly, you define oid mapping for a device and aft
 If the device with this __sysdescr__ exist on the server, you can go to the next section _Device information_
 
 Once you have submit __sysdescr__, a form appear with possibility to upload an
-snmpwalk file.  The command to generate this file is  in the interface.
+snmpwalk file.  The command to generate this file is on the interface:
+
+    # snmpwalk -v [version] -Cc -On -c [community] [yourip] .1 > file.log
+
+For example:
+
+    # snmpwalk -v 2c -Cc -On -c public 192.168.0.10 .1 > file.log
 
 [[!img screenshots/snmpmodels-upload_snmpwalk.png]]
 
