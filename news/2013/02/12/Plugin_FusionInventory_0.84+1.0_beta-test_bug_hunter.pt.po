@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2013-02-13 09:30+0000\n"
+"POT-Creation-Date: 2013-02-14 08:21+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -52,7 +52,8 @@ msgstr ""
 
 #. type: Bullet: '* '
 msgid ""
-"You have now only one plugin 'fusioninventory' to put in glpi/plugins/ folder"
+"You have now only one plugin 'fusioninventory' to put in glpi/plugins/ "
+"folder and the webservice plugin is not necessary for deployment."
 msgstr ""
 
 #. type: Bullet: '* '
