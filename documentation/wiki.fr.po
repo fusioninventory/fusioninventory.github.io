@@ -25,8 +25,7 @@ msgstr "Comment éditer ce wiki"
 msgid ""
 "The wiki is [[Ikiwiki]]. It uses [[Markdown syntax|ikiwiki/formatting]]."
 msgstr ""
-"Ce wiki utilise le moteur [[Ikiwiki]]. Il utilise des [[standards de mise en "
-"forme|ikiwiki/formatting]]."
+"Ce wiki utilise le moteur [[Ikiwiki]]. Il utilise la syntaxe de mise en forme [Markdown|ikiwiki/formatting]]."
 
 #. type: Title ##
 #, no-wrap
