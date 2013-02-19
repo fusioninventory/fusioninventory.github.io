@@ -47,13 +47,6 @@ msgid "First *Backup your data*"
 msgstr "Premièrement *Sauvegarder vos données*"
 
 #. type: Bullet: '* '
-#, fuzzy
-#| msgid ""
-#| "Get the last version, download a development archive from [github]"
-#| "(https://github.com/fusinv/fusioninventory-for-glpi/archive/master.zip) "
-#| "or use the [[git|documentation/dev/git]] mirror with [github "
-#| "FusionInventory for GLPI repository](https://github.com/fusinv/"
-#| "fusioninventory-for-glpi), *master* branch ."
 msgid ""
 "Get the last version, download a development archive from [github](https://"
 "github.com/fusinv/fusioninventory-for-glpi/archive/master.zip) or use the "
@@ -66,6 +59,8 @@ msgstr ""
 "[github](https://github.com/fusinv/fusioninventory-for-glpi/archive/master."
 "zip) ou utilisez [[Git|documentation/dev/git]] avec les dépôts  [github]"
 "(https://github.com/fusinv/fusioninventory-for-glpi), *master* branch ."
+" Renommer le dossier décompressé 'fusioninventory-for-glpi-master' en "
+"'fusioninventory'."
 
 #. type: Bullet: '* '
 msgid ""
