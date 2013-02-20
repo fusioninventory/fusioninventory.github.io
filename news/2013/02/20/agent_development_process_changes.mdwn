@@ -7,9 +7,9 @@ agent has been changed a bit. We will follow a Linux like development process:
 
 ## development process branches
 
-"master" will be the stable branch with some validated new feature. New feature will
-be prepared in "master+feature" branch and merged as soon as the feature is validated
-by the team.
+"master" will be the stable branch with some validated new feature. New feature
+will be prepared in "master+feature" branch and merged as soon as the feature
+is validated by the team.
 
 For example, I want a new feature:
 
@@ -20,7 +20,8 @@ For example, I want a new feature:
 
 The "master" branch must will be released regulary and has to be stable.
 
-Stable branch will be created when needed, (e.g, 2.3.x) to prepare bug fixes releases.
+Stable branch will be created when needed, (e.g, 2.3.x) to prepare bug fixes
+releases.
 
 ## branches renamed
 
@@ -32,11 +33,12 @@ Some old branches have been renamed with a new "attic/" prefix.
 
 ## Agent::Task merge
 
-Agent::Task::Network, Agent::Task::ESX and Agent::Task::Deploy will be merged within the Agent
-repository. The associated projects on the forge will be merged too.
+Agent::Task::Network, Agent::Task::ESX and Agent::Task::Deploy will be merged
+within the Agent repository. The associated projects on the forge will be
+merged too.
 
 ## 2.3.0 release
 
-The 2.3.0 release is mostly ready. We have to work on the Windows installer to finish what
-Tomás Abad started some weeks ago.
+The 2.3.0 release is mostly ready. We have to work on the Windows installer to
+finish what Tomás Abad started some weeks ago.
 
