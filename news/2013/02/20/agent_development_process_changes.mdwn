@@ -3,25 +3,28 @@
 Hello all,
 
 Following a meeting between the agent developers, the development process of the
-agent has been changed a bit. Here are the gory details.
+agent has been changed a bit. Here are some details.
 
 ## branches management
 
-"master" will be the stable branch with some validated new feature. New feature
-will be prepared in "master+feature" branch and merged as soon as the feature
-is validated by the team.
+"master" is now the stable branch, receiving only trivial bugfixes and new
+validated new features. This branch has to stable enough to alow regular new
+releases.
 
-For example, to develop a new feature:
+New features have to be prepared in dedicated development branches, with a name
+following "\<branch\>+\<feature\>" pattern. It will be merged in master branch
+as soon as the feature is validated.
 
-1. a new development branch called master+feature\_name is created
-2. the new feature is added, with adequate unit tests
-3. the new feature is validated
+For example, to develop a new task dedicated to coffee machines inventory:
+
+1. a new development branch called master+add_coffee_maker_inventory is created
+2. the new task is created, with adequate unit testing
+3. the new task is validated
 4. the development branch get merged in the master branch
 
-The "master" branch must will be released regulary and has to be stable.
-
-Stable branch will be created when needed, (e.g, 2.3.x) to prepare bug fixes
-releases.
+Bug fix branch will be created when needed, (e.g, 2.3.x) to prepare fix-only
+releases. For example, 2.3.x will be created the day we need to release a 2.3.1
+release to fix 2.3.0.
 
 ## branches renaming
 
@@ -41,4 +44,3 @@ into the agent repository, and the corresponding forge projects will be closed.
 
 The 2.3.0 release is mostly ready. We have to work on the Windows installer to
 finish what Tomás Abad started some weeks ago.
-
