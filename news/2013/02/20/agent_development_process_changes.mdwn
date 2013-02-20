@@ -2,28 +2,28 @@
 
 Hello all,
 
-Following a meeting between the agent developers, the release process of the
-agent has been changed a bit. We will follow a Linux like development process:
+Following a meeting between the agent developers, the development process of the
+agent has been changed a bit. Here are the gory details.
 
-## development process branches
+## branches management
 
 "master" will be the stable branch with some validated new feature. New feature
 will be prepared in "master+feature" branch and merged as soon as the feature
 is validated by the team.
 
-For example, I want a new feature:
+For example, to develop a new feature:
 
-1. The developer create a branch called master+feature\_name
-2. The developer adds the feature and refresh the test-suite
-3. The new feature is validation
-4. The branch get merged in the master branch
+1. a new development branch called master+feature\_name is created
+2. the new feature is added, with adequate unit tests
+3. the new feature is validated
+4. the development branch get merged in the master branch
 
 The "master" branch must will be released regulary and has to be stable.
 
 Stable branch will be created when needed, (e.g, 2.3.x) to prepare bug fixes
 releases.
 
-## branches renamed
+## branches renaming
 
 * "2.3.x" is now "master"
 * "master" is now "master+restjson"
@@ -31,11 +31,11 @@ releases.
 
 Some old branches have been renamed with a new "attic/" prefix.
 
-## Agent::Task merge
+## Additional tasks integration
 
-Agent::Task::Network, Agent::Task::ESX and Agent::Task::Deploy will be merged
-within the Agent repository. The associated projects on the forge will be
-merged too.
+Additional agent tasks (network discovery, network inventory, ESX inventory and
+software deployement) developed and distributed separatly will be integrated
+into the agent repository, and the corresponding forge projects will be closed.
 
 ## 2.3.0 release
 
