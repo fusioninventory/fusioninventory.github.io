@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2013-02-22 11:16+0000\n"
+"POT-Creation-Date: 2013-02-22 15:27+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -39,35 +39,41 @@ msgid "branches management"
 msgstr "Gestion des branches"
 
 #. type: Plain text
+#, fuzzy
+#| msgid ""
+#| "\"master\" is now the stable branch, receiving only trivial bugfixes and "
+#| "new validated new features. This branch has to stable enough to alow "
+#| "regular new releases."
 msgid ""
 "\"master\" is now the stable branch, receiving only trivial bugfixes and new "
-"validated new features. This branch has to stable enough to alow regular new "
-"releases."
+"validated new features. This branch has to stable enough to allow regular "
+"new releases."
 msgstr ""
-"\"master\" est maintenant la branche stable, recevant seulement les corrections de bug "
-"basiques et les nouvelles fonctionnalités dernièrement validées. Cette branche restera "
-" stable pour permettre la sortie régulière des nouvelles versions."
+"\"master\" est maintenant la branche stable, recevant seulement les "
+"corrections de bug basiques et les nouvelles fonctionnalités dernièrement "
+"validées. Cette branche restera  stable pour permettre la sortie régulière "
+"des nouvelles versions."
 
 #. type: Plain text
 #, no-wrap
 msgid ""
-"New features have to be prepared in dedicated development branches, with a "
-"name\n"
-"following \"\\<branch\\>+\\<feature\\>\" pattern. It will be merged in "
-"master branch\n"
+"New features have to be prepared in dedicated development branches, with a name\n"
+"following \"\\<branch\\>+\\<feature\\>\" pattern. It will be merged in master branch\n"
 "as soon as the feature is validated.\n"
-msgstr ""
-"Les nouvelles fonctionnalités doivent être préparés dans des branches de "
-"développement dédiés, avec une règle de nom suivante \"\\<branch\\>+\\<feature\\>\"."
-" Elles seront fusionnées dans la branche *master* dès que les fonctions seront validées."
+msgstr "Les nouvelles fonctionnalités doivent être préparés dans des branches de développement dédiés, avec une règle de nom suivante \"\\<branch\\>+\\<feature\\>\". Elles seront fusionnées dans la branche *master* dès que les fonctions seront validées."
 
 #. type: Plain text
-msgid "For example, to develop a new task dedicated to coffee machines inventory:"
-msgstr "Par exemple, pour développer une nouvelle tâche dédiée aux inventaires des machines à café:"
+msgid ""
+"For example, to develop a new task dedicated to coffee machines inventory:"
+msgstr ""
+"Par exemple, pour développer une nouvelle tâche dédiée aux inventaires des "
+"machines à café:"
 
 #. type: Bullet: '1. '
-msgid "a new development branch called master+add_coffee_maker_inventory is created"
-msgstr "une nouvelle branche nommée *master+add_coffee_maker_inventory* sera créée"
+msgid ""
+"a new development branch called master+add_coffee_maker_inventory is created"
+msgstr ""
+"une nouvelle branche nommée *master+add_coffee_maker_inventory* sera créée"
 
 #. type: Bullet: '2. '
 msgid "the new task is created, with adequate unit testing"
@@ -79,7 +85,9 @@ msgstr "La nouvelle tâche est validée"
 
 #. type: Bullet: '4. '
 msgid "the development branch get merged in the master branch"
-msgstr "La branche de développement est fusionnées avec la branche principale (*master*)"
+msgstr ""
+"La branche de développement est fusionnées avec la branche principale "
+"(*master*)"
 
 #. type: Plain text
 msgid ""
@@ -87,9 +95,9 @@ msgid ""
 "releases. For example, 2.3.x will be created the day we need to release a "
 "2.3.1 release to fix 2.3.0."
 msgstr ""
-"La branche de correction de bug pourra être créée au besoin (ex: 2.3.x) pour préparer "
-"seulement les correctifs de version. Par exemple, 2.3.x sera créée le jour où nous "
-"sortirons la version 2.3.1 pour corriger la 2.3.0."
+"La branche de correction de bug pourra être créée au besoin (ex: 2.3.x) pour "
+"préparer seulement les correctifs de version. Par exemple, 2.3.x sera créée "
+"le jour où nous sortirons la version 2.3.1 pour corriger la 2.3.0."
 
 #. type: Title ##
 #, no-wrap
@@ -110,7 +118,9 @@ msgstr "\"2.3.x+foo\"  devient \"master+foo\""
 
 #. type: Plain text
 msgid "Some old branches have been renamed with a new \"attic/\" prefix."
-msgstr "Quelques anciennes branches ont été renommées avec un nouveau préfixe \"attic/\""
+msgstr ""
+"Quelques anciennes branches ont été renommées avec un nouveau préfixe "
+"\"attic/\""
 
 #. type: Title ##
 #, no-wrap
@@ -125,9 +135,9 @@ msgid ""
 "will be closed."
 msgstr ""
 "Les tâches additionnelles de l'agent (découverte réseau, inventaire réseau, "
-"inventaire ESX et déploiement de logiciel) développées et distribuées séparément "
-"seront intégrées dans le répertoire de l'agent, et les projets Forge correspondants "
-"seront fermés."
+"inventaire ESX et déploiement de logiciel) développées et distribuées "
+"séparément seront intégrées dans le répertoire de l'agent, et les projets "
+"Forge correspondants seront fermés."
 
 #. type: Title ##
 #, no-wrap
@@ -140,4 +150,5 @@ msgid ""
 "to finish what Tomás Abad started some weeks ago."
 msgstr ""
 "La version 2.3.0 est presque prête. Nous travaillons à terminer le programme "
-"d'installation pour Windows, c'est ce que Tomás Abad a commencé, il y a quelques semaines."
+"d'installation pour Windows, c'est ce que Tomás Abad a commencé, il y a "
+"quelques semaines."

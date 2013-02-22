@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2013-02-22 11:16+0000\n"
+"POT-Creation-Date: 2013-02-22 15:27+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -39,26 +39,26 @@ msgstr ""
 #. type: Plain text
 msgid ""
 "\"master\" is now the stable branch, receiving only trivial bugfixes and new "
-"validated new features. This branch has to stable enough to alow regular new "
-"releases."
+"validated new features. This branch has to stable enough to allow regular "
+"new releases."
 msgstr ""
 
 #. type: Plain text
 #, no-wrap
 msgid ""
-"New features have to be prepared in dedicated development branches, with a "
-"name\n"
-"following \"\\<branch\\>+\\<feature\\>\" pattern. It will be merged in "
-"master branch\n"
+"New features have to be prepared in dedicated development branches, with a name\n"
+"following \"\\<branch\\>+\\<feature\\>\" pattern. It will be merged in master branch\n"
 "as soon as the feature is validated.\n"
 msgstr ""
 
 #. type: Plain text
-msgid "For example, to develop a new task dedicated to coffee machines inventory:"
+msgid ""
+"For example, to develop a new task dedicated to coffee machines inventory:"
 msgstr ""
 
 #. type: Bullet: '1. '
-msgid "a new development branch called master+add_coffee_maker_inventory is created"
+msgid ""
+"a new development branch called master+add_coffee_maker_inventory is created"
 msgstr ""
 
 #. type: Bullet: '2. '
