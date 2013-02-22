@@ -19,22 +19,24 @@ msgstr ""
 #. type: Plain text
 #, no-wrap
 msgid "[[!meta  date=\"2013-02-20\"]]\n"
-msgstr ""
+msgstr "[[!meta  date=\"2013-02-20\"]]\n"
 
 #. type: Plain text
 msgid "Hello all,"
-msgstr ""
+msgstr "Bonjour à tous,"
 
 #. type: Plain text
 msgid ""
 "Following a meeting between the agent developers, the development process of "
 "the agent has been changed a bit. Here are some details."
 msgstr ""
+"Suite à une réunion entre les développeurs de *l'agent*, le processus de "
+"développement de l'agent a été quelque peu modifié. Voici quelques détails."
 
 #. type: Title ##
 #, no-wrap
 msgid "branches management"
-msgstr ""
+msgstr "Gestion des branches"
 
 #. type: Plain text
 msgid ""
@@ -42,6 +44,9 @@ msgid ""
 "validated new features. This branch has to stable enough to alow regular new "
 "releases."
 msgstr ""
+"\"master\" est maintenant la branche stable, recevant seulement les corrections de bug "
+"basiques et les nouvelles fonctionnalités dernièrement validées. Cette branche restera "
+" stable pour permettre la sortie régulière des nouvelles versions."
 
 #. type: Plain text
 #, no-wrap
@@ -52,26 +57,29 @@ msgid ""
 "master branch\n"
 "as soon as the feature is validated.\n"
 msgstr ""
+"Les nouvelles fonctionnalités doivent être préparés dans des branches de "
+"développement dédiés, avec une règle de nom suivante \"\\<branch\\>+\\<feature\\>\"."
+" Elles seront fusionnées dans la branche *master* dès que les fonctions seront validées."
 
 #. type: Plain text
 msgid "For example, to develop a new task dedicated to coffee machines inventory:"
-msgstr ""
+msgstr "Par exemple, pour développer une nouvelle tâche dédiée aux inventaires des machines à café:"
 
 #. type: Bullet: '1. '
 msgid "a new development branch called master+add_coffee_maker_inventory is created"
-msgstr ""
+msgstr "une nouvelle branche nommée *master+add_coffee_maker_inventory* sera créée"
 
 #. type: Bullet: '2. '
 msgid "the new task is created, with adequate unit testing"
-msgstr ""
+msgstr "La nouvelle tâche est créée avec le *test unit* adéquat"
 
 #. type: Bullet: '3. '
 msgid "the new task is validated"
-msgstr ""
+msgstr "La nouvelle tâche est validée"
 
 #. type: Bullet: '4. '
 msgid "the development branch get merged in the master branch"
-msgstr ""
+msgstr "La branche de développement est fusionnées avec la branche principale (*master*)"
 
 #. type: Plain text
 msgid ""
@@ -79,32 +87,35 @@ msgid ""
 "releases. For example, 2.3.x will be created the day we need to release a "
 "2.3.1 release to fix 2.3.0."
 msgstr ""
+"La branche de correction de bug pourra être créée au besoin (ex: 2.3.x) pour préparer "
+"seulement les correctifs de version. Par exemple, 2.3.x sera créée le jour où nous "
+"sortirons la version 2.3.1 pour corriger la 2.3.0."
 
 #. type: Title ##
 #, no-wrap
 msgid "branches renaming"
-msgstr ""
+msgstr "renommage des branches:"
 
 #. type: Bullet: '* '
 msgid "\"2.3.x\" is now \"master\""
-msgstr ""
+msgstr "\"2.3.x\" devient \"master\""
 
 #. type: Bullet: '* '
 msgid "\"master\" is now \"master+restjson\""
-msgstr ""
+msgstr "\"master\" devient \"master+restjson\""
 
 #. type: Bullet: '* '
 msgid "\"2.3.x+foo\" are now \"master+foo\""
-msgstr ""
+msgstr "\"2.3.x+foo\"  devient \"master+foo\""
 
 #. type: Plain text
 msgid "Some old branches have been renamed with a new \"attic/\" prefix."
-msgstr ""
+msgstr "Quelques anciennes branches ont été renommées avec un nouveau préfixe \"attic/\""
 
 #. type: Title ##
 #, no-wrap
 msgid "Additional tasks integration"
-msgstr ""
+msgstr "Intégration de tâches additionnelles"
 
 #. type: Plain text
 msgid ""
@@ -113,14 +124,20 @@ msgid ""
 "integrated into the agent repository, and the corresponding forge projects "
 "will be closed."
 msgstr ""
+"Les tâches additionnelles de l'agent (découverte réseau, inventaire réseau, "
+"inventaire ESX et déploiement de logiciel) développées et distribuées séparément "
+"seront intégrées dans le répertoire de l'agent, et les projets Forge correspondants "
+"seront fermés."
 
 #. type: Title ##
 #, no-wrap
 msgid "2.3.0 release"
-msgstr ""
+msgstr "version 2.3.0"
 
 #. type: Plain text
 msgid ""
 "The 2.3.0 release is mostly ready. We have to work on the Windows installer "
 "to finish what Tomás Abad started some weeks ago."
 msgstr ""
+"La version 2.3.0 est presque prête. Nous travaillons à terminer le programme "
+"d'installation pour Windows, c'est ce que Tomás Abad a commencé, il y a quelques semaines."

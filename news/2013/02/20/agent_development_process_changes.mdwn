@@ -8,7 +8,7 @@ agent has been changed a bit. Here are some details.
 ## branches management
 
 "master" is now the stable branch, receiving only trivial bugfixes and new
-validated new features. This branch has to stable enough to alow regular new
+validated new features. This branch has to stable enough to allow regular new
 releases.
 
 New features have to be prepared in dedicated development branches, with a name
