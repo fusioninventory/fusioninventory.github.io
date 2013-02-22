@@ -26,8 +26,8 @@ msgstr ""
 
 #. type: Plain text
 #, no-wrap
-msgid "[[!inline pages=\"page(./news/*) and currentlang() and !*/Discussion\" rootpage=\"news\" postform=\"no\" postformtext=\"nothing\" show=\"5\" rss=\"yes\" atom=\"yes\"]]\n"
-msgstr "[[!inline pages=\"page(./news/*) and currentlang() and !*/Discussion\" rootpage=\"news\" postform=\"no\" postformtext=\"nothing\" show=\"5\" rss=\"yes\" atom=\"yes\"]]\n"
+msgid "[[!inline pages=\"page(./news/*) and !*/Discussion\" rootpage=\"news\" postform=\"no\" postformtext=\"nothing\" show=\"5\" rss=\"yes\" atom=\"yes\"]]\n"
+msgstr "[[!inline pages=\"page(./news/*) and !*/Discussion\" rootpage=\"news\" postform=\"no\" postformtext=\"nothing\" show=\"5\" rss=\"yes\" atom=\"yes\"]]\n"
 
 #~ msgid "Welcome to your new wiki."
 #~ msgstr "Bienvenue sur votre nouveau wiki."
