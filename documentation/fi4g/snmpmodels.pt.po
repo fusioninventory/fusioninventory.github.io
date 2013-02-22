@@ -327,13 +327,6 @@ msgstr ""
 
 #. type: Plain text
 msgid ""
-"If you have problems importing your file, take a look at apache and glpi logs."
-"Perhaps you will need some changes in php.ini. So check: post_max_size, memory_limit," "max_execution_time, max_input_time and memory_limit."
-"Also confirm if you have these folders accessible to apache: /glpi/files/_plugins/fusinvsnmp/tmpmodels/ and /glpi/files/_plugins/fusinvsnmp/walks/"
-msgstr ""
-
-#. type: Plain text
-msgid ""
 "Because FusionInventory Agent uses either **firmware** or "
 "**firmware1+firmware2**, make sure to only check one of those combinations."
 msgstr ""
