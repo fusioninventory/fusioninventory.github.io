@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2013-02-14 08:47+0000\n"
+"POT-Creation-Date: 2013-02-22 11:32+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -262,6 +262,29 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
+#, no-wrap
+msgid "[[!template  id=warning text=\"\"\"\n"
+msgstr ""
+
+#. type: Plain text
+msgid ""
+"If you have problems importing your file, take a look at apache and glpi "
+"logs."
+msgstr ""
+
+#. type: Plain text
+msgid ""
+"Perhaps you will need some changes in php.ini. So check: post_max_size, "
+"memory_limit,\" \"max_execution_time, max_input_time and memory_limit."
+msgstr ""
+
+#. type: Plain text
+msgid ""
+"Also confirm if you have these folders accessible to apache: /glpi/files/"
+"_plugins/fusinvsnmp/tmpmodels/ and /glpi/files/_plugins/fusinvsnmp/walks/"
+msgstr ""
+
+#. type: Plain text
 msgid ""
 "Once you have submit __sysdescr__, a form appear with possibility to upload "
 "an snmpwalk file.  The command to generate this file is on the interface:"
@@ -298,11 +321,6 @@ msgstr ""
 #. type: Plain text
 #, no-wrap
 msgid "[[!img screenshots/snmpmodels-construct_model.png]]\n"
-msgstr ""
-
-#. type: Plain text
-#, no-wrap
-msgid "[[!template  id=warning text=\"\"\"\n"
 msgstr ""
 
 #. type: Plain text
