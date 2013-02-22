@@ -100,6 +100,15 @@ You don't define the model directly, you define oid mapping for a device and aft
 
 If the device with this __sysdescr__ exist on the server, you can go to the next section _Device information_
 
+[[!template  id=warning text="""
+If you have problems importing your file, take a look at apache and glpi logs.
+
+Perhaps you will need some changes in php.ini. So check: post_max_size, memory_limit," "max_execution_time, max_input_time and memory_limit.
+
+Also confirm if you have these folders accessible to apache: /glpi/files/_plugins/fusinvsnmp/tmpmodels/ and /glpi/files/_plugins/fusinvsnmp/walks/
+"""]]
+
+
 Once you have submit __sysdescr__, a form appear with possibility to upload an
 snmpwalk file.  The command to generate this file is on the interface:
 
