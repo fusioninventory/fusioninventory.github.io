@@ -39,11 +39,6 @@ msgid "branches management"
 msgstr "Gestion des branches"
 
 #. type: Plain text
-#, fuzzy
-#| msgid ""
-#| "\"master\" is now the stable branch, receiving only trivial bugfixes and "
-#| "new validated new features. This branch has to stable enough to alow "
-#| "regular new releases."
 msgid ""
 "\"master\" is now the stable branch, receiving only trivial bugfixes and new "
 "validated new features. This branch has to stable enough to allow regular "
@@ -86,7 +81,7 @@ msgstr "La nouvelle tâche est validée"
 #. type: Bullet: '4. '
 msgid "the development branch get merged in the master branch"
 msgstr ""
-"La branche de développement est fusionnées avec la branche principale "
+"La branche de développement est fusionnée avec la branche principale "
 "(*master*)"
 
 #. type: Plain text
