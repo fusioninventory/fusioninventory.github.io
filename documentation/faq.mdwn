@@ -105,3 +105,8 @@ One of this information is probably duplicated.
 ## Can I use a mastering software like Ghost to deploy my agent
 
 Yes you can as soon as to clean up the 'var' directory just before the master creation.
+
+## How can I inventory my VMware Workstation virtual machines
+
+VMware Workstation is only supported on Linux and MacOSX. You can will probably need
+the _scan-homedirs_ parameter. This way, the agent will look for Virtual machine in user directories.
