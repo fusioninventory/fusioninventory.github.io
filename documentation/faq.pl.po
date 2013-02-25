@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2013-01-30 11:45+0000\n"
+"POT-Creation-Date: 2013-02-25 12:24+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -263,4 +263,16 @@ msgstr ""
 msgid ""
 "Yes you can as soon as to clean up the 'var' directory just before the "
 "master creation."
+msgstr ""
+
+#. type: Title ##
+#, no-wrap
+msgid "How can I inventory my VMware Workstation virtual machines"
+msgstr ""
+
+#. type: Plain text
+msgid ""
+"VMware Workstation is only supported on Linux and MacOSX. You can will "
+"probably need the _scan-homedirs_ parameter. This way, the agent will look "
+"for Virtual machine in user directories."
 msgstr ""

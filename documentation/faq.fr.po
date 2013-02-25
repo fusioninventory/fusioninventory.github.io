@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2013-01-30 11:45+0000\n"
+"POT-Creation-Date: 2013-02-25 12:24+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <contact@antoninbollin.fr>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -45,8 +45,8 @@ msgid ""
 "These messages show up in the agent log when the server do not ask for an "
 "Network Discovery or a Network Inventory."
 msgstr ""
-"Ces messages apparaissent dans le journal de l'agent lorsque le serveur "
-"ne demande pas de découverte du réseau ou d'inventaire de réseau."
+"Ces messages apparaissent dans le journal de l'agent lorsque le serveur ne "
+"demande pas de découverte du réseau ou d'inventaire de réseau."
 
 #. type: Title ##
 #, no-wrap
@@ -58,8 +58,9 @@ msgid ""
 "You can use an [alias](http://httpd.apache.org/docs/2.2/mod/mod_alias.html) "
 "directive to redirect traffic from /ocsinventory to FusionInventory."
 msgstr ""
-"Vous pouvez utiliser un [alias](http://httpd.apache.org/docs/2.2/mod/mod_alias.html) "
-"qui redirigera le trafic de /ocsinventory vers FusionInventory."
+"Vous pouvez utiliser un [alias](http://httpd.apache.org/docs/2.2/mod/"
+"mod_alias.html) qui redirigera le trafic de /ocsinventory vers "
+"FusionInventory."
 
 #. type: Plain text
 #, no-wrap
@@ -71,7 +72,8 @@ msgid ""
 "Take care to declare this directive before an `Alias / XXX` or it will be "
 "ignored."
 msgstr ""
-"Prenez soin de déclarer cette directive avant un `Alias / XXX` ou il sera ignoré"
+"Prenez soin de déclarer cette directive avant un `Alias / XXX` ou il sera "
+"ignoré"
 
 #. type: Plain text
 msgid "For example:"
@@ -127,8 +129,8 @@ msgid ""
 "You will get *Unable to find agent to run this job* message when the server "
 "can't find an agent to run a task in push mode:"
 msgstr ""
-"Vous obtiendrez * Unable to find agent to run this job * "
-"lorsque le serveur ne peut pas trouver un agent pour exécuter une tâche en mode push:"
+"Vous obtiendrez * Unable to find agent to run this job * lorsque le serveur "
+"ne peut pas trouver un agent pour exécuter une tâche en mode push:"
 
 #. type: Bullet: '* '
 msgid "Ensure an agent is running as service or daemon"
@@ -143,8 +145,8 @@ msgid ""
 "Check in http://glpi/plugins/fusioninventory/front/agent.php if the agent "
 "has *Network discovery* and *Network inventory (SNMP)* modules turned on"
 msgstr ""
-"Vérifiez dans http://glpi/plugins/fusioninventory/front/agent.php si les agents "
-" *Découverte réseau* et *Inventaire réseau (SNMP)* sont activés"
+"Vérifiez dans http://glpi/plugins/fusioninventory/front/agent.php si les "
+"agents  *Découverte réseau* et *Inventaire réseau (SNMP)* sont activés"
 
 #. type: Title ##
 #, no-wrap
@@ -157,17 +159,17 @@ msgid ""
 "DragonFlyBSD, AIX, Solaris, HP-UX. The agent shares the same codebase on all "
 "these platforms."
 msgstr ""
-"L'agent est disponible sur Windows, MacOS X, Linux, FreeBSD, OpenBSD, NetBSD, "
-"DragonFlyBSD, AIX, Solaris, HP-UX. L'agent partage le même cœur du code sur "
-"toute ces plateformes."
+"L'agent est disponible sur Windows, MacOS X, Linux, FreeBSD, OpenBSD, "
+"NetBSD, DragonFlyBSD, AIX, Solaris, HP-UX. L'agent partage le même cœur du "
+"code sur toute ces plateformes."
 
 #. type: Plain text
 msgid ""
 "An agent for Android is also available on [Google Play](https://play.google."
 "com/store/apps/details?id=org.fusioninventory)."
 msgstr ""
-"Un agent est également disponible pour Android sur [Google Play](https://play.google."
-"com/store/apps/details?id=org.fusioninventory)."
+"Un agent est également disponible pour Android sur [Google Play](https://"
+"play.google.com/store/apps/details?id=org.fusioninventory)."
 
 #. type: Title ##
 #, no-wrap
@@ -208,7 +210,8 @@ msgid ""
 "Yes, your server will need to be configured to accept the Fusioninventory "
 "UserAgent in the ocsinventory-server.conf"
 msgstr ""
-"Oui, votre serveur doit être configuré pour accepter l'agent fusioninventory dans l'ocsinventory-server.conf"
+"Oui, votre serveur doit être configuré pour accepter l'agent fusioninventory "
+"dans l'ocsinventory-server.conf"
 
 #. type: Plain text
 #, no-wrap
@@ -231,16 +234,17 @@ msgid ""
 "feature, and that OCS Deployment module is now deprecated and will not be "
 "developped anymore."
 msgstr ""
-"Veuillez noter que l'agent FusionInventory ne supporte pas la découverte IP d'OCS, "
-"mais aussi que l’outil de déploiement d'OCS est obsolète est ne sera pas plus développé"
+"Veuillez noter que l'agent FusionInventory ne supporte pas la découverte IP "
+"d'OCS, mais aussi que l’outil de déploiement d'OCS est obsolète est ne sera "
+"pas plus développé"
 
 #. type: Plain text
 msgid ""
 "If you’re looking for a software deployment solution, FusionInventory "
 "provides it’s own, which is integrated into GLPI."
 msgstr ""
-"Si vous êtes à la recherche d'une solution de déploiement logiciel, FusionInventory fourni "
-"son propre outil, qui est intégré dans GLPI."
+"Si vous êtes à la recherche d'une solution de déploiement logiciel, "
+"FusionInventory fourni son propre outil, qui est intégré dans GLPI."
 
 #. type: Title ##
 #, no-wrap
@@ -252,8 +256,8 @@ msgid ""
 "“Bad token” problems means the agent and the server are not synchronized "
 "anymore. You can resolve the situation either:"
 msgstr ""
-"Le message “Bad token” signifie que l'agent et le serveur ne sont pas synchronisés "
-"Vous pouvez résoudre la situation en faisant :"
+"Le message “Bad token” signifie que l'agent et le serveur ne sont pas "
+"synchronisés Vous pouvez résoudre la situation en faisant :"
 
 #. type: Bullet: '* '
 msgid "just by running an inventory"
@@ -261,7 +265,8 @@ msgstr "En exécutant un inventaire"
 
 #. type: Bullet: '* '
 msgid "by using `httpd-trust` parameter to allow request from the server IP."
-msgstr "en utilisant le paramètre `httpd-trust` qui autorisera l'IP du serveur."
+msgstr ""
+"en utilisant le paramètre `httpd-trust` qui autorisera l'IP du serveur."
 
 #. type: Plain text
 #, no-wrap
@@ -278,7 +283,8 @@ msgid ""
 "With the default settings, FusionInventory for GLPI use the follow criteria "
 "to identify computer:"
 msgstr ""
-"Avec les paramètres par défaut, *FusionInventory for GLPI* utilisera ces critères pour identifier la machine :"
+"Avec les paramètres par défaut, *FusionInventory for GLPI* utilisera ces "
+"critères pour identifier la machine :"
 
 #. type: Bullet: '* '
 msgid "MAC addresses"
@@ -306,4 +312,17 @@ msgid ""
 "Yes you can as soon as to clean up the 'var' directory just before the "
 "master creation."
 msgstr ""
-"Oui, mais vous devez nettoyer le répertoire 'var', juste avant la création de l'image source."
+"Oui, mais vous devez nettoyer le répertoire 'var', juste avant la création "
+"de l'image source."
+
+#. type: Title ##
+#, no-wrap
+msgid "How can I inventory my VMware Workstation virtual machines"
+msgstr ""
+
+#. type: Plain text
+msgid ""
+"VMware Workstation is only supported on Linux and MacOSX. You can will "
+"probably need the _scan-homedirs_ parameter. This way, the agent will look "
+"for Virtual machine in user directories."
+msgstr ""
