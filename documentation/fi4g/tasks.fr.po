@@ -23,7 +23,7 @@ msgstr ""
 
 #. type: Plain text
 msgid ""
-"Utilisez la Gestion des tâches (Normal). This is used to list and search "
+"Use the (Normal) display of Task Management. This is used to list and search "
 "the existing tasks in the Fusion Inventory system."
 msgstr ""
 
