@@ -144,6 +144,8 @@ msgid ""
 "This check box will increase *a lot* the verbosity of the agent. The log is "
 "available in the agent-log.txt file."
 msgstr ""
+"Zaznaczony kwadracik spowoduje włączenie logowania informacji o agencie w trybie debug."
+"Log jest dostępny w pliku agent-log.txt"
 
 #. type: Bullet: '7. '
 msgid ""
@@ -167,7 +169,7 @@ msgstr ""
 #. type: Title ##
 #, no-wrap
 msgid "Installer command line parameters"
-msgstr ""
+msgstr "Parametry instalatora w linii poleceń"
 
 #. type: Plain text
 #, no-wrap
@@ -192,6 +194,25 @@ msgid ""
 "/execmode=option        launch the agent with a service(service)/windows task scheduler(task)/or keep settings unchanged(none) (default is service)\n"
 "~~~~\n"
 msgstr ""
+"~~~~\n"
+"/help                   Wyświetla tą pomoc. The space in front of /help is mandatory!\n"
+"/S                      Uruchamia instalator w trybie cichym\n"
+"/installdir=nazwakat    Ustawia katalog instalacji agenta\n"
+"/server=url1,url2       Ustawia url serwera\n"
+"/tag=tagname            Ustawia tag agenta\n"
+"/user=nazwauzytkownika  Ustawia nazwę użytkownika\n"
+"/pass=hasło             Ustawia hasło\n"
+"/realm=realm            Ustawia realm\n"
+"/ca-cert-file=filename  Ustawia nazwę pliku z certyfikatem\n"
+"/no-ssl-check           Nie sprawdza cetyfikatu podczas nawiązywania połączenia SSL\n"
+"/proxy=http://proxy/    Ustawia proxy\n"
+"/debug                  Ustawia tryb debugowania\n"
+"/rpc-port               Ustawia numer portu RPC\n"
+"/scan-homedirs          Poszukuje maszyn wirtualnych w katalogu domowym\n"
+"/runnow                 Uruchamia agenta zaraz po instalacji\n"
+"/update-firewall        Update the Firewall to register the agent\n"
+"/execmode=option        uruchamia agenta jako serwis(service)/menadżer zadań windows (task)/lub pozostawia ustawienia bez zmian (none (domyślnie service)\n"
+"~~~~\n"
 
 #. type: Title ##
 #, no-wrap
@@ -200,12 +221,12 @@ msgstr ""
 
 #. type: Plain text
 msgid "To pass the parameters, do for example:"
-msgstr ""
+msgstr "Przykład przekazania parametrów: "
 
 #. type: Plain text
 #, no-wrap
 msgid "    fusioninventory-agent_windows-i386_2.x.x-1.exe /S /debug /runnow /server=https://server1/glpi/plugins/fusioninventory/\n"
-msgstr ""
+msgstr "    fusioninventory-agent_windows-i386_2.x.x-1.exe /S /debug /runnow /server=https://server1/glpi/plugins/fusioninventory/\n"
 
 #. type: Plain text
 msgid ""
