@@ -35,7 +35,6 @@ msgstr "L'agent FusionInventory agit comme une passerelle et un collecteur "
 "d'information. Il crée et met à jour les données de GLPI dans un minimum "
 "d'effort "
 
-
 #. type: Plain text
 msgid "For now, these class of devices are supported:"
 msgstr "Pour le moment, les classes suivantes d'équipement sont supportées :"
