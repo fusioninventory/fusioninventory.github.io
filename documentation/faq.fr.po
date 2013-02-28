@@ -318,7 +318,7 @@ msgstr ""
 #. type: Title ##
 #, no-wrap
 msgid "How can I inventory my VMware Workstation virtual machines"
-msgstr ""
+msgstr "Comment inventorier mes machines virtuelles VMware Workstation"
 
 #. type: Plain text
 msgid ""
@@ -326,3 +326,6 @@ msgid ""
 "probably need the _scan-homedirs_ parameter. This way, the agent will look "
 "for Virtual machine in user directories."
 msgstr ""
+"VMware Workstation est seulement possible sur Linux et MacOSX. Vous aurez "
+"probablement besoin du paramètre _scan-homedirs_. Comme cela, l'agent pourra "
+"voir les machines virtuelles dans les dossiers des utilisateurs."
