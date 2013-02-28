@@ -41,11 +41,11 @@ msgstr ""
 
 #. type: Bullet: '* '
 msgid "[[Debian and Ubuntu|documentation/agent/installation/linux/deb]]"
-msgstr "[[Debian and Ubuntu|documentation/agent/installation/linux/deb]]"
+msgstr "[[Debian i Ubuntu|documentation/agent/installation/linux/deb]]"
 
 #. type: Bullet: '* '
 msgid "[[RHEL and Centos|documentation/agent/installation/linux/rhel]]"
-msgstr "[[RHEL and Centos|documentation/agent/installation/linux/rhel]]"
+msgstr "[[RHEL i Centos|documentation/agent/installation/linux/rhel]]"
 
 #. type: Bullet: '* '
 msgid "[[Fedora|documentation/agent/installation/linux/fedora]]"
@@ -53,14 +53,14 @@ msgstr "[[Fedora|documentation/agent/installation/linux/fedora]]"
 
 #. type: Bullet: '* '
 msgid "[[Mageia and Mandriva|documentation/agent/installation/linux/mageia]]"
-msgstr "[[Mageia and Mandriva|documentation/agent/installation/linux/mageia]]"
+msgstr "[[Mageia i Mandriva|documentation/agent/installation/linux/mageia]]"
 
 #. type: Bullet: '* '
 msgid "[[Source|documentation/agent/installation/source]]"
-msgstr "[[Source|documentation/agent/installation/source]]"
+msgstr "[[Żródła|documentation/agent/installation/source]]"
 
 #. type: Bullet: '* '
 msgid ""
 "[[Generic “prebuilt” packages|documentation/agent/installation/prebuilt]]"
 msgstr ""
-"[[Generic “prebuilt” packages|documentation/agent/installation/prebuilt]]"
+"[[Ogólne “gotowe” pakiety|documentation/agent/installation/prebuilt]]"
