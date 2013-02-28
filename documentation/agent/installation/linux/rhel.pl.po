@@ -19,7 +19,7 @@ msgstr ""
 #. type: Title #
 #, no-wrap
 msgid "Installation of the Agent on RHEL, Centos and other RHEL clones"
-msgstr ""
+msgstr "Instalacja Agenta na RHEL, Centos i innych klonach RHEL"
 
 #. type: Title ##
 #, no-wrap
@@ -32,17 +32,22 @@ msgid ""
 "FusionInventory team. You can retrieve it from [openSUSE Build Service]"
 "(https://build.opensuse.org/project/show?project=home%3Aguillomovitch)."
 msgstr ""
+"Aktualna paczka *fusioninventory-agent* jest utrzymywana przez "
+"zespół FusionInventory. Możesz uzyskać je z [openSUSE Build Service]"
+"(https://build.opensuse.org/project/show?project=home%3Aguillomovitch)."
 
 #. type: Plain text
 msgid ""
 "Beware, you'all also need the *EPEL* repository. See [EPEL wiki](https://"
 "fedoraproject.org/wiki/EPEL) for details."
 msgstr ""
+"Zwróć uwagę, że potrzebujesz repozytorium *EPEL*. Więcej szczegółów szukaj na "
+"[EPEL wiki](https://fedoraproject.org/wiki/EPEL)"
 
 #. type: Title ##
 #, no-wrap
 msgid "RHEL, Centos 4.x"
-msgstr ""
+msgstr "RHEL, Centos 4.x"
 
 #. type: Plain text
 #, no-wrap
@@ -58,19 +63,20 @@ msgstr ""
 #. type: Title ##
 #, no-wrap
 msgid "Agent installation"
-msgstr ""
+msgstr "Instalacja egenta"
 
 #. type: Plain text
 msgid "Agent installation:"
-msgstr ""
+msgstr "Instalacja agenta:"
 
 #. type: Plain text
 #, no-wrap
 msgid "    # yum install fusioninventory-agent\n"
-msgstr ""
+msgstr "    # yum install fusioninventory-agent\n"
 
 #. type: Plain text
 msgid ""
 "Only *fusioninventory-agent* is mandatory, other packages are additional "
 "tasks."
-msgstr ""
+msgstr "Tylko *fusioninventory-agent* jest obowiązkowy, other packages are additional "
+"tasks."
