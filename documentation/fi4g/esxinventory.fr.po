@@ -46,12 +46,12 @@ msgstr ""
 
 #. type: Plain text
 msgid "FusionInventory *DO NOT* use VMware Perl library."
-msgstr "FusionInventory *N4UTILISE PAS* la librairie VMware Perl."
+msgstr "FusionInventory *N'UTILISE PAS* la librairie VMware Perl."
 
 #. type: Plain text
 #, no-wrap
 msgid "[[!graph  src=\"\"\"\n"
-msgstr ""
+msgstr "[[!graph  src=\"\"\"\n"
 
 #. type: Plain text
 #, no-wrap
@@ -61,6 +61,10 @@ msgid ""
 "    node [shape=box, color=purple];\n"
 "    size = \"5, 5\";\n"
 msgstr ""
+"    style=filled;\n"
+"    color=lightgrey;\n"
+"    node [shape=box, color=purple];\n"
+"    size = \"5, 5\";\n"
 
 #. type: Plain text
 #, no-wrap
@@ -81,6 +85,21 @@ msgid ""
 "                label = \"VMware API\";\n"
 "        }\n"
 msgstr ""
+"        subgraph cluster_0 {\n"
+"                style=filled;\n"
+"                color=lightgrey;\n"
+"                node [style=filled,color=white];\n"
+"    \"vCentre1\" -> \"esx1\" -> \"vCentre1\";\n"
+"    \"vCentre1\" -> \"esx2\" -> \"vCentre1\";\n"
+"    \"vCentre1\" -> \"esx3\" -> \"vCentre1\";\n"
+"    \"esx1\" -> \"vm1\" -> \"esx1\";\n"
+"    \"esx2\" -> \"vm2\" -> \"esx2\";\n"
+"    \"esx2\" -> \"vm3\" -> \"esx2\";\n"
+"    \"esx3\" -> \"vm4\" -> \"esx3\";\n"
+"    \"esx3\" -> \"vm5\" -> \"esx3\";\n"
+"    \"esx4\" -> \"vm6\" -> \"esx4\";\n"
+"                label = \"VMware API\";\n"
+"        }\n"
 
 #. type: Plain text
 #, no-wrap
@@ -89,11 +108,14 @@ msgid ""
 "    \"Agent\" -> \"vCenter1\" -> \"Agent\";\n"
 "    \"Agent\" -> \"esx4\" -> \"Agent\";\n"
 msgstr ""
+"    \"Serveur\" -> \"Agent\" -> \"Serveur\";\n"
+"    \"Agent\" -> \"vCentre1\" -> \"Agent\";\n"
+"    \"Agent\" -> \"esx4\" -> \"Agent\";\n"
 
 #. type: Title #
 #, no-wrap
 msgid "Installation"
-msgstr ""
+msgstr "Installation"
 
 #. type: Plain text
 msgid ""
