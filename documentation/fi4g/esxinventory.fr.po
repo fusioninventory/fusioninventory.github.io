@@ -19,7 +19,7 @@ msgstr ""
 #. type: Title #
 #, no-wrap
 msgid "Introduction"
-msgstr ""
+msgstr "Introduction"
 
 #. type: Plain text
 msgid ""
@@ -27,6 +27,9 @@ msgid ""
 "API.  It will identify the ESX server and the associated virtual machine. At "
 "the end, it will push XML inventory of the machines to the server:"
 msgstr ""
+"FusionInventory peut contacter un serveur ESX/ESXi/vCenter en utilisant la VMware SOAP "
+"API.  Il identifiera le serveur ESX et la machine virtuelle associée. A la "
+"fin, il mettra l'inventaire XML des machines vers le serveur:"
 
 #. type: Plain text
 #, no-wrap
