@@ -39,10 +39,14 @@ msgid ""
 "2. the agent scan each VMware servers and generate the associated XML content\n"
 "3. the agent send the XML to the server much like a local inventory\n"
 msgstr ""
+"1. L'agent contacte de serveur\n"
+"    * le serveur répond avec une liste de serveurs VMware à analyser et quelques certifications\n"
+"2. L'agent analyse chaque serveurs VMware servers et génère le contenu XML associé\n"
+"3. L'agent envoi l'XML vers le serveur the agent send the XML to the server un peu comme un inventaire local\n"
 
 #. type: Plain text
 msgid "FusionInventory *DO NOT* use VMware Perl library."
-msgstr ""
+msgstr "FusionInventory *N4UTILISE PAS* la librairie VMware Perl."
 
 #. type: Plain text
 #, no-wrap
