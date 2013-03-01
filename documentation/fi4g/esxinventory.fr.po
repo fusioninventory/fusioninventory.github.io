@@ -125,53 +125,62 @@ msgid ""
 "Fusioninventory Agent comes with the module. For Linux distribution, you "
 "must install a additional package."
 msgstr ""
+"Pour inventorier ESX ou Vcenter, il n'y a pas d'agent spécifique à installer sur "
+"l' ESX. L'agent Fusioninventory installé sur Windows ou Linux, fera un "
+"inventaire à distance par une tâche automatique.  Pour Windows, l'agent "
+"Fusioninventory vient avec le module. Pour les distributions Linux, vous "
+"devez installer un paquet supplémentaire."
 
 #. type: Plain text
 msgid "On Redhat/Centos, run"
-msgstr ""
+msgstr "Sur Redhat/Centos, lancez"
 
 #. type: Plain text
 #, no-wrap
 msgid "    # yum install perl-FusionInventory-Agent-Task-ESX\n"
-msgstr ""
+msgstr "    # yum install perl-FusionInventory-Agent-Task-ESX\n"
 
 #. type: Plain text
 msgid "On Debian/Ubuntu :"
-msgstr ""
+msgstr "Sur Debian/Ubuntu :"
 
 #. type: Plain text
 #, no-wrap
 msgid "    # apt-get install libfusioninventory-agent-task-esx-perl\n"
-msgstr ""
+msgstr "    # apt-get install libfusioninventory-agent-task-esx-perl\n"
 
 #. type: Plain text
 msgid ""
 "From Source, see the [[agent source installation page|documentation/agent/"
 "installation/source]]."
 msgstr ""
+"Source, voir [[agent source installation page|documentation/agent/"
+"installation/source]]."
 
 #. type: Title #
 #, no-wrap
 msgid "From the Command line"
-msgstr ""
+msgstr "A partir de la ligne de Commande"
 
 #. type: Plain text
 msgid ""
 "You can use [[fusioninventory-esx|documentation/references]] and "
 "[[fusioninventory-injector|documentation/references]] to:"
 msgstr ""
+"Vous pouvez utiliser [[fusioninventory-esx|documentation/references]] et "
+"[[fusioninventory-injector|documentation/references]] pour:"
 
 #. type: Bullet: '1. '
 msgid "fetch the Inventories from the server"
-msgstr ""
+msgstr "extraire les inventaires à partir du serveur"
 
 #. type: Bullet: '2. '
 msgid "push the Inventories in GLPI"
-msgstr ""
+msgstr "mettre les inventaires dans GLPI"
 
 #. type: Plain text
 msgid "For example:"
-msgstr ""
+msgstr "Par exemple"
 
 #. type: Plain text
 #, no-wrap
@@ -179,6 +188,8 @@ msgid ""
 "    # fusioninventory-esx --user root --password password --host esx-server --directory /tmp\n"
 "    # fusioninventory-injector -v --file /tmp/esx-server-2011-01-25-14-11-07.ocs -u https://myserver/plugins/fusioninventory/\n"
 msgstr ""
+"    # fusioninventory-esx --user root --password password --host esx-server --directory /tmp\n"
+"    # fusioninventory-injector -v --file /tmp/esx-server-2011-01-25-14-11-07.ocs -u https://myserver/plugins/fusioninventory/\n"
 
 #. type: Title #
 #, no-wrap
