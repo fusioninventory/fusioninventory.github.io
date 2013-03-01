@@ -194,31 +194,33 @@ msgstr ""
 #. type: Title #
 #, no-wrap
 msgid "From GLPI"
-msgstr ""
+msgstr "A partir de GLPI"
 
 #. type: Title ##
 #, no-wrap
 msgid "Reconfiguration FusionInventory agent"
-msgstr ""
+msgstr "Reconfiguration de l'agent FusionInventory"
 
 #. type: Plain text
 msgid ""
 "First, we must designate the fusion agents who will have to perform the "
 "inventory VMware (ESX or VCenter) host."
 msgstr ""
+"D'abord, nous devons désigner les agents de fusion qui auront à effectuer"
+" l'inventaire VMware (ESX ou vCenter) d'accueil."
 
 #. type: Plain text
 msgid "Go to Plugins → Home → FusionInventory → Agents management"
-msgstr ""
+msgstr "Allez dans Plugins → Home → FusionInventory → Agents management"
 
 #. type: Plain text
 msgid "Chose a agent and enable : VMware host remote inventory :"
-msgstr ""
+msgstr "Choisissez un agent et activez : VMware host remote inventory :"
 
 #. type: Plain text
 #, no-wrap
 msgid "[[!img 01_inventory-ESX.png align=\"center\" size=\"500x240\" alt=\"\"]]\n"
-msgstr ""
+msgstr "[[!img 01_inventory-ESX.png align=\"center\" size=\"500x240\" alt=\"\"]]\n"
 
 #. type: Plain text
 #, no-wrap
