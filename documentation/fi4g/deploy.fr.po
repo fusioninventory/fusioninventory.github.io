@@ -22,10 +22,6 @@ msgid "Package Deployment"
 msgstr "Déploiement de paquet"
 
 #. type: Plain text
-#, fuzzy
-#| msgid ""
-#| "Package Deployment is both integrated with [[GLPI]] via *massive actions* "
-#| "and via the Plugin interface."
 msgid ""
 "Package Deployment is both integrated with GLPI via *massive actions* and "
 "via the Plugin interface."
@@ -63,53 +59,55 @@ msgstr "Gestion des agents"
 
 #. type: Plain text
 msgid "This is used to quickly check the status of a FusionInventory agent:"
-msgstr ""
+msgstr "Cette fonction est utilisée pour vérifier rapidement l'état d'un agent FusionInventory:"
 
 #. type: Bullet: '-   '
 msgid "If it's reporting in."
-msgstr ""
+msgstr "S'il s'est connecté."
 
 #. type: Bullet: '-   '
 msgid "If GLPI knows about it."
-msgstr ""
+msgstr "Si GLPI le connait."
 
 #. type: Bullet: '-   '
 msgid ""
 "What it's TOKEN is (used to authenticate the server when pushing a task)."
 msgstr ""
+"Quel est le TOKEN (utilisé pour authentifier le serveur quand une tâche est poussée)."
 
 #. type: Bullet: '-   '
 msgid ""
 "What it's unique ID is (used to uniquely identify one agent from another)."
 msgstr ""
+"Quel est l'ID unique (utilisé pour identifier un agent par rapport aux autres)."
 
 #. type: Title ##
 #, no-wrap
 msgid "Package Management"
-msgstr ""
+msgstr "Gestion de paquet"
 
 #. type: Title ###
 #, no-wrap
 msgid "Create a package"
-msgstr ""
+msgstr "Créer un paquet"
 
 #. type: Plain text
 #, no-wrap
 msgid "[[!img deploy/FusionPluginPackageManagementMain.png]]\n"
-msgstr ""
+msgstr "[[!img deploy/FusionPluginPackageManagementMain.png]]\n"
 
 #. type: Bullet: '1.  '
 msgid "Use *Add a Package* to create a new package."
-msgstr ""
+msgstr "Utiliser *Ajouter un paquet* pour créer un nouveau paquet."
 
 #. type: Bullet: '2.  '
 msgid "Click on an existing package to edit that package."
-msgstr ""
+msgstr "Cliquer sur un paquet existant pour éditer celui-ci."
 
 #. type: Title ###
 #, no-wrap
 msgid "Edit package"
-msgstr ""
+msgstr "Édition de paquet"
 
 #. type: Plain text
 msgid ""
@@ -120,7 +118,7 @@ msgstr ""
 #. type: Plain text
 #, no-wrap
 msgid "[[!img deploy/FusionInventoryPackageCreation.png]]\n"
-msgstr ""
+msgstr "[[!img deploy/FusionInventoryPackageCreation.png]]\n"
 
 #. type: Plain text
 #, no-wrap

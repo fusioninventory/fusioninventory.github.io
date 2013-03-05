@@ -37,24 +37,16 @@ that with the deployed scripts.
 
 [[!img deploy/FusionInventoryPackageCreation.png]]
 
-1.  Select to upload a file. You can upload a number of files, but must
-    upload one at a time. You can also elect to upload a zip file. I
-    generally build packages to use 2 files so upload them separately,
-    but this is not a rule.
-2.  Select to get the file "From this computer". Use the browse button
-    to select the file.
-    * With **P2P** enabled, computers will keep and share the downloaded
-      files to the other computers of the LAN. This allow you to speed
-      up a large download.
-    * If **Extract** is enabled, FusionInventory will try to extract the
-      archive (.7z, .zip, tar.gz, .tar)
+1.  Select to upload a file. You can upload a number of files, but must upload one at a time. You can also elect to 
+    upload a zip file. I generally build packages to use 2 files so upload them separately, but this is not a rule.
+2.  Select to get the file "From this computer". Use the browse button to select the file.
+    * With **P2P** enabled, computers will keep and share the downloaded files to the other computers of the LAN. 
+      This allow you to speed up a large download.
+    * If **Extract** is enabled, FusionInventory will try to extract the archive (.7z, .zip, tar.gz, .tar)
 3.  Click OK and the file will be uploaded.
-4.  Click on "Add command", select "execute a command" then type in the
-    command you want, I usually use the script name here, but if you're
-    doing something else, any valid windows command (use full path
-    names) can be used.
-    -   You can optionally add return codes to validate against for
-        success or failure.
+4.  Click on "Add command", select "execute a command" then type in the command you want, I usually use the script 
+    name here, but if you're doing something else, any valid windows command (use full path names) can be used.
+    -   You can optionally add return codes to validate against for success or failure.
 
 If you use "move" command, use "*" in case from if the agent get the file from GLPI
 
