@@ -19,38 +19,41 @@ msgstr ""
 #. type: Title #
 #, no-wrap
 msgid "Package Deployment"
-msgstr ""
+msgstr "Déploiement de paquet"
 
 #. type: Plain text
 msgid ""
 "Package Deployment is both integrated with [[GLPI]] via *massive actions* "
 "and via the Plugin interface."
-msgstr ""
+msgstr "Le déploiement de paquet est utilisable dans GLPI via *les actions de masses* "
+"et via l'interface du plugin."
 
 #. type: Plain text
 #, no-wrap
 msgid "[[!img deploy/FusionInventoryMain.png]]\n"
-msgstr ""
+msgstr "[[!img deploy/FusionInventoryMain.png]]\n"
 
 #. type: Bullet: '1.  '
 msgid ""
 "Task Management is available via the FusionInventory dropdown. This is "
 "mostly used to deploy packages, but can be used for other tasks."
 msgstr ""
+"La gestion de tâche est disponible dans le menu déroulant *FusionInventory*. "
+"Il est principalement utilisé pour déployer des paquets, mais sera utilisé pour d'autres tâches."
 
 #. type: Bullet: '2.  '
 msgid "The Deploy dropdown is used to create deployable packages."
-msgstr ""
+msgstr "Le menu déroulant est utilisé pour la création de paquets déployables."
 
 #. type: Title #
 #, no-wrap
 msgid "FusionInventory Dropdown"
-msgstr ""
+msgstr "Menu FusionInventory"
 
 #. type: Title ##
 #, no-wrap
 msgid "Agents Management"
-msgstr ""
+msgstr "Gestion des agents"
 
 #. type: Plain text
 msgid "This is used to quickly check the status of a FusionInventory agent:"

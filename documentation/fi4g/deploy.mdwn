@@ -1,6 +1,6 @@
 # Package Deployment
 
-Package Deployment is both integrated with [[GLPI]] via *massive actions* and via the Plugin interface.
+Package Deployment is both integrated with GLPI via *massive actions* and via the Plugin interface.
 
 [[!img deploy/FusionInventoryMain.png]]
 
@@ -15,7 +15,7 @@ Package Deployment is both integrated with [[GLPI]] via *massive actions* and vi
 This is used to quickly check the status of a FusionInventory agent:
 
 -   If it's reporting in.
--   If [[GLPI]] knows about it.
+-   If GLPI knows about it.
 -   What it's TOKEN is (used to authenticate the server when pushing a
     task).
 -   What it's unique ID is (used to uniquely identify one agent from
