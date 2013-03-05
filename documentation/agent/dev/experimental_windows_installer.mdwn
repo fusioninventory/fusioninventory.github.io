@@ -620,88 +620,71 @@ ndmark
 
 # Microsoft Windows Installer for FusionInventory Agent
 
+
 ## Description
 
-  The FusionInventory Agent Microsoft Windows Installer is an open source project than has as goal to build the installer program of the FusionInventory Agent and its tasks for Microsoft Windows operative systems. It makes use of some others open source projects, like the [Nullsoft Scriptable Install System](http://nsis.sourceforge.net/Main_Page) (in forward NSIS), [Strawberry Perl](http://strawberryperl.com/), [Curl](http://curl.haxx.se/), etcetera, to obtain its objective.
+The FusionInventory Agent Microsoft Windows Installer is an open source project than has as goal to build the installer program of the FusionInventory Agent and its tasks for Microsoft Windows operative systems. It makes use of some others open source projects, like the [Nullsoft Scriptable Install System](http://nsis.sourceforge.net/Main_Page) (in forward NSIS), [Strawberry Perl](http://strawberryperl.com/), [Curl](http://curl.haxx.se/), etcetera, to obtain its objective.
 
-  It is born to cover a **basic goal**; be able to install new FusionInventory Agent versions based on the previous configuration in the system, whether it exists.  In summary, it is born to be able to update the existing agent, and not only to install a new version from scratch.
+It is born to cover a **basic goal**; be able to install new FusionInventory Agent versions based on the previous configuration in the system, whether it exists.  In summary, it is born to be able to update the existing agent, and not only to install a new version from scratch.
 
-  It has more purposes, of course. The following are some of them.
+It has more purposes, of course. The following are some of them.
 
 
 ## Features
 
 * Installs from scratch or from the current configuration.
-
 * Uninstalls the previous agent, whether it exists.
-
 * Prevents multiple installations simultaneously.
-
-* Supports visual installation in multiple languages.
-> (English and Spanish. French in construction.)
-
-* Builds two different installers for x86 and x64 architectures.
-> (Each platform uses its native distribution of Strawberry Perl)
-
+* Supports visual installation in multiple languages. (English and Spanish. French in construction.)
+* Builds two different installers for x86 and x64 architectures. (Each platform uses its native distribution of Strawberry Perl)
 * Builds installers for stable or development versions.
-
 * Supports both installation methods; silent or unattended mode and graphical or visual mode.
-
 * Allows to select the agent tasks to install.
-
 * New visual appearance based on the NSIS Modern UI 2 plugin.
-
 * Migrates the depreciated options to the new options and removes completely the obsolete ones from the Microsoft Windows registry.
-
 * Now the Microsoft Windows registry used for agent configuration integrates all the options supported by the agent, and not only those that them values are different to the default.
-
 * Allows a complete customization of all the options supported for the agent, either from the the command line, or from the visual installation.
-
-* Each generated installer is identified uniquely by a BuildID.
-> (Each architecture has its own BuildID sequence)
-
+* Each generated installer is identified uniquely by a BuildID. (Each architecture has its own BuildID sequence)
 * Allows to execute the agent as a Windows Service, to plan its execution through a Windows Task or, simply, not to execute the agent.
-
-* Allows to pull a SSL certificate from a URL at installation time.
-> (ToDo)
+* Allows to pull a SSL certificate from a URL at installation time. (ToDo)
 
 
 ## What do you need
 
-  This is than you need to build the installer
+This is than you need to build the installer
 
 * Whether you use Microsoft Windows OS
-** NSIS 2.46
+   * NSIS 2.46
 
-> {i} You can get NSIS 2.46 from [http://nsis.sourceforge.net/Download](http://nsis.sourceforge.net/Download)
+   {i} You can get NSIS 2.46 from [http://nsis.sourceforge.net/Download](http://nsis.sourceforge.net/Download)
 
 * Whether you use a Unix OS
-** Curl
-** NSIS 2.46
+   * Curl
+   * NSIS 2.46
 
-> {i} Check your distribution for more information about these packages
+   {i} Check your distribution for more information about these packages
 
 * In all of cases
-** An Internet connection
+   * An Internet connection
 
 
 ## Current state
 
-  Nowadays, the contents of the project is:
+Nowadays, the contents of the project is:
 
 * FusionInventory Agent v2.2.7
-** FusionInventory Agent Task Deploy v2.0.4
-** FusionInventory Agent Task ESX v2.2.1
-** FusionInventory Agent Task Inventory v1.0
-** FusionInventory Agent Task WakeOnLan v1.0
-** FusionInventory Agent Distribution Network v1.0.2
-***  FusionInventory Agent Task NetInventory v2.2.0
-***  FusionInventory Agent Task NetDiscovery v2.2.0
+   * FusionInventory Agent Task Deploy v2.0.4
+   * FusionInventory Agent Task ESX v2.2.1
+   * FusionInventory Agent Task Inventory v1.0
+   * FusionInventory Agent Task WakeOnLan v1.0
+   * FusionInventory Agent Distribution Network v1.0.2
+      *  FusionInventory Agent Task NetInventory v2.2.0
+      *  FusionInventory Agent Task NetDiscovery v2.2.0
 
 
-  This is the current directory tree of the project.
+This is the current directory tree of the project.
 
-    .
+    |
     |-- NSIS
     |   |-- FusionInventory-Agent
     |   |   |-- Contrib
@@ -734,11 +717,7 @@ ndmark
             `-- x86
 
 
-   Inside of './NSIS/Perl/Scripts' directory there is a set of scripts for
-download Strawberry Perl Portable Edition v5.16.2.2 (Feb 2013) for x64 and
-x86 architectures, update and install all the Perl modules dependencies for
-the previous FusionInventory Agent packages, and download them. Please, read
-the file './Perl/Scripts/readme.txt' for more information about these scripts.
+Inside of *./NSIS/Perl/Scriptsr* directory there is a set of scripts for download Strawberry Perl Portable Edition v5.16.2.2 (Feb 2013) for x64 and x86 architectures, update and install all the Perl modules dependencies for the previous FusionInventory Agent packages, and download them. Please, read the file *./Perl/Scripts/readme.txt* for more information about these scripts.
 
 
 How to generate the installers
