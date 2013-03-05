@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2013-01-24 10:13+0000\n"
+"POT-Creation-Date: 2013-03-05 20:26+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -23,8 +23,8 @@ msgstr ""
 
 #. type: Plain text
 msgid ""
-"Package Deployment is both integrated with [[GLPI]] via *massive actions* "
-"and via the Plugin interface."
+"Package Deployment is both integrated with GLPI via *massive actions* and "
+"via the Plugin interface."
 msgstr ""
 
 #. type: Plain text
@@ -61,7 +61,7 @@ msgid "If it's reporting in."
 msgstr ""
 
 #. type: Bullet: '-   '
-msgid "If [[GLPI]] knows about it."
+msgid "If GLPI knows about it."
 msgstr ""
 
 #. type: Bullet: '-   '

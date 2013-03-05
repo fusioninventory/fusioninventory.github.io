@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2013-01-24 10:13+0000\n"
+"POT-Creation-Date: 2013-03-05 20:26+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -22,11 +22,16 @@ msgid "Package Deployment"
 msgstr "Déploiement de paquet"
 
 #. type: Plain text
+#, fuzzy
+#| msgid ""
+#| "Package Deployment is both integrated with [[GLPI]] via *massive actions* "
+#| "and via the Plugin interface."
 msgid ""
-"Package Deployment is both integrated with [[GLPI]] via *massive actions* "
-"and via the Plugin interface."
-msgstr "Le déploiement de paquet est utilisable dans GLPI via *les actions de masses* "
-"et via l'interface du plugin."
+"Package Deployment is both integrated with GLPI via *massive actions* and "
+"via the Plugin interface."
+msgstr ""
+"Le déploiement de paquet est utilisable dans GLPI via *les actions de "
+"masses* et via l'interface du plugin."
 
 #. type: Plain text
 #, no-wrap
@@ -39,7 +44,8 @@ msgid ""
 "mostly used to deploy packages, but can be used for other tasks."
 msgstr ""
 "La gestion de tâche est disponible dans le menu déroulant *FusionInventory*. "
-"Il est principalement utilisé pour déployer des paquets, mais sera utilisé pour d'autres tâches."
+"Il est principalement utilisé pour déployer des paquets, mais sera utilisé "
+"pour d'autres tâches."
 
 #. type: Bullet: '2.  '
 msgid "The Deploy dropdown is used to create deployable packages."
@@ -64,7 +70,7 @@ msgid "If it's reporting in."
 msgstr ""
 
 #. type: Bullet: '-   '
-msgid "If [[GLPI]] knows about it."
+msgid "If GLPI knows about it."
 msgstr ""
 
 #. type: Bullet: '-   '

@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2013-01-28 13:44+0000\n"
+"POT-Creation-Date: 2013-03-05 20:26+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -23,8 +23,8 @@ msgstr ""
 
 #. type: Plain text
 msgid ""
-"Package Deployment is both integrated with [[GLPI]] via *massive actions* "
-"and via the Plugin interface."
+"Package Deployment is both integrated with GLPI via *massive actions* and "
+"via the Plugin interface."
 msgstr ""
 
 #. type: Plain text
@@ -61,15 +61,17 @@ msgid "If it's reporting in."
 msgstr ""
 
 #. type: Bullet: '-   '
-msgid "If [[GLPI]] knows about it."
+msgid "If GLPI knows about it."
 msgstr ""
 
 #. type: Bullet: '-   '
-msgid "What it's TOKEN is (used to authenticate the server when pushing a task)."
+msgid ""
+"What it's TOKEN is (used to authenticate the server when pushing a task)."
 msgstr ""
 
 #. type: Bullet: '-   '
-msgid "What it's unique ID is (used to uniquely identify one agent from another)."
+msgid ""
+"What it's unique ID is (used to uniquely identify one agent from another)."
 msgstr ""
 
 #. type: Title ##
@@ -126,8 +128,7 @@ msgid ""
 "    * If **Extract** is enabled, FusionInventory will try to extract the\n"
 "      archive (.7z, .zip, tar.gz, .tar)\n"
 "3.  Click OK and the file will be uploaded.\n"
-"4.  Click on \"Add command\", select \"execute a command\" then type in "
-"the\n"
+"4.  Click on \"Add command\", select \"execute a command\" then type in the\n"
 "    command you want, I usually use the script name here, but if you're\n"
 "    doing something else, any valid windows command (use full path\n"
 "    names) can be used.\n"
@@ -182,7 +183,6 @@ msgid "Set Advanced mode to Yes."
 msgstr ""
 
 #. type: Plain text
-#:  
 msgid "Then:"
 msgstr ""
 
@@ -225,8 +225,7 @@ msgstr ""
 
 #. type: Bullet: '1.  '
 msgid ""
-"Make sure you have created but not activated a task and a deployment "
-"package."
+"Make sure you have created but not activated a task and a deployment package."
 msgstr ""
 
 #. type: Bullet: '2.  '
@@ -294,9 +293,9 @@ msgstr ""
 
 #. type: Plain text
 msgid ""
-"When a task is running on a PC it will update information about its "
-"status. This log is saved after the task completes and can be reviewed from "
-"the Task Job page."
+"When a task is running on a PC it will update information about its status. "
+"This log is saved after the task completes and can be reviewed from the Task "
+"Job page."
 msgstr ""
 
 #. type: Plain text
@@ -313,8 +312,8 @@ msgstr ""
 msgid ""
 "This dropdown is used to create packages for deployment and to edit them, "
 "list them and look at groups of computers (which are internal to fusion "
-"inventory, there are also separate groups used by "
-"[GLPI](/lepp/bin/view/Computing/GLPI) for display etc)."
+"inventory, there are also separate groups used by [GLPI](/lepp/bin/view/"
+"Computing/GLPI) for display etc)."
 msgstr ""
 
 #. type: Plain text
