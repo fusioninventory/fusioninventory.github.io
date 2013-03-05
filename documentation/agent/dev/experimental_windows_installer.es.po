@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2013-03-05 02:18+0000\n"
+"POT-Creation-Date: 2013-03-05 02:39+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -1030,112 +1030,100 @@ msgid "Microsoft Windows Installer for FusionInventory Agent"
 msgstr ""
 
 #. type: Plain text
-#, no-wrap
-msgid "  The FusionInventory Agent Microsoft Windows Installer is an open source project than has as goal to build the installer program of the FusionInventory Agent and its tasks for Microsoft Windows operative systems. It makes use of some others open source projects, like the [Nullsoft Scriptable Install System](http://nsis.sourceforge.net/Main_Page) (in forward NSIS), [Strawberry Perl](http://strawberryperl.com/), [Curl](http://curl.haxx.se/), etcetera, to obtain its objective.\n"
-msgstr ""
-
-#. type: Plain text
-#, no-wrap
-msgid "  It is born to cover a **basic goal**; be able to install new FusionInventory Agent versions based on the previous configuration in the system, whether it exists.  In summary, it is born to be able to update the existing agent, and not only to install a new version from scratch.\n"
-msgstr ""
-
-#. type: Plain text
-#, no-wrap
-msgid "  It has more purposes, of course. The following are some of them.\n"
-msgstr ""
-
-#. type: Plain text
-#, no-wrap
 msgid ""
-"* Supports visual installation in multiple languages.\n"
-"> (English and Spanish. French in construction.)\n"
+"The FusionInventory Agent Microsoft Windows Installer is an open source "
+"project than has as goal to build the installer program of the "
+"FusionInventory Agent and its tasks for Microsoft Windows operative systems. "
+"It makes use of some others open source projects, like the [Nullsoft "
+"Scriptable Install System](http://nsis.sourceforge.net/Main_Page) (in "
+"forward NSIS), [Strawberry Perl](http://strawberryperl.com/), [Curl](http://"
+"curl.haxx.se/), etcetera, to obtain its objective."
 msgstr ""
 
 #. type: Plain text
-#, no-wrap
 msgid ""
-"* Builds two different installers for x86 and x64 architectures.\n"
-"> (Each platform uses its native distribution of Strawberry Perl)\n"
+"It is born to cover a **basic goal**; be able to install new FusionInventory "
+"Agent versions based on the previous configuration in the system, whether it "
+"exists.  In summary, it is born to be able to update the existing agent, and "
+"not only to install a new version from scratch."
 msgstr ""
 
-#. type: Plain text
-#, no-wrap
+#. type: Bullet: '* '
 msgid ""
-"* Each generated installer is identified uniquely by a BuildID.\n"
-"> (Each architecture has its own BuildID sequence)\n"
+"Supports visual installation in multiple languages. (English and Spanish. "
+"French in construction.)"
 msgstr ""
 
-#. type: Plain text
-#, no-wrap
+#. type: Bullet: '* '
 msgid ""
-"* Allows to pull a SSL certificate from a URL at installation time.\n"
-"> (ToDo)\n"
+"Builds two different installers for x86 and x64 architectures. (Each "
+"platform uses its native distribution of Strawberry Perl)"
+msgstr ""
+
+#. type: Bullet: '* '
+msgid ""
+"Each generated installer is identified uniquely by a BuildID. (Each "
+"architecture has its own BuildID sequence)"
+msgstr ""
+
+#. type: Bullet: '* '
+msgid ""
+"Allows to pull a SSL certificate from a URL at installation time. (ToDo)"
 msgstr ""
 
 #. type: Plain text
-#, no-wrap
-msgid "  This is than you need to build the installer\n"
+msgid "This is than you need to build the installer"
 msgstr ""
 
 #. type: Plain text
 #, no-wrap
 msgid ""
 "* Whether you use Microsoft Windows OS\n"
-"** NSIS 2.46\n"
+"   * NSIS 2.46\n"
 msgstr ""
 
 #. type: Plain text
 #, no-wrap
-msgid "> {i} You can get NSIS 2.46 from [http://nsis.sourceforge.net/Download](http://nsis.sourceforge.net/Download)\n"
+msgid "   {i} You can get NSIS 2.46 from [http://nsis.sourceforge.net/Download](http://nsis.sourceforge.net/Download)\n"
 msgstr ""
 
 #. type: Plain text
 #, no-wrap
 msgid ""
 "* Whether you use a Unix OS\n"
-"** Curl\n"
-"** NSIS 2.46\n"
+"   * Curl\n"
+"   * NSIS 2.46\n"
 msgstr ""
 
 #. type: Plain text
 #, no-wrap
-msgid "> {i} Check your distribution for more information about these packages\n"
+msgid "   {i} Check your distribution for more information about these packages\n"
 msgstr ""
 
 #. type: Plain text
 #, no-wrap
 msgid ""
 "* In all of cases\n"
-"** An Internet connection\n"
-msgstr ""
-
-#. type: Plain text
-#, no-wrap
-msgid "  Nowadays, the contents of the project is:\n"
+"   * An Internet connection\n"
 msgstr ""
 
 #. type: Plain text
 #, no-wrap
 msgid ""
 "* FusionInventory Agent v2.2.7\n"
-"** FusionInventory Agent Task Deploy v2.0.4\n"
-"** FusionInventory Agent Task ESX v2.2.1\n"
-"** FusionInventory Agent Task Inventory v1.0\n"
-"** FusionInventory Agent Task WakeOnLan v1.0\n"
-"** FusionInventory Agent Distribution Network v1.0.2\n"
-"***  FusionInventory Agent Task NetInventory v2.2.0\n"
-"***  FusionInventory Agent Task NetDiscovery v2.2.0\n"
-msgstr ""
-
-#. type: Plain text
-#, no-wrap
-msgid "  This is the current directory tree of the project.\n"
+"   * FusionInventory Agent Task Deploy v2.0.4\n"
+"   * FusionInventory Agent Task ESX v2.2.1\n"
+"   * FusionInventory Agent Task Inventory v1.0\n"
+"   * FusionInventory Agent Task WakeOnLan v1.0\n"
+"   * FusionInventory Agent Distribution Network v1.0.2\n"
+"      *  FusionInventory Agent Task NetInventory v2.2.0\n"
+"      *  FusionInventory Agent Task NetDiscovery v2.2.0\n"
 msgstr ""
 
 #. type: Plain text
 #, no-wrap
 msgid ""
-"    .\n"
+"    |\n"
 "    |-- NSIS\n"
 "    |   |-- FusionInventory-Agent\n"
 "    |   |   |-- Contrib\n"
@@ -1169,13 +1157,13 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#, no-wrap
 msgid ""
-"   Inside of './NSIS/Perl/Scripts' directory there is a set of scripts for\n"
-"download Strawberry Perl Portable Edition v5.16.2.2 (Feb 2013) for x64 and\n"
-"x86 architectures, update and install all the Perl modules dependencies for\n"
-"the previous FusionInventory Agent packages, and download them. Please, read\n"
-"the file './Perl/Scripts/readme.txt' for more information about these scripts.\n"
+"Inside of *./NSIS/Perl/Scriptsr* directory there is a set of scripts for "
+"download Strawberry Perl Portable Edition v5.16.2.2 (Feb 2013) for x64 and "
+"x86 architectures, update and install all the Perl modules dependencies for "
+"the previous FusionInventory Agent packages, and download them. Please, read "
+"the file *./Perl/Scripts/readme.txt* for more information about these "
+"scripts."
 msgstr ""
 
 #. type: Title -
