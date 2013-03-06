@@ -110,15 +110,15 @@ Inside of *./NSIS/Perl/Scripts* directory there is a set of scripts for download
 
 Download fusioninventory-agent-windows-installer from GitHub using this URL pattern.
 
-   https://github.com/tabad/fusioninventory-agent-windows-installer/tarball/<object>
+   https://github.com/tabad/fusioninventory-agent-windows-installer/tarball/*\<object\>*
 
-where <object> may be a tag (or release) name, a branch name or a commit name.
+where *\<object\>* may be a tag (or release) name, a branch name or a commit name.
 
 To know the available tags, branches and commits available, please, visit these URL's in that order.
 
-   https://github.com/tabad/fusioninventory-agent-windows-installer/tags
-   https://github.com/tabad/fusioninventory-agent-windows-installer/branches
-   https://github.com/tabad/fusioninventory-agent-windows-installer/commits
+* [https://github.com/tabad/fusioninventory-agent-windows-installer/tags](https://github.com/tabad/fusioninventory-agent-windows-installer/tags)
+* [https://github.com/tabad/fusioninventory-agent-windows-installer/branches](https://github.com/tabad/fusioninventory-agent-windows-installer/branches)
+* [https://github.com/tabad/fusioninventory-agent-windows-installer/commits](https://github.com/tabad/fusioninventory-agent-windows-installer/commits)
 
    {i} Note that, in the last case, you should select after the wished branch name, or end up the URL with the name of that branch, like this *...-windows-installer/commits/<branch_name>*.
 
@@ -439,7 +439,7 @@ They are at the beginning of the file. Following the example,
     +!define PRODUCT_VERSION_MINOR "3"
     +!define PRODUCT_VERSION_RELEASE "33835"
 
-   {i} Note that all *PRODUCT_VERSION_** constants must have a numeric value. The value *33835* is a agreement to design a development releases. It is the name you get whether you try to write the word *devel* in a telephone keyboard.
+   {i} Note that all *PRODUCT_VERSION_\** constants must have a numeric value. The value *33835* is a agreement to design a development releases. It is the name you get whether you try to write the word *devel* in a telephone keyboard.
 
 With the new Strawberry Perl Portable Edition Package for FusionInventory Agent ready, and these last changes, you can continue as it were a normal build process. See *How to generate the installers* above.
 
@@ -485,17 +485,17 @@ With the new Strawberry Perl Portable Edition Package for FusionInventory Agent 
 
 ### Project websites
 
-* main site: http://www.fusioninventory.org
-* forge: http://forge.fusioninventory.org/projects/fusioninventory-agent-windows-installer
+* main site: [http://www.fusioninventory.org](http://www.fusioninventory.org)
+* forge: [http://forge.fusioninventory.org/projects/fusioninventory-agent-windows-installer](http://forge.fusioninventory.org/projects/fusioninventory-agent-windows-installer)
 
 ### Project mailing lists
 
-* http://lists.alioth.debian.org/mailman/listinfo/fusioninventory-user
-* http://lists.alioth.debian.org/mailman/listinfo/fusioninventory-devel
+* [http://lists.alioth.debian.org/mailman/listinfo/fusioninventory-user](http://lists.alioth.debian.org/mailman/listinfo/fusioninventory-user)
+* [http://lists.alioth.debian.org/mailman/listinfo/fusioninventory-devel](http://lists.alioth.debian.org/mailman/listinfo/fusioninventory-devel)
 
 ### Project IRC channel
 
-* #FusionInventory on FreeNode IRC Network
+* FusionInventory on FreeNode IRC Network
 
    {i} Please report any issues on project forge bugtracker (see forge URL above).
 
@@ -505,15 +505,15 @@ With the new Strawberry Perl Portable Edition Package for FusionInventory Agent 
 
 ### Public Git repositories
 
-* https://github.com/tabad/fusioninventory-agent-windows-installer
+* [https://github.com/tabad/fusioninventory-agent-windows-installer](https://github.com/tabad/fusioninventory-agent-windows-installer)
 
 ### Public Strawberry Perl Portable Package repositories
 
-* http://sourceforge.net/projects/fiawi/files/strawberry-perl-packages/
+* [http://sourceforge.net/projects/fiawi/files/strawberry-perl-packages/](http://sourceforge.net/projects/fiawi/files/strawberry-perl-packages/)
 
 ### Public experimental intallers repositories
 
-* https://sourceforge.net/projects/fiawi/files/
+* [https://sourceforge.net/projects/fiawi/files/](https://sourceforge.net/projects/fiawi/files/)
 
 
 ## Author
@@ -532,4 +532,4 @@ This software is licensed under the terms of GPLv2+, see License.txt file for de
 
 ## Other sources of this document
 ----
-http://www.fusioninventory.org/documentation/agent/dev/experimental_windows_installer/
+[http://www.fusioninventory.org/documentation/agent/dev/experimental_windows_installer/](http://www.fusioninventory.org/documentation/agent/dev/experimental_windows_installer/)
