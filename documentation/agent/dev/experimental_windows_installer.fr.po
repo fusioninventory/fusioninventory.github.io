@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2013-03-06 02:05+0000\n"
+"POT-Creation-Date: 2013-03-06 02:21+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -258,12 +258,12 @@ msgstr ""
 
 #. type: Plain text
 #, no-wrap
-msgid "   https://github.com/tabad/fusioninventory-agent-windows-installer/tarball/<object>\n"
+msgid "   https://github.com/tabad/fusioninventory-agent-windows-installer/tarball/*\\<object\\>*\n"
 msgstr ""
 
 #. type: Plain text
 #, no-wrap
-msgid "where <object> may be a tag (or release) name, a branch name or a commit name.\n"
+msgid "where *\\<object\\>* may be a tag (or release) name, a branch name or a commit name.\n"
 msgstr ""
 
 #. type: Plain text
@@ -272,12 +272,22 @@ msgid ""
 "these URL's in that order."
 msgstr ""
 
-#. type: Plain text
-#, no-wrap
+#. type: Bullet: '* '
 msgid ""
-"   https://github.com/tabad/fusioninventory-agent-windows-installer/tags\n"
-"   https://github.com/tabad/fusioninventory-agent-windows-installer/branches\n"
-"   https://github.com/tabad/fusioninventory-agent-windows-installer/commits\n"
+"[https://github.com/tabad/fusioninventory-agent-windows-installer/tags]"
+"(https://github.com/tabad/fusioninventory-agent-windows-installer/tags)"
+msgstr ""
+
+#. type: Bullet: '* '
+msgid ""
+"[https://github.com/tabad/fusioninventory-agent-windows-installer/branches]"
+"(https://github.com/tabad/fusioninventory-agent-windows-installer/branches)"
+msgstr ""
+
+#. type: Bullet: '* '
+msgid ""
+"[https://github.com/tabad/fusioninventory-agent-windows-installer/commits]"
+"(https://github.com/tabad/fusioninventory-agent-windows-installer/commits)"
 msgstr ""
 
 #. type: Plain text
@@ -904,7 +914,7 @@ msgstr ""
 
 #. type: Plain text
 #, no-wrap
-msgid "   {i} Note that all *PRODUCT_VERSION_** constants must have a numeric value. The value *33835* is a agreement to design a development releases. It is the name you get whether you try to write the word *devel* in a telephone keyboard.\n"
+msgid "   {i} Note that all *PRODUCT_VERSION_\\** constants must have a numeric value. The value *33835* is a agreement to design a development releases. It is the name you get whether you try to write the word *devel* in a telephone keyboard.\n"
 msgstr ""
 
 #. type: Plain text
@@ -958,13 +968,15 @@ msgid "Project websites"
 msgstr ""
 
 #. type: Bullet: '* '
-msgid "main site: http://www.fusioninventory.org"
+msgid ""
+"main site: [http://www.fusioninventory.org](http://www.fusioninventory.org)"
 msgstr ""
 
 #. type: Bullet: '* '
 msgid ""
-"forge: http://forge.fusioninventory.org/projects/fusioninventory-agent-"
-"windows-installer"
+"forge: [http://forge.fusioninventory.org/projects/fusioninventory-agent-"
+"windows-installer](http://forge.fusioninventory.org/projects/fusioninventory-"
+"agent-windows-installer)"
 msgstr ""
 
 #. type: Title ###
@@ -973,11 +985,15 @@ msgid "Project mailing lists"
 msgstr ""
 
 #. type: Bullet: '* '
-msgid "http://lists.alioth.debian.org/mailman/listinfo/fusioninventory-user"
+msgid ""
+"[http://lists.alioth.debian.org/mailman/listinfo/fusioninventory-user]"
+"(http://lists.alioth.debian.org/mailman/listinfo/fusioninventory-user)"
 msgstr ""
 
 #. type: Bullet: '* '
-msgid "http://lists.alioth.debian.org/mailman/listinfo/fusioninventory-devel"
+msgid ""
+"[http://lists.alioth.debian.org/mailman/listinfo/fusioninventory-devel]"
+"(http://lists.alioth.debian.org/mailman/listinfo/fusioninventory-devel)"
 msgstr ""
 
 #. type: Title ###
@@ -986,7 +1002,7 @@ msgid "Project IRC channel"
 msgstr ""
 
 #. type: Bullet: '* '
-msgid "#FusionInventory on FreeNode IRC Network"
+msgid "FusionInventory on FreeNode IRC Network"
 msgstr ""
 
 #. type: Plain text
@@ -1005,7 +1021,9 @@ msgid "Public Git repositories"
 msgstr ""
 
 #. type: Bullet: '* '
-msgid "https://github.com/tabad/fusioninventory-agent-windows-installer"
+msgid ""
+"[https://github.com/tabad/fusioninventory-agent-windows-installer](https://"
+"github.com/tabad/fusioninventory-agent-windows-installer)"
 msgstr ""
 
 #. type: Title ###
@@ -1014,7 +1032,9 @@ msgid "Public Strawberry Perl Portable Package repositories"
 msgstr ""
 
 #. type: Bullet: '* '
-msgid "http://sourceforge.net/projects/fiawi/files/strawberry-perl-packages/"
+msgid ""
+"[http://sourceforge.net/projects/fiawi/files/strawberry-perl-packages/]"
+"(http://sourceforge.net/projects/fiawi/files/strawberry-perl-packages/)"
 msgstr ""
 
 #. type: Title ###
@@ -1023,7 +1043,9 @@ msgid "Public experimental intallers repositories"
 msgstr ""
 
 #. type: Bullet: '* '
-msgid "https://sourceforge.net/projects/fiawi/files/"
+msgid ""
+"[https://sourceforge.net/projects/fiawi/files/](https://sourceforge.net/"
+"projects/fiawi/files/)"
 msgstr ""
 
 #. type: Title ##
@@ -1057,6 +1079,7 @@ msgstr ""
 
 #. type: Plain text
 msgid ""
-"http://www.fusioninventory.org/documentation/agent/dev/"
-"experimental_windows_installer/"
+"[http://www.fusioninventory.org/documentation/agent/dev/"
+"experimental_windows_installer/](http://www.fusioninventory.org/"
+"documentation/agent/dev/experimental_windows_installer/)"
 msgstr ""
