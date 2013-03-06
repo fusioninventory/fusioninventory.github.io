@@ -110,9 +110,9 @@ Inside of *./NSIS/Perl/Scripts* directory there is a set of scripts for download
 
 Download fusioninventory-agent-windows-installer from GitHub using this URL pattern.
 
-   https://github.com/tabad/fusioninventory-agent-windows-installer/tarball/*<object>*
+   https://github.com/tabad/fusioninventory-agent-windows-installer/tarball/<object>
 
-where *<object>* may be a tag (or release) name, a branch name or a commit name.
+where <object> may be a tag (or release) name, a branch name or a commit name.
 
 To know the available tags, branches and commits available, please, visit these URL's in that order.
 
@@ -120,9 +120,9 @@ To know the available tags, branches and commits available, please, visit these 
    https://github.com/tabad/fusioninventory-agent-windows-installer/branches
    https://github.com/tabad/fusioninventory-agent-windows-installer/commits
 
-   {i} Note that, in the last case, you should select after the wished branch name, or end up the URL with the name of that branch, like this '...-windows-installer/commits/*<branch_name>*'.
+   {i} Note that, in the last case, you should select after the wished branch name, or end up the URL with the name of that branch, like this *...-windows-installer/commits/<branch_name>*.
 
-This is an example using cURL to download the last commit of 'master' branch.
+This is an example using cURL to download the last commit of *master* branch.
 
     $ curl --location \
       --output fusioninventory-agent-windows-installer-master.tar.gz \
@@ -131,7 +131,7 @@ This is an example using cURL to download the last commit of 'master' branch.
 
    {i} Note than you can put it in a single line.
 
-Once you have the '*.tar.gz' file, uncompress and unpack it. This is an example, continuing the previous one, using tar.
+Once you have the *\*.tar.gz* file, uncompress and unpack it. This is an example, continuing the previous one, using tar.
 
     $ mkdir fusioninventory-agent-windows-installer-master
     $ tar -C fusioninventory-agent-windows-installer-master \
