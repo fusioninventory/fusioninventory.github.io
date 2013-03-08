@@ -84,39 +84,37 @@ Nowadays, the contents of the project is:
 
 This is the current directory tree of the project.
 
- ```
- .
- |-- NSIS
- |   |-- FusionInventory-Agent
- |   |   |-- Contrib
- |   |   |   |-- Graphics
- |   |   |   |   `-- Icons
- |   |   |   |-- ModernUI2
- |   |   |   |   `-- Pages
- |   |   |   |       `-- Templates
- |   |   |   `-- Skins
- |   |   |       `-- Default
- |   |   |-- Include
- |   |   `-- INI
- |   `-- Plugins
- |-- Perl
- |   `-- Scripts
- `-- Tools
-     |-- 7zip
-     |   |-- x64
-     |   `-- x86
-     |-- curl
-     |   `-- x86
-     |-- dmidecode
-     |   `-- x86
-     |-- hdparm
-     |   `-- x86
-     |-- sed
-     |   `-- x86
-     `-- setacl
-         |-- x64
-         `-- x86
-```
+     .
+     |-- NSIS
+     |   |-- FusionInventory-Agent
+     |   |   |-- Contrib
+     |   |   |   |-- Graphics
+     |   |   |   |   `-- Icons
+     |   |   |   |-- ModernUI2
+     |   |   |   |   `-- Pages
+     |   |   |   |       `-- Templates
+     |   |   |   `-- Skins
+     |   |   |       `-- Default
+     |   |   |-- Include
+     |   |   `-- INI
+     |   `-- Plugins
+     |-- Perl
+     |   `-- Scripts
+     `-- Tools
+         |-- 7zip
+         |   |-- x64
+         |   `-- x86
+         |-- curl
+         |   `-- x86
+         |-- dmidecode
+         |   `-- x86
+         |-- hdparm
+         |   `-- x86
+         |-- sed
+         |   `-- x86
+         `-- setacl
+             |-- x64
+             `-- x86
 
 Inside of *./NSIS/Perl/Scripts* directory there is a set of scripts for download Strawberry Perl Portable Edition v5.16.2.2 (Feb 2013) for [x64](http://strawberryperl.com/download/5.16.2.2/strawberry-perl-5.16.2.2-64bit-portable.zip "Strawberry Perl Portable Edition v5.16.2.2 (Feb 2013) for x64") and [x86](http://strawberryperl.com/download/5.16.2.2/strawberry-perl-5.16.2.2-32bit-portable.zip "Strawberry Perl Portable Edition v5.16.2.2 (Feb 2013) for x86") architectures, update and install all the Perl modules dependencies for the previous FusionInventory Agent packages, and download them.
 
@@ -141,22 +139,16 @@ To know the available tags, branches and commits available, please, visit these 
 
 This is an example using cURL to download the last commit of *master* branch.
 
-```
-$ curl --location --output fusioninventory-agent-windows-installer-master.tar.gz https://github.com/tabad/fusioninventory-agent-windows-installer/tarball/master
-```
+    $ curl --location --output fusioninventory-agent-windows-installer-master.tar.gz https://github.com/tabad/fusioninventory-agent-windows-installer/tarball/master
 
 Once you have the **.tar.gz* file, uncompress and unpack it. This is an example, continuing the previous one, using tar.
 
-```
-$ mkdir fusioninventory-agent-windows-installer-master
-$ tar -C fusioninventory-agent-windows-installer-master --strip-components 1 -xf fusioninventory-agent-windows-installer-master.tar.gz
-```
+    $ mkdir fusioninventory-agent-windows-installer-master
+    $ tar -C fusioninventory-agent-windows-installer-master --strip-components 1 -xf fusioninventory-agent-windows-installer-master.tar.gz
 
 You can also clone the repository whether do you prefer it using Git.
 
-```
-$ git clone --branch <branch_name> https://github.com/tabad/fusioninventory-agent-windows-installer.git
-```
+    $ git clone --branch <branch_name> https://github.com/tabad/fusioninventory-agent-windows-installer.git
 
 **Note that** you should change <branch_name> for the name of branch you wish download.
 
@@ -169,32 +161,28 @@ The following steps depends of your operative system.
 
 From your Microsoft Windows command interpreter executes
 
-```
-> cd fusioninventory-agent-windows-installer
-> cd Perl\Scripts
-> .\install-gnu-utilities-collection.bat
-> .\install-strawberry-perl-package-for-fusioninventory-agent.bat
-> .\install-fusioninventory-agent.bat
-> .\patch-fusioninventory-agent.bat
-> cd ..\..\NSIS
-> .\FusionInventory-Agent.bat
-```
+    > cd fusioninventory-agent-windows-installer
+    > cd Perl\Scripts
+    > .\install-gnu-utilities-collection.bat
+    > .\install-strawberry-perl-package-for-fusioninventory-agent.bat
+    > .\install-fusioninventory-agent.bat
+    > .\patch-fusioninventory-agent.bat
+    > cd ..\..\NSIS
+    > .\FusionInventory-Agent.bat
 
 You should be able to see the new installers in that directory.
 
 
 ### Unix OS
 
-```
-$ cd fusioninventory-agent-windows-installer
-$ chmod 0744 NSIS/*.sh Perl/Scripts/*.sh
-$ cd Perl/Scripts
-$ ./install-strawberry-perl-package-for-fusioninventory-agent.sh
-$ ./install-fusioninventory-agent.sh
-$ ./patch-fusioninventory-agent.sh
-$ cd ../../NSIS
-$ ./FusionInventory-Agent.sh
-```
+    $ cd fusioninventory-agent-windows-installer
+    $ chmod 0744 NSIS/*.sh Perl/Scripts/*.sh
+    $ cd Perl/Scripts
+    $ ./install-strawberry-perl-package-for-fusioninventory-agent.sh
+    $ ./install-fusioninventory-agent.sh
+    $ ./patch-fusioninventory-agent.sh
+    $ cd ../../NSIS
+    $ ./FusionInventory-Agent.sh
 
 You should be able to see the new installers in that directory.
 
@@ -209,16 +197,14 @@ You should be able to see the new installers in that directory.
 
 From your Microsoft Windows command interpreter executes
 
-```
-> cd fusioninventory-agent-windows-installer
-> cd Perl\Scripts
-> .\install-gnu-utilities-collection.bat
-> .\install-strawberry-perl.bat
-> .\install-perl-modules-and-dependencies.bat
-> .\delete-perl-modules-and-dependencies-temporary-files.bat
-> .\build-strawberry-perl-package-for-fusioninventory-agent.bat
-> .\uninstall-strawberry-perl.bat
-```
+    > cd fusioninventory-agent-windows-installer
+    > cd Perl\Scripts
+    > .\install-gnu-utilities-collection.bat
+    > .\install-strawberry-perl.bat
+    > .\install-perl-modules-and-dependencies.bat
+    > .\delete-perl-modules-and-dependencies-temporary-files.bat
+    > .\build-strawberry-perl-package-for-fusioninventory-agent.bat
+    > .\uninstall-strawberry-perl.bat
 
 The script *build-strawberry-perl-package-for-fusioninventory-agent.bat* will show to you where is the built package.
 
@@ -233,19 +219,15 @@ Suppose has been released the new Strawberry Perl Nov 2012 Portable Edition (5.1
 
 Update variables *strawberry_version* and *strawberry_release* of file *./Perl/Scripts/load-perl-environment* to reflect the new values.
 
-```
--declare -r strawberry_version='5.16.1.1'
--declare -r strawberry_release='Aug 2012'
-+declare -r strawberry_version='5.16.2.1'
-+declare -r strawberry_release='Nov 2012'
-```
+    -declare -r strawberry_version='5.16.1.1'
+    -declare -r strawberry_release='Aug 2012'
+    +declare -r strawberry_version='5.16.2.1'
+    +declare -r strawberry_release='Nov 2012'
 
    Update constant *STRAWBERRY_RELEASE* of file *./NSIS/FusionInventory.nsi* to adapt it to its new value:
 
-```
--!define STRAWBERRY_RELEASE "5.16.1.1"
-+!define STRAWBERRY_RELEASE "5.16.2.1"
-```
+    -!define STRAWBERRY_RELEASE "5.16.1.1"
+    +!define STRAWBERRY_RELEASE "5.16.2.1"
 
 And finally, rebuild the installers.
 
@@ -269,10 +251,8 @@ By taking a look at <https://github.com/fusinv/fusioninventory-agent/tags> you s
 
 Edit the *./Perl/Scripts/load-perl-environment* file and change the value of variable *fusinv_agent_commit* to *2.3.1*. The other variables (*fusinv_agent_mod_name* and *fusinv_agent_repository*) should maintain its values, unless there are changes in GitHub.
 
-```
--declare +r fusinv_agent_commit='2.3.0'
-+declare +r fusinv_agent_commit='2.3.1'
-```
+    -declare +r fusinv_agent_commit='2.3.0'
+    +declare +r fusinv_agent_commit='2.3.1'
 
 **Note that**, in these cases, *2.3.1* is a *tag* in Git terminology; that is, in our case, stable releases. A tag makes reference, in last term, to a commit, therefore the name of the variable.
 
@@ -280,10 +260,8 @@ An important thing to take into account is that, probably, this new release requ
 
 To do the first one is easy, you only need to edit the *.\Perl\Script\load-perl-environment* and to increment it in a unit.
 
-```
--declare -r strawberry_pepfia_build_id='1'
-+declare -r strawberry_pepfia_build_id='2'
-```
+    -declare -r strawberry_pepfia_build_id='1'
+    +declare -r strawberry_pepfia_build_id='2'
 
 **Note that** the variable *strawberry_pepfia_branch* is not necessary to change it in this case since the branch 2.3.x match with the branch of FusionInventory-Agent release 2.3.1.
 
@@ -297,21 +275,19 @@ Let's look at an example for FusionInventory-Agent.
 
 In <https://github.com/fusinv/fusioninventory-agent/tags> you can see all stable releases of FusionInventory-Agent. In that, below *2.3.1.zip - 2.3.1 release* appears the sequence *6f67b7d6f6* (it is an assumption); the short form for its SHA1 commit.  Do click on it, and after, do click on *Browse code* (up and right). In the list of files that appears, do click on file *Makefile.PL* and write down the list of required and recommended Perl modules (those lines started by *requires …* and *recommends …*, but not those lines started by *text_requires …*) commons to all operative systems and those specific for Microsoft Windows (those lines under the condition *($OSNAME eq 'MSWin32')*). This list of Perl modules should be the new value of the variable *fusinv_agent_mod_dependences*. Like this list is different of that for 2.3.0 release (repeat the previous process for '2.3.0.zip - 2.3.0 release') you need change the value of the variable *fusinv_agent_mod_dependences*.
 
-```
--declare -r fusion_agent_mod_dependences='Archive::Extract Crypt::DES
- Compress::Zlib Digest::MD5 Digest::SHA File::Copy::Recursive
- File::Which HTTP::Daemon IO::Socket::SSL JSON LWP LWP::Protocol::https
- Net::IP Net::NBName Net::SNMP Parse::EDID POE::Component::Client::Ping
- Socket::GetAddrInfo Text::Template UNIVERSAL::require URI::Escape
- Win32::Daemon Win32::Job Win32::OLE Win32::TieRegistry XML::TreePP'
-+declare -r fusion_agent_mod_dependences='Archive::Extract Crypt::DES
- Compress::Zlib Digest::MD5 Digest::SHA File::Copy::Recursive
- File::Which HTTP::Daemon IO::Socket::SSL JSON LWP LWP::Protocol::https
- Net::IP Net::NBName Net::SNMP Net::Write::Layer2 Parse::EDID
- POE::Component::Client::Ping Socket::GetAddrInfo Text::Template
- UNIVERSAL::require URI::Escape Win32::Daemon Win32::Job Win32::OLE
- Win32::TieRegistry XML::TreePP'
-```
+    -declare -r fusion_agent_mod_dependences='Archive::Extract Crypt::DES
+     Compress::Zlib Digest::MD5 Digest::SHA File::Copy::Recursive
+     File::Which HTTP::Daemon IO::Socket::SSL JSON LWP LWP::Protocol::https
+     Net::IP Net::NBName Net::SNMP Parse::EDID POE::Component::Client::Ping
+     Socket::GetAddrInfo Text::Template UNIVERSAL::require URI::Escape
+     Win32::Daemon Win32::Job Win32::OLE Win32::TieRegistry XML::TreePP'
+    +declare -r fusion_agent_mod_dependences='Archive::Extract Crypt::DES
+     Compress::Zlib Digest::MD5 Digest::SHA File::Copy::Recursive
+     File::Which HTTP::Daemon IO::Socket::SSL JSON LWP LWP::Protocol::https
+     Net::IP Net::NBName Net::SNMP Net::Write::Layer2 Parse::EDID
+     POE::Component::Client::Ping Socket::GetAddrInfo Text::Template
+     UNIVERSAL::require URI::Escape Win32::Daemon Win32::Job Win32::OLE
+     Win32::TieRegistry XML::TreePP'
 
 **Note that** they are only two lines.
 
@@ -321,26 +297,21 @@ You should start with a clean Strawberry Perl distribution too, so the recommend
 
 **Remember***, this task can be done only from Microsoft Windows OS.
 
-```
-> cd fusioninventory-agent-windows-installer
-> cd Perl\Scripts
-> .\install-gnu-utilities-collection.bat
-> .\uninstall-strawberry-perl.bat
-> .\install-strawberry-perl.bat
-> .\install-perl-modules-and-dependencies.bat
-> .\delete-perl-modules-and-dependencies-temporary-files.bat
-> .\build-strawberry-perl-package-for-fusioninventory-agent.bat
-> .\uninstall-strawberry-perl.bat
-```
+    > cd fusioninventory-agent-windows-installer
+    > cd Perl\Scripts
+    > .\install-gnu-utilities-collection.bat
+    > .\uninstall-strawberry-perl.bat
+    > .\install-strawberry-perl.bat
+    > .\install-perl-modules-and-dependencies.bat
+    > .\delete-perl-modules-and-dependencies-temporary-files.bat
+    > .\build-strawberry-perl-package-for-fusioninventory-agent.bat
 
 Now you can load the new package and its associated files into your public repository of Strawberry Perl Portable Edition Packages for FusionInventory Agent. This can be a local repository; you only have to change the *strawberry_pepfia_url* variable of the file *./Perl/Scripts/load-perl-environment*. For example, to leave the default directory as the default repository, you only have to do the following:
 
-```
--declare -r strawberry_pepfia_url='https://sourceforge.net/projects/fiawi/fil
- es/strawberry-perl-packages
-+declare -r strawberry_pepfia_url='file://c/.../fusioninventory-agent-windows
- -installer/Perl/Strawberry'
-```
+    -declare -r strawberry_pepfia_url='https://sourceforge.net/projects/fiawi/fil
+     es/strawberry-perl-packages
+    +declare -r strawberry_pepfia_url='file://c/.../fusioninventory-agent-windows
+     -installer/Perl/Strawberry'
 
 Note that they are only two lines.
 
@@ -348,31 +319,27 @@ Remember, *file://* is dependent of the OS and must be written as an absolute pa
 
 Finally, you should change the following constants of the file *./NSIS/FusionInventory.nsi* to adapt them to their new values:
 
-```
-FIA_RELEASE
-FIA_TASK_DEPLOY_RELEASE
-FIA_TASK_ESX_RELEASE
-FIA_TASK_INVENTORY_RELEASE
-FIA_TASK_NETWORK_RELEASE
-FIA_TASK_NETDISCOVERY_RELEASE
-FIA_TASK_NETINVENTORY_RELEASE
-FIA_TASK_WAKEONLAN_RELEASE
-
-PRODUCT_VERSION_MAJOR
-PRODUCT_VERSION_MINOR
-PRODUCT_VERSION_RELEASE
-PRODUCT_VERSION_BUILD
-```
+    FIA_RELEASE
+    FIA_TASK_DEPLOY_RELEASE
+    FIA_TASK_ESX_RELEASE
+    FIA_TASK_INVENTORY_RELEASE
+    FIA_TASK_NETWORK_RELEASE
+    FIA_TASK_NETDISCOVERY_RELEASE
+    FIA_TASK_NETINVENTORY_RELEASE
+    FIA_TASK_WAKEONLAN_RELEASE
+    
+    PRODUCT_VERSION_MAJOR
+    PRODUCT_VERSION_MINOR
+    PRODUCT_VERSION_RELEASE
+    PRODUCT_VERSION_BUILD
 
 They are at the beginning of the file. Following the example,
 
-```
--!define FIA_RELEASE "2.3.0"
-+!define FIA_RELEASE "2.3.1"
-
--!define PRODUCT_VERSION_RELEASE "0"
-+!define PRODUCT_VERSION_RELEASE "1"
-```
+    -!define FIA_RELEASE "2.3.0"
+    +!define FIA_RELEASE "2.3.1"
+    
+    -!define PRODUCT_VERSION_RELEASE "0"
+    +!define PRODUCT_VERSION_RELEASE "1"
 
 Note that you can find out these release numbers searching the *VERSION* variable inside *./Perl/Strawerry/<arch>/cpan/sources/FusionInventory-Agent-<fusinv_agent_commit>/lib/FusionInventory/Agent/Task/*.pm* files.
 
@@ -396,31 +363,29 @@ Let's look at an example about how to build the installers for the development b
 
 Edit the *./Perl/Scripts/load-perl-environment* file and carry out these changes.
 
-```
--declare -r strawberry_pepfia_branch='2.3.x'
-+declare -r strawberry_pepfia_branch='2.4.x'
--declare -r strawberry_pepfia_build_id='2'
-+declare -r strawberry_pepfia_build_id='1'
-   ...
--declare +r fusinv_agent_commit='2.3.1'
-+declare +r fusinv_agent_commit='master'
-   ...
-
--declare -r fusion_agent_mod_dependences='Archive::Extract Crypt::DES
- Compress::Zlib Digest::MD5 Digest::SHA File::Copy::Recursive
- File::Which HTTP::Daemon IO::Socket::SSL JSON LWP LWP::Protocol::https
- Net::IP Net::NBName Net::SNMP Net::Write::Layer2 Parse::EDID
- POE::Component::Client::Ping Socket::GetAddrInfo Text::Template
- UNIVERSAL::require URI::Escape Win32::Daemon Win32::Job Win32::OLE
- Win32::TieRegistry XML::TreePP'
-+declare -r fusion_agent_mod_dependences='Archive::Extract Crypt::DES
- Compress::Zlib Digest::MD5 Digest::SHA File::Copy::Recursive
- File::Which HTTP::Daemon IO::Socket::SSL JSON LWP LWP::Protocol::https
- Net::IP Net::NBName Net::SNMP Net::Write::Layer2 PAR::Parcker Parse::EDID
- POE::Component::Client::Ping Socket::GetAddrInfo Text::Template
- UNIVERSAL::require URI::Escape Win32::Daemon Win32::Job Win32::OLE
- Win32::TieRegistry XML::TreePP'
-```
+    -declare -r strawberry_pepfia_branch='2.3.x'
+    +declare -r strawberry_pepfia_branch='2.4.x'
+    -declare -r strawberry_pepfia_build_id='2'
+    +declare -r strawberry_pepfia_build_id='1'
+       ...
+    -declare +r fusinv_agent_commit='2.3.1'
+    +declare +r fusinv_agent_commit='master'
+       ...
+    
+    -declare -r fusion_agent_mod_dependences='Archive::Extract Crypt::DES
+     Compress::Zlib Digest::MD5 Digest::SHA File::Copy::Recursive
+     File::Which HTTP::Daemon IO::Socket::SSL JSON LWP LWP::Protocol::https
+     Net::IP Net::NBName Net::SNMP Net::Write::Layer2 Parse::EDID
+     POE::Component::Client::Ping Socket::GetAddrInfo Text::Template
+     UNIVERSAL::require URI::Escape Win32::Daemon Win32::Job Win32::OLE
+     Win32::TieRegistry XML::TreePP'
+    +declare -r fusion_agent_mod_dependences='Archive::Extract Crypt::DES
+     Compress::Zlib Digest::MD5 Digest::SHA File::Copy::Recursive
+     File::Which HTTP::Daemon IO::Socket::SSL JSON LWP LWP::Protocol::https
+     Net::IP Net::NBName Net::SNMP Net::Write::Layer2 PAR::Parcker Parse::EDID
+     POE::Component::Client::Ping Socket::GetAddrInfo Text::Template
+     UNIVERSAL::require URI::Escape Win32::Daemon Win32::Job Win32::OLE
+     Win32::TieRegistry XML::TreePP'
 
 As the list of modules for FusionInventory-Agent has changed, it is necessary to generate a new Strawberry Perl Portable Edition Package.
 
@@ -428,50 +393,43 @@ You should start with a clean Strawberry Perl distribution too, so the recommend
 
 **Remember**, this task can be done only from Microsoft Windows OS.
 
-```
-> cd fusioninventory-agent-windows-installer
-> cd Perl\Scripts
-> .\install-gnu-utilities-collection.bat
-> .\uninstall-strawberry-perl.bat
-> .\install-strawberry-perl.bat
-> .\install-perl-modules-and-dependencies.bat
-> .\delete-perl-modules-and-dependencies-temporary-files.bat
-> .\build-strawberry-perl-package-for-fusioninventory-agent.bat
-> .\uninstall-strawberry-perl.bat
-
-```
+    > cd fusioninventory-agent-windows-installer
+    > cd Perl\Scripts
+    > .\install-gnu-utilities-collection.bat
+    > .\uninstall-strawberry-perl.bat
+    > .\install-strawberry-perl.bat
+    > .\install-perl-modules-and-dependencies.bat
+    > .\delete-perl-modules-and-dependencies-temporary-files.bat
+    > .\build-strawberry-perl-package-for-fusioninventory-agent.bat
+    > .\uninstall-strawberry-perl.bat
 
 Now you can load the new package and its associated files into your public repository of Strawberry Perl Portable Edition Packages for FusionInventory Agent. This can be a local repository; you only have to change the *strawberry_pepfia_url* variable of the file *./Perl/Scripts/load-perl-environment*.
 
 Finally, you should change the following constants of the file *./NSIS/FusionInventory.nsi* to adapt them to their new values:
 
-```
-FIA_RELEASE
-FIA_TASK_DEPLOY_RELEASE
-FIA_TASK_ESX_RELEASE
-FIA_TASK_INVENTORY_RELEASE
-FIA_TASK_NETWORK_RELEASE
-FIA_TASK_NETDISCOVERY_RELEASE
-FIA_TASK_NETINVENTORY_RELEASE
-FIA_TASK_WAKEONLAN_RELEASE
-
-PRODUCT_VERSION_MAJOR
-PRODUCT_VERSION_MINOR
-PRODUCT_VERSION_RELEASE
-PRODUCT_VERSION_BUILD
-```
+    FIA_RELEASE
+    FIA_TASK_DEPLOY_RELEASE
+    FIA_TASK_ESX_RELEASE
+    FIA_TASK_INVENTORY_RELEASE
+    FIA_TASK_NETWORK_RELEASE
+    FIA_TASK_NETDISCOVERY_RELEASE
+    FIA_TASK_NETINVENTORY_RELEASE
+    FIA_TASK_WAKEONLAN_RELEASE
+    
+    PRODUCT_VERSION_MAJOR
+    PRODUCT_VERSION_MINOR
+    PRODUCT_VERSION_RELEASE
+    PRODUCT_VERSION_BUILD
 
 They are at the beginning of the file. Following the example,
 
-```
--!define FIA_RELEASE "2.3.1"
-+!define FIA_RELEASE "master"
-
--!define PRODUCT_VERSION_MINOR "3"
--!define PRODUCT_VERSION_RELEASE "1"
-+!define PRODUCT_VERSION_MINOR "4"
-+!define PRODUCT_VERSION_RELEASE "2013030702"
-```
+    -!define FIA_RELEASE "2.3.1"
+    +!define FIA_RELEASE "master"
+    
+    -!define PRODUCT_VERSION_MINOR "3"
+    -!define PRODUCT_VERSION_RELEASE "1"
+    +!define PRODUCT_VERSION_MINOR "4"
+    +!define PRODUCT_VERSION_RELEASE "2013030702"
 
 **Note that** all *PRODUCT_VERSION_\** constants must have a numeric value. Here I have followed the pattern *YYYYMMDD##*, where *YYYYMMDD* is the date of creation of the installer and *##* is the sequence number of the Installer generated on that date (this value can take the values [01-99]). You can choose any other number or pattern you like.
 
@@ -481,45 +439,41 @@ The branch *master* and commit *f3f9382a18659d1fff602ae04e816a1a4221c369* (it is
 
 Edit the *./Perl/Scripts/load-perl-environment* file and carry out these changes.
 
-```
--declare -r strawberry_pepfia_branch='2.3.x'
-+declare -r strawberry_pepfia_branch='2.4.x'
--declare -r strawberry_pepfia_build_id='2'
-+declare -r strawberry_pepfia_build_id='1'
-   ...
--declare +r fusinv_agent_commit='2.3.1'
-+declare +r fusinv_agent_commit='f3f9382a18659d1fff602ae04e816a1a4221c369'
-   ...
-
--declare -r fusion_agent_mod_dependences='Archive::Extract Crypt::DES
- Compress::Zlib Digest::MD5 Digest::SHA File::Copy::Recursive
- File::Which HTTP::Daemon IO::Socket::SSL JSON LWP LWP::Protocol::https
- Net::IP Net::NBName Net::SNMP Net::Write::Layer2 Parse::EDID
- POE::Component::Client::Ping Socket::GetAddrInfo Text::Template
- UNIVERSAL::require URI::Escape Win32::Daemon Win32::Job Win32::OLE
- Win32::TieRegistry XML::TreePP'
-+declare -r fusion_agent_mod_dependences='Archive::Extract Crypt::DES
- Compress::Zlib Digest::MD5 Digest::SHA File::Copy::Recursive
- File::Which HTTP::Daemon IO::Socket::SSL JSON LWP LWP::Protocol::https
- Net::IP Net::NBName Net::SNMP Net::Write::Layer2 PAR::Parcker Parse::EDID
- POE::Component::Client::Ping Socket::GetAddrInfo Text::Template
- UNIVERSAL::require URI::Escape Win32::Daemon Win32::Job Win32::OLE
- Win32::TieRegistry XML::TreePP'
-```
+    -declare -r strawberry_pepfia_branch='2.3.x'
+    +declare -r strawberry_pepfia_branch='2.4.x'
+    -declare -r strawberry_pepfia_build_id='2'
+    +declare -r strawberry_pepfia_build_id='1'
+       ...
+    -declare +r fusinv_agent_commit='2.3.1'
+    +declare +r fusinv_agent_commit='f3f9382a18659d1fff602ae04e816a1a4221c369'
+       ...
+    
+    -declare -r fusion_agent_mod_dependences='Archive::Extract Crypt::DES
+     Compress::Zlib Digest::MD5 Digest::SHA File::Copy::Recursive
+     File::Which HTTP::Daemon IO::Socket::SSL JSON LWP LWP::Protocol::https
+     Net::IP Net::NBName Net::SNMP Net::Write::Layer2 Parse::EDID
+     POE::Component::Client::Ping Socket::GetAddrInfo Text::Template
+     UNIVERSAL::require URI::Escape Win32::Daemon Win32::Job Win32::OLE
+     Win32::TieRegistry XML::TreePP'
+    +declare -r fusion_agent_mod_dependences='Archive::Extract Crypt::DES
+     Compress::Zlib Digest::MD5 Digest::SHA File::Copy::Recursive
+     File::Which HTTP::Daemon IO::Socket::SSL JSON LWP LWP::Protocol::https
+     Net::IP Net::NBName Net::SNMP Net::Write::Layer2 PAR::Parcker Parse::EDID
+     POE::Component::Client::Ping Socket::GetAddrInfo Text::Template
+     UNIVERSAL::require URI::Escape Win32::Daemon Win32::Job Win32::OLE
+     Win32::TieRegistry XML::TreePP'
 
 **Note that** the installer always works with short commit names. See variable *maximum_commit_length* to know what this length is (by default it is 10). All commit names will be truncated to this length.
 
 Like before, it is necessary to generate a new Strawberry Perl Portable Edition Package. And like before, you should change the following constants of the file *./NSIS/FusionInventory.nsi* to adapt them to their new values:
 
-```
--!define FIA_RELEASE "2.3.1"
-+!define FIA_RELEASE "f3f9382a18"
-
--!define PRODUCT_VERSION_MINOR "3"
--!define PRODUCT_VERSION_RELEASE "1"
-+!define PRODUCT_VERSION_MINOR "4"
-+!define PRODUCT_VERSION_RELEASE "2013030702"
-```
+    -!define FIA_RELEASE "2.3.1"
+    +!define FIA_RELEASE "f3f9382a18"
+    
+    -!define PRODUCT_VERSION_MINOR "3"
+    -!define PRODUCT_VERSION_RELEASE "1"
+    +!define PRODUCT_VERSION_MINOR "4"
+    +!define PRODUCT_VERSION_RELEASE "2013030702"
 
 With the new Strawberry Perl Portable Edition Package for FusionInventory Agent ready, and these last changes, you can continue as it were a normal build process. See ***How to generate the installers*** above.
 
