@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2013-03-08 01:33+0000\n"
+"POT-Creation-Date: 2013-03-08 01:43+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -211,39 +211,37 @@ msgstr ""
 #. type: Plain text
 #, no-wrap
 msgid ""
-" ```\n"
-" .\n"
-" |-- NSIS\n"
-" |   |-- FusionInventory-Agent\n"
-" |   |   |-- Contrib\n"
-" |   |   |   |-- Graphics\n"
-" |   |   |   |   `-- Icons\n"
-" |   |   |   |-- ModernUI2\n"
-" |   |   |   |   `-- Pages\n"
-" |   |   |   |       `-- Templates\n"
-" |   |   |   `-- Skins\n"
-" |   |   |       `-- Default\n"
-" |   |   |-- Include\n"
-" |   |   `-- INI\n"
-" |   `-- Plugins\n"
-" |-- Perl\n"
-" |   `-- Scripts\n"
-" `-- Tools\n"
-"     |-- 7zip\n"
-"     |   |-- x64\n"
-"     |   `-- x86\n"
-"     |-- curl\n"
-"     |   `-- x86\n"
-"     |-- dmidecode\n"
-"     |   `-- x86\n"
-"     |-- hdparm\n"
-"     |   `-- x86\n"
-"     |-- sed\n"
-"     |   `-- x86\n"
-"     `-- setacl\n"
-"         |-- x64\n"
-"         `-- x86\n"
-"```\n"
+"     .\n"
+"     |-- NSIS\n"
+"     |   |-- FusionInventory-Agent\n"
+"     |   |   |-- Contrib\n"
+"     |   |   |   |-- Graphics\n"
+"     |   |   |   |   `-- Icons\n"
+"     |   |   |   |-- ModernUI2\n"
+"     |   |   |   |   `-- Pages\n"
+"     |   |   |   |       `-- Templates\n"
+"     |   |   |   `-- Skins\n"
+"     |   |   |       `-- Default\n"
+"     |   |   |-- Include\n"
+"     |   |   `-- INI\n"
+"     |   `-- Plugins\n"
+"     |-- Perl\n"
+"     |   `-- Scripts\n"
+"     `-- Tools\n"
+"         |-- 7zip\n"
+"         |   |-- x64\n"
+"         |   `-- x86\n"
+"         |-- curl\n"
+"         |   `-- x86\n"
+"         |-- dmidecode\n"
+"         |   `-- x86\n"
+"         |-- hdparm\n"
+"         |   `-- x86\n"
+"         |-- sed\n"
+"         |   `-- x86\n"
+"         `-- setacl\n"
+"             |-- x64\n"
+"             `-- x86\n"
 msgstr ""
 
 #. type: Plain text
@@ -318,10 +316,8 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-msgid ""
-"``` $ curl --location --output fusioninventory-agent-windows-installer-"
-"master.tar.gz https://github.com/tabad/fusioninventory-agent-windows-"
-"installer/tarball/master ```"
+#, no-wrap
+msgid "    $ curl --location --output fusioninventory-agent-windows-installer-master.tar.gz https://github.com/tabad/fusioninventory-agent-windows-installer/tarball/master\n"
 msgstr ""
 
 #. type: Plain text
@@ -331,10 +327,10 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
+#, no-wrap
 msgid ""
-"``` $ mkdir fusioninventory-agent-windows-installer-master $ tar -C "
-"fusioninventory-agent-windows-installer-master --strip-components 1 -xf "
-"fusioninventory-agent-windows-installer-master.tar.gz ```"
+"    $ mkdir fusioninventory-agent-windows-installer-master\n"
+"    $ tar -C fusioninventory-agent-windows-installer-master --strip-components 1 -xf fusioninventory-agent-windows-installer-master.tar.gz\n"
 msgstr ""
 
 #. type: Plain text
@@ -343,10 +339,7 @@ msgstr ""
 
 #. type: Plain text
 #, no-wrap
-msgid ""
-"```\n"
-"$ git clone --branch <branch_name> https://github.com/tabad/fusioninventory-agent-windows-installer.git\n"
-"```\n"
+msgid "    $ git clone --branch <branch_name> https://github.com/tabad/fusioninventory-agent-windows-installer.git\n"
 msgstr ""
 
 #. type: Plain text
@@ -376,16 +369,14 @@ msgstr ""
 #. type: Plain text
 #, no-wrap
 msgid ""
-"```\n"
-"> cd fusioninventory-agent-windows-installer\n"
-"> cd Perl\\Scripts\n"
-"> .\\install-gnu-utilities-collection.bat\n"
-"> .\\install-strawberry-perl-package-for-fusioninventory-agent.bat\n"
-"> .\\install-fusioninventory-agent.bat\n"
-"> .\\patch-fusioninventory-agent.bat\n"
-"> cd ..\\..\\NSIS\n"
-"> .\\FusionInventory-Agent.bat\n"
-"```\n"
+"    > cd fusioninventory-agent-windows-installer\n"
+"    > cd Perl\\Scripts\n"
+"    > .\\install-gnu-utilities-collection.bat\n"
+"    > .\\install-strawberry-perl-package-for-fusioninventory-agent.bat\n"
+"    > .\\install-fusioninventory-agent.bat\n"
+"    > .\\patch-fusioninventory-agent.bat\n"
+"    > cd ..\\..\\NSIS\n"
+"    > .\\FusionInventory-Agent.bat\n"
 msgstr ""
 
 #. type: Plain text
@@ -398,11 +389,16 @@ msgid "Unix OS"
 msgstr ""
 
 #. type: Plain text
+#, no-wrap
 msgid ""
-"``` $ cd fusioninventory-agent-windows-installer $ chmod 0744 NSIS/*.sh Perl/"
-"Scripts/*.sh $ cd Perl/Scripts $ ./install-strawberry-perl-package-for-"
-"fusioninventory-agent.sh $ ./install-fusioninventory-agent.sh $ ./patch-"
-"fusioninventory-agent.sh $ cd ../../NSIS $ ./FusionInventory-Agent.sh ```"
+"    $ cd fusioninventory-agent-windows-installer\n"
+"    $ chmod 0744 NSIS/*.sh Perl/Scripts/*.sh\n"
+"    $ cd Perl/Scripts\n"
+"    $ ./install-strawberry-perl-package-for-fusioninventory-agent.sh\n"
+"    $ ./install-fusioninventory-agent.sh\n"
+"    $ ./patch-fusioninventory-agent.sh\n"
+"    $ cd ../../NSIS\n"
+"    $ ./FusionInventory-Agent.sh\n"
 msgstr ""
 
 #. type: Title ##
@@ -418,16 +414,14 @@ msgstr ""
 #. type: Plain text
 #, no-wrap
 msgid ""
-"```\n"
-"> cd fusioninventory-agent-windows-installer\n"
-"> cd Perl\\Scripts\n"
-"> .\\install-gnu-utilities-collection.bat\n"
-"> .\\install-strawberry-perl.bat\n"
-"> .\\install-perl-modules-and-dependencies.bat\n"
-"> .\\delete-perl-modules-and-dependencies-temporary-files.bat\n"
-"> .\\build-strawberry-perl-package-for-fusioninventory-agent.bat\n"
-"> .\\uninstall-strawberry-perl.bat\n"
-"```\n"
+"    > cd fusioninventory-agent-windows-installer\n"
+"    > cd Perl\\Scripts\n"
+"    > .\\install-gnu-utilities-collection.bat\n"
+"    > .\\install-strawberry-perl.bat\n"
+"    > .\\install-perl-modules-and-dependencies.bat\n"
+"    > .\\delete-perl-modules-and-dependencies-temporary-files.bat\n"
+"    > .\\build-strawberry-perl-package-for-fusioninventory-agent.bat\n"
+"    > .\\uninstall-strawberry-perl.bat\n"
 msgstr ""
 
 #. type: Plain text
@@ -467,10 +461,12 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
+#, no-wrap
 msgid ""
-"``` -declare -r strawberry_version='5.16.1.1' -declare -r "
-"strawberry_release='Aug 2012' +declare -r strawberry_version='5.16.2.1' "
-"+declare -r strawberry_release='Nov 2012' ```"
+"    -declare -r strawberry_version='5.16.1.1'\n"
+"    -declare -r strawberry_release='Aug 2012'\n"
+"    +declare -r strawberry_version='5.16.2.1'\n"
+"    +declare -r strawberry_release='Nov 2012'\n"
 msgstr ""
 
 #. type: Plain text
@@ -479,9 +475,10 @@ msgid "   Update constant *STRAWBERRY_RELEASE* of file *./NSIS/FusionInventory.n
 msgstr ""
 
 #. type: Plain text
+#, no-wrap
 msgid ""
-"``` -!define STRAWBERRY_RELEASE \"5.16.1.1\" +!define STRAWBERRY_RELEASE "
-"\"5.16.2.1\" ```"
+"    -!define STRAWBERRY_RELEASE \"5.16.1.1\"\n"
+"    +!define STRAWBERRY_RELEASE \"5.16.2.1\"\n"
 msgstr ""
 
 #. type: Plain text
@@ -545,9 +542,10 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
+#, no-wrap
 msgid ""
-"``` -declare +r fusinv_agent_commit='2.3.0' +declare +r "
-"fusinv_agent_commit='2.3.1' ```"
+"    -declare +r fusinv_agent_commit='2.3.0'\n"
+"    +declare +r fusinv_agent_commit='2.3.1'\n"
 msgstr ""
 
 #. type: Plain text
@@ -572,9 +570,10 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
+#, no-wrap
 msgid ""
-"``` -declare -r strawberry_pepfia_build_id='1' +declare -r "
-"strawberry_pepfia_build_id='2' ```"
+"    -declare -r strawberry_pepfia_build_id='1'\n"
+"    +declare -r strawberry_pepfia_build_id='2'\n"
 msgstr ""
 
 #. type: Plain text
@@ -627,21 +626,19 @@ msgstr ""
 #. type: Plain text
 #, no-wrap
 msgid ""
-"```\n"
-"-declare -r fusion_agent_mod_dependences='Archive::Extract Crypt::DES\n"
-" Compress::Zlib Digest::MD5 Digest::SHA File::Copy::Recursive\n"
-" File::Which HTTP::Daemon IO::Socket::SSL JSON LWP LWP::Protocol::https\n"
-" Net::IP Net::NBName Net::SNMP Parse::EDID POE::Component::Client::Ping\n"
-" Socket::GetAddrInfo Text::Template UNIVERSAL::require URI::Escape\n"
-" Win32::Daemon Win32::Job Win32::OLE Win32::TieRegistry XML::TreePP'\n"
-"+declare -r fusion_agent_mod_dependences='Archive::Extract Crypt::DES\n"
-" Compress::Zlib Digest::MD5 Digest::SHA File::Copy::Recursive\n"
-" File::Which HTTP::Daemon IO::Socket::SSL JSON LWP LWP::Protocol::https\n"
-" Net::IP Net::NBName Net::SNMP Net::Write::Layer2 Parse::EDID\n"
-" POE::Component::Client::Ping Socket::GetAddrInfo Text::Template\n"
-" UNIVERSAL::require URI::Escape Win32::Daemon Win32::Job Win32::OLE\n"
-" Win32::TieRegistry XML::TreePP'\n"
-"```\n"
+"    -declare -r fusion_agent_mod_dependences='Archive::Extract Crypt::DES\n"
+"     Compress::Zlib Digest::MD5 Digest::SHA File::Copy::Recursive\n"
+"     File::Which HTTP::Daemon IO::Socket::SSL JSON LWP LWP::Protocol::https\n"
+"     Net::IP Net::NBName Net::SNMP Parse::EDID POE::Component::Client::Ping\n"
+"     Socket::GetAddrInfo Text::Template UNIVERSAL::require URI::Escape\n"
+"     Win32::Daemon Win32::Job Win32::OLE Win32::TieRegistry XML::TreePP'\n"
+"    +declare -r fusion_agent_mod_dependences='Archive::Extract Crypt::DES\n"
+"     Compress::Zlib Digest::MD5 Digest::SHA File::Copy::Recursive\n"
+"     File::Which HTTP::Daemon IO::Socket::SSL JSON LWP LWP::Protocol::https\n"
+"     Net::IP Net::NBName Net::SNMP Net::Write::Layer2 Parse::EDID\n"
+"     POE::Component::Client::Ping Socket::GetAddrInfo Text::Template\n"
+"     UNIVERSAL::require URI::Escape Win32::Daemon Win32::Job Win32::OLE\n"
+"     Win32::TieRegistry XML::TreePP'\n"
 msgstr ""
 
 #. type: Plain text
@@ -669,17 +666,14 @@ msgstr ""
 #. type: Plain text
 #, no-wrap
 msgid ""
-"```\n"
-"> cd fusioninventory-agent-windows-installer\n"
-"> cd Perl\\Scripts\n"
-"> .\\install-gnu-utilities-collection.bat\n"
-"> .\\uninstall-strawberry-perl.bat\n"
-"> .\\install-strawberry-perl.bat\n"
-"> .\\install-perl-modules-and-dependencies.bat\n"
-"> .\\delete-perl-modules-and-dependencies-temporary-files.bat\n"
-"> .\\build-strawberry-perl-package-for-fusioninventory-agent.bat\n"
-"> .\\uninstall-strawberry-perl.bat\n"
-"```\n"
+"    > cd fusioninventory-agent-windows-installer\n"
+"    > cd Perl\\Scripts\n"
+"    > .\\install-gnu-utilities-collection.bat\n"
+"    > .\\uninstall-strawberry-perl.bat\n"
+"    > .\\install-strawberry-perl.bat\n"
+"    > .\\install-perl-modules-and-dependencies.bat\n"
+"    > .\\delete-perl-modules-and-dependencies-temporary-files.bat\n"
+"    > .\\build-strawberry-perl-package-for-fusioninventory-agent.bat\n"
 msgstr ""
 
 #. type: Plain text
@@ -695,12 +689,10 @@ msgstr ""
 #. type: Plain text
 #, no-wrap
 msgid ""
-"```\n"
-"-declare -r strawberry_pepfia_url='https://sourceforge.net/projects/fiawi/fil\n"
-" es/strawberry-perl-packages\n"
-"+declare -r strawberry_pepfia_url='file://c/.../fusioninventory-agent-windows\n"
-" -installer/Perl/Strawberry'\n"
-"```\n"
+"    -declare -r strawberry_pepfia_url='https://sourceforge.net/projects/fiawi/fil\n"
+"     es/strawberry-perl-packages\n"
+"    +declare -r strawberry_pepfia_url='file://c/.../fusioninventory-agent-windows\n"
+"     -installer/Perl/Strawberry'\n"
 msgstr ""
 
 #. type: Plain text
@@ -721,17 +713,25 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
+#, no-wrap
 msgid ""
-"``` FIA_RELEASE FIA_TASK_DEPLOY_RELEASE FIA_TASK_ESX_RELEASE "
-"FIA_TASK_INVENTORY_RELEASE FIA_TASK_NETWORK_RELEASE "
-"FIA_TASK_NETDISCOVERY_RELEASE FIA_TASK_NETINVENTORY_RELEASE "
-"FIA_TASK_WAKEONLAN_RELEASE"
+"    FIA_RELEASE\n"
+"    FIA_TASK_DEPLOY_RELEASE\n"
+"    FIA_TASK_ESX_RELEASE\n"
+"    FIA_TASK_INVENTORY_RELEASE\n"
+"    FIA_TASK_NETWORK_RELEASE\n"
+"    FIA_TASK_NETDISCOVERY_RELEASE\n"
+"    FIA_TASK_NETINVENTORY_RELEASE\n"
+"    FIA_TASK_WAKEONLAN_RELEASE\n"
 msgstr ""
 
 #. type: Plain text
+#, no-wrap
 msgid ""
-"PRODUCT_VERSION_MAJOR PRODUCT_VERSION_MINOR PRODUCT_VERSION_RELEASE "
-"PRODUCT_VERSION_BUILD ```"
+"    PRODUCT_VERSION_MAJOR\n"
+"    PRODUCT_VERSION_MINOR\n"
+"    PRODUCT_VERSION_RELEASE\n"
+"    PRODUCT_VERSION_BUILD\n"
 msgstr ""
 
 #. type: Plain text
@@ -739,13 +739,17 @@ msgid "They are at the beginning of the file. Following the example,"
 msgstr ""
 
 #. type: Plain text
-msgid "``` -!define FIA_RELEASE \"2.3.0\" +!define FIA_RELEASE \"2.3.1\""
+#, no-wrap
+msgid ""
+"    -!define FIA_RELEASE \"2.3.0\"\n"
+"    +!define FIA_RELEASE \"2.3.1\"\n"
 msgstr ""
 
 #. type: Plain text
+#, no-wrap
 msgid ""
-"-!define PRODUCT_VERSION_RELEASE \"0\" +!define PRODUCT_VERSION_RELEASE "
-"\"1\" ```"
+"    -!define PRODUCT_VERSION_RELEASE \"0\"\n"
+"    +!define PRODUCT_VERSION_RELEASE \"1\"\n"
 msgstr ""
 
 #. type: Plain text
@@ -815,35 +819,33 @@ msgstr ""
 #. type: Plain text
 #, no-wrap
 msgid ""
-"```\n"
-"-declare -r strawberry_pepfia_branch='2.3.x'\n"
-"+declare -r strawberry_pepfia_branch='2.4.x'\n"
-"-declare -r strawberry_pepfia_build_id='2'\n"
-"+declare -r strawberry_pepfia_build_id='1'\n"
-"   ...\n"
-"-declare +r fusinv_agent_commit='2.3.1'\n"
-"+declare +r fusinv_agent_commit='master'\n"
-"   ...\n"
+"    -declare -r strawberry_pepfia_branch='2.3.x'\n"
+"    +declare -r strawberry_pepfia_branch='2.4.x'\n"
+"    -declare -r strawberry_pepfia_build_id='2'\n"
+"    +declare -r strawberry_pepfia_build_id='1'\n"
+"       ...\n"
+"    -declare +r fusinv_agent_commit='2.3.1'\n"
+"    +declare +r fusinv_agent_commit='master'\n"
+"       ...\n"
 msgstr ""
 
 #. type: Plain text
 #, no-wrap
 msgid ""
-"-declare -r fusion_agent_mod_dependences='Archive::Extract Crypt::DES\n"
-" Compress::Zlib Digest::MD5 Digest::SHA File::Copy::Recursive\n"
-" File::Which HTTP::Daemon IO::Socket::SSL JSON LWP LWP::Protocol::https\n"
-" Net::IP Net::NBName Net::SNMP Net::Write::Layer2 Parse::EDID\n"
-" POE::Component::Client::Ping Socket::GetAddrInfo Text::Template\n"
-" UNIVERSAL::require URI::Escape Win32::Daemon Win32::Job Win32::OLE\n"
-" Win32::TieRegistry XML::TreePP'\n"
-"+declare -r fusion_agent_mod_dependences='Archive::Extract Crypt::DES\n"
-" Compress::Zlib Digest::MD5 Digest::SHA File::Copy::Recursive\n"
-" File::Which HTTP::Daemon IO::Socket::SSL JSON LWP LWP::Protocol::https\n"
-" Net::IP Net::NBName Net::SNMP Net::Write::Layer2 PAR::Parcker Parse::EDID\n"
-" POE::Component::Client::Ping Socket::GetAddrInfo Text::Template\n"
-" UNIVERSAL::require URI::Escape Win32::Daemon Win32::Job Win32::OLE\n"
-" Win32::TieRegistry XML::TreePP'\n"
-"```\n"
+"    -declare -r fusion_agent_mod_dependences='Archive::Extract Crypt::DES\n"
+"     Compress::Zlib Digest::MD5 Digest::SHA File::Copy::Recursive\n"
+"     File::Which HTTP::Daemon IO::Socket::SSL JSON LWP LWP::Protocol::https\n"
+"     Net::IP Net::NBName Net::SNMP Net::Write::Layer2 Parse::EDID\n"
+"     POE::Component::Client::Ping Socket::GetAddrInfo Text::Template\n"
+"     UNIVERSAL::require URI::Escape Win32::Daemon Win32::Job Win32::OLE\n"
+"     Win32::TieRegistry XML::TreePP'\n"
+"    +declare -r fusion_agent_mod_dependences='Archive::Extract Crypt::DES\n"
+"     Compress::Zlib Digest::MD5 Digest::SHA File::Copy::Recursive\n"
+"     File::Which HTTP::Daemon IO::Socket::SSL JSON LWP LWP::Protocol::https\n"
+"     Net::IP Net::NBName Net::SNMP Net::Write::Layer2 PAR::Parcker Parse::EDID\n"
+"     POE::Component::Client::Ping Socket::GetAddrInfo Text::Template\n"
+"     UNIVERSAL::require URI::Escape Win32::Daemon Win32::Job Win32::OLE\n"
+"     Win32::TieRegistry XML::TreePP'\n"
 msgstr ""
 
 #. type: Plain text
@@ -854,20 +856,15 @@ msgstr ""
 #. type: Plain text
 #, no-wrap
 msgid ""
-"```\n"
-"> cd fusioninventory-agent-windows-installer\n"
-"> cd Perl\\Scripts\n"
-"> .\\install-gnu-utilities-collection.bat\n"
-"> .\\uninstall-strawberry-perl.bat\n"
-"> .\\install-strawberry-perl.bat\n"
-"> .\\install-perl-modules-and-dependencies.bat\n"
-"> .\\delete-perl-modules-and-dependencies-temporary-files.bat\n"
-"> .\\build-strawberry-perl-package-for-fusioninventory-agent.bat\n"
-"> .\\uninstall-strawberry-perl.bat\n"
-msgstr ""
-
-#. type: Plain text
-msgid "```"
+"    > cd fusioninventory-agent-windows-installer\n"
+"    > cd Perl\\Scripts\n"
+"    > .\\install-gnu-utilities-collection.bat\n"
+"    > .\\uninstall-strawberry-perl.bat\n"
+"    > .\\install-strawberry-perl.bat\n"
+"    > .\\install-perl-modules-and-dependencies.bat\n"
+"    > .\\delete-perl-modules-and-dependencies-temporary-files.bat\n"
+"    > .\\build-strawberry-perl-package-for-fusioninventory-agent.bat\n"
+"    > .\\uninstall-strawberry-perl.bat\n"
 msgstr ""
 
 #. type: Plain text
@@ -880,14 +877,19 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-msgid "``` -!define FIA_RELEASE \"2.3.1\" +!define FIA_RELEASE \"master\""
+#, no-wrap
+msgid ""
+"    -!define FIA_RELEASE \"2.3.1\"\n"
+"    +!define FIA_RELEASE \"master\"\n"
 msgstr ""
 
 #. type: Plain text
+#, no-wrap
 msgid ""
-"-!define PRODUCT_VERSION_MINOR \"3\" -!define PRODUCT_VERSION_RELEASE \"1\" "
-"+!define PRODUCT_VERSION_MINOR \"4\" +!define PRODUCT_VERSION_RELEASE "
-"\"2013030702\" ```"
+"    -!define PRODUCT_VERSION_MINOR \"3\"\n"
+"    -!define PRODUCT_VERSION_RELEASE \"1\"\n"
+"    +!define PRODUCT_VERSION_MINOR \"4\"\n"
+"    +!define PRODUCT_VERSION_RELEASE \"2013030702\"\n"
 msgstr ""
 
 #. type: Plain text
@@ -913,15 +915,14 @@ msgstr ""
 #. type: Plain text
 #, no-wrap
 msgid ""
-"```\n"
-"-declare -r strawberry_pepfia_branch='2.3.x'\n"
-"+declare -r strawberry_pepfia_branch='2.4.x'\n"
-"-declare -r strawberry_pepfia_build_id='2'\n"
-"+declare -r strawberry_pepfia_build_id='1'\n"
-"   ...\n"
-"-declare +r fusinv_agent_commit='2.3.1'\n"
-"+declare +r fusinv_agent_commit='f3f9382a18659d1fff602ae04e816a1a4221c369'\n"
-"   ...\n"
+"    -declare -r strawberry_pepfia_branch='2.3.x'\n"
+"    +declare -r strawberry_pepfia_branch='2.4.x'\n"
+"    -declare -r strawberry_pepfia_build_id='2'\n"
+"    +declare -r strawberry_pepfia_build_id='1'\n"
+"       ...\n"
+"    -declare +r fusinv_agent_commit='2.3.1'\n"
+"    +declare +r fusinv_agent_commit='f3f9382a18659d1fff602ae04e816a1a4221c369'\n"
+"       ...\n"
 msgstr ""
 
 #. type: Plain text
@@ -937,7 +938,10 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-msgid "``` -!define FIA_RELEASE \"2.3.1\" +!define FIA_RELEASE \"f3f9382a18\""
+#, no-wrap
+msgid ""
+"    -!define FIA_RELEASE \"2.3.1\"\n"
+"    +!define FIA_RELEASE \"f3f9382a18\"\n"
 msgstr ""
 
 #. type: Title ##
