@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2013-03-06 02:21+0000\n"
+"POT-Creation-Date: 2013-03-08 01:33+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -18,7 +18,7 @@ msgstr ""
 
 #. type: Title #
 #, no-wrap
-msgid "Microsoft Windows Installer for FusionInventory Agent"
+msgid "FusionInventory Agent Microsoft Windows Installer"
 msgstr ""
 
 #. type: Title ##
@@ -32,21 +32,19 @@ msgid ""
 "project than has as goal to build the installer program of the "
 "FusionInventory Agent and its tasks for Microsoft Windows operative systems. "
 "It makes use of some others open source projects, like the [Nullsoft "
-"Scriptable Install System](http://nsis.sourceforge.net/Main_Page) (in "
-"forward NSIS), [Strawberry Perl](http://strawberryperl.com/), [Curl](http://"
+"Scriptable Install System](http://nsis.sourceforge.net/) (in forward NSIS), "
+"[Strawberry Perl](http://strawberryperl.com/releases.html), [Curl](http://"
 "curl.haxx.se/), etcetera, to obtain its objective."
 msgstr ""
 
 #. type: Plain text
-msgid ""
-"It is born to cover a **basic goal**; be able to install new FusionInventory "
-"Agent versions based on the previous configuration in the system, whether it "
-"exists. In summary, it is born to be able to update the existing agent, and "
-"not only to install a new version from scratch."
+#, no-wrap
+msgid "  It is born to cover a **basic goal**; be able to install new FusionInventory Agent versions based on the previous configuration in the system, whether it exists. In summary, it is born to be able to update the existing agent, and not only to install a new version from scratch.\n"
 msgstr ""
 
 #. type: Plain text
-msgid "It has more purposes, of course. The following are some of them."
+#, no-wrap
+msgid "  It has more purposes, of course. The following are some of them.\n"
 msgstr ""
 
 #. type: Title ##
@@ -54,82 +52,88 @@ msgstr ""
 msgid "Features"
 msgstr ""
 
-#. type: Bullet: '* '
-msgid "Installs from scratch or from the current configuration."
+#. type: Plain text
+msgid "- Installs from scratch or from the current configuration."
 msgstr ""
 
-#. type: Bullet: '* '
-msgid "Uninstalls the previous agent, whether it exists."
+#. type: Plain text
+msgid "- Uninstalls the previous agent, whether it exists."
 msgstr ""
 
-#. type: Bullet: '* '
-msgid "Prevents multiple installations simultaneously."
+#. type: Plain text
+msgid "- Prevents multiple installations simultaneously."
 msgstr ""
 
-#. type: Bullet: '* '
+#. type: Plain text
+msgid "- Supports visual installation in multiple languages."
+msgstr ""
+
+#. type: Plain text
+msgid "(English and Spanish. French in construction.)"
+msgstr ""
+
+#. type: Plain text
+msgid "- Builds two different installers for x86 and x64 architectures."
+msgstr ""
+
+#. type: Plain text
+msgid "(Each platform uses its native distribution of Strawberry Perl)"
+msgstr ""
+
+#. type: Plain text
+msgid "- Builds installers for stable or development versions."
+msgstr ""
+
+#. type: Plain text
 msgid ""
-"Supports visual installation in multiple languages. (English and Spanish. "
-"French in construction.)"
+"- Supports both installation methods; silent or unattended mode and "
+"graphical or visual mode."
 msgstr ""
 
-#. type: Bullet: '* '
+#. type: Plain text
+msgid "- Allows to select the agent tasks to install."
+msgstr ""
+
+#. type: Plain text
+msgid "- New visual appearance based on the NSIS Modern UI 2 plugin."
+msgstr ""
+
+#. type: Plain text
 msgid ""
-"Builds two different installers for x86 and x64 architectures. (Each "
-"platform uses its native distribution of Strawberry Perl)"
-msgstr ""
-
-#. type: Bullet: '* '
-msgid "Builds installers for stable or development versions."
-msgstr ""
-
-#. type: Bullet: '* '
-msgid ""
-"Supports both installation methods; silent or unattended mode and graphical "
-"or visual mode."
-msgstr ""
-
-#. type: Bullet: '* '
-msgid "Allows to select the agent tasks to install."
-msgstr ""
-
-#. type: Bullet: '* '
-msgid "New visual appearance based on the NSIS Modern UI 2 plugin."
-msgstr ""
-
-#. type: Bullet: '* '
-msgid ""
-"Migrates the depreciated options to the new options and removes completely "
+"- Migrates the depreciated options to the new options and removes completely "
 "the obsolete ones from the Microsoft Windows registry."
 msgstr ""
 
-#. type: Bullet: '* '
+#. type: Plain text
 msgid ""
-"Now the Microsoft Windows registry used for agent configuration integrates "
+"- Now the Microsoft Windows registry used for agent configuration integrates "
 "all the options supported by the agent, and not only those that them values "
 "are different to the default."
 msgstr ""
 
-#. type: Bullet: '* '
+#. type: Plain text
 msgid ""
-"Allows a complete customization of all the options supported for the agent, "
-"either from the the command line, or from the visual installation."
+"- Allows a complete customization of all the options supported for the "
+"agent, either from the the command line, or from the visual installation."
 msgstr ""
 
-#. type: Bullet: '* '
-msgid ""
-"Each generated installer is identified uniquely by a BuildID. (Each "
-"architecture has its own BuildID sequence)"
+#. type: Plain text
+msgid "- Each generated installer is identified uniquely by a BuildID."
 msgstr ""
 
-#. type: Bullet: '* '
+#. type: Plain text
+msgid "(Each architecture has its own BuildID sequence)"
+msgstr ""
+
+#. type: Plain text
 msgid ""
-"Allows to execute the agent as a Windows Service, to plan its execution "
+"- Allows to execute the agent as a Windows Service, to plan its execution "
 "through a Windows Task or, simply, not to execute the agent."
 msgstr ""
 
-#. type: Bullet: '* '
+#. type: Plain text
 msgid ""
-"Allows to pull a SSL certificate from a URL at installation time. (ToDo)"
+"- Allows to pull a SSL certificate from a URL at installation time. (ToDo)"
 msgstr ""
 
 #. type: Title ##
@@ -144,33 +148,33 @@ msgstr ""
 #. type: Plain text
 #, no-wrap
 msgid ""
-"* Whether you use Microsoft Windows OS\n"
-"   * NSIS 2.46\n"
+"- Whether you use Microsoft Windows OS\n"
+"  - NSIS 2.46\n"
 msgstr ""
 
 #. type: Plain text
 #, no-wrap
-msgid "   {i} You can get NSIS 2.46 from [http://nsis.sourceforge.net/Download](http://nsis.sourceforge.net/Download)\n"
-msgstr ""
-
-#. type: Plain text
-#, no-wrap
-msgid ""
-"* Whether you use a Unix OS\n"
-"   * Curl\n"
-"   * NSIS 2.46\n"
-msgstr ""
-
-#. type: Plain text
-#, no-wrap
-msgid "   {i} Check your distribution for more information about these packages\n"
+msgid "    You can get NSIS 2.46 from http://nsis.sourceforge.net/Download\n"
 msgstr ""
 
 #. type: Plain text
 #, no-wrap
 msgid ""
-"* In all of cases\n"
-"   * An Internet connection\n"
+"- Whether you use a Unix OS\n"
+"  - Curl\n"
+"  - NSIS 2.46\n"
+msgstr ""
+
+#. type: Plain text
+#, no-wrap
+msgid "    Check your distribution for more information about these packages\n"
+msgstr ""
+
+#. type: Plain text
+#, no-wrap
+msgid ""
+"- In all of cases\n"
+"  - An Internet connection\n"
 msgstr ""
 
 #. type: Title ##
@@ -185,14 +189,19 @@ msgstr ""
 #. type: Plain text
 #, no-wrap
 msgid ""
-"* FusionInventory Agent v2.2.7\n"
-"   * FusionInventory Agent Task Deploy v2.0.4\n"
-"   * FusionInventory Agent Task ESX v2.2.1\n"
-"   * FusionInventory Agent Task Inventory v1.0\n"
-"   * FusionInventory Agent Task WakeOnLan v1.0\n"
-"   * FusionInventory Agent Distribution Network v1.0.2\n"
-"      * FusionInventory Agent Task NetInventory v2.2.0\n"
-"      * FusionInventory Agent Task NetDiscovery v2.2.0\n"
+"- FusionInventory Agent v2.3.x\n"
+"  - FusionInventory Agent Task Deploy v2.0.4\n"
+"    - FusionInventory Agent Task ESX v2.2.1\n"
+"    - FusionInventory Agent Task Inventory v1.0\n"
+"    - FusionInventory Agent Task WakeOnLan v2.0\n"
+"    - FusionInventory Agent Distribution Network v1.0.2\n"
+"      - FusionInventory Agent Task NetInventory v2.2.0\n"
+"      - FusionInventory Agent Task NetDiscovery v2.2.0\n"
+msgstr ""
+
+#. type: Plain text
+#, no-wrap
+msgid "  **Note than**, nowadays, FusionInventory Agent 2.3.x is still in development (main branch).\n"
 msgstr ""
 
 #. type: Plain text
@@ -202,50 +211,61 @@ msgstr ""
 #. type: Plain text
 #, no-wrap
 msgid ""
-"    |\n"
-"    |-- NSIS\n"
-"    |   |-- FusionInventory-Agent\n"
-"    |   |   |-- Contrib\n"
-"    |   |   |   |-- Graphics\n"
-"    |   |   |   |   `-- Icons\n"
-"    |   |   |   |-- ModernUI2\n"
-"    |   |   |   |   `-- Pages\n"
-"    |   |   |   |       `-- Templates\n"
-"    |   |   |   `-- Skins\n"
-"    |   |   |       `-- Default\n"
-"    |   |   |-- Include\n"
-"    |   |   `-- INI\n"
-"    |   `-- Plugins\n"
-"    |-- Perl\n"
-"    |   `-- Scripts\n"
-"    `-- Tools\n"
-"        |-- 7zip\n"
-"        |   |-- x64\n"
-"        |   `-- x86\n"
-"        |-- curl\n"
-"        |   `-- x86\n"
-"        |-- dmidecode\n"
-"        |   `-- x86\n"
-"        |-- hdparm\n"
-"        |   `-- x86\n"
-"        |-- sed\n"
-"        |   `-- x86\n"
-"        `-- setacl\n"
-"            |-- x64\n"
-"            `-- x86\n"
+" ```\n"
+" .\n"
+" |-- NSIS\n"
+" |   |-- FusionInventory-Agent\n"
+" |   |   |-- Contrib\n"
+" |   |   |   |-- Graphics\n"
+" |   |   |   |   `-- Icons\n"
+" |   |   |   |-- ModernUI2\n"
+" |   |   |   |   `-- Pages\n"
+" |   |   |   |       `-- Templates\n"
+" |   |   |   `-- Skins\n"
+" |   |   |       `-- Default\n"
+" |   |   |-- Include\n"
+" |   |   `-- INI\n"
+" |   `-- Plugins\n"
+" |-- Perl\n"
+" |   `-- Scripts\n"
+" `-- Tools\n"
+"     |-- 7zip\n"
+"     |   |-- x64\n"
+"     |   `-- x86\n"
+"     |-- curl\n"
+"     |   `-- x86\n"
+"     |-- dmidecode\n"
+"     |   `-- x86\n"
+"     |-- hdparm\n"
+"     |   `-- x86\n"
+"     |-- sed\n"
+"     |   `-- x86\n"
+"     `-- setacl\n"
+"         |-- x64\n"
+"         `-- x86\n"
+"```\n"
 msgstr ""
 
 #. type: Plain text
 msgid ""
 "Inside of *./NSIS/Perl/Scripts* directory there is a set of scripts for "
-"download Strawberry Perl Portable Edition v5.16.2.2 (Feb 2013) for x64 and "
-"x86 architectures, update and install all the Perl modules dependencies for "
-"the previous FusionInventory Agent packages, and download them. Please, read "
-"the file *./Perl/Scripts/readme.txt* for more information about these "
-"scripts."
+"download Strawberry Perl Portable Edition v5.16.2.2 (Feb 2013) for [x64]"
+"(http://strawberryperl.com/download/5.16.2.2/strawberry-perl-5.16.2.2-64bit-"
+"portable.zip \"Strawberry Perl Portable Edition v5.16.2.2 (Feb 2013) for "
+"x64\") and [x86](http://strawberryperl.com/download/5.16.2.2/strawberry-"
+"perl-5.16.2.2-32bit-portable.zip \"Strawberry Perl Portable Edition "
+"v5.16.2.2 (Feb 2013) for x86\") architectures, update and install all the "
+"Perl modules dependencies for the previous FusionInventory Agent packages, "
+"and download them."
 msgstr ""
 
-#. type: Title ##
+#. type: Plain text
+msgid ""
+"Please, read the file *./Perl/Scripts/Readme.txt* for more information about "
+"these scripts."
+msgstr ""
+
+#. type: Title ###
 #, no-wrap
 msgid "How to generate the installers"
 msgstr ""
@@ -256,14 +276,15 @@ msgid ""
 "pattern."
 msgstr ""
 
-#. type: Plain text
-#, no-wrap
-msgid "   https://github.com/tabad/fusioninventory-agent-windows-installer/tarball/*\\<object\\>*\n"
+#. type: Bullet: '* '
+msgid ""
+"*https://github.com/tabad/fusioninventory-agent-windows-installer/tarball/"
+"&lt;object&gt;*"
 msgstr ""
 
 #. type: Plain text
 #, no-wrap
-msgid "where *\\<object\\>* may be a tag (or release) name, a branch name or a commit name.\n"
+msgid "where <object> may be a tag (or release) name, a branch name or a commit name.\n"
 msgstr ""
 
 #. type: Plain text
@@ -273,26 +294,22 @@ msgid ""
 msgstr ""
 
 #. type: Bullet: '* '
-msgid ""
-"[https://github.com/tabad/fusioninventory-agent-windows-installer/tags]"
-"(https://github.com/tabad/fusioninventory-agent-windows-installer/tags)"
+msgid "*https://github.com/tabad/fusioninventory-agent-windows-installer/tags*"
 msgstr ""
 
 #. type: Bullet: '* '
 msgid ""
-"[https://github.com/tabad/fusioninventory-agent-windows-installer/branches]"
-"(https://github.com/tabad/fusioninventory-agent-windows-installer/branches)"
+"*https://github.com/tabad/fusioninventory-agent-windows-installer/branches*"
 msgstr ""
 
 #. type: Bullet: '* '
 msgid ""
-"[https://github.com/tabad/fusioninventory-agent-windows-installer/commits]"
-"(https://github.com/tabad/fusioninventory-agent-windows-installer/commits)"
+"*https://github.com/tabad/fusioninventory-agent-windows-installer/commits*"
 msgstr ""
 
 #. type: Plain text
 #, no-wrap
-msgid "   {i} Note that, in the last case, you should select after the wished branch name, or end up the URL with the name of that branch, like this *...-windows-installer/commits/<branch_name>*.\n"
+msgid "   **Note that**, in the last case, you should select after the wished branch name, or end up the URL with the name of that branch, like this *…-windows-installer/commits/&lt;branch_name&gt;*.\n"
 msgstr ""
 
 #. type: Plain text
@@ -301,37 +318,23 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#, no-wrap
 msgid ""
-"    $ curl --location \\\n"
-"      --output fusioninventory-agent-windows-installer-master.tar.gz \\\n"
-"      https://github.com/tabad/fusioninventory-agent-windows-installer/\\\n"
-"      tarball/master\n"
-msgstr ""
-
-#. type: Plain text
-#, no-wrap
-msgid "   {i} Note than you can put it in a single line.\n"
+"``` $ curl --location --output fusioninventory-agent-windows-installer-"
+"master.tar.gz https://github.com/tabad/fusioninventory-agent-windows-"
+"installer/tarball/master ```"
 msgstr ""
 
 #. type: Plain text
 msgid ""
-"Once you have the *\\*.tar.gz* file, uncompress and unpack it. This is an "
+"Once you have the **.tar.gz* file, uncompress and unpack it. This is an "
 "example, continuing the previous one, using tar."
 msgstr ""
 
 #. type: Plain text
-#, no-wrap
 msgid ""
-"    $ mkdir fusioninventory-agent-windows-installer-master\n"
-"    $ tar -C fusioninventory-agent-windows-installer-master \\\n"
-"      --strip-components 1 \\\n"
-"      -xf fusioninventory-agent-windows-installer-master.tar.gz\n"
-msgstr ""
-
-#. type: Plain text
-#, no-wrap
-msgid "   {i} Note than, like above, you can put it in a single line.\n"
+"``` $ mkdir fusioninventory-agent-windows-installer-master $ tar -C "
+"fusioninventory-agent-windows-installer-master --strip-components 1 -xf "
+"fusioninventory-agent-windows-installer-master.tar.gz ```"
 msgstr ""
 
 #. type: Plain text
@@ -341,18 +344,20 @@ msgstr ""
 #. type: Plain text
 #, no-wrap
 msgid ""
-"    $ git clone --branch <branch_name> \\\n"
-"      https://github.com/tabad/fusioninventory-agent-windows-installer.git\n"
+"```\n"
+"$ git clone --branch <branch_name> https://github.com/tabad/fusioninventory-agent-windows-installer.git\n"
+"```\n"
 msgstr ""
 
 #. type: Plain text
 #, no-wrap
-msgid "   {i} Note that you should change <branch_name> for the name of branch you wish download.\n"
+msgid "**Note that** you should change <branch_name> for the name of branch you wish download.\n"
 msgstr ""
 
 #. type: Plain text
-#, no-wrap
-msgid "   {i} I'm sure you don't need much more explications about Git whether you have chosen this last option.\n"
+msgid ""
+"I'm sure you don't need much more explications about Git whether you have "
+"chosen this last option."
 msgstr ""
 
 #. type: Plain text
@@ -371,14 +376,16 @@ msgstr ""
 #. type: Plain text
 #, no-wrap
 msgid ""
-"    > cd fusioninventory-agent-windows-installer\n"
-"    > cd Perl\\Scripts\n"
-"    > .\\install-gnu-utilities-collection.bat\n"
-"    > .\\install-strawberry-perl-package-for-fusioninventory-agent.bat\n"
-"    > .\\install-fusioninventory-agent-and-tasks.bat\n"
-"    > .\\patch-fusioninventory-agent-and-tasks.bat\n"
-"    > cd ..\\..\\NSIS\n"
-"    > .\\FusionInventory-Agent.bat\n"
+"```\n"
+"> cd fusioninventory-agent-windows-installer\n"
+"> cd Perl\\Scripts\n"
+"> .\\install-gnu-utilities-collection.bat\n"
+"> .\\install-strawberry-perl-package-for-fusioninventory-agent.bat\n"
+"> .\\install-fusioninventory-agent.bat\n"
+"> .\\patch-fusioninventory-agent.bat\n"
+"> cd ..\\..\\NSIS\n"
+"> .\\FusionInventory-Agent.bat\n"
+"```\n"
 msgstr ""
 
 #. type: Plain text
@@ -391,21 +398,11 @@ msgid "Unix OS"
 msgstr ""
 
 #. type: Plain text
-#, no-wrap
 msgid ""
-"    $ cd fusioninventory-agent-windows-installer\n"
-"    $ chmod 0744 NSIS/*.sh Perl/Scripts/*.sh\n"
-"    $ cd Perl/Scripts\n"
-"    $ ./install-strawberry-perl-package-for-fusioninventory-agent.sh\n"
-"    $ ./install-fusioninventory-agent-and-tasks.sh\n"
-"    $ ./patch-fusioninventory-agent-and-tasks.sh\n"
-"    $ cd ../../NSIS\n"
-"    $ ./FusionInventory-Agent.sh\n"
-msgstr ""
-
-#. type: Plain text
-#, no-wrap
-msgid "   You should be able to see the new installers in that directory.\n"
+"``` $ cd fusioninventory-agent-windows-installer $ chmod 0744 NSIS/*.sh Perl/"
+"Scripts/*.sh $ cd Perl/Scripts $ ./install-strawberry-perl-package-for-"
+"fusioninventory-agent.sh $ ./install-fusioninventory-agent.sh $ ./patch-"
+"fusioninventory-agent.sh $ cd ../../NSIS $ ./FusionInventory-Agent.sh ```"
 msgstr ""
 
 #. type: Title ##
@@ -414,20 +411,23 @@ msgid "How to build the Strawberry Perl Portable Edition Package for FusionInven
 msgstr ""
 
 #. type: Plain text
-msgid "This task can be done only from Microsoft Windows OS."
+#, no-wrap
+msgid "**This task can be done only from Microsoft Windows OS.**\n"
 msgstr ""
 
 #. type: Plain text
 #, no-wrap
 msgid ""
-"    > cd fusioninventory-agent-windows-installer\n"
-"    > cd Perl\\Scripts\n"
-"    > .\\install-gnu-utilities-collection.bat\n"
-"    > .\\install-strawberry-perl.bat\n"
-"    > .\\install-perl-modules-and-dependencies.bat\n"
-"    > .\\delete-perl-modules-and-dependencies-temporary-files.bat\n"
-"    > .\\build-strawberry-perl-package-for-fusioninventory-agent.bat\n"
-"    > .\\uninstall-strawberry-perl.bat\n"
+"```\n"
+"> cd fusioninventory-agent-windows-installer\n"
+"> cd Perl\\Scripts\n"
+"> .\\install-gnu-utilities-collection.bat\n"
+"> .\\install-strawberry-perl.bat\n"
+"> .\\install-perl-modules-and-dependencies.bat\n"
+"> .\\delete-perl-modules-and-dependencies-temporary-files.bat\n"
+"> .\\build-strawberry-perl-package-for-fusioninventory-agent.bat\n"
+"> .\\uninstall-strawberry-perl.bat\n"
+"```\n"
 msgstr ""
 
 #. type: Plain text
@@ -438,8 +438,8 @@ msgstr ""
 
 #. type: Plain text
 msgid ""
-"Please, read *How to know whether is needed to build a new Strawberry Perl "
-"Portable Edition Package for FusionInventory Agent* below for more "
+"Please, read ***How to know whether is needed to build a new Strawberry Perl "
+"Portable Edition Package for FusionInventory Agent*** below for more "
 "information."
 msgstr ""
 
@@ -467,25 +467,21 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#, no-wrap
 msgid ""
-"    -declare -r strawberry_version='5.16.1.1'\n"
-"    -declare -r strawberry_release='Aug 2012'\n"
-"    +declare -r strawberry_version='5.16.2.1'\n"
-"    +declare -r strawberry_release='Nov 2012'\n"
-msgstr ""
-
-#. type: Plain text
-msgid ""
-"Update constant *STRAWBERRY_RELEASE* of file *./NSIS/FusionInventory.nsi* to "
-"adapt it to its new value:"
+"``` -declare -r strawberry_version='5.16.1.1' -declare -r "
+"strawberry_release='Aug 2012' +declare -r strawberry_version='5.16.2.1' "
+"+declare -r strawberry_release='Nov 2012' ```"
 msgstr ""
 
 #. type: Plain text
 #, no-wrap
+msgid "   Update constant *STRAWBERRY_RELEASE* of file *./NSIS/FusionInventory.nsi* to adapt it to its new value:\n"
+msgstr ""
+
+#. type: Plain text
 msgid ""
-"    -!define STRAWBERRY_RELEASE \"5.16.1.1\"\n"
-"    +!define STRAWBERRY_RELEASE \"5.16.2.1\"\n"
+"``` -!define STRAWBERRY_RELEASE \"5.16.1.1\" +!define STRAWBERRY_RELEASE "
+"\"5.16.2.1\" ```"
 msgstr ""
 
 #. type: Plain text
@@ -494,110 +490,79 @@ msgstr ""
 
 #. type: Plain text
 #, no-wrap
-msgid "   {i} Remember, probably you also will need to build a new Strawberry Perl Portable Edition Package for FusionInventory Agent.\n"
+msgid "**Remember**, probably you also will need to build a new Strawberry Perl Portable Edition Package for FusionInventory Agent.\n"
 msgstr ""
 
 #. type: Title ##
 #, no-wrap
-msgid "How to upgrade the agent and its tasks"
+msgid "How to upgrade the agent"
 msgstr ""
 
 #. type: Plain text
 msgid ""
-"Suppose you know there are new stable releases for FusionInventory-Agent and "
-"FusionInventory-Agent-Task-Deploy. You have the builder ready to build the "
-"installers with FusionInventory-Agent v2.2.5, FusionInventory-Agent-Task-"
-"Deploy v2.0.2, FusionInventory-Agent-Task-ESX v2.2.0 and FusionInventory-"
-"Agent-Task-Network v1.0.1 so you want to change it to get the installers "
-"with the last releases."
+"Suppose you know there are new stable release for FusionInventory-Agent. You "
+"have the builder ready to build the installers with FusionInventory-Agent "
+"v2.3.0 (it is also an assumption) so you want to change it to get the "
+"installers with the last releases."
 msgstr ""
 
 #. type: Plain text
 msgid ""
-"In GitHub you can find all releases of FusionInventory-Agent and its tasks. "
-"In [https://github.com/fusinv](ttps://github.com/fusinv) are registered most "
-"of the projects of FusionInventory but here we are only interested in four "
-"of them. They are, with their URLs, the following"
+"In GitHub you can find all releases of FusionInventory-Agent. In <https://"
+"github.com/fusinv> are registered most of the projects of FusionInventory "
+"but here we are only interested in one of them. It is, with its URL, the "
+"following"
+msgstr ""
+
+#. type: Bullet: '* '
+msgid "FusionInventory-Agent"
 msgstr ""
 
 #. type: Plain text
-#, no-wrap
-msgid ""
-"* FusionInventory-Agent\n"
-"   [https://github.com/fusinv/fusioninventory-agent](https://github.com/fusinv/fusioninventory-agent)\n"
-msgstr ""
-
-#. type: Plain text
-#, no-wrap
-msgid ""
-"* FusionInventory-Agent-Task-Deploy\n"
-"   [https://github.com/fusinv/fusioninventory-agent-task-deploy](https://github.com/fusinv/fusioninventory-agent-task-deploy)\n"
-msgstr ""
-
-#. type: Plain text
-#, no-wrap
-msgid ""
-"* FusionInventory-Agent-Task-ESX\n"
-"   [https://github.com/fusinv/fusioninventory-agent-task-esx](https://github.com/fusinv/fusioninventory-agent-task-esx)\n"
-msgstr ""
-
-#. type: Plain text
-#, no-wrap
-msgid ""
-"* and FusionInventory-Agent-Task-Network\n"
-"   [https://github.com/fusinv/fusioninventory-agent-task-network](https://github.com/fusinv/fusioninventory-agent-task-network)\n"
+msgid "<https://github.com/fusinv/fusioninventory-agent>"
 msgstr ""
 
 #. type: Plain text
 msgid ""
 "You can see the tag (or release) names, the branch names or the commit names "
-"of these project the same way you see them of this one. For more "
-"information, see section 'How to generate the installers' above."
+"of this project the same way you see them of this one. For more information, "
+"see section ***How to generate the installers*** above."
 msgstr ""
 
 #. type: Plain text
 msgid ""
-"By taking a look at [https://github.com/fusinv/fusioninventory-agent/tags]"
-"(https://github.com/fusinv/fusioninventory-agent/tags) and [https://github."
-"com/fusinv/fusioninventory-agent-task-deploy/tags](ihttps://github.com/"
-"fusinv/fusioninventory-agent-task-deploy/tags) you see those new releases "
-"are v2.2.6 and v2.0.3 respectively (it is true in the time I am writing "
-"this; Oct 23, 2012). These are the changes you should to carry out."
+"By taking a look at <https://github.com/fusinv/fusioninventory-agent/tags> "
+"you see that new release is v2.3.1 (it is also an assumption). These are the "
+"changes you should to carry out."
 msgstr ""
 
 #. type: Plain text
 msgid ""
 "Edit the *./Perl/Scripts/load-perl-environment* file and change the value of "
-"variables *fusinv_agent_commit* and *fusinv_task_deploy_commit* to *2.2.6* "
-"and *2.0.3* respectively. The other variables (*usinv_agent_mod_name* "
-"*usinv_agent_repository*, *fusinv_task_deploy_name* and "
-"*fusinv_task_deploy_repository*) should maintain its values, unless there "
-"are changes in GitHub."
-msgstr ""
-
-#. type: Plain text
-#, no-wrap
-msgid ""
-"    -declare +r fusinv_agent_commit='2.2.5'\n"
-"    +declare +r fusinv_agent_commit='2.2.6'\n"
-"       ...\n"
-"    -declare +r fusinv_task_deploy_commit='2.0.2'\n"
-"    +declare +r fusinv_task_deploy_commit='2.0.3'\n"
-msgstr ""
-
-#. type: Plain text
-#, no-wrap
-msgid "   {i} Note that, in these cases, *2.2.6* and *2.0.3* are *tags* in Git terminology; that is, in our case, stable releases. A tag makes reference, in last term, to a commit, therefore the name of the variable.\n"
+"variable *fusinv_agent_commit* to *2.3.1*. The other variables "
+"(*fusinv_agent_mod_name* and *fusinv_agent_repository*) should maintain its "
+"values, unless there are changes in GitHub."
 msgstr ""
 
 #. type: Plain text
 msgid ""
-"An important thing to take into account is that, probably, these new "
-"releases require new, or simply different, Perl modules. Whether it is so, "
-"you should build a new Strawberry Perl Portable Edition Package for "
-"FusionInventory Agent. But before to do that, you should carry out two "
-"actions; *a)* to increase the package build identifier and *b)* to update "
-"the list of required and recommended Perl modules."
+"``` -declare +r fusinv_agent_commit='2.3.0' +declare +r "
+"fusinv_agent_commit='2.3.1' ```"
+msgstr ""
+
+#. type: Plain text
+#, no-wrap
+msgid "**Note that**, in these cases, *2.3.1* is a *tag* in Git terminology; that is, in our case, stable releases. A tag makes reference, in last term, to a commit, therefore the name of the variable.\n"
+msgstr ""
+
+#. type: Plain text
+msgid ""
+"An important thing to take into account is that, probably, this new release "
+"require new, or simply different, Perl modules. Whether it is so, you should "
+"build a new Strawberry Perl Portable Edition Package for FusionInventory "
+"Agent. But before to do that, you should carry out two actions; a) to "
+"increase the package build identifier and b) to update the list of required "
+"and recommended Perl modules."
 msgstr ""
 
 #. type: Plain text
@@ -607,36 +572,34 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#, no-wrap
 msgid ""
-"    -declare -r strawberry_pepfia_build_id='1'\n"
-"    +declare -r strawberry_pepfia_build_id='2'\n"
+"``` -declare -r strawberry_pepfia_build_id='1' +declare -r "
+"strawberry_pepfia_build_id='2' ```"
 msgstr ""
 
 #. type: Plain text
 #, no-wrap
-msgid "   {i} Note that the variable *strawberry_pepfia_branch* is not necessary to change it in this case since the branch *2.2.x* match with the branch of FusionInventory-Agent release 2.2.6.\n"
+msgid "**Note that** the variable *strawberry_pepfia_branch* is not necessary to change it in this case since the branch 2.3.x match with the branch of FusionInventory-Agent release 2.3.1.\n"
 msgstr ""
 
 #. type: Plain text
 #, no-wrap
-msgid "   {i} Remember that you should reset *strawberry_pepfia_build_id* to *1* whether you upgrade the Strawberry Perl distribution.\n"
+msgid "**Remember that** you should reset *strawberry_pepfia_build_id* to *1* whether you upgrade the Strawberry Perl distribution.\n"
 msgstr ""
 
 #. type: Plain text
 msgid ""
 "The second one is, most of the times, more tedious. You should check whether "
-"there is new requirements or recommendations comparing the files *Makefile."
-"PL* of each FusionInventory-Agent package you want to update. Then, whether "
+"there is new requirements or recommendations comparing the file *Makefile."
+"PL* of the FusionInventory-Agent package you want to update. Then, whether "
 "there are changes, you must update the respective variable "
-"*fusinv_agent_mod_dependences*, *fusinv_task_deploy_mod_dependences*, "
-"*fusinv_task_esx_mod_dependences* or *fusinv_task_network_mod_dependences* "
-"of *./Perl/Scripts/load-perl-environment* file to reflect these changes."
+"*fusinv_agent_mod_dependences* of *./Perl/Scripts/load-perl-environment* "
+"file to reflect these changes."
 msgstr ""
 
 #. type: Plain text
 #, no-wrap
-msgid "   {i} Remember that, probably, you also need to update these variables whether you have upgraded the Strawberry Perl distribution.\n"
+msgid "**Remember that**, probably, you also need to update these variables whether you have upgraded the Strawberry Perl distribution.\n"
 msgstr ""
 
 #. type: Plain text
@@ -645,56 +608,51 @@ msgstr ""
 
 #. type: Plain text
 msgid ""
-"In [https://github.com/fusinv/fusioninventory-agent/tags](https://github.com/"
-"fusinv/fusioninventory-agent/tags) you can see all stable releases of "
-"FusionInventory-Agent. In that, below *2.2.6.zip - 2.2.6 release* appears "
-"the sequence *6f67b7d73c*; the short form for its SHA1 commit. Do click on "
-"it, and after, do click on *Browse code* (up and right). In the list of "
-"files that appears, do click on file *Makefile.PL* and write down the list "
-"of required and recommended Perl modules (those lines started by "
-"*requires ...* and *recommends ...*, but not those lines started by "
-"*text_requires ...*) commons to all operative systems and those specific for "
-"Microsoft Windows (those lines under the condition *($OSNAME eq 'MSWin32')"
-"*). This list of Perl modules should be the new value of the variable "
-"*fusinv_agent_mod_dependences*. Like this list is different of that for "
-"2.2.5 release (repeat the previous process for *2.2.5.zip - 2.2.5 release*) "
-"you need change the value of the variable *fusinv_agent_mod_dependences*."
+"In <https://github.com/fusinv/fusioninventory-agent/tags> you can see all "
+"stable releases of FusionInventory-Agent. In that, below *2.3.1.zip - 2.3.1 "
+"release* appears the sequence *6f67b7d6f6* (it is an assumption); the short "
+"form for its SHA1 commit.  Do click on it, and after, do click on *Browse "
+"code* (up and right). In the list of files that appears, do click on file "
+"*Makefile.PL* and write down the list of required and recommended Perl "
+"modules (those lines started by *requires …* and *recommends …*, but not "
+"those lines started by *text_requires …*) commons to all operative systems "
+"and those specific for Microsoft Windows (those lines under the condition *"
+"($OSNAME eq 'MSWin32')*). This list of Perl modules should be the new value "
+"of the variable *fusinv_agent_mod_dependences*. Like this list is different "
+"of that for 2.3.0 release (repeat the previous process for '2.3.0.zip - "
+"2.3.0 release') you need change the value of the variable "
+"*fusinv_agent_mod_dependences*."
 msgstr ""
 
 #. type: Plain text
 #, no-wrap
 msgid ""
-"    -declare -r fusion_agent_mod_dependences='Compress::Zlib Digest::MD5\n"
-"     File::Which HTTP::Daemon IO::Socket::SSL LWP LWP::Protocol::https\n"
-"     Net::IP Text::Template UNIVERSAL::require Win32::Daemon Win32::Job\n"
-"     Win32::OLE Win32::TieRegistry XML::TreePP'\n"
-"    +declare -r fusinv_agent_mod_dependences='Compress::Zlib File::Which\n"
-"     HTTP::Daemon IO::Socket::SSL LWP LWP::Protocol::https Net::IP\n"
-"     Text::Template UNIVERSAL::require Win32::Daemon Win32::Job Win32::OLE\n"
-"     Win32::TieRegistry XML::TreePP'\n"
+"```\n"
+"-declare -r fusion_agent_mod_dependences='Archive::Extract Crypt::DES\n"
+" Compress::Zlib Digest::MD5 Digest::SHA File::Copy::Recursive\n"
+" File::Which HTTP::Daemon IO::Socket::SSL JSON LWP LWP::Protocol::https\n"
+" Net::IP Net::NBName Net::SNMP Parse::EDID POE::Component::Client::Ping\n"
+" Socket::GetAddrInfo Text::Template UNIVERSAL::require URI::Escape\n"
+" Win32::Daemon Win32::Job Win32::OLE Win32::TieRegistry XML::TreePP'\n"
+"+declare -r fusion_agent_mod_dependences='Archive::Extract Crypt::DES\n"
+" Compress::Zlib Digest::MD5 Digest::SHA File::Copy::Recursive\n"
+" File::Which HTTP::Daemon IO::Socket::SSL JSON LWP LWP::Protocol::https\n"
+" Net::IP Net::NBName Net::SNMP Net::Write::Layer2 Parse::EDID\n"
+" POE::Component::Client::Ping Socket::GetAddrInfo Text::Template\n"
+" UNIVERSAL::require URI::Escape Win32::Daemon Win32::Job Win32::OLE\n"
+" Win32::TieRegistry XML::TreePP'\n"
+"```\n"
 msgstr ""
 
 #. type: Plain text
 #, no-wrap
-msgid "   {i} Note that they are only two lines.\n"
-msgstr ""
-
-#. type: Plain text
-msgid ""
-"In the case of FusionInventory-Agent-Task-Deploy v2.0.3 the list of the "
-"required and recommended Perl modules are the same that for v2.0.2, so there "
-"is not needed any additional change."
+msgid "**Note that** they are only two lines.\n"
 msgstr ""
 
 #. type: Plain text
 msgid ""
 "As the list of modules for FusionInventory-Agent has changed, it is "
 "necessary to generate a new Strawberry Perl Portable Edition Package."
-msgstr ""
-
-#. type: Plain text
-#, no-wrap
-msgid "   {i} Note that this is a strange case and that is not totally necessary because the Digest:MD5 Perl module is integrated into Strawberry Perl Portable Edition since its version v5.12.1.\n"
 msgstr ""
 
 #. type: Plain text
@@ -705,21 +663,23 @@ msgstr ""
 
 #. type: Plain text
 #, no-wrap
-msgid "   {i} Remember, this task can be done only from Microsoft Windows OS.\n"
+msgid "**Remember***, this task can be done only from Microsoft Windows OS.\n"
 msgstr ""
 
 #. type: Plain text
 #, no-wrap
 msgid ""
-"    > cd fusioninventory-agent-windows-installer\n"
-"    > cd Perl\\Scripts\n"
-"    > .\\install-gnu-utilities-collection.bat\n"
-"    > .\\uninstall-strawberry-perl.bat\n"
-"    > .\\install-strawberry-perl.bat\n"
-"    > .\\install-perl-modules-and-dependencies.bat\n"
-"    > .\\delete-perl-modules-and-dependencies-temporary-files.bat\n"
-"    > .\\build-strawberry-perl-package-for-fusioninventory-agent.bat\n"
-"    > .\\uninstall-strawberry-perl.bat\n"
+"```\n"
+"> cd fusioninventory-agent-windows-installer\n"
+"> cd Perl\\Scripts\n"
+"> .\\install-gnu-utilities-collection.bat\n"
+"> .\\uninstall-strawberry-perl.bat\n"
+"> .\\install-strawberry-perl.bat\n"
+"> .\\install-perl-modules-and-dependencies.bat\n"
+"> .\\delete-perl-modules-and-dependencies-temporary-files.bat\n"
+"> .\\build-strawberry-perl-package-for-fusioninventory-agent.bat\n"
+"> .\\uninstall-strawberry-perl.bat\n"
+"```\n"
 msgstr ""
 
 #. type: Plain text
@@ -735,15 +695,23 @@ msgstr ""
 #. type: Plain text
 #, no-wrap
 msgid ""
-"    -declare -r strawberry_pepfia_url='https://sourceforge.net/projects/fiawi/fil\n"
-"     es/strawberry-perl-packages\n"
-"    +declare -r strawberry_pepfia_url='file://c/.../fusioninventory-agent-windows\n"
-"     -installer/Perl/Strawberry'\n"
+"```\n"
+"-declare -r strawberry_pepfia_url='https://sourceforge.net/projects/fiawi/fil\n"
+" es/strawberry-perl-packages\n"
+"+declare -r strawberry_pepfia_url='file://c/.../fusioninventory-agent-windows\n"
+" -installer/Perl/Strawberry'\n"
+"```\n"
 msgstr ""
 
 #. type: Plain text
-#, no-wrap
-msgid "   {i} Remember, *file://* is dependent of the OS and must be written as a absolute path. Make sure, in any case, that the value of the *strawberry_pepfia_url* variable is correct.\n"
+msgid "Note that they are only two lines."
+msgstr ""
+
+#. type: Plain text
+msgid ""
+"Remember, *file://* is dependent of the OS and must be written as an "
+"absolute path. Make sure, in any case, that the value of the "
+"*strawberry_pepfia_url* variable is correct."
 msgstr ""
 
 #. type: Plain text
@@ -753,30 +721,17 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#, no-wrap
 msgid ""
-"    FIA_RELEASE\n"
-"    FIA_TASK_DEPLOY_RELEASE\n"
-"    FIA_TASK_ESX_RELEASE\n"
-"    FIA_TASK_NETWORK_RELEASE\n"
+"``` FIA_RELEASE FIA_TASK_DEPLOY_RELEASE FIA_TASK_ESX_RELEASE "
+"FIA_TASK_INVENTORY_RELEASE FIA_TASK_NETWORK_RELEASE "
+"FIA_TASK_NETDISCOVERY_RELEASE FIA_TASK_NETINVENTORY_RELEASE "
+"FIA_TASK_WAKEONLAN_RELEASE"
 msgstr ""
 
 #. type: Plain text
-#, no-wrap
 msgid ""
-"    FIA_TASK_INVENTORY_RELEASE\n"
-"    FIA_TASK_NETDISCOVERY_RELEASE\n"
-"    FIA_TASK_NETINVENTORY_RELEASE\n"
-"    FIA_TASK_WAKEONLAN_RELEASE\n"
-msgstr ""
-
-#. type: Plain text
-#, no-wrap
-msgid ""
-"    PRODUCT_VERSION_MAJOR\n"
-"    PRODUCT_VERSION_MINOR\n"
-"    PRODUCT_VERSION_RELEASE\n"
-"    PRODUCT_VERSION_BUILD\n"
+"PRODUCT_VERSION_MAJOR PRODUCT_VERSION_MINOR PRODUCT_VERSION_RELEASE "
+"PRODUCT_VERSION_BUILD ```"
 msgstr ""
 
 #. type: Plain text
@@ -784,26 +739,25 @@ msgid "They are at the beginning of the file. Following the example,"
 msgstr ""
 
 #. type: Plain text
-#, no-wrap
+msgid "``` -!define FIA_RELEASE \"2.3.0\" +!define FIA_RELEASE \"2.3.1\""
+msgstr ""
+
+#. type: Plain text
 msgid ""
-"    -!define FIA_RELEASE \"2.2.5\"\n"
-"    -!define FIA_TASK_DEPLOY_RELEASE \"2.0.2\"\n"
-"    +!define FIA_RELEASE \"2.2.6\"\n"
-"    +!define FIA_TASK_DEPLOY_RELEASE \"2.0.3\"\n"
+"-!define PRODUCT_VERSION_RELEASE \"0\" +!define PRODUCT_VERSION_RELEASE "
+"\"1\" ```"
 msgstr ""
 
 #. type: Plain text
 #, no-wrap
-msgid ""
-"    -!define PRODUCT_VERSION_RELEASE \"5\"\n"
-"    +!define PRODUCT_VERSION_RELEASE \"6\"\n"
+msgid "Note that you can find out these release numbers searching the *VERSION* variable inside *./Perl/Strawerry/<arch>/cpan/sources/FusionInventory-Agent-<fusinv_agent_commit>/lib/FusionInventory/Agent/Task/*.pm* files.\n"
 msgstr ""
 
 #. type: Plain text
 msgid ""
 "With the new Strawberry Perl Portable Edition Package for FusionInventory "
 "Agent ready, and these last changes, you can continue as it were a normal "
-"build process. See *How to generate the installers* above."
+"build process. See ***How to generate the installers*** above."
 msgstr ""
 
 #. type: Title ##
@@ -814,12 +768,10 @@ msgstr ""
 #. type: Plain text
 msgid ""
 "Basically you should check whether there is new requirements or "
-"recommendations comparing the files *Makefile.PL* of each FusionInventory-"
+"recommendations comparing the file *Makefile.PL* of the FusionInventory-"
 "Agent package you want to update. Then, whether there are changes, you must "
-"update the respective variable *fusinv_agent_mod_dependences*, "
-"*fusinv_task_deploy_mod_dependences*, *fusinv_task_esx_mod_dependences* or "
-"*fusinv_task_network_mod_dependences* of *./Perl/Scripts/load-perl-"
-"environment* file to reflect these changes."
+"update the variable *fusinv_agent_mod_dependences* of *./Perl/Scripts/load-"
+"perl-environment* file to reflect these changes."
 msgstr ""
 
 #. type: Plain text
@@ -831,7 +783,7 @@ msgstr ""
 
 #. type: Plain text
 msgid ""
-"See *How to upgrade the agent and its tasks* above for more information."
+"See ***How to upgrade the agent and its tasks*** above for more information."
 msgstr ""
 
 #. type: Title ##
@@ -841,18 +793,17 @@ msgstr ""
 
 #. type: Plain text
 msgid ""
-"The process is very similar to that described in *How to upgrade the agent "
-"and its tasks*. Then you chose a new stable release and, in this case, you "
+"The process is very similar to that described in ***How to upgrade the agent "
+"and its tasks***. Then you chose a new stable release and, in this case, you "
 "choose a branch name or a commit name."
 msgstr ""
 
 #. type: Plain text
 msgid ""
-"Let's look at an example about how to build the installers for the, "
-"nowadays, development branch *2.3.x* supposing you have the builder ready to "
-"build the installers with FusionInventory-Agent v2.2.6, FusionInventory-"
-"Agent-Task-Deploy v2.0.3, FusionInventory-Agent-Task-ESX v2.2.0 and "
-"FusionInventory-Agent-Task-Network v1.0.1."
+"Let's look at an example about how to build the installers for the "
+"development branch *master* related with the 2.4.x series (it is an "
+"assumption) supposing you have the builder ready to build the installer for "
+"FusionInventory-Agent v2.3.1."
 msgstr ""
 
 #. type: Plain text
@@ -864,27 +815,59 @@ msgstr ""
 #. type: Plain text
 #, no-wrap
 msgid ""
-"    -declare -r strawberry_pepfia_branch='2.2.x'\n"
-"    +declare -r strawberry_pepfia_branch='2.3.x'\n"
-"    -declare -r strawberry_pepfia_build_id='2'\n"
-"    +declare -r strawberry_pepfia_build_id='1'\n"
-"       ...\n"
-"    -declare +r fusinv_agent_commit='2.2.6'\n"
-"    +declare +r fusinv_agent_commit='2.3.x'\n"
-"       ...\n"
+"```\n"
+"-declare -r strawberry_pepfia_branch='2.3.x'\n"
+"+declare -r strawberry_pepfia_branch='2.4.x'\n"
+"-declare -r strawberry_pepfia_build_id='2'\n"
+"+declare -r strawberry_pepfia_build_id='1'\n"
+"   ...\n"
+"-declare +r fusinv_agent_commit='2.3.1'\n"
+"+declare +r fusinv_agent_commit='master'\n"
+"   ...\n"
 msgstr ""
 
 #. type: Plain text
 #, no-wrap
 msgid ""
-"    -declare -r fusinv_agent_mod_dependences='Compress::Zlib File::Which\n"
-"     HTTP::Daemon IO::Socket::SSL LWP LWP::Protocol::https Net::IP\n"
-"     Text::Template UNIVERSAL::require Win32::Daemon Win32::Job Win32::OLE\n"
-"     Win32::TieRegistry XML::TreePP'\n"
-"    +declare -r fusinv_agent_mod_dependences='Compress::Zlib File::Which\n"
-"     HTTP::Daemon IO::Socket::SSL LWP LWP::Protocol::https Net::IP\n"
-"     Parse::EDID Socket::GetAddrInfo Text::Template UNIVERSAL::require\n"
-"     Win32::Daemon Win32::Job Win32::OLE Win32::TieRegistry XML::TreePP'\n"
+"-declare -r fusion_agent_mod_dependences='Archive::Extract Crypt::DES\n"
+" Compress::Zlib Digest::MD5 Digest::SHA File::Copy::Recursive\n"
+" File::Which HTTP::Daemon IO::Socket::SSL JSON LWP LWP::Protocol::https\n"
+" Net::IP Net::NBName Net::SNMP Net::Write::Layer2 Parse::EDID\n"
+" POE::Component::Client::Ping Socket::GetAddrInfo Text::Template\n"
+" UNIVERSAL::require URI::Escape Win32::Daemon Win32::Job Win32::OLE\n"
+" Win32::TieRegistry XML::TreePP'\n"
+"+declare -r fusion_agent_mod_dependences='Archive::Extract Crypt::DES\n"
+" Compress::Zlib Digest::MD5 Digest::SHA File::Copy::Recursive\n"
+" File::Which HTTP::Daemon IO::Socket::SSL JSON LWP LWP::Protocol::https\n"
+" Net::IP Net::NBName Net::SNMP Net::Write::Layer2 PAR::Parcker Parse::EDID\n"
+" POE::Component::Client::Ping Socket::GetAddrInfo Text::Template\n"
+" UNIVERSAL::require URI::Escape Win32::Daemon Win32::Job Win32::OLE\n"
+" Win32::TieRegistry XML::TreePP'\n"
+"```\n"
+msgstr ""
+
+#. type: Plain text
+#, no-wrap
+msgid "**Remember**, this task can be done only from Microsoft Windows OS.\n"
+msgstr ""
+
+#. type: Plain text
+#, no-wrap
+msgid ""
+"```\n"
+"> cd fusioninventory-agent-windows-installer\n"
+"> cd Perl\\Scripts\n"
+"> .\\install-gnu-utilities-collection.bat\n"
+"> .\\uninstall-strawberry-perl.bat\n"
+"> .\\install-strawberry-perl.bat\n"
+"> .\\install-perl-modules-and-dependencies.bat\n"
+"> .\\delete-perl-modules-and-dependencies-temporary-files.bat\n"
+"> .\\build-strawberry-perl-package-for-fusioninventory-agent.bat\n"
+"> .\\uninstall-strawberry-perl.bat\n"
+msgstr ""
+
+#. type: Plain text
+msgid "```"
 msgstr ""
 
 #. type: Plain text
@@ -897,50 +880,53 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#, no-wrap
-msgid ""
-"    -!define FIA_RELEASE \"2.2.6\"\n"
-"    +!define FIA_RELEASE \"2.3.x\"\n"
-msgstr ""
-
-#. type: Plain text
-#, no-wrap
-msgid ""
-"    -!define PRODUCT_VERSION_MINOR \"2\"\n"
-"    -!define PRODUCT_VERSION_RELEASE \"6\"\n"
-"    +!define PRODUCT_VERSION_MINOR \"3\"\n"
-"    +!define PRODUCT_VERSION_RELEASE \"33835\"\n"
-msgstr ""
-
-#. type: Plain text
-#, no-wrap
-msgid "   {i} Note that all *PRODUCT_VERSION_\\** constants must have a numeric value. The value *33835* is a agreement to design a development releases. It is the name you get whether you try to write the word *devel* in a telephone keyboard.\n"
+msgid "``` -!define FIA_RELEASE \"2.3.1\" +!define FIA_RELEASE \"master\""
 msgstr ""
 
 #. type: Plain text
 msgid ""
-"Nowadays branch *2.3.x* and commit "
-"*f3f9382a18659d1ddd602ae04e816a1a4221c369* reflect the same state. The "
-"following example build the same installers but choosing the commit "
-"*f3f9382a18659d1ddd602ae04e816a1a4221c369* instead of branch *2.3.x*."
+"-!define PRODUCT_VERSION_MINOR \"3\" -!define PRODUCT_VERSION_RELEASE \"1\" "
+"+!define PRODUCT_VERSION_MINOR \"4\" +!define PRODUCT_VERSION_RELEASE "
+"\"2013030702\" ```"
+msgstr ""
+
+#. type: Plain text
+#, no-wrap
+msgid "**Note that** all *PRODUCT_VERSION_\\** constants must have a numeric value. Here I have followed the pattern *YYYYMMDD##*, where *YYYYMMDD* is the date of creation of the installer and *##* is the sequence number of the Installer generated on that date (this value can take the values [01-99]). You can choose any other number or pattern you like.\n"
+msgstr ""
+
+#. type: Plain text
+msgid ""
+"With the new Strawberry Perl Portable Edition Package for FusionInventory "
+"Agent ready, and these last changes, you can continue as it were a normal "
+"build process. See 'How to generate the installers' above."
+msgstr ""
+
+#. type: Plain text
+msgid ""
+"The branch *master* and commit *f3f9382a18659d1fff602ae04e816a1a4221c369* "
+"(it is also an assumption) reflect the same state. The following example "
+"build the same installer but choosing the commit "
+"*f3f9382a18659d1fff602ae04e816a1a4221c369* instead of branch *master*."
 msgstr ""
 
 #. type: Plain text
 #, no-wrap
 msgid ""
-"    -declare -r strawberry_pepfia_branch='2.2.x'\n"
-"    +declare -r strawberry_pepfia_branch='2.3.x'\n"
-"    -declare -r strawberry_pepfia_build_id='2'\n"
-"    +declare -r strawberry_pepfia_build_id='1'\n"
-"       ...\n"
-"    -declare +r fusinv_agent_commit='2.2.6'\n"
-"    +declare +r fusinv_agent_commit='f3f9382a18659d1ddd602ae04e816a1a4221c369'\n"
-"       ...\n"
+"```\n"
+"-declare -r strawberry_pepfia_branch='2.3.x'\n"
+"+declare -r strawberry_pepfia_branch='2.4.x'\n"
+"-declare -r strawberry_pepfia_build_id='2'\n"
+"+declare -r strawberry_pepfia_build_id='1'\n"
+"   ...\n"
+"-declare +r fusinv_agent_commit='2.3.1'\n"
+"+declare +r fusinv_agent_commit='f3f9382a18659d1fff602ae04e816a1a4221c369'\n"
+"   ...\n"
 msgstr ""
 
 #. type: Plain text
 #, no-wrap
-msgid "   {i} Note that the installer always works with short commit names. See variable *maximum_commit_length* to know what this length is (by default it is 10). All commit names will be truncated to this length.\n"
+msgid "**Note that** the installer always works with short commit names. See variable *maximum_commit_length* to know what this length is (by default it is 10). All commit names will be truncated to this length.\n"
 msgstr ""
 
 #. type: Plain text
@@ -951,10 +937,7 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#, no-wrap
-msgid ""
-"    -!define FIA_RELEASE \"2.2.6\"\n"
-"    +!define FIA_RELEASE \"f3f9382a18\"\n"
+msgid "``` -!define FIA_RELEASE \"2.3.1\" +!define FIA_RELEASE \"f3f9382a18\""
 msgstr ""
 
 #. type: Title ##
@@ -968,15 +951,17 @@ msgid "Project websites"
 msgstr ""
 
 #. type: Bullet: '* '
-msgid ""
-"main site: [http://www.fusioninventory.org](http://www.fusioninventory.org)"
+msgid "Main site"
 msgstr ""
 
-#. type: Bullet: '* '
+#. type: Plain text
+msgid "<http://www.fusioninventory.org> * Forge"
+msgstr ""
+
+#. type: Plain text
 msgid ""
-"forge: [http://forge.fusioninventory.org/projects/fusioninventory-agent-"
-"windows-installer](http://forge.fusioninventory.org/projects/fusioninventory-"
-"agent-windows-installer)"
+"<http://forge.fusioninventory.org/projects/fusioninventory-agent-windows-"
+"installer>"
 msgstr ""
 
 #. type: Title ###
@@ -985,15 +970,23 @@ msgid "Project mailing lists"
 msgstr ""
 
 #. type: Bullet: '* '
-msgid ""
-"[http://lists.alioth.debian.org/mailman/listinfo/fusioninventory-user]"
-"(http://lists.alioth.debian.org/mailman/listinfo/fusioninventory-user)"
+msgid "User list"
 msgstr ""
 
-#. type: Bullet: '* '
+#. type: Plain text
 msgid ""
-"[http://lists.alioth.debian.org/mailman/listinfo/fusioninventory-devel]"
-"(http://lists.alioth.debian.org/mailman/listinfo/fusioninventory-devel)"
+"<http://lists.alioth.debian.org/mailman/listinfo/fusioninventory-user> * "
+"Developer list"
+msgstr ""
+
+#. type: Plain text
+msgid ""
+"<http://lists.alioth.debian.org/mailman/listinfo/fusioninventory-devel> * "
+"Translator list"
+msgstr ""
+
+#. type: Plain text
+msgid "<http://lists.alioth.debian.org/mailman/listinfo/fusioninventory-i18n>"
 msgstr ""
 
 #. type: Title ###
@@ -1002,12 +995,12 @@ msgid "Project IRC channel"
 msgstr ""
 
 #. type: Bullet: '* '
-msgid "FusionInventory on FreeNode IRC Network"
+msgid "*#FusionInventory* on [FreeNode](http://irc.freenode.net/) IRC Network"
 msgstr ""
 
 #. type: Plain text
-#, no-wrap
-msgid "   {i} Please report any issues on project forge bugtracker (see forge URL above).\n"
+msgid ""
+"Please report any issues on project forge bugtracker (see forge URL above)."
 msgstr ""
 
 #. type: Title ##
@@ -1021,9 +1014,17 @@ msgid "Public Git repositories"
 msgstr ""
 
 #. type: Bullet: '* '
+msgid "GitHub"
+msgstr ""
+
+#. type: Plain text
 msgid ""
-"[https://github.com/tabad/fusioninventory-agent-windows-installer](https://"
-"github.com/tabad/fusioninventory-agent-windows-installer)"
+"<https://github.com/tabad/fusioninventory-agent-windows-installer/> * "
+"SourceForge"
+msgstr ""
+
+#. type: Plain text
+msgid "<http://sourceforge.net/p/fiawi/code/>"
 msgstr ""
 
 #. type: Title ###
@@ -1032,9 +1033,11 @@ msgid "Public Strawberry Perl Portable Package repositories"
 msgstr ""
 
 #. type: Bullet: '* '
-msgid ""
-"[http://sourceforge.net/projects/fiawi/files/strawberry-perl-packages/]"
-"(http://sourceforge.net/projects/fiawi/files/strawberry-perl-packages/)"
+msgid "SourceForge"
+msgstr ""
+
+#. type: Plain text
+msgid "<http://sourceforge.net/projects/fiawi/files/strawberry-perl-packages/>"
 msgstr ""
 
 #. type: Title ###
@@ -1042,10 +1045,8 @@ msgstr ""
 msgid "Public experimental intallers repositories"
 msgstr ""
 
-#. type: Bullet: '* '
-msgid ""
-"[https://sourceforge.net/projects/fiawi/files/](https://sourceforge.net/"
-"projects/fiawi/files/)"
+#. type: Plain text
+msgid "<https://sourceforge.net/projects/fiawi/files/>"
 msgstr ""
 
 #. type: Title ##
@@ -1054,11 +1055,16 @@ msgid "Author"
 msgstr ""
 
 #. type: Bullet: '* '
-msgid "Tom�s Abad <tabadgp@gmail.com>"
+msgid "Tomás Abad"
 msgstr ""
 
 #. type: Plain text
-msgid "Copyright 2012 FusionInventory Team"
+msgid "<tabadgp@gmail.com>"
+msgstr ""
+
+#. type: Plain text
+#, no-wrap
+msgid "      Copyright 2012 FusionInventory Team\n"
 msgstr ""
 
 #. type: Title ##
@@ -1070,16 +1076,4 @@ msgstr ""
 msgid ""
 "This software is licensed under the terms of GPLv2+, see License.txt file "
 "for details."
-msgstr ""
-
-#. type: Title ##
-#, no-wrap
-msgid "Other sources of this document"
-msgstr ""
-
-#. type: Plain text
-msgid ""
-"[http://www.fusioninventory.org/documentation/agent/dev/"
-"experimental_windows_installer/](http://www.fusioninventory.org/"
-"documentation/agent/dev/experimental_windows_installer/)"
 msgstr ""
