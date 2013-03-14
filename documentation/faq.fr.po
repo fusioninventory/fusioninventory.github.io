@@ -177,12 +177,7 @@ msgid "How can I configure two or more servers"
 msgstr "Comment puis-je configurer un ou plusieurs serveurs"
 
 #. type: Plain text
-#, fuzzy, no-wrap
-#| msgid ""
-#| " In the agent configuration file, you can define several servers to\n"
-#| "communicate with.\n"
-#| "For example to communicate with three servers: FusionInventory Server\n"
-#| "for GLPI 0.80 and 0.38, and OCSInventory server:\n"
+#, no-wrap
 msgid ""
 " In the agent configuration file, you can define several servers to\n"
 "communicate with.\n"
@@ -192,7 +187,7 @@ msgstr ""
 " Dans le fichier de configuration de l'agent, vous pouvez définir plusieurs serveurs pour\n"
 "communiquer avec.\n"
 "Par exemple pour communiquer avec trois serveurs : FusionInventory Serveur\n"
-"pour GLPI 0.80 et 0.38, et OCSInventory serveur:\n"
+"pour GLPI 0.80 et 0.83, et OCSInventory serveur:\n"
 
 #. type: Plain text
 #, no-wrap
