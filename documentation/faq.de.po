@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2013-02-25 12:24+0000\n"
+"POT-Creation-Date: 2013-03-14 12:45+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -156,7 +156,7 @@ msgid ""
 " In the agent configuration file, you can define several servers to\n"
 "communicate with.\n"
 "For example to communicate with three servers: FusionInventory Server\n"
-"for GLPI 0.80 and 0.38, and OCSInventory server:\n"
+"for GLPI 0.80 and 0.83, and OCSInventory server:\n"
 msgstr ""
 
 #. type: Plain text
