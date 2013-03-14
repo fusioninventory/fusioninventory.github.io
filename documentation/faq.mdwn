@@ -59,7 +59,7 @@ An agent for Android is also available on [Google Play](https://play.google.com/
  In the agent configuration file, you can define several servers to
 communicate with.
 For example to communicate with three servers: FusionInventory Server
-for GLPI 0.80 and 0.38, and OCSInventory server:
+for GLPI 0.80 and 0.83, and OCSInventory server:
 
     server=http://glpi080/plugins/fusioninventory/front/plugin_fusioninventory.communication.php, http://glpi083/plugins/fusioninventory/, http://ocsinventory-ng/ocsinventory
 The agent will contact each server in the order defined in the configuration
