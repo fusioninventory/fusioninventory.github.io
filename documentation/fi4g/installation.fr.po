@@ -19,7 +19,7 @@ msgstr ""
 #. type: Title #
 #, no-wrap
 msgid "FusionInventory for GLPI installation"
-msgstr "Installation de FusionInventory for GLPI"
+msgstr "Installation de FusionInventory For GLPI"
 
 #. type: Title ##
 #, no-wrap
@@ -36,7 +36,7 @@ msgstr ""
 
 #. type: Plain text
 msgid "FusionInventory for GLPI tarball name follow this convention:"
-msgstr "Le nom du fichier de FusionInventory for GLPI utilise cette "
+msgstr "Le nom du fichier de FusionInventory For GLPI utilise cette "
 "convention :"
 
 #. type: Bullet: '* '
@@ -76,7 +76,7 @@ msgid ""
 "else the FusionInventory plugins. This to ensure deprecated files will "
 "properly be removed."
 msgstr ""
-"Vous *devez en PREMIER* désactiver le plugin FusionInventory for GLPI et "
+"Vous *devez en PREMIER* désactiver le plugin FusionInventory For GLPI et "
 "déplacer les dossiers du plugin FusionInventory for GLPI. Cela pour être "
 "que les fichiers obsolètes seront proprement enlevés."
 

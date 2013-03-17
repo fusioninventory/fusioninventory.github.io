@@ -45,4 +45,4 @@ msgstr "Serveur"
 
 #. type: Bullet: '* '
 msgid "[[FusionInventory for GLPI|documentation/fi4g/installation]]"
-msgstr "[[FusionInventory pour GLPI|documentation/fi4g/installation]]"
+msgstr "[[FusionInventory for GLPI|documentation/fi4g/installation]]"

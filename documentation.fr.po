@@ -52,14 +52,14 @@ msgstr "[[Forcer un inventaire|documentation/agent/launch_the_agent]]"
 #. type: Title #
 #, no-wrap
 msgid "FusionInventory for GLPI"
-msgstr "FusionInventory pour GLPI"
+msgstr "FusionInventory For GLPI"
 
 #. type: Bullet: '* '
 msgid ""
 "[[How to install or update FusionInventory for GLPI|documentation/fi4g/"
 "installation]]"
 msgstr ""
-"[[Installation ou mise à jour de FusionInventory pour GLPI|documentation/"
+"[[Installation ou mise à jour de FusionInventory For GLPI|documentation/"
 "fi4g/installation]]"
 
 #. type: Bullet: '* '
