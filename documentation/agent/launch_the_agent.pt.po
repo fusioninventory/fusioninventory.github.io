@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2013-01-28 13:16+0000\n"
+"POT-Creation-Date: 2013-03-21 16:51+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -34,17 +34,14 @@ msgstr ""
 
 #. type: Plain text
 msgid ""
-"If `rpc-trust-localhost` [[configuration "
-"key|documentation/agent/configuration]] is true or if "
-"`httpd-trust=127.0.0.1`, a link will be available to force the agent "
-"execution."
+"If `rpc-trust-localhost` [[configuration key|documentation/agent/"
+"configuration]] is true or if `httpd-trust=127.0.0.1`, a link will be "
+"available to force the agent execution."
 msgstr ""
 
 #. type: Plain text
 #, no-wrap
-msgid ""
-"[[!template  id=warning text=\"A bug fixed in 2.2.7 prevent the use of "
-"`rpc-trust-localhost` and `httpd-trust`.\"]]\n"
+msgid "[[!template  id=warning text=\"A bug fixed in 2.2.7 prevent the use of `rpc-trust-localhost` and `httpd-trust` at the same time.\"]]\n"
 msgstr ""
 
 #. type: Title ##
@@ -54,9 +51,8 @@ msgstr ""
 
 #. type: Plain text
 msgid ""
-"You can force an inventory with the "
-"[[fusioninventory-agent|documentation/references/agent/2.2.x/fusioninventory-agent]] "
-"command."
+"You can force an inventory with the [[fusioninventory-agent|documentation/"
+"references/agent/2.2.x/fusioninventory-agent]] command."
 msgstr ""
 
 #. type: Title ###
@@ -90,8 +86,8 @@ msgstr ""
 #. type: Plain text
 msgid ""
 "First, ensure `daemon` key is not defined or false in `agent.cfg`. This key "
-"is enabled on MacOSX default settings "
-"(`/opt/fusioninventory-agent/agent.cfg`)."
+"is enabled on MacOSX default settings (`/opt/fusioninventory-agent/agent."
+"cfg`)."
 msgstr ""
 
 #. type: Plain text
@@ -105,8 +101,8 @@ msgstr ""
 
 #. type: Plain text
 msgid ""
-"See [[the MacOSX documentation for further "
-"details|documentation/agent/installation/macosx]]."
+"See [[the MacOSX documentation for further details|documentation/agent/"
+"installation/macosx]]."
 msgstr ""
 
 #. type: Title ###
@@ -148,7 +144,6 @@ msgstr ""
 
 #. type: Plain text
 msgid ""
-"Please read [[the fusioninventory-agent reference "
-"page|documentation/references]] to get the complet list of supported "
-"options."
+"Please read [[the fusioninventory-agent reference page|documentation/"
+"references]] to get the complet list of supported options."
 msgstr ""

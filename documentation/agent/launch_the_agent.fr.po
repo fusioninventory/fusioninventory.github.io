@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2013-01-15 14:36+0000\n"
+"POT-Creation-Date: 2013-03-21 16:51+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -31,8 +31,8 @@ msgid ""
 "If you agent is running as a service or a daemon, you may be able to access "
 "the web interface at <http://localhost:62354>."
 msgstr ""
-"Si l'agent fonctionne en mode démon ou service, vous pouvez rendre accessible "
-"l'interface web  <http://localhost:62354>."
+"Si l'agent fonctionne en mode démon ou service, vous pouvez rendre "
+"accessible l'interface web  <http://localhost:62354>."
 
 #. type: Plain text
 msgid ""
@@ -45,8 +45,9 @@ msgstr ""
 "l'exécution de l'agent."
 
 #. type: Plain text
-#, no-wrap
-msgid "[[!template  id=warning text=\"A bug fixed in 2.2.7 prevent the use of `rpc-trust-localhost` and `httpd-trust`.\"]]\n"
+#, fuzzy, no-wrap
+#| msgid "[[!template  id=warning text=\"A bug fixed in 2.2.7 prevent the use of `rpc-trust-localhost` and `httpd-trust`.\"]]\n"
+msgid "[[!template  id=warning text=\"A bug fixed in 2.2.7 prevent the use of `rpc-trust-localhost` and `httpd-trust` at the same time.\"]]\n"
 msgstr "[[!template  id=warning text=\"Un bug corrigé dans la version 2.2.7 empêchait l'utilisation de `rpc-trust-localhost` et `httpd-trust`.\"]]\n"
 
 #. type: Title ##
@@ -59,8 +60,8 @@ msgid ""
 "You can force an inventory with the [[fusioninventory-agent|documentation/"
 "references/agent/2.2.x/fusioninventory-agent]] command."
 msgstr ""
-"Vous pouvez forcer un inventaire avec la commande [[fusioninventory-agent|documentation/"
-"references/agent/2.2.x/fusioninventory-agent]]."
+"Vous pouvez forcer un inventaire avec la commande [[fusioninventory-agent|"
+"documentation/references/agent/2.2.x/fusioninventory-agent]]."
 
 #. type: Title ###
 #, no-wrap
@@ -73,9 +74,9 @@ msgid ""
 "*Administrator* privilege (*right clic* → *Run as Administrator* on Vista "
 "and Seven *Start menu*)."
 msgstr ""
-"Premièrement, vous devez ouvrir la console cmd.exe. Assurez vous de la"
-"démarrer avec les droits d'administrateur (*clic droit* → *Exécuter en tant "
-"que administrateur* sur Vista et Seven)"
+"Premièrement, vous devez ouvrir la console cmd.exe. Assurez vous de "
+"ladémarrer avec les droits d'administrateur (*clic droit* → *Exécuter en "
+"tant que administrateur* sur Vista et Seven)"
 
 #. type: Plain text
 msgid ""
@@ -101,9 +102,9 @@ msgid ""
 "is enabled on MacOSX default settings (`/opt/fusioninventory-agent/agent."
 "cfg`)."
 msgstr ""
-"En premier, vérifiez que la clé `daemon` n'est pas défini ou à false dans "
-" `agent.cfg`. Cette clé est active par défaut sur MacOSX dans le fichier "
-" (`/opt/fusioninventory-agent/agent.cfg`)."
+"En premier, vérifiez que la clé `daemon` n'est pas défini ou à false dans  "
+"`agent.cfg`. Cette clé est active par défaut sur MacOSX dans le fichier  (`/"
+"opt/fusioninventory-agent/agent.cfg`)."
 
 #. type: Plain text
 msgid "Go in /opt/fusioninventory-agent and run the following command:"
@@ -119,8 +120,8 @@ msgid ""
 "See [[the MacOSX documentation for further details|documentation/agent/"
 "installation/macosx]]."
 msgstr ""
-"Reportez vous à la page de documentation de MacOSX pour "
-"plus de [[détail|documentation/agent/installation/macosx]]."
+"Reportez vous à la page de documentation de MacOSX pour plus de [[détail|"
+"documentation/agent/installation/macosx]]."
 
 #. type: Title ###
 #, no-wrap
@@ -164,5 +165,5 @@ msgid ""
 "Please read [[the fusioninventory-agent reference page|documentation/"
 "references]] to get the complet list of supported options."
 msgstr ""
-"Veuillez vous reporter à [[la page de référence de  fusioninventory-agent"
-"|documentation/references]] pour voir la liste compète des options."
+"Veuillez vous reporter à [[la page de référence de  fusioninventory-agent|"
+"documentation/references]] pour voir la liste compète des options."
