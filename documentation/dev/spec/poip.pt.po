@@ -1,0 +1,227 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2013-03-21 15:43+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. type: Title #
+#, no-wrap
+msgid "SNMP + HTTPXML"
+msgstr ""
+
+#. type: Title ##
+#, no-wrap
+msgid "Goal"
+msgstr ""
+
+#. type: Plain text
+msgid "We have Only SNMP for the moment."
+msgstr ""
+
+#. type: Plain text
+msgid ""
+"To inventory Cisco IP phone for example, we need to get XML by HTTP and "
+"parse it."
+msgstr ""
+
+#. type: Title ##
+#, no-wrap
+msgid "Cisco IP phone CP-7940"
+msgstr ""
+
+#. type: Plain text
+#:  
+msgid "We must get datas in XML from http. links are :"
+msgstr ""
+
+#. type: Bullet: '* '
+msgid "http://IP/DeviceInformationX"
+msgstr ""
+
+#. type: Bullet: '* '
+msgid "http://IP/EthernetInformationX"
+msgstr ""
+
+#. type: Bullet: '* '
+msgid "http://IP/NetworkConfigurationX"
+msgstr ""
+
+#. type: Bullet: '* '
+msgid "http://IP/PortInformationX?1"
+msgstr ""
+
+#. type: Bullet: '* '
+msgid "http://IP/PortInformationX?2"
+msgstr ""
+
+#. type: Bullet: '* '
+msgid "http://IP/PortInformationX?3"
+msgstr ""
+
+#. type: Bullet: '* '
+msgid "http://IP/StreamingStatisticsX?1"
+msgstr ""
+
+#. type: Bullet: '* '
+msgid "http://IP/StreamingStatisticsX?2"
+msgstr ""
+
+#. type: Title ##
+#, no-wrap
+msgid "DeviceInformationX"
+msgstr ""
+
+#. type: Plain text
+#, no-wrap
+msgid ""
+"    <?xml version=\"1.0\" encoding=\"iso-8859-1\"?>\n"
+"    <DeviceInformation>\n"
+"       <MACAddress>0003E369A125</MACAddress>\n"
+"       <HostName>SEP0003E369A125</HostName>\n"
+"       <phoneDN>5920</phoneDN>\n"
+"       <appLoadID>P00308010200</appLoadID>\n"
+"       <bootLoadID>PC03A300</bootLoadID>\n"
+"       <versionID>8.1(2.0)</versionID>\n"
+"       <DSPLoadID>4.0(5.0)[A0]</DSPLoadID>\n"
+"       <addonModule1></addonModule1>\n"
+"       <addonModule2></addonModule2>\n"
+"       <hardwareRevision>1.0</hardwareRevision>\n"
+"       <serialNumber>INMXXXXXXX</serialNumber>\n"
+"       <modelNumber>CP-7940</modelNumber>\n"
+"       <Codec>ADLCodec</Codec>\n"
+"       <Amps>3V Amp</Amps>\n"
+"       <C3PORevision>2</C3PORevision>\n"
+"       <MessageWaiting> OUI</MessageWaiting>\n"
+"    </DeviceInformation>\n"
+msgstr ""
+
+#. type: Title ##
+#, no-wrap
+msgid "EthernetInformationX"
+msgstr ""
+
+#. type: Plain text
+#, no-wrap
+msgid ""
+"    <?xml version=\"1.0\" encoding=\"iso-8859-1\"?>\n"
+"    <EthernetInformation>\n"
+"       <TxExcessiveCollisions>0</TxExcessiveCollisions>\n"
+"       <TxFrames>2732807</TxFrames>\n"
+"       <TxBroadcasts>7944</TxBroadcasts>\n"
+"       <TxMulticasts>169287</TxMulticasts>\n"
+"       <TxCollisions>0</TxCollisions>\n"
+"       <TxDeferredAbort>0</TxDeferredAbort>\n"
+"       <RxOverruns>0</RxOverruns>\n"
+"       <RxLongCRC>0</RxLongCRC>\n"
+"       <RxFrames>3837371</RxFrames>\n"
+"       <RxCRCErrors>0</RxCRCErrors>\n"
+"       <RxBadPreamble>0</RxBadPreamble>\n"
+"       <RxRunt>0</RxRunt>\n"
+"       <RxMulticasts>151066</RxMulticasts>\n"
+"       <RxBroadcasts>1424370</RxBroadcasts>\n"
+"       <RxShorts>0</RxShorts>\n"
+"       <RxLongs>0</RxLongs>\n"
+"    </EthernetInformation>\n"
+msgstr ""
+
+#. type: Title ##
+#, no-wrap
+msgid "server HTTP headers"
+msgstr ""
+
+#. type: Plain text
+#, no-wrap
+msgid ""
+"    $curl -I 172.20.44.33\n"
+"    HTTP/1.1 200 OK\n"
+"    Content-Type: text/xml; charset=\"utf-8\"\n"
+"    Date: Thu, 21 Mar 2013 15:42:33 GMT\n"
+"    Cache-Control: no-cache\n"
+"    Expires: Thu, 26 Oct 1995 00:00:00 GMT\n"
+"    Content-Length: 32\n"
+"    Server: Allegro-Software-RomPager/4.34\n"
+msgstr ""
+
+#. type: Plain text
+msgid "Most of these fields can be used to identify the"
+msgstr ""
+
+#. type: Title ##
+#, no-wrap
+msgid "Cisco IP phone CP-7945G"
+msgstr ""
+
+#. type: Bullet: '* '
+msgid "http://IP/CGI/Java/Serviceability?adapterX=device.statistics.device"
+msgstr ""
+
+#. type: Bullet: '* '
+msgid "http://IP/CGI/Java/Serviceability?adapterX=device.statistics.configuration"
+msgstr ""
+
+#. type: Bullet: '* '
+msgid "http://IP/CGI/Java/Serviceability?adapterX=device.statistics.ethernet"
+msgstr ""
+
+#. type: Bullet: '* '
+msgid "http://IP/CGI/Java/Serviceability?adapterX=device.statistics.port.access"
+msgstr ""
+
+#. type: Bullet: '* '
+msgid "http://IP/CGI/Java/Serviceability?adapterX=device.statistics.port.network"
+msgstr ""
+
+#. type: Bullet: '* '
+msgid "http://IP/CGI/Java/Serviceability?adapterX=device.statistics.streaming.0"
+msgstr ""
+
+#. type: Bullet: '* '
+msgid "http://IP/CGI/Java/Serviceability?adapterX=device.statistics.streaming.1"
+msgstr ""
+
+#. type: Bullet: '* '
+msgid "http://IP/CGI/Java/Serviceability?adapterX=device.statistics.streaming.2"
+msgstr ""
+
+#. type: Bullet: '* '
+msgid "http://IP/CGI/Java/Serviceability?adapterX=device.statistics.streaming.3"
+msgstr ""
+
+#. type: Bullet: '* '
+msgid "http://IP/CGI/Java/Serviceability?adapterX=device.statistics.streaming.4"
+msgstr ""
+
+#. type: Title ##
+#, no-wrap
+msgid "Modifications in Plugin GLPI"
+msgstr ""
+
+#. type: Plain text
+msgid "Idea: add a Web model. Eg:"
+msgstr ""
+
+#. type: Plain text
+#, no-wrap
+msgid ""
+"    <url></url>\n"
+"    <parsing>XML/HTML</parsing>\n"
+"    <key></key>\n"
+"    <name></name>\n"
+msgstr ""
+
+#. type: Title ##
+#, no-wrap
+msgid "Modifications in agent / module SNMPQUERY"
+msgstr ""
