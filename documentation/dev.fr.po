@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2013-02-13 13:41+0000\n"
+"POT-Creation-Date: 2013-03-21 15:45+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -127,4 +127,8 @@ msgstr ""
 msgid ""
 "[[New directory layout (partially implemented)|documentation/dev/spec/new-"
 "directory-layout]]"
+msgstr ""
+
+#. type: Bullet: '* '
+msgid "[[POIP inventory with HTTP|documentation/dev/spec/poip]]"
 msgstr ""
