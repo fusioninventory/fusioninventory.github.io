@@ -7,7 +7,7 @@ If you agent is running as a service or a daemon, you may be able to access the 
 If `rpc-trust-localhost` [[configuration key|documentation/agent/configuration]] is true or if `httpd-trust=127.0.0.1`,
 a link will be available to force the agent execution.
 
-[[!template  id=warning text="A bug fixed in 2.2.7 prevent the use of `rpc-trust-localhost` and `httpd-trust`."]]
+[[!template  id=warning text="A bug fixed in 2.2.7 prevent the use of `rpc-trust-localhost` and `httpd-trust` at the same time."]]
 
 ## Command line
 
