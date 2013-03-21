@@ -35,3 +35,4 @@ and the server.
 ## Others
 
 * [[New directory layout (partially implemented)|documentation/dev/spec/new-directory-layout]]
+* [[POIP inventory with HTTP|documentation/dev/spec/poip]]
