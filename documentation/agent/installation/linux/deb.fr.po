@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2013-01-13 13:00+0000\n"
+"POT-Creation-Date: 2013-03-25 13:24+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -55,8 +55,14 @@ msgstr ""
 "dernières versions des paquets Debian."
 
 #. type: Plain text
-#, no-wrap
+#, fuzzy, no-wrap
+#| msgid ""
+#| "    echo \"deb http://debian.fusioninventory.org/debian/ `lsb_release -cs` main\" >> /etc/apt/sources.list\n"
+#| "    wget -O - http://debian.fusioninventory.org/debian/archive.key | sudo apt-key add -\n"
+#| "    apt-get update\n"
+#| "    apt-get install fusioninventory-agent\n"
 msgid ""
+"    apt-get install lsb-release\n"
 "    echo \"deb http://debian.fusioninventory.org/debian/ `lsb_release -cs` main\" >> /etc/apt/sources.list\n"
 "    wget -O - http://debian.fusioninventory.org/debian/archive.key | sudo apt-key add -\n"
 "    apt-get update\n"
