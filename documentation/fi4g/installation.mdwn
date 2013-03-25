@@ -53,6 +53,10 @@ page to set the *Service URL*. You need to enter the location of your GLPI serve
 
 Once these is done, you can [[install your first agent|documentation/agent/installation]].
 
+### Options Detail
+
+SSL-only for agent: send an error response to an agent when this agent communicates to the server without SSL.
+
 ## Security
 
 [[!template  id=warning text="We strongly recommend to activate SSL on the server side to ensure no one will be able to read password
