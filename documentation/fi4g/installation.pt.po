@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2013-01-30 11:52+0000\n"
+"POT-Creation-Date: 2013-03-25 14:33+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -152,6 +152,17 @@ msgstr ""
 msgid ""
 "Once these is done, you can [[install your first agent|documentation/agent/"
 "installation]]."
+msgstr ""
+
+#. type: Title ###
+#, no-wrap
+msgid "Options Detail"
+msgstr ""
+
+#. type: Plain text
+msgid ""
+"SSL-only for agent: send an error response to an agent when this agent "
+"communicates to the server without SSL."
 msgstr ""
 
 #. type: Title ##

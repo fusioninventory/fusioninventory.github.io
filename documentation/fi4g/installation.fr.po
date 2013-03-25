@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2013-01-30 11:52+0000\n"
+"POT-Creation-Date: 2013-03-25 14:33+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -31,13 +31,13 @@ msgid ""
 "First, download archive the here: <http://forge.fusioninventory.org/projects/"
 "fusioninventory-for-glpi/files>"
 msgstr ""
-"En premier, trouvez l'archive ici : <http://forge.fusioninventory.org/projects/"
-"fusioninventory-for-glpi/files>"
+"En premier, trouvez l'archive ici : <http://forge.fusioninventory.org/"
+"projects/fusioninventory-for-glpi/files>"
 
 #. type: Plain text
 msgid "FusionInventory for GLPI tarball name follow this convention:"
-msgstr "Le nom du fichier de FusionInventory For GLPI utilise cette "
-"convention :"
+msgstr ""
+"Le nom du fichier de FusionInventory For GLPI utilise cette convention :"
 
 #. type: Bullet: '* '
 msgid "fusioninventory-for-glpi-metapackage_"
@@ -61,9 +61,9 @@ msgid ""
 "download it from the forge: <https://forge.indepnet.net/projects/webservices/"
 "files>"
 msgstr ""
-"le plugin WebService pour GLPI est nécessaire pour l'utilisation du déploiement ,"
-"vous pouvez le télécharger sur la Forge : <https://forge.indepnet.net/projects/webservices/"
-"files>"
+"le plugin WebService pour GLPI est nécessaire pour l'utilisation du "
+"déploiement ,vous pouvez le télécharger sur la Forge : <https://forge."
+"indepnet.net/projects/webservices/files>"
 
 #. type: Title ##
 #, no-wrap
@@ -77,8 +77,8 @@ msgid ""
 "properly be removed."
 msgstr ""
 "Vous *devez en PREMIER* désactiver le plugin FusionInventory For GLPI et "
-"déplacer les dossiers du plugin FusionInventory for GLPI. Cela pour être "
-"que les fichiers obsolètes seront proprement enlevés."
+"déplacer les dossiers du plugin FusionInventory for GLPI. Cela pour être que "
+"les fichiers obsolètes seront proprement enlevés."
 
 #. type: Plain text
 #, no-wrap
@@ -104,8 +104,8 @@ msgid ""
 "Uncompress the archive into the plugin folder of GLPI. File list seems to be "
 "like :"
 msgstr ""
-"Décompresser l'archive dans le dossier plugins de GLPI. La liste des fichiers "
-"devrait ressembler à ça :"
+"Décompresser l'archive dans le dossier plugins de GLPI. La liste des "
+"fichiers devrait ressembler à ça :"
 
 #. type: Plain text
 #, no-wrap
@@ -177,8 +177,19 @@ msgid ""
 "Once these is done, you can [[install your first agent|documentation/agent/"
 "installation]]."
 msgstr ""
-"Une fois ces actions terminées, vous pouvez [[installer votre premier agent|documentation/agent/"
-"installation]]."
+"Une fois ces actions terminées, vous pouvez [[installer votre premier agent|"
+"documentation/agent/installation]]."
+
+#. type: Title ###
+#, no-wrap
+msgid "Options Detail"
+msgstr ""
+
+#. type: Plain text
+msgid ""
+"SSL-only for agent: send an error response to an agent when this agent "
+"communicates to the server without SSL."
+msgstr ""
 
 #. type: Title ##
 #, no-wrap
