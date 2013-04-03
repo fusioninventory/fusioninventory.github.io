@@ -29,7 +29,7 @@ Go in the **Resources** directory and modify the **agent.cfg** file according to
 
 * add the `server=` line
 * you can also uncomment the `logfile = /var/log/fusioninventory.log` to get some log files
-* Increase `backend-collect-timeout` value from 30 to 180 because the command used to get some hardware information can be very long
+* Increase `backend-collect-timeout` value from `30` to `180` because the command used to get some hardware information can be very long
 
 ## Agent Installation
 
