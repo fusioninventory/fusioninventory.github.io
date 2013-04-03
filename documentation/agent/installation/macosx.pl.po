@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2013-01-15 14:36+0000\n"
+"POT-Creation-Date: 2013-04-03 07:05+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -101,6 +101,12 @@ msgstr ""
 msgid ""
 "you can also uncomment the `logfile = /var/log/fusioninventory.log` to get "
 "some log files"
+msgstr ""
+
+#. type: Bullet: '* '
+msgid ""
+"Increase `backend-collect-timeout` value from 30 to 180 because the command "
+"used to get some hardware information can be very long"
 msgstr ""
 
 #. type: Title ##

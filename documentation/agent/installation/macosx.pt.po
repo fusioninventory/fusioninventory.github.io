@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2013-01-28 13:17+0000\n"
+"POT-Creation-Date: 2013-04-03 07:05+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -28,9 +28,9 @@ msgstr ""
 
 #. type: Plain text
 msgid ""
-"First, get the agent mpkg archive "
-"[Intel](http://prebuilt.fusioninventory.org/stable/macosx-intel/) or "
-"[PowerPC](http://prebuilt.fusioninventory.org/stable/macosx-ppc/)."
+"First, get the agent mpkg archive [Intel](http://prebuilt.fusioninventory."
+"org/stable/macosx-intel/) or [PowerPC](http://prebuilt.fusioninventory.org/"
+"stable/macosx-ppc/)."
 msgstr ""
 
 #. type: Plain text
@@ -50,23 +50,17 @@ msgstr ""
 
 #. type: Plain text
 #, no-wrap
-msgid ""
-"[[!img documentation/agent/installation/macosx/FusionInventoryAgent-1.png "
-"]]\n"
+msgid "[[!img documentation/agent/installation/macosx/FusionInventoryAgent-1.png ]]\n"
 msgstr ""
 
 #. type: Plain text
 #, no-wrap
-msgid ""
-"[[!img documentation/agent/installation/macosx/FusionInventoryAgent-2.png "
-"]]\n"
+msgid "[[!img documentation/agent/installation/macosx/FusionInventoryAgent-2.png ]]\n"
 msgstr ""
 
 #. type: Plain text
 #, no-wrap
-msgid ""
-"[[!img documentation/agent/installation/macosx/FusionInventoryAgent-3.png "
-"]]\n"
+msgid "[[!img documentation/agent/installation/macosx/FusionInventoryAgent-3.png ]]\n"
 msgstr ""
 
 #. type: Plain text
@@ -77,9 +71,7 @@ msgstr ""
 
 #. type: Plain text
 #, no-wrap
-msgid ""
-"[[!img documentation/agent/installation/macosx/FusionInventoryAgent-4.png "
-"]]\n"
+msgid "[[!img documentation/agent/installation/macosx/FusionInventoryAgent-4.png ]]\n"
 msgstr ""
 
 #. type: Title ##
@@ -109,6 +101,12 @@ msgid ""
 "some log files"
 msgstr ""
 
+#. type: Bullet: '* '
+msgid ""
+"Increase `backend-collect-timeout` value from 30 to 180 because the command "
+"used to get some hardware information can be very long"
+msgstr ""
+
 #. type: Title ##
 #, no-wrap
 msgid "Agent Installation"
@@ -128,9 +126,7 @@ msgstr ""
 
 #. type: Plain text
 #, no-wrap
-msgid ""
-"[[!img documentation/agent/installation/macosx/FusionInventoryAgent-5.png "
-"]]\n"
+msgid "[[!img documentation/agent/installation/macosx/FusionInventoryAgent-5.png ]]\n"
 msgstr ""
 
 #. type: Plain text
