@@ -12,6 +12,11 @@
 
 * [[How works fusion server (SNMP tool server)|dev/fusion_server_snmp_tool]]
 
+# Fusioninventory plugin for GLPI
+
+* [[Task Redux|dev/plugin-glpi/task_redux]]
+* [[Inventory Change rule|dev/plugin_glpi/inventory_change_rule]]
+
 # Run unit tests for GLPI plugin
 
 * [[How to run unit tests for plugin FusionInventory for GLPI|dev/pluginglpi_unit_test]]

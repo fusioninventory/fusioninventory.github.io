@@ -1,0 +1,34 @@
+Fusioninventory Plugin for GLPI - Roadmaps
+[[!toc levels=4]]
+
+# Tasks redux
+
+* Déménager l'interface de résumé des tâches dans un onglet/écran Rapports
+(par exemple réutiliser les rapports GLPI natifs voire mReporting en mode facultatif)
+* Revoir les catégories et l'agencement de résumé des tâches (TODO: propositions bienvenue)
+* Rajouter l'historique sur les tâches
+
+## Interface des tâches
+
+* Externaliser les rapports groupés des taskjobs et s'inspirer de ce qui avait été proposé pour les rapports d'états Deploy.
+
+
+## Monitoring des tâches
+
+* Écran de résumé avec des informations de statut type nombre de machines inventoriées (cf. status NetDiscovery ou NetInventory) ou nombre de paquets correctemenent déployé. Ça ressemble à l'interface résumé des tâches en 0.84 mais dynamique.
+exemple:
+    <icone deploy> - LibreOffice - installations ok : %d - ko : %d - pourcentage globale(moyenne) - <icone status>
+    <icone decouverte> - Decouverte Réseau - nb de découvertes : %d - <icone status>
+        - nb de switchs : (nouveaux, liés)    - nb inconnus : (nouveaux, liés)
+        - nb imprimantes : (nouveaux, liés)
+
+
+* La sélection des différentes tâches permettra d'afficher le détail des logs en fonction avec le cartouche résumé des tâches.
+
+* Pour ne pas allourdir l'affichage de la page, détecter le nombre de jobstates à afficher (exemple deploy) et calculer un ratio de ligne à afficher.
+exemple :
+    * 15 jobstates = 4 lignes de logs par jobs.
+    * 1 jobstate = infinite (ou maximum par page)
+
+
+
