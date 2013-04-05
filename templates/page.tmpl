@@ -143,6 +143,12 @@
 
 <div id="pagebody">
 
+<!--
+<TMPL_IF HTML5><section id="content"><TMPL_ELSE><div id="content"></TMPL_IF>
+<TMPL_VAR CONTENT>
+<TMPL_IF HTML5></section><TMPL_ELSE></div></TMPL_IF>
+-->
+
 <TMPL_UNLESS DYNAMIC>
 <TMPL_IF COMMENTS>
 <TMPL_IF HTML5><section id="comments"><TMPL_ELSE><div id="comments"></TMPL_IF>
