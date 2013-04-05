@@ -12,23 +12,44 @@ Fusioninventory Plugin for GLPI - Roadmaps
 
 * Externaliser les rapports groupés des taskjobs et s'inspirer de ce qui avait été proposé pour les rapports d'états Deploy.
 
+* Séparer les tâches des jobs pour simplifier le procédé
+    * Créer un écran de gestion de Jobs en dehors du gestionnaire de tâches
+    * Garder la possibilité de créer des Jobs dans le gestionnaire de tâches (cf. interface Package)
+    * Les tâches sont considérées comme des crontab uniquement.
+    * Affichage de la liste des jobs par lignes.
+    * Créer une classe de liaison qui permet de lister les jobs associés à une
+      tâche et pour chaque jobs. Pour chaque jobs liés, on ajoute :
+        * un délai de latence avant le démarrage du job.
+        * on regroupe les jobs par délai de démarrage.
+
+* Les Jobstates sont générés en fonction de leur delai et dans l'ordre défini
+        exemple:
+            * Wakeonlan 1 - pas de délai
+            * Deploy 1 - pas de délai
+            * Deploy 2 - 2h
+
+            résultat:
+            à t+0, [Wakeonlan 1] et [Deploy 1] sont générés et prêt à être récupéré par l'agent.
+            à t+1h, rien ne se passe.
+            à t+2h, [Deploy 2] est générée et prêt à être récupéré par l'agent.
 
 ## Monitoring des tâches
 
 * Écran de résumé avec des informations de statut type nombre de machines inventoriées (cf. status NetDiscovery ou NetInventory) ou nombre de paquets correctemenent déployé. Ça ressemble à l'interface résumé des tâches en 0.84 mais dynamique.
 exemple:
-    <icone deploy> - LibreOffice - installations ok : %d - ko : %d - pourcentage globale(moyenne) - <icone status>
-    <icone decouverte> - Decouverte Réseau - nb de découvertes : %d - <icone status>
-        - nb de switchs : (nouveaux, liés)    - nb inconnus : (nouveaux, liés)
-        - nb imprimantes : (nouveaux, liés)
+
+        <icone deploy> - LibreOffice - installations ok : %d - ko : %d - pourcentage globale(moyenne) - <icone status>
+        <icone decouverte> - Decouverte Réseau - nb de découvertes : %d - <icone status>
+            - nb de switchs : (nouveaux, liés)    - nb inconnus : (nouveaux, liés)
+            - nb imprimantes : (nouveaux, liés)
 
 
-* La sélection des différentes tâches permettra d'afficher le détail des logs en fonction avec le cartouche résumé des tâches.
+* La sélection des différentes tâches permettra d'afficher le détail des logs de chaque jobstates filtrés par cette sélection.
 
 * Pour ne pas allourdir l'affichage de la page, détecter le nombre de jobstates à afficher (exemple deploy) et calculer un ratio de ligne à afficher.
-exemple :
-    * 15 jobstates = 4 lignes de logs par jobs.
-    * 1 jobstate = infinite (ou maximum par page)
 
+         exemple :
+          15 jobstates = 4 lignes de logs par jobs.
+          1 jobstate = infinite (ou maximum par page)
 
 
