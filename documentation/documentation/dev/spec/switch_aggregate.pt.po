@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2013-04-10 10:03+0000\n"
+"POT-Creation-Date: 2013-04-10 10:05+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -33,7 +33,7 @@ msgstr ""
 
 #. type: Title ###
 #, no-wrap
-msgid "Phyical ports:"
+msgid "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Physical ports:"
 msgstr ""
 
 #. type: Plain text
@@ -45,7 +45,7 @@ msgstr ""
 
 #. type: Title ###
 #, no-wrap
-msgid "Aggregate port:"
+msgid "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Aggregate port:"
 msgstr ""
 
 #. type: Plain text
@@ -55,7 +55,7 @@ msgstr ""
 
 #. type: Title ###
 #, no-wrap
-msgid "Aggregate port type"
+msgid "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Aggregate port type"
 msgstr ""
 
 #. type: Plain text
@@ -65,7 +65,7 @@ msgstr ""
 
 #. type: Title ###
 #, no-wrap
-msgid "List of physical ports and get on which aggregate port is connecter"
+msgid "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;List of physical ports and get on which aggregate port is connecter"
 msgstr ""
 
 #. type: Plain text
@@ -77,8 +77,8 @@ msgstr ""
 
 #. type: Plain text
 msgid ""
-"So port Bridge-Aggregation1 is an aggregate of ports "
-"Ten-GigabitEthernet1/0/23 & Ten-GigabitEthernet1/0/24"
+"So port Bridge-Aggregation1 is an aggregate of ports Ten-"
+"GigabitEthernet1/0/23 & Ten-GigabitEthernet1/0/24"
 msgstr ""
 
 #. type: Title ##
