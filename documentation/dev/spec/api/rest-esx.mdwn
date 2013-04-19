@@ -27,7 +27,7 @@ Return a list of ESX server to query.
        ],
     }
 
-##  setLog ?action=setStatus&machineid=$machineid&part=$part&uuid=$uuid&msg=$msg&code=$code
+##  setLog ?action=setLog&machineid=$machineid&part=$part&uuid=$uuid&msg=$msg&code=$code
 
 * $machineid: the DeviceID of the agent
 * $uuid: an unique string for the given job. supported to be standard 128bit UUID but can be a generic string
