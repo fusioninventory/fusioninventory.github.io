@@ -110,3 +110,12 @@ Yes you can as soon as to clean up the 'var' directory just before the master cr
 
 VMware Workstation is only supported on Linux and MacOSX. You can will probably need
 the _scan-homedirs_ parameter. This way, the agent will look for Virtual machine in user directories.
+
+## I get `end_request: I/O error, dev fd0, sector 0` error message
+
+This can append on Linux box with floppy driver like most of the VMware virtual machine. You can
+work around the problem by unloading the floppy kernel module:
+
+    rmmod floppy
+
+The error is generated when the agent launch the following command `fdisk -l`.
