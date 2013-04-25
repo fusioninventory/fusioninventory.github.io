@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2013-01-30 10:07+0000\n"
+"POT-Creation-Date: 2013-04-19 12:41+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -59,9 +59,7 @@ msgstr ""
 
 #. type: Title ##
 #, no-wrap
-msgid ""
-"setLog "
-"?action=setStatus&machineid=$machineid&part=$part&uuid=$uuid&msg=$msg&code=$code"
+msgid "setLog ?action=setLog&machineid=$machineid&part=$part&uuid=$uuid&msg=$msg&code=$code"
 msgstr ""
 
 #. type: Bullet: '* '
