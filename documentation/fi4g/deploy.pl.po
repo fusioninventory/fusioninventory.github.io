@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2013-03-17 14:50+0000\n"
+"POT-Creation-Date: 2013-04-29 20:02+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -306,9 +306,4 @@ msgid ""
 "list them and look at groups of computers (which are internal to fusion "
 "inventory, there are also separate groups used by [GLPI](/lepp/bin/view/"
 "Computing/GLPI) for display etc)."
-msgstr ""
-
-#. type: Plain text
-#, no-wrap
-msgid "#-- JamesPulver - 2012-08-28\n"
 msgstr ""

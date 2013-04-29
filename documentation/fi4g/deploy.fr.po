@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2013-03-17 14:50+0000\n"
+"POT-Creation-Date: 2013-04-29 20:02+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -114,13 +114,12 @@ msgid "Edit package"
 msgstr "Édition de paquet"
 
 #. type: Plain text
-#, no-wrap
 msgid ""
 "You can add checks before running the package, but you can prefer to do that "
 "with the deployed scripts."
 msgstr ""
-"Vous pouvez ajouter des contrôles avant d'exécuter le paquet, mais vous pouvez "
-"préférer le faire via les scripts déployés."
+"Vous pouvez ajouter des contrôles avant d'exécuter le paquet, mais vous "
+"pouvez préférer le faire via les scripts déployés."
 
 #. type: Plain text
 #, no-wrap
@@ -322,9 +321,4 @@ msgid ""
 "list them and look at groups of computers (which are internal to fusion "
 "inventory, there are also separate groups used by [GLPI](/lepp/bin/view/"
 "Computing/GLPI) for display etc)."
-msgstr ""
-
-#. type: Plain text
-#, no-wrap
-msgid "#-- JamesPulver - 2012-08-28\n"
 msgstr ""
