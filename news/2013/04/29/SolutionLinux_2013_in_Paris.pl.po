@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2013-04-29 15:32+0000\n"
+"POT-Creation-Date: 2013-04-29 15:47+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -23,16 +23,22 @@ msgstr ""
 
 #. type: Plain text
 msgid ""
-"Like every year, FusionInventory project will be at the [Solution "
-"Linux](http://www.solutionslinux.fr/Le+village+associatif+_154_161.html)  "
-"Trade fair in Paris."
+"Like every year, FusionInventory project will be at the [Solution Linux]"
+"(http://www.solutionslinux.fr/Le+village+associatif+_154_161.html)  Trade "
+"fair in Paris."
 msgstr ""
 
 #. type: Plain text
 msgid ""
-"This year, the meeting will append from the 28th to the 29th of "
-"may. Additional Information are available on the [Parinux "
-"Website](http://www.parinux.org/content/solutions-linux-2013-au-cnit)."
+"This year, the meeting will append from the 28th to the 29th of may. "
+"Additional Information are available on the [Parinux Website](http://www."
+"parinux.org/content/solutions-linux-2013-au-cnit)."
+msgstr ""
+
+#. type: Plain text
+msgid ""
+"Our booth will be next to the one from [GLPI-Project](http://www.glpi-"
+"project.org) and [Shinken Monitoring](http://www.shinken-monitoring.org)."
 msgstr ""
 
 #. type: Plain text
