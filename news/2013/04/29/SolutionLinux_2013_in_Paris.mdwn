@@ -1,0 +1,10 @@
+[[!meta  date="2013-04-29"]]
+
+Like every year, FusionInventory project will be at the [Solution Linux](http://www.solutionslinux.fr/Le+village+associatif+_154_161.html)
+Trade fair in Paris.
+
+This year, the meeting will append from the 28th to the 29th of may. Additional Information are available on the [Parinux Website](http://www.parinux.org/content/solutions-linux-2013-au-cnit).
+
+See you there!
+
+![Solutions Linux](news/2013/04/29/Linux_600x100.gif)
