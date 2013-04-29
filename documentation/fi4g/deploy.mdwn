@@ -125,5 +125,3 @@ them, list them and look at groups of computers (which are internal to
 fusion inventory, there are also separate groups used by
 [GLPI](/lepp/bin/view/Computing/GLPI) for display etc).
 
-
-#-- JamesPulver - 2012-08-28
