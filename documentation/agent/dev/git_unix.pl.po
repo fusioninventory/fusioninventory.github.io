@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2013-01-08 09:28+0000\n"
+"POT-Creation-Date: 2013-05-02 14:33+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -65,9 +65,8 @@ msgstr ""
 #. type: Plain text
 #, no-wrap
 msgid ""
-"    [guillaume@beria ~]$ cpanp\n"
-"    CPANPLUS::Shell::Default -- CPAN exploration and module installation "
-"(v0.9109)\n"
+"    $ cpanp\n"
+"    CPANPLUS::Shell::Default -- CPAN exploration and module installation (v0.9109)\n"
 "    *** Please report bugs to <bug-cpanplus@rt.cpan.org>.\n"
 "    *** Using CPANPLUS::Backend v0.9109.  ReadLine support enabled.\n"
 msgstr ""
@@ -113,9 +112,24 @@ msgstr ""
 #. type: Plain text
 #, no-wrap
 msgid ""
-"    [guillaume@beria ~]$ git clone "
-"http://forge.fusioninventory.org/git/fusioninventory/agent.git\n"
-"    [guillaume@beria ~]$ cd agent.git\n"
+"    $ git clone git://github.com/fusinv/fusioninventory-agent\n"
+"    $ cd agent\n"
+msgstr ""
+
+#. type: Title ##
+#, no-wrap
+msgid "Check the dependencies"
+msgstr ""
+
+#. type: Plain text
+#, no-wrap
+msgid "    $ perl Makefile.PL\n"
+msgstr ""
+
+#. type: Plain text
+msgid ""
+"You can use either, your OS packages, cpanp or cpanm to install the missing "
+"dependencies."
 msgstr ""
 
 #. type: Title ##
@@ -129,5 +143,5 @@ msgstr ""
 
 #. type: Plain text
 #, no-wrap
-msgid "    [guillaume@beria agent.git]$ ./fusioninventory-agent --stdout\n"
+msgid "    [guillaume@beria agent.git]$ ./bin/fusioninventory-agent --stdout\n"
 msgstr ""
