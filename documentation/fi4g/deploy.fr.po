@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2013-03-17 14:50+0000\n"
+"POT-Creation-Date: 2013-04-29 20:02+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -114,16 +114,12 @@ msgid "Edit package"
 msgstr "Édition de paquet"
 
 #. type: Plain text
-#, fuzzy
-#| msgid ""
-#| "You can add checks before running the package, currently I prefer to do "
-#| "that with the deployed scripts."
 msgid ""
 "You can add checks before running the package, but you can prefer to do that "
 "with the deployed scripts."
 msgstr ""
-"Vous pouvez ajouter des contrôles avant d'exécuter le paquet, actuellement "
-"je préfère le faire via les scripts déployés."
+"Vous pouvez ajouter des contrôles avant d'exécuter le paquet, mais vous "
+"pouvez préférer le faire via les scripts déployés."
 
 #. type: Plain text
 #, no-wrap
@@ -131,18 +127,7 @@ msgid "[[!img deploy/FusionInventoryPackageCreation.png]]\n"
 msgstr "[[!img deploy/FusionInventoryPackageCreation.png]]\n"
 
 #. type: Plain text
-#, fuzzy, no-wrap
-#| msgid ""
-#| "1.  Select to upload a file. You can upload a number of files, but must upload one at a time. You can also elect to \n"
-#| "    upload a zip file. I generally build packages to use 2 files so upload them separately, but this is not a rule.\n"
-#| "2.  Select to get the file \"From this computer\". Use the browse button to select the file.\n"
-#| "    * With **P2P** enabled, computers will keep and share the downloaded files to the other computers of the LAN. \n"
-#| "      This allow you to speed up a large download.\n"
-#| "    * If **Extract** is enabled, FusioInventory will try to extract the archive (.7z, .zip, tar.gz, .tar)\n"
-#| "3.  Click OK and the file will be uploaded.\n"
-#| "4.  Click on \"Add command\", select \"execute a command\" then type in the command you want, I usually use the script \n"
-#| "    name here, but if you're doing something else, any valid windows command (use full path names) can be used.\n"
-#| "    -   You can optionally add return codes to validate against for success or failure.\n"
+#, no-wrap
 msgid ""
 "1.  Select to upload a file. You can upload a number of files, but must upload one at a time. You can also elect to \n"
 "    upload a zip file. \n"
@@ -336,9 +321,4 @@ msgid ""
 "list them and look at groups of computers (which are internal to fusion "
 "inventory, there are also separate groups used by [GLPI](/lepp/bin/view/"
 "Computing/GLPI) for display etc)."
-msgstr ""
-
-#. type: Plain text
-#, no-wrap
-msgid "#-- JamesPulver - 2012-08-28\n"
 msgstr ""
