@@ -16,14 +16,6 @@ From a terminal, install the following additional modules using cpanplus shell (
 * Text::Template
 
     $ cpanp
-    CPANPLUS::Shell::Default -- CPAN exploration and module installation (v0.9109)
-    *** Please report bugs to <bug-cpanplus@rt.cpan.org>.
-    *** Using CPANPLUS::Backend v0.9109.  ReadLine support enabled.
-    
-    *** Type 'p' now to show start up log
-    
-    Did you know...
-        You can turn off these tips using 's conf show_startup_tip 0'
     CPAN Terminal> install XML::TreePP
 
 ## Installing the agent
