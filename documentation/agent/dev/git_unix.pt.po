@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2013-05-02 14:33+0000\n"
+"POT-Creation-Date: 2013-05-07 14:52+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -66,21 +66,6 @@ msgstr ""
 #, no-wrap
 msgid ""
 "    $ cpanp\n"
-"    CPANPLUS::Shell::Default -- CPAN exploration and module installation (v0.9109)\n"
-"    *** Please report bugs to <bug-cpanplus@rt.cpan.org>.\n"
-"    *** Using CPANPLUS::Backend v0.9109.  ReadLine support enabled.\n"
-msgstr ""
-
-#. type: Plain text
-#, no-wrap
-msgid "    *** Type 'p' now to show start up log\n"
-msgstr ""
-
-#. type: Plain text
-#, no-wrap
-msgid ""
-"    Did you know...\n"
-"        You can turn off these tips using 's conf show_startup_tip 0'\n"
 "    CPAN Terminal> install XML::TreePP\n"
 msgstr ""
 

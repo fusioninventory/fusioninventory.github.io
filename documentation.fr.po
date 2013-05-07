@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2013-01-28 20:56+0000\n"
+"POT-Creation-Date: 2013-05-07 14:52+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -15,6 +15,21 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+
+#. type: Title #
+#, no-wrap
+msgid "Global"
+msgstr ""
+
+#. type: Bullet: '* '
+#, fuzzy
+#| msgid "[[Report bug|documentation/agent/bugreport]]"
+msgid "[[The big picture|documentation/bigpicture]]"
+msgstr "[[Signaler un bug|documentation/agent/bugreport]]"
+
+#. type: Bullet: '* '
+msgid "[[FAQ|documentation/faq]]"
+msgstr "[[FAQ|documentation/faq]]"
 
 #. type: Title #
 #, no-wrap
@@ -59,8 +74,8 @@ msgid ""
 "[[How to install or update FusionInventory for GLPI|documentation/fi4g/"
 "installation]]"
 msgstr ""
-"[[Installation ou mise à jour de FusionInventory For GLPI|documentation/"
-"fi4g/installation]]"
+"[[Installation ou mise à jour de FusionInventory For GLPI|documentation/fi4g/"
+"installation]]"
 
 #. type: Bullet: '* '
 msgid ""
@@ -90,15 +105,6 @@ msgstr ""
 #. type: Bullet: '* '
 msgid "[[How to deal with DMZ network|documentation/fi4g/dmz]]"
 msgstr "[[Comment faire avec un réseau DMZ|documentation/fi4g/dmz]]"
-
-#. type: Title #
-#, no-wrap
-msgid "Troubleshooting"
-msgstr "Procédure de dépannage"
-
-#. type: Bullet: '* '
-msgid "[[FAQ|documentation/faq]]"
-msgstr "[[FAQ|documentation/faq]]"
 
 #. type: Title #
 #, no-wrap
@@ -146,3 +152,6 @@ msgstr "[[Traduction|documentation/translation]]"
 #. type: Bullet: '* '
 msgid "[[for developers|documentation/dev]]"
 msgstr "[[Pour les développeurs|documentation/dev]]"
+
+#~ msgid "Troubleshooting"
+#~ msgstr "Procédure de dépannage"
