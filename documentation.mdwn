@@ -1,3 +1,8 @@
+# Global
+
+* [[The big picture|documentation/bigpicture]]
+* [[FAQ|documentation/faq]]
+
 # FusionInventory Agent
 
 * [[Installation|documentation/agent/installation]]
@@ -16,10 +21,6 @@
 * [[How to inventory my ESX server|documentation/fi4g/esxinventory]]
 * [[How to deploy softwares with software deployment module|documentation/fi4g/deploy]]
 * [[How to deal with DMZ network|documentation/fi4g/dmz]]
-
-# Troubleshooting
-
-* [[FAQ|documentation/faq]]
 
 # Advanced topics
 
