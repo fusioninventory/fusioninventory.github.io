@@ -1,4 +1,5 @@
-Fusioninventory Plugin for GLPI - Roadmaps
+Fusioninventory Plugin for GLPI - Tasks Redux
+
 [[!toc levels=4]]
 
 # Tasks redux
