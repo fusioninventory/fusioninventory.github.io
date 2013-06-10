@@ -167,6 +167,7 @@ From your Microsoft Windows command interpreter executes
     > .\install-strawberry-perl-package-for-fusioninventory-agent.bat
     > .\install-fusioninventory-agent.bat
     > .\patch-fusioninventory-agent.bat
+    > .\update-ids-repositories.bat
     > cd ..\..\NSIS
     > .\FusionInventory-Agent.bat
 
@@ -181,6 +182,7 @@ You should be able to see the new installers in that directory.
     $ ./install-strawberry-perl-package-for-fusioninventory-agent.sh
     $ ./install-fusioninventory-agent.sh
     $ ./patch-fusioninventory-agent.sh
+    > ./update-ids-repositories.sh
     $ cd ../../NSIS
     $ ./FusionInventory-Agent.sh
 
@@ -189,7 +191,7 @@ You should be able to see the new installers in that directory.
 
 ## How to build the Strawberry Perl Portable Edition Package for FusionInventory Agent
 
-**This task can be done only from Microsoft Windows OS.**
+**This task can be done only from Microsoft Windows OS (x64).**
 
 
 ### Microsoft Windows
