@@ -19,17 +19,19 @@ msgstr ""
 #. type: Plain text
 #, no-wrap
 msgid "[[!meta  date=\"2013-04-29\"]]\n"
-msgstr ""
+msgstr "[[!meta  date=\"2013-04-29\"]]\n"
 
 #. type: Plain text
 msgid ""
 "Some days ago, we publish a new stable release of FusionInventory for GLPI ( "
 "0.83+2.2.1 )."
 msgstr ""
+"Depuis quelques jours, une nouvelle version stable est disponible pour FusionInventory For "
+"GLPI (0.83+2.2.1 )." 
 
 #. type: Bullet: '* '
 msgid "[fusioninventory-for-glpi-metapackage_0.83+2.2.1.tar.gz](http://forge.fusioninventory.org/attachments/download/952/fusioninventory-for-glpi-metapackage_0.83+2.2.1.tar.gz)"
-msgstr ""
+msgstr "[fusioninventory-for-glpi-metapackage_0.83+2.2.1.tar.gz](http://forge.fusioninventory.org/attachments/download/952/fusioninventory-for-glpi-metapackage_0.83+2.2.1.tar.gz)"
 
 #. type: Plain text
 msgid ""
@@ -37,6 +39,9 @@ msgid ""
 "a look on the [[Installation and Upgrade "
 "documentation|documentation/fi4g/installation]] before the installation."
 msgstr ""
+"Cette nouvelle version nécessite la mise à jour de votre installation en GLPI 0.83. Prenez le temps "
+"de regarder la [[documentation d'installation|documentation/fi4g/installation]]"
+"avant de lancer la mise à jour."
 
 #. type: Plain text
 #, no-wrap
@@ -45,3 +50,6 @@ msgid ""
 "> Data integrity check_\n"
 "and use the _Clean_ button to fix a Software inventory issue.\n"
 msgstr ""
+"Une fois la mise à jour terminée, allez dans _Plugins > FusionInventory > Inventory "
+"> Contrôle d'intégrité des données \n"
+"et utilisez le bouton pour supprimer les remonter d'inventaire en erreur.\n"
