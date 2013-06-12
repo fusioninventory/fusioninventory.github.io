@@ -119,3 +119,12 @@ work around the problem by unloading the floppy kernel module:
     rmmod floppy
 
 The error is generated when the agent launch the following command `fdisk -l`.
+
+## The agent misses some information like memory or CPU when called by cron
+
+Most of the time, cron do not define a default PATH. In this case the agent won't
+find important tools like `dmidecode`, `lspci`, etc.
+
+Just define the PATH in the crontab:
+
+    PATH=/usr/local/sbin:/usr/local/bin:/sbin:/bin:/usr/sbin:/usr/bin
