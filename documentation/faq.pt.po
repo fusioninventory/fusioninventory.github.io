@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2013-06-12 07:43+0000\n"
+"POT-Creation-Date: 2013-06-12 07:49+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -308,7 +308,7 @@ msgstr ""
 #. type: Plain text
 msgid ""
 "Most of the time, cron do not define a default PATH. In this case the agent "
-"won't find important tools like `dmidecode`, `lspci`, etc."
+"won't find important tools like `dmidecode`, `lspci`, etc ( [[!bug 1747]] )."
 msgstr ""
 
 #. type: Plain text
