@@ -19,12 +19,12 @@ msgstr ""
 #. type: Title #
 #, no-wrap
 msgid "The big picture"
-msgstr ""
+msgstr "Schéma de principe"
 
 #. type: Plain text
 #, no-wrap
 msgid "[[!graph  src=\"\"\"\n"
-msgstr ""
+msgstr "[[!graph  src=\"\"\"\n"
 
 #. type: Plain text
 #, no-wrap
@@ -35,6 +35,11 @@ msgid ""
 "    rankdir=LR;\n"
 "    resolution = \"75\";\n"
 msgstr ""
+"    style=filled;\n"
+"    color=lightgrey;\n"
+"    node [shape=box, color=purple ];\n"
+"    rankdir=LR;\n"
+"    resolution = \"75\";\n"
 
 #. type: Plain text
 #, no-wrap
@@ -47,16 +52,23 @@ msgid ""
 "        label = \"GLPI\";\n"
 "    }\n"
 msgstr ""
+"    subgraph cluster_0 {\n"
+"        style=filled;\n"
+"        color=lightgrey;\n"
+"        node [style=filled,color=white];\n"
+"        \"FusionInventory for GLPI\" -> \"Moteur GLPI \" -> \"BdD\";\n"
+"        label = \"GLPI\";\n"
+"    }\n"
 
 #. type: Plain text
 #, no-wrap
 msgid "    subgraph cluster_1 {\n"
-msgstr ""
+msgstr "    subgraph cluster_1 {\n"
 
 #. type: Plain text
 #, no-wrap
 msgid "        subgraph cluster_4 {\n"
-msgstr ""
+msgstr "        subgraph cluster_4 {\n"
 
 #. type: Plain text
 #, no-wrap
@@ -70,6 +82,14 @@ msgid ""
 "            label = \"FusionInventory Agent\";\n"
 "        }\n"
 msgstr ""
+"            color=gainsboro;\n"
+"            \"Inventaire Local\" -> \"Agent\" -> \"FusionInventory for "
+"GLPI\";\n"
+"            \"Inventaire des ESX\" -> \"Agent\";\n"
+"            \"Inventaire réseau\" -> \"Agent\";\n"
+"            \"Agent\" -> \"Deploiement\";\n"
+"            label = \"FusionInventory Agent\";\n"
+"        }\n"
 
 #. type: Plain text
 #, no-wrap
@@ -92,6 +112,23 @@ msgid ""
 "        label = \"Computer(s)\";\n"
 "    }\n"
 msgstr ""
+"        style=filled;\n"
+"        color=lightgrey;\n"
+"        node [style=filled,color=white];\n"
+"        \"dmidecode\" -> \"Inventaire Local\";\n"
+"        \"dpkg\" -> \"Inventaire Local\";\n"
+"        \"registre\" -> \"Inventaire Local\";\n"
+"        \"rpm\" -> \"Inventaire Local\";\n"
+"        \"WMI\" -> \"Inventaire Local\";\n"
+"        \"dmidecode\" -> \"Inventaire Local\";\n"
+"        \"PCI info\" -> \"Inventaire Local\";\n"
+"        \"USB info\" -> \"Inventaire Local\";\n"
+"        \"Machines virtuelles\" -> \"Inventaire Local\";\n"
+"        \"Autres\" -> \"Inventaire Local\";\n"
+"        \"Deploiement\" -> \"d'un paramétrage de configuration\";\n"
+"        \"Deploiement\" -> \"d'un logiciel\";\n"
+"        label = \"Ordinateur(s)\";\n"
+"    }\n"
 
 #. type: Plain text
 #, no-wrap
@@ -103,6 +140,12 @@ msgid ""
 "        \"vCenter1\" -> \"ESX Inventory\";\n"
 "        \"esx4\" -> \"ESX Inventory\";\n"
 msgstr ""
+"    subgraph cluster_2 {\n"
+"        style=filled;\n"
+"        color=lightgrey;\n"
+"        node [style=filled,color=white];\n"
+"        \"vCenter1\" -> \"Inventaire ESX\";\n"
+"        \"esx4\" -> \"Inventaire ESX\";\n"
 
 #. type: Plain text
 #, no-wrap
@@ -119,6 +162,17 @@ msgid ""
 "        label = \"VMware API\";\n"
 "    }\n"
 msgstr ""
+"        \"esx1\" -> \"vCenter1\";\n"
+"        \"esx2\" -> \"vCenter1\";\n"
+"        \"esx3\" -> \"vCenter1\";\n"
+"        \"vm1\" -> \"esx1\";\n"
+"        \"vm2\" -> \"esx2\";\n"
+"        \"vm3\" -> \"esx2\";\n"
+"        \"vm4\" -> \"esx3\";\n"
+"        \"vm5\" -> \"esx3\";\n"
+"        \"vm6\" -> \"esx4\";\n"
+"        label = \"VMware API\";\n"
+"    }\n"
 
 #. type: Plain text
 #, no-wrap
@@ -134,3 +188,13 @@ msgid ""
 "        label = \"Networks\";\n"
 "    }\n"
 msgstr ""
+"    subgraph cluster_3 {\n"
+"        style=filled;\n"
+"        color=lightgrey;\n"
+"        node [style=filled,color=white];\n"
+"        \"imprimante 1\" -> \"Inventaire réseau\";\n"
+"        \"imprimante 2\" -> \"Inventaire réseau\";\n"
+"        \"switch 1\" -> \"Inventaire réseau\";\n"
+"        \"élément inconnu\" -> \"Inventaire réseau\";\n"
+"        label = \"Réseau\";\n"
+"    }\n"

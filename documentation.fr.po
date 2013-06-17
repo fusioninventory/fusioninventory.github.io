@@ -19,13 +19,11 @@ msgstr ""
 #. type: Title #
 #, no-wrap
 msgid "Global"
-msgstr ""
+msgstr "Global"
 
 #. type: Bullet: '* '
-#, fuzzy
-#| msgid "[[Report bug|documentation/agent/bugreport]]"
 msgid "[[The big picture|documentation/bigpicture]]"
-msgstr "[[Signaler un bug|documentation/agent/bugreport]]"
+msgstr "[[Schéma de principe|documentation/bigpicture]]"
 
 #. type: Bullet: '* '
 msgid "[[FAQ|documentation/faq]]"
@@ -153,5 +151,3 @@ msgstr "[[Traduction|documentation/translation]]"
 msgid "[[for developers|documentation/dev]]"
 msgstr "[[Pour les développeurs|documentation/dev]]"
 
-#~ msgid "Troubleshooting"
-#~ msgstr "Procédure de dépannage"
