@@ -45,10 +45,8 @@ msgstr ""
 "l'exécution de l'agent."
 
 #. type: Plain text
-#, fuzzy, no-wrap
-#| msgid "[[!template  id=warning text=\"A bug fixed in 2.2.7 prevent the use of `rpc-trust-localhost` and `httpd-trust`.\"]]\n"
 msgid "[[!template  id=warning text=\"A bug fixed in 2.2.7 prevent the use of `rpc-trust-localhost` and `httpd-trust` at the same time.\"]]\n"
-msgstr "[[!template  id=warning text=\"Un bug corrigé dans la version 2.2.7 empêchait l'utilisation de `rpc-trust-localhost` et `httpd-trust`.\"]]\n"
+msgstr "[[!template  id=warning text=\"Un bug corrigé dans la version 2.2.7 empêchait l'utilisation de `rpc-trust-localhost` et `httpd-trust` en même temps.\"]]\n"
 
 #. type: Title ##
 #, no-wrap

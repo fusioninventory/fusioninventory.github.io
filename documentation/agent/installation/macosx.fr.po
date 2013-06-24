@@ -233,11 +233,13 @@ msgid ""
 "In some rare cases, this is not enough to stop the agent. You have to kill "
 "the process by yourself."
 msgstr ""
+"Dans quelques rares cas, ce ne sera pas suffisant pour arrêter "
+"l'agent. Vous devez tuer le processus avec cette commande:" 
 
 #. type: Plain text
 #, no-wrap
 msgid "    $ sudo killall perl\n"
-msgstr ""
+msgstr "    $ sudo killall perl\n"
 
 #. type: Plain text
 msgid "To start the service:"
