@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2013-07-03 15:45+0000\n"
+"POT-Creation-Date: 2013-07-03 18:08+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -55,8 +55,7 @@ msgid ""
 "    <!ELEMENT devices (sysdescr*)>\n"
 "    <!ELEMENT sysdescr (#PCDATA)>\n"
 "    <!ELEMENT oidlist (oidobject*)>\n"
-"    <!ELEMENT oidobject "
-"(object,oid,portcounter,dynamicport,mapping_type,mapping_name,vlan,activation>\n"
+"    <!ELEMENT oidobject (object,oid,portcounter,dynamicport,mapping_type,mapping_name,vlan,activation>\n"
 "    <!ELEMENT object (#PCDATA)>\n"
 "    <!ELEMENT oid (#PCDATA)>\n"
 "    <!ELEMENT portcounter (0|1)>\n"
@@ -81,14 +80,13 @@ msgstr ""
 
 #. type: Bullet: '* '
 msgid ""
-"comments: raw list of sysdescr values of compatible devices, "
-"newline-separated"
+"comments: raw list of sysdescr values of compatible devices, newline-"
+"separated"
 msgstr ""
 
 #. type: Bullet: '* '
 msgid ""
-"devices: structured list of sysdescr values of compatible devices, "
-"newline-separated"
+"devices: structured list of sysdescr values of compatible devices, in array"
 msgstr ""
 
 #. type: Bullet: '* '
@@ -112,7 +110,8 @@ msgid "object: unused"
 msgstr ""
 
 #. type: Bullet: '* '
-msgid "portcounter: ?"
+msgid ""
+"portcounter: Define if this oid is THE port counter (list number of ports)"
 msgstr ""
 
 #. type: Bullet: '* '
@@ -120,11 +119,12 @@ msgid "vlan: wether this is a vlan-specific variable"
 msgstr ""
 
 #. type: Bullet: '* '
-msgid "activation: ?"
+msgid ""
+"activation: Be able to active or disable this oid in GLPI (so not required "
+"in snmp model)"
 msgstr ""
 
 #. type: Plain text
-#:  
 msgid "Problems:"
 msgstr ""
 
@@ -137,7 +137,10 @@ msgid "usage of a numeric value for the type is barely human-readable"
 msgstr ""
 
 #. type: Bullet: '* '
-msgid "comments is redundant with devices, and less structured"
+msgid ""
+"comments is redundant with devices, and less structured (comments is not "
+"deleted to be compatible with old version of plugin in GLPI, since 0.84+2.x "
+"version we use devices node)"
 msgstr ""
 
 #. type: Bullet: '* '
@@ -163,14 +166,10 @@ msgstr ""
 #, no-wrap
 msgid ""
 "    <MODEL ID=\"196\" NAME=\"4675719\">\n"
-"\t<GET OBJECT=\"name\" OID=\".1.3.6.1.2.1.1.5.0\" VLAN=\"0\" "
-"LINK=\"name\"/>\n"
-"             <WALK OBJECT=\"ifIndex\" OID=\".1.3.6.1.2.1.2.2.1.1\" "
-"VLAN=\"0\" LINK=\"ifIndex\"/>\n"
-"\t     <WALK OBJECT=\"ifaddr\" OID=\".1.3.6.1.2.1.4.20.1.2\" VLAN=\"0\" "
-"LINK=\"ifaddr\"/>\n"
-"\t    <GET OBJECT=\"informations\" OID=\".1.3.6.1.4.1.11.2.3.9.1.1.7.0\" "
-"VLAN=\"0\" LINK=\"informations\"/>\n"
+"\t<GET OBJECT=\"name\" OID=\".1.3.6.1.2.1.1.5.0\" VLAN=\"0\" LINK=\"name\"/>\n"
+"             <WALK OBJECT=\"ifIndex\" OID=\".1.3.6.1.2.1.2.2.1.1\" VLAN=\"0\" LINK=\"ifIndex\"/>\n"
+"\t     <WALK OBJECT=\"ifaddr\" OID=\".1.3.6.1.2.1.4.20.1.2\" VLAN=\"0\" LINK=\"ifaddr\"/>\n"
+"\t    <GET OBJECT=\"informations\" OID=\".1.3.6.1.4.1.11.2.3.9.1.1.7.0\" VLAN=\"0\" LINK=\"informations\"/>\n"
 "    </MODEL>\n"
 msgstr ""
 
@@ -181,8 +180,8 @@ msgstr ""
 #. type: Bullet: '* '
 msgid ""
 "the server doesn't allow dictionnary retrieval outside of a scheduled "
-"inventory task, making usage of alternative tools difficult ([issue "
-"1993](http://forge.fusioninventory.org/issues/1993))"
+"inventory task, making usage of alternative tools difficult ([issue 1993]"
+"(http://forge.fusioninventory.org/issues/1993))"
 msgstr ""
 
 #. type: Title ##
