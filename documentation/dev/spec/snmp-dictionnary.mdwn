@@ -1,0 +1,53 @@
+# SNMP Dictionnary
+
+The SNMP dictionnary is a data structure of basic model-specific informations,
+mainly intended to identify a device during discovery phase.
+
+It is stored as an XML file on the GLPI server (as
+gpli_plugins_directory/fusinvsnmp/tool/discovery.xml), and transmitted to the
+agent when needed as part of the discovery request.
+
+## format
+
+Here is a simple DTD:
+<!ELEMENT SNMPDISCOVERY (DEVICE*)>
+<!ELEMENT DEVICE (SYSDESCR,TYPE,MODELSNMP?,MAC?,DYNMAC?,SERIAL?)>
+<!ELEMENT SYSDESCR (#PCDATA)>
+<!ELEMENT TYPE (2|3)>
+<!ELEMENT MODELSNMP (#PCDATA)>
+<!ELEMENT MAC (#PCDATA)>
+<!ELEMENT DYNMAC (#PCDATA)>
+<!ELEMENT SERIAL (#PCDATA)>
+
+Here are the description for the various elements:
+* SYSDESCR: SNMP sysdescr value of the described device
+* TYPE: 2 for a printer, 3 for a network equipement
+* MODELSNMP: SNMP description model identifier
+* MAC:  SNMP oid of the device MAC address
+* DYNMAC: ?
+* SERIAL: SNMP oid of the device serial number
+
+Problems:
+- usage of a numeric value for the type is barely human-readable
+
+## communication
+
+The agent stores a local copy of this dictionnary, and compares its md5sum
+value with the one given by the server in its discovery request. When they
+differs, the agent aborts the execution of the current task, with an error
+status, and notify the server using a DICO element in its reply.
+
+The next time the server send an inventory request to this agent, it
+automatically send an updated version of the dictionnary, as a giant string
+embedded in its discovery request, and the agent caches it locally.
+
+Problems:
+- the current dictionnary update requires two agent execution, server-side context, and is counter-intuitive for the user, whereas the server could immediatly send the updated dictionnary to the agent (http://forge.fusioninventory.org/issues/1034)
+- the server doesn't allow dictionnary retrieval outside of a scheduled inventory task, making usage of alternative tools difficult (http://forge.fusioninventory.org/issues/1992)
+- the double XML-in-XML encoding is unelegant, whereas the dictionnary could be sent either as an XML fragment, or as a separate download
+
+## local customisation
+
+The dictionnary is stored as a file, which is part of Fusioninventory plugin
+for GLPI. Any local modification will be taken account immediatly, but they
+will be lost on upgrade.
