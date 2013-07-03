@@ -10,14 +10,14 @@ agent when needed as part of the discovery request.
 ## format
 
 Here is a simple DTD:
-<!ELEMENT SNMPDISCOVERY (DEVICE*)>
-<!ELEMENT DEVICE (SYSDESCR,TYPE,MODELSNMP?,MAC?,DYNMAC?,SERIAL?)>
-<!ELEMENT SYSDESCR (#PCDATA)>
-<!ELEMENT TYPE (2|3)>
-<!ELEMENT MODELSNMP (#PCDATA)>
-<!ELEMENT MAC (#PCDATA)>
-<!ELEMENT DYNMAC (#PCDATA)>
-<!ELEMENT SERIAL (#PCDATA)>
+    <!ELEMENT SNMPDISCOVERY (DEVICE*)>
+    <!ELEMENT DEVICE (SYSDESCR,TYPE,MODELSNMP?,MAC?,DYNMAC?,SERIAL?)>
+    <!ELEMENT SYSDESCR (#PCDATA)>
+    <!ELEMENT TYPE (2|3)>
+    <!ELEMENT MODELSNMP (#PCDATA)>
+    <!ELEMENT MAC (#PCDATA)>
+    <!ELEMENT DYNMAC (#PCDATA)>
+    <!ELEMENT SERIAL (#PCDATA)>
 
 Here are the description for the various elements:
 * SYSDESCR: SNMP sysdescr value of the described device
@@ -28,7 +28,7 @@ Here are the description for the various elements:
 * SERIAL: SNMP oid of the device serial number
 
 Problems:
-- usage of a numeric value for the type is barely human-readable
+* usage of a numeric value for the type is barely human-readable
 
 ## communication
 
@@ -42,9 +42,15 @@ automatically send an updated version of the dictionnary, as a giant string
 embedded in its discovery request, and the agent caches it locally.
 
 Problems:
-- the current dictionnary update requires two agent execution, server-side context, and is counter-intuitive for the user, whereas the server could immediatly send the updated dictionnary to the agent (http://forge.fusioninventory.org/issues/1034)
-- the server doesn't allow dictionnary retrieval outside of a scheduled inventory task, making usage of alternative tools difficult (http://forge.fusioninventory.org/issues/1992)
-- the double XML-in-XML encoding is unelegant, whereas the dictionnary could be sent either as an XML fragment, or as a separate download
+* the current dictionnary update requires two agent execution, server-side
+  context, and is counter-intuitive for the user, whereas the server could
+  immediatly send the updated dictionnary to the agent
+  ([issue 1034](http://forge.fusioninventory.org/issues/1034))
+* the server doesn't allow dictionnary retrieval outside of a scheduled
+  inventory task, making usage of alternative tools difficult
+  ([issue 1992](http://forge.fusioninventory.org/issues/1992))
+* the double XML-in-XML encoding is unelegant, whereas the dictionnary could be
+  sent either as an XML fragment, or as a separate download
 
 ## local customisation
 
