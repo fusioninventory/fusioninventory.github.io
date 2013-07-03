@@ -1,0 +1,81 @@
+# SNMP description model
+
+The SNMP description model is a data structure of exhaustive model-specific
+informations, intended to be used during remote inventory phase of a device.
+
+They are stored as multiple XML file on the GLPI server (under
+gpli_plugins_directory/fusinvsnmp/models), imported into GLPI database at
+installation, and transmitted to the agent when needed as part of the inventory
+request.
+
+## format
+
+Here is a simple DTD:
+
+    <!ELEMENT model (name,type,key,comments,devices,oidlist)>
+    <!ELEMENT name (#PCDATA)>
+    <!ELEMENT type (2|3)>
+    <!ELEMENT key (#PCDATA)>
+    <!ELEMENT comments (#PCDATA)>
+    <!ELEMENT devices (sysdescr*)>
+    <!ELEMENT sysdescr (#PCDATA)>
+    <!ELEMENT oidlist (oidobject*)>
+    <!ELEMENT oidobject (object,oid,portcounter,dynamicport,mapping_type,mapping_name,vlan,activation>
+    <!ELEMENT object (#PCDATA)>
+    <!ELEMENT oid (#PCDATA)>
+    <!ELEMENT portcounter (0|1)>
+    <!ELEMENT dynamicport (0|1)>
+    <!ELEMENT mapping_type (#PCDATA)>
+    <!ELEMENT mapping_name (#PCDATA)>
+    <!ELEMENT vlan (0|1)>
+    <!ELEMENT activation (0|1)>
+
+Here are the description for the various elements:
+
+* name: SNMP model name
+* key: SNMP model key
+* comments: raw list of sysdescr values of compatible devices, newline-separated
+* devices:  structured list of sysdescr values of compatible devices,
+  newline-separated
+* oidlist: list of oidobject element
+* mapping_name: the actual name of the mapped variable
+* oid: the oid of the mapped variable
+* dynamicport: wether this is a single-valued or a multivalued variable
+* object: unused
+* portcounter: ?
+* vlan: wether this is a vlan-specific variable
+* activation: ?
+
+Problems:
+
+* the model name is redundant with the model key, and less informative
+* usage of a numeric value for the type is barely human-readable
+* comments is redundant with devices, and less structured
+* the whole data structure doesn't match the one used in server message
+* dynamicport element is badly named
+
+## communication
+
+The server send a copy of each needed SNMP models to the agent, as part of its
+inventory request. Here is a sample of such message:
+
+    <MODEL ID="196" NAME="4675719">
+	<GET OBJECT="name" OID=".1.3.6.1.2.1.1.5.0" VLAN="0" LINK="name"/>
+             <WALK OBJECT="ifIndex" OID=".1.3.6.1.2.1.2.2.1.1" VLAN="0" LINK="ifIndex"/>
+	     <WALK OBJECT="ifaddr" OID=".1.3.6.1.2.1.4.20.1.2" VLAN="0" LINK="ifaddr"/>
+	    <GET OBJECT="informations" OID=".1.3.6.1.4.1.11.2.3.9.1.1.7.0" VLAN="0" LINK="informations"/>
+    </MODEL>
+
+Problems:
+
+* the data structure doesn't match the one used for storing model
+* the server doesn't allow dictionnary retrieval outside of a scheduled
+  inventory task, making usage of alternative tools difficult
+  ([issue 1993](http://forge.fusioninventory.org/issues/1993))
+
+## local customisation
+
+The model is stored as a file, which is part of Fusioninventory plugin
+for GLPI, and imported into GLPI database. Any local modification will not be
+taken account immediatly, until the model is reimported, and will be lost on
+upgrade.
