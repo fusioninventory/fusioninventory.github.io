@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2013-07-03 15:20+0000\n"
+"POT-Creation-Date: 2013-07-03 15:22+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -40,9 +40,12 @@ msgid "format"
 msgstr ""
 
 #. type: Plain text
+msgid "Here is a simple DTD:"
+msgstr ""
+
+#. type: Plain text
 #, no-wrap
 msgid ""
-"Here is a simple DTD:\n"
 "    <!ELEMENT SNMPDISCOVERY (DEVICE*)>\n"
 "    <!ELEMENT DEVICE (SYSDESCR,TYPE,MODELSNMP?,MAC?,DYNMAC?,SERIAL?)>\n"
 "    <!ELEMENT SYSDESCR (#PCDATA)>\n"
@@ -54,17 +57,39 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-msgid ""
-"Here are the description for the various elements: * SYSDESCR: SNMP sysdescr "
-"value of the described device * TYPE: 2 for a printer, 3 for a network "
-"equipement * MODELSNMP: SNMP description model identifier * MAC: SNMP oid of "
-"the device MAC address * DYNMAC: ? * SERIAL: SNMP oid of the device serial "
-"number"
+msgid "Here are the description for the various elements:"
+msgstr ""
+
+#. type: Bullet: '* '
+msgid "SYSDESCR: SNMP sysdescr value of the described device"
+msgstr ""
+
+#. type: Bullet: '* '
+msgid "TYPE: 2 for a printer, 3 for a network equipement"
+msgstr ""
+
+#. type: Bullet: '* '
+msgid "MODELSNMP: SNMP description model identifier"
+msgstr ""
+
+#. type: Bullet: '* '
+msgid "MAC: SNMP oid of the device MAC address"
+msgstr ""
+
+#. type: Bullet: '* '
+msgid "DYNMAC: ?"
+msgstr ""
+
+#. type: Bullet: '* '
+msgid "SERIAL: SNMP oid of the device serial number"
 msgstr ""
 
 #. type: Plain text
-msgid ""
-"Problems: * usage of a numeric value for the type is barely human-readable"
+msgid "Problems:"
+msgstr ""
+
+#. type: Bullet: '* '
+msgid "usage of a numeric value for the type is barely human-readable"
 msgstr ""
 
 #. type: Title ##
@@ -87,19 +112,25 @@ msgid ""
 "embedded in its discovery request, and the agent caches it locally."
 msgstr ""
 
-#. type: Plain text
-#, no-wrap
+#. type: Bullet: '* '
 msgid ""
-"Problems:\n"
-"* the current dictionnary update requires two agent execution, server-side\n"
-"  context, and is counter-intuitive for the user, whereas the server could\n"
-"  immediatly send the updated dictionnary to the agent\n"
-"  ([issue 1034](http://forge.fusioninventory.org/issues/1034))\n"
-"* the server doesn't allow dictionnary retrieval outside of a scheduled\n"
-"  inventory task, making usage of alternative tools difficult\n"
-"  ([issue 1992](http://forge.fusioninventory.org/issues/1992))\n"
-"* the double XML-in-XML encoding is unelegant, whereas the dictionnary could be\n"
-"  sent either as an XML fragment, or as a separate download\n"
+"the current dictionnary update requires two agent execution, server-side "
+"context, and is counter-intuitive for the user, whereas the server could "
+"immediatly send the updated dictionnary to the agent ([issue 1034](http://"
+"forge.fusioninventory.org/issues/1034))"
+msgstr ""
+
+#. type: Bullet: '* '
+msgid ""
+"the server doesn't allow dictionnary retrieval outside of a scheduled "
+"inventory task, making usage of alternative tools difficult ([issue 1992]"
+"(http://forge.fusioninventory.org/issues/1992))"
+msgstr ""
+
+#. type: Bullet: '* '
+msgid ""
+"the double XML-in-XML encoding is unelegant, whereas the dictionnary could "
+"be sent either as an XML fragment, or as a separate download"
 msgstr ""
 
 #. type: Title ##
