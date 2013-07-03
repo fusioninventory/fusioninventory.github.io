@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2013-07-03 15:15+0000\n"
+"POT-Creation-Date: 2013-07-03 15:20+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -29,9 +29,9 @@ msgstr ""
 
 #. type: Plain text
 msgid ""
-"It is stored as an XML file on the GLPI server (as "
-"gpli_plugins_directory/fusinvsnmp/tool/discovery.xml), and transmitted to "
-"the agent when needed as part of the discovery request."
+"It is stored as an XML file on the GLPI server (as gpli_plugins_directory/"
+"fusinvsnmp/tool/discovery.xml), and transmitted to the agent when needed as "
+"part of the discovery request."
 msgstr ""
 
 #. type: Title ##
@@ -43,14 +43,14 @@ msgstr ""
 #, no-wrap
 msgid ""
 "Here is a simple DTD:\n"
-"<!ELEMENT SNMPDISCOVERY (DEVICE*)>\n"
-"<!ELEMENT DEVICE (SYSDESCR,TYPE,MODELSNMP?,MAC?,DYNMAC?,SERIAL?)>\n"
-"<!ELEMENT SYSDESCR (#PCDATA)>\n"
-"<!ELEMENT TYPE (2|3)>\n"
-"<!ELEMENT MODELSNMP (#PCDATA)>\n"
-"<!ELEMENT MAC (#PCDATA)>\n"
-"<!ELEMENT DYNMAC (#PCDATA)>\n"
-"<!ELEMENT SERIAL (#PCDATA)>\n"
+"    <!ELEMENT SNMPDISCOVERY (DEVICE*)>\n"
+"    <!ELEMENT DEVICE (SYSDESCR,TYPE,MODELSNMP?,MAC?,DYNMAC?,SERIAL?)>\n"
+"    <!ELEMENT SYSDESCR (#PCDATA)>\n"
+"    <!ELEMENT TYPE (2|3)>\n"
+"    <!ELEMENT MODELSNMP (#PCDATA)>\n"
+"    <!ELEMENT MAC (#PCDATA)>\n"
+"    <!ELEMENT DYNMAC (#PCDATA)>\n"
+"    <!ELEMENT SERIAL (#PCDATA)>\n"
 msgstr ""
 
 #. type: Plain text
@@ -63,7 +63,8 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-msgid "Problems: - usage of a numeric value for the type is barely human-readable"
+msgid ""
+"Problems: * usage of a numeric value for the type is barely human-readable"
 msgstr ""
 
 #. type: Title ##
@@ -87,15 +88,18 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
+#, no-wrap
 msgid ""
-"Problems: - the current dictionnary update requires two agent execution, "
-"server-side context, and is counter-intuitive for the user, whereas the "
-"server could immediatly send the updated dictionnary to the agent "
-"(http://forge.fusioninventory.org/issues/1034)  - the server doesn't allow "
-"dictionnary retrieval outside of a scheduled inventory task, making usage of "
-"alternative tools difficult (http://forge.fusioninventory.org/issues/1992)  "
-"- the double XML-in-XML encoding is unelegant, whereas the dictionnary could "
-"be sent either as an XML fragment, or as a separate download"
+"Problems:\n"
+"* the current dictionnary update requires two agent execution, server-side\n"
+"  context, and is counter-intuitive for the user, whereas the server could\n"
+"  immediatly send the updated dictionnary to the agent\n"
+"  ([issue 1034](http://forge.fusioninventory.org/issues/1034))\n"
+"* the server doesn't allow dictionnary retrieval outside of a scheduled\n"
+"  inventory task, making usage of alternative tools difficult\n"
+"  ([issue 1992](http://forge.fusioninventory.org/issues/1992))\n"
+"* the double XML-in-XML encoding is unelegant, whereas the dictionnary could be\n"
+"  sent either as an XML fragment, or as a separate download\n"
 msgstr ""
 
 #. type: Title ##
