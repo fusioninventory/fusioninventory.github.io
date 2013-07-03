@@ -36,21 +36,21 @@ Here are the description for the various elements:
 * key: SNMP model key
 * comments: raw list of sysdescr values of compatible devices, newline-separated
 * devices:  structured list of sysdescr values of compatible devices,
-  newline-separated
+  in array
 * oidlist: list of oidobject element
 * mapping_name: the actual name of the mapped variable
 * oid: the oid of the mapped variable
 * dynamicport: wether this is a single-valued or a multivalued variable
 * object: unused
-* portcounter: ?
+* portcounter: Define if this oid is THE port counter (list number of ports)
 * vlan: wether this is a vlan-specific variable
-* activation: ?
+* activation: Be able to active or disable this oid in GLPI (so not required in snmp model)
 
 Problems:
 
 * the model name is redundant with the model key, and less informative
 * usage of a numeric value for the type is barely human-readable
-* comments is redundant with devices, and less structured
+* comments is redundant with devices, and less structured (comments is not deleted to be compatible with old version of plugin in GLPI, since 0.84+2.x version we use devices node)
 * the whole data structure doesn't match the one used in server message
 * dynamicport element is badly named
 
