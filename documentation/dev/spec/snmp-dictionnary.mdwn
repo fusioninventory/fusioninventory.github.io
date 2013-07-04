@@ -57,13 +57,9 @@ Problems:
 
 ## local customisation
 
-The dictionnary is stored as a XML file on the server, as gpli/files/_plugins/fusioninventory/discovery.xml
+The dictionnary is stored as a XML file on the server, as
+glpi/files/_plugins/fusioninventory/discovery.xml. This file is produced
+dynamically from SNMP models database representation. Any modification of a
+model in the database triggers its regeneration.
 
-This file is produced dynamically from SNMP models database representation. Any
-modification of a model in the database triggers its regeneration.
-
-Any update of the plugin will automatically replace all models XML files
-shipped in the plugin distribution, drop all model the database, and reimport
-all XML files from the snmpmodels directory. In order to make local
-customisation persistent, they have to be exported in a XML file in this
-directory.
+See [SNMP model specification](snmp-model) for details about upgrade.
