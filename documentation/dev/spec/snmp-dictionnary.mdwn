@@ -62,4 +62,4 @@ glpi/files/_plugins/fusioninventory/discovery.xml. This file is produced
 dynamically from SNMP models database representation. Any modification of a
 model in the database triggers its regeneration.
 
-See [SNMP model specification](snmp-model/) for details about upgrade.
+See [SNMP model specification](../snmp-model) for details about upgrade.
