@@ -95,6 +95,7 @@ Here are the existing SNMP variables:
 * ifinoctets
 * ifinternalstatus
 * iflastchange
+* ifAlias
 * ifmtu
 * ifName
 * ifouterrors
