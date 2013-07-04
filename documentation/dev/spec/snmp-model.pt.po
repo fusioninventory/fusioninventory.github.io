@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2013-07-04 13:59+0000\n"
+"POT-Creation-Date: 2013-07-04 14:14+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -615,4 +615,103 @@ msgid ""
 "glpi/plugins/fusioninventory/snmpmodels is imported again. As a consequence, "
 "in order to make local modification persistent, they have to be saved in XML "
 "files, using filenames different from the ones included in the plugin."
+msgstr ""
+
+#. type: Title ##
+#, no-wrap
+msgid "Enhancement proposals"
+msgstr ""
+
+#. type: Title ###
+#, no-wrap
+msgid "Proposal 1"
+msgstr ""
+
+#. type: Plain text
+msgid ""
+"Drop the confusing distinction between a model name and a model key, and use "
+"a single model identifier everywhere:"
+msgstr ""
+
+#. type: Bullet: '* '
+msgid "as model xml file name"
+msgstr ""
+
+#. type: Bullet: '* '
+msgid "in model data"
+msgstr ""
+
+#. type: Bullet: '* '
+msgid "in GLPI interface"
+msgstr ""
+
+#. type: Title ###
+#, no-wrap
+msgid "Proposal 2"
+msgstr ""
+
+#. type: Plain text
+msgid ""
+"Make the model structure in XML file closer to the one used in communication "
+"between the server and the agent. Here is an alternate DTD:"
+msgstr ""
+
+#. type: Plain text
+#, no-wrap
+msgid ""
+"    <!ELEMENT model (name,type,key,comments,devices,oidlist)>\n"
+"    <!ELEMENT name (#PCDATA)>\n"
+"    <!ELEMENT type (2|3)>\n"
+"    <!ELEMENT key (#PCDATA)>\n"
+"    <!ELEMENT comments (#PCDATA)>\n"
+"    <!ELEMENT devices (sysdescr*)>\n"
+"    <!ELEMENT sysdescr (#PCDATA)>\n"
+"    <!ELEMENT get (object,oid,portcounter,dynamicport,type,vlan,activation)*>\n"
+"    <!ELEMENT walk (object,oid,portcounter,dynamicport,type,vlan,activation)*>\n"
+"    <!ELEMENT object (#PCDATA)>\n"
+"    <!ELEMENT oid (#PCDATA)>\n"
+"    <!ELEMENT portcounter (0|1)>\n"
+"    <!ELEMENT type (#PCDATA)>\n"
+"    <!ELEMENT vlan (0|1)>\n"
+"    <!ELEMENT activation (0|1)>\n"
+msgstr ""
+
+#. type: Plain text
+msgid "And a sample instance:"
+msgstr ""
+
+#. type: Plain text
+#, no-wrap
+msgid ""
+"    <model>\n"
+"\t<key>Printer0547</key>\n"
+"\t...\n"
+"\t<get>\n"
+"\t    <object>comments</object>\n"
+"\t    <oid>.1.3.6.1.2.1.1.1.0</oid>\n"
+"\t    <portcounter>0</portcounter>\n"
+"\t    <type>Printer</mapping_type>\n"
+"\t    <vlan>0</vlan>\n"
+"\t    <activation>1</activation>\n"
+"\t</get>\n"
+"\t...\n"
+"\t<walk>\n"
+"\t    <object>ifaddr</object>\n"
+"\t    <oid>.1.3.6.1.2.1.4.20.1.2</oid>\n"
+"\t    <portcounter>0</portcounter>\n"
+"\t    <type>Printer</mapping_type>\n"
+"\t    <vlan>0</vlan>\n"
+"\t    <activation>1</activation>\n"
+"\t</walk>\n"
+"    </model>\n"
+msgstr ""
+
+#. type: Title ###
+#, no-wrap
+msgid "Proposal 3"
+msgstr ""
+
+#. type: Plain text
+msgid ""
+"Drop useless and redundant information from models (to be specified later)."
 msgstr ""
