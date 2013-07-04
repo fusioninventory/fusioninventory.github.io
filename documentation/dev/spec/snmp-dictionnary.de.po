@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2013-07-03 15:22+0000\n"
+"POT-Creation-Date: 2013-07-04 09:11+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -24,14 +24,13 @@ msgstr ""
 #. type: Plain text
 msgid ""
 "The SNMP dictionnary is a data structure of basic model-specific "
-"informations, mainly intended to identify a device during discovery phase."
+"informations, intended to identify a device during discovery phase."
 msgstr ""
 
 #. type: Plain text
 msgid ""
-"It is stored as an XML file on the GLPI server (as gpli_plugins_directory/"
-"fusinvsnmp/tool/discovery.xml), and transmitted to the agent when needed as "
-"part of the discovery request."
+"It is stored as an XML file on the GLPI server, and transmitted to the agent "
+"when needed."
 msgstr ""
 
 #. type: Title ##
@@ -107,7 +106,7 @@ msgstr ""
 
 #. type: Plain text
 msgid ""
-"The next time the server send an inventory request to this agent, it "
+"The next time the server send an discovery request to this agent, it "
 "automatically send an updated version of the dictionnary, as a giant string "
 "embedded in its discovery request, and the agent caches it locally."
 msgstr ""
@@ -123,7 +122,7 @@ msgstr ""
 #. type: Bullet: '* '
 msgid ""
 "the server doesn't allow dictionnary retrieval outside of a scheduled "
-"inventory task, making usage of alternative tools difficult ([issue 1992]"
+"discovery task, making usage of alternative tools difficult ([issue 1992]"
 "(http://forge.fusioninventory.org/issues/1992))"
 msgstr ""
 
@@ -140,7 +139,21 @@ msgstr ""
 
 #. type: Plain text
 msgid ""
-"The dictionnary is stored as a file, which is part of Fusioninventory plugin "
-"for GLPI. Any local modification will be taken account immediatly, but they "
-"will be lost on upgrade."
+"The dictionnary is stored as a XML file on the server, as gpli/files/"
+"_plugins/fusioninventory/discovery.xml"
+msgstr ""
+
+#. type: Plain text
+msgid ""
+"This file is produced dynamically from SNMP models database representation. "
+"Any modification of a model in the database triggers its regeneration."
+msgstr ""
+
+#. type: Plain text
+msgid ""
+"Any update of the plugin will automatically replace all models XML files "
+"shipped in the plugin distribution, drop all model the database, and "
+"reimport all XML files from the snmpmodels directory. In order to make local "
+"customisation persistent, they have to be exported in a XML file in this "
+"directory."
 msgstr ""
