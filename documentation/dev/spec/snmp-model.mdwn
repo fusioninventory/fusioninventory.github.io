@@ -180,7 +180,15 @@ Problems:
 
 ## local customisation
 
-The model is stored as a file, which is part of Fusioninventory plugin
-for GLPI, and imported into GLPI database. Any local modification will not be
-taken account immediatly, until the model is reimported, and will be lost on
-upgrade.
+Each model is stored as an XML file, distributed with Fusioninventory plugin
+for GLPI, in glpi/plugins/fusioninventory/snmpmodels directory. At plugin
+installation, those models are imported into GLPI database, and XML files are
+subsequently ignored. Models can be modified either by modificating the XML
+files, and reimporting them, or directly in the database through GLPI
+interface.
+
+At plugin update, existing XML files are replaced by new ones included in the
+plugin, the GLPI database models are deleted, and all content of the
+glpi/plugins/fusioninventory/snmpmodels is imported again. As a consequence,
+in order to make local modification persistent, they have to be saved in XML
+files, using filenames different from the ones included in the plugin.
