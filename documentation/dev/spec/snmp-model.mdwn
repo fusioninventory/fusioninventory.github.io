@@ -8,7 +8,7 @@ gpli_plugins_directory/fusinvsnmp/models), imported into GLPI database at
 installation, and transmitted to the agent when needed as part of the inventory
 request.
 
-## format
+## Format
 
 Here is a simple DTD:
 
@@ -54,7 +54,7 @@ Problems:
 * the whole data structure doesn't match the one used in server message
 * dynamicport element is badly named
 
-## variables
+## Variables
 
 Here are the existing SNMP variables:
 
@@ -159,7 +159,7 @@ Here are the existing SNMP variables:
 * wastetonermax
 * wastetonerremaining
 
-## communication
+## Communication
 
 The server send a copy of each needed SNMP models to the agent, as part of its
 inventory request. Here is a sample of such message:
@@ -178,7 +178,7 @@ Problems:
   inventory task, making usage of alternative tools difficult
   ([issue 1993](http://forge.fusioninventory.org/issues/1993))
 
-## local customisation
+## Local customisation
 
 Each model is stored as an XML file, distributed with Fusioninventory plugin
 for GLPI, in glpi/plugins/fusioninventory/snmpmodels directory. At plugin

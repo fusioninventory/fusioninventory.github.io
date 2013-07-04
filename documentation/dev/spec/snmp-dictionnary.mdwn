@@ -6,7 +6,7 @@ intended to identify a device during discovery phase.
 It is stored as an XML file on the GLPI server, and transmitted to the
 agent when needed.
 
-## format
+## Format
 
 Here is a simple DTD:
 
@@ -32,7 +32,7 @@ Problems:
 
 * usage of a numeric value for the type is barely human-readable
 
-## communication
+## Communication
 
 The agent stores a local copy of this dictionnary, and compares its md5sum
 value with the one given by the server in its discovery request. When they
@@ -55,7 +55,7 @@ Problems:
 * the double XML-in-XML encoding is unelegant, whereas the dictionnary could be
   sent either as an XML fragment, or as a separate download
 
-## local customisation
+## Local customisation
 
 The dictionnary is stored as a XML file on the server, as
 glpi/files/_plugins/fusioninventory/discovery.xml. This file is produced
