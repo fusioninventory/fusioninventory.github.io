@@ -1,11 +1,10 @@
 # SNMP Dictionnary
 
 The SNMP dictionnary is a data structure of basic model-specific informations,
-mainly intended to identify a device during discovery phase.
+intended to identify a device during discovery phase.
 
-It is stored as an XML file on the GLPI server (as
-gpli_plugins_directory/fusinvsnmp/tool/discovery.xml), and transmitted to the
-agent when needed as part of the discovery request.
+It is stored as an XML file on the GLPI server, and transmitted to the
+agent when needed.
 
 ## format
 
@@ -40,7 +39,7 @@ value with the one given by the server in its discovery request. When they
 differs, the agent aborts the execution of the current task, with an error
 status, and notify the server using a DICO element in its reply.
 
-The next time the server send an inventory request to this agent, it
+The next time the server send an discovery request to this agent, it
 automatically send an updated version of the dictionnary, as a giant string
 embedded in its discovery request, and the agent caches it locally.
 
@@ -51,13 +50,20 @@ Problems:
   immediatly send the updated dictionnary to the agent
   ([issue 1034](http://forge.fusioninventory.org/issues/1034))
 * the server doesn't allow dictionnary retrieval outside of a scheduled
-  inventory task, making usage of alternative tools difficult
+  discovery task, making usage of alternative tools difficult
   ([issue 1992](http://forge.fusioninventory.org/issues/1992))
 * the double XML-in-XML encoding is unelegant, whereas the dictionnary could be
   sent either as an XML fragment, or as a separate download
 
 ## local customisation
 
-The dictionnary is stored as a file, which is part of Fusioninventory plugin
-for GLPI. Any local modification will be taken account immediatly, but they
-will be lost on upgrade.
+The dictionnary is stored as a XML file on the server, as gpli/files/_plugins/fusioninventory/discovery.xml
+
+This file is produced dynamically from SNMP models database representation. Any
+modification of a model in the database triggers its regeneration.
+
+Any update of the plugin will automatically replace all models XML files
+shipped in the plugin distribution, drop all model the database, and reimport
+all XML files from the snmpmodels directory. In order to make local
+customisation persistent, they have to be exported in a XML file in this
+directory.
