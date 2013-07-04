@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2013-07-04 14:14+0000\n"
+"POT-Creation-Date: 2013-07-04 14:17+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -37,7 +37,7 @@ msgstr ""
 
 #. type: Title ##
 #, no-wrap
-msgid "format"
+msgid "Format"
 msgstr ""
 
 #. type: Plain text
@@ -153,7 +153,7 @@ msgstr ""
 
 #. type: Title ##
 #, no-wrap
-msgid "variables"
+msgid "Variables"
 msgstr ""
 
 #. type: Plain text
@@ -562,7 +562,7 @@ msgstr ""
 
 #. type: Title ##
 #, no-wrap
-msgid "communication"
+msgid "Communication"
 msgstr ""
 
 #. type: Plain text
@@ -595,7 +595,7 @@ msgstr ""
 
 #. type: Title ##
 #, no-wrap
-msgid "local customisation"
+msgid "Local customisation"
 msgstr ""
 
 #. type: Plain text
