@@ -50,7 +50,7 @@ Problems:
 
 * the model name is redundant with the model key, and less informative
 * usage of a numeric value for the type is barely human-readable
-* comments is redundant with devices, and less structured (comments is not deleted to be compatible with old version of plugin in GLPI, since 0.84+2.x version we use devices node)
+* comments is redundant with devices, and less structured (comments is not deleted to be compatible with old version of plugin in GLPI, since 0.83+2.x version we use devices node)
 * the whole data structure doesn't match the one used in server message
 * dynamicport element is badly named
 
