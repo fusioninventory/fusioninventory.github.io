@@ -63,3 +63,11 @@ dynamically from SNMP models database representation. Any modification of a
 model in the database triggers its regeneration.
 
 See [SNMP model specification](../snmp-model) for details about upgrade.
+
+## Enhancement proposals
+
+### Proposal 1
+
+Implement [issue 1992](http://forge.fusioninventory.org/issues/1992), then
+modify the agent to use this URL immediatly to retrieve the new
+dictionnary if needed. This will solve the 3 different problems at once.
