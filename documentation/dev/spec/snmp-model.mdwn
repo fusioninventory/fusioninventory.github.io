@@ -165,10 +165,10 @@ The server send a copy of each needed SNMP models to the agent, as part of its
 inventory request. Here is a sample of such message:
 
     <MODEL ID="196" NAME="4675719">
-	<GET OBJECT="name" OID=".1.3.6.1.2.1.1.5.0" VLAN="0" LINK="name"/>
-             <WALK OBJECT="ifIndex" OID=".1.3.6.1.2.1.2.2.1.1" VLAN="0" LINK="ifIndex"/>
-	     <WALK OBJECT="ifaddr" OID=".1.3.6.1.2.1.4.20.1.2" VLAN="0" LINK="ifaddr"/>
-	    <GET OBJECT="informations" OID=".1.3.6.1.4.1.11.2.3.9.1.1.7.0" VLAN="0" LINK="informations"/>
+        <GET OBJECT="name" OID=".1.3.6.1.2.1.1.5.0" VLAN="0" LINK="name"/>
+        <WALK OBJECT="ifIndex" OID=".1.3.6.1.2.1.2.2.1.1" VLAN="0" LINK="ifIndex"/>
+        <WALK OBJECT="ifaddr" OID=".1.3.6.1.2.1.4.20.1.2" VLAN="0" LINK="ifaddr"/>
+        <GET OBJECT="informations" OID=".1.3.6.1.4.1.11.2.3.9.1.1.7.0" VLAN="0" LINK="informations"/>
     </MODEL>
 
 Problems:
@@ -228,25 +228,25 @@ between the server and the agent. Here is an alternate DTD:
 And a sample instance:
 
     <model>
-	<key>Printer0547</key>
-	...
-	<get>
-	    <object>comments</object>
-	    <oid>.1.3.6.1.2.1.1.1.0</oid>
-	    <portcounter>0</portcounter>
-	    <type>Printer</mapping_type>
-	    <vlan>0</vlan>
-	    <activation>1</activation>
-	</get>
-	...
-	<walk>
-	    <object>ifaddr</object>
-	    <oid>.1.3.6.1.2.1.4.20.1.2</oid>
-	    <portcounter>0</portcounter>
-	    <type>Printer</mapping_type>
-	    <vlan>0</vlan>
-	    <activation>1</activation>
-	</walk>
+        <key>Printer0547</key>
+        ...
+        <get>
+            <object>comments</object>
+            <oid>.1.3.6.1.2.1.1.1.0</oid>
+            <portcounter>0</portcounter>
+            <type>Printer</mapping_type>
+            <vlan>0</vlan>
+            <activation>1</activation>
+        </get>
+        ...
+        <walk>
+            <object>ifaddr</object>
+            <oid>.1.3.6.1.2.1.4.20.1.2</oid>
+            <portcounter>0</portcounter>
+            <type>Printer</mapping_type>
+            <vlan>0</vlan>
+            <activation>1</activation>
+        </walk>
     </model>
 
 ### Proposal 3
