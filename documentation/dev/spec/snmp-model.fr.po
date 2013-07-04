@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2013-07-03 18:08+0000\n"
+"POT-Creation-Date: 2013-07-04 09:28+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -149,6 +149,415 @@ msgstr ""
 
 #. type: Bullet: '* '
 msgid "dynamicport element is badly named"
+msgstr ""
+
+#. type: Title ##
+#, no-wrap
+msgid "variables"
+msgstr ""
+
+#. type: Plain text
+msgid "Here are the existing SNMP variables:"
+msgstr ""
+
+#. type: Bullet: '* '
+msgid "cartridgeblack"
+msgstr ""
+
+#. type: Bullet: '* '
+msgid "cartridgecyanlight"
+msgstr ""
+
+#. type: Bullet: '* '
+msgid "cartridgecyan"
+msgstr ""
+
+#. type: Bullet: '* '
+msgid "cartridgemagentalight"
+msgstr ""
+
+#. type: Bullet: '* '
+msgid "cartridgemagenta"
+msgstr ""
+
+#. type: Bullet: '* '
+msgid "cartridgeyellow"
+msgstr ""
+
+#. type: Bullet: '* '
+msgid "cdpCacheAddress"
+msgstr ""
+
+#. type: Bullet: '* '
+msgid "cdpCacheDeviceId"
+msgstr ""
+
+#. type: Bullet: '* '
+msgid "cdpCacheDevicePort"
+msgstr ""
+
+#. type: Bullet: '* '
+msgid "cdpCachePlatform"
+msgstr ""
+
+#. type: Bullet: '* '
+msgid "cdpCacheVersion"
+msgstr ""
+
+#. type: Bullet: '* '
+msgid "comments"
+msgstr ""
+
+#. type: Bullet: '* '
+msgid "contact"
+msgstr ""
+
+#. type: Bullet: '* '
+msgid "cpu"
+msgstr ""
+
+#. type: Bullet: '* '
+msgid "dot1dBasePortIfIndex"
+msgstr ""
+
+#. type: Bullet: '* '
+msgid "dot1dTpFdbAddress"
+msgstr ""
+
+#. type: Bullet: '* '
+msgid "dot1dTpFdbPort"
+msgstr ""
+
+#. type: Bullet: '* '
+msgid "drumblack"
+msgstr ""
+
+#. type: Bullet: '* '
+msgid "drumblackmax"
+msgstr ""
+
+#. type: Bullet: '* '
+msgid "drumblackremaining"
+msgstr ""
+
+#. type: Bullet: '* '
+msgid "drumcyan"
+msgstr ""
+
+#. type: Bullet: '* '
+msgid "drumcyanmax"
+msgstr ""
+
+#. type: Bullet: '* '
+msgid "drumcyanremaining"
+msgstr ""
+
+#. type: Bullet: '* '
+msgid "drummagenta"
+msgstr ""
+
+#. type: Bullet: '* '
+msgid "drumyellow"
+msgstr ""
+
+#. type: Bullet: '* '
+msgid "enterprise"
+msgstr ""
+
+#. type: Bullet: '* '
+msgid "entPhysicalModelName"
+msgstr ""
+
+#. type: Bullet: '* '
+msgid "firmware1"
+msgstr ""
+
+#. type: Bullet: '* '
+msgid "firmware2"
+msgstr ""
+
+#. type: Bullet: '* '
+msgid "firmware"
+msgstr ""
+
+#. type: Bullet: '* '
+msgid "ifaddr"
+msgstr ""
+
+#. type: Bullet: '* '
+msgid "ifdescr"
+msgstr ""
+
+#. type: Bullet: '* '
+msgid "ifIndex"
+msgstr ""
+
+#. type: Bullet: '* '
+msgid "ifinerrors"
+msgstr ""
+
+#. type: Bullet: '* '
+msgid "ifinoctets"
+msgstr ""
+
+#. type: Bullet: '* '
+msgid "ifinternalstatus"
+msgstr ""
+
+#. type: Bullet: '* '
+msgid "iflastchange"
+msgstr ""
+
+#. type: Bullet: '* '
+msgid "ifmtu"
+msgstr ""
+
+#. type: Bullet: '* '
+msgid "ifName"
+msgstr ""
+
+#. type: Bullet: '* '
+msgid "ifouterrors"
+msgstr ""
+
+#. type: Bullet: '* '
+msgid "ifoutoctets"
+msgstr ""
+
+#. type: Bullet: '* '
+msgid "ifPhysAddress"
+msgstr ""
+
+#. type: Bullet: '* '
+msgid "ifspeed"
+msgstr ""
+
+#. type: Bullet: '* '
+msgid "ifstatus"
+msgstr ""
+
+#. type: Bullet: '* '
+msgid "ifType"
+msgstr ""
+
+#. type: Bullet: '* '
+msgid "informations"
+msgstr ""
+
+#. type: Bullet: '* '
+msgid "ipAdEntAddr"
+msgstr ""
+
+#. type: Bullet: '* '
+msgid "ipNetToMediaPhysAddress"
+msgstr ""
+
+#. type: Bullet: '* '
+msgid "lldpLocChassisId"
+msgstr ""
+
+#. type: Bullet: '* '
+msgid "lldpRemChassisId"
+msgstr ""
+
+#. type: Bullet: '* '
+msgid "lldpRemPortDesc"
+msgstr ""
+
+#. type: Bullet: '* '
+msgid "lldpRemPortId"
+msgstr ""
+
+#. type: Bullet: '* '
+msgid "lldpRemSysDesc"
+msgstr ""
+
+#. type: Bullet: '* '
+msgid "lldpRemSysName"
+msgstr ""
+
+#. type: Bullet: '* '
+msgid "location"
+msgstr ""
+
+#. type: Bullet: '* '
+msgid "macaddr"
+msgstr ""
+
+#. type: Bullet: '* '
+msgid "maintenancekit"
+msgstr ""
+
+#. type: Bullet: '* '
+msgid "maintenancekitmax"
+msgstr ""
+
+#. type: Bullet: '* '
+msgid "maintenancekitremaining"
+msgstr ""
+
+#. type: Bullet: '* '
+msgid "memory"
+msgstr ""
+
+#. type: Bullet: '* '
+msgid "model"
+msgstr ""
+
+#. type: Bullet: '* '
+msgid "name"
+msgstr ""
+
+#. type: Bullet: '* '
+msgid "otherserial"
+msgstr ""
+
+#. type: Bullet: '* '
+msgid "pagecounterblackpages_copy"
+msgstr ""
+
+#. type: Bullet: '* '
+msgid "pagecounterblackpages"
+msgstr ""
+
+#. type: Bullet: '* '
+msgid "pagecounterblackpages_print"
+msgstr ""
+
+#. type: Bullet: '* '
+msgid "pagecountercolorpages_copy"
+msgstr ""
+
+#. type: Bullet: '* '
+msgid "pagecountercolorpages"
+msgstr ""
+
+#. type: Bullet: '* '
+msgid "pagecountercolorpages_print"
+msgstr ""
+
+#. type: Bullet: '* '
+msgid "pagecounterrectoversopages"
+msgstr ""
+
+#. type: Bullet: '* '
+msgid "pagecounterscannedpages"
+msgstr ""
+
+#. type: Bullet: '* '
+msgid "pagecountertotalpages_copy"
+msgstr ""
+
+#. type: Bullet: '* '
+msgid "pagecountertotalpages_fax"
+msgstr ""
+
+#. type: Bullet: '* '
+msgid "pagecountertotalpages"
+msgstr ""
+
+#. type: Bullet: '* '
+msgid "pagecountertotalpages_print"
+msgstr ""
+
+#. type: Bullet: '* '
+msgid "PortVlanIndex"
+msgstr ""
+
+#. type: Bullet: '* '
+msgid "ram"
+msgstr ""
+
+#. type: Bullet: '* '
+msgid "serial"
+msgstr ""
+
+#. type: Bullet: '* '
+msgid "tonerblack2"
+msgstr ""
+
+#. type: Bullet: '* '
+msgid "tonerblack2max"
+msgstr ""
+
+#. type: Bullet: '* '
+msgid "tonerblack2remaining"
+msgstr ""
+
+#. type: Bullet: '* '
+msgid "tonerblack"
+msgstr ""
+
+#. type: Bullet: '* '
+msgid "tonerblackmax"
+msgstr ""
+
+#. type: Bullet: '* '
+msgid "tonerblackremaining"
+msgstr ""
+
+#. type: Bullet: '* '
+msgid "tonercyan"
+msgstr ""
+
+#. type: Bullet: '* '
+msgid "tonercyanmax"
+msgstr ""
+
+#. type: Bullet: '* '
+msgid "tonercyanremaining"
+msgstr ""
+
+#. type: Bullet: '* '
+msgid "tonermagenta"
+msgstr ""
+
+#. type: Bullet: '* '
+msgid "tonermagentamax"
+msgstr ""
+
+#. type: Bullet: '* '
+msgid "tonermagentaremaining"
+msgstr ""
+
+#. type: Bullet: '* '
+msgid "toneryellow"
+msgstr ""
+
+#. type: Bullet: '* '
+msgid "toneryellowmax"
+msgstr ""
+
+#. type: Bullet: '* '
+msgid "toneryellowremaining"
+msgstr ""
+
+#. type: Bullet: '* '
+msgid "uptime"
+msgstr ""
+
+#. type: Bullet: '* '
+msgid "vlanTrunkPortDynamicStatus"
+msgstr ""
+
+#. type: Bullet: '* '
+msgid "vmvlan"
+msgstr ""
+
+#. type: Bullet: '* '
+msgid "vtpVlanName"
+msgstr ""
+
+#. type: Bullet: '* '
+msgid "wastetoner"
+msgstr ""
+
+#. type: Bullet: '* '
+msgid "wastetonermax"
+msgstr ""
+
+#. type: Bullet: '* '
+msgid "wastetonerremaining"
 msgstr ""
 
 #. type: Title ##
