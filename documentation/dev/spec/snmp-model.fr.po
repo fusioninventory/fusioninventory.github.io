@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2013-07-04 14:18+0000\n"
+"POT-Creation-Date: 2013-07-04 14:19+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -139,7 +139,7 @@ msgstr ""
 #. type: Bullet: '* '
 msgid ""
 "comments is redundant with devices, and less structured (comments is not "
-"deleted to be compatible with old version of plugin in GLPI, since 0.84+2.x "
+"deleted to be compatible with old version of plugin in GLPI, since 0.83+2.x "
 "version we use devices node)"
 msgstr ""
 
