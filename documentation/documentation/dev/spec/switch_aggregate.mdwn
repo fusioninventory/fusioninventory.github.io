@@ -1,5 +1,38 @@
 # Specs for get aggregate ports of switch ports
 
+In agent, have these new nodes for networkports : 
+
+>        <PORT>
+>          <AGGREGATE>
+>            <PORT>10001</PORT>
+>            <PORT>10002</PORT>
+>          </AGGREGATE>
+>          <IFDESCR>Port-channel10</IFDESCR>
+>          <IFINERRORS>0</IFINERRORS>
+>          <IFINOCTETS>1076823325</IFINOCTETS>
+>          <IFINTERNALSTATUS>1</IFINTERNALSTATUS>
+>          <IFLASTCHANGE>15 days, 23:20:53.24</IFLASTCHANGE>
+>          <IFMTU>1500</IFMTU>
+>          <IFNAME>Po10</IFNAME>
+>          <IFNUMBER>5010</IFNUMBER>
+>          <IFOUTERRORS>0</IFOUTERRORS>
+>          <IFOUTOCTETS>2179528910</IFOUTOCTETS>
+>          <IFSPEED>4294967295</IFSPEED>
+>          <IFSTATUS>1</IFSTATUS>
+>          <IFTYPE>53</IFTYPE>
+>          <MAC>c4:64:13:8c:7e:b5</MAC>
+>        </PORT>
+
+so add 
+
+>          <AGGREGATE>
+>            <PORT>10001</PORT>
+>            <PORT>10002</PORT>
+>          </AGGREGATE>
+
+where 10001 is the physical networkport index number
+
+
 ## Cisco
 
 See <http://forge.fusioninventory.org/issues/84#note-8>
