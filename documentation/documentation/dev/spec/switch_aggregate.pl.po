@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2013-07-07 17:19+0000\n"
+"POT-Creation-Date: 2013-07-07 17:20+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -27,7 +27,7 @@ msgid "Cisco"
 msgstr ""
 
 #. type: Plain text
-msgid "See http://forge.fusioninventory.org/issues/84#note-8"
+msgid "See <http://forge.fusioninventory.org/issues/84#note-8>"
 msgstr ""
 
 #. type: Title ##
@@ -69,7 +69,7 @@ msgstr ""
 
 #. type: Title ###
 #, no-wrap
-msgid "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;List of physical ports and get on which aggregate port is connecter"
+msgid "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;List of physical ports and get on which aggregate port is connected"
 msgstr ""
 
 #. type: Plain text
