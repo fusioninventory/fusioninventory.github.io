@@ -22,6 +22,7 @@ See http://forge.fusioninventory.org/issues/84#note-8
 ### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;List of physical ports and get on which aggregate port is connecter
 
 >.1.2.840.10006.300.43.1.2.1.1.13.29 = INTEGER: 33
+
 >.1.2.840.10006.300.43.1.2.1.1.13.30 = INTEGER: 33
 
 So port Bridge-Aggregation1 is an aggregate of ports Ten-GigabitEthernet1/0/23 & Ten-GigabitEthernet1/0/24
