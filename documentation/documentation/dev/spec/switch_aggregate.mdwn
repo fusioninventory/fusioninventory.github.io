@@ -2,6 +2,7 @@
 
 ## Cisco
 
+See http://forge.fusioninventory.org/issues/84#note-8
 
 ## HP
 
