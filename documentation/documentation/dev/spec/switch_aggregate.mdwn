@@ -2,7 +2,7 @@
 
 ## Cisco
 
-See http://forge.fusioninventory.org/issues/84#note-8
+See <http://forge.fusioninventory.org/issues/84#note-8>
 
 ## HP
 
@@ -19,7 +19,7 @@ See http://forge.fusioninventory.org/issues/84#note-8
 
 > .1.3.6.1.2.1.2.2.1.3.33 = INTEGER: ieee8023adLag(161)
 
-### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;List of physical ports and get on which aggregate port is connecter
+### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;List of physical ports and get on which aggregate port is connected
 
 >.1.2.840.10006.300.43.1.2.1.1.13.29 = INTEGER: 33
 
