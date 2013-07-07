@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2013-07-07 17:20+0000\n"
+"POT-Creation-Date: 2013-07-07 17:38+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -19,6 +19,52 @@ msgstr ""
 #. type: Title #
 #, no-wrap
 msgid "Specs for get aggregate ports of switch ports"
+msgstr ""
+
+#. type: Plain text
+msgid "In agent, have these new nodes for networkports :"
+msgstr ""
+
+#. type: Plain text
+#, no-wrap
+msgid ""
+">        <PORT>\n"
+">          <AGGREGATE>\n"
+">            <PORT>10001</PORT>\n"
+">            <PORT>10002</PORT>\n"
+">          </AGGREGATE>\n"
+">          <IFDESCR>Port-channel10</IFDESCR>\n"
+">          <IFINERRORS>0</IFINERRORS>\n"
+">          <IFINOCTETS>1076823325</IFINOCTETS>\n"
+">          <IFINTERNALSTATUS>1</IFINTERNALSTATUS>\n"
+">          <IFLASTCHANGE>15 days, 23:20:53.24</IFLASTCHANGE>\n"
+">          <IFMTU>1500</IFMTU>\n"
+">          <IFNAME>Po10</IFNAME>\n"
+">          <IFNUMBER>5010</IFNUMBER>\n"
+">          <IFOUTERRORS>0</IFOUTERRORS>\n"
+">          <IFOUTOCTETS>2179528910</IFOUTOCTETS>\n"
+">          <IFSPEED>4294967295</IFSPEED>\n"
+">          <IFSTATUS>1</IFSTATUS>\n"
+">          <IFTYPE>53</IFTYPE>\n"
+">          <MAC>c4:64:13:8c:7e:b5</MAC>\n"
+">        </PORT>\n"
+msgstr ""
+
+#. type: Plain text
+msgid "so add"
+msgstr ""
+
+#. type: Plain text
+#, no-wrap
+msgid ""
+">          <AGGREGATE>\n"
+">            <PORT>10001</PORT>\n"
+">            <PORT>10002</PORT>\n"
+">          </AGGREGATE>\n"
+msgstr ""
+
+#. type: Plain text
+msgid "where 10001 is the physical networkport index number"
 msgstr ""
 
 #. type: Title ##
