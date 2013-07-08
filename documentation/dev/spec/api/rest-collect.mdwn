@@ -44,7 +44,6 @@ path can finish with a wildcare, in such case, all the key/value of the current 
     [
        {
           "function" : "findFile",
-          "command" : "route",
           "limit" : 5, # Number of entry to look for, default is 50
           "recursive" : 0,
           "filter" : // filter and its content is optional
@@ -70,6 +69,7 @@ path can finish with a wildcare, in such case, all the key/value of the current 
     [
        {
           "function" : "runCommand",
+          "command" : "route",
           "dir" : "c:/", # Where to run the command
           "uuid" : xxxx3,
           "filter" : { (optional)
