@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2013-01-30 10:07+0000\n"
+"POT-Creation-Date: 2013-07-10 08:29+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -22,7 +22,8 @@ msgid "API-REST-collect"
 msgstr ""
 
 #. type: Plain text
-msgid "Protocol specification used to collect specific information on a machine."
+msgid ""
+"Protocol specification used to collect specific information on a machine."
 msgstr ""
 
 #. type: Title ##
@@ -61,8 +62,7 @@ msgid ""
 "       {\n"
 "          \"function\" : \"getFromRegistry\",\n"
 "          \"64bit\" : 0, // not implemented yet\n"
-"          \"path\" : "
-"\"HKEY_LOCAL_MACHINE/SYSTEM/CurrentControlSet/Control/Session Manager\",\n"
+"          \"path\" : \"HKEY_LOCAL_MACHINE/SYSTEM/CurrentControlSet/Control/Session Manager\",\n"
 "          \"uuid\" : xxxx1\n"
 "       }\n"
 "    ]\n"
@@ -85,11 +85,9 @@ msgid ""
 "    [\n"
 "       {\n"
 "          \"function\" : \"getFromWMI\",\n"
-"          \"moniker\" : \"foobar\" // default is "
-"winmgmts:{impersonationLevel=impersonate,(security)}!//./\n"
+"          \"moniker\" : \"foobar\" // default is winmgmts:{impersonationLevel=impersonate,(security)}!//./\n"
 "          \"class\" : \"Win32_Keyboard\",\n"
-"          \"properties\" : [ \"Name\", \"Caption\", \"Manufacturer\", "
-"\"Description\", \"Layout\" ],\n"
+"          \"properties\" : [ \"Name\", \"Caption\", \"Manufacturer\", \"Description\", \"Layout\" ],\n"
 "          \"uuid\" : xxxx3\n"
 "       }\n"
 "    ]\n"
@@ -106,13 +104,11 @@ msgid ""
 "    [\n"
 "       {\n"
 "          \"function\" : \"findFile\",\n"
-"          \"command\" : \"route\",\n"
 "          \"limit\" : 5, # Number of entry to look for, default is 50\n"
 "          \"recursive\" : 0,\n"
 "          \"filter\" : // filter and its content is optional\n"
 "              {\n"
-"                          \"regex\" : \"\\d{4}\\.bmp$\",// regex done on the "
-"full path\n"
+"                          \"regex\" : \"\\d{4}\\.bmp$\",// regex done on the full path\n"
 "                          \"sizeEquals\" : \"445635\",\n"
 "                          \"sizeGreater\" : \"432455\",\n"
 "                          \"sizeLower\" : \"454545\",\n"
@@ -131,6 +127,40 @@ msgstr ""
 
 #. type: Plain text
 #, no-wrap
+msgid "*getFile* **[not implemented]**\n"
+msgstr ""
+
+#. type: Plain text
+#, no-wrap
+msgid ""
+"    [\n"
+"        {\n"
+"            \"function\" : \"getFile\",\n"
+"            \"path\" : \"/tmp/foobar.txt\",\n"
+"            \"stat\" : 1, # get file statistics\n"
+"            \"sizemax\" : 500, # limit size in octects\n"
+"        }\n"
+"    ]\n"
+msgstr ""
+
+#. type: Plain text
+#, no-wrap
+msgid "*getFileStat* **[not implemented]**\n"
+msgstr ""
+
+#. type: Plain text
+#, no-wrap
+msgid ""
+"    [\n"
+"        {\n"
+"            \"function\" : \"getFile\",\n"
+"            \"path\" : \"/tmp/foobar.txt\",\n"
+"        }\n"
+"    ]\n"
+msgstr ""
+
+#. type: Plain text
+#, no-wrap
 msgid "*runCommand*\n"
 msgstr ""
 
@@ -140,11 +170,11 @@ msgid ""
 "    [\n"
 "       {\n"
 "          \"function\" : \"runCommand\",\n"
+"          \"command\" : \"route\",\n"
 "          \"dir\" : \"c:/\", # Where to run the command\n"
 "          \"uuid\" : xxxx3,\n"
 "          \"filter\" : { (optional)\n"
-"              \"firstMatch\" : \"(eth\\d+)\", // or (the first match for a "
-"regex)\n"
+"              \"firstMatch\" : \"(eth\\d+)\", // or (the first match for a regex)\n"
 "              \"firstLine\" : \"1\", // or (the first line)\n"
 "              \"lineCount\" : 1 // the number of lines\n"
 "          }\n"
@@ -231,4 +261,47 @@ msgstr ""
 
 #. type: Bullet: '* '
 msgid "uuid: \"drf\""
+msgstr ""
+
+#. type: Title ###
+#, no-wrap
+msgid "getFile"
+msgstr ""
+
+#. type: Bullet: '* '
+msgid "output: <file contents>"
+msgstr ""
+
+#. type: Plain text
+#, no-wrap
+msgid "* errorMsg: \"\"      # if any\n"
+msgstr ""
+
+#. type: Title ###
+#, no-wrap
+msgid "getFileStat"
+msgstr ""
+
+#. type: Bullet: '* '
+msgid "output:"
+msgstr ""
+
+#. type: Plain text
+#, no-wrap
+msgid ""
+"      0 dev      device number of filesystem\n"
+"      1 ino      inode number\n"
+"      2 mode     file mode  (type and permissions)\n"
+"      3 nlink    number of (hard) links to the file\n"
+"      4 uid      numeric user ID of file's owner\n"
+"      5 gid      numeric group ID of file's owner\n"
+"      6 rdev     the device identifier (special files only)\n"
+"      7 size     total size of file, in bytes\n"
+"      8 atime    last access time in seconds since the epoch\n"
+"      9 mtime    last modify time in seconds since the epoch\n"
+"      10 ctime    inode change time in seconds since the epoch (*)\n"
+"      11 blksize  preferred I/O size in bytes for interacting with the\n"
+"                 file (may vary from file to file)\n"
+"      12 blocks   actual number of system-specific blocks allocated\n"
+"                 on disk (often, but not always, 512 bytes each)\n"
 msgstr ""
