@@ -71,7 +71,7 @@ path can finish with a wildcare, in such case, all the key/value of the current 
        {
           "function" : "runCommand",
           "dir" : "c:/", # Where to run the command
-          "uuid" : xxxx3,
+          "uuid" : "xxxx3",
           "filter" : { (optional)
               "firstMatch" : "(eth\d+)", // or (the first match for a regex)
               "firstLine" : "1", // or (the first line)
