@@ -159,7 +159,12 @@ msgid "Install snmpwalk"
 msgstr ""
 
 #. type: Plain text
-msgid "Debian/Ubuntu:"
+msgid "Debian:"
+msgstr "Please follow the Debian wiki, as you will need the MIBs."
+"[[!debwiki SNMP]]"
+
+#. type: Plain text
+msgid "Ubuntu:"
 msgstr ""
 
 #. type: Plain text
