@@ -404,7 +404,7 @@ msgid "list: a list of directory to create"
 msgstr ""
 
 #. type: Plain text
-msgid "h5. installPkg (draft/not implementaire)"
+msgid "h5. installPkg (draft/not implemented)"
 msgstr ""
 
 #. type: Bullet: '* '
