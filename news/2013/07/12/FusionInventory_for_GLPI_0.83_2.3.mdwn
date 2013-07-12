@@ -1,9 +1,10 @@
 [[!meta  date="2013-07-12"]]
+[[!meta title="Plugin FusionInventory for GLPI 0.83+2.3 is available (maintenance version)"]]
 This maintenance version fix only problems, and is comptabible with
 0.83.3 > GLPI < 0.84
 
 For upgrade, see this documentation page:
-http://www.fusioninventory.org/documentation/fi4g/installation/
+<http://www.fusioninventory.org/documentation/fi4g/installation/>
 
 This version fix: 
 
@@ -18,7 +19,7 @@ This version fix:
 * problem on automatic transfer entity for computer
 * enhance creation of SNMP model (with community tool)
 
-See all tickets here: http://forge.fusioninventory.org/versions/157
+See all tickets here: <http://forge.fusioninventory.org/versions/157>
 
 To download, get it here:
-http://forge.fusioninventory.org/attachments/download/1001/fusioninventory-for-glpi-metapackage_0.83%202.3.tar.gz 
+<http://forge.fusioninventory.org/attachments/download/1001/fusioninventory-for-glpi-metapackage_0.83%202.3.tar.gz>
