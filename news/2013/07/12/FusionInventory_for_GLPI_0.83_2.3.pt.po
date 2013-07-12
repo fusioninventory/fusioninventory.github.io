@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2013-07-12 12:30+0000\n"
+"POT-Creation-Date: 2013-07-12 12:34+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -23,6 +23,11 @@ msgstr ""
 
 #. type: Plain text
 #, no-wrap
+msgid "[[!meta title=\"Plugin FusionInventory for GLPI 0.83+2.3 is available (maintenance version)\"]]\n"
+msgstr ""
+
+#. type: Plain text
+#, no-wrap
 msgid ""
 "This maintenance version fix only problems, and is comptabible with\n"
 "0.83.3 > GLPI < 0.84\n"
@@ -30,8 +35,8 @@ msgstr ""
 
 #. type: Plain text
 msgid ""
-"For upgrade, see this documentation page: "
-"http://www.fusioninventory.org/documentation/fi4g/installation/"
+"For upgrade, see this documentation page: <http://www.fusioninventory.org/"
+"documentation/fi4g/installation/>"
 msgstr ""
 
 #. type: Plain text
@@ -77,11 +82,11 @@ msgid "enhance creation of SNMP model (with community tool)"
 msgstr ""
 
 #. type: Plain text
-msgid "See all tickets here: http://forge.fusioninventory.org/versions/157"
+msgid "See all tickets here: <http://forge.fusioninventory.org/versions/157>"
 msgstr ""
 
 #. type: Plain text
 msgid ""
-"To download, get it here: "
-"http://forge.fusioninventory.org/attachments/download/1001/fusioninventory-for-glpi-metapackage_0.83%202.3.tar.gz"
+"To download, get it here: <http://forge.fusioninventory.org/attachments/"
+"download/1001/fusioninventory-for-glpi-metapackage_0.83%202.3.tar.gz>"
 msgstr ""
