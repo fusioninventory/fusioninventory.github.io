@@ -1,7 +1,7 @@
 [[!meta  date="2013-07-12"]]
 [[!meta title="Plugin FusionInventory for GLPI 0.83+2.3 is available (maintenance version)"]]
 This maintenance version comes with no new feature. It only fixes various problem.
-This release is comptabible with GLPI greater than 0.83.3 up to 0.84.
+This release is comptabible with GLPI greater than 0.83.3 and up to 0.84.
 
 If you already test GLPI 0.84, you can help [[us to debug the future stable release|news/2013/02/12/Plugin_FusionInventory_0.84+1.0_beta-test_bug_hunter]].
 
