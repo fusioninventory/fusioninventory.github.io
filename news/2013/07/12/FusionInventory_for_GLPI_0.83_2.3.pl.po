@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2013-07-12 12:44+0000\n"
+"POT-Creation-Date: 2013-07-12 12:46+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -29,15 +29,15 @@ msgstr ""
 #. type: Plain text
 msgid ""
 "This maintenance version comes with no new feature. It only fixes various "
-"problem.  This release is comptabible with GLPI greater than 0.83.3 up to "
-"0.84."
+"problem.  This release is comptabible with GLPI greater than 0.83.3 and up "
+"to 0.84."
 msgstr ""
 
 #. type: Plain text
 msgid ""
-"If you already test GLPI 0.84, you can help [[news/2013/02/12/"
-"Plugin_FusionInventory_0.84+1.0_beta-test_bug_hunter|us to debug the future "
-"stable release]]."
+"If you already test GLPI 0.84, you can help [[us to debug the future stable "
+"release|news/2013/02/12/Plugin_FusionInventory_0.84+1.0_beta-"
+"test_bug_hunter]]."
 msgstr ""
 
 #. type: Plain text
