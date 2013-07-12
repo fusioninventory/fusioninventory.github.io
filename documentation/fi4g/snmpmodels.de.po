@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2013-02-22 11:32+0000\n"
+"POT-Creation-Date: 2013-07-12 09:12+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -158,8 +158,33 @@ msgstr ""
 msgid "Install snmpwalk"
 msgstr ""
 
+#. type: Title ##
+#, no-wrap
+msgid "Debian"
+msgstr ""
+
 #. type: Plain text
-msgid "Debian/Ubuntu:"
+msgid ""
+"As the MIBs are not DFSG free, you will need to follow the instrutions from "
+"the debian wiki : [[!debwiki SNMP]]."
+msgstr ""
+
+#. type: Plain text
+msgid "For Debian 7 (wheezy) :"
+msgstr ""
+
+#. type: Plain text
+#, no-wrap
+msgid "    # aptitude install snmp snmp-mibs-downloader\n"
+msgstr ""
+
+#. type: Plain text
+msgid "and comment out the line \"mibs:\" in /etc/snmp/snmp.conf."
+msgstr ""
+
+#. type: Title ##
+#, no-wrap
+msgid "Ubuntu:"
 msgstr ""
 
 #. type: Plain text
@@ -167,7 +192,8 @@ msgstr ""
 msgid "    # apt-get install snmp\n"
 msgstr ""
 
-#. type: Plain text
+#. type: Title ##
+#, no-wrap
 msgid "RHEL/CentOS/SL/Fedora:"
 msgstr ""
 
