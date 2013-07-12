@@ -61,11 +61,21 @@ You need 2 things for using this tool:
 
 # Install snmpwalk
 
-Debian/Ubuntu:
+## Debian
+
+As the MIBs are not DFSG free, you will need to follow the instrutions from the debian wiki : [[!debwiki SNMP]].
+
+For Debian 7 (wheezy) :
+
+    # aptitude install snmp snmp-mibs-downloader
+
+and comment out the line "mibs:" in /etc/snmp/snmp.conf.
+
+## Ubuntu:
 
     # apt-get install snmp
 
-RHEL/CentOS/SL/Fedora:
+## RHEL/CentOS/SL/Fedora:
 
     # yum install net-snmp-utils
 
