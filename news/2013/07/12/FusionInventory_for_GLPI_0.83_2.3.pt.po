@@ -1,0 +1,87 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2013-07-12 12:30+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. type: Plain text
+#, no-wrap
+msgid "[[!meta  date=\"2013-07-12\"]]\n"
+msgstr ""
+
+#. type: Plain text
+#, no-wrap
+msgid ""
+"This maintenance version fix only problems, and is comptabible with\n"
+"0.83.3 > GLPI < 0.84\n"
+msgstr ""
+
+#. type: Plain text
+msgid ""
+"For upgrade, see this documentation page: "
+"http://www.fusioninventory.org/documentation/fi4g/installation/"
+msgstr ""
+
+#. type: Plain text
+msgid "This version fix:"
+msgstr ""
+
+#. type: Bullet: '* '
+msgid "task and taskjob name cutted when have ' in the name"
+msgstr ""
+
+#. type: Bullet: '* '
+msgid "compatibility with last version of manufacturer plugin"
+msgstr ""
+
+#. type: Bullet: '* '
+msgid "fix css problem in due date of the GLPI tickets"
+msgstr ""
+
+#. type: Bullet: '* '
+msgid "fix error on upgrade plugin"
+msgstr ""
+
+#. type: Bullet: '* '
+msgid "fix right problem on computer groups"
+msgstr ""
+
+#. type: Bullet: '* '
+msgid "fix duplicated fields in general config of SNMP (keep SNMP history)"
+msgstr ""
+
+#. type: Bullet: '* '
+msgid ""
+"manage virtual networkport card of computer and switch connection try to "
+"connect first the physical card instead the virtual."
+msgstr ""
+
+#. type: Bullet: '* '
+msgid "problem on automatic transfer entity for computer"
+msgstr ""
+
+#. type: Bullet: '* '
+msgid "enhance creation of SNMP model (with community tool)"
+msgstr ""
+
+#. type: Plain text
+msgid "See all tickets here: http://forge.fusioninventory.org/versions/157"
+msgstr ""
+
+#. type: Plain text
+msgid ""
+"To download, get it here: "
+"http://forge.fusioninventory.org/attachments/download/1001/fusioninventory-for-glpi-metapackage_0.83%202.3.tar.gz"
+msgstr ""
