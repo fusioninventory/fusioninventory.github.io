@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2013-07-12 12:34+0000\n"
+"POT-Creation-Date: 2013-07-12 12:44+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -27,32 +27,41 @@ msgid "[[!meta title=\"Plugin FusionInventory for GLPI 0.83+2.3 is available (ma
 msgstr ""
 
 #. type: Plain text
-#, no-wrap
 msgid ""
-"This maintenance version fix only problems, and is comptabible with\n"
-"0.83.3 > GLPI < 0.84\n"
+"This maintenance version comes with no new feature. It only fixes various "
+"problem.  This release is comptabible with GLPI greater than 0.83.3 up to "
+"0.84."
 msgstr ""
 
 #. type: Plain text
 msgid ""
-"For upgrade, see this documentation page: <http://www.fusioninventory.org/"
+"If you already test GLPI 0.84, you can help [[news/2013/02/12/"
+"Plugin_FusionInventory_0.84+1.0_beta-test_bug_hunter|us to debug the future "
+"stable release]]."
+msgstr ""
+
+#. type: Plain text
+msgid ""
+"As usual, the upgrade process is documented. Please take 5 minutes of your "
+"time to read the documentation first: <http://www.fusioninventory.org/"
 "documentation/fi4g/installation/>"
 msgstr ""
 
 #. type: Plain text
-msgid "This version fix:"
+msgid "This version fixes:"
 msgstr ""
 
 #. type: Bullet: '* '
-msgid "task and taskjob name cutted when have ' in the name"
+msgid ""
+"task and taskjob name cutted when the ' character is present in the name"
 msgstr ""
 
 #. type: Bullet: '* '
-msgid "compatibility with last version of manufacturer plugin"
+msgid "compatibility with last version of the _manufacturer plugin_"
 msgstr ""
 
 #. type: Bullet: '* '
-msgid "fix css problem in due date of the GLPI tickets"
+msgid "fix CSS problem in due date of the GLPI tickets"
 msgstr ""
 
 #. type: Bullet: '* '
@@ -70,15 +79,15 @@ msgstr ""
 #. type: Bullet: '* '
 msgid ""
 "manage virtual networkport card of computer and switch connection try to "
-"connect first the physical card instead the virtual."
+"connect first the physical card instead of the virtual."
 msgstr ""
 
 #. type: Bullet: '* '
-msgid "problem on automatic transfer entity for computer"
+msgid "problem during automatic entity transfer entity (Computer)"
 msgstr ""
 
 #. type: Bullet: '* '
-msgid "enhance creation of SNMP model (with community tool)"
+msgid "enhance SNMP model creation tool (with community tool)"
 msgstr ""
 
 #. type: Plain text
@@ -87,6 +96,6 @@ msgstr ""
 
 #. type: Plain text
 msgid ""
-"To download, get it here: <http://forge.fusioninventory.org/attachments/"
+"You can download it here: <http://forge.fusioninventory.org/attachments/"
 "download/1001/fusioninventory-for-glpi-metapackage_0.83%202.3.tar.gz>"
 msgstr ""
