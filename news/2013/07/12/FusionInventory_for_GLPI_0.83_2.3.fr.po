@@ -19,12 +19,12 @@ msgstr ""
 #. type: Plain text
 #, no-wrap
 msgid "[[!meta  date=\"2013-07-12\"]]\n"
-msgstr ""
+msgstr "[[!meta  date=\"2013-07-12\"]]\n"
 
 #. type: Plain text
 #, no-wrap
 msgid "[[!meta title=\"Plugin FusionInventory for GLPI 0.83+2.3 is available (maintenance version)\"]]\n"
-msgstr ""
+msgstr "[[!meta title=\"Plugin FusionInventory for GLPI 0.83+2.3 est disponible (version de maintenance)\"]]\n"
 
 #. type: Plain text
 msgid ""
@@ -32,6 +32,9 @@ msgid ""
 "problem.  This release is comptabible with GLPI greater than 0.83.3 and up "
 "to 0.84."
 msgstr ""
+"Cette version de maintenance n'apporte aucune nouveauté. Elle corrige "
+"différents problèmes. Cette version est compatible avec la version de GLPI 0.83.3 "
+"et supérieur jusqu'à 0.84."
 
 #. type: Plain text
 msgid ""
@@ -39,6 +42,9 @@ msgid ""
 "release|news/2013/02/12/Plugin_FusionInventory_0.84+1.0_beta-"
 "test_bug_hunter]]."
 msgstr ""
+"Si vous testez GLPI 0.84, vous pouvez nous aider [[ à débuger la future version "
+"stable de FusionInventory For GLPI|news/2013/02/12/Plugin_FusionInventory_0.84+1.0_beta-"
+"test_bug_hunter]]."
 
 #. type: Plain text
 msgid ""
@@ -46,56 +52,64 @@ msgid ""
 "time to read the documentation first: <http://www.fusioninventory.org/"
 "documentation/fi4g/installation/>"
 msgstr ""
+"Comme d'habitude, la mise à niveau est documenté. SVP prenez 5 minutes de votre "
+"temps pour lire la documentation :  <http://www.fusioninventory.org/"
+"documentation/fi4g/installation/>"
 
 #. type: Plain text
 msgid "This version fixes:"
-msgstr ""
+msgstr "Cette version corrige:"
 
 #. type: Bullet: '* '
 msgid ""
 "task and taskjob name cutted when the ' character is present in the name"
 msgstr ""
+"Nom de tâche et de tâche de travail coupé quand le caractère ' est présent dans le nom"
 
 #. type: Bullet: '* '
 msgid "compatibility with last version of the _manufacturer plugin_"
-msgstr ""
+msgstr "Compatibilité avec la dernière version du _plugin manufacturer_"
 
 #. type: Bullet: '* '
 msgid "fix CSS problem in due date of the GLPI tickets"
-msgstr ""
+msgstr "Corrige le problème de CSS dans la date d'échéance des tickets GLPI"
 
 #. type: Bullet: '* '
 msgid "fix error on upgrade plugin"
-msgstr ""
+msgstr "Corrige l'erreur lors de la mise à niveau du plugin"
 
 #. type: Bullet: '* '
 msgid "fix right problem on computer groups"
-msgstr ""
+msgstr "Corrige le problème de droit sur les groupes d'ordinateur"
 
 #. type: Bullet: '* '
 msgid "fix duplicated fields in general config of SNMP (keep SNMP history)"
-msgstr ""
+msgstr "Corrige les champs dupliqués dans la configuration générale de SNMP (keep SNMP history)"
 
 #. type: Bullet: '* '
 msgid ""
 "manage virtual networkport card of computer and switch connection try to "
 "connect first the physical card instead of the virtual."
 msgstr ""
+"Gestion du port réseau virtuel de l'ordinateur et l'essaie de connexion du switch "
+"à la première carte physique à la place du port virtuel"
 
 #. type: Bullet: '* '
 msgid "problem during automatic entity transfer entity (Computer)"
-msgstr ""
+msgstr "Problème pendant le transfert automatique entre entité (Ordinateur)"
 
 #. type: Bullet: '* '
 msgid "enhance SNMP model creation tool (with community tool)"
-msgstr ""
+msgstr "Amélioration de l'outil de création de modèle SNMP (avec l'outil communautaire)"
 
 #. type: Plain text
 msgid "See all tickets here: <http://forge.fusioninventory.org/versions/157>"
-msgstr ""
+msgstr "Reportez vous aux tickets ici :<http://forge.fusioninventory.org/versions/157>"
 
 #. type: Plain text
 msgid ""
 "You can download it here: <http://forge.fusioninventory.org/attachments/"
 "download/1001/fusioninventory-for-glpi-metapackage_0.83%202.3.tar.gz>"
 msgstr ""
+"Vous pouvez la télécharger ici :<http://forge.fusioninventory.org/attachments/"
+"download/1001/fusioninventory-for-glpi-metapackage_0.83%202.3.tar.gz>"
