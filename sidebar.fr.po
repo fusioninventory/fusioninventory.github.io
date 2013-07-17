@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2013-01-11 14:06+0000\n"
+"POT-Creation-Date: 2013-07-17 09:05+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -33,8 +33,10 @@ msgid "[[<i class=\"icon-book\"></i>Doc|documentation]]"
 msgstr ""
 
 #. type: Bullet: '* '
-msgid "[[<i class=\"icon-wrench\"></i>Resources|resources]]"
-msgstr ""
+#, fuzzy
+#| msgid "[[<i class=\"icon-picture\"></i>Screenshots|screenshots]]"
+msgid "[[<i class=\"icon-wrench\"></i>Contact|resources]]"
+msgstr "[[<i class=\"icon-picture\"></i>Captures d'écran|screenshots]]"
 
 #. type: Bullet: '* '
 msgid "**[[<i class=\"icon-download-alt\"></i>GET IT!|get]]**"
