@@ -234,7 +234,7 @@ msgid ""
 "the process by yourself."
 msgstr ""
 "Dans quelques rares cas, ce ne sera pas suffisant pour arrêter "
-"l'agent. Vous devez tuer le processus avec cette commande:" 
+"l'agent. Vous devez tuer le processus avec cette commande:"
 
 #. type: Plain text
 #, no-wrap
