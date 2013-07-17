@@ -41,12 +41,10 @@ msgstr ""
 "La plupart des paramètres de configuration ont une seule valeur. Pour ceux ayant "
 " plusieurs valeurs, utiliser le séparateur de champ «virgules». Par exemple, logger = Stderr,File"
 
-
 #. type: Title ##
 #, no-wrap
 msgid "Where is the configuration?"
 msgstr "Où trouver ce fichier de configuration ?"
-
 
 #. type: Plain text
 msgid ""
