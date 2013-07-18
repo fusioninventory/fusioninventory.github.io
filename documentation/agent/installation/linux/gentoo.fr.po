@@ -37,19 +37,14 @@ msgid "Required Ebuilds:"
 msgstr "Fichiers .ebuild requis :"
 
 #. type: Plain text
-#, fuzzy
-#| msgid ""
-#| "- app-admin/fusioninventory-agent, a minimal version is provided as "
-#| "attachment, - dev-perl/XML-TreePP, from the [Gentoo Perl Overlay](http://"
-#| "www.gentoo.org/proj/en/perl/)."
 msgid ""
 "- app-admin/fusioninventory-agent, a minimal version is provided in the "
 "[forum](http://forums.gentoo.org/viewtopic-p-7351720.html#7351720), - dev-"
 "perl/XML-TreePP, from the [Gentoo Perl Overlay](http://www.gentoo.org/proj/"
 "en/perl/)."
 msgstr ""
-"- app-admin/fusioninventory-agent, une version minimale est fournie en pièce "
-"jointe,\n"
+"- app-admin/fusioninventory-agent, une version minimale est fournie dans "
+"le [forum](http://forums.gentoo.org/viewtopic-p-7351720.html#7351720),\n"
 "- dev-perl/XML-TreePP, de [Gentoo Perl Overlay](http://www.gentoo.org/proj/"
 "en/perl/)."
 
