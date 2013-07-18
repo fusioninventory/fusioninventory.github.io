@@ -58,26 +58,26 @@ msgstr ""
 
 #. type: Bullet: '* '
 msgid "`/etc/fusioninventory/agent.cfg`: default"
-msgstr "`/etc/fusioninventory/agent.cfg`: par défaut"
+msgstr "`/etc/fusioninventory/agent.cfg` : par défaut"
 
 #. type: Bullet: '* '
 msgid "`/opt/fusioninventory/agent.cfg`: MacOSx mpkg"
-msgstr "`/opt/fusioninventory/agent.cfg`: agent MacOSx"
+msgstr "`/opt/fusioninventory/agent.cfg` : agent MacOSx"
 
 #. type: Bullet: '* '
 msgid "`/usr/local/etc/fusioninventory/agent.cfg`: FreeBSD port"
-msgstr "`/usr/local/etc/fusioninventory/agent.cfg`: port FreeBSD "
+msgstr "`/usr/local/etc/fusioninventory/agent.cfg` : port FreeBSD "
 
 #. type: Bullet: '* '
 msgid "`HKEY_LOCAL_MACHINE\\SOFTWARE\\FusionInventory-Agent`: Windows"
-msgstr "`HKEY_LOCAL_MACHINE\\SOFTWARE\\FusionInventory-Agent`: pour Windows"
+msgstr "`HKEY_LOCAL_MACHINE\\SOFTWARE\\FusionInventory-Agent` : pour Windows"
 
 #. type: Bullet: '* '
 msgid ""
 "`HKEY_LOCAL_MACHINE\\SOFTWARE\\Wow6432Node\\FusionInventory-Agent`: Windows "
 "64 bits"
 msgstr ""
-"`HKEY_LOCAL_MACHINE\\SOFTWARE\\Wow6432Node\\FusionInventory-Agent`: pour "
+"`HKEY_LOCAL_MACHINE\\SOFTWARE\\Wow6432Node\\FusionInventory-Agent` : pour "
 "Windows 64 bits"
 
 #. type: Title ##
@@ -89,18 +89,18 @@ msgstr "Configuration minimale"
 msgid ""
 "The only minimal requirement is an execution target, which can be either:"
 msgstr ""
-"Le seule paramètre minimal est une cible d'exécution, qui peut être soit:"
+"Le seul paramètre minimal est une cible d'exécution, qui peut être soit :"
 
 #. type: Bullet: '* '
 msgid ""
 "`server`: a server URL, such as http://glpiserver/plugins/fusioninventory/"
 msgstr ""
-"`server`: URL du serveur, en général, cela ressemble à http://glpiserver/"
+"`server` : URL du serveur, en général, cela ressemble à http://glpiserver/"
 "glpi/plugins/fusioninventory/"
 
 #. type: Bullet: '* '
 msgid "`local`: a output directory, such /tmp/inventory"
-msgstr "`local`: un dossier cible, comme /tmp/dossier"
+msgstr "`local` : un dossier cible, comme /tmp/dossier"
 
 #. type: Title ##
 msgid "Additional configuration"
@@ -112,18 +112,18 @@ msgid ""
 "additional parameters:"
 msgstr ""
 "Si vous avez l'intention d'exécuter l'agent en arrière-plan, "
-"vous devrez définir les paramètres supplémentaires:"
+"vous devrez définir les paramètres supplémentaires :"
 
 #. type: Bullet: '* '
 msgid "`debug`: 0, 1 or 2, to keep trace of agent execution"
-msgstr "`debug`: 0, 1, ou 2, pour garder le log de l'exécution de l'agent"
+msgstr "`debug` : 0, 1, ou 2, pour garder le log de l'exécution de l'agent"
 
 #. type: Bullet: '* '
 msgid ""
 "`httpd-trust`: a server IP address, so as to allows it to force agent "
 "execution"
 msgstr ""
-"`httpd-trust`: une adresse IP du serveur, de manière à lui permet de forcer l'exécution de l'agent"
+"`httpd-trust` : une adresse IP du serveur, de manière à lui permet de forcer l'exécution de l'agent"
 
 #. type: Plain text
 msgid ""
@@ -144,7 +144,7 @@ msgid ""
 "reference documentation:"
 msgstr ""
 "Toutes les clés sont documentées dans la section OPTIONS de la documentation "
-"de référence de fusioninventory-agent:"
+"de référence de fusioninventory-agent :"
 
 #. type: Bullet: '* '
 msgid ""
