@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2013-01-31 21:43+0000\n"
+"POT-Creation-Date: 2013-07-18 15:11+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -27,17 +27,17 @@ msgid ""
 "distributions. However, for various constraints (maintainer availability, "
 "distribution freeze, etc...), they are not always up-to-date."
 msgstr ""
-"Pakiety z agentem FusioInventory są dostępne dla różnorodnych dystrybucji"
-"Linuksa. Jednkże, z powodu różnych ograniczeń (dostępność opiekunów,"
-"zamrożenia dystrybucji, itd...), nie zawsze są aktualne."
+"Pakiety z agentem FusioInventory są dostępne dla różnorodnych "
+"dystrybucjiLinuksa. Jednkże, z powodu różnych ograniczeń (dostępność "
+"opiekunów,zamrożenia dystrybucji, itd...), nie zawsze są aktualne."
 
 #. type: Plain text
 msgid ""
 "Installation from source, though, ensures to have the latest release, and is "
 "quite easy to achieve through a CPAN client."
 msgstr ""
-"Instalacja ze źródeł, pozwala mieć zawsze aktualną wersję, i jest "
-"łatwa do uzyskania przez klienta CPAN."
+"Instalacja ze źródeł, pozwala mieć zawsze aktualną wersję, i jest łatwa do "
+"uzyskania przez klienta CPAN."
 
 #. type: Bullet: '* '
 msgid "[[Debian and Ubuntu|documentation/agent/installation/linux/deb]]"
@@ -52,6 +52,12 @@ msgid "[[Fedora|documentation/agent/installation/linux/fedora]]"
 msgstr "[[Fedora|documentation/agent/installation/linux/fedora]]"
 
 #. type: Bullet: '* '
+#, fuzzy
+#| msgid "[[Fedora|documentation/agent/installation/linux/fedora]]"
+msgid "[[Gentoo|documentation/agent/installation/linux/gentoo]]"
+msgstr "[[Fedora|documentation/agent/installation/linux/fedora]]"
+
+#. type: Bullet: '* '
 msgid "[[Mageia and Mandriva|documentation/agent/installation/linux/mageia]]"
 msgstr "[[Mageia i Mandriva|documentation/agent/installation/linux/mageia]]"
 
@@ -62,5 +68,4 @@ msgstr "[[Żródła|documentation/agent/installation/source]]"
 #. type: Bullet: '* '
 msgid ""
 "[[Generic “prebuilt” packages|documentation/agent/installation/prebuilt]]"
-msgstr ""
-"[[Ogólne “gotowe” pakiety|documentation/agent/installation/prebuilt]]"
+msgstr "[[Ogólne “gotowe” pakiety|documentation/agent/installation/prebuilt]]"
