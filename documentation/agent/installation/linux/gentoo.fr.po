@@ -19,22 +19,22 @@ msgstr ""
 #. type: Title #
 #, no-wrap
 msgid "Installation of the Agent on Gentoo"
-msgstr ""
+msgstr "Installation de l'agent pour Gentoo"
 
 #. type: Title ##
 #, no-wrap
 msgid "Maintained Gentoo version"
-msgstr ""
+msgstr "Version maintenue pour Gentoo"
 
 #. type: Plain text
 #, no-wrap
 msgid "*fusioninventory-agent* is not yet part of the official repository.\n"
-msgstr ""
+msgstr "*fusioninventory-agent* ne fait pas encore partie du dépôt officiel.\n"
 
 #. type: Title ##
 #, no-wrap
 msgid "Required Ebuilds:"
-msgstr ""
+msgstr "Fichiers .ebuild requis :"
 
 #. type: Plain text
 msgid ""
@@ -42,24 +42,29 @@ msgid ""
 "attachment, - dev-perl/XML-TreePP, from the [Gentoo Perl "
 "Overlay](http://www.gentoo.org/proj/en/perl/)."
 msgstr ""
+"- app-admin/fusioninventory-agent, une version minimale est "
+"fournie en pièce jointe,\n- dev-perl/XML-TreePP, de [Gentoo Perl "
+"Overlay](http://www.gentoo.org/proj/en/perl/)."
 
 #. type: Title ##
 #, no-wrap
 msgid "Agent installation"
-msgstr ""
+msgstr "Installation de l'agent"
 
 #. type: Plain text
 #, no-wrap
 msgid "    # emerge app-admin/fusioninventory-agent\n"
-msgstr ""
+msgstr "    # emerge app-admin/fusioninventory-agent\n"
 
 #. type: Title ##
 #, no-wrap
 msgid "Agent configuration"
-msgstr ""
+msgstr "Configuration de l'agent"
 
 #. type: Plain text
 msgid ""
 "The configuration file is located at "
 "`/usr/local/etc/fusioninventory/agent.cfg`."
 msgstr ""
+"Le fichier de configuration se situe à"
+"`/usr/local/etc/fusioninventory/agent.cfg`."
