@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2013-07-18 15:10+0000\n"
+"POT-Creation-Date: 2013-07-18 15:26+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -38,9 +38,10 @@ msgstr ""
 
 #. type: Plain text
 msgid ""
-"- app-admin/fusioninventory-agent, a minimal version is provided as "
-"attachment, - dev-perl/XML-TreePP, from the [Gentoo Perl "
-"Overlay](http://www.gentoo.org/proj/en/perl/)."
+"- app-admin/fusioninventory-agent, a minimal version is provided in the "
+"[forum](http://forums.gentoo.org/viewtopic-p-7351720.html#7351720), - dev-"
+"perl/XML-TreePP, from the [Gentoo Perl Overlay](http://www.gentoo.org/proj/"
+"en/perl/)."
 msgstr ""
 
 #. type: Title ##
@@ -60,6 +61,6 @@ msgstr ""
 
 #. type: Plain text
 msgid ""
-"The configuration file is located at "
-"`/usr/local/etc/fusioninventory/agent.cfg`."
+"The configuration file is located at `/usr/local/etc/fusioninventory/agent."
+"cfg`."
 msgstr ""
