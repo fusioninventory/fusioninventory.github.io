@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2013-01-31 21:43+0000\n"
+"POT-Creation-Date: 2013-07-18 15:11+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -44,6 +44,10 @@ msgstr ""
 
 #. type: Bullet: '* '
 msgid "[[Fedora|documentation/agent/installation/linux/fedora]]"
+msgstr ""
+
+#. type: Bullet: '* '
+msgid "[[Gentoo|documentation/agent/installation/linux/gentoo]]"
 msgstr ""
 
 #. type: Bullet: '* '
