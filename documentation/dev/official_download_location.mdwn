@@ -33,6 +33,7 @@ We can use download.f.o or the forge.
     * can be used by debian.f.o to
 * cons
     * no downlaod counters (so far)
+    * need to define the file hierachie
     * yet another anonical download localisation
 
 ### Forge.f.o
