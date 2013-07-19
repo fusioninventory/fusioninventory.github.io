@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2013-07-19 08:57+0000\n"
+"POT-Creation-Date: 2013-07-19 09:04+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -57,20 +57,24 @@ msgstr ""
 msgid "SF.net"
 msgstr ""
 
+#. type: Plain text
+msgid "The problems :"
+msgstr ""
+
+#. type: Bullet: '* '
+msgid ""
+"Stable release can be download from various location, this is confusing."
+msgstr ""
+
+#. type: Bullet: '* '
+msgid "Development and package snapshot are publish at the same place."
+msgstr ""
+
 #. type: Title ##
 #, no-wrap
 msgid "Draft"
 msgstr ""
 
 #. type: Plain text
-msgid ""
-"http://forge.fusioninventory.org/projects/fusioninventory-agent/files that's "
-"the download URL for the agent either uploade windows installer here, or as "
-"you suggested"
-msgstr ""
-
-#. type: Plain text
-msgid ""
-"we don't publish snapshots for sources whereas you want to publish snapshots "
-"for windows installer, right ?"
+msgid "We can use download.f.o or the forge."
 msgstr ""
