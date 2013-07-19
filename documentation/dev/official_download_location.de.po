@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2013-07-19 08:52+0000\n"
+"POT-Creation-Date: 2013-07-19 08:57+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -19,6 +19,15 @@ msgstr ""
 #. type: Title #
 #, no-wrap
 msgid "Where should we publish new files"
+msgstr ""
+
+#. type: Plain text
+#, no-wrap
+msgid "** This document is for FI developers **\n"
+msgstr ""
+
+#. type: Plain text
+msgid "Please use the [[Get|get]] page to download new release."
 msgstr ""
 
 #. type: Plain text
@@ -46,4 +55,22 @@ msgstr ""
 
 #. type: Bullet: '* '
 msgid "SF.net"
+msgstr ""
+
+#. type: Title ##
+#, no-wrap
+msgid "Draft"
+msgstr ""
+
+#. type: Plain text
+msgid ""
+"http://forge.fusioninventory.org/projects/fusioninventory-agent/files that's "
+"the download URL for the agent either uploade windows installer here, or as "
+"you suggested"
+msgstr ""
+
+#. type: Plain text
+msgid ""
+"we don't publish snapshots for sources whereas you want to publish snapshots "
+"for windows installer, right ?"
 msgstr ""
