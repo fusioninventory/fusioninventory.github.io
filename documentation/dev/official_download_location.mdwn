@@ -29,6 +29,7 @@ We can use download.f.o or the forge.
 
 * pros
     * simple to manage
+    * can be used by debian.f.o to
 * cons
     * no downlaod counters (so far)
     * yet another anonical download localisation
