@@ -1,5 +1,9 @@
 # Where should we publish new files
 
+** This document is for FI developers **
+
+Please use the [[Get|get]] page to download new release.
+
 Today different places are used to publish files. This situation
 is confusing. This document present what should be done in the
 futur.
@@ -11,3 +15,9 @@ futur.
 * different projects on the forge
 * SF.net
 
+## Draft
+
+http://forge.fusioninventory.org/projects/fusioninventory-agent/files
+that's the download URL for the agent either uploade windows installer here, or as you suggested
+
+we don't publish snapshots for sources whereas you want to publish snapshots for windows installer, right ? 
