@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2013-04-10 09:38+0000\n"
+"POT-Creation-Date: 2013-07-19 08:52+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -44,6 +44,11 @@ msgstr ""
 msgid ""
 "Git: [[UNIX|documentation/agent/dev/git_unix]], [[Windows|documentation/"
 "agent/dev/git_windows]]"
+msgstr ""
+
+#. type: Bullet: '* '
+msgid ""
+"[[Official download location|documentation/dev/official_download_location]]"
 msgstr ""
 
 #. type: Title #
