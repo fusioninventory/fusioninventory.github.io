@@ -14,6 +14,7 @@ futur.
 * CPAN
 * different projects on the forge
 * SF.net
+* debian.f.o
 
 The problems :
 
@@ -23,3 +24,19 @@ The problems :
 ## Draft
 
 We can use download.f.o or the forge.
+
+### download.f.o
+
+* pros
+** simple to manage
+* cons
+** no downlaod counters (so far)
+** yet another anonical download localisation
+
+### Forge.f.o
+
+* pros
+** already partially in use
+* cons
+** complexe to use with different packages IMO (Gonéri)
+
