@@ -15,9 +15,11 @@ futur.
 * different projects on the forge
 * SF.net
 
+The problems :
+
+* Stable release can be download from various location, this is confusing.
+* Development and package snapshot are publish at the same place.
+
 ## Draft
 
-http://forge.fusioninventory.org/projects/fusioninventory-agent/files
-that's the download URL for the agent either uploade windows installer here, or as you suggested
-
-we don't publish snapshots for sources whereas you want to publish snapshots for windows installer, right ? 
+We can use download.f.o or the forge.
