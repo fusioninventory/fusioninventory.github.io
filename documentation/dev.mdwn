@@ -8,6 +8,8 @@
 * [[Source|documentation/agent/installation/source]]
 * Git: [[UNIX|documentation/agent/dev/git_unix]], [[Windows|documentation/agent/dev/git_windows]]
 
+* [[Official download location|documentation/dev/official_download_location]]
+
 # Fusion server
 
 * [[How works fusion server (SNMP tool server)|dev/fusion_server_snmp_tool]]
