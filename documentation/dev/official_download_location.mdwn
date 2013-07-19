@@ -15,6 +15,7 @@ futur.
 * different projects on the forge
 * SF.net
 * debian.f.o
+* OBS (<http://build.opensuse.org>)
 
 The problems :
 
