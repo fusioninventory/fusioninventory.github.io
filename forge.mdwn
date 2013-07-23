@@ -1,8 +1,16 @@
 # FusionInventory for developers
 
-FusionInventory is developped and maintained in a Forge: <http://forge.fusioninventory.org>
+<http://www.fusioninventory.org/> is the official web site.
 
-The git repositories are also mirrorred on Github: <https://github.com/fusinv>.
+## Development forge
+
+Developement is done on FusionInventory forge:
+<http://forge.fusioninventory.org/>.
+
+The forge includes Bugtracker, Download page, Source browser and internal Wiki.
+
+Git repositories are mirrored on [Github FusionInventory page](http://www.github.com/fusinv)
+regulary.
 
 Patches, bug reports, feedbacks and new ideas are welcome. Please just contact us directly if you want to:
 
