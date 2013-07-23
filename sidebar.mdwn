@@ -3,4 +3,5 @@
 * [[<i class="icon-picture"></i>Screenshots|screenshots]]
 * [[<i class="icon-book"></i>Doc|documentation]]
 * [[<i class="icon-wrench"></i>Contact|resources]]
+* [[<i class="icon-code-fork"></i>Forge|forge]]
 * **[[<i class="icon-download-alt"></i>GET IT!|get]]**

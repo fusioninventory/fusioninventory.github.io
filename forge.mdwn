@@ -1,0 +1,14 @@
+# FusionInventory for developers
+
+FusionInventory is developped and maintained in a Forge: <http://forge.fusioninventory.org>
+
+The git repositories are also mirrorred on Github: <https://github.com/fusinv>.
+
+Patches, bug reports, feedbacks and new ideas are welcome. Please just contact us directly if you want to:
+
+1. developer a new feature
+2. submit a bug
+
+FusionInventory developers maintain some document in the [documentation/dev|dev pages].
+
+[You can find who to contact us here|resources].
