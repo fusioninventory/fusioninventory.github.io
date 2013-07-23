@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2013-07-23 11:40+0000\n"
+"POT-Creation-Date: 2013-07-23 11:43+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -22,15 +22,30 @@ msgid "FusionInventory for developers"
 msgstr ""
 
 #. type: Plain text
-msgid ""
-"FusionInventory is developped and maintained in a Forge: "
-"<http://forge.fusioninventory.org>"
+msgid "<http://www.fusioninventory.org/> is the official web site."
+msgstr ""
+
+#. type: Title ##
+#, no-wrap
+msgid "Development forge"
 msgstr ""
 
 #. type: Plain text
 msgid ""
-"The git repositories are also mirrorred on Github: "
-"<https://github.com/fusinv>."
+"Developement is done on FusionInventory forge: <http://forge.fusioninventory."
+"org/>."
+msgstr ""
+
+#. type: Plain text
+msgid ""
+"The forge includes Bugtracker, Download page, Source browser and internal "
+"Wiki."
+msgstr ""
+
+#. type: Plain text
+msgid ""
+"Git repositories are mirrored on [Github FusionInventory page](http://www."
+"github.com/fusinv)  regulary."
 msgstr ""
 
 #. type: Plain text
@@ -49,10 +64,10 @@ msgstr ""
 
 #. type: Plain text
 msgid ""
-"FusionInventory developers maintain some document in the "
-"[documentation/dev|dev pages]."
+"FusionInventory developers maintain some document in the [[documentation/dev|"
+"dev pages]]."
 msgstr ""
 
 #. type: Plain text
-msgid "[You can find who to contact us here|resources]."
+msgid "[[You can find who to contact us here|resources]]."
 msgstr ""
