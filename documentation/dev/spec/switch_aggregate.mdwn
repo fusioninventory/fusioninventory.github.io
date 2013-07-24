@@ -35,7 +35,70 @@ where 10001 is the physical networkport index number
 
 ## Cisco
 
-See <http://forge.fusioninventory.org/issues/84#note-8>
+See: <http://www.cisco.com/en/US/docs/switches/lan/catalyst6500/ios/12.1E/native/command/reference/C1.html>
+See: <http://en.wikipedia.org/wiki/Link_Aggregation_Control_Protocol#Link_Aggregation_Control_Protocol>
+
+Ports of an aggregation:
+
+>             [5005] => Array
+>                 (
+>                     [ifdescr] => Port-channel5
+>                     [ifinerrors] => 0
+>                     [ifinoctets] => 0
+>                     [ifinternalstatus] => 1
+>                     [iflastchange] => 185 days, 09:42:08.04
+>                     [ifmtu] => 1500
+>                     [name] => Po5
+>                     [logical_number] => 5005
+>                     [ifouterrors] => 0
+>                     [speed] => 10000000
+>                     [iftatus] => 2
+>                     [iftype] => 53
+>                     [mac] => 
+>                     [trunk] => 0
+>                     [ifspeed] => 10000000
+>                 )
+
+### LACP (Link Aggregation Control Protocol)
+
+Oids to get physical ports of thie aggregation port are:
+
+> 1.2.840.10006.300.43.1.1.1.1.6
+
+result:
+
+> 1.2.840.10006.300.43.1.1.1.1.6.5005 = INTEGER: 65
+
+and oid
+
+> 1.2.840.10006.300.43.1.2.1.1.4
+
+result:
+
+> 1.2.840.10006.300.43.1.2.1.1.4.10017 = INTEGER: 0
+> 1.2.840.10006.300.43.1.2.1.1.4.10018 = INTEGER: 5
+> 1.2.840.10006.300.43.1.2.1.1.4.10019
+>  = INTEGER: 5
+
+
+### Cisco own protocol PAgP (Port Aggregation Protocol) 
+
+> 1.3.6.1.4.1.9.9.98.1.1.1.1.5
+
+result: 
+
+> 1.3.6.1.4.1.9.9.98.1.1.1.1.5.10016 = INTEGER: 4
+> 1.3.6.1.4.1.9.9.98.1.1.1.1.5.10017 = INTEGER: 4
+> 1.3.6.1.4.1.9.9.98.1.1.1.1.5.10018 = INTEGER: 0
+> 1.3.6.1.4.1.9.9.98.1.1.1.1.5.10019 = INTEGER: 0
+> 1.3.6.1.4.1.9.9.98.1.1.1.1.5.10020 = INTEGER: 6
+> 1.3.6.1.4.1.9.9.98.1.1.1.1.5.10021 = INTEGER: 6
+
+the value is the port-channel number
+
+> ifDescr.5004 = STRING: Port-Channel4
+> ifDescr.5006 = STRING: Port-Channel6
+
 
 ## HP
 
