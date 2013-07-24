@@ -61,7 +61,7 @@ Ports of an aggregation:
 
 ### LACP (Link Aggregation Control Protocol)
 
-Oids to get physical ports of thie aggregation port are:
+Oids to get physical ports of this aggregation port are:
 
 > 1.2.840.10006.300.43.1.1.1.1.6
 
