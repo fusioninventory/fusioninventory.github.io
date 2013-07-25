@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2013-07-19 08:52+0000\n"
+"POT-Creation-Date: 2013-07-25 08:16+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -141,4 +141,9 @@ msgstr ""
 #. type: Bullet: '* '
 msgid ""
 "[[Switch inventory aggregate ports|documentation/dev/spec/switch_aggregate]]"
+msgstr ""
+
+#. type: Bullet: '* '
+msgid ""
+"[[NetInventory XML format|documentation/dev/spec/netinventory-xml-format]]"
 msgstr ""
