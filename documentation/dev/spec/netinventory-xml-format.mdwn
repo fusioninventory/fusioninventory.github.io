@@ -1,143 +1,143 @@
 #NetworkInventory XML format
 
-> <REQUEST>
->   <CONTENT>
->     <DEVICE>
->       <INFO>
->         <COMMENTS>Cisco IOS Software, C3750 Software (C3750-IPSERVICESK9-M), Version 12.2(55)SE, RELEASE SOFTWARE (fc2)
-> Technical Support: http://www.cisco.com/techsupport
-> Copyright (c) 1986-2010 by Cisco Systems, Inc.
-> Compiled Sat 07-Aug-10 22:45 by prod_rel_team</COMMENTS>
->         <CPU>6</CPU>
->         <FIRMWARE>12.2(55)SE</FIRMWARE>
->         <ID>1585</ID>
->         <IPS>
->           <IP>172.27.0.40</IP>
->         </IPS>
->         <LOCATION>RMS Grenoble </LOCATION>
->         <MAC>00:1b:2b:20:40:80</MAC>
->         <MEMORY>33</MEMORY>
->         <MODEL>WS-C3750G-24T-S</MODEL>
->         <NAME>sw1.inf.rms.loc</NAME>
->         <RAM>128</RAM>
->         <SERIAL>CAT1109RGVK</SERIAL>
->         <TYPE>NETWORKING</TYPE>
->         <UPTIME>41 days, 06:53:36.46</UPTIME>
->       </INFO>
->       <PORTS>
->         <PORT>
->           <CONNECTIONS>
->             <CDP>1</CDP>
->             <CONNECTION>
->               <IFDESCR>FastEthernet0/0</IFDESCR>
->               <IP>212.99.4.74</IP>
->             </CONNECTION>
->           </CONNECTIONS>
->           <IFDESCR>GigabitEthernet1/0/23</IFDESCR>
->           <IFINERRORS>0</IFINERRORS>
->           <IFINOCTETS>3245688497</IFINOCTETS>
->           <IFINTERNALSTATUS>1</IFINTERNALSTATUS>
->           <IFLASTCHANGE>2 days, 03:56:07.66</IFLASTCHANGE>
->           <IFMTU>1500</IFMTU>
->           <IFNAME>Gi1/0/23</IFNAME>
->           <IFNUMBER>10123</IFNUMBER>
->           <IFOUTERRORS>0</IFOUTERRORS>
->           <IFOUTOCTETS>851136551</IFOUTOCTETS>
->           <IFSPEED>100000000</IFSPEED>
->           <IFSTATUS>1</IFSTATUS>
->           <IFTYPE>6</IFTYPE>
->           <MAC>00:1b:2b:20:40:97</MAC>
->           <TRUNK>0</TRUNK>
->         </PORT>
->         <PORT>
->           <CONNECTIONS>
->             <CDP>1</CDP>
->             <CONNECTION>
->               <IFDESCR>FastEthernet0/1</IFDESCR>
->               <IP>172.27.2.22</IP>
->             </CONNECTION>
->           </CONNECTIONS>
->           <IFDESCR>GigabitEthernet1/0/22</IFDESCR>
->           <IFINERRORS>0</IFINERRORS>
->           <IFINOCTETS>949702179</IFINOCTETS>
->           <IFINTERNALSTATUS>1</IFINTERNALSTATUS>
->           <IFLASTCHANGE>2 days, 03:56:07.64</IFLASTCHANGE>
->           <IFMTU>1500</IFMTU>
->           <IFNAME>Gi1/0/22</IFNAME>
->           <IFNUMBER>10122</IFNUMBER>
->           <IFOUTERRORS>0</IFOUTERRORS>
->           <IFOUTOCTETS>2633042471</IFOUTOCTETS>
->           <IFSPEED>100000000</IFSPEED>
->           <IFSTATUS>1</IFSTATUS>
->           <IFTYPE>6</IFTYPE>
->           <MAC>00:1b:2b:20:40:96</MAC>
->           <TRUNK>0</TRUNK>
->         </PORT>
->       </PORTS>
->     </DEVICE>
->     <MODULEVERSION>1.3</MODULEVERSION>
->     <PROCESSNUMBER>2</PROCESSNUMBER>
->   </CONTENT>
->   <DEVICEID>port004.bureau.siprossii.com-2010-12-30-12-24-14</DEVICEID>
->   <QUERY>SNMPQUERY</QUERY>
-> </REQUEST>
+    <REQUEST>
+      <CONTENT>
+        <DEVICE>
+          <INFO>
+            <COMMENTS>Cisco IOS Software, C3750 Software (C3750-IPSERVICESK9-M), Version 12.2(55)SE, RELEASE SOFTWARE (fc2)
+    Technical Support: http://www.cisco.com/techsupport
+    Copyright (c) 1986-2010 by Cisco Systems, Inc.
+    Compiled Sat 07-Aug-10 22:45 by prod_rel_team</COMMENTS>
+            <CPU>6</CPU>
+            <FIRMWARE>12.2(55)SE</FIRMWARE>
+            <ID>1585</ID>
+            <IPS>
+              <IP>172.27.0.40</IP>
+            </IPS>
+            <LOCATION>RMS Grenoble </LOCATION>
+            <MAC>00:1b:2b:20:40:80</MAC>
+            <MEMORY>33</MEMORY>
+            <MODEL>WS-C3750G-24T-S</MODEL>
+            <NAME>sw1.inf.rms.loc</NAME>
+            <RAM>128</RAM>
+            <SERIAL>CAT1109RGVK</SERIAL>
+            <TYPE>NETWORKING</TYPE>
+            <UPTIME>41 days, 06:53:36.46</UPTIME>
+          </INFO>
+          <PORTS>
+            <PORT>
+              <CONNECTIONS>
+                <CDP>1</CDP>
+                <CONNECTION>
+                  <IFDESCR>FastEthernet0/0</IFDESCR>
+                  <IP>212.99.4.74</IP>
+                </CONNECTION>
+              </CONNECTIONS>
+              <IFDESCR>GigabitEthernet1/0/23</IFDESCR>
+              <IFINERRORS>0</IFINERRORS>
+              <IFINOCTETS>3245688497</IFINOCTETS>
+              <IFINTERNALSTATUS>1</IFINTERNALSTATUS>
+              <IFLASTCHANGE>2 days, 03:56:07.66</IFLASTCHANGE>
+              <IFMTU>1500</IFMTU>
+              <IFNAME>Gi1/0/23</IFNAME>
+              <IFNUMBER>10123</IFNUMBER>
+              <IFOUTERRORS>0</IFOUTERRORS>
+              <IFOUTOCTETS>851136551</IFOUTOCTETS>
+              <IFSPEED>100000000</IFSPEED>
+              <IFSTATUS>1</IFSTATUS>
+              <IFTYPE>6</IFTYPE>
+              <MAC>00:1b:2b:20:40:97</MAC>
+              <TRUNK>0</TRUNK>
+            </PORT>
+            <PORT>
+              <CONNECTIONS>
+                <CDP>1</CDP>
+                <CONNECTION>
+                  <IFDESCR>FastEthernet0/1</IFDESCR>
+                  <IP>172.27.2.22</IP>
+                </CONNECTION>
+              </CONNECTIONS>
+              <IFDESCR>GigabitEthernet1/0/22</IFDESCR>
+              <IFINERRORS>0</IFINERRORS>
+              <IFINOCTETS>949702179</IFINOCTETS>
+              <IFINTERNALSTATUS>1</IFINTERNALSTATUS>
+              <IFLASTCHANGE>2 days, 03:56:07.64</IFLASTCHANGE>
+              <IFMTU>1500</IFMTU>
+              <IFNAME>Gi1/0/22</IFNAME>
+              <IFNUMBER>10122</IFNUMBER>
+              <IFOUTERRORS>0</IFOUTERRORS>
+              <IFOUTOCTETS>2633042471</IFOUTOCTETS>
+              <IFSPEED>100000000</IFSPEED>
+              <IFSTATUS>1</IFSTATUS>
+              <IFTYPE>6</IFTYPE>
+              <MAC>00:1b:2b:20:40:96</MAC>
+              <TRUNK>0</TRUNK>
+            </PORT>
+          </PORTS>
+        </DEVICE>
+        <MODULEVERSION>1.3</MODULEVERSION>
+        <PROCESSNUMBER>2</PROCESSNUMBER>
+      </CONTENT>
+      <DEVICEID>port004.bureau.siprossii.com-2010-12-30-12-24-14</DEVICEID>
+      <QUERY>SNMPQUERY</QUERY>
+    </REQUEST>
 
 
-> <REQUEST>
->   <CONTENT>
->     <DEVICE>
->       <INFO>
->         <COMMENTS>Cisco IOS Software, 1841 Software (C1841-ADVIPSERVICESK9-M), Version 12.4(25d), RELEASE SOFTWARE (fc1)
-> Technical Support: http://www.cisco.com/techsupport
-> Copyright (c) 1986-2010 by Cisco Systems, Inc.
-> Compiled Wed 18-Aug-10 04:40 by prod_rel_team</COMMENTS>
->         <ID>53</ID>
->         <IPS>
->           <IP>172.27.2.22</IP>
->           <IP>212.99.4.74</IP>
->           <IP>212.99.4.73</IP>
->           <IP>172.27.2.21</IP>
->         </IPS>
->         <LOCATION>RMS Grenoble </LOCATION>
->         <MAC>00:00:00:00:00:00</MAC>
->         <MODEL>CISCO1841</MODEL>
->         <NAME>vpn1.vpn.rms.loc</NAME>
->         <SERIAL>FCZ11161074</SERIAL>
->         <TYPE>NETWORKING</TYPE>
->         <UPTIME>26 days, 02:17:14.06</UPTIME>
->       </INFO>
->       <PORTS>
->         <PORT>
->           <CONNECTIONS>
->             <CDP>1</CDP>
->             <CONNECTION>
->               <IFDESCR>ge-0/0/1.0</IFDESCR>
->               <IFNUMBER>504</IFNUMBER>
->               <SYSDESCR>Juniper Networks, Inc. ex2200-24t-4g , version 10.1R1.8 Build date: 2010-02-12 16:59:31 UTC </SYSDESCR>
->               <SYSMAC>2c:6b:f5:98:f9:70</SYSMAC>
->               <SYSNAME>juniperswitch3</SYSNAME>
->             </CONNECTION>
->           </CONNECTIONS>
->           <IFDESCR>FastEthernet0/1</IFDESCR>
->           <IFINERRORS>31</IFINERRORS>
->           <IFINOCTETS>3088668153</IFINOCTETS>
->           <IFINTERNALSTATUS>1</IFINTERNALSTATUS>
->           <IFLASTCHANGE>15.24 seconds</IFLASTCHANGE>
->           <IFMTU>1500</IFMTU>
->           <IFNAME>Fa0/1</IFNAME>
->           <IFNUMBER>2</IFNUMBER>
->           <IFOUTERRORS>0</IFOUTERRORS>
->           <IFOUTOCTETS>3475169543</IFOUTOCTETS>
->           <IFSPEED>100000000</IFSPEED>
->           <IFSTATUS>1</IFSTATUS>
->           <IFTYPE>6</IFTYPE>
->           <MAC>00:1b:54:99:62:45</MAC>
->         </PORT>
->       </PORTS>
->     </DEVICE>
->     <MODULEVERSION>1.3</MODULEVERSION>
->     <PROCESSNUMBER>1</PROCESSNUMBER>
->   </CONTENT>
->   <DEVICEID>port004.bureau.siprossii.com-2010-12-30-12-24-14</DEVICEID>
->   <QUERY>SNMPQUERY</QUERY>
-> </REQUEST>
+    <REQUEST>
+      <CONTENT>
+        <DEVICE>
+          <INFO>
+            <COMMENTS>Cisco IOS Software, 1841 Software (C1841-ADVIPSERVICESK9-M), Version 12.4(25d), RELEASE SOFTWARE (fc1)
+    Technical Support: http://www.cisco.com/techsupport
+    Copyright (c) 1986-2010 by Cisco Systems, Inc.
+    Compiled Wed 18-Aug-10 04:40 by prod_rel_team</COMMENTS>
+            <ID>53</ID>
+            <IPS>
+              <IP>172.27.2.22</IP>
+              <IP>212.99.4.74</IP>
+              <IP>212.99.4.73</IP>
+              <IP>172.27.2.21</IP>
+            </IPS>
+            <LOCATION>RMS Grenoble </LOCATION>
+            <MAC>00:00:00:00:00:00</MAC>
+            <MODEL>CISCO1841</MODEL>
+            <NAME>vpn1.vpn.rms.loc</NAME>
+            <SERIAL>FCZ11161074</SERIAL>
+            <TYPE>NETWORKING</TYPE>
+            <UPTIME>26 days, 02:17:14.06</UPTIME>
+          </INFO>
+          <PORTS>
+            <PORT>
+              <CONNECTIONS>
+                <CDP>1</CDP>
+                <CONNECTION>
+                  <IFDESCR>ge-0/0/1.0</IFDESCR>
+                  <IFNUMBER>504</IFNUMBER>
+                  <SYSDESCR>Juniper Networks, Inc. ex2200-24t-4g , version 10.1R1.8 Build date: 2010-02-12 16:59:31 UTC </SYSDESCR>
+                  <SYSMAC>2c:6b:f5:98:f9:70</SYSMAC>
+                  <SYSNAME>juniperswitch3</SYSNAME>
+                </CONNECTION>
+              </CONNECTIONS>
+              <IFDESCR>FastEthernet0/1</IFDESCR>
+              <IFINERRORS>31</IFINERRORS>
+              <IFINOCTETS>3088668153</IFINOCTETS>
+              <IFINTERNALSTATUS>1</IFINTERNALSTATUS>
+              <IFLASTCHANGE>15.24 seconds</IFLASTCHANGE>
+              <IFMTU>1500</IFMTU>
+              <IFNAME>Fa0/1</IFNAME>
+              <IFNUMBER>2</IFNUMBER>
+              <IFOUTERRORS>0</IFOUTERRORS>
+              <IFOUTOCTETS>3475169543</IFOUTOCTETS>
+              <IFSPEED>100000000</IFSPEED>
+              <IFSTATUS>1</IFSTATUS>
+              <IFTYPE>6</IFTYPE>
+              <MAC>00:1b:54:99:62:45</MAC>
+            </PORT>
+          </PORTS>
+        </DEVICE>
+        <MODULEVERSION>1.3</MODULEVERSION>
+        <PROCESSNUMBER>1</PROCESSNUMBER>
+      </CONTENT>
+      <DEVICEID>port004.bureau.siprossii.com-2010-12-30-12-24-14</DEVICEID>
+      <QUERY>SNMPQUERY</QUERY>
+    </REQUEST>
