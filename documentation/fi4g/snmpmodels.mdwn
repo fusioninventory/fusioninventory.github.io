@@ -7,7 +7,6 @@ some kind of “driver”.
 An SNMP model is an XML file that will map OID to GLPI fields.
 
 [[!graph  src="""
-
     style=filled;
     color=lightgrey;
     node [shape=box, color=purple];
@@ -27,7 +26,6 @@ An SNMP model is an XML file that will map OID to GLPI fields.
 
     "SNMP" [ shape = "Mrecord" ];
     "XML" [ shape = "Mrecord" ];
-
 """]]
 
 
