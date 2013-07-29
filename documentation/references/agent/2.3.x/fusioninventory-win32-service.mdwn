@@ -1,0 +1,5 @@
+[[!template  id=warning text="The 2.3.x serie is still in developpement."]]
+
+# NAME
+
+fusioninventory-win32-service - FusionInventory Agent service for Windows
