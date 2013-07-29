@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2013-01-08 09:28+0000\n"
+"POT-Creation-Date: 2013-07-29 17:07+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -18,9 +18,7 @@ msgstr ""
 
 #. type: Plain text
 #, no-wrap
-msgid ""
-"[[!template  id=warning text=\"The 2.3.x serie is still in "
-"developpement.\"]]\n"
+msgid "[[!template  id=warning text=\"The 2.3.x serie is still in developpement.\"]]\n"
 msgstr ""
 
 #. type: Title #
@@ -40,7 +38,8 @@ msgid "SYNOPSIS"
 msgstr ""
 
 #. type: Plain text
-msgid "__fusioninventory-agent__ \\[options\\] \\[--server server|--local path\\]"
+msgid ""
+"__fusioninventory-agent__ \\[options\\] \\[--server server|--local path\\]"
 msgstr ""
 
 #. type: Plain text
@@ -77,7 +76,6 @@ msgid ""
 "      --scan-homedirs                scan use home directories (false)\n"
 "      --html                         save the inventory as HTML (false)\n"
 "      -f --force                     always send data to server (false)\n"
-"      -t --tag=TAG                   mark the machine with given tag\n"
 "      --backend-collect-timeout=TIME timeout for inventory modules\n"
 "                                       execution (30)\n"
 "      --additional-content=FILE      additional inventory content file\n"
@@ -122,8 +120,7 @@ msgid ""
 "    Logging options:\n"
 "      --logger=BACKEND               logger backend (stderr)\n"
 "      --logfile=FILE                 log file\n"
-"      --logfile-maxsize=SIZE         maximum size of the log file in MB "
-"(0)\n"
+"      --logfile-maxsize=SIZE         maximum size of the log file in MB (0)\n"
 "      --logfacility=FACILITY         syslog facility (LOG_USER)\n"
 "      --color                        use color in the console (false)\n"
 msgstr ""
@@ -144,6 +141,7 @@ msgid ""
 "                                       in seconds\n"
 "      -d --daemon                    run the agent as a daemon (false)\n"
 "      --no-fork                      don't fork in background (false)\n"
+"      -t --tag=TAG                   add given tag to inventory results\n"
 "      --debug                        debug mode (false)\n"
 "      --setup                        print the agent setup directories\n"
 "                                       and exit\n"
@@ -192,43 +190,45 @@ msgid "- __\\-s__, __\\--server__=_URI_"
 msgstr ""
 
 #. type: Plain text
-msgid "Send the results of tasks execution to given server."
-msgstr ""
-
-#. type: Plain text
-msgid ""
-"If _URI_ doesn't start with http:// or https://, the agent assume the "
-"parameter is a hostname and rewrite it as:"
-msgstr ""
-
-#. type: Plain text
 #, no-wrap
-msgid "    % --server=http://servername/ocsinventory\n"
-msgstr ""
-
-#. type: Plain text
-msgid "In general, OCS Inventory server URL have this format:"
-msgstr ""
-
-#. type: Plain text
-#, no-wrap
-msgid "    http://servername/ocsinventory\n"
-msgstr ""
-
-#. type: Plain text
-msgid "and FusionInventory for GLPI this one:"
+msgid "    Send the results of tasks execution to given server.\n"
 msgstr ""
 
 #. type: Plain text
 #, no-wrap
 msgid ""
-"    "
-"http://servername/glpi/plugins/fusioninventory/front/plugin_fusioninventory.communication.php\n"
+"    If _URI_ doesn't start with http:// or https://, the agent assume the\n"
+"    parameter is a hostname and rewrite it as:\n"
 msgstr ""
 
 #. type: Plain text
-#:
-msgid "Multiple values can be specified, using comma as a separator."
+#, no-wrap
+msgid "        % --server=http://servername/ocsinventory\n"
+msgstr ""
+
+#. type: Plain text
+#, no-wrap
+msgid "    In general, OCS Inventory server URL have this format:\n"
+msgstr ""
+
+#. type: Plain text
+#, no-wrap
+msgid "        http://servername/ocsinventory\n"
+msgstr ""
+
+#. type: Plain text
+#, no-wrap
+msgid "    and FusionInventory for GLPI this one:\n"
+msgstr ""
+
+#. type: Plain text
+#, no-wrap
+msgid "        http://servername/glpi/plugins/fusioninventory/front/plugin_fusioninventory.communication.php\n"
+msgstr ""
+
+#. type: Plain text
+#, no-wrap
+msgid "    Multiple values can be specified, using comma as a separator.\n"
 msgstr ""
 
 #. type: Plain text
@@ -236,19 +236,25 @@ msgid "- __\\-l__, __\\--local__=_PATH_"
 msgstr ""
 
 #. type: Plain text
-msgid "Write the results of tasks execution locally."
-msgstr ""
-
-#. type: Plain text
-msgid "Exact behaviour according to given path:"
+#, no-wrap
+msgid "    Write the results of tasks execution locally.\n"
 msgstr ""
 
 #. type: Plain text
 #, no-wrap
-msgid ""
-"            - if _PATH_ is a directory, a file will be created therein\n"
-"        - if _PATH_ is a file, it will be used directly\n"
-"    - if _PATH_ is '-', STDOUT will be used\n"
+msgid "    Exact behaviour according to given path:\n"
+msgstr ""
+
+#. type: Bullet: '    - '
+msgid "if _PATH_ is a directory, a file will be created therein"
+msgstr ""
+
+#. type: Bullet: '    - '
+msgid "if _PATH_ is a file, it will be used directly"
+msgstr ""
+
+#. type: Bullet: '    - '
+msgid "if _PATH_ is '-', STDOUT will be used"
 msgstr ""
 
 #. type: Title ##
@@ -261,11 +267,12 @@ msgid "- __\\--delaytime__=_LIMIT_"
 msgstr ""
 
 #. type: Plain text
+#, no-wrap
 msgid ""
-"Set an initial delay before the first target, whose value is computed "
-"randomly between LIMIT / 2 and LIMIT seconds. This setting is ignored for "
-"server targets after the initial contact, in favor of server-specified "
-"parameter (PROLOG\\_FREQ)."
+"    Set an initial delay before the first target, whose value is computed randomly\n"
+"    between LIMIT / 2 and LIMIT seconds. This setting is ignored for server targets\n"
+"    after the initial contact, in favor of server-specified parameter\n"
+"    (PROLOG\\_FREQ).\n"
 msgstr ""
 
 #. type: Plain text
@@ -273,11 +280,13 @@ msgid "- __\\--lazy__"
 msgstr ""
 
 #. type: Plain text
-msgid "Do not contact the target before next scheduled time."
+#, no-wrap
+msgid "    Do not contact the target before next scheduled time.\n"
 msgstr ""
 
 #. type: Plain text
-msgid "This option is only available when the agent is not run as a server."
+#, no-wrap
+msgid "    This option is only available when the agent is not run as a server.\n"
 msgstr ""
 
 #. type: Title ##
@@ -290,7 +299,8 @@ msgid "- __\\--list-tasks__"
 msgstr ""
 
 #. type: Plain text
-msgid "List available tasks and exit"
+#, no-wrap
+msgid "    List available tasks and exit\n"
 msgstr ""
 
 #. type: Plain text
@@ -298,13 +308,15 @@ msgid "- __\\--no-task__=_TASK_"
 msgstr ""
 
 #. type: Plain text
-msgid "Do not run given task."
+#, no-wrap
+msgid "    Do not run given task.\n"
 msgstr ""
 
 #. type: Plain text
+#, no-wrap
 msgid ""
-"Multiple values can be specified, using comma as a separator. See option "
-"_\\--list-tasks_ for the list of available tasks."
+"    Multiple values can be specified, using comma as a separator. See option\n"
+"    _\\--list-tasks_ for the list of available tasks.\n"
 msgstr ""
 
 #. type: Title ##
@@ -317,22 +329,35 @@ msgid "- __\\--no-category__=_CATEGORY_"
 msgstr ""
 
 #. type: Plain text
-msgid "Do not list given category items in inventory."
-msgstr ""
-
-#. type: Plain text
-msgid ""
-"Multiple values can be specified, using comma as a separator. The available "
-"categories are:"
+#, no-wrap
+msgid "    Do not list given category items in inventory.\n"
 msgstr ""
 
 #. type: Plain text
 #, no-wrap
 msgid ""
-"                - printer\n"
-"            - software\n"
-"        - environment\n"
-"    - process\n"
+"    Multiple values can be specified, using comma as a separator. The available\n"
+"    categories are:\n"
+msgstr ""
+
+#. type: Bullet: '    - '
+msgid "printer"
+msgstr ""
+
+#. type: Bullet: '    - '
+msgid "software"
+msgstr ""
+
+#. type: Bullet: '    - '
+msgid "environment"
+msgstr ""
+
+#. type: Bullet: '    - '
+msgid "process"
+msgstr ""
+
+#. type: Bullet: '    - '
+msgid "user"
 msgstr ""
 
 #. type: Plain text
@@ -340,7 +365,8 @@ msgid "- __\\--scan-homedirs__"
 msgstr ""
 
 #. type: Plain text
-msgid "Allow the agent to scan home directories for virtual machines."
+#, no-wrap
+msgid "    Allow the agent to scan home directories for virtual machines.\n"
 msgstr ""
 
 #. type: Plain text
@@ -348,11 +374,13 @@ msgid "- __\\--html__"
 msgstr ""
 
 #. type: Plain text
-msgid "Save the inventory as HTML."
+#, no-wrap
+msgid "    Save the inventory as HTML.\n"
 msgstr ""
 
 #. type: Plain text
-msgid "This is only used for local inventories."
+#, no-wrap
+msgid "    This is only used for local inventories.\n"
 msgstr ""
 
 #. type: Plain text
@@ -360,15 +388,8 @@ msgid "- __\\-f__, __\\--force__"
 msgstr ""
 
 #. type: Plain text
-msgid "Send an inventory to the server, even if this last one doesn't ask for it."
-msgstr ""
-
-#. type: Plain text
-msgid "- __\\--tag__=_TAG_"
-msgstr ""
-
-#. type: Plain text
-msgid "Mark the machine with given tag."
+#, no-wrap
+msgid "    Send an inventory to the server, even if this last one doesn't ask for it.\n"
 msgstr ""
 
 #. type: Plain text
@@ -376,7 +397,8 @@ msgid "- __\\--backend-collect-timeout__=_TIME_"
 msgstr ""
 
 #. type: Plain text
-msgid "Timeout for inventory modules execution."
+#, no-wrap
+msgid "    Timeout for inventory modules execution.\n"
 msgstr ""
 
 #. type: Plain text
@@ -384,13 +406,15 @@ msgid "- __\\--additional-content__=_FILE_"
 msgstr ""
 
 #. type: Plain text
-msgid "Additional inventory content file."
+#, no-wrap
+msgid "    Additional inventory content file.\n"
 msgstr ""
 
 #. type: Plain text
+#, no-wrap
 msgid ""
-"This file should be an XML file, using same syntax as the one produced by "
-"the agent."
+"    This file should be an XML file, using same syntax as the one produced by the\n"
+"    agent.\n"
 msgstr ""
 
 #. type: Title ##
@@ -403,7 +427,8 @@ msgid "- __\\--no-p2p__"
 msgstr ""
 
 #. type: Plain text
-msgid "Do not use peer to peer to download files."
+#, no-wrap
+msgid "    Do not use peer to peer to download files.\n"
 msgstr ""
 
 #. type: Title ##
@@ -416,11 +441,13 @@ msgid "- __\\-P__, __\\--proxy__=_PROXY_"
 msgstr ""
 
 #. type: Plain text
-msgid "Use _PROXY_ as HTTP proxy."
+#, no-wrap
+msgid "    Use _PROXY_ as HTTP proxy.\n"
 msgstr ""
 
 #. type: Plain text
-msgid "By default, the agent uses HTTP\\_PROXY environment variable."
+#, no-wrap
+msgid "    By default, the agent uses HTTP\\_PROXY environment variable.\n"
 msgstr ""
 
 #. type: Plain text
@@ -428,7 +455,8 @@ msgid "- __\\-u__ _USER_, __\\--user__=_USER_"
 msgstr ""
 
 #. type: Plain text
-msgid "Use _USER_ for server authentication."
+#, no-wrap
+msgid "    Use _USER_ for server authentication.\n"
 msgstr ""
 
 #. type: Plain text
@@ -436,7 +464,8 @@ msgid "- __\\-p__, __\\--password__=_PASSWORD_"
 msgstr ""
 
 #. type: Plain text
-msgid "Use _PASSWORD_ for server authentication."
+#, no-wrap
+msgid "    Use _PASSWORD_ for server authentication.\n"
 msgstr ""
 
 #. type: Plain text
@@ -444,7 +473,8 @@ msgid "- __\\--ca-cert-dir__=_DIRECTORY_"
 msgstr ""
 
 #. type: Plain text
-msgid "CA certificates directory."
+#, no-wrap
+msgid "    CA certificates directory.\n"
 msgstr ""
 
 #. type: Plain text
@@ -452,7 +482,8 @@ msgid "- __\\--ca-cert-file__=_FILE_"
 msgstr ""
 
 #. type: Plain text
-msgid "CA certificates file."
+#, no-wrap
+msgid "    CA certificates file.\n"
 msgstr ""
 
 #. type: Plain text
@@ -460,7 +491,8 @@ msgid "- __\\--no-ssl-check__"
 msgstr ""
 
 #. type: Plain text
-msgid "Do not check server SSL certificate."
+#, no-wrap
+msgid "    Do not check server SSL certificate.\n"
 msgstr ""
 
 #. type: Plain text
@@ -468,7 +500,8 @@ msgid "- __\\--timeout__=_TIME_"
 msgstr ""
 
 #. type: Plain text
-msgid "Timeout for server connections."
+#, no-wrap
+msgid "    Timeout for server connections.\n"
 msgstr ""
 
 #. type: Title ##
@@ -481,7 +514,8 @@ msgid "- __\\--no-httpd__"
 msgstr ""
 
 #. type: Plain text
-msgid "Disable the embedded web server."
+#, no-wrap
+msgid "    Disable the embedded web server.\n"
 msgstr ""
 
 #. type: Plain text
@@ -489,7 +523,8 @@ msgid "- __\\--httpd-ip__=_IP_"
 msgstr ""
 
 #. type: Plain text
-msgid "The network interface to use for the embedded web server (all)."
+#, no-wrap
+msgid "    The network interface to use for the embedded web server (all).\n"
 msgstr ""
 
 #. type: Plain text
@@ -497,7 +532,8 @@ msgid "- __\\--httpd-port__=_PORT_"
 msgstr ""
 
 #. type: Plain text
-msgid "The network port to use for the embedded web server (62354)."
+#, no-wrap
+msgid "    The network port to use for the embedded web server (62354).\n"
 msgstr ""
 
 #. type: Plain text
@@ -505,15 +541,16 @@ msgid "- __\\--httpd-trust__=_IP_"
 msgstr ""
 
 #. type: Plain text
-msgid "Trust requests from given addresses without authentication token (false)."
+#, no-wrap
+msgid "    Trust requests from given addresses without authentication token (false).\n"
 msgstr ""
 
 #. type: Plain text
+#, no-wrap
 msgid ""
-"For example: \"192.168.0.0/24\", \"192.168.168.0.5\" or an IP range like "
-"\"20.34.101.207 - 201.3.9.99\". Hostnames are also accepted. See "
-"[Net::IP](http://search.cpan.org/perldoc?Net::IP)  documentation to get more "
-"example."
+"    For example: \"192.168.0.0/24\", \"192.168.168.0.5\" or an IP range like\n"
+"    \"20.34.101.207 - 201.3.9.99\". Hostnames are also accepted. See [Net::IP](http://search.cpan.org/perldoc?Net::IP)\n"
+"    documentation to get more example.\n"
 msgstr ""
 
 #. type: Title ##
@@ -526,21 +563,27 @@ msgid "- __\\--logger__=_BACKEND_"
 msgstr ""
 
 #. type: Plain text
-msgid "Logger backend to use."
-msgstr ""
-
-#. type: Plain text
-msgid ""
-"Multiple values can be specified, using comma as a separator. The available "
-"backends are:"
+#, no-wrap
+msgid "    Logger backend to use.\n"
 msgstr ""
 
 #. type: Plain text
 #, no-wrap
 msgid ""
-"            - stderr: log messages directly in the console.\n"
-"        - file: log messages in a file.\n"
-"    - syslog: log messages through the local syslog server.\n"
+"    Multiple values can be specified, using comma as a separator. The available\n"
+"    backends are:\n"
+msgstr ""
+
+#. type: Bullet: '    - '
+msgid "stderr: log messages directly in the console."
+msgstr ""
+
+#. type: Bullet: '    - '
+msgid "file: log messages in a file."
+msgstr ""
+
+#. type: Bullet: '    - '
+msgid "syslog: log messages through the local syslog server."
 msgstr ""
 
 #. type: Plain text
@@ -548,7 +591,8 @@ msgid "- __\\--logfile__=_FILE_"
 msgstr ""
 
 #. type: Plain text
-msgid "Log message in _FILE_ (implies File logger backend)."
+#, no-wrap
+msgid "    Log message in _FILE_ (implies File logger backend).\n"
 msgstr ""
 
 #. type: Plain text
@@ -556,10 +600,11 @@ msgid "- __\\--logfile-maxsize__=_SIZE_"
 msgstr ""
 
 #. type: Plain text
+#, no-wrap
 msgid ""
-"Max logfile size in MB, default is unlimited. When the max size is reached, "
-"the file is truncated. This is only useful if there is no log rotation "
-"mechanism on the system."
+"    Max logfile size in MB, default is unlimited. When the max size is reached, the\n"
+"    file is truncated. This is only useful if there is no log rotation mechanism on\n"
+"    the system.\n"
 msgstr ""
 
 #. type: Plain text
@@ -567,7 +612,8 @@ msgid "- __\\--logfacility__=_FACILITY_"
 msgstr ""
 
 #. type: Plain text
-msgid "Syslog facility to use (default LOG\\_USER)."
+#, no-wrap
+msgid "    Syslog facility to use (default LOG\\_USER).\n"
 msgstr ""
 
 #. type: Plain text
@@ -575,11 +621,13 @@ msgid "- __\\--color__"
 msgstr ""
 
 #. type: Plain text
-msgid "Display color on the terminal, when the Stderr backend is used."
+#, no-wrap
+msgid "    Display color on the terminal, when the Stderr backend is used.\n"
 msgstr ""
 
 #. type: Plain text
-msgid "This options is ignored on Windows."
+#, no-wrap
+msgid "    This options is ignored on Windows.\n"
 msgstr ""
 
 #. type: Title ##
@@ -592,21 +640,26 @@ msgid "- __\\--config__=_BACKEND_"
 msgstr ""
 
 #. type: Plain text
-msgid "Configuration backend to use."
-msgstr ""
-
-#. type: Plain text
-msgid "The available backends are:"
+#, no-wrap
+msgid "    Configuration backend to use.\n"
 msgstr ""
 
 #. type: Plain text
 #, no-wrap
+msgid "    The available backends are:\n"
+msgstr ""
+
+#. type: Bullet: '    - '
 msgid ""
-"            - file: read configuration from a file (default anywhere else as "
-"Windows).\n"
-"        - registry: read configuration from the registry (default on "
-"Windows).\n"
-"    - none: don't read any configuration.\n"
+"file: read configuration from a file (default anywhere else as Windows)."
+msgstr ""
+
+#. type: Bullet: '    - '
+msgid "registry: read configuration from the registry (default on Windows)."
+msgstr ""
+
+#. type: Bullet: '    - '
+msgid "none: don't read any configuration."
 msgstr ""
 
 #. type: Plain text
@@ -614,7 +667,8 @@ msgid "- __\\--conf-file__=_FILE_"
 msgstr ""
 
 #. type: Plain text
-msgid "Use _FILE_ as configuration file (implies file configuration backend)."
+#, no-wrap
+msgid "    Use _FILE_ as configuration file (implies file configuration backend).\n"
 msgstr ""
 
 #. type: Title ##
@@ -627,11 +681,11 @@ msgid "- __\\-w__ _LIMIT_, __\\--wait__=_LIMIT_"
 msgstr ""
 
 #. type: Plain text
+#, no-wrap
 msgid ""
-"Wait a random delay whose value is computed randomly between 0 and LIMIT "
-"seconds, before execution. This is useful when execution is triggered from "
-"some kind of system scheduling on multiple clients, to spread the server "
-"load."
+"    Wait a random delay whose value is computed randomly between 0 and LIMIT\n"
+"    seconds, before execution. This is useful when execution is triggered from some\n"
+"    kind of system scheduling on multiple clients, to spread the server load.\n"
 msgstr ""
 
 #. type: Plain text
@@ -639,7 +693,8 @@ msgid "- __\\-d__, __\\--daemon__"
 msgstr ""
 
 #. type: Plain text
-msgid "Run the agent as a daemon."
+#, no-wrap
+msgid "    Run the agent as a daemon.\n"
 msgstr ""
 
 #. type: Plain text
@@ -647,11 +702,22 @@ msgid "- __\\--no-fork__"
 msgstr ""
 
 #. type: Plain text
-msgid "Don't fork in background."
+#, no-wrap
+msgid "    Don't fork in background.\n"
 msgstr ""
 
 #. type: Plain text
-msgid "This is only useful when running as a daemon."
+#, no-wrap
+msgid "    This is only useful when running as a daemon.\n"
+msgstr ""
+
+#. type: Plain text
+msgid "- __\\--tag__=_TAG_"
+msgstr ""
+
+#. type: Plain text
+#, no-wrap
+msgid "    Add the given tag to every inventory results.\n"
 msgstr ""
 
 #. type: Plain text
@@ -659,7 +725,17 @@ msgid "- __\\--debug__"
 msgstr ""
 
 #. type: Plain text
-msgid "Turn the debug mode on."
+#, no-wrap
+msgid ""
+"    Turn the debug mode on. You can use the parameter up to 3 times in a row\n"
+"    to increase the verbosity (e.g: __\\--debug --debug__).\n"
+msgstr ""
+
+#. type: Plain text
+#, no-wrap
+msgid ""
+"    Level 3 turns on the debug mode of some external libraries like Net::SSLeay.\n"
+"    These messages will only be be printed on STDERR.\n"
 msgstr ""
 
 #. type: Plain text
@@ -667,7 +743,8 @@ msgid "- __\\--setup__"
 msgstr ""
 
 #. type: Plain text
-msgid "Print the agent setup directories and exit."
+#, no-wrap
+msgid "    Print the agent setup directories and exit.\n"
 msgstr ""
 
 #. type: Plain text
@@ -675,5 +752,6 @@ msgid "- __\\--version__"
 msgstr ""
 
 #. type: Plain text
-msgid "Print the version and exit."
+#, no-wrap
+msgid "    Print the version and exit.\n"
 msgstr ""

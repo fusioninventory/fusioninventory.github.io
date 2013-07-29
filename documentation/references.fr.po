@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2013-01-11 14:06+0000\n"
+"POT-Creation-Date: 2013-07-29 17:07+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -28,27 +28,23 @@ msgstr "FusionIventory-agent"
 
 #. type: Bullet: '* '
 msgid ""
-"[[2.1.x "
-"(oldstable)|documentation/references/agent/2.1.x/fusioninventory-agent]]"
+"[[2.3.x (dev)|documentation/references/agent/2.3.x/fusioninventory-agent]]"
 msgstr ""
-"[[2.1.x "
-"(oldstable)|documentation/references/agent/2.1.x/fusioninventory-agent]]"
+"[[2.3.x (dev)|documentation/references/agent/2.3.x/fusioninventory-agent]]"
+
+#. type: Title ##
+#, no-wrap
+msgid "fusioninventory-esx"
+msgstr "FusionInventory-esx"
 
 #. type: Bullet: '* '
+#, fuzzy
+#| msgid ""
+#| "[[2.3.x (dev)|documentation/references/agent/2.3.x/fusioninventory-agent]]"
 msgid ""
-"[[2.2.x "
-"(stable)|documentation/references/agent/2.2.x/fusioninventory-agent]]"
+"[[2.3.x (dev)|documentation/references/agent/2.3.x/fusioninventory-esx]]"
 msgstr ""
-"[[2.2.x "
-"(stable)|documentation/references/agent/2.2.x/fusioninventory-agent]]"
-
-#. type: Bullet: '* '
-msgid "[[2.3.x (dev)|documentation/references/agent/2.3.x/fusioninventory-agent]]"
-msgstr "[[2.3.x (dev)|documentation/references/agent/2.3.x/fusioninventory-agent]]"
-
-#. type: Bullet: '* '
-msgid "[[3.0.x (dev)|documentation/references/agent/3.0.x/fusioninventory-agent]]"
-msgstr "[[3.0.x (dev)|documentation/references/agent/3.0.x/fusioninventory-agent]]"
+"[[2.3.x (dev)|documentation/references/agent/2.3.x/fusioninventory-agent]]"
 
 #. type: Title ##
 #, no-wrap
@@ -57,35 +53,9 @@ msgstr "FusionIventory-injector"
 
 #. type: Bullet: '* '
 msgid ""
-"[[2.1.x "
-"(oldstable)|documentation/references/agent/2.1.x/fusioninventory-injector]]"
+"[[2.3.x (dev)|documentation/references/agent/2.3.x/fusioninventory-injector]]"
 msgstr ""
-"[[2.1.x "
-"(oldstable)|documentation/references/agent/2.1.x/fusioninventory-injector]]"
-
-#. type: Bullet: '* '
-msgid ""
-"[[2.2.x "
-"(stable)|documentation/references/agent/2.2.x/fusioninventory-injector]]"
-msgstr ""
-"[[2.2.x "
-"(stable)|documentation/references/agent/2.2.x/fusioninventory-injector]]"
-
-#. type: Bullet: '* '
-msgid ""
-"[[2.3.x "
-"(dev)|documentation/references/agent/2.3.x/fusioninventory-injector]]"
-msgstr ""
-"[[2.3.x "
-"(dev)|documentation/references/agent/2.3.x/fusioninventory-injector]]"
-
-#. type: Bullet: '* '
-msgid ""
-"[[3.0.x "
-"(dev)|documentation/references/agent/3.0.x/fusioninventory-injector]]"
-msgstr ""
-"[[3.0.x "
-"(dev)|documentation/references/agent/3.0.x/fusioninventory-injector]]"
+"[[2.3.x (dev)|documentation/references/agent/2.3.x/fusioninventory-injector]]"
 
 #. type: Title ##
 #, no-wrap
@@ -94,32 +64,11 @@ msgstr "FusionInventory-inventory"
 
 #. type: Bullet: '* '
 msgid ""
-"[[2.3.x "
-"(dev)|documentation/references/agent/2.3.x/fusioninventory-inventory]]"
+"[[2.3.x (dev)|documentation/references/agent/2.3.x/fusioninventory-"
+"inventory]]"
 msgstr ""
-"[[2.3.x "
-"(dev)|documentation/references/agent/2.3.x/fusioninventory-inventory]]"
-
-#. type: Bullet: '* '
-msgid ""
-"[[3.0.x "
-"(dev)|documentation/references/agent/3.0.x/fusioninventory-inventory]]"
-msgstr ""
-"[[3.0.x "
-"(dev)|documentation/references/agent/3.0.x/fusioninventory-inventory]]"
-
-#. type: Title ##
-#, no-wrap
-msgid "fusioninventory-esx"
-msgstr "FusionInventory-esx"
-
-#. type: Bullet: '* '
-msgid ""
-"[[2.x "
-"(stable)|documentation/references/agent-task-esx/2.x/fusioninventory-esx]]"
-msgstr ""
-"[[2.x "
-"(stable)|documentation/references/agent-task-esx/2.x/fusioninventory-esx]]"
+"[[2.3.x (dev)|documentation/references/agent/2.3.x/fusioninventory-"
+"inventory]]"
 
 #. type: Title ##
 #, no-wrap
@@ -127,12 +76,16 @@ msgid "fusioninventory-netdiscovery"
 msgstr "FusionInventory-netdiscovery"
 
 #. type: Bullet: '* '
+#, fuzzy
+#| msgid ""
+#| "[[2.3.x (dev)|documentation/references/agent/2.3.x/fusioninventory-"
+#| "inventory]]"
 msgid ""
-"[[1.0.x "
-"(stable)|documentation/references/agent-task-network/1.0.x/fusioninventory-netdiscovery]]"
+"[[2.3.x (dev)|documentation/references/agent/2.3.x/fusioninventory-"
+"netdiscovery]]"
 msgstr ""
-"[[1.0.x "
-"(stable)|documentation/references/agent-task-network/1.0.x/fusioninventory-netdiscovery]]"
+"[[2.3.x (dev)|documentation/references/agent/2.3.x/fusioninventory-"
+"inventory]]"
 
 #. type: Title ##
 #, no-wrap
@@ -140,9 +93,114 @@ msgid "fusioninventory-netinventory"
 msgstr "FusionInventory-netinventory"
 
 #. type: Bullet: '* '
+#, fuzzy
+#| msgid ""
+#| "[[2.3.x (dev)|documentation/references/agent/2.3.x/fusioninventory-"
+#| "inventory]]"
 msgid ""
-"[[1.0.x "
-"(stable)|documentation/references/agent-task-network/1.0.x/fusioninventory-netinventory]]"
+"[[2.3.x (dev)|documentation/references/agent/2.3.x/fusioninventory-"
+"netinventory]]"
 msgstr ""
-"[[1.0.x "
-"(stable)|documentation/references/agent-task-network/1.0.x/fusioninventory-netinventory]]"
+"[[2.3.x (dev)|documentation/references/agent/2.3.x/fusioninventory-"
+"inventory]]"
+
+#. type: Title ##
+#, fuzzy, no-wrap
+#| msgid "fusioninventory-agent"
+msgid "fusioninventory-wakeonlan"
+msgstr "FusionIventory-agent"
+
+#. type: Bullet: '* '
+#, fuzzy
+#| msgid ""
+#| "[[2.3.x (dev)|documentation/references/agent/2.3.x/fusioninventory-agent]]"
+msgid ""
+"[[2.3.x (dev)|documentation/references/agent/2.3.x/fusioninventory-"
+"wakeonlan]]"
+msgstr ""
+"[[2.3.x (dev)|documentation/references/agent/2.3.x/fusioninventory-agent]]"
+
+#. type: Title ##
+#, fuzzy, no-wrap
+#| msgid "fusioninventory-injector"
+msgid "fusioninventory-win32-service"
+msgstr "FusionIventory-injector"
+
+#. type: Bullet: '* '
+#, fuzzy
+#| msgid ""
+#| "[[2.3.x (dev)|documentation/references/agent/2.3.x/fusioninventory-"
+#| "injector]]"
+msgid ""
+"[[2.3.x (dev)|documentation/references/agent/2.3.x/fusioninventory-win32-"
+"service]]"
+msgstr ""
+"[[2.3.x (dev)|documentation/references/agent/2.3.x/fusioninventory-injector]]"
+
+#~ msgid ""
+#~ "[[2.1.x (oldstable)|documentation/references/agent/2.1.x/fusioninventory-"
+#~ "agent]]"
+#~ msgstr ""
+#~ "[[2.1.x (oldstable)|documentation/references/agent/2.1.x/fusioninventory-"
+#~ "agent]]"
+
+#~ msgid ""
+#~ "[[2.2.x (stable)|documentation/references/agent/2.2.x/fusioninventory-"
+#~ "agent]]"
+#~ msgstr ""
+#~ "[[2.2.x (stable)|documentation/references/agent/2.2.x/fusioninventory-"
+#~ "agent]]"
+
+#~ msgid ""
+#~ "[[3.0.x (dev)|documentation/references/agent/3.0.x/fusioninventory-agent]]"
+#~ msgstr ""
+#~ "[[3.0.x (dev)|documentation/references/agent/3.0.x/fusioninventory-agent]]"
+
+#~ msgid ""
+#~ "[[2.1.x (oldstable)|documentation/references/agent/2.1.x/fusioninventory-"
+#~ "injector]]"
+#~ msgstr ""
+#~ "[[2.1.x (oldstable)|documentation/references/agent/2.1.x/fusioninventory-"
+#~ "injector]]"
+
+#~ msgid ""
+#~ "[[2.2.x (stable)|documentation/references/agent/2.2.x/fusioninventory-"
+#~ "injector]]"
+#~ msgstr ""
+#~ "[[2.2.x (stable)|documentation/references/agent/2.2.x/fusioninventory-"
+#~ "injector]]"
+
+#~ msgid ""
+#~ "[[3.0.x (dev)|documentation/references/agent/3.0.x/fusioninventory-"
+#~ "injector]]"
+#~ msgstr ""
+#~ "[[3.0.x (dev)|documentation/references/agent/3.0.x/fusioninventory-"
+#~ "injector]]"
+
+#~ msgid ""
+#~ "[[3.0.x (dev)|documentation/references/agent/3.0.x/fusioninventory-"
+#~ "inventory]]"
+#~ msgstr ""
+#~ "[[3.0.x (dev)|documentation/references/agent/3.0.x/fusioninventory-"
+#~ "inventory]]"
+
+#~ msgid ""
+#~ "[[2.x (stable)|documentation/references/agent-task-esx/2.x/"
+#~ "fusioninventory-esx]]"
+#~ msgstr ""
+#~ "[[2.x (stable)|documentation/references/agent-task-esx/2.x/"
+#~ "fusioninventory-esx]]"
+
+#~ msgid ""
+#~ "[[1.0.x (stable)|documentation/references/agent-task-network/1.0.x/"
+#~ "fusioninventory-netdiscovery]]"
+#~ msgstr ""
+#~ "[[1.0.x (stable)|documentation/references/agent-task-network/1.0.x/"
+#~ "fusioninventory-netdiscovery]]"
+
+#~ msgid ""
+#~ "[[1.0.x (stable)|documentation/references/agent-task-network/1.0.x/"
+#~ "fusioninventory-netinventory]]"
+#~ msgstr ""
+#~ "[[1.0.x (stable)|documentation/references/agent-task-network/1.0.x/"
+#~ "fusioninventory-netinventory]]"
