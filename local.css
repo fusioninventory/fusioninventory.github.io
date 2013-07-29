@@ -586,6 +586,11 @@ div.progress-done {
     background-position-y: 50%;
 }
 
+/* ul inside infobox no margins */
+.infobox ul {
+    margin: 0; }
+
+
 /* warningbox template */
 .warningbox {
     float:none;
@@ -614,7 +619,7 @@ div.progress-done {
 
 .boxcontent > p {
     margin:0;
-    padding: 1em 0;
+/*    padding: 0.5em 0;*/
 }
 
 /* popup template and backlinks hiding */
@@ -1249,6 +1254,8 @@ li[class^="icon-"].icon-large:before, li[class*=" icon-"].icon-large:before {
 .icon-paste:before                { content: "\f0ea"; }
 
 .icon-user-md:before              { content: "\f200"; }
+
+.icon-code-fork:before            { content: "\f126"; }
 
 .partner {
     background: #eeeeee;

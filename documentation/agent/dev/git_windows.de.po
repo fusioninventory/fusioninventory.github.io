@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2013-01-28 13:16+0000\n"
+"POT-Creation-Date: 2013-05-02 14:37+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -21,7 +21,7 @@ msgstr ""
 msgid "How to setup a FusionInventory Agent on Windows from sources"
 msgstr ""
 
-#. type: Title #
+#. type: Title ##
 #, no-wrap
 msgid "Get Perl"
 msgstr ""
@@ -32,7 +32,7 @@ msgid ""
 "and install it."
 msgstr ""
 
-#. type: Title #
+#. type: Title ##
 #, no-wrap
 msgid "Install the additional perl modules"
 msgstr ""
@@ -74,24 +74,23 @@ msgstr ""
 msgid "[[!img documentation/agent/installation/windows/from_sources-2.png]]\n"
 msgstr ""
 
-#. type: Title #
+#. type: Title ##
 #, no-wrap
-msgid "Install the agent"
+msgid "Retrieve the agent"
 msgstr ""
 
-#. type: Title ##
+#. type: Title ###
 #, no-wrap
 msgid "From source tarball"
 msgstr ""
 
 #. type: Plain text
 msgid ""
-"You can download latest git content as a [.zip file from "
-"github](https://github.com/fusinv/fusioninventory-agent/downloads) web "
-"interface."
+"You can download latest git content as a [.zip file from github](https://"
+"github.com/fusinv/fusioninventory-agent/downloads) web interface."
 msgstr ""
 
-#. type: Title ##
+#. type: Title ###
 #, no-wrap
 msgid "From git repository"
 msgstr ""
@@ -122,7 +121,26 @@ msgstr ""
 msgid "click \"clone\" button"
 msgstr ""
 
-#. type: Title #
+#. type: Title ##
+#, no-wrap
+msgid "Check the dependencies"
+msgstr ""
+
+#. type: Plain text
+#, no-wrap
+msgid "    $ perl Makefile.PL\n"
+msgstr ""
+
+#. type: Plain text
+msgid "You can use the `cpanm` command to install the missing dependencies:"
+msgstr ""
+
+#. type: Plain text
+#, no-wrap
+msgid "    $ cpanm XML::TreePP\n"
+msgstr ""
+
+#. type: Title ##
 #, no-wrap
 msgid "Running the agent"
 msgstr ""
@@ -135,5 +153,5 @@ msgstr ""
 
 #. type: Plain text
 #, no-wrap
-msgid "     perl fusioninventory-agent --stdout\n"
+msgid "    $ perl fusioninventory-agent --stdout\n"
 msgstr ""

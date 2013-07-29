@@ -1,0 +1,721 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2013-07-04 14:21+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. type: Title #
+#, no-wrap
+msgid "SNMP description model"
+msgstr ""
+
+#. type: Plain text
+msgid ""
+"The SNMP description model is a data structure of exhaustive model-specific "
+"informations, intended to be used during remote inventory phase of a device."
+msgstr ""
+
+#. type: Plain text
+msgid ""
+"They are stored as multiple XML file on the GLPI server (under "
+"gpli_plugins_directory/fusinvsnmp/models), imported into GLPI database at "
+"installation, and transmitted to the agent when needed as part of the "
+"inventory request."
+msgstr ""
+
+#. type: Title ##
+#, no-wrap
+msgid "Format"
+msgstr ""
+
+#. type: Plain text
+msgid "Here is a simple DTD:"
+msgstr ""
+
+#. type: Plain text
+#, no-wrap
+msgid ""
+"    <!ELEMENT model (name,type,key,comments,devices,oidlist)>\n"
+"    <!ELEMENT name (#PCDATA)>\n"
+"    <!ELEMENT type (2|3)>\n"
+"    <!ELEMENT key (#PCDATA)>\n"
+"    <!ELEMENT comments (#PCDATA)>\n"
+"    <!ELEMENT devices (sysdescr*)>\n"
+"    <!ELEMENT sysdescr (#PCDATA)>\n"
+"    <!ELEMENT oidlist (oidobject*)>\n"
+"    <!ELEMENT oidobject (object,oid,portcounter,dynamicport,mapping_type,mapping_name,vlan,activation>\n"
+"    <!ELEMENT object (#PCDATA)>\n"
+"    <!ELEMENT oid (#PCDATA)>\n"
+"    <!ELEMENT portcounter (0|1)>\n"
+"    <!ELEMENT dynamicport (0|1)>\n"
+"    <!ELEMENT mapping_type (#PCDATA)>\n"
+"    <!ELEMENT mapping_name (#PCDATA)>\n"
+"    <!ELEMENT vlan (0|1)>\n"
+"    <!ELEMENT activation (0|1)>\n"
+msgstr ""
+
+#. type: Plain text
+msgid "Here are the description for the various elements:"
+msgstr ""
+
+#. type: Bullet: '* '
+msgid "name: SNMP model name"
+msgstr ""
+
+#. type: Bullet: '* '
+msgid "key: SNMP model key"
+msgstr ""
+
+#. type: Bullet: '* '
+msgid ""
+"comments: raw list of sysdescr values of compatible devices, newline-"
+"separated"
+msgstr ""
+
+#. type: Bullet: '* '
+msgid ""
+"devices: structured list of sysdescr values of compatible devices, in array"
+msgstr ""
+
+#. type: Bullet: '* '
+msgid "oidlist: list of oidobject element"
+msgstr ""
+
+#. type: Bullet: '* '
+msgid "mapping_name: the actual name of the mapped variable"
+msgstr ""
+
+#. type: Bullet: '* '
+msgid "oid: the oid of the mapped variable"
+msgstr ""
+
+#. type: Bullet: '* '
+msgid "dynamicport: wether this is a single-valued or a multivalued variable"
+msgstr ""
+
+#. type: Bullet: '* '
+msgid "object: unused"
+msgstr ""
+
+#. type: Bullet: '* '
+msgid ""
+"portcounter: Define if this oid is THE port counter (list number of ports)"
+msgstr ""
+
+#. type: Bullet: '* '
+msgid "vlan: wether this is a vlan-specific variable"
+msgstr ""
+
+#. type: Bullet: '* '
+msgid ""
+"activation: Be able to active or disable this oid in GLPI (so not required "
+"in snmp model)"
+msgstr ""
+
+#. type: Plain text
+msgid "Problems:"
+msgstr ""
+
+#. type: Bullet: '* '
+msgid "the model name is redundant with the model key, and less informative"
+msgstr ""
+
+#. type: Bullet: '* '
+msgid "usage of a numeric value for the type is barely human-readable"
+msgstr ""
+
+#. type: Bullet: '* '
+msgid ""
+"comments is redundant with devices, and less structured (comments is not "
+"deleted to be compatible with old version of plugin in GLPI, since 0.83+2.x "
+"version we use devices node)"
+msgstr ""
+
+#. type: Bullet: '* '
+msgid "the whole data structure doesn't match the one used in server message"
+msgstr ""
+
+#. type: Bullet: '* '
+msgid "dynamicport element is badly named"
+msgstr ""
+
+#. type: Title ##
+#, no-wrap
+msgid "Variables"
+msgstr ""
+
+#. type: Plain text
+msgid "Here are the existing SNMP variables:"
+msgstr ""
+
+#. type: Bullet: '* '
+msgid "cartridgeblack"
+msgstr ""
+
+#. type: Bullet: '* '
+msgid "cartridgecyanlight"
+msgstr ""
+
+#. type: Bullet: '* '
+msgid "cartridgecyan"
+msgstr ""
+
+#. type: Bullet: '* '
+msgid "cartridgemagentalight"
+msgstr ""
+
+#. type: Bullet: '* '
+msgid "cartridgemagenta"
+msgstr ""
+
+#. type: Bullet: '* '
+msgid "cartridgeyellow"
+msgstr ""
+
+#. type: Bullet: '* '
+msgid "cdpCacheAddress"
+msgstr ""
+
+#. type: Bullet: '* '
+msgid "cdpCacheDeviceId"
+msgstr ""
+
+#. type: Bullet: '* '
+msgid "cdpCacheDevicePort"
+msgstr ""
+
+#. type: Bullet: '* '
+msgid "cdpCachePlatform"
+msgstr ""
+
+#. type: Bullet: '* '
+msgid "cdpCacheVersion"
+msgstr ""
+
+#. type: Bullet: '* '
+msgid "comments"
+msgstr ""
+
+#. type: Bullet: '* '
+msgid "contact"
+msgstr ""
+
+#. type: Bullet: '* '
+msgid "cpu"
+msgstr ""
+
+#. type: Bullet: '* '
+msgid "dot1dBasePortIfIndex"
+msgstr ""
+
+#. type: Bullet: '* '
+msgid "dot1dTpFdbAddress"
+msgstr ""
+
+#. type: Bullet: '* '
+msgid "dot1dTpFdbPort"
+msgstr ""
+
+#. type: Bullet: '* '
+msgid "drumblack"
+msgstr ""
+
+#. type: Bullet: '* '
+msgid "drumblackmax"
+msgstr ""
+
+#. type: Bullet: '* '
+msgid "drumblackremaining"
+msgstr ""
+
+#. type: Bullet: '* '
+msgid "drumcyan"
+msgstr ""
+
+#. type: Bullet: '* '
+msgid "drumcyanmax"
+msgstr ""
+
+#. type: Bullet: '* '
+msgid "drumcyanremaining"
+msgstr ""
+
+#. type: Bullet: '* '
+msgid "drummagenta"
+msgstr ""
+
+#. type: Bullet: '* '
+msgid "drumyellow"
+msgstr ""
+
+#. type: Bullet: '* '
+msgid "enterprise"
+msgstr ""
+
+#. type: Bullet: '* '
+msgid "entPhysicalModelName"
+msgstr ""
+
+#. type: Bullet: '* '
+msgid "firmware1"
+msgstr ""
+
+#. type: Bullet: '* '
+msgid "firmware2"
+msgstr ""
+
+#. type: Bullet: '* '
+msgid "firmware"
+msgstr ""
+
+#. type: Bullet: '* '
+msgid "ifaddr"
+msgstr ""
+
+#. type: Bullet: '* '
+msgid "ifdescr"
+msgstr ""
+
+#. type: Bullet: '* '
+msgid "ifIndex"
+msgstr ""
+
+#. type: Bullet: '* '
+msgid "ifinerrors"
+msgstr ""
+
+#. type: Bullet: '* '
+msgid "ifinoctets"
+msgstr ""
+
+#. type: Bullet: '* '
+msgid "ifinternalstatus"
+msgstr ""
+
+#. type: Bullet: '* '
+msgid "iflastchange"
+msgstr ""
+
+#. type: Bullet: '* '
+msgid "ifAlias"
+msgstr ""
+
+#. type: Bullet: '* '
+msgid "ifmtu"
+msgstr ""
+
+#. type: Bullet: '* '
+msgid "ifName"
+msgstr ""
+
+#. type: Bullet: '* '
+msgid "ifouterrors"
+msgstr ""
+
+#. type: Bullet: '* '
+msgid "ifoutoctets"
+msgstr ""
+
+#. type: Bullet: '* '
+msgid "ifPhysAddress"
+msgstr ""
+
+#. type: Bullet: '* '
+msgid "ifspeed"
+msgstr ""
+
+#. type: Bullet: '* '
+msgid "ifstatus"
+msgstr ""
+
+#. type: Bullet: '* '
+msgid "ifType"
+msgstr ""
+
+#. type: Bullet: '* '
+msgid "informations"
+msgstr ""
+
+#. type: Bullet: '* '
+msgid "ipAdEntAddr"
+msgstr ""
+
+#. type: Bullet: '* '
+msgid "ipNetToMediaPhysAddress"
+msgstr ""
+
+#. type: Bullet: '* '
+msgid "lldpLocChassisId"
+msgstr ""
+
+#. type: Bullet: '* '
+msgid "lldpRemChassisId"
+msgstr ""
+
+#. type: Bullet: '* '
+msgid "lldpRemPortDesc"
+msgstr ""
+
+#. type: Bullet: '* '
+msgid "lldpRemPortId"
+msgstr ""
+
+#. type: Bullet: '* '
+msgid "lldpRemSysDesc"
+msgstr ""
+
+#. type: Bullet: '* '
+msgid "lldpRemSysName"
+msgstr ""
+
+#. type: Bullet: '* '
+msgid "location"
+msgstr ""
+
+#. type: Bullet: '* '
+msgid "macaddr"
+msgstr ""
+
+#. type: Bullet: '* '
+msgid "maintenancekit"
+msgstr ""
+
+#. type: Bullet: '* '
+msgid "maintenancekitmax"
+msgstr ""
+
+#. type: Bullet: '* '
+msgid "maintenancekitremaining"
+msgstr ""
+
+#. type: Bullet: '* '
+msgid "memory"
+msgstr ""
+
+#. type: Bullet: '* '
+msgid "model"
+msgstr ""
+
+#. type: Bullet: '* '
+msgid "name"
+msgstr ""
+
+#. type: Bullet: '* '
+msgid "otherserial"
+msgstr ""
+
+#. type: Bullet: '* '
+msgid "pagecounterblackpages_copy"
+msgstr ""
+
+#. type: Bullet: '* '
+msgid "pagecounterblackpages"
+msgstr ""
+
+#. type: Bullet: '* '
+msgid "pagecounterblackpages_print"
+msgstr ""
+
+#. type: Bullet: '* '
+msgid "pagecountercolorpages_copy"
+msgstr ""
+
+#. type: Bullet: '* '
+msgid "pagecountercolorpages"
+msgstr ""
+
+#. type: Bullet: '* '
+msgid "pagecountercolorpages_print"
+msgstr ""
+
+#. type: Bullet: '* '
+msgid "pagecounterrectoversopages"
+msgstr ""
+
+#. type: Bullet: '* '
+msgid "pagecounterscannedpages"
+msgstr ""
+
+#. type: Bullet: '* '
+msgid "pagecountertotalpages_copy"
+msgstr ""
+
+#. type: Bullet: '* '
+msgid "pagecountertotalpages_fax"
+msgstr ""
+
+#. type: Bullet: '* '
+msgid "pagecountertotalpages"
+msgstr ""
+
+#. type: Bullet: '* '
+msgid "pagecountertotalpages_print"
+msgstr ""
+
+#. type: Bullet: '* '
+msgid "PortVlanIndex"
+msgstr ""
+
+#. type: Bullet: '* '
+msgid "ram"
+msgstr ""
+
+#. type: Bullet: '* '
+msgid "serial"
+msgstr ""
+
+#. type: Bullet: '* '
+msgid "tonerblack2"
+msgstr ""
+
+#. type: Bullet: '* '
+msgid "tonerblack2max"
+msgstr ""
+
+#. type: Bullet: '* '
+msgid "tonerblack2remaining"
+msgstr ""
+
+#. type: Bullet: '* '
+msgid "tonerblack"
+msgstr ""
+
+#. type: Bullet: '* '
+msgid "tonerblackmax"
+msgstr ""
+
+#. type: Bullet: '* '
+msgid "tonerblackremaining"
+msgstr ""
+
+#. type: Bullet: '* '
+msgid "tonercyan"
+msgstr ""
+
+#. type: Bullet: '* '
+msgid "tonercyanmax"
+msgstr ""
+
+#. type: Bullet: '* '
+msgid "tonercyanremaining"
+msgstr ""
+
+#. type: Bullet: '* '
+msgid "tonermagenta"
+msgstr ""
+
+#. type: Bullet: '* '
+msgid "tonermagentamax"
+msgstr ""
+
+#. type: Bullet: '* '
+msgid "tonermagentaremaining"
+msgstr ""
+
+#. type: Bullet: '* '
+msgid "toneryellow"
+msgstr ""
+
+#. type: Bullet: '* '
+msgid "toneryellowmax"
+msgstr ""
+
+#. type: Bullet: '* '
+msgid "toneryellowremaining"
+msgstr ""
+
+#. type: Bullet: '* '
+msgid "uptime"
+msgstr ""
+
+#. type: Bullet: '* '
+msgid "vlanTrunkPortDynamicStatus"
+msgstr ""
+
+#. type: Bullet: '* '
+msgid "vmvlan"
+msgstr ""
+
+#. type: Bullet: '* '
+msgid "vtpVlanName"
+msgstr ""
+
+#. type: Bullet: '* '
+msgid "wastetoner"
+msgstr ""
+
+#. type: Bullet: '* '
+msgid "wastetonermax"
+msgstr ""
+
+#. type: Bullet: '* '
+msgid "wastetonerremaining"
+msgstr ""
+
+#. type: Title ##
+#, no-wrap
+msgid "Communication"
+msgstr ""
+
+#. type: Plain text
+msgid ""
+"The server send a copy of each needed SNMP models to the agent, as part of "
+"its inventory request. Here is a sample of such message:"
+msgstr ""
+
+#. type: Plain text
+#, no-wrap
+msgid ""
+"    <MODEL ID=\"196\" NAME=\"4675719\">\n"
+"        <GET OBJECT=\"name\" OID=\".1.3.6.1.2.1.1.5.0\" VLAN=\"0\" LINK=\"name\"/>\n"
+"        <WALK OBJECT=\"ifIndex\" OID=\".1.3.6.1.2.1.2.2.1.1\" VLAN=\"0\" LINK=\"ifIndex\"/>\n"
+"        <WALK OBJECT=\"ifaddr\" OID=\".1.3.6.1.2.1.4.20.1.2\" VLAN=\"0\" LINK=\"ifaddr\"/>\n"
+"        <GET OBJECT=\"informations\" OID=\".1.3.6.1.4.1.11.2.3.9.1.1.7.0\" VLAN=\"0\" LINK=\"informations\"/>\n"
+"    </MODEL>\n"
+msgstr ""
+
+#. type: Bullet: '* '
+msgid "the data structure doesn't match the one used for storing model"
+msgstr ""
+
+#. type: Bullet: '* '
+msgid ""
+"the server doesn't allow dictionnary retrieval outside of a scheduled "
+"inventory task, making usage of alternative tools difficult ([issue 1993]"
+"(http://forge.fusioninventory.org/issues/1993))"
+msgstr ""
+
+#. type: Title ##
+#, no-wrap
+msgid "Local customisation"
+msgstr ""
+
+#. type: Plain text
+msgid ""
+"Each model is stored as an XML file, distributed with Fusioninventory plugin "
+"for GLPI, in glpi/plugins/fusioninventory/snmpmodels directory. At plugin "
+"installation, those models are imported into GLPI database, and XML files "
+"are subsequently ignored. Models can be modified either by modificating the "
+"XML files, and reimporting them, or directly in the database through GLPI "
+"interface."
+msgstr ""
+
+#. type: Plain text
+msgid ""
+"At plugin update, existing XML files are replaced by new ones included in "
+"the plugin, the GLPI database models are deleted, and all content of the "
+"glpi/plugins/fusioninventory/snmpmodels is imported again. As a consequence, "
+"in order to make local modification persistent, they have to be saved in XML "
+"files, using filenames different from the ones included in the plugin."
+msgstr ""
+
+#. type: Title ##
+#, no-wrap
+msgid "Enhancement proposals"
+msgstr ""
+
+#. type: Title ###
+#, no-wrap
+msgid "Proposal 1"
+msgstr ""
+
+#. type: Plain text
+msgid ""
+"Drop the confusing distinction between a model name and a model key, and use "
+"a single model identifier everywhere:"
+msgstr ""
+
+#. type: Bullet: '* '
+msgid "as model xml file name"
+msgstr ""
+
+#. type: Bullet: '* '
+msgid "in model data"
+msgstr ""
+
+#. type: Bullet: '* '
+msgid "in GLPI interface"
+msgstr ""
+
+#. type: Title ###
+#, no-wrap
+msgid "Proposal 2"
+msgstr ""
+
+#. type: Plain text
+msgid ""
+"Make the model structure in XML file closer to the one used in communication "
+"between the server and the agent. Here is an alternate DTD:"
+msgstr ""
+
+#. type: Plain text
+#, no-wrap
+msgid ""
+"    <!ELEMENT model (name,type,key,comments,devices,oidlist)>\n"
+"    <!ELEMENT name (#PCDATA)>\n"
+"    <!ELEMENT type (2|3)>\n"
+"    <!ELEMENT key (#PCDATA)>\n"
+"    <!ELEMENT comments (#PCDATA)>\n"
+"    <!ELEMENT devices (sysdescr*)>\n"
+"    <!ELEMENT sysdescr (#PCDATA)>\n"
+"    <!ELEMENT get (object,oid,portcounter,dynamicport,type,vlan,activation)*>\n"
+"    <!ELEMENT walk (object,oid,portcounter,dynamicport,type,vlan,activation)*>\n"
+"    <!ELEMENT object (#PCDATA)>\n"
+"    <!ELEMENT oid (#PCDATA)>\n"
+"    <!ELEMENT portcounter (0|1)>\n"
+"    <!ELEMENT type (#PCDATA)>\n"
+"    <!ELEMENT vlan (0|1)>\n"
+"    <!ELEMENT activation (0|1)>\n"
+msgstr ""
+
+#. type: Plain text
+msgid "And a sample instance:"
+msgstr ""
+
+#. type: Plain text
+#, no-wrap
+msgid ""
+"    <model>\n"
+"        <key>Printer0547</key>\n"
+"        ...\n"
+"        <get>\n"
+"            <object>comments</object>\n"
+"            <oid>.1.3.6.1.2.1.1.1.0</oid>\n"
+"            <portcounter>0</portcounter>\n"
+"            <type>Printer</mapping_type>\n"
+"            <vlan>0</vlan>\n"
+"            <activation>1</activation>\n"
+"        </get>\n"
+"        ...\n"
+"        <walk>\n"
+"            <object>ifaddr</object>\n"
+"            <oid>.1.3.6.1.2.1.4.20.1.2</oid>\n"
+"            <portcounter>0</portcounter>\n"
+"            <type>Printer</mapping_type>\n"
+"            <vlan>0</vlan>\n"
+"            <activation>1</activation>\n"
+"        </walk>\n"
+"    </model>\n"
+msgstr ""
+
+#. type: Title ###
+#, no-wrap
+msgid "Proposal 3"
+msgstr ""
+
+#. type: Plain text
+msgid ""
+"Drop useless and redundant information from models (to be specified later)."
+msgstr ""

@@ -7,6 +7,7 @@ use File::Basename;
 use File::Path qw(make_path);
 use Pod::Markdown;
 use Git::Repository;
+use File::Basename;
 
 my $tmpDir = "/home/goneri/fusioninventory/tmp/wikigit";
 
@@ -18,67 +19,12 @@ my @repoList = (
           'git+ssh://forge.fusioninventory.org/git/fusioninventory/agent.git',
         branches => [
             {
-                serie  => '2.1.x',
-                branch => '2.1.x',
-                status => 'oldstable'
-            },
-            {
-                serie  => '2.2.x',
-                branch => '2.2.x',
-                status => 'stable'
-            },
-            {
                 'serie'  => '2.3.x',
-                'branch' => '2.3.x',
-                'status' => 'dev',
-            },
-            {
-                'serie'  => '3.0.x',
                 'branch' => 'master',
                 'status' => 'dev'
             },
-        ],
-        files => [
-            'fusioninventory-agent', 'fusioninventory-injector',
-            'fusioninventory-inventory', 'lib/FusionInventory/Agent/Task/Inventory/Inventory.pm'
-          ]
-
-    },
-    {
-
-        name => 'agent-task-esx',
-        url =>
-          'git+ssh://forge.fusioninventory.org/git/fusioninventory/agent-task-esx.git',
-        branches => [
-            {
-                serie  => '2.x',
-                branch => 'master',
-                status => 'stable'
-            }
-        ],
-        files => [
-            'fusioninventory-esx'
         ]
-
-    },
-    {
-
-        name => 'agent-task-network',
-        url =>
-          'git+ssh://forge.fusioninventory.org/git/fusioninventory/agent-task-network.git',
-        branches => [
-            {
-                serie  => '1.0.x',
-                branch => 'master',
-                status => 'stable'
-            }
-        ],
-        files => [
-            'fusioninventory-netdiscovery', 'fusioninventory-netinventory'
-          ]
-
-    },
-
+    }
 );
 
 
@@ -86,8 +32,8 @@ my $indexContent = "# Reference documentation\n";
 
 my $wiki = Git::Repository->new( work_tree => '.' );
 #eval { $wiki->run('rm', '-rf', "documentation/references") };
-
 foreach my $repo (@repoList) {
+    use Data::Dumper;
     my $localDir = sprintf( "%s/%s", $tmpDir, $repo->{name} );
 
     if ( !-d $localDir && !make_path($localDir) ) {
@@ -100,21 +46,22 @@ foreach my $repo (@repoList) {
     my $r = Git::Repository->new( work_tree => $localDir );
     $r->run( 'fetch', 'origin' );
 
-    foreach my $file ( @{ $repo->{files} } ) {
+    foreach my $fullpath ( glob("$localDir/bin/fusioninventory-*") ) {
+        my $filename = basename($fullpath);
 
-        $indexContent .= "\n## $file\n\n" unless $file =~ /pm$/;
+        $indexContent .= "\n## $filename\n\n" unless $filename =~ /pm$/;
 
         foreach my $branch ( @{ $repo->{branches} } ) {
 
             my $content =
-              eval{ $r->run( 'show', 'origin/' . $branch->{branch} . ':' . $file ) };
+              eval{ $r->run( 'show', 'origin/' . $branch->{branch} . ':' . 'bin/' . $filename ) };
 
 
             open TMP, ">$localDir/tmpfile" or die;
             print TMP $content;
             close TMP;
 
-            my $mdwnFile = sprintf("documentation/references/%s/%s/%s", $repo->{name}, $branch->{serie}, $file);
+            my $mdwnFile = sprintf("documentation/references/%s/%s/%s", $repo->{name}, $branch->{serie}, $filename);
             print $mdwnFile. "\n";
 
             next unless $content;
@@ -132,7 +79,7 @@ foreach my $repo (@repoList) {
             print OUT $parser->as_markdown;
             close OUT;
             $wiki->run('add', $mdwnFile . '.mdwn');
-            $indexContent .= "* [[".$branch->{serie}." (".$branch->{status}.")|$mdwnFile]]\n" unless $file =~ /pm$/;
+            $indexContent .= "* [[".$branch->{serie}." (".$branch->{status}.")|$mdwnFile]]\n" unless $filename =~ /pm$/;
 
         }
 

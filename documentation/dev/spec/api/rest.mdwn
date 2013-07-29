@@ -60,8 +60,8 @@ The global section is a hash of settings. Here 'global' is defined to give the r
     {
        "schedule" : [
           {
-             "periodicity" : 3600,                     ← time to wait between to call
-             "delayStartup" : 600,                   ← time to wait before the first startup, default is now+periodicity
+             "periodicity" : 3600,                     ← time in seconds to wait between to call
+             "delayStartup" : 600,                   ← time in seconds to wait before the first startup, default is now+periodicity
              "task" : "Inventory",                        ← Task name
              "remote" : "https://server1/plugins/fusioninventory/b"   ← Remote backend URL to contact
           },

@@ -210,7 +210,7 @@ msgstr ""
 "/rpc-port               Ustawia numer portu RPC\n"
 "/scan-homedirs          Poszukuje maszyn wirtualnych w katalogu domowym\n"
 "/runnow                 Uruchamia agenta zaraz po instalacji\n"
-"/update-firewall        Update the Firewall to register the agent\n"
+"/update-firewall        Aktualizuje firewall aby zarejestrować agenta.\n"
 "/execmode=option        uruchamia agenta jako serwis(service)/menadżer zadań windows (task)/lub pozostawia ustawienia bez zmian (none (domyślnie service)\n"
 "~~~~\n"
 
@@ -233,7 +233,8 @@ msgid ""
 "this mean that i want to install fusioninventory in silent mode, run an "
 "inventory after installation, and send the inventory by https"
 msgstr ""
-
+"to oznacza, że agent zainstaluje się w trybie cichym, uruchomi inwentaryzację oraz "
+"wyśle wyniki na serwer przez https"
 #. type: Plain text
 #, no-wrap
 msgid "    fusioninventory-agent_windows-i386_2.x.x-1.exe /S /debug /runnow /server=http://server1/glpi/plugins/fusioninventory/\n"
@@ -241,13 +242,15 @@ msgstr ""
 
 #. type: Plain text
 msgid "The same as above but with a plain http connection"
-msgstr ""
+msgstr "to samo co powyżej ale poprzez połączenie nieszyfrowane"
 
 #. type: Plain text
 msgid ""
 "And installation directory of the agent can be changed via command-line as "
 "below:"
 msgstr ""
+"docelowy katalog instalacji można zmienić za pomocą linii komend tak jak "
+"poniżej:"
 
 #. type: Plain text
 #, no-wrap
@@ -265,7 +268,7 @@ msgstr ""
 #. type: Title #
 #, no-wrap
 msgid "Large installation"
-msgstr ""
+msgstr "Duża instalacja"
 
 #. type: Plain text
 msgid ""
@@ -276,7 +279,7 @@ msgstr ""
 #. type: Title #
 #, no-wrap
 msgid "Installation from sources"
-msgstr ""
+msgstr "Instalacja ze źródeł"
 
 #. type: Plain text
 msgid ""

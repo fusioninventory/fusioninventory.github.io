@@ -52,6 +52,10 @@ msgid "[[Fedora|documentation/agent/installation/linux/fedora]]"
 msgstr "[[Fedora|documentation/agent/installation/linux/fedora]]"
 
 #. type: Bullet: '* '
+msgid "[[Gentoo|documentation/agent/installation/linux/gentoo]]"
+msgstr "[[Gentoo|documentation/agent/installation/linux/gentoo]]"
+
+#. type: Bullet: '* '
 msgid "[[Mageia and Mandriva|documentation/agent/installation/linux/mageia]]"
 msgstr "[[Mageia et Mandriva|documentation/agent/installation/linux/mageia]]"
 

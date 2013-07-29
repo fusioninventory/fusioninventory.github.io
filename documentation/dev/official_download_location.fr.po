@@ -1,0 +1,119 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2013-07-23 11:40+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. type: Title #
+#, no-wrap
+msgid "Where should we publish new files"
+msgstr ""
+
+#. type: Plain text
+#, no-wrap
+msgid "** This document is for FI developers **\n"
+msgstr ""
+
+#. type: Plain text
+msgid "Please use the [[Get|get]] page to download new release."
+msgstr ""
+
+#. type: Plain text
+msgid ""
+"Today different places are used to publish files. This situation is "
+"confusing. This document present what should be done in the futur."
+msgstr ""
+
+#. type: Title ##
+#, no-wrap
+msgid "Today"
+msgstr ""
+
+#. type: Bullet: '* '
+msgid "prebuilt.f.o"
+msgstr ""
+
+#. type: Bullet: '* '
+msgid "CPAN"
+msgstr ""
+
+#. type: Bullet: '* '
+msgid "different projects on the forge"
+msgstr ""
+
+#. type: Bullet: '* '
+msgid "SF.net"
+msgstr ""
+
+#. type: Bullet: '* '
+msgid "debian.f.o"
+msgstr ""
+
+#. type: Bullet: '* '
+msgid "OBS (<http://build.opensuse.org>)"
+msgstr ""
+
+#. type: Plain text
+msgid "The problems :"
+msgstr ""
+
+#. type: Bullet: '* '
+msgid ""
+"Stable release can be download from various location, this is confusing."
+msgstr ""
+
+#. type: Bullet: '* '
+msgid "Development and package snapshot are publish at the same place."
+msgstr ""
+
+#. type: Title ##
+#, no-wrap
+msgid "Draft"
+msgstr ""
+
+#. type: Plain text
+msgid "We can use download.f.o or the forge."
+msgstr ""
+
+#. type: Title ###
+#, no-wrap
+msgid "download.f.o"
+msgstr ""
+
+#. type: Plain text
+#, no-wrap
+msgid ""
+"* pros\n"
+"    * simple to manage\n"
+"    * can be used by debian.f.o to\n"
+"* cons\n"
+"    * no downlaod counters (so far)\n"
+"    * need to define the file hierachie\n"
+"    * yet another anonical download localisation\n"
+msgstr ""
+
+#. type: Title ###
+#, no-wrap
+msgid "Forge.f.o"
+msgstr ""
+
+#. type: Plain text
+#, no-wrap
+msgid ""
+"* pros\n"
+"    * already partially in use\n"
+"* cons\n"
+"    * complexe to use with different packages IMO (Gonéri)\n"
+msgstr ""

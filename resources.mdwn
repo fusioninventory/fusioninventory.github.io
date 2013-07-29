@@ -1,16 +1,5 @@
 # Resources and web sites
 
-<http://www.fusioninventory.org/> is the official web site.
-
-## Development forge
-
-Developement are done on FusionInventory forge:
-<http://forge.fusioninventory.org/>.
-
-The forge includes Bugtracker, Download page, Source browser and internal Wiki.
-
-Git repositories are synchronised on [Github FusionInventory page](http://www.github.com/fusinv)
-regulary.
 
 ## Mailing lists
 

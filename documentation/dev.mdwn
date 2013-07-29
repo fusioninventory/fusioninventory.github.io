@@ -8,6 +8,8 @@
 * [[Source|documentation/agent/installation/source]]
 * Git: [[UNIX|documentation/agent/dev/git_unix]], [[Windows|documentation/agent/dev/git_windows]]
 
+* [[Official download location|documentation/dev/official_download_location]]
+
 # Fusion server
 
 * [[How works fusion server (SNMP tool server)|dev/fusion_server_snmp_tool]]
@@ -41,3 +43,5 @@ and the server.
 
 * [[New directory layout (partially implemented)|documentation/dev/spec/new-directory-layout]]
 * [[POIP inventory with HTTP|documentation/dev/spec/poip]]
+* [[Switch inventory aggregate ports|documentation/dev/spec/switch_aggregate]] 
+* [[NetInventory XML format|documentation/dev/spec/netinventory-xml-format]] 

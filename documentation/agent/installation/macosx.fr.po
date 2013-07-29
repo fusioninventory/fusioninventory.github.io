@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2013-04-03 07:06+0000\n"
+"POT-Creation-Date: 2013-04-25 09:20+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -227,6 +227,19 @@ msgstr "Pour arrêter le service:"
 #, no-wrap
 msgid "    $ sudo launchctl stop org.fusioninventory.agent\n"
 msgstr "    $ sudo launchctl stop org.fusioninventory.agent\n"
+
+#. type: Plain text
+msgid ""
+"In some rare cases, this is not enough to stop the agent. You have to kill "
+"the process by yourself."
+msgstr ""
+"Dans quelques rares cas, ce ne sera pas suffisant pour arrêter "
+"l'agent. Vous devez tuer le processus avec cette commande:"
+
+#. type: Plain text
+#, no-wrap
+msgid "    $ sudo killall perl\n"
+msgstr "    $ sudo killall perl\n"
 
 #. type: Plain text
 msgid "To start the service:"

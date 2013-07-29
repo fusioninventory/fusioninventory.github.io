@@ -1,0 +1,55 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2013-05-02 14:33+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. type: Plain text
+#, no-wrap
+msgid "[[!meta  date=\"2013-04-29\"]]\n"
+msgstr "[[!meta  date=\"2013-04-29\"]]\n"
+
+#. type: Plain text
+msgid ""
+"Some days ago, we publish a new stable release of FusionInventory for GLPI ( "
+"0.83+2.2.1 )."
+msgstr ""
+"Depuis quelques jours, une nouvelle version stable est disponible pour "
+"FusionInventory For GLPI (0.83+2.2.1 )."
+
+#. type: Bullet: '* '
+msgid "[fusioninventory-for-glpi-metapackage_0.83+2.2.1.tar.gz](http://forge.fusioninventory.org/attachments/download/952/fusioninventory-for-glpi-metapackage_0.83+2.2.1.tar.gz)"
+msgstr "[fusioninventory-for-glpi-metapackage_0.83+2.2.1.tar.gz](http://forge.fusioninventory.org/attachments/download/952/fusioninventory-for-glpi-metapackage_0.83+2.2.1.tar.gz)"
+
+#. type: Plain text
+msgid ""
+"This release requires an up to date installation of GLPI 0.83. Please, take "
+"a look on the [[Installation and Upgrade "
+"documentation|documentation/fi4g/installation]] before the installation."
+msgstr ""
+"Cette nouvelle version nécessite la mise à jour de votre installation en GLPI 0.83. Prenez le temps "
+"de regarder la [[documentation d'installation|documentation/fi4g/installation]] "
+"avant de lancer la mise à jour."
+
+#. type: Plain text
+#, no-wrap
+msgid ""
+"Once the plugin is up to date, go in _Plugins > FusionInventory > Inventory "
+"> Data integrity check_\n"
+"and use the _Clean_ button to fix a Software inventory issue.\n"
+msgstr ""
+"Une fois la mise à jour terminée, allez dans _Plugins > FusionInventory > Inventory "
+"> Contrôle d'intégrité des données_ \n"
+"et utilisez le bouton pour supprimer les remonter d'inventaire en erreur.\n"

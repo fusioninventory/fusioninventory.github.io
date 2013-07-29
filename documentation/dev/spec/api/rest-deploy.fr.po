@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2013-01-30 10:10+0000\n"
+"POT-Creation-Date: 2013-07-10 10:00+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -401,6 +401,26 @@ msgstr ""
 
 #. type: Bullet: '* '
 msgid "list: a list of directory to create"
+msgstr ""
+
+#. type: Plain text
+msgid "h5. installPkg (draft/not implemented)"
+msgstr ""
+
+#. type: Bullet: '* '
+msgid "name: the package name"
+msgstr ""
+
+#. type: Bullet: '* '
+msgid "method (optional): the method to use to install the package, (apt,yum)"
+msgstr ""
+
+#. type: Bullet: '* '
+msgid "repo (optional): the repository to use, e.g: backport-wheezy or epel"
+msgstr ""
+
+#. type: Bullet: '* '
+msgid "version (optional): the version to use, e.g: \">= 3\", \"= 3.0-2\""
 msgstr ""
 
 #. type: Title ####

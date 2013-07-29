@@ -29,13 +29,17 @@ msgid ""
 "is the same as the `--server` parameter on command line."
 msgstr ""
 "L'agent lit la configuration depuis le fichier de configuration (depuis la base de registre sur Windows),"
-" "
+" ou à partir de la ligne de commande. La plupart des paramètres peuvent être définis à partir de n'importe "
+"quelle méthode. Par exemple, le paramètre `server` dans le fichier de configuration a le même "
+"sens que le paramètre `--server` en ligne de commande."
 
 #. type: Plain text
 msgid ""
 "Most configuration parameters are single-valued. Multi-valued ones use a "
 "comma field separator. For instance, `logger = Stderr, File`"
 msgstr ""
+"La plupart des paramètres de configuration ont une seule valeur. Pour ceux ayant "
+" plusieurs valeurs, utiliser le séparateur de champ «virgules». Par exemple, logger = Stderr,File"
 
 #. type: Title ##
 #, no-wrap
@@ -52,26 +56,26 @@ msgstr ""
 
 #. type: Bullet: '* '
 msgid "`/etc/fusioninventory/agent.cfg`: default"
-msgstr "`/etc/fusioninventory/agent.cfg`: par défaut"
+msgstr "`/etc/fusioninventory/agent.cfg` : par défaut"
 
 #. type: Bullet: '* '
 msgid "`/opt/fusioninventory/agent.cfg`: MacOSx mpkg"
-msgstr "`/opt/fusioninventory/agent.cfg`: agent MacOSx"
+msgstr "`/opt/fusioninventory/agent.cfg` : agent MacOSx"
 
 #. type: Bullet: '* '
 msgid "`/usr/local/etc/fusioninventory/agent.cfg`: FreeBSD port"
-msgstr "`/usr/local/etc/fusioninventory/agent.cfg`: port FreeBSD "
+msgstr "`/usr/local/etc/fusioninventory/agent.cfg` : port FreeBSD "
 
 #. type: Bullet: '* '
 msgid "`HKEY_LOCAL_MACHINE\\SOFTWARE\\FusionInventory-Agent`: Windows"
-msgstr "`HKEY_LOCAL_MACHINE\\SOFTWARE\\FusionInventory-Agent`: pour Windows"
+msgstr "`HKEY_LOCAL_MACHINE\\SOFTWARE\\FusionInventory-Agent` : pour Windows"
 
 #. type: Bullet: '* '
 msgid ""
 "`HKEY_LOCAL_MACHINE\\SOFTWARE\\Wow6432Node\\FusionInventory-Agent`: Windows "
 "64 bits"
 msgstr ""
-"`HKEY_LOCAL_MACHINE\\SOFTWARE\\Wow6432Node\\FusionInventory-Agent`: pour "
+"`HKEY_LOCAL_MACHINE\\SOFTWARE\\Wow6432Node\\FusionInventory-Agent` : pour "
 "Windows 64 bits"
 
 #. type: Title ##
@@ -83,39 +87,41 @@ msgstr "Configuration minimale"
 msgid ""
 "The only minimal requirement is an execution target, which can be either:"
 msgstr ""
+"Le seul paramètre minimal est une cible d'exécution, qui peut être soit :"
 
 #. type: Bullet: '* '
 msgid ""
 "`server`: a server URL, such as http://glpiserver/plugins/fusioninventory/"
 msgstr ""
-"`server`: URL du serveur, en général, cela ressemble à http://glpiserver/"
+"`server` : URL du serveur, en général, cela ressemble à http://glpiserver/"
 "glpi/plugins/fusioninventory/"
 
 #. type: Bullet: '* '
 msgid "`local`: a output directory, such /tmp/inventory"
-msgstr ""
+msgstr "`local` : un dossier cible, comme /tmp/dossier"
 
 #. type: Title ##
-#, fuzzy, no-wrap
-#| msgid "Minimal configuration"
 msgid "Additional configuration"
-msgstr "Configuration minimale"
+msgstr "Configuration additionnelle"
 
 #. type: Plain text
 msgid ""
 "If you intend to run the agent in background, you'd rather set the "
 "additional parameters:"
 msgstr ""
+"Si vous avez l'intention d'exécuter l'agent en arrière-plan, "
+"vous devrez définir les paramètres supplémentaires :"
 
 #. type: Bullet: '* '
 msgid "`debug`: 0, 1 or 2, to keep trace of agent execution"
-msgstr ""
+msgstr "`debug` : 0, 1, ou 2, pour garder le log de l'exécution de l'agent"
 
 #. type: Bullet: '* '
 msgid ""
 "`httpd-trust`: a server IP address, so as to allows it to force agent "
 "execution"
 msgstr ""
+"`httpd-trust` : une adresse IP du serveur, de manière à lui permet de forcer l'exécution de l'agent"
 
 #. type: Plain text
 msgid ""
@@ -136,7 +142,7 @@ msgid ""
 "reference documentation:"
 msgstr ""
 "Toutes les clés sont documentées dans la section OPTIONS de la documentation "
-"de référence de fusioninventory-agent:"
+"de référence de fusioninventory-agent :"
 
 #. type: Bullet: '* '
 msgid ""
@@ -159,27 +165,3 @@ msgid ""
 msgstr ""
 "[[2.3.x (dev)|documentation/references/agent/2.3.x/fusioninventory-agent]]"
 
-#~ msgid ""
-#~ "The agent reads the configuration from a list of key / value. Sometime, "
-#~ "value can be a list of value, in such case, a comma is used a field "
-#~ "separator (e.g: server)."
-#~ msgstr ""
-#~ "L'agent lit la configuration suivant une liste de clé/valeur. Quelque "
-#~ "fois, la valeur peut être une liste de valeur, dans ce cas, une virgule "
-#~ "est utilisée comme séparateur (ex: server)."
-
-#~ msgid ""
-#~ "`debug`: debug can be 0, 1 or 2. We suggest to use 2 to help you "
-#~ "understand what append"
-#~ msgstr ""
-#~ "`debug`: debug peut être à 0, 1 or 2. Nous vous suggérons d'utiliser le "
-#~ "mode 2 pour vous aider à voir ce qui se passe."
-
-#~ msgid ""
-#~ "`httpd-trust`: it's always a good idea to configure this key with the "
-#~ "**IP address** (not the hostname) of the server. This way you will be "
-#~ "able to use the **push** mode later."
-#~ msgstr ""
-#~ "`httpd-trust`: C'est toujours une bonne idée de configurer cette clé avec "
-#~ "l'**adresse IP** (pas de nom DNS) du serveur. Cela vous permettra "
-#~ "d'utiliser plus tard le mode **push**."

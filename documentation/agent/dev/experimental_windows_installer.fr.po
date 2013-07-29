@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2013-03-24 16:39+0000\n"
+"POT-Creation-Date: 2013-05-23 22:42+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -64,16 +64,16 @@ msgstr ""
 msgid "- Prevents multiple installations simultaneously."
 msgstr ""
 
-#. type: Plain text
-msgid "- Supports visual installation in multiple languages."
+#. type: Bullet: '- '
+msgid "Supports visual installation in multiple languages."
 msgstr ""
 
 #. type: Plain text
 msgid "(English and Spanish. French in construction.)"
 msgstr ""
 
-#. type: Plain text
-msgid "- Builds two different installers for x86 and x64 architectures."
+#. type: Bullet: '- '
+msgid "Builds two different installers for x86 and x64 architectures."
 msgstr ""
 
 #. type: Plain text
@@ -117,8 +117,8 @@ msgid ""
 "agent, either from the the command line, or from the visual installation."
 msgstr ""
 
-#. type: Plain text
-msgid "- Each generated installer is identified uniquely by a BuildID."
+#. type: Bullet: '- '
+msgid "Each generated installer is identified uniquely by a BuildID."
 msgstr ""
 
 #. type: Plain text
@@ -375,6 +375,7 @@ msgid ""
 "    > .\\install-strawberry-perl-package-for-fusioninventory-agent.bat\n"
 "    > .\\install-fusioninventory-agent.bat\n"
 "    > .\\patch-fusioninventory-agent.bat\n"
+"    > .\\update-ids-repositories.bat\n"
 "    > cd ..\\..\\NSIS\n"
 "    > .\\FusionInventory-Agent.bat\n"
 msgstr ""
@@ -397,6 +398,7 @@ msgid ""
 "    $ ./install-strawberry-perl-package-for-fusioninventory-agent.sh\n"
 "    $ ./install-fusioninventory-agent.sh\n"
 "    $ ./patch-fusioninventory-agent.sh\n"
+"    > ./update-ids-repositories.sh\n"
 "    $ cd ../../NSIS\n"
 "    $ ./FusionInventory-Agent.sh\n"
 msgstr ""
@@ -408,7 +410,7 @@ msgstr ""
 
 #. type: Plain text
 #, no-wrap
-msgid "**This task can be done only from Microsoft Windows OS.**\n"
+msgid "**This task can be done only from Microsoft Windows OS (x64).**\n"
 msgstr ""
 
 #. type: Plain text
@@ -959,7 +961,10 @@ msgid "Main site"
 msgstr ""
 
 #. type: Plain text
-msgid "<http://www.fusioninventory.org> * Forge"
+#, no-wrap
+msgid ""
+"<http://www.fusioninventory.org>\n"
+"* Forge  \n"
 msgstr ""
 
 #. type: Plain text
@@ -978,15 +983,17 @@ msgid "User list"
 msgstr ""
 
 #. type: Plain text
+#, no-wrap
 msgid ""
-"<http://lists.alioth.debian.org/mailman/listinfo/fusioninventory-user> * "
-"Developer list"
+"<http://lists.alioth.debian.org/mailman/listinfo/fusioninventory-user>\n"
+"* Developer list  \n"
 msgstr ""
 
 #. type: Plain text
+#, no-wrap
 msgid ""
-"<http://lists.alioth.debian.org/mailman/listinfo/fusioninventory-devel> * "
-"Translator list"
+"<http://lists.alioth.debian.org/mailman/listinfo/fusioninventory-devel>\n"
+"* Translator list  \n"
 msgstr ""
 
 #. type: Plain text
@@ -1022,9 +1029,10 @@ msgid "GitHub"
 msgstr ""
 
 #. type: Plain text
+#, no-wrap
 msgid ""
-"<https://github.com/tabad/fusioninventory-agent-windows-installer/> * "
-"SourceForge"
+"<https://github.com/tabad/fusioninventory-agent-windows-installer/>\n"
+"* SourceForge  \n"
 msgstr ""
 
 #. type: Plain text

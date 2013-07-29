@@ -183,13 +183,15 @@ msgstr ""
 #. type: Title ###
 #, no-wrap
 msgid "Options Detail"
-msgstr ""
+msgstr "Option SSL"
 
 #. type: Plain text
 msgid ""
 "SSL-only for agent: send an error response to an agent when this agent "
 "communicates to the server without SSL."
 msgstr ""
+"SSL-only pour l'agent: envoyer une réponse d'erreur à un agent lorsque "
+"cet agent communique avec le serveur sans SSL."
 
 #. type: Title ##
 #, no-wrap

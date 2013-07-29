@@ -1,10 +1,10 @@
 # How to setup a FusionInventory Agent on Windows from sources
 
-# Get Perl
+## Get Perl
 
 Download the latest version of [Strawberry Perl](http://strawberryperl.com/) and install it.
 
-# Install the additional perl modules
+## Install the additional perl modules
 
 Launch Perl command line (from Windows Start Menu) and launch CPAN plus shell: cpanp
 
@@ -19,13 +19,13 @@ Install the following perl modules: `install <module>`
 
 [[!img documentation/agent/installation/windows/from_sources-2.png]]
 
-# Install the agent
+## Retrieve the agent
 
-## From source tarball
+### From source tarball
 
 You can download latest git content as a [.zip file from github](https://github.com/fusinv/fusioninventory-agent/downloads) web interface.
 
-## From git repository
+### From git repository
 
 Download the latest version of MSysGit, and install it. Clone the git repository:
 
@@ -35,9 +35,17 @@ Download the latest version of MSysGit, and install it. Clone the git repository
 * use any directory as target directory
 * click "clone" button
 
-# Running the agent
+## Check the dependencies
+
+    $ perl Makefile.PL
+
+You can use the `cpanm` command to install the missing dependencies:
+
+    $ cpanm XML::TreePP
+
+## Running the agent
 
 Open Windows commande line and go to the directory when agent's sources are located
 run the agent:
 
-     perl fusioninventory-agent --stdout
+    $ perl fusioninventory-agent --stdout

@@ -71,6 +71,10 @@ To stop the service:
 
     $ sudo launchctl stop org.fusioninventory.agent
 
+In some rare cases, this is not enough to stop the agent. You have to kill the process by yourself.
+
+    $ sudo killall perl
+
 To start the service:
 
     $ sudo launchctl start org.fusioninventory.agent

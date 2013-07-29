@@ -1,0 +1,255 @@
+# SNMP description model
+
+The SNMP description model is a data structure of exhaustive model-specific
+informations, intended to be used during remote inventory phase of a device.
+
+They are stored as multiple XML file on the GLPI server (under
+gpli_plugins_directory/fusinvsnmp/models), imported into GLPI database at
+installation, and transmitted to the agent when needed as part of the inventory
+request.
+
+## Format
+
+Here is a simple DTD:
+
+    <!ELEMENT model (name,type,key,comments,devices,oidlist)>
+    <!ELEMENT name (#PCDATA)>
+    <!ELEMENT type (2|3)>
+    <!ELEMENT key (#PCDATA)>
+    <!ELEMENT comments (#PCDATA)>
+    <!ELEMENT devices (sysdescr*)>
+    <!ELEMENT sysdescr (#PCDATA)>
+    <!ELEMENT oidlist (oidobject*)>
+    <!ELEMENT oidobject (object,oid,portcounter,dynamicport,mapping_type,mapping_name,vlan,activation>
+    <!ELEMENT object (#PCDATA)>
+    <!ELEMENT oid (#PCDATA)>
+    <!ELEMENT portcounter (0|1)>
+    <!ELEMENT dynamicport (0|1)>
+    <!ELEMENT mapping_type (#PCDATA)>
+    <!ELEMENT mapping_name (#PCDATA)>
+    <!ELEMENT vlan (0|1)>
+    <!ELEMENT activation (0|1)>
+
+Here are the description for the various elements:
+
+* name: SNMP model name
+* key: SNMP model key
+* comments: raw list of sysdescr values of compatible devices, newline-separated
+* devices:  structured list of sysdescr values of compatible devices,
+  in array
+* oidlist: list of oidobject element
+* mapping_name: the actual name of the mapped variable
+* oid: the oid of the mapped variable
+* dynamicport: wether this is a single-valued or a multivalued variable
+* object: unused
+* portcounter: Define if this oid is THE port counter (list number of ports)
+* vlan: wether this is a vlan-specific variable
+* activation: Be able to active or disable this oid in GLPI (so not required in snmp model)
+
+Problems:
+
+* the model name is redundant with the model key, and less informative
+* usage of a numeric value for the type is barely human-readable
+* comments is redundant with devices, and less structured (comments is not deleted to be compatible with old version of plugin in GLPI, since 0.83+2.x version we use devices node)
+* the whole data structure doesn't match the one used in server message
+* dynamicport element is badly named
+
+## Variables
+
+Here are the existing SNMP variables:
+
+* cartridgeblack
+* cartridgecyanlight
+* cartridgecyan
+* cartridgemagentalight
+* cartridgemagenta
+* cartridgeyellow
+* cdpCacheAddress
+* cdpCacheDeviceId
+* cdpCacheDevicePort
+* cdpCachePlatform
+* cdpCacheVersion
+* comments
+* contact
+* cpu
+* dot1dBasePortIfIndex
+* dot1dTpFdbAddress
+* dot1dTpFdbPort
+* drumblack
+* drumblackmax
+* drumblackremaining
+* drumcyan
+* drumcyanmax
+* drumcyanremaining
+* drummagenta
+* drumyellow
+* enterprise
+* entPhysicalModelName
+* firmware1
+* firmware2
+* firmware
+* ifaddr
+* ifdescr
+* ifIndex
+* ifinerrors
+* ifinoctets
+* ifinternalstatus
+* iflastchange
+* ifAlias
+* ifmtu
+* ifName
+* ifouterrors
+* ifoutoctets
+* ifPhysAddress
+* ifspeed
+* ifstatus
+* ifType
+* informations
+* ipAdEntAddr
+* ipNetToMediaPhysAddress
+* lldpLocChassisId
+* lldpRemChassisId
+* lldpRemPortDesc
+* lldpRemPortId
+* lldpRemSysDesc
+* lldpRemSysName
+* location
+* macaddr
+* maintenancekit
+* maintenancekitmax
+* maintenancekitremaining
+* memory
+* model
+* name
+* otherserial
+* pagecounterblackpages_copy
+* pagecounterblackpages
+* pagecounterblackpages_print
+* pagecountercolorpages_copy
+* pagecountercolorpages
+* pagecountercolorpages_print
+* pagecounterrectoversopages
+* pagecounterscannedpages
+* pagecountertotalpages_copy
+* pagecountertotalpages_fax
+* pagecountertotalpages
+* pagecountertotalpages_print
+* PortVlanIndex
+* ram
+* serial
+* tonerblack2
+* tonerblack2max
+* tonerblack2remaining
+* tonerblack
+* tonerblackmax
+* tonerblackremaining
+* tonercyan
+* tonercyanmax
+* tonercyanremaining
+* tonermagenta
+* tonermagentamax
+* tonermagentaremaining
+* toneryellow
+* toneryellowmax
+* toneryellowremaining
+* uptime
+* vlanTrunkPortDynamicStatus
+* vmvlan
+* vtpVlanName
+* wastetoner
+* wastetonermax
+* wastetonerremaining
+
+## Communication
+
+The server send a copy of each needed SNMP models to the agent, as part of its
+inventory request. Here is a sample of such message:
+
+    <MODEL ID="196" NAME="4675719">
+        <GET OBJECT="name" OID=".1.3.6.1.2.1.1.5.0" VLAN="0" LINK="name"/>
+        <WALK OBJECT="ifIndex" OID=".1.3.6.1.2.1.2.2.1.1" VLAN="0" LINK="ifIndex"/>
+        <WALK OBJECT="ifaddr" OID=".1.3.6.1.2.1.4.20.1.2" VLAN="0" LINK="ifaddr"/>
+        <GET OBJECT="informations" OID=".1.3.6.1.4.1.11.2.3.9.1.1.7.0" VLAN="0" LINK="informations"/>
+    </MODEL>
+
+Problems:
+
+* the data structure doesn't match the one used for storing model
+* the server doesn't allow dictionnary retrieval outside of a scheduled
+  inventory task, making usage of alternative tools difficult
+  ([issue 1993](http://forge.fusioninventory.org/issues/1993))
+
+## Local customisation
+
+Each model is stored as an XML file, distributed with Fusioninventory plugin
+for GLPI, in glpi/plugins/fusioninventory/snmpmodels directory. At plugin
+installation, those models are imported into GLPI database, and XML files are
+subsequently ignored. Models can be modified either by modificating the XML
+files, and reimporting them, or directly in the database through GLPI
+interface.
+
+At plugin update, existing XML files are replaced by new ones included in the
+plugin, the GLPI database models are deleted, and all content of the
+glpi/plugins/fusioninventory/snmpmodels is imported again. As a consequence,
+in order to make local modification persistent, they have to be saved in XML
+files, using filenames different from the ones included in the plugin.
+
+## Enhancement proposals
+
+### Proposal 1
+
+Drop the confusing distinction between a model name and a model key, and use a
+single model identifier everywhere:
+
+* as model xml file name
+* in model data
+* in GLPI interface
+
+### Proposal 2
+
+Make the model structure in XML file closer to the one used in communication
+between the server and the agent. Here is an alternate DTD:
+
+    <!ELEMENT model (name,type,key,comments,devices,oidlist)>
+    <!ELEMENT name (#PCDATA)>
+    <!ELEMENT type (2|3)>
+    <!ELEMENT key (#PCDATA)>
+    <!ELEMENT comments (#PCDATA)>
+    <!ELEMENT devices (sysdescr*)>
+    <!ELEMENT sysdescr (#PCDATA)>
+    <!ELEMENT get (object,oid,portcounter,dynamicport,type,vlan,activation)*>
+    <!ELEMENT walk (object,oid,portcounter,dynamicport,type,vlan,activation)*>
+    <!ELEMENT object (#PCDATA)>
+    <!ELEMENT oid (#PCDATA)>
+    <!ELEMENT portcounter (0|1)>
+    <!ELEMENT type (#PCDATA)>
+    <!ELEMENT vlan (0|1)>
+    <!ELEMENT activation (0|1)>
+
+And a sample instance:
+
+    <model>
+        <key>Printer0547</key>
+        ...
+        <get>
+            <object>comments</object>
+            <oid>.1.3.6.1.2.1.1.1.0</oid>
+            <portcounter>0</portcounter>
+            <type>Printer</mapping_type>
+            <vlan>0</vlan>
+            <activation>1</activation>
+        </get>
+        ...
+        <walk>
+            <object>ifaddr</object>
+            <oid>.1.3.6.1.2.1.4.20.1.2</oid>
+            <portcounter>0</portcounter>
+            <type>Printer</mapping_type>
+            <vlan>0</vlan>
+            <activation>1</activation>
+        </walk>
+    </model>
+
+### Proposal 3
+
+Drop useless and redundant information from models (to be specified later).

@@ -2,7 +2,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2013-01-31 21:42+0000\n"
+"POT-Creation-Date: 2013-07-23 11:43+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -15,39 +15,6 @@ msgstr ""
 #, no-wrap
 msgid "Resources and web sites"
 msgstr "Ressources et sites Web"
-
-#. type: Plain text
-msgid "<http://www.fusioninventory.org/> is the official web site."
-msgstr "<http://www.fusioninventory.org/> est le site web officiel"
-
-#. type: Title ##
-#, no-wrap
-msgid "Development forge"
-msgstr "Forge utilisée pour le développement"
-
-#. type: Plain text
-msgid ""
-"Developement are done on FusionInventory forge: <http://forge."
-"fusioninventory.org/>."
-msgstr ""
-"Le développement est situé sur la Forge de FusionInventory: <http://forge."
-"fusioninventory.org/>."
-
-#. type: Plain text
-msgid ""
-"The forge includes Bugtracker, Download page, Source browser and internal "
-"Wiki."
-msgstr ""
-"La forge inclue un gestionnaire de Bug, une page de téléchargement, un "
-"aperçu des sources et un wiki interne."
-
-#. type: Plain text
-msgid ""
-"Git repositories are synchronised on [Github FusionInventory page](http://"
-"www.github.com/fusinv)  regulary."
-msgstr ""
-"Le dépôt Git est synchronisé régulièrement sur la [page Github "
-"FusionInventory](http://www.github.com/fusinv)."
 
 #. type: Title ##
 #, no-wrap
@@ -142,3 +109,30 @@ msgstr ""
 "La liste des entreprises partenaires est disponible sur la page: "
 "[[partners]]. Ces entreprises participent au développement de "
 "FusionInventory."
+
+#~ msgid "<http://www.fusioninventory.org/> is the official web site."
+#~ msgstr "<http://www.fusioninventory.org/> est le site web officiel"
+
+#~ msgid "Development forge"
+#~ msgstr "Forge utilisée pour le développement"
+
+#~ msgid ""
+#~ "Developement are done on FusionInventory forge: <http://forge."
+#~ "fusioninventory.org/>."
+#~ msgstr ""
+#~ "Le développement est situé sur la Forge de FusionInventory: <http://forge."
+#~ "fusioninventory.org/>."
+
+#~ msgid ""
+#~ "The forge includes Bugtracker, Download page, Source browser and internal "
+#~ "Wiki."
+#~ msgstr ""
+#~ "La forge inclue un gestionnaire de Bug, une page de téléchargement, un "
+#~ "aperçu des sources et un wiki interne."
+
+#~ msgid ""
+#~ "Git repositories are synchronised on [Github FusionInventory page](http://"
+#~ "www.github.com/fusinv)  regulary."
+#~ msgstr ""
+#~ "Le dépôt Git est synchronisé régulièrement sur la [page Github "
+#~ "FusionInventory](http://www.github.com/fusinv)."

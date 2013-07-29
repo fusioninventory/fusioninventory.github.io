@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2013-03-14 12:45+0000\n"
+"POT-Creation-Date: 2013-06-12 07:49+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <contact@antoninbollin.fr>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -329,3 +329,46 @@ msgstr ""
 "VMware Workstation est seulement possible sur Linux et MacOSX. Vous aurez "
 "probablement besoin du paramètre _scan-homedirs_. Comme cela, l'agent pourra "
 "voir les machines virtuelles dans les dossiers des utilisateurs."
+
+#. type: Title ##
+#, no-wrap
+msgid "I get `end_request: I/O error, dev fd0, sector 0` error message"
+msgstr ""
+
+#. type: Plain text
+msgid ""
+"This can append on Linux box with floppy driver like most of the VMware "
+"virtual machine. You can work around the problem by unloading the floppy "
+"kernel module:"
+msgstr ""
+
+#. type: Plain text
+#, no-wrap
+msgid "    rmmod floppy\n"
+msgstr ""
+
+#. type: Plain text
+msgid ""
+"The error is generated when the agent launch the following command `fdisk -"
+"l`."
+msgstr ""
+
+#. type: Title ##
+#, no-wrap
+msgid "The agent misses some information like memory or CPU when called by cron"
+msgstr ""
+
+#. type: Plain text
+msgid ""
+"Most of the time, cron do not define a default PATH. In this case the agent "
+"won't find important tools like `dmidecode`, `lspci`, etc ( [[!bug 1747]] )."
+msgstr ""
+
+#. type: Plain text
+msgid "Just define the PATH in the crontab:"
+msgstr ""
+
+#. type: Plain text
+#, no-wrap
+msgid "    PATH=/usr/local/sbin:/usr/local/bin:/sbin:/bin:/usr/sbin:/usr/bin\n"
+msgstr ""
