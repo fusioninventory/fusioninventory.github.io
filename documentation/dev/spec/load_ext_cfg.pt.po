@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2013-07-30 10:25+0000\n"
+"POT-Creation-Date: 2013-07-30 12:06+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -52,6 +52,12 @@ msgid "Ext config in agent.cfg"
 msgstr ""
 
 #. type: Plain text
+msgid ""
+"Normalize config as : uri, login, password, and meta (which can be anything "
+"the backend needs)"
+msgstr ""
+
+#. type: Plain text
 msgid "As flat configuration keys"
 msgstr ""
 
@@ -76,4 +82,31 @@ msgid ""
 "    login = anonymous\n"
 "    password = anonymous\n"
 "    meta = something\n"
+msgstr ""
+
+#. type: Plain text
+#, no-wrap
+msgid ""
+"* Pros\n"
+"    * We could add a section for each config backend and at the beginning add a config=backend which would allow to keep several configuration and switch between them.\n"
+msgstr ""
+
+#. type: Plain text
+msgid ""
+"As an external configuration file (in this case we can use any var names in "
+"the external file)"
+msgstr ""
+
+#. type: Plain text
+#, no-wrap
+msgid ""
+"    ext_config=ldap\n"
+"    ext_config_file=/etc/fusioninventory/ldap.cfg\n"
+msgstr ""
+
+#. type: Plain text
+#, no-wrap
+msgid ""
+"* Pros\n"
+"    * Different configurations are isolated in files\n"
 msgstr ""
