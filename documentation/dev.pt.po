@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2013-07-25 08:16+0000\n"
+"POT-Creation-Date: 2013-07-30 09:43+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -59,6 +59,19 @@ msgstr ""
 #. type: Bullet: '* '
 msgid ""
 "[[How works fusion server (SNMP tool server)|dev/fusion_server_snmp_tool]]"
+msgstr ""
+
+#. type: Title #
+#, no-wrap
+msgid "Fusioninventory plugin for GLPI"
+msgstr ""
+
+#. type: Bullet: '* '
+msgid "[[Task Redux|dev/plugin-glpi/task_redux]]"
+msgstr ""
+
+#. type: Bullet: '* '
+msgid "[[Inventory Change rule|dev/plugin_glpi/inventory_change_rule]]"
 msgstr ""
 
 #. type: Title #

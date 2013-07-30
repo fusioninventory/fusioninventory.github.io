@@ -1,0 +1,195 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2013-07-30 09:43+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. type: Plain text
+msgid "Fusioninventory Plugin for GLPI - Tasks Redux"
+msgstr ""
+
+#. type: Plain text
+#, no-wrap
+msgid "[[!toc levels=4]]\n"
+msgstr ""
+
+#. type: Title #
+#, no-wrap
+msgid "Tasks redux"
+msgstr ""
+
+#. type: Bullet: '* '
+msgid ""
+"Move tasks summary GUI into an appropriate tab/screen called Reporting (like "
+"using native GLPI reporting facilities or mReporting optional plugin)"
+msgstr ""
+
+#. type: Bullet: '* '
+msgid ""
+"Rework task summary categories and layout (TODO: we welcome any mockup and "
+"propositions)"
+msgstr ""
+
+#. type: Bullet: '* '
+msgid "Add history log on tasks"
+msgstr ""
+
+#. type: Title ##
+#, no-wrap
+msgid "Tasks GUI"
+msgstr ""
+
+#. type: Bullet: '* '
+msgid ""
+"Externalize taskjobs reports in an independant page and base the display of "
+"this page on what have been done with the Deploy reports status"
+msgstr ""
+
+#. type: Plain text
+#:  
+#, no-wrap
+msgid "[[!template  id=info text=\"\"\"\n"
+msgstr ""
+
+#. type: Plain text
+#:  
+#, no-wrap
+msgid "**TODO**\n"
+msgstr ""
+
+#. type: Plain text
+msgid ""
+"Add some mockup within this page or linked to another page if there are too "
+"many elements that makes this page unreadable."
+msgstr ""
+
+#. type: Plain text
+#, no-wrap
+msgid ""
+"* Split tasks from jobs to simplify the process\n"
+"    * Create a Jobs management tab outside the tasks\n"
+"    * We should be able to create Jobs in task management screen "
+"(cf. Package interface)\n"
+"    * Tasks are only considered as crontab-like tasks.\n"
+"    * Display the jobs list line by line.\n"
+"    * Create some helper class which helps to list jobs associated to some\n"
+"    task. For each Jobs linked, we must have:\n"
+"        * some timeout (or delay) before running a job.\n"
+"        * regroup every job by starting time.\n"
+msgstr ""
+
+#. type: Bullet: '* '
+msgid ""
+"Jobstates are generated according to their delay and in the resultant order "
+":"
+msgstr ""
+
+#. type: Plain text
+#, no-wrap
+msgid ""
+"        example:\n"
+"            * Wakeonlan 1 - no delay\n"
+"            * Deploy 1    - no delay\n"
+"            * Deploy 2    - 2 hours\n"
+msgstr ""
+
+#. type: Plain text
+#, no-wrap
+msgid ""
+"        results:\n"
+"            * at t+0, [Wakeonlan 1] and [Deploy 1] tasks are generated and "
+"ready to be executed by the agents.\n"
+"            * at t+1h, nothing to be done\n"
+"            * at t+2h, [Deploy 2] is generated and ready to be executed by "
+"the agents.\n"
+msgstr ""
+
+#. type: Plain text
+#, no-wrap
+msgid ""
+"* Explain in detail the delay time. Maybe we can use some sort of maximum\n"
+"duration in addition to the delay a task in order to limit usage on certain "
+"time slots.\n"
+msgstr ""
+
+#. type: Title ##
+#, no-wrap
+msgid "Tasks monitoring"
+msgstr ""
+
+#. type: Plain text
+#, no-wrap
+msgid ""
+"* Enhance summary view with tasks related status informations like number "
+"of\n"
+"discovered/inventoried devices (cf. NetDiscovery or NetInventory status) or "
+"the\n"
+"number of packages deployed grouped by statuses. It looks like tasks "
+"summary\n"
+"view in 0.84+1.0 but with relevant summarized details. Those details can "
+"be\n"
+"refreshed dynamically on this consultation page. Each line must use the "
+"following format :\n"
+msgstr ""
+
+#. type: Plain text
+#, no-wrap
+msgid ""
+"        <task icon> - <task name> - <specific global tasks details> - "
+"[global completion percentage] - <status icon>\n"
+"            + more specific task details\n"
+msgstr ""
+
+#. type: Bullet: '* '
+msgid "Example :"
+msgstr ""
+
+#. type: Plain text
+#, no-wrap
+msgid ""
+"        <DEPLOY icon> - Office Apps install - 80 deployments (ok: 50, ko : "
+"12, unneeded : 3) - completion : 81 % - <RUNNING icon>\n"
+"            + Total targetted devices : 40\n"
+"            + LibreOffice - ok : 30, ko :  2,  unneeded : 3\n"
+"            + Thunderbird - ok : 20, ko : 10,  unneeded : 0\n"
+msgstr ""
+
+#. type: Plain text
+#, no-wrap
+msgid ""
+"        <NETDISCOVERY icon> - Building 42 - discoveries : (50 new devices , "
+"100 updated devices) - completion : N/A - <FINISHED icon>\n"
+"            + networking devices : (10 new devices, 5 updated devices)\n"
+"            + printers           : (30 new devices, 5 updated devices)\n"
+"            + unknown devices    : (10 new devices, 90 updated devices)\n"
+msgstr ""
+
+#. type: Plain text
+#, no-wrap
+msgid ""
+"        <NETINVENTORY icon> - Building 666 - targetted devices : 0 - 0 % - "
+"<INERROR icon>\n"
+"            + Total targets : 0\n"
+"            + IP range :\n"
+"                9th circle, 8th circle, 7th circle\n"
+"            + Error :\n"
+"                no devices found to be inventoried\n"
+msgstr ""
+
+#. type: Bullet: '* '
+msgid ""
+"Selecting a task will switch to a more detailed view with advanced logs "
+"(jobstates filtered by the currently selected task id)"
+msgstr ""
