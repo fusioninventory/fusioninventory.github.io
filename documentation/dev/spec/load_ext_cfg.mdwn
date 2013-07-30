@@ -16,6 +16,8 @@
 
 ## Ext config in agent.cfg
 
+Normalize config as : uri, login, password, and meta (which can be anything the backend needs)
+
 As flat configuration keys
 
     ext_config = https://example.net/config.cfg
@@ -31,3 +33,13 @@ As a INI configuration section
     password = anonymous
     meta = something
 
+* Pros
+    * We could add a section for each config backend and at the beginning add a config=backend which would allow to keep several configuration and switch between them.
+
+As an external configuration file (in this case we can use any var names in the external file)
+
+    ext_config=ldap
+    ext_config_file=/etc/fusioninventory/ldap.cfg
+
+* Pros
+    * Different configurations are isolated in files
