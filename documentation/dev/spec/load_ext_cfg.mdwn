@@ -36,7 +36,9 @@ As a INI configuration section
 * Pros
     * We could add a section for each config backend and at the beginning add a config=backend which would allow to keep several configuration and switch between them.
 
-As an external configuration file (in this case we can use any var names in the external file)
+## External configuration file
+
+In this case we can use any var names in the external file
 
     ext_config=ldap
     ext_config_file=/etc/fusioninventory/ldap.cfg
