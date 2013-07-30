@@ -1,0 +1,33 @@
+# Load configuration from external place
+
+## Backend specific keys in agent.cfg
+
+    # LDAP information
+    ldap_uri = ldap://mcmic:389
+    ldap_base = dc=mcmic,dc=test
+    ldap_bind_dn = cn=admin,dc=mcmic,dc=test
+    ldap_bind_pwd = secret
+    ldap_ip = 192.168.1.52
+
+* Pros
+    * ability to add new specific key easily
+* Cons
+    * Not generic at all
+
+## Ext config in agent.cfg
+
+As flat configuration keys
+
+    ext_config = https://example.net/config.cfg
+    ext_config_login = anonymous
+    ext_config_password = anonymous
+    ext_config_meta = something
+
+As a INI configuration section
+
+    [ext_config]
+    uri = https://example.net/config.cfg
+    login = anonymous
+    password = anonymous
+    meta = something
+
