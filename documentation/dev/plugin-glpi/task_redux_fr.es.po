@@ -1,0 +1,140 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2013-07-30 09:43+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. type: Plain text
+msgid "Fusioninventory Plugin for GLPI - Tasks Redux"
+msgstr ""
+
+#. type: Plain text
+#, no-wrap
+msgid "[[!toc levels=4]]\n"
+msgstr ""
+
+#. type: Title #
+#, no-wrap
+msgid "Tasks redux"
+msgstr ""
+
+#. type: Plain text
+#, no-wrap
+msgid ""
+"* Déménager l'interface de résumé des tâches dans un onglet/écran Rapports\n"
+"(par exemple réutiliser les rapports GLPI natifs voire mReporting en mode "
+"facultatif)\n"
+"* Revoir les catégories et l'agencement de résumé des tâches (TODO: "
+"propositions bienvenue)\n"
+"* Rajouter l'historique sur les tâches\n"
+msgstr ""
+
+#. type: Title ##
+#, no-wrap
+msgid "Interface des tâches"
+msgstr ""
+
+#. type: Bullet: '* '
+msgid ""
+"Externaliser les rapports groupés des taskjobs et s'inspirer de ce qui avait "
+"été proposé pour les rapports d'états Deploy."
+msgstr ""
+
+#. type: Plain text
+#, no-wrap
+msgid ""
+"* Séparer les tâches des jobs pour simplifier le procédé\n"
+"    * Créer un écran de gestion de Jobs en dehors du gestionnaire de "
+"tâches\n"
+"    * Garder la possibilité de créer des Jobs dans le gestionnaire de tâches "
+"(cf. interface Package)\n"
+"    * Les tâches sont considérées comme des crontab uniquement.\n"
+"    * Affichage de la liste des jobs par lignes.\n"
+"    * Créer une classe de liaison qui permet de lister les jobs associés à "
+"une\n"
+"      tâche et pour chaque jobs. Pour chaque jobs liés, on ajoute :\n"
+"        * un délai de latence avant le démarrage du job.\n"
+"        * on regroupe les jobs par délai de démarrage.\n"
+msgstr ""
+
+#. type: Plain text
+#, no-wrap
+msgid ""
+"* Les Jobstates sont générés en fonction de leur delai et dans l'ordre "
+"défini\n"
+"        exemple:\n"
+"            * Wakeonlan 1 - pas de délai\n"
+"            * Deploy 1 - pas de délai\n"
+"            * Deploy 2 - 2h\n"
+msgstr ""
+
+#. type: Plain text
+#, no-wrap
+msgid ""
+"            résultat:\n"
+"            à t+0, [Wakeonlan 1] et [Deploy 1] sont générés et prêt à être "
+"récupéré par l'agent.\n"
+"            à t+1h, rien ne se passe.\n"
+"            à t+2h, [Deploy 2] est générée et prêt à être récupéré par "
+"l'agent.\n"
+msgstr ""
+
+#. type: Title ##
+#, no-wrap
+msgid "Monitoring des tâches"
+msgstr ""
+
+#. type: Plain text
+#, no-wrap
+msgid ""
+"* Écran de résumé avec des informations de statut type nombre de machines "
+"inventoriées (cf. status NetDiscovery ou NetInventory) ou nombre de paquets "
+"correctemenent déployé. Ça ressemble à l'interface résumé des tâches en 0.84 "
+"mais dynamique.\n"
+"exemple:\n"
+msgstr ""
+
+#. type: Plain text
+#, no-wrap
+msgid ""
+"        <icone deploy> - LibreOffice - installations ok : %d - ko : %d - "
+"pourcentage globale(moyenne) - <icone status>\n"
+"        <icone decouverte> - Decouverte Réseau - nb de découvertes : %d - "
+"<icone status>\n"
+"            - nb de switchs : (nouveaux, liés)    - nb inconnus : (nouveaux, "
+"liés)\n"
+"            - nb imprimantes : (nouveaux, liés)\n"
+msgstr ""
+
+#. type: Bullet: '* '
+msgid ""
+"La sélection des différentes tâches permettra d'afficher le détail des logs "
+"de chaque jobstates filtrés par cette sélection."
+msgstr ""
+
+#. type: Bullet: '* '
+msgid ""
+"Pour ne pas allourdir l'affichage de la page, détecter le nombre de "
+"jobstates à afficher (exemple deploy) et calculer un ratio de ligne à "
+"afficher."
+msgstr ""
+
+#. type: Plain text
+#, no-wrap
+msgid ""
+"         exemple :\n"
+"          15 jobstates = 4 lignes de logs par jobs.\n"
+"          1 jobstate = infinite (ou maximum par page)\n"
+msgstr ""
