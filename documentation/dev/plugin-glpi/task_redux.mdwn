@@ -25,7 +25,8 @@ Add some mockup within this page or linked to another page if there are too many
     * We should be able to create Jobs in task management screen (cf. Package interface)
     * Tasks are only considered as crontab-like tasks.
     * Display the jobs list line by line.
-    * Create some helper class which helps to list jobs associated to some task. For each Jobs linked, we must have:
+    * Create some helper class which helps to list jobs associated to some
+    task. For each Jobs linked, we must have:
         * some timeout (or delay) before running a job.
         * regroup every job by starting time.
 
@@ -51,5 +52,33 @@ duration in addition to the delay a task in order to limit usage on certain time
 
 ## Tasks monitoring
 
+* Enhance summary view with tasks related status informations like number of
+discovered/inventoried devices (cf. NetDiscovery or NetInventory status) or the
+number of packages deployed grouped by statuses. It looks like tasks summary
+view in 0.84+1.0 but with relevant summarized details. Those details can be
+refreshed dynamically on this consultation page. Each line must use the following format :
 
+        <task icon> - <task name> - <specific global tasks details> - [global completion percentage] - <status icon>
+            + more specific task details
+
+* Example :
+
+        <DEPLOY icon> - Office Apps install - 80 deployments (ok: 50, ko : 12, unneeded : 3) - completion : 81 % - <RUNNING icon>
+            + Total targetted devices : 40
+            + LibreOffice - ok : 30, ko :  2,  unneeded : 3
+            + Thunderbird - ok : 20, ko : 10,  unneeded : 0
+
+        <NETDISCOVERY icon> - Building 42 - discoveries : (50 new devices , 100 updated devices) - completion : N/A - <FINISHED icon>
+            + networking devices : (10 new devices, 5 updated devices)
+            + printers           : (30 new devices, 5 updated devices)
+            + unknown devices    : (10 new devices, 90 updated devices)
+
+        <NETINVENTORY icon> - Building 666 - targetted devices : 0 - 0 % - <INERROR icon>
+            + Total targets : 0
+            + IP range :
+                9th circle, 8th circle, 7th circle
+            + Error :
+                no devices found to be inventoried
+
+* Selecting a task will switch to a more detailed view with advanced logs (jobstates filtered by the currently selected task id)
 
