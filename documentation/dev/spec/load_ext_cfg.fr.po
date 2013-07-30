@@ -1,0 +1,79 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2013-07-30 10:25+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. type: Title #
+#, no-wrap
+msgid "Load configuration from external place"
+msgstr ""
+
+#. type: Title ##
+#, no-wrap
+msgid "Backend specific keys in agent.cfg"
+msgstr ""
+
+#. type: Plain text
+#, no-wrap
+msgid ""
+"    # LDAP information\n"
+"    ldap_uri = ldap://mcmic:389\n"
+"    ldap_base = dc=mcmic,dc=test\n"
+"    ldap_bind_dn = cn=admin,dc=mcmic,dc=test\n"
+"    ldap_bind_pwd = secret\n"
+"    ldap_ip = 192.168.1.52\n"
+msgstr ""
+
+#. type: Plain text
+#, no-wrap
+msgid ""
+"* Pros\n"
+"    * ability to add new specific key easily\n"
+"* Cons\n"
+"    * Not generic at all\n"
+msgstr ""
+
+#. type: Title ##
+#, no-wrap
+msgid "Ext config in agent.cfg"
+msgstr ""
+
+#. type: Plain text
+msgid "As flat configuration keys"
+msgstr ""
+
+#. type: Plain text
+#, no-wrap
+msgid ""
+"    ext_config = https://example.net/config.cfg\n"
+"    ext_config_login = anonymous\n"
+"    ext_config_password = anonymous\n"
+"    ext_config_meta = something\n"
+msgstr ""
+
+#. type: Plain text
+msgid "As a INI configuration section"
+msgstr ""
+
+#. type: Plain text
+#, no-wrap
+msgid ""
+"    [ext_config]\n"
+"    uri = https://example.net/config.cfg\n"
+"    login = anonymous\n"
+"    password = anonymous\n"
+"    meta = something\n"
+msgstr ""
