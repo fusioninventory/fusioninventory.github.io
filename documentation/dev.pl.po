@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2013-07-30 09:43+0000\n"
+"POT-Creation-Date: 2013-07-30 10:22+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -159,4 +159,10 @@ msgstr ""
 #. type: Bullet: '* '
 msgid ""
 "[[NetInventory XML format|documentation/dev/spec/netinventory-xml-format]]"
+msgstr ""
+
+#. type: Bullet: '* '
+msgid ""
+"[[Load configuration from external places|documentation/dev/spec/"
+"load_ext_cfg]]"
 msgstr ""
