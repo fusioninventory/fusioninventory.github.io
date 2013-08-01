@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2013-08-01 09:51+0000\n"
+"POT-Creation-Date: 2013-08-01 10:53+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -27,31 +27,53 @@ msgstr ""
 
 #. type: Plain text
 msgid ""
-"The FusionInventory Agent maintainers are glad to announce the 2.3.0 "
-"release."
+"The FusionInventory Agent maintainers are glad to announce the 2.3.0 release."
 msgstr ""
 
 #. type: Plain text
 msgid ""
-"You can download the archive from [the "
-"forge](http://forge.fusioninventory.org/attachments/download/1016/FusionInventory-Agent-2.3.0.tar.gz)  "
-"or directly from [the "
-"CPAN](https://metacpan.org/release/FusionInventory-Agent)"
+"You can download the archive from [the forge](http://forge.fusioninventory."
+"org/attachments/download/1016/FusionInventory-Agent-2.3.0.tar.gz)  or "
+"directly from [the CPAN](https://metacpan.org/release/FusionInventory-Agent)"
 msgstr ""
 
 #. type: Plain text
 msgid ""
-"The installer and packages will be published during the comming days.  We "
-"want to thank all the people involved during the developement process."
+"We want to thank all the people involved during the developement process."
+msgstr ""
+
+#. type: Title ###
+#, no-wrap
+msgid "Packages"
 msgstr ""
 
 #. type: Plain text
-msgid "This is a major release that include various important changes."
+msgid ""
+"Windows packages are avaialbe on [the forge](http://forge.fusioninventory."
+"org/projects/fusioninventory-agent-windows-installer/files).  The new "
+"installer is now maintained by Tomás Abad. The parameters are different take "
+"some minutes to read the documentation."
+msgstr ""
+
+#. type: Plain text
+msgid ""
+"The previous 2.2.x Windows packages are [still available](http://prebuilt."
+"fusioninventory.org/stable/windows-i386/)."
+msgstr ""
+
+#. type: Plain text
+msgid ""
+"The other packages, especially MacOSX, will be published during the comming "
+"weeks."
 msgstr ""
 
 #. type: Title ##
 #, no-wrap
 msgid "This release changelog"
+msgstr ""
+
+#. type: Plain text
+msgid "This is a major release that include various important changes."
 msgstr ""
 
 #. type: Title ###
@@ -77,7 +99,8 @@ msgid "no more thread usage for HTTP interface"
 msgstr ""
 
 #. type: Bullet: '* '
-msgid "no more token usage for HTTP interface, request source address is enough"
+msgid ""
+"no more token usage for HTTP interface, request source address is enough"
 msgstr ""
 
 #. type: Bullet: '* '
@@ -116,7 +139,8 @@ msgid "collect software from user profile on Windows([[!bug 1674]])"
 msgstr ""
 
 #. type: Bullet: '* '
-msgid "collect license key for Adobe suite, Panic's Transit, VMware Fusion on MacOs"
+msgid ""
+"collect license key for Adobe suite, Panic's Transit, VMware Fusion on MacOs"
 msgstr ""
 
 #. type: Bullet: '* '
@@ -185,8 +209,7 @@ msgstr ""
 
 #. type: Bullet: '* '
 msgid ""
-"better CPU inventory on Solaris ([[!bug 1741]], [[!bug 1905]], [[!bug "
-"2152]])"
+"better CPU inventory on Solaris ([[!bug 1741]], [[!bug 1905]], [[!bug 2152]])"
 msgstr ""
 
 #. type: Bullet: '* '
