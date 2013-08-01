@@ -6,12 +6,21 @@ The FusionInventory Agent maintainers are glad to announce the 2.3.0 release.
 You can download the archive from [the forge](http://forge.fusioninventory.org/attachments/download/1016/FusionInventory-Agent-2.3.0.tar.gz)
 or directly from [the CPAN](https://metacpan.org/release/FusionInventory-Agent)
 
-The installer and packages will be published during the comming days.
 We want to thank all the people involved during the developement process.
 
-This is a major release that include various important changes.
+### Packages
+
+Windows packages are avaialbe on [the forge](http://forge.fusioninventory.org/projects/fusioninventory-agent-windows-installer/files).
+The new installer is now maintained by Tomás Abad. The parameters are different take some
+minutes to read the documentation.
+
+The previous 2.2.x Windows packages are [still available](http://prebuilt.fusioninventory.org/stable/windows-i386/).
+
+The other packages, especially MacOSX, will be published during the comming weeks.
 
 ## This release changelog
+
+This is a major release that include various important changes.
 
 ### distribution:
 
