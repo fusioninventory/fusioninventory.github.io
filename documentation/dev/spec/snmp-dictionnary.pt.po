@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2013-07-04 14:17+0000\n"
+"POT-Creation-Date: 2013-08-06 17:30+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -64,7 +64,9 @@ msgid "SYSDESCR: SNMP sysdescr value of the described device"
 msgstr ""
 
 #. type: Bullet: '* '
-msgid "TYPE: 2 for a printer, 3 for a network equipement"
+msgid ""
+"TYPE: device type identifier (see [device types](../device-types) for "
+"details)"
 msgstr ""
 
 #. type: Bullet: '* '
