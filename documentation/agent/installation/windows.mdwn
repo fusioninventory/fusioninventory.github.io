@@ -1,7 +1,7 @@
 # Windows installation
 
-[[!template  id=info text=\"Agent 2.3.0 comes with a new Windows installer. 
-[[The old documentation is still available on this page|documentation/agent/installation/windows_before_2.3.0]].\"]]
+[[!template  id=info text="Agent 2.3.0 comes with a new Windows installer. 
+[[The old documentation is still available on this page|documentation/agent/installation/windows_before_2.3.0]]."]]
 
 ## Get the installer
 
