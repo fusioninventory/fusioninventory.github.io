@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2013-01-23 15:53+0000\n"
+"POT-Creation-Date: 2013-08-10 15:41+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -20,6 +20,11 @@ msgstr ""
 #, no-wrap
 msgid "Silent installation"
 msgstr "Installation silencieuse"
+
+#. type: Plain text
+#, no-wrap
+msgid "[[!template  id=info text=\\\"Warning, this page is outdated and needs to be refresh for the 2.3.0 agent.\\\"]] \n"
+msgstr ""
 
 #. type: Title ##
 #, no-wrap
@@ -157,8 +162,8 @@ msgid ""
 "vbs script. The GPO has to be configured to run during machine start up."
 msgstr ""
 "Créer une GPO et copier le script dedans et associer le script "
-"fusioninventory.vbs. La GPO est configurée pour s'exécuter au démarrage "
-"de la machine."
+"fusioninventory.vbs. La GPO est configurée pour s'exécuter au démarrage de "
+"la machine."
 
 #. type: Plain text
 msgid "You may be interested by these two GPO templates:"

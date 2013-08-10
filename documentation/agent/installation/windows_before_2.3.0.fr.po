@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2013-02-11 11:22+0000\n"
+"POT-Creation-Date: 2013-08-10 15:41+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -27,9 +27,6 @@ msgid "Get the installer"
 msgstr "Prendre l'installeur"
 
 #. type: Plain text
-#| msgid ""
-#| "First, download the archive: <http://prebuilt.fusioninventory.org/stable/"
-#| "windows-i386/>"
 msgid ""
 "First, download the archive: <http://prebuilt.fusioninventory.org/stable/"
 "windows-i386/>"
@@ -54,9 +51,6 @@ msgid "a *-* (dash)"
 msgstr "le symbole *-* (tiret)"
 
 #. type: Bullet: '* '
-#| msgid ""
-#| "the package revision. e.g: 2, for the 2nd installer generated for the "
-#| "2.2.5 release"
 msgid ""
 "the package revision. e.g: 2, for the 2nd installer generated for the 2.2.5 "
 "release"
@@ -89,9 +83,6 @@ msgstr "Entrez l'URL complète pour votre serveur."
 
 #. type: Plain text
 #, no-wrap
-#| msgid ""
-#| "2. You can configure a key word to be able to sort out your machine later (TAG).\n"
-#| "[[!template  id=warning text=\"\"\"\n"
 msgid ""
 "2. You can configure a key word to be able to sort out your machine later (TAG).\n"
 "[[!template  id=warning text=\"\"\"\n"
@@ -133,7 +124,6 @@ msgstr ""
 "Cette option est utilée pour désactiver la vérification du certificat HTTPS."
 
 #. type: Bullet: '4. '
-#| msgid "You can configure here a HTTP proxy. For example, proxy:3128"
 msgid "You can configure here a HTTP proxy. For example, proxy:3128"
 msgstr ""
 "Vous pouvez configurer ici les paramètres d'un proxy HTTP. Exemple, "
