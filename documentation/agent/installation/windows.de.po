@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2013-08-10 15:41+0000\n"
+"POT-Creation-Date: 2013-08-10 15:44+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -24,10 +24,8 @@ msgstr ""
 #. type: Plain text
 #, no-wrap
 msgid ""
-"[[!template  id=info text=\\\"Agent 2.3.0 comes with a new Windows "
-"installer. \n"
-"[[The old documentation is still available on this "
-"page|documentation/agent/installation/windows_before_2.3.0]].\\\"]]\n"
+"[[!template  id=info text=\"Agent 2.3.0 comes with a new Windows installer. \n"
+"[[The old documentation is still available on this page|documentation/agent/installation/windows_before_2.3.0]].\"]]\n"
 msgstr ""
 
 #. type: Title ##
@@ -37,8 +35,8 @@ msgstr ""
 
 #. type: Plain text
 msgid ""
-"First, download the archive: "
-"<http://forge.fusioninventory.org/projects/fusioninventory-agent-windows-installer/files/>"
+"First, download the archive: <http://forge.fusioninventory.org/projects/"
+"fusioninventory-agent-windows-installer/files/>"
 msgstr ""
 
 #. type: Plain text
@@ -82,8 +80,8 @@ msgstr ""
 
 #. type: Plain text
 msgid ""
-"A page is dedicated to explain how to [[deploy the agent on a Windows "
-"domain|documentation/agent/installation/windows/large_install]]."
+"A page is dedicated to explain how to [[deploy the agent on a Windows domain|"
+"documentation/agent/installation/windows/large_install]]."
 msgstr ""
 
 #. type: Title #
