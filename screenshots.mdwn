@@ -1,22 +1,22 @@
 ## FusionInventory for GLPI
 
-[[!img screenshots/308.png size="200x200" alt="clouds"]]
-[[!img screenshots/309.png size="200x200" alt="clouds"]]
-[[!img screenshots/299.png size="200x200" alt="clouds"]]
+[[!img screenshots/308.png size="600x600" alt="clouds"]]
+[[!img screenshots/309.png size="600x600" alt="clouds"]]
+[[!img screenshots/299.png size="600x600" alt="clouds"]]
 
 ## Agent
 
-[[!img screenshots/installer.png size="200x200" alt="clouds"]]
-[[!img screenshots/agent-300x230.png size="200x200" alt="clouds"]]
-[[!img screenshots/2.3.0_on_mandriva_2005.png  size="993x745" alt="2.3.0 on Mandriva 2005"]]
+[[!img screenshots/installer.png size="600x600" alt="clouds"]]
+[[!img screenshots/agent-300x230.png size="600x600" alt="clouds"]]
+[[!img screenshots/2.3.0_on_mandriva_2005.png  size="600x600" alt="2.3.0 on Mandriva 2005"]]
 
 ## Uranos
 
 [Uranos](http://uranos.sourceforge.net/www/index.php?loadsub=quwiki&func=wiki&type=index) is another
 server that support FusionInventory Agent.
 
-[[!img screenshots/fusioninventory-storages.png size="200x200" alt="clouds"]]
-[[!img screenshots/fusioninventory-detail-300x146.png size="200x200" alt="clouds"]]
-[[!img screenshots/fusioninventory-hardware-300x146.png size="200x200" alt="clouds"]]
+[[!img screenshots/fusioninventory-storages.png size="600x600" alt="clouds"]]
+[[!img screenshots/fusioninventory-detail-300x146.png size="600x600" alt="clouds"]]
+[[!img screenshots/fusioninventory-hardware-300x146.png size="600x600" alt="clouds"]]
 
 
