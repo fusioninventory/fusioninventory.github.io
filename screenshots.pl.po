@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2013-08-11 12:28+0000\n"
+"POT-Creation-Date: 2013-08-11 12:31+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -48,7 +48,7 @@ msgstr ""
 
 #. type: Plain text
 #, no-wrap
-msgid "[[!img screenshots/agent-300x230.png size=\"600x600\" alt=\"clouds\"]]\n"
+msgid "[[!img screenshots/agent-300x230.png size=\"300x230\" alt=\"clouds\"]]\n"
 msgstr ""
 
 #. type: Plain text
@@ -75,10 +75,10 @@ msgstr ""
 
 #. type: Plain text
 #, no-wrap
-msgid "[[!img screenshots/fusioninventory-detail-300x146.png size=\"600x600\" alt=\"clouds\"]]\n"
+msgid "[[!img screenshots/fusioninventory-detail-300x146.png size=\"300x146\" alt=\"clouds\"]]\n"
 msgstr ""
 
 #. type: Plain text
 #, no-wrap
-msgid "[[!img screenshots/fusioninventory-hardware-300x146.png size=\"600x600\" alt=\"clouds\"]]\n"
+msgid "[[!img screenshots/fusioninventory-hardware-300x146.png size=\"300x146\" alt=\"clouds\"]]\n"
 msgstr ""
