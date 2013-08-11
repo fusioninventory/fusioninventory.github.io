@@ -26,7 +26,7 @@ prepare the build tree.
     perl Makefile.PL
 
 At this point, you will probably have some missing required modules. The best tool
-to resolve the situation is [cpanm](https://raw.github.com/miyagawa/cpanminus/master/cpanm). Just run:
+to resolve the situation is [cpanm](http://cpanmin.us). Just run:
 
     cpanm .
 
@@ -83,7 +83,7 @@ The test-suites require some additional dependencies like Test::More.
 
 # How to fetch the dependencies with no Internet connection
 
-[[!template  id=info text="You will need [cpanm](https://raw.github.com/miyagawa/cpanminus/master/cpanm).
+[[!template  id=info text="You will need [cpanm](http://cpanmin.us).
 See above how to install it."]]
 
 First grab the tarball from the website and extract it.
