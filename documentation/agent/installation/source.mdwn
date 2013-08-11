@@ -81,3 +81,22 @@ FusionInventory components come with a test-suite. You can run it after the `per
 
 The test-suites require some additional dependencies like Test::More.
 
+# How to fetch the dependencies with no Internet connection
+
+    $ tar xfz FusionInventory-Agent-2.3.0.tar.gz
+    $ cd FusionInventory-Agent-2.3.0
+    $ cpanm --pureperl --installdeps -L extlib --notest .
+
+This command should fail with an error regarding Params::Validate. Just runs this last
+command:
+
+    $cpanm --installdeps -L extlib --notest .
+
+Now you can copy the directory to another machine and run the agent this way:
+
+    $ perl -Iextlib/lib/perl5 -Ilib fusioninventory-agent
+
+
+[[!template  id=info text="SSL will work only if the perl SSL lib is already installed on the system. Se
+above"]]
+
