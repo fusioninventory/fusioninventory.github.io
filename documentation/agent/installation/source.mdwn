@@ -8,6 +8,7 @@ It is also possible to retrieve a snapshot from Github:
 
 * [Agent 2.2.x](https://github.com/fusinv/fusioninventory-agent/tarball/2.2.x)
 * [Agent 2.3.x](https://github.com/fusinv/fusioninventory-agent/tarball/2.3.x)
+* [Agent 2.4.x](https://github.com/fusinv/fusioninventory-agent/tarball/master)
 
 ## agent from sources
 
