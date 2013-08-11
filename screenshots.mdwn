@@ -16,7 +16,7 @@
 server that support FusionInventory Agent.
 
 [[!img screenshots/fusioninventory-storages.png size="600x600" alt="clouds"]]
-[[!img screenshots/fusioninventory-detail-300x146.png size="600x600" alt="clouds"]]
-[[!img screenshots/fusioninventory-hardware-300x146.png size="600x600" alt="clouds"]]
+[[!img screenshots/fusioninventory-detail-300x146.png size="300x146" alt="clouds"]]
+[[!img screenshots/fusioninventory-hardware-300x146.png size="300x146" alt="clouds"]]
 
 
