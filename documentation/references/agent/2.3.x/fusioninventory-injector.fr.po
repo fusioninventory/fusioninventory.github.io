@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2013-01-11 14:06+0000\n"
+"POT-Creation-Date: 2013-08-13 10:03+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -15,15 +15,6 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-
-#. type: Plain text
-#, no-wrap
-msgid ""
-"[[!template  id=warning text=\"The 2.3.x serie is still in "
-"developpement.\"]]\n"
-msgstr ""
-"[[!template  id=warning text=\"La version 2.3.x est toujours en "
-"développement.\"]]\n"
 
 #. type: Title #
 #, no-wrap
@@ -35,8 +26,8 @@ msgid ""
 "fusioninventory-injector - A tool to push inventory in an OCS Inventory or "
 "compatible server."
 msgstr ""
-"FusionInventory-injector - Un outil pour mettre l'inventaire dans OCS Inventory ou "
-"un serveur compatible."
+"FusionInventory-injector - Un outil pour mettre l'inventaire dans OCS "
+"Inventory ou un serveur compatible."
 
 #. type: Title #
 #, no-wrap
@@ -45,12 +36,8 @@ msgstr "SYNOPSIS"
 
 #. type: Plain text
 #, no-wrap
-msgid ""
-"fusioninventory-injector \\[options\\] \\[--file <file>|--directory "
-"<directory>|--stdin\\]\n"
-msgstr ""
-"fusioninventory-injector \\[options\\] \\[--file <file>|--directory "
-"<directory>|--stdin\\]\n"
+msgid "fusioninventory-injector \\[options\\] \\[--file <file>|--directory <directory>|--stdin\\]\n"
+msgstr "fusioninventory-injector \\[options\\] \\[--file <file>|--directory <directory>|--stdin\\]\n"
 
 #. type: Plain text
 #, no-wrap
@@ -77,12 +64,10 @@ msgstr ""
 #, no-wrap
 msgid ""
 "    Examples:\n"
-"      fusioninventory-injector -v -f /tmp/toto-2010-09-10-11-42-22.ocs --url "
-"https://login:pw@server/ocsinventory\n"
+"      fusioninventory-injector -v -f /tmp/toto-2010-09-10-11-42-22.ocs --url https://login:pw@server/ocsinventory\n"
 msgstr ""
 "    Exemples:\n"
-"      fusioninventory-injector -v -f /tmp/toto-2010-09-10-11-42-22.ocs --url "
-"https://login:pw@server/ocsinventory\n"
+"      fusioninventory-injector -v -f /tmp/toto-2010-09-10-11-42-22.ocs --url https://login:pw@server/ocsinventory\n"
 
 #. type: Title #
 #, no-wrap
@@ -94,5 +79,8 @@ msgid ""
 "This tool can be used to test your server, do benchmark or push inventory "
 "from off-line machine."
 msgstr ""
-"Cet outil peut être utilisé pour tester votre serveur, faire du benchmark ou imposer l'inventaire à partir"
-" d'une machine hors ligne."
+"Cet outil peut être utilisé pour tester votre serveur, faire du benchmark ou "
+"imposer l'inventaire à partir d'une machine hors ligne."
+
+#~ msgid "[[!template  id=warning text=\"The 2.3.x serie is still in developpement.\"]]\n"
+#~ msgstr "[[!template  id=warning text=\"La version 2.3.x est toujours en développement.\"]]\n"

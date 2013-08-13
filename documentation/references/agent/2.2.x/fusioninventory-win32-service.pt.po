@@ -22,6 +22,5 @@ msgid "NAME"
 msgstr ""
 
 #. type: Plain text
-msgid ""
-"fusioninventory-win32-service - FusionInventory Agent service for Windows"
+msgid "fusioninventory-win32-service - FusionInventory Agent service for Windows"
 msgstr ""
