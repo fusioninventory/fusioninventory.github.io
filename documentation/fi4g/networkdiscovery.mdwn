@@ -1,20 +1,22 @@
 # How to scan my network
 
-It's always a good idea to use an up to date agent for the network scan.
-
 ## Agent configuration
 
-By default, agent are not allowed to do network scan.
+The agent can use nmap, NetBios, and SNMP to scan its target network, according
+to what is available for it. You have to check your installation for optional
+dependencies.
 
-There is two different way to grant them this privilege:
+The agent also requires access to the devices on its target network, using the
+forementioned protocols. You have to check your network filtering rules, as
+well as your access control rules on the devices.
+
+Last, the netdiscovery task is not activated by default for agents. There is two
+different way to enable it:
 
 * Allow all: in menu _plugins_ > _FusionInventory_ > _Configuration_ and in tab _Agents modules_.
   You can check _Network discovery_ by default.
 * Allow ony some agents: in menu _plugins_ > _FusionInventory_ > _FusionInventory_ > _Agents management_
   go in agent form and in tab _Agents modules_, check _Network discovery_.
-
-Network devices are inventoried using SNMP. You agent must be allowed to contact the devices. You may
-to add some specific privilege in a device Access Control List (ACL).
 
 ### number of threads
 
