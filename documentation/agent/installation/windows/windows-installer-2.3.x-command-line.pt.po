@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2013-08-13 18:59+0000\n"
+"POT-Creation-Date: 2013-08-13 21:32+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -190,7 +190,6 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#:    
 msgid "ToDo"
 msgstr ""
 
@@ -200,7 +199,8 @@ msgid "**/backend-collect-timeout**=*timeout*\n"
 msgstr ""
 
 #. type: Plain text
-msgid "Timeout for task **Inventory** modules execution. (By default: 180 seconds)"
+msgid ""
+"Timeout for task **Inventory** modules execution. (By default: 180 seconds)"
 msgstr ""
 
 #. type: Plain text
@@ -231,16 +231,15 @@ msgstr ""
 
 #. type: Plain text
 msgid ""
-"For example, if you want to include the certificate file "
-"*FICert\\_Class1.crt* in the directory *pathname*, you must calculate the "
-"hash value of the certificate’s *subject* field using, for example, OpenSSL"
+"For example, if you want to include the certificate file *FICert\\_Class1."
+"crt* in the directory *pathname*, you must calculate the hash value of the "
+"certificate’s *subject* field using, for example, OpenSSL"
 msgstr ""
 
 #. type: Plain text
 #, no-wrap
 msgid ""
-"\tC:\\OpenSSL> openssl.exe x509 -in C:\\FICert_Class1.crt -subject_hast "
-"-noout\n"
+"\tC:\\OpenSSL> openssl.exe x509 -in C:\\FICert_Class1.crt -subject_hast -noout\n"
 "\tb760f1ce\n"
 msgstr ""
 
@@ -301,8 +300,8 @@ msgstr ""
 
 #. type: Plain text
 msgid ""
-"The use of this option requires the joint use of the **/ca-cert-dir** or "
-"**/ca-cert-file** options, but not both."
+"The use of this option requires the joint use of the **/ca-cert-dir** or **/"
+"ca-cert-file** options, but not both."
 msgstr ""
 
 #. type: Plain text
@@ -338,9 +337,9 @@ msgstr ""
 
 #. type: Plain text
 msgid ""
-"Sets an initial delay before first contact with a remote destination (see "
-"**/server**). This delay is calculated at random between *limit/2* and "
-"*limit* seconds. (Default: 3600 seconds)"
+"Sets an initial delay before first contact with a remote destination (see **/"
+"server**). This delay is calculated at random between *limit/2* and *limit* "
+"seconds. (Default: 3600 seconds)"
 msgstr ""
 
 #. type: Plain text
@@ -429,8 +428,8 @@ msgstr ""
 
 #. type: Plain text
 msgid ""
-"You could prefer make use of the **/dumphelp** option instead of the "
-"**/help** option to get information. The **/dumphelp** option creates a RTF "
+"You could prefer make use of the **/dumphelp** option instead of the **/"
+"help** option to get information. The **/dumphelp** option creates a RTF "
 "file with this help, and aborts the installation."
 msgstr ""
 
@@ -477,7 +476,8 @@ msgid "**/httpd-port**=*port*\n"
 msgstr ""
 
 #. type: Plain text
-msgid "IP port by which the embedded web server should listen. (By default: 62354)"
+msgid ""
+"IP port by which the embedded web server should listen. (By default: 62354)"
 msgstr ""
 
 #. type: Plain text
@@ -531,8 +531,8 @@ msgstr ""
 
 #. type: Plain text
 msgid ""
-"Sets the installation base directory of the agent. (By default: "
-"C:\\\\Program Files\\\\FusionInventory-Agent)"
+"Sets the installation base directory of the agent. (By default: C:\\"
+"\\Program Files\\\\FusionInventory-Agent)"
 msgstr ""
 
 #. type: Plain text
@@ -550,43 +550,37 @@ msgid "Selects the tasks to install. (By default: **Default**)"
 msgstr ""
 
 #. type: Plain text
-#:  
 #, no-wrap
 msgid "*task* can be any of the following values:\n"
 msgstr ""
 
 #. type: Bullet: '* '
-#:  
 msgid "**Deploy**: Task Deploy"
 msgstr ""
 
 #. type: Bullet: '* '
-#:  
 msgid "**ESX**: Task ESX"
 msgstr ""
 
 #. type: Bullet: '* '
-#:  
 msgid "**Inventory**: Task Inventory"
 msgstr ""
 
 #. type: Bullet: '* '
-#:  
 msgid "**NetDiscovery**: Task NetDiscovery"
 msgstr ""
 
 #. type: Bullet: '* '
-#:  
 msgid "**NetInventory**: Task NetInventory"
 msgstr ""
 
 #. type: Bullet: '* '
-#:  
 msgid "**WakeOnLan**: Task WakeOnLan"
 msgstr ""
 
 #. type: Plain text
-msgid "There are three macros defined to simplify the mission, are the following:"
+msgid ""
+"There are three macros defined to simplify the mission, are the following:"
 msgstr ""
 
 #. type: Bullet: '* '
@@ -607,9 +601,8 @@ msgstr ""
 #. type: Plain text
 msgid ""
 "It should be noted that the **Inventory** task will be always installed and "
-"that the **NetDiscovery** and **NetInventory** tasks are "
-"inter-dependent. Nowadays **Minimal** and **Default** are the same "
-"configuration."
+"that the **NetDiscovery** and **NetInventory** tasks are inter-dependent. "
+"Nowadays **Minimal** and **Default** are the same configuration."
 msgstr ""
 
 #. type: Plain text
@@ -621,8 +614,8 @@ msgstr ""
 msgid ""
 "Selects between an installation from the beginning (**from-scratch**)  or, "
 "whether you have currently an agent installed, an installation based on the "
-"current configuration (**from-current-config**). (By default: "
-"**from-current-config**)"
+"current configuration (**from-current-config**). (By default: **from-current-"
+"config**)"
 msgstr ""
 
 #. type: Plain text
@@ -661,8 +654,8 @@ msgstr ""
 #. type: Plain text
 msgid ""
 "You must indicate an full path in *filename*. The **/local** option comes "
-"into play only if you have also indicated **File** as a value of the "
-"**/logger** option."
+"into play only if you have also indicated **File** as a value of the **/"
+"logger** option."
 msgstr ""
 
 #. type: Plain text
@@ -748,8 +741,7 @@ msgstr ""
 
 #. type: Plain text
 msgid ""
-"This option is the opposite of **/html**. See **/html** for more "
-"information."
+"This option is the opposite of **/html**. See **/html** for more information."
 msgstr ""
 
 #. type: Plain text
@@ -1072,7 +1064,9 @@ msgid "Project Manager"
 msgstr ""
 
 #. type: Bullet: '* '
-msgid "http://forge.fusioninventory.org/projects/fusioninventory-agent-windows-installer"
+msgid ""
+"http://forge.fusioninventory.org/projects/fusioninventory-agent-windows-"
+"installer"
 msgstr ""
 
 #. type: Plain text
@@ -1083,10 +1077,9 @@ msgstr ""
 #. type: Plain text
 msgid ""
 "Copyright 2012-2013 FusionInventory Team. GNU GPL version 2 or (at your "
-"option) any later version "
-"\\<http://www.gnu.org/licenses/old-licenses/gpl-2.0-standalone.html\\>.  "
-"This is free software: you are free to change and redistribute it. There is "
-"NO WARRANTY, to the extent permitted by law."
+"option) any later version \\<http://www.gnu.org/licenses/old-licenses/"
+"gpl-2.0-standalone.html\\>.  This is free software: you are free to change "
+"and redistribute it. There is NO WARRANTY, to the extent permitted by law."
 msgstr ""
 
 #. type: Plain text
@@ -1109,4 +1102,12 @@ msgstr ""
 
 #. type: Plain text
 msgid "Tomás Abad \\<tabadgp@gmail.com\\>"
+msgstr ""
+
+#. type: Plain text
+msgid ""
+"[[!template id=info text=\"You can download the PDF version of this document "
+"[here](http://forge.fusioninventory.org/projects/fusioninventory-agent-"
+"windows-installer/files \"http://forge.fusioninventory.org/projects/"
+"fusioninventory-agent-windows-installer/files\").\"]]"
 msgstr ""
