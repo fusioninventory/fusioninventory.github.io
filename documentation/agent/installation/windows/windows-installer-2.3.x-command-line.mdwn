@@ -806,7 +806,7 @@ Tomás Abad \<tabadgp@gmail.com\>
 
 
 
-[[!template id=info text="You can download the PDF version of this document [here](http://forge.fusioninventory.org/projects/fusioninventory-agent-windows-installer/files "http://forge.fusioninventory.org/projects/fusioninventory-agent-windows-installer/files")."]]
+[[!template id=info text="""You can download the PDF version of this document [here](http://forge.fusioninventory.org/projects/fusioninventory-agent-windows-installer/files "http://forge.fusioninventory.org/projects/fusioninventory-agent-windows-installer/files")."""]]
 
 
 
