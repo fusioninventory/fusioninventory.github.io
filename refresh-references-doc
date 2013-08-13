@@ -74,13 +74,12 @@ foreach my $repo (@repoList) {
     foreach my $branch ( @{ $repo->{branches} } ) {
         $r->run( 'checkout', 'origin/'.$branch->{branch} );
 
+        $indexContent .= "\n## ". $branch->{branch} ." (". $branch->{status} .")\n\n";
+
 
         foreach my $fullpath ( glob("$localDir/bin/fusioninventory-*"), glob("$localDir/fusioninventory-*") ) {
             my $filename = basename($fullpath);
             print $fullpath."\n";
-
-            $indexContent .= "\n## $filename\n\n" unless $filename =~ /pm$/;
-
 
             my $mdwnFile = sprintf("documentation/references/%s/%s/%s", $repo->{name}, $branch->{serie}, $filename);
             print $mdwnFile. "\n";
@@ -98,7 +97,7 @@ foreach my $repo (@repoList) {
             print OUT $parser->as_markdown;
             close OUT;
             $wiki->run('add', $mdwnFile . '.mdwn');
-            $indexContent .= "* [[".$branch->{serie}." (".$branch->{status}.")|$mdwnFile]]\n" unless $filename =~ /pm$/;
+            $indexContent .= "* [[".$filename."|$mdwnFile]]\n" unless $filename =~ /pm$/;
 
         }
 
