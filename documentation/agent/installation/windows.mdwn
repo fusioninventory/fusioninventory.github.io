@@ -1,27 +1,65 @@
-# Windows installation
+# Microsoft Windows Installation
 
-[[!template  id=info text="Agent 2.3.0 comes with a new Windows installer. 
-[[The old documentation is still available on this page|documentation/agent/installation/windows_before_2.3.0]]."]]
+[[!template id=warning text="The new FusionInventory Agent 2.3.x comes with a **new** Microsoft Windows installer. The documentation you have below is regarding this new installer. If you are looking for documentation about FusionInventory Agent 2.2.x (and previous) and its installer, you find it [[here|documentation/agent/installation/windows_before_2.3.0]]."]]
 
-## Get the installer
 
-First, download the archive: <http://forge.fusioninventory.org/projects/fusioninventory-agent-windows-installer/files/>
 
-The file name convention is:
+## Get the Installer
 
-* fusioninventory-agent_windows
-* architecture : x86 or x64
-* FusionInventory Agent version (e.g: 2.3.0)
-* a *-* (dash)
-* the package revision. e.g: 2, for the 2nd installer generated for the 2.3.0 (optional)
-* .exe
 
-The 32 bit installer can be used either on 32 or 64 bit Windows.
 
-# Large installation
+You can get the last FusionInventory Agent installer for Microsoft Windows [here](http://forge.fusioninventory.org/projects/fusioninventory-agent-windows-installer/files "http://forge.fusioninventory.org/projects/fusioninventory-agent-windows-installer/files"). The file name of the installer follows this pattern:
 
-A page is dedicated to explain how to [[deploy the agent on a Windows domain|documentation/agent/installation/windows/large_install]].
 
-# Installation from sources
 
-If you are an developer, or an advanced user, you can also install FusionInventory [[from sources|documentation/agent/dev/git_windows]].
+    fusioninventory-agent_windows-<platform>_<version>.exe  
+                                       |         |
+                                       v         |
+                                                 |
+                                 'x86' | 'x64'   |
+                                                 v
+                                                  
+                     <mayor>.<minor>.<release>[-<package>]
+
+
+
+Some notes about the new FusionInventory Agent Installer for Microsoft Windows.
+
+
+
+* The installer for each *\<platform>*, integrates its native, although reduced, version of [Strawberry Perl](http://strawberryperl.com/ "http://strawberryperl.com/") 5.16.3.1.
+
+
+
+* Inside the *\<version>*, *\<package>* is optional and indicates the secuence of the installer for FusionInventory Agent *\<manor>*.*\<minor>*.*\<release>*. A new *\<package>* may contain improvements regarding the installer itself, the agent (patches) or both.
+
+
+
+* It's possible to install *fusioninventory-agent_windows_x86_2.3.x.exe* on a 32-bit or 64-bit Microsoft Windows system but only is possible to install *fusioninventory-agent_windows_x64_2.3.x.exe* on a 64-bit Microsoft Windows system.
+
+
+
+## The Installer Manual
+
+
+
+You can find the manual of the new FusionInventory Agent Installer for Microsoft Windows [[here|documentation/agent/installation/windows/windows-installer-2.3.x-command-line]].
+
+
+
+## Large Installations
+
+
+
+A page is dedicated to explain how to [[deploy FusionInventory Agent 2.2.x (and previous) on a Windows Domain|documentation/agent/installation/windows/large_install]] but, at the moment, those instructions are invalid for the new FusionInventory Agent installer.
+
+
+
+## Installation from Sources
+
+
+
+If you are a developer, or an advanced user, you can also install FusionInventory Agent 2.3.x [[from sources|documentation/agent/dev/git_windows]].
+
+
+
