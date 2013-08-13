@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2013-08-10 15:44+0000\n"
+"POT-Creation-Date: 2013-08-13 23:46+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -18,79 +18,114 @@ msgstr ""
 
 #. type: Title #
 #, no-wrap
-msgid "Windows installation"
+msgid "Microsoft Windows Installation"
 msgstr ""
 
 #. type: Plain text
-#, no-wrap
 msgid ""
-"[[!template  id=info text=\"Agent 2.3.0 comes with a new Windows installer. \n"
-"[[The old documentation is still available on this page|documentation/agent/installation/windows_before_2.3.0]].\"]]\n"
+"[[!template id=warning text=\"The new FusionInventory Agent 2.3.x comes with "
+"a **new** Microsoft Windows installer. The documentation you have below is "
+"regarding this new installer. If you are looking for documentation about "
+"FusionInventory Agent 2.2.x (and previous) and its installer, you find it "
+"[[here|documentation/agent/installation/windows_before_2.3.0]].\"]]"
 msgstr ""
 
 #. type: Title ##
 #, no-wrap
-msgid "Get the installer"
+msgid "Get the Installer"
 msgstr ""
 
 #. type: Plain text
 msgid ""
-"First, download the archive: <http://forge.fusioninventory.org/projects/"
-"fusioninventory-agent-windows-installer/files/>"
+"You can get the last FusionInventory Agent installer for Microsoft Windows "
+"[here](http://forge.fusioninventory.org/projects/fusioninventory-agent-"
+"windows-installer/files \"http://forge.fusioninventory.org/projects/"
+"fusioninventory-agent-windows-installer/files\"). The file name of the "
+"installer follows this pattern:"
 msgstr ""
 
 #. type: Plain text
-msgid "The file name convention is:"
-msgstr ""
-
-#. type: Bullet: '* '
-msgid "fusioninventory-agent_windows"
-msgstr ""
-
-#. type: Bullet: '* '
-msgid "architecture : x86 or x64"
-msgstr ""
-
-#. type: Bullet: '* '
-msgid "FusionInventory Agent version (e.g: 2.3.0)"
-msgstr ""
-
-#. type: Bullet: '* '
-msgid "a *-* (dash)"
-msgstr ""
-
-#. type: Bullet: '* '
-msgid ""
-"the package revision. e.g: 2, for the 2nd installer generated for the 2.3.0 "
-"(optional)"
-msgstr ""
-
-#. type: Bullet: '* '
-msgid ".exe"
-msgstr ""
-
-#. type: Plain text
-msgid "The 32 bit installer can be used either on 32 or 64 bit Windows."
-msgstr ""
-
-#. type: Title #
 #, no-wrap
-msgid "Large installation"
+msgid "    fusioninventory-agent_windows-<platform>_<version>.exe  \n"
 msgstr ""
 
 #. type: Plain text
-msgid ""
-"A page is dedicated to explain how to [[deploy the agent on a Windows domain|"
-"documentation/agent/installation/windows/large_install]]."
-msgstr ""
-
-#. type: Title #
 #, no-wrap
-msgid "Installation from sources"
+msgid ""
+"                                       |         |\n"
+"                                       v         |\n"
+"                                                 |\n"
+"                                 'x86' | 'x64'   |\n"
+"                                                 v\n"
+msgstr ""
+
+#. type: Plain text
+#, no-wrap
+msgid "                     <mayor>.<minor>.<release>[-<package>]\n"
 msgstr ""
 
 #. type: Plain text
 msgid ""
-"If you are an developer, or an advanced user, you can also install "
-"FusionInventory [[from sources|documentation/agent/dev/git_windows]]."
+"Some notes about the new FusionInventory Agent Installer for Microsoft "
+"Windows."
+msgstr ""
+
+#. type: Bullet: '* '
+msgid ""
+"The installer for each *\\<platform>*, integrates its native, although "
+"reduced, version of [Strawberry Perl](http://strawberryperl.com/ \"http://"
+"strawberryperl.com/\") 5.16.3.1."
+msgstr ""
+
+#. type: Bullet: '* '
+msgid ""
+"Inside the *\\<version>*, *\\<package>* is optional and indicates the "
+"secuence of the installer for FusionInventory Agent *\\<manor>*.*\\<minor>*.*"
+"\\<release>*. A new *\\<package>* may contain improvements regarding the "
+"installer itself, the agent (patches) or both."
+msgstr ""
+
+#. type: Bullet: '* '
+msgid ""
+"It's possible to install *fusioninventory-agent_windows_x86_2.3.x.exe* on a "
+"32-bit or 64-bit Microsoft Windows system but only is possible to install "
+"*fusioninventory-agent_windows_x64_2.3.x.exe* on a 64-bit Microsoft Windows "
+"system."
+msgstr ""
+
+#. type: Title ##
+#, no-wrap
+msgid "The Installer Manual"
+msgstr ""
+
+#. type: Plain text
+msgid ""
+"You can find the manual of the new FusionInventory Agent Installer for "
+"Microsoft Windows [[here|documentation/agent/installation/windows/windows-"
+"installer-2.3.x-command-line]]."
+msgstr ""
+
+#. type: Title ##
+#, no-wrap
+msgid "Large Installations"
+msgstr ""
+
+#. type: Plain text
+msgid ""
+"A page is dedicated to explain how to [[deploy FusionInventory Agent 2.2.x "
+"(and previous) on a Windows Domain|documentation/agent/installation/windows/"
+"large_install]] but, at the moment, those instructions are invalid for the "
+"new FusionInventory Agent installer."
+msgstr ""
+
+#. type: Title ##
+#, no-wrap
+msgid "Installation from Sources"
+msgstr ""
+
+#. type: Plain text
+msgid ""
+"If you are a developer, or an advanced user, you can also install "
+"FusionInventory Agent 2.3.x [[from sources|documentation/agent/dev/"
+"git_windows]]."
 msgstr ""
