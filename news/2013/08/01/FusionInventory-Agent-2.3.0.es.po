@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2013-08-01 10:53+0000\n"
+"POT-Creation-Date: 2013-08-13 15:25+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -49,7 +49,7 @@ msgstr ""
 
 #. type: Plain text
 msgid ""
-"Windows packages are avaialbe on [the forge](http://forge.fusioninventory."
+"Windows packages are available on [the forge](http://forge.fusioninventory."
 "org/projects/fusioninventory-agent-windows-installer/files).  The new "
 "installer is now maintained by Tomás Abad. The parameters are different take "
 "some minutes to read the documentation."
@@ -62,9 +62,7 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-msgid ""
-"The other packages, especially MacOSX, will be published during the comming "
-"weeks."
+msgid "The other packages, especially MacOSX, will be published soon."
 msgstr ""
 
 #. type: Title ##
