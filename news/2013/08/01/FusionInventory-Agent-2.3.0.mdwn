@@ -10,13 +10,13 @@ We want to thank all the people involved during the developement process.
 
 ### Packages
 
-Windows packages are avaialbe on [the forge](http://forge.fusioninventory.org/projects/fusioninventory-agent-windows-installer/files).
+Windows packages are available on [the forge](http://forge.fusioninventory.org/projects/fusioninventory-agent-windows-installer/files).
 The new installer is now maintained by Tomás Abad. The parameters are different take some
 minutes to read the documentation.
 
 The previous 2.2.x Windows packages are [still available](http://prebuilt.fusioninventory.org/stable/windows-i386/).
 
-The other packages, especially MacOSX, will be published during the comming weeks.
+The other packages, especially MacOSX, will be published soon.
 
 ## This release changelog
 
