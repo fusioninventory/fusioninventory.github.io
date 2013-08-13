@@ -16,13 +16,20 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
+#. type: Plain text
+#, no-wrap
+msgid ""
+"[[!template  id=info text=\"The 2.1.x is not maintained anymore. You should "
+"consider an upgrade to the last stable release.\"]]\n"
+msgstr ""
+
 #. type: Title #
 #, no-wrap
 msgid "NAME"
 msgstr ""
 
 #. type: Plain text
-msgid "fusioninventory-wakeonlan - Standalone wake-on-lan"
+msgid "fusioninventory-agent-config - FusionInventory Agent configuration script"
 msgstr ""
 
 #. type: Title #
@@ -31,27 +38,5 @@ msgid "SYNOPSIS"
 msgstr ""
 
 #. type: Plain text
-msgid "fusioninventory-wakeonlan \\[options\\]"
-msgstr ""
-
-#. type: Plain text
-#, no-wrap
-msgid ""
-"    Options:\n"
-"      --mac=MAC         target mac address\n"
-"      --methods=METHODS comma-separated list of methods to use (ethernet, udp)\n"
-"      --debug           debug output (execution traces)\n"
-"      -h --help         print this message and exit\n"
-"      --version         print the task version and exit\n"
-msgstr ""
-
-#. type: Title #
-#, no-wrap
-msgid "DESCRIPTION"
-msgstr ""
-
-#. type: Plain text
-msgid ""
-"`fusioninventory-wakeonlan` allows to run a wakeonlan task without a GLPI "
-"server."
+msgid "__fusioninventory-agent-config__"
 msgstr ""
