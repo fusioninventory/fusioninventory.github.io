@@ -1,7 +1,13 @@
 [[!meta  date="2013-08-14"]]
-It's a real pleasure to announce the release of plugin FusionInventory for GLPI 0.84+1.0, so the first version compatible with GLPI 0.84.
+[[!meta title="FusionInventory for GLPI 0.84+1.0 released"]]
 
-This is the great features: 
+Some days ago the [GLPI Project](http://www.glpi-project.org/) has released
+a new major release of GLPI. We want to congratulate the GLPI team :)
+
+It's a real pleasure to announce the release of plugin FusionInventory for GLPI 0.84+1.0
+designed for this new GLPI version.
+
+## major changes
 
 * Aggregation of different fus* plugins into unique plugin named 'FusionInventory'
 * Rewrite inventory engine, remove cache, enhance performance (from 150% to more than 1000%)
@@ -19,18 +25,23 @@ This is the great features:
 * Add location link for mirrors (Deploy)
 * Add a new rule type : location
 
-We have fixed meny little bugs too.
+## Bug fixes
+
+This release also come with the usual fixes and improvements.
 
 See changelog here: http://forge.fusioninventory.org/versions/68
 
-To download, go on page: http://forge.fusioninventory.org/projects/fusioninventory-for-glpi/files
+## Download
+
+The archive is available in the Download page of the forge:
+http://forge.fusioninventory.org/projects/fusioninventory-for-glpi/files
 
 Result of bug hunter: 
 
-1st: Tomas Abad (14 bugs)
+1st: Tomás Abad (14 bugs)
 2nd (ex aequo) : Arnaud Meurou && Romain Ingrand (11 bugs)
 
 So we will send a Rapsberry pi to Tomas ;)
 
-
-
+We want to take the opportunity of this news to thank Tomás Abad who dedicated a
+lot of his time to the FusionInventory project. You rocks!
