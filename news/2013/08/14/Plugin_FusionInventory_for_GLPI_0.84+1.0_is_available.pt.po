@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2013-08-14 13:23+0000\n"
+"POT-Creation-Date: 2013-08-14 13:40+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -65,8 +65,8 @@ msgstr ""
 
 #. type: Bullet: '* '
 msgid ""
-"Use GLPI 'is_dynamic' system, permit to display if a "
-"field/component/volume/... is from automatic inventory or managed manually"
+"Use GLPI 'is_dynamic' system, permit to display if a field/component/"
+"volume/... is from automatic inventory or managed manually"
 msgstr ""
 
 #. type: Bullet: '* '
@@ -123,26 +123,30 @@ msgstr ""
 
 #. type: Plain text
 msgid ""
-"The archive is available in the Download page of the forge: "
-"http://forge.fusioninventory.org/projects/fusioninventory-for-glpi/files"
+"The archive is available in the Download page of the forge: http://forge."
+"fusioninventory.org/projects/fusioninventory-for-glpi/files"
 msgstr ""
 
 #. type: Plain text
-msgid "Result of bug hunter:"
+msgid "Bug hunting contest result:"
+msgstr ""
+
+#. type: Bullet: '1. '
+msgid "Tomás Abad (14 bugs)"
+msgstr ""
+
+#. type: Bullet: '2. '
+msgid "(ex aequo): Arnaud Meurou and Romain Ingrand (11 bugs)"
 msgstr ""
 
 #. type: Plain text
 msgid ""
-"1st: Tomás Abad (14 bugs)  2nd (ex aequo) : Arnaud Meurou && Romain Ingrand "
-"(11 bugs)"
-msgstr ""
-
-#. type: Plain text
-msgid "So we will send a Rapsberry pi to Tomas ;)"
+"So we will send a Rapsberry pi to Tomas ;) Thanks to all of you who reported "
+"bugs for the release!"
 msgstr ""
 
 #. type: Plain text
 msgid ""
-"We want to take the opportunity of this news to thank Tomás Abad who "
+"We want to take the opportunity of this news to thanks Tomás Abad who "
 "dedicated a lot of his time to the FusionInventory project. You rocks!"
 msgstr ""
