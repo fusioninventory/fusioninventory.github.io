@@ -29,12 +29,12 @@ designed for this new GLPI version.
 
 This release also come with the usual fixes and improvements.
 
-See changelog here: http://forge.fusioninventory.org/versions/68
+[See the changelog for further information.](http://forge.fusioninventory.org/versions/68)
 
 ## Download
 
-The archive is available in the Download page of the forge:
-http://forge.fusioninventory.org/projects/fusioninventory-for-glpi/files
+The archive is available in the
+[Download page of the forge](http://forge.fusioninventory.org/projects/fusioninventory-for-glpi/files)
 
 Bug hunting contest result: 
 
