@@ -36,12 +36,12 @@ See changelog here: http://forge.fusioninventory.org/versions/68
 The archive is available in the Download page of the forge:
 http://forge.fusioninventory.org/projects/fusioninventory-for-glpi/files
 
-Result of bug hunter: 
+Bug hunting contest result: 
 
-1st: Tomás Abad (14 bugs)
-2nd (ex aequo) : Arnaud Meurou && Romain Ingrand (11 bugs)
+1. Tomás Abad (14 bugs)
+2. (ex aequo): Arnaud Meurou and Romain Ingrand (11 bugs)
 
-So we will send a Rapsberry pi to Tomas ;)
+So we will send a Rapsberry pi to Tomas ;) Thanks to all of you who reported bugs for the release!
 
-We want to take the opportunity of this news to thank Tomás Abad who dedicated a
+We want to take the opportunity of this news to thanks Tomás Abad who dedicated a
 lot of his time to the FusionInventory project. You rocks!
