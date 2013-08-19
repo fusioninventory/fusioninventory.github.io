@@ -60,7 +60,7 @@ msgid ""
 "some minutes to read the documentation."
 msgstr ""
 "Les paquets pour Windows sont disponibles sur [la Forge](http://forge.fusioninventory."
-"org/projects/fusioninventory-agent-windows-installer/files). Le nouveau installeur est "
+"org/projects/fusioninventory-agent-windows-installer/files). Le nouvel installeur est "
 "maintenant maintenu par Tomás Abad. Les paramètres peuvent être modifiés, prenez "
 "quelques minutes pour lire la documentation."
 
@@ -83,7 +83,7 @@ msgstr "Journal des modifications de cette version :"
 
 #. type: Plain text
 msgid "This is a major release that include various important changes."
-msgstr "C'est une mise à jour majeur qui inclue plusieurs changements importants"
+msgstr "C'est une mise à jour majeur qui inclut plusieurs changements importants"
 
 #. type: Title ###
 #, no-wrap
@@ -202,7 +202,7 @@ msgstr "Support de FreeBSD jail pour BSD ([[!bug 736]], [[!bug 1555]])"
 
 #. type: Bullet: '* '
 msgid "better caching of system_profiler output ([[!bug 2076]])"
-msgstr "Une meilleur mise en cache de la sortie system_profiler ([[!bug 2076]])"
+msgstr "Une meilleure mise en cache de la sortie system_profiler ([[!bug 2076]])"
 
 #. type: Bullet: '* '
 msgid "better Qemu support ([[!bug 2106]])"
@@ -231,7 +231,7 @@ msgid ""
 "better memory inventory on Solaris ([[!bug 1711]], [[!bug 1714]], [[!bug "
 "1737]])"
 msgstr ""
-"Un meilleur inventairemémoire pour Solaris ([[!bug 1711]], [[!bug 1714]], [[!bug 1737]])"
+"Un meilleur inventaire mémoire pour Solaris ([[!bug 1711]], [[!bug 1714]], [[!bug 1737]])"
 
 #. type: Bullet: '* '
 msgid "better slot inventory on Solaris ([[!bug 1730]])"
@@ -272,7 +272,7 @@ msgid ""
 "fix for regression introduced during code refactoring regarding printers "
 "identification"
 msgstr ""
-"Correction de la régression introduite la reconstruction du code concernant "
+"Correction de la régression introduite dans la reconstruction du code concernant "
 "l'identification des imprimantes"
 
 #. type: Title ###
@@ -302,5 +302,5 @@ msgid ""
 "is you believe you find something unexpected."
 msgstr ""
 "Nous avons fait notre possible pour fournir une version fiable, SVP [[contactez nous|/resources]] "
-"si vous pensez avoir trouver quelques choses d'inattendues."
+"si vous pensez avoir trouver quelque chose d'inattendue."
 
