@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2013-08-19 17:19+0000\n"
+"POT-Creation-Date: 2013-08-19 17:39+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -126,7 +126,7 @@ msgstr ""
 
 #. type: Plain text
 #, no-wrap
-msgid "[[!template id=info text=\"It's recommended read this documentation completely each time a new version is released; the new FusionInventory Agent Installer for Microsoft Windows is still young and it is in a constant process of improvement, including its manual.\"]]\n"
+msgid "[[!template id=info text=\"It's recommended read this documentation completely each time a new version is released; the new FusionInventory Agent Installer for Microsoft Windows is still young and it's in a constant process of improvement, including its manual.\"]]\n"
 msgstr ""
 
 #. type: Title ##
