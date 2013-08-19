@@ -37,7 +37,7 @@ msgid ""
 "org/attachments/download/1016/FusionInventory-Agent-2.3.0.tar.gz)  or "
 "directly from [the CPAN](https://metacpan.org/release/FusionInventory-Agent)"
 msgstr ""
-"Vous pouvez télécharger l'archive depuis [La Forge](http://forge.fusioninventory."
+"Vous pouvez télécharger l'archive depuis [la Forge](http://forge.fusioninventory."
 "org/attachments/download/1016/FusionInventory-Agent-2.3.0.tar.gz) ou directement "
 "via [CPAN](https://metacpan.org/release/FusionInventory-Agent)."
 
