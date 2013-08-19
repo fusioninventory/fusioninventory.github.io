@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2013-08-13 23:46+0000\n"
+"POT-Creation-Date: 2013-08-19 17:19+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -103,6 +103,30 @@ msgid ""
 "You can find the manual of the new FusionInventory Agent Installer for "
 "Microsoft Windows [[here|documentation/agent/installation/windows/windows-"
 "installer-2.3.x-command-line]]."
+msgstr ""
+
+#. type: Plain text
+msgid ""
+"The manual is self-contained in the own installer. You can get it of one of "
+"the following ways:"
+msgstr ""
+
+#. type: Bullet: '*         '
+msgid "C:\\> fusioninventory-agent_windows-<platform>_<version>.exe /help"
+msgstr ""
+
+#. type: Bullet: '*         '
+msgid "C:\\> fusioninventory-agent_windows-<platform>_<version>.exe /dumphelp"
+msgstr ""
+
+#. type: Bullet: '*         '
+msgid ""
+"C:\\> fusioninventory-agent_windows-<platform>_<version>.exe /dumphelp /S"
+msgstr ""
+
+#. type: Plain text
+#, no-wrap
+msgid "[[!template id=info text=\"It's recommended read this documentation completely each time a new version is released; the new FusionInventory Agent Installer for Microsoft Windows is still young and it is in a constant process of improvement, including its manual.\"]]\n"
 msgstr ""
 
 #. type: Title ##
