@@ -47,6 +47,26 @@ You can find the manual of the new FusionInventory Agent Installer for Microsoft
 
 
 
+The manual is self-contained in the own installer. You can get it of one of the following ways:
+
+
+
+*         C:\> fusioninventory-agent_windows-<platform>_<version>.exe /help
+
+
+
+*         C:\> fusioninventory-agent_windows-<platform>_<version>.exe /dumphelp
+
+
+
+*         C:\> fusioninventory-agent_windows-<platform>_<version>.exe /dumphelp /S
+
+
+
+[[!template id=info text="It's recommended read this documentation completely each time a new version is released; the new FusionInventory Agent Installer for Microsoft Windows is still young and it is in a constant process of improvement, including its manual."]]
+
+
+
 ## Large Installations
 
 
