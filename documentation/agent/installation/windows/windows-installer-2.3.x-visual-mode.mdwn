@@ -1,0 +1,231 @@
+# FusionInventory Agent Installer for Microsoft Windows -- Visual Mode
+
+
+
+## Installer Language Screen
+
+
+
+![][installer-language]
+
+
+
+## Welcome Screen
+
+
+
+![][welcome]
+
+
+
+## License Agreement Screen
+
+
+
+![][license-agreement]
+
+
+
+## Installation Type Screen
+
+
+
+![][installation-type]
+
+
+
+## Components Screen
+
+
+
+![][choose-components]
+
+
+
+## Install Location Screen
+
+
+
+![][install-location]
+
+
+## Targets Screen
+
+
+
+![][choose-targets]
+
+
+
+## Remote Target Option Screens
+
+
+
+### Remote Target Options Screen (1/2)
+
+
+
+![][remote-targets-options-1]
+
+
+
+### Remote Target Options Screen (2/2)
+
+
+
+![][remote-targets-options-2]
+
+
+
+## Execution Mode Screen
+
+
+
+![][execution-mode]
+
+
+
+## Execution Mode as a Windows Service Screen
+
+
+
+### HTTP Server Options Screen
+
+
+
+![][http-server-options]
+
+
+
+## Execution Mode as a Windows Task Screen
+
+
+
+### Windows Task Options Screen
+
+
+
+![][windows-task-options]
+
+
+
+## Miscelaneous Options Screen
+
+
+
+![][miscelaneous-options]
+
+
+
+## Advanced Options Screen
+
+
+
+![][advanced-options]
+
+
+
+## Debug Options Screen
+
+
+
+![][debug-options]
+
+
+
+## Installing Screen
+
+
+
+![][installing]
+
+
+
+## Installation Complete Screen
+
+
+
+![][installation-complete]
+
+
+
+## Completing Screen
+
+
+
+![][completing]
+
+
+
+[installer-language]: ./windows-installer-2.3.x-screen-001-installer-language.png "Installer Language"
+
+
+
+[welcome]: ./windows-installer-2.3.x-screen-002-welcome.png "Welcome"
+
+
+
+[license-agreement]: ./windows-installer-2.3.x-screen-003-license-agreement.png "License Agreement"
+
+
+
+[installation-type]: ./windows-installer-2.3.x-screen-004-installation-mode.png "Installation Type"
+
+
+
+[choose-components]: ./windows-installer-2.3.x-screen-005-choose-components.png "Components"
+
+
+
+[install-location]: ./windows-installer-2.3.x-screen-006-install-location.png "Install Location"
+
+
+
+[choose-targets]: ./windows-installer-2.3.x-screen-007-choose-targets.png "Targets"
+
+
+
+[remote-targets-options-1]: ./windows-installer-2.3.x-screen-008-remote-targets-options-1.png "Remote Targets Options (1/2)"
+
+
+
+[remote-targets-options-2]: ./windows-installer-2.3.x-screen-009-remote-targets-options-2.png "Remote Targets Options (2/2)"
+
+
+
+[execution-mode]: ./windows-installer-2.3.x-screen-010-execution-mode.png "Execution Mode"
+
+
+
+[http-server-options]: ./windows-installer-2.3.x-screen-011-http-server-options.png "HTTP Server Options"
+
+
+
+[windows-task-options]: ./windows-installer-2.3.x-screen-012-windows-task-options.png "Windows Task Options"
+
+
+
+[miscelaneous-options]: ./windows-installer-2.3.x-screen-013-miscelaneous-options.png "Miscelaneous Options"
+
+
+
+[advanced-options]: ./windows-installer-2.3.x-screen-014-advanced-options.png "Advanced Options"
+
+
+
+[debug-options]: ./windows-installer-2.3.x-screen-015-debug-options.png "Debug Options"
+
+
+
+[installing]: ./windows-installer-2.3.x-screen-016-installing.png "Installing"
+
+
+
+[installation-complete]: ./windows-installer-2.3.x-screen-017-installation-complete.png "Installation Complete"
+
+
+
+[completing]: ./windows-installer-2.3.x-screen-018-completing.png "Completing"
+
+
+
