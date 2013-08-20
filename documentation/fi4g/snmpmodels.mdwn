@@ -1,10 +1,10 @@
 # Introduction
 
 To get complete inventory of switches, printers and other devices over the network, we use SNMP.
-Depending on the device, SNMP query may be very different and we use
-some kind of “driver”.
 
-An SNMP model is an XML file that will map OID to GLPI fields.
+Despite standardization, information retrieved through this protocol differs
+from device to device, so we have to use mappings between GLPI fields and SNMP
+variable identifiers (OIDS). Those mappings are refered as 'SNMP models'.
 
 [[!graph  src="""
     style=filled;
