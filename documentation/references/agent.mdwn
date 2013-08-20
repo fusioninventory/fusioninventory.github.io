@@ -1,1 +1,0 @@
-[[!map pages="documentation/references/agent/* and ! documentation/references/agent/*/*"]]

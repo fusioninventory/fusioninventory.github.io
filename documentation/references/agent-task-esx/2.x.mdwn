@@ -1,1 +1,0 @@
-[[!map pages="documentation/references/agent-task-esx/2.x/* and ! documentation/references/agent-task-esx/2.x/*/*"]]

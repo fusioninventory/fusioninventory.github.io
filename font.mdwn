@@ -1,1 +1,0 @@
-[[!map pages="font/* and ! font/*/*"]]

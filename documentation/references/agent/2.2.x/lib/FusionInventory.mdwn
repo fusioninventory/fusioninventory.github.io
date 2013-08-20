@@ -1,1 +1,0 @@
-[[!map pages="documentation/references/agent/2.2.x/lib/FusionInventory/* and ! documentation/references/agent/2.2.x/lib/FusionInventory/*/*"]]

@@ -1,1 +1,0 @@
-[[!map pages="documentation/dev/plugin-glpi/* and ! documentation/dev/plugin-glpi/*/*"]]

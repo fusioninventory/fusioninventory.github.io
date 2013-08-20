@@ -1,1 +1,0 @@
-[[!map pages="documentation/fi4g/* and ! documentation/fi4g/*/*"]]
