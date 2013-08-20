@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2013-07-12 09:12+0000\n"
+"POT-Creation-Date: 2013-08-20 18:52+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -24,12 +24,15 @@ msgstr ""
 #. type: Plain text
 msgid ""
 "To get complete inventory of switches, printers and other devices over the "
-"network, we use SNMP.  Depending on the device, SNMP query may be very "
-"different and we use some kind of “driver”."
+"network, we use SNMP."
 msgstr ""
 
 #. type: Plain text
-msgid "An SNMP model is an XML file that will map OID to GLPI fields."
+msgid ""
+"Despite standardization, information retrieved through this protocol differs "
+"from device to device, so we have to use mappings between GLPI fields and "
+"SNMP variable identifiers (OIDS). Those mappings are refered as 'SNMP "
+"models'."
 msgstr ""
 
 #. type: Plain text
