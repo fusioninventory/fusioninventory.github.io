@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2013-08-13 23:46+0000\n"
+"POT-Creation-Date: 2013-08-19 18:25+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -46,12 +46,8 @@ msgstr ""
 
 #. type: Plain text
 #, no-wrap
-msgid "    fusioninventory-agent_windows-<platform>_<version>.exe  \n"
-msgstr ""
-
-#. type: Plain text
-#, no-wrap
 msgid ""
+"    fusioninventory-agent_windows-<platform>_<version>.exe\n"
 "                                       |         |\n"
 "                                       v         |\n"
 "                                                 |\n"
@@ -66,7 +62,7 @@ msgstr ""
 
 #. type: Plain text
 msgid ""
-"Some notes about the new FusionInventory Agent Installer for Microsoft "
+"Some notes about the new FusionInventory Agent installer for Microsoft "
 "Windows."
 msgstr ""
 
@@ -100,9 +96,51 @@ msgstr ""
 
 #. type: Plain text
 msgid ""
-"You can find the manual of the new FusionInventory Agent Installer for "
-"Microsoft Windows [[here|documentation/agent/installation/windows/windows-"
+"You can find the manual of the FusionInventory Agent installer for Microsoft "
+"Windows [[here|documentation/agent/installation/windows/windows-"
 "installer-2.3.x-command-line]]."
+msgstr ""
+
+#. type: Plain text
+msgid ""
+"The manual is self-contained in the own installer. You can get it of one of "
+"the following ways:"
+msgstr ""
+
+#. type: Bullet: '*         '
+msgid "C:\\> fusioninventory-agent_windows-<platform>_<version>.exe /help"
+msgstr ""
+
+#. type: Bullet: '*         '
+msgid "C:\\> fusioninventory-agent_windows-<platform>_<version>.exe /dumphelp"
+msgstr ""
+
+#. type: Bullet: '*         '
+msgid ""
+"C:\\> fusioninventory-agent_windows-<platform>_<version>.exe /dumphelp /S"
+msgstr ""
+
+#. type: Plain text
+#, no-wrap
+msgid "[[!template id=info text=\"It's recommended read this documentation completely each time a new version is released; the new FusionInventory Agent installer for Microsoft Windows is still young and it's in a constant process of improvement, including its manual.\"]]\n"
+msgstr ""
+
+#. type: Title ##
+#, no-wrap
+msgid "Installation from Command Line and Silent Installation"
+msgstr ""
+
+#. type: Plain text
+msgid ""
+"The FusionInventory Agent installer for Microsoft Windows performs a *visual "
+"mode* installation unless it's specified the ***/S*** option in the command "
+"line, in whose case it performs a *silent mode* installation."
+msgstr ""
+
+#. type: Plain text
+msgid ""
+"For more information about the use of the command line, please, see ***The "
+"Installer Manual*** section above."
 msgstr ""
 
 #. type: Title ##

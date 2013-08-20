@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2013-02-12 22:07+0000\n"
+"POT-Creation-Date: 2013-08-20 14:03+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -18,15 +18,15 @@ msgstr ""
 
 #. type: Plain text
 #, no-wrap
-msgid "#Configuración del Agente\n"
+msgid "#Agent configuration\n"
 msgstr ""
 
 #. type: Plain text
 msgid ""
-"El agente lee su configuración de un archivo de configuración (en el "
-"registro de Windows) y, luego desde la línea de comandos. La mayoría de los parámetros se pueden configurar "
-"desde cualquier método. Por ejemplo, el parámetro `server` de el fichero de configuración "
-"es el mismo que el parámetro `--server` en la línea de comandos."
+"The agent reads its configuration from a configuration file (from the "
+"registry on Windows), then from the command line. Most parameters can be set "
+"from any method. For instance, the `server` parameter in configuration file "
+"is the same as the `--server` parameter on command line."
 msgstr ""
 
 #. type: Plain text
