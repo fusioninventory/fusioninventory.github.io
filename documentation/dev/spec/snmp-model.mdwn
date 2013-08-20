@@ -261,15 +261,15 @@ And a sample instance:
         ...
         <properties>
             <property>
-		<name>comments</name>
-		<oid>.1.3.6.1.2.1.1.1.0</oid>
-		<activation>1</activation>
+                <name>comments</name>
+                <oid>.1.3.6.1.2.1.1.1.0</oid>
+                <activation>1</activation>
             </property>
         ...
             <property>
-		<name>ifaddr</name>
-		<oid>.1.3.6.1.2.1.4.20.1.2</oid>
-		<activation>1</activation>
+                <name>ifaddr</name>
+                <oid>.1.3.6.1.2.1.4.20.1.2</oid>
+                <activation>1</activation>
             </property>
         </properties>
     </model>
