@@ -1,0 +1,1 @@
+[[!map pages="documentation/dev/spec/* and ! documentation/dev/spec/*/*"]]
