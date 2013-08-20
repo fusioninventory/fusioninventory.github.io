@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2013-01-28 13:44+0000\n"
+"POT-Creation-Date: 2013-08-20 14:03+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -18,12 +18,12 @@ msgstr ""
 
 #. type: Title #
 #, no-wrap
-msgid "Instalación del FusionInventory Agent"
+msgid "FusionInventory Agent installation"
 msgstr ""
 
 #. type: Title ##
 #, no-wrap
-msgid "Instalación desde Paquetes"
+msgid "Package based installation"
 msgstr ""
 
 #. type: Bullet: '* '
@@ -36,8 +36,8 @@ msgstr ""
 
 #. type: Bullet: '* '
 msgid ""
-"[[Windows|documentation/agent/installation/windows]] ([[large "
-"installation|documentation/agent/installation/windows/large_install]])"
+"[[Windows|documentation/agent/installation/windows]] ([[large installation|"
+"documentation/agent/installation/windows/large_install]])"
 msgstr ""
 
 #. type: Bullet: '* '
@@ -62,7 +62,7 @@ msgstr ""
 
 #. type: Title ##
 #, no-wrap
-msgid "Instalación desde el tarball"
+msgid "Installation from tarball"
 msgstr ""
 
 #. type: Bullet: '* '
