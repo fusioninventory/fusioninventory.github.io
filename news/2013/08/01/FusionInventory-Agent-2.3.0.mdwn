@@ -31,8 +31,8 @@ This is a major release that include various important changes.
 
 * no more thread usage for HTTP interface
 * no more token usage for HTTP interface, request source address is enough
-* --httpd-trust option now allows multiple values
-* --daemon and --no-fork options are now available from command-line only 
+* `--httpd-trust` option now allows multiple values
+* `--daemon and` `--no-fork` options are now available from command-line only 
 
 ### inventory task:
 

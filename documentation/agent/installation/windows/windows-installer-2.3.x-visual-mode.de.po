@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2013-08-19 23:52+0000\n"
+"POT-Creation-Date: 2013-08-20 00:07+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -18,7 +18,7 @@ msgstr ""
 
 #. type: Title #
 #, no-wrap
-msgid "FusionInventory Agent Installer for Microsoft Windows -- Visual Mode"
+msgid "FusionInventory Agent Installer for Microsoft Windows -- Interactive Installation"
 msgstr ""
 
 #. type: Title ##
@@ -126,12 +126,12 @@ msgstr ""
 msgid "[[!img documentation/agent/installation/windows/windows-installer-2.3.x-screen-010-execution-mode.png alt=\"Execution Mode\"]]\n"
 msgstr ""
 
-#. type: Title ##
+#. type: Title ###
 #, no-wrap
-msgid "Execution Mode as a Windows Service Screen"
+msgid "As a Windows Service Screens"
 msgstr ""
 
-#. type: Title ###
+#. type: Title ####
 #, no-wrap
 msgid "HTTP Server Options Screen"
 msgstr ""
@@ -141,12 +141,12 @@ msgstr ""
 msgid "[[!img documentation/agent/installation/windows/windows-installer-2.3.x-screen-011-http-server-options.png alt=\"HTTP Server Options\"]]\n"
 msgstr ""
 
-#. type: Title ##
+#. type: Title ###
 #, no-wrap
-msgid "Execution Mode as a Windows Task Screen"
+msgid "As a Windows Task Screens"
 msgstr ""
 
-#. type: Title ###
+#. type: Title ####
 #, no-wrap
 msgid "Windows Task Options Screen"
 msgstr ""
@@ -209,10 +209,6 @@ msgstr ""
 #. type: Title ##
 #, no-wrap
 msgid "Completing Screen"
-msgstr ""
-
-#. type: Plain text
-msgid "![][completing]"
 msgstr ""
 
 #. type: Plain text

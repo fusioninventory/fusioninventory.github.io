@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2013-08-13 15:25+0000\n"
+"POT-Creation-Date: 2013-08-20 14:31+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -29,7 +29,8 @@ msgstr "Bonjour les usagers de FusionInventory,"
 msgid ""
 "The FusionInventory Agent maintainers are glad to announce the 2.3.0 release."
 msgstr ""
-"Les développeurs du FusionInventory Agent sont heureux d'annoncer la sortie de la version 2.3.0."
+"Les développeurs du FusionInventory Agent sont heureux d'annoncer la sortie "
+"de la version 2.3.0."
 
 #. type: Plain text
 msgid ""
@@ -37,15 +38,17 @@ msgid ""
 "org/attachments/download/1016/FusionInventory-Agent-2.3.0.tar.gz)  or "
 "directly from [the CPAN](https://metacpan.org/release/FusionInventory-Agent)"
 msgstr ""
-"Vous pouvez télécharger l'archive depuis [la Forge](http://forge.fusioninventory."
-"org/attachments/download/1016/FusionInventory-Agent-2.3.0.tar.gz) ou directement "
-"via [CPAN](https://metacpan.org/release/FusionInventory-Agent)."
+"Vous pouvez télécharger l'archive depuis [la Forge](http://forge."
+"fusioninventory.org/attachments/download/1016/FusionInventory-Agent-2.3.0."
+"tar.gz) ou directement via [CPAN](https://metacpan.org/release/"
+"FusionInventory-Agent)."
 
 #. type: Plain text
 msgid ""
 "We want to thank all the people involved during the developement process."
 msgstr ""
-"Nous remercions toutes les personnes qui se sont investies dans le processus de développement."
+"Nous remercions toutes les personnes qui se sont investies dans le processus "
+"de développement."
 
 #. type: Title ###
 #, no-wrap
@@ -59,22 +62,23 @@ msgid ""
 "installer is now maintained by Tomás Abad. The parameters are different take "
 "some minutes to read the documentation."
 msgstr ""
-"Les paquets pour Windows sont disponibles sur [la Forge](http://forge.fusioninventory."
-"org/projects/fusioninventory-agent-windows-installer/files). Le nouvel installeur est "
-"maintenant maintenu par Tomás Abad. Les paramètres peuvent être modifiés, prenez "
-"quelques minutes pour lire la documentation."
+"Les paquets pour Windows sont disponibles sur [la Forge](http://forge."
+"fusioninventory.org/projects/fusioninventory-agent-windows-installer/files). "
+"Le nouvel installeur est maintenant maintenu par Tomás Abad. Les paramètres "
+"peuvent être modifiés, prenez quelques minutes pour lire la documentation."
 
 #. type: Plain text
 msgid ""
 "The previous 2.2.x Windows packages are [still available](http://prebuilt."
 "fusioninventory.org/stable/windows-i386/)."
 msgstr ""
-"Les paquets des versions 2.2.x pour Windows sont toujours [disponibles](http://prebuilt."
-"fusioninventory.org/stable/windows-i386/)."
+"Les paquets des versions 2.2.x pour Windows sont toujours [disponibles]"
+"(http://prebuilt.fusioninventory.org/stable/windows-i386/)."
 
 #. type: Plain text
 msgid "The other packages, especially MacOSX, will be published soon."
-msgstr "Les autres paquets, spécialement pour MacOSX, seront publiés prochainement."
+msgstr ""
+"Les autres paquets, spécialement pour MacOSX, seront publiés prochainement."
 
 #. type: Title ##
 #, no-wrap
@@ -83,7 +87,8 @@ msgstr "Journal des modifications de cette version :"
 
 #. type: Plain text
 msgid "This is a major release that include various important changes."
-msgstr "C'est une mise à jour majeur qui inclut plusieurs changements importants"
+msgstr ""
+"C'est une mise à jour majeur qui inclut plusieurs changements importants"
 
 #. type: Title ###
 #, no-wrap
@@ -92,11 +97,15 @@ msgstr "Distribution :"
 
 #. type: Bullet: '* '
 msgid "Deploy, Network and ESX tasks are now integrated in the distribution"
-msgstr "Les tâches de Télédéploiement, Réseau et ESX sont maintenant incluses dans la distribution"
+msgstr ""
+"Les tâches de Télédéploiement, Réseau et ESX sont maintenant incluses dans "
+"la distribution"
 
 #. type: Bullet: '* '
 msgid "new fusioninventory-inventory executable, dedicated to inventory task"
-msgstr "Un nouvel exécutable de fusioninventory-inventory, dédié au tâche d'inventaire"
+msgstr ""
+"Un nouvel exécutable de fusioninventory-inventory, dédié au tâche "
+"d'inventaire"
 
 #. type: Title ###
 #, no-wrap
@@ -111,15 +120,24 @@ msgstr "Moins de thread pour l'interface HTTP"
 msgid ""
 "no more token usage for HTTP interface, request source address is enough"
 msgstr ""
-"Moins de token pour l'interface HTTP, la requête de l'adresse source est suffissante"
+"Moins de token pour l'interface HTTP, la requête de l'adresse source est "
+"suffissante"
 
 #. type: Bullet: '* '
-msgid "--httpd-trust option now allows multiple values"
+#, fuzzy
+#| msgid "--httpd-trust option now allows multiple values"
+msgid "`--httpd-trust` option now allows multiple values"
 msgstr "Option --httpd-trust peut avoir plusieurs valeurs"
 
 #. type: Bullet: '* '
-msgid "--daemon and --no-fork options are now available from command-line only"
-msgstr "Options --daemon et --no-fork sont utilisables uniquement depuis la console de commande"
+#, fuzzy
+#| msgid ""
+#| "--daemon and --no-fork options are now available from command-line only"
+msgid ""
+"`--daemon and` `--no-fork` options are now available from command-line only"
+msgstr ""
+"Options --daemon et --no-fork sont utilisables uniquement depuis la console "
+"de commande"
 
 #. type: Title ###
 #, no-wrap
@@ -131,8 +149,8 @@ msgid ""
 "add DNS_DOMAIN, BOOT_TIME and FQDN in OPERATINGSYSTEM section ([[!bug "
 "1197]], [[!bug 1347]], [[!bug 1358]])"
 msgstr ""
-"Ajout de DNS_DOMAIN, BOOT_TIME et FQDN dans la section OPERATINGSYSTEM ([[!bug "
-"1197]], [[!bug 1347]], [[!bug 1358]])"
+"Ajout de DNS_DOMAIN, BOOT_TIME et FQDN dans la section OPERATINGSYSTEM ([[!"
+"bug 1197]], [[!bug 1347]], [[!bug 1358]])"
 
 #. type: Bullet: '* '
 msgid "collect public SSH keys"
@@ -140,7 +158,8 @@ msgstr "Inventaire clés publiques SSH"
 
 #. type: Bullet: '* '
 msgid "collect local users and groups ([[!bug 1570]], [[!bug 1870]])"
-msgstr "Inventaire des utilisateurs et groupes locaux ([[!bug 1570]], [[!bug 1870]])"
+msgstr ""
+"Inventaire des utilisateurs et groupes locaux ([[!bug 1570]], [[!bug 1870]])"
 
 #. type: Bullet: '* '
 msgid "collect license key for MS Office on Windows ([[!bug 152]])"
@@ -148,13 +167,16 @@ msgstr "Inventaire des licences pour MS Office sur Windows ([[!bug 152]])"
 
 #. type: Bullet: '* '
 msgid "collect software from user profile on Windows([[!bug 1674]])"
-msgstr "Inventaire des logiciels installés dans le profil utilisateur sur Windows ([[!bug 1674]])"
+msgstr ""
+"Inventaire des logiciels installés dans le profil utilisateur sur Windows "
+"([[!bug 1674]])"
 
 #. type: Bullet: '* '
 msgid ""
 "collect license key for Adobe suite, Panic's Transit, VMware Fusion on MacOs"
 msgstr ""
-"Inventaire des licences pour Adobe suite, Panic's Transit, VMware Fusion sur MacOSX"
+"Inventaire des licences pour Adobe suite, Panic's Transit, VMware Fusion sur "
+"MacOSX"
 
 #. type: Bullet: '* '
 msgid "collect service package version on AIX ([[!bug 1896]])"
@@ -166,11 +188,15 @@ msgstr "Inventaire des informations du fabricant de la mémoire ([[!bug 1735]])"
 
 #. type: Bullet: '* '
 msgid "enforce consistent handling of USB and PCI identifiers ([[!bug 1861]])"
-msgstr "Exécuter une reconnaissance correcte des identifiants des USB et PCI ([[!bug 1861]])"
+msgstr ""
+"Exécuter une reconnaissance correcte des identifiants des USB et PCI ([[!bug "
+"1861]])"
 
 #. type: Bullet: '* '
 msgid "enforce consistent TYPE values for network interfaces ([[!bug 1838]])"
-msgstr "Respecter une cohérence des valeurs TYPE pour les interfaces réseaux ([[!bug 1838]])"
+msgstr ""
+"Respecter une cohérence des valeurs TYPE pour les interfaces réseaux ([[!bug "
+"1838]])"
 
 #. type: Bullet: '* '
 msgid "various UTF8 encoding fixes"
@@ -190,7 +216,8 @@ msgstr "Support de Megaraid controller sur Linux (Egor Morozov)"
 
 #. type: Bullet: '* '
 msgid "support new OpenVZ configuration on Linux (Alessandro Iurlano)"
-msgstr "Support de la nouvelle configuration d'OpenVZ pour Linux (Alessandro Iurlano)"
+msgstr ""
+"Support de la nouvelle configuration d'OpenVZ pour Linux (Alessandro Iurlano)"
 
 #. type: Bullet: '* '
 msgid "LPAR support on AIX ([[!bug 950]], [[!bug 952]])"
@@ -202,7 +229,8 @@ msgstr "Support de FreeBSD jail pour BSD ([[!bug 736]], [[!bug 1555]])"
 
 #. type: Bullet: '* '
 msgid "better caching of system_profiler output ([[!bug 2076]])"
-msgstr "Une meilleure mise en cache de la sortie system_profiler ([[!bug 2076]])"
+msgstr ""
+"Une meilleure mise en cache de la sortie system_profiler ([[!bug 2076]])"
 
 #. type: Bullet: '* '
 msgid "better Qemu support ([[!bug 2106]])"
@@ -214,24 +242,29 @@ msgstr "Un meilleur support d'OpenVM ([[!bug 1774]])"
 
 #. type: Bullet: '* '
 msgid "better HyperV support ([[!bug 1989]], [[!bug 1990]], [[!bug 1991]])"
-msgstr "Un meilleur support de HyperV ([[!bug 1989]], [[!bug 1990]], [[!bug 1991]])"
+msgstr ""
+"Un meilleur support de HyperV ([[!bug 1989]], [[!bug 1990]], [[!bug 1991]])"
 
 #. type: Bullet: '* '
 msgid "fix CPU inventory for non-i386 arches on Linux ([[!bug 2172]])"
-msgstr "Correction de l'inventaire CPU pour les architectures non-i386 pour Linux ([[!bug 2172]])"
+msgstr ""
+"Correction de l'inventaire CPU pour les architectures non-i386 pour Linux "
+"([[!bug 2172]])"
 
 #. type: Bullet: '* '
 msgid ""
 "better CPU inventory on Solaris ([[!bug 1741]], [[!bug 1905]], [[!bug 2152]])"
 msgstr ""
-"Un meilleur inventaire CPU pour Solaris ([[!bug 1741]], [[!bug 1905]], [[!bug 2152]])"
+"Un meilleur inventaire CPU pour Solaris ([[!bug 1741]], [[!bug 1905]], [[!"
+"bug 2152]])"
 
 #. type: Bullet: '* '
 msgid ""
 "better memory inventory on Solaris ([[!bug 1711]], [[!bug 1714]], [[!bug "
 "1737]])"
 msgstr ""
-"Un meilleur inventaire mémoire pour Solaris ([[!bug 1711]], [[!bug 1714]], [[!bug 1737]])"
+"Un meilleur inventaire mémoire pour Solaris ([[!bug 1711]], [[!bug 1714]], "
+"[[!bug 1737]])"
 
 #. type: Bullet: '* '
 msgid "better slot inventory on Solaris ([[!bug 1730]])"
@@ -239,11 +272,15 @@ msgstr "Un meilleur inventaire des Slot pour Solaris ([[!bug 1730]])"
 
 #. type: Bullet: '* '
 msgid "fix VXFS filesystem identification on Solaris ([[!bug 1696]])"
-msgstr "Correction de l'identification du système de fichier VXFS pour Solaris ([[!bug 1696]])"
+msgstr ""
+"Correction de l'identification du système de fichier VXFS pour Solaris ([[!"
+"bug 1696]])"
 
 #. type: Bullet: '* '
 msgid "minimal support for busybox-specific command output ([[!bug 1372]])"
-msgstr "Support minimal pour les sorties de commande spécifique de Busybox ([[!bug 1372]])"
+msgstr ""
+"Support minimal pour les sorties de commande spécifique de Busybox ([[!bug "
+"1372]])"
 
 #. type: Bullet: '* '
 msgid "no more memconf usage on Solaris"
@@ -272,8 +309,8 @@ msgid ""
 "fix for regression introduced during code refactoring regarding printers "
 "identification"
 msgstr ""
-"Correction de la régression introduite dans la reconstruction du code concernant "
-"l'identification des imprimantes"
+"Correction de la régression introduite dans la reconstruction du code "
+"concernant l'identification des imprimantes"
 
 #. type: Title ###
 #, no-wrap
@@ -290,17 +327,20 @@ msgstr "Vérification pour les alertes générées pendant l'analyse"
 
 #. type: Bullet: '* '
 msgid "check entries generated from parsing match expected inventory format"
-msgstr "Vérification des entrées générées depuis les résultats d'analyse prévus dans le format d'inventaire"
+msgstr ""
+"Vérification des entrées générées depuis les résultats d'analyse prévus dans "
+"le format d'inventaire"
 
 #. type: Bullet: '* '
 msgid "normalize list before comparaison, for perl 5.18 hash randomisation"
-msgstr "Mise en forme de la liste avant comparaison, pour Perl 5.18 hachage aléatoire"
+msgstr ""
+"Mise en forme de la liste avant comparaison, pour Perl 5.18 hachage aléatoire"
 
 #. type: Plain text
 msgid ""
 "We did our best to provide a solid release, please [[contact us|/resources]] "
 "is you believe you find something unexpected."
 msgstr ""
-"Nous avons fait notre possible pour fournir une version fiable, SVP [[contactez nous|/resources]] "
-"si vous pensez avoir trouver quelque chose d'inattendue."
-
+"Nous avons fait notre possible pour fournir une version fiable, SVP "
+"[[contactez nous|/resources]] si vous pensez avoir trouver quelque chose "
+"d'inattendue."
