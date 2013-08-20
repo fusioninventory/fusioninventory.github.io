@@ -1,4 +1,4 @@
-# FusionInventory Agent Installer for Microsoft Windows -- Visual Mode
+# FusionInventory Agent Installer for Microsoft Windows -- Interactive Installation
 
 
 
@@ -86,11 +86,11 @@
 
 
 
-## Execution Mode as a Windows Service Screen
+### As a Windows Service Screens
 
 
 
-### HTTP Server Options Screen
+#### HTTP Server Options Screen
 
 
 
@@ -98,11 +98,11 @@
 
 
 
-## Execution Mode as a Windows Task Screen
+### As a Windows Task Screens
 
 
 
-### Windows Task Options Screen
+#### Windows Task Options Screen
 
 
 
@@ -151,10 +151,6 @@
 
 
 ## Completing Screen
-
-
-
-![][completing]
 
 
 
