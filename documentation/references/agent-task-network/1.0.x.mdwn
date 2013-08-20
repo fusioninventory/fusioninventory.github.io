@@ -1,0 +1,1 @@
+[[!map pages="documentation/references/agent-task-network/1.0.x/* and ! documentation/references/agent-task-network/1.0.x/*/*"]]
