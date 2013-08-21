@@ -33,7 +33,7 @@ msgstr ""
 #. type: Title ##
 #, no-wrap
 msgid "Get the Installer"
-msgstr ""
+msgstr "Pobierz instalator"
 
 #. type: Plain text
 msgid ""
@@ -43,7 +43,10 @@ msgid ""
 "fusioninventory-agent-windows-installer/files\"). The file name of the "
 "installer follows this pattern:"
 msgstr ""
-
+"Możesz pobrać ostatnią wersję Agenta Fusioninventory dla Microsoft Windows "
+"[here](http://forge.fusioninventory.org/projects/fusioninventory-agent-"
+"windows-installer/files \"http://forge.fusioninventory.org/projects/"
+"fusioninventory-agent-windows-installer/files\"). Wzorzec nazwy pliku instalatora wygląda następująco:"
 #. type: Plain text
 #, no-wrap
 msgid ""
@@ -54,6 +57,12 @@ msgid ""
 "                                 'x86' | 'x64'   |\n"
 "                                                 v\n"
 msgstr ""
+"    fusioninventory-agent_windows-<platforma>_<Wersja>.exe\n"
+"                                       |         |\n"
+"                                       v         |\n"
+"                                                 |\n"
+"                                 'x86' | 'x64'   |\n"
+"                                                 v\n"
 
 #. type: Plain text
 #, no-wrap
@@ -92,7 +101,7 @@ msgstr ""
 #. type: Title ##
 #, no-wrap
 msgid "The Installer Manual"
-msgstr ""
+msgstr "Podręcznik instalacji"
 
 #. type: Plain text
 msgid ""
