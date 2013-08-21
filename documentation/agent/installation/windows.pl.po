@@ -33,7 +33,7 @@ msgstr ""
 #. type: Title ##
 #, no-wrap
 msgid "Get the Installer"
-msgstr "Pobierz instalator"
+msgstr "Pobierz plik instalatora"
 
 #. type: Plain text
 msgid ""
@@ -46,7 +46,7 @@ msgstr ""
 "Możesz pobrać ostatnią wersję Agenta Fusioninventory dla Microsoft Windows "
 "[here](http://forge.fusioninventory.org/projects/fusioninventory-agent-"
 "windows-installer/files \"http://forge.fusioninventory.org/projects/"
-"fusioninventory-agent-windows-installer/files\"). Wzorzec nazwy pliku instalatora wygląda następująco:"
+"fusioninventory-agent-windows-installer/files\"). Wzorzec nazwy pliku instalatora" "wygląda następująco:"
 #. type: Plain text
 #, no-wrap
 msgid ""
