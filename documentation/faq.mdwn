@@ -136,3 +136,8 @@ find important tools like `dmidecode`, `lspci`, etc ( [[!bug 1747]] ).
 Just define the PATH in the crontab:
 
     PATH=/usr/local/sbin:/usr/local/bin:/sbin:/bin:/usr/sbin:/usr/bin
+
+## My agent has now a strange token “12345678”
+
+Since the agent 2.3.0, the token is not used to authentificate the agent. Use the `httpd-trust` [[configuration key|documentation/agent/configuration]] instead. For example `httpd-trust=myserver`
+or `httpd-trust=10.0.0.0/8`.
