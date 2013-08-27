@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2013-08-09 22:49+0000\n"
+"POT-Creation-Date: 2013-08-27 12:05+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <contact@antoninbollin.fr>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -388,4 +388,17 @@ msgstr ""
 #. type: Plain text
 #, no-wrap
 msgid "    PATH=/usr/local/sbin:/usr/local/bin:/sbin:/bin:/usr/sbin:/usr/bin\n"
+msgstr ""
+
+#. type: Title ##
+#, no-wrap
+msgid "My agent has now a strange token “12345678”"
+msgstr ""
+
+#. type: Plain text
+msgid ""
+"Since the agent 2.3.0, the token is not used to authentificate the agent. "
+"Use the `httpd-trust` [[configuration key|documentation/agent/"
+"configuration]] instead. For example `httpd-trust=myserver` or `httpd-"
+"trust=10.0.0.0/8`."
 msgstr ""
