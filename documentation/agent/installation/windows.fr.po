@@ -19,7 +19,7 @@ msgstr ""
 #. type: Title #
 #, no-wrap
 msgid "Microsoft Windows Installation"
-msgstr ""
+msgstr "Installation pour Microsoft Windows"
 
 #. type: Plain text
 msgid ""
@@ -29,11 +29,16 @@ msgid ""
 "FusionInventory Agent 2.2.x (and previous) and its installer, you find it "
 "[[here|documentation/agent/installation/windows_before_2.3.0]].\"]]"
 msgstr ""
+"[[!template id=warning text=\"Le nouvel Agent FusionInventory 2.3.x est livré "
+"avec un nouveau installeur Microsoft Windows. La documentation ci-dessous est faite "
+"pour cette nouvelle version. Si vous recherchez la documentation pour l'Agent FusionInventory "
+"2.2.x (et antérieur) et son installation, vous trouverez cela [[ici|documentation/agent/"
+"installation/windows_before_2.3.0]].\"]]"
 
 #. type: Title ##
 #, no-wrap
 msgid "Get the Installer"
-msgstr ""
+msgstr "Trouvez l'Installeur"
 
 #. type: Plain text
 msgid ""
@@ -43,6 +48,11 @@ msgid ""
 "fusioninventory-agent-windows-installer/files\"). The file name of the "
 "installer follows this pattern:"
 msgstr ""
+"Vous pouvez avoir le dernier Installeur de l'Agent FusionInventory pour Microsoft Windows "
+"[ici](http://forge.fusioninventory.org/projects/fusioninventory-agent-"
+"windows-installer/files \"http://forge.fusioninventory.org/projects/"
+"fusioninventory-agent-windows-installer/files\"). Le nom du fichier de l'Installeur "
+"suit cette notation :"
 
 #. type: Plain text
 #, no-wrap
@@ -54,17 +64,25 @@ msgid ""
 "                                 'x86' | 'x64'   |\n"
 "                                                 v\n"
 msgstr ""
+"    fusioninventory-agent_windows-<platform>_<version>.exe\n"
+"                                       |         |\n"
+"                                       v         |\n"
+"                                                 |\n"
+"                                 'x86' | 'x64'   |\n"
+"                                                 v\n"
 
 #. type: Plain text
 #, no-wrap
 msgid "                     <mayor>.<minor>.<release>[-<package>]\n"
-msgstr ""
+msgstr "                     <mayor>.<minor>.<release>[-<package>]\n"
 
 #. type: Plain text
 msgid ""
 "Some notes about the new FusionInventory Agent installer for Microsoft "
 "Windows."
 msgstr ""
+"Quelques notes à propos du nouvel Installeur de l'Agent FusionInventory pour "
+"Microsoft Windows :"
 
 #. type: Bullet: '* '
 msgid ""
@@ -72,6 +90,9 @@ msgid ""
 "reduced, version of [Strawberry Perl](http://strawberryperl.com/ \"http://"
 "strawberryperl.com/\") 5.16.3.1."
 msgstr ""
+"L'installeur pour chaque *\\<platform>*, intègre nativement, en mode réduit, la version "
+"[Strawberry Perl](http://strawberryperl.com/ \"http://"
+"strawberryperl.com/\") 5.16.3.1."
 
 #. type: Bullet: '* '
 msgid ""
