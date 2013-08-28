@@ -24,7 +24,7 @@ msgstr "[[!meta  date=\"2013-08-14\"]]\n"
 #. type: Plain text
 #, no-wrap
 msgid "[[!meta title=\"FusionInventory for GLPI 0.84+1.0 released\"]]\n"
-msgstr ""[[!meta title=\"FusionInventory for GLPI 0.84+1.0 released\"]]\n"
+msgstr "[[!meta title=\"FusionInventory for GLPI 0.84+1.0 released\"]]\n"
 
 #. type: Plain text
 msgid ""
@@ -132,12 +132,15 @@ msgstr "Corrections de Bug :"
 #. type: Plain text
 msgid "This release also come with the usual fixes and improvements."
 msgstr ""
+"Cette version sort avec les dernières corrections de bug et améliorations."
 
 #. type: Plain text
 msgid ""
 "[See the changelog for further information.](http://forge.fusioninventory."
 "org/versions/68)"
 msgstr ""
+"[Reportez vous à la liste des modifications pour plus d'information.](http://forge.fusioninventory."
+"org/versions/68)"
 
 #. type: Title ##
 #, no-wrap
@@ -149,27 +152,34 @@ msgid ""
 "The archive is available in the [Download page of the forge](http://forge."
 "fusioninventory.org/projects/fusioninventory-for-glpi/files)"
 msgstr ""
+"L'archive est disponible sur [la page de téléchargement de la Forge](http://forge."
+"fusioninventory.org/projects/fusioninventory-for-glpi/files)"
 
 #. type: Plain text
 msgid "Bug hunting contest result:"
 msgstr ""
+"Résultat du concours de la 'Chasse aux Bug' :"
 
 #. type: Bullet: '1. '
 msgid "Tomás Abad (14 bugs)"
-msgstr ""
+msgstr "Tomás Abad (14 bugs)"
 
 #. type: Bullet: '2. '
 msgid "(ex aequo): Arnaud Meurou and Romain Ingrand (11 bugs)"
-msgstr ""
+msgstr "(ex æquo): Arnaud Meurou et Romain Ingrand (11 bugs)"
 
 #. type: Plain text
 msgid ""
 "So we will send a Rapsberry pi to Tomas ;) Thanks to all of you who reported "
 "bugs for the release!"
 msgstr ""
+"Donc nous enverrons un Rapsberry pi à Tomas ;) . Merci à tous ceux qui ont "
+"rapporté les bugs pour cette version !"
 
 #. type: Plain text
 msgid ""
 "We want to take the opportunity of this news to thanks Tomás Abad who "
 "dedicated a lot of his time to the FusionInventory project. You rocks!"
 msgstr ""
+"Nous profitons de cet article pour remercier Tomás Abad qui a pris "
+"beaucoup de son temps pour le projet FusionInventory. You rocks!"
