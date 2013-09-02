@@ -19,7 +19,7 @@ msgstr ""
 #. type: Plain text
 #, no-wrap
 msgid "**NAME**\n"
-msgstr ""
+msgstr "**NOM**"
 
 #. type: Plain text
 #, no-wrap
@@ -27,11 +27,13 @@ msgid ""
 "**fusioninventory-agent\\_windows-x64\\_2.3.0-1.exe** – FusionInventory\n"
 "Agent 2.3.0-1 (x64 edition) Setup\n"
 msgstr ""
+"**fusioninventory-agent\\_windows-x64\\_2.3.0-1.exe** – Installeur \n"
+"FusionInventory Agent 2.3.0-1 (x64 edition)\n"
 
 #. type: Plain text
 #, no-wrap
 msgid "**SYNOPSIS**\n"
-msgstr ""
+msgstr "**SYNOPSIS**\n"
 
 #. type: Plain text
 #, no-wrap
@@ -39,11 +41,13 @@ msgid ""
 "**fusioninventory-agent\\_windows-x64\\_2.3.0-1.exe** [*/Option*[\n"
 "*/Option*[ …]]]\n"
 msgstr ""
+"**fusioninventory-agent\\_windows-x64\\_2.3.0-1.exe** [*/Option*[\n"
+"*/Option*[ …]]]\n"
 
 #. type: Plain text
 #, no-wrap
 msgid "**DESCRIPTION**\n"
-msgstr ""
+msgstr "**DESCRIPTION**\n"
 
 #. type: Plain text
 #, no-wrap
