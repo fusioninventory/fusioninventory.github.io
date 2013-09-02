@@ -124,15 +124,10 @@ msgstr ""
 "suffissante"
 
 #. type: Bullet: '* '
-#, fuzzy
-#| msgid "--httpd-trust option now allows multiple values"
 msgid "`--httpd-trust` option now allows multiple values"
 msgstr "Option --httpd-trust peut avoir plusieurs valeurs"
 
 #. type: Bullet: '* '
-#, fuzzy
-#| msgid ""
-#| "--daemon and --no-fork options are now available from command-line only"
 msgid ""
 "`--daemon and` `--no-fork` options are now available from command-line only"
 msgstr ""
