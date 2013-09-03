@@ -164,17 +164,19 @@ msgstr "[[!template id=info text=\"Il est recommandé de lire la documentation c
 #. type: Title ##
 #, no-wrap
 msgid "Installation with visual mode"
-msgstr ""
+msgstr "Installation en mode graphique"
 
 #. type: Plain text
 msgid "You can use the visual mode to install FusionInventory Agent 2.3.0."
-msgstr ""
+msgstr "Vous pouvez utiliser le mode graphique pour installer l'Agent FusionInventory 2.3.0"
 
 #. type: Plain text
 msgid ""
 "See [[this page|documentation/agent/installation/windows/windows-"
 "installer-2.3.x-visual-mode]] with screenshot."
 msgstr ""
+"Reportez vous à [[cette page|documentation/agent/installation/windows/windows-"
+"installer-2.3.x-visual-mode]] pour voir les capture d'écran"
 
 #. type: Title ##
 #, no-wrap
