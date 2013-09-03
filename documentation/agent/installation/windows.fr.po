@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2013-08-19 18:25+0000\n"
+"POT-Creation-Date: 2013-09-03 13:22+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -29,11 +29,12 @@ msgid ""
 "FusionInventory Agent 2.2.x (and previous) and its installer, you find it "
 "[[here|documentation/agent/installation/windows_before_2.3.0]].\"]]"
 msgstr ""
-"[[!template id=warning text=\"Le nouvel Agent FusionInventory 2.3.x est livré "
-"avec un nouveau installeur Microsoft Windows. La documentation ci-dessous est faite "
-"pour cette nouvelle version. Si vous recherchez la documentation pour l'Agent FusionInventory "
-"2.2.x (et antérieur) et son installation, vous trouverez cela [[ici|documentation/agent/"
-"installation/windows_before_2.3.0]].\"]]"
+"[[!template id=warning text=\"Le nouvel Agent FusionInventory 2.3.x est "
+"livré avec un nouveau installeur Microsoft Windows. La documentation ci-"
+"dessous est faite pour cette nouvelle version. Si vous recherchez la "
+"documentation pour l'Agent FusionInventory 2.2.x (et antérieur) et son "
+"installation, vous trouverez cela [[ici|documentation/agent/installation/"
+"windows_before_2.3.0]].\"]]"
 
 #. type: Title ##
 #, no-wrap
@@ -48,11 +49,11 @@ msgid ""
 "fusioninventory-agent-windows-installer/files\"). The file name of the "
 "installer follows this pattern:"
 msgstr ""
-"Vous pouvez avoir le dernier Installeur de l'Agent FusionInventory pour Microsoft Windows "
-"[ici](http://forge.fusioninventory.org/projects/fusioninventory-agent-"
-"windows-installer/files \"http://forge.fusioninventory.org/projects/"
-"fusioninventory-agent-windows-installer/files\"). Le nom du fichier de l'Installeur "
-"suit cette notation :"
+"Vous pouvez avoir le dernier Installeur de l'Agent FusionInventory pour "
+"Microsoft Windows [ici](http://forge.fusioninventory.org/projects/"
+"fusioninventory-agent-windows-installer/files \"http://forge.fusioninventory."
+"org/projects/fusioninventory-agent-windows-installer/files\"). Le nom du "
+"fichier de l'Installeur suit cette notation :"
 
 #. type: Plain text
 #, no-wrap
@@ -90,9 +91,9 @@ msgid ""
 "reduced, version of [Strawberry Perl](http://strawberryperl.com/ \"http://"
 "strawberryperl.com/\") 5.16.3.1."
 msgstr ""
-"L'installeur pour chaque *\\<platform>*(plate-forme), intègre nativement, en mode réduit, la version "
-"[Strawberry Perl](http://strawberryperl.com/ \"http://"
-"strawberryperl.com/\") 5.16.3.1."
+"L'installeur pour chaque *\\<platform>*(plate-forme), intègre nativement, en "
+"mode réduit, la version [Strawberry Perl](http://strawberryperl.com/ "
+"\"http://strawberryperl.com/\") 5.16.3.1."
 
 #. type: Bullet: '* '
 msgid ""
@@ -101,9 +102,11 @@ msgid ""
 "\\<release>*. A new *\\<package>* may contain improvements regarding the "
 "installer itself, the agent (patches) or both."
 msgstr ""
-"Les valeurs correspondant à *\\<version>*(numéro de version), option et indication du numéro de *\\<package>*(paquet) "
-"en fonction de valeur *\\<manor>*(majeur).*\\<minor>*(mineur).*\\<release>* définissant la version de l'Agent FusionInventory."
-" Un nouveau *\\<package>* peut contenir des modifications de l'installeur lui-même, l'Agent (correctifs) ou les deux."
+"Les valeurs correspondant à *\\<version>*(numéro de version), option et "
+"indication du numéro de *\\<package>*(paquet) en fonction de valeur *"
+"\\<manor>*(majeur).*\\<minor>*(mineur).*\\<release>* définissant la version "
+"de l'Agent FusionInventory. Un nouveau *\\<package>* peut contenir des "
+"modifications de l'installeur lui-même, l'Agent (correctifs) ou les deux."
 
 #. type: Bullet: '* '
 msgid ""
@@ -112,8 +115,8 @@ msgid ""
 "*fusioninventory-agent_windows_x64_2.3.x.exe* on a 64-bit Microsoft Windows "
 "system."
 msgstr ""
-"Il est possible d'installer *fusioninventory-agent_windows_x86_2.3.x.exe* sur un "
-"système Windows 32-bit ou 64-bit mais on ne peut installer la version "
+"Il est possible d'installer *fusioninventory-agent_windows_x86_2.3.x.exe* "
+"sur un système Windows 32-bit ou 64-bit mais on ne peut installer la version "
 "*fusioninventory-agent_windows_x64_2.3.x.exe* que sur un système 64-bit."
 
 #. type: Title ##
@@ -127,17 +130,17 @@ msgid ""
 "Windows [[here|documentation/agent/installation/windows/windows-"
 "installer-2.3.x-command-line]]."
 msgstr ""
-"Vous trouverez le manuel de l'installation de l'Agent FusionInventory pour Microsoft "
-"Windows [[sur cette page|documentation/agent/installation/windows/windows-"
-"installer-2.3.x-command-line]]."
+"Vous trouverez le manuel de l'installation de l'Agent FusionInventory pour "
+"Microsoft Windows [[sur cette page|documentation/agent/installation/windows/"
+"windows-installer-2.3.x-command-line]]."
 
 #. type: Plain text
 msgid ""
 "The manual is self-contained in the own installer. You can get it of one of "
 "the following ways:"
 msgstr ""
-"Le manuel est intégré dans l'installeur. Vous pouvez l'afficher selon les méthodes "
-"suivantes :"
+"Le manuel est intégré dans l'installeur. Vous pouvez l'afficher selon les "
+"méthodes suivantes :"
 
 #. type: Bullet: '*         '
 msgid "C:\\> fusioninventory-agent_windows-<platform>_<version>.exe /help"
@@ -156,9 +159,22 @@ msgstr ""
 #. type: Plain text
 #, no-wrap
 msgid "[[!template id=info text=\"It's recommended read this documentation completely each time a new version is released; the new FusionInventory Agent installer for Microsoft Windows is still young and it's in a constant process of improvement, including its manual.\"]]\n"
+msgstr "[[!template id=info text=\"Il est recommandé de lire la documentation complètement à chaque nouvelle version majeur ; Le nouvel installeur de l'Agent FusionInventory est récent et il est en constante évolution , inclu le manuel.\"]]\n"
+
+#. type: Title ##
+#, no-wrap
+msgid "Installation with visual mode"
 msgstr ""
-"[[!template id=info text=\"Il est recommandé de lire la documentation complètement à chaque nouvelle version majeur ; "
-"Le nouvel installeur de l'Agent FusionInventory est récent et il est en constante évolution , inclu le manuel.\"]]\n"
+
+#. type: Plain text
+msgid "You can use the visual mode to install FusionInventory Agent 2.3.0."
+msgstr ""
+
+#. type: Plain text
+msgid ""
+"See [[this page|documentation/agent/installation/windows/windows-"
+"installer-2.3.x-visual-mode]] with screenshot."
+msgstr ""
 
 #. type: Title ##
 #, no-wrap
@@ -171,17 +187,17 @@ msgid ""
 "mode* installation unless it's specified the ***/S*** option in the command "
 "line, in whose case it performs a *silent mode* installation."
 msgstr ""
-"L'installeur de l'Agent FusionInventory pour Microsoft Windows est prévu pour être "
-"lancer en mode graphique sauf si l'option ***/S*** est utilisée en ligne de commande "
-"permettant ainsi l'installation en mode silencieuse."
+"L'installeur de l'Agent FusionInventory pour Microsoft Windows est prévu "
+"pour être lancer en mode graphique sauf si l'option ***/S*** est utilisée en "
+"ligne de commande permettant ainsi l'installation en mode silencieuse."
 
 #. type: Plain text
 msgid ""
 "For more information about the use of the command line, please, see ***The "
 "Installer Manual*** section above."
 msgstr ""
-"Pour plus d'information sur l'utilisation de la ligne de commande, reportez vous "
-"au ***Manuel d'installation*** cité ci-dessus."
+"Pour plus d'information sur l'utilisation de la ligne de commande, reportez "
+"vous au ***Manuel d'installation*** cité ci-dessus."
 
 #. type: Title ##
 #, no-wrap
@@ -195,10 +211,10 @@ msgid ""
 "large_install]] but, at the moment, those instructions are invalid for the "
 "new FusionInventory Agent installer."
 msgstr ""
-"Une page explique la manière de [[déployer l'Agent FusionInventory 2.2.x (et antérieur) "
-"dans un domaine Windows|documentation/agent/installation/windows/"
-"large_install]] mais actuellement, cette procédure est incompatible avec le nouvel "
-"installeur de l'Agent FusionInventory."
+"Une page explique la manière de [[déployer l'Agent FusionInventory 2.2.x (et "
+"antérieur) dans un domaine Windows|documentation/agent/installation/windows/"
+"large_install]] mais actuellement, cette procédure est incompatible avec le "
+"nouvel installeur de l'Agent FusionInventory."
 
 #. type: Title ##
 #, no-wrap

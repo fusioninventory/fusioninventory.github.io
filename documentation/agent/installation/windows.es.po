@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2013-08-19 18:25+0000\n"
+"POT-Creation-Date: 2013-09-03 13:22+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -123,6 +123,21 @@ msgstr ""
 #. type: Plain text
 #, no-wrap
 msgid "[[!template id=info text=\"It's recommended read this documentation completely each time a new version is released; the new FusionInventory Agent installer for Microsoft Windows is still young and it's in a constant process of improvement, including its manual.\"]]\n"
+msgstr ""
+
+#. type: Title ##
+#, no-wrap
+msgid "Installation with visual mode"
+msgstr ""
+
+#. type: Plain text
+msgid "You can use the visual mode to install FusionInventory Agent 2.3.0."
+msgstr ""
+
+#. type: Plain text
+msgid ""
+"See [[this page|documentation/agent/installation/windows/windows-"
+"installer-2.3.x-visual-mode]] with screenshot."
 msgstr ""
 
 #. type: Title ##
