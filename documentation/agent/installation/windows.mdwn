@@ -65,7 +65,11 @@ The manual is self-contained in the own installer. You can get it of one of the 
 
 [[!template id=info text="It's recommended read this documentation completely each time a new version is released; the new FusionInventory Agent installer for Microsoft Windows is still young and it's in a constant process of improvement, including its manual."]]
 
+## Installation with visual mode
 
+You can use the visual mode to install FusionInventory Agent 2.3.0.
+
+See [[this page|documentation/agent/installation/windows/windows-installer-2.3.x-visual-mode]] with screenshot.
 
 ## Installation from Command Line and Silent Installation
 
