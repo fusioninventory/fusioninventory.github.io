@@ -1,0 +1,47 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2013-09-03 14:03+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. type: Plain text
+#, no-wrap
+msgid "[[!meta  date=\"2013-09-03\"]]\n"
+msgstr ""
+
+#. type: Plain text
+msgid ""
+"FusionInventory.org website is hosted by <http://www.Branchable.com>.  They "
+"offer [Iwikiwiki](http://ikiwiki.info/) hosting for a reasonable price and "
+"support FreeSoftware (Debian, git-annex, Ikiwiki, Obnam, etc)."
+msgstr ""
+
+#. type: Plain text
+msgid ""
+"2 years ago the [Cornell University](http://www.cornell.edu/) decided to pay "
+"the bill for 24 months. Again, we want to thank them!"
+msgstr ""
+
+#. type: Plain text
+msgid ""
+"Now the last dollar has been spent and we are looking for people interested "
+"to support us financially."
+msgstr ""
+
+#. type: Plain text
+msgid ""
+"The best would be at least $59.99, to get a one year support. Please "
+"[contact us if you are interested (_goneri@lebouder.net_)!"
+msgstr ""
