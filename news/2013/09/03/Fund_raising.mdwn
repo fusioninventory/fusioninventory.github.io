@@ -1,7 +1,7 @@
 [[!meta  date="2013-09-03"]]
 
 FusionInventory.org website is hosted by <http://www.Branchable.com>. 
-They offer [Iwikiwiki](http://ikiwiki.info/) hosting for a reasonable price
+They offer [Ikiwiki](http://ikiwiki.info/) hosting for a reasonable price
 and support FreeSoftware (Debian, git-annex, Ikiwiki, Obnam, etc).
 
 2 years ago the [Cornell University](http://www.cornell.edu/) decided to pay the
