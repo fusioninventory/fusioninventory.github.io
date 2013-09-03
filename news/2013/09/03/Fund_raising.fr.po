@@ -36,7 +36,7 @@ msgid ""
 "2 years ago the [Cornell University](http://www.cornell.edu/) decided to pay "
 "the bill for 24 months. Again, we want to thank them!"
 msgstr ""
-"Depuis 2 ans l'[université Cornell](http://www.cornell.edu/) nous a offert de payer "
+"Depuis 2 ans c'est l'[université Cornell](http://www.cornell.edu/) qui nous a offert de payer "
 "le coût de cet hébergement. Nous tenons à les remercier encore pour ça !"
 
 #. type: Plain text
@@ -44,8 +44,8 @@ msgid ""
 "Now the last dollar has been spent and we are looking for people interested "
 "in supporting us financially."
 msgstr ""
-"Aujourd'hui au terme de la somme allouée, nous recherchons des personnes intéressés "
-"à apporter leurs aide financière." 
+"Aujourd'hui au terme de la somme allouée, nous recherchons des personnes "
+"intéressés à apporter leurs aide financière."
 
 #. type: Plain text
 msgid ""
