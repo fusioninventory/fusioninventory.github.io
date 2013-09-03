@@ -19,7 +19,8 @@ msgstr ""
 #. type: Title #
 #, no-wrap
 msgid "FusionInventory Agent Installer for Microsoft Windows -- Interactive Installation"
-msgstr "Installeur de l'Agent FusionInventory pour Microsoft Windows -- Installation Interactive"
+msgstr "Installeur de l'Agent FusionInventory pour Microsoft Windows\n "
+"Installation Interactive\n"
 
 #. type: Title ##
 #, no-wrap
