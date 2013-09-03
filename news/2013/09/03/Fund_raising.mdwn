@@ -7,7 +7,7 @@ and support FreeSoftware (Debian, git-annex, Ikiwiki, Obnam, etc).
 2 years ago the [Cornell University](http://www.cornell.edu/) decided to pay the
 bill for 24 months. Again, we want to thank them!
 
-Now the last dollar has been spent and we are looking for people interested to support us
+Now the last dollar has been spent and we are looking for people interested in supporting us
 financially.
 
 The best would be at least $59.99, to get a one year support. Please [contact us if
