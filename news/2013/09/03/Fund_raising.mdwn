@@ -1,5 +1,5 @@
 [[!meta  date="2013-09-03"]]
-
+[[!meta title="Fund Raising"]]
 FusionInventory.org website is hosted by <http://www.Branchable.com>. 
 They offer [Iwikiwiki](http://ikiwiki.info/) hosting for a reasonable price
 and support FreeSoftware (Debian, git-annex, Ikiwiki, Obnam, etc).
