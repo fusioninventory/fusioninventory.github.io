@@ -24,7 +24,7 @@ msgstr "[[!meta  date=\"2013-09-03\"]]\n"
 #. type: Plain text
 #, no-wrap
 msgid "[[!meta title=\"Fund Raising\"]]\n"
-msgstr ""
+msgstr "[[!meta title=\"Faire un don\"]]\n"
 
 #. type: Plain text
 msgid ""
