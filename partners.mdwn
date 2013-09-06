@@ -44,7 +44,7 @@ This list is open and if you believe your company deservice to be added, please
   location="Paris – France"
   code="Agent"
   qa="bug reports"
-  promote="Conferences"
+  promote="Conferences and website hosting"
   web="http://normation.com"
   email="jonathan.clarke@normation.com"
 ]]
