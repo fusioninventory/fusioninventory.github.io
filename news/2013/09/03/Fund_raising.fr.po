@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2013-09-03 14:09+0000\n"
+"POT-Creation-Date: 2013-09-04 19:44+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -19,7 +19,12 @@ msgstr ""
 #. type: Plain text
 #, no-wrap
 msgid "[[!meta  date=\"2013-09-03\"]]\n"
-msgstr ""
+msgstr "[[!meta  date=\"2013-09-03\"]]\n"
+
+#. type: Plain text
+#, no-wrap
+msgid "[[!meta title=\"Fund Raising\"]]\n"
+msgstr "[[!meta title=\"Faire un don\"]]\n"
 
 #. type: Plain text
 msgid ""
@@ -27,21 +32,32 @@ msgid ""
 "offer [Iwikiwiki](http://ikiwiki.info/) hosting for a reasonable price and "
 "support FreeSoftware (Debian, git-annex, Ikiwiki, Obnam, etc)."
 msgstr ""
+"Le site web **fusioninventory.org** est hébergé via <http://www.Branchable."
+"com>. Ils nous offrent le support de [Iwikiwiki](http://ikiwiki.info/) pour "
+"un prix modeste et supportent les logiciels libre (Debian, git-annex, "
+"Ikiwiki, Obnam, etc)."
 
 #. type: Plain text
 msgid ""
 "2 years ago the [Cornell University](http://www.cornell.edu/) decided to pay "
 "the bill for 24 months. Again, we want to thank them!"
 msgstr ""
+"Depuis 2 ans c'est l'[université Cornell](http://www.cornell.edu/) qui nous "
+"a offert de payer le coût de cet hébergement. Nous tenons à les remercier "
+"encore pour ça !"
 
 #. type: Plain text
 msgid ""
 "Now the last dollar has been spent and we are looking for people interested "
 "in supporting us financially."
 msgstr ""
+"Aujourd'hui au terme de la somme allouée, nous recherchons des personnes "
+"intéressés à apporter leurs aide financière."
 
 #. type: Plain text
 msgid ""
 "The best would be at least $59.99, to get a one year support. Please "
-"[contact us if you are interested (_goneri@lebouder.net_)!"
+"[contact us if you are interested](mailto:goneri@lebouder.net)!"
 msgstr ""
+"Pour une année de support, le coût serait au moins de $59.99. Si vous êtes "
+"intéressés [merci de nous contacter](mailto:goneri@lebouder.net)!"

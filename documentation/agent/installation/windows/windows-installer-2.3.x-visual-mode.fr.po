@@ -19,12 +19,12 @@ msgstr ""
 #. type: Title #
 #, no-wrap
 msgid "FusionInventory Agent Installer for Microsoft Windows -- Interactive Installation"
-msgstr ""
+msgstr "Installeur de l'Agent FusionInventory pour MS Windows -- Installation Interactive"
 
 #. type: Title ##
 #, no-wrap
 msgid "Installer Language Screen"
-msgstr ""
+msgstr "Écran sélection de la langue"
 
 #. type: Plain text
 #, no-wrap
@@ -34,7 +34,7 @@ msgstr ""
 #. type: Title ##
 #, no-wrap
 msgid "Welcome Screen"
-msgstr ""
+msgstr "Écran de bienvenue"
 
 #. type: Plain text
 #, no-wrap
@@ -44,7 +44,7 @@ msgstr ""
 #. type: Title ##
 #, no-wrap
 msgid "License Agreement Screen"
-msgstr ""
+msgstr "Écran de validation de la Licence"
 
 #. type: Plain text
 #, no-wrap
@@ -54,7 +54,7 @@ msgstr ""
 #. type: Title ##
 #, no-wrap
 msgid "Installation Type Screen"
-msgstr ""
+msgstr "Écran de sélection du type d'Installation"
 
 #. type: Plain text
 #, no-wrap
@@ -64,7 +64,7 @@ msgstr ""
 #. type: Title ##
 #, no-wrap
 msgid "Components Screen"
-msgstr ""
+msgstr "Écran de sélection des composants à installer"
 
 #. type: Plain text
 #, no-wrap
@@ -74,7 +74,7 @@ msgstr ""
 #. type: Title ##
 #, no-wrap
 msgid "Install Location Screen"
-msgstr ""
+msgstr "Écran du choix du dossier d'installation"
 
 #. type: Plain text
 #, no-wrap
@@ -84,7 +84,7 @@ msgstr ""
 #. type: Title ##
 #, no-wrap
 msgid "Targets Screen"
-msgstr ""
+msgstr "Écran de localisation de l'inventaire, local ou distant"
 
 #. type: Plain text
 #, no-wrap
@@ -94,12 +94,12 @@ msgstr ""
 #. type: Title ##
 #, no-wrap
 msgid "Remote Target Option Screens"
-msgstr ""
+msgstr "Écrans de sélection des options pour envoyer l'inventaire au serveur distant"
 
 #. type: Title ###
 #, no-wrap
 msgid "Remote Target Options Screen (1/2)"
-msgstr ""
+msgstr "Écran des options SSL du serveur (1/2)"
 
 #. type: Plain text
 #, no-wrap
@@ -109,7 +109,7 @@ msgstr ""
 #. type: Title ###
 #, no-wrap
 msgid "Remote Target Options Screen (2/2)"
-msgstr ""
+msgstr "Écran des options pour utiliser un proxy (2/2)"
 
 #. type: Plain text
 #, no-wrap
@@ -119,7 +119,7 @@ msgstr ""
 #. type: Title ##
 #, no-wrap
 msgid "Execution Mode Screen"
-msgstr ""
+msgstr "Écran pour choisir le mode d'exécution de l'agent"
 
 #. type: Plain text
 #, no-wrap
@@ -129,12 +129,12 @@ msgstr ""
 #. type: Title ###
 #, no-wrap
 msgid "As a Windows Service Screens"
-msgstr ""
+msgstr "Écran d'option pour le mode Service"
 
 #. type: Title ####
 #, no-wrap
 msgid "HTTP Server Options Screen"
-msgstr ""
+msgstr "Écran pour les options du serveur HTTP"
 
 #. type: Plain text
 #, no-wrap
@@ -144,12 +144,12 @@ msgstr ""
 #. type: Title ###
 #, no-wrap
 msgid "As a Windows Task Screens"
-msgstr ""
+msgstr "Écran d'option pour le mode gestionnaire de tâche"
 
 #. type: Title ####
 #, no-wrap
 msgid "Windows Task Options Screen"
-msgstr ""
+msgstr "Écran lancement Tâche Windows"
 
 #. type: Plain text
 #, no-wrap
@@ -159,7 +159,7 @@ msgstr ""
 #. type: Title ##
 #, no-wrap
 msgid "Miscelaneous Options Screen"
-msgstr ""
+msgstr "Écran pour les options complémentaires"
 
 #. type: Plain text
 #, no-wrap
@@ -169,7 +169,7 @@ msgstr ""
 #. type: Title ##
 #, no-wrap
 msgid "Advanced Options Screen"
-msgstr ""
+msgstr "Écran pour les options avancées"
 
 #. type: Plain text
 #, no-wrap
@@ -179,7 +179,7 @@ msgstr ""
 #. type: Title ##
 #, no-wrap
 msgid "Debug Options Screen"
-msgstr ""
+msgstr "Écran des options de Debug"
 
 #. type: Plain text
 #, no-wrap
@@ -189,7 +189,7 @@ msgstr ""
 #. type: Title ##
 #, no-wrap
 msgid "Installing Screen"
-msgstr ""
+msgstr "Écran d'installation en cours"
 
 #. type: Plain text
 #, no-wrap
@@ -199,7 +199,7 @@ msgstr ""
 #. type: Title ##
 #, no-wrap
 msgid "Installation Complete Screen"
-msgstr ""
+msgstr "Écran Installation complète"
 
 #. type: Plain text
 #, no-wrap
@@ -209,7 +209,7 @@ msgstr ""
 #. type: Title ##
 #, no-wrap
 msgid "Completing Screen"
-msgstr ""
+msgstr "Écran de fin"
 
 #. type: Plain text
 #, no-wrap
