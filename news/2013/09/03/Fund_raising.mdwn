@@ -17,13 +17,14 @@ you are interested](mailto:goneri@lebouder.net)!
 
 The people from [Normation](http://www.normation.com/) paid the hosting till 2017 !!!
 
+[[!img partners/normation.png]]
+
 [Normation](http://www.normation.com/) is the software company behind the open source project
-[Rudder](http://www.normation.com/solutions/rudder>), a turn-key solution that helps
+_[Rudder](http://www.normation.com/solutions/rudder>)_, a turn-key solution that helps
 enterprises gain control over their IT infrastructure through automation and
 continuous configuration assessment. Normation also acts as a solution
 provider, making available the team’s leading expertise in open source
-technology and *infrastructure orchestration* as a range of services
+technology and _infrastructure orchestration_ as a range of services
 including consulting, training and professional support.
 
 Thank you guys!
-
