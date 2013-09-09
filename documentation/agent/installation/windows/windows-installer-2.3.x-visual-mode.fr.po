@@ -29,7 +29,7 @@ msgstr "Écran sélection de la langue"
 #. type: Plain text
 #, no-wrap
 msgid "[[!img documentation/agent/installation/windows/windows-installer-2.3.x-screen-001-installer-language.png alt=\"Installer Language\"]]\n"
-msgstr ""
+msgstr "[[!img documentation/agent/installation/windows/windows-installer-2.3.x-screen-001-selection-langue.png alt=\"Installer Language\"]]\n"
 
 #. type: Title ##
 #, no-wrap
@@ -39,7 +39,7 @@ msgstr "Écran de bienvenue"
 #. type: Plain text
 #, no-wrap
 msgid "[[!img  documentation/agent/installation/windows/windows-installer-2.3.x-screen-002-welcome.png alt=\"Welcome\"]]\n"
-msgstr ""
+msgstr "[[!img  documentation/agent/installation/windows/windows-installer-2.3.x-screen-002-bienvenue.png alt=\"Welcome\"]]\n"
 
 #. type: Title ##
 #, no-wrap
@@ -49,7 +49,7 @@ msgstr "Écran de validation de la Licence"
 #. type: Plain text
 #, no-wrap
 msgid "[[!img documentation/agent/installation/windows/windows-installer-2.3.x-screen-003-license-agreement.png alt=\"License Agreement\"]]\n"
-msgstr ""
+msgstr "[[!img documentation/agent/installation/windows/windows-installer-2.3.x-screen-003-accord-licence.png alt=\"License Agreement\"]]\n"
 
 #. type: Title ##
 #, no-wrap
@@ -59,7 +59,7 @@ msgstr "Écran de sélection du type d'Installation"
 #. type: Plain text
 #, no-wrap
 msgid "[[!img documentation/agent/installation/windows/windows-installer-2.3.x-screen-004-installation-mode.png alt=\"Installation Type\"]]\n"
-msgstr ""
+msgstr "[[!img documentation/agent/installation/windows/windows-installer-2.3.x-screen-004-mode-install.png alt=\"Installation Type\"]]\n"
 
 #. type: Title ##
 #, no-wrap
@@ -69,7 +69,7 @@ msgstr "Écran de sélection des composants à installer"
 #. type: Plain text
 #, no-wrap
 msgid "[[!img documentation/agent/installation/windows/windows-installer-2.3.x-screen-005-choose-components.png alt=\"Components\"]]\n"
-msgstr ""
+msgstr "[[!img documentation/agent/installation/windows/windows-installer-2.3.x-screen-005-choix-composant.png alt=\"Components\"]]\n"
 
 #. type: Title ##
 #, no-wrap
@@ -79,7 +79,7 @@ msgstr "Écran du choix du dossier d'installation"
 #. type: Plain text
 #, no-wrap
 msgid "[[!img documentation/agent/installation/windows/windows-installer-2.3.x-screen-006-install-location.png alt=\"Install Location\"]]\n"
-msgstr ""
+msgstr "[[!img documentation/agent/installation/windows/windows-installer-2.3.x-screen-006-dossier-install.png alt=\"Install Location\"]]\n"
 
 #. type: Title ##
 #, no-wrap
@@ -89,7 +89,7 @@ msgstr "Écran de localisation de l'inventaire, local ou distant"
 #. type: Plain text
 #, no-wrap
 msgid "[[!img documentation/agent/installation/windows/windows-installer-2.3.x-screen-007-choose-targets.png alt=\"Targets\"]]\n"
-msgstr ""
+msgstr "[[!img documentation/agent/installation/windows/windows-installer-2.3.x-screen-007-choix-serveur.png alt=\"Targets\"]]\n"
 
 #. type: Title ##
 #, no-wrap
@@ -204,7 +204,7 @@ msgstr "Écran Installation complète"
 #. type: Plain text
 #, no-wrap
 msgid "[[!img documentation/agent/installation/windows/windows-installer-2.3.x-screen-017-installation-complete.png alt=\"Installation Complete\"]]\n"
-msgstr ""
+msgstr "[[!img documentation/agent/installation/windows/windows-installer-2.3.x-screen-017-install-finie.png alt=\"Installation Complete\"]]\n"
 
 #. type: Title ##
 #, no-wrap
@@ -214,4 +214,4 @@ msgstr "Écran de fin"
 #. type: Plain text
 #, no-wrap
 msgid "[[!img documentation/agent/installation/windows/windows-installer-2.3.x-screen-018-completing.png alt=\"Completing\"]]\n"
-msgstr ""
+msgstr "[[!img documentation/agent/installation/windows/windows-installer-2.3.x-screen-018-fin.png alt=\"Completing\"]]\n"

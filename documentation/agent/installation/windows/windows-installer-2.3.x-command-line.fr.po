@@ -22,28 +22,22 @@ msgid "**NAME**\n"
 msgstr "**NOM**\n"
 
 #. type: Plain text
-#, fuzzy, no-wrap
-#| msgid ""
-#| "**fusioninventory-agent\\_windows-x64\\_2.3.0-1.exe** – FusionInventory\n"
-#| "Agent 2.3.0-1 (x64 edition) Setup\n"
+#, no-wrap
 msgid ""
 "**fusioninventory-agent\\_windows-x86\\_2.3.x.exe** – FusionInventory\n"
 "Agent 2.3.x (x86 edition) Setup\n"
 msgstr ""
-"**fusioninventory-agent\\_windows-x64\\_2.3.0-1.exe** – Installeur \n"
-"FusionInventory Agent 2.3.0-1 (x64 edition)\n"
+"**fusioninventory-agent\\_windows-x86\\_2.3.x.exe** – Installeur \n"
+"FusionInventory Agent 2.3.0-1 (x86 édition)\n"
 
 #. type: Plain text
-#, fuzzy, no-wrap
-#| msgid ""
-#| "**fusioninventory-agent\\_windows-x64\\_2.3.0-1.exe** – FusionInventory\n"
-#| "Agent 2.3.0-1 (x64 edition) Setup\n"
+#, no-wrap
 msgid ""
 "**fusioninventory-agent\\_windows-x64\\_2.3.x.exe** – FusionInventory\n"
 "Agent 2.3.x (x64 edition) Setup\n"
 msgstr ""
-"**fusioninventory-agent\\_windows-x64\\_2.3.0-1.exe** – Installeur \n"
-"FusionInventory Agent 2.3.0-1 (x64 edition)\n"
+"**fusioninventory-agent\\_windows-x64\\_2.3.x.exe** – Installeur \n"
+"FusionInventory Agent 2.3.0-1 (x64 édition)\n"
 
 #. type: Plain text
 #, no-wrap
@@ -51,15 +45,12 @@ msgid "**SYNOPSIS**\n"
 msgstr "**SYNOPSIS**\n"
 
 #. type: Plain text
-#, fuzzy, no-wrap
-#| msgid ""
-#| "**fusioninventory-agent\\_windows-x64\\_2.3.0-1.exe** [*/Option*[\n"
-#| "*/Option*[ …]]]\n"
+#, no-wrap
 msgid ""
 "**fusioninventory-agent\\_windows-xXX\\_2.3.x.exe** [*/Option*[\n"
 "*/Option*[ …]]]\n"
 msgstr ""
-"**fusioninventory-agent\\_windows-x64\\_2.3.0-1.exe** [*/Option*[\n"
+"**fusioninventory-agent\\_windows-xXX\\_2.3.x.exe** [*/Option*[\n"
 "*/Option*[ …]]]\n"
 
 #. type: Plain text
@@ -68,17 +59,15 @@ msgid "**DESCRIPTION**\n"
 msgstr "**DESCRIPTION**\n"
 
 #. type: Plain text
-#, fuzzy, no-wrap
-#| msgid ""
-#| "**fusioninventory-agent\\_windows-x64\\_2.3.0-1.exe** – FusionInventory\n"
-#| "Agent 2.3.0-1 (x64 edition) Setup\n"
+#, no-wrap
 msgid ""
 "**fusioninventory-agent\\_windows-xXX\\_2.3.x.exe** installs\n"
 "FusionInventory Agent 2.3.x in your Microsoft Windows operative\n"
 "system with the **xXX** means x86 or x64\n"
 msgstr ""
-"**fusioninventory-agent\\_windows-x64\\_2.3.0-1.exe** – Installeur \n"
-"FusionInventory Agent 2.3.0-1 (x64 edition)\n"
+"**fusioninventory-agent\\_windows-xXX\\_2.3.x.exe** installe \n"
+"l' Agent FusionInventory 2.3.x sur votre système Microsoft Windows\n"
+"avec le **xXX** correspondant à x86 ou x64\n"
 
 #. type: Plain text
 #, no-wrap
