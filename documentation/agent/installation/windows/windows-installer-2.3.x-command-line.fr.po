@@ -19,7 +19,7 @@ msgstr ""
 #. type: Plain text
 #, no-wrap
 msgid "**NAME**\n"
-msgstr "**NOM**"
+msgstr "**NOM**\n"
 
 #. type: Plain text
 #, no-wrap
@@ -56,6 +56,7 @@ msgid ""
 "FusionInventory Agent 2.3.0-1 in your Microsoft Windows operative\n"
 "system.\n"
 msgstr ""
+""
 
 #. type: Plain text
 #, no-wrap

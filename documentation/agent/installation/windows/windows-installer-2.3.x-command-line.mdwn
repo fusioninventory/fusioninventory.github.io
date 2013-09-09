@@ -1,26 +1,29 @@
 **NAME**
 
-**fusioninventory-agent\_windows-x64\_2.3.0-1.exe** – FusionInventory
-Agent 2.3.0-1 (x64 edition) Setup
+**fusioninventory-agent\_windows-x86\_2.3.x.exe** – FusionInventory
+Agent 2.3.x (x86 edition) Setup
+
+**fusioninventory-agent\_windows-x64\_2.3.x.exe** – FusionInventory
+Agent 2.3.x (x64 edition) Setup
 
 
 
 **SYNOPSIS**
 
-**fusioninventory-agent\_windows-x64\_2.3.0-1.exe** [*/Option*[
+**fusioninventory-agent\_windows-xXX\_2.3.x.exe** [*/Option*[
 */Option*[ …]]]
 
 
 
 **DESCRIPTION**
 
-**fusioninventory-agent\_windows-x64\_2.3.0-1.exe** installs
-FusionInventory Agent 2.3.0-1 in your Microsoft Windows operative
-system.
+**fusioninventory-agent\_windows-xXX\_2.3.x.exe** installs
+FusionInventory Agent 2.3.x in your Microsoft Windows operative
+system with the **xXX** means x86 or x64
 
 
 
-**fusioninventory-agent\_windows-x64\_2.3.0-1.exe** it has two types of
+**fusioninventory-agent\_windows-xXX\_2.3.x.exe** it has two types of
 installation; the **from-scratch** type, that allows to perform an
 installation of FusionInventory Agent from the beginning, based on the
 options’ default values (see below), and the **from-current-config**
@@ -29,11 +32,11 @@ of the current FusionInventory Agent, whether it exists. (Bear in mind
 that, with independence of the type of installation you choose, any
 existing release of FusionInventory Agent will be uninstalled
 automatically immediately before installing FusionInventory Agent
-2.3.0-1)
+2.3.x)
 
 
 
-**fusioninventory-agent\_windows-x64\_2.3.0-1.exe** also has two modes
+**fusioninventory-agent\_windows-xXX\_2.3.x.exe** also has two modes
 of installation; the *silent mode*, that allows to perform the
 installation of FusionInventory Agent in a non-interactive or unattended
 way, and the *visual mode*, that allows to perform the installation of
@@ -41,7 +44,7 @@ FusionInventory Agent in a graphical and interactive way.
 
 
 
-**fusioninventory-agent\_windows-x64\_2.3.0-1.exe** is provided with a
+**fusioninventory-agent\_windows-xXX\_2.3.x.exe** is provided with a
 series of options (see below) that allows to adapt the installation to
 practically any environment or need. To use these options properly it is
 essential to know the order in which values are taken into account. That
