@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2013-08-13 21:45+0000\n"
+"POT-Creation-Date: 2013-09-09 18:57+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -22,10 +22,25 @@ msgid "**NAME**\n"
 msgstr "**NOM**\n"
 
 #. type: Plain text
-#, no-wrap
+#, fuzzy, no-wrap
+#| msgid ""
+#| "**fusioninventory-agent\\_windows-x64\\_2.3.0-1.exe** – FusionInventory\n"
+#| "Agent 2.3.0-1 (x64 edition) Setup\n"
 msgid ""
-"**fusioninventory-agent\\_windows-x64\\_2.3.0-1.exe** – FusionInventory\n"
-"Agent 2.3.0-1 (x64 edition) Setup\n"
+"**fusioninventory-agent\\_windows-x86\\_2.3.x.exe** – FusionInventory\n"
+"Agent 2.3.x (x86 edition) Setup\n"
+msgstr ""
+"**fusioninventory-agent\\_windows-x64\\_2.3.0-1.exe** – Installeur \n"
+"FusionInventory Agent 2.3.0-1 (x64 edition)\n"
+
+#. type: Plain text
+#, fuzzy, no-wrap
+#| msgid ""
+#| "**fusioninventory-agent\\_windows-x64\\_2.3.0-1.exe** – FusionInventory\n"
+#| "Agent 2.3.0-1 (x64 edition) Setup\n"
+msgid ""
+"**fusioninventory-agent\\_windows-x64\\_2.3.x.exe** – FusionInventory\n"
+"Agent 2.3.x (x64 edition) Setup\n"
 msgstr ""
 "**fusioninventory-agent\\_windows-x64\\_2.3.0-1.exe** – Installeur \n"
 "FusionInventory Agent 2.3.0-1 (x64 edition)\n"
@@ -36,9 +51,12 @@ msgid "**SYNOPSIS**\n"
 msgstr "**SYNOPSIS**\n"
 
 #. type: Plain text
-#, no-wrap
+#, fuzzy, no-wrap
+#| msgid ""
+#| "**fusioninventory-agent\\_windows-x64\\_2.3.0-1.exe** [*/Option*[\n"
+#| "*/Option*[ …]]]\n"
 msgid ""
-"**fusioninventory-agent\\_windows-x64\\_2.3.0-1.exe** [*/Option*[\n"
+"**fusioninventory-agent\\_windows-xXX\\_2.3.x.exe** [*/Option*[\n"
 "*/Option*[ …]]]\n"
 msgstr ""
 "**fusioninventory-agent\\_windows-x64\\_2.3.0-1.exe** [*/Option*[\n"
@@ -50,18 +68,22 @@ msgid "**DESCRIPTION**\n"
 msgstr "**DESCRIPTION**\n"
 
 #. type: Plain text
-#, no-wrap
+#, fuzzy, no-wrap
+#| msgid ""
+#| "**fusioninventory-agent\\_windows-x64\\_2.3.0-1.exe** – FusionInventory\n"
+#| "Agent 2.3.0-1 (x64 edition) Setup\n"
 msgid ""
-"**fusioninventory-agent\\_windows-x64\\_2.3.0-1.exe** installs\n"
-"FusionInventory Agent 2.3.0-1 in your Microsoft Windows operative\n"
-"system.\n"
+"**fusioninventory-agent\\_windows-xXX\\_2.3.x.exe** installs\n"
+"FusionInventory Agent 2.3.x in your Microsoft Windows operative\n"
+"system with the **xXX** means x86 or x64\n"
 msgstr ""
-""
+"**fusioninventory-agent\\_windows-x64\\_2.3.0-1.exe** – Installeur \n"
+"FusionInventory Agent 2.3.0-1 (x64 edition)\n"
 
 #. type: Plain text
 #, no-wrap
 msgid ""
-"**fusioninventory-agent\\_windows-x64\\_2.3.0-1.exe** it has two types of\n"
+"**fusioninventory-agent\\_windows-xXX\\_2.3.x.exe** it has two types of\n"
 "installation; the **from-scratch** type, that allows to perform an\n"
 "installation of FusionInventory Agent from the beginning, based on the\n"
 "options’ default values (see below), and the **from-current-config**\n"
@@ -70,13 +92,13 @@ msgid ""
 "that, with independence of the type of installation you choose, any\n"
 "existing release of FusionInventory Agent will be uninstalled\n"
 "automatically immediately before installing FusionInventory Agent\n"
-"2.3.0-1)\n"
+"2.3.x)\n"
 msgstr ""
 
 #. type: Plain text
 #, no-wrap
 msgid ""
-"**fusioninventory-agent\\_windows-x64\\_2.3.0-1.exe** also has two modes\n"
+"**fusioninventory-agent\\_windows-xXX\\_2.3.x.exe** also has two modes\n"
 "of installation; the *silent mode*, that allows to perform the\n"
 "installation of FusionInventory Agent in a non-interactive or unattended\n"
 "way, and the *visual mode*, that allows to perform the installation of\n"
@@ -86,7 +108,7 @@ msgstr ""
 #. type: Plain text
 #, no-wrap
 msgid ""
-"**fusioninventory-agent\\_windows-x64\\_2.3.0-1.exe** is provided with a\n"
+"**fusioninventory-agent\\_windows-xXX\\_2.3.x.exe** is provided with a\n"
 "series of options (see below) that allows to adapt the installation to\n"
 "practically any environment or need. To use these options properly it is\n"
 "essential to know the order in which values are taken into account. That\n"
