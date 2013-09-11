@@ -30,7 +30,7 @@
 
 
 
-[[!img documentation/agent/installation/windows/windows-installer-2.3.x-screen-004-installation-mode.png alt="Installation Type"]]
+[[!img documentation/agent/installation/windows/windows-installer-2.3.x-screen-004-installation-type.png alt="Installation Type"]]
 
 
 
