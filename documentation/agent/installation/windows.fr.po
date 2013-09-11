@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2013-09-03 13:22+0000\n"
+"POT-Creation-Date: 2013-09-11 22:09+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -109,11 +109,17 @@ msgstr ""
 "modifications de l'installeur lui-même, l'Agent (correctifs) ou les deux."
 
 #. type: Bullet: '* '
+#, fuzzy
+#| msgid ""
+#| "It's possible to install *fusioninventory-agent_windows_x86_2.3.x.exe* on "
+#| "a 32-bit or 64-bit Microsoft Windows system but only is possible to "
+#| "install *fusioninventory-agent_windows_x64_2.3.x.exe* on a 64-bit "
+#| "Microsoft Windows system."
 msgid ""
-"It's possible to install *fusioninventory-agent_windows_x86_2.3.x.exe* on a "
-"32-bit or 64-bit Microsoft Windows system but only is possible to install "
-"*fusioninventory-agent_windows_x64_2.3.x.exe* on a 64-bit Microsoft Windows "
-"system."
+"It's possible to install *fusioninventory-agent_windows_x86_\\<version>.exe* "
+"on a 32-bit or 64-bit Microsoft Windows system but only is possible to "
+"install *fusioninventory-agent_windows_x64_\\<version>.exe* on a 64-bit "
+"Microsoft Windows system."
 msgstr ""
 "Il est possible d'installer *fusioninventory-agent_windows_x86_2.3.x.exe* "
 "sur un système Windows 32-bit ou 64-bit mais on ne peut installer la version "
@@ -163,23 +169,6 @@ msgstr "[[!template id=info text=\"Il est recommandé de lire la documentation c
 
 #. type: Title ##
 #, no-wrap
-msgid "Installation with visual mode"
-msgstr "Installation en mode graphique"
-
-#. type: Plain text
-msgid "You can use the visual mode to install FusionInventory Agent 2.3.0."
-msgstr "Vous pouvez utiliser le mode graphique pour installer l'Agent FusionInventory 2.3.0"
-
-#. type: Plain text
-msgid ""
-"See [[this page|documentation/agent/installation/windows/windows-"
-"installer-2.3.x-visual-mode]] with screenshot."
-msgstr ""
-"Reportez vous à [[cette page|documentation/agent/installation/windows/windows-"
-"installer-2.3.x-visual-mode]] pour voir les capture d'écran"
-
-#. type: Title ##
-#, no-wrap
 msgid "Installation from Command Line and Silent Installation"
 msgstr "Installation en ligne de commande et Installation silencieuse"
 
@@ -202,6 +191,41 @@ msgstr ""
 "vous au ***Manuel d'installation*** cité ci-dessus."
 
 #. type: Title ##
+#, fuzzy, no-wrap
+#| msgid "Large Installations"
+msgid "Visual Installation"
+msgstr "Installation en masse"
+
+#. type: Plain text
+#, no-wrap
+msgid "As it said above, unless it's specified the ***/S*** option in the command line, the FusionInventory Agent installer for Microsoft Windows performs a *visual mode* installation. The easy way of performs a *visual mode* installation is doing double click on the *fusioninventory-agent_windows-\\<platform>_\\<version>.exe* program.\n"
+msgstr ""
+
+#. type: Plain text
+msgid ""
+"The fields and controls that appear in the *visual mode* installation are "
+"intimately related with the command line options. That's the reason because "
+"it's recommended to read ***The Installer Manual*** section (*see above*) "
+"before to perform any installation."
+msgstr ""
+
+#. type: Plain text
+#, fuzzy
+#| msgid ""
+#| "You can find the manual of the FusionInventory Agent installer for "
+#| "Microsoft Windows [[here|documentation/agent/installation/windows/windows-"
+#| "installer-2.3.x-command-line]]."
+msgid ""
+"For more information about the *visual mode* installation, please, see the "
+"following gallery of commented [[screenshots of FusionInventory Agent "
+"installer for Microsoft Windows|documentation/agent/installation/windows/"
+"windows-installer-2.3.x-visual-mode]]. (*still under construction*)"
+msgstr ""
+"Vous trouverez le manuel de l'installation de l'Agent FusionInventory pour "
+"Microsoft Windows [[sur cette page|documentation/agent/installation/windows/"
+"windows-installer-2.3.x-command-line]]."
+
+#. type: Title ##
 #, no-wrap
 msgid "Large Installations"
 msgstr "Installation en masse"
@@ -218,6 +242,11 @@ msgstr ""
 "large_install]] mais actuellement, cette procédure est incompatible avec le "
 "nouvel installeur de l'Agent FusionInventory."
 
+#. type: Plain text
+#, no-wrap
+msgid "Nowadays, and while the new page is written with more detail about its use, it's available from here the new VBScript (Visual Basic Script) with name *fusioninventory-agent-deployment.vbs* that allows to perform an unattended deployment of *fusioninventory-agent_windows-\\<platform>_\\<version>.exe* in large (and in not so large) environments. You can find its last version [[here|https://raw.github.com/fusinv/fusioninventory-agent/2.3.x/contrib/windows/fusioninventory-agent-deployment.vbs]].\n"
+msgstr ""
+
 #. type: Title ##
 #, no-wrap
 msgid "Installation from Sources"
@@ -232,3 +261,18 @@ msgstr ""
 "Si vous êtes développeur ou un utilisateur expérimenté, vous pouvez aussi "
 "installer l'Agent FusionInventory [[via les sources|documentation/agent/dev/"
 "git_windows]]."
+
+#~ msgid "Installation with visual mode"
+#~ msgstr "Installation en mode graphique"
+
+#~ msgid "You can use the visual mode to install FusionInventory Agent 2.3.0."
+#~ msgstr ""
+#~ "Vous pouvez utiliser le mode graphique pour installer l'Agent "
+#~ "FusionInventory 2.3.0"
+
+#~ msgid ""
+#~ "See [[this page|documentation/agent/installation/windows/windows-"
+#~ "installer-2.3.x-visual-mode]] with screenshot."
+#~ msgstr ""
+#~ "Reportez vous à [[cette page|documentation/agent/installation/windows/"
+#~ "windows-installer-2.3.x-visual-mode]] pour voir les capture d'écran"
