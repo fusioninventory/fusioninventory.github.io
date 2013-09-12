@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2013-08-11 12:31+0000\n"
+"POT-Creation-Date: 2013-09-12 17:44+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -43,7 +43,12 @@ msgstr ""
 
 #. type: Plain text
 #, no-wrap
-msgid "[[!img screenshots/installer.png size=\"600x600\" alt=\"clouds\"]]\n"
+msgid "[[!img documentation/agent/installation/windows/windows-installer-2.3.x-screen-002-welcome.png alt=\"Welcome\"]]\n"
+msgstr ""
+
+#. type: Plain text
+#, no-wrap
+msgid "[[!img documentation/agent/installation/windows/windows-installer-2.3.x-screen-004-installation-type.png alt=\"Installation Type\"]]\n"
 msgstr ""
 
 #. type: Plain text
