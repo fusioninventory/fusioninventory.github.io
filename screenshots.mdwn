@@ -7,7 +7,7 @@
 [[!img screenshots/299.png size="600x600" alt="clouds"]]
    
 
-## Agent
+## FusionInventory Agent
 
 [[!img documentation/agent/installation/windows/windows-installer-2.3.x-screen-002-welcome.png alt="Welcome"]]
    
