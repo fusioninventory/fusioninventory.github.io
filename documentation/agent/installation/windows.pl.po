@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2013-09-11 22:09+0000\n"
+"POT-Creation-Date: 2013-09-12 16:48+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -175,7 +175,7 @@ msgstr ""
 #. type: Plain text
 msgid ""
 "For more information about the *visual mode* installation, please, see the "
-"following gallery of commented [[screenshots of FusionInventory Agent "
+"following gallery of [[commented screenshots of FusionInventory Agent "
 "installer for Microsoft Windows|documentation/agent/installation/windows/"
 "windows-installer-2.3.x-visual-mode]]. (*still under construction*)"
 msgstr ""
@@ -195,7 +195,7 @@ msgstr ""
 
 #. type: Plain text
 #, no-wrap
-msgid "Nowadays, and while the new page is written with more detail about its use, it's available from here the new VBScript (Visual Basic Script) with name *fusioninventory-agent-deployment.vbs* that allows to perform an unattended deployment of *fusioninventory-agent_windows-\\<platform>_\\<version>.exe* in large (and in not so large) environments. You can find its last version [[here|https://raw.github.com/fusinv/fusioninventory-agent/2.3.x/contrib/windows/fusioninventory-agent-deployment.vbs]].\n"
+msgid "Nowadays, and while the new page is written with more detail about its use, it's available from here the new VBScript (Visual Basic Script) with name *fusioninventory-agent-deployment.vbs* that allows to perform an unattended deployment of *fusioninventory-agent_windows-\\<platform>_\\<version>.exe* in large (and in not so large) environments. You can find its last version [here](https://raw.github.com/fusinv/fusioninventory-agent/2.3.x/contrib/windows/fusioninventory-agent-deployment.vbs \"https://raw.github.com/fusinv/fusioninventory-agent/2.3.x/contrib/windows/fusioninventory-agent-deployment.vbs\").\n"
 msgstr ""
 
 #. type: Title ##
