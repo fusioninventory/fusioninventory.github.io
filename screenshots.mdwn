@@ -6,7 +6,8 @@
 
 ## Agent
 
-[[!img screenshots/installer.png size="600x600" alt="clouds"]]
+[[!img documentation/agent/installation/windows/windows-installer-2.3.x-screen-002-welcome.png alt="Welcome"]]
+[[!img documentation/agent/installation/windows/windows-installer-2.3.x-screen-004-installation-type.png alt="Installation Type"]]
 [[!img screenshots/agent-300x230.png size="300x230" alt="clouds"]]
 [[!img screenshots/2.3.0_on_mandriva_2005.png  size="600x600" alt="2.3.0 on Mandriva 2005"]]
 
