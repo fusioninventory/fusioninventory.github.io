@@ -1,15 +1,22 @@
 ## FusionInventory for GLPI
 
 [[!img screenshots/308.png size="600x600" alt="clouds"]]
+   
 [[!img screenshots/309.png size="600x600" alt="clouds"]]
+   
 [[!img screenshots/299.png size="600x600" alt="clouds"]]
+   
 
 ## Agent
 
 [[!img documentation/agent/installation/windows/windows-installer-2.3.x-screen-002-welcome.png alt="Welcome"]]
+   
 [[!img documentation/agent/installation/windows/windows-installer-2.3.x-screen-004-installation-type.png alt="Installation Type"]]
+   
 [[!img screenshots/agent-300x230.png size="300x230" alt="clouds"]]
+   
 [[!img screenshots/2.3.0_on_mandriva_2005.png  size="600x600" alt="2.3.0 on Mandriva 2005"]]
+   
 
 ## Uranos
 
@@ -17,7 +24,9 @@
 server that support FusionInventory Agent.
 
 [[!img screenshots/fusioninventory-storages.png size="600x600" alt="clouds"]]
+   
 [[!img screenshots/fusioninventory-detail-300x146.png size="300x146" alt="clouds"]]
+   
 [[!img screenshots/fusioninventory-hardware-300x146.png size="300x146" alt="clouds"]]
-
+   
 
