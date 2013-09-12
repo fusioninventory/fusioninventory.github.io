@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2013-09-12 17:44+0000\n"
+"POT-Creation-Date: 2013-09-12 21:14+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -40,9 +40,10 @@ msgid "[[!img screenshots/299.png size=\"600x600\" alt=\"clouds\"]]\n"
 msgstr "[[!img screenshots/299.png size=\"200x200\" alt=\"clouds\"]]\n"
 
 #. type: Title ##
-#, no-wrap
-msgid "Agent"
-msgstr "Agent"
+#, fuzzy, no-wrap
+#| msgid "FusionInventory for GLPI"
+msgid "FusionInventory Agent"
+msgstr "FusionInventory for GLPI"
 
 #. type: Plain text
 #, no-wrap
@@ -99,10 +100,15 @@ msgstr "[[!img screenshots/fusioninventory-detail-300x146.png size=\"200x200\" a
 msgid "[[!img screenshots/fusioninventory-hardware-300x146.png size=\"300x146\" alt=\"clouds\"]]\n"
 msgstr "[[!img screenshots/fusioninventory-hardware-300x146.png size=\"200x200\" alt=\"clouds\"]]\n"
 
+#~ msgid "Agent"
+#~ msgstr "Agent"
+
 #, fuzzy
-#~| msgid "[[!img screenshots/installer.png size=\"200x200\" alt=\"clouds\"]]\n"
+#~| msgid ""
+#~| "[[!img screenshots/installer.png size=\"200x200\" alt=\"clouds\"]]\n"
 #~ msgid "[[!img screenshots/installer.png size=\"600x600\" alt=\"clouds\"]]\n"
-#~ msgstr "[[!img screenshots/installer.png size=\"200x200\" alt=\"clouds\"]]\n"
+#~ msgstr ""
+#~ "[[!img screenshots/installer.png size=\"200x200\" alt=\"clouds\"]]\n"
 
 #~ msgid "OCS Inventory "
 #~ msgstr "OCS Inventory "
