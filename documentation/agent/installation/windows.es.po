@@ -84,7 +84,7 @@ msgid ""
 "reduced, version of [Strawberry Perl](http://strawberryperl.com/ \"http://"
 "strawberryperl.com/\") 5.16.3.1."
 msgstr ""
-"El instalador for cada *\\<platform>*, integra su nativa, aunque "
+"El instalador para cada *\\<platform>*, integra su nativa, aunque "
 "reducida, versión de [Strawberry Perl](http://strawberryperl.com/ \"http://"
 "strawberryperl.com/\") 5.16.3.1."
 
@@ -137,16 +137,17 @@ msgstr ""
 
 #. type: Bullet: '*         '
 msgid "C:\\> fusioninventory-agent_windows-<platform>_<version>.exe /help"
-msgstr ""
+msgstr "C:\\> fusioninventory-agent_windows-<platform>_<version>.exe /help"
 
 #. type: Bullet: '*         '
 msgid "C:\\> fusioninventory-agent_windows-<platform>_<version>.exe /dumphelp"
-msgstr ""
+msgstr "C:\\> fusioninventory-agent_windows-<platform>_<version>.exe /dumphelp"
 
 #. type: Bullet: '*         '
 msgid ""
 "C:\\> fusioninventory-agent_windows-<platform>_<version>.exe /dumphelp /S"
 msgstr ""
+"C:\\> fusioninventory-agent_windows-<platform>_<version>.exe /dumphelp /S"
 
 #. type: Plain text
 #, no-wrap
@@ -156,7 +157,7 @@ msgstr "[[!template id=info text=\"Se recomienda leer esta documentación comple
 #. type: Title ##
 #, no-wrap
 msgid "Installation from Command Line and Silent Installation"
-msgstr ""
+msgstr "Instalación desde la Línea de Comandos e Instalación Silenciosa"
 
 #. type: Plain text
 msgid ""
@@ -164,22 +165,27 @@ msgid ""
 "mode* installation unless it's specified the ***/S*** option in the command "
 "line, in whose case it performs a *silent mode* installation."
 msgstr ""
+"El instalador de FusionInventory Agent para Microsoft Windows realiza una instalación "
+"en *modo visual* a menos que sea especificada la opción ***/S*** en la línea "
+"de comandos, en cuyo caso realiza una instalación en *modo silencioso*."
 
 #. type: Plain text
 msgid ""
 "For more information about the use of the command line, please, see ***The "
 "Installer Manual*** section above."
 msgstr ""
+"Para más información acerca del uso de la línea de comandos, por favor, vea la sección ***El "
+"Manual del Instalador*** más arriba."
 
 #. type: Title ##
 #, no-wrap
 msgid "Visual Installation"
-msgstr ""
+msgstr "Instalación Visual"
 
 #. type: Plain text
 #, no-wrap
 msgid "As it said above, unless it's specified the ***/S*** option in the command line, the FusionInventory Agent installer for Microsoft Windows performs a *visual mode* installation. The easy way of performs a *visual mode* installation is doing double click on the *fusioninventory-agent_windows-\\<platform>_\\<version>.exe* program.\n"
-msgstr ""
+msgstr "Como se dijo anteriormente, a menos que sea especificada la opción ***/S*** en la línea de comandos, el instalador de FusionInventory Agent para Microsoft Windows realiza una instalación en *modo visual*. El modo mas sencillo de realizar una instalación en *modo visual* es haciendo doble *click* sobre el programa *fusioninventory-agent_windows-\\<platform>_\\<version>.exe*.\n"
 
 #. type: Plain text
 msgid ""
@@ -188,6 +194,10 @@ msgid ""
 "it's recommended to read ***The Installer Manual*** section (*see above*) "
 "before to perform any installation."
 msgstr ""
+"Los campos y controles que aparecen en la instalación en *modo visual* están "
+"intimamente relacionados con las opciones de la línea de comandos. Esta es la razón por la que "
+"se recomienda leer la sección ***El Manual del Instalador*** (*ver más arriba*) "
+"antes de realizar cualquier instalación."
 
 #. type: Plain text
 msgid ""
@@ -196,11 +206,15 @@ msgid ""
 "installer for Microsoft Windows|documentation/agent/installation/windows/"
 "windows-installer-2.3.x-visual-mode]]. (*still under construction*)"
 msgstr ""
+"Para más información acerca de la instalación en *modo visual*, por favor, vea la "
+"siguiente galería de [[capturas de pantalla comentadas del instalador de FusionInventory Agent "
+"para Microsoft Windows|documentation/agent/installation/windows/"
+"windows-installer-2.3.x-visual-mode]]. (*aun en construcción*)"
 
 #. type: Title ##
 #, no-wrap
 msgid "Large Installations"
-msgstr ""
+msgstr "Grandes Instalaciones"
 
 #. type: Plain text
 msgid ""
