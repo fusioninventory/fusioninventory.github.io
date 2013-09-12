@@ -65,11 +65,17 @@ msgid ""
 "                                 'x86' | 'x64'   |\n"
 "                                                 v\n"
 msgstr ""
+"    fusioninventory-agent_windows-<platform>_<version>.exe\n"
+"                                       |         |\n"
+"                                       v         |\n"
+"                                                 |\n"
+"                                 'x86' | 'x64'   |\n"
+"                                                 v\n"
 
 #. type: Plain text
 #, no-wrap
 msgid "                     <mayor>.<minor>.<release>[-<package>]\n"
-msgstr ""
+msgstr "                     <mayor>.<minor>.<release>[-<package>]\n"
 
 #. type: Plain text
 msgid ""
@@ -220,12 +226,6 @@ msgid "Large Installations"
 msgstr "Grandes Instalaciones"
 
 #. type: Plain text
-#, fuzzy
-#| msgid ""
-#| "A page is dedicated to explain how to [[deploy FusionInventory Agent 2.2."
-#| "x (and previous) on a Windows Domain|documentation/agent/installation/"
-#| "windows/large_install]] but, at the moment, those instructions are "
-#| "invalid for the new FusionInventory Agent installer."
 msgid ""
 "There's a page dedicated to explain how to [[deploy FusionInventory Agent "
 "2.2.x (and previous) on a Windows Domain|documentation/agent/installation/"
@@ -238,10 +238,9 @@ msgstr ""
 "válidas para el nuevo instalador de FusionInventory Agent."
 
 #. type: Plain text
-#, fuzzy, no-wrap
-#| msgid "Nowadays, and while the new page is written with more detail about its use, it's available from here the new VBScript (Visual Basic Script) with name *fusioninventory-agent-deployment.vbs* that allows to perform an unattended deployment of *fusioninventory-agent_windows-\\<platform>_\\<version>.exe* in large (and in not so large) environments. You can find its last version [here](https://raw.github.com/fusinv/fusioninventory-agent/2.3.x/contrib/windows/fusioninventory-agent-deployment.vbs \"https://raw.github.com/fusinv/fusioninventory-agent/2.3.x/contrib/windows/fusioninventory-agent-deployment.vbs\").\n"
+#, no-wrap
 msgid "Nowadays, and while a new page is written with more detail about its use, it's available from here the new VBScript (Visual Basic Script) with name _*fusioninventory-agent-deployment.vbs*_ that allows to perform an unattended deployment of *fusioninventory-agent_windows-\\<platform>_\\<version>.exe* in large (and in not so large) environments. You can find its last version [here](https://raw.github.com/fusinv/fusioninventory-agent/2.3.x/contrib/windows/fusioninventory-agent-deployment.vbs \"https://raw.github.com/fusinv/fusioninventory-agent/2.3.x/contrib/windows/fusioninventory-agent-deployment.vbs\").\n"
-msgstr "En la actualidad, y mientras una nueva página es escrita con más detalle acerca de su uso, está disponible desde aquí el nuevo VBScript (Visual Basic Script) con el nombre *fusioninventory-agent-deployment.vbs* que permite realizar un despliegue desatendido de *fusioninventory-agent_windows-\\<platform>_\\<version>.exe* en grandes (y no tan grandes) entornos. Puede encontrar su última versión [aquí](https://raw.github.com/fusinv/fusioninventory-agent/2.3.x/contrib/windows/fusioninventory-agent-deployment.vbs \"https://raw.github.com/fusinv/fusioninventory-agent/2.3.x/contrib/windows/fusioninventory-agent-deployment.vbs\").\n"
+msgstr "En la actualidad, y mientras una nueva página es escrita con más detalle acerca de su uso, está disponible desde aquí el nuevo VBScript (Visual Basic Script) con nombre _*fusioninventory-agent-deployment.vbs*_ que permite realizar un despliegue desatendido de *fusioninventory-agent_windows-\\<platform>_\\<version>.exe* en grandes (y no tan grandes) entornos. Puede encontrar su última versión [aquí](https://raw.github.com/fusinv/fusioninventory-agent/2.3.x/contrib/windows/fusioninventory-agent-deployment.vbs \"https://raw.github.com/fusinv/fusioninventory-agent/2.3.x/contrib/windows/fusioninventory-agent-deployment.vbs\").\n"
 
 #. type: Title ##
 #, no-wrap
@@ -254,6 +253,6 @@ msgid ""
 "FusionInventory Agent 2.3.x [[from sources|documentation/agent/dev/"
 "git_windows]]."
 msgstr ""
-"Si es un desarrollador, or un usuario avanzado, puede además instalar "
+"Si es un desarrollador, o un usuario avanzado, puede además instalar "
 "FusionInventory Agent 2.3.x [[a partir del Código Fuente|documentation/agent/"
 "dev/git_windows]]."
