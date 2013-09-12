@@ -19,7 +19,7 @@ msgstr ""
 #. type: Title #
 #, no-wrap
 msgid "Microsoft Windows Installation"
-msgstr ""
+msgstr "Instalación en Microsoft Windows"
 
 #. type: Plain text
 msgid ""
@@ -29,11 +29,16 @@ msgid ""
 "FusionInventory Agent 2.2.x (and previous) and its installer, you find it "
 "[[here|documentation/agent/installation/windows_before_2.3.0]].\"]]"
 msgstr ""
+"[[!template id=warning text=\"El nuevo FusionInventory Agent 2.3.x viene con "
+"un **nuevo** instalador para Microsoft Windows. La documentación que tiene más abajo está "
+"relacionada con este nuevo instalador. Si está buscando documentación referente a "
+"FusionInventory Agent 2.2.x (y anteriores) y su instalador, la encontrará "
+"[[aquí|documentation/agent/installation/windows_before_2.3.0]].\"]]"
 
 #. type: Title ##
 #, no-wrap
 msgid "Get the Installer"
-msgstr ""
+msgstr "Obtener el Instalador"
 
 #. type: Plain text
 msgid ""
@@ -43,6 +48,11 @@ msgid ""
 "fusioninventory-agent-windows-installer/files\"). The file name of the "
 "installer follows this pattern:"
 msgstr ""
+"Puede obtner el último instalador de FusionInventory Agent para Microsoft Windows "
+"[aquí](http://forge.fusioninventory.org/projects/fusioninventory-agent-"
+"windows-installer/files \"http://forge.fusioninventory.org/projects/"
+"fusioninventory-agent-windows-installer/files\"). El nombre del fichero del "
+"instalador sigue el siguente patrón:"
 
 #. type: Plain text
 #, no-wrap
@@ -65,6 +75,8 @@ msgid ""
 "Some notes about the new FusionInventory Agent installer for Microsoft "
 "Windows."
 msgstr ""
+"Algunas notas sobre el nuevo instalador de FusionInventory Agent para Microsoft "
+"Windows."
 
 #. type: Bullet: '* '
 msgid ""
@@ -72,6 +84,9 @@ msgid ""
 "reduced, version of [Strawberry Perl](http://strawberryperl.com/ \"http://"
 "strawberryperl.com/\") 5.16.3.1."
 msgstr ""
+"El instalador for cada *\\<platform>*, integra su nativa, aunque "
+"reducida, versión de [Strawberry Perl](http://strawberryperl.com/ \"http://"
+"strawberryperl.com/\") 5.16.3.1."
 
 #. type: Bullet: '* '
 msgid ""
@@ -80,6 +95,10 @@ msgid ""
 "\\<release>*. A new *\\<package>* may contain improvements regarding the "
 "installer itself, the agent (patches) or both."
 msgstr ""
+"Dentro de *\\<version>*, *\\<package>* es opcional e indica la "
+"secuencia del instalador para FusionInventory Agent *\\<manor>*.*\\<minor>*.*"
+"\\<release>*. Un nuevo  *\\<package>* puede contener mejoras relecionadas con el "
+"propio instalador, con el agente (parches) o con ambos."
 
 #. type: Bullet: '* '
 msgid ""
@@ -88,11 +107,15 @@ msgid ""
 "install *fusioninventory-agent_windows_x64_\\<version>.exe* on a 64-bit "
 "Microsoft Windows system."
 msgstr ""
+"Es posible instalar *fusioninventory-agent_windows_x86_\\<version>.exe* "
+"en un sistema Microsoft Windows de 32-bit o de 64-bit pero solo es posible "
+"instalar *fusioninventory-agent_windows_x64_\\<version>.exe* en un sistema "
+"Microsoft Windows de 64-bit."
 
 #. type: Title ##
 #, no-wrap
 msgid "The Installer Manual"
-msgstr ""
+msgstr "El Manual del Instalador"
 
 #. type: Plain text
 msgid ""
@@ -100,12 +123,17 @@ msgid ""
 "Windows [[here|documentation/agent/installation/windows/windows-"
 "installer-2.3.x-command-line]]."
 msgstr ""
+"Puede encontrar el manual del instalador de FusionInventory Agent para Microsoft "
+"Windows [[aquí|documentation/agent/installation/windows/windows-"
+"installer-2.3.x-command-line]]."
 
 #. type: Plain text
 msgid ""
 "The manual is self-contained in the own installer. You can get it of one of "
 "the following ways:"
 msgstr ""
+"El manual está auto-contenido en el propio instalador. Puede obtenerlo de uno de "
+"los siguientes modos:"
 
 #. type: Bullet: '*         '
 msgid "C:\\> fusioninventory-agent_windows-<platform>_<version>.exe /help"
@@ -123,7 +151,7 @@ msgstr ""
 #. type: Plain text
 #, no-wrap
 msgid "[[!template id=info text=\"It's recommended read this documentation completely each time a new version is released; the new FusionInventory Agent installer for Microsoft Windows is still young and it's in a constant process of improvement, including its manual.\"]]\n"
-msgstr ""
+msgstr "[[!template id=info text=\"Se recomienda leer esta documentación completamente cada vez que es liberada una nueva versión; el nuevo instalador de FusionInventory Agent para Microsoft Windows es aun joven y está en constante proceso de mejora, incluido su manual.\"]]\n"
 
 #. type: Title ##
 #, no-wrap
