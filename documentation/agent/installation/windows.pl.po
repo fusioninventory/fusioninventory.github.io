@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2013-09-12 17:15+0000\n"
+"POT-Creation-Date: 2013-09-12 17:28+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -187,7 +187,7 @@ msgstr ""
 
 #. type: Plain text
 msgid ""
-"There's a page dedicated to explain how to [[deploy FusionInventory Agent "
+"There's a page dedicated to explain [[how to deploy FusionInventory Agent "
 "2.2.x (and previous) on a Windows Domain|documentation/agent/installation/"
 "windows/large_install]] but, at the moment, its instructions are not valid "
 "for the new FusionInventory Agent installer."
@@ -195,7 +195,7 @@ msgstr ""
 
 #. type: Plain text
 #, no-wrap
-msgid "Nowadays, and while a new page is written with more detail about its use, it's available from here the new VBScript (Visual Basic Script) with name _*fusioninventory-agent-deployment.vbs*_ that allows to perform an unattended deployment of *fusioninventory-agent_windows-\\<platform>_\\<version>.exe* in large (and in not so large) environments. You can find its last version [here](https://raw.github.com/fusinv/fusioninventory-agent/2.3.x/contrib/windows/fusioninventory-agent-deployment.vbs \"https://raw.github.com/fusinv/fusioninventory-agent/2.3.x/contrib/windows/fusioninventory-agent-deployment.vbs\").\n"
+msgid "Nowadays, and while a new page is written with more detail about its use, it's available from here the new VBScript (Visual Basic Script) with name *fusioninventory-agent-deployment.vbs* that allows to perform an unattended deployment of *fusioninventory-agent_windows-\\<platform>_\\<version>.exe* in large (and in not so large) environments. You can find its last version [here](https://raw.github.com/fusinv/fusioninventory-agent/2.3.x/contrib/windows/fusioninventory-agent-deployment.vbs \"https://raw.github.com/fusinv/fusioninventory-agent/2.3.x/contrib/windows/fusioninventory-agent-deployment.vbs\").\n"
 msgstr ""
 
 #. type: Title ##
