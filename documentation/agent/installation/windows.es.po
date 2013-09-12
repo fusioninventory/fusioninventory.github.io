@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "POT-Creation-Date: 2013-09-12 16:48+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Last-Translator: Tomás Abad <tabadgp@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: \n"
 "MIME-Version: 1.0\n"
@@ -137,18 +137,19 @@ msgstr ""
 "uno de los siguientes modos:"
 
 #. type: Bullet: '*         '
+#, no-wrap
 msgid "C:\\> fusioninventory-agent_windows-<platform>_<version>.exe /help"
 msgstr "C:\\> fusioninventory-agent_windows-<platform>_<version>.exe /help"
 
 #. type: Bullet: '*         '
+#, no-wrap
 msgid "C:\\> fusioninventory-agent_windows-<platform>_<version>.exe /dumphelp"
 msgstr "C:\\> fusioninventory-agent_windows-<platform>_<version>.exe /dumphelp"
 
 #. type: Bullet: '*         '
-msgid ""
-"C:\\> fusioninventory-agent_windows-<platform>_<version>.exe /dumphelp /S"
-msgstr ""
-"C:\\> fusioninventory-agent_windows-<platform>_<version>.exe /dumphelp /S"
+#, no-wrap
+msgid "C:\\> fusioninventory-agent_windows-<platform>_<version>.exe /dumphelp /S"
+msgstr "C:\\> fusioninventory-agent_windows-<platform>_<version>.exe /dumphelp /S"
 
 #. type: Plain text
 #, no-wrap
@@ -202,12 +203,6 @@ msgstr ""
 "Instalador*** (*ver más arriba*) antes de realizar cualquier instalación."
 
 #. type: Plain text
-#, fuzzy
-#| msgid ""
-#| "For more information about the *visual mode* installation, please, see "
-#| "the following gallery of commented [[screenshots of FusionInventory Agent "
-#| "installer for Microsoft Windows|documentation/agent/installation/windows/"
-#| "windows-installer-2.3.x-visual-mode]]. (*still under construction*)"
 msgid ""
 "For more information about the *visual mode* installation, please, see the "
 "following gallery of [[commented screenshots of FusionInventory Agent "
@@ -232,16 +227,20 @@ msgid ""
 "large_install]] but, at the moment, those instructions are invalid for the "
 "new FusionInventory Agent installer."
 msgstr ""
+"Existe una página dedicada a explicar [[cómo desplegar FusionInventory Agent 2.2.x "
+"(y anteriores) en un Dominio Windows|documentation/agent/installation/windows/"
+"large_install]] pero, por el momento, esas instrucciones no son válidas para el nuevo "
+"instalador de FusionInventory Agent."
 
 #. type: Plain text
 #, no-wrap
 msgid "Nowadays, and while the new page is written with more detail about its use, it's available from here the new VBScript (Visual Basic Script) with name *fusioninventory-agent-deployment.vbs* that allows to perform an unattended deployment of *fusioninventory-agent_windows-\\<platform>_\\<version>.exe* in large (and in not so large) environments. You can find its last version [here](https://raw.github.com/fusinv/fusioninventory-agent/2.3.x/contrib/windows/fusioninventory-agent-deployment.vbs \"https://raw.github.com/fusinv/fusioninventory-agent/2.3.x/contrib/windows/fusioninventory-agent-deployment.vbs\").\n"
-msgstr ""
+msgstr "En la actualidad, y mientras una nueva página es escrita con más detalle acerca de su uso, está disponible desde aquí el nuevo VBScript (Visual Basic Script) con el nombre *fusioninventory-agent-deployment.vbs* que permite realizar un despliegue desatendido de *fusioninventory-agent_windows-\\<platform>_\\<version>.exe* en grandes (y no tan grandes) entornos. Puede encontrar su última versión [aquí](https://raw.github.com/fusinv/fusioninventory-agent/2.3.x/contrib/windows/fusioninventory-agent-deployment.vbs \"https://raw.github.com/fusinv/fusioninventory-agent/2.3.x/contrib/windows/fusioninventory-agent-deployment.vbs\").\n"
 
 #. type: Title ##
 #, no-wrap
 msgid "Installation from Sources"
-msgstr ""
+msgstr "Instalación a partir del Código Fuente"
 
 #. type: Plain text
 msgid ""
@@ -249,3 +248,6 @@ msgid ""
 "FusionInventory Agent 2.3.x [[from sources|documentation/agent/dev/"
 "git_windows]]."
 msgstr ""
+"Si es un desarrollador, or un usuario avanzado, puede además instalar "
+"FusionInventory Agent 2.3.x [[a partir del Código Fuente|documentation/agent/dev/"
+"git_windows]]."
