@@ -99,11 +99,11 @@ For more information about the *visual mode* installation, please, see the follo
 
 
 
-A page is dedicated to explain how to [[deploy FusionInventory Agent 2.2.x (and previous) on a Windows Domain|documentation/agent/installation/windows/large_install]] but, at the moment, those instructions are invalid for the new FusionInventory Agent installer.
+There's a page dedicated to explain how to [[deploy FusionInventory Agent 2.2.x (and previous) on a Windows Domain|documentation/agent/installation/windows/large_install]] but, at the moment, its instructions are not valid for the new FusionInventory Agent installer.
 
 
 
-Nowadays, and while the new page is written with more detail about its use, it's available from here the new VBScript (Visual Basic Script) with name *fusioninventory-agent-deployment.vbs* that allows to perform an unattended deployment of *fusioninventory-agent_windows-\<platform>_\<version>.exe* in large (and in not so large) environments. You can find its last version [here](https://raw.github.com/fusinv/fusioninventory-agent/2.3.x/contrib/windows/fusioninventory-agent-deployment.vbs "https://raw.github.com/fusinv/fusioninventory-agent/2.3.x/contrib/windows/fusioninventory-agent-deployment.vbs").
+Nowadays, and while a new page is written with more detail about its use, it's available from here the new VBScript (Visual Basic Script) with name _*fusioninventory-agent-deployment.vbs*_ that allows to perform an unattended deployment of *fusioninventory-agent_windows-\<platform>_\<version>.exe* in large (and in not so large) environments. You can find its last version [here](https://raw.github.com/fusinv/fusioninventory-agent/2.3.x/contrib/windows/fusioninventory-agent-deployment.vbs "https://raw.github.com/fusinv/fusioninventory-agent/2.3.x/contrib/windows/fusioninventory-agent-deployment.vbs").
 
 
 
