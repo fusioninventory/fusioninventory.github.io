@@ -91,7 +91,7 @@ The fields and controls that appear in the *visual mode* installation are intima
 
 
 
-For more information about the *visual mode* installation, please, see the following gallery of commented [[screenshots of FusionInventory Agent installer for Microsoft Windows|documentation/agent/installation/windows/windows-installer-2.3.x-visual-mode]]. (*still under construction*)
+For more information about the *visual mode* installation, please, see the following gallery of [[commented screenshots of FusionInventory Agent installer for Microsoft Windows|documentation/agent/installation/windows/windows-installer-2.3.x-visual-mode]]. (*still under construction*)
 
 
 
@@ -103,7 +103,7 @@ A page is dedicated to explain how to [[deploy FusionInventory Agent 2.2.x (and 
 
 
 
-Nowadays, and while the new page is written with more detail about its use, it's available from here the new VBScript (Visual Basic Script) with name *fusioninventory-agent-deployment.vbs* that allows to perform an unattended deployment of *fusioninventory-agent_windows-\<platform>_\<version>.exe* in large (and in not so large) environments. You can find its last version [[here|https://raw.github.com/fusinv/fusioninventory-agent/2.3.x/contrib/windows/fusioninventory-agent-deployment.vbs]].
+Nowadays, and while the new page is written with more detail about its use, it's available from here the new VBScript (Visual Basic Script) with name *fusioninventory-agent-deployment.vbs* that allows to perform an unattended deployment of *fusioninventory-agent_windows-\<platform>_\<version>.exe* in large (and in not so large) environments. You can find its last version [here](https://raw.github.com/fusinv/fusioninventory-agent/2.3.x/contrib/windows/fusioninventory-agent-deployment.vbs "https://raw.github.com/fusinv/fusioninventory-agent/2.3.x/contrib/windows/fusioninventory-agent-deployment.vbs").
 
 
 
