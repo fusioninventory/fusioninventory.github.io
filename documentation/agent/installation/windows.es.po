@@ -132,7 +132,7 @@ msgid ""
 msgstr ""
 "Puede encontrar el manual del instalador de FusionInventory Agent para "
 "Microsoft Windows [[aquí|documentation/agent/installation/windows/windows-"
-"installer-2.3.x-command-line]]."
+"installer-2.3.x-command-line_es]]."
 
 #. type: Plain text
 msgid ""
