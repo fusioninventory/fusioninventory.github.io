@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2013-09-09 18:57+0000\n"
+"POT-Creation-Date: 2013-09-15 15:56+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -18,23 +18,22 @@ msgstr ""
 
 #. type: Plain text
 #, no-wrap
+msgid "[[!template id=info text=\"The following information has been obtained from *fusioninventory-agent\\_windows-x64\\_2.3.1.exe*, the installer for x64 architectures, but it's also valid for *fusioninventory-agent\\_windows-x86\\_2.3.1.exe*, the installer for x86 architectures.\"]]\n"
+msgstr ""
+
+#. type: Plain text
+#, no-wrap
 msgid "**NAME**\n"
 msgstr "**NOM**\n"
 
 #. type: Plain text
-#, no-wrap
+#, fuzzy, no-wrap
+#| msgid ""
+#| "**fusioninventory-agent\\_windows-x64\\_2.3.x.exe** – FusionInventory\n"
+#| "Agent 2.3.x (x64 edition) Setup\n"
 msgid ""
-"**fusioninventory-agent\\_windows-x86\\_2.3.x.exe** – FusionInventory\n"
-"Agent 2.3.x (x86 edition) Setup\n"
-msgstr ""
-"**fusioninventory-agent\\_windows-x86\\_2.3.x.exe** – Installeur \n"
-"FusionInventory Agent 2.3.0-1 (x86 édition)\n"
-
-#. type: Plain text
-#, no-wrap
-msgid ""
-"**fusioninventory-agent\\_windows-x64\\_2.3.x.exe** – FusionInventory\n"
-"Agent 2.3.x (x64 edition) Setup\n"
+"**fusioninventory-agent\\_windows-x64\\_2.3.1.exe** -- FusionInventory\n"
+"Agent 2.3.1 (x64 edition) Setup\n"
 msgstr ""
 "**fusioninventory-agent\\_windows-x64\\_2.3.x.exe** – Installeur \n"
 "FusionInventory Agent 2.3.0-1 (x64 édition)\n"
@@ -45,10 +44,13 @@ msgid "**SYNOPSIS**\n"
 msgstr "**SYNOPSIS**\n"
 
 #. type: Plain text
-#, no-wrap
+#, fuzzy, no-wrap
+#| msgid ""
+#| "**fusioninventory-agent\\_windows-xXX\\_2.3.x.exe** [*/Option*[\n"
+#| "*/Option*[ …]]]\n"
 msgid ""
-"**fusioninventory-agent\\_windows-xXX\\_2.3.x.exe** [*/Option*[\n"
-"*/Option*[ …]]]\n"
+"**fusioninventory-agent\\_windows-x64\\_2.3.1.exe** [*/Option*[ */Option*[\n"
+"...]]]\n"
 msgstr ""
 "**fusioninventory-agent\\_windows-xXX\\_2.3.x.exe** [*/Option*[\n"
 "*/Option*[ …]]]\n"
@@ -59,11 +61,14 @@ msgid "**DESCRIPTION**\n"
 msgstr "**DESCRIPTION**\n"
 
 #. type: Plain text
-#, no-wrap
+#, fuzzy, no-wrap
+#| msgid ""
+#| "**fusioninventory-agent\\_windows-xXX\\_2.3.x.exe** installs\n"
+#| "FusionInventory Agent 2.3.x in your Microsoft Windows operative\n"
+#| "system with the **xXX** means x86 or x64\n"
 msgid ""
-"**fusioninventory-agent\\_windows-xXX\\_2.3.x.exe** installs\n"
-"FusionInventory Agent 2.3.x in your Microsoft Windows operative\n"
-"system with the **xXX** means x86 or x64\n"
+"**fusioninventory-agent\\_windows-x64\\_2.3.1.exe** installs\n"
+"FusionInventory Agent 2.3.1 in your Microsoft Windows operative system.\n"
 msgstr ""
 "**fusioninventory-agent\\_windows-xXX\\_2.3.x.exe** installe \n"
 "l' Agent FusionInventory 2.3.x sur votre système Microsoft Windows\n"
@@ -72,23 +77,23 @@ msgstr ""
 #. type: Plain text
 #, no-wrap
 msgid ""
-"**fusioninventory-agent\\_windows-xXX\\_2.3.x.exe** it has two types of\n"
+"**fusioninventory-agent\\_windows-x64\\_2.3.1.exe** has two types of\n"
 "installation; the **from-scratch** type, that allows to perform an\n"
 "installation of FusionInventory Agent from the beginning, based on the\n"
-"options’ default values (see below), and the **from-current-config**\n"
+"options' default values (see below), and the **from-current-config**\n"
 "type, that allows to perform an installation based on the options values\n"
-"of the current FusionInventory Agent, whether it exists. (Bear in mind\n"
-"that, with independence of the type of installation you choose, any\n"
-"existing release of FusionInventory Agent will be uninstalled\n"
-"automatically immediately before installing FusionInventory Agent\n"
-"2.3.x)\n"
+"of the FusionInventory Agent previously installed on the system, whether\n"
+"it exists (see **/installtype**). (Bear in mind that, with independence\n"
+"of the type of installation you choose, any existing release of\n"
+"FusionInventory Agent will be uninstalled automatically immediately\n"
+"before installing FusionInventory Agent 2.3.1)\n"
 msgstr ""
 
 #. type: Plain text
 #, no-wrap
 msgid ""
-"**fusioninventory-agent\\_windows-xXX\\_2.3.x.exe** also has two modes\n"
-"of installation; the *silent mode*, that allows to perform the\n"
+"**fusioninventory-agent\\_windows-x64\\_2.3.1.exe** also has two modes of\n"
+"installation; the *silent mode* (see **/S**), that allows to perform the\n"
 "installation of FusionInventory Agent in a non-interactive or unattended\n"
 "way, and the *visual mode*, that allows to perform the installation of\n"
 "FusionInventory Agent in a graphical and interactive way.\n"
@@ -97,7 +102,7 @@ msgstr ""
 #. type: Plain text
 #, no-wrap
 msgid ""
-"**fusioninventory-agent\\_windows-xXX\\_2.3.x.exe** is provided with a\n"
+"**fusioninventory-agent\\_windows-x64\\_2.3.1.exe** is provided with a\n"
 "series of options (see below) that allows to adapt the installation to\n"
 "practically any environment or need. To use these options properly it is\n"
 "essential to know the order in which values are taken into account. That\n"
@@ -162,15 +167,15 @@ msgstr ""
 #. type: Plain text
 #, no-wrap
 msgid ""
-"  - if the value contains a space or the ‘/’ sign, should go between\n"
-"single (’) or double (\") quotes (*/local=’C:\\\\FusionInventory Agent’*).\n"
+"  - if the value contains a space or the (/) character, should go between\n"
+"single (') or double (\") quotes (*/local='C:\\\\FusionInventory Agent'*).\n"
 msgstr ""
 
 #. type: Plain text
 #, no-wrap
 msgid ""
 "  - if you want to set a empty value, you must indicate a empty string\n"
-"(*/local=’’*).\n"
+"(*/local=''*).\n"
 msgstr ""
 
 #. type: Plain text
@@ -184,14 +189,20 @@ msgstr ""
 
 #. type: Plain text
 msgid ""
-"You accept and acknowledge that you have read, and understand, the terms and "
-"conditions of FusionInventory Agent 2.3.0-1 license. (By default: No)"
+"You accept and acknowledge that you have read, and understood, the terms and "
+"conditions of FusionInventory Agent 2.3.1 license. (By default: No)"
 msgstr ""
 
 #. type: Plain text
 msgid ""
 "You must use this option if you perform the installation in silent mode (see "
 "**/S**)."
+msgstr ""
+
+#. type: Plain text
+msgid ""
+"If you indicate this option on the command line, but not the **/S** option, "
+"the *visual mode* installation will omit any question about the license."
 msgstr ""
 
 #. type: Plain text
@@ -227,7 +238,7 @@ msgstr ""
 #. type: Plain text
 msgid ""
 "Absolute path to the standard certificate directory of certificate "
-"authorities (CA). (By default: “”)"
+"authorities (CA). (By default: \"\")"
 msgstr ""
 
 #. type: Plain text
@@ -242,21 +253,21 @@ msgid ""
 "A *standard certificate directory* must contain the certificate files "
 "corresponding to different certificate authorities in Privacy Enhanced Mail "
 "(PEM) format, and their names must correspond to the hash value of the "
-"certificate’s *subject* field, with extension *\\*.0*."
+"certificate's *subject* field, with extension *\\*.0*."
 msgstr ""
 
 #. type: Plain text
 msgid ""
 "For example, if you want to include the certificate file *FICert\\_Class1."
 "crt* in the directory *pathname*, you must calculate the hash value of the "
-"certificate’s *subject* field using, for example, OpenSSL"
+"certificate's *subject* field using, for example, OpenSSL"
 msgstr ""
 
 #. type: Plain text
 #, no-wrap
 msgid ""
-"\tC:\\OpenSSL> openssl.exe x509 -in C:\\FICert_Class1.crt -subject_hast -noout\n"
-"\tb760f1ce\n"
+"    C:\\OpenSSL> openssl.exe x509 -in C:\\FICert_Class1.crt -subject_hast -noout\n"
+"    b760f1ce\n"
 msgstr ""
 
 #. type: Plain text
@@ -267,7 +278,7 @@ msgstr ""
 
 #. type: Plain text
 #, no-wrap
-msgid "\tC:\\OpenSSL> move.exe C:\\FICert_Class1.crt pathname\\b760f1ce.0\n"
+msgid "    C:\\OpenSSL> move.exe C:\\FICert_Class1.crt *pathname*\\b760f1ce.0\n"
 msgstr ""
 
 #. type: Plain text
@@ -278,7 +289,7 @@ msgstr ""
 #. type: Plain text
 msgid ""
 "Full path to the certificates file of certification authorities (CA).  (By "
-"default: “”)"
+"default: \"\")"
 msgstr ""
 
 #. type: Plain text
@@ -311,7 +322,7 @@ msgstr ""
 #, no-wrap
 msgid ""
 "*URI* from where to obtain the file or files of certificate of\n"
-"authorities (CA). (By default: “”)\n"
+"authorities (CA). (By default: \"\")\n"
 msgstr ""
 
 #. type: Plain text
@@ -404,7 +415,7 @@ msgstr ""
 #. type: Plain text
 #, no-wrap
 msgid ""
-"* **Manual**: The agent doesn’t run automatically (no **Service**, no\n"
+"* **Manual**: The agent doesn't run automatically (no **Service**, no\n"
 "**Task**)\n"
 msgstr ""
 
@@ -498,7 +509,7 @@ msgstr ""
 
 #. type: Plain text
 #, no-wrap
-msgid "**/httpd-trust**={*ip*|*range*|*hostname*}[,{*ip*|*range*|*hostname*}[…]]\n"
+msgid "**/httpd-trust**={*ip*|*range*|*hostname*}[,{*ip*|*range*|*hostname*}[...]]\n"
 msgstr ""
 
 #. type: Plain text
@@ -510,34 +521,47 @@ msgstr ""
 #. type: Plain text
 #, no-wrap
 msgid ""
-"*ip* is an IP address in dot-decimal notation (ex. “127.0.0.1”) or in\n"
-"CIDR notation (ex. “127.0.0.1/32”)\n"
+"*ip* is an IP address in dot-decimal notation (ex. \"127.0.0.1\") or in\n"
+"CIDR notation (ex. \"127.0.0.1/32\")\n"
 msgstr ""
 
 #. type: Plain text
 #, no-wrap
 msgid ""
-"*range* is an IP address range in dot-decimal notation (ex. “192.168.0.0\n"
-"- 192.168.0.255” or “192.168.0.0 + 255”) or in CIDR notation (ex.\n"
-"“192.168.0.0/24”)\n"
+"*range* is an IP address range in dot-decimal notation (ex. \"192.168.0.0\n"
+"- 192.168.0.255\" or \"192.168.0.0 + 255\") or in CIDR notation (ex.\n"
+"\"192.168.0.0/24\")\n"
 msgstr ""
 
 #. type: Plain text
 #, no-wrap
-msgid "*hostname* is the name of a host (ex. “itms.acme.org”)\n"
+msgid "*hostname* is the name of a host (ex. \"itms.acme.org\")\n"
 msgstr ""
 
 #. type: Plain text
 msgid ""
-"Bear in mind that **/httpd-trust** should include the hostname part of those "
-"URIs that are set up in **/server**. The following is an example."
+"Bear in mind that **/httpd-trust** does not have to include the hostname "
+"part of those URIs that are set up in **/server** because they are tacitly "
+"included. The following is an example; both configurations are equal."
 msgstr ""
 
 #. type: Plain text
 #, no-wrap
 msgid ""
-"\t/httpd-trust=“127.0.0.1/32,itms.acme.org”\n"
-"\t/server=http://itms.acme.org/glpi/plugins/fusioninventory\n"
+"    /httpd-trust=\"127.0.0.1/32,itms.acme.org\"\n"
+"    /server=\"http://itms.acme.org/glpi/plugins/fusioninventory/\"\n"
+msgstr ""
+
+#. type: Plain text
+#, no-wrap
+msgid "    ----\n"
+msgstr ""
+
+#. type: Plain text
+#, no-wrap
+msgid ""
+"    /httpd-trust=\"127.0.0.1/32\"\n"
+"    /server=\"http://itms.acme.org/glpi/plugins/fusioninventory/\"\n"
 msgstr ""
 
 #. type: Plain text
@@ -558,7 +582,7 @@ msgstr ""
 
 #. type: Plain text
 #, no-wrap
-msgid "**/installtasks**={*task*[,*task*[…]]|*macro*}\n"
+msgid "**/installtasks**={*task*[,*task*[...]]|*macro*}\n"
 msgstr ""
 
 #. type: Plain text
@@ -629,9 +653,20 @@ msgstr ""
 #. type: Plain text
 msgid ""
 "Selects between an installation from the beginning (**from-scratch**)  or, "
-"whether you have currently an agent installed, an installation based on the "
-"current configuration (**from-current-config**). (By default: **from-current-"
-"config**)"
+"whether the system has a previously installed agent, an installation based "
+"on the current configuration (**from-current-config**). (By default: **from-"
+"current-config**)"
+msgstr ""
+
+#. type: Plain text
+msgid ""
+"The installer automatically switches from **from-current-config** to **from-"
+"scratch** whether it's not able to detect a FusionInventory Agent previously "
+"installed on the system. This behaviour makes unnecesary to have to indicate "
+"**/installtype**=**from-scratch** to perform a FusionInventory Agent "
+"installation on those systems in which it doesn't exist previously and, at "
+"the same time, facillitates the update of FusionInventory Agent on those "
+"systems in which it exists."
 msgstr ""
 
 #. type: Plain text
@@ -642,12 +677,12 @@ msgstr ""
 #. type: Plain text
 msgid ""
 "Writes the results of tasks execution into the given directory. (By default: "
-"“”)"
+"\"\")"
 msgstr ""
 
 #. type: Plain text
 msgid ""
-"You must indicate an absolute pathname or an empty string (“”). If you "
+"You must indicate an absolute pathname or an empty string (\"\"). If you "
 "indicate an empty string, the results of tasks execution will not be written "
 "locally."
 msgstr ""
@@ -669,7 +704,7 @@ msgstr ""
 
 #. type: Plain text
 msgid ""
-"You must indicate an full path in *filename*. The **/local** option comes "
+"You must indicate a full path in *filename*. The **/local** option comes "
 "into play only if you have also indicated **File** as a value of the **/"
 "logger** option."
 msgstr ""
@@ -709,11 +744,12 @@ msgstr ""
 
 #. type: Plain text
 #, no-wrap
-msgid "**/no-category**=*category*[,*category*[…]]\n"
+msgid "**/no-category**=*category*[,*category*[...]]\n"
 msgstr ""
 
 #. type: Plain text
-msgid "Do not inventory the indicated categories of elements. (By default: “”)"
+msgid ""
+"Do not inventory the indicated categories of elements. (By default: \"\")"
 msgstr ""
 
 #. type: Plain text
@@ -732,7 +768,7 @@ msgstr ""
 #. type: Plain text
 #, no-wrap
 msgid ""
-"* **Process**: System’s processes (has no effect on Microsoft Windows\n"
+"* **Process**: System's processes (has no effect on Microsoft Windows\n"
 "systems)\n"
 msgstr ""
 
@@ -746,7 +782,7 @@ msgstr ""
 
 #. type: Plain text
 msgid ""
-"If you indicate an empty string (“”), all categories of elements will be "
+"If you indicate an empty string (\"\"), all categories of elements will be "
 "inventoried."
 msgstr ""
 
@@ -800,15 +836,32 @@ msgstr ""
 
 #. type: Plain text
 #, no-wrap
-msgid "**/no-task**=*task*[,*task*[…]]\n"
+msgid "**/no-start-menu**\n"
 msgstr ""
 
 #. type: Plain text
-msgid "Disables the given tasks. (By default: “”)"
+msgid ""
+"Do not create the *FusionInventory Agent* folder on the Start Menu. (By "
+"default: No)"
 msgstr ""
 
 #. type: Plain text
-msgid "If you indicate an empty string (“”), all tasks will be executed."
+msgid ""
+"The *FusionInventory Agent* folder, whether it is created, it is for all "
+"users."
+msgstr ""
+
+#. type: Plain text
+#, no-wrap
+msgid "**/no-task**=*task*[,*task*[...]]\n"
+msgstr ""
+
+#. type: Plain text
+msgid "Disables the given tasks. (By default: \"\")"
+msgstr ""
+
+#. type: Plain text
+msgid "If you indicate an empty string (\"\"), all tasks will be executed."
 msgstr ""
 
 #. type: Plain text
@@ -828,7 +881,8 @@ msgid "**/password**=*password*\n"
 msgstr ""
 
 #. type: Plain text
-msgid "Uses *password* as password for server authentication. (By default: “”)"
+msgid ""
+"Uses *password* as password for server authentication. (By default: \"\")"
 msgstr ""
 
 #. type: Plain text
@@ -843,7 +897,7 @@ msgid "**/proxy**=*URI*\n"
 msgstr ""
 
 #. type: Plain text
-msgid "Uses *URI* as HTTP/S proxy server. (By default: “”)"
+msgid "Uses *URI* as HTTP/S proxy server. (By default: \"\")"
 msgstr ""
 
 #. type: Plain text
@@ -883,16 +937,16 @@ msgstr ""
 
 #. type: Plain text
 #, no-wrap
-msgid "**/server**=*URI*[,*URI*[…]]\n"
+msgid "**/server**=*URI*[,*URI*[...]]\n"
 msgstr ""
 
 #. type: Plain text
-msgid "Sends results of tasks execution to given servers. (By default: “”)"
+msgid "Sends results of tasks execution to given servers. (By default: \"\")"
 msgstr ""
 
 #. type: Plain text
 msgid ""
-"If you indicate an empty string (“”), the results of tasks execution will "
+"If you indicate an empty string (\"\"), the results of tasks execution will "
 "not be written remotely."
 msgstr ""
 
@@ -913,11 +967,22 @@ msgstr ""
 
 #. type: Plain text
 #, no-wrap
+msgid "**/start-menu**\n"
+msgstr ""
+
+#. type: Plain text
+msgid ""
+"This option is the opposite of **/no-start-menu**. See **/no-start-menu** "
+"for more information."
+msgstr ""
+
+#. type: Plain text
+#, no-wrap
 msgid "**/tag**=*tag*\n"
 msgstr ""
 
 #. type: Plain text
-msgid "Marks the computer with the tag *tag* . (By default: “”)"
+msgid "Marks the computer with the tag *tag* . (By default: \"\")"
 msgstr ""
 
 #. type: Plain text
@@ -931,7 +996,7 @@ msgstr ""
 
 #. type: Plain text
 #, no-wrap
-msgid "*modifier* can takes values between 1 and 30, both included.\n"
+msgid "*modifier* can take values between 1 and 30, both included.\n"
 msgstr ""
 
 #. type: Plain text
@@ -977,7 +1042,7 @@ msgstr ""
 
 #. type: Plain text
 #, no-wrap
-msgid "*modifier* can takes values between 1 and 23, both included.\n"
+msgid "*modifier* can take values between 1 and 23, both included.\n"
 msgstr ""
 
 #. type: Plain text
@@ -1029,7 +1094,7 @@ msgid "**/user**=*user*\n"
 msgstr ""
 
 #. type: Plain text
-msgid "Uses *user* as user for server authentication. (By default: “”)"
+msgid "Uses *user* as user for server authentication. (By default: \"\")"
 msgstr ""
 
 #. type: Plain text
@@ -1050,7 +1115,7 @@ msgstr ""
 
 #. type: Plain text
 msgid ""
-"This help is current for version 2.2.9902 of FusionInventory Agent’s "
+"This help is current for version 2.2.9903 of FusionInventory Agent's "
 "installer for Microsoft Windows."
 msgstr ""
 
@@ -1127,3 +1192,10 @@ msgid ""
 "agent-windows-installer/files \"http://forge.fusioninventory.org/projects/"
 "fusioninventory-agent-windows-installer/files\").\"\"\"]]"
 msgstr ""
+
+#~ msgid ""
+#~ "**fusioninventory-agent\\_windows-x86\\_2.3.x.exe** – FusionInventory\n"
+#~ "Agent 2.3.x (x86 edition) Setup\n"
+#~ msgstr ""
+#~ "**fusioninventory-agent\\_windows-x86\\_2.3.x.exe** – Installeur \n"
+#~ "FusionInventory Agent 2.3.0-1 (x86 édition)\n"
