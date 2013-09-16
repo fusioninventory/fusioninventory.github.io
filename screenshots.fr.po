@@ -48,12 +48,12 @@ msgstr "FusionInventory for GLPI"
 #. type: Plain text
 #, no-wrap
 msgid "[[!img documentation/agent/installation/windows/windows-installer-2.3.x-screen-002-welcome.png alt=\"Welcome\"]]\n"
-msgstr ""
+msgstr "[[!img documentation/agent/installation/windows/windows-installer-2.3.x-screen-002-welcome_fr.png alt=\"Welcome\"]]\n"
 
 #. type: Plain text
 #, no-wrap
 msgid "[[!img documentation/agent/installation/windows/windows-installer-2.3.x-screen-004-installation-type.png alt=\"Installation Type\"]]\n"
-msgstr ""
+msgstr "[!img documentation/agent/installation/windows/windows-installer-2.3.x-screen-004-installation-type_fr.png alt=\"Installation Type\"]]\n"
 
 #. type: Plain text
 #, fuzzy, no-wrap
