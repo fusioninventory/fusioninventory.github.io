@@ -120,11 +120,11 @@ Also confirm if you have these folders accessible to apache: /glpi/files/_plugin
 Once you have submit __sysdescr__, a form appear with possibility to upload an
 snmpwalk file.  The command to generate this file is on the interface:
 
-    # snmpwalk -v [version] -Cc -On -c [community] [yourip] .1 > file.log
+    # snmpwalk -v [version] -Cc -On -t 30 -c [community] [yourip] .1 > file.log
 
 For example:
 
-    # snmpwalk -v 2c -Cc -On -c public 192.168.0.10 .1 > file.log
+    # snmpwalk -v 2c -Cc -On -t 30 -c public 192.168.0.10 .1 > file.log
 
 [[!img screenshots/snmpmodels-upload_snmpwalk.png]]
 
