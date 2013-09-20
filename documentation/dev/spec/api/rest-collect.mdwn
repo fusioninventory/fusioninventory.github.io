@@ -131,6 +131,8 @@ The answer structure is always a array of key/val hash.
 
 ###  runCommand
 
+[[!template  id=warning text="Function disabled for the moment."]]
+
 * output: "blabla",
 * errorMsg: "an optional error message in english",
 * uuid: "drf"
