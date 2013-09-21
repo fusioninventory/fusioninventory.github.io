@@ -53,7 +53,7 @@ msgstr ""
 "Microsoft Windows [ici](http://forge.fusioninventory.org/projects/"
 "fusioninventory-agent-windows-installer/files \"http://forge.fusioninventory."
 "org/projects/fusioninventory-agent-windows-installer/files\"). Le nom du "
-"fichier de l'Installeur suit cette notation :"
+"fichier de l'Installeur suit cette notation:"
 
 #. type: Plain text
 #, no-wrap
@@ -83,7 +83,7 @@ msgid ""
 "Windows."
 msgstr ""
 "Quelques notes à propos du nouvel Installeur de l'Agent FusionInventory pour "
-"Microsoft Windows :"
+"Microsoft Windows:"
 
 #. type: Bullet: '* '
 msgid ""
@@ -146,7 +146,7 @@ msgid ""
 "the following ways:"
 msgstr ""
 "Le manuel est intégré dans l'installeur. Vous pouvez l'afficher selon les "
-"méthodes suivantes :"
+"méthodes suivantes:"
 
 #. type: Bullet: '*         '
 msgid "C:\\> fusioninventory-agent_windows-<platform>_<version>.exe /help"
@@ -165,7 +165,7 @@ msgstr ""
 #. type: Plain text
 #, no-wrap
 msgid "[[!template id=info text=\"It's recommended read this documentation completely each time a new version is released; the new FusionInventory Agent installer for Microsoft Windows is still young and it's in a constant process of improvement, including its manual.\"]]\n"
-msgstr "[[!template id=info text=\"Il est recommandé de lire la documentation complètement à chaque nouvelle version majeur ; Le nouvel installeur de l'Agent FusionInventory est récent et il est en constante évolution , inclu le manuel.\"]]\n"
+msgstr "[[!template id=info text=\"Il est recommandé de lire la documentation complètement à chaque nouvelle version majeur; Le nouvel installeur de l'Agent FusionInventory est récent et il est en constante évolution, inclu le manuel.\"]]\n"
 
 #. type: Title ##
 #, no-wrap
