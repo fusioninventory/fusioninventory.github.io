@@ -1,4 +1,4 @@
-[[!template id=info text="La siguiente información ha sido obtenida de *fusioninventory-agent\_windows-x64\_2.3.1.exe*, el instalador para arquitecturas x64, pero es además válida para *fusioninventory-agent\_windows-x86\_2.3.1.exe*, el instalador para architecturas x86.."]]
+[[!template id=info text="La siguiente información ha sido obtenida de *fusioninventory-agent\_windows-x64\_2.3.2.exe*, el instalador para arquitecturas x64, pero es además válida para *fusioninventory-agent\_windows-x86\_2.3.2.exe*, el instalador para architecturas x86.."]]
 
 **NOMBRE**
 
