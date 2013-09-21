@@ -1,21 +1,21 @@
-[[!template id=info text="The following information has been obtained from *fusioninventory-agent\_windows-x64\_2.3.1.exe*, the installer for x64 architectures, but it's also valid for *fusioninventory-agent\_windows-x86\_2.3.1.exe*, the installer for x86 architectures."]]
+[[!template id=info text="The following information has been obtained from *fusioninventory-agent\_windows-x64\_2.3.2.exe*, the installer for x64 architectures, but it's also valid for *fusioninventory-agent\_windows-x86\_2.3.2.exe*, the installer for x86 architectures."]]
 
 **NAME**
 
-**fusioninventory-agent\_windows-x64\_2.3.1.exe** -- FusionInventory
-Agent 2.3.1 (x64 edition) Setup
+**fusioninventory-agent\_windows-x64\_2.3.2.exe** -- FusionInventory
+Agent 2.3.2 (x64 edition) Setup
 
 **SYNOPSIS**
 
-**fusioninventory-agent\_windows-x64\_2.3.1.exe** [*/Option*[ */Option*[
+**fusioninventory-agent\_windows-x64\_2.3.2.exe** [*/Option*[ */Option*[
 ...]]]
 
 **DESCRIPTION**
 
-**fusioninventory-agent\_windows-x64\_2.3.1.exe** installs
-FusionInventory Agent 2.3.1 in your Microsoft Windows operative system.
+**fusioninventory-agent\_windows-x64\_2.3.2.exe** installs
+FusionInventory Agent 2.3.2 in your Microsoft Windows operative system.
 
-**fusioninventory-agent\_windows-x64\_2.3.1.exe** has two types of
+**fusioninventory-agent\_windows-x64\_2.3.2.exe** has two types of
 installation; the **from-scratch** type, that allows to perform an
 installation of FusionInventory Agent from the beginning, based on the
 options' default values (see below), and the **from-current-config**
@@ -24,15 +24,15 @@ of the FusionInventory Agent previously installed on the system, whether
 it exists (see **/installtype**). (Bear in mind that, with independence
 of the type of installation you choose, any existing release of
 FusionInventory Agent will be uninstalled automatically immediately
-before installing FusionInventory Agent 2.3.1)
+before installing FusionInventory Agent 2.3.2)
 
-**fusioninventory-agent\_windows-x64\_2.3.1.exe** also has two modes of
+**fusioninventory-agent\_windows-x64\_2.3.2.exe** also has two modes of
 installation; the *silent mode* (see **/S**), that allows to perform the
 installation of FusionInventory Agent in a non-interactive or unattended
 way, and the *visual mode*, that allows to perform the installation of
 FusionInventory Agent in a graphical and interactive way.
 
-**fusioninventory-agent\_windows-x64\_2.3.1.exe** is provided with a
+**fusioninventory-agent\_windows-x64\_2.3.2.exe** is provided with a
 series of options (see below) that allows to adapt the installation to
 practically any environment or need. To use these options properly it is
 essential to know the order in which values are taken into account. That
@@ -74,7 +74,7 @@ These are the command line options available:
 **/acceptlicense**
 
 You accept and acknowledge that you have read, and understood, the terms
-and conditions of FusionInventory Agent 2.3.1 license. (By default: No)
+and conditions of FusionInventory Agent 2.3.2 license. (By default: No)
 
 You must use this option if you perform the installation in silent mode
 (see **/S**).

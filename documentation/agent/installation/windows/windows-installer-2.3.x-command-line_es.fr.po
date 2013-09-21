@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2013-09-15 16:31+0000\n"
+"POT-Creation-Date: 2013-09-21 00:36+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -18,12 +18,7 @@ msgstr ""
 
 #. type: Plain text
 #, no-wrap
-msgid ""
-"[[!template id=info text=\"La siguiente información ha sido obtenida de "
-"*fusioninventory-agent\\_windows-x64\\_2.3.1.exe*, el instalador para "
-"arquitecturas x64, pero es además válida para "
-"*fusioninventory-agent\\_windows-x86\\_2.3.1.exe*, el instalador para "
-"architecturas x86..\"]]\n"
+msgid "[[!template id=info text=\"La siguiente información ha sido obtenida de *fusioninventory-agent\\_windows-x64\\_2.3.2.exe*, el instalador para arquitecturas x64, pero es además válida para *fusioninventory-agent\\_windows-x86\\_2.3.2.exe*, el instalador para architecturas x86..\"]]\n"
 msgstr ""
 
 #. type: Plain text
@@ -34,8 +29,8 @@ msgstr ""
 #. type: Plain text
 #, no-wrap
 msgid ""
-"**fusioninventory-agent\\_windows-x64\\_2.3.1.exe** -- FusionInventory\n"
-"Agent 2.3.1 (x64 edition) Setup\n"
+"**fusioninventory-agent\\_windows-x64\\_2.3.2.exe** -- FusionInventory\n"
+"Agent 2.3.2 (x64 edition) Setup\n"
 msgstr ""
 
 #. type: Plain text
@@ -46,7 +41,7 @@ msgstr ""
 #. type: Plain text
 #, no-wrap
 msgid ""
-"**fusioninventory-agent\\_windows-x64\\_2.3.1.exe** [*/Opción*[ */Opción*[\n"
+"**fusioninventory-agent\\_windows-x64\\_2.3.2.exe** [*/Opción*[ */Opción*[\n"
 "...]]]\n"
 msgstr ""
 
@@ -58,14 +53,14 @@ msgstr ""
 #. type: Plain text
 #, no-wrap
 msgid ""
-"**fusioninventory-agent\\_windows-x64\\_2.3.1.exe** instala\n"
-"FusionInventory Agent 2.3.1 en su sistema operativo Microsoft Windows.\n"
+"**fusioninventory-agent\\_windows-x64\\_2.3.2.exe** instala\n"
+"FusionInventory Agent 2.3.2 en su sistema operativo Microsoft Windows.\n"
 msgstr ""
 
 #. type: Plain text
 #, no-wrap
 msgid ""
-"**fusioninventory-agent\\_windows-x64\\_2.3.1.exe** dispone de dos tipos\n"
+"**fusioninventory-agent\\_windows-x64\\_2.3.2.exe** dispone de dos tipos\n"
 "de instalación; el tipo **from-scratch**, que permite realizar una\n"
 "instalación de FusionInventory Agent desde cero, basada en los valores\n"
 "por defecto de las opciones (ver abajo), y el tipo\n"
@@ -74,13 +69,13 @@ msgid ""
 "en el sistema, si existe (ver **/installtype**). (Tenga en cuenta que,\n"
 "con independencia del tipo de instalación que elija, cualquier versión\n"
 "existente de FusionInventory Agent será desinstalada automáticamente\n"
-"inmediatamente antes de instalar FusionInventory Agent 2.3.1)\n"
+"inmediatamente antes de instalar FusionInventory Agent 2.3.2)\n"
 msgstr ""
 
 #. type: Plain text
 #, no-wrap
 msgid ""
-"**fusioninventory-agent\\_windows-x64\\_2.3.1.exe** dispone también de dos\n"
+"**fusioninventory-agent\\_windows-x64\\_2.3.2.exe** dispone también de dos\n"
 "modos de instalación; el *modo silencioso* (ver **/S**), que permite\n"
 "realizar la instalación de FusionInventory Agent de un modo\n"
 "no-interactivo o desatendido, y el *modo visual*, que permite realizar\n"
@@ -91,7 +86,7 @@ msgstr ""
 #. type: Plain text
 #, no-wrap
 msgid ""
-"**fusioninventory-agent\\_windows-x64\\_2.3.1.exe** cuenta con una serie\n"
+"**fusioninventory-agent\\_windows-x64\\_2.3.2.exe** cuenta con una serie\n"
 "de opciones (ver abajo) que permite adaptar la instalación a\n"
 "prácticamente cualquier entorno o necesidad. Para emplear estas opciones\n"
 "adecuadamente es esencial conocer el orden en que los valores son\n"
@@ -185,13 +180,13 @@ msgstr ""
 #. type: Plain text
 msgid ""
 "Acepta y reconoce que ha leído y entendido los términos y condiciones de la "
-"licencia de FusionInventory Agent 2.3.1. (Por defecto: No)"
+"licencia de FusionInventory Agent 2.3.2. (Por defecto: No)"
 msgstr ""
 
 #. type: Plain text
 msgid ""
-"Debe usar esta opción si realiza la instalación en modo silencioso (ver "
-"**/S**)."
+"Debe usar esta opción si realiza la instalación en modo silencioso (ver **/"
+"S**)."
 msgstr ""
 
 #. type: Plain text
@@ -213,7 +208,6 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#:    
 msgid "Por hacer"
 msgstr ""
 
@@ -224,8 +218,8 @@ msgstr ""
 
 #. type: Plain text
 msgid ""
-"Tiempo límite para la ejecución de los módulos de la tarea "
-"**Inventory**. (Por defecto: 180 segundos)"
+"Tiempo límite para la ejecución de los módulos de la tarea **Inventory**. "
+"(Por defecto: 180 segundos)"
 msgstr ""
 
 #. type: Plain text
@@ -241,9 +235,9 @@ msgstr ""
 
 #. type: Plain text
 msgid ""
-"El uso de esta opción es incompatible con el uso de la opción "
-"**/ca-cert-file**. Las opciones **/ca-cert-dir** y **/ca-cert-file** son "
-"mutuamente excluyentes."
+"El uso de esta opción es incompatible con el uso de la opción **/ca-cert-"
+"file**. Las opciones **/ca-cert-dir** y **/ca-cert-file** son mutuamente "
+"excluyentes."
 msgstr ""
 
 #. type: Plain text
@@ -257,17 +251,15 @@ msgstr ""
 
 #. type: Plain text
 msgid ""
-"Por ejemplo, si desea incluir el fichero de certificado "
-"*FICert\\_Class1.crt* en el directorio *pathname*, debe calcular el valor "
-"*hash* del campo *subject* del certificado haciendo uso de, por ejemplo, "
-"OpenSSL"
+"Por ejemplo, si desea incluir el fichero de certificado *FICert\\_Class1."
+"crt* en el directorio *pathname*, debe calcular el valor *hash* del campo "
+"*subject* del certificado haciendo uso de, por ejemplo, OpenSSL"
 msgstr ""
 
 #. type: Plain text
 #, no-wrap
 msgid ""
-"    C:\\OpenSSL> openssl.exe x509 -in C:\\FICert_Class1.crt -subject_hast "
-"-noout\n"
+"    C:\\OpenSSL> openssl.exe x509 -in C:\\FICert_Class1.crt -subject_hast -noout\n"
 "    b760f1ce\n"
 msgstr ""
 
@@ -295,9 +287,9 @@ msgstr ""
 
 #. type: Plain text
 msgid ""
-"El uso de esta opción es incompatible con el uso de la opción "
-"**/ca-cert-dir**. Las opciones **/ca-cert-dir** y **/ca-cert-file** son "
-"mutuamente excluyentes."
+"El uso de esta opción es incompatible con el uso de la opción **/ca-cert-"
+"dir**. Las opciones **/ca-cert-dir** y **/ca-cert-file** son mutuamente "
+"excluyentes."
 msgstr ""
 
 #. type: Plain text
@@ -328,8 +320,8 @@ msgstr ""
 
 #. type: Plain text
 msgid ""
-"El uso de esta opción requiere del uso conjunto de las opciones "
-"**/ca-cert-dir** o **/ca-cert-file**, pero no de ambas."
+"El uso de esta opción requiere del uso conjunto de las opciones **/ca-cert-"
+"dir** o **/ca-cert-file**, pero no de ambas."
 msgstr ""
 
 #. type: Plain text
@@ -373,8 +365,7 @@ msgstr ""
 #. type: Plain text
 msgid ""
 "Esta opción se omite para los destinos remotos después del primer contacto "
-"con cada uno, en favor del parámetro específico del servidor "
-"(PROLOG\\_FREQ)."
+"con cada uno, en favor del parámetro específico del servidor (PROLOG\\_FREQ)."
 msgstr ""
 
 #. type: Plain text
@@ -538,8 +529,7 @@ msgstr ""
 #, no-wrap
 msgid ""
 "*range* es un rango de direcciones IP en notación decimal con puntos\n"
-"(ej. \"192.168.0.0 - 192.168.0.255\" o \"192.168.0.0 + 255\") o en "
-"notación\n"
+"(ej. \"192.168.0.0 - 192.168.0.255\" o \"192.168.0.0 + 255\") o en notación\n"
 "CIDR (ej. \"192.168.0.0/24\")\n"
 msgstr ""
 
@@ -582,8 +572,8 @@ msgstr ""
 
 #. type: Plain text
 msgid ""
-"Establece el directorio base de instalación del agente. (Por defecto: "
-"C:\\\\Program Files\\\\FusionInventory-Agent)"
+"Establece el directorio base de instalación del agente. (Por defecto: C:\\"
+"\\Program Files\\\\FusionInventory-Agent)"
 msgstr ""
 
 #. type: Plain text
@@ -601,38 +591,31 @@ msgid "Selecciona las tareas a instalar. (Por defecto: **Default**)"
 msgstr ""
 
 #. type: Plain text
-#:  
 #, no-wrap
 msgid "*task* puede ser cualquiera de los siguientes valores:\n"
 msgstr ""
 
 #. type: Bullet: '* '
-#:  
 msgid "**Deploy**: Tarea Deploy"
 msgstr ""
 
 #. type: Bullet: '* '
-#:  
 msgid "**ESX**: Tarea ESX"
 msgstr ""
 
 #. type: Bullet: '* '
-#:  
 msgid "**Inventory**: Tarea Inventory"
 msgstr ""
 
 #. type: Bullet: '* '
-#:  
 msgid "**NetDiscovery**: Tarea NetDiscovery"
 msgstr ""
 
 #. type: Bullet: '* '
-#:  
 msgid "**NetInventory**: Tarea NetInventory"
 msgstr ""
 
 #. type: Bullet: '* '
-#:  
 msgid "**WakeOnLan**: Tarea WakeOnLan"
 msgstr ""
 
@@ -673,16 +656,16 @@ msgstr ""
 msgid ""
 "Selecciona entre una instalación desde cero (**from-scratch**) o, si el "
 "sistema tiene un agente previamente instalado, una instalación basada en la "
-"configuración actual (**from-current-config**). (Por defecto: "
-"**from-current-config**)"
+"configuración actual (**from-current-config**). (Por defecto: **from-current-"
+"config**)"
 msgstr ""
 
 #. type: Plain text
 msgid ""
-"El instalador cambia automáticamente de **from-current-config** a "
-"**from-scratch** si no es capaz de detectar un agente instalado previamente "
-"en el sistema. Este comportamiento hace innecesario tener que indicar "
-"**/installtype**=**from-scratch** para realizar una instalación de "
+"El instalador cambia automáticamente de **from-current-config** a **from-"
+"scratch** si no es capaz de detectar un agente instalado previamente en el "
+"sistema. Este comportamiento hace innecesario tener que indicar **/"
+"installtype**=**from-scratch** para realizar una instalación de "
 "FusionInventory Agent en aquellos sistemas en los que no existe con "
 "anterioridad y, al mismo tiempo, facilita la actualización de "
 "FusionInventory Agent en aquellos sistemas en los que existe."
@@ -717,8 +700,8 @@ msgstr ""
 
 #. type: Plain text
 msgid ""
-"Escribe los mensajes de registro en el archivo *filename*. (Por defecto: "
-"C:\\\\Program Files\\\\FusionInventory-Agent\\\\fusioninventory-agent.log)"
+"Escribe los mensajes de registro en el archivo *filename*. (Por defecto: C:\\"
+"\\Program Files\\\\FusionInventory-Agent\\\\fusioninventory-agent.log)"
 msgstr ""
 
 #. type: Plain text
@@ -754,7 +737,8 @@ msgid "*backend* puede ser cualquiera de los siguientes valores:\n"
 msgstr ""
 
 #. type: Bullet: '* '
-msgid "**File**: Envía los mensajes de registro a un fichero (ver **/logfile**)"
+msgid ""
+"**File**: Envía los mensajes de registro a un fichero (ver **/logfile**)"
 msgstr ""
 
 #. type: Bullet: '* '
@@ -812,7 +796,8 @@ msgid "**/no-html**\n"
 msgstr ""
 
 #. type: Plain text
-msgid "Esta opción es la opuesta a **/html**. Ver **/html** para más información."
+msgid ""
+"Esta opción es la opuesta a **/html**. Ver **/html** para más información."
 msgstr ""
 
 #. type: Plain text
@@ -901,8 +886,8 @@ msgstr ""
 
 #. type: Plain text
 msgid ""
-"Emplea *password* como palabra de paso en la autenticación con el "
-"servidor. (Por defecto: \"\")"
+"Emplea *password* como palabra de paso en la autenticación con el servidor. "
+"(Por defecto: \"\")"
 msgstr ""
 
 #. type: Plain text
@@ -926,7 +911,8 @@ msgid "**/runnow**\n"
 msgstr ""
 
 #. type: Plain text
-msgid "Lanza el agente inmediatamente después de su instalación. (Por defecto: No)"
+msgid ""
+"Lanza el agente inmediatamente después de su instalación. (Por defecto: No)"
 msgstr ""
 
 #. type: Plain text
@@ -1049,7 +1035,8 @@ msgid ""
 msgstr ""
 
 #. type: Bullet: '* '
-msgid "**Hourly**: En intervalos de hora (ver opción **/task-hourly-modifier**)"
+msgid ""
+"**Hourly**: En intervalos de hora (ver opción **/task-hourly-modifier**)"
 msgstr ""
 
 #. type: Bullet: '* '
@@ -1082,7 +1069,8 @@ msgid "**/task-minute-modifier**=*modifier*\n"
 msgstr ""
 
 #. type: Plain text
-msgid "Modificador de planificador de tareas por minutos. (Por defecto: 15 minutos)"
+msgid ""
+"Modificador de planificador de tareas por minutos. (Por defecto: 15 minutos)"
 msgstr ""
 
 #. type: Plain text
@@ -1172,7 +1160,9 @@ msgid "Gestor del Proyecto"
 msgstr ""
 
 #. type: Bullet: '* '
-msgid "http://forge.fusioninventory.org/projects/fusioninventory-agent-windows-installer"
+msgid ""
+"http://forge.fusioninventory.org/projects/fusioninventory-agent-windows-"
+"installer"
 msgstr ""
 
 #. type: Plain text
@@ -1183,10 +1173,9 @@ msgstr ""
 #. type: Plain text
 msgid ""
 "Copyright 2012-2013 FusionInventory Team. GNU GPL versión 2 o (en su "
-"opinión) cualquier versión posterior "
-"\\<http://www.gnu.org/licenses/old-licenses/gpl-2.0-standalone.html\\>.  "
-"Esto es *software* libre, es libre de cambiarlo y distribuirlo. Este "
-"programa se ofrece SIN GARANTÍA ALGUNA."
+"opinión) cualquier versión posterior \\<http://www.gnu.org/licenses/old-"
+"licenses/gpl-2.0-standalone.html\\>.  Esto es *software* libre, es libre de "
+"cambiarlo y distribuirlo. Este programa se ofrece SIN GARANTÍA ALGUNA."
 msgstr ""
 
 #. type: Plain text
@@ -1214,7 +1203,7 @@ msgstr ""
 #. type: Plain text
 msgid ""
 "[[!template id=info text=\"\"\"Puede descargar la versión PDF de este "
-"documento "
-"[aquí](http://forge.fusioninventory.org/projects/fusioninventory-agent-windows-installer/files "
-"\"http://forge.fusioninventory.org/projects/fusioninventory-agent-windows-installer/files\").\"\"\"]]"
+"documento [aquí](http://forge.fusioninventory.org/projects/fusioninventory-"
+"agent-windows-installer/files \"http://forge.fusioninventory.org/projects/"
+"fusioninventory-agent-windows-installer/files\").\"\"\"]]"
 msgstr ""
