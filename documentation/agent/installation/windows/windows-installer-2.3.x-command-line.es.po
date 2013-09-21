@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2013-09-15 15:56+0000\n"
+"POT-Creation-Date: 2013-09-21 00:31+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -29,8 +29,8 @@ msgstr ""
 #. type: Plain text
 #, no-wrap
 msgid ""
-"**fusioninventory-agent\\_windows-x64\\_2.3.1.exe** -- FusionInventory\n"
-"Agent 2.3.1 (x64 edition) Setup\n"
+"**fusioninventory-agent\\_windows-x64\\_2.3.2.exe** -- FusionInventory\n"
+"Agent 2.3.2 (x64 edition) Setup\n"
 msgstr ""
 
 #. type: Plain text
@@ -41,7 +41,7 @@ msgstr ""
 #. type: Plain text
 #, no-wrap
 msgid ""
-"**fusioninventory-agent\\_windows-x64\\_2.3.1.exe** [*/Option*[ */Option*[\n"
+"**fusioninventory-agent\\_windows-x64\\_2.3.2.exe** [*/Option*[ */Option*[\n"
 "...]]]\n"
 msgstr ""
 
@@ -53,14 +53,14 @@ msgstr ""
 #. type: Plain text
 #, no-wrap
 msgid ""
-"**fusioninventory-agent\\_windows-x64\\_2.3.1.exe** installs\n"
-"FusionInventory Agent 2.3.1 in your Microsoft Windows operative system.\n"
+"**fusioninventory-agent\\_windows-x64\\_2.3.2.exe** installs\n"
+"FusionInventory Agent 2.3.2 in your Microsoft Windows operative system.\n"
 msgstr ""
 
 #. type: Plain text
 #, no-wrap
 msgid ""
-"**fusioninventory-agent\\_windows-x64\\_2.3.1.exe** has two types of\n"
+"**fusioninventory-agent\\_windows-x64\\_2.3.2.exe** has two types of\n"
 "installation; the **from-scratch** type, that allows to perform an\n"
 "installation of FusionInventory Agent from the beginning, based on the\n"
 "options' default values (see below), and the **from-current-config**\n"
@@ -69,13 +69,13 @@ msgid ""
 "it exists (see **/installtype**). (Bear in mind that, with independence\n"
 "of the type of installation you choose, any existing release of\n"
 "FusionInventory Agent will be uninstalled automatically immediately\n"
-"before installing FusionInventory Agent 2.3.1)\n"
+"before installing FusionInventory Agent 2.3.2)\n"
 msgstr ""
 
 #. type: Plain text
 #, no-wrap
 msgid ""
-"**fusioninventory-agent\\_windows-x64\\_2.3.1.exe** also has two modes of\n"
+"**fusioninventory-agent\\_windows-x64\\_2.3.2.exe** also has two modes of\n"
 "installation; the *silent mode* (see **/S**), that allows to perform the\n"
 "installation of FusionInventory Agent in a non-interactive or unattended\n"
 "way, and the *visual mode*, that allows to perform the installation of\n"
@@ -85,7 +85,7 @@ msgstr ""
 #. type: Plain text
 #, no-wrap
 msgid ""
-"**fusioninventory-agent\\_windows-x64\\_2.3.1.exe** is provided with a\n"
+"**fusioninventory-agent\\_windows-x64\\_2.3.2.exe** is provided with a\n"
 "series of options (see below) that allows to adapt the installation to\n"
 "practically any environment or need. To use these options properly it is\n"
 "essential to know the order in which values are taken into account. That\n"
@@ -173,7 +173,7 @@ msgstr ""
 #. type: Plain text
 msgid ""
 "You accept and acknowledge that you have read, and understood, the terms and "
-"conditions of FusionInventory Agent 2.3.1 license. (By default: No)"
+"conditions of FusionInventory Agent 2.3.2 license. (By default: No)"
 msgstr ""
 
 #. type: Plain text
