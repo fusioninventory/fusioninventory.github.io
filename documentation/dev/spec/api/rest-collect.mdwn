@@ -46,6 +46,7 @@ path can finish with a wildcare, in such case, all the key/value of the current 
           "function" : "findFile",
           "limit" : 5, # Number of entry to look for, default is 50
           "recursive" : 0,
+          "dir": "/home" # Where to start the search, default is /
           "filter" : // filter and its content is optional
               {
                           "regex" : "\d{4}\.bmp$",// regex done on the full path
