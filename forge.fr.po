@@ -36,7 +36,7 @@ msgid ""
 "org/>."
 msgstr ""
 "Le développement est fait sur la Forge FusionInventory : <http://forge."
-"fusioninventory."
+"fusioninventory.org/>"
 
 #. type: Plain text
 msgid ""
