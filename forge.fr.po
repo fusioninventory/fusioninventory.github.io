@@ -75,6 +75,8 @@ msgid ""
 "FusionInventory developers maintain some document in the [[dev pages|"
 "documentation/dev]]."
 msgstr ""
+"Les développeurs de FusionInventory maintiennent quelques documents dans "
+"les [[pages dédiées|documentation/dev]]."
 
 #. type: Plain text
 msgid "[[You can find who to contact us here|resources]]."
