@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2013-10-03 10:49+0000\n"
+"POT-Creation-Date: 2013-10-04 21:08+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -199,6 +199,10 @@ msgstr ""
 #. type: Title ###
 #, no-wrap
 msgid "getFromRegistry"
+msgstr ""
+
+#. type: Plain text
+msgid "Returns undef in case of error or an array of the following hash:"
 msgstr ""
 
 #. type: Bullet: '* '
