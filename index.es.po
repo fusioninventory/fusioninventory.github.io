@@ -6,7 +6,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: ikiwiki\n"
-"POT-Creation-Date: 2013-10-03 12:00+0000\n"
+"POT-Creation-Date: 2013-10-03 12:14+0000\n"
 "PO-Revision-Date: 2009-08-16 21:03+0200\n"
 "Last-Translator: Fernando González de Requena <fgrequena@gmail.com>\n"
 "Language-Team: None\n"
@@ -25,7 +25,7 @@ msgstr ""
 
 #. type: Plain text
 #, no-wrap
-msgid "[[!inline pages=\"page(./news/*) and !*/Discussion\" rootpage=\"news\" postform=\"no\" postformtext=\"nothing\" show=\"5\" rss=\"yes\" atom=\"yes\"]]\n"
+msgid "[[!inline pages=\"page(./news/*) and currentlang() and  !*/Discussion\" rootpage=\"news\" postform=\"no\" postformtext=\"nothing\" show=\"5\" rss=\"yes\" atom=\"yes\"]]\n"
 msgstr ""
 
 #~ msgid "Welcome to your new wiki."
