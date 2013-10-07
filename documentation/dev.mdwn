@@ -1,7 +1,8 @@
 # Agent specific
 
 * [[Release process|documentation/agent/dev/release_process]]
-* [[The experimental Windows installer (2.3.x)|documentation/agent/dev/experimental_windows_installer]]
+
+[![Build Status](https://travis-ci.org/fusinv/fusioninventory-agent.png?branch=master)](https://travis-ci.org/fusinv/fusioninventory-agent)
 
 # Get the sources
 
