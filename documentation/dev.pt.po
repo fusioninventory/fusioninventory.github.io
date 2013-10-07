@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2013-07-30 10:22+0000\n"
+"POT-Creation-Date: 2013-10-07 12:08+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -25,10 +25,10 @@ msgstr ""
 msgid "[[Release process|documentation/agent/dev/release_process]]"
 msgstr ""
 
-#. type: Bullet: '* '
+#. type: Plain text
 msgid ""
-"[[The experimental Windows installer (2.3.x)|documentation/agent/dev/"
-"experimental_windows_installer]]"
+"[![Build Status](https://travis-ci.org/fusinv/fusioninventory-agent.png?"
+"branch=master)](https://travis-ci.org/fusinv/fusioninventory-agent)"
 msgstr ""
 
 #. type: Title #
