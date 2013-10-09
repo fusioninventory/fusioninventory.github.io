@@ -139,5 +139,6 @@ Just define the PATH in the crontab:
 
 ## My agent has now a strange token “12345678”
 
-Since the agent 2.3.0, the token is not used to authentificate the agent. Use the `httpd-trust` [[configuration key|documentation/agent/configuration]] instead. For example `httpd-trust=myserver`
-or `httpd-trust=10.0.0.0/8`.
+Since the agent 2.3.0, the agent doesn't use any token anymore to authenticate
+server messages. Any target server is automatically trusted, as well as any
+other IP address given through httpd-trust configuration directive.
