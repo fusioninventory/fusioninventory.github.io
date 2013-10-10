@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2013-01-28 13:44+0000\n"
+"POT-Creation-Date: 2013-10-09 17:41+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -58,13 +58,13 @@ msgstr ""
 
 #. type: Plain text
 msgid ""
-"LWP (also known as libwww-perl) is able to use either Crypt::SSLeay or "
-"IO::Socket::SSL transparently as underlying socket implementation for HTTPS "
+"LWP (also known as libwww-perl) is able to use either Crypt::SSLeay or IO::"
+"Socket::SSL transparently as underlying socket implementation for HTTPS "
 "support. However, only the second one is able to perform server certificate "
 "validation. As a consequence, the agent will refuse to use HTTPS, and exit "
 "immediatly if IO::Socket::SSL is not available, unless certificate checking "
-"has been explicitely disabled (--no-ssl-check command line parameter, or "
-"no-ssl-check configuration parameter)."
+"has been explicitely disabled (--no-ssl-check command line parameter, or no-"
+"ssl-check configuration parameter)."
 msgstr ""
 
 #. type: Plain text
@@ -80,8 +80,7 @@ msgstr ""
 #, no-wrap
 msgid ""
 "    warning: TLS library problem: 14710:error:0D0C50A1:asn1 encoding\n"
-"    routines:ASN1_item_verify:unknown message digest "
-"algorithm:a_verify.c:146:\n"
+"    routines:ASN1_item_verify:unknown message digest algorithm:a_verify.c:146:\n"
 msgstr ""
 
 #. type: Plain text
@@ -91,8 +90,7 @@ msgstr ""
 #. type: Plain text
 #, no-wrap
 msgid ""
-"    [guillaume@beria ~]$ openssl x509 -noout -text -in cert.pem | grep "
-"Signature\n"
+"    [guillaume@beria ~]$ openssl x509 -noout -text -in cert.pem | grep Signature\n"
 "    Signature Algorithm: sha256WithRSAEncryption\n"
 "    Signature Algorithm: sha256WithRSAEncryption\n"
 msgstr ""
@@ -123,7 +121,7 @@ msgid "SSL certificat creation"
 msgstr ""
 
 #. type: Plain text
-msgid "This page explain how to generate a certificat for you installation:"
+msgid "This page explain how to generate a certificate for you installation:"
 msgstr ""
 
 #. type: Bullet: '* '
