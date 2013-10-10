@@ -3,6 +3,7 @@
 ## Overview
 
 The NetDiscovery task uses the following protocols to scan IP networks:
+
 * ICMP scan
 * NetBIOS scan
 * SNMP scan
@@ -24,6 +25,7 @@ set, the device will be considered as 'unknown devices'.
 ### Agent configuration
 
 The agent requires additional software for this task:
+
 * nmap external command for ICMP suport
 * Net::NBName perl module for NetBios support
 * Net::SNMP perl modules for SNMP support
