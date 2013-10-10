@@ -46,6 +46,7 @@ path can finish with a wildcare, in such case, all the key/value of the current 
           "function" : "findFile",
           "limit" : 5, # Number of entry to look for, default is 50
           "recursive" : 0,
+          "dir": "/home" # Where to start the search, default is /
           "filter" : // filter and its content is optional
               {
                           "regex" : "\d{4}\.bmp$",// regex done on the full path
@@ -109,6 +110,7 @@ The answer structure is always a array of key/val hash.
 
 ###  getFromRegistry
 
+Returns undef in case of error or an array of the following hash:
 
 * name1 : value1
 * name2 : value2
@@ -117,12 +119,15 @@ The answer structure is always a array of key/val hash.
 
 ###  getFromWMI
 
+Returns undef in case of error or an array of the following hash:
+
 * propertyfoo : "bar",
 * propertybar : "foo",
 * uuid : "bibi1"
 
 ###  findFile
 
+Returns undef in case of error or an array of the following hash:
 
 * path : "c:/somewhere/picture.bmp",
 * uuid : "XXXX",
@@ -130,6 +135,8 @@ The answer structure is always a array of key/val hash.
 
 
 ###  runCommand
+
+[[!template  id=warning text="Function disabled for the moment."]]
 
 * output: "blabla",
 * errorMsg: "an optional error message in english",

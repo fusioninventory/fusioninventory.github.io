@@ -1,12 +1,14 @@
 # how to configure SSL
 
-## RHEL / Centos / etc
+## Unix
 
-    $ openssl req -new -newkey rsa:1024 -days 730 -nodes -x509 -keyout glpi.mycompany.com.key -out glpi.mycompany.com.crt
+The following command allows to generate a self-signed certificate/key pair:
+
+    $ openssl req -new -newkey rsa:1024 -days 730 -nodes -x509 -keyout server.key -out server.crt
     Generating a 1024 bit RSA private key
     ......++++++
     ...............++++++
-    writing new private key to 'glpi.mycompany.com.key'
+    writing new private key to 'server.key'
     -----
     You are about to be asked to enter information that will be incorporated
     into your certificate request.
@@ -23,20 +25,29 @@
     Common Name (eg, your name or your server's hostname) []:glpi.mycompany.com
     Email Address []:
 
-This will generate a glpi.mycompany.com.key and a glpi.mycompany.com.crt. Save them:
+CAUTION: you have to ensure the exact host name in your server URL matches the
+certificate Common Name attribute. For instance, if your servier URL is
+http(s)://glpi.mycompany.com/, the common name should be 'glpi.mycompany.com'.
 
-     # cp glpi.mycompany.com.key /etc/pki/tls/private/
-     # cp glpi.mycompany.com.crt /etc/pki/tls/certs/
+This will generate two files, server.key and server.crt. The first one is the
+server key, and is the private part allowing the server to prove its identity.
+The second one is the server certificate, and is the public part allowing other
+piece of software to check the server identity.
 
-CAUTION: assuming your URL to contact server is http(s)://glpi.mycompany.com/. You have to inform both in file names and in "Common Name" the name of your server.
+You have to copy those file somewhere in your system configuration:
 
-Now you need to configure Apache so it will use these file:
+     # install -m 600 server.key /etc/pki/tls/private/server.key
+     # install -m 644 server.crt /etc/pki/tls/certs/server.crt
+
+Then you need to modify Apache configuration, through SSLCertificateFile and
+SSLCertificateKeyFile directives:
 
      # yum install mod_ssl
      # vi /etc/httpd/conf.d/ssl.conf
 
-adjust SSLCertificateFile and SSLCertificateKeyFile
+Then you have to restart the server:
 
      # service httpd reload
 
-glpi.mycompany.com.crt is the public certificat to use with your agent (`--ca-cert-file=glpi.mycompany.com.crt`).
+The certificate can now be used by the agent as certification authority
+(`--ca-cert-file server.crt`).

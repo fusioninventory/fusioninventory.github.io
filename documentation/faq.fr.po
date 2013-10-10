@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2013-06-12 07:49+0000\n"
+"POT-Creation-Date: 2013-10-09 17:41+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <contact@antoninbollin.fr>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -225,7 +225,22 @@ msgstr ""
 "    #PerlSetEnv OCS_OPT_EXT_USERAGENTS_FILE_PATH /tmp/yourfile.txt\n"
 
 #. type: Plain text
-msgid "This step is not required with 1.x server."
+msgid ""
+"The /tmp/yourfile.txt is a list of the UserAgent that should be accepted. "
+"For example:"
+msgstr ""
+
+#. type: Plain text
+#, no-wrap
+msgid ""
+"    FusionInventory-Agent_v2.1.9-3\n"
+"    FusionInventory-Agent_v2.1.13-1\n"
+"    FusionInventory-Agent_v2.2.5-1\n"
+"    FusionInventory-Agent_v2.2.7-3\n"
+msgstr ""
+
+#. type: Plain text
+msgid "This step is not required with the legacy 1.x server."
 msgstr "Cette étape n'est pas requise avec le serveur version 1.x"
 
 #. type: Plain text
@@ -333,7 +348,7 @@ msgstr ""
 #. type: Title ##
 #, no-wrap
 msgid "I get `end_request: I/O error, dev fd0, sector 0` error message"
-msgstr ""
+msgstr "J'ai le message d'erreur : `end_request: I/O error, dev fd0, sector 0`"
 
 #. type: Plain text
 msgid ""
@@ -341,34 +356,64 @@ msgid ""
 "virtual machine. You can work around the problem by unloading the floppy "
 "kernel module:"
 msgstr ""
+"Cela peut arriver sur une machine virtuelle VMware Linux et le pilote d'un "
+"lecteur de disquette. Vous pouvez contourner le problème en désactivant le "
+"module du noyau :"
 
 #. type: Plain text
 #, no-wrap
 msgid "    rmmod floppy\n"
-msgstr ""
+msgstr "    rmmod floppy\n"
 
 #. type: Plain text
 msgid ""
 "The error is generated when the agent launch the following command `fdisk -"
 "l`."
-msgstr ""
+msgstr "Cette erreur est générée quand l'agent lance la commande  `fdisk -l"
 
 #. type: Title ##
 #, no-wrap
 msgid "The agent misses some information like memory or CPU when called by cron"
-msgstr ""
+msgstr "L'agent perd des informations comme la mémoire ou le CPU quand il est lancé par cron"
 
 #. type: Plain text
 msgid ""
 "Most of the time, cron do not define a default PATH. In this case the agent "
 "won't find important tools like `dmidecode`, `lspci`, etc ( [[!bug 1747]] )."
 msgstr ""
+"La plupart du temps, cron ne peut pas définir le PATH défaut. Dans ce cas "
+"l'agent ne trouvera pas des outils importants comme `dmidecode`, `lspci`, "
+"etc ( [[!bug 1747]] )."
 
 #. type: Plain text
 msgid "Just define the PATH in the crontab:"
-msgstr ""
+msgstr "Il suffit de définir le PATH dans la crontab"
 
 #. type: Plain text
 #, no-wrap
 msgid "    PATH=/usr/local/sbin:/usr/local/bin:/sbin:/bin:/usr/sbin:/usr/bin\n"
+msgstr "    PATH=/usr/local/sbin:/usr/local/bin:/sbin:/bin:/usr/sbin:/usr/bin\n"
+
+#. type: Title ##
+#, no-wrap
+msgid "My agent has now a strange token “12345678”"
+msgstr "Mon agent a maintenant un jeton bizarre “12345678”"
+
+#. type: Plain text
+msgid ""
+"Since the agent 2.3.0, the agent doesn't use any token anymore to "
+"authenticate server messages. Any target server is automatically trusted, as "
+"well as any other IP address given through httpd-trust configuration "
+"directive."
 msgstr ""
+
+#~ msgid ""
+#~ "Since the agent 2.3.0, the token is not used to authentificate the agent. "
+#~ "Use the `httpd-trust` [[configuration key|documentation/agent/"
+#~ "configuration]] instead. For example `httpd-trust=myserver` or `httpd-"
+#~ "trust=10.0.0.0/8`."
+#~ msgstr ""
+#~ "Depuis l'agent 2.3.0, le jeton n'est plus utilisé pour authentifier "
+#~ "l'agent. Utilisez [[l'option de configuration|documentation/agent/"
+#~ "configuration]] `httpd-trust`. Exemple : `httpd-trust=myserver` or `httpd-"
+#~ "trust=10.0.0.0/8`."

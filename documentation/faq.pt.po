@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2013-06-12 07:49+0000\n"
+"POT-Creation-Date: 2013-10-09 17:41+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -187,7 +187,22 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-msgid "This step is not required with 1.x server."
+msgid ""
+"The /tmp/yourfile.txt is a list of the UserAgent that should be accepted. "
+"For example:"
+msgstr ""
+
+#. type: Plain text
+#, no-wrap
+msgid ""
+"    FusionInventory-Agent_v2.1.9-3\n"
+"    FusionInventory-Agent_v2.1.13-1\n"
+"    FusionInventory-Agent_v2.2.5-1\n"
+"    FusionInventory-Agent_v2.2.7-3\n"
+msgstr ""
+
+#. type: Plain text
+msgid "This step is not required with the legacy 1.x server."
 msgstr ""
 
 #. type: Plain text
@@ -318,4 +333,17 @@ msgstr ""
 #. type: Plain text
 #, no-wrap
 msgid "    PATH=/usr/local/sbin:/usr/local/bin:/sbin:/bin:/usr/sbin:/usr/bin\n"
+msgstr ""
+
+#. type: Title ##
+#, no-wrap
+msgid "My agent has now a strange token “12345678”"
+msgstr ""
+
+#. type: Plain text
+msgid ""
+"Since the agent 2.3.0, the agent doesn't use any token anymore to "
+"authenticate server messages. Any target server is automatically trusted, as "
+"well as any other IP address given through httpd-trust configuration "
+"directive."
 msgstr ""

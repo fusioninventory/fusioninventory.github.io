@@ -73,7 +73,15 @@ Yes, your server will need to be configured to accept the Fusioninventory UserAg
     #!! WARNING !! : external agents may not be supported by OCS NG Community ! 
     #PerlSetEnv OCS_OPT_EXT_USERAGENTS_FILE_PATH /tmp/yourfile.txt
 
-This step is not required with 1.x server.
+The /tmp/yourfile.txt is a list of the UserAgent that should be accepted. For
+example:
+
+    FusionInventory-Agent_v2.1.9-3
+    FusionInventory-Agent_v2.1.13-1
+    FusionInventory-Agent_v2.2.5-1
+    FusionInventory-Agent_v2.2.7-3
+
+This step is not required with the legacy 1.x server.
 
 Please note that FusionInventory-Agent doesn’t support OCS’s IP Discover
 feature, and that OCS Deployment module is now deprecated and will not
@@ -128,3 +136,9 @@ find important tools like `dmidecode`, `lspci`, etc ( [[!bug 1747]] ).
 Just define the PATH in the crontab:
 
     PATH=/usr/local/sbin:/usr/local/bin:/sbin:/bin:/usr/sbin:/usr/bin
+
+## My agent has now a strange token “12345678”
+
+Since the agent 2.3.0, the agent doesn't use any token anymore to authenticate
+server messages. Any target server is automatically trusted, as well as any
+other IP address given through httpd-trust configuration directive.

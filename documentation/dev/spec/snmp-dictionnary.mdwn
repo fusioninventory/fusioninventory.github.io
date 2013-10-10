@@ -22,7 +22,7 @@ Here is a simple DTD:
 Here are the description for the various elements:
 
 * SYSDESCR: SNMP sysdescr value of the described device
-* TYPE: 2 for a printer, 3 for a network equipement
+* TYPE: device type identifier (see [device types](../device-types) for details)
 * MODELSNMP: SNMP description model identifier
 * MAC:  SNMP oid of the device MAC address
 * DYNMAC: ?

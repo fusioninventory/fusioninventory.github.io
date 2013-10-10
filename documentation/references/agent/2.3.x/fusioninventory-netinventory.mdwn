@@ -1,5 +1,3 @@
-[[!template  id=warning text="The 2.3.x serie is still in developpement."]]
-
 # NAME
 
 fusioninventory-netinventory - Standalone network inventory

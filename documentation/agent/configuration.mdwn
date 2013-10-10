@@ -31,7 +31,6 @@ If you intend to run the agent in background, you'd rather set the additional
 parameters:
 
 * `debug`: 0, 1 or 2, to keep trace of agent execution
-* `httpd-trust`: a server IP address, so as to allows it to force agent execution
 
 Once this is done, you can [[force an inventory|documentation/agent/launch_the_agent]].
 

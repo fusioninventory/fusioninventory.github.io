@@ -1,93 +1,117 @@
-# Windows installation
+# Microsoft Windows Installation
 
-## Get the installer
-
-First, download the archive: <http://prebuilt.fusioninventory.org/stable/windows-i386/>
-
-The file name convention is:
-
-* fusioninventory-agent_windows-i386_
-* FusionInventory Agent version (e.g: 2.2.5)
-* a *-* (dash)
-* the package revision. e.g: 2, for the 2nd installer generated for the 2.2.5 release
-* .exe
-
-The installer can be used either on 32 or 64 bit Windows.
-
-## Settings
-
-[[!img documentation/agent/installation/windows-installer-settings-1.png]]
-
-1. Enter the full URL to your server.
-2. You can configure a key word to be able to sort out your machine later (TAG).
-[[!template  id=warning text="""
-A common mistake is to mix HTTP and HTTPS in URL.
-"""]]
-
-## Advanced settings
-
-[[!img documentation/agent/installation/windows-installer-settings-2.png]]
-
-1. Enter here an optional HTTP login and password. This is unrelated with GLPI.
-2. Enter the full path to you certificat file. This is important only if you use HTTPS. 
-3. This check box will disable the HTTPS certificat check.
-4. You can configure here a HTTP proxy. For example, proxy:3128
-5. This is the port of the HTTP service of the agent. You need to change it on the server too.
-6. This check box will increase *a lot* the verbosity of the agent. The log is available in the agent-log.txt file.
-7. The installer can configure the Firewall for you if you want to allow connection on RPC port.
-
-[[!template  id=info text="""
-Agent HTTP service is optional. It is only required if you want
-to be able to awake your agent to for an inventory or a job.
-"""]]
-
-## Installer command line parameters
-
-~~~~
-/help                   Display this help. The space in front of /help is mandatory!
-/S                      Run setup in silent mode
-/installdir=dirname     Set installation directory of agent
-/server=url1,url2       Set url of server
-/tag=tagame             Set tag of agent
-/user=username          Set username
-/pass=password          Set password
-/realm=realm            Set realm
-/ca-cert-file=filename  Set filename of certificate
-/no-ssl-check           No certificate check when establishing SSL connection
-/proxy=http://proxy/    Set proxy
-/debug                  Set debug mode
-/rpc-port               Set RPC port number
-/scan-homedirs          Look for virtual machines in home directories
-/runnow                 Run agent after end of installation
-/update-firewall        Update the Firewall to register the agent
-/execmode=option        launch the agent with a service(service)/windows task scheduler(task)/or keep settings unchanged(none) (default is service)
-~~~~
-
-## Usage
-
-To pass the parameters, do for example:
-
-    fusioninventory-agent_windows-i386_2.x.x-1.exe /S /debug /runnow /server=https://server1/glpi/plugins/fusioninventory/
-
-this mean that i want to install fusioninventory in silent mode, run an inventory after installation, and send the inventory by https
-
-    fusioninventory-agent_windows-i386_2.x.x-1.exe /S /debug /runnow /server=http://server1/glpi/plugins/fusioninventory/
-
-The same as above but with a plain http connection
-
-And installation directory of the agent can be changed via command-line as below:
-
-    fusioninventory-agent_windows-i386_2.x.x-1.exe /S "/installdir=C:\Program Files\FusInv"
-Edit
-Upgrade with FusionInventory Deploy
-
-If you upgrade the agent with FusionInventory Deploy and the agent is launched with a Service, you will need an agent > 2.2.0-2 and the /execmode=none parameter. This way, the agent won't remove or add service or update the Tasks Scheduler setting. So you will keep the previous settings.
-
-# Large installation
-
-A page is dedicated to explain how to [[deploy the agent on a Windows domain|documentation/agent/installation/windows/large_install]].
+[[!template id=warning text="The new FusionInventory Agent 2.3.x comes with a **new** Microsoft Windows installer. The documentation you have below is regarding this new installer. If you are looking for documentation about FusionInventory Agent 2.2.x (and previous) and its installer, you find it [[here|documentation/agent/installation/windows_before_2.3.0]]."]]
 
 
-# Installation from sources
 
-If you are an developer, or an advanced user, you can also install FusionInventory [[from sources|documentation/agent/dev/git_windows]].
+## Get the Installer
+
+
+
+You can get the last FusionInventory Agent installer for Microsoft Windows [here](http://forge.fusioninventory.org/projects/fusioninventory-agent-windows-installer/files "http://forge.fusioninventory.org/projects/fusioninventory-agent-windows-installer/files"). The file name of the installer follows this pattern:
+
+
+
+    fusioninventory-agent_windows-<platform>_<version>.exe
+                                       |         |
+                                       v         |
+                                                 |
+                                 'x86' | 'x64'   |
+                                                 v
+                                                  
+                     <mayor>.<minor>.<release>[-<package>]
+
+
+
+Some notes about the new FusionInventory Agent installer for Microsoft Windows.
+
+
+
+* The installer for each *\<platform>*, integrates its native, although reduced, version of [Strawberry Perl](http://strawberryperl.com/ "http://strawberryperl.com/") 5.16.3.1.
+
+
+
+* Inside the *\<version>*, *\<package>* is optional and indicates the secuence of the installer for FusionInventory Agent *\<manor>*.*\<minor>*.*\<release>*. A new *\<package>* may contain improvements regarding the installer itself, the agent (patches) or both.
+
+
+
+* It's possible to install *fusioninventory-agent_windows_x86_\<version>.exe* on a 32-bit or 64-bit Microsoft Windows system but only is possible to install *fusioninventory-agent_windows_x64_\<version>.exe* on a 64-bit Microsoft Windows system.
+
+
+
+## The Installer Manual
+
+
+
+You can find the manual of the FusionInventory Agent installer for Microsoft Windows [[here|documentation/agent/installation/windows/windows-installer-2.3.x-command-line]].
+
+
+
+The manual is self-contained in the own installer. You can get it of one of the following ways:
+
+
+
+*         C:\> fusioninventory-agent_windows-<platform>_<version>.exe /help
+
+
+
+*         C:\> fusioninventory-agent_windows-<platform>_<version>.exe /dumphelp
+
+
+
+*         C:\> fusioninventory-agent_windows-<platform>_<version>.exe /dumphelp /S
+
+
+
+[[!template id=info text="It's recommended read this documentation completely each time a new version is released; the new FusionInventory Agent installer for Microsoft Windows is still young and it's in a constant process of improvement, including its manual."]]
+
+
+
+## Installation from Command Line and Silent Installation
+
+
+
+The FusionInventory Agent installer for Microsoft Windows performs a *visual mode* installation unless it's specified the ***/S*** option in the command line, in whose case it performs a *silent mode* installation.
+
+
+
+For more information about the use of the command line, please, see ***The Installer Manual*** section above.
+
+
+
+## Visual Installation
+
+
+
+As it said above, unless it's specified the ***/S*** option in the command line, the FusionInventory Agent installer for Microsoft Windows performs a *visual mode* installation. The easy way of performs a *visual mode* installation is doing double click on the *fusioninventory-agent_windows-\<platform>_\<version>.exe* program.
+
+
+
+The fields and controls that appear in the *visual mode* installation are intimately related with the command line options. That's the reason because it's recommended to read ***The Installer Manual*** section (*see above*) before to perform any installation.
+
+
+
+For more information about the *visual mode* installation, please, see the following gallery of [[commented screenshots of FusionInventory Agent installer for Microsoft Windows|documentation/agent/installation/windows/windows-installer-2.3.x-visual-mode]]. (*still under construction*)
+
+
+
+## Large Installations
+
+
+
+There's a page dedicated to explain [[how to deploy FusionInventory Agent 2.2.x (and previous) on a Windows Domain|documentation/agent/installation/windows/large_install]] but, at the moment, its instructions are not valid for the new FusionInventory Agent installer.
+
+
+
+Nowadays, and while a new page is written with more detail about its use, it's available from here the new VBScript (Visual Basic Script) with name *fusioninventory-agent-deployment.vbs* that allows to perform an unattended deployment of *fusioninventory-agent_windows-\<platform>_\<version>.exe* in large (and in not so large) environments. You can find its last version [here](https://raw.github.com/fusinv/fusioninventory-agent/2.3.x/contrib/windows/fusioninventory-agent-deployment.vbs "https://raw.github.com/fusinv/fusioninventory-agent/2.3.x/contrib/windows/fusioninventory-agent-deployment.vbs").
+
+
+
+## Installation from Sources
+
+
+
+If you are a developer, or an advanced user, you can also install FusionInventory Agent 2.3.x [[from sources|documentation/agent/dev/git_windows]].
+
+
+

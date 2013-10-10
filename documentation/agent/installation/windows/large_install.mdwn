@@ -1,5 +1,7 @@
 # Silent installation
 
+[[!template  id=info text="Warning, this page is outdated and needs to be refresh for the 2.3.0 agent."]] 
+
 ## fusioninventory.vbs
 
 [[fusioninventory.vbs|documentation/agent/installation/windows/fusioninventory.vbs]] is a VBS script used to:

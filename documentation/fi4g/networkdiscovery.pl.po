@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2013-01-24 10:13+0000\n"
+"POT-Creation-Date: 2013-08-13 21:51+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -21,89 +21,164 @@ msgstr ""
 msgid "How to scan my network"
 msgstr ""
 
-#. type: Plain text
-msgid ""
-"It's always a good idea to use an up to date agent for the network scan."
+#. type: Title ##
+#, no-wrap
+msgid "Overview"
 msgstr ""
 
-#. type: Title ##
+#. type: Plain text
+msgid ""
+"The NetDiscovery task uses the following protocols to scan IP networks: * "
+"ICMP scan * NetBIOS scan * SNMP scan"
+msgstr ""
+
+#. type: Plain text
+msgid ""
+"Any device replying to at least of those protocols will be *discovered*, "
+"with just minimal information, such as mac address and hostname."
+msgstr ""
+
+#. type: Plain text
+msgid ""
+"Additionaly, if the device replies to SNMP, the agent will attempt to "
+"identify it, using its system description (SNMPv2-MIB::sysDescr.0) value. "
+"Rule-based identification, using rules hardcoded in the agent, allows a "
+"minimal level of identification. Dictionary-based identification, using a "
+"server-provided database of known values, allows a more precise "
+"identification. If any suceed, the device will be *identified*."
+msgstr ""
+
+#. type: Plain text
+msgid ""
+"Discovered devices are then reported to the GLPI servers, and import rules "
+"are applied.  If the device type (printer, network device, etc...) has not "
+"been set, the device will be considered as 'unknown devices'."
+msgstr ""
+
+#. type: Title ###
 #, no-wrap
 msgid "Agent configuration"
 msgstr ""
 
 #. type: Plain text
-msgid "By default, agent are not allowed to do network scan."
+msgid ""
+"The agent requires additional software for this task: * nmap external "
+"command for ICMP suport * Net::NBName perl module for NetBios support * Net::"
+"SNMP perl modules for SNMP support You have to check your installation for "
+"those optional dependencies."
 msgstr ""
 
 #. type: Plain text
-msgid "There is two different way to grant them this privilege:"
+msgid ""
+"The agent also requires access to the devices on its target network, using "
+"the forementioned protocols. You have to check your network filtering rules, "
+"as well as your access control rules on the devices."
+msgstr ""
+
+#. type: Title ###
+#, no-wrap
+msgid "SNMP Credentials"
+msgstr ""
+
+#. type: Plain text
+msgid ""
+"There is now way to distinguish a failed SNMP authentication attempt from a "
+"non-responding device, meaning the agent will try each available credentials "
+"against each IP address, and wait for a timeout each time."
+msgstr ""
+
+#. type: Title ###
+#, no-wrap
+msgid "Threads number"
+msgstr ""
+
+#. type: Plain text
+msgid ""
+"In order to perform discovery faster, the agent can use multiple threads. "
+"This allow multiple simultaneous request, but also increase resource usage "
+"on agent host."
+msgstr ""
+
+#. type: Title ##
+#, no-wrap
+msgid "Manual execution"
+msgstr ""
+
+#. type: Plain text
+msgid ""
+"In order to run a network discovery task without a GLPI server, and for "
+"easier troubleshooting, the fusioninventory-netdiscovery task can be run "
+"from command line. See [[fusioninventory-netdiscovery man page|references/"
+"agent-task-network/1.0.x/fusioninventory-netdiscovery]] for details."
+msgstr ""
+
+#. type: Title ##
+#, no-wrap
+msgid "Server execution"
+msgstr ""
+
+#. type: Title ###
+#, no-wrap
+msgid "Task activation"
+msgstr ""
+
+#. type: Plain text
+msgid ""
+"The netdiscovery task is not activated by default for agents. There is two "
+"different way to enable it:"
 msgstr ""
 
 #. type: Bullet: '* '
 msgid ""
-"Allow all: in menu _plugins_ > _FusionInventory_ > _Configuration_ and in "
-"tab _Agents modules_.  You can check _Network discovery_ by default."
+"for all agents: in menu _plugins_ > _FusionInventory_ > _Configuration_ and "
+"in tab _Agents modules_.  You can check _Network discovery_ by default."
 msgstr ""
 
 #. type: Bullet: '* '
 msgid ""
-"Allow ony some agents: in menu _plugins_ > _FusionInventory_ > "
+"for some agents only: in menu _plugins_ > _FusionInventory_ > "
 "_FusionInventory_ > _Agents management_ go in agent form and in tab _Agents "
 "modules_, check _Network discovery_."
 msgstr ""
 
 #. type: Plain text
 msgid ""
-"Network devices are inventoried using SNMP. You agent must be allowed to "
-"contact the devices. You may to add some specific privilege in a device "
-"Access Control List (ACL)."
-msgstr ""
-
-#. type: Title ###
-#, no-wrap
-msgid "number of threads"
+"The server always uses all defined credentials, in creation order, as there "
+"is no way to configure this currently. For faster discovery, you should "
+"ensure your devices use coherent SNMP credentials, and drop all unused ones."
 msgstr ""
 
 #. type: Plain text
-msgid ""
-"To have network discovery running more faster, you can define number of "
-"simultaneous IP queries. For exemple, if you use 10 threads, agent will "
-"query 10 IP is same time, and so it's very more faster."
-msgstr ""
-
-#. type: Plain text
-msgid "You have 2 choices:"
+msgid "The thread number can be defined either:"
 msgstr ""
 
 #. type: Bullet: '* '
 msgid ""
-"General configuration: You can define it for all agents, in menu _plugins_ > "
-"_FusionInventory_ > _Configuration_ and in tab _FusionInventory SNMP_. "
-"define value _Threads number (network discovery)_."
-msgstr ""
-
-#. type: Bullet: '* '
-msgid ""
-"Personalized configuration: you can overwrite general configuration for an "
-"agent (for exemple if the computer is better faster), in menu _plugins_ > "
-"_FusionInventory_ > _FusionInventory_ > _Agents management_ go in agent form "
-"and in tab _Threads number_, and define value _Threads number (network "
+"for all agents: in menu _plugins_ > _FusionInventory_ > _Configuration_ and "
+"in tab _FusionInventory SNMP_. define value _Threads number (network "
 "discovery)_."
 msgstr ""
 
-#. type: Title ##
+#. type: Bullet: '* '
+msgid ""
+"for some agents only: in menu _plugins_ > _FusionInventory_ > "
+"_FusionInventory_ > _Agents management_ go in agent form and in tab _Threads "
+"number_, and define value _Threads number (network discovery)_."
+msgstr ""
+
+#. type: Title ###
 #, no-wrap
 msgid "Network range"
 msgstr ""
 
 #. type: Plain text
 msgid ""
-"you need to register your network ranges in the “IP range configuration” "
+"You need to register your network ranges in the “IP range configuration” "
 "configuration. You can associate a network to an entity, in this case, the "
 "devices found on this network will be created in the given entity."
 msgstr ""
 
-#. type: Title ##
+#. type: Title ###
 #, no-wrap
 msgid "Task creation"
 msgstr ""

@@ -5,7 +5,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: ikiwiki\n"
-"POT-Creation-Date: 2013-01-12 15:52+0000\n"
+"POT-Creation-Date: 2013-10-03 12:14+0000\n"
 "PO-Revision-Date: 2009-08-23 18:50+0200\n"
 "Last-Translator: Philippe Batailler <philippe.batailler@free.fr>\n"
 "Language-Team: French <debian-l10n-french@lists.debian.org>\n"
@@ -20,13 +20,13 @@ msgid ""
 "posted. FusionInventory users are recommended to subscribe to this page's "
 "RSS feed."
 msgstr ""
-"C'est ici que vous trouverez les annonces de nouvelles versions, fonctionnalités "
-"ou toutes autres informations sur FusionInventory. Il est recommandé aux utilisateurs de FusionInventory "
-"de s'abonner aux flux RSS."
+"C'est ici que vous trouverez les annonces de nouvelles versions, "
+"fonctionnalités ou toutes autres informations sur FusionInventory. Il est "
+"recommandé aux utilisateurs de FusionInventory de s'abonner aux flux RSS."
 
 #. type: Plain text
 #, no-wrap
-msgid "[[!inline pages=\"page(./news/*) and currentlang() and !*/Discussion\" rootpage=\"news\" postform=\"no\" postformtext=\"nothing\" show=\"5\" rss=\"yes\" atom=\"yes\"]]\n"
+msgid "[[!inline pages=\"page(./news/*) and currentlang() and  !*/Discussion\" rootpage=\"news\" postform=\"no\" postformtext=\"nothing\" show=\"5\" rss=\"yes\" atom=\"yes\"]]\n"
 msgstr "[[!inline pages=\"page(./news/*) and currentlang() and !*/Discussion\" rootpage=\"news\" postform=\"no\" postformtext=\"nothing\" show=\"5\" rss=\"yes\" atom=\"yes\"]]\n"
 
 #~ msgid "Welcome to your new wiki."

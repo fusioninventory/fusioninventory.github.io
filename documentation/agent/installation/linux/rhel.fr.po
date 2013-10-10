@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2013-02-01 16:00+0000\n"
+"POT-Creation-Date: 2013-09-10 08:58+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -41,8 +41,37 @@ msgid ""
 "Beware, you'all also need the *EPEL* repository. See [EPEL wiki](https://"
 "fedoraproject.org/wiki/EPEL) for details."
 msgstr ""
-"Attention, vous aurez besoin d'avoir le dépôt EPEL. Reportez vous pour "
-"plus de détails à [EPEL wiki](https://fedoraproject.org/wiki/EPEL)."
+"Attention, vous aurez besoin d'avoir le dépôt EPEL. Reportez vous pour plus "
+"de détails à [EPEL wiki](https://fedoraproject.org/wiki/EPEL)."
+
+#. type: Plain text
+msgid "Agent installation:"
+msgstr "Installation de l'agent"
+
+#. type: Plain text
+#, fuzzy, no-wrap
+#| msgid "    # yum install fusioninventory-agent\n"
+msgid "    # yum install fusioninventory-agent fusioninventory-agent-task-inventory\n"
+msgstr "    # yum install fusioninventory-agent\n"
+
+#. type: Plain text
+msgid "Edit configuration file"
+msgstr ""
+
+#. type: Plain text
+#, fuzzy, no-wrap
+#| msgid "    # yum install fusioninventory-agent\n"
+msgid "    # vi /etc/sysconfig/fusioninventory-agent\n"
+msgstr "    # yum install fusioninventory-agent\n"
+
+#. type: Plain text
+msgid "add this line :"
+msgstr ""
+
+#. type: Plain text
+#, no-wrap
+msgid "    # OPTS=\"--force --httpd-trust=127.0.0.1 --server http://yourserver/glpi/plugins/fusioninventory/front/plugin_fusioninventory.communication.php --logfile=/var/log/fusioninventory-agent/fusioninventory-agent.log\"\n"
+msgstr ""
 
 #. type: Title ##
 #, no-wrap
@@ -65,10 +94,6 @@ msgstr ""
 #. type: Title ##
 #, no-wrap
 msgid "Agent installation"
-msgstr "Installation de l'agent"
-
-#. type: Plain text
-msgid "Agent installation:"
 msgstr "Installation de l'agent"
 
 #. type: Plain text

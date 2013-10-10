@@ -7,9 +7,9 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2013-02-11 11:22+0000\n"
+"POT-Creation-Date: 2013-09-12 17:28+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Last-Translator: Tomás Abad <tabadgp@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: \n"
 "MIME-Version: 1.0\n"
@@ -18,228 +18,240 @@ msgstr ""
 
 #. type: Title #
 #, no-wrap
-msgid "Windows installation"
+msgid "Microsoft Windows Installation"
+msgstr "Instalación en Microsoft Windows"
+
+#. type: Plain text
+msgid ""
+"[[!template id=warning text=\"The new FusionInventory Agent 2.3.x comes with "
+"a **new** Microsoft Windows installer. The documentation you have below is "
+"regarding this new installer. If you are looking for documentation about "
+"FusionInventory Agent 2.2.x (and previous) and its installer, you find it "
+"[[here|documentation/agent/installation/windows_before_2.3.0]].\"]]"
 msgstr ""
+"[[!template id=warning text=\"El nuevo FusionInventory Agent 2.3.x viene con "
+"un **nuevo** instalador para Microsoft Windows. La documentación que tiene "
+"más abajo está relacionada con este nuevo instalador. Si está buscando "
+"documentación referente a FusionInventory Agent 2.2.x (y anteriores) y su "
+"instalador, la encontrará [[aquí|documentation/agent/installation/"
+"windows_before_2.3.0]].\"]]"
 
 #. type: Title ##
 #, no-wrap
-msgid "Get the installer"
-msgstr ""
+msgid "Get the Installer"
+msgstr "Obtener el Instalador"
 
 #. type: Plain text
 msgid ""
-"First, download the archive: <http://prebuilt.fusioninventory.org/stable/"
-"windows-i386/>"
+"You can get the last FusionInventory Agent installer for Microsoft Windows "
+"[here](http://forge.fusioninventory.org/projects/fusioninventory-agent-"
+"windows-installer/files \"http://forge.fusioninventory.org/projects/"
+"fusioninventory-agent-windows-installer/files\"). The file name of the "
+"installer follows this pattern:"
 msgstr ""
+"Puede obtner el último instalador de FusionInventory Agent para Microsoft "
+"Windows [aquí](http://forge.fusioninventory.org/projects/fusioninventory-"
+"agent-windows-installer/files \"http://forge.fusioninventory.org/projects/"
+"fusioninventory-agent-windows-installer/files\"). El nombre del fichero del "
+"instalador sigue el siguente patrón:"
 
 #. type: Plain text
-msgid "The file name convention is:"
+#, no-wrap
+msgid ""
+"    fusioninventory-agent_windows-<platform>_<version>.exe\n"
+"                                       |         |\n"
+"                                       v         |\n"
+"                                                 |\n"
+"                                 'x86' | 'x64'   |\n"
+"                                                 v\n"
 msgstr ""
+"    fusioninventory-agent_windows-<platform>_<version>.exe\n"
+"                                       |         |\n"
+"                                       v         |\n"
+"                                                 |\n"
+"                                 'x86' | 'x64'   |\n"
+"                                                 v\n"
 
-#. type: Bullet: '* '
-msgid "fusioninventory-agent_windows-i386_"
-msgstr ""
+#. type: Plain text
+#, no-wrap
+msgid "                     <mayor>.<minor>.<release>[-<package>]\n"
+msgstr "                     <mayor>.<minor>.<release>[-<package>]\n"
 
-#. type: Bullet: '* '
-msgid "FusionInventory Agent version (e.g: 2.2.5)"
+#. type: Plain text
+msgid ""
+"Some notes about the new FusionInventory Agent installer for Microsoft "
+"Windows."
 msgstr ""
-
-#. type: Bullet: '* '
-msgid "a *-* (dash)"
-msgstr ""
+"Algunas notas sobre el nuevo instalador de FusionInventory Agent para "
+"Microsoft Windows."
 
 #. type: Bullet: '* '
 msgid ""
-"the package revision. e.g: 2, for the 2nd installer generated for the 2.2.5 "
-"release"
+"The installer for each *\\<platform>*, integrates its native, although "
+"reduced, version of [Strawberry Perl](http://strawberryperl.com/ \"http://"
+"strawberryperl.com/\") 5.16.3.1."
 msgstr ""
+"El instalador para cada *\\<platform>*, integra su nativa, aunque reducida, "
+"versión de [Strawberry Perl](http://strawberryperl.com/ \"http://"
+"strawberryperl.com/\") 5.16.3.1."
 
 #. type: Bullet: '* '
-msgid ".exe"
+msgid ""
+"Inside the *\\<version>*, *\\<package>* is optional and indicates the "
+"secuence of the installer for FusionInventory Agent *\\<manor>*.*\\<minor>*.*"
+"\\<release>*. A new *\\<package>* may contain improvements regarding the "
+"installer itself, the agent (patches) or both."
 msgstr ""
+"Dentro de *\\<version>*, *\\<package>* es opcional e indica la secuencia del "
+"instalador para FusionInventory Agent *\\<manor>*.*\\<minor>*.*\\<release>*. "
+"Un nuevo  *\\<package>* puede contener mejoras relecionadas con el propio "
+"instalador, con el agente (parches) o con ambos."
 
-#. type: Plain text
-msgid "The installer can be used either on 32 or 64 bit Windows."
+#. type: Bullet: '* '
+msgid ""
+"It's possible to install *fusioninventory-agent_windows_x86_\\<version>.exe* "
+"on a 32-bit or 64-bit Microsoft Windows system but only is possible to "
+"install *fusioninventory-agent_windows_x64_\\<version>.exe* on a 64-bit "
+"Microsoft Windows system."
 msgstr ""
+"Es posible instalar *fusioninventory-agent_windows_x86_\\<version>.exe* en "
+"un sistema Microsoft Windows de 32-bit o de 64-bit pero solo es posible "
+"instalar *fusioninventory-agent_windows_x64_\\<version>.exe* en un sistema "
+"Microsoft Windows de 64-bit."
 
 #. type: Title ##
 #, no-wrap
-msgid "Settings"
-msgstr ""
+msgid "The Installer Manual"
+msgstr "El Manual del Instalador"
 
 #. type: Plain text
-#, no-wrap
-msgid "[[!img documentation/agent/installation/windows-installer-settings-1.png]]\n"
-msgstr ""
-
-#. type: Bullet: '1. '
-msgid "Enter the full URL to your server."
-msgstr ""
-
-#. type: Plain text
-#, no-wrap
 msgid ""
-"2. You can configure a key word to be able to sort out your machine later (TAG).\n"
-"[[!template  id=warning text=\"\"\"\n"
+"You can find the manual of the FusionInventory Agent installer for Microsoft "
+"Windows [[here|documentation/agent/installation/windows/windows-"
+"installer-2.3.x-command-line]]."
 msgstr ""
+"Puede encontrar el manual del instalador de FusionInventory Agent para "
+"Microsoft Windows [[aquí|documentation/agent/installation/windows/windows-"
+"installer-2.3.x-command-line_es]]."
 
 #. type: Plain text
-msgid "A common mistake is to mix HTTP and HTTPS in URL."
+msgid ""
+"The manual is self-contained in the own installer. You can get it of one of "
+"the following ways:"
 msgstr ""
+"El manual está auto-contenido en el propio instalador. Puede obtenerlo de "
+"uno de los siguientes modos:"
+
+#. type: Bullet: '*         '
+msgid "C:\\> fusioninventory-agent_windows-<platform>_<version>.exe /help"
+msgstr "C:\\> fusioninventory-agent_windows-<platform>_<version>.exe /help"
+
+#. type: Bullet: '*         '
+msgid "C:\\> fusioninventory-agent_windows-<platform>_<version>.exe /dumphelp"
+msgstr "C:\\> fusioninventory-agent_windows-<platform>_<version>.exe /dumphelp"
+
+#. type: Bullet: '*         '
+msgid ""
+"C:\\> fusioninventory-agent_windows-<platform>_<version>.exe /dumphelp /S"
+msgstr ""
+"C:\\> fusioninventory-agent_windows-<platform>_<version>.exe /dumphelp /S"
+
+#. type: Plain text
+#, no-wrap
+msgid "[[!template id=info text=\"It's recommended read this documentation completely each time a new version is released; the new FusionInventory Agent installer for Microsoft Windows is still young and it's in a constant process of improvement, including its manual.\"]]\n"
+msgstr "[[!template id=info text=\"Se recomienda leer esta documentación completamente cada vez que es liberada una nueva versión; el nuevo instalador de FusionInventory Agent para Microsoft Windows es aun joven y está en constante proceso de mejora, incluido su manual.\"]]\n"
 
 #. type: Title ##
 #, no-wrap
-msgid "Advanced settings"
-msgstr ""
-
-#. type: Plain text
-#, no-wrap
-msgid "[[!img documentation/agent/installation/windows-installer-settings-2.png]]\n"
-msgstr ""
-
-#. type: Bullet: '1. '
-msgid ""
-"Enter here an optional HTTP login and password. This is unrelated with GLPI."
-msgstr ""
-
-#. type: Bullet: '2. '
-msgid ""
-"Enter the full path to you certificat file. This is important only if you "
-"use HTTPS."
-msgstr ""
-
-#. type: Bullet: '3. '
-msgid "This check box will disable the HTTPS certificat check."
-msgstr ""
-
-#. type: Bullet: '4. '
-msgid "You can configure here a HTTP proxy. For example, proxy:3128"
-msgstr ""
-
-#. type: Bullet: '5. '
-msgid ""
-"This is the port of the HTTP service of the agent. You need to change it on "
-"the server too."
-msgstr ""
-
-#. type: Bullet: '6. '
-msgid ""
-"This check box will increase *a lot* the verbosity of the agent. The log is "
-"available in the agent-log.txt file."
-msgstr ""
-
-#. type: Bullet: '7. '
-msgid ""
-"The installer can configure the Firewall for you if you want to allow "
-"connection on RPC port."
-msgstr ""
-
-#. type: Plain text
-#, no-wrap
-msgid "[[!template  id=info text=\"\"\"\n"
-msgstr ""
+msgid "Installation from Command Line and Silent Installation"
+msgstr "Instalación desde la Línea de Comandos e Instalación Silenciosa"
 
 #. type: Plain text
 msgid ""
-"Agent HTTP service is optional. It is only required if you want to be able "
-"to awake your agent to for an inventory or a job."
+"The FusionInventory Agent installer for Microsoft Windows performs a *visual "
+"mode* installation unless it's specified the ***/S*** option in the command "
+"line, in whose case it performs a *silent mode* installation."
 msgstr ""
+"El instalador de FusionInventory Agent para Microsoft Windows realiza una "
+"instalación en *modo visual* a menos que sea especificada la opción ***/S*** "
+"en la línea de comandos, en cuyo caso realiza una instalación en *modo "
+"silencioso*."
+
+#. type: Plain text
+msgid ""
+"For more information about the use of the command line, please, see ***The "
+"Installer Manual*** section above."
+msgstr ""
+"Para más información acerca del uso de la línea de comandos, por favor, vea "
+"la sección ***El Manual del Instalador*** más arriba."
 
 #. type: Title ##
 #, no-wrap
-msgid "Installer command line parameters"
-msgstr ""
+msgid "Visual Installation"
+msgstr "Instalación Visual"
 
 #. type: Plain text
 #, no-wrap
+msgid "As it said above, unless it's specified the ***/S*** option in the command line, the FusionInventory Agent installer for Microsoft Windows performs a *visual mode* installation. The easy way of performs a *visual mode* installation is doing double click on the *fusioninventory-agent_windows-\\<platform>_\\<version>.exe* program.\n"
+msgstr "Como se dijo anteriormente, a menos que sea especificada la opción ***/S*** en la línea de comandos, el instalador de FusionInventory Agent para Microsoft Windows realiza una instalación en *modo visual*. El modo mas sencillo de realizar una instalación en *modo visual* es haciendo doble *click* sobre el programa *fusioninventory-agent_windows-\\<platform>_\\<version>.exe*.\n"
+
+#. type: Plain text
 msgid ""
-"~~~~\n"
-"/help                   Display this help. The space in front of /help is mandatory!\n"
-"/S                      Run setup in silent mode\n"
-"/installdir=dirname     Set installation directory of agent\n"
-"/server=url1,url2       Set url of server\n"
-"/tag=tagame             Set tag of agent\n"
-"/user=username          Set username\n"
-"/pass=password          Set password\n"
-"/realm=realm            Set realm\n"
-"/ca-cert-file=filename  Set filename of certificate\n"
-"/no-ssl-check           No certificate check when establishing SSL connection\n"
-"/proxy=http://proxy/    Set proxy\n"
-"/debug                  Set debug mode\n"
-"/rpc-port               Set RPC port number\n"
-"/scan-homedirs          Look for virtual machines in home directories\n"
-"/runnow                 Run agent after end of installation\n"
-"/update-firewall        Update the Firewall to register the agent\n"
-"/execmode=option        launch the agent with a service(service)/windows task scheduler(task)/or keep settings unchanged(none) (default is service)\n"
-"~~~~\n"
+"The fields and controls that appear in the *visual mode* installation are "
+"intimately related with the command line options. That's the reason because "
+"it's recommended to read ***The Installer Manual*** section (*see above*) "
+"before to perform any installation."
 msgstr ""
+"Los campos y controles que aparecen en la instalación en *modo visual* están "
+"intimamente relacionados con las opciones de la línea de comandos. Esta es "
+"la razón por la que se recomienda leer la sección ***El Manual del "
+"Instalador*** (*ver más arriba*) antes de realizar cualquier instalación."
+
+#. type: Plain text
+msgid ""
+"For more information about the *visual mode* installation, please, see the "
+"following gallery of [[commented screenshots of FusionInventory Agent "
+"installer for Microsoft Windows|documentation/agent/installation/windows/"
+"windows-installer-2.3.x-visual-mode]]. (*still under construction*)"
+msgstr ""
+"Para más información acerca de la instalación en *modo visual*, por favor, "
+"vea la siguiente galería de [[capturas de pantalla comentadas del instalador "
+"de FusionInventory Agent para Microsoft Windows|documentation/agent/"
+"installation/windows/windows-installer-2.3.x-visual-mode]]. (*aun en "
+"construcción*)"
 
 #. type: Title ##
 #, no-wrap
-msgid "Usage"
-msgstr ""
-
-#. type: Plain text
-msgid "To pass the parameters, do for example:"
-msgstr ""
-
-#. type: Plain text
-#, no-wrap
-msgid "    fusioninventory-agent_windows-i386_2.x.x-1.exe /S /debug /runnow /server=https://server1/glpi/plugins/fusioninventory/\n"
-msgstr ""
+msgid "Large Installations"
+msgstr "Grandes Instalaciones"
 
 #. type: Plain text
 msgid ""
-"this mean that i want to install fusioninventory in silent mode, run an "
-"inventory after installation, and send the inventory by https"
+"There's a page dedicated to explain [[how to deploy FusionInventory Agent "
+"2.2.x (and previous) on a Windows Domain|documentation/agent/installation/"
+"windows/large_install]] but, at the moment, its instructions are not valid "
+"for the new FusionInventory Agent installer."
 msgstr ""
+"Existe una página dedicada a explicar [[cómo desplegar FusionInventory Agent "
+"2.2.x (y anteriores) en un Dominio Windows|documentation/agent/installation/"
+"windows/large_install]] pero, por el momento, esas instrucciones no son "
+"válidas para el nuevo instalador de FusionInventory Agent."
 
 #. type: Plain text
+msgid "Nowadays, and while a new page is written with more detail about its use, it's available from here the new VBScript (Visual Basic Script) with name *fusioninventory-agent-deployment.vbs* that allows to perform an unattended deployment of *fusioninventory-agent_windows-\\<platform>_\\<version>.exe* in large (and in not so large) environments. You can find its last version [here](https://raw.github.com/fusinv/fusioninventory-agent/2.3.x/contrib/windows/fusioninventory-agent-deployment.vbs \"https://raw.github.com/fusinv/fusioninventory-agent/2.3.x/contrib/windows/fusioninventory-agent-deployment.vbs\").\n"
+msgstr "En la actualidad, y mientras una nueva página es escrita con más detalle acerca de su uso, está disponible desde aquí el nuevo VBScript (Visual Basic Script) con nombre *fusioninventory-agent-deployment.vbs* que permite realizar un despliegue desatendido de *fusioninventory-agent_windows-\\<platform>_\\<version>.exe* en grandes (y no tan grandes) entornos. Puede encontrar su última versión [aquí](https://raw.github.com/fusinv/fusioninventory-agent/2.3.x/contrib/windows/fusioninventory-agent-deployment.vbs \"https://raw.github.com/fusinv/fusioninventory-agent/2.3.x/contrib/windows/fusioninventory-agent-deployment.vbs\").\n"
+
+#. type: Title ##
 #, no-wrap
-msgid "    fusioninventory-agent_windows-i386_2.x.x-1.exe /S /debug /runnow /server=http://server1/glpi/plugins/fusioninventory/\n"
-msgstr ""
-
-#. type: Plain text
-msgid "The same as above but with a plain http connection"
-msgstr ""
+msgid "Installation from Sources"
+msgstr "Instalación a partir del Código Fuente"
 
 #. type: Plain text
 msgid ""
-"And installation directory of the agent can be changed via command-line as "
-"below:"
+"If you are a developer, or an advanced user, you can also install "
+"FusionInventory Agent 2.3.x [[from sources|documentation/agent/dev/"
+"git_windows]]."
 msgstr ""
-
-#. type: Plain text
-#, no-wrap
-msgid ""
-"    fusioninventory-agent_windows-i386_2.x.x-1.exe /S \"/installdir=C:\\Program Files\\FusInv\"\n"
-"Edit\n"
-"Upgrade with FusionInventory Deploy\n"
-msgstr ""
-
-#. type: Plain text
-#, no-wrap
-msgid "If you upgrade the agent with FusionInventory Deploy and the agent is launched with a Service, you will need an agent > 2.2.0-2 and the /execmode=none parameter. This way, the agent won't remove or add service or update the Tasks Scheduler setting. So you will keep the previous settings.\n"
-msgstr ""
-
-#. type: Title #
-#, no-wrap
-msgid "Large installation"
-msgstr ""
-
-#. type: Plain text
-msgid ""
-"A page is dedicated to explain how to [[deploy the agent on a Windows domain|"
-"documentation/agent/installation/windows/large_install]]."
-msgstr ""
-
-#. type: Title #
-#, no-wrap
-msgid "Installation from sources"
-msgstr ""
-
-#. type: Plain text
-msgid ""
-"If you are an developer, or an advanced user, you can also install "
-"FusionInventory [[from sources|documentation/agent/dev/git_windows]]."
-msgstr ""
+"Si es un desarrollador, o un usuario avanzado, puede además instalar "
+"FusionInventory Agent 2.3.x [[a partir del Código Fuente|documentation/agent/"
+"dev/git_windows]]."

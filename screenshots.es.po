@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2013-01-28 13:44+0000\n"
+"POT-Creation-Date: 2013-09-12 21:14+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -23,48 +23,42 @@ msgstr ""
 
 #. type: Plain text
 #, no-wrap
-msgid "[[!img screenshots/308.png size=\"200x200\" alt=\"clouds\"]]\n"
+msgid "[[!img screenshots/308.png size=\"600x600\" alt=\"clouds\"]]\n"
 msgstr ""
 
 #. type: Plain text
 #, no-wrap
-msgid "[[!img screenshots/309.png size=\"200x200\" alt=\"clouds\"]]\n"
+msgid "[[!img screenshots/309.png size=\"600x600\" alt=\"clouds\"]]\n"
 msgstr ""
 
 #. type: Plain text
 #, no-wrap
-msgid "[[!img screenshots/299.png size=\"200x200\" alt=\"clouds\"]]\n"
+msgid "[[!img screenshots/299.png size=\"600x600\" alt=\"clouds\"]]\n"
 msgstr ""
 
 #. type: Title ##
 #, no-wrap
-msgid "Agent"
+msgid "FusionInventory Agent"
 msgstr ""
 
 #. type: Plain text
 #, no-wrap
-msgid "[[!img screenshots/installer.png size=\"200x200\" alt=\"clouds\"]]\n"
+msgid "[[!img documentation/agent/installation/windows/windows-installer-2.3.x-screen-002-welcome.png alt=\"Welcome\"]]\n"
 msgstr ""
 
 #. type: Plain text
 #, no-wrap
-msgid "[[!img screenshots/agent-300x230.png size=\"200x200\" alt=\"clouds\"]]\n"
-msgstr ""
-
-#. type: Title ##
-#, no-wrap
-msgid "OCS Inventory "
-msgstr ""
-
-#. type: Plain text
-msgid "An example of Cyrillic content FusionInventory Agent with OCS Inventory:"
+msgid "[[!img documentation/agent/installation/windows/windows-installer-2.3.x-screen-004-installation-type.png alt=\"Installation Type\"]]\n"
 msgstr ""
 
 #. type: Plain text
 #, no-wrap
-msgid ""
-"[[!img screenshots/ocsreport-cyrillic-290x300.png size=\"200x200\" "
-"alt=\"clouds\"]]\n"
+msgid "[[!img screenshots/agent-300x230.png size=\"300x230\" alt=\"clouds\"]]\n"
+msgstr ""
+
+#. type: Plain text
+#, no-wrap
+msgid "[[!img screenshots/2.3.0_on_mandriva_2005.png  size=\"600x600\" alt=\"2.3.0 on Mandriva 2005\"]]\n"
 msgstr ""
 
 #. type: Title ##
@@ -74,27 +68,22 @@ msgstr ""
 
 #. type: Plain text
 msgid ""
-"[Uranos](http://uranos.sourceforge.net/www/index.php?loadsub=quwiki&func=wiki&type=index) "
-"is another server that support FusionInventory Agent."
+"[Uranos](http://uranos.sourceforge.net/www/index.php?"
+"loadsub=quwiki&func=wiki&type=index) is another server that support "
+"FusionInventory Agent."
 msgstr ""
 
 #. type: Plain text
 #, no-wrap
-msgid ""
-"[[!img screenshots/fusioninventory-storages.png size=\"200x200\" "
-"alt=\"clouds\"]]\n"
+msgid "[[!img screenshots/fusioninventory-storages.png size=\"600x600\" alt=\"clouds\"]]\n"
 msgstr ""
 
 #. type: Plain text
 #, no-wrap
-msgid ""
-"[[!img screenshots/fusioninventory-detail-300x146.png size=\"200x200\" "
-"alt=\"clouds\"]]\n"
+msgid "[[!img screenshots/fusioninventory-detail-300x146.png size=\"300x146\" alt=\"clouds\"]]\n"
 msgstr ""
 
 #. type: Plain text
 #, no-wrap
-msgid ""
-"[[!img screenshots/fusioninventory-hardware-300x146.png size=\"200x200\" "
-"alt=\"clouds\"]]\n"
+msgid "[[!img screenshots/fusioninventory-hardware-300x146.png size=\"300x146\" alt=\"clouds\"]]\n"
 msgstr ""

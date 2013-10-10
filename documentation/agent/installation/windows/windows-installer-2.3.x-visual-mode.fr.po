@@ -1,0 +1,217 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2013-09-11 22:27+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. type: Title #
+#, no-wrap
+msgid "FusionInventory Agent Installer for Microsoft Windows -- Interactive Installation"
+msgstr "Installeur de l'Agent FusionInventory pour MS Windows -- Installation Interactive"
+
+#. type: Title ##
+#, no-wrap
+msgid "Installer Language Screen"
+msgstr "Écran sélection de la langue"
+
+#. type: Plain text
+#, no-wrap
+msgid "[[!img documentation/agent/installation/windows/windows-installer-2.3.x-screen-001-installer-language.png alt=\"Installer Language\"]]\n"
+msgstr "[[!img documentation/agent/installation/windows/windows-installer-2.3.x-screen-001-installer-language_fr.png alt=\"Installer Language\"]]\n"
+
+#. type: Title ##
+#, no-wrap
+msgid "Welcome Screen"
+msgstr "Écran de bienvenue"
+
+#. type: Plain text
+#, no-wrap
+msgid "[[!img  documentation/agent/installation/windows/windows-installer-2.3.x-screen-002-welcome.png alt=\"Welcome\"]]\n"
+msgstr "[[!img  documentation/agent/installation/windows/windows-installer-2.3.x-screen-002-welcome_fr.png alt=\"Welcome\"]]\n"
+
+#. type: Title ##
+#, no-wrap
+msgid "License Agreement Screen"
+msgstr "Écran de validation de la Licence"
+
+#. type: Plain text
+#, no-wrap
+msgid "[[!img documentation/agent/installation/windows/windows-installer-2.3.x-screen-003-license-agreement.png alt=\"License Agreement\"]]\n"
+msgstr "[[!img documentation/agent/installation/windows/windows-installer-2.3.x-screen-003-license-agreement_fr.png alt=\"License Agreement\"]]\n"
+
+#. type: Title ##
+#, no-wrap
+msgid "Installation Type Screen"
+msgstr "Écran de sélection du type d'Installation"
+
+#. type: Plain text
+#, no-wrap
+msgid "[[!img documentation/agent/installation/windows/windows-installer-2.3.x-screen-004-installation-type.png alt=\"Installation Type\"]]\n"
+msgstr "[[!img documentation/agent/installation/windows/windows-installer-2.3.x-screen-004-installation-type_fr.png alt=\"Installation Type\"]]\n"
+
+#. type: Title ##
+#, no-wrap
+msgid "Components Screen"
+msgstr "Écran de sélection des composants à installer"
+
+#. type: Plain text
+#, no-wrap
+msgid "[[!img documentation/agent/installation/windows/windows-installer-2.3.x-screen-005-choose-components.png alt=\"Components\"]]\n"
+msgstr "[[!img documentation/agent/installation/windows/windows-installer-2.3.x-screen-005-choose-components_fr.png alt=\"Components\"]]\n"
+
+#. type: Title ##
+#, no-wrap
+msgid "Install Location Screen"
+msgstr "Écran du choix du dossier d'installation"
+
+#. type: Plain text
+#, no-wrap
+msgid "[[!img documentation/agent/installation/windows/windows-installer-2.3.x-screen-006-install-location.png alt=\"Install Location\"]]\n"
+msgstr "[[!img documentation/agent/installation/windows/windows-installer-2.3.x-screen-006-install-location_fr.png alt=\"Install Location\"]]\n"
+
+#. type: Title ##
+#, no-wrap
+msgid "Targets Screen"
+msgstr "Écran de localisation de l'inventaire, local ou distant"
+
+#. type: Plain text
+#, no-wrap
+msgid "[[!img documentation/agent/installation/windows/windows-installer-2.3.x-screen-007-choose-targets.png alt=\"Targets\"]]\n"
+msgstr "[[!img documentation/agent/installation/windows/windows-installer-2.3.x-screen-007-choose-targets_fr.png alt=\"Targets\"]]\n"
+
+#. type: Title ##
+#, no-wrap
+msgid "Remote Target Option Screens"
+msgstr "Écrans de sélection des options pour envoyer l'inventaire au serveur distant"
+
+#. type: Title ###
+#, no-wrap
+msgid "Remote Target Options Screen (1/2)"
+msgstr "Écran des options SSL du serveur (1/2)"
+
+#. type: Plain text
+#, no-wrap
+msgid "[[!img documentation/agent/installation/windows/windows-installer-2.3.x-screen-008-remote-targets-options-1.png alt=\"Remote Targets Options (1/2)\"]]\n"
+msgstr "[[!img documentation/agent/installation/windows/windows-installer-2.3.x-screen-008-remote-targets-options-1_fr.png alt=\"Remote Targets Options (1/2)\"]]\n"
+
+#. type: Title ###
+#, no-wrap
+msgid "Remote Target Options Screen (2/2)"
+msgstr "Écran des options pour utiliser un proxy (2/2)"
+
+#. type: Plain text
+#, no-wrap
+msgid "[[!img documentation/agent/installation/windows/windows-installer-2.3.x-screen-009-remote-targets-options-2.png alt=\"Remote Targets Options (2/2)\"]]\n"
+msgstr "[[!img documentation/agent/installation/windows/windows-installer-2.3.x-screen-009-remote-targets-options-2_fr.png alt=\"Remote Targets Options (2/2)\"]]\n"
+
+#. type: Title ##
+#, no-wrap
+msgid "Execution Mode Screen"
+msgstr "Écran pour choisir le mode d'exécution de l'agent"
+
+#. type: Plain text
+#, no-wrap
+msgid "[[!img documentation/agent/installation/windows/windows-installer-2.3.x-screen-010-execution-mode.png alt=\"Execution Mode\"]]\n"
+msgstr "[[!img documentation/agent/installation/windows/windows-installer-2.3.x-screen-010-execution-mode_fr.png alt=\"Execution Mode\"]]\n"
+
+#. type: Title ###
+#, no-wrap
+msgid "As a Windows Service Screens"
+msgstr "Écran d'option pour le mode Service"
+
+#. type: Title ####
+#, no-wrap
+msgid "HTTP Server Options Screen"
+msgstr "Écran pour les options du serveur HTTP"
+
+#. type: Plain text
+#, no-wrap
+msgid "[[!img documentation/agent/installation/windows/windows-installer-2.3.x-screen-011-http-server-options.png alt=\"HTTP Server Options\"]]\n"
+msgstr "[[!img documentation/agent/installation/windows/windows-installer-2.3.x-screen-011-http-server-options_fr.png alt=\"HTTP Server Options\"]]\n"
+
+#. type: Title ###
+#, no-wrap
+msgid "As a Windows Task Screens"
+msgstr "Écran d'option pour le mode gestionnaire de tâche"
+
+#. type: Title ####
+#, no-wrap
+msgid "Windows Task Options Screen"
+msgstr "Écran lancement Tâche Windows"
+
+#. type: Plain text
+#, no-wrap
+msgid "[[!img documentation/agent/installation/windows/windows-installer-2.3.x-screen-012-windows-task-options.png alt=\"Windows Task Options\"]]\n"
+msgstr "[[!img documentation/agent/installation/windows/windows-installer-2.3.x-screen-012-windows-task-options_fr.png alt=\"Windows Task Options\"]]\n"
+
+#. type: Title ##
+#, no-wrap
+msgid "Miscelaneous Options Screen"
+msgstr "Écran pour les options complémentaires"
+
+#. type: Plain text
+#, no-wrap
+msgid "[[!img documentation/agent/installation/windows/windows-installer-2.3.x-screen-013-miscelaneous-options.png alt=\"Miscelaneous Options\"]]\n"
+msgstr "[[!img documentation/agent/installation/windows/windows-installer-2.3.x-screen-013-miscelaneous-options_fr.png alt=\"Miscelaneous Options\"]]\n"
+
+#. type: Title ##
+#, no-wrap
+msgid "Advanced Options Screen"
+msgstr "Écran pour les options avancées"
+
+#. type: Plain text
+#, no-wrap
+msgid "[[!img documentation/agent/installation/windows/windows-installer-2.3.x-screen-014-advanced-options.png alt=\"Advanced Options\"]]\n"
+msgstr "[[!img documentation/agent/installation/windows/windows-installer-2.3.x-screen-014-advanced-options_fr.png alt=\"Advanced Options\"]]\n"
+
+#. type: Title ##
+#, no-wrap
+msgid "Debug Options Screen"
+msgstr "Écran des options de Debug"
+
+#. type: Plain text
+#, no-wrap
+msgid "[[!img documentation/agent/installation/windows/windows-installer-2.3.x-screen-015-debug-options.png alt=\"Debug Options\"]]\n"
+msgstr "[!img documentation/agent/installation/windows/windows-installer-2.3.x-screen-015-debug-options_fr.png alt=\"Debug Options\"]]\n"
+
+#. type: Title ##
+#, no-wrap
+msgid "Installing Screen"
+msgstr "Écran d'installation en cours"
+
+#. type: Plain text
+#, no-wrap
+msgid "[[!img  documentation/agent/installation/windows/windows-installer-2.3.x-screen-016-installing.png alt=\"Installing\"]]\n"
+msgstr "[[!img  documentation/agent/installation/windows/windows-installer-2.3.x-screen-016-installing_fr.png alt=\"Installing\"]]\n"
+
+#. type: Title ##
+#, no-wrap
+msgid "Installation Complete Screen"
+msgstr "Écran Installation complète"
+
+#. type: Plain text
+#, no-wrap
+msgid "[[!img documentation/agent/installation/windows/windows-installer-2.3.x-screen-017-installation-complete.png alt=\"Installation Complete\"]]\n"
+msgstr "[[!img documentation/agent/installation/windows/windows-installer-2.3.x-screen-017-installation-complete_fr.png alt=\"Installation Complete\"]]\n"
+
+#. type: Title ##
+#, no-wrap
+msgid "Completing Screen"
+msgstr "Écran de fin"
+
+#. type: Plain text
+#, no-wrap
+msgid "[[!img documentation/agent/installation/windows/windows-installer-2.3.x-screen-018-completing.png alt=\"Completing\"]]\n"
+msgstr "[[!img documentation/agent/installation/windows/windows-installer-2.3.x-screen-018-completing_fr.png alt=\"Completing\"]]\n"

@@ -1,33 +1,25 @@
 # Reference documentation
 
-## fusioninventory-agent
+## 2.3.x (stable)
 
-* [[2.3.x (dev)|documentation/references/agent/2.3.x/fusioninventory-agent]]
+* [[fusioninventory-agent|documentation/references/agent/2.3.x/fusioninventory-agent]]
+* [[fusioninventory-esx|documentation/references/agent/2.3.x/fusioninventory-esx]]
+* [[fusioninventory-injector|documentation/references/agent/2.3.x/fusioninventory-injector]]
+* [[fusioninventory-inventory|documentation/references/agent/2.3.x/fusioninventory-inventory]]
+* [[fusioninventory-netdiscovery|documentation/references/agent/2.3.x/fusioninventory-netdiscovery]]
+* [[fusioninventory-netinventory|documentation/references/agent/2.3.x/fusioninventory-netinventory]]
+* [[fusioninventory-wakeonlan|documentation/references/agent/2.3.x/fusioninventory-wakeonlan]]
+* [[fusioninventory-win32-service|documentation/references/agent/2.3.x/fusioninventory-win32-service]]
 
-## fusioninventory-esx
+## 2.2.x (stable)
 
-* [[2.3.x (dev)|documentation/references/agent/2.3.x/fusioninventory-esx]]
+* [[fusioninventory-agent|documentation/references/agent/2.2.x/fusioninventory-agent]]
+* [[fusioninventory-injector|documentation/references/agent/2.2.x/fusioninventory-injector]]
+* [[fusioninventory-win32-service|documentation/references/agent/2.2.x/fusioninventory-win32-service]]
 
-## fusioninventory-injector
+## 2.1.x (oldstable)
 
-* [[2.3.x (dev)|documentation/references/agent/2.3.x/fusioninventory-injector]]
-
-## fusioninventory-inventory
-
-* [[2.3.x (dev)|documentation/references/agent/2.3.x/fusioninventory-inventory]]
-
-## fusioninventory-netdiscovery
-
-* [[2.3.x (dev)|documentation/references/agent/2.3.x/fusioninventory-netdiscovery]]
-
-## fusioninventory-netinventory
-
-* [[2.3.x (dev)|documentation/references/agent/2.3.x/fusioninventory-netinventory]]
-
-## fusioninventory-wakeonlan
-
-* [[2.3.x (dev)|documentation/references/agent/2.3.x/fusioninventory-wakeonlan]]
-
-## fusioninventory-win32-service
-
-* [[2.3.x (dev)|documentation/references/agent/2.3.x/fusioninventory-win32-service]]
+* [[fusioninventory-agent|documentation/references/agent/2.1.x/fusioninventory-agent]]
+* [[fusioninventory-agent-config|documentation/references/agent/2.1.x/fusioninventory-agent-config]]
+* [[fusioninventory-injector|documentation/references/agent/2.1.x/fusioninventory-injector]]
+* [[fusioninventory-win32-service|documentation/references/agent/2.1.x/fusioninventory-win32-service]]

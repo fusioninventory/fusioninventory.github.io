@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2013-02-12 22:07+0000\n"
+"POT-Creation-Date: 2013-10-09 17:41+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -28,18 +28,20 @@ msgid ""
 "from any method. For instance, the `server` parameter in configuration file "
 "is the same as the `--server` parameter on command line."
 msgstr ""
-"L'agent lit la configuration depuis le fichier de configuration (depuis la base de registre sur Windows),"
-" ou à partir de la ligne de commande. La plupart des paramètres peuvent être définis à partir de n'importe "
-"quelle méthode. Par exemple, le paramètre `server` dans le fichier de configuration a le même "
-"sens que le paramètre `--server` en ligne de commande."
+"L'agent lit la configuration depuis le fichier de configuration (depuis la "
+"base de registre sur Windows), ou à partir de la ligne de commande. La "
+"plupart des paramètres peuvent être définis à partir de n'importe quelle "
+"méthode. Par exemple, le paramètre `server` dans le fichier de configuration "
+"a le même sens que le paramètre `--server` en ligne de commande."
 
 #. type: Plain text
 msgid ""
 "Most configuration parameters are single-valued. Multi-valued ones use a "
 "comma field separator. For instance, `logger = Stderr, File`"
 msgstr ""
-"La plupart des paramètres de configuration ont une seule valeur. Pour ceux ayant "
-" plusieurs valeurs, utiliser le séparateur de champ «virgules». Par exemple, logger = Stderr,File"
+"La plupart des paramètres de configuration ont une seule valeur. Pour ceux "
+"ayant  plusieurs valeurs, utiliser le séparateur de champ «virgules». Par "
+"exemple, logger = Stderr,File"
 
 #. type: Title ##
 #, no-wrap
@@ -101,6 +103,7 @@ msgid "`local`: a output directory, such /tmp/inventory"
 msgstr "`local` : un dossier cible, comme /tmp/dossier"
 
 #. type: Title ##
+#, no-wrap
 msgid "Additional configuration"
 msgstr "Configuration additionnelle"
 
@@ -109,19 +112,12 @@ msgid ""
 "If you intend to run the agent in background, you'd rather set the "
 "additional parameters:"
 msgstr ""
-"Si vous avez l'intention d'exécuter l'agent en arrière-plan, "
-"vous devrez définir les paramètres supplémentaires :"
+"Si vous avez l'intention d'exécuter l'agent en arrière-plan, vous devrez "
+"définir les paramètres supplémentaires :"
 
 #. type: Bullet: '* '
 msgid "`debug`: 0, 1 or 2, to keep trace of agent execution"
 msgstr "`debug` : 0, 1, ou 2, pour garder le log de l'exécution de l'agent"
-
-#. type: Bullet: '* '
-msgid ""
-"`httpd-trust`: a server IP address, so as to allows it to force agent "
-"execution"
-msgstr ""
-"`httpd-trust` : une adresse IP du serveur, de manière à lui permet de forcer l'exécution de l'agent"
 
 #. type: Plain text
 msgid ""
@@ -165,3 +161,9 @@ msgid ""
 msgstr ""
 "[[2.3.x (dev)|documentation/references/agent/2.3.x/fusioninventory-agent]]"
 
+#~ msgid ""
+#~ "`httpd-trust`: a server IP address, so as to allows it to force agent "
+#~ "execution"
+#~ msgstr ""
+#~ "`httpd-trust` : une adresse IP du serveur, de manière à lui permet de "
+#~ "forcer l'exécution de l'agent"

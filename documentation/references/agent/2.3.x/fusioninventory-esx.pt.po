@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2013-07-29 17:07+0000\n"
+"POT-Creation-Date: 2013-08-13 10:03+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -16,20 +16,14 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#. type: Plain text
-#, no-wrap
-msgid ""
-"[[!template  id=warning text=\"The 2.3.x serie is still in "
-"developpement.\"]]\n"
-msgstr ""
-
 #. type: Title #
 #, no-wrap
 msgid "NAME"
 msgstr ""
 
 #. type: Plain text
-msgid "fusioninventory-esx - vCenter/ESX/ESXi remote inventory from command line"
+msgid ""
+"fusioninventory-esx - vCenter/ESX/ESXi remote inventory from command line"
 msgstr ""
 
 #. type: Title #
@@ -39,9 +33,7 @@ msgstr ""
 
 #. type: Plain text
 #, no-wrap
-msgid ""
-"fusioninventory-esx --host <host> --user <user> --password <password> "
-"--directory <directory>\n"
+msgid "fusioninventory-esx --host <host> --user <user> --password <password> --directory <directory>\n"
 msgstr ""
 
 #. type: Plain text
@@ -63,18 +55,14 @@ msgstr ""
 
 #. type: Plain text
 #, no-wrap
-msgid ""
-"    % fusioninventory-esx --host myesx --user foo --password bar --directory "
-"/tmp\n"
+msgid "    % fusioninventory-esx --host myesx --user foo --password bar --directory /tmp\n"
 msgstr ""
 
 #. type: Plain text
 #, no-wrap
 msgid ""
-"You can import the .ocs file in your inventory server with the "
-"fusioninventory-injector tool.\n"
-"    %fusioninventory-injector -v --file /tmp/\\*.ocs -u "
-"https://myserver/ocsinventory\n"
+"You can import the .ocs file in your inventory server with the fusioninventory-injector tool.\n"
+"    %fusioninventory-injector -v --file /tmp/\\*.ocs -u https://myserver/ocsinventory\n"
 msgstr ""
 
 #. type: Title #

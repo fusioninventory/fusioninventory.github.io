@@ -1,0 +1,285 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# This file is distributed under the same license as the FusionInventory-Agent package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2013-08-20 14:31+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. type: Plain text
+#, no-wrap
+msgid "[[!meta  date=\"2013-08-01\"]]\n"
+msgstr ""
+
+#. type: Plain text
+msgid "Hello FusionInventory users,"
+msgstr ""
+
+#. type: Plain text
+msgid ""
+"The FusionInventory Agent maintainers are glad to announce the 2.3.0 release."
+msgstr ""
+
+#. type: Plain text
+msgid ""
+"You can download the archive from [the forge](http://forge.fusioninventory."
+"org/attachments/download/1016/FusionInventory-Agent-2.3.0.tar.gz)  or "
+"directly from [the CPAN](https://metacpan.org/release/FusionInventory-Agent)"
+msgstr ""
+
+#. type: Plain text
+msgid ""
+"We want to thank all the people involved during the developement process."
+msgstr ""
+
+#. type: Title ###
+#, no-wrap
+msgid "Packages"
+msgstr ""
+
+#. type: Plain text
+msgid ""
+"Windows packages are available on [the forge](http://forge.fusioninventory."
+"org/projects/fusioninventory-agent-windows-installer/files).  The new "
+"installer is now maintained by Tomás Abad. The parameters are different take "
+"some minutes to read the documentation."
+msgstr ""
+
+#. type: Plain text
+msgid ""
+"The previous 2.2.x Windows packages are [still available](http://prebuilt."
+"fusioninventory.org/stable/windows-i386/)."
+msgstr ""
+
+#. type: Plain text
+msgid "The other packages, especially MacOSX, will be published soon."
+msgstr ""
+
+#. type: Title ##
+#, no-wrap
+msgid "This release changelog"
+msgstr ""
+
+#. type: Plain text
+msgid "This is a major release that include various important changes."
+msgstr ""
+
+#. type: Title ###
+#, no-wrap
+msgid "distribution:"
+msgstr ""
+
+#. type: Bullet: '* '
+msgid "Deploy, Network and ESX tasks are now integrated in the distribution"
+msgstr ""
+
+#. type: Bullet: '* '
+msgid "new fusioninventory-inventory executable, dedicated to inventory task"
+msgstr ""
+
+#. type: Title ###
+#, no-wrap
+msgid "core:"
+msgstr ""
+
+#. type: Bullet: '* '
+msgid "no more thread usage for HTTP interface"
+msgstr ""
+
+#. type: Bullet: '* '
+msgid ""
+"no more token usage for HTTP interface, request source address is enough"
+msgstr ""
+
+#. type: Bullet: '* '
+msgid "`--httpd-trust` option now allows multiple values"
+msgstr ""
+
+#. type: Bullet: '* '
+msgid ""
+"`--daemon and` `--no-fork` options are now available from command-line only"
+msgstr ""
+
+#. type: Title ###
+#, no-wrap
+msgid "inventory task:"
+msgstr ""
+
+#. type: Bullet: '* '
+msgid ""
+"add DNS_DOMAIN, BOOT_TIME and FQDN in OPERATINGSYSTEM section ([[!bug "
+"1197]], [[!bug 1347]], [[!bug 1358]])"
+msgstr ""
+
+#. type: Bullet: '* '
+msgid "collect public SSH keys"
+msgstr ""
+
+#. type: Bullet: '* '
+msgid "collect local users and groups ([[!bug 1570]], [[!bug 1870]])"
+msgstr ""
+
+#. type: Bullet: '* '
+msgid "collect license key for MS Office on Windows ([[!bug 152]])"
+msgstr ""
+
+#. type: Bullet: '* '
+msgid "collect software from user profile on Windows([[!bug 1674]])"
+msgstr ""
+
+#. type: Bullet: '* '
+msgid ""
+"collect license key for Adobe suite, Panic's Transit, VMware Fusion on MacOs"
+msgstr ""
+
+#. type: Bullet: '* '
+msgid "collect service package version on AIX ([[!bug 1896]])"
+msgstr ""
+
+#. type: Bullet: '* '
+msgid "collect manufacturer information for memories ([[!bug 1735]])"
+msgstr ""
+
+#. type: Bullet: '* '
+msgid "enforce consistent handling of USB and PCI identifiers ([[!bug 1861]])"
+msgstr ""
+
+#. type: Bullet: '* '
+msgid "enforce consistent TYPE values for network interfaces ([[!bug 1838]])"
+msgstr ""
+
+#. type: Bullet: '* '
+msgid "various UTF8 encoding fixes"
+msgstr ""
+
+#. type: Bullet: '* '
+msgid "better stripping of bogus values"
+msgstr ""
+
+#. type: Bullet: '* '
+msgid "Megaraid and 3ware RAID controller support on BSD (Egor Morozov)"
+msgstr ""
+
+#. type: Bullet: '* '
+msgid "Megaraid controller support on Linux (Egor Morozov)"
+msgstr ""
+
+#. type: Bullet: '* '
+msgid "support new OpenVZ configuration on Linux (Alessandro Iurlano)"
+msgstr ""
+
+#. type: Bullet: '* '
+msgid "LPAR support on AIX ([[!bug 950]], [[!bug 952]])"
+msgstr ""
+
+#. type: Bullet: '* '
+msgid "FreeBSD jail support on BSD ([[!bug 736]], [[!bug 1555]])"
+msgstr ""
+
+#. type: Bullet: '* '
+msgid "better caching of system_profiler output ([[!bug 2076]])"
+msgstr ""
+
+#. type: Bullet: '* '
+msgid "better Qemu support ([[!bug 2106]])"
+msgstr ""
+
+#. type: Bullet: '* '
+msgid "better OpenVM support ([[!bug 1774]])"
+msgstr ""
+
+#. type: Bullet: '* '
+msgid "better HyperV support ([[!bug 1989]], [[!bug 1990]], [[!bug 1991]])"
+msgstr ""
+
+#. type: Bullet: '* '
+msgid "fix CPU inventory for non-i386 arches on Linux ([[!bug 2172]])"
+msgstr ""
+
+#. type: Bullet: '* '
+msgid ""
+"better CPU inventory on Solaris ([[!bug 1741]], [[!bug 1905]], [[!bug 2152]])"
+msgstr ""
+
+#. type: Bullet: '* '
+msgid ""
+"better memory inventory on Solaris ([[!bug 1711]], [[!bug 1714]], [[!bug "
+"1737]])"
+msgstr ""
+
+#. type: Bullet: '* '
+msgid "better slot inventory on Solaris ([[!bug 1730]])"
+msgstr ""
+
+#. type: Bullet: '* '
+msgid "fix VXFS filesystem identification on Solaris ([[!bug 1696]])"
+msgstr ""
+
+#. type: Bullet: '* '
+msgid "minimal support for busybox-specific command output ([[!bug 1372]])"
+msgstr ""
+
+#. type: Bullet: '* '
+msgid "no more memconf usage on Solaris"
+msgstr ""
+
+#. type: Bullet: '* '
+msgid "no more Mac::SysProfile usage on MacOS ([[!bug 1646]])"
+msgstr ""
+
+#. type: Title ###
+#, no-wrap
+msgid "wake-on-lan task:"
+msgstr ""
+
+#. type: Bullet: '* '
+msgid "ethernet and udp methods support on all systems"
+msgstr ""
+
+#. type: Title ###
+#, no-wrap
+msgid "netdiscovery task:"
+msgstr ""
+
+#. type: Bullet: '* '
+msgid ""
+"fix for regression introduced during code refactoring regarding printers "
+"identification"
+msgstr ""
+
+#. type: Title ###
+#, no-wrap
+msgid "test suite:"
+msgstr ""
+
+#. type: Bullet: '* '
+msgid "check the link for 404 error in the doc"
+msgstr ""
+
+#. type: Bullet: '* '
+msgid "check for warnings generated during parsing"
+msgstr ""
+
+#. type: Bullet: '* '
+msgid "check entries generated from parsing match expected inventory format"
+msgstr ""
+
+#. type: Bullet: '* '
+msgid "normalize list before comparaison, for perl 5.18 hash randomisation"
+msgstr ""
+
+#. type: Plain text
+msgid ""
+"We did our best to provide a solid release, please [[contact us|/resources]] "
+"is you believe you find something unexpected."
+msgstr ""

@@ -4,7 +4,7 @@
 # modification, are permitted under any circumstances. No warranty.
 msgid ""
 msgstr ""
-"POT-Creation-Date: 2013-01-28 13:16+0000\n"
+"POT-Creation-Date: 2013-10-03 12:14+0000\n"
 "PO-Revision-Date: 2010-03-12 09:40+0530\n"
 "Last-Translator: Sebastian Kuhnert <mail@sebastian-kuhnert.de>\n"
 "Language-Team: None\n"
@@ -23,7 +23,7 @@ msgstr ""
 
 #. type: Plain text
 #, no-wrap
-msgid "[[!inline pages=\"page(./news/*) and currentlang() and !*/Discussion\" rootpage=\"news\" postform=\"no\" postformtext=\"nothing\" show=\"5\" rss=\"yes\" atom=\"yes\"]]\n"
+msgid "[[!inline pages=\"page(./news/*) and currentlang() and  !*/Discussion\" rootpage=\"news\" postform=\"no\" postformtext=\"nothing\" show=\"5\" rss=\"yes\" atom=\"yes\"]]\n"
 msgstr ""
 
 #~ msgid "Welcome to your new wiki."

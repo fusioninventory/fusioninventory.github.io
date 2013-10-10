@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2013-02-12 22:07+0000\n"
+"POT-Creation-Date: 2013-10-09 17:41+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: Piotr Adamcio <p.adamcio@czluchow.org.pl>\n"
 "Language-Team: Polish <LL@li.org>\n"
@@ -111,12 +111,6 @@ msgstr ""
 
 #. type: Bullet: '* '
 msgid "`debug`: 0, 1 or 2, to keep trace of agent execution"
-msgstr ""
-
-#. type: Bullet: '* '
-msgid ""
-"`httpd-trust`: a server IP address, so as to allows it to force agent "
-"execution"
 msgstr ""
 
 #. type: Plain text

@@ -1,0 +1,50 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# This file is distributed under the same license as the FusionInventory-Agent package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2013-10-03 10:49+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. type: Plain text
+#, no-wrap
+msgid "[[!meta  date=\"2013-09-20\"]]\n"
+msgstr ""
+
+#. type: Plain text
+msgid "Hello FusionInventory users,"
+msgstr ""
+
+#. type: Plain text
+msgid ""
+"The FusionInventory Agent maintainers are glad to announce the 2.3.2 "
+"release."
+msgstr ""
+
+#. type: Plain text
+msgid ""
+"You can download the archive from [the "
+"forge](http://forge.fusioninventory.org/attachments/download/1073/FusionInventory-Agent-2.3.2.tar.gz)  "
+"or directly from [the "
+"CPAN](https://metacpan.org/release/FusionInventory-Agent)"
+msgstr ""
+
+#. type: Plain text
+msgid "This release fix some bugs with NetInventory task."
+msgstr ""
+
+#. type: Plain text
+msgid ""
+"We did our best to provide a solid release, please [[contact us|/resources]] "
+"is you believe you find something unexpected."
+msgstr ""

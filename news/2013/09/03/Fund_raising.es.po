@@ -1,0 +1,84 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# This file is distributed under the same license as the FusionInventory-Agent package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2013-09-07 20:08+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. type: Plain text
+#, no-wrap
+msgid "[[!meta  date=\"2013-09-03\"]]\n"
+msgstr ""
+
+#. type: Plain text
+#, no-wrap
+msgid "[[!meta title=\"Fund Raising\"]]\n"
+msgstr ""
+
+#. type: Plain text
+msgid ""
+"FusionInventory.org website is hosted by <http://www.Branchable.com>.  They "
+"offer [Ikiwiki](http://ikiwiki.info/) hosting for a reasonable price and "
+"support FreeSoftware (Debian, git-annex, Ikiwiki, Obnam, etc)."
+msgstr ""
+
+#. type: Plain text
+msgid ""
+"2 years ago the [Cornell University](http://www.cornell.edu/) decided to pay "
+"the bill for 24 months. Again, we want to thank them!"
+msgstr ""
+
+#. type: Plain text
+msgid ""
+"Now the last dollar has been spent and we are looking for people interested "
+"in supporting us financially."
+msgstr ""
+
+#. type: Plain text
+msgid ""
+"The best would be at least $59.99, to get a one year support. Please "
+"[contact us if you are interested](mailto:goneri@lebouder.net)!"
+msgstr ""
+
+#. type: Title ##
+#, no-wrap
+msgid "UPDATE"
+msgstr ""
+
+#. type: Plain text
+msgid ""
+"The people from [Normation](http://www.normation.com/) paid the hosting till "
+"2017 !!!"
+msgstr ""
+
+#. type: Plain text
+#, no-wrap
+msgid "[[!img partners/normation.png]]\n"
+msgstr ""
+
+#. type: Plain text
+msgid ""
+"[Normation](http://www.normation.com/) is the software company behind the "
+"open source project _[Rudder](http://www.normation.com/solutions/rudder)_, a "
+"turn-key solution that helps enterprises gain control over their IT "
+"infrastructure through automation and continuous configuration assessment. "
+"Normation also acts as a solution provider, making available the team’s "
+"leading expertise in open source technology and _infrastructure "
+"orchestration_ as a range of services including consulting, training and "
+"professional support."
+msgstr ""
+
+#. type: Plain text
+msgid "Thank you guys!"
+msgstr ""

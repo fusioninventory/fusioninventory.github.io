@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2013-07-10 10:00+0000\n"
+"POT-Creation-Date: 2013-10-04 21:08+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -106,6 +106,7 @@ msgid ""
 "          \"function\" : \"findFile\",\n"
 "          \"limit\" : 5, # Number of entry to look for, default is 50\n"
 "          \"recursive\" : 0,\n"
+"          \"dir\": \"/home\" # Where to start the search, default is /\n"
 "          \"filter\" : // filter and its content is optional\n"
 "              {\n"
 "                          \"regex\" : \"\\d{4}\\.bmp$\",// regex done on the full path\n"
@@ -200,6 +201,10 @@ msgstr ""
 msgid "getFromRegistry"
 msgstr ""
 
+#. type: Plain text
+msgid "Returns undef in case of error or an array of the following hash:"
+msgstr ""
+
 #. type: Bullet: '* '
 msgid "name1 : value1"
 msgstr ""
@@ -249,6 +254,11 @@ msgstr ""
 #. type: Title ###
 #, no-wrap
 msgid "runCommand"
+msgstr ""
+
+#. type: Plain text
+#, no-wrap
+msgid "[[!template  id=warning text=\"Function disabled for the moment.\"]]\n"
 msgstr ""
 
 #. type: Bullet: '* '

@@ -16,22 +16,48 @@ my @repoList = (
 
         name => 'agent',
         url =>
-          'git+ssh://forge.fusioninventory.org/git/fusioninventory/agent.git',
+        'git+ssh://forge.fusioninventory.org/git/fusioninventory/agent.git',
         branches => [
             {
                 'serie'  => '2.3.x',
-                'branch' => 'master',
-                'status' => 'dev'
+                'branch' => '2.3.x',
+                'status' => 'stable'
+            },
+        ]
+    },
+    {
+
+        name => 'agent',
+        url =>
+        'git+ssh://forge.fusioninventory.org/git/fusioninventory/agent.git',
+        branches => [
+            {
+                'serie'  => '2.2.x',
+                'branch' => '2.2.x',
+                'status' => 'stable'
+            },
+        ]
+    },
+    {
+
+        name => 'agent',
+        url =>
+        'git+ssh://forge.fusioninventory.org/git/fusioninventory/agent.git',
+        branches => [
+            {
+                'serie'  => '2.1.x',
+                'branch' => '2.1.x',
+                'status' => 'oldstable'
             },
         ]
     }
+
 );
 
 
 my $indexContent = "# Reference documentation\n";
 
 my $wiki = Git::Repository->new( work_tree => '.' );
-#eval { $wiki->run('rm', '-rf', "documentation/references") };
 foreach my $repo (@repoList) {
     use Data::Dumper;
     my $localDir = sprintf( "%s/%s", $tmpDir, $repo->{name} );
@@ -45,29 +71,21 @@ foreach my $repo (@repoList) {
     }
     my $r = Git::Repository->new( work_tree => $localDir );
     $r->run( 'fetch', 'origin' );
+    foreach my $branch ( @{ $repo->{branches} } ) {
+        $r->run( 'checkout', 'origin/'.$branch->{branch} );
 
-    foreach my $fullpath ( glob("$localDir/bin/fusioninventory-*") ) {
-        my $filename = basename($fullpath);
-
-        $indexContent .= "\n## $filename\n\n" unless $filename =~ /pm$/;
-
-        foreach my $branch ( @{ $repo->{branches} } ) {
-
-            my $content =
-              eval{ $r->run( 'show', 'origin/' . $branch->{branch} . ':' . 'bin/' . $filename ) };
+        $indexContent .= "\n## ". $branch->{branch} ." (". $branch->{status} .")\n\n";
 
 
-            open TMP, ">$localDir/tmpfile" or die;
-            print TMP $content;
-            close TMP;
+        foreach my $fullpath ( glob("$localDir/bin/fusioninventory-*"), glob("$localDir/fusioninventory-*") ) {
+            my $filename = basename($fullpath);
+            print $fullpath."\n";
 
             my $mdwnFile = sprintf("documentation/references/%s/%s/%s", $repo->{name}, $branch->{serie}, $filename);
             print $mdwnFile. "\n";
 
-            next unless $content;
-
             my $parser = Pod::Markdown->new;
-            $parser->parse_from_file("$localDir/tmpfile");
+            $parser->parse_from_file($fullpath);
             make_path( dirname( $mdwnFile . '.mdwn' ) );
             open OUT, ">" . $mdwnFile . '.mdwn' or die "$!";
 
@@ -79,7 +97,7 @@ foreach my $repo (@repoList) {
             print OUT $parser->as_markdown;
             close OUT;
             $wiki->run('add', $mdwnFile . '.mdwn');
-            $indexContent .= "* [[".$branch->{serie}." (".$branch->{status}.")|$mdwnFile]]\n" unless $filename =~ /pm$/;
+            $indexContent .= "* [[".$filename."|$mdwnFile]]\n" unless $filename =~ /pm$/;
 
         }
 
