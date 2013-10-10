@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2013-08-13 21:51+0000\n"
+"POT-Creation-Date: 2013-10-10 17:12+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -27,9 +27,19 @@ msgid "Overview"
 msgstr ""
 
 #. type: Plain text
-msgid ""
-"The NetDiscovery task uses the following protocols to scan IP networks: * "
-"ICMP scan * NetBIOS scan * SNMP scan"
+msgid "The NetDiscovery task uses the following protocols to scan IP networks:"
+msgstr ""
+
+#. type: Bullet: '* '
+msgid "ICMP scan"
+msgstr ""
+
+#. type: Bullet: '* '
+msgid "NetBIOS scan"
+msgstr ""
+
+#. type: Bullet: '* '
+msgid "SNMP scan"
 msgstr ""
 
 #. type: Plain text
@@ -61,11 +71,22 @@ msgid "Agent configuration"
 msgstr "Configuration de l'agent"
 
 #. type: Plain text
+msgid "The agent requires additional software for this task:"
+msgstr ""
+
+#. type: Bullet: '* '
+msgid "nmap external command for ICMP suport"
+msgstr ""
+
+#. type: Bullet: '* '
+msgid "Net::NBName perl module for NetBios support"
+msgstr ""
+
+#. type: Plain text
+#, no-wrap
 msgid ""
-"The agent requires additional software for this task: * nmap external "
-"command for ICMP suport * Net::NBName perl module for NetBios support * Net::"
-"SNMP perl modules for SNMP support You have to check your installation for "
-"those optional dependencies."
+"* Net::SNMP perl modules for SNMP support\n"
+"You have to check your installation for those optional dependencies.\n"
 msgstr ""
 
 #. type: Plain text
