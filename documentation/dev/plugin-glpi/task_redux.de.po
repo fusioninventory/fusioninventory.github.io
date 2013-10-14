@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2013-07-30 09:43+0000\n"
+"POT-Creation-Date: 2013-10-14 14:29+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -27,28 +27,36 @@ msgstr ""
 
 #. type: Title #
 #, no-wrap
-msgid "Tasks redux"
+msgid "Tasks redux : objectives"
+msgstr ""
+
+#. type: Plain text
+msgid "This page aims to gather objectives ."
 msgstr ""
 
 #. type: Bullet: '* '
 msgid ""
-"Move tasks summary GUI into an appropriate tab/screen called Reporting (like "
-"using native GLPI reporting facilities or mReporting optional plugin)"
+"Split and move tasks summary GUI parts into appropriate tab/screen called "
+"**Monitoring** and **Reporting** (like using native GLPI reporting "
+"facilities or mReporting optional plugin)"
 msgstr ""
 
 #. type: Bullet: '* '
-msgid ""
-"Rework task summary categories and layout (TODO: we welcome any mockup and "
-"propositions)"
+msgid "Rework task summary categories and layout"
 msgstr ""
 
-#. type: Bullet: '* '
-msgid "Add history log on tasks"
-msgstr ""
-
-#. type: Title ##
+#. type: Plain text
 #, no-wrap
-msgid "Tasks GUI"
+msgid "[[!template id=info text=\"\"\"\n"
+msgstr ""
+
+#. type: Plain text
+#, no-wrap
+msgid "**TODO** We welcome any mockup and propositions.\n"
+msgstr ""
+
+#. type: Bullet: '* '
+msgid "Add history log on tasks."
 msgstr ""
 
 #. type: Bullet: '* '
@@ -58,13 +66,11 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#:  
 #, no-wrap
 msgid "[[!template  id=info text=\"\"\"\n"
 msgstr ""
 
 #. type: Plain text
-#:  
 #, no-wrap
 msgid "**TODO**\n"
 msgstr ""
@@ -75,25 +81,39 @@ msgid ""
 "many elements that makes this page unreadable."
 msgstr ""
 
+#. type: Title ##
+#, no-wrap
+msgid "TaskJob planification"
+msgstr ""
+
+#. type: Title ###
+#, no-wrap
+msgid "server-driven mode (legacy)"
+msgstr ""
+
+#. type: Plain text
+msgid ""
+"Taskjobs are generated like in previous version but Task and TaskJobs are "
+"created and managed separately."
+msgstr ""
+
 #. type: Plain text
 #, no-wrap
 msgid ""
 "* Split tasks from jobs to simplify the process\n"
 "    * Create a Jobs management tab outside the tasks\n"
-"    * We should be able to create Jobs in task management screen "
-"(cf. Package interface)\n"
+"    * We should be able to create Jobs in task management screen (cf. Package interface)\n"
 "    * Tasks are only considered as crontab-like tasks.\n"
 "    * Display the jobs list line by line.\n"
 "    * Create some helper class which helps to list jobs associated to some\n"
-"    task. For each Jobs linked, we must have:\n"
+"      task. For each Jobs linked, we must have:\n"
 "        * some timeout (or delay) before running a job.\n"
 "        * regroup every job by starting time.\n"
 msgstr ""
 
 #. type: Bullet: '* '
 msgid ""
-"Jobstates are generated according to their delay and in the resultant order "
-":"
+"JobStates are generated according to their delay and in the resultant order :"
 msgstr ""
 
 #. type: Plain text
@@ -109,46 +129,146 @@ msgstr ""
 #, no-wrap
 msgid ""
 "        results:\n"
-"            * at t+0, [Wakeonlan 1] and [Deploy 1] tasks are generated and "
-"ready to be executed by the agents.\n"
+"            * at t+0, [Wakeonlan 1] and [Deploy 1] tasks are generated and\n"
+"            ready to be executed by the agents.\n"
 "            * at t+1h, nothing to be done\n"
-"            * at t+2h, [Deploy 2] is generated and ready to be executed by "
-"the agents.\n"
+"            * at t+2h, [Deploy 2] is generated and ready to be executed by the\n"
+"            agents.\n"
+msgstr ""
+
+#. type: Bullet: '* '
+msgid "Explain in detail the delay time."
 msgstr ""
 
 #. type: Plain text
 #, no-wrap
 msgid ""
-"* Explain in detail the delay time. Maybe we can use some sort of maximum\n"
-"duration in addition to the delay a task in order to limit usage on certain "
-"time slots.\n"
+"* Maybe we can use some sort of maximum duration in addition to the delay a\n"
+"task in order to limit usage on certain time slots.\n"
+msgstr ""
+
+#. type: Title ###
+#, no-wrap
+msgid "agent-driven mode (ondemand)"
+msgstr ""
+
+#. type: Plain text
+msgid "TaskJobs are produced more like an on-demand service:"
+msgstr ""
+
+#. type: Bullet: '1. '
+msgid ""
+"Some agent asks for its tasks periodically (cf. getConfig in REST specs)"
+msgstr ""
+
+#. type: Bullet: '2. '
+msgid "Server computes a list of currently available Tasks for the agent."
+msgstr ""
+
+#. type: Bullet: '3. '
+msgid "This list is filtered out by the allowed timeslot."
+msgstr ""
+
+#. type: Bullet: '4. '
+msgid ""
+"Each allowed tasks generated a corresponding taskjob and send the result to "
+"the agent."
+msgstr ""
+
+#. type: Plain text
+#, no-wrap
+msgid "[[!img timeslot.svg]]\n"
+msgstr ""
+
+#. type: Plain text
+msgid "The timeslot will be saved in a JSON blob like the following:"
+msgstr ""
+
+#. type: Plain text
+#, no-wrap
+msgid ""
+"    {\n"
+"      \"Mo\" : [\n"
+"        { \"start\":0, \"end\":4 },\n"
+"        { \"start\":19, \"end\":24 }\n"
+"      ],\n"
+"      \"Tu\" : [\n"
+"        { \"start\":0, \"end\":4 },\n"
+"        { \"start\":6, \"end\":10 },\n"
+"        { \"start\":12, \"end\":16 },\n"
+"        { \"start\":18, \"end\":22 }\n"
+"      ],\n"
+"      \"We\" : [\n"
+"        { \"start\":12, \"end\":14 }\n"
+"      ],\n"
+"      \"Th\" : [\n"
+"        { \"start\":8, \"end\":12 }\n"
+"      ],\n"
+"      \"Fr\" : [\n"
+"        { \"start\":4, \"end\":12 }\n"
+"      ],\n"
+"      \"Sa\" : [\n"
+"        { \"start\":0, \"end\":24 }\n"
+"      ],\n"
+"      \"Su\" : [\n"
+"        { \"start\":0, \"end\":24 }\n"
+"      ]\n"
+"    }\n"
 msgstr ""
 
 #. type: Title ##
 #, no-wrap
-msgid "Tasks monitoring"
+msgid "Taskjob Statuses"
+msgstr ""
+
+#. type: Title ###
+#, no-wrap
+msgid "legacy"
+msgstr ""
+
+#. type: Bullet: '* '
+msgid "**PREPARED** : server just create the TaskJob"
+msgstr ""
+
+#. type: Bullet: '* '
+msgid "**RUNNING** : some agent gets its corresponding TaskJob"
+msgstr ""
+
+#. type: Bullet: '* '
+msgid "**FINISHED** : the agent has completed its TaskJob without error"
+msgstr ""
+
+#. type: Bullet: '* '
+msgid ""
+"**INERROR** : the agent encountered some issues and stop the TaskJob with "
+"errors or TaskJob's timeout occured (crontask > 2h)"
+msgstr ""
+
+#. type: Title ###
+#, no-wrap
+msgid "on-demand"
+msgstr ""
+
+#. type: Title ##
+#, no-wrap
+msgid "Monitoring / Logs"
 msgstr ""
 
 #. type: Plain text
 #, no-wrap
 msgid ""
-"* Enhance summary view with tasks related status informations like number "
-"of\n"
-"discovered/inventoried devices (cf. NetDiscovery or NetInventory status) or "
-"the\n"
-"number of packages deployed grouped by statuses. It looks like tasks "
-"summary\n"
-"view in 0.84+1.0 but with relevant summarized details. Those details can "
-"be\n"
-"refreshed dynamically on this consultation page. Each line must use the "
+"* Enhance summary view with tasks related status informations like number of\n"
+"discovered/inventoried devices (cf. NetDiscovery or NetInventory status) or the\n"
+"number of packages deployed grouped by statuses. It looks like tasks summary\n"
+"view in 0.84+1.0 but with relevant summarized details. Those details can be\n"
+"refreshed dynamically on this consultation page. Each line must use the\n"
 "following format :\n"
 msgstr ""
 
 #. type: Plain text
 #, no-wrap
 msgid ""
-"        <task icon> - <task name> - <specific global tasks details> - "
-"[global completion percentage] - <status icon>\n"
+"        <task icon> - <task name> - <specific global tasks details> - [global completion percentage] - <status icon>\n"
 "            + more specific task details\n"
 msgstr ""
 
@@ -159,8 +279,7 @@ msgstr ""
 #. type: Plain text
 #, no-wrap
 msgid ""
-"        <DEPLOY icon> - Office Apps install - 80 deployments (ok: 50, ko : "
-"12, unneeded : 3) - completion : 81 % - <RUNNING icon>\n"
+"        <DEPLOY icon> - Office Apps install - 80 deployments (ok: 50, ko : 12, unneeded : 3) - completion : 81 % - <RUNNING icon>\n"
 "            + Total targetted devices : 40\n"
 "            + LibreOffice - ok : 30, ko :  2,  unneeded : 3\n"
 "            + Thunderbird - ok : 20, ko : 10,  unneeded : 0\n"
@@ -169,18 +288,16 @@ msgstr ""
 #. type: Plain text
 #, no-wrap
 msgid ""
-"        <NETDISCOVERY icon> - Building 42 - discoveries : (50 new devices , "
-"100 updated devices) - completion : N/A - <FINISHED icon>\n"
-"            + networking devices : (10 new devices, 5 updated devices)\n"
-"            + printers           : (30 new devices, 5 updated devices)\n"
-"            + unknown devices    : (10 new devices, 90 updated devices)\n"
+"        <NETDISCOVERY icon> - Building 42 - discoveries : (50 new devices , 100 updated devices) - completion : N/A - <FINISHED icon>\n"
+"            + networking devices - 10 new devices, 5 updated devices\n"
+"            + printers           - 30 new devices, 5 updated devices\n"
+"            + unknown devices    - 10 new devices, 90 updated devices\n"
 msgstr ""
 
 #. type: Plain text
 #, no-wrap
 msgid ""
-"        <NETINVENTORY icon> - Building 666 - targetted devices : 0 - 0 % - "
-"<INERROR icon>\n"
+"        <NETINVENTORY icon> - Building 666 - targetted devices : 0 - completion : 0 % - <INERROR icon>\n"
 "            + Total targets : 0\n"
 "            + IP range :\n"
 "                9th circle, 8th circle, 7th circle\n"
@@ -192,4 +309,13 @@ msgstr ""
 msgid ""
 "Selecting a task will switch to a more detailed view with advanced logs "
 "(jobstates filtered by the currently selected task id)"
+msgstr ""
+
+#. type: Title ##
+#, no-wrap
+msgid "Reporting"
+msgstr ""
+
+#. type: Bullet: '* '
+msgid "Define some use case reports for each tasks."
 msgstr ""
