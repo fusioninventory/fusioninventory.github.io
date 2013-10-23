@@ -37,6 +37,7 @@ The following mockup show some way to achieve this :
 
 [[!img multijob-tasks-reborn.png]]
 
+## Task planification
 
 ### server-driven mode (legacy)
 
