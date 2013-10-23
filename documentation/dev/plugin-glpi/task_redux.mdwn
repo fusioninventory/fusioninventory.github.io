@@ -71,9 +71,9 @@ task in order to limit usage on certain time slots.
 TaskJobs are produced more like an on-demand service:
 
 1. Some agent asks for its tasks periodically (cf. getConfig in REST specs)
-2. Server computes a list of currently available Tasks for the agent.
-3. This list is filtered out by the allowed timeslot.
-4. Each allowed tasks generated a corresponding taskjob and send the result to the agent.
+2. The server computes a list of currently available Tasks for the agent.
+3. This list is filtered out by the agent id and the allowed timeslot.
+4. Each allowed Tasks generates a corresponding TaskJob and sends the result to the agent.
 
 [[!img timeslot.svg]]
 
