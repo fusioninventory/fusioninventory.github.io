@@ -25,12 +25,12 @@ The content of the [dists](http://debian.fusioninventory.org/debian/dists/) page
 
 Network inventory tasks:
 
-    apt-get install libfusioninventory-agent-task-network-perl
+    apt-get install fusioninventory-agent-task-network
 
 ESX inventory task:
 
-    apt-get install libfusioninventory-agent-task-esx-perl
+    apt-get install fusioninventory-agent-task-esx
 
 Deploy task:
 
-    apt-get install libfusioninventory-agent-task-deploy-perl
+    apt-get install fusioninventory-agent-task-deploy
