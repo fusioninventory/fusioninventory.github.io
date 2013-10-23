@@ -14,7 +14,7 @@ The FusionInventory project maintains an up-to-date debian package of the most r
 
     apt-get install lsb-release
     echo "deb http://debian.fusioninventory.org/debian/ `lsb_release -cs` main" >> /etc/apt/sources.list
-    wget -O - http://debian.fusioninventory.org/debian/archive.key | sudo apt-key add -
+    sudo bash -c 'wget -O - http://debian.fusioninventory.org/debian/archive.key | apt-key add -'
     apt-get update
     apt-get install fusioninventory-agent
 
