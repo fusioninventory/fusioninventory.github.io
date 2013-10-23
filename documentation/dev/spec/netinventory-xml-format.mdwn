@@ -141,3 +141,14 @@
       <DEVICEID>port004.bureau.siprossii.com-2010-12-30-12-24-14</DEVICEID>
       <QUERY>SNMPQUERY</QUERY>
     </REQUEST>
+
+## CONNECTION format
+
+CONNECTION is part of a CONNECTIONS structure which is included in a PORT structure. We
+use it to describe a remote device connected to the given port.
+
+* IFDESCR: the remote interface name
+* IFNUMBER: the remote interface number
+* SYSDESCR: the remote sysdescr
+* SYSNAME: the remote hostname
+* SYSMAC: the remote MAC address
