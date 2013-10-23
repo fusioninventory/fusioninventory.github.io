@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2013-10-14 14:29+0000\n"
+"POT-Creation-Date: 2013-10-23 15:46+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -83,7 +83,28 @@ msgstr ""
 
 #. type: Title ##
 #, no-wrap
-msgid "TaskJob planification"
+msgid "Multi TaskJob sequencing"
+msgstr ""
+
+#. type: Plain text
+msgid ""
+"Up until 0.83, there was some sequencing facility with the original tabbed "
+"Task interface."
+msgstr ""
+
+#. type: Plain text
+msgid ""
+"The actual implementation did not allow us to reorder easily those \"Multi-"
+"TaskJobs\" Tasks."
+msgstr ""
+
+#. type: Plain text
+msgid "The following mockup show some way to achieve this :"
+msgstr ""
+
+#. type: Plain text
+#, no-wrap
+msgid "[[!img multijob-tasks-reborn.png]]\n"
 msgstr ""
 
 #. type: Title ###
@@ -162,16 +183,16 @@ msgid ""
 msgstr ""
 
 #. type: Bullet: '2. '
-msgid "Server computes a list of currently available Tasks for the agent."
+msgid "The server computes a list of currently available Tasks for the agent."
 msgstr ""
 
 #. type: Bullet: '3. '
-msgid "This list is filtered out by the allowed timeslot."
+msgid "This list is filtered out by the agent id and the allowed timeslot."
 msgstr ""
 
 #. type: Bullet: '4. '
 msgid ""
-"Each allowed tasks generated a corresponding taskjob and send the result to "
+"Each allowed Tasks generates a corresponding TaskJob and sends the result to "
 "the agent."
 msgstr ""
 
@@ -180,40 +201,78 @@ msgstr ""
 msgid "[[!img timeslot.svg]]\n"
 msgstr ""
 
+#. type: Bullet: '* '
+msgid "Each black square represents an authorized interval"
+msgstr ""
+
+#. type: Bullet: '* '
+msgid "The timeslot associated to the task will be saved in a table:"
+msgstr ""
+
 #. type: Plain text
-msgid "The timeslot will be saved in a JSON blob like the following:"
+#, no-wrap
+msgid "    <INT:task_id> | <TINYINT:weekday_number> | <TINYINT:hour_start> | <TINYINT:hour_end>\n"
+msgstr ""
+
+#. type: Plain text
+msgid "Example:"
 msgstr ""
 
 #. type: Plain text
 #, no-wrap
 msgid ""
-"    {\n"
-"      \"Mo\" : [\n"
-"        { \"start\":0, \"end\":4 },\n"
-"        { \"start\":19, \"end\":24 }\n"
-"      ],\n"
-"      \"Tu\" : [\n"
-"        { \"start\":0, \"end\":4 },\n"
-"        { \"start\":6, \"end\":10 },\n"
-"        { \"start\":12, \"end\":16 },\n"
-"        { \"start\":18, \"end\":22 }\n"
-"      ],\n"
-"      \"We\" : [\n"
-"        { \"start\":12, \"end\":14 }\n"
-"      ],\n"
-"      \"Th\" : [\n"
-"        { \"start\":8, \"end\":12 }\n"
-"      ],\n"
-"      \"Fr\" : [\n"
-"        { \"start\":4, \"end\":12 }\n"
-"      ],\n"
-"      \"Sa\" : [\n"
-"        { \"start\":0, \"end\":24 }\n"
-"      ],\n"
-"      \"Su\" : [\n"
-"        { \"start\":0, \"end\":24 }\n"
-"      ]\n"
-"    }\n"
+"    #Monday(0), between 0:00 and 7:00\n"
+"    12345 |  0 |  0 |  7\n"
+"    #Monday(0), between 19:00 and 0:00\n"
+"    12345 |  0 | 19 | 24\n"
+msgstr ""
+
+#. type: Plain text
+#, no-wrap
+msgid ""
+"    #Tuesday(1), between 0:00 and 4:00\n"
+"    12345 |  1 |  0 |  4\n"
+"    #Tuesday(1), between 6:00 and 10:00\n"
+"    12345 |  1 |  6 | 10\n"
+"    #Tuesday(1), between 12:00 and 16:00\n"
+"    12345 |  1 | 12 | 16\n"
+"    #Tuesday(1), between 19:00 and 0:00\n"
+"    12345 |  1 | 19 | 23\n"
+msgstr ""
+
+#. type: Plain text
+#, no-wrap
+msgid ""
+"    #Wednesday(2), between 12:00 and 15:00\n"
+"    12345 |  2 | 12 | 15\n"
+msgstr ""
+
+#. type: Plain text
+#, no-wrap
+msgid ""
+"    #Thursday(3), between 8:00 and 12:00\n"
+"    12345 |  3 |  8 | 12\n"
+msgstr ""
+
+#. type: Plain text
+#, no-wrap
+msgid ""
+"    #Friday(4), between 12:00 and 14:00\n"
+"    12345 |  4 | 12 | 14\n"
+msgstr ""
+
+#. type: Plain text
+#, no-wrap
+msgid ""
+"    #Friday(5), all day long\n"
+"    12345 |  5 |  0 | 24\n"
+msgstr ""
+
+#. type: Plain text
+#, no-wrap
+msgid ""
+"    #Sunday(6), all day long\n"
+"    12345 |  6 |  0 | 24\n"
 msgstr ""
 
 #. type: Title ##
