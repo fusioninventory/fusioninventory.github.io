@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2013-03-25 13:24+0000\n"
+"POT-Creation-Date: 2013-10-23 10:16+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -55,10 +55,17 @@ msgstr ""
 "dernières versions des paquets Debian."
 
 #. type: Plain text
+#, fuzzy, no-wrap
+#| msgid ""
+#| "    apt-get install lsb-release\n"
+#| "    echo \"deb http://debian.fusioninventory.org/debian/ `lsb_release -cs` main\" >> /etc/apt/sources.list\n"
+#| "    wget -O - http://debian.fusioninventory.org/debian/archive.key | sudo apt-key add -\n"
+#| "    apt-get update\n"
+#| "    apt-get install fusioninventory-agent\n"
 msgid ""
 "    apt-get install lsb-release\n"
 "    echo \"deb http://debian.fusioninventory.org/debian/ `lsb_release -cs` main\" >> /etc/apt/sources.list\n"
-"    wget -O - http://debian.fusioninventory.org/debian/archive.key | sudo apt-key add -\n"
+"    sudo bash -c 'wget -O - http://debian.fusioninventory.org/debian/archive.key | apt-key add -'\n"
 "    apt-get update\n"
 "    apt-get install fusioninventory-agent\n"
 msgstr ""
@@ -86,8 +93,9 @@ msgid "Network inventory tasks:"
 msgstr "Tâches d'inventaire réseau"
 
 #. type: Plain text
-#, no-wrap
-msgid "    apt-get install libfusioninventory-agent-task-network-perl\n"
+#, fuzzy, no-wrap
+#| msgid "    apt-get install libfusioninventory-agent-task-network-perl\n"
+msgid "    apt-get install fusioninventory-agent-task-network\n"
 msgstr "    apt-get install libfusioninventory-agent-task-network-perl\n"
 
 #. type: Plain text
@@ -95,8 +103,9 @@ msgid "ESX inventory task:"
 msgstr "Tâche d'inventaire des ESX"
 
 #. type: Plain text
-#, no-wrap
-msgid "    apt-get install libfusioninventory-agent-task-esx-perl\n"
+#, fuzzy, no-wrap
+#| msgid "    apt-get install libfusioninventory-agent-task-esx-perl\n"
+msgid "    apt-get install fusioninventory-agent-task-esx\n"
 msgstr "    apt-get install libfusioninventory-agent-task-esx-perl\n"
 
 #. type: Plain text
@@ -104,6 +113,7 @@ msgid "Deploy task:"
 msgstr "Tâche de déploiement"
 
 #. type: Plain text
-#, no-wrap
-msgid "    apt-get install libfusioninventory-agent-task-deploy-perl\n"
+#, fuzzy, no-wrap
+#| msgid "    apt-get install libfusioninventory-agent-task-deploy-perl\n"
+msgid "    apt-get install fusioninventory-agent-task-deploy\n"
 msgstr "    apt-get install libfusioninventory-agent-task-deploy-perl\n"
