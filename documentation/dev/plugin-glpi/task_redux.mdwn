@@ -27,7 +27,16 @@ Add some mockup within this page or linked to another page if there are too
 many elements that makes this page unreadable.
 """]]
 
-## TaskJob planification
+## Multi TaskJob sequencing
+
+Up until 0.83, there was some sequencing facility with the original tabbed Task interface.
+
+The actual implementation did not allow us to reorder easily those "Multi-TaskJobs" Tasks.
+
+The following mockup show some way to achieve this :
+
+[[!img multijob-tasks-reborn.png]]
+
 
 ### server-driven mode (legacy)
 
