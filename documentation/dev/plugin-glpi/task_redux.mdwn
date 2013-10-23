@@ -77,35 +77,42 @@ TaskJobs are produced more like an on-demand service:
 
 [[!img timeslot.svg]]
 
-The timeslot will be saved in a JSON blob like the following:
+* Each black square represents an authorized interval
 
-    {
-      "Mo" : [
-        { "start":0, "end":4 },
-        { "start":19, "end":24 }
-      ],
-      "Tu" : [
-        { "start":0, "end":4 },
-        { "start":6, "end":10 },
-        { "start":12, "end":16 },
-        { "start":18, "end":22 }
-      ],
-      "We" : [
-        { "start":12, "end":14 }
-      ],
-      "Th" : [
-        { "start":8, "end":12 }
-      ],
-      "Fr" : [
-        { "start":4, "end":12 }
-      ],
-      "Sa" : [
-        { "start":0, "end":24 }
-      ],
-      "Su" : [
-        { "start":0, "end":24 }
-      ]
-    }
+* The timeslot associated to the task will be saved in a table:
+
+    <INT:task_id> | <TINYINT:weekday_number> | <TINYINT:hour_start> | <TINYINT:hour_end>
+
+Example:
+
+    #Monday(0), between 0:00 and 7:00
+    12345 |  0 |  0 |  7
+    #Monday(0), between 19:00 and 0:00
+    12345 |  0 | 19 | 24
+
+    #Tuesday(1), between 0:00 and 4:00
+    12345 |  1 |  0 |  4
+    #Tuesday(1), between 6:00 and 10:00
+    12345 |  1 |  6 | 10
+    #Tuesday(1), between 12:00 and 16:00
+    12345 |  1 | 12 | 16
+    #Tuesday(1), between 19:00 and 0:00
+    12345 |  1 | 19 | 23
+
+    #Wednesday(2), between 12:00 and 15:00
+    12345 |  2 | 12 | 15
+
+    #Thursday(3), between 8:00 and 12:00
+    12345 |  3 |  8 | 12
+
+    #Friday(4), between 12:00 and 14:00
+    12345 |  4 | 12 | 14
+
+    #Friday(5), all day long
+    12345 |  5 |  0 | 24
+
+    #Sunday(6), all day long
+    12345 |  6 |  0 | 24
 
 ## Taskjob Statuses
 
