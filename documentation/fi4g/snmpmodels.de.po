@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2013-09-19 14:18+0000\n"
+"POT-Creation-Date: 2013-10-24 15:47+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -432,7 +432,9 @@ msgstr ""
 
 #. type: Plain text
 #, no-wrap
-msgid "When you have an account, you have access to all models created on the server. For that, go in menu __Plugins__ > __FusionInventory__ > __SNMP__ > __SNMP models creation__ > __See All SNMP models__.\n"
+msgid ""
+"When you have an account, you have access to all models created on the server.\n"
+"For that, go in menu __Plugins__ > __FusionInventory__ > __SNMP__ > __SNMP models creation__ > __See All SNMP models__.\n"
 msgstr ""
 
 #. type: Plain text
@@ -458,11 +460,20 @@ msgstr ""
 #. type: Plain text
 msgid ""
 "You can check models you want to import and click, on bottom, on button "
-"import. The model is in your plugin FusionInventory and can used it now."
+"import.  The model is in your plugin FusionInventory and can used it now."
 msgstr ""
 
 #. type: Plain text
 msgid ""
 "When we release the plugin FusionInventory for GLPI, we mark all these "
 "models as stable."
+msgstr ""
+
+#. type: Plain text
+msgid ""
+"If you try to import the whole model list, GLPI may complains about a "
+"privilege issue with the following message *The action you have requested is "
+"not allowed.*. It's probably due to your PHP max_input_vars configuration. "
+"You can try to improve the value by changes the value in php.ini and "
+"restarting Apache."
 msgstr ""
