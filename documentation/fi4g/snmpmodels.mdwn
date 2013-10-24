@@ -184,6 +184,16 @@ In this page, you can see:
 * Models to be updated (so modified models since last release of plugin FusionInventory)
 * Models up to date 
 
-You can check models you want to import and click, on bottom, on button import. The model is in your plugin FusionInventory and can used it now.
+You can check models you want to import and click, on bottom, on button import.
+The model is in your plugin FusionInventory and can used it now.
 
 When we release the plugin FusionInventory for GLPI, we mark all these models as stable.
+
+[[!template  id=warning text="""
+If you try to import the whole model list, GLPI may complains about a privilege issue with
+the following message *The action you have requested is not allowed.*. It's
+probably due to your PHP max_input_vars configuration. You can try to improve the value
+by changes the value in php.ini and restarting Apache.
+"""]]
+
+
