@@ -143,7 +143,8 @@ number__ or a __MAC address__ , you'll have to make sure that at least one of th
 [[!template  id=warning text="""
 The percentage progress bar mean this oid is use for this mapping at xx% by all devices (and so by SNMP models). 
 
-So if you have more than one oid for a mapping, see oids have the right value, if you have for example 2 oids with the right value, check the oid have the highest percentage.
+So if you have more than one oid for a mapping, see oids have the right value, if you have
+for example 2 oids with the right value, check the oid have the highest percentage.
 """]]
 
 [[!template  id=warning text="""
@@ -174,7 +175,8 @@ the _Load the correct model_ button from the _FusInv SNMP_ screen. You have to a
 
 # Get SNMP models and available for all
 
-When you have an account, you have access to all models created on the server. For that, go in menu __Plugins__ > __FusionInventory__ > __SNMP__ > __SNMP models creation__ > __See All SNMP models__.
+When you have an account, you have access to all models created on the server.
+For that, go in menu __Plugins__ > __FusionInventory__ > __SNMP__ > __SNMP models creation__ > __See All SNMP models__.
 
 In this page, you can see:
 
