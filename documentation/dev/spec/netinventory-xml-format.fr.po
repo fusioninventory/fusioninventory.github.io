@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2013-10-28 11:36+0000\n"
+"POT-Creation-Date: 2013-10-28 13:10+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -152,6 +152,104 @@ msgstr ""
 #. type: Plain text
 #, no-wrap
 msgid "    <!ELEMENT QUERY (#PCDATA)>\n"
+msgstr ""
+
+#. type: Plain text
+#, no-wrap
+msgid ""
+"INFO > COMMENTS\n"
+">string (it's the sysdescr)\n"
+msgstr ""
+
+#. type: Plain text
+#, no-wrap
+msgid ""
+"INFO > CPU\n"
+">integer (its in %, so from 0 to 100)\n"
+msgstr ""
+
+#. type: Plain text
+#, no-wrap
+msgid ""
+"INFO > FIRMWARE\n"
+">string (firmware of the device)\n"
+msgstr ""
+
+#. type: Plain text
+#, no-wrap
+msgid ""
+"INFO > ID\n"
+">integer (id from GLPI device)\n"
+msgstr ""
+
+#. type: Plain text
+#, no-wrap
+msgid ""
+"INFO > IPS > IP\n"
+">string (IP address, can be IP v4 and v6)\n"
+msgstr ""
+
+#. type: Plain text
+#, no-wrap
+msgid ""
+"INFO > LOCATION\n"
+">string (location of the device)\n"
+msgstr ""
+
+#. type: Plain text
+#, no-wrap
+msgid ""
+"INFO > MAC\n"
+">string (like 00:5e:03:a1:00:11 with letter always in lowercase)\n"
+msgstr ""
+
+#. type: Plain text
+#, no-wrap
+msgid ""
+"INFO > MEMORY\n"
+">integer (storage in Mio)\n"
+msgstr ""
+
+#. type: Plain text
+#, no-wrap
+msgid ""
+"INFO > MODEL\n"
+">string (model of the device)\n"
+msgstr ""
+
+#. type: Plain text
+#, no-wrap
+msgid ""
+"INFO > NAME\n"
+">string (name of the device)\n"
+msgstr ""
+
+#. type: Plain text
+#, no-wrap
+msgid ""
+"INFO > RAM\n"
+">integer (volatile memory in Mio)\n"
+msgstr ""
+
+#. type: Plain text
+#, no-wrap
+msgid ""
+"INFO > SERIAL\n"
+">string (serial number of the device)\n"
+msgstr ""
+
+#. type: Plain text
+#, no-wrap
+msgid ""
+"INFO > TYPE\n"
+">string (NETWORKING or PRINTER)\n"
+msgstr ""
+
+#. type: Plain text
+#, no-wrap
+msgid ""
+"INFO > UPTIME\n"
+">string (uptime given by the snmp oid)\n"
 msgstr ""
 
 #. type: Plain text
