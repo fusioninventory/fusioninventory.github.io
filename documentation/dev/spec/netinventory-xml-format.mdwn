@@ -101,7 +101,7 @@
     <!ELEMENT IFSTATUS (#PCDATA)>
     <!-- it's the type of port (integer) -->
     <!ELEMENT IFTYPE (#PCDATA)>
- <!-- it's the mac address of port, like 00:5e:03:a1:00:11 with letter always in lowercase (string) -->
+    <!-- it's the mac address of port, like 00:5e:03:a1:00:11 with letter always in lowercase (string) -->
     <!ELEMENT MAC (#PCDATA)>
     <!-- it's the trunk info of port, trunk/tagged or not (bool) -->
     <!ELEMENT TRUNK (#PCDATA)>
