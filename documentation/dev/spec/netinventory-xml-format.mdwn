@@ -74,6 +74,50 @@
     <!ELEMENT QUERY (#PCDATA)>
 
 
+INFO > COMMENTS
+>string (it's the sysdescr)
+
+INFO > CPU
+>integer (its in %, so from 0 to 100)
+
+INFO > FIRMWARE
+>string (firmware of the device)
+
+INFO > ID
+>integer (id from GLPI device)
+
+INFO > IPS > IP
+>string (IP address, can be IP v4 and v6)
+
+INFO > LOCATION
+>string (location of the device)
+
+INFO > MAC
+>string (like 00:5e:03:a1:00:11 with letter always in lowercase)
+
+INFO > MEMORY
+>integer (storage in Mio)
+
+INFO > MODEL
+>string (model of the device)
+
+INFO > NAME
+>string (name of the device)
+
+INFO > RAM
+>integer (volatile memory in Mio)
+
+INFO > SERIAL
+>string (serial number of the device)
+
+INFO > TYPE
+>string (NETWORKING or PRINTER)
+
+INFO > UPTIME
+>string (uptime given by the snmp oid)
+
+
+
 ======================= Old under this line =================
 
     <REQUEST>
