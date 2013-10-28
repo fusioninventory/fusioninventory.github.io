@@ -54,7 +54,7 @@
     <!ELEMENT CDP (#PCDATA)>
 
     <!-- One connection info of the port -->
-    <!ELEMENT CONNECTION (MAC+ | IFNUMBER?, SYSMAC?, IFDESCR?, IP?, SYSDESCR?, SYSNAME?)>
+    <!ELEMENT CONNECTION (MAC+ | (IFNUMBER?, SYSMAC?, IFDESCR?, IP?, SYSDESCR?, SYSNAME?))>
     <!-- it's the mac address of the remote device, like 00:5e:03:a1:00:11 with letter always in lowercase (string) -->
     <!ELEMENT MAC (#PCDATA)>
     <!-- it's the port number of remote device (integer) -->
