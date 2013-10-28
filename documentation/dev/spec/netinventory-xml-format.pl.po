@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2013-10-28 13:10+0000\n"
+"POT-Creation-Date: 2013-10-28 13:54+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -33,74 +33,108 @@ msgstr ""
 
 #. type: Plain text
 #, no-wrap
-msgid "    <!ELEMENT DEVICE (INFO , PORTS)>\n"
+msgid ""
+"    <!-- The devices list -->\n"
+"    <!ELEMENT DEVICE (INFO , PORTS)>\n"
 msgstr ""
 
 #. type: Plain text
 #, no-wrap
 msgid ""
+"    <!-- The device info -->\n"
 "    <!ELEMENT INFO (COMMENTS , CPU, FIRMWARE, ID, IPS, LOCATION, MAC, MEMORY, MODEL, NAME, RAM, SERIAL, TYPE, UPTIME)>\n"
+"    <!-- it's the sysdescr (string) -->\n"
 "    <!ELEMENT COMMENTS (#PCDATA)>\n"
+"    <!-- it's the cpu load in %, so from 0 to 100 (integer) -->\n"
 "    <!ELEMENT CPU (#PCDATA)>\n"
+"    <!-- it's the firmware (string) -->\n"
 "    <!ELEMENT FIRMWARE (#PCDATA)>\n"
+"    <!-- it's the id of the device in GLPI (integer) -->\n"
 "    <!ELEMENT ID (#PCDATA)>\n"
 msgstr ""
 
 #. type: Plain text
 #, no-wrap
 msgid ""
+"    <!-- The IPs list -->\n"
 "    <!ELEMENT IPS (IP+)>\n"
+"    <!-- it's the IP address, can be IP v4 and v6 (string) -->\n"
 "    <!ELEMENT IP (#PCDATA)>\n"
 msgstr ""
 
 #. type: Plain text
 #, no-wrap
 msgid ""
+"    <!-- it's the location (string) -->\n"
 "    <!ELEMENT LOCATION (#PCDATA)>\n"
+"    <!-- it's the mac address like 00:5e:03:a1:00:11 with letter always in lowercase (string) -->\n"
 "    <!ELEMENT MAC (#PCDATA)>\n"
+"    <!-- it's the storage in Mio (integer) -->\n"
 "    <!ELEMENT MEMORY (#PCDATA)>\n"
+"    <!-- it's the device model (string) -->\n"
 "    <!ELEMENT MODEL (#PCDATA)>\n"
+"    <!-- it's the device name (string) -->\n"
 "    <!ELEMENT NAME (#PCDATA)>\n"
+"    <!-- it's the volatile memory in Mio (integer) -->\n"
 "    <!ELEMENT RAM (#PCDATA)>\n"
+"    <!-- it's the device serial number (string) -->\n"
 "    <!ELEMENT SERIAL (#PCDATA)>\n"
+"    <!-- it's the type of device NETWORKING, PRINTER, COMPUTER or PHONE (constant) -->\n"
 "    <!ELEMENT TYPE (#PCDATA)>\n"
+"    <!-- it's the device uptime in format 8 days, 01:48:57.95 (string) -->\n"
 "    <!ELEMENT UPTIME (#PCDATA)>\n"
 msgstr ""
 
 #. type: Plain text
 #, no-wrap
-msgid "    <!ELEMENT PORTS (PORT*)>\n"
-msgstr ""
-
-#. type: Plain text
-#, no-wrap
-msgid "    <!ELEMENT PORT (CONNECTIONS?, AGGREGATE?, IFDESCR, IFINERRORS, IFINOCTETS, IFINTERNALSTATUS, IFLASTCHANGE, IFMTU, IFNAME, IFNUMBER, IFOUTERRORS, IFOUTOCTETS, IFSPEED, IFSTATUS, IFTYPE, MAC, TRUNK, VLANS?)>\n"
+msgid ""
+"    <!-- The device ports list -->\n"
+"    <!ELEMENT PORTS (PORT*)>\n"
 msgstr ""
 
 #. type: Plain text
 #, no-wrap
 msgid ""
+"    <!-- One port -->\n"
+"    <!ELEMENT PORT (CONNECTIONS?, AGGREGATE?, IFDESCR, IFINERRORS, IFINOCTETS, IFINTERNALSTATUS, IFLASTCHANGE, IFMTU, IFNAME, IFNUMBER, IFOUTERRORS, IFOUTOCTETS, IFSPEED, IFSTATUS, IFTYPE, MAC, TRUNK, VLANS?)>\n"
+msgstr ""
+
+#. type: Plain text
+#, no-wrap
+msgid ""
+"    <!-- The port connections list -->\n"
 "    <!ELEMENT CONNECTIONS (CDP?, CONNECTION*)>\n"
+"    <!-- This port has a LLDP/CDP connection? (bool) -->\n"
 "    <!ELEMENT CDP (#PCDATA)>\n"
 msgstr ""
 
 #. type: Plain text
 #, no-wrap
 msgid ""
+"    <!-- One connection info of the port -->\n"
 "    <!ELEMENT CONNECTION (MAC+ | IFNUMBER?, SYSMAC?, IFDESCR?, IP?, SYSDESCR?, SYSNAME?)>\n"
+"    <!-- it's the mac address of the remote device, like 00:5e:03:a1:00:11 with letter always in lowercase (string) -->\n"
 "    <!ELEMENT MAC (#PCDATA)>\n"
+"    <!-- it's the port number of remote device (integer) -->\n"
 "    <!ELEMENT IFNUMBER (#PCDATA)>\n"
+"    <!-- it's the mac address of the remote device, like 00:5e:03:a1:00:11 with letter always in lowercase. Differ of MAC because get with LLDP oids (string) -->\n"
 "    <!ELEMENT SYSMAC (#PCDATA)>\n"
+"    <!-- it's the port description of remote device (string) -->\n"
 "    <!ELEMENT IFDESCR (#PCDATA)>\n"
+"    <!-- it's the IP address of renote device, can be IP v4 and v6 (string) -->\n"
 "    <!ELEMENT IP (#PCDATA)>\n"
+"    <!-- it's the sysdescr of remote device (string) -->\n"
 "    <!ELEMENT SYSDESCR (#PCDATA)>\n"
+"    <!-- it's the name of remote device (string) -->\n"
 "    <!ELEMENT SYSNAME (#PCDATA)>\n"
 msgstr ""
 
 #. type: Plain text
 #, no-wrap
 msgid ""
+"    <!-- The aggregate port list, so the virtual port base on many physical ports -->\n"
 "    <!ELEMENT AGGREGATE (PORT+)>\n"
+"    <!-- it's the ifnumber of physical port (integer) -->\n"
 "    <!ELEMENT PORT (#PCDATA)>\n"
 msgstr ""
 
@@ -152,104 +186,6 @@ msgstr ""
 #. type: Plain text
 #, no-wrap
 msgid "    <!ELEMENT QUERY (#PCDATA)>\n"
-msgstr ""
-
-#. type: Plain text
-#, no-wrap
-msgid ""
-"INFO > COMMENTS\n"
-">string (it's the sysdescr)\n"
-msgstr ""
-
-#. type: Plain text
-#, no-wrap
-msgid ""
-"INFO > CPU\n"
-">integer (its in %, so from 0 to 100)\n"
-msgstr ""
-
-#. type: Plain text
-#, no-wrap
-msgid ""
-"INFO > FIRMWARE\n"
-">string (firmware of the device)\n"
-msgstr ""
-
-#. type: Plain text
-#, no-wrap
-msgid ""
-"INFO > ID\n"
-">integer (id from GLPI device)\n"
-msgstr ""
-
-#. type: Plain text
-#, no-wrap
-msgid ""
-"INFO > IPS > IP\n"
-">string (IP address, can be IP v4 and v6)\n"
-msgstr ""
-
-#. type: Plain text
-#, no-wrap
-msgid ""
-"INFO > LOCATION\n"
-">string (location of the device)\n"
-msgstr ""
-
-#. type: Plain text
-#, no-wrap
-msgid ""
-"INFO > MAC\n"
-">string (like 00:5e:03:a1:00:11 with letter always in lowercase)\n"
-msgstr ""
-
-#. type: Plain text
-#, no-wrap
-msgid ""
-"INFO > MEMORY\n"
-">integer (storage in Mio)\n"
-msgstr ""
-
-#. type: Plain text
-#, no-wrap
-msgid ""
-"INFO > MODEL\n"
-">string (model of the device)\n"
-msgstr ""
-
-#. type: Plain text
-#, no-wrap
-msgid ""
-"INFO > NAME\n"
-">string (name of the device)\n"
-msgstr ""
-
-#. type: Plain text
-#, no-wrap
-msgid ""
-"INFO > RAM\n"
-">integer (volatile memory in Mio)\n"
-msgstr ""
-
-#. type: Plain text
-#, no-wrap
-msgid ""
-"INFO > SERIAL\n"
-">string (serial number of the device)\n"
-msgstr ""
-
-#. type: Plain text
-#, no-wrap
-msgid ""
-"INFO > TYPE\n"
-">string (NETWORKING or PRINTER)\n"
-msgstr ""
-
-#. type: Plain text
-#, no-wrap
-msgid ""
-"INFO > UPTIME\n"
-">string (uptime given by the snmp oid)\n"
 msgstr ""
 
 #. type: Plain text
