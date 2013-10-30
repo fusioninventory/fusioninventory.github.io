@@ -55,16 +55,6 @@ msgstr "un symbole '+'"
 msgid "FusionInventory release"
 msgstr "numéro de version de FusionInventory"
 
-#. type: Plain text
-msgid ""
-"WebServices GLPI plugin is a dependency of the Deploy feature, you can "
-"download it from the forge: <https://forge.indepnet.net/projects/webservices/"
-"files>"
-msgstr ""
-"le plugin WebService pour GLPI est nécessaire pour l'utilisation du "
-"déploiement ,vous pouvez le télécharger sur la Forge : <https://forge."
-"indepnet.net/projects/webservices/files>"
-
 #. type: Title ##
 #, no-wrap
 msgid "Update"
