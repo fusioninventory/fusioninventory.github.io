@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2013-03-25 14:33+0000\n"
+"POT-Creation-Date: 2013-10-30 10:12+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: Piotr Adamcio <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -53,15 +53,6 @@ msgstr "symbol '+'"
 #. type: Bullet: '* '
 msgid "FusionInventory release"
 msgstr "Wydanie FusionInventory"
-
-#. type: Plain text
-msgid ""
-"WebServices GLPI plugin is a dependency of the Deploy feature, you can "
-"download it from the forge: <https://forge.indepnet.net/projects/webservices/"
-"files>"
-msgstr ""
-"Wtyczkę WebServices GLPI niezbędną dla funkcji instalcji zdalnej możesz "
-"ściągnąć z forge: <https://forge.indepnet.net/projects/webservices/files>"
 
 #. type: Title ##
 #, no-wrap
@@ -180,3 +171,11 @@ msgid ""
 "[[!template  id=warning text=\"We strongly recommend to activate SSL on the server side to ensure no one will be able to read password\n"
 "during authentifcation and [[for some other good reason|documentation/agent/security_and_ssl]]. A [[documentation is available to explain how to enable it|documentation/fi4g/ssl]].\"]]\n"
 msgstr ""
+
+#~ msgid ""
+#~ "WebServices GLPI plugin is a dependency of the Deploy feature, you can "
+#~ "download it from the forge: <https://forge.indepnet.net/projects/"
+#~ "webservices/files>"
+#~ msgstr ""
+#~ "Wtyczkę WebServices GLPI niezbędną dla funkcji instalcji zdalnej możesz "
+#~ "ściągnąć z forge: <https://forge.indepnet.net/projects/webservices/files>"

@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2013-03-25 14:33+0000\n"
+"POT-Creation-Date: 2013-10-30 10:12+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -50,13 +50,6 @@ msgstr ""
 
 #. type: Bullet: '* '
 msgid "FusionInventory release"
-msgstr ""
-
-#. type: Plain text
-msgid ""
-"WebServices GLPI plugin is a dependency of the Deploy feature, you can "
-"download it from the forge: <https://forge.indepnet.net/projects/webservices/"
-"files>"
 msgstr ""
 
 #. type: Title ##
