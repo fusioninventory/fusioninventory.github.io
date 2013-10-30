@@ -11,8 +11,6 @@ FusionInventory for GLPI tarball name follow this convention:
 * a '+' symbol
 * FusionInventory release
 
-WebServices GLPI plugin is a dependency of the Deploy feature, you can download it from the forge: <https://forge.indepnet.net/projects/webservices/files>
-
 ## Update
 
 You *must* *FIRST* disabled the FusionInventory plugins and move somewhere else the FusionInventory plugins. This to ensure deprecated files will properly be removed.
