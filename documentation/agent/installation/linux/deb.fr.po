@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2013-10-23 10:16+0000\n"
+"POT-Creation-Date: 2013-11-05 13:28+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -74,6 +74,11 @@ msgstr ""
 "    wget -O - http://debian.fusioninventory.org/debian/archive.key | sudo apt-key add -\n"
 "    apt-get update\n"
 "    apt-get install fusioninventory-agent\n"
+
+#. type: Plain text
+#, no-wrap
+msgid "[[!template id=info text=\"A new OpenPGP key has been generated the 2013-06-18: 1FF3 68E8 0199 1373 1705  B8AF 049E D9B9 4765 572E\"]]\n"
+msgstr ""
 
 #. type: Plain text
 msgid ""
