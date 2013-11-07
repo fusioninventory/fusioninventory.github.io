@@ -8,6 +8,7 @@ You can download it from the usual places:
 * [the forge](http://forge.fusioninventory.org/projects/fusioninventory-agent/files) or [CPAN](https://metacpan.org/release/FusionInventory-Agent) for the source archive
 * [the forge](http://forge.fusioninventory.org/projects/fusioninventory-agent-windows-installer/files) for the windows archive
 * etc...
+
 See [[download instructions|/documentation/agent/installation]] for details.
 
 This release fix some bugs in network inventory with some specific devices
