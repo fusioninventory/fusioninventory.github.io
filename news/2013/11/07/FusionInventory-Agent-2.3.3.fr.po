@@ -1,0 +1,58 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2013-11-07 19:15+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. type: Plain text
+#, no-wrap
+msgid "[[!meta  date=\"2013-11-07\"]]\n"
+msgstr ""
+
+#. type: Plain text
+msgid "Hello FusionInventory users,"
+msgstr ""
+
+#. type: Plain text
+msgid ""
+"The FusionInventory Agent maintainers are glad to announce the 2.3.3 "
+"release."
+msgstr ""
+
+#. type: Plain text
+msgid ""
+"You can download it from the usual places: * [the "
+"forge](http://forge.fusioninventory.org/projects/fusioninventory-agent/files) "
+"or [CPAN](https://metacpan.org/release/FusionInventory-Agent) for the source "
+"archive * [the "
+"forge](http://forge.fusioninventory.org/projects/fusioninventory-agent-windows-installer/files) "
+"for the windows archive * etc...  See [[download "
+"instructions|/documentation/agent/installation]] for details."
+msgstr ""
+
+#. type: Plain text
+msgid ""
+"This release fix some bugs in network inventory with some specific devices "
+"(timeout issues, crashes with multiple vlans), and a bug in local inventory "
+"on Windows 64bits (missing 32bits softwares). It also provides a new "
+"feature, backported from future 2.4 version, which is better device "
+"identification in network discovery (more details in a future news)."
+msgstr ""
+
+#. type: Plain text
+msgid ""
+"We did our best to provide a solid release, please [[contact us|/resources]] "
+"is you believe you find something unexpected."
+msgstr ""
