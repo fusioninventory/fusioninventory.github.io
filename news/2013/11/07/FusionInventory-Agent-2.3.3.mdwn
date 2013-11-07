@@ -4,6 +4,7 @@ Hello FusionInventory users,
 The FusionInventory Agent maintainers are glad to announce the 2.3.3 release.
 
 You can download it from the usual places:
+
 * [the forge](http://forge.fusioninventory.org/projects/fusioninventory-agent/files) or [CPAN](https://metacpan.org/release/FusionInventory-Agent) for the source archive
 * [the forge](http://forge.fusioninventory.org/projects/fusioninventory-agent-windows-installer/files) for the windows archive
 * etc...
