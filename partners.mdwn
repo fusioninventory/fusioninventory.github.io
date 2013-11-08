@@ -11,23 +11,9 @@ This list is open and if you believe your company deservice to be added, please
 [contact us](mailto:goneri@rulezlan.org).
 
 [[!template id=partner
-  logo="teclib.png"
-  name="TECLIB'"
-  location="Paris, Chartres, Colmar, Montpellier, Caen – France"
-  code="FusionInventory for GLPI and Agent"
-  qa="Daily tests and bugfixes."
-  promote="Conferences, presentations, TShirts and stickers."
-  doc="Documentation."
-  support="Daily support."
-  training="GLPI and FusionInventory training."
-  web="http://teclib.com"
-  email="vente@teclib.com"
-]]
-
-[[!template id=partner
   logo="siprossii.png"
   name="siprossii"
-  location="Beaujeu – France"
+  location="Monsols - France"
   code="FusionInventory for GLPI and Agent"
   qa="Daily tests and bugfixes."
   promote="Conferences, presentations, TShirts and stickers."
@@ -39,9 +25,23 @@ This list is open and if you believe your company deservice to be added, please
 ]]
 
 [[!template id=partner
+  logo="teclib.png"
+  name="TECLIB'"
+  location="Paris, Chartres, Colmar, Montpellier, Caen - France"
+  code="FusionInventory for GLPI and Agent"
+  qa="Daily tests and bugfixes."
+  promote="Conferences, presentations, TShirts and stickers."
+  doc="Documentation."
+  support="Daily support."
+  training="GLPI and FusionInventory training."
+  web="http://teclib.com"
+  email="vente@teclib.com"
+]]
+
+[[!template id=partner
   logo="normation.png"
   name="Normation"
-  location="Paris – France"
+  location="Paris - France"
   code="Agent"
   qa="bug reports"
   promote="Conferences and website hosting"
@@ -52,7 +52,7 @@ This list is open and if you believe your company deservice to be added, please
 [[!template id=partner
   logo="zenetique.jpg"
   name="Zenitique"
-  location="Villers-lès-Nancy – France"
+  location="Villers-lès-Nancy - France"
   qa="bug reports"
   support="forum moderator"
   web="http://zenitique.fr/"
