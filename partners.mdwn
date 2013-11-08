@@ -13,7 +13,7 @@ This list is open and if you believe your company deservice to be added, please
 [[!template id=partner
   logo="siprossii.png"
   name="siprossii"
-  location="Beaujeu â~@~S France"
+  location="Monsols â~@~S France"
   code="FusionInventory for GLPI and Agent"
   qa="Daily tests and bugfixes."
   promote="Conferences, presentations, TShirts and stickers."
