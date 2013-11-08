@@ -11,6 +11,20 @@ This list is open and if you believe your company deservice to be added, please
 [contact us](mailto:goneri@rulezlan.org).
 
 [[!template id=partner
+  logo="siprossii.png"
+  name="siprossii"
+  location="Beaujeu �~@~S France"
+  code="FusionInventory for GLPI and Agent"
+  qa="Daily tests and bugfixes."
+  promote="Conferences, presentations, TShirts and stickers."
+  doc="Documentation."
+  support="Daily support."
+  training="GLPI and FusionInventory training."
+  web="http://www.siprossii.com/"
+  email="d.durieux@siprossii.com"
+]]
+
+[[!template id=partner
   logo="teclib.png"
   name="TECLIB'"
   location="Paris, Chartres, Colmar, Montpellier, Caen – France"
@@ -22,20 +36,6 @@ This list is open and if you believe your company deservice to be added, please
   training="GLPI and FusionInventory training."
   web="http://teclib.com"
   email="vente@teclib.com"
-]]
-
-[[!template id=partner
-  logo="siprossii.png"
-  name="siprossii"
-  location="Beaujeu – France"
-  code="FusionInventory for GLPI and Agent"
-  qa="Daily tests and bugfixes."
-  promote="Conferences, presentations, TShirts and stickers."
-  doc="Documentation."
-  support="Daily support."
-  training="GLPI and FusionInventory training."
-  web="http://www.siprossii.com/"
-  email="d.durieux@siprossii.com"
 ]]
 
 [[!template id=partner
