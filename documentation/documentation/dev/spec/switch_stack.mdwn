@@ -1,5 +1,7 @@
-Switch stack inventory
+##Switch stack inventory
 
 todo:
+
 * snmp walk of stacked switch
+
 * understand it's structure
