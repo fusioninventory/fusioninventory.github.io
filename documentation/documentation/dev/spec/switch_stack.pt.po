@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2013-11-18 11:34+0000\n"
+"POT-Creation-Date: 2013-11-19 11:42+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -22,13 +22,28 @@ msgid "##Switch stack inventory\n"
 msgstr ""
 
 #. type: Plain text
-msgid "todo:"
+msgid "Cisco 3750"
 msgstr ""
 
-#. type: Bullet: '* '
-msgid "snmp walk of stacked switch"
+#. type: Plain text
+msgid ""
+"Difference in snmpwalk output between normal and stacked switch: The "
+"additional number after GigabitEthernet is switch number inside stack, it "
+"starts from 1 and not 0 as ports do."
 msgstr ""
 
-#. type: Bullet: '* '
-msgid "understand it's structure"
+#. type: Plain text
+#, no-wrap
+msgid ""
+" Port name ( .1.3.6.1.2.1.31.1.1.1.1 , ifname )\n"
+" non-stacked:  .1.3.6.1.2.1.31.1.1.1.1.10101 = STRING: Gi0/1\n"
+" stacked:      .1.3.6.1.2.1.31.1.1.1.1.10101 = STRING: Gi1/0/1\n"
+msgstr ""
+
+#. type: Plain text
+#, no-wrap
+msgid ""
+" Port descr. ( .1.3.6.1.2.1.2.2.1.2 , ifdesc )\n"
+" non-stacked:  .1.3.6.1.2.1.2.2.1.2.10101 = STRING: GigabitEthernet0/1\n"
+" stacked:      .1.3.6.1.2.1.2.2.1.2.10101 = STRING: GigabitEthernet1/0/1\n"
 msgstr ""
