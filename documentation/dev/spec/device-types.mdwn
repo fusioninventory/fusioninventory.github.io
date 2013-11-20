@@ -3,10 +3,9 @@
 Network discovery and inventory task currently recognize the following device
 types, with the corresponding numeric and symbolic identifiers:
 
-* computer (0, COMPUTER)
-* printer (1, PRINTER)
+* computer (1, COMPUTER)
+* printer (3, PRINTER)
 * network device (2, NETWORKING)
-
-Here are additional device types:
-
 * phone (4, PHONE)
+* storage device (5, STORAGE)
+* power device (6, POWER)
