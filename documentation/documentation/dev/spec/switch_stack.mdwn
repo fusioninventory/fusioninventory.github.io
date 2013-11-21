@@ -18,3 +18,17 @@ Port descr. ( .1.3.6.1.2.1.2.2.1.2 , ifdesc )
     stacked:      .1.3.6.1.2.1.2.2.1.2.10101 = STRING: GigabitEthernet1/0/1
  
 
+### workaround that works for me 
+
+I made discovery of all switches via fusioninv glpi plugin first.
+
+Then I found out that if I run fusioninventory-netinventory from cli against 
+switch and than send xml file with injector or curl, my ports (almost all) on 
+stacked switch are visible in GLPI. Some ports are missing and I'm trying to 
+find out why.
+
+I use this commmands:
+
+    /usr/local/bin/fusioninventory-netinventory --host 10.0.0.14 --community something --model ./996914.xml > 14.xml
+    curl --header "Content-Type: Application/x-compress" -k --data @14.xml https://glpi/plugins/fusioninventory/
+
