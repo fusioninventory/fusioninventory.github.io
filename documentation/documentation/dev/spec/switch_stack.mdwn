@@ -32,3 +32,6 @@ I use this commmands:
     /usr/local/bin/fusioninventory-netinventory --host 10.0.0.14 --community something --model ./996914.xml > 14.xml
     curl --header "Content-Type: Application/x-compress" -k --data @14.xml https://glpi/plugins/fusioninventory/
 
+    # /usr/local/bin/fusioninventory-netinventory --version
+    # NetInventory task 2.3.2
+    With patch from bug
