@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2013-11-21 13:50+0000\n"
+"POT-Creation-Date: 2013-11-21 13:52+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -80,4 +80,12 @@ msgstr ""
 msgid ""
 "    /usr/local/bin/fusioninventory-netinventory --host 10.0.0.14 --community something --model ./996914.xml > 14.xml\n"
 "    curl --header \"Content-Type: Application/x-compress\" -k --data @14.xml https://glpi/plugins/fusioninventory/\n"
+msgstr ""
+
+#. type: Plain text
+#, no-wrap
+msgid ""
+"    # /usr/local/bin/fusioninventory-netinventory --version\n"
+"    # NetInventory task 2.3.2\n"
+"    With patch from bug\n"
 msgstr ""
