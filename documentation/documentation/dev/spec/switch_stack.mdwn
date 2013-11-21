@@ -34,4 +34,4 @@ I use this commmands:
 
     # /usr/local/bin/fusioninventory-netinventory --version
     # NetInventory task 2.3.2
-    With patch from bug
+    With patch from bug  #2336 http://forge.fusioninventory.org/issues/2336
