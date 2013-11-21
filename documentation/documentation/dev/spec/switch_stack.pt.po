@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2013-11-19 11:47+0000\n"
+"POT-Creation-Date: 2013-11-21 13:50+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -52,4 +52,32 @@ msgstr ""
 msgid ""
 "    non-stacked:  .1.3.6.1.2.1.2.2.1.2.10101 = STRING: GigabitEthernet0/1\n"
 "    stacked:      .1.3.6.1.2.1.2.2.1.2.10101 = STRING: GigabitEthernet1/0/1\n"
+msgstr ""
+
+#. type: Title ###
+#, no-wrap
+msgid "workaround that works for me "
+msgstr ""
+
+#. type: Plain text
+msgid "I made discovery of all switches via fusioninv glpi plugin first."
+msgstr ""
+
+#. type: Plain text
+msgid ""
+"Then I found out that if I run fusioninventory-netinventory from cli against "
+"switch and than send xml file with injector or curl, my ports (almost all) "
+"on stacked switch are visible in GLPI. Some ports are missing and I'm trying "
+"to find out why."
+msgstr ""
+
+#. type: Plain text
+msgid "I use this commmands:"
+msgstr ""
+
+#. type: Plain text
+#, no-wrap
+msgid ""
+"    /usr/local/bin/fusioninventory-netinventory --host 10.0.0.14 --community something --model ./996914.xml > 14.xml\n"
+"    curl --header \"Content-Type: Application/x-compress\" -k --data @14.xml https://glpi/plugins/fusioninventory/\n"
 msgstr ""
