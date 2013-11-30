@@ -19,20 +19,21 @@ msgstr ""
 #. type: Plain text
 #, no-wrap
 msgid "[[!meta  date=\"2013-11-07\"]]\n"
-msgstr ""
+msgstr "[[!meta  date=\"2013-11-07\"]]\n"
 
 #. type: Plain text
 msgid "Hello FusionInventory users,"
-msgstr ""
+msgstr "Salut les utilisateurs de FusionInventory"
 
 #. type: Plain text
 msgid ""
 "The FusionInventory Agent maintainers are glad to announce the 2.3.3 release."
 msgstr ""
+"Les développeurs de l'Agent FusionInventory sont heureux de vous annoncer la nouvelle version 2.3.3 !"
 
 #. type: Plain text
 msgid "You can download it from the usual places:"
-msgstr ""
+msgstr "Vous pouvez l'obtenir depuis les emplacements habituels:"
 
 #. type: Bullet: '* '
 msgid ""
@@ -40,21 +41,27 @@ msgid ""
 "files) or [CPAN](https://metacpan.org/release/FusionInventory-Agent) for the "
 "source archive"
 msgstr ""
+"[La Forge](http://forge.fusioninventory.org/projects/fusioninventory-agent/"
+"files) ou [CPAN](https://metacpan.org/release/FusionInventory-Agent) pour les "
+"fichiers sources"
 
 #. type: Bullet: '* '
 msgid ""
 "[the forge](http://forge.fusioninventory.org/projects/fusioninventory-agent-"
 "windows-installer/files) for the windows archive"
 msgstr ""
+"[La Forge](http://forge.fusioninventory.org/projects/fusioninventory-agent-"
+"windows-installer/files) pour la version Windows"
 
 #. type: Bullet: '* '
 msgid "etc..."
-msgstr ""
+msgstr "etc..."
 
 #. type: Plain text
 msgid ""
 "See [[download instructions|/documentation/agent/installation]] for details."
 msgstr ""
+"Reportez vous aux [[instructions d'installation|/documentation/agent/installation]] pour plus de détails."
 
 #. type: Plain text
 msgid ""
@@ -64,9 +71,16 @@ msgid ""
 "feature, backported from future 2.4 version, which is better device "
 "identification in network discovery (more details in a future news)."
 msgstr ""
+"Cette version corrige quelques bugs pour l'inventaire réseau d'équipements spécifiques "
+"(problème de timeout, crashs avec les vlans multiples), et un bug dans l'inventaire local "
+"sur des Windows 64bits (applications 32bits manquantes). Il y a également l'ajout d'une nouvelle "
+"fonctionnalité, prévue pour la future version 2.4 qui permet une meilleur identification d'équipement "
+"dans un inventaire réseau (plus de détail dans un prochain billet d'info)."
 
 #. type: Plain text
 msgid ""
 "We did our best to provide a solid release, please [[contact us|/resources]] "
 "is you believe you find something unexpected."
 msgstr ""
+"Nous faisons notre maximum pour construire des versions indéfectibles, si vous "
+"pensez avoir trouver quelque chose d'instable SVP [[contactez nous|/resources]]"
