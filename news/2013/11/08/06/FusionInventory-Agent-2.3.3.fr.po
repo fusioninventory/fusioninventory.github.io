@@ -19,17 +19,18 @@ msgstr ""
 #. type: Plain text
 #, no-wrap
 msgid "[[!meta  date=\"2013-11-08\"]]\n"
-msgstr ""
+msgstr "[[!meta  date=\"2013-11-08\"]]\n"
 
 #. type: Plain text
 msgid "Hello FusionInventory users,"
-msgstr ""
+msgstr "Salut les FusionInventory users !"
 
 #. type: Plain text
 msgid ""
 "The FusionInventory Agent maintainers are glad to announce the 2.3.3 "
 "release."
 msgstr ""
+"Voici une explication plus complète sur la nouvelle version 2.3.3."
 
 #. type: Plain text
 msgid ""
@@ -38,60 +39,66 @@ msgid ""
 "or directly from [the "
 "CPAN](https://metacpan.org/release/FusionInventory-Agent)"
 msgstr ""
+"Les fichiers sont disponibles sur la [Forge](http://forge.fusioninventory.org/attachments/download/1147/FusionInventory-Agent-2.3.3.tar.gz)  "
+"ou directement sur [CPAN](https://metacpan.org/release/FusionInventory-Agent)"
 
 #. type: Title ##
 #, no-wrap
 msgid "This release changelog"
-msgstr ""
+msgstr "Modifications pour cette version :"
 
 #. type: Title ###
 #, no-wrap
 msgid "inventory task"
-msgstr ""
+msgstr "Tâche d'inventaire :"
 
 #. type: Bullet: '* '
 msgid "fix missing 32bits software on 64bits windows (#2212)"
-msgstr ""
+msgstr "Correction du problème des applications 32bits non inventorier sur les Windows 64bits (Bug#2212)"
 
 #. type: Title ###
 #, no-wrap
 msgid "netinventory task"
-msgstr ""
+msgstr "Tâche netinventory (inventaire réseau) :"
 
 #. type: Bullet: '* '
 msgid ""
 "fix SNMP reconnection when issuing VLAN-specific queries on some Cisco "
 "devices (#2178)"
 msgstr ""
+"Correction des reconnections SNMP après l'échec de requête sur des VLAN spécifiés pour "
+"quelques équipements Cisco (bug#2178)"
 
 #. type: Bullet: '* '
 msgid "use longer default SNMP timeout, and make them configurable"
-msgstr ""
+msgstr "Utilisation d'un timeout défaut plus long pour SNMP, et le rendre configurable"
 
 #. type: Bullet: '* '
 msgid "handle MAC addresses with embedded VLAN identifier"
-msgstr ""
+msgstr "Traiter les adresses MAC avec les identifiants de VLAN intégrés"
 
 #. type: Title ###
 #, no-wrap
 msgid "netdiscovery task"
-msgstr ""
+msgstr "Tâche netdiscovery (découverte réseau) :"
 
 #. type: Bullet: '* '
 msgid "backport device model identification from sysobjectid value"
-msgstr ""
+msgstr "Ajout de l'identification du modèle de l'équipement par la valeur sysobjectid"
 
 #. type: Title ###
 #, no-wrap
 msgid "core"
-msgstr ""
+msgstr "Core"
 
 #. type: Bullet: '* '
 msgid "clean up in the distribution, thanks Olivier Mengué <dolmen@cpan.org>"
-msgstr ""
+msgstr "Nettoyage du code dans cette version, merci à Olivier Mengué <dolmen@cpan.org>"
 
 #. type: Plain text
 msgid ""
 "We did our best to provide a solid release, please [[contact us|/resources]] "
 "is you believe you find something unexpected."
 msgstr ""
+"Nous faisons notre maximum pour construire des versions indéfectibles, si vous "
+"pensez avoir trouver quelque chose d'instable SVP [[contactez nous|/resources]] "
