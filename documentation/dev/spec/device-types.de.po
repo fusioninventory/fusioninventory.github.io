@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2013-11-20 21:51+0000\n"
+"POT-Creation-Date: 2013-12-02 17:07+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -32,21 +32,25 @@ msgid "computer (1, COMPUTER)"
 msgstr ""
 
 #. type: Bullet: '* '
-msgid "printer (3, PRINTER)"
-msgstr ""
-
-#. type: Bullet: '* '
 msgid "network device (2, NETWORKING)"
 msgstr ""
 
 #. type: Bullet: '* '
-msgid "phone (4, PHONE)"
+msgid "printer (3, PRINTER)"
 msgstr ""
 
 #. type: Bullet: '* '
-msgid "storage device (5, STORAGE)"
+msgid "storage device (4, STORAGE)"
 msgstr ""
 
 #. type: Bullet: '* '
-msgid "power device (6, POWER)"
+msgid "power device (5, POWER)"
+msgstr ""
+
+#. type: Bullet: '* '
+msgid "phone (6, PHONE)"
+msgstr ""
+
+#. type: Bullet: '* '
+msgid "video (7, PHONE)"
 msgstr ""
