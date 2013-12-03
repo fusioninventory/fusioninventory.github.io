@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2013-07-25 08:16+0000\n"
+"POT-Creation-Date: 2013-12-03 09:55+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -143,8 +143,7 @@ msgstr ""
 msgid ""
 "> 1.2.840.10006.300.43.1.2.1.1.4.10017 = INTEGER: 0\n"
 "> 1.2.840.10006.300.43.1.2.1.1.4.10018 = INTEGER: 5\n"
-"> 1.2.840.10006.300.43.1.2.1.1.4.10019\n"
-">  = INTEGER: 5\n"
+"> 1.2.840.10006.300.43.1.2.1.1.4.10019 = INTEGER: 5\n"
 msgstr ""
 
 #. type: Title ###
