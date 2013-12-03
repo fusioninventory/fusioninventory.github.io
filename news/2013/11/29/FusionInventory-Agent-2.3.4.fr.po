@@ -19,21 +19,22 @@ msgstr ""
 #. type: Plain text
 #, no-wrap
 msgid "[[!meta  date=\"2013-11-29\"]]\n"
-msgstr ""
+msgstr "[[!meta  date=\"2013-11-29\"]]\n"
 
 #. type: Plain text
 msgid "Hello FusionInventory users,"
-msgstr ""
+msgstr "Salutation aux utilisateurs de FusionInventory"
 
 #. type: Plain text
 msgid ""
 "The FusionInventory Agent maintainers are glad to announce the 2.3.4 "
 "release."
 msgstr ""
+"Les développeurs de l'Agent FusionInventory sont heureux de vous annoncer la nouvelle version 2.3.4 ."
 
 #. type: Plain text
 msgid "You can download it from the usual places:"
-msgstr ""
+msgstr "Vous pourrez la télécharger aux emplacements habituels"
 
 #. type: Bullet: '* '
 msgid ""
@@ -42,6 +43,10 @@ msgid ""
 "or [CPAN](https://metacpan.org/release/FusionInventory-Agent) for the source "
 "archive"
 msgstr ""
+"[La "
+"Forge](http://forge.fusioninventory.org/projects/fusioninventory-agent/files) "
+"ou via [CPAN](https://metacpan.org/release/FusionInventory-Agent) pour les sources "
+"de l'archive"
 
 #. type: Bullet: '* '
 msgid ""
@@ -49,14 +54,17 @@ msgid ""
 "forge](http://forge.fusioninventory.org/projects/fusioninventory-agent-windows-installer/files) "
 "for the windows archive"
 msgstr ""
+"[La "
+"Forge](http://forge.fusioninventory.org/projects/fusioninventory-agent-windows-installer/files) "
+"pour la version Windows"
 
 #. type: Bullet: '* '
 msgid "etc..."
-msgstr ""
+msgstr "etc..."
 
 #. type: Plain text
 msgid "See [[download instructions|/documentation/agent/installation]] for details."
-msgstr ""
+msgstr "Reportez vous aux [[instructions d'installation|/documentation/agent/installation]] pour plus de détail."
 
 #. type: Plain text
 msgid ""
