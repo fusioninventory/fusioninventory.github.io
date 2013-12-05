@@ -186,12 +186,12 @@ msgid ""
 "    perl Makefile.PL PREFIX=/opt/fusioninventory\n"
 "    make\n"
 "    make test\n"
-"    make install\n"
+"    make install PREFIX=/opt/fusioninventory\n"
 msgstr ""
 "    perl Makefile.PL PREFIX=/opt/fusioninventory\n"
 "    make\n"
 "    make test\n"
-"    make install\n"
+"    make install PREFIX=/opt/fusioninventory\n"
 
 #. type: Title ##
 #, no-wrap
