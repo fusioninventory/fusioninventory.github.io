@@ -49,29 +49,26 @@ msgid "Agent installation:"
 msgstr "Installation de l'agent"
 
 #. type: Plain text
-#, fuzzy, no-wrap
-#| msgid "    # yum install fusioninventory-agent\n"
 msgid "    # yum install fusioninventory-agent fusioninventory-agent-task-inventory\n"
-msgstr "    # yum install fusioninventory-agent\n"
+msgstr "    # yum install fusioninventory-agent fusioninventory-agent-task-inventory\n"
 
 #. type: Plain text
 msgid "Edit configuration file"
-msgstr ""
+msgstr "Éditer le fichier de configuration"
 
 #. type: Plain text
-#, fuzzy, no-wrap
-#| msgid "    # yum install fusioninventory-agent\n"
 msgid "    # vi /etc/sysconfig/fusioninventory-agent\n"
-msgstr "    # yum install fusioninventory-agent\n"
+msgstr "    # vi /etc/sysconfig/fusioninventory-agent\n"
 
 #. type: Plain text
 msgid "add this line :"
-msgstr ""
+msgstr "Ajouter cette ligne :"
 
 #. type: Plain text
 #, no-wrap
 msgid "    # OPTS=\"--force --httpd-trust=127.0.0.1 --server http://yourserver/glpi/plugins/fusioninventory/front/plugin_fusioninventory.communication.php --logfile=/var/log/fusioninventory-agent/fusioninventory-agent.log\"\n"
 msgstr ""
+"# OPTS=\"--force --httpd-trust=127.0.0.1 --server http://yourserver/glpi/plugins/fusioninventory/fr    ont/plugin_fusioninventory.communication.php --logfile=/var/log/fusioninventory-agent/fusioninventory-agent.lo    g\"\n"
 
 #. type: Title ##
 #, no-wrap
