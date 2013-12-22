@@ -247,7 +247,7 @@ msgstr ""
 "étant nommé *fusioninventory-agent-deployment.vbs* qui permet de déployer en masse "
 "l'agent *fusioninventory-agent_windows-\\<platform>_\\<version>.exe* "
 "et vous trouverez la dernière version "
-" [ici](https://raw.github.com/fusinv/fusioninventory-agent/2.3.x/contrib/windows/fusioninventory-agent-deployment.vbs) .\n " 
+"[ici](http://raw.github.com/fusinv/fusioninventory-agent/2.3.x/contrib/windows/fusioninventory-agent-deployment.vbs) ." 
 
 #. type: Title ##
 #, no-wrap
