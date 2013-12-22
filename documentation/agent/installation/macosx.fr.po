@@ -119,6 +119,8 @@ msgid ""
 "Increase `backend-collect-timeout` value from `30` to `180` because the "
 "command used to get some hardware information can be very long"
 msgstr ""
+"Augmenter la valeur `backend-collect-timeout` de `30` à `180` parce que "
+"la commande utilisée pour obtenir les informations matériel peut être longue"
 
 #. type: Title ##
 #, no-wrap
