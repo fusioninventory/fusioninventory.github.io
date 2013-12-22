@@ -54,14 +54,6 @@ msgstr ""
 "Le projet FusionInventory maintient à jour un dépôt spécial pour les "
 "dernières versions des paquets Debian."
 
-#. type: Plain text
-#, fuzzy, no-wrap
-#| msgid ""
-#| "    apt-get install lsb-release\n"
-#| "    echo \"deb http://debian.fusioninventory.org/debian/ `lsb_release -cs` main\" >> /etc/apt/sources.list\n"
-#| "    wget -O - http://debian.fusioninventory.org/debian/archive.key | sudo apt-key add -\n"
-#| "    apt-get update\n"
-#| "    apt-get install fusioninventory-agent\n"
 msgid ""
 "    apt-get install lsb-release\n"
 "    echo \"deb http://debian.fusioninventory.org/debian/ `lsb_release -cs` main\" >> /etc/apt/sources.list\n"
@@ -78,7 +70,7 @@ msgstr ""
 #. type: Plain text
 #, no-wrap
 msgid "[[!template id=info text=\"A new OpenPGP key has been generated the 2013-06-18: 1FF3 68E8 0199 1373 1705  B8AF 049E D9B9 4765 572E\"]]\n"
-msgstr ""
+msgstr "[[!template id=info text=\"Une nouvelle clé OpenPGP a été générée le 2013-06-18: 1FF3 68E8 0199 1373 1705  B8AF 049E D9B9 4765 572E\"]]\n"
 
 #. type: Plain text
 msgid ""
