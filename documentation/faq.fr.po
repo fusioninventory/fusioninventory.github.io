@@ -229,6 +229,8 @@ msgid ""
 "The /tmp/yourfile.txt is a list of the UserAgent that should be accepted. "
 "For example:"
 msgstr ""
+"Le fichier /tmp/yourfile.txt est la liste des agents que vous souhaiter utiliser. "
+"Par exemple :"
 
 #. type: Plain text
 #, no-wrap

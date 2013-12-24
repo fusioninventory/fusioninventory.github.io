@@ -38,8 +38,8 @@ Once this is done, you can [[force an inventory|documentation/agent/launch_the_a
 
 All the keys are documented in the OPTIONS section of fusioninventory-agent reference documentation:
 
-* [[2.1.x (old stable)|documentation/references/agent/2.1.x/fusioninventory-agent]]
-* [[2.2.x (stable)|documentation/references/agent/2.2.x/fusioninventory-agent]]
-* [[2.3.x (dev)|documentation/references/agent/2.3.x/fusioninventory-agent]]
+* [[2.2.x (oldstable)|documentation/references/agent/2.2.x/fusioninventory-agent]]
+* [[2.3.x (stable)|documentation/agent/installation/windows/windows-installer-2.3.x-command-line]]
+* [[2.4.x (dev)|documentation/dev/]]
 
 

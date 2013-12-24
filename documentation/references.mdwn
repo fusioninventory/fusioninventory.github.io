@@ -11,7 +11,7 @@
 * [[fusioninventory-wakeonlan|documentation/references/agent/2.3.x/fusioninventory-wakeonlan]]
 * [[fusioninventory-win32-service|documentation/references/agent/2.3.x/fusioninventory-win32-service]]
 
-## 2.2.x (stable)
+## 2.2.x (oldstable)
 
 * [[fusioninventory-agent|documentation/references/agent/2.2.x/fusioninventory-agent]]
 * [[fusioninventory-injector|documentation/references/agent/2.2.x/fusioninventory-injector]]

@@ -24,7 +24,7 @@ msgstr "Installation silencieuse"
 #. type: Plain text
 #, no-wrap
 msgid "[[!template  id=info text=\"Warning, this page is outdated and needs to be refresh for the 2.3.0 agent.\"]] \n"
-msgstr ""
+msgstr "[[!template  id=info text=\"Attention, cette page n'est plus valide pour le nouvelle agent 2.3.x .\"]]\n"
 
 #. type: Title ##
 #, no-wrap
