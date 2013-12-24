@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2013-08-13 10:10+0000\n"
+"POT-Creation-Date: 2013-12-24 08:53+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -118,7 +118,7 @@ msgstr ""
 
 #. type: Title ##
 #, no-wrap
-msgid "2.2.x (stable)"
+msgid "2.2.x (oldstable)"
 msgstr ""
 
 #. type: Bullet: '* '

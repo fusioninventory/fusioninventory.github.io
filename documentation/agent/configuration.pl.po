@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2013-10-09 17:41+0000\n"
+"POT-Creation-Date: 2013-12-24 08:53+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: Piotr Adamcio <p.adamcio@czluchow.org.pl>\n"
 "Language-Team: Polish <LL@li.org>\n"
@@ -135,26 +135,39 @@ msgstr ""
 "fusioninventory:"
 
 #. type: Bullet: '* '
+#, fuzzy
+#| msgid ""
+#| "[[2.2.x (stable)|documentation/references/agent/2.2.x/fusioninventory-"
+#| "agent]]"
 msgid ""
-"[[2.1.x (old stable)|documentation/references/agent/2.1.x/fusioninventory-"
+"[[2.2.x (oldstable)|documentation/references/agent/2.2.x/fusioninventory-"
 "agent]]"
-msgstr ""
-"[[2.1.x (stara stabilna)|documentation/references/agent/2.1.x/"
-"fusioninventory-agent]]"
-
-#. type: Bullet: '* '
-msgid ""
-"[[2.2.x (stable)|documentation/references/agent/2.2.x/fusioninventory-agent]]"
 msgstr ""
 "[[2.2.x (stabilna)|documentation/references/agent/2.2.x/fusioninventory-"
 "agent]]"
 
 #. type: Bullet: '* '
 msgid ""
-"[[2.3.x (dev)|documentation/references/agent/2.3.x/fusioninventory-agent]]"
+"[[2.3.x (stable)|documentation/agent/installation/windows/windows-"
+"installer-2.3.x-command-line]]"
 msgstr ""
-"[[2.3.x (rozwojowa)|documentation/references/agent/2.3.x/fusioninventory-"
-"agent]]"
+
+#. type: Bullet: '* '
+msgid "[[2.4.x (dev)|documentation/dev/]]"
+msgstr ""
+
+#~ msgid ""
+#~ "[[2.1.x (old stable)|documentation/references/agent/2.1.x/fusioninventory-"
+#~ "agent]]"
+#~ msgstr ""
+#~ "[[2.1.x (stara stabilna)|documentation/references/agent/2.1.x/"
+#~ "fusioninventory-agent]]"
+
+#~ msgid ""
+#~ "[[2.3.x (dev)|documentation/references/agent/2.3.x/fusioninventory-agent]]"
+#~ msgstr ""
+#~ "[[2.3.x (rozwojowa)|documentation/references/agent/2.3.x/fusioninventory-"
+#~ "agent]]"
 
 #~ msgid ""
 #~ "The agent reads the configuration from a list of key / value. Sometime, "
