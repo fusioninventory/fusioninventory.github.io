@@ -12,13 +12,20 @@ Installation with the debian packages
 
 The FusionInventory project maintains an up-to-date debian package of the most recent version, in a extra repository.
 
+First, you need to import the repository GnuPG key, if apt-key is available you can use these command:
+
+    apt-key adv --keyserver keyserver.ubuntu.com --recv 049ED9B94765572
+
+Otherwise this one will work:
+
+    wget -O - http://debian.fusioninventory.org/debian/archive.key | apt-key add -
+
+Now you can install the agent.
+
     apt-get install lsb-release
     echo "deb http://debian.fusioninventory.org/debian/ `lsb_release -cs` main" >> /etc/apt/sources.list
-    sudo bash -c 'wget -O - http://debian.fusioninventory.org/debian/archive.key | apt-key add -'
     apt-get update
     apt-get install fusioninventory-agent
-
-[[!template id=info text="A new OpenPGP key has been generated the 2013-06-18: 1FF3 68E8 0199 1373 1705  B8AF 049E D9B9 4765 572E"]]
 
 The content of the [dists](http://debian.fusioninventory.org/debian/dists/) pages can help you do identify support operating system.
 
