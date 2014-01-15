@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2013-11-05 13:28+0000\n"
+"POT-Creation-Date: 2014-01-15 09:49+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -50,18 +50,36 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#, no-wrap
 msgid ""
-"    apt-get install lsb-release\n"
-"    echo \"deb http://debian.fusioninventory.org/debian/ `lsb_release -cs` main\" >> /etc/apt/sources.list\n"
-"    sudo bash -c 'wget -O - http://debian.fusioninventory.org/debian/archive.key | apt-key add -'\n"
-"    apt-get update\n"
-"    apt-get install fusioninventory-agent\n"
+"First, you need to import the repository GnuPG key, if apt-key is available "
+"you can use these command:"
 msgstr ""
 
 #. type: Plain text
 #, no-wrap
-msgid "[[!template id=info text=\"A new OpenPGP key has been generated the 2013-06-18: 1FF3 68E8 0199 1373 1705  B8AF 049E D9B9 4765 572E\"]]\n"
+msgid "    apt-key adv --keyserver keyserver.ubuntu.com --recv 049ED9B94765572\n"
+msgstr ""
+
+#. type: Plain text
+msgid "Otherwise this one will work:"
+msgstr ""
+
+#. type: Plain text
+#, no-wrap
+msgid "    wget -O - http://debian.fusioninventory.org/debian/archive.key | apt-key add -\n"
+msgstr ""
+
+#. type: Plain text
+msgid "Now you can install the agent."
+msgstr ""
+
+#. type: Plain text
+#, no-wrap
+msgid ""
+"    apt-get install lsb-release\n"
+"    echo \"deb http://debian.fusioninventory.org/debian/ `lsb_release -cs` main\" >> /etc/apt/sources.list\n"
+"    apt-get update\n"
+"    apt-get install fusioninventory-agent\n"
 msgstr ""
 
 #. type: Plain text

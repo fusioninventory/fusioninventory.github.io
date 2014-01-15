@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2013-11-08 17:16+0000\n"
+"POT-Creation-Date: 2014-01-15 09:49+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -27,20 +27,25 @@ msgstr "Salut les FusionInventory users !"
 
 #. type: Plain text
 msgid ""
-"The FusionInventory Agent maintainers are glad to announce the 2.3.3 "
-"release."
-msgstr ""
-"Voici une explication plus complète sur la nouvelle version 2.3.3."
+"The FusionInventory Agent maintainers are glad to announce the 2.3.3 release."
+msgstr "Voici une explication plus complète sur la nouvelle version 2.3.3."
 
 #. type: Plain text
 msgid ""
-"The archive is available either on the [the "
-"forge](http://forge.fusioninventory.org/attachments/download/1147/FusionInventory-Agent-2.3.3.tar.gz)  "
-"or directly from [the "
-"CPAN](https://metacpan.org/release/FusionInventory-Agent)"
+"The archive is available either on the [the forge](http://forge."
+"fusioninventory.org/attachments/download/1147/FusionInventory-Agent-2.3.3."
+"tar.gz)  or directly from [the CPAN](https://metacpan.org/release/"
+"FusionInventory-Agent)"
 msgstr ""
-"Les fichiers sont disponibles sur la [Forge](http://forge.fusioninventory.org/attachments/download/1147/FusionInventory-Agent-2.3.3.tar.gz)  "
-"ou directement sur [CPAN](https://metacpan.org/release/FusionInventory-Agent)"
+"Les fichiers sont disponibles sur la [Forge](http://forge.fusioninventory."
+"org/attachments/download/1147/FusionInventory-Agent-2.3.3.tar.gz)  ou "
+"directement sur [CPAN](https://metacpan.org/release/FusionInventory-Agent)"
+
+#. type: Plain text
+msgid ""
+"The Windows packages are already available [on the website](http://forge."
+"fusioninventory.org/projects/fusioninventory-agent-windows-installer/files)."
+msgstr ""
 
 #. type: Title ##
 #, no-wrap
@@ -54,7 +59,9 @@ msgstr "Tâche d'inventaire :"
 
 #. type: Bullet: '* '
 msgid "fix missing 32bits software on 64bits windows (#2212)"
-msgstr "Correction du problème des applications 32bits non inventorier sur les Windows 64bits (Bug#2212)"
+msgstr ""
+"Correction du problème des applications 32bits non inventorier sur les "
+"Windows 64bits (Bug#2212)"
 
 #. type: Title ###
 #, no-wrap
@@ -66,12 +73,14 @@ msgid ""
 "fix SNMP reconnection when issuing VLAN-specific queries on some Cisco "
 "devices (#2178)"
 msgstr ""
-"Correction des reconnections SNMP après l'échec de requête sur des VLAN spécifiés pour "
-"quelques équipements Cisco (bug#2178)"
+"Correction des reconnections SNMP après l'échec de requête sur des VLAN "
+"spécifiés pour quelques équipements Cisco (bug#2178)"
 
 #. type: Bullet: '* '
 msgid "use longer default SNMP timeout, and make them configurable"
-msgstr "Utilisation d'un timeout défaut plus long pour SNMP, et le rendre configurable"
+msgstr ""
+"Utilisation d'un timeout défaut plus long pour SNMP, et le rendre "
+"configurable"
 
 #. type: Bullet: '* '
 msgid "handle MAC addresses with embedded VLAN identifier"
@@ -84,7 +93,8 @@ msgstr "Tâche netdiscovery (découverte réseau) :"
 
 #. type: Bullet: '* '
 msgid "backport device model identification from sysobjectid value"
-msgstr "Ajout de l'identification du modèle de l'équipement par la valeur sysobjectid"
+msgstr ""
+"Ajout de l'identification du modèle de l'équipement par la valeur sysobjectid"
 
 #. type: Title ###
 #, no-wrap
@@ -93,12 +103,15 @@ msgstr "Core"
 
 #. type: Bullet: '* '
 msgid "clean up in the distribution, thanks Olivier Mengué <dolmen@cpan.org>"
-msgstr "Nettoyage du code dans cette version, merci à Olivier Mengué <dolmen@cpan.org>"
+msgstr ""
+"Nettoyage du code dans cette version, merci à Olivier Mengué <dolmen@cpan."
+"org>"
 
 #. type: Plain text
 msgid ""
 "We did our best to provide a solid release, please [[contact us|/resources]] "
 "is you believe you find something unexpected."
 msgstr ""
-"Nous faisons notre maximum pour construire des versions indéfectibles, si vous "
-"pensez avoir trouver quelque chose d'instable SVP [[contactez nous|/resources]] "
+"Nous faisons notre maximum pour construire des versions indéfectibles, si "
+"vous pensez avoir trouver quelque chose d'instable SVP [[contactez nous|/"
+"resources]] "

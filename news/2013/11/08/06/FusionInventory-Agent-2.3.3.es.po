@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2013-11-08 17:16+0000\n"
+"POT-Creation-Date: 2014-01-15 09:49+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -27,16 +27,21 @@ msgstr ""
 
 #. type: Plain text
 msgid ""
-"The FusionInventory Agent maintainers are glad to announce the 2.3.3 "
-"release."
+"The FusionInventory Agent maintainers are glad to announce the 2.3.3 release."
 msgstr ""
 
 #. type: Plain text
 msgid ""
-"The archive is available either on the [the "
-"forge](http://forge.fusioninventory.org/attachments/download/1147/FusionInventory-Agent-2.3.3.tar.gz)  "
-"or directly from [the "
-"CPAN](https://metacpan.org/release/FusionInventory-Agent)"
+"The archive is available either on the [the forge](http://forge."
+"fusioninventory.org/attachments/download/1147/FusionInventory-Agent-2.3.3."
+"tar.gz)  or directly from [the CPAN](https://metacpan.org/release/"
+"FusionInventory-Agent)"
+msgstr ""
+
+#. type: Plain text
+msgid ""
+"The Windows packages are already available [on the website](http://forge."
+"fusioninventory.org/projects/fusioninventory-agent-windows-installer/files)."
 msgstr ""
 
 #. type: Title ##
