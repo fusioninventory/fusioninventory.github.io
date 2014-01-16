@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2013-09-12 17:28+0000\n"
+"POT-Creation-Date: 2014-01-16 18:54+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: Tomás Abad <tabadgp@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -86,10 +86,15 @@ msgstr ""
 "Microsoft Windows."
 
 #. type: Bullet: '* '
+#, fuzzy
+#| msgid ""
+#| "The installer for each *\\<platform>*, integrates its native, although "
+#| "reduced, version of [Strawberry Perl](http://strawberryperl.com/ \"http://"
+#| "strawberryperl.com/\") 5.16.3.1."
 msgid ""
 "The installer for each *\\<platform>*, integrates its native, although "
 "reduced, version of [Strawberry Perl](http://strawberryperl.com/ \"http://"
-"strawberryperl.com/\") 5.16.3.1."
+"strawberryperl.com/\") 5.18.1.1."
 msgstr ""
 "El instalador para cada *\\<platform>*, integra su nativa, aunque reducida, "
 "versión de [Strawberry Perl](http://strawberryperl.com/ \"http://"
@@ -238,6 +243,7 @@ msgstr ""
 "válidas para el nuevo instalador de FusionInventory Agent."
 
 #. type: Plain text
+#, no-wrap
 msgid "Nowadays, and while a new page is written with more detail about its use, it's available from here the new VBScript (Visual Basic Script) with name *fusioninventory-agent-deployment.vbs* that allows to perform an unattended deployment of *fusioninventory-agent_windows-\\<platform>_\\<version>.exe* in large (and in not so large) environments. You can find its last version [here](https://raw.github.com/fusinv/fusioninventory-agent/2.3.x/contrib/windows/fusioninventory-agent-deployment.vbs \"https://raw.github.com/fusinv/fusioninventory-agent/2.3.x/contrib/windows/fusioninventory-agent-deployment.vbs\").\n"
 msgstr "En la actualidad, y mientras una nueva página es escrita con más detalle acerca de su uso, está disponible desde aquí el nuevo VBScript (Visual Basic Script) con nombre *fusioninventory-agent-deployment.vbs* que permite realizar un despliegue desatendido de *fusioninventory-agent_windows-\\<platform>_\\<version>.exe* en grandes (y no tan grandes) entornos. Puede encontrar su última versión [aquí](https://raw.github.com/fusinv/fusioninventory-agent/2.3.x/contrib/windows/fusioninventory-agent-deployment.vbs \"https://raw.github.com/fusinv/fusioninventory-agent/2.3.x/contrib/windows/fusioninventory-agent-deployment.vbs\").\n"
 
