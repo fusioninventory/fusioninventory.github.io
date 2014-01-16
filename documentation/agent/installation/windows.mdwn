@@ -27,7 +27,7 @@ Some notes about the new FusionInventory Agent installer for Microsoft Windows.
 
 
 
-* The installer for each *\<platform>*, integrates its native, although reduced, version of [Strawberry Perl](http://strawberryperl.com/ "http://strawberryperl.com/") 5.16.3.1.
+* The installer for each *\<platform>*, integrates its native, although reduced, version of [Strawberry Perl](http://strawberryperl.com/ "http://strawberryperl.com/") 5.18.1.1.
 
 
 
