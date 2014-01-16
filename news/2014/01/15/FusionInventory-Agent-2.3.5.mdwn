@@ -21,5 +21,5 @@ case.
 Due to a last-minute issue in release process, a 2.3.5.1 version has also been
 released immediatly, but it only fix a minor issue for inventory task on AIX.
 
-We did our best to provide a solid release, please [[contact us|/resources]] is
+We did our best to provide a solid release, please [[contact us|/resources]] if
 you believe you find something unexpected.
