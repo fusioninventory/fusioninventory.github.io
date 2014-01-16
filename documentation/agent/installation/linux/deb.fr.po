@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2014-01-15 09:49+0000\n"
+"POT-Creation-Date: 2014-01-16 09:17+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -57,12 +57,12 @@ msgstr ""
 #. type: Plain text
 msgid ""
 "First, you need to import the repository GnuPG key, if apt-key is available "
-"you can use these command:"
+"you can use these command as root:"
 msgstr ""
 
 #. type: Plain text
 #, no-wrap
-msgid "    apt-key adv --keyserver keyserver.ubuntu.com --recv 049ED9B94765572\n"
+msgid "    apt-key adv --keyserver keyserver.ubuntu.com --recv 049ED9B94765572E\n"
 msgstr ""
 
 #. type: Plain text
@@ -141,5 +141,9 @@ msgstr "Tâche de déploiement"
 msgid "    apt-get install fusioninventory-agent-task-deploy\n"
 msgstr "    apt-get install libfusioninventory-agent-task-deploy-perl\n"
 
-#~ msgid "[[!template id=info text=\"A new OpenPGP key has been generated the 2013-06-18: 1FF3 68E8 0199 1373 1705  B8AF 049E D9B9 4765 572E\"]]\n"
-#~ msgstr "[[!template id=info text=\"Une nouvelle clé OpenPGP a été générée le 2013-06-18: 1FF3 68E8 0199 1373 1705  B8AF 049E D9B9 4765 572E\"]]\n"
+#~ msgid ""
+#~ "[[!template id=info text=\"A new OpenPGP key has been generated the "
+#~ "2013-06-18: 1FF3 68E8 0199 1373 1705  B8AF 049E D9B9 4765 572E\"]]\n"
+#~ msgstr ""
+#~ "[[!template id=info text=\"Une nouvelle clé OpenPGP a été générée le "
+#~ "2013-06-18: 1FF3 68E8 0199 1373 1705  B8AF 049E D9B9 4765 572E\"]]\n"
