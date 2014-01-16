@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2014-01-16 17:23+0000\n"
+"POT-Creation-Date: 2014-01-16 17:27+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -27,8 +27,7 @@ msgstr ""
 
 #. type: Plain text
 msgid ""
-"The FusionInventory Agent maintainers are glad to announce the 2.3.5 "
-"release."
+"The FusionInventory Agent maintainers are glad to announce the 2.3.5 release."
 msgstr ""
 
 #. type: Plain text
@@ -37,17 +36,15 @@ msgstr ""
 
 #. type: Bullet: '* '
 msgid ""
-"[the "
-"forge](http://forge.fusioninventory.org/projects/fusioninventory-agent/files) "
-"or [CPAN](https://metacpan.org/release/FusionInventory-Agent) for the source "
-"distribution"
+"[the forge](http://forge.fusioninventory.org/projects/fusioninventory-agent/"
+"files) or [CPAN](https://metacpan.org/release/FusionInventory-Agent) for the "
+"source distribution"
 msgstr ""
 
 #. type: Bullet: '* '
 msgid ""
-"[the "
-"forge](http://forge.fusioninventory.org/projects/fusioninventory-agent-windows-installer/files) "
-"for the windows distribution"
+"[the forge](http://forge.fusioninventory.org/projects/fusioninventory-agent-"
+"windows-installer/files) for the windows distribution"
 msgstr ""
 
 #. type: Bullet: '* '
@@ -55,14 +52,15 @@ msgid "etc..."
 msgstr ""
 
 #. type: Plain text
-msgid "See [[download instructions|/documentation/agent/installation]] for details."
+msgid ""
+"See [[download instructions|/documentation/agent/installation]] for details."
 msgstr ""
 
 #. type: Plain text
 msgid ""
 "This release fixes a bug in AD environment on Windows: enumeration of local "
-"users and local groups was taking too much time, leading to a timeout "
-"issue. It also fixes somes issues with RAID controllers under Linux, and add "
+"users and local groups was taking too much time, leading to a timeout issue. "
+"It also fixes somes issues with RAID controllers under Linux, and add "
 "support for modern MegaRAID controllers. For network inventory, the work to "
 "get rid of SNMP models dependency have been continued, and should gives "
 "better results in this case."
@@ -78,5 +76,5 @@ msgstr ""
 #. type: Plain text
 msgid ""
 "We did our best to provide a solid release, please [[contact us|/resources]] "
-"is you believe you find something unexpected."
+"if you believe you find something unexpected."
 msgstr ""
