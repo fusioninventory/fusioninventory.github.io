@@ -98,7 +98,7 @@ msgid ""
 msgstr ""
 "El instalador para cada *\\<platform>*, integra su nativa, aunque reducida, "
 "versión de [Strawberry Perl](http://strawberryperl.com/ \"http://"
-"strawberryperl.com/\") 5.16.3.1."
+"strawberryperl.com/\") 5.18.1.1."
 
 #. type: Bullet: '* '
 msgid ""
