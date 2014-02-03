@@ -33,6 +33,8 @@ Up until 0.83, there was some sequencing facility with the original tabbed Task 
 
 The actual implementation did not allow us to reorder easily those "Multi-TaskJobs" Tasks.
 
+**Add timeout field in the action**
+
 The following mockup show some way to achieve this :
 
 [[!img multijob-tasks-reborn.png]]
