@@ -33,7 +33,7 @@ msgstr ""
 
 #. type: Plain text
 msgid "You can download it from the usual places:"
-msgstr "Vous pouvez la télécharger via les lieux habituels :"
+msgstr "Vous pouvez la télécharger via les sites habituels :"
 
 #. type: Bullet: '* '
 msgid ""
@@ -72,9 +72,9 @@ msgid ""
 "better results in this case."
 msgstr ""
 "Cette version corrige un bug pour les environnements AD de Windows : L'énumération des "
-"utilisateurs et groupes locaux prenait trop de temps, et entrainait une erreur de «timeout»."
+"utilisateurs et groupes locaux prenait trop de temps, et entrainait une erreur de «timeout».\n"
 "Également plusieurs problèmes avec les contrôleurs RAID Linux sont corrigés et aussi l'ajout "
-"du support pour les contrôleurs modernes MegaRAID. Pour l'inventaire réseau, le travail pour "
+"du support pour les contrôleurs modernes MegaRAID.\n Pour l'inventaire réseau, le travail pour "
 "se débarrasser de la dépendance des modèles SNMP a évolué et semble donner de meilleurs résultats dans "
 "cette version."
 
@@ -93,4 +93,4 @@ msgid ""
 "if you believe you find something unexpected."
 msgstr ""
 "Nous faisons notre possible pour fournir une version indéfectible, si vous croyez avoir trouver "
-"un problème, SVP [contactez nous|/resources]]."
+"un problème, SVP [[contactez nous|/resources]]."
