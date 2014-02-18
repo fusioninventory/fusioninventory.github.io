@@ -240,6 +240,10 @@ msgid ""
 "    FusionInventory-Agent_v2.2.5-1\n"
 "    FusionInventory-Agent_v2.2.7-3\n"
 msgstr ""
+"    FusionInventory-Agent_v2.1.9-3\n"
+"    FusionInventory-Agent_v2.1.13-1\n"
+"    FusionInventory-Agent_v2.2.5-1\n"
+"    FusionInventory-Agent_v2.2.7-3\n"
 
 #. type: Plain text
 msgid "This step is not required with the legacy 1.x server."
