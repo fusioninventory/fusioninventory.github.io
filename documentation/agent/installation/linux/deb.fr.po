@@ -59,33 +59,29 @@ msgid ""
 "First, you need to import the repository GnuPG key, if apt-key is available "
 "you can use these command as root:"
 msgstr ""
+"Premièrement, vous devez importer la clé GnuPG du dépôt, si «apt-key» est disponible "
+"vous pouvez utiliser cette commande via root :"
 
 #. type: Plain text
 #, no-wrap
 msgid "    apt-key adv --keyserver keyserver.ubuntu.com --recv 049ED9B94765572E\n"
-msgstr ""
+msgstr "    apt-key adv --keyserver keyserver.ubuntu.com --recv 049ED9B94765572E\n"
 
 #. type: Plain text
 msgid "Otherwise this one will work:"
-msgstr ""
+msgstr "Sinon, utilisez cette méthode :"
 
 #. type: Plain text
 #, no-wrap
 msgid "    wget -O - http://debian.fusioninventory.org/debian/archive.key | apt-key add -\n"
-msgstr ""
+msgstr "    wget -O - http://debian.fusioninventory.org/debian/archive.key | apt-key add -\n"
 
 #. type: Plain text
 msgid "Now you can install the agent."
-msgstr ""
+msgstr "Maintenant, vous pouvez installer l'agent."
 
 #. type: Plain text
-#, fuzzy, no-wrap
-#| msgid ""
-#| "    apt-get install lsb-release\n"
-#| "    echo \"deb http://debian.fusioninventory.org/debian/ `lsb_release -cs` main\" >> /etc/apt/sources.list\n"
-#| "    sudo bash -c 'wget -O - http://debian.fusioninventory.org/debian/archive.key | apt-key add -'\n"
-#| "    apt-get update\n"
-#| "    apt-get install fusioninventory-agent\n"
+#, no-wrap
 msgid ""
 "    apt-get install lsb-release\n"
 "    echo \"deb http://debian.fusioninventory.org/debian/ `lsb_release -cs` main\" >> /etc/apt/sources.list\n"
@@ -116,34 +112,24 @@ msgid "Network inventory tasks:"
 msgstr "Tâches d'inventaire réseau"
 
 #. type: Plain text
-#, fuzzy, no-wrap
-#| msgid "    apt-get install libfusioninventory-agent-task-network-perl\n"
+#, no-wrap
 msgid "    apt-get install fusioninventory-agent-task-network\n"
-msgstr "    apt-get install libfusioninventory-agent-task-network-perl\n"
+msgstr "    apt-get install fusioninventory-agent-task-network\n"
 
 #. type: Plain text
 msgid "ESX inventory task:"
 msgstr "Tâche d'inventaire des ESX"
 
 #. type: Plain text
-#, fuzzy, no-wrap
-#| msgid "    apt-get install libfusioninventory-agent-task-esx-perl\n"
+#, no-wrap
 msgid "    apt-get install fusioninventory-agent-task-esx\n"
-msgstr "    apt-get install libfusioninventory-agent-task-esx-perl\n"
+msgstr "    apt-get install fusioninventory-agent-task-esx\n"
 
 #. type: Plain text
 msgid "Deploy task:"
 msgstr "Tâche de déploiement"
 
 #. type: Plain text
-#, fuzzy, no-wrap
-#| msgid "    apt-get install libfusioninventory-agent-task-deploy-perl\n"
+#, no-wrap
 msgid "    apt-get install fusioninventory-agent-task-deploy\n"
-msgstr "    apt-get install libfusioninventory-agent-task-deploy-perl\n"
-
-#~ msgid ""
-#~ "[[!template id=info text=\"A new OpenPGP key has been generated the "
-#~ "2013-06-18: 1FF3 68E8 0199 1373 1705  B8AF 049E D9B9 4765 572E\"]]\n"
-#~ msgstr ""
-#~ "[[!template id=info text=\"Une nouvelle clé OpenPGP a été générée le "
-#~ "2013-06-18: 1FF3 68E8 0199 1373 1705  B8AF 049E D9B9 4765 572E\"]]\n"
+msgstr "    apt-get install fusioninventory-agent-task-deploy\n"
