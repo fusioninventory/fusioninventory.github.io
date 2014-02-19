@@ -19,7 +19,7 @@ msgstr ""
 #. type: Plain text
 #, no-wrap
 msgid "[[!meta  date=\"2011-09-13 16:35:24\"]]\n"
-msgstr ""
+msgstr "[[!meta  date=\"2011-09-13 16:35:24\"]]\n"
 
 #. type: Plain text
 #, no-wrap
@@ -28,6 +28,9 @@ msgid ""
 "Android.\n"
 "<h1>FusionInventory Agent for Android 1.0.1 is out!</h1>\n"
 msgstr ""
+"L'équipe de FusionInventory est fière 'annoncer le support d'une nouvelle plate-forme : "
+"Android.\n"
+"<h1>L'Agent FusionInventory pour Android 1.0.1 est là !! </h1>\n"
 
 #. type: Title ##
 #, no-wrap
@@ -39,20 +42,27 @@ msgid ""
 "src=\"/news/2011/09/13/fusioninventory-androidmarket.png\" alt=\"\" "
 "width=\"235\" height=\"235\" /></a>"
 msgstr ""
+"href=\"/news/2011/09/13/fusioninventory-for-android-1.0.png\"><img "
+"class=\"alignright size-full wp-image-1205\" "
+"title=\"fusioninventory-for-android-1.0\" "
+"src=\"/news/2011/09/13/fusioninventory-androidmarket.png\" alt=\"\" "
+"width=\"235\" height=\"235\" /></a>"
 
 #. type: Plain text
 msgid "FusionInventory Agent for Android 1.0.1 is available on the market."
-msgstr ""
+msgstr "l' Agent FusionInventory pour Android 1.0.1 est disponible sur le «Market»."
 
 #. type: Plain text
 msgid "You can also download the agent at following URLs (or use the QR code):"
-msgstr ""
+msgstr "Vous pouvez aussi télécharger l'agent suivant ces liens (ou via le QR code):"
 
 #. type: Plain text
 msgid ""
 "- Android Market: "
 "[https://market.android.com/details?id=org.fusioninventory&amp;feature=search_result](https://market.android.com/details?id=org.fusioninventory&amp;feature=search_result)"
 msgstr ""
+"- Android Market: "
+"[https://market.android.com/details?id=org.fusioninventory&amp;feature=search_result](https://market.android.com/details?id=org.fusioninventory&amp;feature=search_result)"
 
 #. type: Plain text
 msgid ""
@@ -60,11 +70,14 @@ msgid ""
 "[http://forge.fusioninventory.org/attachments/download/454/FusionInventory-1.0.1.apk "
 "](http://forge.fusioninventory.org/attachments/download/454/FusionInventory-1.0.1.apk)"
 msgstr ""
+"- FusionInventory forge: "
+"[http://forge.fusioninventory.org/attachments/download/454/FusionInventory-1.0.1.apk "
+"](http://forge.fusioninventory.org/attachments/download/454/FusionInventory-1.0.1.apk)"
 
 #. type: Title ##
 #, no-wrap
 msgid "New"
-msgstr ""
+msgstr "Nouveauté"
 
 #. type: Plain text
 msgid ""
@@ -75,11 +88,17 @@ msgid ""
 "[Mandriva](http://www.mandriva.com/). A reasonable mix of community "
 "involvment and company support. Thank you all!"
 msgstr ""
+"Cet agent est une version très spéciale. Il a été écrit à partir de zéro pour "
+"la plate-forme Android, avec l'aide des personnes et organisations suivantes : "
+"Kévin Roy, Sébastien Lacroix et Walid Nouh, "
+"[TECLIB'](http://www.teclib.com/) et  "
+"[Mandriva](http://www.mandriva.com/). Un bon exemple de mélange entre la communauté "
+"et l'implication des entreprises. Merci à tous!"
 
 #. type: Title ##
 #, no-wrap
 msgid "Inventory"
-msgstr ""
+msgstr "Inventaire"
 
 #. type: Plain text
 msgid ""
@@ -88,6 +107,10 @@ msgid ""
 "memory, drives, sensors, etc. and also the list and description of installed "
 "application (apk)."
 msgstr ""
+"Il effectue un inventaire complet de vos appareils Android: les informations "
+"matérielles et logicielles sont collectées. Vous obtenez les données sur processeur, "
+"la mémoire, les disques, les capteurs, etc ainsi que la liste et la description des "
+"applications installées (apk)"
 
 #. type: Title ##
 #, no-wrap
@@ -97,6 +120,10 @@ msgid ""
 "src=\"/news/2011/09/13/android_logo-150x150.gif\" alt=\"Android Logo\" "
 "width=\"90\" height=\"90\" /></a>"
 msgstr ""
+"Opérationnel<a href=\"/news/2011/09/13/android_logo.gif\"><img "
+"class=\"alignright size-thumbnail wp-image-1203\" title=\"android_logo\" "
+"src=\"/news/2011/09/13/android_logo-150x150.gif\" alt=\"Android Logo\" "
+"width=\"90\" height=\"90\" /></a>"
 
 #. type: Plain text
 msgid ""
@@ -109,11 +136,19 @@ msgid ""
 "running Android 2.2 or lower. If you know how to collect them, please open "
 "request on the bug tracker."
 msgstr ""
+"FusionInventory Agent pour Android fonctionne sur Android 1.6 et supérieur. "
+"Nous maintenons une [liste des appareils testés](http://forge.fusioninventory."
+"org/projects/fusioninventory/wiki/Smartphone_Compatibility). S'il vous plaît, signalez toute "
+"réussite ou échec sur le [bug tracker](http://forge.fusioninventory.org/projects/android"
+"/issues/new). Quelques informations (par exemple le numéro "
+"de série) ne seront pas disponibles sur les appareils fonctionnant sous Android 2.2 "
+"ou inférieur. Si vous savez comment les recueillir, s'il vous plaît, ouvrez demande "
+"sur le bug tracker."
 
 #. type: Title ##
 #, no-wrap
 msgid "Connect"
-msgstr ""
+msgstr "Usage"
 
 #. type: Plain text
 #, no-wrap
@@ -163,3 +198,47 @@ msgid ""
 "</tbody>\n"
 "</table>\n"
 msgstr ""
+"FusionInventory Agent pour Android peut envoyer un inventaire a : FusionInventory for "
+"GLPI 2.3.x et supérieur, OCS Inventory 1.3.x and 2.x (pour ce dernier vous devez "
+"[appliquer ce correctif]"
+"(http://forge.fusioninventory.org/projects/fusioninventory-agent/wiki/Patch_ocs_server)).\n"
+"<table>\n"
+"<tbody>\n"
+"<tr>\n"
+"<td> <a "
+"href=\"/news/2011/09/13/fusioninventory-agent-android-interface4.png\"><img "
+"class=\"size-medium wp-image-1238 aligncenter\" "
+"title=\"fusioninventory-agent-android-interface4\" "
+"src=\"/news/2011/09/13/fusioninventory-agent-android-interface4-180x300.png\" "
+"alt=\"\" width=\"180\" height=\"300\" /></a></td>\n"
+"<td><a "
+"href=\"/news/2011/09/13/fusioninventory-agent-android-interface3.png\"><img "
+"class=\"size-medium wp-image-1237 aligncenter\" "
+"title=\"fusioninventory-agent-android-interface3\" "
+"src=\"/news/2011/09/13/fusioninventory-agent-android-interface3-180x300.png\" "
+"alt=\"\" width=\"180\" height=\"300\" /></a></td>\n"
+"<td><a "
+"href=\"/news/2011/09/13/fusioninventory-agent-android-interface2.png\"><img "
+"class=\"size-thumbnail wp-image-1236 aligncenter\" "
+"title=\"fusioninventory-agent-android-interface2\" "
+"src=\"/news/2011/09/13/fusioninventory-agent-android-interface2-150x150.png\" "
+"alt=\"\" width=\"150\" height=\"150\" /></a></td>\n"
+"</tr>\n"
+"<tr>\n"
+"<td><a "
+"href=\"/news/2011/09/13/fusioninventory-agent-android-interface1.png\"><img "
+"class=\"size-thumbnail wp-image-1235 aligncenter\" "
+"title=\"fusioninventory-agent-android-interface1\" "
+"src=\"/news/2011/09/13/fusioninventory-agent-android-interface1-150x150.png\" "
+"alt=\"\" width=\"150\" height=\"150\" /></a></td>\n"
+"<td><a href=\"/news/2011/09/13/software.png\"><img class=\"aligncenter "
+"size-medium wp-image-1185\" title=\"software\" "
+"src=\"/news/2011/09/13/software-300x81.png\" alt=\"\" width=\"300\" "
+"height=\"81\" /></a></td>\n"
+"<td><a href=\"/news/2011/09/13/serial.png\"><img class=\"aligncenter "
+"size-medium wp-image-1184\" title=\"serial\" "
+"src=\"/news/2011/09/13/serial-300x65.png\" alt=\"\" width=\"300\" "
+"height=\"65\" /></a></td>\n"
+"</tr>\n"
+"</tbody>\n"
+"</table>\n"
