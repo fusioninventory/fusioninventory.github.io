@@ -86,11 +86,6 @@ msgstr ""
 "Microsoft Windows:"
 
 #. type: Bullet: '* '
-#, fuzzy
-#| msgid ""
-#| "The installer for each *\\<platform>*, integrates its native, although "
-#| "reduced, version of [Strawberry Perl](http://strawberryperl.com/ \"http://"
-#| "strawberryperl.com/\") 5.16.3.1."
 msgid ""
 "The installer for each *\\<platform>*, integrates its native, although "
 "reduced, version of [Strawberry Perl](http://strawberryperl.com/ \"http://"
