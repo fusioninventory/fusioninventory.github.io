@@ -19,17 +19,18 @@ msgstr ""
 #. type: Title #
 #, no-wrap
 msgid "how to configure SSL"
-msgstr ""
+msgstr "Comment configurer SSL"
 
 #. type: Title ##
 #, no-wrap
 msgid "Unix"
-msgstr ""
+msgstr "Unix"
 
 #. type: Plain text
 msgid ""
 "The following command allows to generate a self-signed certificate/key pair:"
 msgstr ""
+"La commande suivante permet de générer une paire de certificat/clé auto-signé;"
 
 #. type: Plain text
 #, no-wrap
@@ -55,6 +56,26 @@ msgid ""
 "    Common Name (eg, your name or your server's hostname) []:glpi.mycompany.com\n"
 "    Email Address []:\n"
 msgstr ""
+"    $ openssl req -new -newkey rsa:1024 -days 730 -nodes -x509 -keyout server.key -out server.crt\n"
+"    Generating a 1024 bit RSA private key\n"
+"    ......++++++\n"
+"    ...............++++++\n"
+"    writing new private key to 'server.key'\n"
+"    -----\n"
+"    You are about to be asked to enter information that will be incorporated\n"
+"    into your certificate request.\n"
+"    What you are about to enter is what is called a Distinguished Name or a DN.\n"
+"    There are quite a few fields but you can leave some blank\n"
+"    For some fields there will be a default value,\n"
+"    If you enter '.', the field will be left blank.\n"
+"    -----\n"
+"    Country Name (2 letter code) [GB]:FR\n"
+"    State or Province Name (full name) [Berkshire]:Ile de France\n"
+"    Locality Name (eg, city) [Newbury]:Paris\n"
+"    Organization Name (eg, company) [My Company Ltd]:\n"
+"    Organizational Unit Name (eg, section) []:\n"
+"    Common Name (eg, your name or your server's hostname) []:glpi.mycompany.com\n"
+"    Email Address []:\n"
 
 #. type: Plain text
 msgid ""
@@ -63,6 +84,10 @@ msgid ""
 "http(s)://glpi.mycompany.com/, the common name should be 'glpi.mycompany."
 "com'."
 msgstr ""
+"Attention : Vous devez être exact sur le nom de l'hôte de votre serveur pour matcher "
+"l'URL intégrée dans le nom de base du certificat. Par exemple, si l'URL du serveur est "
+"http(s)://glpi.mycompany.com/, le nom de base du certificat devrait être 'glpi.mycompany."
+"com'."
 
 #. type: Plain text
 msgid ""
@@ -71,10 +96,14 @@ msgid ""
 "identity.  The second one is the server certificate, and is the public part "
 "allowing other piece of software to check the server identity."
 msgstr ""
+"Cela va générer deux fichiers, server.key et server.crt. Le premier est "
+"la clé privée du serveur qui permet au serveur de prouver son identité. "
+"Le second est le certificat public du serveur qui permettra de vérifier "
+"l'identité du serveur."
 
 #. type: Plain text
 msgid "You have to copy those file somewhere in your system configuration:"
-msgstr ""
+msgstr "Vous devez copier ces fichiers dans le lieu approprié de votre configuration système :"
 
 #. type: Plain text
 #, no-wrap
@@ -82,12 +111,16 @@ msgid ""
 "     # install -m 600 server.key /etc/pki/tls/private/server.key\n"
 "     # install -m 644 server.crt /etc/pki/tls/certs/server.crt\n"
 msgstr ""
+"     # install -m 600 server.key /etc/pki/tls/private/server.key\n"
+"     # install -m 644 server.crt /etc/pki/tls/certs/server.crt\n"
 
 #. type: Plain text
 msgid ""
 "Then you need to modify Apache configuration, through SSLCertificateFile and "
 "SSLCertificateKeyFile directives:"
 msgstr ""
+"Puis vous devez modifier la configuration Apache, au niveau des directives "
+"SSLCertificateFile et SSLCertificateKeyFile."
 
 #. type: Plain text
 #, no-wrap
@@ -95,18 +128,22 @@ msgid ""
 "     # yum install mod_ssl\n"
 "     # vi /etc/httpd/conf.d/ssl.conf\n"
 msgstr ""
+"     # yum install mod_ssl\n"
+"     # vi /etc/httpd/conf.d/ssl.conf\n"
 
 #. type: Plain text
 msgid "Then you have to restart the server:"
-msgstr ""
+msgstr "Ensuite redémarrez le serveur :"
 
 #. type: Plain text
 #, no-wrap
 msgid "     # service httpd reload\n"
-msgstr ""
+msgstr "     # service httpd reload\n"
 
 #. type: Plain text
 msgid ""
 "The certificate can now be used by the agent as certification authority (`--"
 "ca-cert-file server.crt`)."
 msgstr ""
+"Le certificat peut maintenant être utilisé par l'agent comme certificat mandataire (`--"
+"ca-cert-file server.crt`)."
