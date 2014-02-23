@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2014-02-23 10:39+0000\n"
+"POT-Creation-Date: 2014-02-23 14:03+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -68,18 +68,14 @@ msgstr ""
 
 #. type: Bullet: '* '
 msgid ""
-"Branches : <br/> [master](https://github.com/fusinv/fusioninventory-for-glpi/"
-"tree/master) [![Build Status](https://travis-ci.org/fusinv/fusioninventory-"
-"for-glpi.png?branch=master)](https://travis-ci.org/fusinv/fusioninventory-"
-"for-glpi)"
+"Branches: <br/> › [master](https://github.com/fusinv/fusioninventory-for-"
+"glpi/tree/master)  › [![Build Status](https://travis-ci.org/fusinv/"
+"fusioninventory-for-glpi.png?branch=master)](https://travis-ci.org/fusinv/"
+"fusioninventory-for-glpi)"
 msgstr ""
 
 #. type: Bullet: '* '
-msgid "[[Task Redux|dev/plugin-glpi/task_redux]]"
-msgstr ""
-
-#. type: Bullet: '* '
-msgid "[[Inventory Change rule|dev/plugin_glpi/inventory_change_rule]]"
+msgid "Roadmaps: <br/> › [[Task Redux|dev/plugin-glpi/task_redux]]"
 msgstr ""
 
 #. type: Title #
