@@ -17,11 +17,12 @@
 
 # Fusioninventory plugin for GLPI
 
-* Branches : <br/>
-  [master](https://github.com/fusinv/fusioninventory-for-glpi/tree/master) [![Build Status](https://travis-ci.org/fusinv/fusioninventory-for-glpi.png?branch=master)](https://travis-ci.org/fusinv/fusioninventory-for-glpi)
+* Branches: <br/>
+  › [master](https://github.com/fusinv/fusioninventory-for-glpi/tree/master)  › [![Build Status](https://travis-ci.org/fusinv/fusioninventory-for-glpi.png?branch=master)](https://travis-ci.org/fusinv/fusioninventory-for-glpi)
 
-* [[Task Redux|dev/plugin-glpi/task_redux]]
-* [[Inventory Change rule|dev/plugin_glpi/inventory_change_rule]]
+* Roadmaps: <br/>
+  › [[Task Redux|dev/plugin-glpi/task_redux]]
+
 
 # Run unit tests for GLPI plugin
 
