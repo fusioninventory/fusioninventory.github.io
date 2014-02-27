@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2013-08-11 12:23+0000\n"
+"POT-Creation-Date: 2014-02-27 12:45+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -181,12 +181,17 @@ msgstr ""
 "pouvez utiliser l'option PREFIX pendant l'utilisation de Makefile.PL:"
 
 #. type: Plain text
-#, no-wrap
+#, fuzzy, no-wrap
+#| msgid ""
+#| "    perl Makefile.PL PREFIX=/opt/fusioninventory\n"
+#| "    make\n"
+#| "    make test\n"
+#| "    make install PREFIX=/opt/fusioninventory\n"
 msgid ""
 "    perl Makefile.PL PREFIX=/opt/fusioninventory\n"
 "    make\n"
 "    make test\n"
-"    make install PREFIX=/opt/fusioninventory\n"
+"    make install\n"
 msgstr ""
 "    perl Makefile.PL PREFIX=/opt/fusioninventory\n"
 "    make\n"

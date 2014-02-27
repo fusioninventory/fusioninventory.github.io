@@ -1,0 +1,75 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2014-02-27 12:45+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. type: Plain text
+msgid ""
+"OpenCSW (Solaris agent) package does not work any more for "
+"fusioninventory_agent .. please, can you check this out."
+msgstr ""
+
+#. type: Plain text
+msgid ""
+"I already use OpenCSW on my solaris_x86 servers (mostly virtual machines).  "
+"But it seems like the OpenCSW is flagging that it is unable to pull down "
+"fusioninventory_agent from the cpan repos."
+msgstr ""
+
+#. type: Plain text
+#, no-wrap
+msgid ""
+"See an example session below:\n"
+"================================\n"
+msgstr ""
+
+#. type: Plain text
+#, no-wrap
+msgid ""
+"bash-3.2# pkgutil -i CSWfusioninventory-agent\n"
+"Solving needed dependencies ...\n"
+"Package CSWfusioninventory-agent not in catalog. Exiting.\n"
+"bash-3.2# pkgutil -a fusioninventory\n"
+"common               package              catalog                        "
+"size\n"
+msgstr ""
+
+#. type: Plain text
+#, no-wrap
+msgid ""
+"No exact matches found, doing fuzzy matching for first argument "
+"(fusioninventory) ...\n"
+"bash-3.2#\n"
+"========================================\n"
+msgstr ""
+
+#. type: Plain text
+msgid ""
+"And from this OpenCSW web site: "
+"http://www.opencsw.org/qa/package/fusioninventory_agent/"
+msgstr ""
+
+#. type: Plain text
+#, no-wrap
+msgid ""
+"See the uWatch section .. ==> Last Output:\n"
+"The server couldn't fulfill the request during retrieval of : "
+"http://search.cpan.org/~fusinv/fusioninventory-agent Error code: 404\n"
+msgstr ""
+
+#. type: Plain text
+msgid "so, it seems it is probably a URL/URI typo that can easily be fixed .."
+msgstr ""
