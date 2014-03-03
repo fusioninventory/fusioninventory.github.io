@@ -23,6 +23,7 @@
 * Roadmaps: <br/>
   › [[Task Redux|dev/plugin-glpi/task_redux]]
 
+  › [[New page of Plugins > FusionInventory|dev/plugin-glpi/new_home_page]]
 
 # Run unit tests for GLPI plugin
 
