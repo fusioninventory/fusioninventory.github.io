@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2014-02-23 14:03+0000\n"
+"POT-Creation-Date: 2014-03-03 10:13+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -76,6 +76,11 @@ msgstr ""
 
 #. type: Bullet: '* '
 msgid "Roadmaps: <br/> › [[Task Redux|dev/plugin-glpi/task_redux]]"
+msgstr ""
+
+#. type: Plain text
+#, no-wrap
+msgid "  › [[New page of Plugins > FusionInventory|dev/plugin-glpi/new_home_page]]\n"
 msgstr ""
 
 #. type: Title #
