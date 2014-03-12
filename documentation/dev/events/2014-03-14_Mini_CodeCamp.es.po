@@ -1,0 +1,154 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2014-03-12 12:36+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. type: Title =
+#, no-wrap
+msgid "Members\n"
+msgstr ""
+
+#. type: Bullet: '-   '
+msgid "Gonéri Le Bouder"
+msgstr ""
+
+#. type: Bullet: '-   '
+msgid "David Durieux"
+msgstr ""
+
+#. type: Bullet: '-   '
+msgid "Guillaume Rousse"
+msgstr ""
+
+#. type: Bullet: '-   '
+msgid "Kevin Roy"
+msgstr ""
+
+#. type: Title =
+#, no-wrap
+msgid "Rest API : Communication Mayhem\n"
+msgstr ""
+
+#. type: Plain text
+msgid ""
+"Actually, the API is like a place with 6 participants which doesn’t talk the "
+"same language and they notify servers in so many different ways."
+msgstr ""
+
+#. type: Bullet: '-   '
+msgid ""
+"Deploy : complete communication steps but a little messy which require a lot "
+"of customized parsing."
+msgstr ""
+
+#. type: Bullet: '-   '
+msgid "ESX : one getJobs at the beginning and one setLog at the end"
+msgstr ""
+
+#. type: Bullet: '-   '
+msgid ""
+"Collect : no setLog at all and a setAnswer which is not commonly used by the "
+"other modules."
+msgstr ""
+
+#. type: Title =
+#, no-wrap
+msgid "Rest API : Definition of task, job\n"
+msgstr ""
+
+#. type: Plain text
+msgid "A task does not share the same meaning between the plugin and the agent."
+msgstr ""
+
+#. type: Plain text
+msgid ""
+"A job does not seem to have the same definition across every modules.  "
+"Especially when it’s about unique id (UUID) of a Task(agent)."
+msgstr ""
+
+#. type: Bullet: '-   '
+msgid "a deploy task has a unique id per jobs."
+msgstr ""
+
+#. type: Bullet: '-   '
+msgid "a netdiscovery task has one unique id and the jobs share those unique id."
+msgstr ""
+
+#. type: Plain text
+msgid ""
+"It’s more a specification understanding issue on the server side but i’m not "
+"sure the agent is affected too."
+msgstr ""
+
+#. type: Plain text
+msgid ""
+"If we should migrate the others XML talking tasks, we first need to tidy up "
+"the basic way every modules should communicate with the server."
+msgstr ""
+
+#. type: Title =
+#, no-wrap
+msgid "FusionInventory Plugin : Continuous Integration\n"
+msgstr ""
+
+#. type: Bullet: '-   '
+msgid ""
+"Plugin’s unit tests have been slightly rewritten to use some initialization "
+"shared class."
+msgstr ""
+
+#. type: Bullet: '-   '
+msgid "Travis is up now (with failures instead of initialization errors)."
+msgstr ""
+
+#. type: Title =
+#, no-wrap
+msgid "FusionInventory Server : Standard Inventory Server\n"
+msgstr ""
+
+#. type: Bullet: '-   '
+msgid "PythonEve (RestAPI for lazy people)"
+msgstr ""
+
+#. type: Bullet: '-   '
+msgid "ElasticSearch (scalable nosql database)"
+msgstr ""
+
+#. type: Bullet: '-   '
+msgid "Flask"
+msgstr ""
+
+#. type: Title =
+#, no-wrap
+msgid "Avahi/MDNS/ZeroConf\n"
+msgstr ""
+
+#. type: Title =
+#, no-wrap
+msgid "Releases & Roadmaps\n"
+msgstr ""
+
+#. type: Bullet: '-   '
+msgid "FusionInventory Agent 2.3.6"
+msgstr ""
+
+#. type: Bullet: '-   '
+msgid "FusionInventory GLPI Plugin 0.85+1.0"
+msgstr ""
+
+#. type: Bullet: '-   '
+msgid "FusionInventory Server (if acknowledged)"
+msgstr ""
