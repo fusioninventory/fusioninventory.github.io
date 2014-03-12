@@ -53,3 +53,7 @@ and the server.
 * [[Switch stack inventory|documentation/dev/spec/switch_stack]] 
 * [[NetInventory XML format|documentation/dev/spec/netinventory-xml-format]] 
 * [[Load configuration from external places|documentation/dev/spec/load_ext_cfg]]
+
+## Events
+
+* [[Mini Codecamp March 14|documentation/dev/events/2014-03-14_Mini_CodeCamp.mdwn]]
