@@ -65,7 +65,7 @@ Avahi/MDNS/ZeroConf
 Releases & Roadmaps
 ===================
 
--   FusionInventory Agent 2.3.6
+-   FusionInventory Agent 2.4.x
 
 -   FusionInventory GLPI Plugin 0.85+1.0
 
