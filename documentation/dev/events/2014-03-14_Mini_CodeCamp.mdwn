@@ -14,6 +14,7 @@ reliable matter, using SysObjectID, and to retrieve most information from
 device out of the box, using default values and various heuristics.
 
 There is still room for improvements:
+
 * parameters setting on server side (timeout, credentials, etc...)
 * SNMP models and dictionary deprecation
 * hardware support database
