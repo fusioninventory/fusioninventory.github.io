@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2014-03-12 19:35+0000\n"
+"POT-Creation-Date: 2014-03-12 19:40+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -16,9 +16,9 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#. type: Plain text
+#. type: Title #
 #, no-wrap
-msgid "[[!meta  date=\"2014-03-12\"]]\n"
+msgid "Network inventory improvement: no mandatory SNMP model anymore"
 msgstr ""
 
 #. type: Plain text
@@ -26,13 +26,13 @@ msgid ""
 "The FusionInventory network inventory task, which should be more precisely "
 "described as remote inventory through SNMP, has always been plagued by a "
 "critical limitation: SNMP models. Such a model enumerates mappings between "
-"SNMP OIDs and inventory variables, such as 'the location is available at OID "
-".1.3.6.1.2.1.1.1.6.0', and was mandatory because there was no intelligence "
-"in the agent itself, making it unable to perform anything without this "
-"information. In order to inventory any kind of device, the relevant model "
-"had to be defined first and assigned to this device second, which was a "
-"problem in itself, as device identification was based on exact matching of "
-"SNMP SysDescr string only... (See [[Network discovery "
+"SNMP OIDs and inventory variables, such as 'the location is available at "
+"OID .1.3.6.1.2.1.1.1.6.0', and was mandatory because there was no "
+"intelligence in the agent itself, making it unable to perform anything "
+"without this information. In order to inventory any kind of device, the "
+"relevant model had to be defined first and assigned to this device second, "
+"which was a problem in itself, as device identification was based on exact "
+"matching of SNMP SysDescr string only... (See [[Network discovery "
 "improvements]/news/2013/11/08/network_discovery_improvements]] for details)."
 msgstr ""
 

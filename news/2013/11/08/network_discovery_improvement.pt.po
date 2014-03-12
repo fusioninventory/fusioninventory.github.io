@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2013-11-08 13:08+0000\n"
+"POT-Creation-Date: 2014-03-12 19:40+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -16,9 +16,9 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#. type: Plain text
+#. type: Title #
 #, no-wrap
-msgid "[[!meta  date=\"2013-11-08\"]]\n"
+msgid "Network discovery improvement: good bye SysDescr, welcome SysObjectID"
 msgstr ""
 
 #. type: Plain text
@@ -84,10 +84,10 @@ msgid ""
 "identifies a Cisco Catalyst 3750-24/48 device. It doesn't allow to identify "
 "firmware level, tough, meaning it can't completly replace SysDescr usage so "
 "far, as we need to know the exact firmware for inventory. However, it is "
-"stable, meaning firmware update won't prevent device identification "
-"anymore. And they are exhaustive list of values available, as most "
-"manufacturer publish them. Meaning we're no longer dependant of the \"we can "
-"only recognize what we already seen somewhere\" syndrom."
+"stable, meaning firmware update won't prevent device identification anymore. "
+"And they are exhaustive list of values available, as most manufacturer "
+"publish them. Meaning we're no longer dependant of the \"we can only "
+"recognize what we already seen somewhere\" syndrom."
 msgstr ""
 
 #. type: Plain text
