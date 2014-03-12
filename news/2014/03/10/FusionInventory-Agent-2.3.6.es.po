@@ -1,0 +1,74 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2014-03-12 08:23+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. type: Plain text
+#, no-wrap
+msgid "[[!meta  date=\"2014-03-10\"]]\n"
+msgstr ""
+
+#. type: Plain text
+msgid "Hello FusionInventory users,"
+msgstr ""
+
+#. type: Plain text
+msgid ""
+"The FusionInventory Agent maintainers are glad to announce the 2.3.6 "
+"release."
+msgstr ""
+
+#. type: Plain text
+msgid "You can download it from the usual places:"
+msgstr ""
+
+#. type: Bullet: '* '
+msgid ""
+"[the "
+"forge](http://forge.fusioninventory.org/projects/fusioninventory-agent/files) "
+"or [CPAN](https://metacpan.org/release/FusionInventory-Agent) for the source "
+"distribution"
+msgstr ""
+
+#. type: Bullet: '* '
+msgid ""
+"[the "
+"forge](http://forge.fusioninventory.org/projects/fusioninventory-agent-windows-installer/files) "
+"for the windows distribution"
+msgstr ""
+
+#. type: Bullet: '* '
+msgid "etc..."
+msgstr ""
+
+#. type: Plain text
+msgid "See [[download instructions|/documentation/agent/installation]] for details."
+msgstr ""
+
+#. type: Plain text
+msgid ""
+"This release fixes multiple minor issues with network discovery and "
+"inventory, especially for SNNMPv3 users. It also introduces a more explicit "
+"error message when the agent is run without any task installed, as it often "
+"occurs when using packages with each task distributed separatly. See the "
+"Changes file for details."
+msgstr ""
+
+#. type: Plain text
+msgid ""
+"We did our best to provide a solid release, please [[contact us|/resources]] "
+"if you believe you find something unexpected."
+msgstr ""
