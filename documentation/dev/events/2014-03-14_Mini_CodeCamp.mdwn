@@ -1,12 +1,9 @@
 # Attendees
 
--   Gonéri Le Bouder
-
--   David Durieux
-
--   Guillaume Rousse
-
--   Kevin Roy
+* Gonéri Le Bouder
+* David Durieux
+* Guillaume Rousse
+* Kevin Roy
 
 # Discussion topics
 
@@ -26,13 +23,11 @@ There is still room for improvements:
 Actually, the API is a place with 6 participants talking a different
 language and communicating with the server in so different ways:
 
--   Deploy : complete communication steps but a little messy which
-    require a lot of customized parsing.
-
--   ESX : one getJobs at the beginning and one setLog at the end
-
--   Collect : no setLog at all and a setAnswer which is not commonly
-    used by the other modules.
+* Deploy : complete communication steps but a little messy which
+  require a lot of customized parsing.
+* ESX : one getJobs at the beginning and one setLog at the end
+* Collect : no setLog at all and a setAnswer which is not commonly
+  used by the other modules.
 
 ## Rest API : Definition of task, job
 
@@ -41,10 +36,9 @@ A task does not share the same meaning between the plugin and the agent.
 A job does not seem to have the same definition across every modules.
 Especially when it’s about unique id (UUID) of a Task(agent).
 
--   a deploy task has a unique id per jobs.
-
--   a netdiscovery task has one unique id and the jobs share those
-    unique id.
+* a deploy task has a unique id per jobs.
+* a netdiscovery task has one unique id and the jobs share those
+  unique id.
 
 It’s more a specification understanding issue on the server side but i’m
 not sure the agent is affected too.
@@ -54,27 +48,20 @@ up the basic way every modules should communicate with the server.
 
 ## FusionInventory Plugin : Continuous Integration
 
--   Plugin unit tests have been slightly rewritten to use a shared
-    initialization class.
-
--   Travis is up now (with failures instead of initialization errors).
+* Plugin unit tests have been slightly rewritten to use a shared
+  initialization class.
+* Travis is up now (with failures instead of initialization errors).
 
 ## FusionInventory Server : Standard Inventory Server
 
--   PythonEve (RestAPI for lazy people)
-
--   ElasticSearch (scalable nosql database)
-
--   Flask
+* PythonEve (RestAPI for lazy people)
+* ElasticSearch (scalable nosql database)
+* Flask
 
 ## Avahi/MDNS/ZeroConf
 
 ## Releases & Roadmaps
 
--   FusionInventory Agent 2.4.x
-
--   FusionInventory GLPI Plugin 0.85+1.0
-
--   FusionInventory Server (if acknowledged)
-
-
+* FusionInventory Agent 2.4.x
+* FusionInventory GLPI Plugin 0.85+1.0
+* FusionInventory Server (if acknowledged)
