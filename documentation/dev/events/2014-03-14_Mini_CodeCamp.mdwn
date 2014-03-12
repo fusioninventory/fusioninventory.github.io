@@ -12,8 +12,8 @@ Attendees
 Rest API : Communication Mayhem
 ===============================
 
-Actually, the API is like a place with 6 participants which doesn’t talk
-the same language and they notify servers in so many different ways.
+Actually, the API is a place with 6 participants talking a different
+language and communicating with the server in so different ways:
 
 -   Deploy : complete communication steps but a little messy which
     require a lot of customized parsing.
@@ -45,8 +45,8 @@ up the basic way every modules should communicate with the server.
 FusionInventory Plugin : Continuous Integration
 ===============================================
 
--   Plugin’s unit tests have been slightly rewritten to use some
-    initialization shared class.
+-   Plugin unit tests have been slightly rewritten to use a shared
+    initialization class.
 
 -   Travis is up now (with failures instead of initialization errors).
 
