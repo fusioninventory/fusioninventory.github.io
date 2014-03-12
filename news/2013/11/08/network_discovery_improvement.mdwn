@@ -1,4 +1,5 @@
-[[!meta  date="2013-11-08"]]
+# Network discovery improvement: good bye SysDescr, welcome SysObjectID
+
 The latest 2.3.3 version, released yesterday, provides a new features for
 network discovery, backported from next 2.4 version: better device
 identification.
