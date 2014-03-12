@@ -56,4 +56,4 @@ and the server.
 
 ## Events
 
-* [[Mini Codecamp March 14|documentation/dev/events/2014-03-14_Mini_CodeCamp.mdwn]]
+* [[Mini Codecamp March 14|documentation/dev/events/2014-03-14_Mini_CodeCamp]]
