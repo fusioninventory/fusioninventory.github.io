@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2014-03-12 19:08+0000\n"
+"POT-Creation-Date: 2014-03-12 19:10+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -55,10 +55,19 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-msgid ""
-"There is still room for improvements: * parameters setting on server side "
-"(timeout, credentials, etc...)  * SNMP models and dictionary deprecation * "
-"hardware support database"
+msgid "There is still room for improvements:"
+msgstr ""
+
+#. type: Bullet: '* '
+msgid "parameters setting on server side (timeout, credentials, etc...)"
+msgstr ""
+
+#. type: Bullet: '* '
+msgid "SNMP models and dictionary deprecation"
+msgstr ""
+
+#. type: Bullet: '* '
+msgid "hardware support database"
 msgstr ""
 
 #. type: Title ##
