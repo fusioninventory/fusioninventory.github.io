@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2014-03-12 12:46+0000\n"
+"POT-Creation-Date: 2014-03-12 19:08+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -16,57 +16,81 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#. type: Title =
+#. type: Title #
 #, no-wrap
-msgid "Attendees\n"
+msgid "Attendees"
 msgstr ""
 
-#. type: Bullet: '-   '
+#. type: Bullet: '* '
 msgid "Gonéri Le Bouder"
 msgstr ""
 
-#. type: Bullet: '-   '
+#. type: Bullet: '* '
 msgid "David Durieux"
 msgstr ""
 
-#. type: Bullet: '-   '
+#. type: Bullet: '* '
 msgid "Guillaume Rousse"
 msgstr ""
 
-#. type: Bullet: '-   '
+#. type: Bullet: '* '
 msgid "Kevin Roy"
 msgstr ""
 
-#. type: Title =
+#. type: Title #
 #, no-wrap
-msgid "Rest API : Communication Mayhem\n"
+msgid "Discussion topics"
+msgstr ""
+
+#. type: Title ##
+#, no-wrap
+msgid "Network discovery and inventory"
 msgstr ""
 
 #. type: Plain text
 msgid ""
-"Actually, the API is like a place with 6 participants which doesn’t talk the "
-"same language and they notify servers in so many different ways."
+"The agent is now able to use its own database for device identification in a "
+"reliable matter, using SysObjectID, and to retrieve most information from "
+"device out of the box, using default values and various heuristics."
 msgstr ""
 
-#. type: Bullet: '-   '
+#. type: Plain text
+msgid ""
+"There is still room for improvements: * parameters setting on server side "
+"(timeout, credentials, etc...)  * SNMP models and dictionary deprecation * "
+"hardware support database"
+msgstr ""
+
+#. type: Title ##
+#, no-wrap
+msgid "Rest API : Communication Mayhem"
+msgstr ""
+
+#. type: Plain text
+msgid ""
+"Actually, the API is a place with 6 participants talking a different "
+"language and communicating with the server in so different ways:"
+msgstr ""
+
+#. type: Bullet: '* '
 msgid ""
 "Deploy : complete communication steps but a little messy which require a lot "
 "of customized parsing."
 msgstr ""
 
-#. type: Bullet: '-   '
+#. type: Bullet: '* '
 msgid "ESX : one getJobs at the beginning and one setLog at the end"
 msgstr ""
 
-#. type: Bullet: '-   '
+#. type: Bullet: '* '
 msgid ""
 "Collect : no setLog at all and a setAnswer which is not commonly used by the "
 "other modules."
 msgstr ""
 
-#. type: Title =
+#. type: Title ##
 #, no-wrap
-msgid "Rest API : Definition of task, job\n"
+msgid "Rest API : Definition of task, job"
 msgstr ""
 
 #. type: Plain text
@@ -80,11 +104,11 @@ msgid ""
 "Especially when it’s about unique id (UUID) of a Task(agent)."
 msgstr ""
 
-#. type: Bullet: '-   '
+#. type: Bullet: '* '
 msgid "a deploy task has a unique id per jobs."
 msgstr ""
 
-#. type: Bullet: '-   '
+#. type: Bullet: '* '
 msgid ""
 "a netdiscovery task has one unique id and the jobs share those unique id."
 msgstr ""
@@ -101,56 +125,56 @@ msgid ""
 "the basic way every modules should communicate with the server."
 msgstr ""
 
-#. type: Title =
+#. type: Title ##
 #, no-wrap
-msgid "FusionInventory Plugin : Continuous Integration\n"
+msgid "FusionInventory Plugin : Continuous Integration"
 msgstr ""
 
-#. type: Bullet: '-   '
+#. type: Bullet: '* '
 msgid ""
-"Plugin’s unit tests have been slightly rewritten to use some initialization "
-"shared class."
+"Plugin unit tests have been slightly rewritten to use a shared "
+"initialization class."
 msgstr ""
 
-#. type: Bullet: '-   '
+#. type: Bullet: '* '
 msgid "Travis is up now (with failures instead of initialization errors)."
 msgstr ""
 
-#. type: Title =
+#. type: Title ##
 #, no-wrap
-msgid "FusionInventory Server : Standard Inventory Server\n"
+msgid "FusionInventory Server : Standard Inventory Server"
 msgstr ""
 
-#. type: Bullet: '-   '
+#. type: Bullet: '* '
 msgid "PythonEve (RestAPI for lazy people)"
 msgstr ""
 
-#. type: Bullet: '-   '
+#. type: Bullet: '* '
 msgid "ElasticSearch (scalable nosql database)"
 msgstr ""
 
-#. type: Bullet: '-   '
+#. type: Bullet: '* '
 msgid "Flask"
 msgstr ""
 
-#. type: Title =
+#. type: Title ##
 #, no-wrap
-msgid "Avahi/MDNS/ZeroConf\n"
+msgid "Avahi/MDNS/ZeroConf"
 msgstr ""
 
-#. type: Title =
+#. type: Title ##
 #, no-wrap
-msgid "Releases & Roadmaps\n"
+msgid "Releases & Roadmaps"
 msgstr ""
 
-#. type: Bullet: '-   '
-msgid "FusionInventory Agent 2.3.6"
+#. type: Bullet: '* '
+msgid "FusionInventory Agent 2.4.x"
 msgstr ""
 
-#. type: Bullet: '-   '
+#. type: Bullet: '* '
 msgid "FusionInventory GLPI Plugin 0.85+1.0"
 msgstr ""
 
-#. type: Bullet: '-   '
+#. type: Bullet: '* '
 msgid "FusionInventory Server (if acknowledged)"
 msgstr ""
