@@ -1,5 +1,4 @@
-Attendees
-=========
+# Attendees
 
 -   Gonéri Le Bouder
 
@@ -9,8 +8,9 @@ Attendees
 
 -   Kevin Roy
 
-Rest API : Communication Mayhem
-===============================
+# Discussion topics
+
+## Rest API : Communication Mayhem
 
 Actually, the API is a place with 6 participants talking a different
 language and communicating with the server in so different ways:
@@ -23,8 +23,7 @@ language and communicating with the server in so different ways:
 -   Collect : no setLog at all and a setAnswer which is not commonly
     used by the other modules.
 
-Rest API : Definition of task, job
-==================================
+## Rest API : Definition of task, job
 
 A task does not share the same meaning between the plugin and the agent.
 
@@ -42,16 +41,14 @@ not sure the agent is affected too.
 If we should migrate the others XML talking tasks, we first need to tidy
 up the basic way every modules should communicate with the server.
 
-FusionInventory Plugin : Continuous Integration
-===============================================
+## FusionInventory Plugin : Continuous Integration
 
 -   Plugin unit tests have been slightly rewritten to use a shared
     initialization class.
 
 -   Travis is up now (with failures instead of initialization errors).
 
-FusionInventory Server : Standard Inventory Server
-==================================================
+## FusionInventory Server : Standard Inventory Server
 
 -   PythonEve (RestAPI for lazy people)
 
@@ -59,11 +56,9 @@ FusionInventory Server : Standard Inventory Server
 
 -   Flask
 
-Avahi/MDNS/ZeroConf
-===================
+## Avahi/MDNS/ZeroConf
 
-Releases & Roadmaps
-===================
+## Releases & Roadmaps
 
 -   FusionInventory Agent 2.4.x
 
