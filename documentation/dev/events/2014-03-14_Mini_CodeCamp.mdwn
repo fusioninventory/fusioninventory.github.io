@@ -66,3 +66,61 @@ up the basic way every modules should communicate with the server.
 * FusionInventory Agent 2.4.x
 * FusionInventory GLPI Plugin 0.85+1.0
 * FusionInventory Server (if acknowledged)
+
+
+
+
+# Debriefing
+
+===== modéles SNMP =====
+
+Modifier page pour création des modeles pour dire envoyer snmpwalk sur une
+adresse mail (genre walk@fusioninventory.org) et expliquant qu'on ne publie
+que les résultat et pas les donnnées des walks.
+Indiquer le niveau de support.
+
+===== identification des matériels  =====
+
+On utilise le sysobjectid.
+Le dictionnaire devient souvent obsolète dans le serveur, donc a voir comment on continu avec ça.
+
+===== modeles et disctionnaire =====
+Distribuer les données (fichiers ids pour les sysobjectid) séparement du code.
+Mettre en place les données sur le serveur, et faire en sort que les agents se synchronisent automatiquement (il y a déjà un ticket a jour). Utiliser un numéro de version plutôt qu'un hash pour voir si l'agent et le serveur sont a jour avec les données.
+
+===== Découverte =====
+
+Utilisation désormais d'un champ `timeout`
+
+===== authentitication =====
+
+Ajouter dans les plage ip, la liste des authentification SNMP à utiliser (+ ordre)
+C'est purement de l'optimisation
+
+===== découverte réseau =====
+
+Guillaume doit faire un ticket avec la liste des champs supplémentaires remontées.
+
+
+===== matériel inconnu =====
+
+Peut être renommé, en matériel `non intégré`
+
+== Roadmap 2.4
+
+1. Deploy
+
+2. plus de tests d'utilisation et retours d'utilisateurs (phase beta test)
+
+===== Communication REST =====
+
+Uniformiser les méthodes REST (bordelique dans deploy, OK dans ESX).
+Faire des specs. engeulade entre Goneri et Kiniou, (cette semaine c'était entre kiniou et david, ca change :p), ok kiniou WIN again!
+
+===== Renommage =====
+
+Au niveau de l'agent, renommer tache en module
+
+Au niveau du serveur, renommer taches en jeu d'executions
+
+
