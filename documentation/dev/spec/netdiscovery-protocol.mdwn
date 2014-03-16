@@ -1,6 +1,6 @@
-# Network inventory protocol
+# Network discovery protocol
 
-## Input
+## Server to agent message
 
 ### Specification
 
@@ -172,3 +172,9 @@
     <!ELEMENT DEVICEID (#PCDATA)>
 
     <!ELEMENT QUERY (#PCDATA)>
+
+## Agent to server message
+
+### Specification
+
+### Example
