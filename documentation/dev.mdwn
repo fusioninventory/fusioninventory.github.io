@@ -31,6 +31,8 @@
 
 # technical documentation
 
+## New communication protocol
+
 API-REST is the New JSON based communication protocol used between the agent
 and the server. 
 
@@ -40,19 +42,21 @@ and the server.
 * [[API-REST-Inventory (in development)|documentation/dev/spec/api/rest-inventory]]
 * [[API-REST-Collect (in development)|documentation/dev/spec/api/rest-collect]]
 
-## Inventory format
+## Legacy communication protocol
 
-* [[2.2.x Inventory structure|documentation/references/agent/2.2.x/lib/FusionInventory/Agent/Task/Inventory/Inventory.pm]]
-* [[2.3.x Inventory structure|documentation/references/agent/2.3.x/lib/FusionInventory/Agent/Task/Inventory/Inventory.pm]]
+* [[Network discoveryt|documentation/dev/spec/netdiscovery-protocol]] 
+* [[Network inventory|documentation/dev/spec/netinventory-protocol]] 
 
 ## Others
 
 * [[New directory layout (partially implemented)|documentation/dev/spec/new-directory-layout]]
+* [[Load configuration from external places|documentation/dev/spec/load_ext_cfg]]
 * [[POIP inventory with HTTP|documentation/dev/spec/poip]]
 * [[Switch inventory aggregate ports|documentation/dev/spec/switch_aggregate]] 
 * [[Switch stack inventory|documentation/dev/spec/switch_stack]] 
-* [[NetInventory XML format|documentation/dev/spec/netinventory-xml-format]] 
-* [[Load configuration from external places|documentation/dev/spec/load_ext_cfg]]
+* [[SNMP dictionary|documentation/dev/spec/snmp-dictionnary]] 
+* [[SNMP model|documentation/dev/spec/snmp-model]] 
+* [[Device types|documentation/dev/spec/device-types]] 
 
 ## Events
 
