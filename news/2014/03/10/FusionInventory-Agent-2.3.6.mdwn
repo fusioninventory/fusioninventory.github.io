@@ -12,7 +12,7 @@ You can download it from the usual places:
 See [[download instructions|/documentation/agent/installation]] for details.
 
 This release fixes multiple minor issues with network discovery and inventory,
-especially for SNNMPv3 users. It also introduces a more explicit error message
+especially for SNMPv3 users. It also introduces a more explicit error message
 when the agent is run without any task installed, as it often occurs when using
 packages with each task distributed separatly. See the Changes file for
 details.
