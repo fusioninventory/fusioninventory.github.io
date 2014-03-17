@@ -9,4 +9,4 @@ types, with the corresponding numeric and symbolic identifiers:
 * storage device (4, STORAGE)
 * power device (5, POWER)
 * phone (6, PHONE)
-* video (7, PHONE)
+* video (7, VIDEO)
