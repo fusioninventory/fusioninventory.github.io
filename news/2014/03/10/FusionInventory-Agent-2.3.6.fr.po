@@ -19,21 +19,23 @@ msgstr ""
 #. type: Plain text
 #, no-wrap
 msgid "[[!meta  date=\"2014-03-10\"]]\n"
-msgstr ""
+msgstr "[[!meta  date=\"2014-03-10\"]]\n"
 
 #. type: Plain text
 msgid "Hello FusionInventory users,"
-msgstr ""
+msgstr "Bonjour les utilisateurs de FusionInventory,"
 
 #. type: Plain text
 msgid ""
 "The FusionInventory Agent maintainers are glad to announce the 2.3.6 "
 "release."
 msgstr ""
+"Les développeurs de l'Agent FusionInventory sont heureux d'annoncer la nouvelle "
+"version 2.3.6."
 
 #. type: Plain text
 msgid "You can download it from the usual places:"
-msgstr ""
+msgstr "Vous pouvez la télécharger depuis les sites habituels :"
 
 #. type: Bullet: '* '
 msgid ""
@@ -42,6 +44,10 @@ msgid ""
 "or [CPAN](https://metacpan.org/release/FusionInventory-Agent) for the source "
 "distribution"
 msgstr ""
+"[La "
+"forge](http://forge.fusioninventory.org/projects/fusioninventory-agent/files) "
+"ou  [CPAN](https://metacpan.org/release/FusionInventory-Agent) pour les sources "
+"de la version."
 
 #. type: Bullet: '* '
 msgid ""
@@ -49,14 +55,17 @@ msgid ""
 "forge](http://forge.fusioninventory.org/projects/fusioninventory-agent-windows-installer/files) "
 "for the windows distribution"
 msgstr ""
+"[La "
+"forge](http://forge.fusioninventory.org/projects/fusioninventory-agent-windows-installer/files) "
+"pour la version Windows"
 
 #. type: Bullet: '* '
 msgid "etc..."
-msgstr ""
+msgstr "etc..."
 
 #. type: Plain text
 msgid "See [[download instructions|/documentation/agent/installation]] for details."
-msgstr ""
+msgstr "Voir [[les instructions|/documentation/agent/installation]]"
 
 #. type: Plain text
 msgid ""
@@ -66,9 +75,16 @@ msgid ""
 "occurs when using packages with each task distributed separatly. See the "
 "Changes file for details."
 msgstr ""
+"Cette version corrige plusieurs problèmes mineurs avec la découverte réseau et l'inventaire "
+"particulièrement pour les utilisateurs de SNMPv3. Autre nouveauté, l'introduction d'un "
+"message d'erreur plus explicite quand l'agent est lancé sans aucune tâche d'installée "
+"comme cela se produit souvent lors de l'utilisation des paquets à chaque tâche distribuée séparément."
+"Reportez vous au fichier de modification pour plus de détails."
 
 #. type: Plain text
 msgid ""
 "We did our best to provide a solid release, please [[contact us|/resources]] "
 "if you believe you find something unexpected."
 msgstr ""
+"Nous faisons notre possible pour fournir une version indéfectible, si vous "
+"croyez avoir trouver un problème, SVP [[contactez nous|/resources]]."
