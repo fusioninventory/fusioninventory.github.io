@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2014-03-12 12:43+0000\n"
+"POT-Creation-Date: 2014-03-18 16:19+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -99,6 +99,11 @@ msgstr ""
 msgid "technical documentation"
 msgstr ""
 
+#. type: Title ##
+#, no-wrap
+msgid "New communication protocol"
+msgstr ""
+
 #. type: Plain text
 msgid ""
 "API-REST is the New JSON based communication protocol used between the agent "
@@ -130,19 +135,15 @@ msgstr ""
 
 #. type: Title ##
 #, no-wrap
-msgid "Inventory format"
+msgid "Legacy communication protocol"
 msgstr ""
 
 #. type: Bullet: '* '
-msgid ""
-"[[2.2.x Inventory structure|documentation/references/agent/2.2.x/lib/"
-"FusionInventory/Agent/Task/Inventory/Inventory.pm]]"
+msgid "[[Network discoveryt|documentation/dev/spec/netdiscovery-protocol]]"
 msgstr ""
 
 #. type: Bullet: '* '
-msgid ""
-"[[2.3.x Inventory structure|documentation/references/agent/2.3.x/lib/"
-"FusionInventory/Agent/Task/Inventory/Inventory.pm]]"
+msgid "[[Network inventory|documentation/dev/spec/netinventory-protocol]]"
 msgstr ""
 
 #. type: Title ##
@@ -154,6 +155,12 @@ msgstr ""
 msgid ""
 "[[New directory layout (partially implemented)|documentation/dev/spec/new-"
 "directory-layout]]"
+msgstr ""
+
+#. type: Bullet: '* '
+msgid ""
+"[[Load configuration from external places|documentation/dev/spec/"
+"load_ext_cfg]]"
 msgstr ""
 
 #. type: Bullet: '* '
@@ -170,14 +177,15 @@ msgid "[[Switch stack inventory|documentation/dev/spec/switch_stack]]"
 msgstr ""
 
 #. type: Bullet: '* '
-msgid ""
-"[[NetInventory XML format|documentation/dev/spec/netinventory-xml-format]]"
+msgid "[[SNMP dictionary|documentation/dev/spec/snmp-dictionnary]]"
 msgstr ""
 
 #. type: Bullet: '* '
-msgid ""
-"[[Load configuration from external places|documentation/dev/spec/"
-"load_ext_cfg]]"
+msgid "[[SNMP model|documentation/dev/spec/snmp-model]]"
+msgstr ""
+
+#. type: Bullet: '* '
+msgid "[[Device types|documentation/dev/spec/device-types]]"
 msgstr ""
 
 #. type: Title ##

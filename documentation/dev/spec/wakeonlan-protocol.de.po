@@ -1,0 +1,77 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2014-03-18 16:19+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. type: Title #
+#, no-wrap
+msgid "Wake-on-lan protocol"
+msgstr ""
+
+#. type: Title ##
+#, no-wrap
+msgid "Server to agent message"
+msgstr ""
+
+#. type: Title ###
+#:  
+#, no-wrap
+msgid "Specification"
+msgstr ""
+
+#. type: Plain text
+#, no-wrap
+msgid ""
+"    <!ELEMENT REPLY (OPTION)>\n"
+"    <!ELEMENT OPTION (NAME, PARAM+)>\n"
+"    <!ELEMENT NAME (#PCDATA)>\n"
+msgstr ""
+
+#. type: Plain text
+#, no-wrap
+msgid ""
+"    <!ELEMENT PARAM EMPTY>\n"
+"    <!ATTLIST PARAM MAC CDATA #REQUIRED>\n"
+msgstr ""
+
+#. type: Title ###
+#:  
+#, no-wrap
+msgid "Example"
+msgstr ""
+
+#. type: Plain text
+#, no-wrap
+msgid ""
+"    <?xml version=\"1.0\" encoding=\"UTF-8\"?>\n"
+"    <REPLY>\n"
+"       <OPTION>\n"
+"          <NAME>WAKEONLAN</NAME>\n"
+"          <PARAM MAC=\"00:1e:c2:0c:36:27\"/>\n"
+"          <PARAM MAC=\"00:1e:c2:a7:26:6f\"/>\n"
+"          <PARAM MAC=\"00:1e:52:ff:fe:67\"/>\n"
+"          <PARAM MAC=\"00:00:39:23:0c:e1\"/>\n"
+"          <PARAM MAC=\"00:00:39:23:0c:e1\"/>\n"
+"          <PARAM MAC=\"f6:68:20:52:41:53\"/>\n"
+"          <PARAM MAC=\"52:08:19:1f:b6:f6\"/>\n"
+"       </OPTION>\n"
+"    </REPLY>\n"
+msgstr ""
+
+#. type: Title ##
+#, no-wrap
+msgid "Agent to server message"
+msgstr ""

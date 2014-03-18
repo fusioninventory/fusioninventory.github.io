@@ -1,0 +1,106 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2014-03-18 16:20+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. type: Title #
+#, no-wrap
+msgid "Network discovery protocol"
+msgstr ""
+
+#. type: Title ##
+#, no-wrap
+msgid "Server to agent message"
+msgstr ""
+
+#. type: Title ###
+#:  
+#, no-wrap
+msgid "Specification"
+msgstr ""
+
+#. type: Plain text
+#, no-wrap
+msgid ""
+"    <!ELEMENT REPLY (PROCESSNUMBER, OPTION)>\n"
+"    <!ELEMENT PROCESSNUMBER (#PCDATA)>\n"
+"    <!ELEMENT OPTION (NAME, PARAM, RANGEIP+, AUTHENTICATION+)>\n"
+"    <!ELEMENT NAME (#PCDATA)>\n"
+msgstr ""
+
+#. type: Plain text
+#, no-wrap
+msgid ""
+"    <!ELEMENT PARAM EMPTY>\n"
+"    <!ATTLIST PARAM THREADS_QUERY CDATA \"1\">\n"
+"    <!ATTLIST PARAM PID CDATA #REQUIRED>\n"
+msgstr ""
+
+#. type: Plain text
+#, no-wrap
+msgid ""
+"    <!ELEMENT RANGEIP EMPTY>\n"
+"    <!ATTLIST RANGEIP ID CDATA #REQUIRED>\n"
+"    <!ATTLIST RANGEIP IPSTART CDATA #REQUIRED>\n"
+"    <!ATTLIST RANGEIP IPEND CDATA #REQUIRED>\n"
+"    <!ATTLIST RANGEIP ENTITY CDATA #IMPLIED>\n"
+msgstr ""
+
+#. type: Plain text
+#, no-wrap
+msgid ""
+"    <!ELEMENT AUTHENTICATION EMPTY>\n"
+"    <!ATTLIST AUTHENTICATION ID CDATA #REQUIRED>\n"
+"    <!ATTLIST AUTHENTICATION VERSION CDATA #REQUIRED>\n"
+"    <!ATTLIST AUTHENTICATION COMMUNITY CDATA #IMPLIED>\n"
+"    <!ATTLIST AUTHENTICATION USERNAME CDATA #IMPLIED>\n"
+"    <!ATTLIST AUTHENTICATION AUTHPROTOCOL CDATA #IMPLIED>\n"
+"    <!ATTLIST AUTHENTICATION AUTHPASSPHRASE CDATA #IMPLIED>\n"
+"    <!ATTLIST AUTHENTICATION PRIVHPROTOCOL CDATA #IMPLIED>\n"
+"    <!ATTLIST AUTHENTICATION PRIVPASSPHRASE CDATA #IMPLIED>\n"
+msgstr ""
+
+#. type: Title ###
+#:  
+#, no-wrap
+msgid "Example"
+msgstr ""
+
+#. type: Plain text
+#, no-wrap
+msgid ""
+"    <?xml version=\"1.0\" encoding=\"UTF-8\"?>\n"
+"    <REPLY>\n"
+"      <PROCESSNUMBER>1280265592/024</PROCESSNUMBER>\n"
+"      <OPTION>\n"
+"        <NAME>NETDISCOVERY</NAME>\n"
+"        <PARAM THREADS_DISCOVERY=\"10\" PID=\"1280265592/024\"/>\n"
+"        <RANGEIP ID=\"1\" IPSTART=\"192.168.0.1\" IPEND=\"192.168.0.254\" "
+"ENTITY=\"15\"/>\n"
+"        <AUTHENTICATION ID=\"1\" COMMUNITY=\"public\" VERSION=\"1\" "
+"USERNAME=\"\" AUTHPROTOCOL=\"\" AUTHPASSPHRASE=\"\" PRIVPROTOCOL=\"\" "
+"PRIVPASSPHRASE=\"\"/>\n"
+"        <AUTHENTICATION ID=\"2\" COMMUNITY=\"public\" VERSION=\"2c\" "
+"USERNAME=\"\" AUTHPROTOCOL=\"\" AUTHPASSPHRASE=\"\" PRIVPROTOCOL=\"\" "
+"PRIVPASSPHRASE=\"\"/>\n"
+"      </OPTION>\n"
+"    </REPLY>\n"
+msgstr ""
+
+#. type: Title ##
+#, no-wrap
+msgid "Agent to server message"
+msgstr ""
