@@ -27,22 +27,12 @@ msgid "RHEL/Centos 6.X and 5.x"
 msgstr "RHEL/Centos 6.X et 5.x"
 
 #. type: Plain text
-msgid ""
-"An -up-to-date- *fusioninventory-agent* package is maintained by "
-"FusionInventory team. You can retrieve it from [openSUSE Build Service]"
-"(https://build.opensuse.org/project/show?project=home%3Aguillomovitch)."
-msgstr ""
-"Un paquet -à jour- de *fusioninventory-agent* est maintenu par l'équipe "
-"FusionInventory. Vous pouvez le trouver sur le service [openSUSE Build]"
-"(https://build.opensuse.org/project/show?project=home%3Aguillomovitch)."
+msgid "An -up-to-date- *fusioninventory-agent* package is maintained by FusionInventory team. You can retrieve it from [openSUSE Build Service] (https://build.opensuse.org/project/show?project=home%3Aguillomovitch)."
+msgstr "Un paquet -à jour- de *fusioninventory-agent* est maintenu par l'équipe FusionInventory. Vous pouvez le trouver sur le service [openSUSE Build](https://build.opensuse.org/project/show?project=home%3Aguillomovitch)."
 
 #. type: Plain text
-msgid ""
-"Beware : an agent is available on the EPEL REPO but is outdated."
-"See [EPEL wiki](https://fedoraproject.org/wiki/EPEL) for more details."
-msgstr ""
-"Attention : un agent est disponible sur le REPO EPEL mais n'est pas à jour."
-"Reportez vous pour plus de détails à [EPEL wiki](https://fedoraproject.org/wiki/EPEL)."
+msgid "Beware : an agent is available on the EPEL REPO but is outdated. See [EPEL wiki](https://fedoraproject.org/wiki/EPEL) for more details."
+msgstr "Attention : un agent est disponible sur le REPO EPEL mais n'est pas à jour. Reportez vous pour plus de détails à [EPEL wiki](https://fedoraproject.org/wiki/EPEL)."
 
 #. type: Plain text
 msgid "Agent installation:"
