@@ -222,35 +222,43 @@
               <IFTYPE>6</IFTYPE>
               <MAC>00:18:71:c1:f0:ff</MAC>
             </PORT>
+            ...
             <PORT>
               <CONNECTIONS>
-                <CDP>1</CDP>
                 <CONNECTION>
-                  <IFDESCR>143</IFDESCR>
-                  <IP>172.31.196.140</IP>
-                  <MODEL>ProCurve J8697A Switch 5406zl, revision K.15.04.0015m, ROM K.15.28 (/ws/swbuildm/ec_rel_charleston_qaoff/code/build/btm(ec_rel_charleston_qaoff))</MODEL>
-                  <SYSDESCR>ProCurve J8697A Switch 5406zl, revision K.15.04.0015m, ROM K.15.28 (/ws/swbuildm/ec_rel_charleston_qaoff/code/build/btm(ec_rel_charleston_qaoff))</SYSDESCR>
-                  <SYSNAME>0x0019BB010B00</SYSNAME>
+                  <MAC>00:19:bb:0d:81:00</MAC>
+                  <MAC>00:19:bb:0d:91:71</MAC>
+                  <MAC>00:19:bb:0d:91:73</MAC>
+                  <MAC>00:19:bb:0d:91:8a</MAC>
+                  <MAC>00:05:1e:bf:07:e0</MAC>
+                  <MAC>00:50:56:00:00:06</MAC>
+                  <MAC>00:50:56:70:c4:44</MAC>
+                  <MAC>00:50:56:7b:aa:a5</MAC>
+                  <MAC>00:50:56:46:51:9d</MAC>
+                  <MAC>00:50:56:49:71:8c</MAC>
+                  <MAC>02:a0:98:12:b5:20</MAC>
+                  <MAC>00:00:00:00:fe:00</MAC>
+                  <MAC>00:00:00:00:fe:01</MAC>
+                  <MAC>00:90:fb:2e:03:34</MAC>
                 </CONNECTION>
               </CONNECTIONS>
-              <IFDESCR>A2</IFDESCR>
+              <IFDESCR>Trk2</IFDESCR>
               <IFINERRORS>0</IFINERRORS>
-              <IFINOCTETS>1790849661</IFINOCTETS>
+              <IFINOCTETS>3379199007</IFINOCTETS>
               <IFINTERNALSTATUS>1</IFINTERNALSTATUS>
-              <IFLASTCHANGE>(137791) 0:22:57.91</IFLASTCHANGE>
+              <IFLASTCHANGE>(140222) 0:23:22.22</IFLASTCHANGE>
               <IFMTU>1500</IFMTU>
-              <IFNAME>A2</IFNAME>
-              <IFNUMBER>2</IFNUMBER>
+              <IFNAME>Trk2</IFNAME>
+              <IFNUMBER>291</IFNUMBER>
               <IFOUTERRORS>0</IFOUTERRORS>
-              <IFOUTOCTETS>351638347</IFOUTOCTETS>
-              <IFPORTDUPLEX>3</IFPORTDUPLEX>
-              <IFSPEED>1000000000</IFSPEED>
+              <IFOUTOCTETS>410125299</IFOUTOCTETS>
+              <IFSPEED>3000000000</IFSPEED>
               <IFSTATUS>1</IFSTATUS>
-              <IFTYPE>6</IFTYPE>
-              <MAC>00:18:71:c1:f0:fe</MAC>
+              <IFTYPE>161</IFTYPE>
+              <MAC>00:18:71:c1:e0:00</MAC>
             </PORT>
+            ...
           </PORTS>
-          ...
         </DEVICE>
         <MODULEVERSION>2.3.9901</MODULEVERSION>
         <PROCESSNUMBER>1</PROCESSNUMBER>
