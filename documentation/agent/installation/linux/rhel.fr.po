@@ -38,9 +38,11 @@ msgstr ""
 
 #. type: Plain text
 msgid ""
-"Beware : an agent is available on the EPEL REPO but is outdated. See [EPEL wiki](https://fedoraproject.org/wiki/EPEL) for more details."
+"Beware : an agent is available on the EPEL REPO but is outdated."
+"See [EPEL wiki](https://fedoraproject.org/wiki/EPEL) for more details."
 msgstr ""
-"Attention : un agent est disponible sur le REPO EPEL mais n'est pas à jour. Reportez vous pour plus de détails à [EPEL wiki](https://fedoraproject.org/wiki/EPEL)."
+"Attention : un agent est disponible sur le REPO EPEL mais n'est pas à jour."
+"Reportez vous pour plus de détails à [EPEL wiki](https://fedoraproject.org/wiki/EPEL)."
 
 #. type: Plain text
 msgid "Agent installation:"
