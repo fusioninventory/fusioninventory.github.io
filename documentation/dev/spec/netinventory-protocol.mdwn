@@ -176,84 +176,84 @@
     <?xml version="1.0" encoding="UTF-8" ?>
     <REQUEST>
       <CONTENT>
-	<DEVICE>
-	  <INFO>
-	    <COMMENTS>ProCurve J8697A Switch 5406zl, revision K.15.04.0015m, ROM K.15.28 (/ws/swbuildm/ec_rel_charleston_qaoff/code/build/btm(ec_rel_</COMMENTS>
-	    <CONTACT>systeme@example.com</CONTACT>
-	    <ID>1</ID>
-	    <IPS>
-	      <IP>127.0.0.1</IP>
-	      <IP>192.168.227.246</IP>
-	    </IPS>
-	    <LOCATION>datacenter</LOCATION>
-	    <MAC>00:18:71:c1:e0:00</MAC>
-	    <MANUFACTURER>Hewlett-Packard</MANUFACTURER>
-	    <MODEL>ProCurve 5406zl (J8697A)</MODEL>
-	    <NAME>thisisdog CR2</NAME>
-	    <SERIAL>SG707SU03Y</SERIAL>
-	    <TYPE>NETWORKING</TYPE>
-	    <UPTIME>(293555959) 33 days, 23:25:59.59</UPTIME>
-	  </INFO>
-	  <PORTS>
-	    <PORT>
-	      <CONNECTIONS>
-		<CDP>1</CDP>
-		<CONNECTION>
-		  <IFDESCR>141</IFDESCR>
-		  <IP>172.31.196.140</IP>
-		  <MODEL>ProCurve J8697A Switch 5406zl, revision K.15.04.0015m, ROM K.15.28 (/ws/swbuildm/ec_rel_charleston_qaoff/code/build/btm(ec_rel_charleston_qaoff))</MODEL>
-		  <SYSDESCR>ProCurve J8697A Switch 5406zl, revision K.15.04.0015m, ROM K.15.28 (/ws/swbuildm/ec_rel_charleston_qaoff/code/build/btm(ec_rel_charleston_qaoff))</SYSDESCR>
-		  <SYSNAME>0x0019BB010B00</SYSNAME>
-		</CONNECTION>
-	      </CONNECTIONS>
-	      <IFDESCR>A1</IFDESCR>
-	      <IFINERRORS>0</IFINERRORS>
-	      <IFINOCTETS>2281257823</IFINOCTETS>
-	      <IFINTERNALSTATUS>1</IFINTERNALSTATUS>
-	      <IFLASTCHANGE>(137791) 0:22:57.91</IFLASTCHANGE>
-	      <IFMTU>1500</IFMTU>
-	      <IFNAME>A1</IFNAME>
-	      <IFNUMBER>1</IFNUMBER>
-	      <IFOUTERRORS>0</IFOUTERRORS>
-	      <IFOUTOCTETS>1349379502</IFOUTOCTETS>
-	      <IFPORTDUPLEX>3</IFPORTDUPLEX>
-	      <IFSPEED>1000000000</IFSPEED>
-	      <IFSTATUS>1</IFSTATUS>
-	      <IFTYPE>6</IFTYPE>
-	      <MAC>00:18:71:c1:f0:ff</MAC>
-	    </PORT>
-	    <PORT>
-	      <CONNECTIONS>
-		<CDP>1</CDP>
-		<CONNECTION>
-		  <IFDESCR>143</IFDESCR>
-		  <IP>172.31.196.140</IP>
-		  <MODEL>ProCurve J8697A Switch 5406zl, revision K.15.04.0015m, ROM K.15.28 (/ws/swbuildm/ec_rel_charleston_qaoff/code/build/btm(ec_rel_charleston_qaoff))</MODEL>
-		  <SYSDESCR>ProCurve J8697A Switch 5406zl, revision K.15.04.0015m, ROM K.15.28 (/ws/swbuildm/ec_rel_charleston_qaoff/code/build/btm(ec_rel_charleston_qaoff))</SYSDESCR>
-		  <SYSNAME>0x0019BB010B00</SYSNAME>
-		</CONNECTION>
-	      </CONNECTIONS>
-	      <IFDESCR>A2</IFDESCR>
-	      <IFINERRORS>0</IFINERRORS>
-	      <IFINOCTETS>1790849661</IFINOCTETS>
-	      <IFINTERNALSTATUS>1</IFINTERNALSTATUS>
-	      <IFLASTCHANGE>(137791) 0:22:57.91</IFLASTCHANGE>
-	      <IFMTU>1500</IFMTU>
-	      <IFNAME>A2</IFNAME>
-	      <IFNUMBER>2</IFNUMBER>
-	      <IFOUTERRORS>0</IFOUTERRORS>
-	      <IFOUTOCTETS>351638347</IFOUTOCTETS>
-	      <IFPORTDUPLEX>3</IFPORTDUPLEX>
-	      <IFSPEED>1000000000</IFSPEED>
-	      <IFSTATUS>1</IFSTATUS>
-	      <IFTYPE>6</IFTYPE>
-	      <MAC>00:18:71:c1:f0:fe</MAC>
-	    </PORT>
-	  </PORTS>
-	  ...
-	</DEVICE>
-	<MODULEVERSION>2.3.9901</MODULEVERSION>
-	<PROCESSNUMBER>1</PROCESSNUMBER>
+        <DEVICE>
+          <INFO>
+            <COMMENTS>ProCurve J8697A Switch 5406zl, revision K.15.04.0015m, ROM K.15.28 (/ws/swbuildm/ec_rel_charleston_qaoff/code/build/btm(ec_rel_</COMMENTS>
+            <CONTACT>systeme@example.com</CONTACT>
+            <ID>1</ID>
+            <IPS>
+              <IP>127.0.0.1</IP>
+              <IP>192.168.227.246</IP>
+            </IPS>
+            <LOCATION>datacenter</LOCATION>
+            <MAC>00:18:71:c1:e0:00</MAC>
+            <MANUFACTURER>Hewlett-Packard</MANUFACTURER>
+            <MODEL>ProCurve 5406zl (J8697A)</MODEL>
+            <NAME>thisisdog CR2</NAME>
+            <SERIAL>SG707SU03Y</SERIAL>
+            <TYPE>NETWORKING</TYPE>
+            <UPTIME>(293555959) 33 days, 23:25:59.59</UPTIME>
+          </INFO>
+          <PORTS>
+            <PORT>
+              <CONNECTIONS>
+                <CDP>1</CDP>
+                <CONNECTION>
+                  <IFDESCR>141</IFDESCR>
+                  <IP>172.31.196.140</IP>
+                  <MODEL>ProCurve J8697A Switch 5406zl, revision K.15.04.0015m, ROM K.15.28 (/ws/swbuildm/ec_rel_charleston_qaoff/code/build/btm(ec_rel_charleston_qaoff))</MODEL>
+                  <SYSDESCR>ProCurve J8697A Switch 5406zl, revision K.15.04.0015m, ROM K.15.28 (/ws/swbuildm/ec_rel_charleston_qaoff/code/build/btm(ec_rel_charleston_qaoff))</SYSDESCR>
+                  <SYSNAME>0x0019BB010B00</SYSNAME>
+                </CONNECTION>
+              </CONNECTIONS>
+              <IFDESCR>A1</IFDESCR>
+              <IFINERRORS>0</IFINERRORS>
+              <IFINOCTETS>2281257823</IFINOCTETS>
+              <IFINTERNALSTATUS>1</IFINTERNALSTATUS>
+              <IFLASTCHANGE>(137791) 0:22:57.91</IFLASTCHANGE>
+              <IFMTU>1500</IFMTU>
+              <IFNAME>A1</IFNAME>
+              <IFNUMBER>1</IFNUMBER>
+              <IFOUTERRORS>0</IFOUTERRORS>
+              <IFOUTOCTETS>1349379502</IFOUTOCTETS>
+              <IFPORTDUPLEX>3</IFPORTDUPLEX>
+              <IFSPEED>1000000000</IFSPEED>
+              <IFSTATUS>1</IFSTATUS>
+              <IFTYPE>6</IFTYPE>
+              <MAC>00:18:71:c1:f0:ff</MAC>
+            </PORT>
+            <PORT>
+              <CONNECTIONS>
+                <CDP>1</CDP>
+                <CONNECTION>
+                  <IFDESCR>143</IFDESCR>
+                  <IP>172.31.196.140</IP>
+                  <MODEL>ProCurve J8697A Switch 5406zl, revision K.15.04.0015m, ROM K.15.28 (/ws/swbuildm/ec_rel_charleston_qaoff/code/build/btm(ec_rel_charleston_qaoff))</MODEL>
+                  <SYSDESCR>ProCurve J8697A Switch 5406zl, revision K.15.04.0015m, ROM K.15.28 (/ws/swbuildm/ec_rel_charleston_qaoff/code/build/btm(ec_rel_charleston_qaoff))</SYSDESCR>
+                  <SYSNAME>0x0019BB010B00</SYSNAME>
+                </CONNECTION>
+              </CONNECTIONS>
+              <IFDESCR>A2</IFDESCR>
+              <IFINERRORS>0</IFINERRORS>
+              <IFINOCTETS>1790849661</IFINOCTETS>
+              <IFINTERNALSTATUS>1</IFINTERNALSTATUS>
+              <IFLASTCHANGE>(137791) 0:22:57.91</IFLASTCHANGE>
+              <IFMTU>1500</IFMTU>
+              <IFNAME>A2</IFNAME>
+              <IFNUMBER>2</IFNUMBER>
+              <IFOUTERRORS>0</IFOUTERRORS>
+              <IFOUTOCTETS>351638347</IFOUTOCTETS>
+              <IFPORTDUPLEX>3</IFPORTDUPLEX>
+              <IFSPEED>1000000000</IFSPEED>
+              <IFSTATUS>1</IFSTATUS>
+              <IFTYPE>6</IFTYPE>
+              <MAC>00:18:71:c1:f0:fe</MAC>
+            </PORT>
+          </PORTS>
+          ...
+        </DEVICE>
+        <MODULEVERSION>2.3.9901</MODULEVERSION>
+        <PROCESSNUMBER>1</PROCESSNUMBER>
       </CONTENT>
       <DEVICEID>beria-2012-08-02-20-50-16</DEVICEID>
       <QUERY>SNMPQUERY</QUERY>
