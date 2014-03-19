@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2014-03-18 16:20+0000\n"
+"POT-Creation-Date: 2014-03-19 23:20+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -27,7 +27,6 @@ msgid "Server to agent message"
 msgstr ""
 
 #. type: Title ###
-#:  
 #, no-wrap
 msgid "Specification"
 msgstr ""
@@ -74,7 +73,6 @@ msgid ""
 msgstr ""
 
 #. type: Title ###
-#:  
 #, no-wrap
 msgid "Example"
 msgstr ""
@@ -88,14 +86,9 @@ msgid ""
 "      <OPTION>\n"
 "        <NAME>NETDISCOVERY</NAME>\n"
 "        <PARAM THREADS_DISCOVERY=\"10\" PID=\"1280265592/024\"/>\n"
-"        <RANGEIP ID=\"1\" IPSTART=\"192.168.0.1\" IPEND=\"192.168.0.254\" "
-"ENTITY=\"15\"/>\n"
-"        <AUTHENTICATION ID=\"1\" COMMUNITY=\"public\" VERSION=\"1\" "
-"USERNAME=\"\" AUTHPROTOCOL=\"\" AUTHPASSPHRASE=\"\" PRIVPROTOCOL=\"\" "
-"PRIVPASSPHRASE=\"\"/>\n"
-"        <AUTHENTICATION ID=\"2\" COMMUNITY=\"public\" VERSION=\"2c\" "
-"USERNAME=\"\" AUTHPROTOCOL=\"\" AUTHPASSPHRASE=\"\" PRIVPROTOCOL=\"\" "
-"PRIVPASSPHRASE=\"\"/>\n"
+"        <RANGEIP ID=\"1\" IPSTART=\"192.168.0.1\" IPEND=\"192.168.0.254\" ENTITY=\"15\"/>\n"
+"        <AUTHENTICATION ID=\"1\" COMMUNITY=\"public\" VERSION=\"1\" USERNAME=\"\" AUTHPROTOCOL=\"\" AUTHPASSPHRASE=\"\" PRIVPROTOCOL=\"\" PRIVPASSPHRASE=\"\"/>\n"
+"        <AUTHENTICATION ID=\"2\" COMMUNITY=\"public\" VERSION=\"2c\" USERNAME=\"\" AUTHPROTOCOL=\"\" AUTHPASSPHRASE=\"\" PRIVPROTOCOL=\"\" PRIVPASSPHRASE=\"\"/>\n"
 "      </OPTION>\n"
 "    </REPLY>\n"
 msgstr ""
@@ -103,4 +96,59 @@ msgstr ""
 #. type: Title ##
 #, no-wrap
 msgid "Agent to server message"
+msgstr ""
+
+#. type: Plain text
+#, no-wrap
+msgid "    <!ELEMENT REQUEST (CONTENT+, DEVICEID, QUERY)>\n"
+msgstr ""
+
+#. type: Plain text
+#, no-wrap
+msgid "    <!ELEMENT CONTENT (DEVICE*, MODULEVERSION, PROCESSNUMBER)>\n"
+msgstr ""
+
+#. type: Plain text
+#, no-wrap
+msgid ""
+"    <!-- a device -->\n"
+"    <!ELEMENT DEVICE (DNSHOSTNAME, IP)>\n"
+"    <!ELEMENT DNSHOSTNAME (#PCDATA)>\n"
+"    <!ELEMENT IP (#PCDATA)>\n"
+msgstr ""
+
+#. type: Plain text
+#, no-wrap
+msgid ""
+"    <!-- netsdiscovery module version(string) -->\n"
+"    <!ELEMENT MODULEVERSION (#PCDATA)>\n"
+"    <!-- server process ID (integer) -->\n"
+"    <!ELEMENT PROCESSNUMBER (#PCDATA)>\n"
+msgstr ""
+
+#. type: Plain text
+#, no-wrap
+msgid ""
+"    <!-- agent ID (string) -->\n"
+"    <!ELEMENT DEVICEID (#PCDATA)>\n"
+"    <!-- message type (\"NETDISCOVERY\") -->\n"
+"    <!ELEMENT QUERY (#PCDATA)>\n"
+msgstr ""
+
+#. type: Plain text
+#, no-wrap
+msgid ""
+"    <?xml version=\"1.0\" encoding=\"UTF-8\" ?>\n"
+"    <REQUEST>\n"
+"      <CONTENT>\n"
+"        <DEVICE>\n"
+"          <DNSHOSTNAME>beria.inria.fr</DNSHOSTNAME>\n"
+"          <IP>192.168.0.35</IP>\n"
+"        </DEVICE>\n"
+"        <MODULEVERSION>2.3.9901</MODULEVERSION>\n"
+"        <PROCESSNUMBER>1</PROCESSNUMBER>\n"
+"      </CONTENT>\n"
+"      <DEVICEID>beria-2012-08-02-20-50-16</DEVICEID>\n"
+"      <QUERY>NETDISCOVERY</QUERY>\n"
+"    </REQUEST>\n"
 msgstr ""

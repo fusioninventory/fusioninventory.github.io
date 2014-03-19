@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2014-03-18 16:19+0000\n"
+"POT-Creation-Date: 2014-03-19 23:20+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -139,11 +139,15 @@ msgid "Legacy communication protocol"
 msgstr ""
 
 #. type: Bullet: '* '
-msgid "[[Network discoveryt|documentation/dev/spec/netdiscovery-protocol]]"
+msgid "[[Network discovery|documentation/dev/spec/netdiscovery-protocol]]"
 msgstr ""
 
 #. type: Bullet: '* '
 msgid "[[Network inventory|documentation/dev/spec/netinventory-protocol]]"
+msgstr ""
+
+#. type: Bullet: '* '
+msgid "[[Wake on lan|documentation/dev/spec/wakeonlan-protocol]]"
 msgstr ""
 
 #. type: Title ##

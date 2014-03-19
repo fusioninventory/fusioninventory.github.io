@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2013-09-10 08:58+0000\n"
+"POT-Creation-Date: 2014-03-19 23:20+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -48,24 +48,6 @@ msgstr ""
 msgid "    # yum install fusioninventory-agent fusioninventory-agent-task-inventory\n"
 msgstr ""
 
-#. type: Plain text
-msgid "Edit configuration file"
-msgstr ""
-
-#. type: Plain text
-#, no-wrap
-msgid "    # vi /etc/sysconfig/fusioninventory-agent\n"
-msgstr ""
-
-#. type: Plain text
-msgid "add this line :"
-msgstr ""
-
-#. type: Plain text
-#, no-wrap
-msgid "    # OPTS=\"--force --httpd-trust=127.0.0.1 --server http://yourserver/glpi/plugins/fusioninventory/front/plugin_fusioninventory.communication.php --logfile=/var/log/fusioninventory-agent/fusioninventory-agent.log\"\n"
-msgstr ""
-
 #. type: Title ##
 #, no-wrap
 msgid "RHEL, Centos 4.x"
@@ -80,11 +62,6 @@ msgstr ""
 msgid ""
 "See [Remi repository configuration](http://blog.famillecollet.com/pages/"
 "Config-en) for details."
-msgstr ""
-
-#. type: Title ##
-#, no-wrap
-msgid "Agent installation"
 msgstr ""
 
 #. type: Plain text
