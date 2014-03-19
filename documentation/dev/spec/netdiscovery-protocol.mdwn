@@ -47,4 +47,37 @@
 
 ### Specification
 
+    <!ELEMENT REQUEST (CONTENT+, DEVICEID, QUERY)>
+
+    <!ELEMENT CONTENT (DEVICE*, MODULEVERSION, PROCESSNUMBER)>
+
+    <!-- a device -->
+    <!ELEMENT DEVICE (DNSHOSTNAME, IP)>
+    <!ELEMENT DNSHOSTNAME (#PCDATA)>
+    <!ELEMENT IP (#PCDATA)>
+
+    <!-- netsdiscovery module version(string) -->
+    <!ELEMENT MODULEVERSION (#PCDATA)>
+    <!-- server process ID (integer) -->
+    <!ELEMENT PROCESSNUMBER (#PCDATA)>
+
+    <!-- agent ID (string) -->
+    <!ELEMENT DEVICEID (#PCDATA)>
+    <!-- message type ("NETDISCOVERY") -->
+    <!ELEMENT QUERY (#PCDATA)>
+
 ### Example
+
+    <?xml version="1.0" encoding="UTF-8" ?>
+    <REQUEST>
+      <CONTENT>
+        <DEVICE>
+          <DNSHOSTNAME>beria.inria.fr</DNSHOSTNAME>
+          <IP>192.168.0.35</IP>
+        </DEVICE>
+        <MODULEVERSION>2.3.9901</MODULEVERSION>
+        <PROCESSNUMBER>1</PROCESSNUMBER>
+      </CONTENT>
+      <DEVICEID>beria-2012-08-02-20-50-16</DEVICEID>
+      <QUERY>NETDISCOVERY</QUERY>
+    </REQUEST>

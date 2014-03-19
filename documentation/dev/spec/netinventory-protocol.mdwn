@@ -46,127 +46,215 @@
 
 ### Specification
 
-    <!ELEMENT REQUEST (CONTENT+ , DEVICEID, QUERY)>
+    <!ELEMENT REQUEST (CONTENT+, DEVICEID, QUERY)>
 
     <!ELEMENT CONTENT (DEVICE*, MODULEVERSION, PROCESSNUMBER)>
 
-    <!-- The devices list -->
-    <!ELEMENT DEVICE (INFO , PORTS)>
+    <!-- a device -->
+    <!ELEMENT DEVICE (INFO, PORTS)>
 
-    <!-- The device info -->
+    <!-- generic information -->
     <!ELEMENT INFO (COMMENTS, CPU, FIRMWARE, ID, IPS, LOCATION, MAC, MEMORY, MODEL, NAME, RAM, SERIAL, TYPE, UPTIME)>
-    <!-- it's the sysdescr (string) -->
+    <!-- sysdescr (string) -->
     <!ELEMENT COMMENTS (#PCDATA)>
-    <!-- it's the cpu load in %, so from 0 to 100 (integer) -->
+    <!-- CPU load in % (integer) -->
     <!ELEMENT CPU (#PCDATA)>
-    <!-- it's the firmware (string) -->
+    <!-- firmware (string) -->
     <!ELEMENT FIRMWARE (#PCDATA)>
-    <!-- it's the id of the device in GLPI (integer) -->
+    <!-- device ID in GLPI (integer) -->
     <!ELEMENT ID (#PCDATA)>
 
-    <!-- The IPs list -->
+    <!-- IP addresses list -->
     <!ELEMENT IPS (IP+)>
-    <!-- it's the IP address, can be IP v4 and v6 (string) -->
+    <!-- an IP address, either IPv4 or IPv6 (string) -->
     <!ELEMENT IP (#PCDATA)>
 
-    <!-- it's the location (string) -->
+    <!-- location (string) -->
     <!ELEMENT LOCATION (#PCDATA)>
-    <!-- it's the mac address like 00:5e:03:a1:00:11 with letter always in lowercase (string) -->
+    <!-- mac address (string) -->
     <!ELEMENT MAC (#PCDATA)>
-    <!-- it's the storage in Mio (integer) -->
+    <!-- storage in Mio (integer) -->
     <!ELEMENT MEMORY (#PCDATA)>
-    <!-- it's the device model (string) -->
+    <!-- device model (string) -->
     <!ELEMENT MODEL (#PCDATA)>
-    <!-- it's the device name (string) -->
+    <!-- device name (string) -->
     <!ELEMENT NAME (#PCDATA)>
-    <!-- it's the volatile memory in Mio (integer) -->
+    <!-- volatile memory in Mio (integer) -->
     <!ELEMENT RAM (#PCDATA)>
-    <!-- it's the device serial number (string) -->
+    <!-- serial number (string) -->
     <!ELEMENT SERIAL (#PCDATA)>
-    <!-- it's the type of device NETWORKING, PRINTER, COMPUTER or PHONE (constant) -->
-    <!ELEMENT TYPE (#PCDATA)>
-    <!-- it's the device uptime in format 8 days, 01:48:57.95 (string) -->
+    <!-- device type (constant) -->
+    <!ELEMENT TYPE (COMPUTER|PRINTER|NETWORKING|STORAGE|POWER|PHONE|VIDEO)>
+    <!-- uptime (string with X days, HH:MM::SS format) -->
     <!ELEMENT UPTIME (#PCDATA)>
 
-    <!-- The device ports list -->
+    <!-- ports list -->
     <!ELEMENT PORTS (PORT*)>
 
-    <!-- One port -->
+    <!-- a port -->
     <!ELEMENT PORT (CONNECTIONS?, AGGREGATE?, IFDESCR, IFINERRORS, IFINOCTETS, IFINTERNALSTATUS, IFLASTCHANGE, IFMTU, IFNAME, IFNUMBER, IFOUTERRORS, IFOUTOCTETS, IFSPEED, IFSTATUS, IFTYPE, MAC, TRUNK, VLANS?)>
 
-    <!-- The port connections list -->
+    <!-- connections list -->
     <!ELEMENT CONNECTIONS (CDP?, CONNECTION*)>
-    <!-- This port has a LLDP/CDP connection? (bool) -->
+    <!-- LLDP/CDP connection? (bool) -->
     <!ELEMENT CDP (#PCDATA)>
 
-    <!-- One connection info of the port -->
+    <!-- a connection -->
     <!ELEMENT CONNECTION (MAC+ | (IFNUMBER?, SYSMAC?, IFDESCR?, IP?, SYSDESCR?, SYSNAME?))>
-    <!-- it's the mac address of the remote device, like 00:5e:03:a1:00:11 with letter always in lowercase (string) -->
+    <!-- mac address of the remote device (string) -->
     <!ELEMENT MAC (#PCDATA)>
-    <!-- it's the port number of remote device (integer) -->
+    <!-- interface ID of the remote device (integer) -->
     <!ELEMENT IFNUMBER (#PCDATA)>
-    <!-- it's the mac address of the remote device, like 00:5e:03:a1:00:11 with letter always in lowercase. Differ of MAC because get with LLDP oids (string) -->
+    <!-- mac address of the remote device (string) Differ of MAC because get with LLDP oids (string) -->
     <!ELEMENT SYSMAC (#PCDATA)>
-    <!-- it's the port description of remote device (string) -->
+    <!-- port description of the remote device (string) -->
     <!ELEMENT IFDESCR (#PCDATA)>
-    <!-- it's the IP address of renote device, can be IP v4 and v6 (string) -->
+    <!-- IP address of the remote device, IPv4 or IPv6 (string) -->
     <!ELEMENT IP (#PCDATA)>
-    <!-- it's the sysdescr of remote device (string) -->
+    <!-- sysdescr of the remote device (string) -->
     <!ELEMENT SYSDESCR (#PCDATA)>
-    <!-- it's the name of remote device (string) -->
+    <!-- name of the remote device (string) -->
     <!ELEMENT SYSNAME (#PCDATA)>
 
-    <!-- The aggregate port list, so the virtual port base on many physical ports -->
+    <!-- aggregate port list, so the virtual port base on many physical ports -->
     <!ELEMENT AGGREGATE (PORT+)>
-    <!-- it's the ifnumber of physical port (integer) -->
+    <!-- interface number of physical port (integer) -->
     <!ELEMENT PORT (#PCDATA)>
 
-    <!-- it's the description of port (string) -->
+    <!-- description of port (string) -->
     <!ELEMENT IFDESCR (#PCDATA)>
-    <!-- it's the number of errors in input of port (integer) -->
+    <!-- input errors number (integer) -->
     <!ELEMENT IFINERRORS (#PCDATA)>
-    <!-- it's the number of bytes in input of port (integer) -->
+    <!-- input bytes number (integer) -->
     <!ELEMENT IFINOCTETS (#PCDATA)>
-    <!-- it's the internal status of port (integer, is 1, 2 or 3) -->
-    <!ELEMENT IFINTERNALSTATUS (#PCDATA)>
-    <!-- it's the time since last change of port in format 8 days, 01:48:57.95 (string) -->
+    <!-- internal status (constant) -->
+    <!ELEMENT IFINTERNALSTATUS (1|2|3)>
+    <!-- time since last status change (string, X days, HH:MM::SS format) -->
     <!ELEMENT IFLASTCHANGE (#PCDATA)>
-    <!-- it's the MTU of port (integer) -->
+    <!-- MTU (integer) -->
     <!ELEMENT IFMTU (#PCDATA)>
-    <!-- it's the name of port (string) -->
+    <!-- name (string) -->
     <!ELEMENT IFNAME (#PCDATA)>
-    <!-- it's the number of port (integer) -->
+    <!-- interface ID (integer) -->
     <!ELEMENT IFNUMBER (#PCDATA)>
-    <!-- it's the number of errors in output of port (integer) -->
+    <!-- output errors number (integer) -->
     <!ELEMENT IFOUTERRORS (#PCDATA)>
-    <!-- it's the number of bytes in output of port (integer) -->
+    <!-- output bytes number (integer) -->
     <!ELEMENT IFOUTOCTETS (#PCDATA)>
-    <!-- it's the speed in bytes of port (integer) -->
+    <!-- speed in bytes (integer) -->
     <!ELEMENT IFSPEED (#PCDATA)>
-    <!-- it's the status of port, connected or not (bool) -->
-    <!ELEMENT IFSTATUS (#PCDATA)>
-    <!-- it's the type of port (integer) -->
+    <!-- status (constant) -->
+    <!ELEMENT IFSTATUS (1|2)>
+    <!-- port type (integer) -->
     <!ELEMENT IFTYPE (#PCDATA)>
-    <!-- it's the mac address of port, like 00:5e:03:a1:00:11 with letter always in lowercase (string) -->
+    <!-- mac address (string) -->
     <!ELEMENT MAC (#PCDATA)>
-    <!-- it's the trunk info of port, trunk/tagged or not (bool) -->
-    <!ELEMENT TRUNK (#PCDATA)>
+    <!-- trunk port flag (constant) -->
+    <!ELEMENT TRUNK (0|1)>
 
-    <!-- The port VLAN list -->
+    <!-- VLANs list -->
     <!ELEMENT VLANS (VLAN+)>
 
-    <!-- One VLAN -->
+    <!-- a VLAN -->
     <!ELEMENT VLAN (NAME, NUMBER)>
-    <!-- it's the name of VLAN (string) -->
+    <!-- VLAN name (string) -->
     <!ELEMENT NAME (#PCDATA)>
-    <!-- it's the number of VLAN (integer) -->
+    <!-- VLAN ID (integer) -->
     <!ELEMENT NUMBER (#PCDATA)>
 
-    <!-- it's the version of netinventory agent module (string) -->
+    <!-- netinventory module version(string) -->
     <!ELEMENT MODULEVERSION (#PCDATA)>
-    <!-- it's the id of the process sent by server (integer) -->
+    <!-- server process ID (integer) -->
     <!ELEMENT PROCESSNUMBER (#PCDATA)>
 
+    <!-- agent ID (string) -->
     <!ELEMENT DEVICEID (#PCDATA)>
-
+    <!-- message type ("SNMPQUERY") -->
     <!ELEMENT QUERY (#PCDATA)>
+
+### Example
+    <?xml version="1.0" encoding="UTF-8" ?>
+    <REQUEST>
+      <CONTENT>
+	<DEVICE>
+	  <INFO>
+	    <COMMENTS>ProCurve J8697A Switch 5406zl, revision K.15.04.0015m, ROM K.15.28 (/ws/swbuildm/ec_rel_charleston_qaoff/code/build/btm(ec_rel_</COMMENTS>
+	    <CONTACT>systeme@example.com</CONTACT>
+	    <ID>1</ID>
+	    <IPS>
+	      <IP>127.0.0.1</IP>
+	      <IP>192.168.227.246</IP>
+	    </IPS>
+	    <LOCATION>datacenter</LOCATION>
+	    <MAC>00:18:71:c1:e0:00</MAC>
+	    <MANUFACTURER>Hewlett-Packard</MANUFACTURER>
+	    <MODEL>ProCurve 5406zl (J8697A)</MODEL>
+	    <NAME>thisisdog CR2</NAME>
+	    <SERIAL>SG707SU03Y</SERIAL>
+	    <TYPE>NETWORKING</TYPE>
+	    <UPTIME>(293555959) 33 days, 23:25:59.59</UPTIME>
+	  </INFO>
+	  <PORTS>
+	    <PORT>
+	      <CONNECTIONS>
+		<CDP>1</CDP>
+		<CONNECTION>
+		  <IFDESCR>141</IFDESCR>
+		  <IP>172.31.196.140</IP>
+		  <MODEL>ProCurve J8697A Switch 5406zl, revision K.15.04.0015m, ROM K.15.28 (/ws/swbuildm/ec_rel_charleston_qaoff/code/build/btm(ec_rel_charleston_qaoff))</MODEL>
+		  <SYSDESCR>ProCurve J8697A Switch 5406zl, revision K.15.04.0015m, ROM K.15.28 (/ws/swbuildm/ec_rel_charleston_qaoff/code/build/btm(ec_rel_charleston_qaoff))</SYSDESCR>
+		  <SYSNAME>0x0019BB010B00</SYSNAME>
+		</CONNECTION>
+	      </CONNECTIONS>
+	      <IFDESCR>A1</IFDESCR>
+	      <IFINERRORS>0</IFINERRORS>
+	      <IFINOCTETS>2281257823</IFINOCTETS>
+	      <IFINTERNALSTATUS>1</IFINTERNALSTATUS>
+	      <IFLASTCHANGE>(137791) 0:22:57.91</IFLASTCHANGE>
+	      <IFMTU>1500</IFMTU>
+	      <IFNAME>A1</IFNAME>
+	      <IFNUMBER>1</IFNUMBER>
+	      <IFOUTERRORS>0</IFOUTERRORS>
+	      <IFOUTOCTETS>1349379502</IFOUTOCTETS>
+	      <IFPORTDUPLEX>3</IFPORTDUPLEX>
+	      <IFSPEED>1000000000</IFSPEED>
+	      <IFSTATUS>1</IFSTATUS>
+	      <IFTYPE>6</IFTYPE>
+	      <MAC>00:18:71:c1:f0:ff</MAC>
+	    </PORT>
+	    <PORT>
+	      <CONNECTIONS>
+		<CDP>1</CDP>
+		<CONNECTION>
+		  <IFDESCR>143</IFDESCR>
+		  <IP>172.31.196.140</IP>
+		  <MODEL>ProCurve J8697A Switch 5406zl, revision K.15.04.0015m, ROM K.15.28 (/ws/swbuildm/ec_rel_charleston_qaoff/code/build/btm(ec_rel_charleston_qaoff))</MODEL>
+		  <SYSDESCR>ProCurve J8697A Switch 5406zl, revision K.15.04.0015m, ROM K.15.28 (/ws/swbuildm/ec_rel_charleston_qaoff/code/build/btm(ec_rel_charleston_qaoff))</SYSDESCR>
+		  <SYSNAME>0x0019BB010B00</SYSNAME>
+		</CONNECTION>
+	      </CONNECTIONS>
+	      <IFDESCR>A2</IFDESCR>
+	      <IFINERRORS>0</IFINERRORS>
+	      <IFINOCTETS>1790849661</IFINOCTETS>
+	      <IFINTERNALSTATUS>1</IFINTERNALSTATUS>
+	      <IFLASTCHANGE>(137791) 0:22:57.91</IFLASTCHANGE>
+	      <IFMTU>1500</IFMTU>
+	      <IFNAME>A2</IFNAME>
+	      <IFNUMBER>2</IFNUMBER>
+	      <IFOUTERRORS>0</IFOUTERRORS>
+	      <IFOUTOCTETS>351638347</IFOUTOCTETS>
+	      <IFPORTDUPLEX>3</IFPORTDUPLEX>
+	      <IFSPEED>1000000000</IFSPEED>
+	      <IFSTATUS>1</IFSTATUS>
+	      <IFTYPE>6</IFTYPE>
+	      <MAC>00:18:71:c1:f0:fe</MAC>
+	    </PORT>
+	  </PORTS>
+	  ...
+	</DEVICE>
+	<MODULEVERSION>2.3.9901</MODULEVERSION>
+	<PROCESSNUMBER>1</PROCESSNUMBER>
+      </CONTENT>
+      <DEVICEID>beria-2012-08-02-20-50-16</DEVICEID>
+      <QUERY>SNMPQUERY</QUERY>
+    </REQUEST>

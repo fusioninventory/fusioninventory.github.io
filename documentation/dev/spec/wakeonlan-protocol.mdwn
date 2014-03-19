@@ -29,6 +29,4 @@
 
 ## Agent to server message
 
-### Specification
-
-### Example
+No message.
