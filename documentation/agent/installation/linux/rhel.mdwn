@@ -8,26 +8,15 @@ Service](https://build.opensuse.org/project/show?project=home%3Aguillomovitch).
 
 Beware, you'all also need the *EPEL* repository. See [EPEL wiki](https://fedoraproject.org/wiki/EPEL) for details.
 
-
 Agent installation:
 
     # yum install fusioninventory-agent fusioninventory-agent-task-inventory
-
-Edit configuration file
-
-    # vi /etc/sysconfig/fusioninventory-agent
-
-add this line :
-
-    # OPTS="--force --httpd-trust=127.0.0.1 --server http://yourserver/glpi/plugins/fusioninventory/front/plugin_fusioninventory.communication.php --logfile=/var/log/fusioninventory-agent/fusioninventory-agent.log"
 
 ## RHEL, Centos 4.x
 
 An old *fusioninventory-agent* package is available in the *remi* third party repository for EL >= 4
 
 See [Remi repository configuration](http://blog.famillecollet.com/pages/Config-en) for details.
-
-## Agent installation
 
 Agent installation:
 
