@@ -83,7 +83,7 @@
     <!ELEMENT RAM (#PCDATA)>
     <!-- serial number (string) -->
     <!ELEMENT SERIAL (#PCDATA)>
-    <!-- type, from [[Device types|documentation/dev/spec/device-types]] -->
+    <!-- type, ie "COMPUTER", "PRINTER", "NETWORKING", etc... -->
     <!ELEMENT TYPE (COMPUTER|PRINTER|NETWORKING|STORAGE|POWER|PHONE|VIDEO)>
     <!-- uptime, formatted as "X days, HH:MM::SS format" -->
     <!ELEMENT UPTIME (#PCDATA)>
@@ -169,7 +169,7 @@
 
     <!-- agent ID (string) -->
     <!ELEMENT DEVICEID (#PCDATA)>
-    <!-- message type ("SNMPQUERY") -->
+    <!-- message type, ie  "SNMPQUERY" -->
     <!ELEMENT QUERY (#PCDATA)>
 
 ### Example
