@@ -83,9 +83,9 @@
     <!ELEMENT RAM (#PCDATA)>
     <!-- serial number (string) -->
     <!ELEMENT SERIAL (#PCDATA)>
-    <!-- device type (constant) -->
+    <!-- type, from [[Device types|documentation/dev/spec/device-types]] -->
     <!ELEMENT TYPE (COMPUTER|PRINTER|NETWORKING|STORAGE|POWER|PHONE|VIDEO)>
-    <!-- uptime (string with X days, HH:MM::SS format) -->
+    <!-- uptime, formatted as "X days, HH:MM::SS format" -->
     <!ELEMENT UPTIME (#PCDATA)>
 
     <!-- ports list -->
@@ -101,19 +101,19 @@
 
     <!-- a connection -->
     <!ELEMENT CONNECTION (MAC+ | (IFNUMBER?, SYSMAC?, IFDESCR?, IP?, SYSDESCR?, SYSNAME?))>
-    <!-- mac address of the remote device (string) -->
+    <!-- remote device mac address (string) -->
     <!ELEMENT MAC (#PCDATA)>
-    <!-- interface ID of the remote device (integer) -->
+    <!-- remote device interface ID, from CDP/LLDP (integer) -->
     <!ELEMENT IFNUMBER (#PCDATA)>
-    <!-- mac address of the remote device (string) Differ of MAC because get with LLDP oids (string) -->
+    <!-- remote device mac address, from CDP/LLDP (string) -->
     <!ELEMENT SYSMAC (#PCDATA)>
-    <!-- port description of the remote device (string) -->
+    <!-- remote device port description, from CDP/LLDP (string) -->
     <!ELEMENT IFDESCR (#PCDATA)>
-    <!-- IP address of the remote device, IPv4 or IPv6 (string) -->
+    <!-- remote device IP address, from CDP/LLDP (string) -->
     <!ELEMENT IP (#PCDATA)>
-    <!-- sysdescr of the remote device (string) -->
+    <!-- remote device system description, from CDP/LLDP (string) -->
     <!ELEMENT SYSDESCR (#PCDATA)>
-    <!-- name of the remote device (string) -->
+    <!-- remote device name, from CDP/LLDP (string) -->
     <!ELEMENT SYSNAME (#PCDATA)>
 
     <!-- aggregate port list, so the virtual port base on many physical ports -->
@@ -121,7 +121,7 @@
     <!-- interface number of physical port (integer) -->
     <!ELEMENT PORT (#PCDATA)>
 
-    <!-- description of port (string) -->
+    <!-- description (string) -->
     <!ELEMENT IFDESCR (#PCDATA)>
     <!-- input errors number (integer) -->
     <!ELEMENT IFINERRORS (#PCDATA)>
@@ -129,7 +129,7 @@
     <!ELEMENT IFINOCTETS (#PCDATA)>
     <!-- internal status (constant) -->
     <!ELEMENT IFINTERNALSTATUS (1|2|3)>
-    <!-- time since last status change (string, X days, HH:MM::SS format) -->
+    <!-- time since last status change, formatted as "X days, HH:MM::SS" -->
     <!ELEMENT IFLASTCHANGE (#PCDATA)>
     <!-- MTU (integer) -->
     <!ELEMENT IFMTU (#PCDATA)>
