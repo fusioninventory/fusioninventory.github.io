@@ -1,4 +1,5 @@
-[[!meta  date="2014-03-10"]]
+# FusionInventory Agent 2.3.6 release
+
 Hello FusionInventory users,
 
 The FusionInventory Agent maintainers are glad to announce the 2.3.6 release.

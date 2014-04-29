@@ -1,4 +1,4 @@
-# Network inventory improvement: no mandatory SNMP model anymore
+# No mandatory SNMP model anymore
 
 The FusionInventory network inventory task, which should be more precisely
 described as remote inventory through SNMP, has always been plagued by a
