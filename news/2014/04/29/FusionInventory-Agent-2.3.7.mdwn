@@ -19,5 +19,8 @@ providing better retrieval of firmware and serial numbers. It also fixes
 multiple minor issues with local inventory, and allows to log executed commands
 with debug level two or more. See the Changes file for details.
 
+The subsequent 2.3.7.1 release just fixes a crash for BSD users in inventory
+tasks.
+
 We did our best to provide a solid release, please [[contact us|/resources]] if
 you believe you find something unexpected.
