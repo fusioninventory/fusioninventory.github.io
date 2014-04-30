@@ -13,14 +13,14 @@ You can download it from the usual places:
 
 See [[download instructions|/documentation/agent/installation]] for details.
 
-This release drop support for deprecated SNMP dictionary and SNMP models,
-allowing a large code cleanup for network discovery and inventory, while also
-providing better retrieval of firmware and serial numbers. It also fixes
+This release drops support for deprecated SNMP dictionary and SNMP models,
+allowing a large code cleanup for network discovery and inventory, while
+also providing better retrieval of firmware and serial numbers. It also fixes
 multiple minor issues with local inventory, and allows to log executed commands
 with debug level two or more. See the Changes file for details.
 
-The subsequent 2.3.7.1 release just fixes a crash for BSD users in inventory
-tasks.
+The subsequent 2.3.7.1 release only fixes a crash for BSD users in local
+inventory.
 
 We did our best to provide a solid release, please [[contact us|/resources]] if
 you believe you find something unexpected.
