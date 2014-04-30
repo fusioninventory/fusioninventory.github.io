@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2014-03-18 16:21+0000\n"
+"POT-Creation-Date: 2014-04-30 11:15+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -18,7 +18,7 @@ msgstr ""
 
 #. type: Title #
 #, no-wrap
-msgid "Network inventory improvement: no mandatory SNMP model anymore"
+msgid "No mandatory SNMP model anymore"
 msgstr ""
 
 #. type: Plain text

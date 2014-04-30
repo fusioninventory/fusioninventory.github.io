@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2013-01-28 13:16+0000\n"
+"POT-Creation-Date: 2014-04-30 11:15+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -50,7 +50,7 @@ msgstr ""
 
 #. type: Title ##
 #, no-wrap
-msgid "“Agent contact the server” or  “Server contacts the agent”"
+msgid "“Agent contact the server” or “Server contacts the agent”"
 msgstr ""
 
 #. type: Plain text
@@ -70,9 +70,8 @@ msgstr ""
 #. type: Plain text
 msgid ""
 "In the first case, the task will fail if the agent is not available. The "
-"agent has to be running has a daemon or a Windows service. The server must "
-"be able to contact the agent directly with the following URL: "
-"<http://agentIP:62354>. We advise you to use the `httpd-trust` agent "
-"configuration key to allow request from the server IP address. It is not "
-"mandatoried, but the fallback solution (token) has various drawback."
+"agent has to be running as a daemon or a service, and the server must be "
+"able to contact the agent web interface (defaut port: 62354). Additionaly, "
+"on windows XP, a nasty name resolution issue (#2190) requires to explicitely "
+"add the server IP address to agent httpd-trust configuration directive."
 msgstr ""

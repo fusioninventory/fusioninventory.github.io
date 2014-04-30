@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2014-03-18 16:19+0000\n"
+"POT-Creation-Date: 2014-04-30 11:15+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -20,6 +20,12 @@ msgstr ""
 #, no-wrap
 msgid "[[!meta  date=\"2014-03-10\"]]\n"
 msgstr "[[!meta  date=\"2014-03-10\"]]\n"
+
+#. type: Title #
+#, fuzzy, no-wrap
+#| msgid "The FusionInventory Agent maintainers are glad to announce the 2.3.6 release."
+msgid "FusionInventory Agent 2.3.6 release"
+msgstr "Les développeurs de l'Agent FusionInventory sont heureux d'annoncer la nouvelle version 2.3.6."
 
 #. type: Plain text
 msgid "Hello FusionInventory users,"
