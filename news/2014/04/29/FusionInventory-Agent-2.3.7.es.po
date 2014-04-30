@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2014-04-30 11:20+0000\n"
+"POT-Creation-Date: 2014-04-30 11:23+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -63,7 +63,7 @@ msgstr ""
 
 #. type: Plain text
 msgid ""
-"This release drop support for deprecated SNMP dictionary and SNMP models, "
+"This release drops support for deprecated SNMP dictionary and SNMP models, "
 "allowing a large code cleanup for network discovery and inventory, while "
 "also providing better retrieval of firmware and serial numbers. It also "
 "fixes multiple minor issues with local inventory, and allows to log executed "
@@ -72,8 +72,8 @@ msgstr ""
 
 #. type: Plain text
 msgid ""
-"The subsequent 2.3.7.1 release just fixes a crash for BSD users in inventory "
-"tasks."
+"The subsequent 2.3.7.1 release only fixes a crash for BSD users in local "
+"inventory."
 msgstr ""
 
 #. type: Plain text
