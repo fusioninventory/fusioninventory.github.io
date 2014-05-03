@@ -4,7 +4,7 @@ To get complete inventory of switches, printers and other devices over the netwo
 
 Despite standardization, information retrieved through this protocol differs
 from device to device, so we have to use mappings between GLPI fields and SNMP
-variable identifiers (OIDS). Those mappings are refered as 'SNMP models'.
+variable identifiers (OIDS). Those mappings are now coded in agent since version 2.3.4 ('SNMP models' are not used now). See this news for more information: <http://www.fusioninventory.org/news/2014/03/12/network_inventory_improvement/>
 
 [[!graph  src="""
     style=filled;
@@ -16,7 +16,7 @@ variable identifiers (OIDS). Those mappings are refered as 'SNMP models'.
                 style=filled;
                 color=lightgrey;
                 node [style=filled,color=white];
-                "SNMP" -> "FusionInventory SNMP Model" -> "XML" 
+                "SNMP" -> "SNMP convert" -> "XML" 
                 label = "FusionInventory Agent";
         }
 
@@ -29,33 +29,11 @@ variable identifiers (OIDS). Those mappings are refered as 'SNMP models'.
 """]]
 
 
-Since FusionInventory for GLPI 0.83+2.0, we provide a tool to create yourself your
-model fil.
+Since FusionInventory for GLPI 0.84+2.2, we not need SNMP models (and in 0.85 version it's removed).
 
-# How it works
+# Missing informations in SNMP inventory
 
-The tool has 2 parts:
-
-* Client part: Panel in the FusionInventory for GLPI plugin
-* Server part: Maintained by the FusionInventory project
-
-This is a short description of the steps for create de model
-
-1. Client authenticates on the server
-1. User adds sysdescr of the device into GLPI and sends it to server
-1. Server checks and responds if it already exists
-1. User uploads an SNMP walk file into his local GLPI
-1. Server gets all OIDs available in server
-1. User checks OID mapping and sends it to server
-1. Server receives OID mapping, updates the database and creates new models
-1. (All!) User can now get the new models
-
-# Preparation
-
-You need 2 things for using this tool:
-
-* Have an account on SNMP model creation server, for this, send mail to d.durieux@siprossii.com with object 'SNMP TOOL ACCOUNT'
-* Open your firewall for IP 93.93.45.69 (snmp.fusioninventory.org) and the port 80 (HTTP protocol, can transit by proxy without problems)
+If not all information are in the XML, created by the agent, send a snmpwalk and informations to walk@fusioninventory.org
 
 # Install snmpwalk
 
@@ -77,123 +55,11 @@ and comment out the line "mibs:" in /etc/snmp/snmp.conf.
 
     # yum install net-snmp-utils
 
-# Add SNMP submission account info in plugin
 
-To add an account: 
-
-1. You get account information we send to you by email
-1. Go in menu __Administration__ > __Users__ 
-1. Go in your user form
-1. in tab _SNMP model tool account_, put login name, password and the key
-
-# Access Tool
-
-You can access SNMP tool menu by go to __Plugins__ > __FusionInventory__ > __SNMP__ > __SNMP models creation__
-
-# Create SNMP model
-
-Create a SNMP model mean manage OID mapping for your device.
-You don't define the model directly, you define oid mapping for a device and after the server generate a model.
-
-## Search for a sysdescr
-
-[[!img screenshots/snmpmodels-sysdescr.png]]
-
-1. Go in menu _Check a sysdescr_
-1. Define the itemtype : if it's a printer, network equipment (switch, routers)
-1. Put the sysdescr of your device
-1. Submit
-
-## Upload an SNMPwalk file
-
-If the device with this __sysdescr__ exist on the server, you can go to the next section _Device information_
-
-[[!template  id=warning text="""
-If you have problems importing your file, take a look at apache and glpi logs.
-
-Perhaps you will need some changes in php.ini. So check: post_max_size, memory_limit," "max_execution_time, max_input_time and memory_limit.
-
-Also confirm if you have these folders accessible to apache: /glpi/files/_plugins/fusinvsnmp/tmpmodels/ and /glpi/files/_plugins/fusinvsnmp/walks/
-"""]]
-
-
-Once you have submit __sysdescr__, a form appear with possibility to upload an
-snmpwalk file.  The command to generate this file is on the interface:
+# This is the command to create the snmlwalk file
 
     # snmpwalk -v [version] -Cc -On -t 30 -c [community] [yourip] .1 > file.log
 
 For example:
 
     # snmpwalk -v 2c -Cc -On -t 30 -c public 192.168.0.10 .1 > file.log
-
-[[!img screenshots/snmpmodels-upload_snmpwalk.png]]
-
-In this case, you will go directly in section __Edit OID__
-
-
-## Edit an SNMP model
-
-[[!img screenshots/snmpmodels-construct_model.png]]
-
-[[!template  id=warning text="""
-Because SNMP Inventory update existing network devices with either a __serial
-number__ or a __MAC address__ , you'll have to make sure that at least one of those OID are checked.
-"""]]
-
-[[!template  id=warning text="""
-The percentage progress bar mean this oid is use for this mapping at xx% by all devices (and so by SNMP models). 
-
-So if you have more than one oid for a mapping, see oids have the right value, if you have
-for example 2 oids with the right value, check the oid have the highest percentage.
-"""]]
-
-[[!template  id=warning text="""
-Because FusionInventory Agent uses either **firmware** or **firmware1+firmware2**,
-make sure to only check one of those combinations.
-"""]]
-
-### Color legend
-
-Around each frame in a mapping name (comment, serial, firmware...), you can have 3 colors:
-
-* green: it's the oid already used (in case you edit an existing device)
-* blue: it's the oid suggested by the program
-* red: it's the oid not suggested but in some case can be used
-
-## Load the new model
-
-On the model is finish, you have to go in the _SNMP_ -> _SNMP models creation_ -> _See All SNMP models_
-screen, select and load the new model.
-
-[[!template  id=warning text="""
-Because of a known bug in 0.83+2.1 ([[!bug 1917]]), you wont be able to load the newly create module with
-the _Load the correct model_ button from the _FusInv SNMP_ screen. You have to associate it manually.
-"""]]
-
-
-## Device information
-
-# Get SNMP models and available for all
-
-When you have an account, you have access to all models created on the server.
-For that, go in menu __Plugins__ > __FusionInventory__ > __SNMP__ > __SNMP models creation__ > __See All SNMP models__.
-
-In this page, you can see:
-
-* Models not imported (so new models since last release of plugin FusionInventory)
-* Models to be updated (so modified models since last release of plugin FusionInventory)
-* Models up to date 
-
-You can check models you want to import and click, on bottom, on button import.
-The model is in your plugin FusionInventory and can used it now.
-
-When we release the plugin FusionInventory for GLPI, we mark all these models as stable.
-
-[[!template  id=warning text="""
-If you try to import the whole model list, GLPI may complains about a privilege issue with
-the following message *The action you have requested is not allowed.*. It's
-probably due to your PHP max_input_vars configuration. You can try to improve the value
-by changes the value in php.ini and restarting Apache.
-"""]]
-
-
