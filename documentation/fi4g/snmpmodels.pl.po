@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2013-10-24 15:47+0000\n"
+"POT-Creation-Date: 2014-05-03 08:36+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -31,8 +31,10 @@ msgstr ""
 msgid ""
 "Despite standardization, information retrieved through this protocol differs "
 "from device to device, so we have to use mappings between GLPI fields and "
-"SNMP variable identifiers (OIDS). Those mappings are refered as 'SNMP "
-"models'."
+"SNMP variable identifiers (OIDS). Those mappings are now coded in agent "
+"since version 2.3.4 ('SNMP models' are not used now). See this news for more "
+"information: <http://www.fusioninventory.org/news/2014/03/12/"
+"network_inventory_improvement/>"
 msgstr ""
 
 #. type: Plain text
@@ -56,7 +58,7 @@ msgid ""
 "                style=filled;\n"
 "                color=lightgrey;\n"
 "                node [style=filled,color=white];\n"
-"                \"SNMP\" -> \"FusionInventory SNMP Model\" -> \"XML\" \n"
+"                \"SNMP\" -> \"SNMP convert\" -> \"XML\" \n"
 "                label = \"FusionInventory Agent\";\n"
 "        }\n"
 msgstr ""
@@ -77,83 +79,19 @@ msgstr ""
 
 #. type: Plain text
 msgid ""
-"Since FusionInventory for GLPI 0.83+2.0, we provide a tool to create "
-"yourself your model fil."
+"Since FusionInventory for GLPI 0.84+2.2, we not need SNMP models (and in "
+"0.85 version it's removed)."
 msgstr ""
 
 #. type: Title #
 #, no-wrap
-msgid "How it works"
+msgid "Missing informations in SNMP inventory"
 msgstr ""
 
 #. type: Plain text
-msgid "The tool has 2 parts:"
-msgstr ""
-
-#. type: Bullet: '* '
-msgid "Client part: Panel in the FusionInventory for GLPI plugin"
-msgstr ""
-
-#. type: Bullet: '* '
-msgid "Server part: Maintained by the FusionInventory project"
-msgstr ""
-
-#. type: Plain text
-msgid "This is a short description of the steps for create de model"
-msgstr ""
-
-#. type: Bullet: '1. '
-msgid "Client authenticates on the server"
-msgstr ""
-
-#. type: Bullet: '1. '
-msgid "User adds sysdescr of the device into GLPI and sends it to server"
-msgstr ""
-
-#. type: Bullet: '1. '
-msgid "Server checks and responds if it already exists"
-msgstr ""
-
-#. type: Bullet: '1. '
-msgid "User uploads an SNMP walk file into his local GLPI"
-msgstr ""
-
-#. type: Bullet: '1. '
-msgid "Server gets all OIDs available in server"
-msgstr ""
-
-#. type: Bullet: '1. '
-msgid "User checks OID mapping and sends it to server"
-msgstr ""
-
-#. type: Bullet: '1. '
 msgid ""
-"Server receives OID mapping, updates the database and creates new models"
-msgstr ""
-
-#. type: Bullet: '1. '
-msgid "(All!) User can now get the new models"
-msgstr ""
-
-#. type: Title #
-#, no-wrap
-msgid "Preparation"
-msgstr ""
-
-#. type: Plain text
-msgid "You need 2 things for using this tool:"
-msgstr ""
-
-#. type: Bullet: '* '
-msgid ""
-"Have an account on SNMP model creation server, for this, send mail to d."
-"durieux@siprossii.com with object 'SNMP TOOL ACCOUNT'"
-msgstr ""
-
-#. type: Bullet: '* '
-msgid ""
-"Open your firewall for IP 93.93.45.69 (snmp.fusioninventory.org) and the "
-"port 80 (HTTP protocol, can transit by proxy without problems)"
+"If not all information are in the XML, created by the agent, send a snmpwalk "
+"and informations to walk@fusioninventory.org"
 msgstr ""
 
 #. type: Title #
@@ -207,116 +145,7 @@ msgstr ""
 
 #. type: Title #
 #, no-wrap
-msgid "Add SNMP submission account info in plugin"
-msgstr ""
-
-#. type: Plain text
-msgid "To add an account:"
-msgstr ""
-
-#. type: Bullet: '1. '
-msgid "You get account information we send to you by email"
-msgstr ""
-
-#. type: Bullet: '1. '
-msgid "Go in menu __Administration__ > __Users__"
-msgstr ""
-
-#. type: Bullet: '1. '
-msgid "Go in your user form"
-msgstr ""
-
-#. type: Bullet: '1. '
-msgid "in tab _SNMP model tool account_, put login name, password and the key"
-msgstr ""
-
-#. type: Title #
-#, no-wrap
-msgid "Access Tool"
-msgstr ""
-
-#. type: Plain text
-#, no-wrap
-msgid "You can access SNMP tool menu by go to __Plugins__ > __FusionInventory__ > __SNMP__ > __SNMP models creation__\n"
-msgstr ""
-
-#. type: Title #
-#, no-wrap
-msgid "Create SNMP model"
-msgstr ""
-
-#. type: Plain text
-msgid ""
-"Create a SNMP model mean manage OID mapping for your device.  You don't "
-"define the model directly, you define oid mapping for a device and after the "
-"server generate a model."
-msgstr ""
-
-#. type: Title ##
-#, no-wrap
-msgid "Search for a sysdescr"
-msgstr ""
-
-#. type: Plain text
-#, no-wrap
-msgid "[[!img screenshots/snmpmodels-sysdescr.png]]\n"
-msgstr ""
-
-#. type: Bullet: '1. '
-msgid "Go in menu _Check a sysdescr_"
-msgstr ""
-
-#. type: Bullet: '1. '
-msgid ""
-"Define the itemtype : if it's a printer, network equipment (switch, routers)"
-msgstr ""
-
-#. type: Bullet: '1. '
-msgid "Put the sysdescr of your device"
-msgstr ""
-
-#. type: Bullet: '1. '
-msgid "Submit"
-msgstr ""
-
-#. type: Title ##
-#, no-wrap
-msgid "Upload an SNMPwalk file"
-msgstr ""
-
-#. type: Plain text
-msgid ""
-"If the device with this __sysdescr__ exist on the server, you can go to the "
-"next section _Device information_"
-msgstr ""
-
-#. type: Plain text
-#, no-wrap
-msgid "[[!template  id=warning text=\"\"\"\n"
-msgstr ""
-
-#. type: Plain text
-msgid ""
-"If you have problems importing your file, take a look at apache and glpi "
-"logs."
-msgstr ""
-
-#. type: Plain text
-msgid ""
-"Perhaps you will need some changes in php.ini. So check: post_max_size, "
-"memory_limit,\" \"max_execution_time, max_input_time and memory_limit."
-msgstr ""
-
-#. type: Plain text
-msgid ""
-"Also confirm if you have these folders accessible to apache: /glpi/files/"
-"_plugins/fusinvsnmp/tmpmodels/ and /glpi/files/_plugins/fusinvsnmp/walks/"
-msgstr ""
-
-#. type: Plain text
-msgid ""
-"Once you have submit __sysdescr__, a form appear with possibility to upload "
-"an snmpwalk file.  The command to generate this file is on the interface:"
+msgid "This is the command to create the snmlwalk file"
 msgstr ""
 
 #. type: Plain text
@@ -331,149 +160,4 @@ msgstr ""
 #. type: Plain text
 #, no-wrap
 msgid "    # snmpwalk -v 2c -Cc -On -t 30 -c public 192.168.0.10 .1 > file.log\n"
-msgstr ""
-
-#. type: Plain text
-#, no-wrap
-msgid "[[!img screenshots/snmpmodels-upload_snmpwalk.png]]\n"
-msgstr ""
-
-#. type: Plain text
-msgid "In this case, you will go directly in section __Edit OID__"
-msgstr ""
-
-#. type: Title ##
-#, no-wrap
-msgid "Edit an SNMP model"
-msgstr ""
-
-#. type: Plain text
-#, no-wrap
-msgid "[[!img screenshots/snmpmodels-construct_model.png]]\n"
-msgstr ""
-
-#. type: Plain text
-msgid ""
-"Because SNMP Inventory update existing network devices with either a "
-"__serial number__ or a __MAC address__ , you'll have to make sure that at "
-"least one of those OID are checked."
-msgstr ""
-
-#. type: Plain text
-msgid ""
-"The percentage progress bar mean this oid is use for this mapping at xx% by "
-"all devices (and so by SNMP models)."
-msgstr ""
-
-#. type: Plain text
-msgid ""
-"So if you have more than one oid for a mapping, see oids have the right "
-"value, if you have for example 2 oids with the right value, check the oid "
-"have the highest percentage."
-msgstr ""
-
-#. type: Plain text
-msgid ""
-"Because FusionInventory Agent uses either **firmware** or "
-"**firmware1+firmware2**, make sure to only check one of those combinations."
-msgstr ""
-
-#. type: Title ###
-#, no-wrap
-msgid "Color legend"
-msgstr ""
-
-#. type: Plain text
-msgid ""
-"Around each frame in a mapping name (comment, serial, firmware...), you can "
-"have 3 colors:"
-msgstr ""
-
-#. type: Bullet: '* '
-msgid "green: it's the oid already used (in case you edit an existing device)"
-msgstr ""
-
-#. type: Bullet: '* '
-msgid "blue: it's the oid suggested by the program"
-msgstr ""
-
-#. type: Bullet: '* '
-msgid "red: it's the oid not suggested but in some case can be used"
-msgstr ""
-
-#. type: Title ##
-#, no-wrap
-msgid "Load the new model"
-msgstr ""
-
-#. type: Plain text
-#, no-wrap
-msgid ""
-"On the model is finish, you have to go in the _SNMP_ -> _SNMP models creation_ -> _See All SNMP models_\n"
-"screen, select and load the new model.\n"
-msgstr ""
-
-#. type: Plain text
-msgid ""
-"Because of a known bug in 0.83+2.1 ([[!bug 1917]]), you wont be able to load "
-"the newly create module with the _Load the correct model_ button from the "
-"_FusInv SNMP_ screen. You have to associate it manually."
-msgstr ""
-
-#. type: Title ##
-#, no-wrap
-msgid "Device information"
-msgstr ""
-
-#. type: Title #
-#, no-wrap
-msgid "Get SNMP models and available for all"
-msgstr ""
-
-#. type: Plain text
-#, no-wrap
-msgid ""
-"When you have an account, you have access to all models created on the server.\n"
-"For that, go in menu __Plugins__ > __FusionInventory__ > __SNMP__ > __SNMP models creation__ > __See All SNMP models__.\n"
-msgstr ""
-
-#. type: Plain text
-msgid "In this page, you can see:"
-msgstr ""
-
-#. type: Bullet: '* '
-msgid ""
-"Models not imported (so new models since last release of plugin "
-"FusionInventory)"
-msgstr ""
-
-#. type: Bullet: '* '
-msgid ""
-"Models to be updated (so modified models since last release of plugin "
-"FusionInventory)"
-msgstr ""
-
-#. type: Bullet: '* '
-msgid "Models up to date"
-msgstr ""
-
-#. type: Plain text
-msgid ""
-"You can check models you want to import and click, on bottom, on button "
-"import.  The model is in your plugin FusionInventory and can used it now."
-msgstr ""
-
-#. type: Plain text
-msgid ""
-"When we release the plugin FusionInventory for GLPI, we mark all these "
-"models as stable."
-msgstr ""
-
-#. type: Plain text
-msgid ""
-"If you try to import the whole model list, GLPI may complains about a "
-"privilege issue with the following message *The action you have requested is "
-"not allowed.*. It's probably due to your PHP max_input_vars configuration. "
-"You can try to improve the value by changes the value in php.ini and "
-"restarting Apache."
 msgstr ""
