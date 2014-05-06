@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2014-05-03 08:36+0000\n"
+"POT-Creation-Date: 2014-05-06 09:40+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -106,7 +106,7 @@ msgstr ""
 
 #. type: Plain text
 msgid ""
-"As the MIBs are not DFSG free, you will need to follow the instrutions from "
+"As the MIBs are not DFSG free, you will need to follow the instructions from "
 "the debian wiki : [[!debwiki SNMP]]."
 msgstr ""
 
@@ -145,7 +145,7 @@ msgstr ""
 
 #. type: Title #
 #, no-wrap
-msgid "This is the command to create the snmlwalk file"
+msgid "This is the command to create the snmpwalk file"
 msgstr ""
 
 #. type: Plain text
