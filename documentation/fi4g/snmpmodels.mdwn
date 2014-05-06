@@ -39,7 +39,7 @@ If not all information are in the XML, created by the agent, send a snmpwalk and
 
 ## Debian
 
-As the MIBs are not DFSG free, you will need to follow the instrutions from the debian wiki : [[!debwiki SNMP]].
+As the MIBs are not DFSG free, you will need to follow the instructions from the debian wiki : [[!debwiki SNMP]].
 
 For Debian 7 (wheezy) :
 
@@ -56,7 +56,7 @@ and comment out the line "mibs:" in /etc/snmp/snmp.conf.
     # yum install net-snmp-utils
 
 
-# This is the command to create the snmlwalk file
+# This is the command to create the snmpwalk file
 
     # snmpwalk -v [version] -Cc -On -t 30 -c [community] [yourip] .1 > file.log
 
