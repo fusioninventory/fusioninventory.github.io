@@ -6,8 +6,8 @@ The FusionInventory team will be present in Paris (France), the 20 and 21 May 20
 The developpers present at the exhibition stand are:
 
 * David Durieux (the 2 days)
-* Kevin Roy (the 2 days)
 * Guillaume Rousse (the 21 only)
+* Kevin Roy (the 2 days)
 
 So if you want to speak agent developpment, prefer come the 21 instead the 20.
 
