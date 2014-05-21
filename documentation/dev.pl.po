@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2014-03-19 23:20+0000\n"
+"POT-Creation-Date: 2014-05-21 11:28+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -59,6 +59,15 @@ msgstr ""
 #. type: Bullet: '* '
 msgid ""
 "[[How works fusion server (SNMP tool server)|dev/fusion_server_snmp_tool]]"
+msgstr ""
+
+#. type: Title #
+#, no-wrap
+msgid "Standalone server"
+msgstr ""
+
+#. type: Bullet: '* '
+msgid "[[Stand alone server|dev/standaloneserver]]"
 msgstr ""
 
 #. type: Title #
