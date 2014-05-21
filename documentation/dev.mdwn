@@ -15,6 +15,10 @@
 
 * [[How works fusion server (SNMP tool server)|dev/fusion_server_snmp_tool]]
 
+# Standalone server
+
+* [[Stand alone server|dev/standaloneserver]]
+
 # Fusioninventory plugin for GLPI
 
 * Branches: <br/>
