@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2014-05-22 07:55+0000\n"
+"POT-Creation-Date: 2014-05-22 08:00+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -83,4 +83,35 @@ msgstr ""
 msgid ""
 "Query API REST sur tel ou tel switch (ou via une restriction telle que ip commence par), l'agent qui doit faire l'inventaire\n"
 " ou alors un API REST qui va créer une tache.\n"
+msgstr ""
+
+#. type: Bullet: '* '
+msgid "storage"
+msgstr ""
+
+#. type: Plain text
+msgid "Si on utilise un storage, quoi choisir"
+msgstr ""
+
+#. type: Bullet: '  * '
+msgid "base de donnée NoSQL"
+msgstr ""
+
+#. type: Plain text
+msgid "Pour :"
+msgstr ""
+
+#. type: Plain text
+msgid "Contre :"
+msgstr ""
+
+#. type: Bullet: '  * '
+msgid "base de donnée type GRAPH."
+msgstr ""
+
+#. type: Plain text
+#, no-wrap
+msgid ""
+"Pour :\n"
+" * Les données sont liées les unes aux autres, donc ça ne parait pas trop bête\n"
 msgstr ""
