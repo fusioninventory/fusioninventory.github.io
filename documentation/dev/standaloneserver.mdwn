@@ -19,9 +19,8 @@ Standalone server
 * Mise à jour inventaire ordinateur
 
 Agent ---XML----> Server ---convert in JSON ----> (storage + elasticsearch) OR (only elasticsearch)
-                                              |
-                                              |
-Agent ---JSON---> Server ---------------------
+
+Agent ---JSON---> Server ---------------------------^
 
 
 * API REST
