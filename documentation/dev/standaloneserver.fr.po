@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2014-05-22 07:53+0000\n"
+"POT-Creation-Date: 2014-05-22 07:55+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -48,11 +48,12 @@ msgstr ""
 
 #. type: Plain text
 #, no-wrap
-msgid ""
-"Agent ---XML----> Server ---convert in JSON ----> (storage + elasticsearch) OR (only elasticsearch)\n"
-"                                              |\n"
-"                                              |\n"
-"Agent ---JSON---> Server ---------------------\n"
+msgid "Agent ---XML----> Server ---convert in JSON ----> (storage + elasticsearch) OR (only elasticsearch)\n"
+msgstr ""
+
+#. type: Plain text
+#, no-wrap
+msgid "Agent ---JSON---> Server ---------------------------^\n"
 msgstr ""
 
 #. type: Bullet: '* '
