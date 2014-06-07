@@ -1,0 +1,3 @@
+hen you install the plugin fusioninventory glpi I have the following error appeared: "fileinfo extension (PHP) is required ..." 
+I do not have access to the php extensions folder, because the server where the site is not allow. 
+how to solve?.
