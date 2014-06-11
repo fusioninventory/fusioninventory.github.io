@@ -32,16 +32,16 @@ msgstr ""
 
 #. type: Title ##
 #, no-wrap
-msgid "Get the Installer"
+msgid "Baixe o instalador"
 msgstr ""
 
 #. type: Plain text
 msgid ""
-"You can get the last FusionInventory Agent installer for Microsoft Windows "
-"[here](http://forge.fusioninventory.org/projects/fusioninventory-agent-"
+"Você pode baixar o último instalador do FusionInventory Agent para Microsoft Windows "
+"[aqui](http://forge.fusioninventory.org/projects/fusioninventory-agent-"
 "windows-installer/files \"http://forge.fusioninventory.org/projects/"
-"fusioninventory-agent-windows-installer/files\"). The file name of the "
-"installer follows this pattern:"
+"fusioninventory-agent-windows-installer/files\"). O nome do arquivo de"
+"instalação segue o seguinte padrão:"
 msgstr ""
 
 #. type: Plain text
@@ -83,9 +83,9 @@ msgstr ""
 
 #. type: Bullet: '* '
 msgid ""
-"It's possible to install *fusioninventory-agent_windows_x86_\\<version>.exe* "
-"on a 32-bit or 64-bit Microsoft Windows system but only is possible to "
-"install *fusioninventory-agent_windows_x64_\\<version>.exe* on a 64-bit "
+"É possível instalar *fusioninventory-agent_windows_x86_\\<version>.exe* "
+"em uma 32-bit ou 64-bit Microsoft Windows mas apenas é possível"
+"instalar *fusioninventory-agent_windows_x64_\\<version>.exe* em um 64-bit "
 "Microsoft Windows system."
 msgstr ""
 
