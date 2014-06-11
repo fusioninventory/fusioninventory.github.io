@@ -28,7 +28,7 @@ msgstr ""
 
 #. type: Plain text
 msgid ""
-"First, download archive the here: <http://forge.fusioninventory.org/projects/"
+"Primeiro, baixe o arquivo aqui: <http://forge.fusioninventory.org/projects/"
 "fusioninventory-for-glpi/files>"
 msgstr ""
 
