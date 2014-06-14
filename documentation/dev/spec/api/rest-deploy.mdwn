@@ -29,7 +29,7 @@ list.
 
 Jobs are processed in the order given by the server.
 
-```
+~~~~
 {
    "jobs" : [
       {
@@ -250,7 +250,7 @@ Jobs are processed in the order given by the server.
       }
    }
 }
-```
+~~~~
 
 ###  Answer structure format (jobs)
 
