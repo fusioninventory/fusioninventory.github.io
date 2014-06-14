@@ -14,6 +14,16 @@ h1, h2, h3, h4, h5, h6 {
 	color: rgb(218,51,36);
 }
 
+h3 {
+    padding-left: 0.5em;
+    color: black;
+}
+
+h4 {
+    padding-left: 1em;
+    color: #555;
+}
+
 .header {
   font-size: 110%;
   }
