@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2014-06-14 17:09+0000\n"
+"POT-Creation-Date: 2014-06-14 17:34+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -31,14 +31,24 @@ msgid ""
 "This module is used to do remote software deployments and command executions."
 msgstr ""
 
-#. type: Title #
+#. type: Plain text
 #, no-wrap
-msgid "jobs request: /deploy?action=getJobs&machineid=$machineid"
+msgid "[[!toc startlevel=2]]\n"
 msgstr ""
 
 #. type: Title ##
 #, no-wrap
+msgid "Jobs request"
+msgstr ""
+
+#. type: Title ###
+#, no-wrap
 msgid "Request"
+msgstr ""
+
+#. type: Plain text
+#, no-wrap
+msgid "    /deploy?action=getJobs&machineid=$machineid\n"
 msgstr ""
 
 #. type: Plain text
@@ -66,7 +76,7 @@ msgstr ""
 
 #. type: Title ###
 #, no-wrap
-msgid "jobs"
+msgid "Answer"
 msgstr ""
 
 #. type: Plain text
@@ -524,67 +534,39 @@ msgstr ""
 msgid "Only the files used by the jobs must be in this list."
 msgstr ""
 
-#. type: Title ####
-#, no-wrap
-msgid "name"
+#. type: Bullet: '* '
+msgid "``name`` : the local name of the file"
 msgstr ""
 
-#. type: Plain text
-msgid "the local name of the file"
+#. type: Bullet: '* '
+msgid "``uncompress`` : should the archive be extracted"
 msgstr ""
 
-#. type: Title ####
-#, no-wrap
-msgid "uncompress"
-msgstr ""
-
-#. type: Plain text
-msgid "should the archive be extracted"
-msgstr ""
-
-#. type: Title ####
-#, no-wrap
-msgid "mirror"
-msgstr ""
-
-#. type: Plain text
-msgid "array of base URL"
-msgstr ""
-
-#. type: Plain text
+#. type: Bullet: '* '
 msgid ""
-"The needed, mirror path has to finish with a `/` if needed. The agent will "
-"join the mirror path directly with the multipart file name. The sha512 "
-"checksum is done after the optional gzip."
+"``mirror``: an array of base URL <br/> The mirror path must ends with a `/` "
+"if needed. The agent will join the mirror path directly with the multipart "
+"file name. The sha512 checksum is done after the optional gzip."
 msgstr ""
 
-#. type: Title ####
-#, no-wrap
-msgid "p2p"
+#. type: Bullet: '* '
+msgid "``p2p`` : does the file be shared with other agents ?"
 msgstr ""
 
-#. type: Plain text
-msgid "should the file be share between different agent"
-msgstr ""
-
-#. type: Title ####
-#, no-wrap
-msgid "p2p-retention-duration"
-msgstr ""
-
-#. type: Plain text
-msgid "how long a archive must be shared before being deleted (minute)"
-msgstr ""
-
-#. type: Title #
-#, no-wrap
-msgid "Update jobs status"
-msgstr ""
-
-#. type: Plain text
+#. type: Bullet: '* '
 msgid ""
-"/deploy?action=setStatus&machineid=$machineid&part=$part&uuid="
-"$uuid&currentStep=$currentStep&status=$status&msg=$msg"
+"``p2p-retention-duration``: how long an archive must be kept for sharing "
+"before its deletion from cache (minutes)"
+msgstr ""
+
+#. type: Title ##
+#, no-wrap
+msgid "Update jobs' status"
+msgstr ""
+
+#. type: Plain text
+#, no-wrap
+msgid "    /deploy?action=setStatus&machineid=$machineid&part=$part&uuid=$uuid&currentStep=$currentStep&status=$status&msg=$msg\n"
 msgstr ""
 
 #. type: Plain text
@@ -685,16 +667,11 @@ msgid ""
 "above, the begining may be silently truncated by the agent."
 msgstr ""
 
-#. type: Title ##
-#, no-wrap
-msgid "Answer"
-msgstr ""
-
 #. type: Plain text
 msgid "The expected answer is a JSON encoded empty hash ref {}."
 msgstr ""
 
-#. type: Title #
+#. type: Title ##
 #, no-wrap
 msgid "Multipart"
 msgstr ""
@@ -773,7 +750,7 @@ msgid ""
 "```\n"
 msgstr ""
 
-#. type: Title #
+#. type: Title ##
 #, no-wrap
 msgid "Communication examples"
 msgstr ""
