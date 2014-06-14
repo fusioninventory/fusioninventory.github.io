@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2013-07-10 10:00+0000\n"
+"POT-Creation-Date: 2014-06-14 15:38+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -310,7 +310,7 @@ msgstr ""
 
 #. type: Title ###
 #, no-wrap
-msgid "Answer structure format (actions)"
+msgid "Answer structure format (jobs)"
 msgstr ""
 
 #. type: Title ####
@@ -323,7 +323,7 @@ msgid "a list of operation to process"
 msgstr ""
 
 #. type: Plain text
-msgid "h5. messageBox"
+msgid "`messageBox`: Display an alert to the currently logged user."
 msgstr ""
 
 #. type: Bullet: '* '
@@ -339,7 +339,7 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-msgid "h5. cmd"
+msgid "`cmd`: Execute a command"
 msgstr ""
 
 #. type: Bullet: '* '
@@ -364,7 +364,7 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-msgid "h5. move"
+msgid "`move`: Move a file or directory"
 msgstr ""
 
 #. type: Bullet: '* '
@@ -376,15 +376,13 @@ msgid "to: destination file or directory"
 msgstr ""
 
 #. type: Plain text
-msgid "h5. copy"
+msgid "`copy`: Copy a file"
 msgstr ""
 
 #. type: Plain text
-msgid "h5. delete"
-msgstr ""
-
-#. type: Plain text
-msgid "Delete a list of file or directory. The command works like rm -Rf $arg"
+msgid ""
+"`delete`: Delete a list of file or directory. The command works like rm -Rf "
+"$arg"
 msgstr ""
 
 #. type: Bullet: '* '
@@ -392,11 +390,7 @@ msgid "list: a list of file or directory to remove"
 msgstr ""
 
 #. type: Plain text
-msgid "h5. mkdir"
-msgstr ""
-
-#. type: Plain text
-msgid "Create a list of directory"
+msgid "`mkdir`: Create a list of directory"
 msgstr ""
 
 #. type: Bullet: '* '
@@ -404,7 +398,7 @@ msgid "list: a list of directory to create"
 msgstr ""
 
 #. type: Plain text
-msgid "h5. installPkg (draft/not implementaire)"
+msgid "`installPkg` _(draft/not implemented)_"
 msgstr ""
 
 #. type: Bullet: '* '
@@ -444,63 +438,87 @@ msgid ""
 msgstr ""
 
 #. type: Bullet: '* '
-msgid "winkeyExists: true if $path is a valide key in the Windows registry."
+msgid "`winkeyExists`: true if $path is a valid key in the Windows registry."
 msgstr ""
 
 #. type: Bullet: '* '
 msgid ""
-"winkeyEquals: true if the content of $path in the registry is equal with "
+"`winkeyEquals`: true if the content of $path in the registry is equal with "
 "$value"
 msgstr ""
 
 #. type: Bullet: '* '
-msgid "winkeyMissing: true if $path doesn't exist in the Windows registry"
+msgid "`winkeyMissing`: true if $path doesn't exist in the Windows registry"
 msgstr ""
 
 #. type: Bullet: '* '
-msgid "fileExists: true if $path is a valide plain file"
+msgid "`fileExists`: true if $path is a valid plain file"
 msgstr ""
 
 #. type: Bullet: '* '
 msgid ""
-"fileSizeEquals: true if $path is a file and if its size size equals $value "
+"`fileSizeEquals`: true if $path is a file and if its size equals $value "
 "(Byte)"
 msgstr ""
 
 #. type: Bullet: '* '
 msgid ""
-"fileSizeGreater: true if $path is a file and if its size is greater than "
+"`fileSizeGreater`: true if $path is a file and if its size is greater than "
 "$value (Byte)"
 msgstr ""
 
 #. type: Bullet: '* '
 msgid ""
-"fileSizeLess: true if $path is a file and if its size is less than $value "
+"`fileSizeLess`: true if $path is a file and if its size is less than $value "
 "(Byte)"
 msgstr ""
 
 #. type: Bullet: '* '
-msgid "fileMissing: true is $path is not a file"
+msgid "`fileMissing`: true is $path is not a file"
 msgstr ""
 
 #. type: Bullet: '* '
 msgid ""
-"freespaceGreater: true if $path freespace is greater than $value (MByte)"
+"`freespaceGreater`: true if $path freespace is greater than $value (MByte)"
+msgstr ""
+
+#. type: Plain text
+#, no-wrap
+msgid "[[!template id=warning text=\"\"\"\n"
+msgstr ""
+
+#. type: Plain text
+msgid "Registry path must:"
+msgstr ""
+
+#. type: Bullet: '* '
+msgid "start with the complete hive name (HKEY_something)"
+msgstr ""
+
+#. type: Bullet: '* '
+msgid "use the `/` delimiter (not `\\ ` )"
 msgstr ""
 
 #. type: Plain text
 msgid ""
-"Registry path must: start with the complet hive name (HKEY_something) and "
-"use the / delimiter (not \\!)"
+"A check failure will stop a job and the type of failure can be interpreted "
+"like the following:"
+msgstr ""
+
+#. type: Bullet: '* '
+msgid ""
+"`ignore`: this failure is normal and the job can be treated sucessful.  <br/"
+"> > For example, the package is already installed or uninstalled"
 msgstr ""
 
 #. type: Plain text
+#, no-wrap
 msgid ""
-"Return information works this way: * ignore: the check failure is normal. "
-"For example, the package is already installed ('''not implemented yet, "
-"default is error''')  ** The block is ignored and the processing continue * "
-"error: the error is unexpected and force the installation stop. For example, "
-"there is no space left on the harddrive."
+"* `error`: this failure is unexpected and the job must be treated like\n"
+"  a critical error.\n"
+"  <br/>\n"
+"  > For example, there is no more space left on the harddrive to\n"
+"    process installation.\n"
 msgstr ""
 
 #. type: Title ###
@@ -541,7 +559,7 @@ msgstr ""
 
 #. type: Plain text
 msgid ""
-"The needed, mirror path has to finish with a '/' if needed. The agent will "
+"The needed, mirror path has to finish with a `/` if needed. The agent will "
 "join the mirror path directly with the multipart file name. The sha512 "
 "checksum is done after the optional gzip."
 msgstr ""
