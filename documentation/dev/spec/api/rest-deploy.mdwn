@@ -442,7 +442,7 @@ file.tar.gz-01.
 
 POST a log file for a given job.
 
-```
+~~~~
 #!/bin/sh
 
 MIRROR="http://deploy/ocsinventory/deploy/prepare/"
@@ -481,7 +481,7 @@ echo "
     \"name\" : \"$FILE\"
     }
 "
-```
+~~~~
 
 ##  Communication examples
 
