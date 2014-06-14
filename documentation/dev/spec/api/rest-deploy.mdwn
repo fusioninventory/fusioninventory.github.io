@@ -246,48 +246,44 @@ Job are processed in the order given by the server.
        }
     }
 
-###  Answer structure format (actions)
+###  Answer structure format (jobs)
 
 
 #### actions
 
 a list of operation to process
 
-h5. messageBox
+`messageBox`: Display an alert to the currently logged user.
 
 * msg: a hash table. keys are language code and the value are the strings. "default" is the default language.
 * type: the type of box to display to the user. info is an info box. postpone lets the user decide if the installation should be postponed.
 
-h5. cmd
+`cmd`: Execute a command
 
 * retChecks: a array of rule to eval to know if the command successed. Order matter. (type are: okPattern, errorPattern, okCode, errorCode)
 * exec: a string with the command the launch. 2>&1 is added as suffix by the agent at the run time.
 * envs: a hash of environment variable to set before the cmd execution
 * logLineLimit: the number of line to keep in the log (optional, default 3)
 
-h5. move
+`move`: Move a file or directory
 
 * from: source file or directory (* are accepted)
 * to: destination file or directory
 
-h5. copy
+`copy`: Copy a file
 
 * from: source file or directory (* are accepted)
 * to: destination file or directory
 
-h5. delete
-
-Delete a list of file or directory. The command works like rm -Rf $arg
+`delete`: Delete a list of file or directory. The command works like rm -Rf $arg
 
 * list: a list of file or directory to remove
 
-h5. mkdir
-
-Create a list of directory
+`mkdir`: Create a list of directory
 
 * list: a list of directory to create
 
-h5. installPkg (draft/not implementaire)
+`installPkg` _(draft/not implemented)_
 
 * name: the package name
 * method (optional): the method to use to install the package, (apt,yum)
@@ -302,22 +298,36 @@ The files needed must be listed in the files section (array).
 
 A array of check to evaluate. The code returned to the server and their behaviors a describe below.
 
-* winkeyExists: true if $path is a valide key in the Windows registry.
-* winkeyEquals: true if the content of $path in the registry is equal with $value
-* winkeyMissing: true if $path doesn't exist in the Windows registry
-* fileExists: true if $path is a valide plain file
-* fileSizeEquals: true if $path is a file and if its size size equals $value (Byte)
-* fileSizeGreater: true if $path is a file and if its size is greater than $value (Byte)
-* fileSizeLess: true if $path is a file and if its size is less than $value (Byte)
-* fileMissing: true is $path is not a file
-* freespaceGreater: true if $path freespace is greater than $value (MByte)
+* `winkeyExists`: true if $path is a valid key in the Windows registry.
+* `winkeyEquals`: true if the content of $path in the registry is equal with $value
+* `winkeyMissing`: true if $path doesn't exist in the Windows registry
+* `fileExists`: true if $path is a valid plain file
+* `fileSizeEquals`: true if $path is a file and if its size equals $value (Byte)
+* `fileSizeGreater`: true if $path is a file and if its size is greater than $value (Byte)
+* `fileSizeLess`: true if $path is a file and if its size is less than $value (Byte)
+* `fileMissing`: true is $path is not a file
+* `freespaceGreater`: true if $path freespace is greater than $value (MByte)
 
-Registry path must: start with the complet hive name (HKEY_something) and use the / delimiter (not \!)
+[[!template id=warning text="""
+Registry path must:
 
-Return information works this way:
-* ignore: the check failure is normal. For example, the package is already installed ('''not implemented yet, default is error''')
-** The block is ignored and the processing continue
-* error: the error is unexpected and force the installation stop. For example, there is no space left on the harddrive.
+* start with the complete hive name (HKEY_something)
+* use the `/` delimiter (not `\ ` )
+"""]]
+
+A check failure will stop a job and the type of failure can be
+interpreted like the following:
+
+* `ignore`: this failure is normal and the job can be
+  treated sucessful.
+  <br/>
+  > For example, the package is already installed or uninstalled
+
+* `error`: this failure is unexpected and the job must be treated like
+  a critical error.
+  <br/>
+  > For example, there is no more space left on the harddrive to
+    process installation.
 
 ###  Answer structure format (associatedFiles)
 
@@ -335,7 +345,7 @@ should the archive be extracted
 
 array of base URL
 
-The needed, mirror path has to finish with a '/' if needed. The agent will join the mirror path directly with the multipart file name. The sha512 checksum is done after the optional gzip.
+The needed, mirror path has to finish with a `/` if needed. The agent will join the mirror path directly with the multipart file name. The sha512 checksum is done after the optional gzip.
 
 #### p2p
 
