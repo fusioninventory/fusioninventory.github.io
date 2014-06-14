@@ -116,7 +116,9 @@ hr {
 
 code, pre {
   background-color: #f2f2f2;
-  color: #2e1a05; }
+  color: #2e1a05;
+  padding: 1px 3px;
+  }
 
 pre {
   padding: .5em;
@@ -540,6 +542,15 @@ span.color {
 	padding: 3px;
 }
 
+blockquote {
+    border-left: 5px solid #ddd;
+    margin: 0;
+/*    background-color: ;*/
+}
+blockquote p {
+    margin: 0 0.5em;
+}
+
 div.progress {
 	margin-top: 1ex;
 	margin-bottom: 1ex;
@@ -568,58 +579,64 @@ div.progress-done {
 }
 
 /* infobox template */
-.infobox {
-    float:none;
-    padding: 0;
-    margin: 0;
-	margin-top: 1ex;
-	margin-bottom: 1ex;
-/*	padding: 1ex 1ex;*/
-    padding-left: 48px;
-    min-height: 48px;
-	border: 1px solid #aaa;
-
-	background: #7F93C4;
-	color: black !important;
-    background-image: url(images/info.png);
-    background-repeat: no-repeat;
-    background-position-y: 50%;
-}
-
-/* ul inside infobox no margins */
-.infobox ul {
-    margin: 0; }
-
-
-/* warningbox template */
+.infobox,
 .warningbox {
     float:none;
     padding: 0;
     margin: 0;
 	margin-top: 1ex;
 	margin-bottom: 1ex;
-/*	padding: 1ex 1ex;*/
-    padding-left: 48px;
-    min-height: 48px;
+    padding-left: 52px;
+    min-height: 52px;
 	border: 1px solid #aaa;
 
-	background: #FFDA94;
-	color: black !important;
-    background-image: url(images/warning.png);
     background-repeat: no-repeat;
-    background-position-y: 50%;
+    background-position-y: 2px;
+    background-position-x: 2px;
+
 }
+
+.infobox {
+	background-color: #7F93C4;
+    background-image: url(images/info.png);
+}
+
+/* warningbox template */
+.warningbox {
+	background-color: #FFDA94;
+    background-image: url(images/warning.png);
+}
+/* ul inside infobox no margins */
+.boxcontent ul {
+    margin: 0;
+    padding-left: 1.5em;
+}
+
+
 .boxcontent {
     background-color:white;
     display:block;
     clear:both;
     min-height: inherit;
-    padding-left: 1em;
+    padding-left: 0.5em;
+    height: 100%;
 }
 
 .boxcontent > p {
     margin:0;
 /*    padding: 0.5em 0;*/
+}
+
+/* list element style */
+
+li * {
+    margin: 0.5em 0;
+}
+
+/* code elements style */
+
+code {
+    border-radius: 5px;
 }
 
 /* popup template and backlinks hiding */
