@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2014-07-16 18:45+0000\n"
+"POT-Creation-Date: 2014-07-16 18:47+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -70,11 +70,19 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
+msgid "Once the faulty component identified, use either:"
+msgstr ""
+
+#. type: Bullet: '* '
 msgid ""
-"Once the faulty component identified, use either: * [agent bugtracker]"
-"(http://forge.fusioninventory.org/projects/fusioninventory-agent/issues) for "
-"agent issues * [agent bugtracker](http://forge.fusioninventory.org/projects/"
-"fusioninventory-for-glpi/issues) for server issues"
+"[agent bugtracker](http://forge.fusioninventory.org/projects/fusioninventory-"
+"agent/issues) for agent issues"
+msgstr ""
+
+#. type: Bullet: '* '
+msgid ""
+"[agent bugtracker](http://forge.fusioninventory.org/projects/fusioninventory-"
+"for-glpi/issues) for server issues"
 msgstr ""
 
 #. type: Title ##
