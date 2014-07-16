@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2014-05-21 11:28+0000\n"
+"POT-Creation-Date: 2014-07-16 07:19+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -49,16 +49,6 @@ msgstr ""
 #. type: Bullet: '* '
 msgid ""
 "[[Official download location|documentation/dev/official_download_location]]"
-msgstr ""
-
-#. type: Title #
-#, no-wrap
-msgid "Fusion server"
-msgstr ""
-
-#. type: Bullet: '* '
-msgid ""
-"[[How works fusion server (SNMP tool server)|dev/fusion_server_snmp_tool]]"
 msgstr ""
 
 #. type: Title #
@@ -187,14 +177,6 @@ msgstr ""
 
 #. type: Bullet: '* '
 msgid "[[Switch stack inventory|documentation/dev/spec/switch_stack]]"
-msgstr ""
-
-#. type: Bullet: '* '
-msgid "[[SNMP dictionary|documentation/dev/spec/snmp-dictionnary]]"
-msgstr ""
-
-#. type: Bullet: '* '
-msgid "[[SNMP model|documentation/dev/spec/snmp-model]]"
 msgstr ""
 
 #. type: Bullet: '* '
