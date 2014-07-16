@@ -23,7 +23,9 @@ subtile differences may occurs, if the execution environment and privileges are
 not the same as non-interactive executions.
 
 Once the faulty component identified, use either:
+
 * [agent bugtracker](http://forge.fusioninventory.org/projects/fusioninventory-agent/issues) for agent issues
+
 * [agent bugtracker](http://forge.fusioninventory.org/projects/fusioninventory-for-glpi/issues) for server issues
 
 ## Problem description
