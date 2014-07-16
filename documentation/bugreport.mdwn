@@ -18,15 +18,16 @@ agent, and transmitted to the server. The easiest way is to enable
 *extra-debug* in the GLPI plugin configuration, which will add an
 additional *XML* tab to each GLPI object (computer, network device,
 etc...). Another solution is to use the various *fusioninventory-something*
-executables to produce the same content directly on the agent host. However,
-subtile differences may occurs, if the execution environment and privileges are
+executables (see [[executable man page|documentation/references]] for details)
+to produce the same content directly on the agent host. However, subtile
+differences may occurs, if the execution environment and privileges are
 not the same as non-interactive executions.
 
 Once the faulty component identified, use either:
 
 * [agent bugtracker](http://forge.fusioninventory.org/projects/fusioninventory-agent/issues) for agent issues
 
-* [agent bugtracker](http://forge.fusioninventory.org/projects/fusioninventory-for-glpi/issues) for server issues
+* [server bugtracker](http://forge.fusioninventory.org/projects/fusioninventory-for-glpi/issues) for server issues
 
 ## Problem description
 
@@ -46,7 +47,9 @@ It is useless to set a priority, it will be re-evaluated by the assignee anyway.
 ## Execution traces
 
 Agent log verbosity may be increased by using multiple *--debug* command-line
-arguments, or setting *debug* configuration parameters to an higher value.
+arguments (see [[executable man page|documentation/references]] for details),
+or setting *debug* configuration parameter to an higher value (see [[agent
+configuration|agent/configuration]] for details).
 
 Server log verbosity may be increased by enabling *extra-debug* configuration
 item in plugin configuration.
@@ -63,7 +66,7 @@ output, a file, whatever...). In order to reproduce the problem, fix it, and ens
 
 Either attach the relevant file or command output as an attachement to the bug
 report (just pasting it will usually result in formating loss), or if there is
-any privacy concern, send them by email to *walk at fusioninventory dot org*, with bug ID in mail title.
+any privacy concern, send them by email to *walk at fusioninventory dot org*, with bug ID in mail subject.
 
 When running any command for such purpose, unset locales first (export LC_ALL=C
 undef Unix) to avoid localized output. Here are other command-specific advices.
