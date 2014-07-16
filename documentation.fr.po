@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2013-05-07 14:52+0000\n"
+"POT-Creation-Date: 2014-07-16 07:19+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -29,6 +29,12 @@ msgstr "[[Schéma de principe|documentation/bigpicture]]"
 msgid "[[FAQ|documentation/faq]]"
 msgstr "[[FAQ|documentation/faq]]"
 
+#. type: Bullet: '* '
+#, fuzzy
+#| msgid "[[Report bug|documentation/agent/bugreport]]"
+msgid "[[Bug reporting|documentation/bugreport]]"
+msgstr "[[Signaler un bug|documentation/agent/bugreport]]"
+
 #. type: Title #
 #, no-wrap
 msgid "FusionInventory Agent"
@@ -45,10 +51,6 @@ msgstr "[[Configuration|documentation/agent/configuration]]"
 #. type: Bullet: '* '
 msgid "[[Usage|documentation/agent/usage]]"
 msgstr "[[Usage|documentation/agent/usage]]"
-
-#. type: Bullet: '* '
-msgid "[[Report bug|documentation/agent/bugreport]]"
-msgstr "[[Signaler un bug|documentation/agent/bugreport]]"
 
 #. type: Bullet: '* '
 msgid "[[References documentation|documentation/references]]"
@@ -68,37 +70,20 @@ msgid "FusionInventory for GLPI"
 msgstr "FusionInventory For GLPI"
 
 #. type: Bullet: '* '
-msgid ""
-"[[How to install or update FusionInventory for GLPI|documentation/fi4g/"
-"installation]]"
-msgstr ""
-"[[Installation ou mise à jour de FusionInventory For GLPI|documentation/fi4g/"
-"installation]]"
+#, fuzzy
+#| msgid "[[Installation|documentation/agent/installation]]"
+msgid "[[Installation and update|documentation/fi4g/installation]]"
+msgstr "[[Installation|documentation/agent/installation]]"
 
 #. type: Bullet: '* '
-msgid ""
-"[[How works «Equipment import and link rules»|documentation/fi4g/"
-"importrules]]"
+#, fuzzy
+#| msgid ""
+#| "[[How works «Equipment import and link rules»|documentation/fi4g/"
+#| "importrules]]"
+msgid "[[Import and link rules|documentation/fi4g/importrules]]"
 msgstr ""
 "[[Procédures sur les «Règles d'import et de liaison des matériels»|"
 "documentation/fi4g/importrules]]"
-
-#. type: Bullet: '* '
-msgid "[[How to scan my network|documentation/fi4g/networkdiscovery]]"
-msgstr "[[Comment scanner mon réseau|documentation/fi4g/networkdiscovery]]"
-
-#. type: Bullet: '* '
-msgid "[[How to inventory my ESX server|documentation/fi4g/esxinventory]]"
-msgstr ""
-"[[Comment inventorier mon serveur ESX|documentation/fi4g/esxinventory]]"
-
-#. type: Bullet: '* '
-msgid ""
-"[[How to deploy softwares with software deployment module|documentation/fi4g/"
-"deploy]]"
-msgstr ""
-"[[Comment déployer des logiciels avec le module déploiement|documentation/"
-"fi4g/deploy]]"
 
 #. type: Bullet: '* '
 msgid "[[How to deal with DMZ network|documentation/fi4g/dmz]]"
@@ -106,12 +91,39 @@ msgstr "[[Comment faire avec un réseau DMZ|documentation/fi4g/dmz]]"
 
 #. type: Title #
 #, no-wrap
-msgid "Advanced topics"
-msgstr "Rubriques avancées"
+msgid "How to"
+msgstr ""
 
 #. type: Bullet: '* '
-msgid "[[Create and manage SNMP models|documentation/fi4g/snmpmodels]]"
-msgstr "[[Création et gestion des modèles SNMP|documentation/fi4g/snmpmodels]]"
+#, fuzzy
+#| msgid "[[How to scan my network|documentation/fi4g/networkdiscovery]]"
+msgid "[[Scan my network|documentation/tasks/networkdiscovery]]"
+msgstr "[[Comment scanner mon réseau|documentation/fi4g/networkdiscovery]]"
+
+#. type: Bullet: '* '
+#, fuzzy
+#| msgid "[[How to inventory my ESX server|documentation/fi4g/esxinventory]]"
+msgid "[[Inventory remote devices|documentation/tasks/networkinventory]]"
+msgstr ""
+"[[Comment inventorier mon serveur ESX|documentation/fi4g/esxinventory]]"
+
+#. type: Bullet: '* '
+#, fuzzy
+#| msgid "[[How to inventory my ESX server|documentation/fi4g/esxinventory]]"
+msgid "[[Inventory ESX virtual machines|documentation/tasks/esxinventory]]"
+msgstr ""
+"[[Comment inventorier mon serveur ESX|documentation/fi4g/esxinventory]]"
+
+#. type: Bullet: '* '
+#, fuzzy
+#| msgid "[[for developers|documentation/dev]]"
+msgid "[[Deploy softwares|documentation/tasks/deploy]]"
+msgstr "[[Pour les développeurs|documentation/dev]]"
+
+#. type: Title #
+#, no-wrap
+msgid "Advanced topics"
+msgstr "Rubriques avancées"
 
 #. type: Bullet: '* '
 msgid "[[Security and SSL|documentation/agent/security_and_ssl]]"
@@ -151,3 +163,20 @@ msgstr "[[Traduction|documentation/translation]]"
 msgid "[[for developers|documentation/dev]]"
 msgstr "[[Pour les développeurs|documentation/dev]]"
 
+#~ msgid ""
+#~ "[[How to install or update FusionInventory for GLPI|documentation/fi4g/"
+#~ "installation]]"
+#~ msgstr ""
+#~ "[[Installation ou mise à jour de FusionInventory For GLPI|documentation/"
+#~ "fi4g/installation]]"
+
+#~ msgid ""
+#~ "[[How to deploy softwares with software deployment module|documentation/"
+#~ "fi4g/deploy]]"
+#~ msgstr ""
+#~ "[[Comment déployer des logiciels avec le module déploiement|documentation/"
+#~ "fi4g/deploy]]"
+
+#~ msgid "[[Create and manage SNMP models|documentation/fi4g/snmpmodels]]"
+#~ msgstr ""
+#~ "[[Création et gestion des modèles SNMP|documentation/fi4g/snmpmodels]]"

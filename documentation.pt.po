@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2013-05-07 14:52+0000\n"
+"POT-Creation-Date: 2014-07-16 07:19+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -29,6 +29,10 @@ msgstr ""
 msgid "[[FAQ|documentation/faq]]"
 msgstr ""
 
+#. type: Bullet: '* '
+msgid "[[Bug reporting|documentation/bugreport]]"
+msgstr ""
+
 #. type: Title #
 #, no-wrap
 msgid "FusionInventory Agent"
@@ -44,10 +48,6 @@ msgstr ""
 
 #. type: Bullet: '* '
 msgid "[[Usage|documentation/agent/usage]]"
-msgstr ""
-
-#. type: Bullet: '* '
-msgid "[[Report bug|documentation/agent/bugreport]]"
 msgstr ""
 
 #. type: Bullet: '* '
@@ -68,29 +68,11 @@ msgid "FusionInventory for GLPI"
 msgstr ""
 
 #. type: Bullet: '* '
-msgid ""
-"[[How to install or update FusionInventory for GLPI|documentation/fi4g/"
-"installation]]"
+msgid "[[Installation and update|documentation/fi4g/installation]]"
 msgstr ""
 
 #. type: Bullet: '* '
-msgid ""
-"[[How works «Equipment import and link rules»|documentation/fi4g/"
-"importrules]]"
-msgstr ""
-
-#. type: Bullet: '* '
-msgid "[[How to scan my network|documentation/fi4g/networkdiscovery]]"
-msgstr ""
-
-#. type: Bullet: '* '
-msgid "[[How to inventory my ESX server|documentation/fi4g/esxinventory]]"
-msgstr ""
-
-#. type: Bullet: '* '
-msgid ""
-"[[How to deploy softwares with software deployment module|documentation/fi4g/"
-"deploy]]"
+msgid "[[Import and link rules|documentation/fi4g/importrules]]"
 msgstr ""
 
 #. type: Bullet: '* '
@@ -99,11 +81,28 @@ msgstr ""
 
 #. type: Title #
 #, no-wrap
-msgid "Advanced topics"
+msgid "How to"
 msgstr ""
 
 #. type: Bullet: '* '
-msgid "[[Create and manage SNMP models|documentation/fi4g/snmpmodels]]"
+msgid "[[Scan my network|documentation/tasks/networkdiscovery]]"
+msgstr ""
+
+#. type: Bullet: '* '
+msgid "[[Inventory remote devices|documentation/tasks/networkinventory]]"
+msgstr ""
+
+#. type: Bullet: '* '
+msgid "[[Inventory ESX virtual machines|documentation/tasks/esxinventory]]"
+msgstr ""
+
+#. type: Bullet: '* '
+msgid "[[Deploy softwares|documentation/tasks/deploy]]"
+msgstr ""
+
+#. type: Title #
+#, no-wrap
+msgid "Advanced topics"
 msgstr ""
 
 #. type: Bullet: '* '
