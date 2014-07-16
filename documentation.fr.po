@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2014-07-16 07:19+0000\n"
+"POT-Creation-Date: 2014-07-16 07:40+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -139,15 +139,6 @@ msgstr ""
 
 #. type: Title #
 #, no-wrap
-msgid "Bug report"
-msgstr "Signaler un bug"
-
-#. type: Bullet: '* '
-msgid "[[Report a bug on the Agent|documentation/agent/bugreport]]"
-msgstr "[[Signaler un bug de l'Agent|documentation/agent/bugreport]]"
-
-#. type: Title #
-#, no-wrap
 msgid "Contributor "
 msgstr "Contribution"
 
@@ -162,6 +153,12 @@ msgstr "[[Traduction|documentation/translation]]"
 #. type: Bullet: '* '
 msgid "[[for developers|documentation/dev]]"
 msgstr "[[Pour les développeurs|documentation/dev]]"
+
+#~ msgid "Bug report"
+#~ msgstr "Signaler un bug"
+
+#~ msgid "[[Report a bug on the Agent|documentation/agent/bugreport]]"
+#~ msgstr "[[Signaler un bug de l'Agent|documentation/agent/bugreport]]"
 
 #~ msgid ""
 #~ "[[How to install or update FusionInventory for GLPI|documentation/fi4g/"
