@@ -2,29 +2,32 @@
 
 * [[The big picture|documentation/bigpicture]]
 * [[FAQ|documentation/faq]]
+* [[Bug reporting|documentation/bugreport]]
 
 # FusionInventory Agent
 
 * [[Installation|documentation/agent/installation]]
 * [[Configuration|documentation/agent/configuration]]
 * [[Usage|documentation/agent/usage]]
-* [[Report bug|documentation/agent/bugreport]]
 * [[References documentation|documentation/references]]
 * [[Network less inventory|documentation/agent/network_less]]
 * [[Force an inventory|documentation/agent/launch_the_agent]]
 
 # FusionInventory for GLPI
 
-* [[How to install or update FusionInventory for GLPI|documentation/fi4g/installation]]
-* [[How works «Equipment import and link rules»|documentation/fi4g/importrules]]
-* [[How to scan my network|documentation/fi4g/networkdiscovery]]
-* [[How to inventory my ESX server|documentation/fi4g/esxinventory]]
-* [[How to deploy softwares with software deployment module|documentation/fi4g/deploy]]
+* [[Installation and update|documentation/fi4g/installation]]
+* [[Import and link rules|documentation/fi4g/importrules]]
 * [[How to deal with DMZ network|documentation/fi4g/dmz]]
+
+# How to
+
+* [[Scan my network|documentation/tasks/networkdiscovery]]
+* [[Inventory remote devices|documentation/tasks/networkinventory]]
+* [[Inventory ESX virtual machines|documentation/tasks/esxinventory]]
+* [[Deploy softwares|documentation/tasks/deploy]]
 
 # Advanced topics
 
-* [[Create and manage SNMP models|documentation/fi4g/snmpmodels]]
 * [[Security and SSL|documentation/agent/security_and_ssl]]
 * [[Extend a computer inventory content|documentation/agent/additional_content]]
 
