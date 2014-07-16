@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2014-07-16 18:47+0000\n"
+"POT-Creation-Date: 2014-07-16 18:54+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -63,10 +63,11 @@ msgid ""
 "agent, and transmitted to the server. The easiest way is to enable *extra-"
 "debug* in the GLPI plugin configuration, which will add an additional *XML* "
 "tab to each GLPI object (computer, network device, etc...). Another solution "
-"is to use the various *fusioninventory-something* executables to produce the "
-"same content directly on the agent host. However, subtile differences may "
-"occurs, if the execution environment and privileges are not the same as non-"
-"interactive executions."
+"is to use the various *fusioninventory-something* executables (see "
+"[[executable man page|documentation/references]] for details)  to produce "
+"the same content directly on the agent host. However, subtile differences "
+"may occurs, if the execution environment and privileges are not the same as "
+"non-interactive executions."
 msgstr ""
 
 #. type: Plain text
@@ -81,8 +82,8 @@ msgstr ""
 
 #. type: Bullet: '* '
 msgid ""
-"[agent bugtracker](http://forge.fusioninventory.org/projects/fusioninventory-"
-"for-glpi/issues) for server issues"
+"[server bugtracker](http://forge.fusioninventory.org/projects/"
+"fusioninventory-for-glpi/issues) for server issues"
 msgstr ""
 
 #. type: Title ##
@@ -141,8 +142,9 @@ msgstr ""
 #. type: Plain text
 msgid ""
 "Agent log verbosity may be increased by using multiple *--debug* command-"
-"line arguments, or setting *debug* configuration parameters to an higher "
-"value."
+"line arguments (see [[executable man page|documentation/references]] for "
+"details), or setting *debug* configuration parameter to an higher value (see "
+"[[agent configuration|agent/configuration]] for details)."
 msgstr ""
 
 #. type: Plain text
@@ -176,7 +178,7 @@ msgid ""
 "Either attach the relevant file or command output as an attachement to the "
 "bug report (just pasting it will usually result in formating loss), or if "
 "there is any privacy concern, send them by email to *walk at fusioninventory "
-"dot org*, with bug ID in mail title."
+"dot org*, with bug ID in mail subject."
 msgstr ""
 
 #. type: Plain text
