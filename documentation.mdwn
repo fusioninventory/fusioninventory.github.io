@@ -31,10 +31,6 @@
 * [[Security and SSL|documentation/agent/security_and_ssl]]
 * [[Extend a computer inventory content|documentation/agent/additional_content]]
 
-# Bug report
-
-* [[Report a bug on the Agent|documentation/agent/bugreport]]
-
 # Contributor 
 
 * [[How to use this wiki|documentation/wiki]]
