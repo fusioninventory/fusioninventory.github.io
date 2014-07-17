@@ -28,7 +28,7 @@
 
 # Advanced topics
 
-* [[Security and SSL|documentation/agent/security_and_ssl]]
+* [[Security|security]]
 * [[Extend a computer inventory content|documentation/agent/additional_content]]
 
 # Contributor 
