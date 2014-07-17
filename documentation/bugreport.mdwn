@@ -18,7 +18,7 @@ agent, and transmitted to the server. The easiest way is to enable
 *extra-debug* in the GLPI plugin configuration, which will add an
 additional *XML* tab to each GLPI object (computer, network device,
 etc...). Another solution is to use the various *fusioninventory-something*
-executables (see [[executable man pages|documentation/references]] for details)
+executables (see [[agent man pages|agent/man]] for details)
 to produce the same content directly on the agent host. However, subtile
 differences may occurs, if the execution environment and privileges are
 not the same as non-interactive executions.
@@ -47,7 +47,7 @@ It is useless to set a priority, it will be re-evaluated by the assignee anyway.
 ## Execution traces
 
 Agent log verbosity may be increased by using multiple *--debug* command-line
-arguments (see [[executable man pages|documentation/references]] for details),
+arguments (see [[agent man pages|agent/man]] for details),
 or setting *debug* configuration parameter to an higher value (see [[agent
 configuration|agent/configuration]] for details).
 

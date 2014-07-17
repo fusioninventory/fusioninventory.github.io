@@ -1,3 +1,0 @@
-# NAME
-
-fusioninventory-win32-service - FusionInventory Agent service for Windows

@@ -8,8 +8,8 @@
 
 * [[Installation|documentation/agent/installation]]
 * [[Configuration|documentation/agent/configuration]]
+* [[Man pages|documentation/agent/man]]
 * [[Usage|documentation/agent/usage]]
-* [[References documentation|documentation/references]]
 * [[Network less inventory|documentation/agent/network_less]]
 * [[Force an inventory|documentation/agent/launch_the_agent]]
 

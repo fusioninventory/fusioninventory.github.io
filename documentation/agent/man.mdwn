@@ -1,0 +1,9 @@
+# Man pages
+
+* [[fusioninventory-agent|man/fusioninventory-agent]]
+* [[fusioninventory-esx|man/fusioninventory-esx]]
+* [[fusioninventory-injector|man/fusioninventory-injector]]
+* [[fusioninventory-inventory|man/fusioninventory-inventory]]
+* [[fusioninventory-netdiscovery|man/fusioninventory-netdiscovery]]
+* [[fusioninventory-netinventory|man/fusioninventory-netinventory]]
+* [[fusioninventory-wakeonlan|man/fusioninventory-wakeonlan]]
