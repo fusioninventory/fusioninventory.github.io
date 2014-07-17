@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2013-08-13 10:03+0000\n"
+"POT-Creation-Date: 2014-07-17 17:39+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -32,9 +32,7 @@ msgstr ""
 
 #. type: Plain text
 #, no-wrap
-msgid ""
-"fusioninventory-netinventory \\[options\\] \\[--host <host>--file <file>\\]\n"
-"  \\[--model <model>\\]\n"
+msgid "fusioninventory-netinventory \\[options\\] \\[--host <host>--file <file>\\]\n"
 msgstr ""
 
 #. type: Plain text
@@ -43,8 +41,9 @@ msgid ""
 "    Options:\n"
 "      --host host    host to inventorize\n"
 "      --file         snmpwalk output file\n"
-"      --model model  XML model file\n"
 "      --community    community string (default: public)\n"
+"      --credentials  SNMP credentials\n"
+"      --timeout val  SNMP timeout (default: 15s)\n"
 "      --entity       GLPI entity\n"
 "      --verbose      verbose output (control messages)\n"
 "      --debug        debug output (execution traces)\n"
