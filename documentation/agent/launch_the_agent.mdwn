@@ -1,21 +1,23 @@
-# How to force an inventory
+# Agent execution
 
-## With the HTTP interface
+## HTTP interface
 
-If you agent is running as a service or a daemon, you may be able to access the web interface at <http://localhost:62354>.
+If the agent is running as a service or a daemon, its web interface should 
+be accessible at <http://hostname:62354>.
 
-If `rpc-trust-localhost` [[configuration key|documentation/agent/configuration]] is true or if `httpd-trust=127.0.0.1`,
-a link will be available to force the agent execution.
-
-[[!template  id=warning text="A bug fixed in 2.2.7 prevent the use of `rpc-trust-localhost` and `httpd-trust` at the same time."]]
+If the machine connecting to this interface is trusted (see *httpd-trust*
+configuration directective in [[agent configuration|agent/configuration]]), a
+link will be available to force immediate execution.
 
 ## Command line
 
-You can force an inventory with the [[fusioninventory-agent|documentation/references/agent/2.2.x/fusioninventory-agent]] command.
+Agent can also be executed from command line, using either of its multiple
+executables (see [[agent man pages|agent/man]] for details).
 
 ### Windows
 
-First, you must open a cmd.exe console. Ensure you started with with *Administrator* privilege (*right clic* → *Run as Administrator* on Vista and Seven *Start menu*).
+Open a command interpreter windows (cmd.exe), with administrator privileges
+(*right clic* → *Run as Administrator* on Vista and Seven *Start menu*).
 
 Go in the **c:\Program files\FusionInventory-Agent\perl\bin** (adjust this path depending on your configuration) directory and run:
 
@@ -23,28 +25,16 @@ Go in the **c:\Program files\FusionInventory-Agent\perl\bin** (adjust this path 
 
 ### MacOSX
 
-First, ensure `daemon` key is not defined or false in `agent.cfg`. This key is enabled on MacOSX default settings (`/opt/fusioninventory-agent/agent.cfg`).
+Ensure `daemon` key is not defined or false in `agent.cfg`. This key is enabled on MacOSX default settings (`/opt/fusioninventory-agent/agent.cfg`).
 
 Go in /opt/fusioninventory-agent and run the following command:
 
     $ sudo /opt/fusioninventory-agent/fusioninventory-agent
 
-See [[the MacOSX documentation for further details|documentation/agent/installation/macosx]].
+See [[MacOSX documentation for further details|installation/macosx]].
 
 ### Other
 
 Just run:
 
     # fusioninventory-agent
-
-### Advanced option
-
-You can write a local XML inventory with:
-
-    # fusioninventory-agent --local /tmp
-
-to generate a HTML file instead, add the `--html` flag:
-
-    # fusioninventory-agent --local /tmp --html
-
-Please read [[the fusioninventory-agent reference page|documentation/references]] to get the complet list of supported options.

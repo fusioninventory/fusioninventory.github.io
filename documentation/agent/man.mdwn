@@ -1,4 +1,4 @@
-# Man pages
+# Agent man pages
 
 * [[fusioninventory-agent|man/fusioninventory-agent]]
 * [[fusioninventory-esx|man/fusioninventory-esx]]

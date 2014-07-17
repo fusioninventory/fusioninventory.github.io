@@ -1,4 +1,4 @@
-#Agent configuration
+# Agent configuration
 
 The agent reads its configuration from a configuration file (from the registry
 on Windows), then from the command line. Most parameters can be set from any

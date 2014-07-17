@@ -1,6 +1,6 @@
-## Usage
+# Agent usage
 
-They are two different ways to run the agent:
+They are two different ways to use the agent:
 
 *  as a temporary process, exiting after completing its run
 *  as a permanent process, staying in memory permanently (daemon under Unix,
