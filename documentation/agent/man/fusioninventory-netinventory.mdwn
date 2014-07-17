@@ -5,13 +5,13 @@ fusioninventory-netinventory - Standalone network inventory
 # SYNOPSIS
 
 fusioninventory-netinventory \[options\] \[--host <host>--file <file>\]
-  \[--model <model>\]
 
     Options:
       --host host    host to inventorize
       --file         snmpwalk output file
-      --model model  XML model file
       --community    community string (default: public)
+      --credentials  SNMP credentials
+      --timeout val  SNMP timeout (default: 15s)
       --entity       GLPI entity
       --verbose      verbose output (control messages)
       --debug        debug output (execution traces)

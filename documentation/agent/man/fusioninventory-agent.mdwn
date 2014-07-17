@@ -4,7 +4,7 @@ fusioninventory-agent - FusionInventory agent For Linux/UNIX, Windows and MacOSX
 
 # SYNOPSIS
 
-__fusioninventory-agent__ \[options\] \[--server server|--local path\]
+**fusioninventory-agent** \[options\] \[--server server|--local path\]
 
     Target definition options:
       -s --server=URI                send tasks result to a server
@@ -22,7 +22,8 @@ __fusioninventory-agent__ \[options\] \[--server server|--local path\]
 
     Inventory task specific options:
       --no-category=CATEGORY         do not list given category items
-      --scan-homedirs                scan use home directories (false)
+      --scan-homedirs                scan user home directories (false)
+      --scan-profiles                scan user profiles (false)
       --html                         save the inventory as HTML (false)
       -f --force                     always send data to server (false)
       --backend-collect-timeout=TIME timeout for inventory modules
@@ -90,7 +91,7 @@ example, the two lines below are all equivalent:
 
 ## Target definition options
 
-- __\-s__, __\--server__=_URI_
+- **-s**, **--server**=_URI_
 
     Send the results of tasks execution to given server.
 
@@ -109,7 +110,7 @@ example, the two lines below are all equivalent:
 
     Multiple values can be specified, using comma as a separator.
 
-- __\-l__, __\--local__=_PATH_
+- **-l**, **--local**=_PATH_
 
     Write the results of tasks execution locally.
 
@@ -123,14 +124,14 @@ example, the two lines below are all equivalent:
 
 ## Target scheduling options
 
-- __\--delaytime__=_LIMIT_
+- **--delaytime**=_LIMIT_
 
     Set an initial delay before the first target, whose value is computed randomly
     between LIMIT / 2 and LIMIT seconds. This setting is ignored for server targets
     after the initial contact, in favor of server-specified parameter
     (PROLOG\_FREQ).
 
-- __\--lazy__
+- **--lazy**
 
     Do not contact the target before next scheduled time.
 
@@ -138,20 +139,20 @@ example, the two lines below are all equivalent:
 
 ## Task selection options
 
-- __\--list-tasks__
+- **--list-tasks**
 
     List available tasks and exit
 
-- __\--no-task__=_TASK_
+- **--no-task**=_TASK_
 
     Do not run given task.
 
     Multiple values can be specified, using comma as a separator. See option
-    _\--list-tasks_ for the list of available tasks.
+    _--list-tasks_ for the list of available tasks.
 
 ## Inventory task specific options
 
-- __\--no-category__=_CATEGORY_
+- **--no-category**=_CATEGORY_
 
     Do not list given category items in inventory.
 
@@ -164,25 +165,29 @@ example, the two lines below are all equivalent:
     - process
     - user
 
-- __\--scan-homedirs__
+- **--scan-homedirs**
 
     Allow the agent to scan home directories for virtual machines.
 
-- __\--html__
+- **--scan-profiles**
+
+    Allow the agent to scan user profiles for softwares.
+
+- **--html**
 
     Save the inventory as HTML.
 
     This is only used for local inventories.
 
-- __\-f__, __\--force__
+- **-f**, **--force**
 
     Send an inventory to the server, even if this last one doesn't ask for it.
 
-- __\--backend-collect-timeout__=_TIME_
+- **--backend-collect-timeout**=_TIME_
 
     Timeout for inventory modules execution.
 
-- __\--additional-content__=_FILE_
+- **--additional-content**=_FILE_
 
     Additional inventory content file.
 
@@ -191,69 +196,69 @@ example, the two lines below are all equivalent:
 
 ## Package deployment task specific options
 
-- __\--no-p2p__
+- **--no-p2p**
 
     Do not use peer to peer to download files.
 
 ## Server target specific options
 
-- __\-P__, __\--proxy__=_PROXY_
+- **-P**, **--proxy**=_PROXY_
 
     Use _PROXY_ as HTTP proxy.
 
     By default, the agent uses HTTP\_PROXY environment variable.
 
-- __\-u__ _USER_, __\--user__=_USER_
+- **-u** _USER_, **--user**=_USER_
 
     Use _USER_ for server authentication.
 
-- __\-p__, __\--password__=_PASSWORD_
+- **-p**, **--password**=_PASSWORD_
 
     Use _PASSWORD_ for server authentication.
 
-- __\--ca-cert-dir__=_DIRECTORY_
+- **--ca-cert-dir**=_DIRECTORY_
 
     CA certificates directory.
 
-- __\--ca-cert-file__=_FILE_
+- **--ca-cert-file**=_FILE_
 
     CA certificates file.
 
-- __\--no-ssl-check__
+- **--no-ssl-check**
 
     Do not check server SSL certificate.
 
-- __\--timeout__=_TIME_
+- **--timeout**=_TIME_
 
     Timeout for server connections.
 
 ## Web interface options
 
-- __\--no-httpd__
+- **--no-httpd**
 
     Disable the embedded web server.
 
-- __\--httpd-ip__=_IP_
+- **--httpd-ip**=_IP_
 
     The network interface to use for the embedded web server (all).
 
-- __\--httpd-port__=_PORT_
+- **--httpd-port**=_PORT_
 
     The network port to use for the embedded web server (62354).
 
-- __\--httpd-trust__=_IP_
+- **--httpd-trust**=_IP_
 
     Trust requests from given addresses without authentication token (false).
 
     For example: "192.168.0.0/24", "192.168.168.0.5" or an IP range like
-    "20.34.101.207 - 201.3.9.99". Hostnames are also accepted. See [Net::IP](http://search.cpan.org/perldoc?Net::IP)
+    "20.34.101.207 - 201.3.9.99". Hostnames are also accepted. See [Net::IP](https://metacpan.org/pod/Net::IP)
     documentation to get more example.
 
     Multiple values can be specified, using comma as a separator.
 
 ## Logging options
 
-- __\--logger__=_BACKEND_
+- **--logger**=_BACKEND_
 
     Logger backend to use.
 
@@ -266,21 +271,21 @@ example, the two lines below are all equivalent:
 
     Multiple values can be specified, using comma as a separator.
 
-- __\--logfile__=_FILE_
+- **--logfile**=_FILE_
 
     Log message in _FILE_ (implies File logger backend).
 
-- __\--logfile-maxsize__=_SIZE_
+- **--logfile-maxsize**=_SIZE_
 
     Max logfile size in MB, default is unlimited. When the max size is reached, the
     file is truncated. This is only useful if there is no log rotation mechanism on
     the system.
 
-- __\--logfacility__=_FACILITY_
+- **--logfacility**=_FACILITY_
 
     Syslog facility to use (default LOG\_USER).
 
-- __\--color__
+- **--color**
 
     Display color on the terminal, when the Stderr backend is used.
 
@@ -288,9 +293,7 @@ example, the two lines below are all equivalent:
 
 ## Configuration options
 
-
-
-- __\--config__=_BACKEND_
+- **--config**=_BACKEND_
 
     Configuration backend to use.
 
@@ -300,44 +303,44 @@ example, the two lines below are all equivalent:
     - registry: read configuration from the registry (default on Windows).
     - none: don't read any configuration.
 
-- __\--conf-file__=_FILE_
+- **--conf-file**=_FILE_
 
     Use _FILE_ as configuration file (implies file configuration backend).
 
 ## Execution mode options
 
-- __\-w__ _LIMIT_, __\--wait__=_LIMIT_
+- **-w** _LIMIT_, **--wait**=_LIMIT_
 
     Wait a random delay whose value is computed randomly between 0 and LIMIT
     seconds, before execution. This is useful when execution is triggered from some
     kind of system scheduling on multiple clients, to spread the server load.
 
-- __\-d__, __\--daemon__
+- **-d**, **--daemon**
 
     Run the agent as a daemon.
 
-- __\--no-fork__
+- **--no-fork**
 
     Don't fork in background.
 
     This is only useful when running as a daemon.
 
-- __\--tag__=_TAG_
+- **--tag**=_TAG_
 
     Add the given tag to every inventory results.
 
-- __\--debug__
+- **--debug**
 
     Turn the debug mode on. You can use the parameter up to 3 times in a row
-    to increase the verbosity (e.g: __\--debug --debug__).
+    to increase the verbosity (e.g: **--debug --debug**).
 
     Level 3 turns on the debug mode of some external libraries like Net::SSLeay.
     These messages will only be be printed on STDERR.
 
-- __\--setup__
+- **--setup**
 
     Print the agent setup directories and exit.
 
-- __\--version__
+- **--version**
 
     Print the version and exit.
