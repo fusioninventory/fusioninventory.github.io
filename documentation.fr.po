@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2014-07-16 07:40+0000\n"
+"POT-Creation-Date: 2014-07-17 07:22+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -49,12 +49,14 @@ msgid "[[Configuration|documentation/agent/configuration]]"
 msgstr "[[Configuration|documentation/agent/configuration]]"
 
 #. type: Bullet: '* '
-msgid "[[Usage|documentation/agent/usage]]"
+#, fuzzy
+#| msgid "[[Usage|documentation/agent/usage]]"
+msgid "[[Man pages|documentation/agent/man]]"
 msgstr "[[Usage|documentation/agent/usage]]"
 
 #. type: Bullet: '* '
-msgid "[[References documentation|documentation/references]]"
-msgstr "[[Documentation de références|documentation/references]]"
+msgid "[[Usage|documentation/agent/usage]]"
+msgstr "[[Usage|documentation/agent/usage]]"
 
 #. type: Bullet: '* '
 msgid "[[Network less inventory|documentation/agent/network_less]]"
@@ -153,6 +155,9 @@ msgstr "[[Traduction|documentation/translation]]"
 #. type: Bullet: '* '
 msgid "[[for developers|documentation/dev]]"
 msgstr "[[Pour les développeurs|documentation/dev]]"
+
+#~ msgid "[[References documentation|documentation/references]]"
+#~ msgstr "[[Documentation de références|documentation/references]]"
 
 #~ msgid "Bug report"
 #~ msgstr "Signaler un bug"

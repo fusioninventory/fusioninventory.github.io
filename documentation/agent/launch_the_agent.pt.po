@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2013-03-21 16:51+0000\n"
+"POT-Creation-Date: 2014-07-17 07:22+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -18,30 +18,25 @@ msgstr ""
 
 #. type: Title #
 #, no-wrap
-msgid "How to force an inventory"
+msgid "Agent execution"
 msgstr ""
 
 #. type: Title ##
 #, no-wrap
-msgid "With the HTTP interface"
+msgid "HTTP interface"
 msgstr ""
 
 #. type: Plain text
 msgid ""
-"If you agent is running as a service or a daemon, you may be able to access "
-"the web interface at <http://localhost:62354>."
+"If the agent is running as a service or a daemon, its web interface should "
+"be accessible at <http://hostname:62354>."
 msgstr ""
 
 #. type: Plain text
 msgid ""
-"If `rpc-trust-localhost` [[configuration key|documentation/agent/"
-"configuration]] is true or if `httpd-trust=127.0.0.1`, a link will be "
-"available to force the agent execution."
-msgstr ""
-
-#. type: Plain text
-#, no-wrap
-msgid "[[!template  id=warning text=\"A bug fixed in 2.2.7 prevent the use of `rpc-trust-localhost` and `httpd-trust` at the same time.\"]]\n"
+"If the machine connecting to this interface is trusted (see *httpd-trust* "
+"configuration directective in [[agent configuration|agent/configuration]]), "
+"a link will be available to force immediate execution."
 msgstr ""
 
 #. type: Title ##
@@ -51,8 +46,8 @@ msgstr ""
 
 #. type: Plain text
 msgid ""
-"You can force an inventory with the [[fusioninventory-agent|documentation/"
-"references/agent/2.2.x/fusioninventory-agent]] command."
+"Agent can also be executed from command line, using either of its multiple "
+"executables (see [[agent man pages|agent/man]] for details)."
 msgstr ""
 
 #. type: Title ###
@@ -62,9 +57,8 @@ msgstr ""
 
 #. type: Plain text
 msgid ""
-"First, you must open a cmd.exe console. Ensure you started with with "
-"*Administrator* privilege (*right clic* → *Run as Administrator* on Vista "
-"and Seven *Start menu*)."
+"Open a command interpreter windows (cmd.exe), with administrator privileges "
+"(*right clic* → *Run as Administrator* on Vista and Seven *Start menu*)."
 msgstr ""
 
 #. type: Plain text
@@ -85,9 +79,8 @@ msgstr ""
 
 #. type: Plain text
 msgid ""
-"First, ensure `daemon` key is not defined or false in `agent.cfg`. This key "
-"is enabled on MacOSX default settings (`/opt/fusioninventory-agent/agent."
-"cfg`)."
+"Ensure `daemon` key is not defined or false in `agent.cfg`. This key is "
+"enabled on MacOSX default settings (`/opt/fusioninventory-agent/agent.cfg`)."
 msgstr ""
 
 #. type: Plain text
@@ -100,9 +93,7 @@ msgid "    $ sudo /opt/fusioninventory-agent/fusioninventory-agent\n"
 msgstr ""
 
 #. type: Plain text
-msgid ""
-"See [[the MacOSX documentation for further details|documentation/agent/"
-"installation/macosx]]."
+msgid "See [[MacOSX documentation for further details|installation/macosx]]."
 msgstr ""
 
 #. type: Title ###
@@ -117,33 +108,4 @@ msgstr ""
 #. type: Plain text
 #, no-wrap
 msgid "    # fusioninventory-agent\n"
-msgstr ""
-
-#. type: Title ###
-#, no-wrap
-msgid "Advanced option"
-msgstr ""
-
-#. type: Plain text
-msgid "You can write a local XML inventory with:"
-msgstr ""
-
-#. type: Plain text
-#, no-wrap
-msgid "    # fusioninventory-agent --local /tmp\n"
-msgstr ""
-
-#. type: Plain text
-msgid "to generate a HTML file instead, add the `--html` flag:"
-msgstr ""
-
-#. type: Plain text
-#, no-wrap
-msgid "    # fusioninventory-agent --local /tmp --html\n"
-msgstr ""
-
-#. type: Plain text
-msgid ""
-"Please read [[the fusioninventory-agent reference page|documentation/"
-"references]] to get the complet list of supported options."
 msgstr ""
