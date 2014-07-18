@@ -93,5 +93,4 @@ subdirectory.
 
 snmpwalk output can be generated with the following command:
 
-    $> snmpwalk -v <version> -c <community> -Cc -On -c <somehost> .1 >
-<somefile>
+    $> snmpwalk -v <version> -c <community> -Cc -On -c <somehost> .1 > <somefile>
