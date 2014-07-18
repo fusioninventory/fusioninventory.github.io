@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2014-07-17 08:00+0000\n"
+"POT-Creation-Date: 2014-07-18 07:30+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -112,16 +112,15 @@ msgstr ""
 
 #. type: Plain text
 msgid ""
-"Agent log verbosity may be increased by using multiple *--debug* command-"
-"line arguments (see [[agent man pages|agent/man]] for details), or setting "
-"*debug* configuration parameter to an higher value (see [[agent "
-"configuration|agent/configuration]] for details)."
+"Agent log verbosity may be increased by raising *debug* [[configuration "
+"parameter|agent/configuration]] value (alternatively, by using multiple *--"
+"debug* [[command-line options|agent/man]])."
 msgstr ""
 
 #. type: Plain text
 msgid ""
 "Server log verbosity may be increased by enabling *extra-debug* "
-"configuration item in plugin configuration."
+"configuration parameter in plugin configuration."
 msgstr ""
 
 #. type: Plain text
@@ -215,5 +214,7 @@ msgstr ""
 
 #. type: Plain text
 #, no-wrap
-msgid "    snmpwalk -v <version> -c <community> -Cc -On -c <somehost> .1 > <somefile>\n"
+msgid ""
+"    $> snmpwalk -v <version> -c <community> -Cc -On -c <somehost> .1 >\n"
+"<somefile>\n"
 msgstr ""

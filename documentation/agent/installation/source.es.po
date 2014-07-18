@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2013-08-11 12:23+0000\n"
+"POT-Creation-Date: 2014-07-18 07:30+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -39,11 +39,6 @@ msgstr ""
 
 #. type: Bullet: '* '
 msgid ""
-"[Agent 2.2.x](https://github.com/fusinv/fusioninventory-agent/tarball/2.2.x)"
-msgstr ""
-
-#. type: Bullet: '* '
-msgid ""
 "[Agent 2.3.x](https://github.com/fusinv/fusioninventory-agent/tarball/2.3.x)"
 msgstr ""
 
@@ -54,7 +49,7 @@ msgstr ""
 
 #. type: Title ##
 #, no-wrap
-msgid "agent from sources"
+msgid "Build and installation"
 msgstr ""
 
 #. type: Plain text
@@ -65,62 +60,42 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-msgid "First, you need to extract the source and run the Makefile.PL"
+msgid "First, you need to extract the source and change the current directory."
 msgstr ""
 
 #. type: Plain text
 #, no-wrap
 msgid ""
-"    tar xfz FusionInventory-Agent-2.2.5.tar.gz\n"
-"    cd FusionInventory-Agent-2.2.5\n"
+"    $> tar xfz FusionInventory-Agent-2.2.5.tar.gz\n"
+"    $> cd FusionInventory-Agent-2.2.5\n"
 msgstr ""
 
 #. type: Plain text
 msgid ""
-"Makefile.PL will ensure all the required dependencies are available and "
-"prepare the build tree."
+"Executing Makefile.PL will ensure all the required dependencies are "
+"available and prepare the build tree."
 msgstr ""
 
 #. type: Plain text
 #, no-wrap
-msgid "    perl Makefile.PL\n"
+msgid "    $> perl Makefile.PL\n"
 msgstr ""
 
 #. type: Plain text
 msgid ""
-"At this point, you will probably have some missing required modules. The "
-"best tool to resolve the situation is [cpanm](http://cpanmin.us). Just run:"
+"At this point, you will probably have some missing required modules. See "
+"Dependencies section for installing them. Once this is done, run the same "
+"command again:"
 msgstr ""
 
 #. type: Plain text
 #, no-wrap
-msgid "    cpanm .\n"
+msgid "    $> perl Makefile.Pl\n"
 msgstr ""
 
 #. type: Plain text
 msgid ""
-"You can use the _--notest_ flag if you are brave and want to skip the test-"
-"suite execution."
-msgstr ""
-
-#. type: Plain text
-msgid ""
-"You may also need to install some [[system specific dependencies|"
-"documentation/agent/system_dep]]."
-msgstr ""
-
-#. type: Plain text
-msgid "Once this is done, run once again:"
-msgstr ""
-
-#. type: Plain text
-#, no-wrap
-msgid "    perl Makefile.Pl\n"
-msgstr ""
-
-#. type: Plain text
-msgid ""
-"This time the execution should success and you can finish the installation. "
+"This time the execution should success and you can finish the installation.  "
 "Here again we recommand GNU make (gmake):"
 msgstr ""
 
@@ -129,11 +104,6 @@ msgstr ""
 msgid ""
 "    make\n"
 "    make install\n"
-msgstr ""
-
-#. type: Title ##
-#, no-wrap
-msgid "Change the installation directory"
 msgstr ""
 
 #. type: Plain text
@@ -147,50 +117,12 @@ msgstr ""
 msgid ""
 "    perl Makefile.PL PREFIX=/opt/fusioninventory\n"
 "    make\n"
-"    make test\n"
 "    make install\n"
 msgstr ""
 
 #. type: Title ##
 #, no-wrap
-msgid "plugins installation from source"
-msgstr ""
-
-#. type: Plain text
-msgid "The plugin installation follow the same process:"
-msgstr ""
-
-#. type: Plain text
-#, no-wrap
-msgid ""
-"    tar xfz FusionInventory-Agent-Task-Foo-0.1.2.tar.gz\n"
-"    cd FusionInventory-Agent-Task-Foo-0.1.2\n"
-"    cpanm .\n"
-"    perl Makefile.PL\n"
-"    make install\n"
-msgstr ""
-
-#. type: Title #
-#, no-wrap
-msgid "SSL"
-msgstr ""
-
-#. type: Plain text
-msgid ""
-"SSL communication are based on [IO::Socket::SSL](https://metacpan.org/module/"
-"IO::Socket::SSL). You build it you will need openssl header files and a C "
-"compiler."
-msgstr ""
-
-#. type: Plain text
-msgid ""
-"If you don't want to use SSL, you can avoid keep this dependency "
-"uninstalled.  The agent will disable SSL by itself."
-msgstr ""
-
-#. type: Title #
-#, no-wrap
-msgid "Test-suite"
+msgid "Tests"
 msgstr ""
 
 #. type: Plain text
@@ -201,16 +133,43 @@ msgstr ""
 
 #. type: Plain text
 #, no-wrap
-msgid "    make test\n"
+msgid "    $> make test\n"
 msgstr ""
 
 #. type: Plain text
 msgid "The test-suites require some additional dependencies like Test::More."
 msgstr ""
 
-#. type: Title #
+#. type: Title ##
 #, no-wrap
-msgid "How to fetch the dependencies with no Internet connection"
+msgid "Depedencies"
+msgstr ""
+
+#. type: Title ###
+#, no-wrap
+msgid "Perl dependencies"
+msgstr ""
+
+#. type: Plain text
+msgid ""
+"The easiest way to install perl dependencies is to use [cpanm](http://"
+"cpanmin.us). Just run:"
+msgstr ""
+
+#. type: Plain text
+#, no-wrap
+msgid "    $> cpanm .\n"
+msgstr ""
+
+#. type: Plain text
+msgid ""
+"You can use the _--notest_ flag if you are brave and want to skip the test-"
+"suite execution."
+msgstr ""
+
+#. type: Title ###
+#, no-wrap
+msgid "Offline installation of Perl dependencies"
 msgstr ""
 
 #. type: Plain text
@@ -226,8 +185,8 @@ msgstr ""
 #. type: Plain text
 #, no-wrap
 msgid ""
-"    $ tar xfz FusionInventory-Agent-2.3.0.tar.gz\n"
-"    $ cd FusionInventory-Agent-2.3.0\n"
+"    $> tar xfz FusionInventory-Agent-2.3.0.tar.gz\n"
+"    $> cd FusionInventory-Agent-2.3.0\n"
 msgstr ""
 
 #. type: Plain text
@@ -237,7 +196,7 @@ msgstr ""
 
 #. type: Plain text
 #, no-wrap
-msgid "    $ cpanm --pureperl --installdeps -L extlib --notest .\n"
+msgid "    $> cpanm --pureperl --installdeps -L extlib --notest .\n"
 msgstr ""
 
 #. type: Plain text
@@ -248,7 +207,7 @@ msgstr ""
 
 #. type: Plain text
 #, no-wrap
-msgid "    $cpanm --installdeps -L extlib --notest .\n"
+msgid "    $> cpanm --installdeps -L extlib --notest .\n"
 msgstr ""
 
 #. type: Plain text
@@ -258,12 +217,30 @@ msgstr ""
 
 #. type: Plain text
 #, no-wrap
-msgid "    $ perl -Iextlib/lib/perl5 -Ilib fusioninventory-agent\n"
+msgid "    $> perl -Iextlib/lib/perl5 -Ilib fusioninventory-agent\n"
+msgstr ""
+
+#. type: Title ###
+#, no-wrap
+msgid "Other dependencies"
 msgstr ""
 
 #. type: Plain text
-#, no-wrap
 msgid ""
-"[[!template  id=info text=\"SSL will work only if the perl SSL lib is already installed on the system. Se\n"
-"above\"]]\n"
+"On Solaris/SPARC, you must install sneep and record the Serial Number with "
+"it.  Download it from <http://www.sun.com/download/products.xml?id=4304155a>."
+msgstr ""
+
+#. type: Plain text
+msgid ""
+"On Windows, we use an additional dmidecode binary shipped in the windows "
+"distribution to retrieve many informations not available otherwise, "
+"including fine-grained multi-cores CPUs identification. Unfortunatly, this "
+"binary is not reliable enough to be used on Windows 2003, leading to less "
+"precise inventories."
+msgstr ""
+
+#. type: Plain text
+msgid ""
+"On Linux, lspci will be used to collect PCI, AGP, PCI-X, ... informations."
 msgstr ""

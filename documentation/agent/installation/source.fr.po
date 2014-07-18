@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2014-02-27 12:45+0100\n"
+"POT-Creation-Date: 2014-07-18 07:30+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -43,12 +43,6 @@ msgstr "Il est aussi possible de récupérer une image par Github:"
 
 #. type: Bullet: '* '
 msgid ""
-"[Agent 2.2.x](https://github.com/fusinv/fusioninventory-agent/tarball/2.2.x)"
-msgstr ""
-"[Agent 2.2.x](https://github.com/fusinv/fusioninventory-agent/tarball/2.2.x)"
-
-#. type: Bullet: '* '
-msgid ""
 "[Agent 2.3.x](https://github.com/fusinv/fusioninventory-agent/tarball/2.3.x)"
 msgstr ""
 "[Agent 2.3.x](https://github.com/fusinv/fusioninventory-agent/tarball/2.3.x)"
@@ -65,8 +59,8 @@ msgstr ""
 
 #. type: Title ##
 #, no-wrap
-msgid "agent from sources"
-msgstr "Agent depuis les sources"
+msgid "Build and installation"
+msgstr ""
 
 #. type: Plain text
 msgid ""
@@ -79,31 +73,41 @@ msgstr ""
 "tar risquent d'ignorer ces fichiers  comme par exemple sur HP-UX."
 
 #. type: Plain text
-msgid "First, you need to extract the source and run the Makefile.PL"
+#, fuzzy
+#| msgid "First, you need to extract the source and run the Makefile.PL"
+msgid "First, you need to extract the source and change the current directory."
 msgstr ""
 "Dans un premier temps, vous devez extraire les sources et lancer le fichier "
 "Makefile.PL"
 
 #. type: Plain text
-#, no-wrap
+#, fuzzy, no-wrap
+#| msgid ""
+#| "    tar xfz FusionInventory-Agent-2.2.5.tar.gz\n"
+#| "    cd FusionInventory-Agent-2.2.5\n"
 msgid ""
-"    tar xfz FusionInventory-Agent-2.2.5.tar.gz\n"
-"    cd FusionInventory-Agent-2.2.5\n"
+"    $> tar xfz FusionInventory-Agent-2.2.5.tar.gz\n"
+"    $> cd FusionInventory-Agent-2.2.5\n"
 msgstr ""
 "    tar xfz FusionInventory-Agent-2.2.5.tar.gz\n"
 "    cd FusionInventory-Agent-2.2.5\n"
 
 #. type: Plain text
+#, fuzzy
+#| msgid ""
+#| "Makefile.PL will ensure all the required dependencies are available and "
+#| "prepare the build tree."
 msgid ""
-"Makefile.PL will ensure all the required dependencies are available and "
-"prepare the build tree."
+"Executing Makefile.PL will ensure all the required dependencies are "
+"available and prepare the build tree."
 msgstr ""
 "Makefile.PL vérifiera que toutes les dépendances sont disponibles et "
 "préparera l'organisation de construction."
 
 #. type: Plain text
-#, no-wrap
-msgid "    perl Makefile.PL\n"
+#, fuzzy, no-wrap
+#| msgid "    perl Makefile.PL\n"
+msgid "    $> perl Makefile.PL\n"
 msgstr "    perl Makefile.PL\n"
 
 #. type: Plain text
@@ -113,46 +117,27 @@ msgstr "    perl Makefile.PL\n"
 #| "best tool to resolve the situation is [cpanm](https://raw.github.com/"
 #| "miyagawa/cpanminus/master/cpanm). Just run:"
 msgid ""
-"At this point, you will probably have some missing required modules. The "
-"best tool to resolve the situation is [cpanm](http://cpanmin.us). Just run:"
+"At this point, you will probably have some missing required modules. See "
+"Dependencies section for installing them. Once this is done, run the same "
+"command again:"
 msgstr ""
 "A ce niveau, vous aurez probablement plusieurs modules requis absents. Le "
 "meilleur outil pour résoudre cette situation est [cpanm](https://raw.github."
 "com/miyagawa/cpanminus/master/cpanm). Lancez :"
 
 #. type: Plain text
-#, no-wrap
-msgid "    cpanm .\n"
-msgstr "    cpanm .\n"
-
-#. type: Plain text
-msgid ""
-"You can use the _--notest_ flag if you are brave and want to skip the test-"
-"suite execution."
-msgstr ""
-"Vous pouvez utiliser l'option _--notest_ si vous aimez le risque et pour "
-"sauter le test-suite execution."
-
-#. type: Plain text
-msgid ""
-"You may also need to install some [[system specific dependencies|"
-"documentation/agent/system_dep]]."
-msgstr ""
-"Vous devrez aussi installer d'autres [[dépendances spécifiques à votre "
-"système|documentation/agent/system_dep]]."
-
-#. type: Plain text
-msgid "Once this is done, run once again:"
-msgstr "Une fois que cela est fait, lancez une nouvelle fois:"
-
-#. type: Plain text
-#, no-wrap
-msgid "    perl Makefile.Pl\n"
+#, fuzzy, no-wrap
+#| msgid "    perl Makefile.Pl\n"
+msgid "    $> perl Makefile.Pl\n"
 msgstr "    perl Makefile.Pl\n"
 
 #. type: Plain text
+#, fuzzy
+#| msgid ""
+#| "This time the execution should success and you can finish the "
+#| "installation. Here again we recommand GNU make (gmake):"
 msgid ""
-"This time the execution should success and you can finish the installation. "
+"This time the execution should success and you can finish the installation.  "
 "Here again we recommand GNU make (gmake):"
 msgstr ""
 "Cette fois l'exécution doit être un succès et vous pouvez terminer "
@@ -166,11 +151,6 @@ msgid ""
 msgstr ""
 "    make\n"
 "    make install\n"
-
-#. type: Title ##
-#, no-wrap
-msgid "Change the installation directory"
-msgstr "Changer le dossier d'installation"
 
 #. type: Plain text
 msgid ""
@@ -190,7 +170,6 @@ msgstr ""
 msgid ""
 "    perl Makefile.PL PREFIX=/opt/fusioninventory\n"
 "    make\n"
-"    make test\n"
 "    make install\n"
 msgstr ""
 "    perl Makefile.PL PREFIX=/opt/fusioninventory\n"
@@ -199,55 +178,9 @@ msgstr ""
 "    make install PREFIX=/opt/fusioninventory\n"
 
 #. type: Title ##
-#, no-wrap
-msgid "plugins installation from source"
-msgstr "Installation des plugins depuis les sources"
-
-#. type: Plain text
-msgid "The plugin installation follow the same process:"
-msgstr "L'installation des plugins suit le même procédé:"
-
-#. type: Plain text
-#, no-wrap
-msgid ""
-"    tar xfz FusionInventory-Agent-Task-Foo-0.1.2.tar.gz\n"
-"    cd FusionInventory-Agent-Task-Foo-0.1.2\n"
-"    cpanm .\n"
-"    perl Makefile.PL\n"
-"    make install\n"
-msgstr ""
-"    tar xfz FusionInventory-Agent-Task-Foo-0.1.2.tar.gz\n"
-"    cd FusionInventory-Agent-Task-Foo-0.1.2\n"
-"    cpanm .\n"
-"    perl Makefile.PL\n"
-"    make install\n"
-
-#. type: Title #
-#, no-wrap
-msgid "SSL"
-msgstr "SSL"
-
-#. type: Plain text
-msgid ""
-"SSL communication are based on [IO::Socket::SSL](https://metacpan.org/module/"
-"IO::Socket::SSL). You build it you will need openssl header files and a C "
-"compiler."
-msgstr ""
-"La communication par SSL est basée sur [IO::Socket::SSL](https://metacpan."
-"org/module/IO::Socket::SSL). Pour l'activer, vous devez avoir les fichiers "
-"*openssl header* et un compilateur *C*."
-
-#. type: Plain text
-msgid ""
-"If you don't want to use SSL, you can avoid keep this dependency "
-"uninstalled.  The agent will disable SSL by itself."
-msgstr ""
-"Si vous ne voulez pas utiliser le SSL, vous pouvez vous passer de ces "
-"dépendances  inactivées. L'agent désactivera le SSL par lui-même."
-
-#. type: Title #
-#, no-wrap
-msgid "Test-suite"
+#, fuzzy, no-wrap
+#| msgid "Test-suite"
+msgid "Tests"
 msgstr "Test-suite"
 
 #. type: Plain text
@@ -259,8 +192,9 @@ msgstr ""
 "Makefile.PL` avec cette commande:"
 
 #. type: Plain text
-#, no-wrap
-msgid "    make test\n"
+#, fuzzy, no-wrap
+#| msgid "    make test\n"
+msgid "    $> make test\n"
 msgstr "    make test\n"
 
 #. type: Plain text
@@ -269,10 +203,41 @@ msgstr ""
 "Les test-suites requirent plusieurs dépendances additionnelles comme Test::"
 "More."
 
-#. type: Title #
+#. type: Title ##
 #, no-wrap
-msgid "How to fetch the dependencies with no Internet connection"
+msgid "Depedencies"
 msgstr ""
+
+#. type: Title ###
+#, no-wrap
+msgid "Perl dependencies"
+msgstr ""
+
+#. type: Plain text
+msgid ""
+"The easiest way to install perl dependencies is to use [cpanm](http://"
+"cpanmin.us). Just run:"
+msgstr ""
+
+#. type: Plain text
+#, fuzzy, no-wrap
+#| msgid "    cpanm .\n"
+msgid "    $> cpanm .\n"
+msgstr "    cpanm .\n"
+
+#. type: Plain text
+msgid ""
+"You can use the _--notest_ flag if you are brave and want to skip the test-"
+"suite execution."
+msgstr ""
+"Vous pouvez utiliser l'option _--notest_ si vous aimez le risque et pour "
+"sauter le test-suite execution."
+
+#. type: Title ###
+#, fuzzy, no-wrap
+#| msgid "plugins installation from source"
+msgid "Offline installation of Perl dependencies"
+msgstr "Installation des plugins depuis les sources"
 
 #. type: Plain text
 msgid ""
@@ -290,8 +255,8 @@ msgstr ""
 #| "    tar xfz FusionInventory-Agent-2.2.5.tar.gz\n"
 #| "    cd FusionInventory-Agent-2.2.5\n"
 msgid ""
-"    $ tar xfz FusionInventory-Agent-2.3.0.tar.gz\n"
-"    $ cd FusionInventory-Agent-2.3.0\n"
+"    $> tar xfz FusionInventory-Agent-2.3.0.tar.gz\n"
+"    $> cd FusionInventory-Agent-2.3.0\n"
 msgstr ""
 "    tar xfz FusionInventory-Agent-2.2.5.tar.gz\n"
 "    cd FusionInventory-Agent-2.2.5\n"
@@ -303,7 +268,7 @@ msgstr ""
 
 #. type: Plain text
 #, no-wrap
-msgid "    $ cpanm --pureperl --installdeps -L extlib --notest .\n"
+msgid "    $> cpanm --pureperl --installdeps -L extlib --notest .\n"
 msgstr ""
 
 #. type: Plain text
@@ -314,7 +279,7 @@ msgstr ""
 
 #. type: Plain text
 #, no-wrap
-msgid "    $cpanm --installdeps -L extlib --notest .\n"
+msgid "    $> cpanm --installdeps -L extlib --notest .\n"
 msgstr ""
 
 #. type: Plain text
@@ -324,12 +289,88 @@ msgstr ""
 
 #. type: Plain text
 #, no-wrap
-msgid "    $ perl -Iextlib/lib/perl5 -Ilib fusioninventory-agent\n"
+msgid "    $> perl -Iextlib/lib/perl5 -Ilib fusioninventory-agent\n"
+msgstr ""
+
+#. type: Title ###
+#, no-wrap
+msgid "Other dependencies"
 msgstr ""
 
 #. type: Plain text
-#, no-wrap
 msgid ""
-"[[!template  id=info text=\"SSL will work only if the perl SSL lib is already installed on the system. Se\n"
-"above\"]]\n"
+"On Solaris/SPARC, you must install sneep and record the Serial Number with "
+"it.  Download it from <http://www.sun.com/download/products.xml?id=4304155a>."
 msgstr ""
+
+#. type: Plain text
+msgid ""
+"On Windows, we use an additional dmidecode binary shipped in the windows "
+"distribution to retrieve many informations not available otherwise, "
+"including fine-grained multi-cores CPUs identification. Unfortunatly, this "
+"binary is not reliable enough to be used on Windows 2003, leading to less "
+"precise inventories."
+msgstr ""
+
+#. type: Plain text
+msgid ""
+"On Linux, lspci will be used to collect PCI, AGP, PCI-X, ... informations."
+msgstr ""
+
+#~ msgid ""
+#~ "[Agent 2.2.x](https://github.com/fusinv/fusioninventory-agent/tarball/2.2."
+#~ "x)"
+#~ msgstr ""
+#~ "[Agent 2.2.x](https://github.com/fusinv/fusioninventory-agent/tarball/2.2."
+#~ "x)"
+
+#~ msgid "agent from sources"
+#~ msgstr "Agent depuis les sources"
+
+#~ msgid ""
+#~ "You may also need to install some [[system specific dependencies|"
+#~ "documentation/agent/system_dep]]."
+#~ msgstr ""
+#~ "Vous devrez aussi installer d'autres [[dépendances spécifiques à votre "
+#~ "système|documentation/agent/system_dep]]."
+
+#~ msgid "Once this is done, run once again:"
+#~ msgstr "Une fois que cela est fait, lancez une nouvelle fois:"
+
+#~ msgid "Change the installation directory"
+#~ msgstr "Changer le dossier d'installation"
+
+#~ msgid "The plugin installation follow the same process:"
+#~ msgstr "L'installation des plugins suit le même procédé:"
+
+#~ msgid ""
+#~ "    tar xfz FusionInventory-Agent-Task-Foo-0.1.2.tar.gz\n"
+#~ "    cd FusionInventory-Agent-Task-Foo-0.1.2\n"
+#~ "    cpanm .\n"
+#~ "    perl Makefile.PL\n"
+#~ "    make install\n"
+#~ msgstr ""
+#~ "    tar xfz FusionInventory-Agent-Task-Foo-0.1.2.tar.gz\n"
+#~ "    cd FusionInventory-Agent-Task-Foo-0.1.2\n"
+#~ "    cpanm .\n"
+#~ "    perl Makefile.PL\n"
+#~ "    make install\n"
+
+#~ msgid "SSL"
+#~ msgstr "SSL"
+
+#~ msgid ""
+#~ "SSL communication are based on [IO::Socket::SSL](https://metacpan.org/"
+#~ "module/IO::Socket::SSL). You build it you will need openssl header files "
+#~ "and a C compiler."
+#~ msgstr ""
+#~ "La communication par SSL est basée sur [IO::Socket::SSL](https://metacpan."
+#~ "org/module/IO::Socket::SSL). Pour l'activer, vous devez avoir les "
+#~ "fichiers *openssl header* et un compilateur *C*."
+
+#~ msgid ""
+#~ "If you don't want to use SSL, you can avoid keep this dependency "
+#~ "uninstalled.  The agent will disable SSL by itself."
+#~ msgstr ""
+#~ "Si vous ne voulez pas utiliser le SSL, vous pouvez vous passer de ces "
+#~ "dépendances  inactivées. L'agent désactivera le SSL par lui-même."
