@@ -49,7 +49,7 @@ secure your setup.
 The following command generate a key and a self-signed certificate, valid for
 two years:
 
-    $ openssl req -new -newkey rsa:2048 -days 730 -nodes -x509 -keyout server.key -out server.crt
+    $> openssl req -new -newkey rsa:2048 -days 730 -nodes -x509 -keyout server.key -out server.crt
     Generating a 1024 bit RSA private key
     ......++++++
     ...............++++++
@@ -70,9 +70,10 @@ two years:
     Common Name (eg, your name or your server's hostname) []:glpi.mycompany.com
     Email Address []:
 
-CAUTION: you have to ensure the exact host name in your server URL matches the
-certificate Common Name attribute. For instance, if your server URL is
-http(s)://glpi.mycompany.com/, the common name should be 'glpi.mycompany.com'.
+[[!template  id=warning text="You have to ensure the exact host name in your
+server URL matches the certificate Common Name attribute. For instance, if your
+server URL is http(s)://glpi.mycompany.com/, the common name should be
+'glpi.mycompany.com'."]]
 
 The key, in server.key file, is the private part allowing the server to prove
 its identity. It should not be distributed, and be correctly protected. The
