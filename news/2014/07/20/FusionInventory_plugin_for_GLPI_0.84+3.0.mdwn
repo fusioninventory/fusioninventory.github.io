@@ -22,7 +22,7 @@ This version brings the following new features:
 * [NETINVENTORY] Remove SNMP model creation menu, as [[SNMP models
   are now obsoletes|/news/2014/03/12/network_inventory_improvement]]
 
-It also fix many bugs, see (changelog)[http://forge.fusioninventory.org/versions/181] for details.
+It also fix many bugs, see [changelog](http://forge.fusioninventory.org/versions/181) for details.
 
 Last, it also provides better performances, and our small test setup is able to
 process 13.2 computer inventories per second.
