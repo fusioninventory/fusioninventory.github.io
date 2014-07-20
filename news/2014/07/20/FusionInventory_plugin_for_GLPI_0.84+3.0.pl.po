@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2014-07-20 14:01+0000\n"
+"POT-Creation-Date: 2014-07-20 14:30+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -29,35 +29,60 @@ msgstr ""
 
 #. type: Plain text
 msgid ""
-"You can download it from [the "
-"forge](http://forge.fusioninventory.org/projects/fusioninventory-for-glpi/files) "
-"and follow "
-"[instructions](http://www.fusioninventory.org/documentation/fi4g/installation)."
+"You can download it from [the forge](http://forge.fusioninventory.org/"
+"projects/fusioninventory-for-glpi/files) and follow [instructions](http://"
+"www.fusioninventory.org/documentation/fi4g/installation)."
 msgstr ""
 
 #. type: Plain text
-#, no-wrap
+msgid "This version brings the following new features:"
+msgstr ""
+
+#. type: Bullet: '* '
+msgid "[GENERAL] Remove the use of mcrypt PHP extension which are obsolete"
+msgstr ""
+
+#. type: Bullet: '* '
 msgid ""
-"This version brings the following new features:\n"
-"   * [GENERAL] Remove the use of mcrypt PHP extension which are obsolete\n"
-"   * [AGENT] add possibility to define a different port of an agent, if\n"
-"  not defined use port defined in general option\n"
-"   * [TASK] for netinventory and netdiscovery, you will see in end of\n"
-"  job the number of devices inventoried and found\n"
-"   * [TASK] Add button to force end all taskjobs of a task\n"
-"   * [COMPUTER INVENTORY] Move general option 'automatic computer\n"
-"  transfer entity' in entity configuration/form\n"
-"   * [COMPUTER INVENTORY] Improve detection of virtual machine\n"
-"   * [COMPUTER INVENTORY] Enhance computer inventory, mainly for update\n"
-"  softwares\n"
-"   * [NETINVENTORY] Remove SNMP model creation menu, as [[SNMP models\n"
-"     are now obsolete|/news/2014/03/12/network_inventory_improvement]]\n"
+"[AGENT] add possibility to define a different port of an agent, if not "
+"defined use port defined in general option"
+msgstr ""
+
+#. type: Bullet: '* '
+msgid ""
+"[TASK] for netinventory and netdiscovery, you will see in end of job the "
+"number of devices inventoried and found"
+msgstr ""
+
+#. type: Bullet: '* '
+msgid "[TASK] Add button to force end all taskjobs of a task"
+msgstr ""
+
+#. type: Bullet: '* '
+msgid ""
+"[COMPUTER INVENTORY] Move general option 'automatic computer transfer "
+"entity' in entity configuration/form"
+msgstr ""
+
+#. type: Bullet: '* '
+msgid "[COMPUTER INVENTORY] Improve detection of virtual machine"
+msgstr ""
+
+#. type: Bullet: '* '
+msgid ""
+"[COMPUTER INVENTORY] Enhance computer inventory, mainly for update softwares"
+msgstr ""
+
+#. type: Bullet: '* '
+msgid ""
+"[NETINVENTORY] Remove SNMP model creation menu, as [[SNMP models are now "
+"obsolete|/news/2014/03/12/network_inventory_improvement]]"
 msgstr ""
 
 #. type: Plain text
 msgid ""
-"It also fix many bugs, see "
-"(changelog)[http://forge.fusioninventory.org/versions/181) for details."
+"It also fix many bugs, see (changelog)[http://forge.fusioninventory.org/"
+"versions/181) for details."
 msgstr ""
 
 #. type: Plain text
@@ -69,14 +94,31 @@ msgstr ""
 #. type: Plain text
 msgid ""
 "We are already working on next version for GLPI 0.85, with the following "
-"features: * possibility to lock a field for an item type * automatic "
-"deletion of agent after X days without contacting the server * selection of "
-"SNMP authentications and ordering for network discovery * tasks rewrite (not "
-"finished)  * cleanup remaining references to SNMP models"
+"features:"
+msgstr ""
+
+#. type: Bullet: '* '
+msgid "possibility to lock a field for an item type"
+msgstr ""
+
+#. type: Bullet: '* '
+msgid "automatic deletion of agent after X days without contacting the server"
+msgstr ""
+
+#. type: Bullet: '* '
+msgid "selection of SNMP authentications and ordering for network discovery"
+msgstr ""
+
+#. type: Bullet: '* '
+msgid "tasks rewrite (not finished)"
+msgstr ""
+
+#. type: Bullet: '* '
+msgid "cleanup remaining references to SNMP models"
 msgstr ""
 
 #. type: Plain text
 msgid ""
-"We're also working on a REST API for a universal FusionInventory "
-"server. More info in a few months."
+"We're also working on a REST API for a universal FusionInventory server. "
+"More info in a few months."
 msgstr ""
