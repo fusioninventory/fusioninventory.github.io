@@ -1,0 +1,82 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2014-07-20 14:01+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. type: Title =
+#, no-wrap
+msgid "FusionInventory plugin for GLPI 0.84+3.0\n"
+msgstr ""
+
+#. type: Plain text
+msgid ""
+"The FusionInventory plugin for GLPI maintainers (ddurieux and kiniou)  are "
+"glad to announce the 0.84+3.0 release."
+msgstr ""
+
+#. type: Plain text
+msgid ""
+"You can download it from [the "
+"forge](http://forge.fusioninventory.org/projects/fusioninventory-for-glpi/files) "
+"and follow "
+"[instructions](http://www.fusioninventory.org/documentation/fi4g/installation)."
+msgstr ""
+
+#. type: Plain text
+#, no-wrap
+msgid ""
+"This version brings the following new features:\n"
+"   * [GENERAL] Remove the use of mcrypt PHP extension which are obsolete\n"
+"   * [AGENT] add possibility to define a different port of an agent, if\n"
+"  not defined use port defined in general option\n"
+"   * [TASK] for netinventory and netdiscovery, you will see in end of\n"
+"  job the number of devices inventoried and found\n"
+"   * [TASK] Add button to force end all taskjobs of a task\n"
+"   * [COMPUTER INVENTORY] Move general option 'automatic computer\n"
+"  transfer entity' in entity configuration/form\n"
+"   * [COMPUTER INVENTORY] Improve detection of virtual machine\n"
+"   * [COMPUTER INVENTORY] Enhance computer inventory, mainly for update\n"
+"  softwares\n"
+"   * [NETINVENTORY] Remove SNMP model creation menu, as [[SNMP models\n"
+"     are now obsolete|/news/2014/03/12/network_inventory_improvement]]\n"
+msgstr ""
+
+#. type: Plain text
+msgid ""
+"It also fix many bugs, see "
+"(changelog)[http://forge.fusioninventory.org/versions/181) for details."
+msgstr ""
+
+#. type: Plain text
+msgid ""
+"Last, it also provides better performances, and our small test setup is able "
+"to process 13.2 computer inventories per second."
+msgstr ""
+
+#. type: Plain text
+msgid ""
+"We are already working on next version for GLPI 0.85, with the following "
+"features: * possibility to lock a field for an item type * automatic "
+"deletion of agent after X days without contacting the server * selection of "
+"SNMP authentications and ordering for network discovery * tasks rewrite (not "
+"finished)  * cleanup remaining references to SNMP models"
+msgstr ""
+
+#. type: Plain text
+msgid ""
+"We're also working on a REST API for a universal FusionInventory "
+"server. More info in a few months."
+msgstr ""
