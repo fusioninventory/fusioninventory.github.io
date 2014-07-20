@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2014-07-20 14:30+0000\n"
+"POT-Creation-Date: 2014-07-20 14:33+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -30,8 +30,9 @@ msgstr ""
 #. type: Plain text
 msgid ""
 "You can download it from [the forge](http://forge.fusioninventory.org/"
-"projects/fusioninventory-for-glpi/files) and follow [instructions](http://"
-"www.fusioninventory.org/documentation/fi4g/installation)."
+"projects/fusioninventory-for-glpi/files) and read installation instructions "
+"from [documentation](http://www.fusioninventory.org/documentation/fi4g/"
+"installation)."
 msgstr ""
 
 #. type: Plain text
@@ -76,13 +77,13 @@ msgstr ""
 #. type: Bullet: '* '
 msgid ""
 "[NETINVENTORY] Remove SNMP model creation menu, as [[SNMP models are now "
-"obsolete|/news/2014/03/12/network_inventory_improvement]]"
+"obsoletes|/news/2014/03/12/network_inventory_improvement]]"
 msgstr ""
 
 #. type: Plain text
 msgid ""
 "It also fix many bugs, see (changelog)[http://forge.fusioninventory.org/"
-"versions/181) for details."
+"versions/181] for details."
 msgstr ""
 
 #. type: Plain text
