@@ -28,7 +28,7 @@ msgstr ""
 
 #. type: Plain text
 msgid "The NetDiscovery task uses the following protocols to scan IP networks:"
-msgstr ""
+msgstr "La tache NetDiscovery utilise les protocoles suivants pour scanner les réseaux IP:"
 
 #. type: Bullet: '* '
 msgid "ICMP scan"
@@ -46,7 +46,7 @@ msgstr ""
 msgid ""
 "Any device replying to at least of those protocols will be *discovered*, "
 "with just minimal information, such as mac address and hostname."
-msgstr ""
+msgstr "Tout équipement répondant à au moins l'un de ses protocoles sera *découvert* avec les informations minimales que sont le nom d'hôte et l'adresse MAC"
 
 #. type: Plain text
 msgid ""
@@ -63,7 +63,7 @@ msgid ""
 "Discovered devices are then reported to the GLPI servers, and import rules "
 "are applied.  If the device type (printer, network device, etc...) has not "
 "been set, the device will be considered as 'unknown devices'."
-msgstr ""
+msgstr "Les équipements découverts sont remontés au serveur GLPI et les regles d'import sont appliquées. Si le type d'équipement (imprimante, équipement réseau, etc...) n'a pas été déterminé, l'équipement sera considéré comme de type 'inconnu'"
 
 #. type: Title ###
 #, no-wrap
@@ -72,7 +72,7 @@ msgstr "Configuration de l'agent"
 
 #. type: Plain text
 msgid "The agent requires additional software for this task:"
-msgstr ""
+msgstr "L'agent requiert les composant logiciels suivants pour cette tache:"
 
 #. type: Bullet: '* '
 msgid "nmap external command for ICMP suport"
@@ -80,14 +80,15 @@ msgstr ""
 
 #. type: Bullet: '* '
 msgid "Net::NBName perl module for NetBios support"
-msgstr ""
+msgstr "Le module perl Net::NBName pour le support NetBios"
+
+#. type: Bullet: '* '
+msgid "Net::SNMP perl modules for SNMP support\n"
+msgstr "Les modules perl Net::SNMP pour le support SNMP\n"
 
 #. type: Plain text
-#, no-wrap
-msgid ""
-"* Net::SNMP perl modules for SNMP support\n"
-"You have to check your installation for those optional dependencies.\n"
-msgstr ""
+msgid "You have to check your installation for those optional dependencies.\n"
+msgstr "vous devez vérifier vous même votre installation pour ces dépendances.\n"
 
 #. type: Plain text
 msgid ""
@@ -99,7 +100,7 @@ msgstr ""
 #. type: Title ###
 #, no-wrap
 msgid "SNMP Credentials"
-msgstr ""
+msgstr "Authentification SNMP"
 
 #. type: Plain text
 msgid ""
@@ -123,7 +124,7 @@ msgstr ""
 #. type: Title ##
 #, no-wrap
 msgid "Manual execution"
-msgstr ""
+msgstr "Execution manuelle"
 
 #. type: Plain text
 msgid ""
