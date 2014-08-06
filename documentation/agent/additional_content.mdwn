@@ -1,11 +1,16 @@
 # How to push additional content in my inventory
 
-## --additional-content
+## Additional content
 
-You can ask your agent to inject additional content during the inventory
-creation:
+You can use *additional-content* [[configuration
+parameter|agent/configuration]] (alternatively, *--additional-content*
+[[command-line options|agent/man]]) to inject arbitary XML content into
+inventory result.
 
-    # cat /tmp/foo.xml 
+For instance, to add some manually installed software, unknown from the
+packaging system database:
+
+    $> cat /tmp/foo.xml
     <?xml version="1.0" encoding="UTF-8" ?>
     <REQUEST>
       <CONTENT>
@@ -14,14 +19,11 @@ creation:
               <VERSION>bar</VERSION>
           </SOFTWARES>
       </CONTENT>
-    </REQUEST> 
-    # fusioninventory-agent --additional-content /tmp/foo.xml
+    </REQUEST>
+    $> fusioninventory-agent --additional-content /tmp/foo.xml
 
-`additional-content` can also be a registry key.
+## Perl module
 
-## Your own Perl module
-
-You can extend FusionInventory by creating your own collect module in
-'lib/FusionInventory/Agent/Task/Inventory/Input/Generic/Softwares/'.
-
-The module will be automaticly loaded at run time.
+You can extend FusionInventory by creating a custom Perl module, and installing
+it anywhere under 'lib/FusionInventory/Agent/Task/Inventory' directory. It will
+be automatically loaded and executed at run time.
