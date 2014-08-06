@@ -1,45 +1,40 @@
 # Agent configuration
 
-The agent reads its configuration from a configuration file (from the registry
-on Windows), then from the command line. Most parameters can be set from any
-method. For instance, the `server` parameter in configuration file is the same
-as the `--server` parameter on command line.
+## Location
 
-Most configuration parameters are single-valued. Multi-valued ones use a comma
-field separator. For instance, `logger = Stderr, File`
-
-## Where is the configuration?
-
-Depending on the OperatingSystem and the installation method, the agent will read its configuration from different places:
+On Unix, the agent reads its configuration from a configuration file, whose
+location depends of the installation method:
 
 * `/etc/fusioninventory/agent.cfg`: default
 * `/opt/fusioninventory/agent.cfg`: MacOSx mpkg
 * `/usr/local/etc/fusioninventory/agent.cfg`: FreeBSD port
-* `HKEY_LOCAL_MACHINE\SOFTWARE\FusionInventory-Agent`: Windows
-* `HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\FusionInventory-Agent`: Windows 64 bits
 
-## Minimal configuration
+On Windows, the agent read its configuration from a registry key, whose
+location depends on architecture:
+
+* `HKEY_LOCAL_MACHINE\SOFTWARE\FusionInventory-Agent`: Windows
+* `HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\FusionInventory-Agent`: 32bits agent on 64bits Windows
+
+## Syntax
+
+Most configuration parameters are single-valued. Multi-valued ones use a comma
+field separator. For instance, `logger = Stderr, File`
+
+## Available parameters
 
 The only minimal requirement is an execution target, which can be either:
 
 * `server`: a server URL, such as http://glpiserver/plugins/fusioninventory/
 * `local`: a output directory, such /tmp/inventory
 
-## Additional configuration
+Warning: multiple targets doesn't mean "execute once, send results many times",
+but "execute and send results many times", implying potentially different
+results (see [bug 2335](http://forge.fusioninventory.org/issues/2335)).
 
-If you intend to run the agent in background, you'd rather set the additional
-parameters:
+See [[agent.cfg man page||man/agent.cfg]] for full parameters list.
 
-* `debug`: 0, 1 or 2, to keep trace of agent execution
+## Command line
 
-Once this is done, you can [[force an inventory|documentation/agent/launch_the_agent]].
+All configuration parameters can be overriden by command-line options.
 
-## Advanced configuration
-
-All the keys are documented in the OPTIONS section of fusioninventory-agent reference documentation:
-
-* [[2.2.x (oldstable)|documentation/references/agent/2.2.x/fusioninventory-agent]]
-* [[2.3.x (stable)|documentation/agent/installation/windows/windows-installer-2.3.x-command-line]]
-* [[2.4.x (dev)|documentation/dev/]]
-
-
+See various executable [[man pages|man]] for full options list.
