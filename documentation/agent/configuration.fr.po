@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2014-07-17 07:22+0000\n"
+"POT-Creation-Date: 2014-08-06 08:01+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -22,40 +22,16 @@ msgstr ""
 msgid "Agent configuration"
 msgstr "#Configuration de l'agent\n"
 
-#. type: Plain text
-msgid ""
-"The agent reads its configuration from a configuration file (from the "
-"registry on Windows), then from the command line. Most parameters can be set "
-"from any method. For instance, the `server` parameter in configuration file "
-"is the same as the `--server` parameter on command line."
-msgstr ""
-"L'agent lit la configuration depuis le fichier de configuration (depuis la "
-"base de registre sur Windows), ou à partir de la ligne de commande. La "
-"plupart des paramètres peuvent être définis à partir de n'importe quelle "
-"méthode. Par exemple, le paramètre `server` dans le fichier de configuration "
-"a le même sens que le paramètre `--server` en ligne de commande."
-
-#. type: Plain text
-msgid ""
-"Most configuration parameters are single-valued. Multi-valued ones use a "
-"comma field separator. For instance, `logger = Stderr, File`"
-msgstr ""
-"La plupart des paramètres de configuration ont une seule valeur. Pour ceux "
-"ayant  plusieurs valeurs, utiliser le séparateur de champ «virgules». Par "
-"exemple, logger = Stderr,File"
-
 #. type: Title ##
 #, no-wrap
-msgid "Where is the configuration?"
-msgstr "Où trouver ce fichier de configuration ?"
+msgid "Location"
+msgstr ""
 
 #. type: Plain text
 msgid ""
-"Depending on the OperatingSystem and the installation method, the agent will "
-"read its configuration from different places:"
+"On Unix, the agent reads its configuration from a configuration file, whose "
+"location depends of the installation method:"
 msgstr ""
-"En fonction du système d'opération et de la méthode d'installation, l'agent "
-"lira la configuration en différent fichier:"
 
 #. type: Bullet: '* '
 msgid "`/etc/fusioninventory/agent.cfg`: default"
@@ -69,22 +45,46 @@ msgstr "`/opt/fusioninventory/agent.cfg` : agent MacOSx"
 msgid "`/usr/local/etc/fusioninventory/agent.cfg`: FreeBSD port"
 msgstr "`/usr/local/etc/fusioninventory/agent.cfg` : port FreeBSD "
 
+#. type: Plain text
+msgid ""
+"On Windows, the agent read its configuration from a registry key, whose "
+"location depends on architecture:"
+msgstr ""
+
 #. type: Bullet: '* '
 msgid "`HKEY_LOCAL_MACHINE\\SOFTWARE\\FusionInventory-Agent`: Windows"
 msgstr "`HKEY_LOCAL_MACHINE\\SOFTWARE\\FusionInventory-Agent` : pour Windows"
 
 #. type: Bullet: '* '
+#, fuzzy
+#| msgid ""
+#| "`HKEY_LOCAL_MACHINE\\SOFTWARE\\Wow6432Node\\FusionInventory-Agent`: "
+#| "Windows 64 bits"
 msgid ""
-"`HKEY_LOCAL_MACHINE\\SOFTWARE\\Wow6432Node\\FusionInventory-Agent`: Windows "
-"64 bits"
+"`HKEY_LOCAL_MACHINE\\SOFTWARE\\Wow6432Node\\FusionInventory-Agent`: 32bits "
+"agent on 64bits Windows"
 msgstr ""
 "`HKEY_LOCAL_MACHINE\\SOFTWARE\\Wow6432Node\\FusionInventory-Agent` : pour "
 "Windows 64 bits"
 
 #. type: Title ##
 #, no-wrap
-msgid "Minimal configuration"
-msgstr "Configuration minimale"
+msgid "Syntax"
+msgstr ""
+
+#. type: Plain text
+msgid ""
+"Most configuration parameters are single-valued. Multi-valued ones use a "
+"comma field separator. For instance, `logger = Stderr, File`"
+msgstr ""
+"La plupart des paramètres de configuration ont une seule valeur. Pour ceux "
+"ayant  plusieurs valeurs, utiliser le séparateur de champ «virgules». Par "
+"exemple, logger = Stderr,File"
+
+#. type: Title ##
+#, no-wrap
+msgid "Available parameters"
+msgstr ""
 
 #. type: Plain text
 msgid ""
@@ -103,60 +103,101 @@ msgstr ""
 msgid "`local`: a output directory, such /tmp/inventory"
 msgstr "`local` : un dossier cible, comme /tmp/dossier"
 
-#. type: Title ##
-#, no-wrap
-msgid "Additional configuration"
-msgstr "Configuration additionnelle"
-
 #. type: Plain text
 msgid ""
-"If you intend to run the agent in background, you'd rather set the "
-"additional parameters:"
+"Warning: multiple targets doesn't mean \"execute once, send results many "
+"times\", but \"execute and send results many times\", implying potentially "
+"different results (see [bug 2335](http://forge.fusioninventory.org/"
+"issues/2335))."
 msgstr ""
-"Si vous avez l'intention d'exécuter l'agent en arrière-plan, vous devrez "
-"définir les paramètres supplémentaires :"
-
-#. type: Bullet: '* '
-msgid "`debug`: 0, 1 or 2, to keep trace of agent execution"
-msgstr "`debug` : 0, 1, ou 2, pour garder le log de l'exécution de l'agent"
 
 #. type: Plain text
-msgid ""
-"Once this is done, you can [[force an inventory|documentation/agent/"
-"launch_the_agent]]."
+msgid "See [[agent.cfg man page||man/agent.cfg]] for full parameters list."
 msgstr ""
-"Une fois que cela est fait, vous pouvez [[forcer un inventaire|documentation/"
-"agent/launch_the_agent]]."
 
 #. type: Title ##
 #, no-wrap
-msgid "Advanced configuration"
-msgstr "Configuration avancée"
+msgid "Command line"
+msgstr ""
 
 #. type: Plain text
-msgid ""
-"All the keys are documented in the OPTIONS section of fusioninventory-agent "
-"reference documentation:"
+msgid "All configuration parameters can be overriden by command-line options."
 msgstr ""
-"Toutes les clés sont documentées dans la section OPTIONS de la documentation "
-"de référence de fusioninventory-agent :"
 
-#. type: Bullet: '* '
-msgid ""
-"[[2.2.x (oldstable)|documentation/references/agent/2.2.x/fusioninventory-"
-"agent]]"
+#. type: Plain text
+msgid "See various executable [[man pages|man]] for full options list."
 msgstr ""
-"[[2.2.x (ancienne version )|documentation/references/agent/2.2.x/"
-"fusioninventory-agent]]"
 
-#. type: Bullet: '* '
-msgid ""
-"[[2.3.x (stable)|documentation/agent/installation/windows/windows-"
-"installer-2.3.x-command-line]]"
-msgstr ""
-"[[2.3.x (stable)|documentation/agent/installation/windows/windows-"
-"installer-2.3.x-command-line]]"
+#~ msgid ""
+#~ "The agent reads its configuration from a configuration file (from the "
+#~ "registry on Windows), then from the command line. Most parameters can be "
+#~ "set from any method. For instance, the `server` parameter in "
+#~ "configuration file is the same as the `--server` parameter on command "
+#~ "line."
+#~ msgstr ""
+#~ "L'agent lit la configuration depuis le fichier de configuration (depuis "
+#~ "la base de registre sur Windows), ou à partir de la ligne de commande. La "
+#~ "plupart des paramètres peuvent être définis à partir de n'importe quelle "
+#~ "méthode. Par exemple, le paramètre `server` dans le fichier de "
+#~ "configuration a le même sens que le paramètre `--server` en ligne de "
+#~ "commande."
 
-#. type: Bullet: '* '
-msgid "[[2.4.x (dev)|documentation/dev/]]"
-msgstr "[[2.4.x (dev)|documentation/dev/]]"
+#~ msgid "Where is the configuration?"
+#~ msgstr "Où trouver ce fichier de configuration ?"
+
+#~ msgid ""
+#~ "Depending on the OperatingSystem and the installation method, the agent "
+#~ "will read its configuration from different places:"
+#~ msgstr ""
+#~ "En fonction du système d'opération et de la méthode d'installation, "
+#~ "l'agent lira la configuration en différent fichier:"
+
+#~ msgid "Minimal configuration"
+#~ msgstr "Configuration minimale"
+
+#~ msgid "Additional configuration"
+#~ msgstr "Configuration additionnelle"
+
+#~ msgid ""
+#~ "If you intend to run the agent in background, you'd rather set the "
+#~ "additional parameters:"
+#~ msgstr ""
+#~ "Si vous avez l'intention d'exécuter l'agent en arrière-plan, vous devrez "
+#~ "définir les paramètres supplémentaires :"
+
+#~ msgid "`debug`: 0, 1 or 2, to keep trace of agent execution"
+#~ msgstr "`debug` : 0, 1, ou 2, pour garder le log de l'exécution de l'agent"
+
+#~ msgid ""
+#~ "Once this is done, you can [[force an inventory|documentation/agent/"
+#~ "launch_the_agent]]."
+#~ msgstr ""
+#~ "Une fois que cela est fait, vous pouvez [[forcer un inventaire|"
+#~ "documentation/agent/launch_the_agent]]."
+
+#~ msgid "Advanced configuration"
+#~ msgstr "Configuration avancée"
+
+#~ msgid ""
+#~ "All the keys are documented in the OPTIONS section of fusioninventory-"
+#~ "agent reference documentation:"
+#~ msgstr ""
+#~ "Toutes les clés sont documentées dans la section OPTIONS de la "
+#~ "documentation de référence de fusioninventory-agent :"
+
+#~ msgid ""
+#~ "[[2.2.x (oldstable)|documentation/references/agent/2.2.x/fusioninventory-"
+#~ "agent]]"
+#~ msgstr ""
+#~ "[[2.2.x (ancienne version )|documentation/references/agent/2.2.x/"
+#~ "fusioninventory-agent]]"
+
+#~ msgid ""
+#~ "[[2.3.x (stable)|documentation/agent/installation/windows/windows-"
+#~ "installer-2.3.x-command-line]]"
+#~ msgstr ""
+#~ "[[2.3.x (stable)|documentation/agent/installation/windows/windows-"
+#~ "installer-2.3.x-command-line]]"
+
+#~ msgid "[[2.4.x (dev)|documentation/dev/]]"
+#~ msgstr "[[2.4.x (dev)|documentation/dev/]]"

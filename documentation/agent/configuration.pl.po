@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2014-07-17 07:22+0000\n"
+"POT-Creation-Date: 2014-08-06 08:01+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: Piotr Adamcio <p.adamcio@czluchow.org.pl>\n"
 "Language-Team: Polish <LL@li.org>\n"
@@ -22,32 +22,16 @@ msgstr ""
 msgid "Agent configuration"
 msgstr "#Konfiguracja agenta\n"
 
-#. type: Plain text
-msgid ""
-"The agent reads its configuration from a configuration file (from the "
-"registry on Windows), then from the command line. Most parameters can be set "
-"from any method. For instance, the `server` parameter in configuration file "
-"is the same as the `--server` parameter on command line."
-msgstr ""
-
-#. type: Plain text
-msgid ""
-"Most configuration parameters are single-valued. Multi-valued ones use a "
-"comma field separator. For instance, `logger = Stderr, File`"
-msgstr ""
-
 #. type: Title ##
 #, no-wrap
-msgid "Where is the configuration?"
-msgstr "Gdzie znajduje się konfiguracja?"
+msgid "Location"
+msgstr ""
 
 #. type: Plain text
 msgid ""
-"Depending on the OperatingSystem and the installation method, the agent will "
-"read its configuration from different places:"
+"On Unix, the agent reads its configuration from a configuration file, whose "
+"location depends of the installation method:"
 msgstr ""
-"W zalezności od systemu operacyjnego i metody instalacji, agent czyta swoją "
-"konfiguracje z różnych miejsc:"
 
 #. type: Bullet: '* '
 msgid "`/etc/fusioninventory/agent.cfg`: default"
@@ -61,22 +45,43 @@ msgstr "`/opt/fusioninventory/agent.cfg`: MacOSx mpkg"
 msgid "`/usr/local/etc/fusioninventory/agent.cfg`: FreeBSD port"
 msgstr "`/usr/local/etc/fusioninventory/agent.cfg`: FreeBSD port"
 
+#. type: Plain text
+msgid ""
+"On Windows, the agent read its configuration from a registry key, whose "
+"location depends on architecture:"
+msgstr ""
+
 #. type: Bullet: '* '
 msgid "`HKEY_LOCAL_MACHINE\\SOFTWARE\\FusionInventory-Agent`: Windows"
 msgstr "`HKEY_LOCAL_MACHINE\\SOFTWARE\\FusionInventory-Agent`: Windows"
 
 #. type: Bullet: '* '
+#, fuzzy
+#| msgid ""
+#| "`HKEY_LOCAL_MACHINE\\SOFTWARE\\Wow6432Node\\FusionInventory-Agent`: "
+#| "Windows 64 bits"
 msgid ""
-"`HKEY_LOCAL_MACHINE\\SOFTWARE\\Wow6432Node\\FusionInventory-Agent`: Windows "
-"64 bits"
+"`HKEY_LOCAL_MACHINE\\SOFTWARE\\Wow6432Node\\FusionInventory-Agent`: 32bits "
+"agent on 64bits Windows"
 msgstr ""
 "`HKEY_LOCAL_MACHINE\\SOFTWARE\\Wow6432Node\\FusionInventory-Agent`: Windows "
 "64 bitowy"
 
 #. type: Title ##
 #, no-wrap
-msgid "Minimal configuration"
-msgstr "Minimalna konfiguracja"
+msgid "Syntax"
+msgstr ""
+
+#. type: Plain text
+msgid ""
+"Most configuration parameters are single-valued. Multi-valued ones use a "
+"comma field separator. For instance, `logger = Stderr, File`"
+msgstr ""
+
+#. type: Title ##
+#, no-wrap
+msgid "Available parameters"
+msgstr ""
 
 #. type: Plain text
 msgid ""
@@ -98,64 +103,76 @@ msgstr ""
 msgid "`local`: a output directory, such /tmp/inventory"
 msgstr ""
 
-#. type: Title ##
-#, fuzzy, no-wrap
-#| msgid "Minimal configuration"
-msgid "Additional configuration"
-msgstr "Minimalna konfiguracja"
-
 #. type: Plain text
 msgid ""
-"If you intend to run the agent in background, you'd rather set the "
-"additional parameters:"
-msgstr ""
-
-#. type: Bullet: '* '
-msgid "`debug`: 0, 1 or 2, to keep trace of agent execution"
+"Warning: multiple targets doesn't mean \"execute once, send results many "
+"times\", but \"execute and send results many times\", implying potentially "
+"different results (see [bug 2335](http://forge.fusioninventory.org/"
+"issues/2335))."
 msgstr ""
 
 #. type: Plain text
-msgid ""
-"Once this is done, you can [[force an inventory|documentation/agent/"
-"launch_the_agent]]."
+msgid "See [[agent.cfg man page||man/agent.cfg]] for full parameters list."
 msgstr ""
-"Jeśli powyższe zostanie ustawione możesz [[wymusić inwentaryzacje|"
-"documentation/agent/launch_the_agent]]."
 
 #. type: Title ##
 #, no-wrap
-msgid "Advanced configuration"
-msgstr "Zaawansowana konfiguracja"
+msgid "Command line"
+msgstr ""
 
 #. type: Plain text
-msgid ""
-"All the keys are documented in the OPTIONS section of fusioninventory-agent "
-"reference documentation:"
+msgid "All configuration parameters can be overriden by command-line options."
 msgstr ""
-"Wszystkie klucze są udokumentowane w sekcji OPCJE dokumentacji agenta "
-"fusioninventory:"
 
-#. type: Bullet: '* '
+#. type: Plain text
+msgid "See various executable [[man pages|man]] for full options list."
+msgstr ""
+
+#~ msgid "Where is the configuration?"
+#~ msgstr "Gdzie znajduje się konfiguracja?"
+
+#~ msgid ""
+#~ "Depending on the OperatingSystem and the installation method, the agent "
+#~ "will read its configuration from different places:"
+#~ msgstr ""
+#~ "W zalezności od systemu operacyjnego i metody instalacji, agent czyta "
+#~ "swoją konfiguracje z różnych miejsc:"
+
+#~ msgid "Minimal configuration"
+#~ msgstr "Minimalna konfiguracja"
+
 #, fuzzy
-#| msgid ""
-#| "[[2.2.x (stable)|documentation/references/agent/2.2.x/fusioninventory-"
-#| "agent]]"
-msgid ""
-"[[2.2.x (oldstable)|documentation/references/agent/2.2.x/fusioninventory-"
-"agent]]"
-msgstr ""
-"[[2.2.x (stabilna)|documentation/references/agent/2.2.x/fusioninventory-"
-"agent]]"
+#~| msgid "Minimal configuration"
+#~ msgid "Additional configuration"
+#~ msgstr "Minimalna konfiguracja"
 
-#. type: Bullet: '* '
-msgid ""
-"[[2.3.x (stable)|documentation/agent/installation/windows/windows-"
-"installer-2.3.x-command-line]]"
-msgstr ""
+#~ msgid ""
+#~ "Once this is done, you can [[force an inventory|documentation/agent/"
+#~ "launch_the_agent]]."
+#~ msgstr ""
+#~ "Jeśli powyższe zostanie ustawione możesz [[wymusić inwentaryzacje|"
+#~ "documentation/agent/launch_the_agent]]."
 
-#. type: Bullet: '* '
-msgid "[[2.4.x (dev)|documentation/dev/]]"
-msgstr ""
+#~ msgid "Advanced configuration"
+#~ msgstr "Zaawansowana konfiguracja"
+
+#~ msgid ""
+#~ "All the keys are documented in the OPTIONS section of fusioninventory-"
+#~ "agent reference documentation:"
+#~ msgstr ""
+#~ "Wszystkie klucze są udokumentowane w sekcji OPCJE dokumentacji agenta "
+#~ "fusioninventory:"
+
+#, fuzzy
+#~| msgid ""
+#~| "[[2.2.x (stable)|documentation/references/agent/2.2.x/fusioninventory-"
+#~| "agent]]"
+#~ msgid ""
+#~ "[[2.2.x (oldstable)|documentation/references/agent/2.2.x/fusioninventory-"
+#~ "agent]]"
+#~ msgstr ""
+#~ "[[2.2.x (stabilna)|documentation/references/agent/2.2.x/fusioninventory-"
+#~ "agent]]"
 
 #~ msgid ""
 #~ "[[2.1.x (old stable)|documentation/references/agent/2.1.x/fusioninventory-"
