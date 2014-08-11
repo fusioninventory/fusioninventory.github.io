@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2014-07-16 07:19+0000\n"
+"POT-Creation-Date: 2014-08-11 16:17+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -149,6 +149,10 @@ msgstr ""
 msgid "[[Wake on lan|documentation/dev/spec/wakeonlan-protocol]]"
 msgstr ""
 
+#. type: Bullet: '* '
+msgid "[[Vocabulary|documentation/dev/spec/vocabulary]]"
+msgstr ""
+
 #. type: Title ##
 #, no-wrap
 msgid "Others"
@@ -177,10 +181,6 @@ msgstr ""
 
 #. type: Bullet: '* '
 msgid "[[Switch stack inventory|documentation/dev/spec/switch_stack]]"
-msgstr ""
-
-#. type: Bullet: '* '
-msgid "[[Device types|documentation/dev/spec/device-types]]"
 msgstr ""
 
 #. type: Title ##
