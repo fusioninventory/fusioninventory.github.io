@@ -47,6 +47,7 @@ and the server.
 * [[Network discovery|documentation/dev/spec/netdiscovery-protocol]] 
 * [[Network inventory|documentation/dev/spec/netinventory-protocol]] 
 * [[Wake on lan|documentation/dev/spec/wakeonlan-protocol]] 
+* [[Vocabulary|documentation/dev/spec/vocabulary]] 
 
 ## Others
 
@@ -55,7 +56,6 @@ and the server.
 * [[POIP inventory with HTTP|documentation/dev/spec/poip]]
 * [[Switch inventory aggregate ports|documentation/dev/spec/switch_aggregate]] 
 * [[Switch stack inventory|documentation/dev/spec/switch_stack]] 
-* [[Device types|documentation/dev/spec/device-types]] 
 
 ## Events
 
