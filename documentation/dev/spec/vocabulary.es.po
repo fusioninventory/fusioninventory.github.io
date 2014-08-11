@@ -1,0 +1,96 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2014-08-11 16:11+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. type: Title #
+#, no-wrap
+msgid "Vocabulary"
+msgstr ""
+
+#. type: Title ##
+#, no-wrap
+msgid "devices types"
+msgstr ""
+
+#. type: Plain text
+msgid "Legal values for device type:"
+msgstr ""
+
+#. type: Bullet: '* '
+msgid "computer: computer"
+msgstr ""
+
+#. type: Bullet: '* '
+msgid "networking: network device"
+msgstr ""
+
+#. type: Bullet: '* '
+msgid "printer: printer"
+msgstr ""
+
+#. type: Bullet: '* '
+msgid "storage: storage device"
+msgstr ""
+
+#. type: Bullet: '* '
+msgid "power: power device"
+msgstr ""
+
+#. type: Bullet: '* '
+msgid "phone: phone"
+msgstr ""
+
+#. type: Bullet: '* '
+msgid "video: video"
+msgstr ""
+
+#. type: Bullet: '* '
+msgid "kvm: KVM devices"
+msgstr ""
+
+#. type: Title ##
+#, no-wrap
+msgid "network interface types"
+msgstr ""
+
+#. type: Plain text
+msgid "Legal values for network interface type:"
+msgstr ""
+
+#. type: Bullet: '* '
+msgid "ethernet"
+msgstr ""
+
+#. type: Bullet: '* '
+msgid "wifi"
+msgstr ""
+
+#. type: Bullet: '* '
+msgid "loopback"
+msgstr ""
+
+#. type: Bullet: '* '
+msgid "alias"
+msgstr ""
+
+#. type: Bullet: '* '
+msgid "aggregate"
+msgstr ""
+
+#. type: Bullet: '* '
+msgid "dialup"
+msgstr ""
