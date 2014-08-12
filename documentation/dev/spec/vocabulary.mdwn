@@ -22,4 +22,5 @@ Legal values for network interface type:
 * loopback
 * alias
 * aggregate
+* bridge
 * dialup
