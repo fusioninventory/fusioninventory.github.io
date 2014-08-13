@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2014-08-12 09:23+0000\n"
+"POT-Creation-Date: 2014-08-13 12:33+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -71,12 +71,24 @@ msgstr ""
 msgid "Legal values for network interface type:"
 msgstr ""
 
+#. type: Plain text
+msgid "non-virtual interface types:"
+msgstr ""
+
 #. type: Bullet: '* '
 msgid "ethernet"
 msgstr ""
 
 #. type: Bullet: '* '
+msgid "infiniband"
+msgstr ""
+
+#. type: Bullet: '* '
 msgid "wifi"
+msgstr ""
+
+#. type: Plain text
+msgid "virtual interface types:"
 msgstr ""
 
 #. type: Bullet: '* '
