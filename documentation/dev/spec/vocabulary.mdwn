@@ -17,8 +17,14 @@ Legal values for device type:
 
 Legal values for network interface type:
 
+non-virtual interface types:
+
 * ethernet
+* infiniband
 * wifi
+
+virtual interface types:
+
 * loopback
 * alias
 * aggregate
