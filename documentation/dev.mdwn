@@ -45,9 +45,9 @@ and the server.
 ## Legacy communication protocol
 
 * [[Inventory|documentation/dev/spec/inventory]]
-* [[Network discovery|documentation/dev/spec/netdiscovery-protocol]]
-* [[Network inventory|documentation/dev/spec/netinventory-protocol]]
-* [[Wake on lan|documentation/dev/spec/wakeonlan-protocol]]
+* [[Network discovery|documentation/dev/spec/netdiscovery]]
+* [[Network inventory|documentation/dev/spec/netinventory]]
+* [[Wake on lan|documentation/dev/spec/wakeonlan]]
 * [[Vocabulary|documentation/dev/spec/vocabulary]]
 
 ## Others
