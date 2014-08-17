@@ -54,7 +54,6 @@ and the server.
 * [[New directory layout (partially implemented)|documentation/dev/spec/new-directory-layout]]
 * [[Load configuration from external places|documentation/dev/spec/load_ext_cfg]]
 * [[POIP inventory with HTTP|documentation/dev/spec/poip]]
-* [[Switch inventory aggregate ports|documentation/dev/spec/switch_aggregate]] 
 * [[Switch stack inventory|documentation/dev/spec/switch_stack]] 
 
 ## Events
