@@ -44,18 +44,18 @@ and the server.
 
 ## Legacy communication protocol
 
-* [[Inventory|documentation/dev/spec/inventory]] 
-* [[Network discovery|documentation/dev/spec/netdiscovery-protocol]] 
-* [[Network inventory|documentation/dev/spec/netinventory-protocol]] 
-* [[Wake on lan|documentation/dev/spec/wakeonlan-protocol]] 
-* [[Vocabulary|documentation/dev/spec/vocabulary]] 
+* [[Inventory|documentation/dev/spec/inventory]]
+* [[Network discovery|documentation/dev/spec/netdiscovery-protocol]]
+* [[Network inventory|documentation/dev/spec/netinventory-protocol]]
+* [[Wake on lan|documentation/dev/spec/wakeonlan-protocol]]
+* [[Vocabulary|documentation/dev/spec/vocabulary]]
 
 ## Others
 
 * [[New directory layout (partially implemented)|documentation/dev/spec/new-directory-layout]]
 * [[Load configuration from external places|documentation/dev/spec/load_ext_cfg]]
 * [[POIP inventory with HTTP|documentation/dev/spec/poip]]
-* [[Switch stack inventory|documentation/dev/spec/switch_stack]] 
+* [[Switch stack inventory|documentation/dev/spec/switch_stack]]
 
 ## Events
 
