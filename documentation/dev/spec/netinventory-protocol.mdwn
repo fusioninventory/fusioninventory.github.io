@@ -7,27 +7,27 @@
     <!ELEMENT REPLY (PROCESSNUMBER, OPTION)>
     <!ELEMENT PROCESSNUMBER (#PCDATA)>
     <!ELEMENT OPTION (NAME, PARAM, DEVICE+, AUTHENTICATION+)>
-    <!ELEMENT NAME (#PCDATA)>
+      <!ELEMENT NAME (#PCDATA)>
 
-    <!ELEMENT PARAM EMPTY>
-    <!ATTLIST PARAM THREADS_QUERY CDATA "1">
-    <!ATTLIST PARAM PID CDATA #REQUIRED>
+      <!ELEMENT PARAM EMPTY>
+        <!ATTLIST PARAM THREADS_QUERY CDATA "1">
+        <!ATTLIST PARAM PID CDATA #REQUIRED>
 
-    <!ELEMENT DEVICE EMPTY>
-    <!ATTLIST DEVICE TYPE (COMPUTER|PRINTER|NETWORKING|STORAGE|POWER|PHONE|VIDEO) #REQUIRED>
-    <!ATTLIST DEVICE ID CDATA #REQUIRED>
-    <!ATTLIST DEVICE IP CDATA #REQUIRED>
-    <!ATTLIST DEVICE IP AUTHSNMP_ID #REQUIRED>
+      <!ELEMENT DEVICE EMPTY>
+        <!ATTLIST DEVICE TYPE (COMPUTER|PRINTER|NETWORKING|STORAGE|POWER|PHONE|VIDEO) #REQUIRED>
+        <!ATTLIST DEVICE ID CDATA #REQUIRED>
+        <!ATTLIST DEVICE IP CDATA #REQUIRED>
+        <!ATTLIST DEVICE IP AUTHSNMP_ID #REQUIRED>
 
-    <!ELEMENT AUTHENTICATION EMPTY>
-    <!ATTLIST AUTHENTICATION ID CDATA #REQUIRED>
-    <!ATTLIST AUTHENTICATION VERSION CDATA #REQUIRED>
-    <!ATTLIST AUTHENTICATION COMMUNITY CDATA #IMPLIED>
-    <!ATTLIST AUTHENTICATION USERNAME CDATA #IMPLIED>
-    <!ATTLIST AUTHENTICATION AUTHPROTOCOL CDATA #IMPLIED>
-    <!ATTLIST AUTHENTICATION AUTHPASSPHRASE CDATA #IMPLIED>
-    <!ATTLIST AUTHENTICATION PRIVHPROTOCOL CDATA #IMPLIED>
-    <!ATTLIST AUTHENTICATION PRIVPASSPHRASE CDATA #IMPLIED>
+      <!ELEMENT AUTHENTICATION EMPTY>
+        <!ATTLIST AUTHENTICATION ID CDATA #REQUIRED>
+        <!ATTLIST AUTHENTICATION VERSION CDATA #REQUIRED>
+        <!ATTLIST AUTHENTICATION COMMUNITY CDATA #IMPLIED>
+        <!ATTLIST AUTHENTICATION USERNAME CDATA #IMPLIED>
+        <!ATTLIST AUTHENTICATION AUTHPROTOCOL CDATA #IMPLIED>
+        <!ATTLIST AUTHENTICATION AUTHPASSPHRASE CDATA #IMPLIED>
+        <!ATTLIST AUTHENTICATION PRIVHPROTOCOL CDATA #IMPLIED>
+        <!ATTLIST AUTHENTICATION PRIVPASSPHRASE CDATA #IMPLIED>
 
 ### Example
 
@@ -48,129 +48,133 @@
 
     <!ELEMENT REQUEST (CONTENT+, DEVICEID, QUERY)>
 
-    <!ELEMENT CONTENT (DEVICE*, MODULEVERSION, PROCESSNUMBER)>
+      <!ELEMENT CONTENT (DEVICE*, MODULEVERSION, PROCESSNUMBER)>
 
-    <!-- a device -->
-    <!ELEMENT DEVICE (INFO, PORTS)>
+        <!-- a device -->
+        <!ELEMENT DEVICE (INFO, PORTS)>
 
-    <!-- generic information -->
-    <!ELEMENT INFO (COMMENTS, CPU, FIRMWARE, ID, IPS, LOCATION, MAC, MEMORY, MODEL, NAME, RAM, SERIAL, TYPE, UPTIME)>
-    <!-- sysdescr (string) -->
-    <!ELEMENT COMMENTS (#PCDATA)>
-    <!-- CPU load in % (integer) -->
-    <!ELEMENT CPU (#PCDATA)>
-    <!-- firmware (string) -->
-    <!ELEMENT FIRMWARE (#PCDATA)>
-    <!-- device ID in GLPI (integer) -->
-    <!ELEMENT ID (#PCDATA)>
+          <!-- generic information -->
+          <!ELEMENT INFO (COMMENTS, CPU, FIRMWARE, ID, IPS, LOCATION, MAC, MEMORY, MODEL, NAME, RAM, SERIAL, TYPE, UPTIME)>
+            <!-- sysdescr (string) -->
+            <!ELEMENT COMMENTS (#PCDATA)>
+            <!-- CPU load in % (integer) -->
+            <!ELEMENT CPU (#PCDATA)>
+            <!-- firmware (string) -->
+            <!ELEMENT FIRMWARE (#PCDATA)>
+            <!-- device ID in GLPI (integer) -->
+            <!ELEMENT ID (#PCDATA)>
+            <!-- IP addresses list -->
+            <!ELEMENT IPS (IP+)>
+            <!-- an IP address, either IPv4 or IPv6 (string) -->
+            <!ELEMENT IP (#PCDATA)>
+            <!-- location (string) -->
+            <!ELEMENT LOCATION (#PCDATA)>
+            <!-- mac address (string) -->
+            <!ELEMENT MAC (#PCDATA)>
+            <!-- storage in Mio (integer) -->
+            <!ELEMENT MEMORY (#PCDATA)>
+            <!-- device model (string) -->
+            <!ELEMENT MODEL (#PCDATA)>
+            <!-- device name (string) -->
+            <!ELEMENT NAME (#PCDATA)>
+            <!-- volatile memory in Mio (integer) -->
+            <!ELEMENT RAM (#PCDATA)>
+            <!-- serial number (string) -->
+            <!ELEMENT SERIAL (#PCDATA)>
+            <!-- type -->
+            <!ELEMENT TYPE
+              (COMPUTER|NETWORKING|PRINTER|STORAGE|POWER|PHONE|VIDEO|KVM)>
+            <!-- uptime ("X days, HH:MM::SS" format) -->
+            <!ELEMENT UPTIME (#PCDATA)>
 
-    <!-- IP addresses list -->
-    <!ELEMENT IPS (IP+)>
-    <!-- an IP address, either IPv4 or IPv6 (string) -->
-    <!ELEMENT IP (#PCDATA)>
+          <!-- ports list -->
+          <!ELEMENT PORTS (PORT*)>
 
-    <!-- location (string) -->
-    <!ELEMENT LOCATION (#PCDATA)>
-    <!-- mac address (string) -->
-    <!ELEMENT MAC (#PCDATA)>
-    <!-- storage in Mio (integer) -->
-    <!ELEMENT MEMORY (#PCDATA)>
-    <!-- device model (string) -->
-    <!ELEMENT MODEL (#PCDATA)>
-    <!-- device name (string) -->
-    <!ELEMENT NAME (#PCDATA)>
-    <!-- volatile memory in Mio (integer) -->
-    <!ELEMENT RAM (#PCDATA)>
-    <!-- serial number (string) -->
-    <!ELEMENT SERIAL (#PCDATA)>
-    <!-- type, ie "COMPUTER", "PRINTER", "NETWORKING", etc... -->
-    <!ELEMENT TYPE (COMPUTER|PRINTER|NETWORKING|STORAGE|POWER|PHONE|VIDEO)>
-    <!-- uptime, formatted as "X days, HH:MM::SS format" -->
-    <!ELEMENT UPTIME (#PCDATA)>
+            <!-- a port -->
+            <!ELEMENT PORT (CONNECTIONS?, AGGREGATE?, IFDESCR, IFINERRORS,
+            IFINOCTETS, IFINTERNALSTATUS, IFLASTCHANGE, IFMTU, IFNAME,
+            IFNUMBER, IFOUTERRORS, IFOUTOCTETS, IFSPEED, IFSTATUS, IFTYPE, MAC,
+            TRUNK, VLANS?)>
 
-    <!-- ports list -->
-    <!ELEMENT PORTS (PORT*)>
+            <!-- connections list -->
+            <!ELEMENT CONNECTIONS (CDP?, CONNECTION*)>
+              <!-- LLDP/CDP connection? (bool) -->
+              <!ELEMENT CDP (0|1)>
 
-    <!-- a port -->
-    <!ELEMENT PORT (CONNECTIONS?, AGGREGATE?, IFDESCR, IFINERRORS, IFINOCTETS, IFINTERNALSTATUS, IFLASTCHANGE, IFMTU, IFNAME, IFNUMBER, IFOUTERRORS, IFOUTOCTETS, IFSPEED, IFSTATUS, IFTYPE, MAC, TRUNK, VLANS?)>
+              <!-- a remote device connection, either as a list of known mac
+              addresses, either as a CDP/LLDP/EDP information block -->
+              <!ELEMENT CONNECTION (MAC+ | (IFNUMBER, SYSMAC, IFDESCR, IP,
+              SYSDESCR, SYSNAME))>
+                <!-- remote device mac address (string) -->
+                <!ELEMENT MAC (#PCDATA)>
+                <!-- remote device ifindex, from CDP/LLDP (integer) -->
+                <!ELEMENT IFNUMBER (#PCDATA)>
+                <!-- remote device mac address, from CDP/LLDP (string) -->
+                <!ELEMENT SYSMAC (#PCDATA)>
+                <!-- remote device port description, from CDP/LLDP (string) -->
+                <!ELEMENT IFDESCR (#PCDATA)>
+                <!-- remote device IP address, from CDP/LLDP (string) -->
+                <!ELEMENT IP (#PCDATA)>
+                <!-- remote device system description, from CDP/LLDP (string) -->
+                <!ELEMENT SYSDESCR (#PCDATA)>
+                <!-- remote device name, from CDP/LLDP (string) -->
+                <!ELEMENT SYSNAME (#PCDATA)>
 
-    <!-- connections list -->
-    <!ELEMENT CONNECTIONS (CDP?, CONNECTION*)>
-    <!-- LLDP/CDP connection? (bool) -->
-    <!ELEMENT CDP (#PCDATA)>
+            <!-- aggregated ports list -->
+            <!ELEMENT AGGREGATE (PORT+)>
+              <!-- aggregated port ifindex (integer) -->
+              <!ELEMENT PORT (#PCDATA)>
 
-    <!-- a connection -->
-    <!ELEMENT CONNECTION (MAC+ | (IFNUMBER?, SYSMAC?, IFDESCR?, IP?, SYSDESCR?, SYSNAME?))>
-    <!-- remote device mac address (string) -->
-    <!ELEMENT MAC (#PCDATA)>
-    <!-- remote device interface ID, from CDP/LLDP (integer) -->
-    <!ELEMENT IFNUMBER (#PCDATA)>
-    <!-- remote device mac address, from CDP/LLDP (string) -->
-    <!ELEMENT SYSMAC (#PCDATA)>
-    <!-- remote device port description, from CDP/LLDP (string) -->
-    <!ELEMENT IFDESCR (#PCDATA)>
-    <!-- remote device IP address, from CDP/LLDP (string) -->
-    <!ELEMENT IP (#PCDATA)>
-    <!-- remote device system description, from CDP/LLDP (string) -->
-    <!ELEMENT SYSDESCR (#PCDATA)>
-    <!-- remote device name, from CDP/LLDP (string) -->
-    <!ELEMENT SYSNAME (#PCDATA)>
+            <!-- description (string) -->
+            <!ELEMENT IFDESCR (#PCDATA)>
+            <!-- input errors number (integer) -->
+            <!ELEMENT IFINERRORS (#PCDATA)>
+            <!-- input bytes number (integer) -->
+            <!ELEMENT IFINOCTETS (#PCDATA)>
+            <!-- internal status (constant) -->
+            <!ELEMENT IFINTERNALSTATUS (1|2|3)>
+            <!-- time since last status change, formatted as "X days,
+              HH:MM::SS" -->
+            <!ELEMENT IFLASTCHANGE (#PCDATA)>
+            <!-- MTU (integer) -->
+            <!ELEMENT IFMTU (#PCDATA)>
+            <!-- name (string) -->
+            <!ELEMENT IFNAME (#PCDATA)>
+            <!-- ifindex (integer) -->
+            <!ELEMENT IFNUMBER (#PCDATA)>
+            <!-- output errors number (integer) -->
+            <!ELEMENT IFOUTERRORS (#PCDATA)>
+            <!-- output bytes number (integer) -->
+            <!ELEMENT IFOUTOCTETS (#PCDATA)>
+            <!-- speed in bytes (integer) -->
+            <!ELEMENT IFSPEED (#PCDATA)>
+            <!-- status (constant) -->
+            <!ELEMENT IFSTATUS (1|2)>
+            <!-- port type (integer) -->
+            <!ELEMENT IFTYPE (#PCDATA)>
+            <!-- mac address (string) -->
+            <!ELEMENT MAC (#PCDATA)>
+            <!-- trunk port flag (constant) -->
+            <!ELEMENT TRUNK (0|1)>
 
-    <!-- aggregate port list, so the virtual port base on many physical ports -->
-    <!ELEMENT AGGREGATE (PORT+)>
-    <!-- interface number of physical port (integer) -->
-    <!ELEMENT PORT (#PCDATA)>
+            <!-- VLANs list -->
+            <!ELEMENT VLANS (VLAN+)>
+              <!-- a VLAN -->
+              <!ELEMENT VLAN (NAME, NUMBER)>
+                <!-- VLAN name (string) -->
+                <!ELEMENT NAME (#PCDATA)>
+                <!-- VLAN ID (integer) -->
+                <!ELEMENT NUMBER (#PCDATA)>
 
-    <!-- description (string) -->
-    <!ELEMENT IFDESCR (#PCDATA)>
-    <!-- input errors number (integer) -->
-    <!ELEMENT IFINERRORS (#PCDATA)>
-    <!-- input bytes number (integer) -->
-    <!ELEMENT IFINOCTETS (#PCDATA)>
-    <!-- internal status (constant) -->
-    <!ELEMENT IFINTERNALSTATUS (1|2|3)>
-    <!-- time since last status change, formatted as "X days, HH:MM::SS" -->
-    <!ELEMENT IFLASTCHANGE (#PCDATA)>
-    <!-- MTU (integer) -->
-    <!ELEMENT IFMTU (#PCDATA)>
-    <!-- name (string) -->
-    <!ELEMENT IFNAME (#PCDATA)>
-    <!-- interface ID (integer) -->
-    <!ELEMENT IFNUMBER (#PCDATA)>
-    <!-- output errors number (integer) -->
-    <!ELEMENT IFOUTERRORS (#PCDATA)>
-    <!-- output bytes number (integer) -->
-    <!ELEMENT IFOUTOCTETS (#PCDATA)>
-    <!-- speed in bytes (integer) -->
-    <!ELEMENT IFSPEED (#PCDATA)>
-    <!-- status (constant) -->
-    <!ELEMENT IFSTATUS (1|2)>
-    <!-- port type (integer) -->
-    <!ELEMENT IFTYPE (#PCDATA)>
-    <!-- mac address (string) -->
-    <!ELEMENT MAC (#PCDATA)>
-    <!-- trunk port flag (constant) -->
-    <!ELEMENT TRUNK (0|1)>
+        <!-- netinventory module version(string) -->
+        <!ELEMENT MODULEVERSION (#PCDATA)>
+        <!-- server process ID (integer) -->
+        <!ELEMENT PROCESSNUMBER (#PCDATA)>
 
-    <!-- VLANs list -->
-    <!ELEMENT VLANS (VLAN+)>
-
-    <!-- a VLAN -->
-    <!ELEMENT VLAN (NAME, NUMBER)>
-    <!-- VLAN name (string) -->
-    <!ELEMENT NAME (#PCDATA)>
-    <!-- VLAN ID (integer) -->
-    <!ELEMENT NUMBER (#PCDATA)>
-
-    <!-- netinventory module version(string) -->
-    <!ELEMENT MODULEVERSION (#PCDATA)>
-    <!-- server process ID (integer) -->
-    <!ELEMENT PROCESSNUMBER (#PCDATA)>
-
-    <!-- agent ID (string) -->
-    <!ELEMENT DEVICEID (#PCDATA)>
-    <!-- message type, ie  "SNMPQUERY" -->
-    <!ELEMENT QUERY (#PCDATA)>
+      <!-- agent ID (string) -->
+      <!ELEMENT DEVICEID (#PCDATA)>
+      <!-- message type, ie  "SNMPQUERY" -->
+      <!ELEMENT QUERY (#PCDATA)>
 
 ### Example
     <?xml version="1.0" encoding="UTF-8" ?>

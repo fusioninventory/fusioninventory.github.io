@@ -7,27 +7,27 @@
     <!ELEMENT REPLY (PROCESSNUMBER, OPTION)>
     <!ELEMENT PROCESSNUMBER (#PCDATA)>
     <!ELEMENT OPTION (NAME, PARAM, RANGEIP+, AUTHENTICATION+)>
-    <!ELEMENT NAME (#PCDATA)>
+      <!ELEMENT NAME (#PCDATA)>
 
-    <!ELEMENT PARAM EMPTY>
-    <!ATTLIST PARAM THREADS_QUERY CDATA "1">
-    <!ATTLIST PARAM PID CDATA #REQUIRED>
+      <!ELEMENT PARAM EMPTY>
+        <!ATTLIST PARAM THREADS_QUERY CDATA "1">
+        <!ATTLIST PARAM PID CDATA #REQUIRED>
 
-    <!ELEMENT RANGEIP EMPTY>
-    <!ATTLIST RANGEIP ID CDATA #REQUIRED>
-    <!ATTLIST RANGEIP IPSTART CDATA #REQUIRED>
-    <!ATTLIST RANGEIP IPEND CDATA #REQUIRED>
-    <!ATTLIST RANGEIP ENTITY CDATA #IMPLIED>
+      <!ELEMENT RANGEIP EMPTY>
+        <!ATTLIST RANGEIP ID CDATA #REQUIRED>
+        <!ATTLIST RANGEIP IPSTART CDATA #REQUIRED>
+        <!ATTLIST RANGEIP IPEND CDATA #REQUIRED>
+        <!ATTLIST RANGEIP ENTITY CDATA #IMPLIED>
 
-    <!ELEMENT AUTHENTICATION EMPTY>
-    <!ATTLIST AUTHENTICATION ID CDATA #REQUIRED>
-    <!ATTLIST AUTHENTICATION VERSION CDATA #REQUIRED>
-    <!ATTLIST AUTHENTICATION COMMUNITY CDATA #IMPLIED>
-    <!ATTLIST AUTHENTICATION USERNAME CDATA #IMPLIED>
-    <!ATTLIST AUTHENTICATION AUTHPROTOCOL CDATA #IMPLIED>
-    <!ATTLIST AUTHENTICATION AUTHPASSPHRASE CDATA #IMPLIED>
-    <!ATTLIST AUTHENTICATION PRIVHPROTOCOL CDATA #IMPLIED>
-    <!ATTLIST AUTHENTICATION PRIVPASSPHRASE CDATA #IMPLIED>
+      <!ELEMENT AUTHENTICATION EMPTY>
+        <!ATTLIST AUTHENTICATION ID CDATA #REQUIRED>
+        <!ATTLIST AUTHENTICATION VERSION CDATA #REQUIRED>
+        <!ATTLIST AUTHENTICATION COMMUNITY CDATA #IMPLIED>
+        <!ATTLIST AUTHENTICATION USERNAME CDATA #IMPLIED>
+        <!ATTLIST AUTHENTICATION AUTHPROTOCOL CDATA #IMPLIED>
+        <!ATTLIST AUTHENTICATION AUTHPASSPHRASE CDATA #IMPLIED>
+        <!ATTLIST AUTHENTICATION PRIVHPROTOCOL CDATA #IMPLIED>
+        <!ATTLIST AUTHENTICATION PRIVPASSPHRASE CDATA #IMPLIED>
 
 ### Example
 
@@ -49,48 +49,49 @@
 
     <!ELEMENT REQUEST (CONTENT+, DEVICEID, QUERY)>
 
-    <!ELEMENT CONTENT (DEVICE*, MODULEVERSION, PROCESSNUMBER)>
+      <!ELEMENT CONTENT (DEVICE*, MODULEVERSION, PROCESSNUMBER)>
 
-    <!-- a device -->
-    <!ELEMENT DEVICE (AUTHSNMP?, TYPE?, MANUFACTURER?, MODEL?, DESCRIPTION?, SNMPHOSTNAME?, LOCATION?, CONTACT?, SERIAL?, FIRMWARE?, UPTIME?, MAC?, DNSHOSTNAME?, IP)>
-    <!-- SNMP credentials ID -->
-    <!ELEMENT AUTHSNMP (#PCDATA)>
-    <!-- type, ie "COMPUTER", "PRINTER", "NETWORKING", etc... -->
-    <!ELEMENT TYPE (#PCDATA)>
-    <!-- manufacturer -->
-    <!ELEMENT MANUFACTURER (#PCDATA)>
-    <!-- model -->
-    <!ELEMENT MODEL (#PCDATA)>
-    <!-- description (SNMP sysDescr) -->
-    <!ELEMENT DESCRIPTION (#PCDATA)>
-    <!--  host name (SNMP sysName) -->
-    <!ELEMENT SNMPHOSTNAME (#PCDATA)>
-    <!--  location -->
-    <!ELEMENT LOCATION (#PCDATA)>
-    <!--  contact -->
-    <!ELEMENT CONTACT (#PCDATA)>
-    <!--  serial number -->
-    <!ELEMENT SERIAL (#PCDATA)>
-    <!--  firmware version -->
-    <!ELEMENT FIRMWARE (#PCDATA)>
-    <!--  uptime, formatted as "X days, HH:MM::SS format" -->
-    <!ELEMENT UPTIME (#PCDATA)>
-    <!--  mac address -->
-    <!ELEMENT MAC (#PCDATA)>
-    <!--  IP address -->
-    <!ELEMENT IP (#PCDATA)>
-    <!-- host name (DNS lookup) -->
-    <!ELEMENT DNSHOSTNAME (#PCDATA)>
+        <!-- a device -->
+        <!ELEMENT DEVICE (AUTHSNMP?, TYPE?, MANUFACTURER?, MODEL?, DESCRIPTION?, SNMPHOSTNAME?, LOCATION?, CONTACT?, SERIAL?, FIRMWARE?, UPTIME?, MAC?, DNSHOSTNAME?, IP)>
+          <!-- SNMP credentials ID -->
+          <!ELEMENT AUTHSNMP (#PCDATA)>
+          <!-- type -->
+          <!ELEMENT TYPE
+            (COMPUTER|NETWORKING|PRINTER|STORAGE|POWER|PHONE|VIDEO|KVM)>
+          <!-- manufacturer -->
+          <!ELEMENT MANUFACTURER (#PCDATA)>
+          <!-- model -->
+          <!ELEMENT MODEL (#PCDATA)>
+          <!-- description (SNMP sysDescr) -->
+          <!ELEMENT DESCRIPTION (#PCDATA)>
+          <!--  host name (SNMP sysName) -->
+          <!ELEMENT SNMPHOSTNAME (#PCDATA)>
+          <!--  location -->
+          <!ELEMENT LOCATION (#PCDATA)>
+          <!--  contact -->
+          <!ELEMENT CONTACT (#PCDATA)>
+          <!--  serial number -->
+          <!ELEMENT SERIAL (#PCDATA)>
+          <!--  firmware version -->
+          <!ELEMENT FIRMWARE (#PCDATA)>
+          <!--  uptime ("X days, HH:MM::SS" format) -->
+          <!ELEMENT UPTIME (#PCDATA)>
+          <!--  mac address -->
+          <!ELEMENT MAC (#PCDATA)>
+          <!--  IP address -->
+          <!ELEMENT IP (#PCDATA)>
+          <!-- host name (DNS lookup) -->
+          <!ELEMENT DNSHOSTNAME (#PCDATA)>
 
-    <!-- netsdiscovery module version(string) -->
-    <!ELEMENT MODULEVERSION (#PCDATA)> # netdiscovery module version
-    <!-- server process ID (integer) -->
-    <!ELEMENT PROCESSNUMBER (#PCDATA)>
+        <!-- netsdiscovery module version(string) -->
+        <!ELEMENT MODULEVERSION (#PCDATA)> # netdiscovery module version
+        <!-- server process ID (integer) -->
+        <!ELEMENT PROCESSNUMBER (#PCDATA)>
 
-    <!-- agent ID (string) -->
-    <!ELEMENT DEVICEID (#PCDATA)> # agent ID (string)
-    <!-- message type, ie "NETDISCOVERY" -->
-    <!ELEMENT QUERY (#PCDATA)>
+      <!-- agent ID (string) -->
+      <!ELEMENT DEVICEID (#PCDATA)> # agent ID (string)
+      <!-- message type, ie "NETDISCOVERY" -->
+      <!ELEMENT QUERY (#PCDATA)>
 
 ### Example
 
