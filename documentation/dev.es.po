@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2014-08-11 16:17+0000\n"
+"POT-Creation-Date: 2014-08-18 17:44+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -138,15 +138,19 @@ msgid "Legacy communication protocol"
 msgstr ""
 
 #. type: Bullet: '* '
-msgid "[[Network discovery|documentation/dev/spec/netdiscovery-protocol]]"
+msgid "[[Inventory|documentation/dev/spec/inventory]]"
 msgstr ""
 
 #. type: Bullet: '* '
-msgid "[[Network inventory|documentation/dev/spec/netinventory-protocol]]"
+msgid "[[Network discovery|documentation/dev/spec/netdiscovery]]"
 msgstr ""
 
 #. type: Bullet: '* '
-msgid "[[Wake on lan|documentation/dev/spec/wakeonlan-protocol]]"
+msgid "[[Network inventory|documentation/dev/spec/netinventory]]"
+msgstr ""
+
+#. type: Bullet: '* '
+msgid "[[Wake on lan|documentation/dev/spec/wakeonlan]]"
 msgstr ""
 
 #. type: Bullet: '* '
@@ -172,11 +176,6 @@ msgstr ""
 
 #. type: Bullet: '* '
 msgid "[[POIP inventory with HTTP|documentation/dev/spec/poip]]"
-msgstr ""
-
-#. type: Bullet: '* '
-msgid ""
-"[[Switch inventory aggregate ports|documentation/dev/spec/switch_aggregate]]"
 msgstr ""
 
 #. type: Bullet: '* '
