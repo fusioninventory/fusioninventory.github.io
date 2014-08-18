@@ -26,7 +26,7 @@ TODO
           <!ELEMENT SMANUFACTURER (#PCDATA)>
           <!-- System Serial number (string) -->
           <!ELEMENT SSN (#PCDATA)>
-          <!-- BIOS release date (Month/Day/Year, ie: 09/27/2010) -->
+          <!-- BIOS release date, in MM/DD/YYYY format -->
           <!ELEMENT BDATE (#PCDATA)>
           <!-- BIOS version -->
           <!ELEMENT BVERSION (#PCDATA)>
@@ -80,7 +80,8 @@ TODO
           <!-- time needed to run the inventory -->
           <!ELEMENT ETIME (#PCDATA)>
           <!ELEMENT TYPE (#PCDATA)>
-          <!-- computer chassis format, ie 'Notebook', 'Laptop', 'Server' -->
+          <!-- computer chassis format, ie 'Notebook', 'Laptop', 'Server', etc.
+            -->
           <!ELEMENT CHASSIS_TYPE (#PCDATA)>
           <!ELEMENT IPADDR (#PCDATA)>
           <!ELEMENT WORKGROUP (#PCDATA)>
@@ -98,15 +99,15 @@ TODO
           <!-- virtualization technology -->
           <!ELEMENT VMSYSTEM
             (Physical|Xen|VirtualBox|Virtual Machine|VMware|QEMU|SolarisZone|VServer|OpenVZ|BSDJail|Parallels|Hyper-V|AIX_LPAR)>
-          <!-- Virtual machine ID on the hypervisor (VM only) -->
+          <!-- virtual machine ID on the hypervisor (VM only) -->
           <!ELEMENT VMID (#PCDATA)>
-          <!-- Virtual machine name the hypervisor (VM only) -->
+          <!-- virtual machine name the hypervisor (VM only) -->
           <!ELEMENT VMNAME (#PCDATA)>
           <!ELEMENT WINOWNER (#PCDATA)>
           <!ELEMENT WINPRODID (#PCDATA)>
           <!ELEMENT WINPRODKEY (#PCDATA)>
           <!ELEMENT WINCOMPANY (#PCDATA)>
-          <!-- Windows language code -->
+          <!-- Language code (Windows only) -->
           <!ELEMENT WINLANG (#PCDATA)>
           <!ELEMENT VMHOSTSERIAL (#PCDATA)>
           <!ELEMENT ARCHNAME (#PCDATA)>
@@ -114,21 +115,22 @@ TODO
         <!ELEMENT OPERATINGSYSTEM (KERNEL_NAME, KERNEL_VERSION, NAME, VERSION,
         FULL_NAME, SERVICE_PACK, INSTALL_DATE, FQDN, DNS_DOMAIN, SSH_KEY, ARCH,
         BOOT_TIME)>
-          <!-- kernel name, ie 'freebsd', 'linux', 'hpux', 'win32' -->
+          <!-- kernel name, ie 'freebsd', 'linux', 'hpux', 'win32', etc. -->
           <!ELEMENT KERNEL_NAME (#PCDATA)>
           <!-- kernel version, ie '2.6.32' on Linux, '5.2.x.y' on Windows
-            Server 2003 -->
+            Server 2003, etc. -->
           <!ELEMENT KERNEL_VERSION (#PCDATA)>
           <!-- operating system name ("Distributor ID" in LSB terms), ie
             'Debian', 'Ubuntu', 'CentOS', 'SUSE LINUX', 'Windows', 'MacOSX',
-            'FreeBSD', 'AIX', 'Android' -->
+            'FreeBSD', 'AIX', 'Android', etc. -->
           <!ELEMENT NAME (#PCDATA)>
           <!-- operating system full name, ie 'Debian GNU/Linux unstable (sid)',
-            'Microsoft(R) Windows(R) Server 2003, Enterprise Edition x64' -->
+            'Microsoft(R) Windows(R) Server 2003, Enterprise Edition x64', etc.
+            -->
           <!ELEMENT FULL_NAME (#PCDATA)>
           <!-- operating system version ("Release" in LSB terms), ie '11.04' on
             Ubuntu natty, '5.0.8' on Debian Lenny, '5.4' on CentOS 5.4, '2003'
-            for Windows Server 2003 -->
+            for Windows Server 2003, etc. -->
           <!ELEMENT VERSION (#PCDATA)>
           <!-- operating system minor version -->
           <!ELEMENT SERVICE_PACK (#PCDATA)>
@@ -161,7 +163,7 @@ TODO
         <!ELEMENT BATTERIES (CAPACITY, CHEMISTRY, DATE, NAME, SERIAL,
         MANUFACTURER, VOLTAGE)>
           <!ELEMENT CHEMISTRY (#PCDATA)>
-          <!-- manufacturing date (DD/MM/YYYY format) -->
+          <!-- manufacturing date, in DD/MM/YYYY format -->
           <!ELEMENT DATE (#PCDATA)>
           <!-- battery name -->
           <!ELEMENT NAME (#PCDATA)>
@@ -205,7 +207,7 @@ TODO
           <!-- cores number -->
           <!ELEMENT CORE (#PCDATA)>
           <!ELEMENT DESCRIPTION (#PCDATA)>
-          <!-- CPU manufacturer, ie 'Intel', 'AMD' -->
+          <!-- CPU manufacturer, ie 'Intel', 'AMD', etc. -->
           <!ELEMENT MANUFACTURER (#PCDATA)>
           <!-- CPU name, ie 'Intel(R) Core(TM)2 Duo CPU P8600  @ 2.40GHz' -->
           <!ELEMENT NAME (#PCDATA)>
@@ -230,19 +232,31 @@ TODO
           <!ELEMENT ARCH
             (MIPS|MIPS64|Alpha|SPARC|SPARC64|m68k|i386|x86_64|PowerPC|PowerPC64|ARM|AArch64)>
 
+        <!-- a filesystem -->
         <!ELEMENT DRIVES (CREATEDATE, DESCRIPTION, FREE, FILESYSTEM, LABEL,
         LETTER, SERIAL, SYSTEMDRIVE, TOTAL, TYPE, VOLUMN)>
+          <!-- creation date, in DD/MM/YYYY format -->
           <!ELEMENT CREATEDATE (#PCDATA)>
           <!ELEMENT DESCRIPTION (#PCDATA)>
+          <!-- free space, in MB -->
           <!ELEMENT FREE (#PCDATA)>
-          <!ELEMENT FILESYSTEM (#PCDATA)>
-          <!ELEMENT LABEL (#PCDATA)>
-          <!ELEMENT LETTER (#PCDATA)>
-          <!ELEMENT SERIAL (#PCDATA)>
-          <!ELEMENT SYSTEMDRIVE (#PCDATA)>
+          <!-- total space, in MB -->
           <!ELEMENT TOTAL (#PCDATA)>
-          <!ELEMENT TYPE (#PCDATA)>
+          <!-- filesystem type, ie 'ext3' -->
+          <!ELEMENT FILESYSTEM (#PCDATA)>
+          <!-- filesystem user name -->
+          <!ELEMENT LABEL (#PCDATA)>
+          <!-- filesystem system name, ie '/dev/sda1' or 'host:/path' for NFS
+            -->
           <!ELEMENT VOLUMN (#PCDATA)>
+          <!-- filesystem letter (Windows only) -->
+          <!ELEMENT LETTER (#PCDATA)>
+          <!-- filesystem serial number or UUID -->
+          <!ELEMENT SERIAL (#PCDATA)>
+          <!-- wether it is the system partition (0|1) (Windows only) -->
+          <!ELEMENT SYSTEMDRIVE (#PCDATA)>
+          <!-- filesystem mount point (Unix only) -->
+          <!ELEMENT TYPE (#PCDATA)>
 
         <!ELEMENT ENVS (KEY, VAL)>
           <!ELEMENT KEY (#PCDATA)>
@@ -329,7 +343,7 @@ TODO
           <!ELEMENT PCISLOT (#PCDATA)>
           <!-- PCI device ID -->
           <!ELEMENT PCIID (#PCDATA)>
-          <!-- PCI device ID (windows format) -->
+          <!-- PCI device ID (windows only) -->
           <!ELEMENT PNPDEVICEID (#PCDATA)>
           <!ELEMENT MTU (#PCDATA)>
           <!-- interface speed, in Mb/s -->
@@ -380,7 +394,7 @@ TODO
           <!ELEMENT MEM (#PCDATA)>
           <!ELEMENT VIRTUALMEMORY (#PCDATA)>
           <!ELEMENT TTY (#PCDATA)>
-          <!-- process start time (YYYY/MM/DD HH:MM format) -->
+          <!-- process start time, in YYYY/MM/DD HH:MM format -->
           <!ELEMENT STARTED (#PCDATA)>
           <!-- process command -->
           <!ELEMENT CMD (#PCDATA)>
@@ -413,10 +427,13 @@ TODO
           <!ELEMENT COMMENTS (#PCDATA)>
           <!ELEMENT FILESIZE (#PCDATA)>
           <!ELEMENT FOLDER (#PCDATA)>
+          <!-- information source, ie 'registry', 'rpm', 'deb', etc. ->
           <!ELEMENT FROM (#PCDATA)>
           <!ELEMENT HELPLINK (#PCDATA)>
+          <!-- installation date, in DD/MM/YYYY format -->
           <!ELEMENT INSTALLDATE (#PCDATA)>
           <!ELEMENT NAME (#PCDATA)>
+          <!-- wether the software can be uninstalled (0|1) -->
           <!ELEMENT NO_REMOVE (#PCDATA)>
           <!ELEMENT RELEASE_TYPE (#PCDATA)>
           <!ELEMENT PUBLISHER (#PCDATA)>
@@ -425,9 +442,13 @@ TODO
           <!ELEMENT VERSION (#PCDATA)>
           <!ELEMENT VERSION_MINOR (#PCDATA)>
           <!ELEMENT VERSION_MAJOR (#PCDATA)>
+          <!-- software GUID (Windows only) -->
           <!ELEMENT GUID (#PCDATA)>
+          <!-- software architecture -->
           <!ELEMENT ARCH (#PCDATA)>
+          <!-- software owner name -->
           <!ELEMENT USERNAME (#PCDATA)>
+          <!-- software owner ID -->
           <!ELEMENT USERID (#PCDATA)>
 
         <!ELEMENT SOUNDS (CAPTION, DESCRIPTION, MANUFACTURER, NAME)>
@@ -494,7 +515,7 @@ TODO
 
         <!ELEMENT USERS (LOGIN, DOMAIN)>
           <!ELEMENT LOGIN (#PCDATA)>
-          <!-- user windows domain -->
+          <!-- user domain (Windows only) -->
           <!ELEMENT DOMAIN (#PCDATA)>
 
         <!ELEMENT LOCAL_USERS (LOGIN, ID, NAME, HOME, SHELL)>
@@ -521,7 +542,7 @@ TODO
           <!ELEMENT PORT (#PCDATA)>
           <!-- printer resolution, ie '600x600' -->
           <!ELEMENT RESOLUTION (#PCDATA)>
-          <!-- wether it is a shared printer -->
+          <!-- wether it is a shared printer (Windows only)-->
           <!ELEMENT SHARED (0|1)>
           <!ELEMENT STATUS (#PCDATA)>
           <!ELEMENT ERRSTATUS (#PCDATA)>
@@ -632,7 +653,7 @@ TODO
 
       <!-- agent ID (string) -->
       <!ELEMENT DEVICEID (#PCDATA)>
-      <!-- message type, ie  "SNMPQUERY" -->
+      <!-- message type, ie "SNMPQUERY" -->
       <!ELEMENT QUERY (#PCDATA)>
 
 ### Example
