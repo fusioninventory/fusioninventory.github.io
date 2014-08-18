@@ -14,7 +14,7 @@
         <!ATTLIST PARAM PID CDATA #REQUIRED>
 
       <!ELEMENT DEVICE EMPTY>
-        <!ATTLIST DEVICE TYPE (COMPUTER|PRINTER|NETWORKING|STORAGE|POWER|PHONE|VIDEO) #REQUIRED>
+        <!ATTLIST DEVICE TYPE (COMPUTER|NETWORKING|PRINTER|STORAGE|POWER|PHONE|VIDEO|KVM) #REQUIRED>
         <!ATTLIST DEVICE ID CDATA #REQUIRED>
         <!ATTLIST DEVICE IP CDATA #REQUIRED>
         <!ATTLIST DEVICE IP AUTHSNMP_ID #REQUIRED>
@@ -81,9 +81,9 @@
             <!ELEMENT RAM (#PCDATA)>
             <!-- serial number (string) -->
             <!ELEMENT SERIAL (#PCDATA)>
-            <!-- type -->
-            <!ELEMENT TYPE
-              (COMPUTER|NETWORKING|PRINTER|STORAGE|POWER|PHONE|VIDEO|KVM)>
+            <!-- type
+              (COMPUTER|NETWORKING|PRINTER|STORAGE|POWER|PHONE|VIDEO|KVM) -->
+            <!ELEMENT TYPE (#PCDATA)>
             <!-- uptime ("X days, HH:MM::SS" format) -->
             <!ELEMENT UPTIME (#PCDATA)>
 
@@ -98,8 +98,8 @@
 
             <!-- connections list -->
             <!ELEMENT CONNECTIONS (CDP?, CONNECTION*)>
-              <!-- LLDP/CDP connection? (bool) -->
-              <!ELEMENT CDP (0|1)>
+              <!-- LLDP/CDP connection? (0|1) -->
+              <!ELEMENT CDP (#PCDATA)>
 
               <!-- a remote device connection, either as a list of known mac
               addresses, either as a CDP/LLDP/EDP information block -->
@@ -131,10 +131,9 @@
             <!ELEMENT IFINERRORS (#PCDATA)>
             <!-- input bytes number (integer) -->
             <!ELEMENT IFINOCTETS (#PCDATA)>
-            <!-- internal status (constant) -->
-            <!ELEMENT IFINTERNALSTATUS (1|2|3)>
-            <!-- time since last status change, formatted as "X days,
-              HH:MM::SS" -->
+            <!-- internal status (1|2|3) -->
+            <!ELEMENT IFINTERNALSTATUS (#PCDATA)>
+            <!-- time since last status change ("X days, HH:MM::SS" format) -->
             <!ELEMENT IFLASTCHANGE (#PCDATA)>
             <!-- MTU (integer) -->
             <!ELEMENT IFMTU (#PCDATA)>
@@ -148,8 +147,8 @@
             <!ELEMENT IFOUTOCTETS (#PCDATA)>
             <!-- speed in bytes (integer) -->
             <!ELEMENT IFSPEED (#PCDATA)>
-            <!-- status (constant) -->
-            <!ELEMENT IFSTATUS (1|2)>
+            <!-- status (1|2) -->
+            <!ELEMENT IFSTATUS (#PCDATA)>
             <!-- port type (integer) -->
             <!ELEMENT IFTYPE (#PCDATA)>
             <!-- mac address (string) -->

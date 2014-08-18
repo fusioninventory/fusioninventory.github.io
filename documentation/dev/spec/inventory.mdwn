@@ -96,9 +96,11 @@ TODO
           <!ELEMENT USERDOMAIN (#PCDATA)>
           <!ELEMENT DATELASTLOGGEDUSER (#PCDATA)>
           <!ELEMENT DEFAULTGATEWAY (#PCDATA)>
-          <!-- virtualization technology -->
-          <!ELEMENT VMSYSTEM
-            (Physical|Xen|VirtualBox|Virtual Machine|VMware|QEMU|SolarisZone|VServer|OpenVZ|BSDJail|Parallels|Hyper-V|AIX_LPAR)>
+          <!-- virtualization technology
+            (Physical|Xen|VirtualBox|Virtual Machine|VMware|QEMU|SolarisZone|
+            VServer|OpenVZ|BSDJail|Parallels|Hyper-V|AIX_LPAR)
+            -->
+          <!ELEMENT VMSYSTEM (#PCDATA)>
           <!-- virtual machine ID on the hypervisor (VM only) -->
           <!ELEMENT VMID (#PCDATA)>
           <!-- virtual machine name the hypervisor (VM only) -->
@@ -154,10 +156,10 @@ TODO
           <!ELEMENT NAME (#PCDATA)>
           <!-- unique ID -->
           <!ELEMENT GUID (#PCDATA)>
-          <!-- wether the antivirus is enabled -->
-          <!ELEMENT ENABLED (0|1)>
-          <!-- wether the antivirus is up to date -->
-          <!ELEMENT UPTODATE (0|1)>
+          <!-- wether the antivirus is enabled (0|1) -->
+          <!ELEMENT ENABLED (#PCDATA)>
+          <!-- wether the antivirus is up to date (0|1) -->
+          <!ELEMENT UPTODATE (#PCDATA)>
           <!ELEMENT VERSION (#PCDATA)>
 
         <!ELEMENT BATTERIES (CAPACITY, CHEMISTRY, DATE, NAME, SERIAL,
@@ -228,9 +230,11 @@ TODO
           <!-- CPU ID -->
           <!ELEMENT ID (#PCDATA)>
           <!ELEMENT EXTERNAL_CLOCK (#PCDATA)>
-          <!-- CPU architecture -->
-          <!ELEMENT ARCH
-            (MIPS|MIPS64|Alpha|SPARC|SPARC64|m68k|i386|x86_64|PowerPC|PowerPC64|ARM|AArch64)>
+          <!-- CPU architecture
+            (MIPS|MIPS64|Alpha|SPARC|SPARC64|m68k|i386|x86_64|PowerPC|
+            PowerPC64|ARM|AArch64)
+            -->
+          <!ELEMENT ARCH (#PCDATA)>
 
         <!-- a filesystem -->
         <!ELEMENT DRIVES (CREATEDATE, DESCRIPTION, FREE, FILESYSTEM, LABEL,
@@ -326,13 +330,14 @@ TODO
           <!-- interface model -->
           <!ELEMENT MODEL (#PCDATA)>
           <!-- wether it is a remote management interface such as HP iLO, Sun
-            SC, HP MP -->
-          <!ELEMENT MANAGEMENT (0|1)>
-          <!-- interface type -->
-          <!ELEMENT TYPE
-            (ethernet|wifi|infiniband|aggregate|alias|dialup|loopback|bridge)>
-          <!-- wether it is a virtual interface -->
-          <!ELEMENT VIRTUALDEV (0|1)>
+            SC, HP MP (0|1) -->
+          <!ELEMENT MANAGEMENT (#PCDATA)>
+          <!-- interface type
+            (ethernet|wifi|infiniband|aggregate|alias|dialup|loopback|bridge)
+            -->
+          <!ELEMENT TYPE (#PCDATA)>
+          <!-- wether it is a virtual interface (0|1) -->
+          <!ELEMENT VIRTUALDEV (#PCDATA)>
           <!ELEMENT MACADDR (#PCDATA)>
           <!-- World Wide Name http://fr.wikipedia.org/wiki/World_Wide_Name -->
           <!ELEMENT WWN (#PCDATA)>
@@ -348,8 +353,8 @@ TODO
           <!ELEMENT MTU (#PCDATA)>
           <!-- interface speed, in Mb/s -->
           <!ELEMENT SPEED (#PCDATA)>
-          <!-- interface status -->
-          <!ELEMENT STATUS (up|down)>
+          <!-- interface status (up|down) -->
+          <!ELEMENT STATUS (#PCDATA)>
           <!-- list of component interfaces, for aggregate and bridges, with
             ',' as delimiter -->
           <!ELEMENT SLAVES (#PCDATA)>
@@ -537,13 +542,13 @@ TODO
           <!ELEMENT DESCRIPTION (#PCDATA)>
           <!ELEMENT DRIVER (#PCDATA)>
           <!ELEMENT NAME (#PCDATA)>
-          <!-- wether it is a network printer -->
-          <!ELEMENT NETWORK (0|1)>
+          <!-- wether it is a network printer (0|1) -->
+          <!ELEMENT NETWORK (#PCDATA)>
           <!ELEMENT PORT (#PCDATA)>
           <!-- printer resolution, ie '600x600' -->
           <!ELEMENT RESOLUTION (#PCDATA)>
-          <!-- wether it is a shared printer (Windows only)-->
-          <!ELEMENT SHARED (0|1)>
+          <!-- wether it is a shared printer (0|1) (Windows only) -->
+          <!ELEMENT SHARED (#PCDATA)>
           <!ELEMENT STATUS (#PCDATA)>
           <!ELEMENT ERRSTATUS (#PCDATA)>
           <!ELEMENT SERVERNAME (#PCDATA)>
@@ -558,14 +563,17 @@ TODO
           <!ELEMENT NAME (#PCDATA)>
           <!-- UUID -->
           <!ELEMENT UUID (#PCDATA)>
-          <!-- status -->
-          <!ELEMENT STATUS
-            (running|blocked|idle|paused|shutdown|crashed|dying|off)>
+          <!-- status
+            (running|blocked|idle|paused|shutdown|crashed|dying|off)
+            -->
+          <!ELEMENT STATUS (#PCDATA)>
           <!-- virtualisation software, ie 'VmWare ESX' -->
           <!ELEMENT SUBSYSTEM (#PCDATA)>
-          <!- virtualisation technology -->
-          <!ELEMENT VMTYPE
-            (Physical|Xen|VirtualBox|Virtual Machine|VMware|QEMU|SolarisZone|VServer|OpenVZ|BSDJail|Parallels|Hyper-V|AIX_LPAR)>
+          <!- virtualisation technology
+            (Physical|Xen|VirtualBox|Virtual Machine|VMware|QEMU|SolarisZone|
+            VServer|OpenVZ|BSDJail|Parallels|Hyper-V|AIX_LPAR)
+            -->
+          <!ELEMENT VMTYPE (#PCDATA)>
           <!-- memory size, in MB -->
           <!ELEMENT MEMORY (#PCDATA)>
           <!-- CPU numbers -->

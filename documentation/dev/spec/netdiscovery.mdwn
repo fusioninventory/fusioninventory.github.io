@@ -55,9 +55,9 @@
         <!ELEMENT DEVICE (AUTHSNMP?, TYPE?, MANUFACTURER?, MODEL?, DESCRIPTION?, SNMPHOSTNAME?, LOCATION?, CONTACT?, SERIAL?, FIRMWARE?, UPTIME?, MAC?, DNSHOSTNAME?, IP)>
           <!-- SNMP credentials ID -->
           <!ELEMENT AUTHSNMP (#PCDATA)>
-          <!-- type -->
-          <!ELEMENT TYPE
-            (COMPUTER|NETWORKING|PRINTER|STORAGE|POWER|PHONE|VIDEO|KVM)>
+          <!-- type
+            (COMPUTER|NETWORKING|PRINTER|STORAGE|POWER|PHONE|VIDEO|KVM) -->
+          <!ELEMENT TYPE (#PCDATA)>
           <!-- manufacturer -->
           <!ELEMENT MANUFACTURER (#PCDATA)>
           <!-- model -->
