@@ -70,7 +70,7 @@ msgid ""
 "Branches: <br/> › [master](https://github.com/fusinv/fusioninventory-for-"
 "glpi/tree/master)  › [![Build Status](https://travis-ci.org/fusinv/"
 "fusioninventory-for-glpi.png?branch=master)](https://travis-ci.org/fusinv/"
-"fusioninventory-for-glpi)  > [glpi0.84]"
+"fusioninventory-for-glpi)  > glpi0.84"
 msgstr ""
 
 #. type: Bullet: '* '
