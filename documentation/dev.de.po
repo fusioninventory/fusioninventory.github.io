@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2014-08-18 17:44+0000\n"
+"POT-Creation-Date: 2014-08-19 15:59+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -70,7 +70,7 @@ msgid ""
 "Branches: <br/> › [master](https://github.com/fusinv/fusioninventory-for-"
 "glpi/tree/master)  › [![Build Status](https://travis-ci.org/fusinv/"
 "fusioninventory-for-glpi.png?branch=master)](https://travis-ci.org/fusinv/"
-"fusioninventory-for-glpi)"
+"fusioninventory-for-glpi)  > [glpi0.84]"
 msgstr ""
 
 #. type: Bullet: '* '
