@@ -1,3 +1,6 @@
+[[!meta  date="2014-08-28"]]
+# FusionInventory GLPI plugin 0.84+3.2 release
+
 Hello FusionInventory users,
 
 The FusionInventory GLPI Plugin maintainers are glad to announce the 0.84+3.2 release.
