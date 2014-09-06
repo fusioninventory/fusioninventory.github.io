@@ -22,7 +22,7 @@ msgstr "[[<i class=\"icon-comment\"></i>Actualité|index]]"
 
 #. type: Bullet: '* '
 msgid "[[<i class=\"icon-info-sign\"></i>Overview|overview]]"
-msgstr ""
+msgstr "[[<i class=\"icon-info-sign\"></i>Overview|overview]]"
 
 #. type: Bullet: '* '
 msgid "[[<i class=\"icon-picture\"></i>Screenshots|screenshots]]"
@@ -30,19 +30,15 @@ msgstr "[[<i class=\"icon-picture\"></i>Captures d'écran|screenshots]]"
 
 #. type: Bullet: '* '
 msgid "[[<i class=\"icon-book\"></i>Doc|documentation]]"
-msgstr ""
+msgstr "[[<i class=\"icon-book\"></i>Doc|documentation]]"
 
 #. type: Bullet: '* '
-#, fuzzy
-#| msgid "[[<i class=\"icon-picture\"></i>Screenshots|screenshots]]"
 msgid "[[<i class=\"icon-wrench\"></i>Contact|resources]]"
-msgstr "[[<i class=\"icon-picture\"></i>Captures d'écran|screenshots]]"
+msgstr "[[<i class=\"icon-wrench\"></i>Contact|resources]]"
 
 #. type: Bullet: '* '
-#, fuzzy
-#| msgid "[[<i class=\"icon-comment\"></i>News|index]]"
 msgid "[[<i class=\"icon-code-fork\"></i>Forge|forge]]"
-msgstr "[[<i class=\"icon-comment\"></i>Actualité|index]]"
+msgstr "[[<i class=\"icon-code-fork\"></i>Forge|forge]]"
 
 #. type: Bullet: '* '
 msgid "**[[<i class=\"icon-download-alt\"></i>GET IT!|get]]**"

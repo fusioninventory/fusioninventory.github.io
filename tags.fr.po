@@ -19,8 +19,8 @@ msgstr ""
 #. type: Plain text
 #, no-wrap
 msgid "[[!pagestats pages=\"./tags/*\" among=\"./posts/*\"]]\n"
-msgstr ""
+msgstr "[[!pagestats pages=\"./tags/*\" among=\"./posts/*\"]]\n"
 
 #. type: Plain text
 msgid "On the right you can see the tag cloud for this blog."
-msgstr ""
+msgstr "Sur la droite vous pouvez voir le tag cloud pour ce blog"

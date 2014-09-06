@@ -47,18 +47,14 @@ msgid "This page controls what shortcut links the wiki supports."
 msgstr "Cette page définit les raccourcis connus par ce wiki."
 
 #. type: Bullet: '* '
-#, fuzzy
-#| msgid ""
-#| "[[!shortcut name=wiktionary url=\"http://en.wiktionary.org/wiki/%s\"]]"
 msgid "[[!shortcut name=findlink url=\"http://edwardbetts.com/find_link/%s\"]]"
-msgstr "[[!shortcut name=wiktionary url=\"http://en.wiktionary.org/wiki/%s\"]]"
+msgstr "[[!shortcut name=findlink url=\"http://edwardbetts.com/find_link/%s\"]]"
 
 #. type: Bullet: '* '
-#, fuzzy
-#| msgid "[[!shortcut name=google url=\"http://www.google.com/search?q=%s\"]]"
 msgid ""
 "[[!shortcut name=google url=\"https://encrypted.google.com/search?q=%s\"]]"
-msgstr "[[!shortcut name=google url=\"http://www.google.com/search?q=%s\"]]"
+msgstr ""
+"[[!shortcut name=google url=\"https://encrypted.google.com/search?q=%s\"]]"
 
 #. type: Bullet: '* '
 msgid "[[!shortcut name=archive url=\"http://web.archive.org/*/%S\"]]"
@@ -74,27 +70,24 @@ msgstr ""
 "[[!shortcut name=gmsg url=\"http://groups.google.com/groups?selm=%s\"]]"
 
 #. type: Bullet: '* '
-#, fuzzy
-#| msgid "[[!shortcut name=wikipedia url=\"http://en.wikipedia.org/wiki/%s\"]]"
 msgid ""
 "[[!shortcut name=wikipedia url=\"https://secure.wikimedia.org/wikipedia/en/"
 "wiki/%s\"]]"
-msgstr "[[!shortcut name=wikipedia url=\"http://en.wikipedia.org/wiki/%s\"]]"
+msgstr ""
+"[[!shortcut name=wikipedia url=\"https://secure.wikimedia.org/wikipedia/en/"
+"wiki/%s\"]]"
 
 #. type: Bullet: '* '
-#, fuzzy
-#| msgid "[[!shortcut name=wikitravel url=\"http://wikitravel.org/en/%s\"]]"
 msgid "[[!shortcut name=wikitravel url=\"https://wikitravel.org/en/%s\"]]"
-msgstr "[[!shortcut name=wikitravel url=\"http://wikitravel.org/en/%s\"]]"
+msgstr "[[!shortcut name=wikitravel url=\"https://wikitravel.org/en/%s\"]]"
 
 #. type: Bullet: '* '
-#, fuzzy
-#| msgid ""
-#| "[[!shortcut name=wiktionary url=\"http://en.wiktionary.org/wiki/%s\"]]"
 msgid ""
 "[[!shortcut name=wiktionary url=\"https://secure.wikimedia.org/wiktionary/en/"
 "wiki/%s\"]]"
-msgstr "[[!shortcut name=wiktionary url=\"http://en.wiktionary.org/wiki/%s\"]]"
+msgstr ""
+"[[!shortcut name=wiktionary url=\"https://secure.wikimedia.org/wiktionary/en/"
+"wiki/%s\"]]"
 
 #. type: Bullet: '* '
 msgid ""
@@ -137,45 +130,6 @@ msgstr ""
 "[[!shortcut name=debrt url=\"https://rt.debian.org/Ticket/Display.html?id=%s"
 "\"]]"
 
-#. type: Plain text
-#, fuzzy, no-wrap
-#| msgid ""
-#| "* [[!shortcut name=debss url=\"http://snapshot.debian.net/package/%s\"]]\n"
-#| "  * Usage: `\\[[!debss package]]`, `\\[[!debss package#version]]`, or `\\[[!debss package/version]]`.  See http://snapshot.debian.net for details.\n"
-#| "* [[!shortcut name=debwiki url=\"http://wiki.debian.org/%s\"]]\n"
-#| "* [[!shortcut name=fdobug url=\"https://bugs.freedesktop.org/show_bug.cgi?id=%s\" desc=\"freedesktop.org bug #%s\"]]\n"
-#| "* [[!shortcut name=fdolist url=\"http://lists.freedesktop.org/mailman/listinfo/%s\" desc=\"%s@lists.freedesktop.org\"]]\n"
-#| "* [[!shortcut name=gnomebug url=\"http://bugzilla.gnome.org/show_bug.cgi?id=%s\" desc=\"GNOME bug #%s\"]]\n"
-#| "* [[!shortcut name=linuxbug url=\"http://bugzilla.kernel.org/show_bug.cgi?id=%s\" desc=\"Linux bug #%s\"]]\n"
-#| "* [[!shortcut name=mozbug url=\"https://bugzilla.mozilla.org/show_bug.cgi?id=%s\" desc=\"Mozilla bug #%s\"]]\n"
-#| "* [[!shortcut name=gnulist url=\"http://lists.gnu.org/mailman/listinfo/%s\" desc=\"%s@gnu.org\"]]\n"
-#| "* [[!shortcut name=marcmsg url=\"http://marc.info/?i=%s\"]]\n"
-#| "* [[!shortcut name=marclist url=\"http://marc.info/?l=%s\"]]\n"
-#| "* [[!shortcut name=gmane url=\"http://dir.gmane.org/gmane.%s\" desc=\"gmane.%s\"]]\n"
-#| "* [[!shortcut name=gmanemsg url=\"http://mid.gmane.org/%s\"]]\n"
-#| "* [[!shortcut name=cpan url=\"http://search.cpan.org/search?mode=dist&query=%s\"]]\n"
-#| "* [[!shortcut name=ctan url=\"http://tug.ctan.org/cgi-bin/ctanPackageInformation.py?id=%s\"]]\n"
-#| "* [[!shortcut name=hoogle url=\"http://haskell.org/hoogle/?q=%s\"]]\n"
-#| "* [[!shortcut name=iki url=\"http://ikiwiki.info/%S/\"]]\n"
-#| "* [[!shortcut name=ljuser url=\"http://%s.livejournal.com/\"]]\n"
-#| "* [[!shortcut name=rfc url=\"http://www.ietf.org/rfc/rfc%s.txt\" desc=\"RFC %s\"]]\n"
-#| "* [[!shortcut name=c2 url=\"http://c2.com/cgi/wiki?%s\"]]\n"
-#| "* [[!shortcut name=meatballwiki url=\"http://www.usemod.com/cgi-bin/mb.pl?%s\"]]\n"
-#| "* [[!shortcut name=emacswiki url=\"http://www.emacswiki.org/cgi-bin/wiki/%s\"]]\n"
-#| "* [[!shortcut name=haskellwiki url=\"http://haskell.org/haskellwiki/%s\"]]\n"
-#| "* [[!shortcut name=dict url=\"http://www.dict.org/bin/Dict?Form=Dict1&Strategy=*&Database=*&Query=%s\"]]\n"
-#| "* [[!shortcut name=imdb url=\"http://imdb.com/find?q=%s\"]]\n"
-#| "* [[!shortcut name=gpg url=\"http://pgpkeys.mit.edu:11371/pks/lookup?op=vindex&exact=on&search=0x%s\"]]\n"
-#| "* [[!shortcut name=perldoc url=\"http://perldoc.perl.org/search.html?q=%s\"]]\n"
-#| "* [[!shortcut name=whois url=\"http://reports.internic.net/cgi/whois?whois_nic=%s&type=domain\"]]\n"
-#| "* [[!shortcut name=cve url=\"http://cve.mitre.org/cgi-bin/cvename.cgi?name=%s\"]]\n"
-#| "* [[!shortcut name=cia url=\"http://cia.vc/stats/project/%s\"]]\n"
-#| "* [[!shortcut name=ciauser url=\"http://cia.vc/stats/user/%s\"]]\n"
-#| "* [[!shortcut name=flickr url=\"http://www.flickr.com/photos/%s\"]]\n"
-#| "* [[!shortcut name=man url=\"http://linux.die.net/man/%s\"]]\n"
-#| "* [[!shortcut name=ohloh url=\"http://www.ohloh.net/projects/%s\"]]\n"
-#| "* [[!shortcut name=cpanrt url=\"https://rt.cpan.org/Ticket/Display.html?id=%s\" desc=\"CPAN RT#%s\"]]\n"
-#| "* [[!shortcut name=novellbug url=\"https://bugzilla.novell.com/show_bug.cgi?id=%s\" desc=\"bug %s\"]]\n"
 msgid ""
 "* [[!shortcut name=debss url=\"http://snapshot.debian.net/package/%s\"]]\n"
 "  * Usage: `\\[[!debss package]]`, `\\[[!debss package#version]]`, or `\\[[!debss package/version]]`.  See http://snapshot.debian.net for details.\n"
@@ -251,6 +205,7 @@ msgstr ""
 "* [[!shortcut name=ohloh url=\"http://www.ohloh.net/projects/%s\"]]\n"
 "* [[!shortcut name=cpanrt url=\"https://rt.cpan.org/Ticket/Display.html?id=%s\" desc=\"CPAN RT#%s\"]]\n"
 "* [[!shortcut name=novellbug url=\"https://bugzilla.novell.com/show_bug.cgi?id=%s\" desc=\"bug %s\"]]\n"
+"* [[!shortcut name=bug url=\"http://forge.fusioninventory.org/issues/%s\" desc=\"bug %s\"]]\n"
 
 #. type: Plain text
 #, no-wrap
