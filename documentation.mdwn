@@ -10,7 +10,6 @@
 * [[Configuration|documentation/agent/configuration]]
 * [[Man pages|documentation/agent/man]]
 * [[Usage|documentation/agent/usage]]
-* [[Network less inventory|documentation/agent/network_less]]
 * [[Force an inventory|documentation/agent/launch_the_agent]]
 
 # FusionInventory for GLPI
