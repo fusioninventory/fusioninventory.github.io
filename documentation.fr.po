@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2014-07-17 17:39+0000\n"
+"POT-Creation-Date: 2014-09-08 18:26+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -55,10 +55,6 @@ msgid "[[Usage|documentation/agent/usage]]"
 msgstr "[[Usage|documentation/agent/usage]]"
 
 #. type: Bullet: '* '
-msgid "[[Network less inventory|documentation/agent/network_less]]"
-msgstr "[[Inventaire hors réseau|documentation/agent/network_less]]"
-
-#. type: Bullet: '* '
 msgid "[[Force an inventory|documentation/agent/launch_the_agent]]"
 msgstr "[[Forcer un inventaire|documentation/agent/launch_the_agent]]"
 
@@ -73,7 +69,8 @@ msgstr "[[Installation et mise à jour|documentation/fi4g/installation]]"
 
 #. type: Bullet: '* '
 msgid "[[Import and link rules|documentation/fi4g/importrules]]"
-msgstr "[[Règles d'import et de liaison matériel|documentation/fi4g/importrules]]"
+msgstr ""
+"[[Règles d'import et de liaison matériel|documentation/fi4g/importrules]]"
 
 #. type: Bullet: '* '
 msgid "[[How to deal with DMZ network|documentation/fi4g/dmz]]"
@@ -94,7 +91,8 @@ msgstr "[[Inventaire des objets réseaux|documentation/tasks/networkinventory]]"
 
 #. type: Bullet: '* '
 msgid "[[Inventory ESX virtual machines|documentation/tasks/esxinventory]]"
-msgstr "[[Comment inventorier mon serveur ESX|documentation/tasks/esxinventory]]"
+msgstr ""
+"[[Comment inventorier mon serveur ESX|documentation/tasks/esxinventory]]"
 
 #. type: Bullet: '* '
 msgid "[[Deploy softwares|documentation/tasks/deploy]]"
@@ -133,3 +131,6 @@ msgstr "[[Traduction|documentation/translation]]"
 #. type: Bullet: '* '
 msgid "[[for developers|documentation/dev]]"
 msgstr "[[Pour les développeurs|documentation/dev]]"
+
+#~ msgid "[[Network less inventory|documentation/agent/network_less]]"
+#~ msgstr "[[Inventaire hors réseau|documentation/agent/network_less]]"
