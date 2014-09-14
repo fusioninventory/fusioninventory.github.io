@@ -131,6 +131,3 @@ msgstr "[[Traduction|documentation/translation]]"
 #. type: Bullet: '* '
 msgid "[[for developers|documentation/dev]]"
 msgstr "[[Pour les développeurs|documentation/dev]]"
-
-#~ msgid "[[Network less inventory|documentation/agent/network_less]]"
-#~ msgstr "[[Inventaire hors réseau|documentation/agent/network_less]]"
