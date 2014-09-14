@@ -4,7 +4,7 @@ fusioninventory-injector - A tool to push inventory in an OCS Inventory or compa
 
 # SYNOPSIS
 
-fusioninventory-injector \[options\] \[--file <file>|--directory <directory>|--stdin\]
+fusioninventory-injector \[options\] \[--file \<file\>|--directory \<directory\>|--stdin\]
 
     Options:
       -h --help      this menu
@@ -15,7 +15,8 @@ fusioninventory-injector \[options\] \[--file <file>|--directory <directory>|--s
       -v --verbose   verbose mode
       --stdin        read data from STDIN
 
-    Examples:
+# Examples:
+
       fusioninventory-injector -v -f /tmp/toto-2010-09-10-11-42-22.ocs --url https://login:pw@server/ocsinventory
 
 # DESCRIPTION
