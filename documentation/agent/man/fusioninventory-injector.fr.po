@@ -19,7 +19,7 @@ msgstr ""
 #. type: Title #
 #, no-wrap
 msgid "NAME"
-msgstr "NOM"
+msgstr "Nom"
 
 #. type: Plain text
 msgid ""
@@ -32,13 +32,12 @@ msgstr ""
 #. type: Title #
 #, no-wrap
 msgid "SYNOPSIS"
-msgstr "SYNOPSIS"
+msgstr "Synopsis"
 
 #. type: Plain text
-#, fuzzy, no-wrap
-#| msgid "fusioninventory-injector \\[options\\] \\[--file <file>|--directory <directory>|--stdin\\]\n"
+#, no-wrap
 msgid "fusioninventory-injector \\[options\\] \\[--file \\<file\\>|--directory \\<directory\\>|--stdin\\]\n"
-msgstr "fusioninventory-injector \\[options\\] \\[--file <file>|--directory <directory>|--stdin\\]\n"
+msgstr "fusioninventory-injector \\[options\\] \\[--file \\<file\\>|--directory \\<directory\\>|--stdin\\]\n"
 
 #. type: Plain text
 #, no-wrap
@@ -64,22 +63,18 @@ msgstr ""
 #. type: Title #
 #, no-wrap
 msgid "Examples:"
-msgstr ""
+msgstr "Exemple:"
 
 #. type: Plain text
-#, fuzzy, no-wrap
-#| msgid ""
-#| "    Examples:\n"
-#| "      fusioninventory-injector -v -f /tmp/toto-2010-09-10-11-42-22.ocs --url https://login:pw@server/ocsinventory\n"
+#, no-wrap
 msgid "      fusioninventory-injector -v -f /tmp/toto-2010-09-10-11-42-22.ocs --url https://login:pw@server/ocsinventory\n"
 msgstr ""
-"    Exemples:\n"
 "      fusioninventory-injector -v -f /tmp/toto-2010-09-10-11-42-22.ocs --url https://login:pw@server/ocsinventory\n"
 
 #. type: Title #
 #, no-wrap
 msgid "DESCRIPTION"
-msgstr "DESCRIPTION"
+msgstr "Description"
 
 #. type: Plain text
 msgid ""
@@ -88,10 +83,3 @@ msgid ""
 msgstr ""
 "Cet outil peut être utilisé pour tester votre serveur, faire du benchmark ou "
 "imposer l'inventaire à partir d'une machine hors ligne."
-
-#~ msgid ""
-#~ "[[!template  id=warning text=\"The 2.3.x serie is still in developpement."
-#~ "\"]]\n"
-#~ msgstr ""
-#~ "[[!template  id=warning text=\"La version 2.3.x est toujours en "
-#~ "développement.\"]]\n"
