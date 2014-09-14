@@ -19,26 +19,28 @@ msgstr ""
 #. type: Plain text
 #, no-wrap
 msgid "[[!meta  date=\"2014-08-01\"]]\n"
-msgstr ""
+msgstr "[[!meta  date=\"2014-08-01\"]]\n"
 
 #. type: Title #
 #, no-wrap
 msgid "FusionInventory Agent 2.3.10 release"
-msgstr ""
+msgstr "FusionInventory Agent 2.3.10 release"
 
 #. type: Plain text
 msgid "Hello FusionInventory users,"
-msgstr ""
+msgstr "Hello les utilisateurs de FusionInventory,"
 
 #. type: Plain text
 msgid ""
 "The FusionInventory Agent maintainers are glad to announce the 2.3.10 "
 "release."
 msgstr ""
+"Les développeurs de l'Agent FusionInventory sont contents d'annoncer la "
+"nouvelle version 2.3.10"
 
 #. type: Plain text
 msgid "You can download it from the usual places:"
-msgstr ""
+msgstr "Vous la trouverez aux emplacements habituels:"
 
 #. type: Bullet: '* '
 msgid ""
@@ -47,6 +49,10 @@ msgid ""
 "or [CPAN](https://metacpan.org/release/FusionInventory-Agent) for the source "
 "distribution"
 msgstr ""
+"[La"
+"forge](http://forge.fusioninventory.org/projects/fusioninventory-agent/files) "
+"ou [CPAN](https://metacpan.org/release/FusionInventory-Agent) pour la source "
+"de cet agent."
 
 #. type: Bullet: '* '
 msgid ""
@@ -54,14 +60,17 @@ msgid ""
 "forge](http://forge.fusioninventory.org/projects/fusioninventory-agent-windows-installer/files) "
 "for the windows distribution"
 msgstr ""
+"[La"
+"forge](http://forge.fusioninventory.org/projects/fusioninventory-agent-windows-installer/files) "
+"pour la version windows."
 
 #. type: Bullet: '* '
 msgid "etc..."
-msgstr ""
+msgstr "etc..."
 
 #. type: Plain text
 msgid "See [[download instructions|/documentation/agent/installation]] for details."
-msgstr ""
+msgstr "Reportez vous aux [[instructions de téléchargement|/documentation/agent/installation]] pour plus de détails."
 
 #. type: Plain text
 msgid ""
@@ -73,9 +82,18 @@ msgid ""
 "introduced there have been backported, such as LXC container and HyperV "
 "machines enumeration."
 msgstr ""
+"Cette version améliore la reconnaissance des équipements lors de la découverte "
+"du réseau, et permet une meilleure identification des dispositifs voisins lors "
+"de l'exécution d'un inventaire à distance sur un périphérique réseau. Elle corrige "
+"aussi quelques régressions introduites dans la version 2.3.9 pour le décodage de la "
+"clé de licence Windows. Et comme la futur version majeure (2.4.0) est loin d'être "
+"disponible, quelques nouvelles fonctionnalités ont été introduits, comme l'inventaire "
+"des conteneurs LXC et HyperV."
 
 #. type: Plain text
 msgid ""
 "We did our best to provide a solid release, please [[contact us|/resources]] "
 "if you believe you find something unexpected."
 msgstr ""
+"Nous faisons notre possible pour créer une version stable, si vous pensez "
+"avoir trouver un problème, SVP [[contactez nous|/resources]] "
