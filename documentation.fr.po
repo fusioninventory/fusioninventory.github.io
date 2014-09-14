@@ -83,7 +83,7 @@ msgstr "HOWTO"
 
 #. type: Bullet: '* '
 msgid "[[Scan my network|documentation/tasks/networkdiscovery]]"
-msgstr "[[Scanner mon réseau|documentation/fi4g/networkdiscovery]]"
+msgstr "[[Scanner mon réseau|documentation/tasks/networkdiscovery]]"
 
 #. type: Bullet: '* '
 msgid "[[Inventory remote devices|documentation/tasks/networkinventory]]"
