@@ -30,12 +30,12 @@ msgstr ""
 #. type: Title #
 #, no-wrap
 msgid "SYNOPSIS"
-msgstr "SYNOPSIS"
+msgstr "Synopsis"
 
 #. type: Plain text
 #, no-wrap
 msgid "fusioninventory-esx --host <host> --user <user> --password <password> --directory <directory>\n"
-msgstr "fusioninventory-esx --host <host> --user <user> --password <password> --directory <directory>\n"
+msgstr "fusioninventory-esx --host \<host\> --user \<user\> --password <password> --directory <directory>\n"
 
 #. type: Plain text
 #, no-wrap
@@ -59,7 +59,7 @@ msgstr ""
 #. type: Title #
 #, no-wrap
 msgid "EXAMPLES"
-msgstr "EXEMPLES"
+msgstr "Exemple"
 
 #. type: Plain text
 #, no-wrap
@@ -73,19 +73,19 @@ msgid ""
 "    %fusioninventory-injector -v --file /tmp/\\*.ocs -u https://myserver/ocsinventory\n"
 msgstr ""
 "Vous pouvez importer le fichier .ocs sur votre serveur d'inventaire avec l'outil fusioninventory-injector.\n"
-"    %fusioninventory-injector -v --file /tmp/\\*.ocs -u https://mon-serveur/ocsinventory\n"
+"    % fusioninventory-injector -v --file /tmp/\\*.ocs -u https://mon-serveur/ocsinventory\n"
 
 #. type: Title #
 #, no-wrap
 msgid "DESCRIPTION"
-msgstr "DESCRIPTION"
+msgstr "Description"
 
 #. type: Plain text
 msgid ""
 "`fusioninventory-esx` creates inventory of remote ESX/ESXi and vCenter "
 "VMware.  It uses the SOAP interface of the remote server."
 msgstr ""
-"`fusioninventory-esx` créait des inventaires des serveurs VMware ESX/ESXi et vCenter."
+"`fusioninventory-esx` créait des inventaires des serveurs VMware ESX/ESXi et vCenter. "
 "Il utilise l'interface SOAP du serveur distant."
 
 #. type: Plain text
@@ -106,12 +106,12 @@ msgid ""
 "must create a account on the VMware server."
 msgstr ""
 "Pour les utilisateurs d'Active Directory, attention l'authentification par l'AD "
-"n'est pas possible. Vous devez créer de compte sur le serveur VMware."
+"n'est pas possible. Vous devez créer un compte sur le serveur VMware."
 
 #. type: Title #
 #, no-wrap
 msgid "LIMITATION"
-msgstr "LIMITATION"
+msgstr "Limitation"
 
 #. type: Plain text
 msgid "So far, ESX serial number are not collected."
@@ -120,7 +120,7 @@ msgstr "Pour l'instant, le numéro de série de l'ESX n'est pas collecté."
 #. type: Title #
 #, no-wrap
 msgid "SECURITY"
-msgstr "SECURITÉ"
+msgstr "Sécurité"
 
 #. type: Plain text
 msgid "The SSL hostname check of the server is disabled."
