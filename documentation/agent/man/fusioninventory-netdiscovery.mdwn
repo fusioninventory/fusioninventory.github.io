@@ -4,7 +4,7 @@ fusioninventory-netdiscovery - Standalone network discovery
 
 # SYNOPSIS
 
-fusioninventory-netdiscovery \[options\] --first <start> --last <stop>
+fusioninventory-netdiscovery \[options\] --first \<start\> --last \<stop\>
 
     Options:
       --first address IP range first address
