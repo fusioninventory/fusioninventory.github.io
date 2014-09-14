@@ -33,8 +33,8 @@ msgid ""
 "issue with the proper component. This requires an user account."
 msgstr ""
 "Pour aider les développeurs à trouver et régler les problèmes correctement,"
-"vous devez utiliser la gestionnaire de bug de la Forge (<http://forge."
-"fusioninventory.org/projects/fusioninventory-agent/issues>). Vous devrez "
+"vous devez utiliser la gestionnaire de bug de la [forge] (<http://forge."
+"fusioninventory.org/projects/fusioninventory-agent/issues>). Cela requière d'"
 "avoir un compte."
 
 #. type: Plain text
@@ -48,7 +48,7 @@ msgstr ""
 #. type: Title ##
 #, no-wrap
 msgid "Component identification"
-msgstr ""
+msgstr "Identification composant"
 
 #. type: Plain text
 msgid ""
@@ -56,6 +56,9 @@ msgid ""
 "report the expected value) or on server side (the server doesn't display the "
 "expected value)."
 msgstr ""
+"Vous devez identifier si les problèmes sont liés à l'Agent (l'agent ne "
+"remonte pas la valeur attendue) ou au serveur (le serveur n'affiche pas "
+"la valeur attendue)."
 
 #. type: Plain text
 msgid ""
@@ -69,6 +72,15 @@ msgid ""
 "execution environment and privileges are not the same as non-interactive "
 "executions."
 msgstr ""
+"Pour cela, vous devez regarder le contenu brut généré par l'agent, et "
+"transmises au serveur. Le plus simple est de regarder l'onglet Informations "
+"d'importation disponibles pour chaque objet de GLPI (ordinateur, périphérique "
+"réseau, etc ...), qui fournit un lien pour télécharger ce contenu. Une autre "
+"solution est d'utiliser les différents exécutables fusioninventory-xxx (voir "
+"les [[man-pages|agent/man]] de l'agent pour plus de détails) pour produire le même contenu "
+"directement sur l'hôte de l'agent. Cependant, des différences subtiles peuvent "
+"se produit, si l'environnement d'exécution et les privilèges ne sont pas les "
+"mêmes que les exécutions non-interactifs."
 
 #. type: Plain text
 msgid "Once the faulty component identified, use either:"

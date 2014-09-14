@@ -82,7 +82,7 @@ msgstr "[[Comment faire avec un réseau DMZ|documentation/fi4g/dmz]]"
 #. type: Title #
 #, no-wrap
 msgid "How to"
-msgstr ""
+msgstr "HOWTO"
 
 #. type: Bullet: '* '
 msgid "[[Scan my network|documentation/tasks/networkdiscovery]]"
