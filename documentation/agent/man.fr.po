@@ -19,46 +19,46 @@ msgstr ""
 #. type: Title #
 #, no-wrap
 msgid "Agent man pages"
-msgstr ""
+msgstr "Man-Pages de l'Agent"
 
 #. type: Title ##
 #, no-wrap
 msgid "Executables"
-msgstr ""
+msgstr "Exécutables"
 
 #. type: Bullet: '* '
 msgid "[[fusioninventory-agent|man/fusioninventory-agent]]"
-msgstr ""
+msgstr "[[fusioninventory-agent|man/fusioninventory-agent]]"
 
 #. type: Bullet: '* '
 msgid "[[fusioninventory-esx|man/fusioninventory-esx]]"
-msgstr ""
+msgstr "[[fusioninventory-esx|man/fusioninventory-esx]]"
 
 #. type: Bullet: '* '
 msgid "[[fusioninventory-injector|man/fusioninventory-injector]]"
-msgstr ""
+msgstr "[[fusioninventory-injector|man/fusioninventory-injector]]"
 
 #. type: Bullet: '* '
 msgid "[[fusioninventory-inventory|man/fusioninventory-inventory]]"
-msgstr ""
+msgstr "[[fusioninventory-inventory|man/fusioninventory-inventory]]"
 
 #. type: Bullet: '* '
 msgid "[[fusioninventory-netdiscovery|man/fusioninventory-netdiscovery]]"
-msgstr ""
+msgstr "[[fusioninventory-netdiscovery|man/fusioninventory-netdiscovery]]"
 
 #. type: Bullet: '* '
 msgid "[[fusioninventory-netinventory|man/fusioninventory-netinventory]]"
-msgstr ""
+msgstr "[[fusioninventory-netinventory|man/fusioninventory-netinventory]]"
 
 #. type: Bullet: '* '
 msgid "[[fusioninventory-wakeonlan|man/fusioninventory-wakeonlan]]"
-msgstr ""
+msgstr "[[fusioninventory-wakeonlan|man/fusioninventory-wakeonlan]]"
 
 #. type: Title ##
 #, no-wrap
 msgid "Configuration"
-msgstr ""
+msgstr "Configuration"
 
 #. type: Bullet: '* '
 msgid "[[agent.cfg|man/agent.cfg]]"
-msgstr ""
+msgstr "[[agent.cfg|man/agent.cfg]]"
