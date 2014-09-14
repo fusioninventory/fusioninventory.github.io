@@ -35,7 +35,7 @@ msgstr "Synopsis"
 #. type: Plain text
 #, no-wrap
 msgid "fusioninventory-esx --host <host> --user <user> --password <password> --directory <directory>\n"
-msgstr "fusioninventory-esx --host \<host\> --user \<user\> --password <password> --directory <directory>\n"
+msgstr ""
 
 #. type: Plain text
 #, no-wrap
