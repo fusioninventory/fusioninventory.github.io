@@ -96,7 +96,7 @@ msgstr ""
 
 #. type: Bullet: '* '
 msgid "[[Deploy softwares|documentation/tasks/deploy]]"
-msgstr "[[Déploiement de logiciels|documentation/deploy]]"
+msgstr "[[Déploiement de logiciels|documentation/tasks/deploy]]"
 
 #. type: Title #
 #, no-wrap
