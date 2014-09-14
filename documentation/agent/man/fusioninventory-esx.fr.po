@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2013-08-13 10:03+0000\n"
+"POT-Creation-Date: 2014-09-14 19:23+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -33,9 +33,10 @@ msgid "SYNOPSIS"
 msgstr "Synopsis"
 
 #. type: Plain text
-#, no-wrap
-msgid "fusioninventory-esx --host <host> --user <user> --password <password> --directory <directory>\n"
-msgstr ""
+#, fuzzy, no-wrap
+#| msgid "    % fusioninventory-esx --host myesx --user foo --password bar --directory /tmp\n"
+msgid "fusioninventory-esx --host \\<host\\> --user \\<user\\> --password \\<password\\> --directory \\<directory\\>\n"
+msgstr "    % fusioninventory-esx --host server_esx --user admin --password secret --directory /opt\n"
 
 #. type: Plain text
 #, no-wrap
@@ -67,10 +68,27 @@ msgid "    % fusioninventory-esx --host myesx --user foo --password bar --direct
 msgstr "    % fusioninventory-esx --host server_esx --user admin --password secret --directory /opt\n"
 
 #. type: Plain text
-#, no-wrap
+#, fuzzy
+#| msgid ""
+#| "You can import the .ocs file in your inventory server with the "
+#| "fusioninventory-injector tool.\n"
+#| "    %fusioninventory-injector -v --file /tmp/\\*.ocs -u https://myserver/"
+#| "ocsinventory\n"
 msgid ""
-"You can import the .ocs file in your inventory server with the fusioninventory-injector tool.\n"
-"    %fusioninventory-injector -v --file /tmp/\\*.ocs -u https://myserver/ocsinventory\n"
+"You can import the .ocs file in your inventory server with the "
+"fusioninventory-injector tool."
+msgstr ""
+"Vous pouvez importer le fichier .ocs sur votre serveur d'inventaire avec "
+"l'outil fusioninventory-injector.\n"
+"    % fusioninventory-injector -v --file /tmp/\\*.ocs -u https://mon-serveur/"
+"ocsinventory\n"
+
+#. type: Plain text
+#, fuzzy, no-wrap
+#| msgid ""
+#| "You can import the .ocs file in your inventory server with the fusioninventory-injector tool.\n"
+#| "    %fusioninventory-injector -v --file /tmp/\\*.ocs -u https://myserver/ocsinventory\n"
+msgid "    % fusioninventory-injector -v --file /tmp/\\*.ocs -u https://myserver/ocsinventory\n"
 msgstr ""
 "Vous pouvez importer le fichier .ocs sur votre serveur d'inventaire avec l'outil fusioninventory-injector.\n"
 "    % fusioninventory-injector -v --file /tmp/\\*.ocs -u https://mon-serveur/ocsinventory\n"
@@ -85,28 +103,40 @@ msgid ""
 "`fusioninventory-esx` creates inventory of remote ESX/ESXi and vCenter "
 "VMware.  It uses the SOAP interface of the remote server."
 msgstr ""
-"`fusioninventory-esx` créait des inventaires des serveurs VMware ESX/ESXi et vCenter. "
-"Il utilise l'interface SOAP du serveur distant."
+"`fusioninventory-esx` créait des inventaires des serveurs VMware ESX/ESXi et "
+"vCenter. Il utilise l'interface SOAP du serveur distant."
 
 #. type: Plain text
 msgid "Supported systems:"
 msgstr "Systèmes reconnus:"
 
-#. type: Plain text
-msgid ""
-"- `ESX and ESXi 3.5` - `ESX and ESXi 4.1` - `ESXi 5.0` - `vCenter 4.1` - "
-"`vCenter 5.0`"
+#. type: Bullet: '* '
+msgid "`ESX and ESXi 3.5`"
 msgstr ""
-"- `ESX et ESXi 3.5` - `ESX et ESXi 4.1` - `ESXi 5.0` - `vCenter 4.1` - "
-"`vCenter 5.0`"
+
+#. type: Bullet: '* '
+msgid "`ESX and ESXi 4.1`"
+msgstr ""
+
+#. type: Bullet: '* '
+msgid "`ESXi 5.0`"
+msgstr ""
+
+#. type: Bullet: '* '
+msgid "`vCenter 4.1`"
+msgstr ""
+
+#. type: Bullet: '* '
+msgid "`vCenter 5.0`"
+msgstr ""
 
 #. type: Plain text
 msgid ""
 "Active Directory users, please note the AD authentication doesn't work. You "
 "must create a account on the VMware server."
 msgstr ""
-"Pour les utilisateurs d'Active Directory, attention l'authentification par l'AD "
-"n'est pas possible. Vous devez créer un compte sur le serveur VMware."
+"Pour les utilisateurs d'Active Directory, attention l'authentification par "
+"l'AD n'est pas possible. Vous devez créer un compte sur le serveur VMware."
 
 #. type: Title #
 #, no-wrap
@@ -125,3 +155,10 @@ msgstr "Sécurité"
 #. type: Plain text
 msgid "The SSL hostname check of the server is disabled."
 msgstr "La vérification SSL du hostname du serveur est désactivée."
+
+#~ msgid ""
+#~ "- `ESX and ESXi 3.5` - `ESX and ESXi 4.1` - `ESXi 5.0` - `vCenter 4.1` - "
+#~ "`vCenter 5.0`"
+#~ msgstr ""
+#~ "- `ESX et ESXi 3.5` - `ESX et ESXi 4.1` - `ESXi 5.0` - `vCenter 4.1` - "
+#~ "`vCenter 5.0`"

@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2013-08-13 10:03+0000\n"
+"POT-Creation-Date: 2014-09-14 19:23+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -34,7 +34,7 @@ msgstr ""
 
 #. type: Plain text
 #, no-wrap
-msgid "fusioninventory-injector \\[options\\] \\[--file <file>|--directory <directory>|--stdin\\]\n"
+msgid "fusioninventory-injector \\[options\\] \\[--file \\<file\\>|--directory \\<directory\\>|--stdin\\]\n"
 msgstr ""
 
 #. type: Plain text
@@ -50,11 +50,14 @@ msgid ""
 "      --stdin        read data from STDIN\n"
 msgstr ""
 
+#. type: Title #
+#, no-wrap
+msgid "Examples:"
+msgstr ""
+
 #. type: Plain text
 #, no-wrap
-msgid ""
-"    Examples:\n"
-"      fusioninventory-injector -v -f /tmp/toto-2010-09-10-11-42-22.ocs --url https://login:pw@server/ocsinventory\n"
+msgid "      fusioninventory-injector -v -f /tmp/toto-2010-09-10-11-42-22.ocs --url https://login:pw@server/ocsinventory\n"
 msgstr ""
 
 #. type: Title #
