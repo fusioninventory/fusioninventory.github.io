@@ -277,6 +277,53 @@ TODO
           <!ELEMENT POINTINGTYPE (#PCDATA)>
           <!ELEMENT TYPE (#PCDATA)>
 
+        <!-- a license -->
+        <!ELEMENT LICENSEINFOS (NAME, FULLNAME, KEY, COMPONENTS, TRIAL, UPDATE,
+        OEM, ACTIVATION_DATE, PRODUCTID)>
+          <!-- name -->
+          <!ELEMENT NAME (#PCDATA)>
+          <!-- full name -->
+          <!ELEMENT FULLNAME (#PCDATA)>
+          <!-- registration key -->
+          <!ELEMENT KEY (#PCDATA)>
+          <!-- components covered -->
+          <!ELEMENT COMPONENTS (#PCDATA)>
+          <!ELEMENT TRIAL (#PCDATA)>
+          <!ELEMENT UPDATE (#PCDATA)>
+          <!ELEMENT OEM (#PCDATA)>
+          <!ELEMENT ACTIVATION_DATE (#PCDATA)>
+          <!-- installation ID -->
+          <!ELEMENT PRODUCTID (#PCDATA)>
+
+        <!ELEMENT LOCAL_GROUPS (ID, NAME, MEMBER+)>
+          <!ELEMENT NAME (#PCDATA)>
+          <!ELEMENT ID (#PCDATA)>
+          <!ELEMENT MEMBER (#PCDATA)>
+
+        <!ELEMENT LOCAL_USERS (HOME, ID, LOGIN, NAME, SHELL)>
+          <!ELEMENT LOGIN (#PCDATA)>
+          <!ELEMENT NAME (#PCDATA)>
+          <!ELEMENT ID (#PCDATA)>
+          <!ELEMENT HOME (#PCDATA)>
+          <!ELEMENT SHELL (#PCDATA)>
+
+        <!-- a LVM logical volume -->
+        <!ELEMENT LOGICAL_VOLUMES (LV_NAME, VG_NAME, ATTR, SIZE, LV_UUID,
+        SEG_COUNT, VG_UUID)>
+          <!-- name -->
+          <!ELEMENT LV_NAME (#PCDATA)>
+          <!-- UUID -->
+          <!ELEMENT LV_UUID (#PCDATA)>
+          <!-- attributes -->
+          <!ELEMENT ATTR (#PCDATA)>
+          <!-- size, in MB -->
+          <!ELEMENT SIZE (#PCDATA)>
+          <!ELEMENT SEG_COUNT (#PCDATA)>
+          <!-- volume group name -->
+          <!ELEMENT VG_NAME (#PCDATA)>
+          <!-- volume group UUID -->
+          <!ELEMENT VG_UUID (#PCDATA)>
+
         <!ELEMENT MEMORIES (CAPACITY, CAPTION, FORMFACTOR, REMOVABLE, PURPOSE,
         SPEED, SERIALNUMBER, TYPE, DESCRIPTION, NUMSLOTS, MEMORYCORRECTION,
         MANUFACTURER)>
@@ -381,11 +428,52 @@ TODO
           <!-- wifi protocol version -->
           <!ELEMENT WIFI_VERSION (#PCDATA)>
 
+        <!-- a LVM physical volume -->
+	<!ELEMENT PHYSICAL_VOLUMES (DEVICE, PV_PE_COUNT, PV_UUID, FORMAT, ATTR,
+	SIZE, FREE, PE_SIZE, VG_UUID)>
+          <!-- UUID -->
+          <!ELEMENT PV_UUID (#PCDATA)>
+          <!-- device name, ie '/dev/sda1' -->
+          <!ELEMENT DEVICE (#PCDATA)>
+          <!ELEMENT PV_PE_COUNT (#PCDATA)>
+          <!-- format, ie 'lvm2' -->
+          <!ELEMENT FORMAT (#PCDATA)>
+          <!-- attributes -->
+          <!ELEMENT ATTR (#PCDATA)>
+          <!-- size, in MB -->
+          <!ELEMENT SIZE (#PCDATA)>
+          <!ELEMENT FREE (#PCDATA)>
+          <!ELEMENT PE_SIZE (#PCDATA)>
+          <!ELEMENT VG_UUID (#PCDATA)>
+
+
         <!ELEMENT PORTS (CAPTION, DESCRIPTION, NAME, TYPE)>
           <!ELEMENT CAPTION (#PCDATA)>
           <!ELEMENT DESCRIPTION (#PCDATA)>
           <!ELEMENT NAME (#PCDATA)>
           <!ELEMENT TYPE (#PCDATA)>
+
+        <!ELEMENT PRINTERS (COMMENT, DESCRIPTION, DRIVER, NAME, NETWORK, PORT,
+        RESOLUTION, SHARED, STATUS, ERRSTATUS, SERVERNAME, SHARENAME,
+        PRINTPROCESSOR, SERIAL)>
+          <!ELEMENT COMMENT (#PCDATA)>
+          <!ELEMENT DESCRIPTION (#PCDATA)>
+          <!ELEMENT DRIVER (#PCDATA)>
+          <!ELEMENT NAME (#PCDATA)>
+          <!-- wether it is a network printer (0|1) -->
+          <!ELEMENT NETWORK (#PCDATA)>
+          <!ELEMENT PORT (#PCDATA)>
+          <!-- printer resolution, ie '600x600' -->
+          <!ELEMENT RESOLUTION (#PCDATA)>
+          <!-- wether it is a shared printer (0|1) (Windows only) -->
+          <!ELEMENT SHARED (#PCDATA)>
+          <!ELEMENT STATUS (#PCDATA)>
+          <!ELEMENT ERRSTATUS (#PCDATA)>
+          <!ELEMENT SERVERNAME (#PCDATA)>
+          <!ELEMENT SHARENAME (#PCDATA)>
+          <!ELEMENT PRINTPROCESSOR (#PCDATA)>
+          <!-- printer serial number -->
+          <!ELEMENT SERIAL (#PCDATA)>
 
         <!ELEMENT PROCESSES (USER, PID, CPUUSAGE, MEM, VIRTUALMEMORY, TTY,
         STARTED, CMD)>
@@ -523,40 +611,6 @@ TODO
           <!-- user domain (Windows only) -->
           <!ELEMENT DOMAIN (#PCDATA)>
 
-        <!ELEMENT LOCAL_USERS (LOGIN, ID, NAME, HOME, SHELL)>
-          <!ELEMENT LOGIN (#PCDATA)>
-          <!ELEMENT NAME (#PCDATA)>
-          <!ELEMENT ID (#PCDATA)>
-          <!ELEMENT HOME (#PCDATA)>
-          <!ELEMENT SHELL (#PCDATA)>
-
-        <!ELEMENT LOCAL_GROUPS (NAME, ID, MEMBER+)>
-          <!ELEMENT NAME (#PCDATA)>
-          <!ELEMENT ID (#PCDATA)>
-          <!ELEMENT MEMBER (#PCDATA)>
-
-        <!ELEMENT PRINTERS (COMMENT, DESCRIPTION, DRIVER, NAME, NETWORK, PORT,
-        RESOLUTION, SHARED, STATUS, ERRSTATUS, SERVERNAME, SHARENAME,
-        PRINTPROCESSOR, SERIAL)>
-          <!ELEMENT COMMENT (#PCDATA)>
-          <!ELEMENT DESCRIPTION (#PCDATA)>
-          <!ELEMENT DRIVER (#PCDATA)>
-          <!ELEMENT NAME (#PCDATA)>
-          <!-- wether it is a network printer (0|1) -->
-          <!ELEMENT NETWORK (#PCDATA)>
-          <!ELEMENT PORT (#PCDATA)>
-          <!-- printer resolution, ie '600x600' -->
-          <!ELEMENT RESOLUTION (#PCDATA)>
-          <!-- wether it is a shared printer (0|1) (Windows only) -->
-          <!ELEMENT SHARED (#PCDATA)>
-          <!ELEMENT STATUS (#PCDATA)>
-          <!ELEMENT ERRSTATUS (#PCDATA)>
-          <!ELEMENT SERVERNAME (#PCDATA)>
-          <!ELEMENT SHARENAME (#PCDATA)>
-          <!ELEMENT PRINTPROCESSOR (#PCDATA)>
-          <!-- printer serial number -->
-          <!ELEMENT SERIAL (#PCDATA)>
-
         <!ELEMENT VIRTUALMACHINES (MEMORY, NAME, UUID, STATUS, SUBSYSTEM,
         VMTYPE, VCPU, VMID, MAC, COMMENT, OWNER, SERIAL)>
           <!-- name -->
@@ -587,43 +641,6 @@ TODO
           <!ELEMENT OWNER (#PCDATA)>
           <!ELEMENT SERIAL (#PCDATA)>
 
-        <!-- a LVM logical volume -->
-        <!ELEMENT LOGICAL_VOLUMES (LV_NAME, VG_NAME, ATTR, SIZE, LV_UUID,
-        SEG_COUNT, VG_UUID)>
-          <!-- name -->
-          <!ELEMENT LV_NAME (#PCDATA)>
-          <!-- UUID -->
-          <!ELEMENT LV_UUID (#PCDATA)>
-          <!-- attributes -->
-          <!ELEMENT ATTR (#PCDATA)>
-          <!-- size, in MB -->
-          <!ELEMENT SIZE (#PCDATA)>
-          <!ELEMENT SEG_COUNT (#PCDATA)>
-          <!-- volume group name -->
-          <!ELEMENT VG_NAME (#PCDATA)>
-          <!-- volume group UUID -->
-          <!ELEMENT VG_UUID (#PCDATA)>
-
-        <!-- a LVM physical volume -->
-        <!ELEMENT PHYSICAL_VOLUMES (PV_NAME, DEVICE, PV_PE_COUNT, PV_UUID, FORMAT, ATTR,
-        SIZE, FREE, PE_SIZE, VG_UUID)>
-          <!-- name -->
-          <!ELEMENT PV_NAME (#PCDATA)>
-          <!-- UUID -->
-          <!ELEMENT PV_UUID (#PCDATA)>
-          <!-- device name, ie /dev/sda1 -->
-          <!ELEMENT DEVICE (#PCDATA)>
-          <!ELEMENT PV_PE_COUNT (#PCDATA)>
-          <!-- format, ie lvm2 -->
-          <!ELEMENT FORMAT (#PCDATA)>
-          <!-- attributes -->
-          <!ELEMENT ATTR (#PCDATA)>
-          <!-- size, in MB -->
-          <!ELEMENT SIZE (#PCDATA)>
-          <!ELEMENT FREE (#PCDATA)>
-          <!ELEMENT PE_SIZE (#PCDATA)>
-          <!ELEMENT VG_UUID (#PCDATA)>
-
         <!-- a LVM logical volume group -->
         <!ELEMENT VOLUME_GROUPS (VG_NAME, PV_COUNT, LV_COUNT, ATTR, SIZE, FREE,
         VG_UUID, VG_EXTENT_SIZE)>
@@ -640,24 +657,6 @@ TODO
           <!-- free space -->
           <!ELEMENT FREE (#PCDATA)>
           <!ELEMENT VG_EXTENT_SIZE (#PCDATA)>
-
-        <!-- a license -->
-        <!ELEMENT LICENSEINFOS (NAME, FULLNAME, KEY, COMPONENTS, TRIAL, UPDATE,
-        OEM, ACTIVATION_DATE, PRODUCTID)>
-          <!-- name -->
-          <!ELEMENT NAME (#PCDATA)>
-          <!-- full name -->
-          <!ELEMENT FULLNAME (#PCDATA)>
-          <!-- registration key -->
-          <!ELEMENT KEY (#PCDATA)>
-          <!-- components covered -->
-          <!ELEMENT COMPONENTS (#PCDATA)>
-          <!ELEMENT TRIAL (#PCDATA)>
-          <!ELEMENT UPDATE (#PCDATA)>
-          <!ELEMENT OEM (#PCDATA)>
-          <!ELEMENT ACTIVATION_DATE (#PCDATA)>
-          <!-- installation ID -->
-          <!ELEMENT PRODUCTID (#PCDATA)>
 
       <!-- agent ID (string) -->
       <!ELEMENT DEVICEID (#PCDATA)>

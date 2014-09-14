@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2014-07-17 07:22+0000\n"
+"POT-Creation-Date: 2014-09-08 18:26+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -21,90 +21,323 @@ msgstr ""
 msgid "Agent usage"
 msgstr ""
 
+#. type: Title ##
+#, no-wrap
+msgid "Execution modes"
+msgstr ""
+
 #. type: Plain text
 #, fuzzy
 #| msgid "They are two different ways to run the agent:"
-msgid "They are two different ways to use the agent:"
+msgid "They are multiple ways to run fusioninventory agent:"
 msgstr "Il y a deux manières différentes de faire fonctionner l'agent:"
 
-#. type: Bullet: '*  '
-msgid "as a temporary process, exiting after completing its run"
-msgstr "Comme processus temporaire, qui s'arrête après avoir fonctionné"
+#. type: Bullet: '* '
+msgid ""
+"_managed mode_: the agent runs continuously in the background, wakes up "
+"periodically to execute the tasks required by the server, and may eventually "
+"executes out of schedule on server request."
+msgstr ""
+
+#. type: Bullet: '* '
+msgid ""
+"_half-managed mode_: the agent executes immediatly the tasks required by the "
+"server, and stops. This can be automated through an external scheduling "
+"mechanism (cron, task scheduler)."
+msgstr ""
+
+#. type: Bullet: '* '
+msgid ""
+"_autonomous mode_: the agent executes immediatly a specific task, and "
+"stops.  The results are then sent to the server, or kept for delayed upload. "
+"This can be automated through an external scheduling mechanism (cron, task "
+"scheduler)."
+msgstr ""
+
+#. type: Title ###
+#, no-wrap
+msgid "Managed mode"
+msgstr ""
+
+#. type: Plain text
+msgid ""
+"This mode requires the agent to be run as a server process (daemon under "
+"Unix, service under Windows), meaning the perl interpreter is permanently "
+"loaded in memory, which may not be convenient for small systems. "
+"Additionaly, a network port is opened on the system with a process running "
+"with full system privileges attached to it."
+msgstr ""
+
+#. type: Plain text
+msgid ""
+"The agent wake-up schedule is controlled from GLPI server, using PROLOG_FREQ "
+"setting. More precisely, the agent wakes up at a random time between 50% and "
+"100% of this value, ie for 24H, it will executes sometimes between 12 and "
+"24H.  Additionaly, the server may also initiate additional out-of-schedule "
+"executions by sending HTTP requests to the agent."
+msgstr ""
+
+#. type: Plain text
+msgid "Example:"
+msgstr ""
+
+#. type: Plain text
+#, no-wrap
+msgid "    $> fusioninventory-agent --server http://my.server/plugins/fusioninventory/ --daemon\n"
+msgstr ""
+
+#. type: Title ###
+#, no-wrap
+msgid "Half-managed mode"
+msgstr ""
+
+#. type: Plain text
+msgid ""
+"This mode requires an external scheduling process to run the agent (cron, "
+"task scheduler, trainee, ...) periodically. There is no impact on memory and "
+"security between agent executions. The server still retains control over "
+"what the agent executes exactly, however, as the agent will ask it for every "
+"available module."
+msgstr ""
+
+#. type: Plain text
+#, no-wrap
+msgid "    $> fusioninventory-agent --server http://my.server/plugins/fusioninventory/\n"
+msgstr ""
+
+#. type: Title ###
+#, no-wrap
+msgid "Autonomous mode"
+msgstr ""
+
+#. type: Plain text
+msgid ""
+"This mode requires an external scheduling process to run the agent (cron, "
+"task scheduler, trainee, ...) periodically. There is no impact on memory and "
+"security between agent executions. What the agent executes is controlled "
+"locally, and the server just receive execution results. As sending those "
+"results may be done separatly, this mode may also be used offline."
+msgstr ""
+
+#. type: Plain text
+msgid "Defered upload example:"
+msgstr ""
 
 #. type: Plain text
 #, no-wrap
 msgid ""
-"*  as a permanent process, staying in memory permanently (daemon under Unix,\n"
-"  service under Windows)\n"
+"    $> fusioninventory-inventory > inventory.xml\n"
+"    $> fusioninventory-injector --file inventory.xml --url http://my.server/plugins/fusioninventory/\n"
 msgstr ""
-"*  Comme un processus permanent, restant en mémoire (mode daemon sous Unix,\n"
-"  mode service sous Windows)\n"
+
+#. type: Plain text
+msgid "Immediate upload example:"
+msgstr ""
+
+#. type: Plain text
+#, no-wrap
+msgid "    $> fusioninventory-inventory | curl --data @- http://my.server/plugins/fusioninventory/\n"
+msgstr ""
+
+#. type: Title ##
+#, no-wrap
+msgid "Offline usage"
+msgstr ""
+
+#. type: Title ###
+#, no-wrap
+msgid "Agent execution"
+msgstr ""
 
 #. type: Plain text
 msgid ""
-"In the first case, the agent execution scheduling is controlled from local "
-"system, and the memory footprint between agent executions is zero."
+"Most tasks handled by the agent can be executed directly without server, "
+"when it is not available, or for easier troubleshooting."
 msgstr ""
-"Dans le premier cas, la période d'exécution de l'agent est contrôlée à "
-"partir du système local, et l'encombrement de la mémoire entre les "
-"exécutions de l'agents est égale à zéro."
 
 #. type: Plain text
 msgid ""
-"In second case, the agent execution scheduling is controlled from GLPI "
-"server, as the agent runs regulary according to a parameter initially set in "
-"its configuration (delaytime), overrided by the server at the first "
-"connection (PROLOG_FREQ). Additionaly, the server may also initiate "
-"additional out-of-schedule executions by sending HTTP requests if the web "
-"interface is used. However, it also mean you have a full perl interpreter "
-"loaded in memory constantly, and a network port open on your system with a "
-"process running with full system privileges attached to it."
+"Each task has a dedicated executable for this purpose. For instance, to "
+"execute an inventory:"
 msgstr ""
-"Dans le second cas, la période d'exécution de l'agent est commandée à partir "
-"du serveur GLPI, car l'agent s'exécute régulièrement selon un paramètre "
-"réglé initialement dans sa configuration (DelayTime), reparamétré par le "
-"serveur à la première connexion (PROLOG_FREQ). Additionnellement, le serveur "
-"peut également entreprendre d'autres exécutions hors période en envoyant des "
-"requêtes HTTP si l'interface Web est utilisé. Toutefois, il faut également "
-"savoir que vous avez un interpréteur perl complet chargé en mémoire en "
-"permanence, et un port réseau ouvert sur votre système avec un processus "
-"s'exécutant avec les privilèges système complets qui s'y rattachent."
+
+#. type: Plain text
+#, no-wrap
+msgid "    $> fusioninventory-inventory\n"
+msgstr ""
+
+#. type: Plain text
+msgid "See [[man pages|man]] for details."
+msgstr ""
+
+#. type: Title ###
+#, no-wrap
+msgid "Result import"
+msgstr ""
+
+#. type: Title ####
+#, no-wrap
+msgid "FusionInventory for GLPI Interface"
+msgstr ""
+
+#. type: Plain text
+#, no-wrap
+msgid ""
+"Go in *Plugins > FusionInventory > Import agent XML* Menu and upload the XML\n"
+"file.\n"
+msgstr ""
+
+#. type: Title ####
+#, no-wrap
+msgid "fusioninventory-injector"
+msgstr ""
+
+#. type: Plain text
+msgid "The agent has a dedicated executable for result injection:"
+msgstr ""
+
+#. type: Plain text
+#, no-wrap
+msgid "    $> fusioninventory-injector --file inventory.xml --url http://my.server/plugins/fusioninventory/\n"
+msgstr ""
 
 #. type: Plain text
 msgid ""
-"If you don't need to control agent execution from the server, and if you're "
-"able to periodically launch the agent without resorting to its internal "
-"scheduler, through cron on Unix systems, or scheduled tasks on Windows, "
-"you'd better use first execution mode. The various installation procedure "
-"may offer limited choice about initial configuration, but you should always "
-"be able to change it thereafter."
+"See [[fusioninventory-injector man page|man/fusioninventory-injector]] for "
+"details."
 msgstr ""
-"Si vous n'avez pas besoin de contrôler l'exécution de l'agent à partir du "
-"serveur, et si vous êtes capable de lancer l'agent sans avoir recours à son "
-"planificateur interne, par cron sur les systèmes Unix ou des tâches "
-"planifiées sous Windows, vous feriez mieux de l'utiliser en premier mode "
-"d'exécution. La procédure d'installation peut offrir différents choix quant "
-"à la configuration initiale, mais vous devriez toujours être en mesure de le "
-"modifier par la suite."
+
+#. type: Title ####
+#, no-wrap
+msgid "curl"
+msgstr ""
 
 #. type: Plain text
 msgid ""
-"When executing, the agent tries to run every available task for every "
-"configured target. A task is a specific kind of work to perform (local "
-"inventory, network discovery, wake on lan, etc...), while a target is both a "
-"recipient for the result and a controller for this work (an OCS server, a "
-"GLPI server, a local directory, etc...). Only the local inventory task is "
-"compatible with all kind of target, tough, all others require a GLPI server "
-"target, and will get discarded for other kind of target."
+"You can also use curl to push an inventory. This can be useful if your perl "
+"installation has no SSL support, for instance:"
 msgstr ""
-"Lors de l'exécution, l'agent tente d'exécuter toutes les tâches disponibles "
-"pour chaque cible configurée. Une tâche est un type de travail à effectuer "
-"(inventaire local, découverte du réseau, wake on lan, etc ..), alors que la "
-"cible est à la fois un destinataire pour le résultat et un contrôleur pour "
-"ce travail (serveur OCS,  serveur GLPI, un répertoire local, etc ..). Seule "
-"la tâche d'inventaire local est compatible avec tout type de cible, toutes "
-"les autres ont besoin d'un serveur cible GLPI, et seront écartées pour "
-"d'autres types de cible."
+
+#. type: Plain text
+#, no-wrap
+msgid "    curl --header \"Content-Type: Application/x-compress\" --cacert your-ca.pem -u username:password --data @/tmp/lazer.local-2011-10-04-12-21-23.ocs https://my.server/plugins/fusioninventory/\n"
+msgstr ""
+
+#. type: Plain text
+msgid "With no SSL check and no authentification :"
+msgstr ""
+
+#. type: Plain text
+#, no-wrap
+msgid "    curl --header \"Content-Type: Application/x-compress\" -k --data @/tmp/monposte.local-2012-10-04-12-21-23.ocs https://my.server/plugins/fusioninventory/\n"
+msgstr ""
+
+#. type: Title ##
+#, no-wrap
+msgid "Multiple execution targets"
+msgstr ""
+
+#. type: Plain text
+msgid ""
+"Using multiple execution targets (servers or local directory) doesn't mean "
+"\"execute once, upload the result multiple times\", but \"tries to execute "
+"every available task once for each given target\". As a result, there is no "
+"garanty than running an inventory for two different servers, or for one "
+"server and for local directory, will produce the same exact result. They are "
+"even a known bug on Windows, where the second inventory lacks some specific "
+"pieces of information."
+msgstr ""
+
+#. type: Plain text
+msgid ""
+"The only reliable way currently to produce a single inventory, and transmit "
+"the result to multiple targets, is to execute the agent in autonomous mode "
+"once, and then upload the results multiple time:"
+msgstr ""
+
+#. type: Plain text
+#, no-wrap
+msgid ""
+"    $> fusioninventory-inventory > inventory.xml\n"
+"    $> fusioninventory-injector --file inventory.xml --url http://my.first.server/plugins/fusioninventory/\n"
+"    $> fusioninventory-injector --file inventory.xml --url http://my.second.server/plugins/fusioninventory/\n"
+msgstr ""
+
+#~ msgid "as a temporary process, exiting after completing its run"
+#~ msgstr "Comme processus temporaire, qui s'arrête après avoir fonctionné"
+
+#~ msgid ""
+#~ "*  as a permanent process, staying in memory permanently (daemon under "
+#~ "Unix,\n"
+#~ "  service under Windows)\n"
+#~ msgstr ""
+#~ "*  Comme un processus permanent, restant en mémoire (mode daemon sous "
+#~ "Unix,\n"
+#~ "  mode service sous Windows)\n"
+
+#~ msgid ""
+#~ "In the first case, the agent execution scheduling is controlled from "
+#~ "local system, and the memory footprint between agent executions is zero."
+#~ msgstr ""
+#~ "Dans le premier cas, la période d'exécution de l'agent est contrôlée à "
+#~ "partir du système local, et l'encombrement de la mémoire entre les "
+#~ "exécutions de l'agents est égale à zéro."
+
+#~ msgid ""
+#~ "In second case, the agent execution scheduling is controlled from GLPI "
+#~ "server, as the agent runs regulary according to a parameter initially set "
+#~ "in its configuration (delaytime), overrided by the server at the first "
+#~ "connection (PROLOG_FREQ). Additionaly, the server may also initiate "
+#~ "additional out-of-schedule executions by sending HTTP requests if the web "
+#~ "interface is used. However, it also mean you have a full perl interpreter "
+#~ "loaded in memory constantly, and a network port open on your system with "
+#~ "a process running with full system privileges attached to it."
+#~ msgstr ""
+#~ "Dans le second cas, la période d'exécution de l'agent est commandée à "
+#~ "partir du serveur GLPI, car l'agent s'exécute régulièrement selon un "
+#~ "paramètre réglé initialement dans sa configuration (DelayTime), "
+#~ "reparamétré par le serveur à la première connexion (PROLOG_FREQ). "
+#~ "Additionnellement, le serveur peut également entreprendre d'autres "
+#~ "exécutions hors période en envoyant des requêtes HTTP si l'interface Web "
+#~ "est utilisé. Toutefois, il faut également savoir que vous avez un "
+#~ "interpréteur perl complet chargé en mémoire en permanence, et un port "
+#~ "réseau ouvert sur votre système avec un processus s'exécutant avec les "
+#~ "privilèges système complets qui s'y rattachent."
+
+#~ msgid ""
+#~ "If you don't need to control agent execution from the server, and if "
+#~ "you're able to periodically launch the agent without resorting to its "
+#~ "internal scheduler, through cron on Unix systems, or scheduled tasks on "
+#~ "Windows, you'd better use first execution mode. The various installation "
+#~ "procedure may offer limited choice about initial configuration, but you "
+#~ "should always be able to change it thereafter."
+#~ msgstr ""
+#~ "Si vous n'avez pas besoin de contrôler l'exécution de l'agent à partir du "
+#~ "serveur, et si vous êtes capable de lancer l'agent sans avoir recours à "
+#~ "son planificateur interne, par cron sur les systèmes Unix ou des tâches "
+#~ "planifiées sous Windows, vous feriez mieux de l'utiliser en premier mode "
+#~ "d'exécution. La procédure d'installation peut offrir différents choix "
+#~ "quant à la configuration initiale, mais vous devriez toujours être en "
+#~ "mesure de le modifier par la suite."
+
+#~ msgid ""
+#~ "When executing, the agent tries to run every available task for every "
+#~ "configured target. A task is a specific kind of work to perform (local "
+#~ "inventory, network discovery, wake on lan, etc...), while a target is "
+#~ "both a recipient for the result and a controller for this work (an OCS "
+#~ "server, a GLPI server, a local directory, etc...). Only the local "
+#~ "inventory task is compatible with all kind of target, tough, all others "
+#~ "require a GLPI server target, and will get discarded for other kind of "
+#~ "target."
+#~ msgstr ""
+#~ "Lors de l'exécution, l'agent tente d'exécuter toutes les tâches "
+#~ "disponibles pour chaque cible configurée. Une tâche est un type de "
+#~ "travail à effectuer (inventaire local, découverte du réseau, wake on lan, "
+#~ "etc ..), alors que la cible est à la fois un destinataire pour le "
+#~ "résultat et un contrôleur pour ce travail (serveur OCS,  serveur GLPI, un "
+#~ "répertoire local, etc ..). Seule la tâche d'inventaire local est "
+#~ "compatible avec tout type de cible, toutes les autres ont besoin d'un "
+#~ "serveur cible GLPI, et seront écartées pour d'autres types de cible."
 
 #~ msgid "Usage"
 #~ msgstr "Usage"
