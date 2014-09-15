@@ -19,20 +19,20 @@ msgstr ""
 #. type: Title #
 #, no-wrap
 msgid "NAME"
-msgstr ""
+msgstr "Nom"
 
 #. type: Plain text
 msgid "fusioninventory-wakeonlan - Standalone wake-on-lan"
-msgstr ""
+msgstr "fusioninventory-wakeonlan - agent Wake-On-Lan"
 
 #. type: Title #
 #, no-wrap
 msgid "SYNOPSIS"
-msgstr ""
+msgstr "Synopsis"
 
 #. type: Plain text
 msgid "fusioninventory-wakeonlan \\[options\\]"
-msgstr ""
+msgstr "fusioninventory-wakeonlan \\[options\\]"
 
 #. type: Plain text
 #, no-wrap
@@ -44,14 +44,21 @@ msgid ""
 "      -h --help         print this message and exit\n"
 "      --version         print the task version and exit\n"
 msgstr ""
+"    Options:\n"
+"      --mac=MAC         Mac Address de destination\n"
+"      --methods=METHODS lister les méthodes utilisées par des vigules (ethernet udp)\n"
+"      --debug           type de sortie debug (trace d'exécution)\n"
+"      -h --help         montre ce message et quitte\n"
+"      --version         montre la version et quitte\n"
 
 #. type: Title #
 #, no-wrap
 msgid "DESCRIPTION"
-msgstr ""
+msgstr "Description"
 
 #. type: Plain text
 msgid ""
 "`fusioninventory-wakeonlan` allows to run a wakeonlan task without a GLPI "
 "server."
 msgstr ""
+"`fusioninventory-wakeonlan` peut être lancé pour faire un Wake-On-Lan sans serveur GLPI"
