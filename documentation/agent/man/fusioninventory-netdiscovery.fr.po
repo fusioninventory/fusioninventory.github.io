@@ -19,21 +19,21 @@ msgstr ""
 #. type: Title #
 #, no-wrap
 msgid "NAME"
-msgstr ""
+msgstr "Nom"
 
 #. type: Plain text
 msgid "fusioninventory-netdiscovery - Standalone network discovery"
-msgstr ""
+msgstr "fusioninventory-netdiscovery - agent de découverte réseau"
 
 #. type: Title #
 #, no-wrap
 msgid "SYNOPSIS"
-msgstr ""
+msgstr "Synopsis"
 
 #. type: Plain text
 #, no-wrap
 msgid "fusioninventory-netdiscovery \\[options\\] --first \\<start\\> --last \\<stop\\>\n"
-msgstr ""
+msgstr "fusioninventory-netdiscovery \\[options\\] --first \\<start\\> --last \\<stop\\>\n"
 
 #. type: Plain text
 #, no-wrap
@@ -50,14 +50,27 @@ msgid ""
 "      -h --help       print this message and exit\n"
 "      --version       print the task version and exit\n"
 msgstr ""
+"    Options:\n"
+"      --first address première IP de la plage d'adresse scannée\n"
+"      --last address  dernière IP de la plage d'adresse scannée\n"
+"      --credential    clé SNMP (défaut: version:1, communauté:public)\n"
+"      --entity        entité GLPI \n"
+"      --threads nb    nombre de processus de découverte (défaut: 1)\n"
+"      --timeout val   SNMP timeout (défaut: 1s)\n"
+"      --verbose       type de sortie verbose (messages de control )\n"
+"      --debug         type de sortie debug (Traces d' exécution)\n"
+"      -h --help       montre ce message et quitte\n"
+"      --version       montre la version et quitte\n"
 
 #. type: Title #
 #, no-wrap
 msgid "DESCRIPTION"
-msgstr ""
+msgstr "Description"
 
 #. type: Plain text
 msgid ""
 "`fusioninventory-netdiscovery` allows to run a network discovery task "
 "without a GLPI server."
 msgstr ""
+"`fusioninventory-netdiscovery` peut être lancé pour une découverte réseau "
+"sans serveur GLPI."
