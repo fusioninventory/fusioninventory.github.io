@@ -1,0 +1,103 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2014-09-25 16:23+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. type: Plain text
+#, no-wrap
+msgid "[[!meta  date=\"2014-09-25\"]]\n"
+msgstr ""
+
+#. type: Title #
+#, no-wrap
+msgid "FusionInventory Agent 2.3.11 release"
+msgstr ""
+
+#. type: Plain text
+msgid "Hello FusionInventory users,"
+msgstr ""
+
+#. type: Plain text
+msgid ""
+"The FusionInventory Agent maintainers are glad to announce the 2.3.11 "
+"release."
+msgstr ""
+
+#. type: Plain text
+msgid "You can download it from the usual places:"
+msgstr ""
+
+#. type: Bullet: '* '
+msgid ""
+"[the "
+"forge](http://forge.fusioninventory.org/projects/fusioninventory-agent/files) "
+"or [CPAN](https://metacpan.org/release/FusionInventory-Agent) for the source "
+"distribution"
+msgstr ""
+
+#. type: Bullet: '* '
+msgid ""
+"[the "
+"forge](http://forge.fusioninventory.org/projects/fusioninventory-agent-windows-installer/files) "
+"for the windows distribution"
+msgstr ""
+
+#. type: Bullet: '* '
+msgid "etc..."
+msgstr ""
+
+#. type: Plain text
+msgid "See [[download instructions|/documentation/agent/installation]] for details."
+msgstr ""
+
+#. type: Plain text
+msgid "The major changes in this release are multiple:"
+msgstr ""
+
+#. type: Bullet: '* '
+msgid ""
+"network inventory now relies on dedicated data to identify printer "
+"consumables, instead of relying on an external consumable reference database"
+msgstr ""
+
+#. type: Bullet: '* '
+msgid ""
+"network inventory now report aggregated ports for network devices, "
+"supporting LACP and AGP protocols"
+msgstr ""
+
+#. type: Bullet: '* '
+msgid ""
+"local inventory report network interfaces type (wireless, wired, bonded, "
+"etc...) with additional specific information (ESSID for wifi, base interface "
+"for aliases, etc...)"
+msgstr ""
+
+#. type: Bullet: '* '
+msgid ""
+"better logging of agent execution details, with more details about missing "
+"optional commands or perl libraries, or information to add in agent database"
+msgstr ""
+
+#. type: Plain text
+msgid "In addition, this release also fixes multiple smaller issues."
+msgstr ""
+
+#. type: Plain text
+msgid ""
+"We did our best to provide a solid release, please [[contact us|/resources]] "
+"if you believe you find something unexpected."
+msgstr ""
