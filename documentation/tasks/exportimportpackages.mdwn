@@ -1,5 +1,8 @@
 # Export / import packages for deploy
 
+[[!template  id=warning text="This feature is added in version 0.85+1.0 of plugin FusionInventory"]]
+
+
 ## Export
 
 To export a package, go in list page of packages and check all packages you want to export, click on _Actions_ (massive actions) and do _export_.
