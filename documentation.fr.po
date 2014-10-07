@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2014-09-08 18:26+0000\n"
+"POT-Creation-Date: 2014-10-07 15:57+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -96,6 +96,14 @@ msgstr ""
 
 #. type: Bullet: '* '
 msgid "[[Deploy softwares|documentation/tasks/deploy]]"
+msgstr "[[Déploiement de logiciels|documentation/tasks/deploy]]"
+
+#. type: Bullet: '* '
+#, fuzzy
+#| msgid "[[Deploy softwares|documentation/tasks/deploy]]"
+msgid ""
+"[[Deploy > export / import packages|documentation/tasks/"
+"exportimportpackages]]"
 msgstr "[[Déploiement de logiciels|documentation/tasks/deploy]]"
 
 #. type: Title #
