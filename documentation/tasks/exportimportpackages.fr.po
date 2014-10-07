@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2014-10-07 16:02+0000\n"
+"POT-Creation-Date: 2014-10-07 16:05+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -19,6 +19,11 @@ msgstr ""
 #. type: Title #
 #, no-wrap
 msgid "Export / import packages for deploy"
+msgstr ""
+
+#. type: Plain text
+#, no-wrap
+msgid "[[!template  id=warning text=\"This feature is added in version 0.85+1.0 of plugin FusionInventory\"]]\n"
 msgstr ""
 
 #. type: Title ##
@@ -34,8 +39,8 @@ msgstr ""
 
 #. type: Plain text
 msgid ""
-"Each package will be exported (one file per package) in folder "
-"glpi/files/_plugins/fusioninventory/files/export/."
+"Each package will be exported (one file per package) in folder glpi/files/"
+"_plugins/fusioninventory/files/export/."
 msgstr ""
 
 #. type: Title ##
@@ -45,8 +50,8 @@ msgstr ""
 
 #. type: Bullet: '* '
 msgid ""
-"Copy the zip file generated with export function in folder "
-"glpi/files/_plugins/fusioninventory/files/import/"
+"Copy the zip file generated with export function in folder glpi/files/"
+"_plugins/fusioninventory/files/import/"
 msgstr ""
 
 #. type: Bullet: '* '
