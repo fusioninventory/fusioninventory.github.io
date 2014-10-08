@@ -348,6 +348,8 @@ TODO
         <!ELEMENT MODEMS (DESCRIPTION, NAME)>
           <!ELEMENT NAME (#PCDATA)>
           <!ELEMENT DESCRIPTION (#PCDATA)>
+          <!ELEMENT TYPE (#PCDATA)>
+          <!ELEMENT MODEL (#PCDATA)>
 
         <!ELEMENT MONITORS (BASE64, CAPTION, DESCRIPTION, MANUFACTURER, SERIAL,
           UUENCODE)>
@@ -361,6 +363,8 @@ TODO
           <!ELEMENT SERIAL (#PCDATA)>
           <!-- uuencoded EDID trame -->
           <!ELEMENT UUENCODE (#PCDATA)>
+          <!ELEMENT NAME (#PCDATA)>
+          <!ELEMENT TYPE (#PCDATA)>
 
         <!-- a network configuration, ie a combination of an interface and an
           IP address -->
