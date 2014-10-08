@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2014-09-08 18:17+0000\n"
+"POT-Creation-Date: 2014-10-08 20:51+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -458,6 +458,8 @@ msgid ""
 "        <!ELEMENT MODEMS (DESCRIPTION, NAME)>\n"
 "          <!ELEMENT NAME (#PCDATA)>\n"
 "          <!ELEMENT DESCRIPTION (#PCDATA)>\n"
+"          <!ELEMENT TYPE (#PCDATA)>\n"
+"          <!ELEMENT MODEL (#PCDATA)>\n"
 msgstr ""
 
 #. type: Plain text
@@ -475,6 +477,8 @@ msgid ""
 "          <!ELEMENT SERIAL (#PCDATA)>\n"
 "          <!-- uuencoded EDID trame -->\n"
 "          <!ELEMENT UUENCODE (#PCDATA)>\n"
+"          <!ELEMENT NAME (#PCDATA)>\n"
+"          <!ELEMENT TYPE (#PCDATA)>\n"
 msgstr ""
 
 #. type: Plain text
