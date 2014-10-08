@@ -52,8 +52,14 @@
       <!ELEMENT CONTENT (DEVICE*, MODULEVERSION, PROCESSNUMBER)>
 
         <!-- a device -->
-        <!ELEMENT DEVICE (AUTHSNMP?, TYPE?, MANUFACTURER?, MODEL?, DESCRIPTION?, SNMPHOSTNAME?, LOCATION?, CONTACT?, SERIAL?, FIRMWARE?, UPTIME?, MAC?, DNSHOSTNAME?, IP)>
-          <!-- SNMP credentials ID -->
+        <!ELEMENT DEVICE (IP, MAC?, AUTHSNMP?, TYPE?, MANUFACTURER?, MODEL?, DESCRIPTION?, SNMPHOSTNAME?, LOCATION?, CONTACT?, SERIAL?, FIRMWARE?, UPTIME?, IPS? DNSHOSTNAME?, NETPORTVENDOR?, NETBIOSNAME?, WORKGROUP?, USERSESSION?)>
+          <!--  IP address -->
+          <!ELEMENT IP (#PCDATA)>
+          <!--  mac address -->
+          <!ELEMENT MAC (#PCDATA)>
+
+          <!-- Information retrieved from SNMP -->
+          <!-- credentials ID -->
           <!ELEMENT AUTHSNMP (#PCDATA)>
           <!-- type
             (COMPUTER|NETWORKING|PRINTER|STORAGE|POWER|PHONE|VIDEO|KVM) -->
@@ -62,9 +68,9 @@
           <!ELEMENT MANUFACTURER (#PCDATA)>
           <!-- model -->
           <!ELEMENT MODEL (#PCDATA)>
-          <!-- description (SNMP sysDescr) -->
+          <!-- description (sysDescr) -->
           <!ELEMENT DESCRIPTION (#PCDATA)>
-          <!--  host name (SNMP sysName) -->
+          <!--  host name -->
           <!ELEMENT SNMPHOSTNAME (#PCDATA)>
           <!--  location -->
           <!ELEMENT LOCATION (#PCDATA)>
@@ -76,12 +82,24 @@
           <!ELEMENT FIRMWARE (#PCDATA)>
           <!--  uptime ("X days, HH:MM::SS" format) -->
           <!ELEMENT UPTIME (#PCDATA)>
-          <!--  mac address -->
-          <!ELEMENT MAC (#PCDATA)>
-          <!--  IP address -->
-          <!ELEMENT IP (#PCDATA)>
-          <!-- host name (DNS lookup) -->
+          <!--  IP addresses -->
+          <!ELEMENT IPS (IP+)>
+            <!--  IP address -->
+            <!ELEMENT IP (#PCDATA)>
+
+          <!-- Information retrieved from Nmap -->
+          <!-- host name -->
           <!ELEMENT DNSHOSTNAME (#PCDATA)>
+          <!-- vendor -->
+          <!ELEMENT NETPORTVENDOR (#PCDATA)>
+
+          <!-- Information retrieved from NetBios -->
+          <!-- host name -->
+          <!ELEMENT NETBIOSNAME (#PCDATA)>
+          <!-- user name -->
+          <!ELEMENT USERSESSION (#PCDATA)>
+          <!-- workgroup -->
+          <!ELEMENT USERSESSION (#PCDATA)>
 
         <!-- netsdiscovery module version(string) -->
         <!ELEMENT MODULEVERSION (#PCDATA)> # netdiscovery module version
