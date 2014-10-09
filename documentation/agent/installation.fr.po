@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2013-01-11 14:06+0000\n"
+"POT-Creation-Date: 2014-10-09 13:50+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -35,11 +35,10 @@ msgid "[[Linux|documentation/agent/installation/linux]]"
 msgstr "[[Linux|documentation/agent/installation/linux]]"
 
 #. type: Bullet: '* '
-msgid ""
-"[[Windows|documentation/agent/installation/windows]] ([[large "
-"installation|documentation/agent/installation/windows/large_install]])"
-msgstr "[[Windows|documentation/agent/installation/windows]] ([[installation "
-"en masse|documentation/agent/installation/windows/large_install]])"
+#, fuzzy
+#| msgid "[[Android|documentation/agent/installation/android]]"
+msgid "[[Windows|documentation/agent/installation/windows]]"
+msgstr "[[Android|documentation/agent/installation/android]]"
 
 #. type: Bullet: '* '
 msgid "[[AIX|documentation/agent/installation/aix]]"
@@ -69,3 +68,10 @@ msgstr "Installation avec l'archive «tarball»"
 #. type: Bullet: '* '
 msgid "[[from source|documentation/agent/installation/source]]"
 msgstr "[[depuis les sources|documentation/agent/installation/source]]"
+
+#~ msgid ""
+#~ "[[Windows|documentation/agent/installation/windows]] ([[large "
+#~ "installation|documentation/agent/installation/windows/large_install]])"
+#~ msgstr ""
+#~ "[[Windows|documentation/agent/installation/windows]] ([[installation en "
+#~ "masse|documentation/agent/installation/windows/large_install]])"
