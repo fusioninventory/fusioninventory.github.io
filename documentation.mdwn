@@ -30,6 +30,7 @@
 
 * [[Security|security]]
 * [[Extend a computer inventory content|documentation/agent/additional_content]]
+* [[Update agent with the deploy task|documentation/tasks/updateagentwithdeploytask]]
 
 # Contributor 
 
