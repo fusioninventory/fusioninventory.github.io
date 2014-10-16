@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2014-08-12 17:40+0000\n"
+"POT-Creation-Date: 2014-10-16 16:41+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -34,8 +34,8 @@ msgid ""
 msgstr ""
 "Pour aider les développeurs à trouver et régler les problèmes correctement,"
 "vous devez utiliser la gestionnaire de bug de la [forge] (<http://forge."
-"fusioninventory.org/projects/fusioninventory-agent/issues>). Cela requière d'"
-"avoir un compte."
+"fusioninventory.org/projects/fusioninventory-agent/issues>). Cela requière "
+"d'avoir un compte."
 
 #. type: Plain text
 msgid ""
@@ -57,8 +57,8 @@ msgid ""
 "expected value)."
 msgstr ""
 "Vous devez identifier si les problèmes sont liés à l'Agent (l'agent ne "
-"remonte pas la valeur attendue) ou au serveur (le serveur n'affiche pas "
-"la valeur attendue)."
+"remonte pas la valeur attendue) ou au serveur (le serveur n'affiche pas la "
+"valeur attendue)."
 
 #. type: Plain text
 msgid ""
@@ -74,13 +74,14 @@ msgid ""
 msgstr ""
 "Pour cela, vous devez regarder le contenu brut généré par l'agent, et "
 "transmises au serveur. Le plus simple est de regarder l'onglet Informations "
-"d'importation disponibles pour chaque objet de GLPI (ordinateur, périphérique "
-"réseau, etc ...), qui fournit un lien pour télécharger ce contenu. Une autre "
-"solution est d'utiliser les différents exécutables fusioninventory-xxx (voir "
-"les [[man-pages|agent/man]] de l'agent pour plus de détails) pour produire le même contenu "
-"directement sur l'hôte de l'agent. Cependant, des différences subtiles peuvent "
-"se produit, si l'environnement d'exécution et les privilèges ne sont pas les "
-"mêmes que les exécutions non-interactifs."
+"d'importation disponibles pour chaque objet de GLPI (ordinateur, "
+"périphérique réseau, etc ...), qui fournit un lien pour télécharger ce "
+"contenu. Une autre solution est d'utiliser les différents exécutables "
+"fusioninventory-xxx (voir les [[man-pages|agent/man]] de l'agent pour plus "
+"de détails) pour produire le même contenu directement sur l'hôte de l'agent. "
+"Cependant, des différences subtiles peuvent se produit, si l'environnement "
+"d'exécution et les privilèges ne sont pas les mêmes que les exécutions non-"
+"interactifs."
 
 #. type: Plain text
 msgid "Once the faulty component identified, use either:"
@@ -260,7 +261,14 @@ msgstr ""
 
 #. type: Plain text
 #, no-wrap
-msgid "    $> snmpwalk -v <version> -c <community> -Cc -On <somehost> .1 > <somefile>\n"
+msgid "    $> snmpwalk -v <version> -c <community> -t 15 -Cc -On <somehost> .1 > <somefile>\n"
+msgstr ""
+
+#. type: Plain text
+msgid ""
+"Using an explicit root OID (.1 here), a non-default timeout (15s, as the "
+"agent), and disabling internal consistency checks (-Cc) if often required to "
+"extract all required information."
 msgstr ""
 
 #~ msgid "Agent verbosity"
