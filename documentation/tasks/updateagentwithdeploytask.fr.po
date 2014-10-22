@@ -52,8 +52,8 @@ msgstr ""
 #. type: Plain text
 msgid ""
 "Basically we'll create a SFX package containing the following three files: * "
-"fusioninventory-agent_windows-x86_x.yy.zz.exe * "
-"fusioninventory-agent_windows-x64_x.yy.zz.exe * install.cmd"
+"* fusioninventory-agent_windows-x86_x.yy.zz.exe * "
+"* fusioninventory-agent_windows-x64_x.yy.zz.exe * install.cmd"
 msgstr ""
 
 #. type: Plain text
