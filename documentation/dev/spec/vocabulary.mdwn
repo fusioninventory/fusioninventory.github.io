@@ -21,6 +21,7 @@ non-virtual interface types:
 
 * ethernet
 * infiniband
+* fibrechannel
 * wifi
 
 virtual interface types:
