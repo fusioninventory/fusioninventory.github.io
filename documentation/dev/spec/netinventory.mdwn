@@ -93,8 +93,8 @@
             <!-- a port -->
             <!ELEMENT PORT (CONNECTIONS?, AGGREGATE?, IFDESCR, IFINERRORS,
             IFINOCTETS, IFINTERNALSTATUS, IFLASTCHANGE, IFMTU, IFNAME,
-            IFNUMBER, IFOUTERRORS, IFOUTOCTETS, IFSPEED, IFSTATUS, IFTYPE, MAC,
-            TRUNK, VLANS?)>
+	    IFNUMBER, IFOUTERRORS, IFOUTOCTETS, IFSPEED, IFPORTDUPLEX,
+	    IFSTATUS, IFTYPE, MAC, TRUNK, VLANS?)>
 
             <!-- connections list -->
             <!ELEMENT CONNECTIONS (CDP?, CONNECTION*)>
@@ -147,14 +147,16 @@
             <!ELEMENT IFOUTOCTETS (#PCDATA)>
             <!-- speed in bytes (integer) -->
             <!ELEMENT IFSPEED (#PCDATA)>
-            <!-- status (1|2) -->
+            <!-- duplex status (1|2|3)) -->
+            <!ELEMENT IFPORTDUPLEX (#PCDATA)>
+            <!-- port status (1|2) -->
             <!ELEMENT IFSTATUS (#PCDATA)>
             <!-- port type (integer) -->
             <!ELEMENT IFTYPE (#PCDATA)>
             <!-- mac address (string) -->
             <!ELEMENT MAC (#PCDATA)>
-            <!-- trunk port flag (constant) -->
-            <!ELEMENT TRUNK (0|1)>
+            <!-- trunk port flag (0|1) -->
+            <!ELEMENT TRUNK (#PCDATA)>
 
             <!-- VLANs list -->
             <!ELEMENT VLANS (VLAN+)>
