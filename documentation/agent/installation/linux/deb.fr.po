@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2014-01-16 09:17+0000\n"
+"POT-Creation-Date: 2014-11-28 09:30+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -24,6 +24,11 @@ msgstr "Utiliser les paquets Debian (et Ubuntu) de FusionInventory"
 #. type: Plain text
 msgid "Installation with the debian packages"
 msgstr "Installation avec les paquets Debian (.deb)"
+
+#. type: Title ##
+#, no-wrap
+msgid "METHODE 1"
+msgstr ""
 
 #. type: Title ##
 #, no-wrap
@@ -59,8 +64,8 @@ msgid ""
 "First, you need to import the repository GnuPG key, if apt-key is available "
 "you can use these command as root:"
 msgstr ""
-"Premièrement, vous devez importer la clé GnuPG du dépôt, si «apt-key» est disponible "
-"vous pouvez utiliser cette commande via root :"
+"Premièrement, vous devez importer la clé GnuPG du dépôt, si «apt-key» est "
+"disponible vous pouvez utiliser cette commande via root :"
 
 #. type: Plain text
 #, no-wrap
@@ -133,3 +138,67 @@ msgstr "Tâche de déploiement"
 #, no-wrap
 msgid "    apt-get install fusioninventory-agent-task-deploy\n"
 msgstr "    apt-get install fusioninventory-agent-task-deploy\n"
+
+#. type: Plain text
+#, no-wrap
+msgid "#######\n"
+msgstr ""
+
+#. type: Title ##
+#, no-wrap
+msgid "METHODE 2"
+msgstr ""
+
+#. type: Title ##
+#, no-wrap
+msgid "INSTALL DEP :   "
+msgstr ""
+
+#. type: Plain text
+msgid "apt-get install dmidecode nmap make"
+msgstr ""
+
+#. type: Plain text
+msgid ""
+"Update serveur to Debian Jessie ( modify sources.list and \"apt-get update "
+"&& apt-get upgrade && apt-get dist-upgrade\" execute)"
+msgstr ""
+
+#. type: Plain text
+msgid ""
+"apt-get install libmodule-install-perl libmodule-build-perl libhttp-server-"
+"simple-psgi-perl libhttp-proxy-perl libio-captureoutput-perl libipc-run-perl "
+"libnet-snmp-perl libnet-telnet-cisco-perl libpoe-component-client-dns-perl "
+"libpoe-component-resolver-perl libtest-compile-perl libtest-deep-perl "
+"libtest-exception-perl libtest-most-perl libhttp-server-simple-authen-perl "
+"libio-capture-perl libio-captureoutput-perl libpoe-component-client-ping-"
+"perl libtest-http-server-simple-perl libtest-mockmodule-perl libtest-"
+"mockobject-perl libtest-nowarnings-perl libtest-failwarnings-perl libtest-"
+"warnings-perl libfile-copy-recursive-perl libxml-treepp-perl libproc-daemon-"
+"perl libproc-pid-file-perl"
+msgstr ""
+
+#. type: Title ##
+#, no-wrap
+msgid "Download"
+msgstr ""
+
+#. type: Plain text
+msgid ""
+"Download tar.gz http://forge.fusioninventory.org/attachments/download/1690/"
+"FusionInventory-Agent-2.3.13.tar.gz"
+msgstr ""
+
+#. type: Plain text
+msgid ""
+"tar -xvzf FusionInventory-Agent-2.3.13.tar.gz cd FusionInventory-Agent-2.3.13"
+msgstr ""
+
+#. type: Plain text
+#, no-wrap
+msgid "## Make\n"
+msgstr ""
+
+#. type: Plain text
+msgid "perl Makefile.PL make make install"
+msgstr ""
