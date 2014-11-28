@@ -51,7 +51,7 @@ Deploy task:
 ## -- METHODE 2
 
 
-## INSTALL DEP :   
+## Install dependancies :   
 
 apt-get install dmidecode nmap make
 
