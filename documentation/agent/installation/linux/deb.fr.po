@@ -147,7 +147,7 @@ msgstr ""
 #. type: Title ##
 #, no-wrap
 msgid "-- METHODE 2"
-msgstr ""
+msgstr "-- METHODE 2"
 
 #. type: Title ##
 #, no-wrap
@@ -158,7 +158,7 @@ msgstr "Installation des dépendances"
 #, fuzzy, no-wrap
 #| msgid "apt-get install dmidecode nmap make"
 msgid "    apt-get install dmidecode nmap make\n"
-msgstr "apt-get install dmidecode nmap make"
+msgstr "    apt-get install dmidecode nmap make"
 
 #. type: Plain text
 msgid ""
@@ -166,6 +166,10 @@ msgid ""
 "modify sources.list and \"apt-get update && apt-get upgrade && apt-get dist-"
 "upgrade\" execute"
 msgstr ""
+"Mettre à jour le serveur en Debian Jessie ( Les wheezy-backports n'ont pas fonctionner pour moi)  "
+"modifier le sources.list et exectuer \"apt-get update && apt-get upgrade && apt-get dist-"
+"upgrade\""
+
 
 #. type: Plain text
 #, no-wrap
