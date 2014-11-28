@@ -2,7 +2,7 @@
 
 Installation with the debian packages
 
-## METHODE 1
+## -- METHODE 1
 
 ## FusionInventory Agent is also available in Debian Backports repository
 
@@ -46,9 +46,9 @@ Deploy task:
     apt-get install fusioninventory-agent-task-deploy
 
 
-#######
+#########
 
-## METHODE 2
+## -- METHODE 2
 
 
 ## INSTALL DEP :   
@@ -56,7 +56,8 @@ Deploy task:
 apt-get install dmidecode nmap make
 
 
-Update serveur to Debian Jessie ( modify sources.list and "apt-get update && apt-get upgrade && apt-get dist-upgrade" execute)
+Update serveur to Debian Jessie ( no work for me with wheezy-backports )
+modify sources.list and "apt-get update && apt-get upgrade && apt-get dist-upgrade" execute
 
 
 
