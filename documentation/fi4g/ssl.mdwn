@@ -1,0 +1,44 @@
+how to configure SSL
+====================
+
+RHEL / Centos / etc
+-------------------
+
+    $ openssl req -new -newkey rsa:1024 -days 730 -nodes -x509 -keyout glpi.mycompany.com.key -out glpi.mycompany.com.crt
+    Generating a 1024 bit RSA private key
+    ......++++++
+    ...............++++++
+    writing new private key to 'glpi.mycompany.com.key'
+    -----
+    You are about to be asked to enter information that will be incorporated
+    into your certificate request.
+    What you are about to enter is what is called a Distinguished Name or a DN.
+    There are quite a few fields but you can leave some blank
+    For some fields there will be a default value,
+    If you enter '.', the field will be left blank.
+    -----
+    Country Name (2 letter code) [GB]:FR
+    State or Province Name (full name) [Berkshire]:Ile de France
+    Locality Name (eg, city) [Newbury]:Paris
+    Organization Name (eg, company) [My Company Ltd]:
+    Organizational Unit Name (eg, section) []:
+    Common Name (eg, your name or your server's hostname) []:glpi.mycompany.com
+    Email Address []:
+
+This will generate a glpi.mycompany.com.key and a glpi.mycompany.com.crt. Save them:
+
+     # cp glpi.mycompany.com.key /etc/pki/tls/private/
+     # cp glpi.mycompany.com.crt /etc/pki/tls/certs/
+
+CAUTION: assuming your URL to contact server is http(s)://glpi.mycompany.com/. You have to inform both in file names and in "Common Name" the name of your server.
+
+Now you need to configure Apache so it will use these file:
+
+    # yum install mod_ssl
+    # vi /etc/httpd/conf.d/ssl.conf
+
+adjust SSLCertificateFile and SSLCertificateKeyFile
+
+    # service httpd reload
+
+glpi.mycompany.com.crt is the public certificat to use with your agent (--ca-cert-file=glpi.mycompany.com.crt).
