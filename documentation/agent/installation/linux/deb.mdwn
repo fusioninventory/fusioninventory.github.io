@@ -2,6 +2,8 @@
 
 Installation with the debian packages
 
+## METHODE 1
+
 ## FusionInventory Agent is also available in Debian Backports repository
 
     echo "deb http://backports.debian.org/debian-backports squeeze-backports main" >> /etc/apt/sources.list
@@ -42,3 +44,36 @@ ESX inventory task:
 Deploy task:
 
     apt-get install fusioninventory-agent-task-deploy
+
+
+#######
+
+## METHODE 2
+
+
+## INSTALL DEP :   
+
+apt-get install dmidecode nmap make
+
+
+Update serveur to Debian Jessie ( modify sources.list and "apt-get update && apt-get upgrade && apt-get dist-upgrade" execute)
+
+
+
+
+
+apt-get install libmodule-install-perl libmodule-build-perl libhttp-server-simple-psgi-perl libhttp-proxy-perl libio-captureoutput-perl libipc-run-perl libnet-snmp-perl libnet-telnet-cisco-perl libpoe-component-client-dns-perl libpoe-component-resolver-perl libtest-compile-perl libtest-deep-perl libtest-exception-perl libtest-most-perl libhttp-server-simple-authen-perl libio-capture-perl libio-captureoutput-perl libpoe-component-client-ping-perl libtest-http-server-simple-perl libtest-mockmodule-perl libtest-mockobject-perl libtest-nowarnings-perl libtest-failwarnings-perl libtest-warnings-perl libfile-copy-recursive-perl libxml-treepp-perl libproc-daemon-perl libproc-pid-file-perl
+
+## Download
+
+Download tar.gz
+http://forge.fusioninventory.org/attachments/download/1690/FusionInventory-Agent-2.3.13.tar.gz
+
+tar -xvzf FusionInventory-Agent-2.3.13.tar.gz
+cd FusionInventory-Agent-2.3.13
+
+
+## Make
+perl Makefile.PL
+make
+make install
