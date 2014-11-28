@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2014-11-28 09:30+0000\n"
+"POT-Creation-Date: 2014-11-28 09:32+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -27,7 +27,7 @@ msgstr "Installation avec les paquets Debian (.deb)"
 
 #. type: Title ##
 #, no-wrap
-msgid "METHODE 1"
+msgid "-- METHODE 1"
 msgstr ""
 
 #. type: Title ##
@@ -141,12 +141,12 @@ msgstr "    apt-get install fusioninventory-agent-task-deploy\n"
 
 #. type: Plain text
 #, no-wrap
-msgid "#######\n"
+msgid "#########\n"
 msgstr ""
 
 #. type: Title ##
 #, no-wrap
-msgid "METHODE 2"
+msgid "-- METHODE 2"
 msgstr ""
 
 #. type: Title ##
@@ -160,8 +160,9 @@ msgstr ""
 
 #. type: Plain text
 msgid ""
-"Update serveur to Debian Jessie ( modify sources.list and \"apt-get update "
-"&& apt-get upgrade && apt-get dist-upgrade\" execute)"
+"Update serveur to Debian Jessie ( no work for me with wheezy-backports )  "
+"modify sources.list and \"apt-get update && apt-get upgrade && apt-get dist-"
+"upgrade\" execute"
 msgstr ""
 
 #. type: Plain text
