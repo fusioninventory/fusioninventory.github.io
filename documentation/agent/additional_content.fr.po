@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2014-08-06 08:01+0000\n"
+"POT-Creation-Date: 2014-12-04 10:15+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -98,6 +98,11 @@ msgstr ""
 "Vous pouvez créer votre propre module de collecte pour fusioninventory  et "
 "le placer dans 'lib/FusionInventory/Agent/Task/Inventory/Input/Generic/"
 "Softwares/'."
+
+#. type: Plain text
+msgid ""
+"Example: <http://forum.fusioninventory.org/viewtopic.php?id=2248> (French)"
+msgstr ""
 
 #~ msgid ""
 #~ "You can ask your agent to inject additional content during the inventory "

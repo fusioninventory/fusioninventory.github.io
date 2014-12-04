@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2014-08-06 08:01+0000\n"
+"POT-Creation-Date: 2014-12-04 10:15+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -65,4 +65,9 @@ msgid ""
 "You can extend FusionInventory by creating a custom Perl module, and "
 "installing it anywhere under 'lib/FusionInventory/Agent/Task/Inventory' "
 "directory. It will be automatically loaded and executed at run time."
+msgstr ""
+
+#. type: Plain text
+msgid ""
+"Example: <http://forum.fusioninventory.org/viewtopic.php?id=2248> (French)"
 msgstr ""
