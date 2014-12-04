@@ -27,3 +27,5 @@ packaging system database:
 You can extend FusionInventory by creating a custom Perl module, and installing
 it anywhere under 'lib/FusionInventory/Agent/Task/Inventory' directory. It will
 be automatically loaded and executed at run time.
+
+Example: <http://forum.fusioninventory.org/viewtopic.php?id=2248> (French)
