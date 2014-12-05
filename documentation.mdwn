@@ -21,7 +21,6 @@
 # How to
 
 * [[Scan my network|documentation/tasks/networkdiscovery]]
-* [[Inventory remote devices|documentation/tasks/networkinventory]]
 * [[Inventory ESX virtual machines|documentation/tasks/esxinventory]]
 * [[Deploy softwares|documentation/tasks/deploy]]
 * [[Deploy > export / import packages|documentation/tasks/exportimportpackages]]
