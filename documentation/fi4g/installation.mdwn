@@ -57,7 +57,8 @@ SSL-only for agent: send an error response to an agent when this agent communica
 
 ## Security
 
-[[!template  id=warning text="We strongly recommend to activate SSL on the server side to ensure no one will be able to read password
-during authentifcation and [[for some other good reason|documentation/agent/security_and_ssl]]. A [[documentation is available to explain how to enable it|documentation/fi4g/ssl]]."]]
+[[!template id=warning text="We strongly recommend to activate SSL on the
+server side to protect human user communications, and eventually agent
+communications too. See [[here|documentation/security]] for details."]]
 
 
