@@ -1,1 +1,1 @@
-This page has been moved [[here|../bugreport]]
+This page has been moved [[here|documentation/bugreport]].
