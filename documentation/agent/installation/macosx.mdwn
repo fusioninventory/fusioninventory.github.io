@@ -4,6 +4,8 @@
 
 First, get the agent mpkg archive [Intel](http://prebuilt.fusioninventory.org/stable/macosx-intel/) or [PowerPC](http://prebuilt.fusioninventory.org/stable/macosx-ppc/).
 
+Recent version (2.3.x) made by a user : [2.3.10 for mac](https://github.com/Darkomen78/Fusioninventory/blob/master/build/FusionInventory2.3.10.1.zip)
+
 You must download the **.pkg.tar.gz** package.
 
 ## Extract Agent
