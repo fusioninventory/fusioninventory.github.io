@@ -1,4 +1,5 @@
 [[!meta  date="2014-12-23"]]
+
 # FusionInventory plugin for GLPI 0.85+1.0 release
 
 Hello FusionInventory users,
@@ -57,5 +58,6 @@ More information:
 
 
 Thanks again to people who test, report bugs / features, translate... ;)
+
 
 
