@@ -1,6 +1,6 @@
 # Installation of the Agent on RHEL, Centos and other RHEL clones
 
-## RHEL/Centos 6.X and 5.x
+## RHEL/Centos >= 5.x
 
 An up-to-date *fusioninventory-agent* package is maintained by FusionInventory
 team. You can retrieve it from [openSUSE Build
@@ -12,7 +12,7 @@ Agent installation:
 
     # yum install fusioninventory-agent fusioninventory-agent-task-inventory
 
-## RHEL, Centos 4.x
+## RHEL/Centos 4.x
 
 An old *fusioninventory-agent* package is available in the *remi* third party repository for EL >= 4
 
