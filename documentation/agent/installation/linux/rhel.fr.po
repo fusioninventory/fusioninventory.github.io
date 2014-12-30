@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2014-03-19 23:20+0000\n"
+"POT-Creation-Date: 2014-12-30 19:41+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -22,8 +22,9 @@ msgid "Installation of the Agent on RHEL, Centos and other RHEL clones"
 msgstr "Installation de l'agent pour RHEL, Centos et les variantes de RHEL"
 
 #. type: Title ##
-#, no-wrap
-msgid "RHEL/Centos 6.X and 5.x"
+#, fuzzy, no-wrap
+#| msgid "RHEL/Centos 6.X and 5.x"
+msgid "RHEL/Centos >= 5.x"
 msgstr "RHEL/Centos 6.X et 5.x"
 
 #. type: Plain text
@@ -64,8 +65,9 @@ msgid "    # yum install fusioninventory-agent fusioninventory-agent-task-invent
 msgstr "    # yum install fusioninventory-agent fusioninventory-agent-task-inventory\n"
 
 #. type: Title ##
-#, no-wrap
-msgid "RHEL, Centos 4.x"
+#, fuzzy, no-wrap
+#| msgid "RHEL, Centos 4.x"
+msgid "RHEL/Centos 4.x"
 msgstr "RHEL, Centos 4.x"
 
 #. type: Plain text
@@ -103,8 +105,15 @@ msgstr ""
 #~ msgid "add this line :"
 #~ msgstr "Ajouter cette ligne :"
 
-#~ msgid "    # OPTS=\"--force --httpd-trust=127.0.0.1 --server http://yourserver/glpi/plugins/fusioninventory/front/plugin_fusioninventory.communication.php --logfile=/var/log/fusioninventory-agent/fusioninventory-agent.log\"\n"
-#~ msgstr "    # OPTS=\"--force --httpd-trust=127.0.0.1 --server http://yourserver/glpi/plugins/fusioninventory/fr    ont/plugin_fusioninventory.communication.php --logfile=/var/log/fusioninventory-agent/fusioninventory-agent.lo    g\"\n"
+#~ msgid ""
+#~ "    # OPTS=\"--force --httpd-trust=127.0.0.1 --server http://yourserver/"
+#~ "glpi/plugins/fusioninventory/front/plugin_fusioninventory.communication."
+#~ "php --logfile=/var/log/fusioninventory-agent/fusioninventory-agent.log\"\n"
+#~ msgstr ""
+#~ "    # OPTS=\"--force --httpd-trust=127.0.0.1 --server http://yourserver/"
+#~ "glpi/plugins/fusioninventory/fr    ont/plugin_fusioninventory."
+#~ "communication.php --logfile=/var/log/fusioninventory-agent/"
+#~ "fusioninventory-agent.lo    g\"\n"
 
 #~ msgid "Agent installation"
 #~ msgstr "Installation de l'agent"

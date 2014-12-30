@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2013-04-25 09:20+0000\n"
+"POT-Creation-Date: 2014-12-30 19:41+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -35,6 +35,12 @@ msgstr ""
 "En premier, sélectionner l'archive mpkg de l'agent correspondant à votre "
 "machine [Intel](http://prebuilt.fusioninventory.org/stable/macosx-intel/) ou "
 "[PowerPC](http://prebuilt.fusioninventory.org/stable/macosx-ppc/)."
+
+#. type: Plain text
+msgid ""
+"Recent version (2.3.x) made by a user : [2.3.10 for mac](https://github.com/"
+"Darkomen78/Fusioninventory/blob/master/build/FusionInventory2.3.10.1.zip)"
+msgstr ""
 
 #. type: Plain text
 msgid "You must download the **.pkg.tar.gz** package."
@@ -119,8 +125,8 @@ msgid ""
 "Increase `backend-collect-timeout` value from `30` to `180` because the "
 "command used to get some hardware information can be very long"
 msgstr ""
-"Augmenter la valeur `backend-collect-timeout` de `30` à `180` parce que "
-"la commande utilisée pour obtenir les informations matériel peut être longue"
+"Augmenter la valeur `backend-collect-timeout` de `30` à `180` parce que la "
+"commande utilisée pour obtenir les informations matériel peut être longue"
 
 #. type: Title ##
 #, no-wrap
@@ -235,8 +241,8 @@ msgid ""
 "In some rare cases, this is not enough to stop the agent. You have to kill "
 "the process by yourself."
 msgstr ""
-"Dans quelques rares cas, ce ne sera pas suffisant pour arrêter "
-"l'agent. Vous devez tuer le processus avec cette commande:"
+"Dans quelques rares cas, ce ne sera pas suffisant pour arrêter l'agent. Vous "
+"devez tuer le processus avec cette commande:"
 
 #. type: Plain text
 #, no-wrap

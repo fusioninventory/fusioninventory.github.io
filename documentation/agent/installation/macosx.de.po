@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2013-04-25 09:20+0000\n"
+"POT-Creation-Date: 2014-12-30 19:41+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -31,6 +31,12 @@ msgid ""
 "First, get the agent mpkg archive [Intel](http://prebuilt.fusioninventory."
 "org/stable/macosx-intel/) or [PowerPC](http://prebuilt.fusioninventory.org/"
 "stable/macosx-ppc/)."
+msgstr ""
+
+#. type: Plain text
+msgid ""
+"Recent version (2.3.x) made by a user : [2.3.10 for mac](https://github.com/"
+"Darkomen78/Fusioninventory/blob/master/build/FusionInventory2.3.10.1.zip)"
 msgstr ""
 
 #. type: Plain text
