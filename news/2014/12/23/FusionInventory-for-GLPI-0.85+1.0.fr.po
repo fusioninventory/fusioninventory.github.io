@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2014-12-29 21:05+0000\n"
+"POT-Creation-Date: 2014-12-31 14:32+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -41,74 +41,109 @@ msgid "This is the new features:"
 msgstr ""
 
 #. type: Plain text
-#, no-wrap
+msgid "[LOCKS]"
+msgstr ""
+
+#. type: Bullet: '* '
 msgid ""
-"[LOCKS]\n"
-"* You can lock a field for an itemtype (for example lock contact field\n"
-"  for all computers) [ticket "
-"1184](http://forge.fusioninventory.org/issues/1184)\n"
+"You can lock a field for an itemtype (for example lock contact field for all "
+"computers) [ticket 1184](http://forge.fusioninventory.org/issues/1184)"
 msgstr ""
 
 #. type: Plain text
-#, no-wrap
+msgid "[COMPUTER INVENTORY]"
+msgstr ""
+
+#. type: Bullet: '* '
 msgid ""
-"[COMPUTER INVENTORY]\n"
-"* Speed of computer network ports is now managed\n"
-"  [ticket 2439](http://forge.fusioninventory.org/issues/2439)\n"
+"Speed of computer network ports is now managed [ticket 2439](http://forge."
+"fusioninventory.org/issues/2439)"
 msgstr ""
 
 #. type: Plain text
-#, no-wrap
+msgid "[RULES]"
+msgstr ""
+
+#. type: Bullet: '* '
 msgid ""
-"[RULES]\n"
-"* You can reset the import rules and recreate default rules\n"
-"  [ticket 1271](http://forge.fusioninventory.org/issues/1271)\n"
-"* Monitor, printers and peripheral of computer pass now in the import\n"
-"  rules [ticket 2204](http://forge.fusioninventory.org/issues/2204)\n"
-"* Add field 'domain' in import rules\n"
-"  [ticket 2333](http://forge.fusioninventory.org/issues/2333)\n"
-"* New default import rules\n"
-"  [ticket 2793](http://forge.fusioninventory.org/issues/2793)\n"
+"You can reset the import rules and recreate default rules [ticket 1271]"
+"(http://forge.fusioninventory.org/issues/1271)"
+msgstr ""
+
+#. type: Bullet: '* '
+msgid ""
+"Monitor, printers and peripheral of computer pass now in the import rules "
+"[ticket 2204](http://forge.fusioninventory.org/issues/2204)"
+msgstr ""
+
+#. type: Bullet: '* '
+msgid ""
+"Add field 'domain' in import rules [ticket 2333](http://forge."
+"fusioninventory.org/issues/2333)"
+msgstr ""
+
+#. type: Bullet: '* '
+msgid ""
+"New default import rules [ticket 2793](http://forge.fusioninventory.org/"
+"issues/2793)"
 msgstr ""
 
 #. type: Plain text
-#, no-wrap
+msgid "[SNMP]"
+msgstr ""
+
+#. type: Bullet: '* '
 msgid ""
-"[SNMP]\n"
-"* When do a network discovery, it use the SNMP credentials defined in\n"
-"  the IP range + management of the order\n"
-"  [ticket 2237](http://forge.fusioninventory.org/issues/2237)\n"
-"* Remove SNMP models like we said since many months\n"
-"  [ticket 2465](http://forge.fusioninventory.org/issues/2465)\n"
+"When do a network discovery, it use the SNMP credentials defined in the IP "
+"range + management of the order [ticket 2237](http://forge.fusioninventory."
+"org/issues/2237)"
+msgstr ""
+
+#. type: Bullet: '* '
+msgid ""
+"Remove SNMP models like we said since many months [ticket 2465](http://forge."
+"fusioninventory.org/issues/2465)"
 msgstr ""
 
 #. type: Plain text
-#, no-wrap
+msgid "[TASK]"
+msgstr ""
+
+#. type: Bullet: '* '
 msgid ""
-"[TASK]\n"
-"* Task management rewriten and add agent-driven mode (ondemand) with\n"
-"  timeslot for execution (define when run), monitoring logs...\n"
-"  [ticket 2371](http://forge.fusioninventory.org/issues/2371)\n"
+"Task management rewriten and add agent-driven mode (ondemand) with timeslot "
+"for execution (define when run), monitoring logs... [ticket 2371](http://"
+"forge.fusioninventory.org/issues/2371)"
 msgstr ""
 
 #. type: Plain text
-#, no-wrap
+msgid "[DEPLOY]"
+msgstr ""
+
+#. type: Bullet: '* '
 msgid ""
-"[DEPLOY]\n"
-"* Import and export packages for deployment\n"
-"  [ticket 2475](http://forge.fusioninventory.org/issues/2475)\n"
+"Import and export packages for deployment [ticket 2475](http://forge."
+"fusioninventory.org/issues/2475)"
 msgstr ""
 
 #. type: Plain text
-#, no-wrap
+msgid "[OTHERS]"
+msgstr ""
+
+#. type: Bullet: '* '
 msgid ""
-"[OTHERS]\n"
-"* Add cron for delete agent not contacted the server since xx\n"
-"  weeks/months [ticket 1708](http://forge.fusioninventory.org/issues/1708)\n"
-"* Add icon beside computer, printer... field to see if the field is\n"
-"  locked or not [ticket "
-"2534](http://forge.fusioninventory.org/issues/2534)\n"
-"* New rights [ticket 2214](http://forge.fusioninventory.org/issues/2214)\n"
+"Add cron for delete agent not contacted the server since xx weeks/months "
+"[ticket 1708](http://forge.fusioninventory.org/issues/1708)"
+msgstr ""
+
+#. type: Bullet: '* '
+msgid ""
+"Add icon beside computer, printer... field to see if the field is locked or "
+"not [ticket 2534](http://forge.fusioninventory.org/issues/2534)"
+msgstr ""
+
+#. type: Bullet: '* '
+msgid "New rights [ticket 2214](http://forge.fusioninventory.org/issues/2214)"
 msgstr ""
 
 #. type: Plain text
@@ -116,15 +151,17 @@ msgid "More information:"
 msgstr ""
 
 #. type: Bullet: '* '
-msgid "You can see the [changelog](http://forge.fusioninventory.org/versions/97)"
+msgid ""
+"You can see the [changelog](http://forge.fusioninventory.org/versions/97)"
 msgstr ""
 
 #. type: Bullet: '* '
 msgid ""
-"You can "
-"[download](http://forge.fusioninventory.org/attachments/download/1719/fusioninventory-for-glpi_0.85+1.0.tar.gz)"
+"You can [download](http://forge.fusioninventory.org/attachments/"
+"download/1719/fusioninventory-for-glpi_0.85+1.0.tar.gz)"
 msgstr ""
 
 #. type: Plain text
-msgid "Thanks again to people who test, report bugs / features, translate... ;)"
+msgid ""
+"Thanks again to people who test, report bugs / features, translate... ;)"
 msgstr ""
