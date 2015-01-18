@@ -27,16 +27,12 @@ msgid "Agent"
 msgstr "Agent"
 
 #. type: Plain text
-#, fuzzy
-#| msgid ""
-#| "The agent is used to collect informations, scan the network, deploy file "
-#| "and package, etc."
 msgid ""
 "The agent is used to collect informations, scan the network, deploy file and "
 "package."
 msgstr ""
-"L'agent est utilisé pour collecter des informations, faire des scannes "
-"réseaux, télédiffuser des fichiers et des paquets, etc."
+"L'agent est utilisé pour collecter des informations, scanner les "
+"réseaux, télédiffuser des fichiers et des paquets."
 
 #. type: Bullet: '* '
 msgid "[[Install the agent|documentation/agent/installation]]."

@@ -95,12 +95,12 @@ msgid "[[Deploy softwares|documentation/tasks/deploy]]"
 msgstr "[[Déploiement de logiciels|documentation/tasks/deploy]]"
 
 #. type: Bullet: '* '
-#, fuzzy
-#| msgid "[[Deploy softwares|documentation/tasks/deploy]]"
 msgid ""
 "[[Deploy > export / import packages|documentation/tasks/"
 "exportimportpackages]]"
-msgstr "[[Déploiement de logiciels|documentation/tasks/deploy]]"
+msgstr ""
+"[[Déploiement > export / import de paquets|documentation/tasks/"
+"exportimportpackages]]"
 
 #. type: Title #
 #, no-wrap
@@ -120,12 +120,12 @@ msgstr ""
 "additional_content]]"
 
 #. type: Bullet: '* '
-#, fuzzy
-#| msgid "[[Deploy softwares|documentation/tasks/deploy]]"
 msgid ""
 "[[Update agent with the deploy task|documentation/tasks/"
 "updateagentwithdeploytask]]"
-msgstr "[[Déploiement de logiciels|documentation/tasks/deploy]]"
+msgstr ""
+"[[Mettre à jour l'agent avec la tâche de déploiement|documentation/tasks/"
+"updateagentwithdeploytask]]"
 
 #. type: Title #
 #, no-wrap
@@ -143,7 +143,3 @@ msgstr "[[Traduction|documentation/translation]]"
 #. type: Bullet: '* '
 msgid "[[for developers|documentation/dev]]"
 msgstr "[[Pour les développeurs|documentation/dev]]"
-
-#~ msgid "[[Inventory remote devices|documentation/tasks/networkinventory]]"
-#~ msgstr ""
-#~ "[[Inventaire des objets réseaux|documentation/tasks/networkinventory]]"
