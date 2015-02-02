@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2014-12-30 19:41+0000\n"
+"POT-Creation-Date: 2015-02-02 15:50+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -35,8 +35,10 @@ msgstr ""
 
 #. type: Plain text
 msgid ""
-"Recent version (2.3.x) made by a user : [2.3.10 for mac](https://github.com/"
-"Darkomen78/Fusioninventory/blob/master/build/FusionInventory2.3.10.1.zip)"
+"Build script for recent version (2.3.x) made by [Darkomen78](https://twitter."
+"com/Darkomen78) is available here : [2.3.15 for OS X 10.8 to 10.10](https://"
+"github.com/Darkomen78/Fusioninventory/blob/master/"
+"Build_Fusioninventory_OSX_flavor.sh)"
 msgstr ""
 
 #. type: Plain text
