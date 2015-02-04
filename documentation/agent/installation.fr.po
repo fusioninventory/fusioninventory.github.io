@@ -28,7 +28,6 @@ msgstr "Installations basées sur des paquets"
 
 #. type: Bullet: '* '
 #, fuzzy
-#| msgid "[[MacOSX|documentation/agent/installation/macosx]]"
 msgid "[[OSX|documentation/agent/installation/macosx]]"
 msgstr "[[MacOSX|documentation/agent/installation/macosx]]"
 
