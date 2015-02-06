@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2014-11-28 09:37+0000\n"
+"POT-Creation-Date: 2015-02-06 22:42+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -36,11 +36,15 @@ msgid "FusionInventory Agent is also available in Debian Backports repository"
 msgstr "Agent FusionInventory jest także dostępny w repozytorium Debian Backports"
 
 #. type: Plain text
-#, no-wrap
+#, fuzzy, no-wrap
+#| msgid ""
+#| "    echo \"deb http://backports.debian.org/debian-backports squeeze-backports main\" >> /etc/apt/sources.list\n"
+#| "    apt-get update\n"
+#| "    apt-get install -t squeeze-backports fusioninventory-agent\n"
 msgid ""
-"    echo \"deb http://backports.debian.org/debian-backports squeeze-backports main\" >> /etc/apt/sources.list\n"
+"    echo \"deb http://backports.debian.org/debian-backports wheezy-backports main\" >> /etc/apt/sources.list\n"
 "    apt-get update\n"
-"    apt-get install -t squeeze-backports fusioninventory-agent\n"
+"    apt-get install -t wheezy-backports fusioninventory-agent\n"
 msgstr ""
 "    echo \"deb http://backports.debian.org/debian-backports squeeze-backports main\" >> /etc/apt/sources.list\n"
 "    apt-get update\n"
