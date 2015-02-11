@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2014-07-18 07:30+0000\n"
+"POT-Creation-Date: 2015-02-11 17:21+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -36,26 +36,6 @@ msgstr ""
 "(http://forge.fusioninventory.org/projects/fusioninventory-agent/files)  ou "
 "directement par [the CPAN](https://metacpan.org/release/FusionInventory-"
 "Agent)."
-
-#. type: Plain text
-msgid "It is also possible to retrieve a snapshot from Github:"
-msgstr "Il est aussi possible de récupérer une image par Github:"
-
-#. type: Bullet: '* '
-msgid ""
-"[Agent 2.3.x](https://github.com/fusinv/fusioninventory-agent/tarball/2.3.x)"
-msgstr ""
-"[Agent 2.3.x](https://github.com/fusinv/fusioninventory-agent/tarball/2.3.x)"
-
-#. type: Bullet: '* '
-#, fuzzy
-#| msgid ""
-#| "[Agent 2.2.x](https://github.com/fusinv/fusioninventory-agent/tarball/2.2."
-#| "x)"
-msgid ""
-"[Agent 2.4.x](https://github.com/fusinv/fusioninventory-agent/tarball/master)"
-msgstr ""
-"[Agent 2.2.x](https://github.com/fusinv/fusioninventory-agent/tarball/2.2.x)"
 
 #. type: Title ##
 #, no-wrap
@@ -316,6 +296,27 @@ msgstr ""
 msgid ""
 "On Linux, lspci will be used to collect PCI, AGP, PCI-X, ... informations."
 msgstr ""
+
+#~ msgid "It is also possible to retrieve a snapshot from Github:"
+#~ msgstr "Il est aussi possible de récupérer une image par Github:"
+
+#~ msgid ""
+#~ "[Agent 2.3.x](https://github.com/fusinv/fusioninventory-agent/tarball/2.3."
+#~ "x)"
+#~ msgstr ""
+#~ "[Agent 2.3.x](https://github.com/fusinv/fusioninventory-agent/tarball/2.3."
+#~ "x)"
+
+#, fuzzy
+#~| msgid ""
+#~| "[Agent 2.2.x](https://github.com/fusinv/fusioninventory-agent/"
+#~| "tarball/2.2.x)"
+#~ msgid ""
+#~ "[Agent 2.4.x](https://github.com/fusinv/fusioninventory-agent/tarball/"
+#~ "master)"
+#~ msgstr ""
+#~ "[Agent 2.2.x](https://github.com/fusinv/fusioninventory-agent/tarball/2.2."
+#~ "x)"
 
 #~ msgid ""
 #~ "[Agent 2.2.x](https://github.com/fusinv/fusioninventory-agent/tarball/2.2."
