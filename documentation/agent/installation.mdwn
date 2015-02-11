@@ -2,7 +2,7 @@
 
 ## Package based installation
 
-* [[MacOSX|documentation/agent/installation/macosx]]
+* [[OSX|documentation/agent/installation/macosx]]
 * [[Linux|documentation/agent/installation/linux]]
 * [[Windows|documentation/agent/installation/windows]]
 * [[AIX|documentation/agent/installation/aix]]

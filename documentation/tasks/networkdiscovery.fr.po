@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2013-10-10 17:12+0000\n"
+"POT-Creation-Date: 2014-12-30 19:41+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -28,7 +28,9 @@ msgstr ""
 
 #. type: Plain text
 msgid "The NetDiscovery task uses the following protocols to scan IP networks:"
-msgstr "La tache NetDiscovery utilise les protocoles suivants pour scanner les réseaux IP:"
+msgstr ""
+"La tache NetDiscovery utilise les protocoles suivants pour scanner les "
+"réseaux IP:"
 
 #. type: Bullet: '* '
 msgid "ICMP scan"
@@ -46,7 +48,9 @@ msgstr ""
 msgid ""
 "Any device replying to at least of those protocols will be *discovered*, "
 "with just minimal information, such as mac address and hostname."
-msgstr "Tout équipement répondant à au moins l'un de ses protocoles sera *découvert* avec les informations minimales que sont le nom d'hôte et l'adresse MAC"
+msgstr ""
+"Tout équipement répondant à au moins l'un de ses protocoles sera *découvert* "
+"avec les informations minimales que sont le nom d'hôte et l'adresse MAC"
 
 #. type: Plain text
 msgid ""
@@ -63,7 +67,11 @@ msgid ""
 "Discovered devices are then reported to the GLPI servers, and import rules "
 "are applied.  If the device type (printer, network device, etc...) has not "
 "been set, the device will be considered as 'unknown devices'."
-msgstr "Les équipements découverts sont remontés au serveur GLPI et les regles d'import sont appliquées. Si le type d'équipement (imprimante, équipement réseau, etc...) n'a pas été déterminé, l'équipement sera considéré comme de type 'inconnu'"
+msgstr ""
+"Les équipements découverts sont remontés au serveur GLPI et les regles "
+"d'import sont appliquées. Si le type d'équipement (imprimante, équipement "
+"réseau, etc...) n'a pas été déterminé, l'équipement sera considéré comme de "
+"type 'inconnu'"
 
 #. type: Title ###
 #, no-wrap
@@ -82,12 +90,12 @@ msgstr ""
 msgid "Net::NBName perl module for NetBios support"
 msgstr "Le module perl Net::NBName pour le support NetBios"
 
-#. type: Bullet: '* '
-msgid "Net::SNMP perl modules for SNMP support\n"
-msgstr "Les modules perl Net::SNMP pour le support SNMP\n"
-
 #. type: Plain text
-msgid "You have to check your installation for those optional dependencies.\n"
+#, fuzzy, no-wrap
+#| msgid "You have to check your installation for those optional dependencies.\n"
+msgid ""
+"* Net::SNMP perl modules for SNMP support\n"
+"You have to check your installation for those optional dependencies.\n"
 msgstr "vous devez vérifier vous même votre installation pour ces dépendances.\n"
 
 #. type: Plain text
@@ -259,6 +267,9 @@ msgstr ""
 #. type: Plain text
 msgid "Please see the [[task creation|documentation/fi4g/tasks]] page."
 msgstr "Merci d'allez voir la page [[task creation|documentation/fi4g/tasks]]."
+
+#~ msgid "Net::SNMP perl modules for SNMP support\n"
+#~ msgstr "Les modules perl Net::SNMP pour le support SNMP\n"
 
 #~ msgid ""
 #~ "It's always a good idea to use an up to date agent for the network scan."

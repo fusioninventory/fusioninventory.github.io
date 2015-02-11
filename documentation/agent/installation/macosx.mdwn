@@ -2,9 +2,9 @@
 
 ## Get the Agent
 
-First, get the agent mpkg archive [Intel](http://prebuilt.fusioninventory.org/stable/macosx-intel/) or [PowerPC](http://prebuilt.fusioninventory.org/stable/macosx-ppc/).
+Build script for recent version (2.3.x) [made by Darkomen78](https://twitter.com/Darkomen78) is available here : [FusionInventory OS X flavor](https://github.com/Darkomen78/Fusioninventory/)
 
-Recent version (2.3.x) made by a user : [2.3.10 for mac](https://github.com/Darkomen78/Fusioninventory/blob/master/build/FusionInventory2.3.10.1.zip)
+First, get the agent mpkg archive [Intel](http://prebuilt.fusioninventory.org/stable/macosx-intel/) or [PowerPC](http://prebuilt.fusioninventory.org/stable/macosx-ppc/).
 
 You must download the **.pkg.tar.gz** package.
 

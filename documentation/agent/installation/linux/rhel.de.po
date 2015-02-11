@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2014-03-19 23:20+0000\n"
+"POT-Creation-Date: 2014-12-30 19:41+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -23,7 +23,7 @@ msgstr ""
 
 #. type: Title ##
 #, no-wrap
-msgid "RHEL/Centos 6.X and 5.x"
+msgid "RHEL/Centos >= 5.x"
 msgstr ""
 
 #. type: Plain text
@@ -50,7 +50,7 @@ msgstr ""
 
 #. type: Title ##
 #, no-wrap
-msgid "RHEL, Centos 4.x"
+msgid "RHEL/Centos 4.x"
 msgstr ""
 
 #. type: Plain text

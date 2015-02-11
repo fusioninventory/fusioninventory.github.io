@@ -6,7 +6,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2013-01-28 13:17+0000\n"
+"POT-Creation-Date: 2014-12-30 19:41+0000\n"
 "PO-Revision-Date: 2013-01-25 12:59+0100\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -29,10 +29,10 @@ msgstr "Agent"
 #. type: Plain text
 msgid ""
 "The agent is used to collect informations, scan the network, deploy file and "
-"package, etc."
+"package."
 msgstr ""
-"L'agent est utilisé pour collecter des informations, faire des scannes "
-"réseaux, télédiffuser des fichiers et des paquets, etc."
+"L'agent est utilisé pour collecter des informations, scanner les "
+"réseaux, télédiffuser des fichiers et des paquets."
 
 #. type: Bullet: '* '
 msgid "[[Install the agent|documentation/agent/installation]]."

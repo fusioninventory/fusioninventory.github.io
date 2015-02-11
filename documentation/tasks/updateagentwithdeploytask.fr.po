@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2014-10-22 14:10+0000\n"
+"POT-Creation-Date: 2014-12-29 21:05+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -42,24 +42,23 @@ msgstr ""
 
 #. type: Plain text
 msgid ""
-"You'll need the latest stable version of 7zSD SFX that you can get "
-"[here](http://7zsfx.info/en/).  The file 7zSD.sfx needs to be ressource "
-"hacked so it will ask for UAC privileges when executed.  You may find all "
-"necessary files (pre-ressource hacked) and scripts "
-"[here](http://www.netpower.fr)."
+"You'll need the latest stable version of 7zSD SFX that you can get [here]"
+"(http://7zsfx.info/en/).  The file 7zSD.sfx needs to be ressource hacked so "
+"it will ask for UAC privileges when executed.  You may find all necessary "
+"files (pre-ressource hacked) and scripts [here](http://www.netpower.fr)."
 msgstr ""
 
 #. type: Plain text
 msgid ""
 "Basically we'll create a SFX package containing the following three files: * "
-"* fusioninventory-agent_windows-x86_x.yy.zz.exe * "
-"* fusioninventory-agent_windows-x64_x.yy.zz.exe * install.cmd"
+"fusioninventory-agent_windows-x86_x.yy.zz.exe * fusioninventory-"
+"agent_windows-x64_x.yy.zz.exe * install.cmd"
 msgstr ""
 
 #. type: Plain text
 msgid ""
-"The install.cmd script will contain all the necessary information to install "
-"/ update a FusionInventory Agent (see below)."
+"The install.cmd script will contain all the necessary information to "
+"install / update a FusionInventory Agent (see below)."
 msgstr ""
 
 #. type: Plain text

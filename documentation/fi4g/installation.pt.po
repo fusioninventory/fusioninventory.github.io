@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2013-10-30 10:12+0000\n"
+"POT-Creation-Date: 2014-12-30 19:41+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -28,7 +28,7 @@ msgstr ""
 
 #. type: Plain text
 msgid ""
-"Primeiro, baixe o arquivo aqui: <http://forge.fusioninventory.org/projects/"
+"First, download archive the here: <http://forge.fusioninventory.org/projects/"
 "fusioninventory-for-glpi/files>"
 msgstr ""
 
@@ -166,6 +166,7 @@ msgstr ""
 #. type: Plain text
 #, no-wrap
 msgid ""
-"[[!template  id=warning text=\"We strongly recommend to activate SSL on the server side to ensure no one will be able to read password\n"
-"during authentifcation and [[for some other good reason|documentation/agent/security_and_ssl]]. A [[documentation is available to explain how to enable it|documentation/fi4g/ssl]].\"]]\n"
+"[[!template id=warning text=\"We strongly recommend to activate SSL on the\n"
+"server side to protect human user communications, and eventually agent\n"
+"communications too. See [[here|documentation/security]] for details.\"]]\n"
 msgstr ""

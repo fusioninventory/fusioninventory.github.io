@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2013-04-25 09:20+0000\n"
+"POT-Creation-Date: 2015-02-03 09:53+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -25,6 +25,13 @@ msgstr "Instalacja agenta FusinInventory na systemie MacOX X"
 #, no-wrap
 msgid "Get the Agent"
 msgstr "Pobierz agenta"
+
+#. type: Plain text
+msgid ""
+"Build script for recent version (2.3.x) [made by Darkomen78](https://twitter."
+"com/Darkomen78) is available here : [FusionInventory OS X flavor](https://"
+"github.com/Darkomen78/Fusioninventory/)"
+msgstr ""
 
 #. type: Plain text
 msgid ""

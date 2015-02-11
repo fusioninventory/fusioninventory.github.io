@@ -5,7 +5,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: ikiwiki\n"
-"POT-Creation-Date: 2013-01-11 14:06+0000\n"
+"POT-Creation-Date: 2014-12-30 19:41+0000\n"
 "PO-Revision-Date: 2010-07-16 10:39+0200\n"
 "Last-Translator: Philippe Batailler <philippe.batailler@free.fr>\n"
 "Language-Team: French <debian-l10n-french@lists.debian.org>\n"
@@ -48,7 +48,8 @@ msgstr "Cette page définit les raccourcis connus par ce wiki."
 
 #. type: Bullet: '* '
 msgid "[[!shortcut name=findlink url=\"http://edwardbetts.com/find_link/%s\"]]"
-msgstr "[[!shortcut name=findlink url=\"http://edwardbetts.com/find_link/%s\"]]"
+msgstr ""
+"[[!shortcut name=findlink url=\"http://edwardbetts.com/find_link/%s\"]]"
 
 #. type: Bullet: '* '
 msgid ""
@@ -130,6 +131,8 @@ msgstr ""
 "[[!shortcut name=debrt url=\"https://rt.debian.org/Ticket/Display.html?id=%s"
 "\"]]"
 
+#. type: Plain text
+#, no-wrap
 msgid ""
 "* [[!shortcut name=debss url=\"http://snapshot.debian.net/package/%s\"]]\n"
 "  * Usage: `\\[[!debss package]]`, `\\[[!debss package#version]]`, or `\\[[!debss package/version]]`.  See http://snapshot.debian.net for details.\n"

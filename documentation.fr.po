@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2014-10-15 19:53+0000\n"
+"POT-Creation-Date: 2014-12-29 21:04+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -86,10 +86,6 @@ msgid "[[Scan my network|documentation/tasks/networkdiscovery]]"
 msgstr "[[Scanner mon réseau|documentation/tasks/networkdiscovery]]"
 
 #. type: Bullet: '* '
-msgid "[[Inventory remote devices|documentation/tasks/networkinventory]]"
-msgstr "[[Inventaire des objets réseaux|documentation/tasks/networkinventory]]"
-
-#. type: Bullet: '* '
 msgid "[[Inventory ESX virtual machines|documentation/tasks/esxinventory]]"
 msgstr ""
 "[[Comment inventorier mon serveur ESX|documentation/tasks/esxinventory]]"
@@ -99,12 +95,12 @@ msgid "[[Deploy softwares|documentation/tasks/deploy]]"
 msgstr "[[Déploiement de logiciels|documentation/tasks/deploy]]"
 
 #. type: Bullet: '* '
-#, fuzzy
-#| msgid "[[Deploy softwares|documentation/tasks/deploy]]"
 msgid ""
 "[[Deploy > export / import packages|documentation/tasks/"
 "exportimportpackages]]"
-msgstr "[[Déploiement de logiciels|documentation/tasks/deploy]]"
+msgstr ""
+"[[Déploiement > export / import de paquets|documentation/tasks/"
+"exportimportpackages]]"
 
 #. type: Title #
 #, no-wrap
@@ -124,12 +120,12 @@ msgstr ""
 "additional_content]]"
 
 #. type: Bullet: '* '
-#, fuzzy
-#| msgid "[[Deploy softwares|documentation/tasks/deploy]]"
 msgid ""
 "[[Update agent with the deploy task|documentation/tasks/"
 "updateagentwithdeploytask]]"
-msgstr "[[Déploiement de logiciels|documentation/tasks/deploy]]"
+msgstr ""
+"[[Mettre à jour l'agent avec la tâche de déploiement|documentation/tasks/"
+"updateagentwithdeploytask]]"
 
 #. type: Title #
 #, no-wrap

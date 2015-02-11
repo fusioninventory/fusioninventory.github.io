@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2014-03-19 23:20+0000\n"
+"POT-Creation-Date: 2014-12-30 19:41+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -22,9 +22,10 @@ msgid "Installation of the Agent on RHEL, Centos and other RHEL clones"
 msgstr "Instalacja Agenta na RHEL, Centos i innych klonach RHEL"
 
 #. type: Title ##
-#, no-wrap
-msgid "RHEL/Centos 6.X and 5.x"
-msgstr ""
+#, fuzzy, no-wrap
+#| msgid "RHEL, Centos 4.x"
+msgid "RHEL/Centos >= 5.x"
+msgstr "RHEL, Centos 4.x"
 
 #. type: Plain text
 msgid ""
@@ -55,8 +56,9 @@ msgid "    # yum install fusioninventory-agent fusioninventory-agent-task-invent
 msgstr "    # yum install fusioninventory-agent\n"
 
 #. type: Title ##
-#, no-wrap
-msgid "RHEL, Centos 4.x"
+#, fuzzy, no-wrap
+#| msgid "RHEL, Centos 4.x"
+msgid "RHEL/Centos 4.x"
 msgstr "RHEL, Centos 4.x"
 
 #. type: Plain text
