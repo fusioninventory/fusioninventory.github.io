@@ -4,11 +4,6 @@
 
 The latest relase is available either from [our forge](http://forge.fusioninventory.org/projects/fusioninventory-agent/files) or from [CPAN](https://metacpan.org/release/FusionInventory-Agent).
 
-It is also possible to retrieve a snapshot from Github:
-
-* [Agent 2.3.x](https://github.com/fusinv/fusioninventory-agent/tarball/2.3.x)
-* [Agent 2.4.x](https://github.com/fusinv/fusioninventory-agent/tarball/master)
-
 ## Build and installation
 
 We strongly recommand the use of __GNU tar__ because some file path lenght are
