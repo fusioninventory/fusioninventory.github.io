@@ -120,17 +120,12 @@ msgstr ""
 "des extraits de log significatif, ou les messages de l'agent, sont plus appropriés."
 
 #. type: Plain text
-#, fuzzy
-#| msgid ""
-#| "Also, the agent is available for different platforms, with different "
-#| "versions, and different installation methods. You have to specify at "
-#| "least the system you're using, and the agent version."
 msgid ""
 "Also, the agent is available for different platforms, with different "
 "versions, and different installation methods. You have to specify at least "
 "the system you're using, the agent version, and how you did install it."
 msgstr ""
-"En outre, l'agent est disponible dans différentes plates-formes, avec des "
+"En outre, l'agent est disponible pour différentes plates-formes, avec des "
 "versions différentes et des méthodes d'installation différentes. Vous devez "
 "spécifier le système que vous utilisez, et la version de l'agent."
 
@@ -145,7 +140,7 @@ msgstr ""
 #. type: Title ##
 #, no-wrap
 msgid "Execution traces"
-msgstr ""
+msgstr "Traces d'exécution"
 
 #. type: Plain text
 msgid ""
@@ -158,7 +153,8 @@ msgstr ""
 msgid ""
 "Server log verbosity may be increased by enabling *extra-debug* "
 "configuration parameter in plugin configuration."
-msgstr ""
+msgstr "Le niveau de détail des logs serveur peut être augmenté en activant le paramètre "
+"*extra-debug* dans la configuration du plugin."
 
 #. type: Plain text
 msgid ""
