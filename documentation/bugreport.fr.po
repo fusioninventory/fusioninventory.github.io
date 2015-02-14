@@ -80,19 +80,23 @@ msgstr ""
 
 #. type: Plain text
 msgid "Once the faulty component identified, use either:"
-msgstr ""
+msgstr "Une fois le composant en cause identifié, utilisez soit:"
 
 #. type: Bullet: '* '
 msgid ""
 "[agent bugtracker](http://forge.fusioninventory.org/projects/fusioninventory-"
 "agent/issues) for agent issues"
 msgstr ""
+"[bugtracker de l'agent](http://forge.fusioninventory.org/projects/fusioninventory-"
+"agent/issues) pour les problèmes liés à l'agent"
 
 #. type: Bullet: '* '
 msgid ""
 "[server bugtracker](http://forge.fusioninventory.org/projects/"
-"fusioninventory-for-glpi/issues) for server issues"
+"fusioninventory-for-glpi/issues) for server issues (GLPI plugin)"
 msgstr ""
+"[bugtracker du serveur ](http://forge.fusioninventory.org/projects/"
+"fusioninventory-for-glpi/issues) pour les problèmes liés aux serveur (plugin GLPI)"
 
 #. type: Title ##
 #, no-wrap
