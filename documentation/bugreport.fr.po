@@ -22,11 +22,6 @@ msgid "How to report issues efficiently"
 msgstr "Comment signaler les problèmes efficacement"
 
 #. type: Plain text
-#, fuzzy
-#| msgid ""
-#| "In order for the developers to track and fix issues properly, you need to "
-#| "use the forge bug tracker (<http://forge.fusioninventory.org/projects/"
-#| "fusioninventory-agent/issues>). An account is required."
 msgid ""
 "In order for the developers to track and fix issues properly, you need to "
 "use the [forge](http://forge.fusioninventory.org) bug tracker, and report an "
@@ -43,7 +38,7 @@ msgid ""
 "reporters and for the assignees."
 msgstr ""
 "Voici quelques règles d'usage, afin d'éviter de gaspiller des efforts à la "
-"fois pour ceux signalent le problème que ceux qui le résoudront."
+"fois pour ceux qui signalent le problème que pour ceux qui le résoudront."
 
 #. type: Title ##
 #, no-wrap
