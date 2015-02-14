@@ -74,7 +74,7 @@ msgstr ""
 "contenu. Une autre solution est d'utiliser les différents exécutables "
 "fusioninventory-xxx (voir les [[man-pages|agent/man]] de l'agent pour plus "
 "de détails) pour produire le même contenu directement sur l'hôte de l'agent. "
-"Cependant, des différences subtiles peuvent se produit, si l'environnement "
+"Cependant, des différences subtiles peuvent se produire, si l'environnement "
 "d'exécution et les privilèges ne sont pas les mêmes que les exécutions non-"
 "interactives."
 
