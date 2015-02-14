@@ -76,7 +76,7 @@ msgstr ""
 "de détails) pour produire le même contenu directement sur l'hôte de l'agent. "
 "Cependant, des différences subtiles peuvent se produit, si l'environnement "
 "d'exécution et les privilèges ne sont pas les mêmes que les exécutions non-"
-"interactifs."
+"interactives."
 
 #. type: Plain text
 msgid "Once the faulty component identified, use either:"
