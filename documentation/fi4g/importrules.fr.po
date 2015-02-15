@@ -249,8 +249,8 @@ msgid ""
 "If the device is found, all criteria are checked, this rule is checked and "
 "now run the actions"
 msgstr ""
-"Si l' appareil est trouvé, tous les critères sont vérifiés, cette règle est vérifiée et "
-"maintenant les actions sont lancées"
+"Si l' appareil est trouvé, tous les critères sont vérifiés, cette règle est appliquée alors "
+" les actions sont exécutées."
 
 #. type: Title ##
 #, no-wrap
