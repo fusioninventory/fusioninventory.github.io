@@ -242,7 +242,7 @@ msgid ""
 "device exist with value defined"
 msgstr ""
 "_Search GLPI equipement with this status_: cherche dans la base de données GLPI si l' "
-"appareil existe avec la valeur définie"
+"appareil existe avec la valeur définie."
 
 #. type: Plain text
 msgid ""
@@ -250,7 +250,7 @@ msgid ""
 "now run the actions"
 msgstr ""
 "Si l' appareil est trouvé, tous les critères sont vérifiés, cette règle est vérifiée et "
-"maintenant lancez les actions"
+"maintenant les actions sont lancées"
 
 #. type: Title ##
 #, no-wrap
