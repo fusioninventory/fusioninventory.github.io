@@ -19,78 +19,93 @@ msgstr ""
 #. type: Plain text
 #, no-wrap
 msgid "[[!meta  date=\"2014-12-23\"]]\n"
-msgstr ""
+msgstr "[[!meta  date=\"2014-12-23\"]]\n"
 
 #. type: Title #
 #, no-wrap
 msgid "FusionInventory plugin for GLPI 0.85+1.0 release"
-msgstr ""
+msgstr "Le plugin FusionInventory For GLPI 0.85+1.0 est sorti"
 
 #. type: Plain text
 msgid "Hello FusionInventory users,"
-msgstr ""
+msgstr "Hello les fans de FusionInventory"
 
 #. type: Plain text
 msgid ""
 "After many months of development by me and kiniou, the first version "
 "compatible with GLPI 0.85.x is available."
 msgstr ""
+"Après plusieurs mois de développement par kiniou et moi même, la "
+"première version compatible avec GLPI 0.85.x est disponible."
 
 #. type: Plain text
 msgid "This is the new features:"
-msgstr ""
+msgstr "Voici les nouvelles fonctions:"
 
 #. type: Plain text
 msgid "[LOCKS]"
-msgstr ""
+msgstr "[LOCKS]"
 
 #. type: Bullet: '* '
 msgid ""
 "You can lock a field for an itemtype (for example lock contact field for all "
 "computers) [ticket 1184](http://forge.fusioninventory.org/issues/1184)"
 msgstr ""
+"Vous pouvez verrouiller un champ pour un item type (par exemple champ "
+"de contact de verrouillage pour tous les ordinateurs) "
+"[ticket 1184](http://forge.fusioninventory.org/issues/1184)"
 
 #. type: Plain text
 msgid "[COMPUTER INVENTORY]"
-msgstr ""
+msgstr "[Inventaire ordinateur]"
 
 #. type: Bullet: '* '
 msgid ""
 "Speed of computer network ports is now managed [ticket 2439](http://forge."
 "fusioninventory.org/issues/2439)"
 msgstr ""
+"La vitesse des ports réseaux informatique est maintenant gérée "
+"[ticket 2439](http://forge.fusioninventory.org/issues/2439)"
 
 #. type: Plain text
 msgid "[RULES]"
-msgstr ""
+msgstr "[Règles]"
 
 #. type: Bullet: '* '
 msgid ""
 "You can reset the import rules and recreate default rules [ticket 1271]"
 "(http://forge.fusioninventory.org/issues/1271)"
 msgstr ""
+"Vous pouvez réinitialiser les règles d'import et recréer les règles par défaut "
+"[ticket 1271](http://forge.fusioninventory.org/issues/1271)"
 
 #. type: Bullet: '* '
 msgid ""
 "Monitor, printers and peripheral of computer pass now in the import rules "
 "[ticket 2204](http://forge.fusioninventory.org/issues/2204)"
 msgstr ""
+"Écran, imprimante et périphériques de l'ordinateur passe maintenant par des règles d'import "
+"[ticket 2204](http://forge.fusioninventory.org/issues/2204)"
 
 #. type: Bullet: '* '
 msgid ""
 "Add field 'domain' in import rules [ticket 2333](http://forge."
 "fusioninventory.org/issues/2333)"
 msgstr ""
+"Ajout d'un champ 'domain' dans les règles d'import "
+"[ticket 2333](http://forge.fusioninventory.org/issues/2333)"
 
 #. type: Bullet: '* '
 msgid ""
 "New default import rules [ticket 2793](http://forge.fusioninventory.org/"
 "issues/2793)"
 msgstr ""
+"Nouvelles règles d'import par défaut "
+"[ticket 2793](http://forge.fusioninventory.org/issues/2793)"
 
 #. type: Plain text
 msgid "[SNMP]"
-msgstr ""
+msgstr "[SNMP]"
 
 #. type: Bullet: '* '
 msgid ""
@@ -98,16 +113,21 @@ msgid ""
 "range + management of the order [ticket 2237](http://forge.fusioninventory."
 "org/issues/2237)"
 msgstr ""
+"Quand une découverte réseau est faite, elle utilise les identifiants "
+"SNMP défini dans le range IP et gestion de l'ordre "
+"[ticket 2237](http://forge.fusioninventory.org/issues/2237)"
 
 #. type: Bullet: '* '
 msgid ""
 "Remove SNMP models like we said since many months [ticket 2465](http://forge."
 "fusioninventory.org/issues/2465)"
 msgstr ""
+"Suppression des modèles SNMP comme nous l'avons annoncé depuis quelques mois "
+"[ticket 2465](http://forge.fusioninventory.org/issues/2465)"
 
 #. type: Plain text
 msgid "[TASK]"
-msgstr ""
+msgstr "[Tâche]"
 
 #. type: Bullet: '* '
 msgid ""
@@ -115,53 +135,66 @@ msgid ""
 "for execution (define when run), monitoring logs... [ticket 2371](http://"
 "forge.fusioninventory.org/issues/2371)"
 msgstr ""
+"Réécriture du management des tâches et ajout d'un mode «agent-driven» (ondemand) "
+"avec un intervalle de temps pour l'exécution (détermine le lancement), monotoring des logs... "
+"[ticket 2371](http://forge.fusioninventory.org/issues/2371)"
 
 #. type: Plain text
 msgid "[DEPLOY]"
-msgstr ""
+msgstr "[Déploiement]"
 
 #. type: Bullet: '* '
 msgid ""
 "Import and export packages for deployment [ticket 2475](http://forge."
 "fusioninventory.org/issues/2475)"
 msgstr ""
+"Import et export des paquets de déploiement "
+"[ticket 2475](http://forge.fusioninventory.org/issues/2475)"
 
 #. type: Plain text
 msgid "[OTHERS]"
-msgstr ""
+msgstr "[Autres]"
 
 #. type: Bullet: '* '
 msgid ""
 "Add cron for delete agent not contacted the server since xx weeks/months "
 "[ticket 1708](http://forge.fusioninventory.org/issues/1708)"
 msgstr ""
+"Ajout d'un cron pour la suppression des agents n'ayant pas recontacté le serveur depuis xx semaines/mois "
+"[ticket 1708](http://forge.fusioninventory.org/issues/1708)"
 
 #. type: Bullet: '* '
 msgid ""
 "Add icon beside computer, printer... field to see if the field is locked or "
 "not [ticket 2534](http://forge.fusioninventory.org/issues/2534)"
 msgstr ""
+"Ajout d'une icône à coté du champs ordinateur, imprimante,... pour voir s'il est ou non verrouillé "
+"[ticket 2534](http://forge.fusioninventory.org/issues/2534)"
 
 #. type: Bullet: '* '
 msgid "New rights [ticket 2214](http://forge.fusioninventory.org/issues/2214)"
-msgstr ""
+msgstr "Nouveaux droits [ticket 2214](http://forge.fusioninventory.org/issues/2214)"
 
 #. type: Plain text
 msgid "More information:"
-msgstr ""
+msgstr "Pour en savoir plus:"
 
 #. type: Bullet: '* '
 msgid ""
 "You can see the [changelog](http://forge.fusioninventory.org/versions/97)"
 msgstr ""
+"vous pouvez regarder les [changelog](http://forge.fusioninventory.org/versions/97)"
 
 #. type: Bullet: '* '
 msgid ""
 "You can [download](http://forge.fusioninventory.org/attachments/"
 "download/1719/fusioninventory-for-glpi_0.85+1.0.tar.gz)"
 msgstr ""
+"Vous pouvez le télécharger [ici](http://forge.fusioninventory.org/attachments/"
+"download/1719/fusioninventory-for-glpi_0.85+1.0.tar.gz)"
 
 #. type: Plain text
 msgid ""
 "Thanks again to people who test, report bugs / features, translate... ;)"
 msgstr ""
+"Un grand merci à tous ceux qui ont testé, reporté des bugs/features, traduit... ;)"
