@@ -109,7 +109,6 @@ msgid ""
 "seconds.\n"
 msgstr ""
 
-
 #. type: Plain text
 #, no-wrap
 msgid ""
