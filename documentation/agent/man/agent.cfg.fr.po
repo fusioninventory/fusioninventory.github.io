@@ -108,6 +108,8 @@ msgid ""
 "    The actual delay is computed randomly between TIME / 2 and TIME "
 "seconds.\n"
 msgstr ""
+"    Le délai actuel est calculé aléatoirement entre TIME / 2 et TIME "
+"secondes.\n"
 
 #. type: Plain text
 #, no-wrap
@@ -116,15 +118,17 @@ msgid ""
 "in\n"
 "    favor of server-provided value (PROLOG\\_FREQ).\n"
 msgstr ""
+"    Cette directive est utilisée seulement pour le contact initiale , "
+"et ignoré par la suite en faveur de la valeur fourni par le serveur (PROLOG\\_FREQ).\n" 
 
 #. type: Plain text
 msgid "- **lazy**"
-msgstr ""
+msgstr "- **lazy**"
 
 #. type: Plain text
 #, no-wrap
 msgid "    Do not contact the control server before next scheduled time.\n"
-msgstr ""
+msgstr "    Ne pas contacter le serveur de contrôle avant l'heure programmée suivante.\n"
 
 #. type: Plain text
 #, no-wrap
@@ -132,19 +136,21 @@ msgid ""
 "    This directive is used when the agent is run in the foreground (not as\n"
 "    a daemon) only.\n"
 msgstr ""
+"    Cette directive est utilisée quand l'agent est lancé au manuellement \n"
+"    (non en mode démon) seulement.\n"
 
 #. type: Plain text
 msgid "- **no-task**"
-msgstr ""
+msgstr "- **no-task**"
 
 #. type: Plain text
 #, no-wrap
 msgid "    Disables given task.\n"
-msgstr ""
+msgstr "    Désactive les tâches spécifiées.\n"
 
 #. type: Plain text
 msgid "- **proxy**"
-msgstr ""
+msgstr "- **proxy**"
 
 #. type: Plain text
 #, no-wrap
@@ -152,28 +158,30 @@ msgid ""
 "    Specifies the URL of the HTTP proxy to use. By default, the agent uses\n"
 "    HTTP\\_PROXY environment variable.\n"
 msgstr ""
+"    Indique l'URL du proxy HTTP à utiliser. Par défaut, l'agent utilise \n"
+"    la variable d'environnement HTTP_PROXY.\n"
 
 #. type: Plain text
 msgid "- **user**"
-msgstr ""
+msgstr "- **user**"
 
 #. type: Plain text
 #, no-wrap
 msgid "    Specifies the user to use for HTTP authentication on the server.\n"
-msgstr ""
+msgstr "    Indique l'utilisateur à utiliser pour l'authentification HTTP sur le serveur.\n"
 
 #. type: Plain text
 msgid "- **password**"
-msgstr ""
+msgstr "- **password**"
 
 #. type: Plain text
 #, no-wrap
 msgid "    Specifies the password to use for HTTP authentication on the server.\n"
-msgstr ""
+msgstr "    Indique le mot de passe à utiliser pour l'authentification HTTP sur le serveur.\n"
 
 #. type: Plain text
 msgid "- **ca-cert-dir**"
-msgstr ""
+msgstr "- **ca-cert-dir**"
 
 #. type: Plain text
 #, no-wrap
@@ -182,10 +190,12 @@ msgid ""
 "(CA)\n"
 "    certificates.\n"
 msgstr ""
+"    Indique le répertoire contenant les certificats de l'autorité "
+"de certification (CA).\n"
 
 #. type: Plain text
 msgid "- **ca-cert-file**"
-msgstr ""
+msgstr "- **ca-cert-file**"
 
 #. type: Plain text
 #, no-wrap
@@ -193,24 +203,25 @@ msgid ""
 "    Specifies the file containing aggregated Certification Authority (CA)\n"
 "    certificates.\n"
 msgstr ""
+"    Indique le fichier contenant les certificats agrégés de l'autorité de certification (CA)\n"
 
 #. type: Plain text
 msgid "- **no-ssl-check**"
-msgstr ""
+msgstr "- **no-ssl-check**"
 
 #. type: Plain text
 #, no-wrap
 msgid "    Disables server SSL certificate validation. The default is 0 (false).\n"
-msgstr ""
+msgstr "   Désactive la vérification du certificat SSL du serveur. Par défaut à 0 (false)\n"
 
 #. type: Plain text
 msgid "- **timeout**"
-msgstr ""
+msgstr "- **timeout**"
 
 #. type: Plain text
 #, no-wrap
 msgid "    Specifies a timeout, in seconds, for server connections.\n"
-msgstr ""
+msgstr "    Spécifie le timeout, en secondes, pour la connexion serveur.\n"
 
 #. type: Plain text
 msgid "- **no-httpd**"
