@@ -120,7 +120,7 @@ msgid ""
 msgstr ""
 "    Cette directive est utilisée seulement pour le contact initiale , "
 "et\n"
-"    ignoré par la suite en faveur de la valeur fourni par le serveur (PROLOG\\_FREQ).\n" 
+"    ignoré par la suite en faveur de la valeur fourni par le serveur (PROLOG\\_FREQ).\n"
 
 #. type: Plain text
 msgid "- **lazy**"
