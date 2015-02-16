@@ -27,7 +27,6 @@ msgid "Package based installation"
 msgstr "Installations basées sur des paquets"
 
 #. type: Bullet: '* '
-#, fuzzy
 msgid "[[OSX|documentation/agent/installation/macosx]]"
 msgstr "[[MacOSX|documentation/agent/installation/macosx]]"
 
@@ -36,10 +35,8 @@ msgid "[[Linux|documentation/agent/installation/linux]]"
 msgstr "[[Linux|documentation/agent/installation/linux]]"
 
 #. type: Bullet: '* '
-#, fuzzy
-#| msgid "[[Android|documentation/agent/installation/android]]"
 msgid "[[Windows|documentation/agent/installation/windows]]"
-msgstr "[[Android|documentation/agent/installation/android]]"
+msgstr "[[Windows|documentation/agent/installation/windows]]"
 
 #. type: Bullet: '* '
 msgid "[[AIX|documentation/agent/installation/aix]]"
@@ -69,10 +66,3 @@ msgstr "Installation avec l'archive «tarball»"
 #. type: Bullet: '* '
 msgid "[[from source|documentation/agent/installation/source]]"
 msgstr "[[depuis les sources|documentation/agent/installation/source]]"
-
-#~ msgid ""
-#~ "[[Windows|documentation/agent/installation/windows]] ([[large "
-#~ "installation|documentation/agent/installation/windows/large_install]])"
-#~ msgstr ""
-#~ "[[Windows|documentation/agent/installation/windows]] ([[installation en "
-#~ "masse|documentation/agent/installation/windows/large_install]])"
