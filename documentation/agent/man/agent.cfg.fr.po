@@ -119,7 +119,8 @@ msgid ""
 "    favor of server-provided value (PROLOG\\_FREQ).\n"
 msgstr ""
 "    Cette directive est utilisée seulement pour le contact initiale , "
-"et ignoré par la suite en faveur de la valeur fourni par le serveur (PROLOG\\_FREQ).\n" 
+"et\n"
+"    ignoré par la suite en faveur de la valeur fourni par le serveur (PROLOG\\_FREQ).\n" 
 
 #. type: Plain text
 msgid "- **lazy**"
