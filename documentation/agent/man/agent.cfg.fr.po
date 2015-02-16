@@ -19,40 +19,42 @@ msgstr ""
 #. type: Title #
 #, no-wrap
 msgid "NAME"
-msgstr ""
+msgstr "Nom"
 
 #. type: Plain text
 msgid "agent.cfg - FusionInventory agent configuration file"
-msgstr ""
+msgstr "agent.cfg - Fichier de configuration de l'Agent FusionInventory"
 
 #. type: Title #
 #, no-wrap
 msgid "SYNOPSIS"
-msgstr ""
+msgstr "Synopsis"
 
 #. type: Plain text
 msgid "/etc/fusioninventory/agent.cfg"
-msgstr ""
+msgstr "/etc/fusioninventory/agent.cfg"
 
 #. type: Title #
 #, no-wrap
 msgid "DESCRIPTION"
-msgstr ""
+msgstr "Description"
 
 #. type: Plain text
 msgid ""
 "On Unix, fusioninventory-agent executables read their configuration from "
 "`/etc/fusioninventory/agent.cfg`."
 msgstr ""
+"Sur Unix, les exécutables fusioninventory-agent sont configurés par le fichier "
+"`/etc/fusioninventory/agent.cfg`."
 
 #. type: Title #
 #, no-wrap
 msgid "GENERIC DIRECTIVES"
-msgstr ""
+msgstr "Paramètres de base"
 
 #. type: Plain text
 msgid "- **server**"
-msgstr ""
+msgstr "- **server**"
 
 #. type: Plain text
 #, no-wrap
@@ -61,6 +63,9 @@ msgid ""
 "a\n"
 "    recipient for task execution output.\n"
 msgstr ""
+"    Spécifie le serveur qui servira à contrôler l'agent et qui "
+"a\n"
+"    recevra le résultat des tâches exécutées.\n"
 
 #. type: Plain text
 #, no-wrap
@@ -71,16 +76,21 @@ msgid ""
 "interpreted\n"
 "    as http://hostname/ocsinventory.\n"
 msgstr ""
+"    Si le début de la valeur commence avec un http:// ou https:// cela sera considéré comme "
+"une URL,\n"
+"    et utilisé directement. Sinon, cela sera vu comme un «hostname», et "
+"interprété\n"
+"    comme http://hostname/ocsinventory.\n"
 
 #. type: Plain text
 #:     
 #, no-wrap
 msgid "    Multiple values can be specified, using a comma as a separator.\n"
-msgstr ""
+msgstr "    Plusieurs valeurs peuvent être spécifiées en utilisant la virgule comme séparateur.\n"
 
 #. type: Plain text
 msgid "- **delaytime**"
-msgstr ""
+msgstr "- **delaytime**"
 
 #. type: Plain text
 #, no-wrap
@@ -89,6 +99,8 @@ msgid ""
 "contacting\n"
 "    the control server. The default is 3600.\n"
 msgstr ""
+"    Indique la limite supérieure, en secondes, pour le retard initial avant "
+"de contacter le serveur de contrôle. La valeur par défaut est 3600.\n"
 
 #. type: Plain text
 #, no-wrap
@@ -96,6 +108,7 @@ msgid ""
 "    The actual delay is computed randomly between TIME / 2 and TIME "
 "seconds.\n"
 msgstr ""
+
 
 #. type: Plain text
 #, no-wrap
