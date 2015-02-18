@@ -191,18 +191,25 @@ msgid ""
 "there is any privacy concern, send them by email to *walk at fusioninventory "
 "dot org*, with bug ID in mail subject."
 msgstr ""
+"Soit joindre le fichier concerné ou la sortie de la commande en pièce jointe "
+"au rapport de bug (juste coller entraîne généralement une perte de formatage), ou"
+" s'il y a des problème de confidentialité, les envoyer par e-mail *walk at fusioninventory,"
+" avec bug ID dans l'objet du message."
 
 #. type: Plain text
 msgid ""
 "When running any command for such purpose, unset locales first (export "
-"LC_ALL=C undex Unix) to avoid localized output. Here are other command-"
+"LC_ALL=C under Unix) to avoid localized output. Here are other command-"
 "specific advices."
 msgstr ""
+"Lors de l'exécution de commandes dans cet objectif, dévalider la localisation en premier "
+"(export LC_ALL=C sous Unix) pour éviter la sortie localisée. Voici d'autres conseils "
+"spécifiques aux commandes."
 
 #. type: Title ###
 #, no-wrap
 msgid "WMI queries"
-msgstr ""
+msgstr "Requêtes WMI"
 
 #. type: Plain text
 #, fuzzy
