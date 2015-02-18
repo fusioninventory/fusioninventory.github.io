@@ -213,7 +213,6 @@ msgstr "Requêtes WMI"
 
 #. type: Plain text
 #, fuzzy, no-wrap
-#| msgid "windows WMI queries can be exported with wmic tool (`wmic path <somequery> get /Format:list > <somefile>`)"
 msgid "    wmic path <somequery> get /Format:list > <somefile>\n"
 msgstr "Les requêtes Windows WMI peuvent être exportées avec l'outil wmic (`wmic path <requête> get /Format:list > <fichier>`)"
 
@@ -223,12 +222,12 @@ msgid "Registry extract"
 msgstr "Extrait du registre"
 
 #. type: Plain text
-#, fuzzy
+#, no-wrap
 msgid "Windows registry content can be exported with regedit tool:"
-msgstr "le contenu du registre windows peut être exporté avec l'outil regedit:"
+msgstr "le contenu du registre Windows peut être exporté avec l'outil regedit:"
 
 #. type: Plain text
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "    regedit /e <somefile.reg> <somekey>\n"
 msgstr "    regedit /e <nom_du_fichier.reg> <clé_du_registre>\n"
 
