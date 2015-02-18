@@ -162,6 +162,9 @@ msgid ""
 "task execution messages, for instance, when dealing with a remote inventory "
 "issue."
 msgstr ""
+"Merci de ne poster qu'une partie pertinente de journaux: nous ne nous intéressons pas "
+"aux messages locaux de l'exécution de tâches d'inventaire, par exemple, lorsqu'il s'agit "
+"d'un problème d'inventaire à distance."
 
 #. type: Title ##
 #, no-wrap
