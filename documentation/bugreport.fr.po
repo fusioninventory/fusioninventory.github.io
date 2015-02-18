@@ -96,7 +96,7 @@ msgid ""
 "fusioninventory-for-glpi/issues) for server issues (GLPI plugin)"
 msgstr ""
 "[bugtracker du serveur ](http://forge.fusioninventory.org/projects/"
-"fusioninventory-for-glpi/issues) pour les problèmes liés aux serveur (plugin GLPI)"
+"fusioninventory-for-glpi/issues) pour les problèmes liés au serveur (plugin GLPI)"
 
 #. type: Title ##
 #, no-wrap
