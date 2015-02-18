@@ -178,6 +178,11 @@ msgid ""
 "command output, a file, whatever...). In order to reproduce the problem, fix "
 "it, and ensure it won't happen again, we need a sample of those data."
 msgstr ""
+"Quand le problème concerne une valeur manquante ou invalide, la plupart du temps,"
+"cela est due à une erreur d'analyse lors du traitement des données externes (une "
+"sortie de commande, un fichier, quoi que soit ...). Pour reproduire le problème,"
+" le corriger, et s'assurer qu'elle ne se reproduira pas, nous avons besoin d'un"
+" échantillon de ces données."
 
 #. type: Plain text
 msgid ""
