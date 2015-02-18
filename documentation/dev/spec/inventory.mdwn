@@ -432,8 +432,8 @@ TODO
           <!ELEMENT WIFI_VERSION (#PCDATA)>
 
         <!-- a LVM physical volume -->
-	<!ELEMENT PHYSICAL_VOLUMES (DEVICE, PV_PE_COUNT, PV_UUID, FORMAT, ATTR,
-	SIZE, FREE, PE_SIZE, VG_UUID)>
+        <!ELEMENT PHYSICAL_VOLUMES (DEVICE, PV_PE_COUNT, PV_UUID, FORMAT, ATTR,
+        SIZE, FREE, PE_SIZE, VG_UUID)>
           <!-- UUID -->
           <!ELEMENT PV_UUID (#PCDATA)>
           <!-- device name, ie '/dev/sda1' -->
