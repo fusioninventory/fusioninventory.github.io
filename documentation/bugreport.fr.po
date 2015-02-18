@@ -169,7 +169,7 @@ msgstr ""
 #. type: Title ##
 #, no-wrap
 msgid "External content"
-msgstr ""
+msgstr "Contenu externe"
 
 #. type: Plain text
 msgid ""
