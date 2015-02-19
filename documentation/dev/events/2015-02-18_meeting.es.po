@@ -1,0 +1,111 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2015-02-19 22:50+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. type: Title #
+#, no-wrap
+msgid "Attendees"
+msgstr ""
+
+#. type: Bullet: '* '
+msgid "David Durieux"
+msgstr ""
+
+#. type: Bullet: '* '
+msgid "Guillaume Rousse"
+msgstr ""
+
+#. type: Title #
+#, no-wrap
+msgid "Development roadmap"
+msgstr ""
+
+#. type: Title ##
+#, no-wrap
+msgid "short term"
+msgstr ""
+
+#. type: Plain text
+msgid ""
+"Ensure the current agent version (2.3.x) works correctly with the GLPI "
+"plugin 0.85+1.0 (ie fix bug #2852)"
+msgstr ""
+
+#. type: Title ##
+#, no-wrap
+msgid "medium term"
+msgstr ""
+
+#. type: Plain text
+msgid ""
+"Ensure the next agent major version (2.4.x) is able to get rid of legacy "
+"prolog dialog with GLPI plugin 0.85+1.x, while still working with previous "
+"GLPI plugin release (including 0.85+1.0)"
+msgstr ""
+
+#. type: Title ###
+#, no-wrap
+msgid "agent behaviour"
+msgstr ""
+
+#. type: Plain text
+msgid ""
+"In order to establish the list of scheduled tasks, the agent should: - issue "
+"a getConfig request - decide if server answer is self-sufficient - if not, "
+"complete it with an additional prolog request"
+msgstr ""
+
+#. type: Title ###
+#, no-wrap
+msgid "server-side getConfig answer enhancement"
+msgstr ""
+
+#. type: Plain text
+#, no-wrap
+msgid ""
+"The server answer for getConfig request:\n"
+"- should contains all scheduled tasks, not just ESX and Deploy tasks as it "
+"does\n"
+"  with current release (0.85+1.0)\n"
+"- should contains something to make it identifable by the agent as\n"
+"  self-sufficient, such as a version number\n"
+"- should not contain useless references to non-scheduled tasks (ie bug "
+"#2860)\n"
+msgstr ""
+
+#. type: Title ###
+#, no-wrap
+msgid "additional task-specific getJob answer specification"
+msgstr ""
+
+#. type: Plain text
+msgid ""
+"getJobs answer format for modules not using it should be specified: - "
+"inventory (including specific options, ie bug #2847)  - netinventory - "
+"netdiscovery - wakeonlan"
+msgstr ""
+
+#. type: Title ###
+#, no-wrap
+msgid "long term"
+msgstr ""
+
+#. type: Plain text
+msgid ""
+"Ensure the agent uses JSON and REST API exclusively, both for tasks "
+"scheduling and for task results submission."
+msgstr ""
