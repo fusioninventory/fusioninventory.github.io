@@ -16,6 +16,7 @@ Ensure the next agent major version (2.4.x) is able to get rid of legacy prolog 
 ### agent behaviour
 
 In order to establish the list of scheduled tasks, the agent should:
+
 * issue a getConfig request
 * decide if server answer is self-sufficient
 * if not, complete it with an additional prolog request
@@ -23,6 +24,7 @@ In order to establish the list of scheduled tasks, the agent should:
 ### server-side getConfig answer enhancement
 
 The server answer for getConfig request:
+
 * should contains all scheduled tasks, not just ESX and Deploy tasks as it does
   with current release (0.85+1.0)
 * should contains something to make it identifable by the agent as
