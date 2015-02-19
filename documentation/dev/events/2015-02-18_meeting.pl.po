@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2015-02-19 22:52+0000\n"
+"POT-Creation-Date: 2015-02-19 22:58+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -36,7 +36,7 @@ msgstr ""
 
 #. type: Title ##
 #, no-wrap
-msgid "short term"
+msgid "Short term"
 msgstr ""
 
 #. type: Plain text
@@ -47,7 +47,7 @@ msgstr ""
 
 #. type: Title ##
 #, no-wrap
-msgid "medium term"
+msgid "Medium term"
 msgstr ""
 
 #. type: Plain text
@@ -59,7 +59,7 @@ msgstr ""
 
 #. type: Title ###
 #, no-wrap
-msgid "agent behaviour"
+msgid "Agent behaviour"
 msgstr ""
 
 #. type: Plain text
@@ -80,7 +80,7 @@ msgstr ""
 
 #. type: Title ###
 #, no-wrap
-msgid "server-side getConfig answer enhancement"
+msgid "Server-side getConfig answer enhancement"
 msgstr ""
 
 #. type: Plain text
@@ -106,7 +106,7 @@ msgstr ""
 
 #. type: Title ###
 #, no-wrap
-msgid "additional task-specific getJob answer specification"
+msgid "Additional task-specific getJob answer specification"
 msgstr ""
 
 #. type: Plain text
@@ -138,4 +138,17 @@ msgstr ""
 msgid ""
 "Ensure the agent uses JSON and REST API exclusively, both for tasks "
 "scheduling and for task results submission."
+msgstr ""
+
+#. type: Bullet: '* '
+msgid ""
+"task/job model should be consistent in specification and in user interface"
+msgstr ""
+
+#. type: Bullet: '* '
+msgid ""
+"modules result should be specified, taking advantage of format change to get "
+"rid of OCS format legacy, such as microsoft-specific nomenclature (drive, "
+"domain, etc...) and concepts confusion (such as network interface vs network "
+"addresses)"
 msgstr ""
