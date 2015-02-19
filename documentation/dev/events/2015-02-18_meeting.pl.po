@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2015-02-19 22:50+0000\n"
+"POT-Creation-Date: 2015-02-19 22:52+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -64,8 +64,8 @@ msgstr ""
 
 #. type: Plain text
 msgid ""
-"In order to establish the list of scheduled tasks, the agent should: - issue "
-"a getConfig request - decide if server answer is self-sufficient - if not, "
+"In order to establish the list of scheduled tasks, the agent should: * issue "
+"a getConfig request * decide if server answer is self-sufficient * if not, "
 "complete it with an additional prolog request"
 msgstr ""
 
@@ -78,13 +78,11 @@ msgstr ""
 #, no-wrap
 msgid ""
 "The server answer for getConfig request:\n"
-"- should contains all scheduled tasks, not just ESX and Deploy tasks as it "
-"does\n"
+"* should contains all scheduled tasks, not just ESX and Deploy tasks as it does\n"
 "  with current release (0.85+1.0)\n"
-"- should contains something to make it identifable by the agent as\n"
+"* should contains something to make it identifable by the agent as\n"
 "  self-sufficient, such as a version number\n"
-"- should not contain useless references to non-scheduled tasks (ie bug "
-"#2860)\n"
+"* should not contain useless references to non-scheduled tasks (ie bug #2860)\n"
 msgstr ""
 
 #. type: Title ###
@@ -93,10 +91,23 @@ msgid "additional task-specific getJob answer specification"
 msgstr ""
 
 #. type: Plain text
-msgid ""
-"getJobs answer format for modules not using it should be specified: - "
-"inventory (including specific options, ie bug #2847)  - netinventory - "
-"netdiscovery - wakeonlan"
+msgid "getJobs answer format for modules not using it should be specified:"
+msgstr ""
+
+#. type: Bullet: '* '
+msgid "inventory (including specific options, ie bug #2847)"
+msgstr ""
+
+#. type: Bullet: '* '
+msgid "netinventory"
+msgstr ""
+
+#. type: Bullet: '* '
+msgid "netdiscovery"
+msgstr ""
+
+#. type: Bullet: '* '
+msgid "wakeonlan"
 msgstr ""
 
 #. type: Title ###
