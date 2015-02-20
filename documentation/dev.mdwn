@@ -60,3 +60,4 @@ and the server.
 ## Events
 
 * [[Mini Codecamp March 14|documentation/dev/events/2014-03-14_Mini_CodeCamp]]
+* [[meeting 18 february 2015|documentation/dev/events/2015-02-18_meeting]]
