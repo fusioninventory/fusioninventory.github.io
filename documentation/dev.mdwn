@@ -42,9 +42,9 @@ Generic task-scheduling protocol:
 
 Module-specific communication protocols:
 
-* [[ESX module|documentation/dev/spec/protocol/rest-esx]]
-* [[Deploy module|documentation/dev/spec/protocol/rest-deploy]]
-* [[Collect module|documentation/dev/spec/protocol/rest-collect]]
+* [[ESX module|documentation/dev/spec/protocol/esx]]
+* [[Deploy module|documentation/dev/spec/protocol/deploy]]
+* [[Collect module|documentation/dev/spec/protocol/collect]]
 * [[Inventory module|documentation/dev/spec/protocol/inventory]]
 * [[Network discovery module|documentation/dev/spec/protocol/netdiscovery]]
 * [[Network inventory module|documentation/dev/spec/protocol/netinventory]]
