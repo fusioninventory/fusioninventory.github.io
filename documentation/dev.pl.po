@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2015-02-20 14:22+0000\n"
+"POT-Creation-Date: 2015-02-24 20:29+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -100,61 +100,32 @@ msgstr ""
 
 #. type: Title ##
 #, no-wrap
-msgid "New communication protocol"
+msgid "Agent-server communication protocol"
 msgstr ""
 
 #. type: Plain text
 msgid ""
-"API-REST is the New JSON based communication protocol used between the agent "
-"and the server."
+"Current agent-server communication is a mix of legacy XML and new JSON "
+"messages."
 msgstr ""
 
-#. type: Bullet: '* '
-msgid "[[API-REST (partially implemented)|documentation/dev/spec/api/rest]]"
-msgstr ""
-
-#. type: Bullet: '* '
-msgid "[[API-REST-ESX (in use)|documentation/dev/spec/api/rest-esx]]"
-msgstr ""
-
-#. type: Bullet: '* '
-msgid "[[API-REST-Deploy (in use)|documentation/dev/spec/api/rest-deploy]]"
-msgstr ""
-
-#. type: Bullet: '* '
+#. type: Plain text
 msgid ""
-"[[API-REST-Inventory (in development)|documentation/dev/spec/api/rest-"
-"inventory]]"
+"Generic task-scheduling protocol: * [[Original task scheduling specification|"
+"documentation/dev/spec/protocol/rest]] * [[Current task scheduling "
+"specification|documentation/dev/spec/protocol/scheduling]]"
 msgstr ""
 
-#. type: Bullet: '* '
+#. type: Plain text
 msgid ""
-"[[API-REST-Collect (in development)|documentation/dev/spec/api/rest-collect]]"
-msgstr ""
-
-#. type: Title ##
-#, no-wrap
-msgid "Legacy communication protocol"
-msgstr ""
-
-#. type: Bullet: '* '
-msgid "[[Inventory|documentation/dev/spec/inventory]]"
-msgstr ""
-
-#. type: Bullet: '* '
-msgid "[[Network discovery|documentation/dev/spec/netdiscovery]]"
-msgstr ""
-
-#. type: Bullet: '* '
-msgid "[[Network inventory|documentation/dev/spec/netinventory]]"
-msgstr ""
-
-#. type: Bullet: '* '
-msgid "[[Wake on lan|documentation/dev/spec/wakeonlan]]"
-msgstr ""
-
-#. type: Bullet: '* '
-msgid "[[Vocabulary|documentation/dev/spec/vocabulary]]"
+"Module-specific communication protocols: * [[ESX module|documentation/dev/"
+"spec/protocol/rest-esx]] * [[Deploy module|documentation/dev/spec/protocol/"
+"rest-deploy]] * [[Collect module|documentation/dev/spec/protocol/rest-"
+"collect]] * [[Inventory module|documentation/dev/spec/protocol/inventory]] * "
+"[[Network discovery module|documentation/dev/spec/protocol/netdiscovery]] * "
+"[[Network inventory module|documentation/dev/spec/protocol/netinventory]] * "
+"[[Wake on lan module|documentation/dev/spec/protocol/wakeonlan]] * "
+"[[Vocabulary|documentation/dev/spec/protocol/vocabulary]]"
 msgstr ""
 
 #. type: Title ##
