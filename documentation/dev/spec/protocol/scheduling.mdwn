@@ -30,7 +30,7 @@ A job has an identifier, a type and a list of targets.
                     {
                         'id': 'job1.1',
                         'type': 'netdiscovery',
-			'workers': 2,
+                        'workers': 2,
                         'targets': [
                             {
                                 'network': '192.168.0.0/24',
@@ -63,7 +63,7 @@ A job has an identifier, a type and a list of targets.
                     {
                         'id': 'job1.2'
                         'type': 'netinventory',
-			'workers': 2,
+                        'workers': 2,
                         'targets': [
                             {
                                 'host': '192.168.1.1',
