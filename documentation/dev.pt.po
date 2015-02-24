@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2015-02-24 20:29+0000\n"
+"POT-Creation-Date: 2015-02-24 20:31+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -110,22 +110,57 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
+msgid "Generic task-scheduling protocol:"
+msgstr ""
+
+#. type: Bullet: '* '
 msgid ""
-"Generic task-scheduling protocol: * [[Original task scheduling specification|"
-"documentation/dev/spec/protocol/rest]] * [[Current task scheduling "
-"specification|documentation/dev/spec/protocol/scheduling]]"
+"[[Original task scheduling specification|documentation/dev/spec/protocol/"
+"rest]]"
+msgstr ""
+
+#. type: Bullet: '* '
+msgid ""
+"[[Current task scheduling specification|documentation/dev/spec/protocol/"
+"scheduling]]"
 msgstr ""
 
 #. type: Plain text
+msgid "Module-specific communication protocols:"
+msgstr ""
+
+#. type: Bullet: '* '
+msgid "[[ESX module|documentation/dev/spec/protocol/rest-esx]]"
+msgstr ""
+
+#. type: Bullet: '* '
+msgid "[[Deploy module|documentation/dev/spec/protocol/rest-deploy]]"
+msgstr ""
+
+#. type: Bullet: '* '
+msgid "[[Collect module|documentation/dev/spec/protocol/rest-collect]]"
+msgstr ""
+
+#. type: Bullet: '* '
+msgid "[[Inventory module|documentation/dev/spec/protocol/inventory]]"
+msgstr ""
+
+#. type: Bullet: '* '
 msgid ""
-"Module-specific communication protocols: * [[ESX module|documentation/dev/"
-"spec/protocol/rest-esx]] * [[Deploy module|documentation/dev/spec/protocol/"
-"rest-deploy]] * [[Collect module|documentation/dev/spec/protocol/rest-"
-"collect]] * [[Inventory module|documentation/dev/spec/protocol/inventory]] * "
-"[[Network discovery module|documentation/dev/spec/protocol/netdiscovery]] * "
-"[[Network inventory module|documentation/dev/spec/protocol/netinventory]] * "
-"[[Wake on lan module|documentation/dev/spec/protocol/wakeonlan]] * "
-"[[Vocabulary|documentation/dev/spec/protocol/vocabulary]]"
+"[[Network discovery module|documentation/dev/spec/protocol/netdiscovery]]"
+msgstr ""
+
+#. type: Bullet: '* '
+msgid ""
+"[[Network inventory module|documentation/dev/spec/protocol/netinventory]]"
+msgstr ""
+
+#. type: Bullet: '* '
+msgid "[[Wake on lan module|documentation/dev/spec/protocol/wakeonlan]]"
+msgstr ""
+
+#. type: Bullet: '* '
+msgid "[[Vocabulary|documentation/dev/spec/protocol/vocabulary]]"
 msgstr ""
 
 #. type: Title ##
