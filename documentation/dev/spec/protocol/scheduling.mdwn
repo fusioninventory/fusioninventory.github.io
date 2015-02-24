@@ -6,6 +6,12 @@ GET http://glpiserver/glpi/plugins/fusioninventory/api/tasks?agentid=xyz
 
 ## Server response
 
+The server response is a list of tasks, and a timestamp for next agent request.
+
+A task had an identifier, and a list of jobs.
+
+A job has an identifier, a type and a perimeter, as a list of items on which to perform some action.
+
     {
         'tasks': [
             {
