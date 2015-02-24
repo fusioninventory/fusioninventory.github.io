@@ -2,15 +2,25 @@
 
 ## Agent request
 
-GET http://glpiserver/glpi/plugins/fusioninventory/api/tasks?agentid=xyz
+### Description
+
+The agent advertise itself and its capacities, through URL parameters
+
+### Example
+
+GET http://glpiserver/glpi/plugins/fusioninventory/api/tasks?agentid=xyz&module['inventory']=2.4.0&module['netinventory']=2.4.0
 
 ## Server response
+
+### Description
 
 The server response is a list of tasks, and a timestamp for next agent request.
 
 A task had an identifier, and a list of jobs.
 
-A job has an identifier, a type and a perimeter, as a list of items on which to perform some action.
+A job has an identifier, a type and a list of targets.
+
+### Example
 
     {
         'tasks': [
@@ -18,9 +28,10 @@ A job has an identifier, a type and a perimeter, as a list of items on which to 
                 'id': 'task1',
                 'jobs': [
                     {
-                        'id': 'job11',
+                        'id': 'job1.1',
                         'type': 'netdiscovery',
-                        'perimeter': [
+			'workers': 2,
+                        'targets': [
                             {
                                 'network': '192.168.0.0/24',
                                 'workers': 10,
@@ -50,46 +61,10 @@ A job has an identifier, a type and a perimeter, as a list of items on which to 
                         ],
                     },
                     {
-                        'id': 'job12'
-                        'type': 'netdiscovery'
-                        'perimeter': [
-                            {
-                                'network': '192.168.1.0/24',
-                                'workers': 10,
-                                'credentials': [
-                                    {
-                                        'version': '1',
-                                        'community': 'public'
-                                    },
-                                    {
-                                        'version': '2c',
-                                        'community': 'public'
-                                    },
-                                ],
-                            },
-                            {
-                                'network': '192.168.1.0/24',
-                                'workers': 5,
-                                'credentials': [
-                                    {
-                                        'version': '3',
-                                        'username': 'foo',
-                                        'authProtocol': 'sha1',
-                                        'authSecret': 'bar',
-                                    },
-                                ],
-                            },
-                        ],
-                    }
-                ],
-            },
-            {
-                'id': 'task2',
-                'jobs': [
-                    {
-                        'id': 'job21'
+                        'id': 'job1.2'
                         'type': 'netinventory',
-                        'perimeter': [
+			'workers': 2,
+                        'targets': [
                             {
                                 'host': '192.168.1.1',
                                 'credentials': {
@@ -122,3 +97,13 @@ A job has an identifier, a type and a perimeter, as a list of items on which to 
         ],
         'nextContactTime': 1424763734
     }
+
+## Processing.
+
+The agent should process each task, and each job within a task, sequentially.
+
+The agent should process multiple targets of the same job either paralleously
+if a 'workers' variable is present at job level, sequentially otherwise.
+
+The agent should process a single target paralleously, if a 'workers' variable
+is present at target level (network discovery only), sequentially otherwise.
