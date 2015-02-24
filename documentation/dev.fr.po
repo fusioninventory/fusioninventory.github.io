@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2015-02-24 20:31+0000\n"
+"POT-Creation-Date: 2015-02-24 20:36+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -130,15 +130,15 @@ msgid "Module-specific communication protocols:"
 msgstr ""
 
 #. type: Bullet: '* '
-msgid "[[ESX module|documentation/dev/spec/protocol/rest-esx]]"
+msgid "[[ESX module|documentation/dev/spec/protocol/esx]]"
 msgstr ""
 
 #. type: Bullet: '* '
-msgid "[[Deploy module|documentation/dev/spec/protocol/rest-deploy]]"
+msgid "[[Deploy module|documentation/dev/spec/protocol/deploy]]"
 msgstr ""
 
 #. type: Bullet: '* '
-msgid "[[Collect module|documentation/dev/spec/protocol/rest-collect]]"
+msgid "[[Collect module|documentation/dev/spec/protocol/collect]]"
 msgstr ""
 
 #. type: Bullet: '* '
