@@ -31,24 +31,22 @@
 
 # technical documentation
 
-## New communication protocol
+## Agent-server communication protocol
 
-API-REST is the New JSON based communication protocol used between the agent
-and the server. 
+Current agent-server communication is a mix of legacy XML and new JSON messages.
 
-* [[API-REST (partially implemented)|documentation/dev/spec/api/rest]]
-* [[API-REST-ESX (in use)|documentation/dev/spec/api/rest-esx]]
-* [[API-REST-Deploy (in use)|documentation/dev/spec/api/rest-deploy]]
-* [[API-REST-Inventory (in development)|documentation/dev/spec/api/rest-inventory]]
-* [[API-REST-Collect (in development)|documentation/dev/spec/api/rest-collect]]
+Generic task-scheduling protocol:
+* [[REST specification|documentation/dev/spec/protocol/rest]]
 
-## Legacy communication protocol
-
-* [[Inventory|documentation/dev/spec/inventory]]
-* [[Network discovery|documentation/dev/spec/netdiscovery]]
-* [[Network inventory|documentation/dev/spec/netinventory]]
-* [[Wake on lan|documentation/dev/spec/wakeonlan]]
-* [[Vocabulary|documentation/dev/spec/vocabulary]]
+Module-specific communication protocols:
+* [[ESX module|documentation/dev/spec/protocol/rest-esx]]
+* [[Deploy module|documentation/dev/spec/protocol/rest-deploy]]
+* [[Collect module|documentation/dev/spec/protocol/rest-collect]]
+* [[Inventory module|documentation/dev/spec/protocol/inventory]]
+* [[Network discovery module|documentation/dev/spec/protocol/netdiscovery]]
+* [[Network inventory module|documentation/dev/spec/protocol/netinventory]]
+* [[Wake on lan module|documentation/dev/spec/protocol/wakeonlan]]
+* [[Vocabulary|documentation/dev/spec/protocol/vocabulary]]
 
 ## Others
 
