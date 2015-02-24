@@ -1,0 +1,118 @@
+#  Task scheduling protocol
+
+## Agent request
+
+GET http://glpiserver/glpi/plugins/fusioninventory/api/tasks?agentid=xyz
+
+## Server response
+
+    {
+        'tasks': [
+            {
+                'id': 'task1',
+                'jobs': [
+                    {
+                        'id': 'job11',
+                        'type': 'netdiscovery',
+                        'perimeter': [
+                            {
+                                'network': '192.168.0.0/24',
+                                'workers': 10,
+                                'credentials': [
+                                    {
+                                        'version': '1',
+                                        'community': 'public'
+                                    },
+                                    {
+                                        'version': '2c',
+                                        'community': 'public'
+                                    },
+                                ],
+                            },
+                            {
+                                'network': '192.168.0.0/24',
+                                'workers': 5,
+                                'credentials': [
+                                    {
+                                        'version': '3',
+                                        'username': 'foo',
+                                        'authProtocol': 'sha1',
+                                        'authSecret': 'bar',
+                                    },
+                                ],
+                            },
+                        ],
+                    },
+                    {
+                        'id': 'job12'
+                        'type': 'netdiscovery'
+                        'perimeter': [
+                            {
+                                'network': '192.168.1.0/24',
+                                'workers': 10,
+                                'credentials': [
+                                    {
+                                        'version': '1',
+                                        'community': 'public'
+                                    },
+                                    {
+                                        'version': '2c',
+                                        'community': 'public'
+                                    },
+                                ],
+                            },
+                            {
+                                'network': '192.168.1.0/24',
+                                'workers': 5,
+                                'credentials': [
+                                    {
+                                        'version': '3',
+                                        'username': 'foo',
+                                        'authProtocol': 'sha1',
+                                        'authSecret': 'bar',
+                                    },
+                                ],
+                            },
+                        ],
+                    }
+                ],
+            },
+            {
+                'id': 'task2',
+                'jobs': [
+                    {
+                        'id': 'job21'
+                        'type': 'netinventory',
+                        'perimeter': [
+                            {
+                                'host': '192.168.1.1',
+                                'credentials': {
+                                    'version': '1',
+                                    'community': 'public'
+                                },
+                            },
+                            {
+                                'host': '192.168.1.2',
+                                'credentials': {
+                                    'version': '3',
+                                    'username': 'foo',
+                                    'authProtocol': 'sha1',
+                                    'authSecret': 'bar',
+                                },
+                            },
+                    },
+                ],
+            },
+            {
+                'id': 'task3',
+                'jobs': [
+                    {
+                        'id': 'job31'
+                        'type': 'inventory'
+                    },
+                ],
+            },
+
+        ],
+        'nextContactTime': 1424763734
+    }
