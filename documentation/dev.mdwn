@@ -36,10 +36,12 @@
 Current agent-server communication is a mix of legacy XML and new JSON messages.
 
 Generic task-scheduling protocol:
+
 * [[Original task scheduling specification|documentation/dev/spec/protocol/rest]]
 * [[Current task scheduling specification|documentation/dev/spec/protocol/scheduling]]
 
 Module-specific communication protocols:
+
 * [[ESX module|documentation/dev/spec/protocol/rest-esx]]
 * [[Deploy module|documentation/dev/spec/protocol/rest-deploy]]
 * [[Collect module|documentation/dev/spec/protocol/rest-collect]]
