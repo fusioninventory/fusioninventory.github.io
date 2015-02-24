@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2015-02-24 20:29+0000\n"
+"POT-Creation-Date: 2015-02-24 20:39+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -27,12 +27,29 @@ msgid "Agent request"
 msgstr ""
 
 #. type: Plain text
-msgid "GET http://glpiserver/glpi/plugins/fusioninventory/api/tasks?agentid=xyz"
+msgid ""
+"GET http://glpiserver/glpi/plugins/fusioninventory/api/tasks?agentid=xyz"
 msgstr ""
 
 #. type: Title ##
 #, no-wrap
 msgid "Server response"
+msgstr ""
+
+#. type: Plain text
+msgid ""
+"The server response is a list of tasks, and a timestamp for next agent "
+"request."
+msgstr ""
+
+#. type: Plain text
+msgid "A task had an identifier, and a list of jobs."
+msgstr ""
+
+#. type: Plain text
+msgid ""
+"A job has an identifier, a type and a perimeter, as a list of items on which "
+"to perform some action."
 msgstr ""
 
 #. type: Plain text
