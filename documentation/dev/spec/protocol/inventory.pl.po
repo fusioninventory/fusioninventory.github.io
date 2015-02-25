@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2015-02-18 07:23+0000\n"
+"POT-Creation-Date: 2015-02-25 08:26+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -26,18 +26,50 @@ msgstr ""
 msgid "Server to agent message"
 msgstr ""
 
+#. type: Title ###
+#, no-wrap
+msgid "Specification"
+msgstr ""
+
 #. type: Plain text
-msgid "TODO"
+#, no-wrap
+msgid ""
+"    {\n"
+"        'id': ''string'',\n"
+"        'type': 'inventory',\n"
+"        'scan-homedirs': ''boolean'',\n"
+"        'scan-profiles': ''boolean'',\n"
+"        'timeout': ''integer'',\n"
+"        'no-category': [\n"
+"            ''string'',\n"
+"            ''string'',\n"
+"            ...\n"
+"        ],\n"
+"        'additional-content': ''string''\n"
+"    }\n"
+msgstr ""
+
+#. type: Title ###
+#, no-wrap
+msgid "Example"
+msgstr ""
+
+#. type: Plain text
+#, no-wrap
+msgid ""
+"    {\n"
+"        'id': 'job1',\n"
+"        'type': 'inventory',\n"
+"        'scan-homedirs': 'true',\n"
+"        'scan-profiles': 'false',\n"
+"        'timeout': 15,\n"
+"        'no-category': [ 'printer' ]\n"
+"    }\n"
 msgstr ""
 
 #. type: Title ##
 #, no-wrap
 msgid "Agent to server message"
-msgstr ""
-
-#. type: Title ###
-#, no-wrap
-msgid "Specification"
 msgstr ""
 
 #. type: Plain text
@@ -846,11 +878,6 @@ msgid ""
 "      <!ELEMENT DEVICEID (#PCDATA)>\n"
 "      <!-- message type, ie \"SNMPQUERY\" -->\n"
 "      <!ELEMENT QUERY (#PCDATA)>\n"
-msgstr ""
-
-#. type: Title ###
-#, no-wrap
-msgid "Example"
 msgstr ""
 
 #. type: Plain text
