@@ -4,70 +4,44 @@
 
 ### Specification
 
-    {
-        'id': ''string'',
-        'type': 'netdiscovery',
-        'workers': ''integer'',
-        'targets': [
-            {
-                'network': ''string'',
-                'workers': ''integer'',
-                'timeout': ''integer'',
-                'credentials': [
-                    {
-                        'version': ''string'',
-                        'community: ''string'',
-                        'username: ''string'',
-                        'authprotocol: ''string'',
-                        'authpassword: ''string'',
-                        'privprotocol: ''string'',
-                        'privpassword: ''string'',
-                        'timeout: ''integer'',
-                    },
-                    ...
-                ]
-            },
-            ...
-        ]
-    }
+    <!ELEMENT REPLY (PROCESSNUMBER, OPTION)>
+    <!ELEMENT PROCESSNUMBER (#PCDATA)>
+    <!ELEMENT OPTION (NAME, PARAM, RANGEIP+, AUTHENTICATION+)>
+      <!ELEMENT NAME (#PCDATA)>
+
+      <!ELEMENT PARAM EMPTY>
+        <!ATTLIST PARAM THREADS_QUERY CDATA "1">
+        <!ATTLIST PARAM PID CDATA #REQUIRED>
+
+      <!ELEMENT RANGEIP EMPTY>
+        <!ATTLIST RANGEIP ID CDATA #REQUIRED>
+        <!ATTLIST RANGEIP IPSTART CDATA #REQUIRED>
+        <!ATTLIST RANGEIP IPEND CDATA #REQUIRED>
+        <!ATTLIST RANGEIP ENTITY CDATA #IMPLIED>
+
+      <!ELEMENT AUTHENTICATION EMPTY>
+        <!ATTLIST AUTHENTICATION ID CDATA #REQUIRED>
+        <!ATTLIST AUTHENTICATION VERSION CDATA #REQUIRED>
+        <!ATTLIST AUTHENTICATION COMMUNITY CDATA #IMPLIED>
+        <!ATTLIST AUTHENTICATION USERNAME CDATA #IMPLIED>
+        <!ATTLIST AUTHENTICATION AUTHPROTOCOL CDATA #IMPLIED>
+        <!ATTLIST AUTHENTICATION AUTHPASSPHRASE CDATA #IMPLIED>
+        <!ATTLIST AUTHENTICATION PRIVHPROTOCOL CDATA #IMPLIED>
+        <!ATTLIST AUTHENTICATION PRIVPASSPHRASE CDATA #IMPLIED>
 
 ### Example
 
-    {
-        'id': 'job1'
-        'type': 'netdiscovery',
-        'workers': 2,
-        'targets': [
-            {
-                'network': '192.168.0.0/24',
-                'workers': 10,
-                'timeout': 5,
-                'credentials': [
-                    {
-                        'version': '2c',
-                        'community': 'public'
-                    },
-                    {
-                        'version': '1',
-                        'community': 'public'
-                    },
-                ],
-            },
-            {
-                'network': '192.168.1.1-192.168.1.254',
-                'workers': 5,
-                'timeout': 2,
-                'credentials': [
-                    {
-                        'version': '3',
-                        'username': 'foo',
-                        'authprotocol': 'sha1',
-                        'authpassword': 'bar',
-                    },
-                ],
-            },
-        ],
-    },
+    <?xml version="1.0" encoding="UTF-8"?>
+    <REPLY>
+      <PROCESSNUMBER>1280265592/024</PROCESSNUMBER>
+      <OPTION>
+        <NAME>NETDISCOVERY</NAME>
+        <PARAM THREADS_DISCOVERY="10" PID="1280265592/024"/>
+        <RANGEIP ID="1" IPSTART="192.168.0.1" IPEND="192.168.0.254" ENTITY="15"/>
+        <AUTHENTICATION ID="1" COMMUNITY="public" VERSION="1" USERNAME="" AUTHPROTOCOL="" AUTHPASSPHRASE="" PRIVPROTOCOL="" PRIVPASSPHRASE=""/>
+        <AUTHENTICATION ID="2" COMMUNITY="public" VERSION="2c" USERNAME="" AUTHPROTOCOL="" AUTHPASSPHRASE="" PRIVPROTOCOL="" PRIVPASSPHRASE=""/>
+      </OPTION>
+    </REPLY>
 
 ## Agent to server message
 

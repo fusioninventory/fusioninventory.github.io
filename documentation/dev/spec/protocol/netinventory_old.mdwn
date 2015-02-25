@@ -4,56 +4,43 @@
 
 ### Specification
 
-    {
-	    'id': ''string'',
-        'type': 'netinventory',
-        'workers': ''integer'',
-        'targets': [
-            {
-                'host': ''string'',
-                'type': ''string'',
-                'credentials': {
-                    'version': ''string'',
-                    'community: ''string'',
-                    'username: ''string'',
-                    'authprotocol: ''string'',
-                    'authpassword: ''string'',
-                    'privprotocol: ''string'',
-                    'privpassword: ''string'',
-                    'timeout: ''integer'',
-                }
-            },
-            ...
-        ]
-    }
+    <!ELEMENT REPLY (PROCESSNUMBER, OPTION)>
+    <!ELEMENT PROCESSNUMBER (#PCDATA)>
+    <!ELEMENT OPTION (NAME, PARAM, DEVICE+, AUTHENTICATION+)>
+      <!ELEMENT NAME (#PCDATA)>
+
+      <!ELEMENT PARAM EMPTY>
+        <!ATTLIST PARAM THREADS_QUERY CDATA "1">
+        <!ATTLIST PARAM PID CDATA #REQUIRED>
+
+      <!ELEMENT DEVICE EMPTY>
+        <!ATTLIST DEVICE TYPE (COMPUTER|NETWORKING|PRINTER|STORAGE|POWER|PHONE|VIDEO|KVM) #REQUIRED>
+        <!ATTLIST DEVICE ID CDATA #REQUIRED>
+        <!ATTLIST DEVICE IP CDATA #REQUIRED>
+        <!ATTLIST DEVICE IP AUTHSNMP_ID #REQUIRED>
+
+      <!ELEMENT AUTHENTICATION EMPTY>
+        <!ATTLIST AUTHENTICATION ID CDATA #REQUIRED>
+        <!ATTLIST AUTHENTICATION VERSION CDATA #REQUIRED>
+        <!ATTLIST AUTHENTICATION COMMUNITY CDATA #IMPLIED>
+        <!ATTLIST AUTHENTICATION USERNAME CDATA #IMPLIED>
+        <!ATTLIST AUTHENTICATION AUTHPROTOCOL CDATA #IMPLIED>
+        <!ATTLIST AUTHENTICATION AUTHPASSPHRASE CDATA #IMPLIED>
+        <!ATTLIST AUTHENTICATION PRIVHPROTOCOL CDATA #IMPLIED>
+        <!ATTLIST AUTHENTICATION PRIVPASSPHRASE CDATA #IMPLIED>
 
 ### Example
 
-    {
-        'id': 'job1'
-        'type': 'netinventory',
-        'workers': 2,
-        'targets': [
-            {
-                'host': '192.168.1.1',
-                'type': 'printer',
-                'credentials': {
-                    'version': '2c',
-                    'community': 'public'
-                },
-            },
-            {
-                'host': '192.168.1.2',
-                'type': 'networking',
-                'credentials': {
-                    'version': '3',
-                    'username': 'foo',
-                    'authprotocol': 'sha1',
-                    'authpassword': 'bar',
-                },
-            },
-        ],
-    },
+    <?xml version="1.0" encoding="UTF-8"?>
+    <REPLY>
+      <PROCESSNUMBER>1280265498/024</PROCESSNUMBER>
+      <OPTION>
+        <NAME>SNMPQUERY</NAME>
+        <PARAM THREADS_QUERY="4" PID="1280265498/024"/>
+        <DEVICE TYPE="PRINTER" ID="72" IP="192.168.0.151" AUTHSNMP_ID="1"/>
+        <AUTHENTICATION ID="1" COMMUNITY="public" VERSION="1" USERNAME="" AUTHPROTOCOL="" AUTHPASSPHRASE="" PRIVPROTOCOL="" PRIVPASSPHRASE=""/>
+      </OPTION>
+    </REPLY>
 
 ## Agent to server message
 

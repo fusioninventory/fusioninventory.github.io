@@ -35,26 +35,28 @@ A job has an identifier, a type and a list of targets.
                             {
                                 'network': '192.168.0.0/24',
                                 'workers': 10,
+                                'timeout': 5,
                                 'credentials': [
                                     {
-                                        'version': '1',
+                                        'version': '2c',
                                         'community': 'public'
                                     },
                                     {
-                                        'version': '2c',
+                                        'version': '1',
                                         'community': 'public'
                                     },
                                 ],
                             },
                             {
-                                'network': '192.168.0.0/24',
+                                'network': '192.168.1.1-192.168.1.254',
                                 'workers': 5,
+                                'timeout': 2,
                                 'credentials': [
                                     {
                                         'version': '3',
                                         'username': 'foo',
-                                        'authProtocol': 'sha1',
-                                        'authSecret': 'bar',
+                                        'authprotocol': 'sha1',
+                                        'authpassword': 'bar',
                                     },
                                 ],
                             },
@@ -67,20 +69,23 @@ A job has an identifier, a type and a list of targets.
                         'targets': [
                             {
                                 'host': '192.168.1.1',
+                                'type': 'printer,'
                                 'credentials': {
-                                    'version': '1',
+                                    'version': '2c',
                                     'community': 'public'
                                 },
                             },
                             {
                                 'host': '192.168.1.2',
+                                'type': 'networking,'
                                 'credentials': {
                                     'version': '3',
                                     'username': 'foo',
-                                    'authProtocol': 'sha1',
-                                    'authSecret': 'bar',
+                                    'authprotocol': 'sha1',
+                                    'authpassword': 'bar',
                                 },
                             },
+                        ],
                     },
                 ],
             },

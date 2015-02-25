@@ -2,7 +2,32 @@
 
 ## Server to agent message
 
-TODO
+### Specification
+
+    {
+        'id': ''string'',
+        'type': 'inventory',
+        'scan-homedirs': ''boolean'',
+        'scan-profiles': ''boolean'',
+        'timeout': ''integer'',
+        'no-category': [
+            ''string'',
+            ''string'',
+            ...
+        ],
+        'additional-content': ''string''
+    }
+
+### Example
+
+    {
+        'id': 'job1',
+        'type': 'inventory',
+        'scan-homedirs': 'true',
+        'scan-profiles': 'false',
+        'timeout': 15,
+        'no-category': [ 'printer' ]
+    }
 
 ## Agent to server message
 
