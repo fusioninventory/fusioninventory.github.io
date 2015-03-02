@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2013-10-09 17:41+0000\n"
+"POT-Creation-Date: 2015-03-02 19:37+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -28,25 +28,81 @@ msgstr ""
 
 #. type: Title ##
 #, no-wrap
-msgid "Tasks are not enabled"
+msgid "Configuration and deployment"
+msgstr ""
+
+#. type: Title ###
+#, no-wrap
+msgid "On which platforms is the FusionInventory agent available?"
+msgstr ""
+
+#. type: Plain text
+msgid ""
+"The agent is available on Windows, MacOS X, Linux, FreeBSD, OpenBSD, NetBSD, "
+"DragonFlyBSD, AIX, Solaris, HP-UX. The agent shares the same codebase on all "
+"these platforms."
+msgstr ""
+
+#. type: Plain text
+msgid ""
+"An agent for Android is also available on [Google Play](https://play.google."
+"com/store/apps/details?id=org.fusioninventory)."
+msgstr ""
+
+#. type: Title ###
+#, no-wrap
+msgid "Is FusionInventory agent compatible with OCS Inventory NG Server?"
+msgstr ""
+
+#. type: Plain text
+msgid ""
+"Yes, your server will need to be configured to accept the Fusioninventory "
+"UserAgent in the ocsinventory-server.conf"
 msgstr ""
 
 #. type: Plain text
 #, no-wrap
 msgid ""
-"    Task NetInventory is not enabled\n"
-"    Task NetDiscovery is not enabled\n"
+"    #Path for external useragents reference file\n"
+"    #!! WARNING !! : external agents may not be supported by OCS NG Community ! \n"
+"    #PerlSetEnv OCS_OPT_EXT_USERAGENTS_FILE_PATH /tmp/yourfile.txt\n"
 msgstr ""
 
 #. type: Plain text
 msgid ""
-"These messages show up in the agent log when the server do not ask for an "
-"Network Discovery or a Network Inventory."
+"The /tmp/yourfile.txt is a list of the UserAgent that should be accepted. "
+"For example:"
 msgstr ""
 
-#. type: Title ##
+#. type: Plain text
 #, no-wrap
-msgid "How to redirect OCS agent with Apache"
+msgid ""
+"    FusionInventory-Agent_v2.1.9-3\n"
+"    FusionInventory-Agent_v2.1.13-1\n"
+"    FusionInventory-Agent_v2.2.5-1\n"
+"    FusionInventory-Agent_v2.2.7-3\n"
+msgstr ""
+
+#. type: Plain text
+msgid "This step is not required with the legacy 1.x server."
+msgstr ""
+
+#. type: Plain text
+msgid ""
+"Please note that FusionInventory-Agent doesn’t support OCS’s IP Discover "
+"feature, and that OCS Deployment module is now deprecated and will not be "
+"developped anymore."
+msgstr ""
+
+#. type: Plain text
+msgid ""
+"If you’re looking for a software deployment solution, FusionInventory "
+"provides it’s own, which is integrated into GLPI."
+msgstr ""
+
+#. type: Title ###
+#, no-wrap
+msgid "How to redirect OCS agent with Apache?"
 msgstr ""
 
 #. type: Plain text
@@ -104,7 +160,102 @@ msgstr ""
 
 #. type: Title ##
 #, no-wrap
-msgid "I get *Unable to find agent to run this job* message"
+msgid "How can I configure two or more servers?"
+msgstr ""
+
+#. type: Plain text
+#, no-wrap
+msgid ""
+" In the agent configuration file, you can define several servers to\n"
+"communicate with. For example to communicate with three servers:\n"
+"FusionInventory Server for GLPI 0.80 and 0.83, and OCSInventory server:\n"
+msgstr ""
+
+#. type: Plain text
+#, no-wrap
+msgid "    server = http://glpi080/plugins/fusioninventory/front/plugin_fusioninventory.communication.php, http://glpi083/plugins/fusioninventory/, http://ocsinventory-ng/ocsinventory\n"
+msgstr ""
+
+#. type: Plain text
+msgid ""
+"The agent will contact each server in the order defined in the configuration "
+"file, and perform the actions requested from each of them."
+msgstr ""
+
+#. type: Title ###
+#, no-wrap
+msgid "Can I use a mastering software like Ghost to deploy my agent?"
+msgstr ""
+
+#. type: Plain text
+msgid ""
+"Yes. However, take care to not duplicate agent state directory, otherwise "
+"multiple agents will use the same identifier."
+msgstr ""
+
+#. type: Title ##
+#, no-wrap
+msgid "How can I..."
+msgstr ""
+
+#. type: Title ###
+#, no-wrap
+msgid "inventory my virtual machines ?"
+msgstr ""
+
+#. type: Plain text
+msgid "As for every other machine: install an agent on it."
+msgstr ""
+
+#. type: Plain text
+msgid ""
+"Running a local inventory on a host doesn't actually perform an actual "
+"inventory of its guests, it just retrieve minimal information, such as "
+"virtual machine identifier, so as to compute the relationship between the "
+"guest and the host."
+msgstr ""
+
+#. type: Title ###
+#, no-wrap
+msgid "inventory my printers ?"
+msgstr ""
+
+#. type: Plain text
+msgid "For local (USB) printers, run a local inventory on the host."
+msgstr ""
+
+#. type: Plain text
+msgid ""
+"For network printers, run a network inventory from any agent able to "
+"communicate through SNMP with the printer."
+msgstr ""
+
+#. type: Title ##
+#, no-wrap
+msgid "Usual issues"
+msgstr ""
+
+#. type: Title ###
+#, no-wrap
+msgid "*Task X is not enabled* message"
+msgstr ""
+
+#. type: Plain text
+#, no-wrap
+msgid ""
+"    Task NetInventory is not enabled\n"
+"    Task NetDiscovery is not enabled\n"
+msgstr ""
+
+#. type: Plain text
+msgid ""
+"These messages show up in the agent log when the server do not ask for an "
+"Network Discovery or a Network Inventory."
+msgstr ""
+
+#. type: Title ###
+#, no-wrap
+msgid "*Unable to find agent to run this job* message"
 msgstr ""
 
 #. type: Plain text
@@ -127,100 +278,9 @@ msgid ""
 "has *Network discovery* and *Network inventory (SNMP)* modules turned on"
 msgstr ""
 
-#. type: Title ##
+#. type: Title ###
 #, no-wrap
-msgid "On which platforms is the FusionInventory agent available?"
-msgstr ""
-
-#. type: Plain text
-msgid ""
-"The agent is available on Windows, MacOS X, Linux, FreeBSD, OpenBSD, NetBSD, "
-"DragonFlyBSD, AIX, Solaris, HP-UX. The agent shares the same codebase on all "
-"these platforms."
-msgstr ""
-
-#. type: Plain text
-msgid ""
-"An agent for Android is also available on [Google Play](https://play.google."
-"com/store/apps/details?id=org.fusioninventory)."
-msgstr ""
-
-#. type: Title ##
-#, no-wrap
-msgid "How can I configure two or more servers"
-msgstr ""
-
-#. type: Plain text
-#, no-wrap
-msgid ""
-" In the agent configuration file, you can define several servers to\n"
-"communicate with.\n"
-"For example to communicate with three servers: FusionInventory Server\n"
-"for GLPI 0.80 and 0.83, and OCSInventory server:\n"
-msgstr ""
-
-#. type: Plain text
-#, no-wrap
-msgid ""
-"    server=http://glpi080/plugins/fusioninventory/front/plugin_fusioninventory.communication.php, http://glpi083/plugins/fusioninventory/, http://ocsinventory-ng/ocsinventory\n"
-"The agent will contact each server in the order defined in the configuration\n"
-"file, and perform the actions requested from each of them.\n"
-msgstr ""
-
-#. type: Title ##
-#, no-wrap
-msgid "Is FusionInventory agent compatible with OCS Inventory NG Server?"
-msgstr ""
-
-#. type: Plain text
-msgid ""
-"Yes, your server will need to be configured to accept the Fusioninventory "
-"UserAgent in the ocsinventory-server.conf"
-msgstr ""
-
-#. type: Plain text
-#, no-wrap
-msgid ""
-"    #Path for external useragents reference file\n"
-"    #!! WARNING !! : external agents may not be supported by OCS NG Community ! \n"
-"    #PerlSetEnv OCS_OPT_EXT_USERAGENTS_FILE_PATH /tmp/yourfile.txt\n"
-msgstr ""
-
-#. type: Plain text
-msgid ""
-"The /tmp/yourfile.txt is a list of the UserAgent that should be accepted. "
-"For example:"
-msgstr ""
-
-#. type: Plain text
-#, no-wrap
-msgid ""
-"    FusionInventory-Agent_v2.1.9-3\n"
-"    FusionInventory-Agent_v2.1.13-1\n"
-"    FusionInventory-Agent_v2.2.5-1\n"
-"    FusionInventory-Agent_v2.2.7-3\n"
-msgstr ""
-
-#. type: Plain text
-msgid "This step is not required with the legacy 1.x server."
-msgstr ""
-
-#. type: Plain text
-msgid ""
-"Please note that FusionInventory-Agent doesn’t support OCS’s IP Discover "
-"feature, and that OCS Deployment module is now deprecated and will not be "
-"developped anymore."
-msgstr ""
-
-#. type: Plain text
-msgid ""
-"If you’re looking for a software deployment solution, FusionInventory "
-"provides it’s own, which is integrated into GLPI."
-msgstr ""
-
-#. type: Title ##
-#, no-wrap
-msgid "My agent refuses to start a job with the \"Bad token\" error"
+msgid "*Bad token* message"
 msgstr ""
 
 #. type: Plain text
@@ -242,9 +302,32 @@ msgstr ""
 msgid "[[!template  id=warning text=\"A bug fixed in 2.2.7 prevent the use of `rpc-trust-localhost` and `httpd-trust`.\"]]\n"
 msgstr ""
 
-#. type: Title ##
+#. type: Title ###
 #, no-wrap
-msgid "I get a duplicated computer, what appends?"
+msgid "*end_request: I/O error, dev fd0, sector 0* message"
+msgstr ""
+
+#. type: Plain text
+msgid ""
+"This can append on Linux box with floppy driver like most of the VMware "
+"virtual machine. You can work around the problem by unloading the floppy "
+"kernel module:"
+msgstr ""
+
+#. type: Plain text
+#, no-wrap
+msgid "    rmmod floppy\n"
+msgstr ""
+
+#. type: Plain text
+msgid ""
+"The error is generated when the agent launch the following command `fdisk -"
+"l`."
+msgstr ""
+
+#. type: Title ###
+#, no-wrap
+msgid "Duplicated computers in inventory"
 msgstr ""
 
 #. type: Plain text
@@ -269,55 +352,9 @@ msgstr ""
 msgid "One of this information is probably duplicated."
 msgstr ""
 
-#. type: Title ##
+#. type: Title ###
 #, no-wrap
-msgid "Can I use a mastering software like Ghost to deploy my agent"
-msgstr ""
-
-#. type: Plain text
-msgid ""
-"Yes you can as soon as to clean up the 'var' directory just before the "
-"master creation."
-msgstr ""
-
-#. type: Title ##
-#, no-wrap
-msgid "How can I inventory my VMware Workstation virtual machines"
-msgstr ""
-
-#. type: Plain text
-msgid ""
-"VMware Workstation is only supported on Linux and MacOSX. You can will "
-"probably need the _scan-homedirs_ parameter. This way, the agent will look "
-"for Virtual machine in user directories."
-msgstr ""
-
-#. type: Title ##
-#, no-wrap
-msgid "I get `end_request: I/O error, dev fd0, sector 0` error message"
-msgstr ""
-
-#. type: Plain text
-msgid ""
-"This can append on Linux box with floppy driver like most of the VMware "
-"virtual machine. You can work around the problem by unloading the floppy "
-"kernel module:"
-msgstr ""
-
-#. type: Plain text
-#, no-wrap
-msgid "    rmmod floppy\n"
-msgstr ""
-
-#. type: Plain text
-msgid ""
-"The error is generated when the agent launch the following command `fdisk -"
-"l`."
-msgstr ""
-
-#. type: Title ##
-#, no-wrap
-msgid "The agent misses some information like memory or CPU when called by cron"
+msgid "Missing information when called from cron"
 msgstr ""
 
 #. type: Plain text
@@ -335,9 +372,9 @@ msgstr ""
 msgid "    PATH=/usr/local/sbin:/usr/local/bin:/sbin:/bin:/usr/sbin:/usr/bin\n"
 msgstr ""
 
-#. type: Title ##
+#. type: Title ###
 #, no-wrap
-msgid "My agent has now a strange token “12345678”"
+msgid "Strange agent token “12345678”"
 msgstr ""
 
 #. type: Plain text
