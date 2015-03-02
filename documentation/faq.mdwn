@@ -10,7 +10,7 @@
 These messages show up in the agent log when the server do not ask for an Network
 Discovery or a Network Inventory.
 
-## How to redirect OCS agent with Apache
+## How to redirect OCS agent with Apache?
 
 You can use an [alias](http://httpd.apache.org/docs/2.2/mod/mod_alias.html) directive to
 redirect traffic from /ocsinventory to FusionInventory.
@@ -54,7 +54,7 @@ codebase on all these platforms.
 
 An agent for Android is also available on [Google Play](https://play.google.com/store/apps/details?id=org.fusioninventory).
 
-## How can I configure two or more servers
+## How can I configure two or more servers?
 
  In the agent configuration file, you can define several servers to
 communicate with.
@@ -100,7 +100,7 @@ provides it’s own, which is integrated into GLPI.
 
 [[!template  id=warning text="A bug fixed in 2.2.7 prevent the use of `rpc-trust-localhost` and `httpd-trust`."]]
 
-## I get a duplicated computer, what appends?
+## I get a duplicated computer, what happens?
 
 With the default settings, FusionInventory for GLPI use the follow criteria to identify computer:
 
@@ -110,11 +110,11 @@ With the default settings, FusionInventory for GLPI use the follow criteria to i
 
 One of this information is probably duplicated.
 
-## Can I use a mastering software like Ghost to deploy my agent
+## Can I use a mastering software like Ghost to deploy my agent?
 
 Yes you can as soon as to clean up the 'var' directory just before the master creation.
 
-## How can I inventory my VMware Workstation virtual machines
+## How can I inventory my VMware Workstation virtual machines?
 
 VMware Workstation is only supported on Linux and MacOSX. You can will probably need
 the _scan-homedirs_ parameter. This way, the agent will look for Virtual machine in user directories.
