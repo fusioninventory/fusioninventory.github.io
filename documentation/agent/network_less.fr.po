@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2015-03-03 13:26+0000\n"
+"POT-Creation-Date: 2015-03-03 13:30+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -26,15 +26,20 @@ msgid "The agent is able to create an file with the inventory:"
 msgstr ""
 
 #. type: Plain text
-msgid ""
-"fusioninventory-agent --local /tmp On Windows, you can add the 'local' key "
-"in the the registry and associate it with a directory."
+#, no-wrap
+msgid "    fusioninventory-agent --local /tmp\n"
 msgstr ""
 
 #. type: Plain text
 msgid ""
-"You can get the full documentation of the agent in the "
-"[reference](http://www.fusioninventory.org/documentation/references/) page."
+"On Windows, you can add the 'local' key in the the registry and associate it "
+"with a directory."
+msgstr ""
+
+#. type: Plain text
+msgid ""
+"You can get the full documentation of the agent in the [reference](http://"
+"www.fusioninventory.org/documentation/references/) page."
 msgstr ""
 
 #. type: Title =
@@ -49,9 +54,7 @@ msgstr ""
 
 #. type: Plain text
 #, no-wrap
-msgid ""
-"Go in Plugins > FusionInventory > Import agent XML Menu and upload the "
-"XML.\n"
+msgid "Go in Plugins > FusionInventory > Import agent XML Menu and upload the XML.\n"
 msgstr ""
 
 #. type: Title -
@@ -61,9 +64,7 @@ msgstr ""
 
 #. type: Plain text
 #, no-wrap
-msgid ""
-"    fusioninventory-injector -v -f myfile.xml -u "
-"http://glpi083/plugins/fusioninventory/\n"
+msgid "    fusioninventory-injector -v -f myfile.xml -u http://glpi083/plugins/fusioninventory/\n"
 msgstr ""
 
 #. type: Plain text
@@ -86,11 +87,7 @@ msgstr ""
 
 #. type: Plain text
 #, no-wrap
-msgid ""
-"    curl --header \"Content-Type: Application/x-compress\" --cacert "
-"your-ca.pem -u username:password --data "
-"@/tmp/lazer.local-2011-10-04-12-21-23.ocs "
-"https://glpi/plugins/fusioninventory/\n"
+msgid "    curl --header \"Content-Type: Application/x-compress\" --cacert your-ca.pem -u username:password --data @/tmp/lazer.local-2011-10-04-12-21-23.ocs https://glpi/plugins/fusioninventory/\n"
 msgstr ""
 
 #. type: Plain text
@@ -99,8 +96,5 @@ msgstr ""
 
 #. type: Plain text
 #, no-wrap
-msgid ""
-"    curl --header \"Content-Type: Application/x-compress\" -k --data "
-"@/tmp/monposte.local-2012-10-04-12-21-23.ocs "
-"https://myglpiserver/plugins/fusioninventory/\n"
+msgid "    curl --header \"Content-Type: Application/x-compress\" -k --data @/tmp/monposte.local-2012-10-04-12-21-23.ocs https://myglpiserver/plugins/fusioninventory/\n"
 msgstr ""
