@@ -1,4 +1,4 @@
-[[!meta  date="2014-09-25"]]
+[[!meta  date="2015-03-01"]]
 # FusionInventory Agent 2.3.16 release
 
 Hello FusionInventory users,
