@@ -18,18 +18,18 @@ msgstr ""
 
 #. type: Title #
 #, no-wrap
-msgid "NAME"
+msgid "NOM"
 msgstr ""
 
 #. type: Plain text
 msgid ""
-"fusioninventory-agent - FusionInventory agent For Linux/UNIX, Windows and "
+"fusioninventory-agent - Agent FusionInventory agent pourLinux/UNIX, Windows et"
 "MacOSX"
 msgstr ""
 
 #. type: Title #
 #, no-wrap
-msgid "SYNOPSIS"
+msgid "RÉSUMÉ"
 msgstr ""
 
 #. type: Plain text
@@ -40,41 +40,41 @@ msgstr ""
 #. type: Plain text
 #, no-wrap
 msgid ""
-"    Target definition options:\n"
-"      -s --server=URI                send tasks result to a server\n"
-"      -l --local=PATH                write tasks results locally\n"
+"    Options de définition de la cible :\n"
+"      -s --server=URI                envoi les résultats des tâches à un serveur\n"
+"      -l --local=PATH                écrit les résultats des tâches localement\n"
 msgstr ""
 
 #. type: Plain text
 #, no-wrap
 msgid ""
-"    Target scheduling options:\n"
-"      --delaytime=LIMIT              maximum delay before first target,\n"
-"                                       in seconds (3600)\n"
-"      --lazy                         do not contact the target before\n"
-"                                     next scheduled time\n"
+"    Options de planification des cibles :\n"
+"      --delaytime=LIMIT              délais maximum avant le premier contact,\n"
+"                                       en seconds (3600)\n"
+"      --lazy                         ne pas contacter la cible avant\n"
+"                                     la prochaine période\n"
 msgstr ""
 
 #. type: Plain text
 #, no-wrap
 msgid ""
-"    Task selection options:\n"
-"      --list-tasks                   list available tasks and exit\n"
-"      --no-task=TASK                 do not run given task\n"
+"    Options de sélection des tâches :\n"
+"      --list-tasks                   lister les tâches disponibles et ferme\n"
+"      --no-task=TASK                 ne pas lancer la tâche donnée\n"
 msgstr ""
 
 #. type: Plain text
 #, no-wrap
 msgid ""
-"    Inventory task specific options:\n"
-"      --no-category=CATEGORY         do not list given category items\n"
-"      --scan-homedirs                scan user home directories (false)\n"
-"      --scan-profiles                scan user profiles (false)\n"
-"      --html                         save the inventory as HTML (false)\n"
-"      -f --force                     always send data to server (false)\n"
-"      --backend-collect-timeout=TIME timeout for inventory modules\n"
-"                                       execution (30)\n"
-"      --additional-content=FILE      additional inventory content file\n"
+"    Options spécifiques des tâches d'inventaire :\n"
+"      --no-category=CATEGORY         ne pas lister les catégories données\n"
+"      --scan-homedirs                scanner les dossier home utilisateurs(false)\n"
+"      --scan-profiles                scanner les profils utilisateurs(false)\n"
+"      --html                         enregistrer l'inventaire enHTML (false)\n"
+"      -f --force                     toujours envoyer les données au serveur (false)\n"
+"      --backend-collect-timeout=TIME expiration des modules d'inventaire\n"
+"                                       en nombre d'exécutions (30)\n"
+"      --additional-content=FILE      fichier de contenu d'inventaire additionnel\n"
 msgstr ""
 
 #. type: Plain text
@@ -88,15 +88,15 @@ msgstr ""
 #. type: Plain text
 #, no-wrap
 msgid ""
-"    Network options:\n"
-"      -P --proxy=PROXY               proxy address\n"
-"      -u --user=USER                 user name for server authentication\n"
-"      -p --password=PASSWORD         password for server authentication\n"
-"      --ca-cert-dir=DIRECTORY        CA certificates directory\n"
-"      --ca-cert-file=FILE            CA certificates file\n"
-"      --no-ssl-check                 do not check server SSL certificate\n"
+"    Options de réseau :\n"
+"      -P --proxy=PROXY               adresse du proxy\n"
+"      -u --user=USER                 nom d'utilisateur pour le serveur d'authentification\n"
+"      -p --password=PASSWORD         mot de passe pour le serveur d'authentification\n"
+"      --ca-cert-dir=DIRECTORY        dossier des certificats CA\n"
+"      --ca-cert-file=FILE            fichier des certificats CA\n"
+"      --no-ssl-check                 ne pas vérifier le certificat du serveur SSL\n"
 "                                       (false)\n"
-"      --timeout=TIME                 connection timeout, in seconds (180)\n"
+"      --timeout=TIME                 délais de déconnexion, en seconds (180)\n"
 msgstr ""
 
 #. type: Plain text
