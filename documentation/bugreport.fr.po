@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2014-10-16 16:41+0000\n"
+"POT-Creation-Date: 2015-03-17 15:38+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -87,16 +87,21 @@ msgid ""
 "[agent bugtracker](http://forge.fusioninventory.org/projects/fusioninventory-"
 "agent/issues) for agent issues"
 msgstr ""
-"[bugtracker de l'agent](http://forge.fusioninventory.org/projects/fusioninventory-"
-"agent/issues) pour les problèmes liés à l'agent"
+"[bugtracker de l'agent](http://forge.fusioninventory.org/projects/"
+"fusioninventory-agent/issues) pour les problèmes liés à l'agent"
 
 #. type: Bullet: '* '
+#, fuzzy
+#| msgid ""
+#| "[server bugtracker](http://forge.fusioninventory.org/projects/"
+#| "fusioninventory-for-glpi/issues) for server issues (GLPI plugin)"
 msgid ""
 "[server bugtracker](http://forge.fusioninventory.org/projects/"
-"fusioninventory-for-glpi/issues) for server issues (GLPI plugin)"
+"fusioninventory-for-glpi/issues) for server issues"
 msgstr ""
 "[bugtracker du serveur](http://forge.fusioninventory.org/projects/"
-"fusioninventory-for-glpi/issues) pour les problèmes liés au serveur (plugin GLPI)"
+"fusioninventory-for-glpi/issues) pour les problèmes liés au serveur (plugin "
+"GLPI)"
 
 #. type: Title ##
 #, no-wrap
@@ -116,8 +121,9 @@ msgid ""
 msgstr ""
 "Vous devez décrire le problème clairement et précisément, pour qu'une "
 "personne ne connaissant pas votre système puisse comprendre. Il ne suffit "
-"pas de poster une capture d'écran si vous pouvez décrire le problème. Publier"
-"des extraits de log significatif, ou les messages de l'agent, sont plus appropriés."
+"pas de poster une capture d'écran si vous pouvez décrire le problème. "
+"Publierdes extraits de log significatif, ou les messages de l'agent, sont "
+"plus appropriés."
 
 #. type: Plain text
 msgid ""
@@ -153,8 +159,9 @@ msgstr ""
 msgid ""
 "Server log verbosity may be increased by enabling *extra-debug* "
 "configuration parameter in plugin configuration."
-msgstr "Le niveau de détail des logs serveur peut être augmenté en activant le paramètre "
-"*extra-debug* dans la configuration du plugin."
+msgstr ""
+"Le niveau de détail des logs serveur peut être augmenté en activant le "
+"paramètre *extra-debug* dans la configuration du plugin."
 
 #. type: Plain text
 msgid ""
@@ -162,9 +169,9 @@ msgid ""
 "task execution messages, for instance, when dealing with a remote inventory "
 "issue."
 msgstr ""
-"Merci de ne poster qu'une partie pertinente de journaux: nous ne nous intéressons pas "
-"aux messages locaux de l'exécution de tâches d'inventaire, par exemple, lorsqu'il s'agit "
-"d'un problème d'inventaire à distance."
+"Merci de ne poster qu'une partie pertinente de journaux: nous ne nous "
+"intéressons pas aux messages locaux de l'exécution de tâches d'inventaire, "
+"par exemple, lorsqu'il s'agit d'un problème d'inventaire à distance."
 
 #. type: Title ##
 #, no-wrap
@@ -178,11 +185,11 @@ msgid ""
 "command output, a file, whatever...). In order to reproduce the problem, fix "
 "it, and ensure it won't happen again, we need a sample of those data."
 msgstr ""
-"Quand le problème concerne une valeur manquante ou invalide, la plupart du temps,"
-"cela est due à une erreur d'analyse lors du traitement des données externes (une "
-"sortie de commande, un fichier, quoi que soit ...). Pour reproduire le problème,"
-" le corriger, et s'assurer qu'elle ne se reproduira pas, nous avons besoin d'un"
-" échantillon de ces données."
+"Quand le problème concerne une valeur manquante ou invalide, la plupart du "
+"temps,cela est due à une erreur d'analyse lors du traitement des données "
+"externes (une sortie de commande, un fichier, quoi que soit ...). Pour "
+"reproduire le problème, le corriger, et s'assurer qu'elle ne se reproduira "
+"pas, nous avons besoin d'un échantillon de ces données."
 
 #. type: Plain text
 msgid ""
@@ -192,24 +199,35 @@ msgid ""
 "dot org*, with bug ID in mail subject."
 msgstr ""
 "Soit joindre le fichier concerné ou la sortie de la commande en pièce jointe "
-"au rapport de bug (juste coller entraîne généralement une perte de formatage), ou"
-" s'il y a des problème de confidentialité, les envoyer par e-mail *walk at fusioninventory,"
-" avec bug ID dans l'objet du message."
+"au rapport de bug (juste coller entraîne généralement une perte de "
+"formatage), ou s'il y a des problème de confidentialité, les envoyer par e-"
+"mail *walk at fusioninventory, avec bug ID dans l'objet du message."
 
 #. type: Plain text
+#, fuzzy
+#| msgid ""
+#| "When running any command for such purpose, unset locales first (export "
+#| "LC_ALL=C under Unix) to avoid localized output. Here are other command-"
+#| "specific advices."
 msgid ""
 "When running any command for such purpose, unset locales first (export "
-"LC_ALL=C under Unix) to avoid localized output. Here are other command-"
+"LC_ALL=C undex Unix) to avoid localized output. Here are other command-"
 "specific advices."
 msgstr ""
-"Lors de l'exécution de commandes dans cet objectif, dévalider la localisation en premier "
-"(export LC_ALL=C sous Unix) pour éviter la sortie localisée. Voici d'autres conseils "
-"spécifiques aux commandes."
+"Lors de l'exécution de commandes dans cet objectif, dévalider la "
+"localisation en premier (export LC_ALL=C sous Unix) pour éviter la sortie "
+"localisée. Voici d'autres conseils spécifiques aux commandes."
 
 #. type: Title ###
 #, no-wrap
 msgid "WMI queries"
 msgstr "Requêtes WMI"
+
+#. type: Plain text
+#, fuzzy
+#| msgid "Windows registry content can be exported with regedit tool:"
+msgid "Windows WMI queries can be exported with wmic tool:"
+msgstr "le contenu du registre Windows peut être exporté avec l'outil regedit:"
 
 #. type: Plain text
 #, fuzzy, no-wrap
@@ -222,7 +240,6 @@ msgid "Registry extract"
 msgstr "Extrait du registre"
 
 #. type: Plain text
-#, no-wrap
 msgid "Windows registry content can be exported with regedit tool:"
 msgstr "le contenu du registre Windows peut être exporté avec l'outil regedit:"
 
