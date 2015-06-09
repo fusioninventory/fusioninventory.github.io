@@ -28,7 +28,7 @@ msgid ""
 "and\n"
 "mandriva.\n"
 msgstr ""
-"*fusioninventory-agent* fait parti du *official repository* pour mageia "
+"*fusioninventory-agent* fait partie du *official repository* pour mageia "
 "et\n"
 "mandriva.\n"
 
