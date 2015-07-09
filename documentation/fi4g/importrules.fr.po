@@ -24,7 +24,7 @@ msgstr "Comment fonctionne l'importation d'équipement et les règles de lien"
 #. type: Plain text
 #, no-wrap
 msgid "[[!template  id=warning text=\"“Equipment import and link rules” are complex and misconfiguration can seriously hurt your GLPI.\"]]\n"
-msgstr "[[!template  id=warning text=\"“L'importation d'équipement et les règles de lien” sont complexes et des erreurs de configuration peuvent sérieusement affecter voter GLPI.\"]]\n"
+msgstr "[[!template  id=warning text=\"“L'importation d'équipement et les règles de lien” sont complexes et des erreurs de configuration peuvent sérieusement affecter votre GLPI.\"]]\n"
 
 #. type: Title ##
 #, no-wrap
