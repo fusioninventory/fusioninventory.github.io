@@ -28,9 +28,8 @@ msgstr ""
 
 #. type: Plain text
 #, fuzzy
-#| msgid "They are two different ways to run the agent:"
 msgid "They are multiple ways to run fusioninventory agent:"
-msgstr "Il y a deux manières différentes de faire fonctionner l'agent:"
+msgstr "Il y a plusieurs manières de faire fonctionner l'agent:"
 
 #. type: Bullet: '* '
 msgid ""
@@ -57,7 +56,7 @@ msgstr "Mode autonome : l'agent exécute immédiatement les taches demandées pu
 #. type: Title ###
 #, no-wrap
 msgid "Managed mode"
-msgstr "Mode Managé"
+msgstr "Mode managé"
 
 #. type: Plain text
 msgid ""
