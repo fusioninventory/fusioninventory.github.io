@@ -60,7 +60,7 @@ msgstr "Les problèmes courants liés au moteur de règles sont"
 
 #. type: Bullet: '* '
 msgid "duplicated device."
-msgstr "double appareil"
+msgstr "appareil en double"
 
 #. type: Bullet: '* '
 msgid "device pushed in the “Ignored import devices”"
@@ -159,7 +159,7 @@ msgstr "Inventaire du réseau (switchs, imprimantes...)"
 #, no-wrap
 msgid "[[!template  id=note text=\"Port MAC addresses from network switch are not used as criterias\"]]\n"
 msgstr ""
-"[[!template  id=note text=\"Les adresses port MAC du switch réseau ne sont pas utilisées comme critères\"]]\n"
+"[[!template  id=note text=\"Les adresses MAC des ports du switch réseau ne sont pas utilisées comme critères\"]]\n"
 
 #. type: Title ##
 #, no-wrap
@@ -209,7 +209,7 @@ msgstr "_finished by_ (fini part)"
 
 #. type: Bullet: '* '
 msgid "_regular expression checks_"
-msgstr "_regular expression checks_ (contrôles d'expressions régulières)"
+msgstr "_regular expression checks_ (expression régulière vérifie)"
 
 #. type: Bullet: '* '
 msgid "_regular expression does not match_"
@@ -268,7 +268,7 @@ msgid ""
 "new device with itemtype defined in inventory (computer, switches...)"
 msgstr ""
 "_FusionInventory link_ > _Link if possible, else create device_: si l'appareil "
-"est trouvé (dans ce cas utilisez un critère global), mettre à jour cet appareil, autre créer un "
+"est trouvé (dans ce cas utilisez un critère global), mettre à jour cet appareil, sinon créer un "
 "nouvel appareil avec un itemtype défini dans l'inventaire (ordinateur, switchs...)"
 
 #. type: Bullet: '* '
@@ -278,7 +278,7 @@ msgid ""
 "creation of device and so is not be imported in GLPI inventory"
 msgstr ""
 "_FusionInventory link_ > _Link if possible, else import denied_: si l'appareil "
-"est trouvé (dans ce cas utilisez un critère global), mettre à jour cet appareil, autre refuser "
+"est trouvé (dans ce cas utilisez un critère global), mettre à jour cet appareil, sinon refuser "
 "la création d'appareil et n'est donc pas impoté dans l'inventaire GLPI "
 
 #. type: Bullet: '* '
