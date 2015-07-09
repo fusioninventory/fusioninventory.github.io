@@ -37,14 +37,14 @@ msgid ""
 "_managed mode_: the agent runs continuously in the background, wakes up "
 "periodically to execute the tasks required by the server, and may eventually "
 "executes out of schedule on server request."
-msgstr ""
+msgstr "Mode managé : l'agent tourne en tache de fond et s'active de temps en temps pour exécuter les taches requises par le serveur, il peut aussi exécuter ces taches en dehors de la planification à la demande du serveur"
 
 #. type: Bullet: '* '
 msgid ""
 "_half-managed mode_: the agent executes immediatly the tasks required by the "
 "server, and stops. This can be automated through an external scheduling "
 "mechanism (cron, task scheduler)."
-msgstr ""
+msgstr "Mode semi-managé : l'agent exécute immédiatement les taches demandées puis s'arrete. Ceci peut etre automatisé par un mécanisme de planification (cron, taches planifiées)"
 
 #. type: Bullet: '* '
 msgid ""
@@ -52,12 +52,12 @@ msgid ""
 "stops.  The results are then sent to the server, or kept for delayed upload. "
 "This can be automated through an external scheduling mechanism (cron, task "
 "scheduler)."
-msgstr ""
+msgstr "Mode autonome : l'agent exécute immédiatement les taches demandées puis s'arrete. Les résultats sont envoyés au serveur ou conservés pour un envoi ultérieur.Ceci peut etre automatisé par un mécanisme de planification (cron, taches planifiées)"
 
 #. type: Title ###
 #, no-wrap
 msgid "Managed mode"
-msgstr ""
+msgstr "Mode Managé"
 
 #. type: Plain text
 msgid ""
@@ -89,7 +89,7 @@ msgstr ""
 #. type: Title ###
 #, no-wrap
 msgid "Half-managed mode"
-msgstr ""
+msgstr "Mode semi-managé"
 
 #. type: Plain text
 msgid ""
@@ -108,7 +108,7 @@ msgstr ""
 #. type: Title ###
 #, no-wrap
 msgid "Autonomous mode"
-msgstr ""
+msgstr "Mode autonome"
 
 #. type: Plain text
 msgid ""
@@ -121,7 +121,7 @@ msgstr ""
 
 #. type: Plain text
 msgid "Defered upload example:"
-msgstr ""
+msgstr "Exemple d'envoi différé"
 
 #. type: Plain text
 #, no-wrap
@@ -132,7 +132,7 @@ msgstr ""
 
 #. type: Plain text
 msgid "Immediate upload example:"
-msgstr ""
+msgstr "Exemple d'envoi immédiat"
 
 #. type: Plain text
 #, no-wrap
@@ -142,24 +142,24 @@ msgstr ""
 #. type: Title ##
 #, no-wrap
 msgid "Offline usage"
-msgstr ""
+msgstr "Utilisation hors-ligne"
 
 #. type: Title ###
 #, no-wrap
 msgid "Agent execution"
-msgstr ""
+msgstr "Exécution de l'agent"
 
 #. type: Plain text
 msgid ""
 "Most tasks handled by the agent can be executed directly without server, "
 "when it is not available, or for easier troubleshooting."
-msgstr ""
+msgstr "La plupart des taches de l'agent peuvent etre exécutées sans serveur, si celui_ci est inaccessible ou à des fins de résolution de pannes"
 
 #. type: Plain text
 msgid ""
 "Each task has a dedicated executable for this purpose. For instance, to "
 "execute an inventory:"
-msgstr ""
+msgstr "Chaque tache à un exécutable dédié. Par exemple, pour réaliser un inventaire de machine :"
 
 #. type: Plain text
 #, no-wrap
@@ -178,7 +178,7 @@ msgstr ""
 #. type: Title ####
 #, no-wrap
 msgid "FusionInventory for GLPI Interface"
-msgstr ""
+msgstr "FusionInventory pour GLPI"
 
 #. type: Plain text
 #, no-wrap
