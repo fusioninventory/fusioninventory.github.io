@@ -19,12 +19,12 @@ msgstr ""
 #. type: Title #
 #, no-wrap
 msgid "Agent usage"
-msgstr ""
+msgstr "Utilisation de l'agent"
 
 #. type: Title ##
 #, no-wrap
 msgid "Execution modes"
-msgstr ""
+msgstr "Modes d'exécution"
 
 #. type: Plain text
 #, fuzzy
@@ -65,7 +65,7 @@ msgid ""
 "loaded in memory, which may not be convenient for small systems. "
 "Additionaly, a network port is opened on the system with a process running "
 "with full system privileges attached to it."
-msgstr ""
+msgstr "Ce mode nécessite que l'agent soit exécuté en tant que processus serveur (daemon sous Unix, service sous Windows), ce qui signifie que l'interpreteur Perl est constamment chargé en mémoire, ce qui peut etre pénalisant pour de petites configurations. En plus de cela, un port réseau est ouvert sur le systéme hote par un processus fonctionnant avec des droits système complets"
 
 #. type: Plain text
 msgid ""
@@ -74,11 +74,15 @@ msgid ""
 "100% of this value, ie for 24H, it will executes sometimes between 12 and "
 "24H.  Additionaly, the server may also initiate additional out-of-schedule "
 "executions by sending HTTP requests to the agent."
-msgstr ""
+msgstr "Le reveil de l'agent est controlé depuis le serveur GLPI, par la valeur PROLOG_FREQ."
+"Plus précisement, le reveil de l'agent à lieu au hasard entre 50 et 100% de cette valeur, "
+"i.e. pour une valeur de PROLOG_FREQ de 24h, le reveil de l'agent aura lieu entre 12h et 24h."
+"En plus de cela, le serveur peut déclencher des taches non planifiées en envoyant des "
+"requetes HTTP au client"
 
 #. type: Plain text
 msgid "Example:"
-msgstr ""
+msgstr "Exemple"
 
 #. type: Plain text
 #, no-wrap
@@ -98,6 +102,9 @@ msgid ""
 "what the agent executes exactly, however, as the agent will ask it for every "
 "available module."
 msgstr ""
+"Ce mode nécessite une planification externe pour exécuter l'agent (cron, taches planifiées, "
+"stagiaire,...) périodiquement. Il n'y a aucun impact sur la mémoire et la sécurité en dehors "
+"des exécutions de l'agent. Le serveur garde cependant le controle sur ce que l'agent exécute car ce dernier lui demandera quels modules il devra lancer."
 
 #. type: Plain text
 #, no-wrap
