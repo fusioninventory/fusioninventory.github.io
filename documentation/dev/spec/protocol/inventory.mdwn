@@ -75,7 +75,7 @@
         PROCESSORT, NAME, PROCESSORS, SWAP, ETIME, TYPE, OSNAME, IPADDR,
         WORKGROUP, DESCRIPTION, MEMORY, UUID, DNS, LASTLOGGEDUSER,
         USERDOMAIN, DATELASTLOGGEDUSER, DEFAULTGATEWAY, VMSYSTEM, WINOWNER,
-        WINPRODID, WINPRODKEY, WINCOMPANY, WINLANG, CHASSIS_TYPE, VMID, VMNAME,
+        WINPRODID, WINPRODKEY, WINCOMPANY, WINLANG, CHASSIS_TYPE, VMNAME,
         VMHOSTSERIAL, ARCHNAME)>
           <!-- current user list ('/' as delimiter, obsoleted by USERS) -->
           <!ELEMENT USERID (#PCDATA)>
@@ -110,8 +110,9 @@
           <!ELEMENT CHASSIS_TYPE (#PCDATA)>
           <!ELEMENT IPADDR (#PCDATA)>
           <!ELEMENT WORKGROUP (#PCDATA)>
-          <!-- Computer description -->
+          <!-- computer description -->
           <!ELEMENT DESCRIPTION (#PCDATA)>
+          <!-- computer unique identifier -->
           <!ELEMENT UUID (#PCDATA)>
           <!ELEMENT DNS (#PCDATA)>
           <!-- last logged user login -->
@@ -125,8 +126,6 @@
             VServer|OpenVZ|BSDJail|Parallels|Hyper-V|AIX_LPAR)
             -->
           <!ELEMENT VMSYSTEM (#PCDATA)>
-          <!-- virtual machine ID on the hypervisor (VM only) -->
-          <!ELEMENT VMID (#PCDATA)>
           <!-- virtual machine name the hypervisor (VM only) -->
           <!ELEMENT VMNAME (#PCDATA)>
           <!ELEMENT WINOWNER (#PCDATA)>
