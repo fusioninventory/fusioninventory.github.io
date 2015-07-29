@@ -1,0 +1,69 @@
+---
+layout: page
+title: Guidelines to dev
+---
+
+# Agent specific
+
+* [Release process](/documentation/documentation/agent/dev/release_process.html)
+
+[![Build Status](https://travis-ci.org/fusioninventory/fusioninventory-agent.png?branch=master)](https://travis-ci.org/fusioninventory/fusioninventory-agent)
+
+# Get the sources
+
+* [Source](/documentation/documentation/agent/installation/source.html)
+* Git: [UNIX](/documentation/documentation/agent/dev/git_unix.html), [Windows](/documentation/documentation/agent/dev/git_windows.html)
+
+* [Official download location](/documentation/documentation/dev/official_download_location.html)
+
+# Standalone server
+
+* [Stand alone server](/documentation/documentation/dev/standaloneserver.html)
+
+# Fusioninventory plugin for GLPI
+
+* Branches: <br/>
+  › [master](https://github.com/fusinv/fusioninventory-for-glpi/tree/master)  › [![Build Status](https://travis-ci.org/fusioninventory/fusioninventory-for-glpi.png?branch=master)](https://travis-ci.org/fusioninventory/fusioninventory-for-glpi)
+
+* Roadmaps: <br/>
+  › [[ask Redux](/documentation/documentation/dev/plugin-glpi/task_redux.html)
+
+  › [[ew page of Plugins > FusionInventory](/documentation/documentation/dev/plugin-glpi/new_home_page.html)
+
+# Run unit tests for GLPI plugin
+
+* [How to run unit tests for plugin FusionInventory for GLPI](/documentation/documentation/dev/pluginglpi_unit_test.html)
+
+# technical documentation
+
+## Agent-server communication protocol
+
+Current agent-server communication is a mix of legacy XML and new JSON messages.
+
+Generic task-scheduling protocol:
+
+* [Original task scheduling specification](/documentation/documentation/dev/spec/protocol/rest.html)
+* [Current task scheduling specification](/documentation/documentation/dev/spec/protocol/scheduling.html)
+
+Module-specific communication protocols:
+
+* [ESX module](/documentation/documentation/dev/spec/protocol/esx.html)
+* [Deploy module](/documentation/documentation/dev/spec/protocol/deploy.html)
+* [Collect module](/documentation/documentation/dev/spec/protocol/collect.html)
+* [Inventory module](/documentation/documentation/dev/spec/protocol/inventory.html)
+* [Network discovery module](/documentation/documentation/dev/spec/protocol/netdiscovery.html)
+* [Network inventory module](/documentation/documentation/dev/spec/protocol/netinventory.html)
+* [Wake on lan module](/documentation/documentation/dev/spec/protocol/wakeonlan.html)
+* [[Vocabulary](/documentation/documentation/dev/spec/protocol/vocabulary.html)
+
+## Others
+
+* [New directory layout (partially implemented)](/documentation/documentation/dev/spec/new-directory-layout.html)
+* [Load configuration from external places](/documentation/documentation/dev/spec/load_ext_cfg.html)
+* [POIP inventory with HTTP](/documentation/documentation/dev/spec/poip.html)
+* [Switch stack inventory](/documentation/documentation/dev/spec/switch_stack.html)
+
+## Events
+
+* [Mini Codecamp March 14](/documentation/documentation/dev/events/2014-03-14_Mini_CodeCamp.html)
+* [meeting 18 february 2015](/documentation/documentation/dev/events/2015-02-18_meeting.html)
