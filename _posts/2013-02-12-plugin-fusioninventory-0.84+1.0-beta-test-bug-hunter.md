@@ -19,4 +19,4 @@ See these information:
 
 * The user have opened the most bugs at the end of the hunter bug period will win a **Raspberry Pi** (yes we love free software!)
 
-![](/news_docs/fusioninventoryneedsyou.png "clouds") size="300x381"
+![]({{ site.baseurl }}/news_docs/fusioninventoryneedsyou.png "clouds") size="300x381"

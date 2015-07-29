@@ -21,7 +21,7 @@ The installer can be used either on 32 or 64 bit Windows.
 
 ## Settings
 
-![](/documentation/documentation/agent/installation/windows-installer-settings-1.png)
+![]({{ site.baseurl }}/documentation/documentation/agent/installation/windows-installer-settings-1.png)
 
 1. Enter the full URL to your server.
 2. You can configure a key word to be able to sort out your machine later (TAG).
@@ -31,7 +31,7 @@ A common mistake is to mix HTTP and HTTPS in URL.
 
 ## Advanced settings
 
-![](/documentation/documentation/agent/installation/windows-installer-settings-2.png)
+![]({{ site.baseurl }}/documentation/documentation/agent/installation/windows-installer-settings-2.png)
 
 1. Enter here an optional HTTP login and password. This is unrelated with GLPI.
 2. Enter the full path to you certificat file. This is important only if you use HTTPS. 

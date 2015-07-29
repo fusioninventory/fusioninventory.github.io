@@ -13,7 +13,7 @@ Download the latest version of [Strawberry Perl](http://strawberryperl.com/) and
 
 Launch Perl command line (from Windows Start Menu) and launch CPAN plus shell: cpanp
 
-![](/documentation/documentation/agent/installation/windows/from_sources-1.png)
+![]({{ site.baseurl }}/documentation/documentation/agent/installation/windows/from_sources-1.png)
 
 Install the following perl modules: `install <module>`
 
@@ -22,7 +22,7 @@ Install the following perl modules: `install <module>`
 * File::Which
 * Text::Template
 
-![](/documentation/documentation/agent/installation/windows/from_sources-2.png)
+![]({{ site.baseurl }}/documentation/documentation/agent/installation/windows/from_sources-2.png)
 
 ## Retrieve the agent
 

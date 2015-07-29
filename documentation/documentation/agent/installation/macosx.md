@@ -17,16 +17,16 @@ You must download the **.pkg.tar.gz** package.
 
 Once the FusionInventory-Agent-XXX.pkg.tar.gz archive is downloaded, you must extract it this way.
 
-![](/documentation/documentation/agent/installation/macosx/FusionInventoryAgent-1.png)
+![]({{ site.baseurl }}/documentation/documentation/agent/installation/macosx/FusionInventoryAgent-1.png)
 
-![](/documentation/documentation/agent/installation/macosx/FusionInventoryAgent-2.png)
+![]({{ site.baseurl }}/documentation/documentation/agent/installation/macosx/FusionInventoryAgent-2.png)
 
-![](/documentation/documentation/agent/installation/macosx/FusionInventoryAgent-3.png)
+![]({{ site.baseurl }}/documentation/documentation/agent/installation/macosx/FusionInventoryAgent-3.png)
 
 Do a right click on it to extract its content. You should now have two different file.
 Agent configuration
 
-![](/documentation/documentation/agent/installation/macosx/FusionInventoryAgent-4.png)
+![]({{ site.baseurl }}/documentation/documentation/agent/installation/macosx/FusionInventoryAgent-4.png)
 
 ## Configuration
 
@@ -44,7 +44,7 @@ You're done. To launch the installer, just do a double clic on the FusionInvento
 
 The installer will ask for you login and password during the installation process.
 
-![](/documentation/documentation/agent/installation/macosx/FusionInventoryAgent-5.png)
+![]({{ site.baseurl }}/documentation/documentation/agent/installation/macosx/FusionInventoryAgent-5.png)
 
 Once the agent is installed, you can configure it be editing the following file '/opt/fusioninventory-agent/agent.cfg'.
 You will have to restart the service after (see below);

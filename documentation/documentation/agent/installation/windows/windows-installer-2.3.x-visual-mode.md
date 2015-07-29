@@ -11,7 +11,7 @@ title: Windows installer 2.3.x visual mode
 
 
 
-![](/documentation/documentation/agent/installation/windows/windows-installer-2.3.x-screen-001-installer-language.png "Installer Language")
+![]({{ site.baseurl }}/documentation/documentation/agent/installation/windows/windows-installer-2.3.x-screen-001-installer-language.png "Installer Language")
 
 
 
@@ -19,7 +19,7 @@ title: Windows installer 2.3.x visual mode
 
 
 
-![](/documentation/documentation/agent/installation/windows/windows-installer-2.3.x-screen-002-welcome.png "Welcome")
+![]({{ site.baseurl }}/documentation/documentation/agent/installation/windows/windows-installer-2.3.x-screen-002-welcome.png "Welcome")
 
 
 
@@ -27,7 +27,7 @@ title: Windows installer 2.3.x visual mode
 
 
 
-![](/documentation/documentation/agent/installation/windows/windows-installer-2.3.x-screen-003-license-agreement.png "License Agreement")
+![]({{ site.baseurl }}/documentation/documentation/agent/installation/windows/windows-installer-2.3.x-screen-003-license-agreement.png "License Agreement")
 
 
 
@@ -43,7 +43,7 @@ documentation/agent/installation/windows/windows-installer-2.3.x-screen-004-inst
 
 
 
-![](/documentation/documentation/agent/installation/windows/windows-installer-2.3.x-screen-005-choose-components.png "Components")
+![]({{ site.baseurl }}/documentation/documentation/agent/installation/windows/windows-installer-2.3.x-screen-005-choose-components.png "Components")
 
 
 
@@ -51,7 +51,7 @@ documentation/agent/installation/windows/windows-installer-2.3.x-screen-004-inst
 
 
 
-![](/documentation/documentation/agent/installation/windows/windows-installer-2.3.x-screen-006-install-location.png "Install Location")
+![]({{ site.baseurl }}/documentation/documentation/agent/installation/windows/windows-installer-2.3.x-screen-006-install-location.png "Install Location")
 
 
 
@@ -59,7 +59,7 @@ documentation/agent/installation/windows/windows-installer-2.3.x-screen-004-inst
 
 
 
-![](/documentation/documentation/agent/installation/windows/windows-installer-2.3.x-screen-007-choose-targets.png "Targets")
+![]({{ site.baseurl }}/documentation/documentation/agent/installation/windows/windows-installer-2.3.x-screen-007-choose-targets.png "Targets")
 
 
 
@@ -71,7 +71,7 @@ documentation/agent/installation/windows/windows-installer-2.3.x-screen-004-inst
 
 
 
-![](/documentation/documentation/agent/installation/windows/windows-installer-2.3.x-screen-008-remote-targets-options-1.png "Remote Targets Options (1/2)")
+![]({{ site.baseurl }}/documentation/documentation/agent/installation/windows/windows-installer-2.3.x-screen-008-remote-targets-options-1.png "Remote Targets Options (1/2)")
 
 
 
@@ -79,7 +79,7 @@ documentation/agent/installation/windows/windows-installer-2.3.x-screen-004-inst
 
 
 
-![](/documentation/documentation/agent/installation/windows/windows-installer-2.3.x-screen-009-remote-targets-options-2.png "Remote Targets Options (2/2)")
+![]({{ site.baseurl }}/documentation/documentation/agent/installation/windows/windows-installer-2.3.x-screen-009-remote-targets-options-2.png "Remote Targets Options (2/2)")
 
 
 
@@ -87,7 +87,7 @@ documentation/agent/installation/windows/windows-installer-2.3.x-screen-004-inst
 
 
 
-![](/documentation/documentation/agent/installation/windows/windows-installer-2.3.x-screen-010-execution-mode.png "Execution Mode")
+![]({{ site.baseurl }}/documentation/documentation/agent/installation/windows/windows-installer-2.3.x-screen-010-execution-mode.png "Execution Mode")
 
 
 
@@ -99,7 +99,7 @@ documentation/agent/installation/windows/windows-installer-2.3.x-screen-004-inst
 
 
 
-![](/documentation/documentation/agent/installation/windows/windows-installer-2.3.x-screen-011-http-server-options.png "HTTP Server Options")
+![]({{ site.baseurl }}/documentation/documentation/agent/installation/windows/windows-installer-2.3.x-screen-011-http-server-options.png "HTTP Server Options")
 
 
 
@@ -111,7 +111,7 @@ documentation/agent/installation/windows/windows-installer-2.3.x-screen-004-inst
 
 
 
-![](/documentation/documentation/agent/installation/windows/windows-installer-2.3.x-screen-012-windows-task-options.png "Windows Task Options")
+![]({{ site.baseurl }}/documentation/documentation/agent/installation/windows/windows-installer-2.3.x-screen-012-windows-task-options.png "Windows Task Options")
 
 
 
@@ -119,7 +119,7 @@ documentation/agent/installation/windows/windows-installer-2.3.x-screen-004-inst
 
 
 
-![](/documentation/documentation/agent/installation/windows/windows-installer-2.3.x-screen-013-miscelaneous-options.png "Miscelaneous Options")
+![]({{ site.baseurl }}/documentation/documentation/agent/installation/windows/windows-installer-2.3.x-screen-013-miscelaneous-options.png "Miscelaneous Options")
 
 
 
@@ -127,7 +127,7 @@ documentation/agent/installation/windows/windows-installer-2.3.x-screen-004-inst
 
 
 
-![](/documentation/documentation/agent/installation/windows/windows-installer-2.3.x-screen-014-advanced-options.png "Advanced Options")
+![]({{ site.baseurl }}/documentation/documentation/agent/installation/windows/windows-installer-2.3.x-screen-014-advanced-options.png "Advanced Options")
 
 
 
@@ -135,7 +135,7 @@ documentation/agent/installation/windows/windows-installer-2.3.x-screen-004-inst
 
 
 
-![](/documentation/documentation/agent/installation/windows/windows-installer-2.3.x-screen-015-debug-options.png "Debug Options")
+![]({{ site.baseurl }}/documentation/documentation/agent/installation/windows/windows-installer-2.3.x-screen-015-debug-options.png "Debug Options")
 
 
 
@@ -143,7 +143,7 @@ documentation/agent/installation/windows/windows-installer-2.3.x-screen-004-inst
 
 
 
-![](/documentation/documentation/agent/installation/windows/windows-installer-2.3.x-screen-016-installing.png "Installing")
+![]({{ site.baseurl }}/documentation/documentation/agent/installation/windows/windows-installer-2.3.x-screen-016-installing.png "Installing")
 
 
 
@@ -151,7 +151,7 @@ documentation/agent/installation/windows/windows-installer-2.3.x-screen-004-inst
 
 
 
-![](/documentation/documentation/agent/installation/windows/windows-installer-2.3.x-screen-017-installation-complete.png "Installation Complete")
+![]({{ site.baseurl }}/documentation/documentation/agent/installation/windows/windows-installer-2.3.x-screen-017-installation-complete.png "Installation Complete")
 
 
 
@@ -159,7 +159,7 @@ documentation/agent/installation/windows/windows-installer-2.3.x-screen-004-inst
 
 
 
-![](/documentation/documentation/agent/installation/windows/windows-installer-2.3.x-screen-018-completing.png "Completing")
+![]({{ site.baseurl }}/documentation/documentation/agent/installation/windows/windows-installer-2.3.x-screen-018-completing.png "Completing")
 
 
 

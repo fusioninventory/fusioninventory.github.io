@@ -17,7 +17,7 @@ So if you want to speak agent developpment, prefer come the 21 instead the 20.
 
 For people come on stand, we will offer a very nice FusionInventory gobelet:
 
-![](/news_docs/gobelet.png)
+![]({{ site.baseurl }}/news_docs/gobelet.png)
 
 In the background of the stand, you will see too a unique comic from [commitstrip](http://www.commitstrip.com/) created for us.
 

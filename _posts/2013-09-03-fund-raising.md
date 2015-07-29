@@ -20,7 +20,7 @@ you are interested](mailto:goneri@lebouder.net)!
 
 The people from [Normation](http://www.normation.com/) paid the hosting till 2017 !!!
 
-![](/partners/normation.png)
+![]({{ site.baseurl }}/partners/normation.png)
 
 [Normation](http://www.normation.com/) is the software company behind the open source project
 _[Rudder](http://www.normation.com/solutions/rudder)_, a turn-key solution that helps

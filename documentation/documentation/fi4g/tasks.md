@@ -8,7 +8,7 @@ title: Task creation
 Use the (Normal) display of Task Management. This is used to list and
 search the existing tasks in the Fusion Inventory system.
 
-![](/documentation/documentation/fi4g/deploy/FusionTaskManagementNormalPage.png)
+![]({{ site.baseurl }}/documentation/documentation/fi4g/deploy/FusionTaskManagementNormalPage.png)
 
 1.  Clicking on _Task management (Normal)_ link.
 2.  Clicking on the big "+", like in all of
