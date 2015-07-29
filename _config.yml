@@ -4,7 +4,7 @@ email: your-email@domain.com
 description: > # this means to ignore newlines until "baseurl:"
   FusionInventory website with documentation and new on this wonderfull
   inventory and software deployment tool.
-baseurl: "" # the subpath of your site, e.g. /blog/
+baseurl: "/website/" # the subpath of your site, e.g. /blog/
 url: "http://yourdomain.com" # the base hostname & protocol for your site
 twitter_username: fusioninventory
 github_username:  fusioninventory
