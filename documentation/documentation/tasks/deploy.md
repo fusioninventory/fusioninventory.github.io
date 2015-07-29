@@ -7,7 +7,7 @@ title: Package deployment
 
 Package Deployment is both integrated with GLPI via *massive actions* and via the Plugin interface.
 
-![](/documentation/documentation/tasks/deploy/FusionInventoryMain.png)
+![]({{ site.baseurl }}/documentation/documentation/tasks/deploy/FusionInventoryMain.png)
 
 1.  Task Management is available via the FusionInventory dropdown. This is mostly used to deploy packages, but can be used
     for other tasks.
@@ -30,7 +30,7 @@ This is used to quickly check the status of a FusionInventory agent:
 
 ### Create a package
 
-![](/documentation/documentation/tasks/deploy/FusionPluginPackageManagementMain.png)
+![]({{ site.baseurl}}/documentation/documentation/tasks/deploy/FusionPluginPackageManagementMain.png)
 
 1.  Use *Add a Package* to create a new package.
 2.  Click on an existing package to edit that package.
