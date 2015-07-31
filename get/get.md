@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Get it
+title: GET IT
 menu: true
 ---
 
