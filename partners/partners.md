@@ -16,54 +16,45 @@ to drive a FusionInventory integration project from the very begining to its suc
 This list is open and if you believe your company deservice to be added, please
 [contact us](mailto:goneri@rulezlan.org).
 
-[[!template id=partner
-  logo="siprossii.png"
-  name="siprossii"
-  location="Monsols - France"
-  code="FusionInventory for GLPI and Agent"
-  qa="Daily tests and bugfixes."
-  promote="Conferences, presentations, TShirts and stickers."
-  doc="Documentation."
-  support="Daily support."
-  training="GLPI and FusionInventory training."
-  web="http://www.siprossii.com/"
-  email="d.durieux@siprossii.com"
-]]
 
-[[!template id=partner
-  logo="teclib.png"
-  name="TECLIB'"
-  location="Paris, Chartres, Colmar, Montpellier, Caen - France"
-  code="FusionInventory for GLPI and Agent"
-  qa="Daily tests and bugfixes."
-  promote="Conferences, presentations, TShirts and stickers."
-  doc="Documentation."
-  support="Daily support."
-  training="GLPI and FusionInventory training."
-  web="http://teclib.com"
-  email="vente@teclib.com"
-]]
+## siprossii ![](/partners/partners/siprossii.png)
 
-[[!template id=partner
-  logo="normation.png"
-  name="Normation"
-  location="Paris - France"
-  code="Agent"
-  qa="bug reports"
-  promote="Conferences and website hosting"
-  web="http://normation.com"
-  email="jonathan.clarke@normation.com"
-]]
+* Web: [http://www.siprossii.com/](http://www.siprossii.com/)
+* Mail: d.durieux@siprossii.com
+* ![](/partners/partners/logo/code.png) FusionInventory for GLPI and Agent
+* ![](/partners/partners/logo/qa.png) Tests and bug reports: Daily tests and bugfixes.
+* ![](/partners/partners/logo/promote.png) Promotion and Communication: Conferences, presentations, TShirts and stickers.
+* ![](/partners/partners/logo/doc.png) Documentation: Documentation.
+* ![](/partners/partners/logo/support.png) User support (Forum, IRC): Daily support.
+* ![](/partners/partners/logo/training.png) Training: GLPI and FusionInventory training.
 
-[[!template id=partner
-  logo="zenetique.jpg"
-  name="Zenitique"
-  location="Villers-lès-Nancy - France"
-  qa="bug reports"
-  support="forum moderator"
-  web="http://zenitique.fr/"
-  email="marc.caissial@zenitique.fr"
-]]
+
+## TECLIB' ![](/partners/partners/teclib.png)
+
+* Web: [http://teclib.com](http://teclib.com)
+* Mail: vente@teclib.com
+* ![](/partners/partners/logo/code.png) FusionInventory for GLPI and Agent
+* ![](/partners/partners/logo/qa.png) Tests and bug reports: Daily tests and bugfixes.
+* ![](/partners/partners/logo/promote.png) Promotion and Communication: Conferences, presentations, TShirts and stickers.
+* ![](/partners/partners/logo/doc.png) Documentation: Documentation.
+* ![](/partners/partners/logo/support.png) User support (Forum, IRC): Daily support.
+* ![](/partners/partners/logo/training.png) Training: GLPI and FusionInventory training.
+
+
+## Normation ![](/partners/partners/normation.png)
+
+* Web: [http://normation.com](http://normation.com)
+* Mail: jonathan.clarke@normation.com
+* ![](/partners/partners/logo/code.png) Agent
+* ![](/partners/partners/logo/qa.png) Tests and bug reports: bug reports.
+* ![](/partners/partners/logo/promote.png) Promotion and Communication: Conferences and website hosting.
+
+## Zenitique ![](/partners/partners/zenetique.jpg)
+
+* Web: [http://zenitique.fr/](http://zenitique.fr/)
+* Mail: marc.caissial@zenitique.fr
+* ![](/partners/partners/logo/qa.png) Tests and bug reports: bug reports.
+* ![](/partners/partners/logo/support.png) User support (Forum, IRC): forum moderator
 
 
 
