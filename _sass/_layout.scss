@@ -5,6 +5,7 @@
     border-top: 5px solid $grey-color-dark;
     border-bottom: 1px solid $grey-color-light;
     min-height: 56px;
+    background-color: #949494;
 
     // Positioning context for the mobile navigation icon
     position: relative;
@@ -12,10 +13,11 @@
 
 .site-title {
     font-size: 26px;
-    line-height: 56px;
+    line-height: 110px;
     letter-spacing: -1px;
     margin-bottom: 0;
-    float: left;
+    background-color: #6A6A6A;
+    width: 100%;
 
     &,
     &:visited {
@@ -251,8 +253,8 @@
 
 .breadcrumb { border: 0px;  display: block;}
 .breadcrumb li {font-size: 14px;}
-.breadcrumb a {color: $brand-color;}
-.breadcrumb a:hover {color: darken($brand-color, 20%);}
-.breadcrumb>.active {color: lighten($brand-color, 20%)}
-.breadcrumb>li+li:before {color:$brand-color; content: "\003E\00a0";}
+.breadcrumb a {color: $text-color;}
+.breadcrumb a:hover {color: darken($text-color, 20%);}
+.breadcrumb>.active {color: lighten($text-color, 20%)}
+.breadcrumb>li+li:before {color:$grey-color-dark; content: "\003E\00a0";}
 

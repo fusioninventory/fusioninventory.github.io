@@ -1,8 +1,12 @@
 <header class="site-header">
 
-  <div class="wrapper">
+  <div class="site-title">
+      <div class="wrapper">
+         <a href="{{ site.baseurl }}/"><img src="{{ site.baseurl }}/fusioninventory_logo.png"/></a>
+      </div>
+  </div>
 
-    <a class="site-title" href="{{ site.baseurl }}/">{{ site.title }}</a>
+  <div class="wrapper wrapper-menu">
 
     <nav class="site-nav">
       <a href="#" class="menu-icon">
@@ -26,6 +30,7 @@
 
 
 <ol class="breadcrumb">
+<li></li>
 <li><a href="{{ site.baseurl }}/">Home</a></li>
 {% capture page_url_without_index_html %}{{ page.url | remove: "/index.html" }}{% endcapture %}
 {% assign splitted_url_parts = page_url_without_index_html | split: '/' %}

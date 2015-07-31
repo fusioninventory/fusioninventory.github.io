@@ -19,7 +19,7 @@ body {
     line-height: $base-line-height;
     font-weight: 300;
     color: $text-color;
-    background-color: $background-color;
+    background-color: #F2F2F2;
     -webkit-text-size-adjust: 100%;
 }
 
@@ -170,6 +170,9 @@ pre {
     }
 }
 
+.wrapper-menu {
+   background-color: #949494;
+}
 
 
 /**
