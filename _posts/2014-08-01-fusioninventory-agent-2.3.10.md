@@ -15,7 +15,7 @@ You can download it from the usual places:
 * [the forge](http://forge.fusioninventory.org/projects/fusioninventory-agent-windows-installer/files) for the windows distribution
 * etc...
 
-See [download instructions](/documentation/documentation/agent/installation.html) for details.
+See [download instructions]({{ site.baseurl }}/documentation/documentation/agent/installation.html) for details.
 
 This release improves device indentification during network discovery, and
 provides better identification of adjoining devices when running a remote
@@ -24,5 +24,5 @@ inventory on a network device. It also fixes a few regressions introduced in
 (2.4.0) is far away from release, some new features initially introduced there
 have been backported, such as LXC container and HyperV machines enumeration.
 
-We did our best to provide a solid release, please [contact us](/resources/resources.html) if
+We did our best to provide a solid release, please [contact us]({{ site.baseurl }}/resources/resources.html) if
 you believe you find something unexpected.

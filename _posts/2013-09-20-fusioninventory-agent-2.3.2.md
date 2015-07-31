@@ -12,4 +12,4 @@ or directly from [the CPAN](https://metacpan.org/release/FusionInventory-Agent)
 
 This release fix some bugs with NetInventory task.
 
-We did our best to provide a solid release, please [contact us](/resources/resources.html) is you believe you find something unexpected.
+We did our best to provide a solid release, please [contact us]({{ site.baseurl }}/resources/resources.html) is you believe you find something unexpected.

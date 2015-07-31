@@ -18,7 +18,7 @@ http://www.opencsw.org/packages/fusioninventory_agent/
 
 ## Installation from source
 
-[Installation from source](/documentation/documentation/agent/installation/source.html).
+[Installation from source]({{ site.baseurl }}/documentation/documentation/agent/installation/source.html).
 
 ## Prebuilt package
 

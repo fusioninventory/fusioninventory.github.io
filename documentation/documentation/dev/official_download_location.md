@@ -7,7 +7,7 @@ title: Official download location
 
 ** This document is for FI developers **
 
-Please use the [Get](/get/get.html) page to download new release.
+Please use the [Get]({{ site.baseurl }}/get/get.html) page to download new release.
 
 Today different places are used to publish files. This situation
 is confusing. This document present what should be done in the

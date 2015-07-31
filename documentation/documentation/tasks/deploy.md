@@ -57,7 +57,7 @@ If you use "move" command, use "*" in case from if the agent get the file from G
 
 ## Task Management (Normal)
 
-Please see the [task creation](/documentation/documentation/fi4g/tasks.html) page.
+Please see the [task creation]({{ site.baseurl }}/documentation/documentation/fi4g/tasks.html) page.
 
 ### Creating a deployment task
 

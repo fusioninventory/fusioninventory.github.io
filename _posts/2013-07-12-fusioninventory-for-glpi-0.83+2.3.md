@@ -6,7 +6,7 @@ title: FusionInventory for GLPI 0.83+2.3 is available (maintenance version)
 This maintenance version comes with no new feature. It only fixes various problem.
 This release is comptabible with GLPI greater than 0.83.3 and up to 0.84.
 
-If you already test GLPI 0.84, you can help [us to debug the future stable release](/2013/02/12/plugin-fusioninventory-0.84+1.0-beta-test-bug-hunter.html).
+If you already test GLPI 0.84, you can help [us to debug the future stable release]({{ site.baseurl }}/2013/02/12/plugin-fusioninventory-0.84+1.0-beta-test-bug-hunter.html).
 
 As usual, the upgrade process is documented. Please take 5 minutes of
 your time to read the documentation first:

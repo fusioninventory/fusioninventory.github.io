@@ -33,5 +33,5 @@ mailing lists or the bug tracker on the forge.
 
 ## Partners
 
-A list of trusted companies is maintain on the [partners](/partners/partners.html) page. Those companies are involved in FusionInventory
+A list of trusted companies is maintain on the [partners]({{ site.baseurl }}/partners/partners.html) page. Those companies are involved in FusionInventory
 developement.

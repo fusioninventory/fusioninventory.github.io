@@ -25,7 +25,7 @@ This version brings the following new features:
 * [COMPUTER INVENTORY] Enhance computer inventory, mainly for update
   softwares
 * [NETINVENTORY] Remove SNMP model creation menu, as [SNMP models
-  are now obsoletes](/2014/03/12/network-inventory-improvement.html)
+  are now obsoletes]({{ site.baseurl }}/2014/03/12/network-inventory-improvement.html)
 
 It also fix many bugs, see [changelog](http://forge.fusioninventory.org/versions/181) for details.
 

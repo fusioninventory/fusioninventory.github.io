@@ -19,7 +19,7 @@ available in net/p5-FusionInventory-Agent
 
 ## Installation from source
 
-[Installation from source](/documentation/documentation/agent/installation/source.html).
+[Installation from source]({{ site.baseurl }}/documentation/documentation/agent/installation/source.html).
 
 ## Prebuilt package
 

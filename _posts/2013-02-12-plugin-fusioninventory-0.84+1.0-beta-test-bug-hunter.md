@@ -11,7 +11,7 @@ See these information:
 
 * First *Backup your data*
 
-* Get the last version, download a development archive from [github](https://github.com/fusinv/fusioninventory-for-glpi/archive/master.zip) or use the [git](/documentation/documentation/dev/git.html) mirror with [github FusionInventory for GLPI repository](https://github.com/fusinv/fusioninventory-for-glpi), *master* branch. Rename the folder unzipped 'fusioninventory-for-glpi-master' to 'fusioninventory'.
+* Get the last version, download a development archive from [github](https://github.com/fusinv/fusioninventory-for-glpi/archive/master.zip) or use the [git]({{ site.baseurl }}/documentation/documentation/dev/git.html) mirror with [github FusionInventory for GLPI repository](https://github.com/fusinv/fusioninventory-for-glpi), *master* branch. Rename the folder unzipped 'fusioninventory-for-glpi-master' to 'fusioninventory'.
 
 * You have now only one plugin 'fusioninventory' to put in glpi/plugins/ folder and the webservice plugin is not necessary for deployment.
 

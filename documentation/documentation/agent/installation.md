@@ -7,15 +7,15 @@ title: FusionInventory agent installation
 
 ## Package based installation
 
-* [OSX](/documentation/documentation/agent/installation/macosx.html)
-* [Linux](/documentation/documentation/agent/installation/linux.html)
-* [Windows](/documentation/documentation/agent/installation/windows.html)
-* [AIX](/documentation/documentation/agent/installation/aix.html)
-* [Solaris](/documentation/documentation/agent/installation/solaris.html)
-* [HP-UX](/documentation/documentation/agent/installation/hpux.html)
-* [BSD](/documentation/documentation/agent/installation/bsd.html)
-* [Android](/documentation/documentation/agent/installation/android.html)
+* [OSX]({{ site.baseurl }}/documentation/documentation/agent/installation/macosx.html)
+* [Linux]({{ site.baseurl }}/documentation/documentation/agent/installation/linux.html)
+* [Windows]({{ site.baseurl }}/documentation/documentation/agent/installation/windows.html)
+* [AIX]({{ site.baseurl }}/documentation/documentation/agent/installation/aix.html)
+* [Solaris]({{ site.baseurl }}/documentation/documentation/agent/installation/solaris.html)
+* [HP-UX]({{ site.baseurl }}/documentation/documentation/agent/installation/hpux.html)
+* [BSD]({{ site.baseurl }}/documentation/documentation/agent/installation/bsd.html)
+* [Android]({{ site.baseurl }}/documentation/documentation/agent/installation/android.html)
 
 ## Installation from tarball
 
-* [from source](/documentation/documentation/agent/installation/source.html)
+* [from source]({{ site.baseurl }}/documentation/documentation/agent/installation/source.html)

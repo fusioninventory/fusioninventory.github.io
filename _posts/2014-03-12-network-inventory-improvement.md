@@ -14,7 +14,7 @@ in the agent itself, making it unable to perform anything without this
 information. In order to inventory any kind of device, the relevant model had
 to be defined first and assigned to this device second, which was a problem
 in itself, as device identification was based on exact matching of SNMP
-SysDescr string only... (See [Network discoveryimprovements](/2013/11/08/network-discovery-improvements.html) for details).
+SysDescr string only... (See [Network discoveryimprovements]({{ site.baseurl }}/2013/11/08/network-discovery-improvements.html) for details).
 
 Since the agent 2.3.4 release, we introduced simple but radical changes,
 using default hardcoded OIDs for most variables, and minimum intelligence

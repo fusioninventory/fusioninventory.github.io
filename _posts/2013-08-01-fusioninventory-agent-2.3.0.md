@@ -86,4 +86,4 @@ This is a major release that include various important changes.
 * check entries generated from parsing match expected inventory format
 * normalize list before comparaison, for perl 5.18 hash randomisation
 
-We did our best to provide a solid release, please [contact us](/resources/resources.html) is you believe you find something unexpected.
+We did our best to provide a solid release, please [contact us]({{ site.baseurl }}/resources/resources.html) is you believe you find something unexpected.

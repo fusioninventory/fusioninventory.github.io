@@ -12,4 +12,4 @@ Our booth will be next to the one from [GLPI-Project](http://www.glpi-project.or
 
 See you there!
 
-![Solutions Linux](/news_docs/Linux_600x100.gif)
+![Solutions Linux]({{ site.baseurl }}/news_docs/Linux_600x100.gif)
