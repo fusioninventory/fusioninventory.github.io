@@ -2,8 +2,8 @@
 title: FusionInventory
 email: your-email@domain.com
 description: > # this means to ignore newlines until "baseurl:"
-  FusionInventory website with documentation and new on this wonderfull
-  inventory and software deployment tool.
+  FusionInventory website with documentation and news of this wonderfull
+  inventory and software deployment tool ;)
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://fusioninventory.github.io" # the base hostname & protocol for your site
 twitter_username: fusioninventory
