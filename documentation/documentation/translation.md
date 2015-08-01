@@ -9,12 +9,12 @@ FusionInventory for GLPI can be translated directly on Transifex. You will
 need an account: <https://www.transifex.com/projects/p/FusionInventory/>
 
 You can translate the website directly with a browser. It's also possible to
-work on [[your own copy of the website|documentation/wiki]]. You will just need
+work on [your own copy of the website](wiki.html). You will just need
 a [Git client](http://git-scm.com/) to retrieve a copy of the website.
 For your information, [Lokalize](http://userbase.kde.org/Lokalize) is a great tool
 to translate the .po files.
 
-If you want us to enable another langage, please contact [Gonéri](mailto:goneri@rulezlan.org) or the [[Translator mailing list|resources]].
+If you want us to enable another langage, please contact [Gonéri](mailto:goneri@rulezlan.org) or the [Translator mailing list]({{ baseurl }}/resources/resources.html).
 
 ## Glossary for translators
 

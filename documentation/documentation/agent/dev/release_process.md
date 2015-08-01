@@ -56,7 +56,7 @@ Go on the [forge](http://forge.fusioninventory.org/) and change the status of th
 
 Publish official announcement:
 
-* [[Get the wiki source|documentation/wiki]]
+* [Get the wiki source]({{ baseurl }}/documentation/documentation/wiki.html)
 * Go in fusioninventory.branchable.com directory
 * Launch `./create-release-post.pl <URL tarball on the forge>`
 

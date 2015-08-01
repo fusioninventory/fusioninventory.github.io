@@ -24,4 +24,4 @@ available in net/p5-FusionInventory-Agent
 ## Prebuilt package
 
 Even if it's not the recommended installation method, sometime it's helpful to be able to
-run an inventory without system modification. In this case, you can use the [[prebuilt packages|documentation/agent/installation/prebuilt]].
+run an inventory without system modification. In this case, you can use the [prebuilt packages]({{ baseurl }}/documentation/documentation/agent/installation/prebuilt.html).

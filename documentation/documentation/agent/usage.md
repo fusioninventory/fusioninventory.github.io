@@ -80,7 +80,7 @@ an inventory:
 
     $> fusioninventory-inventory
 
-See [[man pages|man]] for details.
+See [man pages](man.html) for details.
 
 ### Result import
 
@@ -95,7 +95,7 @@ The agent has a dedicated executable for result injection:
 
     $> fusioninventory-injector --file inventory.xml --url http://my.server/plugins/fusioninventory/
 
-See [[fusioninventory-injector man page|man/fusioninventory-injector]] for
+See [fusioninventory-injector man page](man/fusioninventory-injector.html) for
 details.
 
 #### curl

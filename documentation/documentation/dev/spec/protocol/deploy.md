@@ -11,8 +11,6 @@ task.
 This module is used to do remote software deployments and command
 executions.
 
-[[!toc startlevel=2]]
-
 ##  Jobs request
 
 ###  Request

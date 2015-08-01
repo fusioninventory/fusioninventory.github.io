@@ -11,13 +11,13 @@ If the agent is running as a service or a daemon, its web interface should
 be accessible at <http://hostname:62354>.
 
 If the machine connecting to this interface is trusted (see *httpd-trust*
-configuration directective in [[agent configuration|agent/configuration]]), a
+configuration directective in [agent configuration](configuration.html)), a
 link will be available to force immediate execution.
 
 ## Command line
 
 Agent can also be executed from command line, using either of its multiple
-executables (see [[agent man pages|agent/man]] for details).
+executables (see [agent man pages](man.html) for details).
 
 ### Windows
 
@@ -36,7 +36,7 @@ Go in /opt/fusioninventory-agent and run the following command:
 
     $ sudo /opt/fusioninventory-agent/fusioninventory-agent
 
-See [[MacOSX documentation for further details|installation/macosx]].
+See [MacOSX documentation for further details](installation/macosx.html).
 
 ### Other
 

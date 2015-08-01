@@ -1,11 +1,7 @@
 ---
 layout: page
-title: Tasks redux
+title: Fusioninventory Plugin for GLPI - Tasks Redux
 ---
-
-Fusioninventory Plugin for GLPI - Tasks Redux
-
-[[!toc levels=4]]
 
 # Tasks redux : objectives
 

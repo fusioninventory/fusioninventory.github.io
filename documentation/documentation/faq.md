@@ -5,8 +5,6 @@ title: FAQ
 
 # FAQ
 
-[[!toc  levels=2]]
-
 ## Configuration and deployment
 
 ### On which platforms is the FusionInventory agent available?

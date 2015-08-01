@@ -5,7 +5,7 @@ title: How to edit this wiki
 
 # How to edit this wiki
 
-The wiki is [[Ikiwiki]]. It uses [[Markdown syntax|ikiwiki/formatting]].
+The wiki is Ikiwiki. It uses [Markdown syntax](ikiwiki/formatting).
 
 ## From HTTP
 
