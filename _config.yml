@@ -9,6 +9,7 @@ url: "http://fusioninventory.github.io" # the base hostname & protocol for your 
 twitter_username: fusioninventory
 github_username:  fusioninventory
 
+
 paginate: 8
 paginate_path: "/news/page:num/"
 
