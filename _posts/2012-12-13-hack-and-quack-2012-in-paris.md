@@ -6,7 +6,7 @@ title: Hack and Quack 2012 in Paris
 Last week end, we had a great time with the Perl community at the
 [Quack And Hack 2012 Europe](http://act.yapc.eu/qh2012eu/) meeting in Paris.
 
-![]({{ site.baseurl }}/2012/12/13/fusioninventory-people-at-work.jpg)
+![]({{ site.baseurl }}/news_docs/fusioninventory-people-at-work.jpg)
 
 These meeting had been the opportunity for the developement team to speak about the
 roadmap and the incoming releases.
