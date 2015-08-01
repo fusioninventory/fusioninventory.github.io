@@ -26,9 +26,9 @@ title: Guidelines to dev
   › [master](https://github.com/fusinv/fusioninventory-for-glpi/tree/master)  › [![Build Status](https://travis-ci.org/fusioninventory/fusioninventory-for-glpi.png?branch=master)](https://travis-ci.org/fusioninventory/fusioninventory-for-glpi)
 
 * Roadmaps: <br/>
-  › [[ask Redux]({{ site.baseurl }}/documentation/documentation/dev/plugin-glpi/task_redux.html)
+  › [Task Redux]({{ site.baseurl }}/documentation/documentation/dev/plugin-glpi/task_redux.html)
 
-  › [[ew page of Plugins > FusionInventory]({{ site.baseurl }}/documentation/documentation/dev/plugin-glpi/new_home_page.html)
+  › [New page of Plugins > FusionInventory]({{ site.baseurl }}/documentation/documentation/dev/plugin-glpi/new_home_page.html)
 
 # Run unit tests for GLPI plugin
 
@@ -54,7 +54,7 @@ Module-specific communication protocols:
 * [Network discovery module]({{ site.baseurl }}/documentation/documentation/dev/spec/protocol/netdiscovery.html)
 * [Network inventory module]({{ site.baseurl }}/documentation/documentation/dev/spec/protocol/netinventory.html)
 * [Wake on lan module]({{ site.baseurl }}/documentation/documentation/dev/spec/protocol/wakeonlan.html)
-* [[Vocabulary]({{ site.baseurl }}/documentation/documentation/dev/spec/protocol/vocabulary.html)
+* [Vocabulary]({{ site.baseurl }}/documentation/documentation/dev/spec/protocol/vocabulary.html)
 
 ## Others
 
