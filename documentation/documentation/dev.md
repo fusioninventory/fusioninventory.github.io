@@ -23,7 +23,7 @@ title: Guidelines to dev
 # Fusioninventory plugin for GLPI
 
 * Branches: <br/>
-  › [master](https://github.com/fusinv/fusioninventory-for-glpi/tree/master)  › [![Build Status](https://travis-ci.org/fusioninventory/fusioninventory-for-glpi.png?branch=master)](https://travis-ci.org/fusioninventory/fusioninventory-for-glpi)
+  › [master](https://github.com/fusinv/fusioninventory-for-glpi/tree/master)  › [![Build Status](https://travis-ci.org/fusioninventory/fusioninventory-for-glpi.png?branch=master)](https://travis-ci.org/fusioninventory/fusioninventory-for-glpi) [![Coverage Status](https://coveralls.io/repos/fusioninventory/fusioninventory-for-glpi/badge.svg?branch=master&service=github)](https://coveralls.io/github/fusioninventory/fusioninventory-for-glpi?branch=master)
 
 * Roadmaps: <br/>
   › [Task Redux]({{ site.baseurl }}/documentation/documentation/dev/plugin-glpi/task_redux.html)
