@@ -5,7 +5,7 @@ title: Installation on AIX
 
 # Installation on AIX
 
-[[!template  id=info text="We are looking for an **AIX RPM maintainer**"]]
+{% include info.html param="We are looking for an **AIX RPM maintainer**" %}
 
 ## Installation from source
 

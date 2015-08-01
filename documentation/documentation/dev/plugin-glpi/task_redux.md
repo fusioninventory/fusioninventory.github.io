@@ -16,21 +16,14 @@ This page aims to gather objectives .
   mReporting optional plugin)
 * Rework task summary categories and layout
 
-[[!template id=info text="""
-**TODO** We welcome any mockup and propositions.
-"""]]
+{% include info.html param="**TODO** We welcome any mockup and propositions." %}
 
 * Add history log on tasks.
 
 * Externalize taskjobs reports in an independant page and base the display of
   this page on what have been done with the Deploy reports status
 
-[[!template  id=info text="""
-**TODO**
-
-Add some mockup within this page or linked to another page if there are too
-many elements that makes this page unreadable.
-"""]]
+{% include info.html param="**TODO**<br /><br />Add some mockup within this page or linked to another page if there are too many elements that makes this page unreadable." %}
 
 ## Multi TaskJob sequencing
 
@@ -75,13 +68,7 @@ and managed separately.
             * at t+2h, [Deploy 2] is generated and ready to be executed by the
             agents.
 
-[[!template  id=info text="""
-**TODO**
-
-* Explain in detail the delay time.
-* Maybe we can use some sort of maximum duration in addition to the delay a
-task in order to limit usage on certain time slots.
-"""]]
+{% include info.html param="**TODO**<br /><br />* Explain in detail the delay time.<br />* Maybe we can use some sort of maximum duration in addition to the delay a task in order to limit usage on certain time slots." %}
 
 ### agent-driven mode (ondemand)
 
@@ -181,8 +168,5 @@ following format :
 
 ## Reporting
 
-[[!template id=info text="""
-**TODO**
+{% include info.html param="**TODO**<br /><br />* Define some use case reports for each tasks." %}
 
-* Define some use case reports for each tasks.
-"""]]

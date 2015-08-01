@@ -25,9 +25,8 @@ The installer can be used either on 32 or 64 bit Windows.
 
 1. Enter the full URL to your server.
 2. You can configure a key word to be able to sort out your machine later (TAG).
-[[!template  id=warning text="""
-A common mistake is to mix HTTP and HTTPS in URL.
-"""]]
+
+{% include warning.html param="A common mistake is to mix HTTP and HTTPS in URL." %}
 
 ## Advanced settings
 
@@ -41,10 +40,7 @@ A common mistake is to mix HTTP and HTTPS in URL.
 6. This check box will increase *a lot* the verbosity of the agent. The log is available in the agent-log.txt file.
 7. The installer can configure the Firewall for you if you want to allow connection on RPC port.
 
-[[!template  id=info text="""
-Agent HTTP service is optional. It is only required if you want
-to be able to awake your agent to for an inventory or a job.
-"""]]
+{% include info.html param="Agent HTTP service is optional. It is only required if you want to be able to awake your agent to for an inventory or a job." %}
 
 ## Installer command line parameters
 

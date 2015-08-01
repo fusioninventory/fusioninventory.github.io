@@ -1,12 +1,12 @@
 ---
 layout: page
-title: Microsoft Windows installation
+title: Microsoft Windows installation for agent Agent 2.3.x
 ---
 
 # Microsoft Windows Installation
 
-[[!template id=warning text="The new FusionInventory Agent 2.3.x comes with a **new** Microsoft Windows installer. The documentation you have below concerns this new installer. If you are looking for documentation on FusionInventory Agent 2.2.x (or earlier) and its installer, you can find it [here]({{ site.baseurl }}/documentation/documentation/agent/installation/windows_before_2.3.0.html)."]]
-
+{% include warning.html param="The new FusionInventory Agent 2.3.x comes with a **new** Microsoft Windows installer. The documentation you have below concerns this new installer. If you are looking for documentation on FusionInventory Agent 2.2.x (or earlier) and its installer, see link." %}
+You can find [documentation on FusionInventory Agent 2.2.x]({{ site.baseurl }}/documentation/documentation/agent/installation/windows_before_2.3.0.html).
 
 
 ## Get the Installer
@@ -67,9 +67,7 @@ The manual is contained within the installer. You can get it in one of the follo
 *         C:\> fusioninventory-agent_windows-<platform>_<version>.exe /dumphelp /S
 
 
-
-[[!template id=info text="It's recommended that you read through this documentation each time a new version is released; the new FusionInventory Agent installer for Microsoft Windows is still young and it's in constant development, including its manual."]]
-
+{% include info.html param="It's recommended that you read through this documentation each time a new version is released; the new FusionInventory Agent installer for Microsoft Windows is still young and it's in constant development, including its manual." %}
 
 
 ## Installation from Command Line and Silent Installation

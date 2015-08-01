@@ -258,3 +258,65 @@
 .breadcrumb>.active {color: lighten($text-color, 20%)}
 .breadcrumb>li+li:before {color:$grey-color-dark; content: "\003E\00a0";}
 
+
+/* infobox template */
+.infobox,
+.warningbox {
+    float:none;
+    padding: 0;
+    margin: 0;
+	margin-top: 1ex;
+	margin-bottom: 1ex;
+    padding-left: 52px;
+    min-height: 52px;
+	border: 1px solid #aaa;
+
+    background-repeat: no-repeat;
+    background-position-y: 2px;
+    background-position-x: 2px;
+
+}
+
+.infobox {
+	background-color: #7F93C4;
+    background-image: url(../images/info.png);
+}
+
+/* warningbox template */
+.warningbox {
+	background-color: #FFDA94;
+    background-image: url(../images/warning.png);
+}
+/* ul inside infobox no margins */
+.boxcontent ul {
+    margin: 0;
+    padding-left: 1.5em;
+}
+
+
+.boxcontent {
+    background-color:white;
+    display:block;
+    clear:both;
+    min-height: inherit;
+    padding-left: 0.5em;
+    height: 100%;
+}
+
+.boxcontent > p {
+    margin:0;
+/*    padding: 0.5em 0;*/
+}
+
+/* list element style */
+
+li * {
+    margin: 0.5em 0;
+}
+
+/* code elements style */
+
+code {
+    border-radius: 5px;
+}
+

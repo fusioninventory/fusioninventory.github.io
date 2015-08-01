@@ -5,7 +5,7 @@ title: Installation on HP-UX
 
 # Installation on HP-UX
 
-[[!template  id=info text="We are looking for a **HP-UX .depot maintainer**"]]
+{% include info.html param="We are looking for a **HP-UX .depot maintainer**" %}
 
 ## Installation from source
 

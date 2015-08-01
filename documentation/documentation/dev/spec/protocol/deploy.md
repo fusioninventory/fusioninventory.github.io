@@ -341,12 +341,7 @@ A array of check to evaluate. The code returned to the server and their behavior
 * `freespaceGreater`: true if $path freespace is greater than $value
   (MByte).
 
-[[!template id=warning text="""
-Registry path must:
-
-* start with the complete hive name (HKEY_something)
-* use the `/` delimiter (not `\ ` )
-"""]]
+{% include warning.html param="Registry path must:<br /><br />* start with the complete hive name (HKEY_something)<br />* use the `/` delimiter (not `\ ` )" %}
 
 A check failure will stop a job and the type of failure can be
 interpreted like the following:

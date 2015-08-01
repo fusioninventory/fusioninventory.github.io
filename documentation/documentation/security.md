@@ -75,10 +75,7 @@ two years:
     Common Name (eg, your name or your server's hostname) []:glpi.mycompany.com
     Email Address []:
 
-[[!template  id=warning text="You have to ensure the exact host name in your
-server URL matches the certificate Common Name attribute. For instance, if your
-server URL is http(s)://glpi.mycompany.com/, the common name should be
-'glpi.mycompany.com'."]]
+{% include warning.html param="You have to ensure the exact host name in your server URL matches the certificate Common Name attribute. For instance, if your server URL is http(s)://glpi.mycompany.com/, the common name should be 'glpi.mycompany.com'." %}
 
 The key, in server.key file, is the private part allowing the server to prove
 its identity. It should not be distributed, and be correctly protected. The

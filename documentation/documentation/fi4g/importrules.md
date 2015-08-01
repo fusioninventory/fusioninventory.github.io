@@ -5,8 +5,7 @@ title: How to work 'Equipment import and link rules'
 
 # How works 'Equipment import and link rules'
 
-[[!template  id=warning text="“Equipment import and link rules” are complex and misconfiguration can seriously hurt your GLPI."]]
-
+{% include warning.html param="Equipment import and link rules are complex and misconfiguration can seriously hurt your GLPI." %}
 
 ## First thing to know
 
@@ -68,7 +67,7 @@ It's played in these cases:
 * Network discovery 
 * Network Inventory (switches, printers...)
 
-[[!template  id=note text="Port MAC addresses from network switch are not used as criterias"]]
+{% include info.html param="Port MAC addresses from network switch are not used as criterias" %}
 
 ## Criteria of a rule
 

@@ -66,8 +66,7 @@ execution.
 
 ### Offline installation of Perl dependencies
 
-[[!template  id=info text="You will need [cpanm](http://cpanmin.us).
-See above how to install it."]]
+{% include info.html param="You will need cpanm http://cpanmin.us .See above how to install it." %}
 
 First grab the tarball from the website and extract it.
 

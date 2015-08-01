@@ -5,7 +5,7 @@ title: Windows large installation
 
 # Silent installation
 
-[[!template  id=info text="Warning, this page is outdated and needs to be refresh for the 2.3.0 agent."]] 
+{% include info.html param="Warning, this page is outdated and needs to be refresh for the 2.3.0 agent." %}
 
 ## fusioninventory.vbs
 

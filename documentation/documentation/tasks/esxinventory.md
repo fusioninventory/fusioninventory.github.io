@@ -87,8 +87,7 @@ Chose a agent and enable : VMware host remote inventory :
 
 ![](esxinventory/01_inventory-ESX.png)
 
-[[!template  id=warning text="Since some account credentials will be send by the agent,
-we strongly recommend the user of a known machine with SSL enabled."]]
+{% include warning.html param="Since some account credentials will be send by the agent, we strongly recommend the user of a known machine with SSL enabled." %}
 
 ## Task management
 
@@ -100,7 +99,7 @@ Go to Plugins  → FusionInventory → Authentication for remote devices (VMware
 
 ![](esxinventory/02_authentification_vcenter.png)
 
-[[!template  id=warning text="We strongly recommend the user of account with limited privilege."]]
+{% include warning.html param="We strongly recommend the user of account with limited privilege." %}
 
 ### Add remote devices to inventory (VMware)
 

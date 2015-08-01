@@ -141,7 +141,7 @@ Returns undef in case of error or an array of the following hash:
 
 ###  runCommand
 
-[[!template  id=warning text="Function disabled for the moment."]]
+{% include warning.html param="Function disabled for the moment." %}
 
 * output: "blabla",
 * errorMsg: "an optional error message in english",

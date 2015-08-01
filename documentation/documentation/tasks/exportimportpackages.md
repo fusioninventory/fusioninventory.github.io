@@ -5,7 +5,7 @@ title: Export / import packages for deploy
 
 # Export / import packages for deploy
 
-[[!template  id=warning text="This feature is added in version 0.85+1.0 of plugin FusionInventory"]]
+{% include warning.html param="This feature is added in version 0.85+1.0 of plugin FusionInventory" %}
 
 
 ## Export

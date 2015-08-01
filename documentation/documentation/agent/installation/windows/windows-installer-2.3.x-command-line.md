@@ -3,7 +3,7 @@ layout: page
 title: Windows installer 2.3.x command-line
 ---
 
-[[!template id=info text="The following information has been obtained from *fusioninventory-agent\_windows-x64\_2.3.2.exe*, the installer for x64 architectures, but it's also valid for *fusioninventory-agent\_windows-x86\_2.3.2.exe*, the installer for x86 architectures."]]
+{% include info.html param="The following information has been obtained from *fusioninventory-agent\_windows-x64\_2.3.2.exe*, the installer for x64 architectures, but it's also valid for *fusioninventory-agent\_windows-x86\_2.3.2.exe*, the installer for x86 architectures." %}
 
 **NAME**
 
@@ -577,4 +577,7 @@ Tomás Abad \<tabadgp@gmail.com\>
 
 ----
 
-[[!template id=info text="""You can download the PDF version of this document [here](http://forge.fusioninventory.org/projects/fusioninventory-agent-windows-installer/files "http://forge.fusioninventory.org/projects/fusioninventory-agent-windows-installer/files")."""]]
+{% include info.html param="You can download the PDF version of this document" %}
+
+You can download it [here](http://forge.fusioninventory.org/projects/fusioninventory-agent-windows-installer/files).
+
