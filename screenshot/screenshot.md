@@ -35,4 +35,11 @@ server that support FusionInventory Agent.
    
 ![](fusioninventory-hardware-300x146.png "clouds")
 
+# FusionDirectory
+
+[FusionDirectory](https://www.fusiondirectory.org/) is an infrastructure manager that support FusionInventory
+
+![](fd-configuration-fusioninventory.png "FusionDirectory Configuration for the fusioninventory plugin")
+![](fd-fusioninventory-inventory-list.png "FusionDirectory List of inventory") 
+![](fd-fusioninventory-inventory.png "FusionDirectory wiew of an inventory linked to a system")
 
