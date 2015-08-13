@@ -9,7 +9,7 @@ title: FAQ
 
 ### On which platforms is the FusionInventory agent available?
 
-The agent is available on Windows, MacOS X, Linux, FreeBSD, OpenBSD,
+The agent is available on Windows, OS X, Linux, FreeBSD, OpenBSD,
 NetBSD, DragonFlyBSD, AIX, Solaris, HP-UX. The agent shares the same
 codebase on all these platforms.
 

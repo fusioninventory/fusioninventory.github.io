@@ -1,9 +1,9 @@
 ---
 layout: page
-title: FusionInventory agent installation on MacOS X
+title: FusionInventory agent installation on OS X
 ---
 
-## FusionInventory Agent installation on MacOS X
+## FusionInventory Agent installation on OS X
 
 ## Get the Agent
 

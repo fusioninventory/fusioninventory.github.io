@@ -5,7 +5,7 @@ title: fusioninventory-agent
 
 # NAME
 
-fusioninventory-agent - FusionInventory agent For Linux/UNIX, Windows and MacOSX
+fusioninventory-agent - FusionInventory agent For Linux/UNIX, Windows and OS X
 
 # SYNOPSIS
 

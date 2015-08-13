@@ -151,7 +151,7 @@ title: Inventory protocol
             Server 2003, etc. -->
           <!ELEMENT KERNEL_VERSION (#PCDATA)>
           <!-- operating system name ("Distributor ID" in LSB terms), ie
-            'Debian', 'Ubuntu', 'CentOS', 'SUSE LINUX', 'Windows', 'MacOSX',
+            'Debian', 'Ubuntu', 'CentOS', 'SUSE LINUX', 'Windows', 'OS X',
             'FreeBSD', 'AIX', 'Android', etc. -->
           <!ELEMENT NAME (#PCDATA)>
           <!-- operating system full name, ie 'Debian GNU/Linux unstable (sid)',

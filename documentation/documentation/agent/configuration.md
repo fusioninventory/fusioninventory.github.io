@@ -11,7 +11,7 @@ On Unix, the agent reads its configuration from a configuration file, whose
 location depends of the installation method:
 
 * `/etc/fusioninventory/agent.cfg`: default
-* `/opt/fusioninventory/agent.cfg`: MacOSx mpkg
+* `/opt/fusioninventory/agent.cfg`: OS X mpkg
 * `/usr/local/etc/fusioninventory/agent.cfg`: FreeBSD port
 
 On Windows, the agent read its configuration from a registry key, whose

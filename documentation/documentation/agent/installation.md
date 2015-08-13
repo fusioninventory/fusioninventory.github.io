@@ -7,7 +7,7 @@ title: FusionInventory agent installation
 
 ## Package based installation
 
-* [OSX]({{ site.baseurl }}/documentation/documentation/agent/installation/macosx.html)
+* [OS X]({{ site.baseurl }}/documentation/documentation/agent/installation/macosx.html)
 * [Linux]({{ site.baseurl }}/documentation/documentation/agent/installation/linux.html)
 * [Windows]({{ site.baseurl }}/documentation/documentation/agent/installation/windows.html)
 * [AIX]({{ site.baseurl }}/documentation/documentation/agent/installation/aix.html)

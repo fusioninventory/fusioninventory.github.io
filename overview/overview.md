@@ -40,7 +40,7 @@ You can use FusionInventory to install, update or remove software. You can also 
 The solution can be run on any kind of operating system, espcially:
 
 * Windows
-* MacOSX
+* OS X
 * Linux
 
 FusionInventory is designed to take care of the network bandwidth.
