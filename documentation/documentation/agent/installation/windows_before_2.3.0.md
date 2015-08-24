@@ -3,11 +3,16 @@ layout: page
 title: Windows installation before 2.3.0
 ---
 
+<div class="note warning">
+  <h5>This installer is outdated and unmaintained.</h5>
+  <p>You should use the new 2.3 branch now.</p>
+</div>
+
+
+
 # Windows installation
 
 ## Get the installer
-
-First, download the archive: <http://prebuilt.fusioninventory.org/stable/windows-i386/>
 
 The file name convention is:
 

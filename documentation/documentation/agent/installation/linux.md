@@ -18,4 +18,3 @@ quite easy to achieve through a CPAN client.
 * [Gentoo]({{ site.baseurl }}/documentation/documentation/agent/installation/linux/gentoo.html)
 * [Mageia and Mandriva]({{ site.baseurl }}/documentation/documentation/agent/installation/linux/mageia.html)
 * [Source]({{ site.baseurl }}/documentation/documentation/agent/installation/source.html)
-* [Generic “prebuilt” packages]({{ site.baseurl }}/documentation/documentation/agent/installation/prebuilt.html)

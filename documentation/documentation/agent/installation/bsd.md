@@ -20,8 +20,3 @@ available in net/p5-FusionInventory-Agent
 ## Installation from source
 
 [Installation from source]({{ site.baseurl }}/documentation/documentation/agent/installation/source.html).
-
-## Prebuilt package
-
-Even if it's not the recommended installation method, sometime it's helpful to be able to
-run an inventory without system modification. In this case, you can use the [prebuilt packages]({{ baseurl }}/documentation/documentation/agent/installation/prebuilt.html).
