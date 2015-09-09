@@ -48,7 +48,7 @@ Some notes about the new FusionInventory Agent installer for Microsoft Windows.
 
 
 
-You can find the manual of the FusionInventory Agent installer for Microsoft Windows [here]({{ site.baseurl }}/documentation/documentation/agent/installation/windows/windows-installer-2.3.x-command-line.md).
+You can find the manual of the FusionInventory Agent installer for Microsoft Windows [here]({{ site.baseurl }}/documentation/documentation/agent/installation/windows/windows-installer-2.3.x-command-line.html).
 
 
 
