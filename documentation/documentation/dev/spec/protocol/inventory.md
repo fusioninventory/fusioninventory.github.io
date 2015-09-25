@@ -412,7 +412,7 @@ title: Inventory protocol
             SC, HP MP (0|1) -->
           <!ELEMENT MANAGEMENT (#PCDATA)>
           <!-- interface type
-            (ethernet|wifi|infiniband|aggregate|alias|dialup|loopback|bridge)
+            (ethernet|wifi|infiniband|aggregate|alias|dialup|loopback|bridge|fibrechannel)
             -->
           <!ELEMENT TYPE (#PCDATA)>
           <!-- wether it is a virtual interface (0|1) -->
