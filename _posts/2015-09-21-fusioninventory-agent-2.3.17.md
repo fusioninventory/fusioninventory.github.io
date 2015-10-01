@@ -3,8 +3,6 @@ layout: post
 title: FusionInventory agent 2.3.17
 ---
 
-# FusionInventory Agent 2.3.17 release
-
 The FusionInventory Agent maintainers are glad to announce the 2.3.17 release.
 
 You can download it from the usual places:
