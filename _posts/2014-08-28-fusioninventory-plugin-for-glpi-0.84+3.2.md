@@ -16,4 +16,4 @@ This release fix many bugs and add possibility to check network/mask in entity r
 
 The changelog is available [here](http://forge.fusioninventory.org/versions/191)
 
-Don't forget the procedure to [install / update the plugin](http://www.fusioninventory.org/documentation/fi4g/installation/)
+Don't forget the procedure to [install / update the plugin](http://www.fusioninventory.org/documentation/fi4g/installation.html)
