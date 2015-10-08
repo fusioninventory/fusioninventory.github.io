@@ -15,9 +15,9 @@ menu: true
 
 ## FusionInventory Agent
 
-![]({{ site.baseurl }}/documentation/documentation/agent/installation/windows/windows-installer-2.3.x-screen-002-welcome.png "Welcome")
+![]({{ site.baseurl }}/documentation/agent/installation/windows/windows-installer-2.3.x-screen-002-welcome.png "Welcome")
    
-![]({{ site.baseurl }}/documentation/documentation/agent/installation/windows/windows-installer-2.3.x-screen-004-installation-type.png "Installation Type")
+![]({{ site.baseurl }}/documentation/agent/installation/windows/windows-installer-2.3.x-screen-004-installation-type.png "Installation Type")
    
 ![](agent-300x230.png "clouds")
    

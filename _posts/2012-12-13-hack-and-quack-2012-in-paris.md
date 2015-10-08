@@ -17,7 +17,7 @@ blocked at home by the snow snow falls.
 Tomás works on a new 
 Windows installer for FusionInventory Agent. He already spent a lot of time to understand
 and clean the old NSIS scripts. He also maintain a
-[clear and complet documentation]({{ site.baseurl }}/documentation/documentation/agent/dev/experimental_windows_installer.html) about
+[clear and complet documentation]({{ site.baseurl }}/documentation/agent/dev/experimental_windows_installer.html) about
 the build process.
 
 He plans to be ready for the 2.3.0 release of the agent. The job is done in the

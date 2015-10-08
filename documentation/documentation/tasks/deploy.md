@@ -7,7 +7,7 @@ title: Package deployment
 
 Package Deployment is both integrated with GLPI via *massive actions* and via the Plugin interface.
 
-![]({{ site.baseurl }}/documentation/documentation/tasks/deploy/FusionInventoryMain.png)
+![]({{ site.baseurl }}/documentation/tasks/deploy/FusionInventoryMain.png)
 
 1.  Task Management is available via the FusionInventory dropdown. This is mostly used to deploy packages, but can be used
     for other tasks.
@@ -30,7 +30,7 @@ This is used to quickly check the status of a FusionInventory agent:
 
 ### Create a package
 
-![]({{ site.baseurl }}/documentation/documentation/tasks/deploy/FusionPluginPackageManagementMain.png)
+![]({{ site.baseurl }}/documentation/tasks/deploy/FusionPluginPackageManagementMain.png)
 
 1.  Use *Add a Package* to create a new package.
 2.  Click on an existing package to edit that package.
@@ -40,7 +40,7 @@ This is used to quickly check the status of a FusionInventory agent:
 You can add checks before running the package, but you can prefer to do
 that with the deployed scripts.
 
-![]({{ site.baseurl }}/documentation/documentation/tasks/deploy/FusionInventoryPackageCreation.png)
+![]({{ site.baseurl }}/documentation/tasks/deploy/FusionInventoryPackageCreation.png)
 
 1.  Select to upload a file. You can upload a number of files, but must upload one at a time. You can also elect to 
     upload a zip file. 
@@ -57,14 +57,14 @@ If you use "move" command, use "*" in case from if the agent get the file from G
 
 ## Task Management (Normal)
 
-Please see the [task creation]({{ site.baseurl }}/documentation/documentation/fi4g/tasks.html) page.
+Please see the [task creation]({{ site.baseurl }}/documentation/fi4g/tasks.html) page.
 
 ### Creating a deployment task
 
 **NOTE**: You **must** have created the package you want to deploy
 FIRST. Please read that section if you need help with that.
 
-![]({{ site.baseurl }}/documentation/documentation/tasks/deploy/FusionInventoryTaskTest.png)
+![]({{ site.baseurl }}/documentation/tasks/deploy/FusionInventoryTaskTest.png)
 
 1.  Give the task a name
 2.  Select the communication type (push or pull). Traditionally we have
@@ -73,7 +73,7 @@ FIRST. Please read that section if you need help with that.
 
 Then:
 
-![]({{ site.baseurl }}/documentation/documentation/tasks/deploy/FusionInventoryNewAction.png)
+![]({{ site.baseurl }}/documentation/tasks/deploy/FusionInventoryNewAction.png)
 
 1.  Click on New Action
 2.  Give the job a name (Optional)
@@ -81,7 +81,7 @@ Then:
 
 Then:
 
-![]({{ site.baseurl }}/documentation/documentation/tasks/deploy/FusionInventoryJobDetails.png)
+![]({{ site.baseurl }}/documentation/tasks/deploy/FusionInventoryJobDetails.png)
 
 1.  Click the plus sign next to definition, select a package, click add.
 2.  Click the plus sign next to Action, select computers etc, then use
@@ -102,7 +102,7 @@ Then:
 You can run a deployment task more than once, and it is separate from
 creating one.
 
-![]({{ site.baseurl }}/documentation/documentation/tasks/deploy/FusionInventoryTaskReady.png)
+![]({{ site.baseurl }}/documentation/tasks/deploy/FusionInventoryTaskReady.png)
 
 1.  First, set the task to Active and click update.
 2.  Then either force the task to start immediately with "Force Start"
@@ -121,7 +121,7 @@ When a task is running on a PC it will update information about its
 status. This log is saved after the task completes and can be reviewed
 from the Task Job page.
 
-![]({{ site.baseurl }}/documentation/documentation/tasks/deploy/FusionInventoryTaskStatusDetails.png)
+![]({{ site.baseurl }}/documentation/tasks/deploy/FusionInventoryTaskStatusDetails.png)
 
 ## Deploy Dropdown
 

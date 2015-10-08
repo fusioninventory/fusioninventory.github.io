@@ -12,9 +12,9 @@ distribution freeze, etc...), they are not always up-to-date.
 Installation from source, though, ensures to have the latest release, and is
 quite easy to achieve through a CPAN client.
 
-* [Debian and Ubuntu]({{ site.baseurl }}/documentation/documentation/agent/installation/linux/deb.html)
-* [RHEL and Centos]({{ site.baseurl }}/documentation/documentation/agent/installation/linux/rhel.html)
-* [Fedora]({{ site.baseurl }}/documentation/documentation/agent/installation/linux/fedora.html)
-* [Gentoo]({{ site.baseurl }}/documentation/documentation/agent/installation/linux/gentoo.html)
-* [Mageia and Mandriva]({{ site.baseurl }}/documentation/documentation/agent/installation/linux/mageia.html)
-* [Source]({{ site.baseurl }}/documentation/documentation/agent/installation/source.html)
+* [Debian and Ubuntu]({{ site.baseurl }}/documentation/agent/installation/linux/deb.html)
+* [RHEL and Centos]({{ site.baseurl }}/documentation/agent/installation/linux/rhel.html)
+* [Fedora]({{ site.baseurl }}/documentation/agent/installation/linux/fedora.html)
+* [Gentoo]({{ site.baseurl }}/documentation/agent/installation/linux/gentoo.html)
+* [Mageia and Mandriva]({{ site.baseurl }}/documentation/agent/installation/linux/mageia.html)
+* [Source]({{ site.baseurl }}/documentation/agent/installation/source.html)

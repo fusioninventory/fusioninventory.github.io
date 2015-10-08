@@ -13,7 +13,7 @@ You can download it from the usual places:
 * [the forge](http://forge.fusioninventory.org/projects/fusioninventory-agent-windows-installer/files) for the windows distribution
 * etc...
 
-See [download instructions]({{ site.baseurl }}/documentation/documentation/agent/installation.html) for details.
+See [download instructions]({{ site.baseurl }}/documentation/agent/installation.html) for details.
 
 This release fixes a bug in AD environment on Windows: enumeration of local
 users and local groups was taking too much time, leading to a timeout issue. It

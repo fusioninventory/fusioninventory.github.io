@@ -37,6 +37,6 @@ Users with configured ssh keys can modify the git repository:
 
 ## documentation/
 
-### documentation/documentation/references/
+### documentation/references/
 
 Files in these directory are directly generated from the git repositories of the agent by a script.

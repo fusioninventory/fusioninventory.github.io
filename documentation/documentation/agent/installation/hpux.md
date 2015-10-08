@@ -9,4 +9,4 @@ title: Installation on HP-UX
 
 ## Installation from source
 
-[Installation from source]({{ site.baseurl }}/documentation/documentation/agent/installation/source.html).
+[Installation from source]({{ site.baseurl }}/documentation/agent/installation/source.html).

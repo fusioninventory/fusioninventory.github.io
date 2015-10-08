@@ -5,7 +5,7 @@ title: Installation on Solaris
 
 # System-specific informations
 
-You may need to install some [system specific dependencies]({{ baseurl }}/documentation/documentation/agent/system_dep.html).
+You may need to install some [system specific dependencies]({{ baseurl }}/documentation/agent/system_dep.html).
 
 # Installation on Solaris
 
@@ -18,4 +18,4 @@ http://www.opencsw.org/packages/fusioninventory_agent/
 
 ## Installation from source
 
-[Installation from source]({{ site.baseurl }}/documentation/documentation/agent/installation/source.html).
+[Installation from source]({{ site.baseurl }}/documentation/agent/installation/source.html).

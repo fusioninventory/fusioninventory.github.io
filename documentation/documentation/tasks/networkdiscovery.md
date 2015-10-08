@@ -56,7 +56,7 @@ host.
 
 In order to run a network discovery task without a GLPI server, and for easier
 troubleshooting, the fusioninventory-netdiscovery task can be run from command
-line. See [fusioninventory-netdiscovery manpage]({{ site.baseurl }}/documentation/documentation/references/agent-task-network/1.0.x/fusioninventory-netdiscovery.html) for
+line. See [fusioninventory-netdiscovery manpage]({{ site.baseurl }}/documentation/references/agent-task-network/1.0.x/fusioninventory-netdiscovery.html) for
 details.
 
 ## Server execution
@@ -95,4 +95,4 @@ devices found on this network will be created in the given entity.
 Now your agent is ready and the Network has been registered, you can create
 your first task. Go in _Task management (Normal)_ menu and create a new entry.
 
-Please see the [task creation]({{ site.baseurl }}/documentation/documentation/fi4g/tasks.html) page.
+Please see the [task creation]({{ site.baseurl }}/documentation/fi4g/tasks.html) page.

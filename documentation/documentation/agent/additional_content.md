@@ -7,7 +7,7 @@ title: How to push additional content in my inventory
 
 ## Additional content
 
-You can use *additional-content* [configuration parameter]({{ baseurl }}/documentation/documentation/agent/configuration.html) 
+You can use *additional-content* [configuration parameter]({{ baseurl }}/documentation/agent/configuration.html) 
 (alternatively, *--additional-content* [command-line options](man.html)) to inject arbitary XML content into
 inventory result.
 

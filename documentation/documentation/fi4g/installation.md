@@ -54,7 +54,7 @@ page to set the *Service URL*. You need to enter the location of your GLPI serve
 
 ![](images/service_url.png)
 
-Once these is done, you can [install your first agent]({{ baseurl }}/documentation/documentation/agent/installation.html).
+Once these is done, you can [install your first agent]({{ baseurl }}/documentation/agent/installation.html).
 
 ### Options Detail
 
@@ -64,5 +64,5 @@ SSL-only for agent: send an error response to an agent when this agent communica
 
 {% include warning.html param="We strongly recommend to activate SSL on the server side to protect human user communications, and eventually agent communications too. See  for details." %}
 
-See [here]({{ baseurl }}/documentation/documentation/security.html) for details.
+See [here]({{ baseurl }}/documentation/security.html) for details.
 
