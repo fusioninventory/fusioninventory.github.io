@@ -6,13 +6,15 @@ title: FusionInventory agent 2.3.17
 The FusionInventory Agent maintainers are glad to announce the 2.3.17 release.
 
 You can download it from the usual places:
+
 * the forge for the source distribution
 * the forge for the windows distribution (soon...)
 * etc...
 
-See http://www.fusioninventory.org/documentation/agent/installation.html for details.
+See [download instructions]({{ site.baseurl }}/documentation/agent/installation.html) for details.
 
 There has been a long delay since 2.3.16 release, almost 7 months. As a consequence, a large number of bug fixes have been accumulated, some of them fixing long-standing issues, such as:
+
 - multi-threading issues under Windows for netdiscovery and netinventory tasks
 - recurrent timeout under MacOSX for inventory task
 
