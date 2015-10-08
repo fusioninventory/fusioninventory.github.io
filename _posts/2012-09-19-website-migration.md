@@ -22,7 +22,7 @@ time.
 ## Ikiwiki
 
 So we decided to change the situation to provide an up-to-date
-[documentation]({{ site.baseurl }}/documentation.html)
+[documentation]({{ site.baseurl }}/documentation/documentation.html)
 directly on the website. For this, we are very happy with Ikiwiki:
 
 * We can maintain the documentation directly with Git and a text editor
