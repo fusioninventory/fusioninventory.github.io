@@ -9,7 +9,7 @@ The latest 2.3.3 version, released yesterday, provides a new features for
 network discovery, backported from next 2.4 version: better device
 identification.
 
-As described [here]({{ site.baseurl }}/documentation/fi4g/networkdiscovery/), network discovery
+As described [here]({{ site.baseurl }}/documentation/tasks/networkdiscovery.html), network discovery
 is actually a two-stage process: devices have to be found first, identified
 second. Identification here means determining a few minimal information about
 the discovered device (its type, manufacturer, etc), with two purposes:

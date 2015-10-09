@@ -5,7 +5,7 @@ title: Installation on Solaris
 
 # System-specific informations
 
-You may need to install some [system specific dependencies]({{ baseurl }}/documentation/agent/system_dep.html).
+You may need to install some [system specific dependencies]({{ baseurl }}/documentation/agent/installation/solaris/discussion.html).
 
 # Installation on Solaris
 

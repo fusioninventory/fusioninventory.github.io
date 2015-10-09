@@ -6,7 +6,9 @@ title: First release for FusionInventory agent for Android
 The FusionInventory team is proud to announce the support of a new platform: Android.
 <h1>FusionInventory Agent for Android 1.0.1 is out!</h1>
 
-## Download<a href="/news_docs/fusioninventory-for-android-1.0.png"><img class="alignright size-full wp-image-1205" title="fusioninventory-for-android-1.0" src="/news_docs/fusioninventory-androidmarket.png" alt="" width="235" height="235" /></a>
+## Download<a href="/news_docs/fusioninventory-for-android-1.0.png">
+
+<img class="alignright size-full wp-image-1205" title="fusioninventory-for-android-1.0" src="/news_docs/fusioninventory-androidmarket.png" alt="" width="235" height="235" /></a>
 
 FusionInventory Agent for Android 1.0.1 is available on the market.
 
