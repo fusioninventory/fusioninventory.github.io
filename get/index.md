@@ -2,6 +2,7 @@
 layout: page
 title: GET IT
 menu: true
+redirect_from: "/get/get.html"
 ---
 
 # Get FusionInventory
