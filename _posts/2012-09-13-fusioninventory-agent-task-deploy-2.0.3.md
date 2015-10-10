@@ -21,4 +21,4 @@ or directly from [the CPAN](https://metacpan.org/release/FusionInventory-Agent-T
 * Add directoryExists and directoryMissing test
 
 
-We did our best to provide a solid release, please [contact us]({{ site.baseurl }}/resources/resources.html) is you believe you find something unexpected.
+We did our best to provide a solid release, please [contact us]({{ site.baseurl }}/resources/) is you believe you find something unexpected.

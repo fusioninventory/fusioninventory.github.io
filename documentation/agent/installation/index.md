@@ -1,6 +1,8 @@
 ---
 layout: page
 title: FusionInventory agent installation
+redirect_from:
+ - /documentation/agent/installation.html
 ---
 
 # FusionInventory Agent installation

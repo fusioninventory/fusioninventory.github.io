@@ -13,7 +13,7 @@ You can download it from the usual places:
 * [the forge](http://forge.fusioninventory.org/projects/fusioninventory-agent-windows-installer/files) for the windows distribution
 * etc...
 
-See [download instructions]({{ site.baseurl }}/documentation/agent/installation.html) for details.
+See [download instructions]({{ site.baseurl }}/documentation/agent/installation/) for details.
 
 This release fixes a bug in AD environment on Windows: enumeration of local
 users and local groups was taking too much time, leading to a timeout issue. It
@@ -25,5 +25,5 @@ case.
 Due to a last-minute issue in release process, a 2.3.5.1 version has also been
 released immediatly, but it only fix a minor issue for inventory task on AIX.
 
-We did our best to provide a solid release, please [contact us]({{ site.baseurl }}/resources/resources.html) if
+We did our best to provide a solid release, please [contact us]({{ site.baseurl }}/resources/) if
 you believe you find something unexpected.

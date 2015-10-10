@@ -2,7 +2,9 @@
 layout: page
 title: Contact
 menu: true
-redirect_from: "/resources/resources.html"
+redirect_from:
+ - /resources/resources.html
+ - /wordpress/contact/
 ---
 
 # Resources and web sites
@@ -34,5 +36,5 @@ mailing lists or the bug tracker on the forge.
 
 ## Partners
 
-A list of trusted companies is maintain on the [partners]({{ site.baseurl }}/partners/partners.html) page. Those companies are involved in FusionInventory
+A list of trusted companies is maintain on the [partners]({{ site.baseurl }}/partners/) page. Those companies are involved in FusionInventory
 developement.

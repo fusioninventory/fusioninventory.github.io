@@ -26,4 +26,4 @@ The integration of fusioninventory is part of new features needed by the
  upcoming arrival of systems provisioning within FusionDirectory.
 
 
-You can see screenshots in screenshot menu or directly on this [link]({{ baseurl }}/screenshot/screenshot.html#fusiondirectory).
+You can see screenshots in screenshot menu or directly on this [link]({{ baseurl }}/screenshot/#fusiondirectory).

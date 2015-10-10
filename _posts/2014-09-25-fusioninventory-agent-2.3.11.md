@@ -15,7 +15,7 @@ You can download it from the usual places:
 * [the forge](http://forge.fusioninventory.org/projects/fusioninventory-agent-windows-installer/files) for the windows distribution
 * etc...
 
-See [download instructions]({{ site.baseurl }}/documentation/agent/installation.html) for details.
+See [download instructions]({{ site.baseurl }}/documentation/agent/installation/) for details.
 
 The major changes in this release are multiple:
 
@@ -31,5 +31,5 @@ The major changes in this release are multiple:
 
 In addition, this release also fixes multiple smaller issues.
 
-We did our best to provide a solid release, please [contact us]({{ site.baseurl }}/resources/resources.html) if
+We did our best to provide a solid release, please [contact us]({{ site.baseurl }}/resources/) if
 you believe you find something unexpected.

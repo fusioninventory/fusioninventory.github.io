@@ -24,7 +24,7 @@ He plans to be ready for the 2.3.0 release of the agent. The job is done in the
 [fusioninventory-agent-windows-installer](http://forge.fusioninventory.org/projects/fusioninventory-agent-windows-installer)
 project on the forge.
 
-You can contact him [on the FusionInventory-Developer]({{ site.baseurl }}/resources/resources.html) mailing list. He also
+You can contact him [on the FusionInventory-Developer]({{ site.baseurl }}/resources/) mailing list. He also
 uses to be time to time on IRC (tabad).
 
 ## What we achieved

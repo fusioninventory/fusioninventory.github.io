@@ -13,7 +13,7 @@ redirect_from: "/documentation/documentation.html"
 
 # FusionInventory Agent
 
-* [Installation](agent/installation.html)
+* [Installation](agent/installation/)
 * [Configuration](agent/configuration.html)
 * [Man pages](agent/man.html)
 * [Usage](agent/usage.html)

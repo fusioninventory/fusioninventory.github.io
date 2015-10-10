@@ -13,7 +13,7 @@ You can download it from the usual places:
 * [the forge](http://forge.fusioninventory.org/projects/fusioninventory-agent-windows-installer/files) for the windows archive
 * etc...
 
-See [download instructions]({{ site.baseurl }}/documentation/agent/installation.html) for details.
+See [download instructions]({{ site.baseurl }}/documentation/agent/installation/) for details.
 
 This release fixes a painful bug in network discovery and inventory where an
 infinite loops triggers an 'memory exhausted' error. It also fixes an
@@ -23,5 +23,5 @@ this was only affecting people installing from sources. As with previous
 backported from master branch, allowing better information retrieval, and far
 less dependency on SNMP models (more details in a future news).
 
-We did our best to provide a solid release, please [contact us]({{ site.baseurl }}/resources/resources.html) is
+We did our best to provide a solid release, please [contact us]({{ site.baseurl }}/resources/) is
 you believe you find something unexpected.

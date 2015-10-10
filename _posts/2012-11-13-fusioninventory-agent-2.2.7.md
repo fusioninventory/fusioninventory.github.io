@@ -24,7 +24,7 @@ or directly from [the CPAN](https://metacpan.org/release/FusionInventory-Agent)
 
 * fix missing bios release information on some machines [[!bug 1820]], [[!bug 1825]]
 
-We did our best to provide a solid release, please [contact us]({{ baseurl }}/resources/resources.html) is you believe you find something unexpected.
+We did our best to provide a solid release, please [contact us]({{ site.baseurl }}/resources/) is you believe you find something unexpected.
 
 The prebuilt and Windows installer archive will be generated as soon as the
 FusionInventory-Agent-Task-Network distribution is released.
@@ -33,5 +33,5 @@ FusionInventory-Agent-Task-Network distribution is released.
 
 Packages have been finally generated, including the last Deploy and Network bug fix releases.
 
-Please read the [agent installation]({{ site.baseurl }}/documentation/agent/installation.html)
+Please read the [agent installation]({{ site.baseurl }}/documentation/agent/installation/)
 page for further informations.

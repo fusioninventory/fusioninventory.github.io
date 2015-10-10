@@ -34,4 +34,4 @@ The Windows packages are already available [on the website](http://forge.fusioni
 * clean up in the distribution, thanks Olivier Mengué <dolmen@cpan.org>
 
 
-We did our best to provide a solid release, please [contact us]({{ site.baseurl }}/resources/resources.html) is you believe you find something unexpected.
+We did our best to provide a solid release, please [contact us]({{ site.baseurl }}/resources/) is you believe you find something unexpected.

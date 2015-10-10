@@ -2,7 +2,9 @@
 layout: page
 title: GET IT
 menu: true
-redirect_from: "/get/get.html"
+redirect_from:
+ - /get/get.html
+ - /wordpress/download-installation/
 ---
 
 # Get FusionInventory
@@ -11,7 +13,7 @@ redirect_from: "/get/get.html"
 
 The agent is used to collect informations, scan the network, deploy file and package.
 
-* [Install the agent]({{ site.baseurl }}/documentation/agent/installation.html).
+* [Install the agent]({{ site.baseurl }}/documentation/agent/installation/).
 
 ## Server
 

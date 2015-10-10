@@ -8,7 +8,7 @@ The FusionInventory Agent maintainers are glad to announce the 2.2.5 release.
 You can download the archive from [the forge](http://forge.fusioninventory.org/projects/fusioninventory-agent/files)
 or directly from [the CPAN](https://metacpan.org/release/FusionInventory-Agent)
 
-We did our best to provide a solid release, please [contact us]({{ site.baseurl }}/resources/resources.html) is you believe to find something unexpected
+We did our best to provide a solid release, please [contact us]({{ site.baseurl }}/resources/) is you believe to find something unexpected
 
 ## changelog
 

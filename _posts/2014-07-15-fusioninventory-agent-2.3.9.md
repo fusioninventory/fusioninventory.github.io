@@ -15,7 +15,7 @@ You can download it from the usual places:
 * [the forge](http://forge.fusioninventory.org/projects/fusioninventory-agent-windows-installer/files) for the windows distribution
 * etc...
 
-See [download instructions]({{ site.baseurl }}/documentation/agent/installation.html) for details.
+See [download instructions]({{ site.baseurl }}/documentation/agent/installation/) for details.
 
 This release improves printer consumables identification during network
 inventory, and adds support for Huawei devices identification (H3C devices were
@@ -30,5 +30,5 @@ profile corruption (#2555).
 The subsequent 2.3.9.1 release only fixes an installation issue when installing
 from sources.
 
-We did our best to provide a solid release, please [contact us]({{ site.baseurl }}/resources/resources.html) if
+We did our best to provide a solid release, please [contact us]({{ site.baseurl }}/resources/) if
 you believe you find something unexpected.

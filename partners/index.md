@@ -19,48 +19,48 @@ This list is open and if you believe your company deservice to be added, please
 
 ***
 
-## siprossii ![]({{ site.baseurl }}/partners/partners/siprossii.png)
+## siprossii ![]({{ site.baseurl }}/partners/siprossii.png)
 
 * Web: [http://www.siprossii.com/](http://www.siprossii.com/)
 * Mail: d.durieux@siprossii.com
-* ![]({{ site.baseurl }}/partners/partners/logo/code.png) FusionInventory for GLPI and Agent
-* ![]({{ site.baseurl }}/partners/partners/logo/qa.png) Tests and bug reports: Daily tests and bugfixes.
-* ![]({{ site.baseurl }}/partners/partners/logo/promote.png) Promotion and Communication: Conferences, presentations, TShirts and stickers.
-* ![]({{ site.baseurl }}/partners/partners/logo/doc.png) Documentation: Documentation.
-* ![]({{ site.baseurl }}/partners/partners/logo/support.png) User support (Forum, IRC): Daily support.
-* ![]({{ site.baseurl }}/partners/partners/logo/training.png) Training: GLPI and FusionInventory training.
+* ![]({{ site.baseurl }}/partners/logo/code.png) FusionInventory for GLPI and Agent
+* ![]({{ site.baseurl }}/partners/logo/qa.png) Tests and bug reports: Daily tests and bugfixes.
+* ![]({{ site.baseurl }}/partners/logo/promote.png) Promotion and Communication: Conferences, presentations, TShirts and stickers.
+* ![]({{ site.baseurl }}/partners/logo/doc.png) Documentation: Documentation.
+* ![]({{ site.baseurl }}/partners/logo/support.png) User support (Forum, IRC): Daily support.
+* ![]({{ site.baseurl }}/partners/logo/training.png) Training: GLPI and FusionInventory training.
 
 ***
 
-## TECLIB' ![]({{ site.baseurl }}/partners/partners/teclib.png)
+## TECLIB' ![]({{ site.baseurl }}/partners/teclib.png)
 
 * Web: [http://teclib.com](http://teclib.com)
 * Mail: vente@teclib.com
-* ![]({{ site.baseurl }}/partners/partners/logo/code.png) FusionInventory for GLPI and Agent
-* ![]({{ site.baseurl }}/partners/partners/logo/qa.png) Tests and bug reports: Daily tests and bugfixes.
-* ![]({{ site.baseurl }}/partners/partners/logo/promote.png) Promotion and Communication: Conferences, presentations, TShirts and stickers.
-* ![]({{ site.baseurl }}/partners/partners/logo/doc.png) Documentation: Documentation.
-* ![]({{ site.baseurl }}/partners/partners/logo/support.png) User support (Forum, IRC): Daily support.
-* ![]({{ site.baseurl }}/partners/partners/logo/training.png) Training: GLPI and FusionInventory training.
+* ![]({{ site.baseurl }}/partners/logo/code.png) FusionInventory for GLPI and Agent
+* ![]({{ site.baseurl }}/partners/logo/qa.png) Tests and bug reports: Daily tests and bugfixes.
+* ![]({{ site.baseurl }}/partners/logo/promote.png) Promotion and Communication: Conferences, presentations, TShirts and stickers.
+* ![]({{ site.baseurl }}/partners/logo/doc.png) Documentation: Documentation.
+* ![]({{ site.baseurl }}/partners/logo/support.png) User support (Forum, IRC): Daily support.
+* ![]({{ site.baseurl }}/partners/logo/training.png) Training: GLPI and FusionInventory training.
 
 ***
 
-## Normation ![]({{ site.baseurl }}/partners/partners/normation.png)
+## Normation ![]({{ site.baseurl }}/partners/normation.png)
 
 * Web: [http://normation.com](http://normation.com)
 * Mail: jonathan.clarke@normation.com
-* ![]({{ site.baseurl }}/partners/partners/logo/code.png) Agent
-* ![]({{ site.baseurl }}/partners/partners/logo/qa.png) Tests and bug reports: bug reports.
-* ![]({{ site.baseurl }}/partners/partners/logo/promote.png) Promotion and Communication: Conferences and website hosting.
+* ![]({{ site.baseurl }}/partners/logo/code.png) Agent
+* ![]({{ site.baseurl }}/partners/logo/qa.png) Tests and bug reports: bug reports.
+* ![]({{ site.baseurl }}/partners/logo/promote.png) Promotion and Communication: Conferences and website hosting.
 
 ***
 
-## Zenitique ![]({{ site.baseurl }}/partners/partners/zenetique.jpg)
+## Zenitique ![]({{ site.baseurl }}/partners/zenetique.jpg)
 
 * Web: [http://zenitique.fr/](http://zenitique.fr/)
 * Mail: marc.caissial@zenitique.fr
-* ![]({{ site.baseurl }}/partners/partners/logo/qa.png) Tests and bug reports: bug reports.
-* ![]({{ site.baseurl }}/partners/partners/logo/support.png) User support (Forum, IRC): forum moderator
+* ![]({{ site.baseurl }}/partners/logo/qa.png) Tests and bug reports: bug reports.
+* ![]({{ site.baseurl }}/partners/logo/support.png) User support (Forum, IRC): forum moderator
 
 ***
 

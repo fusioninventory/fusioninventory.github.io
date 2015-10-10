@@ -22,7 +22,7 @@ time.
 ## Ikiwiki
 
 So we decided to change the situation to provide an up-to-date
-[documentation]({{ site.baseurl }}/documentation/documentation.html)
+[documentation]({{ site.baseurl }}/documentation/)
 directly on the website. For this, we are very happy with Ikiwiki:
 
 * We can maintain the documentation directly with Git and a text editor
@@ -41,4 +41,4 @@ The website is hosted at [Branchable.com](http://www.branchable.com/).
 * You want to fix some issues with the current documentation.
 * You are a translator.
 
-Please [contact us]({{ site.baseurl }}/resources/resources.html).
+Please [contact us]({{ site.baseurl }}/resources/).

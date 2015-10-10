@@ -1,6 +1,8 @@
 ---
 layout: page
 title: Installation on Debian and Ubuntu
+redirect_from:
+ - /wordpress/debian/
 ---
 
 # Using FusionInventory Debian (and Ubuntu) packages
