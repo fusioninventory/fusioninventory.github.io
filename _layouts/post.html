@@ -47,4 +47,19 @@ layout: default
     {{ content }}
   </article>
 
+  <footer class="post-footer">
+    <nav class="post-footer-nav">
+      {% if page.previous %}
+      <div  class="post-footer-prev-nav">
+        &laquo; {{ page.previous.date | date: "%b %-d, %Y" }} - <a href="{{ page.previous.url | prepend: site.baseurl }}">{{ page.previous.title | truncate: 40 }}</a>
+      </div>
+      {% endif %}
+      {% if page.next %}
+      <div  class="post-footer-next-nav">
+      {{ page.next.date | date: "%b %-d, %Y" }} - <a href="{{ page.next.url | prepend: site.baseurl }}">{{ page.next.title | truncate: 40 }}</a> &raquo;
+      </div>
+      {% endif %}
+    </nav>
+  </footer>
+
 </div>

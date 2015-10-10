@@ -165,7 +165,7 @@
  * Page content
  */
 .page-content {
-    padding: $spacing-unit 0;
+    padding: $spacing-unit 0 0 0;
 }
 
 .page-heading {
@@ -236,6 +236,23 @@
             font-size: 18px;
         }
     }
+}
+
+.post-footer {
+    margin-top: $spacing-unit;
+}
+
+.post-footer-nav {
+    font-size: $smaller-font-size;
+    color: $grey-color;
+}
+
+.post-footer-prev-nav {
+    float: left;
+}
+
+.post-footer-next-nav {
+    float: right;
 }
 
 
