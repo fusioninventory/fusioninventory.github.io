@@ -6,7 +6,8 @@ title: The big picture
 # The big picture
 
 ![](bigpicture.png)
-<div class="hidden"> [[!graph  src="""
+
+Original graph source:
 
     style=filled;
     color=lightgrey;
@@ -83,4 +84,3 @@ title: The big picture
         label = "Networks";
     }
 
-"""]] </div>

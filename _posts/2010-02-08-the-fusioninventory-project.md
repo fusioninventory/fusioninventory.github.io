@@ -1,6 +1,8 @@
 ---
 layout: post
 title: The FusionInventory project
+redirect_from:
+ - /wordpress/2010/02/08/hello-world/
 ---
 
 <strong>The FusionInventory project</strong>

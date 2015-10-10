@@ -1,6 +1,8 @@
 ---
 layout: page
 title: Reference documentation
+redirect_from:
+ - /documentation/references.html
 ---
 
 # Reference documentation

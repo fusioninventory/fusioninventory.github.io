@@ -5,6 +5,7 @@ menu: true
 redirect_from:
  - /get/get.html
  - /wordpress/download-installation/
+ - /wordpress/download-fusioninventory/
 ---
 
 # Get FusionInventory

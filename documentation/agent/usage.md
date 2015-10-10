@@ -80,7 +80,7 @@ an inventory:
 
     $> fusioninventory-inventory
 
-See [man pages](man.html) for details.
+See [man pages](man/) for details.
 
 ### Result import
 

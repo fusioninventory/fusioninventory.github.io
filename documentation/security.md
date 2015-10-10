@@ -43,7 +43,7 @@ validation. As a consequence, the agent will refuse to use HTTPS, and exit
 immediatly if IO::Socket::SSL is not available, unless certificate checking has
 been explicitely disabled, through *no-ssl-check* [configuration
 parameter]({{ site.baseurl }}/documentation/agent/configuration.html) (or alternatively, *--no-ssl-check* [command
-line option]({{ site.baseurl }}/documentation/agent/man.html)).
+line option]({{ site.baseurl }}/documentation/agent/man/)).
 
 ## Self-signed certificate setup
 
@@ -92,4 +92,4 @@ be configured to use them. For instance, on Apache with mod_ssl:
 The certificate file has to be installed on each agent host, and the agent
 should be configured to use it as certification authority, with *ca-cert-file*
 [configuration parameter]({{ site.baseurl }}/documentation/agent/configuration.html) (or alternatively,
-*--ca-cert-file* [command line option]({{ site.baseurl }}/documentation/agent/man.html)).
+*--ca-cert-file* [command line option]({{ site.baseurl }}/documentation/agent/man/)).

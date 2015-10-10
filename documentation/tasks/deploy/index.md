@@ -1,6 +1,8 @@
 ---
 layout: page
 title: Package deployment
+redirect_from:
+ - /documentation/task/deploy.html
 ---
 
 # Package Deployment

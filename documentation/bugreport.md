@@ -23,7 +23,7 @@ agent, and transmitted to the server. The easiest way is to look at the
 *import information* tab available for each GLPI object (computer, network
 device, etc...), which provides a link to download this content. Another
 solution is to use the various *fusioninventory-something* executables (see
-[agent man pages](agent/man.html) for details) to produce the same content directly
+[agent man pages](agent/man/) for details) to produce the same content directly
 on the agent host. However, subtile differences may occurs, if the execution
 environment and privileges are not the same as non-interactive executions.
 
@@ -51,7 +51,7 @@ It is useless to set a priority, it will be re-evaluated by the assignee anyway.
 ## Execution traces
 
 Agent log verbosity may be increased by raising *debug* [configuration parameter](agent/configuration.html) 
-value (alternatively, by using multiple *--debug* [command-line options](agent/man.html)).
+value (alternatively, by using multiple *--debug* [command-line options](agent/man/)).
 
 Server log verbosity may be increased by enabling *extra-debug* configuration
 parameter in plugin configuration.

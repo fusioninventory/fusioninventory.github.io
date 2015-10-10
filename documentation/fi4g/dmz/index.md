@@ -1,6 +1,8 @@
 ---
 layout: page
 title: How to inventory in DMZ
+redirect_from:
+ - /documentation/fi4g/dmz.html
 ---
 
 # A way to deal with inventories in DMZ

@@ -15,7 +15,7 @@ redirect_from: "/documentation/documentation.html"
 
 * [Installation](agent/installation/)
 * [Configuration](agent/configuration.html)
-* [Man pages](agent/man.html)
+* [Man pages](agent/man/)
 * [Usage](agent/usage.html)
 * [Force an inventory](agent/launch_the_agent.html)
 
@@ -23,13 +23,13 @@ redirect_from: "/documentation/documentation.html"
 
 * [Installation and update](fi4g/installation.html)
 * [Import and link rules](fi4g/importrules.html)
-* [How to deal with DMZ network](fi4g/dmz.html)
+* [How to deal with DMZ network](fi4g/dmz/)
 
 # How to
 
 * [Scan my network](tasks/networkdiscovery.html)
-* [Inventory ESX virtual machines](tasks/esxinventory.html)
-* [Deploy softwares](tasks/deploy.html)
+* [Inventory ESX virtual machines](tasks/esxinventory/)
+* [Deploy softwares](tasks/deploy/)
 * [Deploy > export / import packages](tasks/exportimportpackages.html)
 
 # Advanced topics
@@ -42,4 +42,4 @@ redirect_from: "/documentation/documentation.html"
 
 * [How to use this wiki](wiki.html)
 * [Translation](translation.html)
-* [for developers](dev.html)
+* [for developers](dev/)

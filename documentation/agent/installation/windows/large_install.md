@@ -26,7 +26,7 @@ must be adjusted for your configuration:
     uninstallocsagent = "yes"
 
 * versionverification: the version of fusioninventory to install
-* fusionarguments: the command line argument for the [Windows installer]({{ baseurl }}/documentation/agent/installation/windows.html))
+* fusionarguments: the command line argument for the [Windows installer]({{ baseurl }}/documentation/agent/installation/windows/))
 * fusionsetupURL: the location of the Windows installer binary (either HTTP or Windows share)
 * uninstallocsagent: "yes" if OCS Agent has to be removed
 

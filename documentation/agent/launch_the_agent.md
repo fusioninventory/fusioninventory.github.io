@@ -17,7 +17,7 @@ link will be available to force immediate execution.
 ## Command line
 
 Agent can also be executed from command line, using either of its multiple
-executables (see [agent man pages](man.html) for details).
+executables (see [agent man pages](man/) for details).
 
 ### Windows
 
@@ -36,7 +36,7 @@ Go in /opt/fusioninventory-agent and run the following command:
 
     $ sudo /opt/fusioninventory-agent/fusioninventory-agent
 
-See [OS X documentation for further details](installation/macosx.html).
+See [OS X documentation for further details](installation/macosx/).
 
 ### Other
 

@@ -1,6 +1,8 @@
 ---
 layout: page
 title: Microsoft Windows installation for agent Agent 2.3.x
+redirect_from:
+ - /documentation/agent/installation/windows.html
 ---
 
 # Microsoft Windows Installation

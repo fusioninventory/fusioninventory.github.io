@@ -1,6 +1,8 @@
 ---
 layout: page
 title: Guidelines to dev
+redirect_from:
+ - /documentation/dev.html
 ---
 
 # Agent specific

@@ -28,7 +28,7 @@ directly on the website. For this, we are very happy with Ikiwiki:
 * We can maintain the documentation directly with Git and a text editor
 * Anyone can update documentation/* pages from the Web without any
 special account
-* The [Markdown syntax](ikiwiki/formatting) is simple enough
+* The [Markdown syntax](https://ikiwiki.info/ikiwiki/formatting/) is simple enough
 * Tools like [pandoc](http://johnmacfarlane.net/pandoc/) exist in order to
 convert or generate Markdown
 from different formats (HTML, ODT, DOC, etc).

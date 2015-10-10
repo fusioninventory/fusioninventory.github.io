@@ -1,6 +1,8 @@
 ---
 layout: page
 title: Installation on Solaris
+redirect_from:
+ - /documentation/agent/installation/solaris.html
 ---
 
 # System-specific informations

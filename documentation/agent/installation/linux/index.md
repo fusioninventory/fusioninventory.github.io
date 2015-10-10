@@ -1,6 +1,8 @@
 ---
 layout: page
 title: Agent installation on Linux
+redirect_from:
+ - /documentation/agent/installation/linux.html
 ---
 
 # Agent Installation on Linux

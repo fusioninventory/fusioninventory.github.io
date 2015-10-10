@@ -1,6 +1,8 @@
 ---
 layout: page
 title: FusionInventory agent installation on OS X
+redirect_from:
+ - /documentation/agent/installation/macosx.html
 ---
 
 ## FusionInventory Agent installation on OS X

@@ -1,6 +1,8 @@
 ---
 layout: page
 title: Agent man pages
+redirect_from:
+ - /documentation/agent/man.html
 ---
 
 # Agent man pages
