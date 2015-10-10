@@ -2,6 +2,7 @@
 layout: page
 title: Screenshot
 menu: true
+redirect_from: "/screenshot/screenshot.html"
 ---
 
 ## FusionInventory for GLPI

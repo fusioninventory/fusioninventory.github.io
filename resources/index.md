@@ -2,6 +2,7 @@
 layout: page
 title: Contact
 menu: true
+redirect_from: "/resources/resources.html"
 ---
 
 # Resources and web sites

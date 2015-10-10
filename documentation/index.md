@@ -2,7 +2,7 @@
 layout: page
 title: Documentation
 menu: true
-redirect_from: "/documentation/"
+redirect_from: "/documentation/documentation.html"
 ---
 
 # Global

@@ -2,6 +2,7 @@
 layout: page
 title: Overview
 menu: true
+redirect_from: "/overview/overview.html"
 ---
 
 # Feature Overview

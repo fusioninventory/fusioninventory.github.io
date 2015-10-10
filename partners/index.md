@@ -2,6 +2,7 @@
 layout: page
 title: Partners
 menu: true
+redirect_from: "/partners/partners.html"
 ---
 
 # Partners
