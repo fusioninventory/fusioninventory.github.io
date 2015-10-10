@@ -16,3 +16,6 @@ paginate_path: "/news/page:num/"
 # Build settings
 markdown: kramdown
 
+# Used gem
+gems:
+    - jekyll-redirect-from
