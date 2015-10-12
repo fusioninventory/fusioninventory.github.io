@@ -9,14 +9,14 @@ redirect_from:
 
 ## Executables
 
-* [fusioninventory-agent](man/fusioninventory-agent.html)
-* [fusioninventory-esx](man/fusioninventory-esx.html)
-* [fusioninventory-injector](man/fusioninventory-injector.html)
-* [fusioninventory-inventory](man/fusioninventory-inventory.html)
-* [fusioninventory-netdiscovery](man/fusioninventory-netdiscovery.html)
-* [fusioninventory-netinventory](man/fusioninventory-netinventory.html)
-* [fusioninventory-wakeonlan](man/fusioninventory-wakeonlan.html)
+* [fusioninventory-agent](fusioninventory-agent.html)
+* [fusioninventory-esx](fusioninventory-esx.html)
+* [fusioninventory-injector](fusioninventory-injector.html)
+* [fusioninventory-inventory](fusioninventory-inventory.html)
+* [fusioninventory-netdiscovery](fusioninventory-netdiscovery.html)
+* [fusioninventory-netinventory](fusioninventory-netinventory.html)
+* [fusioninventory-wakeonlan](fusioninventory-wakeonlan.html)
 
 ## Configuration
 
-* [agent.cfg](man/agent.cfg.html)
+* [agent.cfg](agent.cfg.html)
