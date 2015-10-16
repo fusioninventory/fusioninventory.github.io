@@ -7,7 +7,10 @@ title: FusionInventory for GLPI installation
 
 ## Get the archive for your GLPI
 
-First, download archive the here: <http://forge.fusioninventory.org/projects/fusioninventory-for-glpi/files>
+First, download archive: 
+
+* Recent versions (>= 0.90) : <https://github.com/fusioninventory/fusioninventory-for-glpi/releases>
+* older versions <http://forge.fusioninventory.org/projects/fusioninventory-for-glpi/files>
 
 FusionInventory for GLPI tarball name follow this convention:
 
