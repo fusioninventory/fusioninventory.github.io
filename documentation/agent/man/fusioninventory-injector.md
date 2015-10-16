@@ -5,7 +5,7 @@ title: fusioninventory-injector
 
 # NAME
 
-fusioninventory-injector - A tool to push inventory in an OCS Inventory or compatible server.
+fusioninventory-injector - A tool to push inventory in a Fusioninventory Inventory (GLPI) or compatible server.
 
 # SYNOPSIS
 
@@ -22,7 +22,7 @@ fusioninventory-injector \[options\] \[--file \<file\>|--directory \<directory\>
 
 # Examples:
 
-      fusioninventory-injector -v -f /tmp/toto-2010-09-10-11-42-22.ocs --url https://login:pw@server/ocsinventory
+      fusioninventory-injector -v -f /tmp/toto-2010-09-10-11-42-22.ocs --url https://login:pw@server/plugins/fusioninventory/
 
 # DESCRIPTION
 
