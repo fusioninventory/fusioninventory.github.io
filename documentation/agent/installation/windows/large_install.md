@@ -9,7 +9,7 @@ title: Windows large installation
 
 ## fusioninventory.vbs
 
-[fusioninventory.vbs]({{ baseurl }}/documentation/agent/installation/windows/fusioninventory.vbs) is a VBS script used to:
+[fusioninventory.vbs]({{ site.baseurl }}/documentation/agent/installation/windows/fusioninventory.vbs) is a VBS script used to:
 
 * Download the fusioninventory Windows installer
 * Remove OCS Inventory Agent
@@ -26,7 +26,7 @@ must be adjusted for your configuration:
     uninstallocsagent = "yes"
 
 * versionverification: the version of fusioninventory to install
-* fusionarguments: the command line argument for the [Windows installer]({{ baseurl }}/documentation/agent/installation/windows/))
+* fusionarguments: the command line argument for the [Windows installer]({{ site.baseurl }}/documentation/agent/installation/windows/))
 * fusionsetupURL: the location of the Windows installer binary (either HTTP or Windows share)
 * uninstallocsagent: "yes" if OCS Agent has to be removed
 
@@ -60,12 +60,12 @@ Create a GPO and copy the script within and associate the fusioninventory.vbs sc
 
 You may be interested by these two GPO templates:
 
-* [FusionInventory.adml]({{ baseurl }}/documentation/agent/installation/windows/FusionInventory.adml)
-* [FusionInventory.admx]({{ baseurl }}/documentation/agent/installation/windows/FusionInventory.admx)
+* [FusionInventory.adml]({{ site.baseurl }}/documentation/agent/installation/windows/FusionInventory.adml)
+* [FusionInventory.admx]({{ site.baseurl }}/documentation/agent/installation/windows/FusionInventory.admx)
 
 # Alternative VBS script
 
-An [alternative script]({{ baseurl }}/documentation/agent/installation/windows/fusioninventory-alternative.vbs) maintained
+An [alternative script]({{ site.baseurl }}/documentation/agent/installation/windows/fusioninventory-alternative.vbs) maintained
 by ZenAdm also exists.
 
 This script is still *experimental* but it is already much easier to understand.

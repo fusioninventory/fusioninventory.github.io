@@ -67,5 +67,5 @@ SSL-only for agent: send an error response to an agent when this agent communica
 
 {% include warning.html param="We strongly recommend to activate SSL on the server side to protect human user communications, and eventually agent communications too. See  for details." %}
 
-See [here]({{ baseurl }}/documentation/security.html) for details.
+See [here]({{ site.baseurl }}/documentation/security.html) for details.
 

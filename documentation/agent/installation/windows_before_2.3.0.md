@@ -91,9 +91,9 @@ If you upgrade the agent with FusionInventory Deploy and the agent is launched w
 
 # Large installation
 
-A page is dedicated to explain how to [deploy the agent on a Windows domain]({{ baseurl }}/documentation/agent/installation/windows/large_install.html).
+A page is dedicated to explain how to [deploy the agent on a Windows domain]({{ site.baseurl }}/documentation/agent/installation/windows/large_install.html).
 
 
 # Installation from sources
 
-If you are an developer, or an advanced user, you can also install FusionInventory [from sources]({{ baseurl }}/documentation/agent/dev/git_windows.html).
+If you are an developer, or an advanced user, you can also install FusionInventory [from sources]({{ site.baseurl }}/documentation/agent/dev/git_windows.html).
