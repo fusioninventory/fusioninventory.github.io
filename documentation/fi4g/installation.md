@@ -57,7 +57,7 @@ page to set the *Service URL*. You need to enter the location of your GLPI serve
 
 ![](images/service_url.png)
 
-Once these is done, you can [install]({{ site.baseurl }}/documentation/agent/installation/) and [configure]({{ site.baseurl }}/documentation/agent/configuration.html).  your first agent.
+Once this is done, you can [install]({{ site.baseurl }}/documentation/agent/installation/) and [configure]({{ site.baseurl }}/documentation/agent/configuration.html).  your first agent.
 
 ### Options Detail
 
