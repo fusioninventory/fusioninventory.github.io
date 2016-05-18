@@ -31,6 +31,7 @@ redirect_from: "/documentation/documentation.html"
 * [Inventory ESX virtual machines](tasks/esxinventory/)
 * [Deploy softwares](tasks/deploy/)
 * [Deploy > export / import packages](tasks/exportimportpackages.html)
+* [Deploy with mirrors](tasks/deploymirrors.html)
 
 # Advanced topics
 
