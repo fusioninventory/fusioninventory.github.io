@@ -7,7 +7,7 @@ redirect_from:
 
 # System-specific informations
 
-You may need to install some [system specific dependencies]({{ baseurl }}/documentation/agent/installation/solaris/discussion.html).
+You may need to install some [system specific dependencies]({{ site.baseurl }}/documentation/agent/installation/solaris/discussion.html).
 
 # Installation on Solaris
 

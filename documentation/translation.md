@@ -14,7 +14,7 @@ a [Git client](http://git-scm.com/) to retrieve a copy of the website.
 For your information, [Lokalize](http://userbase.kde.org/Lokalize) is a great tool
 to translate the .po files.
 
-If you want us to enable another langage, please contact [Gonéri](mailto:goneri@rulezlan.org) or the [Translator mailing list]({{ baseurl }}/resources/).
+If you want us to enable another langage, please contact [Gonéri](mailto:goneri@rulezlan.org) or the [Translator mailing list]({{ site.baseurl }}/resources/).
 
 ## Glossary for translators
 
