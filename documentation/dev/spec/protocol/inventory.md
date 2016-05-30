@@ -45,7 +45,7 @@ title: Inventory protocol
       LOCAL_GROUPS+, LOCAL_USERS+, LOGICAL_VOLUMES+, MEMORIES+, MONITORS+,
       NETWORKS+, PHYSICAL_VOLUMES+, PORTS+, PRINTERS+, PROCESSES+, SLOTS+,
       SOFTWARES+, USERS+, STORAGES+, SOUNDS+, VIRTUALMACHINES+,
-      VOLUME_GROUPS+)>
+      VOLUME_GROUPS+, REMOTE_MGMT+)>
 
         <!ELEMENT BIOS (SMODEL, SMANUFACTURER, SSN, BDATE, BVERSION,
         BMANUFACTURER, MMANUFACTURER, MSN, MMODEL, ASSETTAG, ENCLOSURESERIAL,
@@ -689,6 +689,14 @@ title: Inventory protocol
           <!-- free space -->
           <!ELEMENT FREE (#PCDATA)>
           <!ELEMENT VG_EXTENT_SIZE (#PCDATA)>
+
+        <!ELEMENT REMOTE_MGMT (ID, TYPE)>
+          <!-- id -->
+          <!ELEMENT ID (#PCDATA)>
+          <!-- type
+            (teamviewer)
+            -->
+          <!ELEMENT TYPE (#PCDATA)>
 
       <!-- agent ID (string) -->
       <!ELEMENT DEVICEID (#PCDATA)>
