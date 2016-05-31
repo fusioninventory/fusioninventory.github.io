@@ -27,7 +27,7 @@ For Linux, add in _crontab_:
 For windows, create in _Task Scheduler_ all 1 or 5 minutes:
 
 ```
-"c:/path/to/php.exe c:/path/to/glpi/front/cron.php"
+"c:\path\to\php.exe c:\path\to\glpi\front\cron.php"
 ```
 
 
