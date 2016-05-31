@@ -22,6 +22,7 @@ redirect_from: "/documentation/documentation.html"
 # FusionInventory for GLPI
 
 * [Installation and update](fi4g/installation.html)
+* [Cron in GLPI](fi4g/cron.html)
 * [Import and link rules](fi4g/importrules.html)
 * [How to deal with DMZ network](fi4g/dmz/)
 
