@@ -15,7 +15,7 @@ You can find [documentation on FusionInventory Agent 2.2.x]({{ site.baseurl }}/d
 
 
 
-You can get the last FusionInventory Agent installer for Microsoft Windows [here](http://forge.fusioninventory.org/projects/fusioninventory-agent-windows-installer/files "http://forge.fusioninventory.org/projects/fusioninventory-agent-windows-installer/files"). The filename of the installer follows this pattern:
+You can get the last [FusionInventory Agent installer for Microsoft Windows](http://forge.fusioninventory.org/projects/fusioninventory-agent-windows-installer/files "http://forge.fusioninventory.org/projects/fusioninventory-agent-windows-installer/files"). The filename of the installer follows this pattern:
 
 
 
@@ -50,7 +50,7 @@ Some notes about the new FusionInventory Agent installer for Microsoft Windows.
 
 
 
-You can find the manual of the FusionInventory Agent installer for Microsoft Windows [here]({{ site.baseurl }}/documentation/agent/installation/windows/windows-installer-2.3.x-command-line.html).
+You can find the [manual of the FusionInventory Agent installer for Microsoft Windows]({{ site.baseurl }}/documentation/agent/installation/windows/windows-installer-2.3.x-command-line.html).
 
 
 
@@ -103,12 +103,10 @@ For more information about the *visual mode* installation, please, see the follo
 ## Large Installations
 
 
-
-There's a page dedicated to explaining [how to deploy FusionInventory Agent 2.2.x (or earlier) on a Windows Domain]({{ site.baseurl }}/documentation/agent/installation/windows/large_install.html) but, at the moment, its instructions are not valid for the new FusionInventory Agent installer.
-
-
-
-For the time being, until the new page gets updated with more details, a new VBScript (Visual Basic Script) has been made available to allow you to perform an unattended deployment of *fusioninventory-agent_windows-\<platform>_\<version>.exe* in large (and in not so large) environments. The script is named *fusioninventory-agent-deployment.vbs* and it lastest version can be found [here](https://raw.github.com/fusinv/fusioninventory-agent/2.3.x/contrib/windows/fusioninventory-agent-deployment.vbs "https://raw.github.com/fusinv/fusioninventory-agent/2.3.x/contrib/windows/fusioninventory-agent-deployment.vbs").
+There is a VBScript (Visual Basic Script) allow you to perform an unattended deployment of 
+*fusioninventory-agent_windows-\<platform>_\<version>.exe* in large (and in not so large) environments. 
+The script is named 
+[fusioninventory-agent-deployment.vbs](https://raw.github.com/fusinv/fusioninventory-agent/2.3.x/contrib/windows/fusioninventory-agent-deployment.vbs "https://raw.github.com/fusinv/fusioninventory-agent/2.3.x/contrib/windows/fusioninventory-agent-deployment.vbs").
 
 
 
