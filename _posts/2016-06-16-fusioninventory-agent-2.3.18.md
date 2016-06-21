@@ -8,7 +8,7 @@ The FusionInventory Agent maintainers are glad to announce the 2.3.18 release.
 You can download it from the usual places:
 
 * [our github repo for the source distribution](https://github.com/fusioninventory/fusioninventory-agent/releases/tag/2.3.18)
-* [tabad repo for the windows distribution](https://github.com/tabad/fusioninventory-agent-windows-installer/releases) (soon...)
+* [tabad repo for the windows distribution](https://github.com/tabad/fusioninventory-agent-windows-installer/releases/tag/2.3.18)
 * etc...
 
 See [download instructions]({{ site.baseurl }}/documentation/agent/installation/) for details.
