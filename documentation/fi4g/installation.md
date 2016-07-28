@@ -21,7 +21,7 @@ FusionInventory for GLPI tarball name follow this convention:
 
 ## Update
 
-You *must* *FIRST* disabled the FusionInventory plugins and move somewhere else the FusionInventory plugins folder. This to ensure deprecated files will properly be removed.
+You *must* *FIRST* disable the FusionInventory plugin via GLPI web interface and then move the `plugins/fusioninventory` folder out of the `plugins/` folder. This ensures any deprecated files will be properly removed.
 
 {% include warning.html param="Don't click on *UNINSTALL* link. If you do this, you will LOOSE all FusionInventory data." %}
 
