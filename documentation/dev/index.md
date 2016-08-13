@@ -36,7 +36,7 @@ redirect_from:
 
 * [How to run unit tests for plugin FusionInventory for GLPI]({{ site.baseurl }}/documentation/dev/pluginglpi_unit_test.html)
 
-# technical documentation
+# Technical documentation
 
 ## Agent-server communication protocol
 
@@ -57,6 +57,10 @@ Module-specific communication protocols:
 * [Network inventory module]({{ site.baseurl }}/documentation/dev/spec/protocol/netinventory.html)
 * [Wake on lan module]({{ site.baseurl }}/documentation/dev/spec/protocol/wakeonlan.html)
 * [Vocabulary]({{ site.baseurl }}/documentation/dev/spec/protocol/vocabulary.html)
+
+## Code ducumentation of plugin for GLPI
+
+[Plugin FusionInventory for GLPI code documentation]({{ site.baseurl }}/documentation/dev/plugin_doc_code/index.html)
 
 ## Others
 
