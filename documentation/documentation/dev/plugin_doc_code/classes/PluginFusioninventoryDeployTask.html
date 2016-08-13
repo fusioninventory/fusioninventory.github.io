@@ -1,0 +1,2398 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0"/>
+    <meta charset="utf-8"/>
+    <title>Plugin FusionInventory for GLPI code documentation</title>
+    <meta name="author" content=""/>
+    <meta name="description" content=""/>
+
+    <link href="../css/bootstrap-combined.no-icons.min.css" rel="stylesheet">
+    <link href="../css/font-awesome.min.css" rel="stylesheet">
+    <link href="../css/prism.css" rel="stylesheet" media="all"/>
+    <link href="../css/template.css" rel="stylesheet" media="all"/>
+    
+    <!--[if lt IE 9]>
+    <script src="../js/html5.js"></script>
+    <![endif]-->
+    <script src="../js/jquery-1.11.0.min.js"></script>
+    <script src="../js/ui/1.10.4/jquery-ui.min.js"></script>
+    <script src="../js/bootstrap.min.js"></script>
+    <script src="../js/jquery.smooth-scroll.js"></script>
+    <script src="../js/prism.min.js"></script>
+    <!-- TODO: Add http://jscrollpane.kelvinluck.com/ to style the scrollbars for browsers not using webkit-->
+    <script type="text/javascript">
+    function loadExternalCodeSnippets() {
+        Array.prototype.slice.call(document.querySelectorAll('pre[data-src]')).forEach(function (pre) {
+            var src = pre.getAttribute('data-src');
+            var extension = (src.match(/\.(\w+)$/) || [, ''])[1];
+            var language = 'php';
+
+            var code = document.createElement('code');
+            code.className = 'language-' + language;
+
+            pre.textContent = '';
+
+            code.textContent = 'Loading…';
+
+            pre.appendChild(code);
+
+            var xhr = new XMLHttpRequest();
+
+            xhr.open('GET', src, true);
+
+            xhr.onreadystatechange = function () {
+                if (xhr.readyState == 4) {
+
+                    if (xhr.status < 400 && xhr.responseText) {
+                        code.textContent = xhr.responseText;
+
+                        Prism.highlightElement(code);
+                    }
+                    else if (xhr.status >= 400) {
+                        code.textContent = '✖ Error ' + xhr.status + ' while fetching file: ' + xhr.statusText;
+                    }
+                    else {
+                        code.textContent = '✖ Error: File does not exist or is empty';
+                    }
+                }
+            };
+
+            xhr.send(null);
+        });
+    }
+
+    $(document).ready(function(){
+        loadExternalCodeSnippets();
+    });
+    $('#source-view').on('shown', function () {
+        loadExternalCodeSnippets();
+    })
+</script>
+
+    <link rel="shortcut icon" href="../images/favicon.ico"/>
+    <link rel="apple-touch-icon" href="../images/apple-touch-icon.png"/>
+    <link rel="apple-touch-icon" sizes="72x72" href="../images/apple-touch-icon-72x72.png"/>
+    <link rel="apple-touch-icon" sizes="114x114" href="../images/apple-touch-icon-114x114.png"/>
+</head>
+<body>
+
+<div class="navbar navbar-fixed-top">
+    <div class="navbar-inner">
+        <div class="container">
+            <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+                <i class="icon-ellipsis-vertical"></i>
+            </a>
+            <a class="brand" href="../index.html">Plugin FusionInventory for GLPI code documentation</a>
+
+            <div class="nav-collapse">
+                <ul class="nav pull-right">
+                                        <li class="dropdown" id="charts-menu">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+                            Charts <b class="caret"></b>
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li>
+                                <a href="../graphs/class.html">
+                                    <i class="icon-list-alt"></i>&#160;Class hierarchy diagram
+                                </a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="dropdown" id="reports-menu">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+                            Reports <b class="caret"></b>
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li>
+                                <a href="../reports/errors.html">
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            <i class="icon-list-alt"></i>&#160;Errors <span class="label label-info pull-right">128</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="../reports/markers.html">
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            <i class="icon-list-alt"></i>&#160;Markers <span class="label label-info pull-right">31</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="../reports/deprecated.html">
+                                                                                                            <i class="icon-list-alt"></i>&#160;Deprecated <span class="label label-info pull-right">0</span>
+                                </a>
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <!--<div class="go_to_top">-->
+    <!--<a href="#___" style="color: inherit">Back to top&#160;&#160;<i class="icon-upload icon-white"></i></a>-->
+    <!--</div>-->
+</div>
+
+<div id="___" class="container-fluid">
+        <section class="row-fluid">
+        <div class="span2 sidebar">
+                                <div class="accordion" style="margin-bottom: 0">
+        <div class="accordion-group">
+            <div class="accordion-heading">
+                                    <a class="accordion-toggle " data-toggle="collapse" data-target="#namespace-1543111903"></a>
+                                <a href="../namespaces/default.html" style="margin-left: 30px; padding-left: 0">\</a>
+            </div>
+            <div id="namespace-1543111903" class="accordion-body collapse in">
+                <div class="accordion-inner">
+
+                    
+                    <ul>
+                                                                                                    <li class="class"><a href="../classes/PluginFusioninventoryAgent.html">PluginFusioninventoryAgent</a></li>
+                                                    <li class="class"><a href="../classes/PluginFusioninventoryAgentmodule.html">PluginFusioninventoryAgentmodule</a></li>
+                                                    <li class="class"><a href="../classes/PluginFusioninventoryAgentWakeup.html">PluginFusioninventoryAgentWakeup</a></li>
+                                                    <li class="class"><a href="../classes/PluginFusioninventoryCollect.html">PluginFusioninventoryCollect</a></li>
+                                                    <li class="class"><a href="../classes/PluginFusioninventoryCollect_File.html">PluginFusioninventoryCollect_File</a></li>
+                                                    <li class="class"><a href="../classes/PluginFusioninventoryCollect_File_Content.html">PluginFusioninventoryCollect_File_Content</a></li>
+                                                    <li class="class"><a href="../classes/PluginFusioninventoryCollect_Registry.html">PluginFusioninventoryCollect_Registry</a></li>
+                                                    <li class="class"><a href="../classes/PluginFusioninventoryCollect_Registry_Content.html">PluginFusioninventoryCollect_Registry_Content</a></li>
+                                                    <li class="class"><a href="../classes/PluginFusioninventoryCollect_Wmi.html">PluginFusioninventoryCollect_Wmi</a></li>
+                                                    <li class="class"><a href="../classes/PluginFusioninventoryCollect_Wmi_Content.html">PluginFusioninventoryCollect_Wmi_Content</a></li>
+                                                    <li class="class"><a href="../classes/PluginFusioninventoryCollectRule.html">PluginFusioninventoryCollectRule</a></li>
+                                                    <li class="class"><a href="../classes/PluginFusioninventoryCollectRuleCollection.html">PluginFusioninventoryCollectRuleCollection</a></li>
+                                                    <li class="class"><a href="../classes/PluginFusioninventoryCommonView.html">PluginFusioninventoryCommonView</a></li>
+                                                    <li class="class"><a href="../classes/PluginFusioninventoryCommunication.html">PluginFusioninventoryCommunication</a></li>
+                                                    <li class="class"><a href="../classes/PluginFusioninventoryCommunicationNetworkDiscovery.html">PluginFusioninventoryCommunicationNetworkDiscovery</a></li>
+                                                    <li class="class"><a href="../classes/PluginFusioninventoryCommunicationNetworkInventory.html">PluginFusioninventoryCommunicationNetworkInventory</a></li>
+                                                    <li class="class"><a href="../classes/PluginFusioninventoryCommunicationRest.html">PluginFusioninventoryCommunicationRest</a></li>
+                                                    <li class="class"><a href="../classes/PluginFusioninventoryComputer.html">PluginFusioninventoryComputer</a></li>
+                                                    <li class="class"><a href="../classes/PluginFusioninventoryComputerArch.html">PluginFusioninventoryComputerArch</a></li>
+                                                    <li class="class"><a href="../classes/PluginFusioninventoryComputerLicenseInfo.html">PluginFusioninventoryComputerLicenseInfo</a></li>
+                                                    <li class="class"><a href="../classes/PluginFusioninventoryComputerOperatingSystem.html">PluginFusioninventoryComputerOperatingSystem</a></li>
+                                                    <li class="class"><a href="../classes/PluginFusioninventoryComputerOperatingSystemEdition.html">PluginFusioninventoryComputerOperatingSystemEdition</a></li>
+                                                    <li class="class"><a href="../classes/PluginFusioninventoryComputerOSKernelName.html">PluginFusioninventoryComputerOSKernelName</a></li>
+                                                    <li class="class"><a href="../classes/PluginFusioninventoryComputerOSKernelVersion.html">PluginFusioninventoryComputerOSKernelVersion</a></li>
+                                                    <li class="class"><a href="../classes/PluginFusioninventoryComputerRemoteManagement.html">PluginFusioninventoryComputerRemoteManagement</a></li>
+                                                    <li class="class"><a href="../classes/PluginFusioninventoryConfig.html">PluginFusioninventoryConfig</a></li>
+                                                    <li class="class"><a href="../classes/PluginFusioninventoryConfigLogField.html">PluginFusioninventoryConfigLogField</a></li>
+                                                    <li class="class"><a href="../classes/PluginFusioninventoryConfigSecurity.html">PluginFusioninventoryConfigSecurity</a></li>
+                                                    <li class="class"><a href="../classes/PluginFusioninventoryConfiguration.html">PluginFusioninventoryConfiguration</a></li>
+                                                    <li class="class"><a href="../classes/PluginFusioninventoryCredential.html">PluginFusioninventoryCredential</a></li>
+                                                    <li class="class"><a href="../classes/PluginFusioninventoryCredentialIp.html">PluginFusioninventoryCredentialIp</a></li>
+                                                    <li class="class"><a href="../classes/PluginFusioninventoryDeployAction.html">PluginFusioninventoryDeployAction</a></li>
+                                                    <li class="class"><a href="../classes/PluginFusioninventoryDeployCheck.html">PluginFusioninventoryDeployCheck</a></li>
+                                                    <li class="class"><a href="../classes/PluginFusioninventoryDeployCommon.html">PluginFusioninventoryDeployCommon</a></li>
+                                                    <li class="class"><a href="../classes/PluginFusioninventoryDeployFile.html">PluginFusioninventoryDeployFile</a></li>
+                                                    <li class="class"><a href="../classes/PluginFusioninventoryDeployFilepart.html">PluginFusioninventoryDeployFilepart</a></li>
+                                                    <li class="class"><a href="../classes/PluginFusioninventoryDeployGroup.html">PluginFusioninventoryDeployGroup</a></li>
+                                                    <li class="class"><a href="../classes/PluginFusioninventoryDeployGroup_Dynamicdata.html">PluginFusioninventoryDeployGroup_Dynamicdata</a></li>
+                                                    <li class="class"><a href="../classes/PluginFusioninventoryDeployGroup_Staticdata.html">PluginFusioninventoryDeployGroup_Staticdata</a></li>
+                                                    <li class="class"><a href="../classes/PluginFusioninventoryDeployinstall.html">PluginFusioninventoryDeployinstall</a></li>
+                                                    <li class="class"><a href="../classes/PluginFusioninventoryDeployMirror.html">PluginFusioninventoryDeployMirror</a></li>
+                                                    <li class="class"><a href="../classes/PluginFusioninventoryDeployPackage.html">PluginFusioninventoryDeployPackage</a></li>
+                                                    <li class="class"><a href="../classes/PluginFusioninventoryDeployPackage_Entity.html">PluginFusioninventoryDeployPackage_Entity</a></li>
+                                                    <li class="class"><a href="../classes/PluginFusioninventoryDeployPackage_Group.html">PluginFusioninventoryDeployPackage_Group</a></li>
+                                                    <li class="class"><a href="../classes/PluginFusioninventoryDeployPackage_Profile.html">PluginFusioninventoryDeployPackage_Profile</a></li>
+                                                    <li class="class"><a href="../classes/PluginFusioninventoryDeployPackage_User.html">PluginFusioninventoryDeployPackage_User</a></li>
+                                                    <li class="class"><a href="../classes/PluginFusioninventoryDeployTask.html">PluginFusioninventoryDeployTask</a></li>
+                                                    <li class="class"><a href="../classes/PluginFusioninventoryDeployTaskjob.html">PluginFusioninventoryDeployTaskjob</a></li>
+                                                    <li class="class"><a href="../classes/PluginFusioninventoryDisplay.html">PluginFusioninventoryDisplay</a></li>
+                                                    <li class="class"><a href="../classes/PluginFusioninventoryEntity.html">PluginFusioninventoryEntity</a></li>
+                                                    <li class="class"><a href="../classes/PluginFusioninventoryFormatconvert.html">PluginFusioninventoryFormatconvert</a></li>
+                                                    <li class="class"><a href="../classes/PluginFusioninventoryIgnoredimportdevice.html">PluginFusioninventoryIgnoredimportdevice</a></li>
+                                                    <li class="class"><a href="../classes/PluginFusioninventoryInventoryComputerAntivirus.html">PluginFusioninventoryInventoryComputerAntivirus</a></li>
+                                                    <li class="class"><a href="../classes/PluginFusioninventoryInventoryComputerBatteries.html">PluginFusioninventoryInventoryComputerBatteries</a></li>
+                                                    <li class="class"><a href="../classes/PluginFusioninventoryInventoryComputerBlacklist.html">PluginFusioninventoryInventoryComputerBlacklist</a></li>
+                                                    <li class="class"><a href="../classes/PluginFusioninventoryInventoryComputerChemistry.html">PluginFusioninventoryInventoryComputerChemistry</a></li>
+                                                    <li class="class"><a href="../classes/PluginFusioninventoryInventoryComputerComputer.html">PluginFusioninventoryInventoryComputerComputer</a></li>
+                                                    <li class="class"><a href="../classes/PluginFusioninventoryInventoryComputerCriteria.html">PluginFusioninventoryInventoryComputerCriteria</a></li>
+                                                    <li class="class"><a href="../classes/PluginFusioninventoryInventoryComputerESX.html">PluginFusioninventoryInventoryComputerESX</a></li>
+                                                    <li class="class"><a href="../classes/PluginFusioninventoryInventoryComputerImportXML.html">PluginFusioninventoryInventoryComputerImportXML</a></li>
+                                                    <li class="class"><a href="../classes/PluginFusioninventoryInventoryComputerInventory.html">PluginFusioninventoryInventoryComputerInventory</a></li>
+                                                    <li class="class"><a href="../classes/PluginFusioninventoryInventoryComputerLib.html">PluginFusioninventoryInventoryComputerLib</a></li>
+                                                    <li class="class"><a href="../classes/PluginFusioninventoryInventoryComputerLibhook.html">PluginFusioninventoryInventoryComputerLibhook</a></li>
+                                                    <li class="class"><a href="../classes/PluginFusioninventoryInventoryComputerStat.html">PluginFusioninventoryInventoryComputerStat</a></li>
+                                                    <li class="class"><a href="../classes/PluginFusioninventoryInventoryComputerStorage.html">PluginFusioninventoryInventoryComputerStorage</a></li>
+                                                    <li class="class"><a href="../classes/PluginFusioninventoryInventoryComputerStorage_Storage.html">PluginFusioninventoryInventoryComputerStorage_Storage</a></li>
+                                                    <li class="class"><a href="../classes/PluginFusioninventoryInventoryComputerStorageType.html">PluginFusioninventoryInventoryComputerStorageType</a></li>
+                                                    <li class="class"><a href="../classes/PluginFusioninventoryInventoryComputerWebservice.html">PluginFusioninventoryInventoryComputerWebservice</a></li>
+                                                    <li class="class"><a href="../classes/PluginFusioninventoryInventoryExternalDB.html">PluginFusioninventoryInventoryExternalDB</a></li>
+                                                    <li class="class"><a href="../classes/PluginFusioninventoryInventoryNetworkEquipmentLib.html">PluginFusioninventoryInventoryNetworkEquipmentLib</a></li>
+                                                    <li class="class"><a href="../classes/PluginFusioninventoryInventoryPrinterLib.html">PluginFusioninventoryInventoryPrinterLib</a></li>
+                                                    <li class="class"><a href="../classes/PluginFusioninventoryInventoryRuleEntity.html">PluginFusioninventoryInventoryRuleEntity</a></li>
+                                                    <li class="class"><a href="../classes/PluginFusioninventoryInventoryRuleEntityCollection.html">PluginFusioninventoryInventoryRuleEntityCollection</a></li>
+                                                    <li class="class"><a href="../classes/PluginFusioninventoryInventoryRuleImport.html">PluginFusioninventoryInventoryRuleImport</a></li>
+                                                    <li class="class"><a href="../classes/PluginFusioninventoryInventoryRuleImportCollection.html">PluginFusioninventoryInventoryRuleImportCollection</a></li>
+                                                    <li class="class"><a href="../classes/PluginFusioninventoryInventoryRuleLocation.html">PluginFusioninventoryInventoryRuleLocation</a></li>
+                                                    <li class="class"><a href="../classes/PluginFusioninventoryInventoryRuleLocationCollection.html">PluginFusioninventoryInventoryRuleLocationCollection</a></li>
+                                                    <li class="class"><a href="../classes/PluginFusioninventoryIPRange.html">PluginFusioninventoryIPRange</a></li>
+                                                    <li class="class"><a href="../classes/PluginFusioninventoryIPRange_ConfigSecurity.html">PluginFusioninventoryIPRange_ConfigSecurity</a></li>
+                                                    <li class="class"><a href="../classes/PluginFusioninventoryLock.html">PluginFusioninventoryLock</a></li>
+                                                    <li class="class"><a href="../classes/PluginFusioninventoryLogger.html">PluginFusioninventoryLogger</a></li>
+                                                    <li class="class"><a href="../classes/PluginFusioninventoryMapping.html">PluginFusioninventoryMapping</a></li>
+                                                    <li class="class"><a href="../classes/PluginFusioninventoryMenu.html">PluginFusioninventoryMenu</a></li>
+                                                    <li class="class"><a href="../classes/PluginFusioninventoryModule.html">PluginFusioninventoryModule</a></li>
+                                                    <li class="class"><a href="../classes/PluginFusioninventoryNetworkdiscovery.html">PluginFusioninventoryNetworkdiscovery</a></li>
+                                                    <li class="class"><a href="../classes/PluginFusioninventoryNetworkEquipment.html">PluginFusioninventoryNetworkEquipment</a></li>
+                                                    <li class="class"><a href="../classes/PluginFusioninventoryNetworkinventory.html">PluginFusioninventoryNetworkinventory</a></li>
+                                                    <li class="class"><a href="../classes/PluginFusioninventoryNetworkPort.html">PluginFusioninventoryNetworkPort</a></li>
+                                                    <li class="class"><a href="../classes/PluginFusioninventoryNetworkPortConnectionLog.html">PluginFusioninventoryNetworkPortConnectionLog</a></li>
+                                                    <li class="class"><a href="../classes/PluginFusioninventoryNetworkPortLog.html">PluginFusioninventoryNetworkPortLog</a></li>
+                                                    <li class="class"><a href="../classes/PluginFusioninventoryNetworkporttype.html">PluginFusioninventoryNetworkporttype</a></li>
+                                                    <li class="class"><a href="../classes/PluginFusioninventoryPrinter.html">PluginFusioninventoryPrinter</a></li>
+                                                    <li class="class"><a href="../classes/PluginFusioninventoryPrinterCartridge.html">PluginFusioninventoryPrinterCartridge</a></li>
+                                                    <li class="class"><a href="../classes/PluginFusioninventoryPrinterLog.html">PluginFusioninventoryPrinterLog</a></li>
+                                                    <li class="class"><a href="../classes/PluginFusioninventoryPrinterLogReport.html">PluginFusioninventoryPrinterLogReport</a></li>
+                                                    <li class="class"><a href="../classes/PluginFusioninventoryProfile.html">PluginFusioninventoryProfile</a></li>
+                                                    <li class="class"><a href="../classes/PluginFusioninventoryRuleDictionnaryComputerArch.html">PluginFusioninventoryRuleDictionnaryComputerArch</a></li>
+                                                    <li class="class"><a href="../classes/PluginFusioninventoryRuleDictionnaryComputerArchCollection.html">PluginFusioninventoryRuleDictionnaryComputerArchCollection</a></li>
+                                                    <li class="class"><a href="../classes/PluginFusioninventoryRulematchedlog.html">PluginFusioninventoryRulematchedlog</a></li>
+                                                    <li class="class"><a href="../classes/PluginFusioninventorySearch.html">PluginFusioninventorySearch</a></li>
+                                                    <li class="class"><a href="../classes/PluginFusioninventorySetup.html">PluginFusioninventorySetup</a></li>
+                                                    <li class="class"><a href="../classes/PluginFusioninventorySnmpmodelImportExport.html">PluginFusioninventorySnmpmodelImportExport</a></li>
+                                                    <li class="class"><a href="../classes/PluginFusioninventoryStateDiscovery.html">PluginFusioninventoryStateDiscovery</a></li>
+                                                    <li class="class"><a href="../classes/PluginFusioninventoryStateInventory.html">PluginFusioninventoryStateInventory</a></li>
+                                                    <li class="class"><a href="../classes/PluginFusioninventoryStaticmisc.html">PluginFusioninventoryStaticmisc</a></li>
+                                                    <li class="class"><a href="../classes/PluginFusioninventoryTask.html">PluginFusioninventoryTask</a></li>
+                                                    <li class="class"><a href="../classes/PluginFusioninventoryTaskjob.html">PluginFusioninventoryTaskjob</a></li>
+                                                    <li class="class"><a href="../classes/PluginFusioninventoryTaskjoblog.html">PluginFusioninventoryTaskjoblog</a></li>
+                                                    <li class="class"><a href="../classes/PluginFusioninventoryTaskjobstate.html">PluginFusioninventoryTaskjobstate</a></li>
+                                                    <li class="class"><a href="../classes/PluginFusioninventoryTaskjobView.html">PluginFusioninventoryTaskjobView</a></li>
+                                                    <li class="class"><a href="../classes/PluginFusioninventoryTaskView.html">PluginFusioninventoryTaskView</a></li>
+                                                    <li class="class"><a href="../classes/PluginFusioninventoryTimeslot.html">PluginFusioninventoryTimeslot</a></li>
+                                                    <li class="class"><a href="../classes/PluginFusioninventoryTimeslotEntry.html">PluginFusioninventoryTimeslotEntry</a></li>
+                                                    <li class="class"><a href="../classes/PluginFusioninventoryToolbox.html">PluginFusioninventoryToolbox</a></li>
+                                                    <li class="class"><a href="../classes/PluginFusioninventoryUnmanaged.html">PluginFusioninventoryUnmanaged</a></li>
+                                                    <li class="class"><a href="../classes/PluginFusioninventoryWakeonlan.html">PluginFusioninventoryWakeonlan</a></li>
+                                            </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+        </div>
+    </section>
+    <section class="row-fluid">
+        <div class="span10 offset2">
+            <div class="row-fluid">
+                <div class="span8 content class">
+                    <nav>
+                                                <a href="../namespaces/default.html">\</a> <i class="icon-level-up"></i>
+                                            </nav>
+                    <a href="#source-view" role="button" class="pull-right btn" data-toggle="modal"><i class="icon-code"></i></a>
+
+                    <h1><small>\</small>PluginFusioninventoryDeployTask</h1>
+                    <p><em>Manage the deploy task.</em></p>
+                    
+                    
+                                        
+                    <section id="summary">
+                        <h2>Summary</h2>
+                        <section class="row-fluid heading">
+                            <section class="span4">
+                                <a href="#methods">Methods</a>
+                            </section>
+                            <section class="span4">
+                                <a href="#properties">Properties</a>
+                            </section>
+                            <section class="span4">
+                                <a href="#constants">Constants</a>
+                            </section>
+                        </section>
+                        <section class="row-fluid public">
+                            <section class="span4">
+                                                                    <a href="../classes/PluginFusioninventoryDeployTask.html#method_getTypeName" class="">getTypeName()</a><br />
+                                                                    <a href="../classes/PluginFusioninventoryDeployTask.html#method_canCreate" class="">canCreate()</a><br />
+                                                                    <a href="../classes/PluginFusioninventoryTask.html#method_getSearchOptions" class="">getSearchOptions()</a><br />
+                                                                    <a href="../classes/PluginFusioninventoryTask.html#method_purgeTask" class="">purgeTask()</a><br />
+                                                                    <a href="../classes/PluginFusioninventoryTask.html#method_cleanTasksbyMethod" class="">cleanTasksbyMethod()</a><br />
+                                                                    <a href="../classes/PluginFusioninventoryTask.html#method_getTaskjobstatesForAgent" class="">getTaskjobstatesForAgent()</a><br />
+                                                                    <a href="../classes/PluginFusioninventoryTask.html#method_prepareTaskjobs" class="">prepareTaskjobs()</a><br />
+                                                                    <a href="../classes/PluginFusioninventoryTask.html#method_getAgentsFromActors" class="">getAgentsFromActors()</a><br />
+                                                                    <a href="../classes/PluginFusioninventoryTask.html#method_cronTaskscheduler" class="">cronTaskscheduler()</a><br />
+                                                                    <a href="../classes/PluginFusioninventoryTask.html#method_formatChrono" class="">formatChrono()</a><br />
+                                                                    <a href="../classes/PluginFusioninventoryTask.html#method_getJoblogs" class="">getJoblogs()</a><br />
+                                                                    <a href="../classes/PluginFusioninventoryTask.html#method_getTasksPlanned" class="">getTasksPlanned()</a><br />
+                                                                    <a href="../classes/PluginFusioninventoryTask.html#method_getItemsFromDB" class="">getItemsFromDB()</a><br />
+                                                                    <a href="../classes/PluginFusioninventoryTask.html#method_getTasksInerror" class="">getTasksInerror()</a><br />
+                                                                    <a href="../classes/PluginFusioninventoryTask.html#method_post_updateItem" class="">post_updateItem()</a><br />
+                                                                    <a href="../classes/PluginFusioninventoryTask.html#method_getSpecificMassiveActions" class="">getSpecificMassiveActions()</a><br />
+                                                                    <a href="../classes/PluginFusioninventoryTask.html#method_showMassiveActionsSubForm" class="">showMassiveActionsSubForm()</a><br />
+                                                                    <a href="../classes/PluginFusioninventoryTask.html#method_processMassiveActionsForOneItemtype" class="">processMassiveActionsForOneItemtype()</a><br />
+                                                                    <a href="../classes/PluginFusioninventoryCommonView.html#method___construct" class="">__construct()</a><br />
+                                                                    <a href="../classes/PluginFusioninventoryDeployTask.html#method_getTabNameForItem" class="">getTabNameForItem()</a><br />
+                                                                    <a href="../classes/PluginFusioninventoryDeployTask.html#method_defineTabs" class="">defineTabs()</a><br />
+                                                                    <a href="../classes/PluginFusioninventoryDeployTask.html#method_displayTabContentForItem" class="">displayTabContentForItem()</a><br />
+                                                                    <a href="../classes/PluginFusioninventoryTaskView.html#method_showJobLogs" class="">showJobLogs()</a><br />
+                                                                    <a href="../classes/PluginFusioninventoryTaskView.html#method_ajaxGetJobLogs" class="">ajaxGetJobLogs()</a><br />
+                                                                    <a href="../classes/PluginFusioninventoryTaskView.html#method_getCounterTypeName" class="">getCounterTypeName()</a><br />
+                                                                    <a href="../classes/PluginFusioninventoryTaskView.html#method_getAgentsLogs" class="">getAgentsLogs()</a><br />
+                                                                    <a href="../classes/PluginFusioninventoryTaskView.html#method_getRunLogs" class="">getRunLogs()</a><br />
+                                                                    <a href="../classes/PluginFusioninventoryTaskView.html#method_showForm" class="">showForm()</a><br />
+                                                                    <a href="../classes/PluginFusioninventoryTaskView.html#method_submitForm" class="">submitForm()</a><br />
+                                                                    <a href="../classes/PluginFusioninventoryTaskView.html#method_getEmpty" class="">getEmpty()</a><br />
+                                                                    <a href="../classes/PluginFusioninventoryCommonView.html#method_getBaseUrlFor" class="">getBaseUrlFor()</a><br />
+                                                                    <a href="../classes/PluginFusioninventoryDeployTask.html#method_showList" class="">showList()</a><br />
+                                                                    <a href="../classes/PluginFusioninventoryCommonView.html#method_showTextField" class="">showTextField()</a><br />
+                                                                    <a href="../classes/PluginFusioninventoryCommonView.html#method_showIntegerField" class="">showIntegerField()</a><br />
+                                                                    <a href="../classes/PluginFusioninventoryCommonView.html#method_showCheckboxField" class="">showCheckboxField()</a><br />
+                                                                    <a href="../classes/PluginFusioninventoryCommonView.html#method_showDropdownForItemtype" class="">showDropdownForItemtype()</a><br />
+                                                                    <a href="../classes/PluginFusioninventoryCommonView.html#method_showDropdownFromArray" class="">showDropdownFromArray()</a><br />
+                                                                    <a href="../classes/PluginFusioninventoryCommonView.html#method_showDateTimeField" class="">showDateTimeField()</a><br />
+                                                                    <a href="../classes/PluginFusioninventoryCommonView.html#method_showTextArea" class="">showTextArea()</a><br />
+                                                                    <a href="../classes/PluginFusioninventoryCommonView.html#method_getMessage" class="">getMessage()</a><br />
+                                                                    <a href="../classes/PluginFusioninventoryDeployTask.html#method_canView" class="">canView()</a><br />
+                                                                    <a href="../classes/PluginFusioninventoryDeployTask.html#method_title" class="">title()</a><br />
+                                                                    <a href="../classes/PluginFusioninventoryDeployTask.html#method_showActions" class="">showActions()</a><br />
+                                                                    <a href="../classes/PluginFusioninventoryDeployTask.html#method_pre_deleteItem" class="">pre_deleteItem()</a><br />
+                                                                    <a href="../classes/PluginFusioninventoryDeployTask.html#method_post_addItem" class="">post_addItem()</a><br />
+                                                            </section>
+                            <section class="span4">
+                                                                    <a href="../classes/PluginFusioninventoryTask.html#property_rightname" class="">$rightname</a><br />
+                                                                    <a href="../classes/PluginFusioninventoryCommonView.html#property_base_urls" class="">$base_urls</a><br />
+                                                            </section>
+                            <section class="span4">
+                                                                    <a href="../classes/PluginFusioninventoryCommonView.html#constant_MSG_INFO" class="">MSG_INFO</a><br />
+                                                                    <a href="../classes/PluginFusioninventoryCommonView.html#constant_MSG_WARNING" class="">MSG_WARNING</a><br />
+                                                                    <a href="../classes/PluginFusioninventoryCommonView.html#constant_MSG_ERROR" class="">MSG_ERROR</a><br />
+                                                            </section>
+                        </section>
+                        <section class="row-fluid protected">
+                            <section class="span4">
+                                                                    <em>No protected methods found</em>
+                                                            </section>
+                            <section class="span4">
+                                                                    <em>No protected properties found</em>
+                                                            </section>
+                            <section class="span4">
+                                <em>N/A</em>
+                            </section>
+                        </section>
+                        <section class="row-fluid private">
+                            <section class="span4">
+                                                                    <em>No private methods found</em>
+                                                            </section>
+                            <section class="span4">
+                                                                    <em>No private properties found</em>
+                                                            </section>
+                            <section class="span4">
+                                <em>N/A</em>
+                            </section>
+                        </section>
+                    </section>
+                </div>
+                <aside class="span4 detailsbar">
+                                        
+                    
+                    <dl>
+                        <dt>File</dt>
+                            <dd><a href="../files/deploytask.class.html"><div class="path-wrapper">deploytask.class.php</div></a></dd>
+                                                <dt>Package</dt>
+                            <dd><div class="namespace-wrapper">FusionInventory</div></dd>
+                                                <dt>Class hierarchy</dt>
+                            <dd class="hierarchy">
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    
+                                        <div class="namespace-wrapper">\CommonDBTM</div>
+                                                                    
+                                        <div class="namespace-wrapper"><a href="../classes/PluginFusioninventoryCommonView.html">\PluginFusioninventoryCommonView</a></div>
+                                                                    
+                                        <div class="namespace-wrapper"><a href="../classes/PluginFusioninventoryTaskView.html">\PluginFusioninventoryTaskView</a></div>
+                                                                    
+                                        <div class="namespace-wrapper"><a href="../classes/PluginFusioninventoryTask.html">\PluginFusioninventoryTask</a></div>
+                                                                                                    <div class="namespace-wrapper">\PluginFusioninventoryDeployTask</div>
+                            </dd>
+
+                        
+                        
+                        
+                        
+                                                                        </dl>
+                    <h2>Tags</h2>
+                    <table class="table table-condensed">
+                                            <tr><td colspan="2"><em>None found</em></td></tr>
+                                        </table>
+                </aside>
+            </div>
+
+                                    <a id="constants" name="constants"></a>
+            <div class="row-fluid">
+                <div class="span8 content class">
+                    <h2>Constants</h2>
+                </div>
+                <aside class="span4 detailsbar"></aside>
+            </div>
+
+                                <div class="row-fluid">
+        <div class="span8 content class">
+            <a id="constant_MSG_INFO" name="constant_MSG_INFO" class="anchor"></a>
+            <article id="constant_MSG_INFO" class="constant">
+                <h3 class="">MSG_INFO</h3>
+                <pre class="signature">MSG_INFO</pre>
+                <p><em></em></p>
+                
+            </article>
+        </div>
+        <aside class="span4 detailsbar">
+            <h1><i class="icon-arrow-down"></i></h1>
+                        <dl>
+                                                    <dt>Inherited from</dt>
+                    <dd><a href="../classes/PluginFusioninventoryCommonView.html"><div class="path-wrapper">\PluginFusioninventoryCommonView</div></a></dd>
+                                                            </dl>
+            <h2>Tags</h2>
+            <table class="table table-condensed">
+                                    <tr><td colspan="2"><em>None found</em></td></tr>
+                            </table>
+        </aside>
+    </div>
+
+                                    <div class="row-fluid">
+        <div class="span8 content class">
+            <a id="constant_MSG_WARNING" name="constant_MSG_WARNING" class="anchor"></a>
+            <article id="constant_MSG_WARNING" class="constant">
+                <h3 class="">MSG_WARNING</h3>
+                <pre class="signature">MSG_WARNING</pre>
+                <p><em></em></p>
+                
+            </article>
+        </div>
+        <aside class="span4 detailsbar">
+            <h1><i class="icon-arrow-down"></i></h1>
+                        <dl>
+                                                    <dt>Inherited from</dt>
+                    <dd><a href="../classes/PluginFusioninventoryCommonView.html"><div class="path-wrapper">\PluginFusioninventoryCommonView</div></a></dd>
+                                                            </dl>
+            <h2>Tags</h2>
+            <table class="table table-condensed">
+                                    <tr><td colspan="2"><em>None found</em></td></tr>
+                            </table>
+        </aside>
+    </div>
+
+                                    <div class="row-fluid">
+        <div class="span8 content class">
+            <a id="constant_MSG_ERROR" name="constant_MSG_ERROR" class="anchor"></a>
+            <article id="constant_MSG_ERROR" class="constant">
+                <h3 class="">MSG_ERROR</h3>
+                <pre class="signature">MSG_ERROR</pre>
+                <p><em></em></p>
+                
+            </article>
+        </div>
+        <aside class="span4 detailsbar">
+            <h1><i class="icon-arrow-down"></i></h1>
+                        <dl>
+                                                    <dt>Inherited from</dt>
+                    <dd><a href="../classes/PluginFusioninventoryCommonView.html"><div class="path-wrapper">\PluginFusioninventoryCommonView</div></a></dd>
+                                                            </dl>
+            <h2>Tags</h2>
+            <table class="table table-condensed">
+                                    <tr><td colspan="2"><em>None found</em></td></tr>
+                            </table>
+        </aside>
+    </div>
+
+                            
+                                    <a id="properties" name="properties"></a>
+            <div class="row-fluid">
+                <div class="span8 content class">
+                    <h2>Properties</h2>
+                </div>
+                <aside class="span4 detailsbar"></aside>
+            </div>
+
+                                    <div class="row-fluid">
+        <div class="span8 content class">
+            <a id="property_rightname" name="property_rightname" class="anchor"></a>
+            <article class="property">
+                <h3 class="public ">$rightname</h3>
+                <pre class="signature">$rightname : string</pre>
+                <p><em>The right name for this class</em></p>
+                
+
+                                <h4>Type</h4>
+                string
+                                            </article>
+        </div>
+        <aside class="span4 detailsbar">
+            <h1><i class="icon-arrow-down"></i></h1>
+                        <dl>
+                                    <dt>Inherited from</dt>
+                    <dd><a href="../classes/PluginFusioninventoryTask.html"><div class="path-wrapper">\PluginFusioninventoryTask</div></a></dd>
+                                                            </dl>
+            <h2>Tags</h2>
+            <table class="table table-condensed">
+                                    <tr><td colspan="2"><em>None found</em></td></tr>
+                            </table>
+        </aside>
+    </div>
+
+                                    <div class="row-fluid">
+        <div class="span8 content class">
+            <a id="property_base_urls" name="property_base_urls" class="anchor"></a>
+            <article class="property">
+                <h3 class="public ">$base_urls</h3>
+                <pre class="signature">$base_urls : </pre>
+                <p><em></em></p>
+                
+
+                                <h4>Type</h4>
+                
+                                            </article>
+        </div>
+        <aside class="span4 detailsbar">
+            <h1><i class="icon-arrow-down"></i></h1>
+                        <dl>
+                                    <dt>Inherited from</dt>
+                    <dd><a href="../classes/PluginFusioninventoryCommonView.html"><div class="path-wrapper">\PluginFusioninventoryCommonView</div></a></dd>
+                                                            </dl>
+            <h2>Tags</h2>
+            <table class="table table-condensed">
+                                    <tr><td colspan="2"><em>None found</em></td></tr>
+                            </table>
+        </aside>
+    </div>
+
+                                                            
+                                    <a id="methods" name="methods"></a>
+            <div class="row-fluid">
+                <div class="span8 content class"><h2>Methods</h2></div>
+                <aside class="span4 detailsbar"></aside>
+            </div>
+
+                                    <div class="row-fluid">
+        <div class="span8 content class">
+            <a id="method_getTypeName" name="method_getTypeName" class="anchor"></a>
+            <article class="method">
+                <h3 class="public ">getTypeName()</h3>
+                <a href="#source-view" role="button" class="pull-right btn" data-toggle="modal" style="font-size: 1.1em; padding: 9px 14px"><i class="icon-code"></i></a>
+                <pre class="signature" style="margin-right: 54px;">getTypeName(integer  <span class="argument">$nb</span>) : string</pre>
+                <p><em>Get name of this type by language of the user connected</em></p>
+                
+
+                                    <h4>Parameters</h4>
+                    <table class="table table-condensed table-hover">
+                                                    <tr>
+                                <td>integer</td>
+                                <td>$nb </td>
+                                <td><p>number of elements</p></td>
+                            </tr>
+                                            </table>
+                
+                
+                                    <h4>Returns</h4>
+                    string
+                                            &mdash; <p>name of this type</p>
+                                    				
+                            </article>
+        </div>
+        <aside class="span4 detailsbar">
+            <h1><i class="icon-arrow-down"></i></h1>
+                            <span class="label label-info">static</span>
+                                                            <dl>
+                                                                            </dl>
+            <h2>Tags</h2>
+            <table class="table table-condensed">
+                                    <tr><td colspan="2"><em>None found</em></td></tr>
+                            </table>
+        </aside>
+    </div>
+
+                                    <div class="row-fluid">
+        <div class="span8 content class">
+            <a id="method_canCreate" name="method_canCreate" class="anchor"></a>
+            <article class="method">
+                <h3 class="public ">canCreate()</h3>
+                <a href="#source-view" role="button" class="pull-right btn" data-toggle="modal" style="font-size: 1.1em; padding: 9px 14px"><i class="icon-code"></i></a>
+                <pre class="signature" style="margin-right: 54px;">canCreate() : boolean</pre>
+                <p><em>Is this use can create a deploy task</em></p>
+                
+
+                
+                
+                                    <h4>Returns</h4>
+                    boolean
+                                    				
+                            </article>
+        </div>
+        <aside class="span4 detailsbar">
+            <h1><i class="icon-arrow-down"></i></h1>
+                            <span class="label label-info">static</span>
+                                                            <dl>
+                                                                            </dl>
+            <h2>Tags</h2>
+            <table class="table table-condensed">
+                                    <tr><td colspan="2"><em>None found</em></td></tr>
+                            </table>
+        </aside>
+    </div>
+
+                                    <div class="row-fluid">
+        <div class="span8 content class">
+            <a id="method_getSearchOptions" name="method_getSearchOptions" class="anchor"></a>
+            <article class="method">
+                <h3 class="public ">getSearchOptions()</h3>
+                <a href="#source-view" role="button" class="pull-right btn" data-toggle="modal" style="font-size: 1.1em; padding: 9px 14px"><i class="icon-code"></i></a>
+                <pre class="signature" style="margin-right: 54px;">getSearchOptions() : array</pre>
+                <p><em>Get search function for the class</em></p>
+                
+
+                
+                
+                                    <h4>Returns</h4>
+                    array
+                                    				
+                            </article>
+        </div>
+        <aside class="span4 detailsbar">
+            <h1><i class="icon-arrow-down"></i></h1>
+                                                            <dl>
+                                                    <dt>Inherited from</dt>
+                    <dd><a href="../classes/PluginFusioninventoryTask.html"><div class="path-wrapper">\PluginFusioninventoryTask</div></a></dd>
+                                                            </dl>
+            <h2>Tags</h2>
+            <table class="table table-condensed">
+                                    <tr><td colspan="2"><em>None found</em></td></tr>
+                            </table>
+        </aside>
+    </div>
+
+                                    <div class="row-fluid">
+        <div class="span8 content class">
+            <a id="method_purgeTask" name="method_purgeTask" class="anchor"></a>
+            <article class="method">
+                <h3 class="public ">purgeTask()</h3>
+                <a href="#source-view" role="button" class="pull-right btn" data-toggle="modal" style="font-size: 1.1em; padding: 9px 14px"><i class="icon-code"></i></a>
+                <pre class="signature" style="margin-right: 54px;">purgeTask(array  <span class="argument">$param</span>) </pre>
+                <p><em>Purge elements linked to task when delete it</em></p>
+                
+
+                                    <h4>Parameters</h4>
+                    <table class="table table-condensed table-hover">
+                                                    <tr>
+                                <td>array</td>
+                                <td>$param </td>
+                                <td></td>
+                            </tr>
+                                            </table>
+                
+                
+                				
+                            </article>
+        </div>
+        <aside class="span4 detailsbar">
+            <h1><i class="icon-arrow-down"></i></h1>
+                            <span class="label label-info">static</span>
+                                                            <dl>
+                                                    <dt>Inherited from</dt>
+                    <dd><a href="../classes/PluginFusioninventoryTask.html"><div class="path-wrapper">\PluginFusioninventoryTask</div></a></dd>
+                                                            </dl>
+            <h2>Tags</h2>
+            <table class="table table-condensed">
+                                    <tr>
+                        <th>
+                            global
+                        </th>
+                        <td>
+                                                                                            <p>object $DB</p>
+                                                    </td>
+                    </tr>
+                            </table>
+        </aside>
+    </div>
+
+                                    <div class="row-fluid">
+        <div class="span8 content class">
+            <a id="method_cleanTasksbyMethod" name="method_cleanTasksbyMethod" class="anchor"></a>
+            <article class="method">
+                <h3 class="public ">cleanTasksbyMethod()</h3>
+                <a href="#source-view" role="button" class="pull-right btn" data-toggle="modal" style="font-size: 1.1em; padding: 9px 14px"><i class="icon-code"></i></a>
+                <pre class="signature" style="margin-right: 54px;">cleanTasksbyMethod(string  <span class="argument">$method</span>) </pre>
+                <p><em>Purge all tasks and taskjob related with method</em></p>
+                
+
+                                    <h4>Parameters</h4>
+                    <table class="table table-condensed table-hover">
+                                                    <tr>
+                                <td>string</td>
+                                <td>$method </td>
+                                <td></td>
+                            </tr>
+                                            </table>
+                
+                
+                				
+                            </article>
+        </div>
+        <aside class="span4 detailsbar">
+            <h1><i class="icon-arrow-down"></i></h1>
+                            <span class="label label-info">static</span>
+                                                            <dl>
+                                                    <dt>Inherited from</dt>
+                    <dd><a href="../classes/PluginFusioninventoryTask.html"><div class="path-wrapper">\PluginFusioninventoryTask</div></a></dd>
+                                                            </dl>
+            <h2>Tags</h2>
+            <table class="table table-condensed">
+                                    <tr><td colspan="2"><em>None found</em></td></tr>
+                            </table>
+        </aside>
+    </div>
+
+                                    <div class="row-fluid">
+        <div class="span8 content class">
+            <a id="method_getTaskjobstatesForAgent" name="method_getTaskjobstatesForAgent" class="anchor"></a>
+            <article class="method">
+                <h3 class="public ">getTaskjobstatesForAgent()</h3>
+                <a href="#source-view" role="button" class="pull-right btn" data-toggle="modal" style="font-size: 1.1em; padding: 9px 14px"><i class="icon-code"></i></a>
+                <pre class="signature" style="margin-right: 54px;">getTaskjobstatesForAgent(integer  <span class="argument">$agent_id</span>, string  <span class="argument">$methods = array()</span>, array  <span class="argument">$options = array()</span>) : array</pre>
+                <p><em>Get the list of taskjobstate for the agent</em></p>
+                
+
+                                    <h4>Parameters</h4>
+                    <table class="table table-condensed table-hover">
+                                                    <tr>
+                                <td>integer</td>
+                                <td>$agent_id </td>
+                                <td></td>
+                            </tr>
+                                                    <tr>
+                                <td>string</td>
+                                <td>$methods </td>
+                                <td></td>
+                            </tr>
+                                                    <tr>
+                                <td>array</td>
+                                <td>$options </td>
+                                <td></td>
+                            </tr>
+                                            </table>
+                
+                
+                                    <h4>Returns</h4>
+                    array
+                                    				
+                            </article>
+        </div>
+        <aside class="span4 detailsbar">
+            <h1><i class="icon-arrow-down"></i></h1>
+                                                            <dl>
+                                                    <dt>Inherited from</dt>
+                    <dd><a href="../classes/PluginFusioninventoryTask.html"><div class="path-wrapper">\PluginFusioninventoryTask</div></a></dd>
+                                                            </dl>
+            <h2>Tags</h2>
+            <table class="table table-condensed">
+                                    <tr>
+                        <th>
+                            global
+                        </th>
+                        <td>
+                                                                                            <p>object $DB</p>
+                                                    </td>
+                    </tr>
+                            </table>
+        </aside>
+    </div>
+
+                                    <div class="row-fluid">
+        <div class="span8 content class">
+            <a id="method_prepareTaskjobs" name="method_prepareTaskjobs" class="anchor"></a>
+            <article class="method">
+                <h3 class="public ">prepareTaskjobs()</h3>
+                <a href="#source-view" role="button" class="pull-right btn" data-toggle="modal" style="font-size: 1.1em; padding: 9px 14px"><i class="icon-code"></i></a>
+                <pre class="signature" style="margin-right: 54px;">prepareTaskjobs(array  <span class="argument">$methods = array()</span>) : true</pre>
+                <p><em>Prepare task jobs</em></p>
+                
+
+                                    <h4>Parameters</h4>
+                    <table class="table table-condensed table-hover">
+                                                    <tr>
+                                <td>array</td>
+                                <td>$methods </td>
+                                <td></td>
+                            </tr>
+                                            </table>
+                
+                
+                                    <h4>Returns</h4>
+                    true
+                                    				
+                            </article>
+        </div>
+        <aside class="span4 detailsbar">
+            <h1><i class="icon-arrow-down"></i></h1>
+                                                            <dl>
+                                                    <dt>Inherited from</dt>
+                    <dd><a href="../classes/PluginFusioninventoryTask.html"><div class="path-wrapper">\PluginFusioninventoryTask</div></a></dd>
+                                                            </dl>
+            <h2>Tags</h2>
+            <table class="table table-condensed">
+                                    <tr>
+                        <th>
+                            global
+                        </th>
+                        <td>
+                                                                                            <p>object $DB</p>
+                                                    </td>
+                    </tr>
+                            </table>
+        </aside>
+    </div>
+
+                                    <div class="row-fluid">
+        <div class="span8 content class">
+            <a id="method_getAgentsFromActors" name="method_getAgentsFromActors" class="anchor"></a>
+            <article class="method">
+                <h3 class="public ">getAgentsFromActors()</h3>
+                <a href="#source-view" role="button" class="pull-right btn" data-toggle="modal" style="font-size: 1.1em; padding: 9px 14px"><i class="icon-code"></i></a>
+                <pre class="signature" style="margin-right: 54px;">getAgentsFromActors(array  <span class="argument">$actors = array()</span>) : array</pre>
+                <p><em>Get agents of Computers from Actors defined in taskjobs
+TODO: this method should be rewritten to call directly a getAgents() method in the
+corresponding itemtype classes.</em></p>
+                
+
+                                    <h4>Parameters</h4>
+                    <table class="table table-condensed table-hover">
+                                                    <tr>
+                                <td>array</td>
+                                <td>$actors </td>
+                                <td></td>
+                            </tr>
+                                            </table>
+                
+                
+                                    <h4>Returns</h4>
+                    array
+                                            &mdash; <p>list of agents</p>
+                                    				
+                            </article>
+        </div>
+        <aside class="span4 detailsbar">
+            <h1><i class="icon-arrow-down"></i></h1>
+                                                            <dl>
+                                                    <dt>Inherited from</dt>
+                    <dd><a href="../classes/PluginFusioninventoryTask.html"><div class="path-wrapper">\PluginFusioninventoryTask</div></a></dd>
+                                                            </dl>
+            <h2>Tags</h2>
+            <table class="table table-condensed">
+                                    <tr><td colspan="2"><em>None found</em></td></tr>
+                            </table>
+        </aside>
+    </div>
+
+                                    <div class="row-fluid">
+        <div class="span8 content class">
+            <a id="method_cronTaskscheduler" name="method_cronTaskscheduler" class="anchor"></a>
+            <article class="method">
+                <h3 class="public ">cronTaskscheduler()</h3>
+                <a href="#source-view" role="button" class="pull-right btn" data-toggle="modal" style="font-size: 1.1em; padding: 9px 14px"><i class="icon-code"></i></a>
+                <pre class="signature" style="margin-right: 54px;">cronTaskscheduler() : true</pre>
+                <p><em>Cron task: prepare taskjobs</em></p>
+                
+
+                
+                
+                                    <h4>Returns</h4>
+                    true
+                                    				
+                            </article>
+        </div>
+        <aside class="span4 detailsbar">
+            <h1><i class="icon-arrow-down"></i></h1>
+                            <span class="label label-info">static</span>
+                                                            <dl>
+                                                    <dt>Inherited from</dt>
+                    <dd><a href="../classes/PluginFusioninventoryTask.html"><div class="path-wrapper">\PluginFusioninventoryTask</div></a></dd>
+                                                            </dl>
+            <h2>Tags</h2>
+            <table class="table table-condensed">
+                                    <tr><td colspan="2"><em>None found</em></td></tr>
+                            </table>
+        </aside>
+    </div>
+
+                                    <div class="row-fluid">
+        <div class="span8 content class">
+            <a id="method_formatChrono" name="method_formatChrono" class="anchor"></a>
+            <article class="method">
+                <h3 class="public ">formatChrono()</h3>
+                <a href="#source-view" role="button" class="pull-right btn" data-toggle="modal" style="font-size: 1.1em; padding: 9px 14px"><i class="icon-code"></i></a>
+                <pre class="signature" style="margin-right: 54px;">formatChrono(array  <span class="argument">$chrono</span>) : string</pre>
+                <p><em>Format chrono (interval) in hours, minutes, seconds, microseconds string</em></p>
+                
+
+                                    <h4>Parameters</h4>
+                    <table class="table table-condensed table-hover">
+                                                    <tr>
+                                <td>array</td>
+                                <td>$chrono </td>
+                                <td></td>
+                            </tr>
+                                            </table>
+                
+                
+                                    <h4>Returns</h4>
+                    string
+                                    				
+                            </article>
+        </div>
+        <aside class="span4 detailsbar">
+            <h1><i class="icon-arrow-down"></i></h1>
+                            <span class="label label-info">static</span>
+                                                            <dl>
+                                                    <dt>Inherited from</dt>
+                    <dd><a href="../classes/PluginFusioninventoryTask.html"><div class="path-wrapper">\PluginFusioninventoryTask</div></a></dd>
+                                                            </dl>
+            <h2>Tags</h2>
+            <table class="table table-condensed">
+                                    <tr><td colspan="2"><em>None found</em></td></tr>
+                            </table>
+        </aside>
+    </div>
+
+                                    <div class="row-fluid">
+        <div class="span8 content class">
+            <a id="method_getJoblogs" name="method_getJoblogs" class="anchor"></a>
+            <article class="method">
+                <h3 class="public ">getJoblogs()</h3>
+                <a href="#source-view" role="button" class="pull-right btn" data-toggle="modal" style="font-size: 1.1em; padding: 9px 14px"><i class="icon-code"></i></a>
+                <pre class="signature" style="margin-right: 54px;">getJoblogs(array  <span class="argument">$task_ids = array()</span>) : array</pre>
+                <p><em>Get logs of job</em></p>
+                
+
+                                    <h4>Parameters</h4>
+                    <table class="table table-condensed table-hover">
+                                                    <tr>
+                                <td>array</td>
+                                <td>$task_ids </td>
+                                <td><p>list of tasks id</p></td>
+                            </tr>
+                                            </table>
+                
+                
+                                    <h4>Returns</h4>
+                    array
+                                    				
+                            </article>
+        </div>
+        <aside class="span4 detailsbar">
+            <h1><i class="icon-arrow-down"></i></h1>
+                                                            <dl>
+                                                    <dt>Inherited from</dt>
+                    <dd><a href="../classes/PluginFusioninventoryTask.html"><div class="path-wrapper">\PluginFusioninventoryTask</div></a></dd>
+                                                            </dl>
+            <h2>Tags</h2>
+            <table class="table table-condensed">
+                                    <tr>
+                        <th>
+                            global
+                        </th>
+                        <td>
+                                                                                            <p>object $DB</p>
+                                                    </td>
+                    </tr>
+                            </table>
+        </aside>
+    </div>
+
+                                    <div class="row-fluid">
+        <div class="span8 content class">
+            <a id="method_getTasksPlanned" name="method_getTasksPlanned" class="anchor"></a>
+            <article class="method">
+                <h3 class="public ">getTasksPlanned()</h3>
+                <a href="#source-view" role="button" class="pull-right btn" data-toggle="modal" style="font-size: 1.1em; padding: 9px 14px"><i class="icon-code"></i></a>
+                <pre class="signature" style="margin-right: 54px;">getTasksPlanned(integer  <span class="argument">$tasks_id</span>) : object</pre>
+                <p><em>Get tasks planned</em></p>
+                
+
+                                    <h4>Parameters</h4>
+                    <table class="table table-condensed table-hover">
+                                                    <tr>
+                                <td>integer</td>
+                                <td>$tasks_id </td>
+                                <td><p>if 0, no restriction so get all</p></td>
+                            </tr>
+                                            </table>
+                
+                
+                                    <h4>Returns</h4>
+                    object
+                                    				
+                            </article>
+        </div>
+        <aside class="span4 detailsbar">
+            <h1><i class="icon-arrow-down"></i></h1>
+                                                            <dl>
+                                                    <dt>Inherited from</dt>
+                    <dd><a href="../classes/PluginFusioninventoryTask.html"><div class="path-wrapper">\PluginFusioninventoryTask</div></a></dd>
+                                                            </dl>
+            <h2>Tags</h2>
+            <table class="table table-condensed">
+                                    <tr>
+                        <th>
+                            global
+                        </th>
+                        <td>
+                                                                                            <p>object $DB</p>
+                                                    </td>
+                    </tr>
+                            </table>
+        </aside>
+    </div>
+
+                                    <div class="row-fluid">
+        <div class="span8 content class">
+            <a id="method_getItemsFromDB" name="method_getItemsFromDB" class="anchor"></a>
+            <article class="method">
+                <h3 class="public ">getItemsFromDB()</h3>
+                <a href="#source-view" role="button" class="pull-right btn" data-toggle="modal" style="font-size: 1.1em; padding: 9px 14px"><i class="icon-code"></i></a>
+                <pre class="signature" style="margin-right: 54px;">getItemsFromDB(array  <span class="argument">$filter</span>) : array</pre>
+                <p><em>Get tasks filtered by relevant criteria</em></p>
+                
+
+                                    <h4>Parameters</h4>
+                    <table class="table table-condensed table-hover">
+                                                    <tr>
+                                <td>array</td>
+                                <td>$filter </td>
+                                <td><p>criteria to filter in the request</p></td>
+                            </tr>
+                                            </table>
+                
+                
+                                    <h4>Returns</h4>
+                    array
+                                    				
+                            </article>
+        </div>
+        <aside class="span4 detailsbar">
+            <h1><i class="icon-arrow-down"></i></h1>
+                            <span class="label label-info">static</span>
+                                                            <dl>
+                                                    <dt>Inherited from</dt>
+                    <dd><a href="../classes/PluginFusioninventoryTask.html"><div class="path-wrapper">\PluginFusioninventoryTask</div></a></dd>
+                                                            </dl>
+            <h2>Tags</h2>
+            <table class="table table-condensed">
+                                    <tr>
+                        <th>
+                            global
+                        </th>
+                        <td>
+                                                                                            <p>object $DB</p>
+                                                    </td>
+                    </tr>
+                            </table>
+        </aside>
+    </div>
+
+                                    <div class="row-fluid">
+        <div class="span8 content class">
+            <a id="method_getTasksInerror" name="method_getTasksInerror" class="anchor"></a>
+            <article class="method">
+                <h3 class="public ">getTasksInerror()</h3>
+                <a href="#source-view" role="button" class="pull-right btn" data-toggle="modal" style="font-size: 1.1em; padding: 9px 14px"><i class="icon-code"></i></a>
+                <pre class="signature" style="margin-right: 54px;">getTasksInerror() : object</pre>
+                <p><em>Get tasks in error</em></p>
+                
+
+                
+                
+                                    <h4>Returns</h4>
+                    object
+                                    				
+                            </article>
+        </div>
+        <aside class="span4 detailsbar">
+            <h1><i class="icon-arrow-down"></i></h1>
+                                                            <dl>
+                                                    <dt>Inherited from</dt>
+                    <dd><a href="../classes/PluginFusioninventoryTask.html"><div class="path-wrapper">\PluginFusioninventoryTask</div></a></dd>
+                                                            </dl>
+            <h2>Tags</h2>
+            <table class="table table-condensed">
+                                    <tr>
+                        <th>
+                            global
+                        </th>
+                        <td>
+                                                                                            <p>object $DB</p>
+                                                    </td>
+                    </tr>
+                            </table>
+        </aside>
+    </div>
+
+                                    <div class="row-fluid">
+        <div class="span8 content class">
+            <a id="method_post_updateItem" name="method_post_updateItem" class="anchor"></a>
+            <article class="method">
+                <h3 class="public ">post_updateItem()</h3>
+                <a href="#source-view" role="button" class="pull-right btn" data-toggle="modal" style="font-size: 1.1em; padding: 9px 14px"><i class="icon-code"></i></a>
+                <pre class="signature" style="margin-right: 54px;">post_updateItem(integer  <span class="argument">$history = 1</span>) </pre>
+                <p><em>Do actions after updated the item</em></p>
+                
+
+                                    <h4>Parameters</h4>
+                    <table class="table table-condensed table-hover">
+                                                    <tr>
+                                <td>integer</td>
+                                <td>$history </td>
+                                <td></td>
+                            </tr>
+                                            </table>
+                
+                
+                				
+                            </article>
+        </div>
+        <aside class="span4 detailsbar">
+            <h1><i class="icon-arrow-down"></i></h1>
+                                                            <dl>
+                                                    <dt>Inherited from</dt>
+                    <dd><a href="../classes/PluginFusioninventoryTask.html"><div class="path-wrapper">\PluginFusioninventoryTask</div></a></dd>
+                                                            </dl>
+            <h2>Tags</h2>
+            <table class="table table-condensed">
+                                    <tr>
+                        <th>
+                            global
+                        </th>
+                        <td>
+                                                                                            <p>object $DB</p>
+                                                    </td>
+                    </tr>
+                            </table>
+        </aside>
+    </div>
+
+                                    <div class="row-fluid">
+        <div class="span8 content class">
+            <a id="method_getSpecificMassiveActions" name="method_getSpecificMassiveActions" class="anchor"></a>
+            <article class="method">
+                <h3 class="public ">getSpecificMassiveActions()</h3>
+                <a href="#source-view" role="button" class="pull-right btn" data-toggle="modal" style="font-size: 1.1em; padding: 9px 14px"><i class="icon-code"></i></a>
+                <pre class="signature" style="margin-right: 54px;">getSpecificMassiveActions(object|null  <span class="argument">$checkitem = NULL</span>) : array</pre>
+                <p><em>Get the massive actions for this object</em></p>
+                
+
+                                    <h4>Parameters</h4>
+                    <table class="table table-condensed table-hover">
+                                                    <tr>
+                                <td>object|null</td>
+                                <td>$checkitem </td>
+                                <td></td>
+                            </tr>
+                                            </table>
+                
+                
+                                    <h4>Returns</h4>
+                    array
+                                            &mdash; <p>list of actions</p>
+                                    				
+                            </article>
+        </div>
+        <aside class="span4 detailsbar">
+            <h1><i class="icon-arrow-down"></i></h1>
+                                                            <dl>
+                                                    <dt>Inherited from</dt>
+                    <dd><a href="../classes/PluginFusioninventoryTask.html"><div class="path-wrapper">\PluginFusioninventoryTask</div></a></dd>
+                                                            </dl>
+            <h2>Tags</h2>
+            <table class="table table-condensed">
+                                    <tr><td colspan="2"><em>None found</em></td></tr>
+                            </table>
+        </aside>
+    </div>
+
+                                    <div class="row-fluid">
+        <div class="span8 content class">
+            <a id="method_showMassiveActionsSubForm" name="method_showMassiveActionsSubForm" class="anchor"></a>
+            <article class="method">
+                <h3 class="public ">showMassiveActionsSubForm()</h3>
+                <a href="#source-view" role="button" class="pull-right btn" data-toggle="modal" style="font-size: 1.1em; padding: 9px 14px"><i class="icon-code"></i></a>
+                <pre class="signature" style="margin-right: 54px;">showMassiveActionsSubForm(object  <span class="argument">$ma</span>) : boolean</pre>
+                <p><em>Display form related to the massive action selected</em></p>
+                
+
+                                    <h4>Parameters</h4>
+                    <table class="table table-condensed table-hover">
+                                                    <tr>
+                                <td>object</td>
+                                <td>$ma </td>
+                                <td><p>MassiveAction instance</p></td>
+                            </tr>
+                                            </table>
+                
+                
+                                    <h4>Returns</h4>
+                    boolean
+                                    				
+                            </article>
+        </div>
+        <aside class="span4 detailsbar">
+            <h1><i class="icon-arrow-down"></i></h1>
+                            <span class="label label-info">static</span>
+                                                            <dl>
+                                                    <dt>Inherited from</dt>
+                    <dd><a href="../classes/PluginFusioninventoryTask.html"><div class="path-wrapper">\PluginFusioninventoryTask</div></a></dd>
+                                                            </dl>
+            <h2>Tags</h2>
+            <table class="table table-condensed">
+                                    <tr>
+                        <th>
+                            global
+                        </th>
+                        <td>
+                                                                                            <p>array $CFG_GLPI</p>
+                                                    </td>
+                    </tr>
+                            </table>
+        </aside>
+    </div>
+
+                                    <div class="row-fluid">
+        <div class="span8 content class">
+            <a id="method_processMassiveActionsForOneItemtype" name="method_processMassiveActionsForOneItemtype" class="anchor"></a>
+            <article class="method">
+                <h3 class="public ">processMassiveActionsForOneItemtype()</h3>
+                <a href="#source-view" role="button" class="pull-right btn" data-toggle="modal" style="font-size: 1.1em; padding: 9px 14px"><i class="icon-code"></i></a>
+                <pre class="signature" style="margin-right: 54px;">processMassiveActionsForOneItemtype(object  <span class="argument">$ma</span>, object  <span class="argument">$item</span>, array  <span class="argument">$ids</span>) </pre>
+                <p><em>Execution code for massive action</em></p>
+                
+
+                                    <h4>Parameters</h4>
+                    <table class="table table-condensed table-hover">
+                                                    <tr>
+                                <td>object</td>
+                                <td>$ma </td>
+                                <td><p>MassiveAction instance</p></td>
+                            </tr>
+                                                    <tr>
+                                <td>object</td>
+                                <td>$item </td>
+                                <td><p>item on which execute the code</p></td>
+                            </tr>
+                                                    <tr>
+                                <td>array</td>
+                                <td>$ids </td>
+                                <td><p>list of ID on which execute the code</p></td>
+                            </tr>
+                                            </table>
+                
+                
+                				
+                            </article>
+        </div>
+        <aside class="span4 detailsbar">
+            <h1><i class="icon-arrow-down"></i></h1>
+                            <span class="label label-info">static</span>
+                                                            <dl>
+                                                    <dt>Inherited from</dt>
+                    <dd><a href="../classes/PluginFusioninventoryTask.html"><div class="path-wrapper">\PluginFusioninventoryTask</div></a></dd>
+                                                            </dl>
+            <h2>Tags</h2>
+            <table class="table table-condensed">
+                                    <tr><td colspan="2"><em>None found</em></td></tr>
+                            </table>
+        </aside>
+    </div>
+
+                                    <div class="row-fluid">
+        <div class="span8 content class">
+            <a id="method___construct" name="method___construct" class="anchor"></a>
+            <article class="method">
+                <h3 class="public ">__construct()</h3>
+                <a href="#source-view" role="button" class="pull-right btn" data-toggle="modal" style="font-size: 1.1em; padding: 9px 14px"><i class="icon-code"></i></a>
+                <pre class="signature" style="margin-right: 54px;">__construct() </pre>
+                <p><em></em></p>
+                
+
+                
+                
+                				
+                            </article>
+        </div>
+        <aside class="span4 detailsbar">
+            <h1><i class="icon-arrow-down"></i></h1>
+                                                            <dl>
+                                                    <dt>Inherited from</dt>
+                    <dd><a href="../classes/PluginFusioninventoryCommonView.html"><div class="path-wrapper">\PluginFusioninventoryCommonView</div></a></dd>
+                                                            </dl>
+            <h2>Tags</h2>
+            <table class="table table-condensed">
+                                    <tr><td colspan="2"><em>None found</em></td></tr>
+                            </table>
+        </aside>
+    </div>
+
+                                    <div class="row-fluid">
+        <div class="span8 content class">
+            <a id="method_getTabNameForItem" name="method_getTabNameForItem" class="anchor"></a>
+            <article class="method">
+                <h3 class="public ">getTabNameForItem()</h3>
+                <a href="#source-view" role="button" class="pull-right btn" data-toggle="modal" style="font-size: 1.1em; padding: 9px 14px"><i class="icon-code"></i></a>
+                <pre class="signature" style="margin-right: 54px;">getTabNameForItem(object  <span class="argument">$item</span>, integer  <span class="argument">$withtemplate</span>) : string</pre>
+                <p><em>Get the tab name used for item</em></p>
+                
+
+                                    <h4>Parameters</h4>
+                    <table class="table table-condensed table-hover">
+                                                    <tr>
+                                <td>object</td>
+                                <td>$item </td>
+                                <td><p>the item object</p></td>
+                            </tr>
+                                                    <tr>
+                                <td>integer</td>
+                                <td>$withtemplate </td>
+                                <td><p>1 if is a template form</p></td>
+                            </tr>
+                                            </table>
+                
+                
+                                    <h4>Returns</h4>
+                    string
+                                            &mdash; <p>name of the tab</p>
+                                    				
+                            </article>
+        </div>
+        <aside class="span4 detailsbar">
+            <h1><i class="icon-arrow-down"></i></h1>
+                                                            <dl>
+                                                                            </dl>
+            <h2>Tags</h2>
+            <table class="table table-condensed">
+                                    <tr><td colspan="2"><em>None found</em></td></tr>
+                            </table>
+        </aside>
+    </div>
+
+                                    <div class="row-fluid">
+        <div class="span8 content class">
+            <a id="method_defineTabs" name="method_defineTabs" class="anchor"></a>
+            <article class="method">
+                <h3 class="public ">defineTabs()</h3>
+                <a href="#source-view" role="button" class="pull-right btn" data-toggle="modal" style="font-size: 1.1em; padding: 9px 14px"><i class="icon-code"></i></a>
+                <pre class="signature" style="margin-right: 54px;">defineTabs(array  <span class="argument">$options = array()</span>) : array</pre>
+                <p><em>Define tabs to display on form page</em></p>
+                
+
+                                    <h4>Parameters</h4>
+                    <table class="table table-condensed table-hover">
+                                                    <tr>
+                                <td>array</td>
+                                <td>$options </td>
+                                <td></td>
+                            </tr>
+                                            </table>
+                
+                
+                                    <h4>Returns</h4>
+                    array
+                                            &mdash; <p>containing the tabs name</p>
+                                    				
+                            </article>
+        </div>
+        <aside class="span4 detailsbar">
+            <h1><i class="icon-arrow-down"></i></h1>
+                                                            <dl>
+                                                                            </dl>
+            <h2>Tags</h2>
+            <table class="table table-condensed">
+                                    <tr><td colspan="2"><em>None found</em></td></tr>
+                            </table>
+        </aside>
+    </div>
+
+                                    <div class="row-fluid">
+        <div class="span8 content class">
+            <a id="method_displayTabContentForItem" name="method_displayTabContentForItem" class="anchor"></a>
+            <article class="method">
+                <h3 class="public ">displayTabContentForItem()</h3>
+                <a href="#source-view" role="button" class="pull-right btn" data-toggle="modal" style="font-size: 1.1em; padding: 9px 14px"><i class="icon-code"></i></a>
+                <pre class="signature" style="margin-right: 54px;">displayTabContentForItem(object  <span class="argument">$item</span>, integer  <span class="argument">$tabnum = 1</span>, integer  <span class="argument">$withtemplate</span>) : boolean</pre>
+                <p><em>Display the content of the tab</em></p>
+                
+
+                                    <h4>Parameters</h4>
+                    <table class="table table-condensed table-hover">
+                                                    <tr>
+                                <td>object</td>
+                                <td>$item </td>
+                                <td></td>
+                            </tr>
+                                                    <tr>
+                                <td>integer</td>
+                                <td>$tabnum </td>
+                                <td><p>number of the tab to display</p></td>
+                            </tr>
+                                                    <tr>
+                                <td>integer</td>
+                                <td>$withtemplate </td>
+                                <td><p>1 if is a template form</p></td>
+                            </tr>
+                                            </table>
+                
+                
+                                    <h4>Returns</h4>
+                    boolean
+                                    				
+                            </article>
+        </div>
+        <aside class="span4 detailsbar">
+            <h1><i class="icon-arrow-down"></i></h1>
+                            <span class="label label-info">static</span>
+                                                            <dl>
+                                                                            </dl>
+            <h2>Tags</h2>
+            <table class="table table-condensed">
+                                    <tr><td colspan="2"><em>None found</em></td></tr>
+                            </table>
+        </aside>
+    </div>
+
+                                    <div class="row-fluid">
+        <div class="span8 content class">
+            <a id="method_showJobLogs" name="method_showJobLogs" class="anchor"></a>
+            <article class="method">
+                <h3 class="public ">showJobLogs()</h3>
+                <a href="#source-view" role="button" class="pull-right btn" data-toggle="modal" style="font-size: 1.1em; padding: 9px 14px"><i class="icon-code"></i></a>
+                <pre class="signature" style="margin-right: 54px;">showJobLogs() </pre>
+                <p><em>Show job logs</em></p>
+                
+
+                
+                
+                				
+                            </article>
+        </div>
+        <aside class="span4 detailsbar">
+            <h1><i class="icon-arrow-down"></i></h1>
+                                                            <dl>
+                                                    <dt>Inherited from</dt>
+                    <dd><a href="../classes/PluginFusioninventoryTaskView.html"><div class="path-wrapper">\PluginFusioninventoryTaskView</div></a></dd>
+                                                            </dl>
+            <h2>Tags</h2>
+            <table class="table table-condensed">
+                                    <tr><td colspan="2"><em>None found</em></td></tr>
+                            </table>
+        </aside>
+    </div>
+
+                                    <div class="row-fluid">
+        <div class="span8 content class">
+            <a id="method_ajaxGetJobLogs" name="method_ajaxGetJobLogs" class="anchor"></a>
+            <article class="method">
+                <h3 class="public ">ajaxGetJobLogs()</h3>
+                <a href="#source-view" role="button" class="pull-right btn" data-toggle="modal" style="font-size: 1.1em; padding: 9px 14px"><i class="icon-code"></i></a>
+                <pre class="signature" style="margin-right: 54px;">ajaxGetJobLogs(integer  <span class="argument">$task_id</span>) </pre>
+                <p><em>Ajax called to get job logs</em></p>
+                
+
+                                    <h4>Parameters</h4>
+                    <table class="table table-condensed table-hover">
+                                                    <tr>
+                                <td>integer</td>
+                                <td>$task_id </td>
+                                <td></td>
+                            </tr>
+                                            </table>
+                
+                
+                				
+                            </article>
+        </div>
+        <aside class="span4 detailsbar">
+            <h1><i class="icon-arrow-down"></i></h1>
+                                                            <dl>
+                                                    <dt>Inherited from</dt>
+                    <dd><a href="../classes/PluginFusioninventoryTaskView.html"><div class="path-wrapper">\PluginFusioninventoryTaskView</div></a></dd>
+                                                            </dl>
+            <h2>Tags</h2>
+            <table class="table table-condensed">
+                                    <tr>
+                        <th>
+                            todo
+                        </th>
+                        <td>
+                                                                                            <p>Move this method in task.class</p>
+                                                    </td>
+                    </tr>
+                            </table>
+        </aside>
+    </div>
+
+                                    <div class="row-fluid">
+        <div class="span8 content class">
+            <a id="method_getCounterTypeName" name="method_getCounterTypeName" class="anchor"></a>
+            <article class="method">
+                <h3 class="public ">getCounterTypeName()</h3>
+                <a href="#source-view" role="button" class="pull-right btn" data-toggle="modal" style="font-size: 1.1em; padding: 9px 14px"><i class="icon-code"></i></a>
+                <pre class="signature" style="margin-right: 54px;">getCounterTypeName(string  <span class="argument">$type = &quot;&quot;</span>) : string</pre>
+                <p><em>Get translated name of counter type</em></p>
+                
+
+                                    <h4>Parameters</h4>
+                    <table class="table table-condensed table-hover">
+                                                    <tr>
+                                <td>string</td>
+                                <td>$type </td>
+                                <td></td>
+                            </tr>
+                                            </table>
+                
+                
+                                    <h4>Returns</h4>
+                    string
+                                    				
+                            </article>
+        </div>
+        <aside class="span4 detailsbar">
+            <h1><i class="icon-arrow-down"></i></h1>
+                                                            <dl>
+                                                    <dt>Inherited from</dt>
+                    <dd><a href="../classes/PluginFusioninventoryTaskView.html"><div class="path-wrapper">\PluginFusioninventoryTaskView</div></a></dd>
+                                                            </dl>
+            <h2>Tags</h2>
+            <table class="table table-condensed">
+                                    <tr><td colspan="2"><em>None found</em></td></tr>
+                            </table>
+        </aside>
+    </div>
+
+                                    <div class="row-fluid">
+        <div class="span8 content class">
+            <a id="method_getAgentsLogs" name="method_getAgentsLogs" class="anchor"></a>
+            <article class="method">
+                <h3 class="public ">getAgentsLogs()</h3>
+                <a href="#source-view" role="button" class="pull-right btn" data-toggle="modal" style="font-size: 1.1em; padding: 9px 14px"><i class="icon-code"></i></a>
+                <pre class="signature" style="margin-right: 54px;">getAgentsLogs(array  <span class="argument">$agents = array()</span>, array  <span class="argument">$counters = array()</span>, string  <span class="argument">$target_id = &quot;&quot;</span>) : array</pre>
+                <p><em>Get agents logs</em></p>
+                
+
+                                    <h4>Parameters</h4>
+                    <table class="table table-condensed table-hover">
+                                                    <tr>
+                                <td>array</td>
+                                <td>$agents </td>
+                                <td></td>
+                            </tr>
+                                                    <tr>
+                                <td>array</td>
+                                <td>$counters </td>
+                                <td></td>
+                            </tr>
+                                                    <tr>
+                                <td>string</td>
+                                <td>$target_id </td>
+                                <td></td>
+                            </tr>
+                                            </table>
+                
+                
+                                    <h4>Returns</h4>
+                    array
+                                    				
+                            </article>
+        </div>
+        <aside class="span4 detailsbar">
+            <h1><i class="icon-arrow-down"></i></h1>
+                                                            <dl>
+                                                    <dt>Inherited from</dt>
+                    <dd><a href="../classes/PluginFusioninventoryTaskView.html"><div class="path-wrapper">\PluginFusioninventoryTaskView</div></a></dd>
+                                                            </dl>
+            <h2>Tags</h2>
+            <table class="table table-condensed">
+                                    <tr><td colspan="2"><em>None found</em></td></tr>
+                            </table>
+        </aside>
+    </div>
+
+                                    <div class="row-fluid">
+        <div class="span8 content class">
+            <a id="method_getRunLogs" name="method_getRunLogs" class="anchor"></a>
+            <article class="method">
+                <h3 class="public ">getRunLogs()</h3>
+                <a href="#source-view" role="button" class="pull-right btn" data-toggle="modal" style="font-size: 1.1em; padding: 9px 14px"><i class="icon-code"></i></a>
+                <pre class="signature" style="margin-right: 54px;">getRunLogs(array  <span class="argument">$run = array()</span>) : array</pre>
+                <p><em>Get run logs</em></p>
+                
+
+                                    <h4>Parameters</h4>
+                    <table class="table table-condensed table-hover">
+                                                    <tr>
+                                <td>array</td>
+                                <td>$run </td>
+                                <td></td>
+                            </tr>
+                                            </table>
+                
+                
+                                    <h4>Returns</h4>
+                    array
+                                    				
+                            </article>
+        </div>
+        <aside class="span4 detailsbar">
+            <h1><i class="icon-arrow-down"></i></h1>
+                                                            <dl>
+                                                    <dt>Inherited from</dt>
+                    <dd><a href="../classes/PluginFusioninventoryTaskView.html"><div class="path-wrapper">\PluginFusioninventoryTaskView</div></a></dd>
+                                                            </dl>
+            <h2>Tags</h2>
+            <table class="table table-condensed">
+                                    <tr><td colspan="2"><em>None found</em></td></tr>
+                            </table>
+        </aside>
+    </div>
+
+                                    <div class="row-fluid">
+        <div class="span8 content class">
+            <a id="method_showForm" name="method_showForm" class="anchor"></a>
+            <article class="method">
+                <h3 class="public ">showForm()</h3>
+                <a href="#source-view" role="button" class="pull-right btn" data-toggle="modal" style="font-size: 1.1em; padding: 9px 14px"><i class="icon-code"></i></a>
+                <pre class="signature" style="margin-right: 54px;">showForm(integer  <span class="argument">$id</span>,   <span class="argument">$options = array()</span>) : boolean</pre>
+                <p><em>Display form for task configuration</em></p>
+                
+
+                                    <h4>Parameters</h4>
+                    <table class="table table-condensed table-hover">
+                                                    <tr>
+                                <td>integer</td>
+                                <td>$id </td>
+                                <td><p>ID of the task</p></td>
+                            </tr>
+                                                    <tr>
+                                <td></td>
+                                <td>$options </td>
+                                <td><p>array</p></td>
+                            </tr>
+                                            </table>
+                
+                
+                                    <h4>Returns</h4>
+                    boolean
+                                            &mdash; <p>TRUE if form is ok</p>
+                                    				
+                            </article>
+        </div>
+        <aside class="span4 detailsbar">
+            <h1><i class="icon-arrow-down"></i></h1>
+                                                            <dl>
+                                                    <dt>Inherited from</dt>
+                    <dd><a href="../classes/PluginFusioninventoryTaskView.html"><div class="path-wrapper">\PluginFusioninventoryTaskView</div></a></dd>
+                                                            </dl>
+            <h2>Tags</h2>
+            <table class="table table-condensed">
+                                    <tr><td colspan="2"><em>None found</em></td></tr>
+                            </table>
+        </aside>
+    </div>
+
+                                    <div class="row-fluid">
+        <div class="span8 content class">
+            <a id="method_submitForm" name="method_submitForm" class="anchor"></a>
+            <article class="method">
+                <h3 class="public ">submitForm()</h3>
+                <a href="#source-view" role="button" class="pull-right btn" data-toggle="modal" style="font-size: 1.1em; padding: 9px 14px"><i class="icon-code"></i></a>
+                <pre class="signature" style="margin-right: 54px;">submitForm(array  <span class="argument">$postvars</span>) </pre>
+                <p><em>Manage the different actions in when submit form (add, update,purge.</em></p>
+                <p>..)</p>
+
+                                    <h4>Parameters</h4>
+                    <table class="table table-condensed table-hover">
+                                                    <tr>
+                                <td>array</td>
+                                <td>$postvars </td>
+                                <td></td>
+                            </tr>
+                                            </table>
+                
+                
+                				
+                            </article>
+        </div>
+        <aside class="span4 detailsbar">
+            <h1><i class="icon-arrow-down"></i></h1>
+                                                            <dl>
+                                                    <dt>Inherited from</dt>
+                    <dd><a href="../classes/PluginFusioninventoryTaskView.html"><div class="path-wrapper">\PluginFusioninventoryTaskView</div></a></dd>
+                                                            </dl>
+            <h2>Tags</h2>
+            <table class="table table-condensed">
+                                    <tr><td colspan="2"><em>None found</em></td></tr>
+                            </table>
+        </aside>
+    </div>
+
+                                    <div class="row-fluid">
+        <div class="span8 content class">
+            <a id="method_getEmpty" name="method_getEmpty" class="anchor"></a>
+            <article class="method">
+                <h3 class="public ">getEmpty()</h3>
+                <a href="#source-view" role="button" class="pull-right btn" data-toggle="modal" style="font-size: 1.1em; padding: 9px 14px"><i class="icon-code"></i></a>
+                <pre class="signature" style="margin-right: 54px;">getEmpty() </pre>
+                <p><em>Define reprepare_if_successful field when get empty item</em></p>
+                
+
+                
+                
+                				
+                            </article>
+        </div>
+        <aside class="span4 detailsbar">
+            <h1><i class="icon-arrow-down"></i></h1>
+                                                            <dl>
+                                                    <dt>Inherited from</dt>
+                    <dd><a href="../classes/PluginFusioninventoryTaskView.html"><div class="path-wrapper">\PluginFusioninventoryTaskView</div></a></dd>
+                                                            </dl>
+            <h2>Tags</h2>
+            <table class="table table-condensed">
+                                    <tr><td colspan="2"><em>None found</em></td></tr>
+                            </table>
+        </aside>
+    </div>
+
+                                    <div class="row-fluid">
+        <div class="span8 content class">
+            <a id="method_getBaseUrlFor" name="method_getBaseUrlFor" class="anchor"></a>
+            <article class="method">
+                <h3 class="public ">getBaseUrlFor()</h3>
+                <a href="#source-view" role="button" class="pull-right btn" data-toggle="modal" style="font-size: 1.1em; padding: 9px 14px"><i class="icon-code"></i></a>
+                <pre class="signature" style="margin-right: 54px;">getBaseUrlFor(string  <span class="argument">$name</span>) : string</pre>
+                <p><em>Get a specific url root by type name</em></p>
+                
+
+                                    <h4>Parameters</h4>
+                    <table class="table table-condensed table-hover">
+                                                    <tr>
+                                <td>string</td>
+                                <td>$name </td>
+                                <td><p>the type of url requested (can be used for ajax call
+or pictures location)</p></td>
+                            </tr>
+                                            </table>
+                
+                
+                                    <h4>Returns</h4>
+                    string
+                                            &mdash; <p>the requested url if found otherwise empty string</p>
+                                    				
+                            </article>
+        </div>
+        <aside class="span4 detailsbar">
+            <h1><i class="icon-arrow-down"></i></h1>
+                                                            <dl>
+                                                    <dt>Inherited from</dt>
+                    <dd><a href="../classes/PluginFusioninventoryCommonView.html"><div class="path-wrapper">\PluginFusioninventoryCommonView</div></a></dd>
+                                                            </dl>
+            <h2>Tags</h2>
+            <table class="table table-condensed">
+                                    <tr><td colspan="2"><em>None found</em></td></tr>
+                            </table>
+        </aside>
+    </div>
+
+                                    <div class="row-fluid">
+        <div class="span8 content class">
+            <a id="method_showList" name="method_showList" class="anchor"></a>
+            <article class="method">
+                <h3 class="public ">showList()</h3>
+                <a href="#source-view" role="button" class="pull-right btn" data-toggle="modal" style="font-size: 1.1em; padding: 9px 14px"><i class="icon-code"></i></a>
+                <pre class="signature" style="margin-right: 54px;">showList() </pre>
+                <p><em>Show list of deploy tasks</em></p>
+                
+
+                
+                
+                				
+                            </article>
+        </div>
+        <aside class="span4 detailsbar">
+            <h1><i class="icon-arrow-down"></i></h1>
+                                                            <dl>
+                                                                            </dl>
+            <h2>Tags</h2>
+            <table class="table table-condensed">
+                                    <tr><td colspan="2"><em>None found</em></td></tr>
+                            </table>
+        </aside>
+    </div>
+
+                                    <div class="row-fluid">
+        <div class="span8 content class">
+            <a id="method_showTextField" name="method_showTextField" class="anchor"></a>
+            <article class="method">
+                <h3 class="public ">showTextField()</h3>
+                <a href="#source-view" role="button" class="pull-right btn" data-toggle="modal" style="font-size: 1.1em; padding: 9px 14px"><i class="icon-code"></i></a>
+                <pre class="signature" style="margin-right: 54px;">showTextField(string  <span class="argument">$title</span>, string  <span class="argument">$varname</span>) </pre>
+                <p><em>Display input form element</em></p>
+                
+
+                                    <h4>Parameters</h4>
+                    <table class="table table-condensed table-hover">
+                                                    <tr>
+                                <td>string</td>
+                                <td>$title </td>
+                                <td></td>
+                            </tr>
+                                                    <tr>
+                                <td>string</td>
+                                <td>$varname </td>
+                                <td></td>
+                            </tr>
+                                            </table>
+                
+                
+                				
+                            </article>
+        </div>
+        <aside class="span4 detailsbar">
+            <h1><i class="icon-arrow-down"></i></h1>
+                                                            <dl>
+                                                    <dt>Inherited from</dt>
+                    <dd><a href="../classes/PluginFusioninventoryCommonView.html"><div class="path-wrapper">\PluginFusioninventoryCommonView</div></a></dd>
+                                                            </dl>
+            <h2>Tags</h2>
+            <table class="table table-condensed">
+                                    <tr><td colspan="2"><em>None found</em></td></tr>
+                            </table>
+        </aside>
+    </div>
+
+                                    <div class="row-fluid">
+        <div class="span8 content class">
+            <a id="method_showIntegerField" name="method_showIntegerField" class="anchor"></a>
+            <article class="method">
+                <h3 class="public ">showIntegerField()</h3>
+                <a href="#source-view" role="button" class="pull-right btn" data-toggle="modal" style="font-size: 1.1em; padding: 9px 14px"><i class="icon-code"></i></a>
+                <pre class="signature" style="margin-right: 54px;">showIntegerField(string  <span class="argument">$title</span>, string  <span class="argument">$varname</span>, array  <span class="argument">$options = array()</span>) </pre>
+                <p><em>Display input form element only with numbers</em></p>
+                
+
+                                    <h4>Parameters</h4>
+                    <table class="table table-condensed table-hover">
+                                                    <tr>
+                                <td>string</td>
+                                <td>$title </td>
+                                <td></td>
+                            </tr>
+                                                    <tr>
+                                <td>string</td>
+                                <td>$varname </td>
+                                <td></td>
+                            </tr>
+                                                    <tr>
+                                <td>array</td>
+                                <td>$options </td>
+                                <td></td>
+                            </tr>
+                                            </table>
+                
+                
+                				
+                            </article>
+        </div>
+        <aside class="span4 detailsbar">
+            <h1><i class="icon-arrow-down"></i></h1>
+                                                            <dl>
+                                                    <dt>Inherited from</dt>
+                    <dd><a href="../classes/PluginFusioninventoryCommonView.html"><div class="path-wrapper">\PluginFusioninventoryCommonView</div></a></dd>
+                                                            </dl>
+            <h2>Tags</h2>
+            <table class="table table-condensed">
+                                    <tr><td colspan="2"><em>None found</em></td></tr>
+                            </table>
+        </aside>
+    </div>
+
+                                    <div class="row-fluid">
+        <div class="span8 content class">
+            <a id="method_showCheckboxField" name="method_showCheckboxField" class="anchor"></a>
+            <article class="method">
+                <h3 class="public ">showCheckboxField()</h3>
+                <a href="#source-view" role="button" class="pull-right btn" data-toggle="modal" style="font-size: 1.1em; padding: 9px 14px"><i class="icon-code"></i></a>
+                <pre class="signature" style="margin-right: 54px;">showCheckboxField(string  <span class="argument">$title</span>, string  <span class="argument">$varname</span>, array  <span class="argument">$options = array()</span>) </pre>
+                <p><em>Display checkbox form element</em></p>
+                
+
+                                    <h4>Parameters</h4>
+                    <table class="table table-condensed table-hover">
+                                                    <tr>
+                                <td>string</td>
+                                <td>$title </td>
+                                <td></td>
+                            </tr>
+                                                    <tr>
+                                <td>string</td>
+                                <td>$varname </td>
+                                <td></td>
+                            </tr>
+                                                    <tr>
+                                <td>array</td>
+                                <td>$options </td>
+                                <td></td>
+                            </tr>
+                                            </table>
+                
+                
+                				
+                            </article>
+        </div>
+        <aside class="span4 detailsbar">
+            <h1><i class="icon-arrow-down"></i></h1>
+                                                            <dl>
+                                                    <dt>Inherited from</dt>
+                    <dd><a href="../classes/PluginFusioninventoryCommonView.html"><div class="path-wrapper">\PluginFusioninventoryCommonView</div></a></dd>
+                                                            </dl>
+            <h2>Tags</h2>
+            <table class="table table-condensed">
+                                    <tr><td colspan="2"><em>None found</em></td></tr>
+                            </table>
+        </aside>
+    </div>
+
+                                    <div class="row-fluid">
+        <div class="span8 content class">
+            <a id="method_showDropdownForItemtype" name="method_showDropdownForItemtype" class="anchor"></a>
+            <article class="method">
+                <h3 class="public ">showDropdownForItemtype()</h3>
+                <a href="#source-view" role="button" class="pull-right btn" data-toggle="modal" style="font-size: 1.1em; padding: 9px 14px"><i class="icon-code"></i></a>
+                <pre class="signature" style="margin-right: 54px;">showDropdownForItemtype(string  <span class="argument">$title</span>, string  <span class="argument">$itemtype</span>, array  <span class="argument">$options = array()</span>) : string</pre>
+                <p><em>Display dropdown form element for itemtype</em></p>
+                
+
+                                    <h4>Parameters</h4>
+                    <table class="table table-condensed table-hover">
+                                                    <tr>
+                                <td>string</td>
+                                <td>$title </td>
+                                <td></td>
+                            </tr>
+                                                    <tr>
+                                <td>string</td>
+                                <td>$itemtype </td>
+                                <td><p>a glpi/plugin itemtype</p></td>
+                            </tr>
+                                                    <tr>
+                                <td>array</td>
+                                <td>$options </td>
+                                <td></td>
+                            </tr>
+                                            </table>
+                
+                
+                                    <h4>Returns</h4>
+                    string
+                                            &mdash; <p>the rand number can be used with ajax to update something</p>
+                                    				
+                            </article>
+        </div>
+        <aside class="span4 detailsbar">
+            <h1><i class="icon-arrow-down"></i></h1>
+                                                            <dl>
+                                                    <dt>Inherited from</dt>
+                    <dd><a href="../classes/PluginFusioninventoryCommonView.html"><div class="path-wrapper">\PluginFusioninventoryCommonView</div></a></dd>
+                                                            </dl>
+            <h2>Tags</h2>
+            <table class="table table-condensed">
+                                    <tr><td colspan="2"><em>None found</em></td></tr>
+                            </table>
+        </aside>
+    </div>
+
+                                    <div class="row-fluid">
+        <div class="span8 content class">
+            <a id="method_showDropdownFromArray" name="method_showDropdownFromArray" class="anchor"></a>
+            <article class="method">
+                <h3 class="public ">showDropdownFromArray()</h3>
+                <a href="#source-view" role="button" class="pull-right btn" data-toggle="modal" style="font-size: 1.1em; padding: 9px 14px"><i class="icon-code"></i></a>
+                <pre class="signature" style="margin-right: 54px;">showDropdownFromArray(string  <span class="argument">$title</span>, string  <span class="argument">$varname</span>, array  <span class="argument">$values = array()</span>, array  <span class="argument">$options = array()</span>) : string</pre>
+                <p><em>Display dropdown form element with array data</em></p>
+                
+
+                                    <h4>Parameters</h4>
+                    <table class="table table-condensed table-hover">
+                                                    <tr>
+                                <td>string</td>
+                                <td>$title </td>
+                                <td></td>
+                            </tr>
+                                                    <tr>
+                                <td>string</td>
+                                <td>$varname </td>
+                                <td></td>
+                            </tr>
+                                                    <tr>
+                                <td>array</td>
+                                <td>$values </td>
+                                <td></td>
+                            </tr>
+                                                    <tr>
+                                <td>array</td>
+                                <td>$options </td>
+                                <td></td>
+                            </tr>
+                                            </table>
+                
+                
+                                    <h4>Returns</h4>
+                    string
+                                            &mdash; <p>the rand number can be used with ajax to update something</p>
+                                    				
+                            </article>
+        </div>
+        <aside class="span4 detailsbar">
+            <h1><i class="icon-arrow-down"></i></h1>
+                                                            <dl>
+                                                    <dt>Inherited from</dt>
+                    <dd><a href="../classes/PluginFusioninventoryCommonView.html"><div class="path-wrapper">\PluginFusioninventoryCommonView</div></a></dd>
+                                                            </dl>
+            <h2>Tags</h2>
+            <table class="table table-condensed">
+                                    <tr><td colspan="2"><em>None found</em></td></tr>
+                            </table>
+        </aside>
+    </div>
+
+                                    <div class="row-fluid">
+        <div class="span8 content class">
+            <a id="method_showDateTimeField" name="method_showDateTimeField" class="anchor"></a>
+            <article class="method">
+                <h3 class="public ">showDateTimeField()</h3>
+                <a href="#source-view" role="button" class="pull-right btn" data-toggle="modal" style="font-size: 1.1em; padding: 9px 14px"><i class="icon-code"></i></a>
+                <pre class="signature" style="margin-right: 54px;">showDateTimeField(string  <span class="argument">$title</span>, string  <span class="argument">$varname</span>, array  <span class="argument">$options = array()</span>) </pre>
+                <p><em>Display date time select form element</em></p>
+                
+
+                                    <h4>Parameters</h4>
+                    <table class="table table-condensed table-hover">
+                                                    <tr>
+                                <td>string</td>
+                                <td>$title </td>
+                                <td></td>
+                            </tr>
+                                                    <tr>
+                                <td>string</td>
+                                <td>$varname </td>
+                                <td></td>
+                            </tr>
+                                                    <tr>
+                                <td>array</td>
+                                <td>$options </td>
+                                <td></td>
+                            </tr>
+                                            </table>
+                
+                
+                				
+                            </article>
+        </div>
+        <aside class="span4 detailsbar">
+            <h1><i class="icon-arrow-down"></i></h1>
+                                                            <dl>
+                                                    <dt>Inherited from</dt>
+                    <dd><a href="../classes/PluginFusioninventoryCommonView.html"><div class="path-wrapper">\PluginFusioninventoryCommonView</div></a></dd>
+                                                            </dl>
+            <h2>Tags</h2>
+            <table class="table table-condensed">
+                                    <tr><td colspan="2"><em>None found</em></td></tr>
+                            </table>
+        </aside>
+    </div>
+
+                                    <div class="row-fluid">
+        <div class="span8 content class">
+            <a id="method_showTextArea" name="method_showTextArea" class="anchor"></a>
+            <article class="method">
+                <h3 class="public ">showTextArea()</h3>
+                <a href="#source-view" role="button" class="pull-right btn" data-toggle="modal" style="font-size: 1.1em; padding: 9px 14px"><i class="icon-code"></i></a>
+                <pre class="signature" style="margin-right: 54px;">showTextArea(string  <span class="argument">$title</span>, string  <span class="argument">$varname</span>) </pre>
+                <p><em>Display a text area form element</em></p>
+                
+
+                                    <h4>Parameters</h4>
+                    <table class="table table-condensed table-hover">
+                                                    <tr>
+                                <td>string</td>
+                                <td>$title </td>
+                                <td></td>
+                            </tr>
+                                                    <tr>
+                                <td>string</td>
+                                <td>$varname </td>
+                                <td></td>
+                            </tr>
+                                            </table>
+                
+                
+                				
+                            </article>
+        </div>
+        <aside class="span4 detailsbar">
+            <h1><i class="icon-arrow-down"></i></h1>
+                                                            <dl>
+                                                    <dt>Inherited from</dt>
+                    <dd><a href="../classes/PluginFusioninventoryCommonView.html"><div class="path-wrapper">\PluginFusioninventoryCommonView</div></a></dd>
+                                                            </dl>
+            <h2>Tags</h2>
+            <table class="table table-condensed">
+                                    <tr><td colspan="2"><em>None found</em></td></tr>
+                            </table>
+        </aside>
+    </div>
+
+                                    <div class="row-fluid">
+        <div class="span8 content class">
+            <a id="method_getMessage" name="method_getMessage" class="anchor"></a>
+            <article class="method">
+                <h3 class="public ">getMessage()</h3>
+                <a href="#source-view" role="button" class="pull-right btn" data-toggle="modal" style="font-size: 1.1em; padding: 9px 14px"><i class="icon-code"></i></a>
+                <pre class="signature" style="margin-right: 54px;">getMessage(string  <span class="argument">$msg</span>, integer  <span class="argument">$type = self::MSG_INFO</span>) : string</pre>
+                <p><em>Get a HTML message</em></p>
+                
+
+                                    <h4>Parameters</h4>
+                    <table class="table table-condensed table-hover">
+                                                    <tr>
+                                <td>string</td>
+                                <td>$msg </td>
+                                <td></td>
+                            </tr>
+                                                    <tr>
+                                <td>integer</td>
+                                <td>$type </td>
+                                <td></td>
+                            </tr>
+                                            </table>
+                
+                
+                                    <h4>Returns</h4>
+                    string
+                                    				
+                            </article>
+        </div>
+        <aside class="span4 detailsbar">
+            <h1><i class="icon-arrow-down"></i></h1>
+                                                            <dl>
+                                                    <dt>Inherited from</dt>
+                    <dd><a href="../classes/PluginFusioninventoryCommonView.html"><div class="path-wrapper">\PluginFusioninventoryCommonView</div></a></dd>
+                                                            </dl>
+            <h2>Tags</h2>
+            <table class="table table-condensed">
+                                    <tr><td colspan="2"><em>None found</em></td></tr>
+                            </table>
+        </aside>
+    </div>
+
+                                    <div class="row-fluid">
+        <div class="span8 content class">
+            <a id="method_canView" name="method_canView" class="anchor"></a>
+            <article class="method">
+                <h3 class="public ">canView()</h3>
+                <a href="#source-view" role="button" class="pull-right btn" data-toggle="modal" style="font-size: 1.1em; padding: 9px 14px"><i class="icon-code"></i></a>
+                <pre class="signature" style="margin-right: 54px;">canView() : boolean</pre>
+                <p><em>Is this use can view a deploy task</em></p>
+                
+
+                
+                
+                                    <h4>Returns</h4>
+                    boolean
+                                    				
+                            </article>
+        </div>
+        <aside class="span4 detailsbar">
+            <h1><i class="icon-arrow-down"></i></h1>
+                            <span class="label label-info">static</span>
+                                                            <dl>
+                                                                            </dl>
+            <h2>Tags</h2>
+            <table class="table table-condensed">
+                                    <tr><td colspan="2"><em>None found</em></td></tr>
+                            </table>
+        </aside>
+    </div>
+
+                                    <div class="row-fluid">
+        <div class="span8 content class">
+            <a id="method_title" name="method_title" class="anchor"></a>
+            <article class="method">
+                <h3 class="public ">title()</h3>
+                <a href="#source-view" role="button" class="pull-right btn" data-toggle="modal" style="font-size: 1.1em; padding: 9px 14px"><i class="icon-code"></i></a>
+                <pre class="signature" style="margin-right: 54px;">title() </pre>
+                <p><em>Display the title of the page</em></p>
+                
+
+                
+                
+                				
+                            </article>
+        </div>
+        <aside class="span4 detailsbar">
+            <h1><i class="icon-arrow-down"></i></h1>
+                                                            <dl>
+                                                                            </dl>
+            <h2>Tags</h2>
+            <table class="table table-condensed">
+                                    <tr>
+                        <th>
+                            global
+                        </th>
+                        <td>
+                                                                                            <p>array $CFG_GLPI</p>
+                                                    </td>
+                    </tr>
+                            </table>
+        </aside>
+    </div>
+
+                                    <div class="row-fluid">
+        <div class="span8 content class">
+            <a id="method_showActions" name="method_showActions" class="anchor"></a>
+            <article class="method">
+                <h3 class="public ">showActions()</h3>
+                <a href="#source-view" role="button" class="pull-right btn" data-toggle="modal" style="font-size: 1.1em; padding: 9px 14px"><i class="icon-code"></i></a>
+                <pre class="signature" style="margin-right: 54px;">showActions(integer  <span class="argument">$id</span>) </pre>
+                <p><em>Show actions of the deploy task</em></p>
+                
+
+                                    <h4>Parameters</h4>
+                    <table class="table table-condensed table-hover">
+                                                    <tr>
+                                <td>integer</td>
+                                <td>$id </td>
+                                <td></td>
+                            </tr>
+                                            </table>
+                
+                
+                				
+                            </article>
+        </div>
+        <aside class="span4 detailsbar">
+            <h1><i class="icon-arrow-down"></i></h1>
+                                                            <dl>
+                                                                            </dl>
+            <h2>Tags</h2>
+            <table class="table table-condensed">
+                                    <tr><td colspan="2"><em>None found</em></td></tr>
+                            </table>
+        </aside>
+    </div>
+
+                                    <div class="row-fluid">
+        <div class="span8 content class">
+            <a id="method_pre_deleteItem" name="method_pre_deleteItem" class="anchor"></a>
+            <article class="method">
+                <h3 class="public ">pre_deleteItem()</h3>
+                <a href="#source-view" role="button" class="pull-right btn" data-toggle="modal" style="font-size: 1.1em; padding: 9px 14px"><i class="icon-code"></i></a>
+                <pre class="signature" style="margin-right: 54px;">pre_deleteItem() : boolean</pre>
+                <p><em>Do this before delete a deploy task</em></p>
+                
+
+                
+                
+                                    <h4>Returns</h4>
+                    boolean
+                                    				
+                            </article>
+        </div>
+        <aside class="span4 detailsbar">
+            <h1><i class="icon-arrow-down"></i></h1>
+                                                            <dl>
+                                                                            </dl>
+            <h2>Tags</h2>
+            <table class="table table-condensed">
+                                    <tr>
+                        <th>
+                            global
+                        </th>
+                        <td>
+                                                                                            <p>array $CFG_GLPI</p>
+                                                    </td>
+                    </tr>
+                            </table>
+        </aside>
+    </div>
+
+                                    <div class="row-fluid">
+        <div class="span8 content class">
+            <a id="method_post_addItem" name="method_post_addItem" class="anchor"></a>
+            <article class="method">
+                <h3 class="public ">post_addItem()</h3>
+                <a href="#source-view" role="button" class="pull-right btn" data-toggle="modal" style="font-size: 1.1em; padding: 9px 14px"><i class="icon-code"></i></a>
+                <pre class="signature" style="margin-right: 54px;">post_addItem() </pre>
+                <p><em>Do this after added an item</em></p>
+                
+
+                
+                
+                				
+                            </article>
+        </div>
+        <aside class="span4 detailsbar">
+            <h1><i class="icon-arrow-down"></i></h1>
+                                                            <dl>
+                                                                            </dl>
+            <h2>Tags</h2>
+            <table class="table table-condensed">
+                                    <tr><td colspan="2"><em>None found</em></td></tr>
+                            </table>
+        </aside>
+    </div>
+
+                                                                    </div>
+    </section>
+
+    <div id="source-view" class="modal hide fade" tabindex="-1" role="dialog" aria-labelledby="source-view-label" aria-hidden="true">
+        <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+            <h3 id="source-view-label">deploytask.class.php</h3>
+        </div>
+        <div class="modal-body">
+            <pre data-src="../files/deploytask.class.php.txt" class="language-php line-numbers"></pre>
+        </div>
+    </div>
+
+    <footer class="row-fluid">
+        <section class="span10 offset2">
+            <section class="row-fluid">
+                <section class="span10 offset1">
+                    <section class="row-fluid footer-sections">
+                        <section class="span4">
+                                                        <h1><i class="icon-code"></i></h1>
+                            <div>
+                                <ul>
+                                                                    </ul>
+                            </div>
+                        </section>
+                        <section class="span4">
+                                                        <h1><i class="icon-bar-chart"></i></h1>
+                            <div>
+                                <ul>
+                                    <li><a href="../graphs/class.html">Class Hierarchy Diagram</a></li>
+                                </ul>
+                            </div>
+                        </section>
+                        <section class="span4">
+                                                        <h1><i class="icon-pushpin"></i></h1>
+                            <div>
+                                <ul>
+                                    <li><a href="../reports/errors.html">Errors</a></li>
+                                    <li><a href="../reports/markers.html">Markers</a></li>
+                                </ul>
+                            </div>
+                        </section>
+                    </section>
+                </section>
+            </section>
+            <section class="row-fluid">
+                <section class="span10 offset1">
+                    <hr />
+                    Documentation is powered by <a href="http://www.phpdoc.org/">phpDocumentor </a> and authored
+                    on August 13th, 2016 at 08:55.
+                </section>
+            </section>
+        </section>
+    </footer>
+</div>
+
+</body>
+</html>
