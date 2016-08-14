@@ -13,123 +13,158 @@
 <path fill="none" stroke="gray" d="M20,-584C20,-584 1405.67,-584 1405.67,-584 1411.67,-584 1417.67,-590 1417.67,-596 1417.67,-596 1417.67,-6260 1417.67,-6260 1417.67,-6266 1411.67,-6272 1405.67,-6272 1405.67,-6272 20,-6272 20,-6272 14,-6272 8,-6266 8,-6260 8,-6260 8,-596 8,-596 8,-590 14,-584 20,-584"/>
 <text text-anchor="middle" x="712.837" y="-6259.2" font-family="Times,serif" font-size="11.00" fill="gray">Global</text>
 </g>
-<!-- \\PluginFusioninventoryInventoryComputerBatteries -->
-<g id="node1" class="node"><title>\\PluginFusioninventoryInventoryComputerBatteries</title>
-<polygon fill="none" stroke="black" points="1372.67,-3220 1038.67,-3220 1038.67,-3184 1372.67,-3184 1372.67,-3220"/>
-<text text-anchor="middle" x="1205.67" y="-3199.2" font-family="Courier,monospace" font-size="11.00">PluginFusioninventoryInventoryComputerBatteries</text>
+<!-- \\PluginFusioninventoryRuleDictionnaryComputerArchCollection -->
+<g id="node1" class="node"><title>\\PluginFusioninventoryRuleDictionnaryComputerArchCollection</title>
+<polygon fill="none" stroke="black" points="1409.67,-6082 1001.67,-6082 1001.67,-6046 1409.67,-6046 1409.67,-6082"/>
+<text text-anchor="middle" x="1205.67" y="-6061.2" font-family="Courier,monospace" font-size="11.00">PluginFusioninventoryRuleDictionnaryComputerArchCollection</text>
 </g>
-<!-- \\CommonDBTM -->
-<g id="node117" class="node"><title>\\CommonDBTM</title>
-<ellipse fill="none" stroke="black" cx="780.837" cy="-558" rx="73.387" ry="18"/>
-<text text-anchor="middle" x="780.837" y="-554.3" font-family="Times,serif" font-size="14.00" fill="gray">\CommonDBTM</text>
+<!-- \\RuleDictionnaryDropdownCollection -->
+<g id="node117" class="node"><title>\\RuleDictionnaryDropdownCollection</title>
+<ellipse fill="none" stroke="black" cx="780.837" cy="-558" rx="148.674" ry="18"/>
+<text text-anchor="middle" x="780.837" y="-554.3" font-family="Times,serif" font-size="14.00" fill="gray">\RuleDictionnaryDropdownCollection</text>
 </g>
-<!-- \\PluginFusioninventoryInventoryComputerBatteries&#45;&gt;\\CommonDBTM -->
-<g id="edge1" class="edge"><title>\\PluginFusioninventoryInventoryComputerBatteries&#45;&gt;\\CommonDBTM</title>
-<path fill="none" stroke="black" d="M1038.66,-3200.83C1024.72,-3194.86 1012.02,-3186.49 1001.67,-3175 808.642,-2960.67 1121.04,-795.823 929.674,-580 911.813,-559.857 884.149,-552.427 857.561,-550.714"/>
-<polygon fill="none" stroke="black" points="857.574,-547.212 847.446,-550.323 857.303,-554.207 857.574,-547.212"/>
+<!-- \\PluginFusioninventoryRuleDictionnaryComputerArchCollection&#45;&gt;\\RuleDictionnaryDropdownCollection -->
+<g id="edge1" class="edge"><title>\\PluginFusioninventoryRuleDictionnaryComputerArchCollection&#45;&gt;\\RuleDictionnaryDropdownCollection</title>
+<path fill="none" stroke="black" d="M1010.69,-6045.87C1007.52,-6043.14 1004.51,-6040.19 1001.67,-6037 800.416,-5810.24 1129.17,-808.316 929.674,-580 927.209,-577.179 924.551,-574.606 921.732,-572.262"/>
+<polygon fill="none" stroke="black" points="923.539,-569.251 913.379,-566.248 919.449,-574.932 923.539,-569.251"/>
 </g>
-<!-- \\PluginFusioninventoryCollect_Registry_Content -->
-<g id="node2" class="node"><title>\\PluginFusioninventoryCollect_Registry_Content</title>
-<polygon fill="none" stroke="black" points="1365.67,-3166 1045.67,-3166 1045.67,-3130 1365.67,-3130 1365.67,-3166"/>
-<text text-anchor="middle" x="1205.67" y="-3145.2" font-family="Courier,monospace" font-size="11.00">PluginFusioninventoryCollect_Registry_Content</text>
-</g>
-<!-- \\PluginFusioninventoryCollect_Registry_Content&#45;&gt;\\CommonDBTM -->
-<g id="edge2" class="edge"><title>\\PluginFusioninventoryCollect_Registry_Content&#45;&gt;\\CommonDBTM</title>
-<path fill="none" stroke="black" d="M1045.49,-3149.52C1028.87,-3143.46 1013.69,-3134.34 1001.67,-3121 812.594,-2911.18 1117.12,-791.28 929.674,-580 911.807,-559.862 884.142,-552.433 857.554,-550.72"/>
-<polygon fill="none" stroke="black" points="857.568,-547.218 847.44,-550.328 857.297,-554.213 857.568,-547.218"/>
-</g>
-<!-- \\PluginFusioninventoryCommonView -->
-<g id="node3" class="node"><title>\\PluginFusioninventoryCommonView</title>
-<polygon fill="none" stroke="black" points="242,-5920 16,-5920 16,-5884 242,-5884 242,-5920"/>
-<text text-anchor="middle" x="129" y="-5899.2" font-family="Courier,monospace" font-size="11.00">PluginFusioninventoryCommonView</text>
-</g>
-<!-- \\PluginFusioninventoryCommonView&#45;&gt;\\CommonDBTM -->
-<g id="edge3" class="edge"><title>\\PluginFusioninventoryCommonView&#45;&gt;\\CommonDBTM</title>
-<path fill="none" stroke="black" d="M130.366,-5883.78C137.061,-5559 237.994,-995.745 632,-580 650.043,-560.962 676.886,-553.528 702.767,-551.503"/>
-<polygon fill="none" stroke="black" points="703.196,-554.986 713,-550.968 702.831,-547.995 703.196,-554.986"/>
-</g>
-<!-- \\PluginFusioninventoryCredentialIp -->
-<g id="node4" class="node"><title>\\PluginFusioninventoryCredentialIp</title>
-<polygon fill="none" stroke="black" points="1325.17,-2248 1086.17,-2248 1086.17,-2212 1325.17,-2212 1325.17,-2248"/>
-<text text-anchor="middle" x="1205.67" y="-2227.2" font-family="Courier,monospace" font-size="11.00">PluginFusioninventoryCredentialIp</text>
-</g>
-<!-- \\CommonDropdown -->
-<g id="node118" class="node"><title>\\CommonDropdown</title>
-<ellipse fill="none" stroke="black" cx="780.837" cy="-504" rx="85.2851" ry="18"/>
-<text text-anchor="middle" x="780.837" y="-500.3" font-family="Times,serif" font-size="14.00" fill="gray">\CommonDropdown</text>
-</g>
-<!-- \\PluginFusioninventoryCredentialIp&#45;&gt;\\CommonDropdown -->
-<g id="edge4" class="edge"><title>\\PluginFusioninventoryCredentialIp&#45;&gt;\\CommonDropdown</title>
-<path fill="none" stroke="black" d="M1086.01,-2240.39C1054.42,-2236.84 1023.15,-2226.48 1001.67,-2203 876.18,-2065.78 1051.81,-671.215 929.674,-531 915.619,-514.865 895.397,-506.297 874.402,-502.104"/>
-<polygon fill="none" stroke="black" points="874.831,-498.627 864.39,-500.428 873.675,-505.531 874.831,-498.627"/>
+<!-- \\PluginFusioninventoryStaticmisc -->
+<g id="node2" class="node"><title>\\PluginFusioninventoryStaticmisc</title>
+<polygon fill="none" stroke="black" points="1318.67,-6190 1092.67,-6190 1092.67,-6154 1318.67,-6154 1318.67,-6190"/>
+<text text-anchor="middle" x="1205.67" y="-6169.2" font-family="Courier,monospace" font-size="11.00">PluginFusioninventoryStaticmisc</text>
 </g>
 <!-- \\PluginFusioninventoryStateDiscovery -->
-<g id="node5" class="node"><title>\\PluginFusioninventoryStateDiscovery</title>
-<polygon fill="none" stroke="black" points="1332.17,-3112 1079.17,-3112 1079.17,-3076 1332.17,-3076 1332.17,-3112"/>
-<text text-anchor="middle" x="1205.67" y="-3091.2" font-family="Courier,monospace" font-size="11.00">PluginFusioninventoryStateDiscovery</text>
+<g id="node3" class="node"><title>\\PluginFusioninventoryStateDiscovery</title>
+<polygon fill="none" stroke="black" points="1332.17,-3274 1079.17,-3274 1079.17,-3238 1332.17,-3238 1332.17,-3274"/>
+<text text-anchor="middle" x="1205.67" y="-3253.2" font-family="Courier,monospace" font-size="11.00">PluginFusioninventoryStateDiscovery</text>
+</g>
+<!-- \\CommonDBTM -->
+<g id="node118" class="node"><title>\\CommonDBTM</title>
+<ellipse fill="none" stroke="black" cx="780.837" cy="-504" rx="73.387" ry="18"/>
+<text text-anchor="middle" x="780.837" y="-500.3" font-family="Times,serif" font-size="14.00" fill="gray">\CommonDBTM</text>
 </g>
 <!-- \\PluginFusioninventoryStateDiscovery&#45;&gt;\\CommonDBTM -->
-<g id="edge5" class="edge"><title>\\PluginFusioninventoryStateDiscovery&#45;&gt;\\CommonDBTM</title>
-<path fill="none" stroke="black" d="M1078.93,-3103.7C1049.72,-3099.46 1021.43,-3088.92 1001.67,-3067 816.546,-2861.69 1113.2,-786.738 929.674,-580 911.801,-559.868 884.135,-552.44 857.548,-550.726"/>
-<polygon fill="none" stroke="black" points="857.562,-547.224 847.434,-550.334 857.291,-554.218 857.562,-547.224"/>
+<g id="edge2" class="edge"><title>\\PluginFusioninventoryStateDiscovery&#45;&gt;\\CommonDBTM</title>
+<path fill="none" stroke="black" d="M1079.16,-3265.77C1049.86,-3261.55 1021.47,-3251 1001.67,-3229 801.104,-3006.06 1124.79,-758.73 929.674,-531 912.889,-511.41 887.017,-502.925 861.58,-499.889"/>
+<polygon fill="none" stroke="black" points="861.776,-496.392 851.496,-498.954 861.13,-503.362 861.776,-496.392"/>
 </g>
-<!-- \\PluginFusioninventoryToolbox -->
-<g id="node6" class="node"><title>\\PluginFusioninventoryToolbox</title>
-<polygon fill="none" stroke="black" points="1308.67,-6028 1102.67,-6028 1102.67,-5992 1308.67,-5992 1308.67,-6028"/>
-<text text-anchor="middle" x="1205.67" y="-6007.2" font-family="Courier,monospace" font-size="11.00">PluginFusioninventoryToolbox</text>
+<!-- \\PluginFusioninventoryIPRange_ConfigSecurity -->
+<g id="node4" class="node"><title>\\PluginFusioninventoryIPRange_ConfigSecurity</title>
+<polygon fill="none" stroke="black" points="1359.17,-2248 1052.17,-2248 1052.17,-2212 1359.17,-2212 1359.17,-2248"/>
+<text text-anchor="middle" x="1205.67" y="-2227.2" font-family="Courier,monospace" font-size="11.00">PluginFusioninventoryIPRange_ConfigSecurity</text>
 </g>
-<!-- \\PluginFusioninventoryDeployTask -->
-<g id="node7" class="node"><title>\\PluginFusioninventoryDeployTask</title>
-<polygon fill="none" stroke="black" points="1318.67,-6190 1092.67,-6190 1092.67,-6154 1318.67,-6154 1318.67,-6190"/>
-<text text-anchor="middle" x="1205.67" y="-6169.2" font-family="Courier,monospace" font-size="11.00">PluginFusioninventoryDeployTask</text>
+<!-- \\CommonDBRelation -->
+<g id="node119" class="node"><title>\\CommonDBRelation</title>
+<ellipse fill="none" stroke="black" cx="780.837" cy="-450" rx="90.1842" ry="18"/>
+<text text-anchor="middle" x="780.837" y="-446.3" font-family="Times,serif" font-size="14.00" fill="gray">\CommonDBRelation</text>
 </g>
-<!-- \\PluginFusioninventoryTask -->
-<g id="node90" class="node"><title>\\PluginFusioninventoryTask</title>
-<polygon fill="none" stroke="black" points="873.337,-5920 688.337,-5920 688.337,-5884 873.337,-5884 873.337,-5920"/>
-<text text-anchor="middle" x="780.837" y="-5899.2" font-family="Courier,monospace" font-size="11.00">PluginFusioninventoryTask</text>
+<!-- \\PluginFusioninventoryIPRange_ConfigSecurity&#45;&gt;\\CommonDBRelation -->
+<g id="edge3" class="edge"><title>\\PluginFusioninventoryIPRange_ConfigSecurity&#45;&gt;\\CommonDBRelation</title>
+<path fill="none" stroke="black" d="M1052.16,-2233.55C1032.98,-2227.6 1015.34,-2217.96 1001.67,-2203 872.229,-2061.27 1055.65,-621.82 929.674,-477 916.914,-462.332 899.058,-453.916 880.154,-449.354"/>
+<polygon fill="none" stroke="black" points="880.693,-445.892 870.193,-447.307 879.284,-452.748 880.693,-445.892"/>
 </g>
-<!-- \\PluginFusioninventoryDeployTask&#45;&gt;\\PluginFusioninventoryTask -->
-<g id="edge6" class="edge"><title>\\PluginFusioninventoryDeployTask&#45;&gt;\\PluginFusioninventoryTask</title>
-<path fill="none" stroke="black" d="M1092.53,-6178.61C1060.2,-6175.18 1026.89,-6165.84 1001.67,-6145 923.67,-6080.54 1006.09,-5995.33 929.674,-5929 916.579,-5917.63 900.32,-5910.35 883.423,-5905.79"/>
-<polygon fill="none" stroke="black" points="883.957,-5902.32 873.419,-5903.42 882.339,-5909.13 883.957,-5902.32"/>
+<!-- \\PluginFusioninventorySetup -->
+<g id="node5" class="node"><title>\\PluginFusioninventorySetup</title>
+<polygon fill="none" stroke="black" points="1301.67,-6028 1109.67,-6028 1109.67,-5992 1301.67,-5992 1301.67,-6028"/>
+<text text-anchor="middle" x="1205.67" y="-6007.2" font-family="Courier,monospace" font-size="11.00">PluginFusioninventorySetup</text>
 </g>
-<!-- \\PluginFusioninventoryComputerArch -->
-<g id="node8" class="node"><title>\\PluginFusioninventoryComputerArch</title>
-<polygon fill="none" stroke="black" points="1325.17,-1978 1086.17,-1978 1086.17,-1942 1325.17,-1942 1325.17,-1978"/>
-<text text-anchor="middle" x="1205.67" y="-1957.2" font-family="Courier,monospace" font-size="11.00">PluginFusioninventoryComputerArch</text>
+<!-- \\PluginFusioninventoryAgentmodule -->
+<g id="node6" class="node"><title>\\PluginFusioninventoryAgentmodule</title>
+<polygon fill="none" stroke="black" points="1322.17,-3058 1089.17,-3058 1089.17,-3022 1322.17,-3022 1322.17,-3058"/>
+<text text-anchor="middle" x="1205.67" y="-3037.2" font-family="Courier,monospace" font-size="11.00">PluginFusioninventoryAgentmodule</text>
 </g>
-<!-- \\PluginFusioninventoryComputerArch&#45;&gt;\\CommonDropdown -->
-<g id="edge7" class="edge"><title>\\PluginFusioninventoryComputerArch&#45;&gt;\\CommonDropdown</title>
-<path fill="none" stroke="black" d="M1086.14,-1970.28C1054.55,-1966.73 1023.25,-1956.39 1001.67,-1933 790.183,-1703.66 1135.55,-765.387 929.674,-531 915.627,-515.008 895.52,-506.467 874.641,-502.251"/>
-<polygon fill="none" stroke="black" points="875.129,-498.784 864.684,-500.562 873.958,-505.686 875.129,-498.784"/>
+<!-- \\PluginFusioninventoryAgentmodule&#45;&gt;\\CommonDBTM -->
+<g id="edge4" class="edge"><title>\\PluginFusioninventoryAgentmodule&#45;&gt;\\CommonDBTM</title>
+<path fill="none" stroke="black" d="M1088.98,-3050.91C1056.31,-3047.72 1023.7,-3037.42 1001.67,-3013 816.912,-2808.11 1109.42,-740.303 929.674,-531 912.866,-511.429 886.989,-502.949 861.554,-499.911"/>
+<polygon fill="none" stroke="black" points="861.752,-496.414 851.471,-498.975 861.105,-503.384 861.752,-496.414"/>
 </g>
-<!-- \\PluginFusioninventoryInventoryComputerLib -->
-<g id="node9" class="node"><title>\\PluginFusioninventoryInventoryComputerLib</title>
-<polygon fill="none" stroke="black" points="1352.17,-2950 1059.17,-2950 1059.17,-2914 1352.17,-2914 1352.17,-2950"/>
-<text text-anchor="middle" x="1205.67" y="-2929.2" font-family="Courier,monospace" font-size="11.00">PluginFusioninventoryInventoryComputerLib</text>
+<!-- \\PluginFusioninventoryInventoryComputerStat -->
+<g id="node7" class="node"><title>\\PluginFusioninventoryInventoryComputerStat</title>
+<polygon fill="none" stroke="black" points="1355.67,-3004 1055.67,-3004 1055.67,-2968 1355.67,-2968 1355.67,-3004"/>
+<text text-anchor="middle" x="1205.67" y="-2983.2" font-family="Courier,monospace" font-size="11.00">PluginFusioninventoryInventoryComputerStat</text>
 </g>
-<!-- \\PluginFusioninventoryInventoryComputerLib&#45;&gt;\\CommonDBTM -->
-<g id="edge8" class="edge"><title>\\PluginFusioninventoryInventoryComputerLib&#45;&gt;\\CommonDBTM</title>
-<path fill="none" stroke="black" d="M1059.13,-2937.71C1037.24,-2932.01 1016.93,-2921.88 1001.67,-2905 828.401,-2713.23 1101.45,-773.11 929.674,-580 911.781,-559.886 884.111,-552.461 857.526,-550.745"/>
-<polygon fill="none" stroke="black" points="857.542,-547.243 847.413,-550.352 857.27,-554.238 857.542,-547.243"/>
+<!-- \\PluginFusioninventoryInventoryComputerStat&#45;&gt;\\CommonDBTM -->
+<g id="edge5" class="edge"><title>\\PluginFusioninventoryInventoryComputerStat&#45;&gt;\\CommonDBTM</title>
+<path fill="none" stroke="black" d="M1055.54,-2990.75C1035.02,-2984.9 1016.08,-2974.97 1001.67,-2959 820.864,-2758.62 1105.58,-735.697 929.674,-531 912.86,-511.435 886.981,-502.955 861.547,-499.917"/>
+<polygon fill="none" stroke="black" points="861.745,-496.42 851.465,-498.981 861.098,-503.39 861.745,-496.42"/>
 </g>
-<!-- \\PluginFusioninventoryNetworkinventory -->
-<g id="node10" class="node"><title>\\PluginFusioninventoryNetworkinventory</title>
-<polygon fill="none" stroke="black" points="913.837,-6136 647.837,-6136 647.837,-6100 913.837,-6100 913.837,-6136"/>
-<text text-anchor="middle" x="780.837" y="-6115.2" font-family="Courier,monospace" font-size="11.00">PluginFusioninventoryNetworkinventory</text>
+<!-- \\PluginFusioninventoryWakeonlan -->
+<g id="node8" class="node"><title>\\PluginFusioninventoryWakeonlan</title>
+<polygon fill="none" stroke="black" points="890.337,-6136 671.337,-6136 671.337,-6100 890.337,-6100 890.337,-6136"/>
+<text text-anchor="middle" x="780.837" y="-6115.2" font-family="Courier,monospace" font-size="11.00">PluginFusioninventoryWakeonlan</text>
 </g>
 <!-- \\PluginFusioninventoryCommunication -->
-<g id="node98" class="node"><title>\\PluginFusioninventoryCommunication</title>
+<g id="node115" class="node"><title>\\PluginFusioninventoryCommunication</title>
 <polygon fill="none" stroke="black" points="560,-6082 314,-6082 314,-6046 560,-6046 560,-6082"/>
 <text text-anchor="middle" x="437" y="-6061.2" font-family="Courier,monospace" font-size="11.00">PluginFusioninventoryCommunication</text>
 </g>
-<!-- \\PluginFusioninventoryNetworkinventory&#45;&gt;\\PluginFusioninventoryCommunication -->
-<g id="edge9" class="edge"><title>\\PluginFusioninventoryNetworkinventory&#45;&gt;\\PluginFusioninventoryCommunication</title>
-<path fill="none" stroke="black" d="M665.535,-6099.94C632.324,-6094.7 595.898,-6088.94 562.116,-6083.61"/>
-<polygon fill="none" stroke="black" points="562.618,-6080.14 552.194,-6082.04 561.526,-6087.06 562.618,-6080.14"/>
+<!-- \\PluginFusioninventoryWakeonlan&#45;&gt;\\PluginFusioninventoryCommunication -->
+<g id="edge6" class="edge"><title>\\PluginFusioninventoryWakeonlan&#45;&gt;\\PluginFusioninventoryCommunication</title>
+<path fill="none" stroke="black" d="M671.208,-6100.84C636.451,-6095.35 597.714,-6089.23 561.95,-6083.58"/>
+<polygon fill="none" stroke="black" points="562.371,-6080.1 551.948,-6082 561.279,-6087.02 562.371,-6080.1"/>
+</g>
+<!-- \\PluginFusioninventoryInventoryExternalDB -->
+<g id="node9" class="node"><title>\\PluginFusioninventoryInventoryExternalDB</title>
+<polygon fill="none" stroke="black" points="1349.17,-2950 1062.17,-2950 1062.17,-2914 1349.17,-2914 1349.17,-2950"/>
+<text text-anchor="middle" x="1205.67" y="-2929.2" font-family="Courier,monospace" font-size="11.00">PluginFusioninventoryInventoryExternalDB</text>
+</g>
+<!-- \\PluginFusioninventoryInventoryExternalDB&#45;&gt;\\CommonDBTM -->
+<g id="edge7" class="edge"><title>\\PluginFusioninventoryInventoryExternalDB&#45;&gt;\\CommonDBTM</title>
+<path fill="none" stroke="black" d="M1061.96,-2938.43C1038.99,-2932.88 1017.58,-2922.61 1001.67,-2905 824.815,-2709.13 1101.74,-731.09 929.674,-531 912.854,-511.44 886.973,-502.962 861.54,-499.923"/>
+<polygon fill="none" stroke="black" points="861.738,-496.427 851.457,-498.987 861.091,-503.397 861.738,-496.427"/>
+</g>
+<!-- \\PluginFusioninventoryInventoryComputerLib -->
+<g id="node10" class="node"><title>\\PluginFusioninventoryInventoryComputerLib</title>
+<polygon fill="none" stroke="black" points="1352.17,-2896 1059.17,-2896 1059.17,-2860 1352.17,-2860 1352.17,-2896"/>
+<text text-anchor="middle" x="1205.67" y="-2875.2" font-family="Courier,monospace" font-size="11.00">PluginFusioninventoryInventoryComputerLib</text>
+</g>
+<!-- \\PluginFusioninventoryInventoryComputerLib&#45;&gt;\\CommonDBTM -->
+<g id="edge8" class="edge"><title>\\PluginFusioninventoryInventoryComputerLib&#45;&gt;\\CommonDBTM</title>
+<path fill="none" stroke="black" d="M1059.14,-2883.71C1037.24,-2878.01 1016.93,-2867.88 1001.67,-2851 828.767,-2659.65 1097.9,-726.484 929.674,-531 912.847,-511.446 886.964,-502.969 861.532,-499.93"/>
+<polygon fill="none" stroke="black" points="861.731,-496.433 851.45,-498.994 861.084,-503.403 861.731,-496.433"/>
+</g>
+<!-- \\PluginFusioninventoryComputerOSKernelName -->
+<g id="node11" class="node"><title>\\PluginFusioninventoryComputerOSKernelName</title>
+<polygon fill="none" stroke="black" points="1352.17,-1978 1059.17,-1978 1059.17,-1942 1352.17,-1942 1352.17,-1978"/>
+<text text-anchor="middle" x="1205.67" y="-1957.2" font-family="Courier,monospace" font-size="11.00">PluginFusioninventoryComputerOSKernelName</text>
+</g>
+<!-- \\CommonDropdown -->
+<g id="node120" class="node"><title>\\CommonDropdown</title>
+<ellipse fill="none" stroke="black" cx="780.837" cy="-396" rx="85.2851" ry="18"/>
+<text text-anchor="middle" x="780.837" y="-392.3" font-family="Times,serif" font-size="14.00" fill="gray">\CommonDropdown</text>
+</g>
+<!-- \\PluginFusioninventoryComputerOSKernelName&#45;&gt;\\CommonDropdown -->
+<g id="edge9" class="edge"><title>\\PluginFusioninventoryComputerOSKernelName&#45;&gt;\\CommonDropdown</title>
+<path fill="none" stroke="black" d="M1059.11,-1965.43C1037.29,-1959.74 1017.01,-1949.69 1001.67,-1933 888.03,-1809.31 1040.29,-549.401 929.674,-423 915.582,-406.898 895.347,-398.342 874.351,-394.149"/>
+<polygon fill="none" stroke="black" points="874.78,-390.672 864.339,-392.473 873.624,-397.576 874.78,-390.672"/>
+</g>
+<!-- \\PluginFusioninventoryTaskView -->
+<g id="node12" class="node"><title>\\PluginFusioninventoryTaskView</title>
+<polygon fill="none" stroke="black" points="543,-5920 331,-5920 331,-5884 543,-5884 543,-5920"/>
+<text text-anchor="middle" x="437" y="-5899.2" font-family="Courier,monospace" font-size="11.00">PluginFusioninventoryTaskView</text>
+</g>
+<!-- \\PluginFusioninventoryCommonView -->
+<g id="node38" class="node"><title>\\PluginFusioninventoryCommonView</title>
+<polygon fill="none" stroke="black" points="242,-5920 16,-5920 16,-5884 242,-5884 242,-5920"/>
+<text text-anchor="middle" x="129" y="-5899.2" font-family="Courier,monospace" font-size="11.00">PluginFusioninventoryCommonView</text>
+</g>
+<!-- \\PluginFusioninventoryTaskView&#45;&gt;\\PluginFusioninventoryCommonView -->
+<g id="edge10" class="edge"><title>\\PluginFusioninventoryTaskView&#45;&gt;\\PluginFusioninventoryCommonView</title>
+<path fill="none" stroke="black" d="M330.692,-5902C305.433,-5902 278.248,-5902 252.292,-5902"/>
+<polygon fill="none" stroke="black" points="252.028,-5898.5 242.028,-5902 252.028,-5905.5 252.028,-5898.5"/>
+</g>
+<!-- \\PluginFusioninventoryNetworkporttype -->
+<g id="node13" class="node"><title>\\PluginFusioninventoryNetworkporttype</title>
+<polygon fill="none" stroke="black" points="1335.67,-2842 1075.67,-2842 1075.67,-2806 1335.67,-2806 1335.67,-2842"/>
+<text text-anchor="middle" x="1205.67" y="-2821.2" font-family="Courier,monospace" font-size="11.00">PluginFusioninventoryNetworkporttype</text>
+</g>
+<!-- \\PluginFusioninventoryNetworkporttype&#45;&gt;\\CommonDBTM -->
+<g id="edge11" class="edge"><title>\\PluginFusioninventoryNetworkporttype&#45;&gt;\\CommonDBTM</title>
+<path fill="none" stroke="black" d="M1075.54,-2833.13C1047.56,-2828.58 1020.69,-2818.03 1001.67,-2797 832.719,-2610.16 1094.06,-721.878 929.674,-531 912.839,-511.453 886.956,-502.977 861.524,-499.937"/>
+<polygon fill="none" stroke="black" points="861.723,-496.44 851.442,-499 861.076,-503.41 861.723,-496.44"/>
 </g>
 <!-- \\PluginFusioninventoryDeployinstall -->
-<g id="node11" class="node"><title>\\PluginFusioninventoryDeployinstall</title>
+<g id="node14" class="node"><title>\\PluginFusioninventoryDeployinstall</title>
 <polygon fill="none" stroke="black" points="1328.67,-6244 1082.67,-6244 1082.67,-6208 1328.67,-6208 1328.67,-6244"/>
 <text text-anchor="middle" x="1205.67" y="-6223.2" font-family="Courier,monospace" font-size="11.00">PluginFusioninventoryDeployinstall</text>
 </g>
@@ -139,1019 +174,984 @@
 <text text-anchor="middle" x="780.837" y="-6061.2" font-family="Courier,monospace" font-size="11.00">PluginFusioninventoryDeployCommon</text>
 </g>
 <!-- \\PluginFusioninventoryDeployinstall&#45;&gt;\\PluginFusioninventoryDeployCommon -->
-<g id="edge10" class="edge"><title>\\PluginFusioninventoryDeployinstall&#45;&gt;\\PluginFusioninventoryDeployCommon</title>
+<g id="edge12" class="edge"><title>\\PluginFusioninventoryDeployinstall&#45;&gt;\\PluginFusioninventoryDeployCommon</title>
 <path fill="none" stroke="black" d="M1082.45,-6226.52C1054.32,-6222.22 1025.66,-6213.95 1001.67,-6199 952.72,-6168.48 977.874,-6122.7 929.674,-6091 923.529,-6086.96 916.945,-6083.48 910.093,-6080.49"/>
 <polygon fill="none" stroke="black" points="911.185,-6077.16 900.6,-6076.71 908.594,-6083.66 911.185,-6077.16"/>
 </g>
-<!-- \\PluginFusioninventoryTaskView -->
-<g id="node12" class="node"><title>\\PluginFusioninventoryTaskView</title>
-<polygon fill="none" stroke="black" points="543,-5920 331,-5920 331,-5884 543,-5884 543,-5920"/>
-<text text-anchor="middle" x="437" y="-5899.2" font-family="Courier,monospace" font-size="11.00">PluginFusioninventoryTaskView</text>
+<!-- \\PluginFusioninventoryCollectRuleCollection -->
+<g id="node15" class="node"><title>\\PluginFusioninventoryCollectRuleCollection</title>
+<polygon fill="none" stroke="black" points="1355.67,-1384 1055.67,-1384 1055.67,-1348 1355.67,-1348 1355.67,-1384"/>
+<text text-anchor="middle" x="1205.67" y="-1363.2" font-family="Courier,monospace" font-size="11.00">PluginFusioninventoryCollectRuleCollection</text>
 </g>
-<!-- \\PluginFusioninventoryTaskView&#45;&gt;\\PluginFusioninventoryCommonView -->
-<g id="edge11" class="edge"><title>\\PluginFusioninventoryTaskView&#45;&gt;\\PluginFusioninventoryCommonView</title>
-<path fill="none" stroke="black" d="M330.692,-5902C305.433,-5902 278.248,-5902 252.292,-5902"/>
-<polygon fill="none" stroke="black" points="252.028,-5898.5 242.028,-5902 252.028,-5905.5 252.028,-5898.5"/>
+<!-- \\RuleCollection -->
+<g id="node121" class="node"><title>\\RuleCollection</title>
+<ellipse fill="none" stroke="black" cx="780.837" cy="-342" rx="67.6881" ry="18"/>
+<text text-anchor="middle" x="780.837" y="-338.3" font-family="Times,serif" font-size="14.00" fill="gray">\RuleCollection</text>
 </g>
-<!-- \\PluginFusioninventoryLogger -->
-<g id="node13" class="node"><title>\\PluginFusioninventoryLogger</title>
-<polygon fill="none" stroke="black" points="1305.17,-5758 1106.17,-5758 1106.17,-5722 1305.17,-5722 1305.17,-5758"/>
-<text text-anchor="middle" x="1205.67" y="-5737.2" font-family="Courier,monospace" font-size="11.00">PluginFusioninventoryLogger</text>
-</g>
-<!-- \\PluginFusioninventoryInventoryRuleEntity -->
-<g id="node14" class="node"><title>\\PluginFusioninventoryInventoryRuleEntity</title>
-<polygon fill="none" stroke="black" points="1349.17,-1654 1062.17,-1654 1062.17,-1618 1349.17,-1618 1349.17,-1654"/>
-<text text-anchor="middle" x="1205.67" y="-1633.2" font-family="Courier,monospace" font-size="11.00">PluginFusioninventoryInventoryRuleEntity</text>
-</g>
-<!-- \\Rule -->
-<g id="node119" class="node"><title>\\Rule</title>
-<ellipse fill="none" stroke="black" cx="780.837" cy="-450" rx="29.795" ry="18"/>
-<text text-anchor="middle" x="780.837" y="-446.3" font-family="Times,serif" font-size="14.00" fill="gray">\Rule</text>
-</g>
-<!-- \\PluginFusioninventoryInventoryRuleEntity&#45;&gt;\\Rule -->
-<g id="edge12" class="edge"><title>\\PluginFusioninventoryInventoryRuleEntity&#45;&gt;\\Rule</title>
-<path fill="none" stroke="black" d="M1062.17,-1641.93C1039.26,-1636.41 1017.81,-1626.28 1001.67,-1609 829.665,-1424.75 1097.17,-665.362 929.674,-477 902.806,-446.786 854.293,-443.258 820.186,-445.179"/>
-<polygon fill="none" stroke="black" points="819.817,-441.696 810.103,-445.927 820.335,-448.677 819.817,-441.696"/>
-</g>
-<!-- \\PluginFusioninventoryRulematchedlog -->
-<g id="node15" class="node"><title>\\PluginFusioninventoryRulematchedlog</title>
-<polygon fill="none" stroke="black" points="1332.17,-2896 1079.17,-2896 1079.17,-2860 1332.17,-2860 1332.17,-2896"/>
-<text text-anchor="middle" x="1205.67" y="-2875.2" font-family="Courier,monospace" font-size="11.00">PluginFusioninventoryRulematchedlog</text>
-</g>
-<!-- \\PluginFusioninventoryRulematchedlog&#45;&gt;\\CommonDBTM -->
-<g id="edge13" class="edge"><title>\\PluginFusioninventoryRulematchedlog&#45;&gt;\\CommonDBTM</title>
-<path fill="none" stroke="black" d="M1078.97,-2887.66C1049.76,-2883.42 1021.47,-2872.89 1001.67,-2851 832.353,-2663.74 1097.54,-768.567 929.674,-580 911.774,-559.892 884.102,-552.469 857.519,-550.752"/>
-<polygon fill="none" stroke="black" points="857.535,-547.25 847.406,-550.358 857.262,-554.245 857.535,-547.25"/>
-</g>
-<!-- \\PluginFusioninventoryInventoryRuleImport -->
-<g id="node16" class="node"><title>\\PluginFusioninventoryInventoryRuleImport</title>
-<polygon fill="none" stroke="black" points="1349.17,-1816 1062.17,-1816 1062.17,-1780 1349.17,-1780 1349.17,-1816"/>
-<text text-anchor="middle" x="1205.67" y="-1795.2" font-family="Courier,monospace" font-size="11.00">PluginFusioninventoryInventoryRuleImport</text>
-</g>
-<!-- \\PluginFusioninventoryInventoryRuleImport&#45;&gt;\\Rule -->
-<g id="edge14" class="edge"><title>\\PluginFusioninventoryInventoryRuleImport&#45;&gt;\\Rule</title>
-<path fill="none" stroke="black" d="M1062.06,-1804.03C1039.16,-1798.5 1017.74,-1788.35 1001.67,-1771 805.978,-1559.7 1120.2,-692.975 929.674,-477 902.926,-446.679 854.388,-443.174 820.242,-445.129"/>
-<polygon fill="none" stroke="black" points="819.857,-441.648 810.147,-445.888 820.381,-448.628 819.857,-441.648"/>
-</g>
-<!-- \\PluginFusioninventoryDeployPackage -->
-<g id="node17" class="node"><title>\\PluginFusioninventoryDeployPackage</title>
-<polygon fill="none" stroke="black" points="1328.67,-2842 1082.67,-2842 1082.67,-2806 1328.67,-2806 1328.67,-2842"/>
-<text text-anchor="middle" x="1205.67" y="-2821.2" font-family="Courier,monospace" font-size="11.00">PluginFusioninventoryDeployPackage</text>
-</g>
-<!-- \\PluginFusioninventoryDeployPackage&#45;&gt;\\CommonDBTM -->
-<g id="edge15" class="edge"><title>\\PluginFusioninventoryDeployPackage&#45;&gt;\\CommonDBTM</title>
-<path fill="none" stroke="black" d="M1082.41,-2834.12C1052,-2830.22 1022.25,-2819.74 1001.67,-2797 836.304,-2614.25 1093.62,-764.025 929.674,-580 911.766,-559.899 884.093,-552.477 857.51,-550.759"/>
-<polygon fill="none" stroke="black" points="857.527,-547.257 847.398,-550.365 857.255,-554.252 857.527,-547.257"/>
-</g>
-<!-- \\PluginFusioninventoryComputerOperatingSystemEdition -->
-<g id="node18" class="node"><title>\\PluginFusioninventoryComputerOperatingSystemEdition</title>
-<polygon fill="none" stroke="black" points="1386.17,-2302 1025.17,-2302 1025.17,-2266 1386.17,-2266 1386.17,-2302"/>
-<text text-anchor="middle" x="1205.67" y="-2281.2" font-family="Courier,monospace" font-size="11.00">PluginFusioninventoryComputerOperatingSystemEdition</text>
-</g>
-<!-- \\PluginFusioninventoryComputerOperatingSystemEdition&#45;&gt;\\CommonDropdown -->
-<g id="edge16" class="edge"><title>\\PluginFusioninventoryComputerOperatingSystemEdition&#45;&gt;\\CommonDropdown</title>
-<path fill="none" stroke="black" d="M1024.85,-2275.66C1016.33,-2270.63 1008.51,-2264.48 1001.67,-2257 872.229,-2115.27 1055.65,-675.82 929.674,-531 915.63,-514.856 895.412,-506.285 874.417,-502.091"/>
-<polygon fill="none" stroke="black" points="874.846,-498.614 864.405,-500.415 873.69,-505.518 874.846,-498.614"/>
+<!-- \\PluginFusioninventoryCollectRuleCollection&#45;&gt;\\RuleCollection -->
+<g id="edge13" class="edge"><title>\\PluginFusioninventoryCollectRuleCollection&#45;&gt;\\RuleCollection</title>
+<path fill="none" stroke="black" d="M1055.64,-1370.04C1035.24,-1364.24 1016.31,-1354.52 1001.67,-1339 853.34,-1181.78 1074.16,-529.762 929.674,-369 911.348,-348.61 883.16,-340.409 856.292,-337.827"/>
+<polygon fill="none" stroke="black" points="856.307,-334.319 846.083,-337.099 855.809,-341.302 856.307,-334.319"/>
 </g>
 <!-- \\PluginFusioninventoryTimeslot -->
-<g id="node19" class="node"><title>\\PluginFusioninventoryTimeslot</title>
+<g id="node16" class="node"><title>\\PluginFusioninventoryTimeslot</title>
 <polygon fill="none" stroke="black" points="1311.67,-2788 1099.67,-2788 1099.67,-2752 1311.67,-2752 1311.67,-2788"/>
 <text text-anchor="middle" x="1205.67" y="-2767.2" font-family="Courier,monospace" font-size="11.00">PluginFusioninventoryTimeslot</text>
 </g>
 <!-- \\PluginFusioninventoryTimeslot&#45;&gt;\\CommonDBTM -->
-<g id="edge17" class="edge"><title>\\PluginFusioninventoryTimeslot&#45;&gt;\\CommonDBTM</title>
-<path fill="none" stroke="black" d="M1099.63,-2781.65C1063.55,-2779.72 1026.14,-2770.01 1001.67,-2743 840.256,-2564.76 1089.71,-759.482 929.674,-580 911.758,-559.907 884.083,-552.486 857.502,-550.767"/>
-<polygon fill="none" stroke="black" points="857.519,-547.265 847.39,-550.373 857.246,-554.26 857.519,-547.265"/>
-</g>
-<!-- \\PluginFusioninventoryCommunicationNetworkInventory -->
-<g id="node20" class="node"><title>\\PluginFusioninventoryCommunicationNetworkInventory</title>
-<polygon fill="none" stroke="black" points="1382.67,-5380 1028.67,-5380 1028.67,-5344 1382.67,-5344 1382.67,-5380"/>
-<text text-anchor="middle" x="1205.67" y="-5359.2" font-family="Courier,monospace" font-size="11.00">PluginFusioninventoryCommunicationNetworkInventory</text>
-</g>
-<!-- \\PluginFusioninventoryComputer -->
-<g id="node21" class="node"><title>\\PluginFusioninventoryComputer</title>
-<polygon fill="none" stroke="black" points="1311.67,-1600 1099.67,-1600 1099.67,-1564 1311.67,-1564 1311.67,-1600"/>
-<text text-anchor="middle" x="1205.67" y="-1579.2" font-family="Courier,monospace" font-size="11.00">PluginFusioninventoryComputer</text>
-</g>
-<!-- \\Computer -->
-<g id="node120" class="node"><title>\\Computer</title>
-<ellipse fill="none" stroke="black" cx="780.837" cy="-396" rx="50.0912" ry="18"/>
-<text text-anchor="middle" x="780.837" y="-392.3" font-family="Times,serif" font-size="14.00" fill="gray">\Computer</text>
-</g>
-<!-- \\PluginFusioninventoryComputer&#45;&gt;\\Computer -->
-<g id="edge18" class="edge"><title>\\PluginFusioninventoryComputer&#45;&gt;\\Computer</title>
-<path fill="none" stroke="black" d="M1099.54,-1593.22C1063.67,-1591.18 1026.42,-1581.51 1001.67,-1555 829.665,-1370.75 1097.17,-611.362 929.674,-423 907.555,-398.126 870.766,-391.338 839.422,-390.788"/>
-<polygon fill="none" stroke="black" points="839.018,-387.289 829.03,-390.823 839.042,-394.289 839.018,-387.289"/>
-</g>
-<!-- \\PluginFusioninventoryNetworkdiscovery -->
-<g id="node22" class="node"><title>\\PluginFusioninventoryNetworkdiscovery</title>
-<polygon fill="none" stroke="black" points="913.837,-6028 647.837,-6028 647.837,-5992 913.837,-5992 913.837,-6028"/>
-<text text-anchor="middle" x="780.837" y="-6007.2" font-family="Courier,monospace" font-size="11.00">PluginFusioninventoryNetworkdiscovery</text>
-</g>
-<!-- \\PluginFusioninventoryNetworkdiscovery&#45;&gt;\\PluginFusioninventoryCommunication -->
-<g id="edge19" class="edge"><title>\\PluginFusioninventoryNetworkdiscovery&#45;&gt;\\PluginFusioninventoryCommunication</title>
-<path fill="none" stroke="black" d="M665.535,-6028.06C632.324,-6033.3 595.898,-6039.06 562.116,-6044.39"/>
-<polygon fill="none" stroke="black" points="561.526,-6040.94 552.194,-6045.96 562.618,-6047.86 561.526,-6040.94"/>
-</g>
-<!-- \\PluginFusioninventoryDeployPackage_Profile -->
-<g id="node23" class="node"><title>\\PluginFusioninventoryDeployPackage_Profile</title>
-<polygon fill="none" stroke="black" points="1355.67,-1384 1055.67,-1384 1055.67,-1348 1355.67,-1348 1355.67,-1384"/>
-<text text-anchor="middle" x="1205.67" y="-1363.2" font-family="Courier,monospace" font-size="11.00">PluginFusioninventoryDeployPackage_Profile</text>
-</g>
-<!-- \\CommonDBRelation -->
-<g id="node121" class="node"><title>\\CommonDBRelation</title>
-<ellipse fill="none" stroke="black" cx="780.837" cy="-342" rx="90.1842" ry="18"/>
-<text text-anchor="middle" x="780.837" y="-338.3" font-family="Times,serif" font-size="14.00" fill="gray">\CommonDBRelation</text>
-</g>
-<!-- \\PluginFusioninventoryDeployPackage_Profile&#45;&gt;\\CommonDBRelation -->
-<g id="edge20" class="edge"><title>\\PluginFusioninventoryDeployPackage_Profile&#45;&gt;\\CommonDBRelation</title>
-<path fill="none" stroke="black" d="M1055.64,-1370.04C1035.24,-1364.24 1016.31,-1354.52 1001.67,-1339 853.34,-1181.78 1074.16,-529.762 929.674,-369 916.827,-354.706 899.134,-346.403 880.446,-341.826"/>
-<polygon fill="none" stroke="black" points="881.11,-338.389 870.604,-339.76 879.672,-345.239 881.11,-338.389"/>
-</g>
-<!-- \\PluginFusioninventoryFormatconvert -->
-<g id="node24" class="node"><title>\\PluginFusioninventoryFormatconvert</title>
-<polygon fill="none" stroke="black" points="1328.67,-5218 1082.67,-5218 1082.67,-5182 1328.67,-5182 1328.67,-5218"/>
-<text text-anchor="middle" x="1205.67" y="-5197.2" font-family="Courier,monospace" font-size="11.00">PluginFusioninventoryFormatconvert</text>
-</g>
-<!-- \\PluginFusioninventoryTaskjobView -->
-<g id="node25" class="node"><title>\\PluginFusioninventoryTaskjobView</title>
-<polygon fill="none" stroke="black" points="553.5,-6190 320.5,-6190 320.5,-6154 553.5,-6154 553.5,-6190"/>
-<text text-anchor="middle" x="437" y="-6169.2" font-family="Courier,monospace" font-size="11.00">PluginFusioninventoryTaskjobView</text>
-</g>
-<!-- \\PluginFusioninventoryTaskjobView&#45;&gt;\\PluginFusioninventoryCommonView -->
-<g id="edge21" class="edge"><title>\\PluginFusioninventoryTaskjobView&#45;&gt;\\PluginFusioninventoryCommonView</title>
-<path fill="none" stroke="black" d="M404.901,-6153.9C379.457,-6138.5 343.059,-6115.1 314,-6091 250.326,-6038.18 184.892,-5965.79 151.889,-5927.76"/>
-<polygon fill="none" stroke="black" points="154.534,-5925.46 145.351,-5920.18 149.235,-5930.04 154.534,-5925.46"/>
-</g>
-<!-- \\PluginFusioninventoryNetworkPortConnectionLog -->
-<g id="node26" class="node"><title>\\PluginFusioninventoryNetworkPortConnectionLog</title>
-<polygon fill="none" stroke="black" points="1365.67,-2734 1045.67,-2734 1045.67,-2698 1365.67,-2698 1365.67,-2734"/>
-<text text-anchor="middle" x="1205.67" y="-2713.2" font-family="Courier,monospace" font-size="11.00">PluginFusioninventoryNetworkPortConnectionLog</text>
-</g>
-<!-- \\PluginFusioninventoryNetworkPortConnectionLog&#45;&gt;\\CommonDBTM -->
-<g id="edge22" class="edge"><title>\\PluginFusioninventoryNetworkPortConnectionLog&#45;&gt;\\CommonDBTM</title>
-<path fill="none" stroke="black" d="M1045.57,-2717.45C1028.93,-2711.41 1013.73,-2702.3 1001.67,-2689 844.207,-2515.27 1085.79,-754.94 929.674,-580 911.749,-559.914 884.073,-552.495 857.493,-550.775"/>
-<polygon fill="none" stroke="black" points="857.511,-547.273 847.382,-550.38 857.238,-554.268 857.511,-547.273"/>
-</g>
-<!-- \\PluginFusioninventoryLock -->
-<g id="node27" class="node"><title>\\PluginFusioninventoryLock</title>
-<polygon fill="none" stroke="black" points="1298.17,-2680 1113.17,-2680 1113.17,-2644 1298.17,-2644 1298.17,-2680"/>
-<text text-anchor="middle" x="1205.67" y="-2659.2" font-family="Courier,monospace" font-size="11.00">PluginFusioninventoryLock</text>
-</g>
-<!-- \\PluginFusioninventoryLock&#45;&gt;\\CommonDBTM -->
-<g id="edge23" class="edge"><title>\\PluginFusioninventoryLock&#45;&gt;\\CommonDBTM</title>
-<path fill="none" stroke="black" d="M1113.03,-2674.01C1073.09,-2673.84 1029.21,-2665.35 1001.67,-2635 848.158,-2465.79 1081.87,-750.398 929.674,-580 911.817,-560.008 884.299,-552.568 857.824,-550.806"/>
-<polygon fill="none" stroke="black" points="857.885,-547.305 847.751,-550.394 857.599,-554.3 857.885,-547.305"/>
-</g>
-<!-- \\PluginFusioninventoryInventoryRuleLocationCollection -->
-<g id="node28" class="node"><title>\\PluginFusioninventoryInventoryRuleLocationCollection</title>
-<polygon fill="none" stroke="black" points="1389.67,-1114 1021.67,-1114 1021.67,-1078 1389.67,-1078 1389.67,-1114"/>
-<text text-anchor="middle" x="1205.67" y="-1093.2" font-family="Courier,monospace" font-size="11.00">PluginFusioninventoryInventoryRuleLocationCollection</text>
-</g>
-<!-- \\RuleCollection -->
-<g id="node122" class="node"><title>\\RuleCollection</title>
-<ellipse fill="none" stroke="black" cx="780.837" cy="-288" rx="67.6881" ry="18"/>
-<text text-anchor="middle" x="780.837" y="-284.3" font-family="Times,serif" font-size="14.00" fill="gray">\RuleCollection</text>
-</g>
-<!-- \\PluginFusioninventoryInventoryRuleLocationCollection&#45;&gt;\\RuleCollection -->
-<g id="edge24" class="edge"><title>\\PluginFusioninventoryInventoryRuleLocationCollection&#45;&gt;\\RuleCollection</title>
-<path fill="none" stroke="black" d="M1021.28,-1084.81C1014.19,-1080.37 1007.59,-1075.14 1001.67,-1069 884.879,-947.798 1043.5,-438.993 929.674,-315 911.212,-294.89 883.145,-286.708 856.409,-284.063"/>
-<polygon fill="none" stroke="black" points="856.482,-280.559 846.25,-283.308 855.962,-287.54 856.482,-280.559"/>
-</g>
-<!-- \\PluginFusioninventoryInventoryComputerInventory -->
-<g id="node29" class="node"><title>\\PluginFusioninventoryInventoryComputerInventory</title>
-<polygon fill="none" stroke="black" points="1372.67,-5002 1038.67,-5002 1038.67,-4966 1372.67,-4966 1372.67,-5002"/>
-<text text-anchor="middle" x="1205.67" y="-4981.2" font-family="Courier,monospace" font-size="11.00">PluginFusioninventoryInventoryComputerInventory</text>
-</g>
-<!-- \\PluginFusioninventoryStateInventory -->
-<g id="node30" class="node"><title>\\PluginFusioninventoryStateInventory</title>
-<polygon fill="none" stroke="black" points="1332.17,-2626 1079.17,-2626 1079.17,-2590 1332.17,-2590 1332.17,-2626"/>
-<text text-anchor="middle" x="1205.67" y="-2605.2" font-family="Courier,monospace" font-size="11.00">PluginFusioninventoryStateInventory</text>
-</g>
-<!-- \\PluginFusioninventoryStateInventory&#45;&gt;\\CommonDBTM -->
-<g id="edge25" class="edge"><title>\\PluginFusioninventoryStateInventory&#45;&gt;\\CommonDBTM</title>
-<path fill="none" stroke="black" d="M1079.03,-2617.6C1049.83,-2613.36 1021.51,-2602.85 1001.67,-2581 852.109,-2416.3 1077.96,-745.856 929.674,-580 911.807,-560.016 884.287,-552.578 857.814,-550.815"/>
-<polygon fill="none" stroke="black" points="857.876,-547.314 847.741,-550.402 857.59,-554.309 857.876,-547.314"/>
-</g>
-<!-- \\PluginFusioninventoryInventoryComputerAntivirus -->
-<g id="node31" class="node"><title>\\PluginFusioninventoryInventoryComputerAntivirus</title>
-<polygon fill="none" stroke="black" points="1372.67,-2572 1038.67,-2572 1038.67,-2536 1372.67,-2536 1372.67,-2572"/>
-<text text-anchor="middle" x="1205.67" y="-2551.2" font-family="Courier,monospace" font-size="11.00">PluginFusioninventoryInventoryComputerAntivirus</text>
-</g>
-<!-- \\PluginFusioninventoryInventoryComputerAntivirus&#45;&gt;\\CommonDBTM -->
-<g id="edge26" class="edge"><title>\\PluginFusioninventoryInventoryComputerAntivirus&#45;&gt;\\CommonDBTM</title>
-<path fill="none" stroke="black" d="M1038.29,-2552.52C1024.51,-2546.59 1011.96,-2538.31 1001.67,-2527 856.061,-2366.81 1074.04,-741.314 929.674,-580 911.797,-560.025 884.275,-552.589 857.803,-550.824"/>
-<polygon fill="none" stroke="black" points="857.866,-547.324 847.731,-550.411 857.579,-554.318 857.866,-547.324"/>
-</g>
-<!-- \\PluginFusioninventoryCollect_Registry -->
-<g id="node32" class="node"><title>\\PluginFusioninventoryCollect_Registry</title>
-<polygon fill="none" stroke="black" points="1338.67,-2518 1072.67,-2518 1072.67,-2482 1338.67,-2482 1338.67,-2518"/>
-<text text-anchor="middle" x="1205.67" y="-2497.2" font-family="Courier,monospace" font-size="11.00">PluginFusioninventoryCollect_Registry</text>
-</g>
-<!-- \\PluginFusioninventoryCollect_Registry&#45;&gt;\\CommonDBTM -->
-<g id="edge27" class="edge"><title>\\PluginFusioninventoryCollect_Registry&#45;&gt;\\CommonDBTM</title>
-<path fill="none" stroke="black" d="M1072.48,-2508.51C1045.64,-2503.69 1020.04,-2493.18 1001.67,-2473 860.012,-2317.32 1070.12,-736.772 929.674,-580 911.787,-560.035 884.263,-552.6 857.792,-550.834"/>
-<polygon fill="none" stroke="black" points="857.856,-547.334 847.721,-550.421 857.569,-554.328 857.856,-547.334"/>
-</g>
-<!-- \\PluginFusioninventoryRuleDictionnaryComputerArch -->
-<g id="node33" class="node"><title>\\PluginFusioninventoryRuleDictionnaryComputerArch</title>
-<polygon fill="none" stroke="black" points="1376.17,-1006 1035.17,-1006 1035.17,-970 1376.17,-970 1376.17,-1006"/>
-<text text-anchor="middle" x="1205.67" y="-985.2" font-family="Courier,monospace" font-size="11.00">PluginFusioninventoryRuleDictionnaryComputerArch</text>
-</g>
-<!-- \\RuleDictionnaryDropdown -->
-<g id="node123" class="node"><title>\\RuleDictionnaryDropdown</title>
-<ellipse fill="none" stroke="black" cx="780.837" cy="-234" rx="111.28" ry="18"/>
-<text text-anchor="middle" x="780.837" y="-230.3" font-family="Times,serif" font-size="14.00" fill="gray">\RuleDictionnaryDropdown</text>
-</g>
-<!-- \\PluginFusioninventoryRuleDictionnaryComputerArch&#45;&gt;\\RuleDictionnaryDropdown -->
-<g id="edge28" class="edge"><title>\\PluginFusioninventoryRuleDictionnaryComputerArch&#45;&gt;\\RuleDictionnaryDropdown</title>
-<path fill="none" stroke="black" d="M1034.71,-983.917C1022.47,-978.3 1011.21,-970.822 1001.67,-961 892.755,-848.794 1035.84,-375.81 929.674,-261 921.37,-252.021 911.151,-245.425 899.996,-240.64"/>
-<polygon fill="none" stroke="black" points="901.019,-237.285 890.427,-237.034 898.55,-243.836 901.019,-237.285"/>
-</g>
-<!-- \\PluginFusioninventoryCollectRule -->
-<g id="node34" class="node"><title>\\PluginFusioninventoryCollectRule</title>
-<polygon fill="none" stroke="black" points="1322.17,-1762 1089.17,-1762 1089.17,-1726 1322.17,-1726 1322.17,-1762"/>
-<text text-anchor="middle" x="1205.67" y="-1741.2" font-family="Courier,monospace" font-size="11.00">PluginFusioninventoryCollectRule</text>
-</g>
-<!-- \\PluginFusioninventoryCollectRule&#45;&gt;\\Rule -->
-<g id="edge29" class="edge"><title>\\PluginFusioninventoryCollectRule&#45;&gt;\\Rule</title>
-<path fill="none" stroke="black" d="M1089.15,-1754.49C1056.58,-1751.26 1023.99,-1741.04 1001.67,-1717 813.875,-1514.72 1112.52,-683.77 929.674,-477 902.889,-446.712 854.359,-443.199 820.225,-445.144"/>
-<polygon fill="none" stroke="black" points="819.844,-441.663 810.134,-445.899 820.367,-448.643 819.844,-441.663"/>
-</g>
-<!-- \\PluginFusioninventoryTimeslotEntry -->
-<g id="node35" class="node"><title>\\PluginFusioninventoryTimeslotEntry</title>
-<polygon fill="none" stroke="black" points="1328.67,-2464 1082.67,-2464 1082.67,-2428 1328.67,-2428 1328.67,-2464"/>
-<text text-anchor="middle" x="1205.67" y="-2443.2" font-family="Courier,monospace" font-size="11.00">PluginFusioninventoryTimeslotEntry</text>
-</g>
-<!-- \\PluginFusioninventoryTimeslotEntry&#45;&gt;\\CommonDBTM -->
-<g id="edge30" class="edge"><title>\\PluginFusioninventoryTimeslotEntry&#45;&gt;\\CommonDBTM</title>
-<path fill="none" stroke="black" d="M1082.51,-2456.03C1052.1,-2452.13 1022.32,-2441.67 1001.67,-2419 863.962,-2267.83 1066.21,-732.231 929.674,-580 911.776,-560.045 884.25,-552.612 857.78,-550.845"/>
-<polygon fill="none" stroke="black" points="857.845,-547.345 847.709,-550.431 857.557,-554.339 857.845,-547.345"/>
-</g>
-<!-- \\PluginFusioninventoryCredential -->
-<g id="node36" class="node"><title>\\PluginFusioninventoryCredential</title>
-<polygon fill="none" stroke="black" points="1318.67,-2194 1092.67,-2194 1092.67,-2158 1318.67,-2158 1318.67,-2194"/>
-<text text-anchor="middle" x="1205.67" y="-2173.2" font-family="Courier,monospace" font-size="11.00">PluginFusioninventoryCredential</text>
-</g>
-<!-- \\PluginFusioninventoryCredential&#45;&gt;\\CommonDropdown -->
-<g id="edge31" class="edge"><title>\\PluginFusioninventoryCredential&#45;&gt;\\CommonDropdown</title>
-<path fill="none" stroke="black" d="M1092.65,-2187.02C1058.86,-2184.21 1024.67,-2174.1 1001.67,-2149 880.13,-2016.29 1047.97,-666.61 929.674,-531 915.608,-514.875 895.382,-506.311 874.386,-502.118"/>
-<polygon fill="none" stroke="black" points="874.815,-498.641 864.374,-500.442 873.659,-505.545 874.815,-498.641"/>
-</g>
-<!-- \\PluginFusioninventoryInventoryComputerChemistry -->
-<g id="node37" class="node"><title>\\PluginFusioninventoryInventoryComputerChemistry</title>
-<polygon fill="none" stroke="black" points="1372.67,-2140 1038.67,-2140 1038.67,-2104 1372.67,-2104 1372.67,-2140"/>
-<text text-anchor="middle" x="1205.67" y="-2119.2" font-family="Courier,monospace" font-size="11.00">PluginFusioninventoryInventoryComputerChemistry</text>
-</g>
-<!-- \\PluginFusioninventoryInventoryComputerChemistry&#45;&gt;\\CommonDropdown -->
-<g id="edge32" class="edge"><title>\\PluginFusioninventoryInventoryComputerChemistry&#45;&gt;\\CommonDropdown</title>
-<path fill="none" stroke="black" d="M1038.39,-2120.43C1024.6,-2114.51 1012.01,-2106.27 1001.67,-2095 884.08,-1966.8 1044.13,-662.006 929.674,-531 915.595,-514.886 895.365,-506.326 874.369,-502.133"/>
-<polygon fill="none" stroke="black" points="874.798,-498.656 864.357,-500.457 873.642,-505.56 874.798,-498.656"/>
-</g>
-<!-- \\PluginFusioninventoryCommunicationNetworkDiscovery -->
-<g id="node38" class="node"><title>\\PluginFusioninventoryCommunicationNetworkDiscovery</title>
-<polygon fill="none" stroke="black" points="1382.67,-4516 1028.67,-4516 1028.67,-4480 1382.67,-4480 1382.67,-4516"/>
-<text text-anchor="middle" x="1205.67" y="-4495.2" font-family="Courier,monospace" font-size="11.00">PluginFusioninventoryCommunicationNetworkDiscovery</text>
-</g>
-<!-- \\PluginFusioninventoryAgentmodule -->
-<g id="node39" class="node"><title>\\PluginFusioninventoryAgentmodule</title>
-<polygon fill="none" stroke="black" points="1322.17,-6136 1089.17,-6136 1089.17,-6100 1322.17,-6100 1322.17,-6136"/>
-<text text-anchor="middle" x="1205.67" y="-6115.2" font-family="Courier,monospace" font-size="11.00">PluginFusioninventoryAgentmodule</text>
-</g>
-<!-- \\PluginFusioninventoryAgentmodule&#45;&gt;\\CommonDBTM -->
-<g id="edge33" class="edge"><title>\\PluginFusioninventoryAgentmodule&#45;&gt;\\CommonDBTM</title>
-<path fill="none" stroke="black" d="M1089.01,-6129.15C1056.24,-6126 1023.56,-6115.66 1001.67,-6091 798.439,-5861.98 1131.13,-810.588 929.674,-580 911.886,-559.64 884.089,-552.208 857.377,-550.554"/>
-<polygon fill="none" stroke="black" points="857.335,-547.051 847.216,-550.188 857.083,-554.046 857.335,-547.051"/>
-</g>
-<!-- \\PluginFusioninventoryTaskjob -->
-<g id="node40" class="node"><title>\\PluginFusioninventoryTaskjob</title>
-<polygon fill="none" stroke="black" points="883.837,-6244 677.837,-6244 677.837,-6208 883.837,-6208 883.837,-6244"/>
-<text text-anchor="middle" x="780.837" y="-6223.2" font-family="Courier,monospace" font-size="11.00">PluginFusioninventoryTaskjob</text>
-</g>
-<!-- \\PluginFusioninventoryTaskjob&#45;&gt;\\PluginFusioninventoryTaskjobView -->
-<g id="edge34" class="edge"><title>\\PluginFusioninventoryTaskjob&#45;&gt;\\PluginFusioninventoryTaskjobView</title>
-<path fill="none" stroke="black" d="M677.738,-6209.87C641.438,-6204.14 600.166,-6197.62 562.221,-6191.62"/>
-<polygon fill="none" stroke="black" points="562.558,-6188.13 552.134,-6190.03 561.465,-6195.05 562.558,-6188.13"/>
-</g>
-<!-- \\PluginFusioninventoryInventoryComputerStat -->
-<g id="node41" class="node"><title>\\PluginFusioninventoryInventoryComputerStat</title>
-<polygon fill="none" stroke="black" points="1355.67,-6082 1055.67,-6082 1055.67,-6046 1355.67,-6046 1355.67,-6082"/>
-<text text-anchor="middle" x="1205.67" y="-6061.2" font-family="Courier,monospace" font-size="11.00">PluginFusioninventoryInventoryComputerStat</text>
-</g>
-<!-- \\PluginFusioninventoryInventoryComputerStat&#45;&gt;\\CommonDBTM -->
-<g id="edge35" class="edge"><title>\\PluginFusioninventoryInventoryComputerStat&#45;&gt;\\CommonDBTM</title>
-<path fill="none" stroke="black" d="M1055.56,-6069.03C1034.97,-6063.16 1016.01,-6053.15 1001.67,-6037 800.416,-5810.24 1129.17,-808.316 929.674,-580 911.885,-559.641 884.088,-552.21 857.376,-550.556"/>
-<polygon fill="none" stroke="black" points="857.334,-547.052 847.214,-550.19 857.082,-554.047 857.334,-547.052"/>
-</g>
-<!-- \\PluginFusioninventoryConfigSecurity -->
-<g id="node42" class="node"><title>\\PluginFusioninventoryConfigSecurity</title>
-<polygon fill="none" stroke="black" points="1332.17,-5974 1079.17,-5974 1079.17,-5938 1332.17,-5938 1332.17,-5974"/>
-<text text-anchor="middle" x="1205.67" y="-5953.2" font-family="Courier,monospace" font-size="11.00">PluginFusioninventoryConfigSecurity</text>
-</g>
-<!-- \\PluginFusioninventoryConfigSecurity&#45;&gt;\\CommonDBTM -->
-<g id="edge36" class="edge"><title>\\PluginFusioninventoryConfigSecurity&#45;&gt;\\CommonDBTM</title>
-<path fill="none" stroke="black" d="M1078.96,-5965.95C1049.66,-5961.73 1021.32,-5951.13 1001.67,-5929 804.369,-5706.75 1125.25,-803.772 929.674,-580 911.882,-559.643 884.084,-552.213 857.373,-550.558"/>
-<polygon fill="none" stroke="black" points="857.331,-547.054 847.212,-550.192 857.079,-554.05 857.331,-547.054"/>
-</g>
-<!-- \\PluginFusioninventoryInventoryComputerWebservice -->
-<g id="node43" class="node"><title>\\PluginFusioninventoryInventoryComputerWebservice</title>
-<polygon fill="none" stroke="black" points="1376.17,-4300 1035.17,-4300 1035.17,-4264 1376.17,-4264 1376.17,-4300"/>
-<text text-anchor="middle" x="1205.67" y="-4279.2" font-family="Courier,monospace" font-size="11.00">PluginFusioninventoryInventoryComputerWebservice</text>
-</g>
-<!-- \\PluginFusioninventoryInventoryRuleImportCollection -->
-<g id="node44" class="node"><title>\\PluginFusioninventoryInventoryRuleImportCollection</title>
-<polygon fill="none" stroke="black" points="1382.67,-1168 1028.67,-1168 1028.67,-1132 1382.67,-1132 1382.67,-1168"/>
-<text text-anchor="middle" x="1205.67" y="-1147.2" font-family="Courier,monospace" font-size="11.00">PluginFusioninventoryInventoryRuleImportCollection</text>
-</g>
-<!-- \\PluginFusioninventoryInventoryRuleImportCollection&#45;&gt;\\RuleCollection -->
-<g id="edge37" class="edge"><title>\\PluginFusioninventoryInventoryRuleImportCollection&#45;&gt;\\RuleCollection</title>
-<path fill="none" stroke="black" d="M1028.47,-1143.03C1018.62,-1137.8 1009.54,-1131.22 1001.67,-1123 876.998,-992.799 1051.16,-448.181 929.674,-315 911.276,-294.831 883.22,-286.639 856.476,-284.002"/>
-<polygon fill="none" stroke="black" points="856.543,-280.498 846.312,-283.25 856.027,-287.479 856.543,-280.498"/>
-</g>
-<!-- \\PluginFusioninventoryProfile -->
-<g id="node45" class="node"><title>\\PluginFusioninventoryProfile</title>
-<polygon fill="none" stroke="black" points="1308.67,-952 1102.67,-952 1102.67,-916 1308.67,-916 1308.67,-952"/>
-<text text-anchor="middle" x="1205.67" y="-931.2" font-family="Courier,monospace" font-size="11.00">PluginFusioninventoryProfile</text>
-</g>
-<!-- \\Profile -->
-<g id="node124" class="node"><title>\\Profile</title>
-<ellipse fill="none" stroke="black" cx="780.837" cy="-180" rx="37.8943" ry="18"/>
-<text text-anchor="middle" x="780.837" y="-176.3" font-family="Times,serif" font-size="14.00" fill="gray">\Profile</text>
-</g>
-<!-- \\PluginFusioninventoryProfile&#45;&gt;\\Profile -->
-<g id="edge38" class="edge"><title>\\PluginFusioninventoryProfile&#45;&gt;\\Profile</title>
-<path fill="none" stroke="black" d="M1102.46,-944.821C1065.94,-943.007 1027.49,-933.595 1001.67,-907 892.755,-794.794 1035.84,-321.81 929.674,-207 904.339,-179.604 861.169,-174.391 828,-175.127"/>
-<polygon fill="none" stroke="black" points="827.465,-171.646 817.617,-175.554 827.753,-178.64 827.465,-171.646"/>
-</g>
-<!-- \\PluginFusioninventoryInventoryComputerBlacklist -->
-<g id="node46" class="node"><title>\\PluginFusioninventoryInventoryComputerBlacklist</title>
-<polygon fill="none" stroke="black" points="1372.67,-5920 1038.67,-5920 1038.67,-5884 1372.67,-5884 1372.67,-5920"/>
-<text text-anchor="middle" x="1205.67" y="-5899.2" font-family="Courier,monospace" font-size="11.00">PluginFusioninventoryInventoryComputerBlacklist</text>
-</g>
-<!-- \\PluginFusioninventoryInventoryComputerBlacklist&#45;&gt;\\CommonDBTM -->
-<g id="edge39" class="edge"><title>\\PluginFusioninventoryInventoryComputerBlacklist&#45;&gt;\\CommonDBTM</title>
-<path fill="none" stroke="black" d="M1038.49,-5900.98C1024.58,-5894.98 1011.94,-5886.56 1001.67,-5875 806.345,-5655.01 1123.29,-801.5 929.674,-580 911.88,-559.645 884.083,-552.214 857.371,-550.559"/>
-<polygon fill="none" stroke="black" points="857.33,-547.056 847.21,-550.193 857.078,-554.051 857.33,-547.056"/>
-</g>
-<!-- \\PluginFusioninventoryDeployFile -->
-<g id="node47" class="node"><title>\\PluginFusioninventoryDeployFile</title>
-<polygon fill="none" stroke="black" points="1318.67,-5866 1092.67,-5866 1092.67,-5830 1318.67,-5830 1318.67,-5866"/>
-<text text-anchor="middle" x="1205.67" y="-5845.2" font-family="Courier,monospace" font-size="11.00">PluginFusioninventoryDeployFile</text>
-</g>
-<!-- \\PluginFusioninventoryDeployFile&#45;&gt;\\CommonDBTM -->
-<g id="edge40" class="edge"><title>\\PluginFusioninventoryDeployFile&#45;&gt;\\CommonDBTM</title>
-<path fill="none" stroke="black" d="M1092.46,-5859.45C1058.55,-5856.7 1024.34,-5846.52 1001.67,-5821 808.321,-5603.26 1121.33,-799.228 929.674,-580 911.879,-559.646 884.081,-552.215 857.37,-550.561"/>
-<polygon fill="none" stroke="black" points="857.328,-547.057 847.209,-550.194 857.076,-554.052 857.328,-547.057"/>
-</g>
-<!-- \\PluginFusioninventorySearch -->
-<g id="node48" class="node"><title>\\PluginFusioninventorySearch</title>
-<polygon fill="none" stroke="black" points="1305.17,-5812 1106.17,-5812 1106.17,-5776 1305.17,-5776 1305.17,-5812"/>
-<text text-anchor="middle" x="1205.67" y="-5791.2" font-family="Courier,monospace" font-size="11.00">PluginFusioninventorySearch</text>
-</g>
-<!-- \\PluginFusioninventorySearch&#45;&gt;\\CommonDBTM -->
-<g id="edge41" class="edge"><title>\\PluginFusioninventorySearch&#45;&gt;\\CommonDBTM</title>
-<path fill="none" stroke="black" d="M1105.93,-5806.17C1067.84,-5805.13 1027.35,-5795.91 1001.67,-5767 810.298,-5551.52 1119.37,-796.956 929.674,-580 911.878,-559.647 884.079,-552.217 857.368,-550.562"/>
-<polygon fill="none" stroke="black" points="857.327,-547.058 847.207,-550.196 857.075,-554.054 857.327,-547.058"/>
-</g>
-<!-- \\PluginFusioninventoryPrinter -->
-<g id="node49" class="node"><title>\\PluginFusioninventoryPrinter</title>
-<polygon fill="none" stroke="black" points="1308.67,-5704 1102.67,-5704 1102.67,-5668 1308.67,-5668 1308.67,-5704"/>
-<text text-anchor="middle" x="1205.67" y="-5683.2" font-family="Courier,monospace" font-size="11.00">PluginFusioninventoryPrinter</text>
-</g>
-<!-- \\PluginFusioninventoryPrinter&#45;&gt;\\CommonDBTM -->
-<g id="edge42" class="edge"><title>\\PluginFusioninventoryPrinter&#45;&gt;\\CommonDBTM</title>
-<path fill="none" stroke="black" d="M1102.52,-5698.05C1065.44,-5696.56 1026.59,-5687.04 1001.67,-5659 814.251,-5448.03 1115.46,-792.412 929.674,-580 911.875,-559.65 884.076,-552.22 857.365,-550.565"/>
-<polygon fill="none" stroke="black" points="857.324,-547.061 847.204,-550.198 857.072,-554.057 857.324,-547.061"/>
-</g>
-<!-- \\PluginFusioninventoryDeployCheck -->
-<g id="node50" class="node"><title>\\PluginFusioninventoryDeployCheck</title>
-<polygon fill="none" stroke="black" points="1322.17,-3922 1089.17,-3922 1089.17,-3886 1322.17,-3886 1322.17,-3922"/>
-<text text-anchor="middle" x="1205.67" y="-3901.2" font-family="Courier,monospace" font-size="11.00">PluginFusioninventoryDeployCheck</text>
-</g>
-<!-- \\PluginFusioninventoryInventoryExternalDB -->
-<g id="node51" class="node"><title>\\PluginFusioninventoryInventoryExternalDB</title>
-<polygon fill="none" stroke="black" points="1349.17,-5650 1062.17,-5650 1062.17,-5614 1349.17,-5614 1349.17,-5650"/>
-<text text-anchor="middle" x="1205.67" y="-5629.2" font-family="Courier,monospace" font-size="11.00">PluginFusioninventoryInventoryExternalDB</text>
-</g>
-<!-- \\PluginFusioninventoryInventoryExternalDB&#45;&gt;\\CommonDBTM -->
-<g id="edge43" class="edge"><title>\\PluginFusioninventoryInventoryExternalDB&#45;&gt;\\CommonDBTM</title>
-<path fill="none" stroke="black" d="M1061.98,-5638.7C1038.94,-5633.14 1017.5,-5622.81 1001.67,-5605 816.227,-5396.29 1113.5,-790.14 929.674,-580 911.873,-559.651 884.074,-552.222 857.363,-550.566"/>
-<polygon fill="none" stroke="black" points="857.323,-547.063 847.203,-550.199 857.07,-554.058 857.323,-547.063"/>
-</g>
-<!-- \\PluginFusioninventoryDeployGroup_Dynamicdata -->
-<g id="node52" class="node"><title>\\PluginFusioninventoryDeployGroup_Dynamicdata</title>
-<polygon fill="none" stroke="black" points="1362.67,-898 1048.67,-898 1048.67,-862 1362.67,-862 1362.67,-898"/>
-<text text-anchor="middle" x="1205.67" y="-877.2" font-family="Courier,monospace" font-size="11.00">PluginFusioninventoryDeployGroup_Dynamicdata</text>
-</g>
-<!-- \\CommonDBChild -->
-<g id="node125" class="node"><title>\\CommonDBChild</title>
-<ellipse fill="none" stroke="black" cx="780.837" cy="-126" rx="79.0865" ry="18"/>
-<text text-anchor="middle" x="780.837" y="-122.3" font-family="Times,serif" font-size="14.00" fill="gray">\CommonDBChild</text>
-</g>
-<!-- \\PluginFusioninventoryDeployGroup_Dynamicdata&#45;&gt;\\CommonDBChild -->
-<g id="edge44" class="edge"><title>\\PluginFusioninventoryDeployGroup_Dynamicdata&#45;&gt;\\CommonDBChild</title>
-<path fill="none" stroke="black" d="M1048.43,-881.331C1030.88,-875.429 1014.67,-866.393 1001.67,-853 892.755,-740.794 1035.84,-267.81 929.674,-153 914.011,-136.064 891.533,-127.605 868.816,-123.789"/>
-<polygon fill="none" stroke="black" points="869.123,-120.298 858.736,-122.387 868.159,-127.231 869.123,-120.298"/>
-</g>
-<!-- \\PluginFusioninventoryDeployAction -->
-<g id="node53" class="node"><title>\\PluginFusioninventoryDeployAction</title>
-<polygon fill="none" stroke="black" points="1325.17,-3760 1086.17,-3760 1086.17,-3724 1325.17,-3724 1325.17,-3760"/>
-<text text-anchor="middle" x="1205.67" y="-3739.2" font-family="Courier,monospace" font-size="11.00">PluginFusioninventoryDeployAction</text>
-</g>
-<!-- \\PluginFusioninventoryDeployCommon&#45;&gt;\\PluginFusioninventoryCommunication -->
-<g id="edge45" class="edge"><title>\\PluginFusioninventoryDeployCommon&#45;&gt;\\PluginFusioninventoryCommunication</title>
-<path fill="none" stroke="black" d="M661.238,-6064C631.873,-6064 600.227,-6064 570.255,-6064"/>
-<polygon fill="none" stroke="black" points="570.16,-6060.5 560.16,-6064 570.16,-6067.5 570.16,-6060.5"/>
-</g>
-<!-- \\PluginFusioninventoryPrinterCartridge -->
-<g id="node55" class="node"><title>\\PluginFusioninventoryPrinterCartridge</title>
-<polygon fill="none" stroke="black" points="1338.67,-5596 1072.67,-5596 1072.67,-5560 1338.67,-5560 1338.67,-5596"/>
-<text text-anchor="middle" x="1205.67" y="-5575.2" font-family="Courier,monospace" font-size="11.00">PluginFusioninventoryPrinterCartridge</text>
-</g>
-<!-- \\PluginFusioninventoryPrinterCartridge&#45;&gt;\\CommonDBTM -->
-<g id="edge46" class="edge"><title>\\PluginFusioninventoryPrinterCartridge&#45;&gt;\\CommonDBTM</title>
-<path fill="none" stroke="black" d="M1072.66,-5586.92C1045.64,-5582.13 1019.92,-5571.53 1001.67,-5551 818.203,-5344.55 1111.54,-787.868 929.674,-580 911.871,-559.652 884.072,-552.223 857.362,-550.568"/>
-<polygon fill="none" stroke="black" points="857.321,-547.064 847.201,-550.201 857.068,-554.059 857.321,-547.064"/>
-</g>
-<!-- \\PluginFusioninventoryNetworkEquipment -->
-<g id="node56" class="node"><title>\\PluginFusioninventoryNetworkEquipment</title>
-<polygon fill="none" stroke="black" points="1338.67,-5542 1072.67,-5542 1072.67,-5506 1338.67,-5506 1338.67,-5542"/>
-<text text-anchor="middle" x="1205.67" y="-5521.2" font-family="Courier,monospace" font-size="11.00">PluginFusioninventoryNetworkEquipment</text>
-</g>
-<!-- \\PluginFusioninventoryNetworkEquipment&#45;&gt;\\CommonDBTM -->
-<g id="edge47" class="edge"><title>\\PluginFusioninventoryNetworkEquipment&#45;&gt;\\CommonDBTM</title>
-<path fill="none" stroke="black" d="M1072.66,-5532.92C1045.64,-5528.13 1019.92,-5517.53 1001.67,-5497 820.18,-5292.8 1109.58,-785.596 929.674,-580 911.87,-559.654 884.07,-552.225 857.36,-550.569"/>
-<polygon fill="none" stroke="black" points="857.319,-547.065 847.2,-550.202 857.067,-554.061 857.319,-547.065"/>
-</g>
-<!-- \\PluginFusioninventoryCollect_Wmi -->
-<g id="node57" class="node"><title>\\PluginFusioninventoryCollect_Wmi</title>
-<polygon fill="none" stroke="black" points="1322.17,-5488 1089.17,-5488 1089.17,-5452 1322.17,-5452 1322.17,-5488"/>
-<text text-anchor="middle" x="1205.67" y="-5467.2" font-family="Courier,monospace" font-size="11.00">PluginFusioninventoryCollect_Wmi</text>
-</g>
-<!-- \\PluginFusioninventoryCollect_Wmi&#45;&gt;\\CommonDBTM -->
-<g id="edge48" class="edge"><title>\\PluginFusioninventoryCollect_Wmi&#45;&gt;\\CommonDBTM</title>
-<path fill="none" stroke="black" d="M1089.03,-5481.13C1056.26,-5477.98 1023.58,-5467.65 1001.67,-5443 822.156,-5241.06 1107.62,-783.325 929.674,-580 911.868,-559.655 884.068,-552.227 857.358,-550.571"/>
-<polygon fill="none" stroke="black" points="857.318,-547.067 847.198,-550.204 857.065,-554.062 857.318,-547.067"/>
-</g>
-<!-- \\PluginFusioninventoryInventoryPrinterLib -->
-<g id="node58" class="node"><title>\\PluginFusioninventoryInventoryPrinterLib</title>
-<polygon fill="none" stroke="black" points="1349.17,-5434 1062.17,-5434 1062.17,-5398 1349.17,-5398 1349.17,-5434"/>
-<text text-anchor="middle" x="1205.67" y="-5413.2" font-family="Courier,monospace" font-size="11.00">PluginFusioninventoryInventoryPrinterLib</text>
-</g>
-<!-- \\PluginFusioninventoryInventoryPrinterLib&#45;&gt;\\CommonDBTM -->
-<g id="edge49" class="edge"><title>\\PluginFusioninventoryInventoryPrinterLib&#45;&gt;\\CommonDBTM</title>
-<path fill="none" stroke="black" d="M1061.99,-5422.69C1038.95,-5417.13 1017.5,-5406.8 1001.67,-5389 824.133,-5189.32 1105.66,-781.053 929.674,-580 911.867,-559.657 884.066,-552.228 857.357,-550.572"/>
-<polygon fill="none" stroke="black" points="857.316,-547.069 847.196,-550.205 857.063,-554.064 857.316,-547.069"/>
-</g>
-<!-- \\PluginFusioninventoryDeployMirror -->
-<g id="node59" class="node"><title>\\PluginFusioninventoryDeployMirror</title>
-<polygon fill="none" stroke="black" points="1325.17,-5326 1086.17,-5326 1086.17,-5290 1325.17,-5290 1325.17,-5326"/>
-<text text-anchor="middle" x="1205.67" y="-5305.2" font-family="Courier,monospace" font-size="11.00">PluginFusioninventoryDeployMirror</text>
-</g>
-<!-- \\PluginFusioninventoryDeployMirror&#45;&gt;\\CommonDBTM -->
-<g id="edge50" class="edge"><title>\\PluginFusioninventoryDeployMirror&#45;&gt;\\CommonDBTM</title>
-<path fill="none" stroke="black" d="M1086.13,-5318.82C1054.34,-5315.34 1022.94,-5304.91 1001.67,-5281 828.085,-5085.83 1101.74,-776.509 929.674,-580 911.863,-559.66 884.062,-552.232 857.353,-550.575"/>
-<polygon fill="none" stroke="black" points="857.313,-547.072 847.193,-550.208 857.06,-554.067 857.313,-547.072"/>
-</g>
-<!-- \\PluginFusioninventoryInventoryRuleLocation -->
-<g id="node60" class="node"><title>\\PluginFusioninventoryInventoryRuleLocation</title>
-<polygon fill="none" stroke="black" points="1355.67,-1708 1055.67,-1708 1055.67,-1672 1355.67,-1672 1355.67,-1708"/>
-<text text-anchor="middle" x="1205.67" y="-1687.2" font-family="Courier,monospace" font-size="11.00">PluginFusioninventoryInventoryRuleLocation</text>
-</g>
-<!-- \\PluginFusioninventoryInventoryRuleLocation&#45;&gt;\\Rule -->
-<g id="edge51" class="edge"><title>\\PluginFusioninventoryInventoryRuleLocation&#45;&gt;\\Rule</title>
-<path fill="none" stroke="black" d="M1055.46,-1694.21C1035.08,-1688.39 1016.21,-1678.61 1001.67,-1663 821.77,-1469.73 1104.85,-674.565 929.674,-477 902.85,-446.747 854.327,-443.227 820.206,-445.161"/>
-<polygon fill="none" stroke="black" points="819.831,-441.679 810.119,-445.912 820.352,-448.66 819.831,-441.679"/>
-</g>
-<!-- \\PluginFusioninventoryDeployGroup_Staticdata -->
-<g id="node61" class="node"><title>\\PluginFusioninventoryDeployGroup_Staticdata</title>
-<polygon fill="none" stroke="black" points="1359.17,-1438 1052.17,-1438 1052.17,-1402 1359.17,-1402 1359.17,-1438"/>
-<text text-anchor="middle" x="1205.67" y="-1417.2" font-family="Courier,monospace" font-size="11.00">PluginFusioninventoryDeployGroup_Staticdata</text>
-</g>
-<!-- \\PluginFusioninventoryDeployGroup_Staticdata&#45;&gt;\\CommonDBRelation -->
-<g id="edge52" class="edge"><title>\\PluginFusioninventoryDeployGroup_Staticdata&#45;&gt;\\CommonDBRelation</title>
-<path fill="none" stroke="black" d="M1052.04,-1423.03C1033,-1417.13 1015.43,-1407.64 1001.67,-1393 845.45,-1226.77 1081.83,-538.961 929.674,-369 916.855,-354.681 899.173,-346.367 880.489,-341.788"/>
-<polygon fill="none" stroke="black" points="881.153,-338.351 870.647,-339.721 879.714,-345.201 881.153,-338.351"/>
-</g>
-<!-- \\PluginFusioninventoryCollect_File_Content -->
-<g id="node62" class="node"><title>\\PluginFusioninventoryCollect_File_Content</title>
-<polygon fill="none" stroke="black" points="1352.17,-5272 1059.17,-5272 1059.17,-5236 1352.17,-5236 1352.17,-5272"/>
-<text text-anchor="middle" x="1205.67" y="-5251.2" font-family="Courier,monospace" font-size="11.00">PluginFusioninventoryCollect_File_Content</text>
-</g>
-<!-- \\PluginFusioninventoryCollect_File_Content&#45;&gt;\\CommonDBTM -->
-<g id="edge53" class="edge"><title>\\PluginFusioninventoryCollect_File_Content&#45;&gt;\\CommonDBTM</title>
-<path fill="none" stroke="black" d="M1059.17,-5259.97C1037.2,-5254.27 1016.86,-5244.07 1001.67,-5227 830.062,-5034.09 1099.79,-774.237 929.674,-580 911.861,-559.661 884.06,-552.234 857.351,-550.577"/>
-<polygon fill="none" stroke="black" points="857.311,-547.073 847.191,-550.21 857.058,-554.069 857.311,-547.073"/>
-</g>
-<!-- \\PluginFusioninventoryStaticmisc -->
-<g id="node63" class="node"><title>\\PluginFusioninventoryStaticmisc</title>
-<polygon fill="none" stroke="black" points="1318.67,-3274 1092.67,-3274 1092.67,-3238 1318.67,-3238 1318.67,-3274"/>
-<text text-anchor="middle" x="1205.67" y="-3253.2" font-family="Courier,monospace" font-size="11.00">PluginFusioninventoryStaticmisc</text>
-</g>
-<!-- \\PluginFusioninventoryUnmanaged -->
-<g id="node64" class="node"><title>\\PluginFusioninventoryUnmanaged</title>
-<polygon fill="none" stroke="black" points="1315.17,-5164 1096.17,-5164 1096.17,-5128 1315.17,-5128 1315.17,-5164"/>
-<text text-anchor="middle" x="1205.67" y="-5143.2" font-family="Courier,monospace" font-size="11.00">PluginFusioninventoryUnmanaged</text>
-</g>
-<!-- \\PluginFusioninventoryUnmanaged&#45;&gt;\\CommonDBTM -->
-<g id="edge54" class="edge"><title>\\PluginFusioninventoryUnmanaged&#45;&gt;\\CommonDBTM</title>
-<path fill="none" stroke="black" d="M1095.94,-5157.68C1060.91,-5155.34 1025.13,-5145.36 1001.67,-5119 834.014,-4930.6 1095.87,-769.693 929.674,-580 911.857,-559.665 884.055,-552.238 857.347,-550.581"/>
-<polygon fill="none" stroke="black" points="857.307,-547.077 847.187,-550.213 857.054,-554.072 857.307,-547.077"/>
-</g>
-<!-- \\PluginFusioninventoryAgentWakeup -->
-<g id="node65" class="node"><title>\\PluginFusioninventoryAgentWakeup</title>
-<polygon fill="none" stroke="black" points="1322.17,-5110 1089.17,-5110 1089.17,-5074 1322.17,-5074 1322.17,-5110"/>
-<text text-anchor="middle" x="1205.67" y="-5089.2" font-family="Courier,monospace" font-size="11.00">PluginFusioninventoryAgentWakeup</text>
-</g>
-<!-- \\PluginFusioninventoryAgentWakeup&#45;&gt;\\CommonDBTM -->
-<g id="edge55" class="edge"><title>\\PluginFusioninventoryAgentWakeup&#45;&gt;\\CommonDBTM</title>
-<path fill="none" stroke="black" d="M1089.05,-5103.11C1056.28,-5099.96 1023.6,-5089.63 1001.67,-5065 835.991,-4878.86 1093.91,-767.421 929.674,-580 911.856,-559.666 884.053,-552.24 857.345,-550.582"/>
-<polygon fill="none" stroke="black" points="857.306,-547.079 847.185,-550.215 857.052,-554.074 857.306,-547.079"/>
-</g>
-<!-- \\PluginFusioninventoryDeployPackage_Entity -->
-<g id="node66" class="node"><title>\\PluginFusioninventoryDeployPackage_Entity</title>
-<polygon fill="none" stroke="black" points="1352.17,-1330 1059.17,-1330 1059.17,-1294 1352.17,-1294 1352.17,-1330"/>
-<text text-anchor="middle" x="1205.67" y="-1309.2" font-family="Courier,monospace" font-size="11.00">PluginFusioninventoryDeployPackage_Entity</text>
-</g>
-<!-- \\PluginFusioninventoryDeployPackage_Entity&#45;&gt;\\CommonDBRelation -->
-<g id="edge56" class="edge"><title>\\PluginFusioninventoryDeployPackage_Entity&#45;&gt;\\CommonDBRelation</title>
-<path fill="none" stroke="black" d="M1059.03,-1316.89C1037.36,-1311.23 1017.14,-1301.32 1001.67,-1285 861.229,-1136.79 1066.49,-520.566 929.674,-369 916.796,-354.734 899.089,-346.442 880.399,-341.868"/>
-<polygon fill="none" stroke="black" points="881.061,-338.431 870.556,-339.803 879.624,-345.282 881.061,-338.431"/>
-</g>
-<!-- \\PluginFusioninventoryInventoryComputerESX -->
-<g id="node67" class="node"><title>\\PluginFusioninventoryInventoryComputerESX</title>
-<polygon fill="none" stroke="black" points="927.337,-5974 634.337,-5974 634.337,-5938 927.337,-5938 927.337,-5974"/>
-<text text-anchor="middle" x="780.837" y="-5953.2" font-family="Courier,monospace" font-size="11.00">PluginFusioninventoryInventoryComputerESX</text>
-</g>
-<!-- \\PluginFusioninventoryInventoryComputerESX&#45;&gt;\\PluginFusioninventoryCommunication -->
-<g id="edge57" class="edge"><title>\\PluginFusioninventoryInventoryComputerESX&#45;&gt;\\PluginFusioninventoryCommunication</title>
-<path fill="none" stroke="black" d="M666.643,-5974.08C654.861,-5976.73 643.132,-5979.7 632,-5983 579.899,-5998.44 522.783,-6023.32 484.107,-6041.43"/>
-<polygon fill="none" stroke="black" points="482.233,-6038.45 474.686,-6045.88 485.223,-6044.78 482.233,-6038.45"/>
-</g>
-<!-- \\PluginFusioninventoryEntity -->
-<g id="node68" class="node"><title>\\PluginFusioninventoryEntity</title>
-<polygon fill="none" stroke="black" points="1305.17,-5056 1106.17,-5056 1106.17,-5020 1305.17,-5020 1305.17,-5056"/>
-<text text-anchor="middle" x="1205.67" y="-5035.2" font-family="Courier,monospace" font-size="11.00">PluginFusioninventoryEntity</text>
-</g>
-<!-- \\PluginFusioninventoryEntity&#45;&gt;\\CommonDBTM -->
-<g id="edge58" class="edge"><title>\\PluginFusioninventoryEntity&#45;&gt;\\CommonDBTM</title>
-<path fill="none" stroke="black" d="M1105.97,-5050.14C1067.88,-5049.09 1027.38,-5039.88 1001.67,-5011 837.967,-4827.11 1091.95,-765.149 929.674,-580 911.854,-559.668 884.051,-552.242 857.343,-550.584"/>
-<polygon fill="none" stroke="black" points="857.304,-547.081 847.183,-550.216 857.05,-554.076 857.304,-547.081"/>
-</g>
-<!-- \\PluginFusioninventoryInventoryNetworkEquipmentLib -->
-<g id="node69" class="node"><title>\\PluginFusioninventoryInventoryNetworkEquipmentLib</title>
-<polygon fill="none" stroke="black" points="1379.17,-4948 1032.17,-4948 1032.17,-4912 1379.17,-4912 1379.17,-4948"/>
-<text text-anchor="middle" x="1205.67" y="-4927.2" font-family="Courier,monospace" font-size="11.00">PluginFusioninventoryInventoryNetworkEquipmentLib</text>
-</g>
-<!-- \\PluginFusioninventoryInventoryNetworkEquipmentLib&#45;&gt;\\CommonDBTM -->
-<g id="edge59" class="edge"><title>\\PluginFusioninventoryInventoryNetworkEquipmentLib&#45;&gt;\\CommonDBTM</title>
-<path fill="none" stroke="black" d="M1031.91,-4925.86C1020.6,-4920.17 1010.3,-4912.69 1001.67,-4903 841.92,-4723.63 1088.03,-760.606 929.674,-580 911.849,-559.672 884.046,-552.246 857.339,-550.588"/>
-<polygon fill="none" stroke="black" points="857.3,-547.084 847.179,-550.22 857.046,-554.08 857.3,-547.084"/>
-</g>
-<!-- \\PluginFusioninventoryInventoryComputerImportXML -->
-<g id="node70" class="node"><title>\\PluginFusioninventoryInventoryComputerImportXML</title>
-<polygon fill="none" stroke="black" points="1372.67,-4894 1038.67,-4894 1038.67,-4858 1372.67,-4858 1372.67,-4894"/>
-<text text-anchor="middle" x="1205.67" y="-4873.2" font-family="Courier,monospace" font-size="11.00">PluginFusioninventoryInventoryComputerImportXML</text>
-</g>
-<!-- \\PluginFusioninventoryInventoryComputerImportXML&#45;&gt;\\CommonDBTM -->
-<g id="edge60" class="edge"><title>\\PluginFusioninventoryInventoryComputerImportXML&#45;&gt;\\CommonDBTM</title>
-<path fill="none" stroke="black" d="M1038.53,-4874.94C1024.61,-4868.95 1011.96,-4860.55 1001.67,-4849 843.896,-4671.88 1086.07,-758.334 929.674,-580 911.847,-559.674 884.043,-552.248 857.336,-550.59"/>
-<polygon fill="none" stroke="black" points="857.297,-547.086 847.177,-550.222 857.044,-554.082 857.297,-547.086"/>
-</g>
-<!-- \\PluginFusioninventoryComputerRemoteManagement -->
-<g id="node71" class="node"><title>\\PluginFusioninventoryComputerRemoteManagement</title>
-<polygon fill="none" stroke="black" points="1365.67,-4840 1045.67,-4840 1045.67,-4804 1365.67,-4804 1365.67,-4840"/>
-<text text-anchor="middle" x="1205.67" y="-4819.2" font-family="Courier,monospace" font-size="11.00">PluginFusioninventoryComputerRemoteManagement</text>
-</g>
-<!-- \\PluginFusioninventoryComputerRemoteManagement&#45;&gt;\\CommonDBTM -->
-<g id="edge61" class="edge"><title>\\PluginFusioninventoryComputerRemoteManagement&#45;&gt;\\CommonDBTM</title>
-<path fill="none" stroke="black" d="M1045.35,-4823.65C1028.75,-4817.57 1013.62,-4808.41 1001.67,-4795 845.872,-4620.14 1084.12,-756.062 929.674,-580 911.845,-559.676 884.041,-552.251 857.334,-550.592"/>
-<polygon fill="none" stroke="black" points="857.295,-547.088 847.175,-550.224 857.042,-554.084 857.295,-547.088"/>
-</g>
-<!-- \\PluginFusioninventoryDeployPackage_Group -->
-<g id="node72" class="node"><title>\\PluginFusioninventoryDeployPackage_Group</title>
-<polygon fill="none" stroke="black" points="1349.17,-1276 1062.17,-1276 1062.17,-1240 1349.17,-1240 1349.17,-1276"/>
-<text text-anchor="middle" x="1205.67" y="-1255.2" font-family="Courier,monospace" font-size="11.00">PluginFusioninventoryDeployPackage_Group</text>
-</g>
-<!-- \\PluginFusioninventoryDeployPackage_Group&#45;&gt;\\CommonDBRelation -->
-<g id="edge62" class="edge"><title>\\PluginFusioninventoryDeployPackage_Group&#45;&gt;\\CommonDBRelation</title>
-<path fill="none" stroke="black" d="M1061.94,-1263.54C1039.19,-1258.02 1017.86,-1247.99 1001.67,-1231 869.115,-1091.8 1058.82,-511.372 929.674,-369 916.836,-354.848 899.245,-346.583 880.67,-341.996"/>
-<polygon fill="none" stroke="black" points="881.396,-338.572 870.887,-339.92 879.943,-345.42 881.396,-338.572"/>
-</g>
-<!-- \\PluginFusioninventoryDisplay -->
-<g id="node73" class="node"><title>\\PluginFusioninventoryDisplay</title>
-<polygon fill="none" stroke="black" points="1308.67,-4786 1102.67,-4786 1102.67,-4750 1308.67,-4750 1308.67,-4786"/>
-<text text-anchor="middle" x="1205.67" y="-4765.2" font-family="Courier,monospace" font-size="11.00">PluginFusioninventoryDisplay</text>
-</g>
-<!-- \\PluginFusioninventoryDisplay&#45;&gt;\\CommonDBTM -->
-<g id="edge63" class="edge"><title>\\PluginFusioninventoryDisplay&#45;&gt;\\CommonDBTM</title>
-<path fill="none" stroke="black" d="M1102.56,-4780.01C1065.49,-4778.51 1026.63,-4769 1001.67,-4741 847.849,-4568.4 1082.16,-753.79 929.674,-580 911.843,-559.678 884.038,-552.253 857.332,-550.594"/>
-<polygon fill="none" stroke="black" points="857.293,-547.091 847.173,-550.226 857.039,-554.086 857.293,-547.091"/>
-</g>
-<!-- \\PluginFusioninventoryAgent -->
-<g id="node74" class="node"><title>\\PluginFusioninventoryAgent</title>
-<polygon fill="none" stroke="black" points="1301.67,-4732 1109.67,-4732 1109.67,-4696 1301.67,-4696 1301.67,-4732"/>
-<text text-anchor="middle" x="1205.67" y="-4711.2" font-family="Courier,monospace" font-size="11.00">PluginFusioninventoryAgent</text>
-</g>
-<!-- \\PluginFusioninventoryAgent&#45;&gt;\\CommonDBTM -->
-<g id="edge64" class="edge"><title>\\PluginFusioninventoryAgent&#45;&gt;\\CommonDBTM</title>
-<path fill="none" stroke="black" d="M1109.65,-4726.2C1070.53,-4725.65 1028.23,-4716.79 1001.67,-4687 849.825,-4516.65 1080.2,-751.518 929.674,-580 911.84,-559.68 884.035,-552.256 857.329,-550.596"/>
-<polygon fill="none" stroke="black" points="857.291,-547.093 847.171,-550.228 857.037,-554.088 857.291,-547.093"/>
-</g>
-<!-- \\PluginFusioninventoryWakeonlan -->
-<g id="node75" class="node"><title>\\PluginFusioninventoryWakeonlan</title>
-<polygon fill="none" stroke="black" points="890.337,-6190 671.337,-6190 671.337,-6154 890.337,-6154 890.337,-6190"/>
-<text text-anchor="middle" x="780.837" y="-6169.2" font-family="Courier,monospace" font-size="11.00">PluginFusioninventoryWakeonlan</text>
-</g>
-<!-- \\PluginFusioninventoryWakeonlan&#45;&gt;\\PluginFusioninventoryCommunication -->
-<g id="edge65" class="edge"><title>\\PluginFusioninventoryWakeonlan&#45;&gt;\\PluginFusioninventoryCommunication</title>
-<path fill="none" stroke="black" d="M671.013,-6154.89C657.769,-6151.99 644.508,-6148.71 632,-6145 579.899,-6129.56 522.783,-6104.68 484.107,-6086.57"/>
-<polygon fill="none" stroke="black" points="485.223,-6083.22 474.686,-6082.12 482.233,-6089.55 485.223,-6083.22"/>
-</g>
-<!-- \\PluginFusioninventoryCollectRuleCollection -->
-<g id="node76" class="node"><title>\\PluginFusioninventoryCollectRuleCollection</title>
-<polygon fill="none" stroke="black" points="1355.67,-1222 1055.67,-1222 1055.67,-1186 1355.67,-1186 1355.67,-1222"/>
-<text text-anchor="middle" x="1205.67" y="-1201.2" font-family="Courier,monospace" font-size="11.00">PluginFusioninventoryCollectRuleCollection</text>
-</g>
-<!-- \\PluginFusioninventoryCollectRuleCollection&#45;&gt;\\RuleCollection -->
-<g id="edge66" class="edge"><title>\\PluginFusioninventoryCollectRuleCollection&#45;&gt;\\RuleCollection</title>
-<path fill="none" stroke="black" d="M1055.51,-1207.85C1035.19,-1202.06 1016.32,-1192.38 1001.67,-1177 869.115,-1037.8 1058.82,-457.372 929.674,-315 911.254,-294.695 883.049,-286.509 856.194,-283.916"/>
-<polygon fill="none" stroke="black" points="856.217,-280.408 845.991,-283.182 855.714,-287.39 856.217,-280.408"/>
-</g>
-<!-- \\PluginFusioninventoryIgnoredimportdevice -->
-<g id="node77" class="node"><title>\\PluginFusioninventoryIgnoredimportdevice</title>
-<polygon fill="none" stroke="black" points="1349.17,-4678 1062.17,-4678 1062.17,-4642 1349.17,-4642 1349.17,-4678"/>
-<text text-anchor="middle" x="1205.67" y="-4657.2" font-family="Courier,monospace" font-size="11.00">PluginFusioninventoryIgnoredimportdevice</text>
-</g>
-<!-- \\PluginFusioninventoryIgnoredimportdevice&#45;&gt;\\CommonDBTM -->
-<g id="edge67" class="edge"><title>\\PluginFusioninventoryIgnoredimportdevice&#45;&gt;\\CommonDBTM</title>
-<path fill="none" stroke="black" d="M1062.03,-4666.65C1038.99,-4661.1 1017.53,-4650.78 1001.67,-4633 851.801,-4464.91 1078.24,-749.247 929.674,-580 911.838,-559.682 884.033,-552.258 857.327,-550.598"/>
-<polygon fill="none" stroke="black" points="857.289,-547.095 847.168,-550.23 857.035,-554.09 857.289,-547.095"/>
-</g>
-<!-- \\PluginFusioninventoryInventoryComputerStorage -->
-<g id="node78" class="node"><title>\\PluginFusioninventoryInventoryComputerStorage</title>
-<polygon fill="none" stroke="black" points="1365.67,-4624 1045.67,-4624 1045.67,-4588 1365.67,-4588 1365.67,-4624"/>
-<text text-anchor="middle" x="1205.67" y="-4603.2" font-family="Courier,monospace" font-size="11.00">PluginFusioninventoryInventoryComputerStorage</text>
-</g>
-<!-- \\PluginFusioninventoryInventoryComputerStorage&#45;&gt;\\CommonDBTM -->
-<g id="edge68" class="edge"><title>\\PluginFusioninventoryInventoryComputerStorage&#45;&gt;\\CommonDBTM</title>
-<path fill="none" stroke="black" d="M1045.36,-4607.64C1028.76,-4601.56 1013.62,-4592.4 1001.67,-4579 853.778,-4413.17 1076.28,-746.975 929.674,-580 911.836,-559.684 884.03,-552.261 857.324,-550.601"/>
-<polygon fill="none" stroke="black" points="857.286,-547.097 847.166,-550.232 857.032,-554.093 857.286,-547.097"/>
-</g>
-<!-- \\PluginFusioninventoryComputerOSKernelVersion -->
-<g id="node79" class="node"><title>\\PluginFusioninventoryComputerOSKernelVersion</title>
-<polygon fill="none" stroke="black" points="1362.67,-1924 1048.67,-1924 1048.67,-1888 1362.67,-1888 1362.67,-1924"/>
-<text text-anchor="middle" x="1205.67" y="-1903.2" font-family="Courier,monospace" font-size="11.00">PluginFusioninventoryComputerOSKernelVersion</text>
-</g>
-<!-- \\PluginFusioninventoryComputerOSKernelVersion&#45;&gt;\\CommonDropdown -->
-<g id="edge69" class="edge"><title>\\PluginFusioninventoryComputerOSKernelVersion&#45;&gt;\\CommonDropdown</title>
-<path fill="none" stroke="black" d="M1048.3,-1908.1C1030.66,-1902.11 1014.46,-1892.84 1001.67,-1879 798.081,-1658.68 1127.87,-756.181 929.674,-531 915.611,-515.023 895.498,-506.487 874.618,-502.271"/>
-<polygon fill="none" stroke="black" points="875.106,-498.804 864.662,-500.582 873.935,-505.706 875.106,-498.804"/>
-</g>
-<!-- \\PluginFusioninventoryInventoryComputerComputer -->
-<g id="node80" class="node"><title>\\PluginFusioninventoryInventoryComputerComputer</title>
-<polygon fill="none" stroke="black" points="1369.17,-4570 1042.17,-4570 1042.17,-4534 1369.17,-4534 1369.17,-4570"/>
-<text text-anchor="middle" x="1205.67" y="-4549.2" font-family="Courier,monospace" font-size="11.00">PluginFusioninventoryInventoryComputerComputer</text>
-</g>
-<!-- \\PluginFusioninventoryInventoryComputerComputer&#45;&gt;\\CommonDBTM -->
-<g id="edge70" class="edge"><title>\\PluginFusioninventoryInventoryComputerComputer&#45;&gt;\\CommonDBTM</title>
-<path fill="none" stroke="black" d="M1041.93,-4552.33C1026.68,-4546.27 1012.8,-4537.47 1001.67,-4525 855.754,-4361.42 1074.32,-744.703 929.674,-580 911.833,-559.686 884.027,-552.263 857.321,-550.603"/>
-<polygon fill="none" stroke="black" points="857.284,-547.099 847.163,-550.234 857.03,-554.095 857.284,-547.099"/>
-</g>
-<!-- \\PluginFusioninventorySetup -->
-<g id="node81" class="node"><title>\\PluginFusioninventorySetup</title>
-<polygon fill="none" stroke="black" points="1301.67,-2410 1109.67,-2410 1109.67,-2374 1301.67,-2374 1301.67,-2410"/>
-<text text-anchor="middle" x="1205.67" y="-2389.2" font-family="Courier,monospace" font-size="11.00">PluginFusioninventorySetup</text>
-</g>
-<!-- \\PluginFusioninventoryRuleDictionnaryComputerArchCollection -->
-<g id="node82" class="node"><title>\\PluginFusioninventoryRuleDictionnaryComputerArchCollection</title>
-<polygon fill="none" stroke="black" points="1409.67,-844 1001.67,-844 1001.67,-808 1409.67,-808 1409.67,-844"/>
-<text text-anchor="middle" x="1205.67" y="-823.2" font-family="Courier,monospace" font-size="11.00">PluginFusioninventoryRuleDictionnaryComputerArchCollection</text>
-</g>
-<!-- \\RuleDictionnaryDropdownCollection -->
-<g id="node126" class="node"><title>\\RuleDictionnaryDropdownCollection</title>
-<ellipse fill="none" stroke="black" cx="780.837" cy="-72" rx="148.674" ry="18"/>
-<text text-anchor="middle" x="780.837" y="-68.3" font-family="Times,serif" font-size="14.00" fill="gray">\RuleDictionnaryDropdownCollection</text>
-</g>
-<!-- \\PluginFusioninventoryRuleDictionnaryComputerArchCollection&#45;&gt;\\RuleDictionnaryDropdownCollection -->
-<g id="edge71" class="edge"><title>\\PluginFusioninventoryRuleDictionnaryComputerArchCollection&#45;&gt;\\RuleDictionnaryDropdownCollection</title>
-<path fill="none" stroke="black" d="M1011.48,-807.842C1008.05,-805.131 1004.77,-802.189 1001.67,-799 892.755,-686.794 1035.84,-213.81 929.674,-99 925.418,-94.3982 920.659,-90.4223 915.529,-86.9954"/>
-<polygon fill="none" stroke="black" points="916.964,-83.779 906.569,-81.7328 913.419,-89.8151 916.964,-83.779"/>
-</g>
-<!-- \\PluginFusioninventoryPrinterLog -->
-<g id="node83" class="node"><title>\\PluginFusioninventoryPrinterLog</title>
-<polygon fill="none" stroke="black" points="1318.67,-4462 1092.67,-4462 1092.67,-4426 1318.67,-4426 1318.67,-4462"/>
-<text text-anchor="middle" x="1205.67" y="-4441.2" font-family="Courier,monospace" font-size="11.00">PluginFusioninventoryPrinterLog</text>
-</g>
-<!-- \\PluginFusioninventoryPrinterLog&#45;&gt;\\CommonDBTM -->
-<g id="edge72" class="edge"><title>\\PluginFusioninventoryPrinterLog&#45;&gt;\\CommonDBTM</title>
-<path fill="none" stroke="black" d="M1092.54,-4455.38C1058.63,-4452.63 1024.4,-4442.46 1001.67,-4417 859.706,-4257.94 1070.4,-740.159 929.674,-580 911.828,-559.691 884.021,-552.269 857.316,-550.608"/>
-<polygon fill="none" stroke="black" points="857.279,-547.104 847.158,-550.239 857.024,-554.1 857.279,-547.104"/>
-</g>
-<!-- \\PluginFusioninventoryDeployGroup -->
-<g id="node84" class="node"><title>\\PluginFusioninventoryDeployGroup</title>
-<polygon fill="none" stroke="black" points="1322.17,-4408 1089.17,-4408 1089.17,-4372 1322.17,-4372 1322.17,-4408"/>
-<text text-anchor="middle" x="1205.67" y="-4387.2" font-family="Courier,monospace" font-size="11.00">PluginFusioninventoryDeployGroup</text>
-</g>
-<!-- \\PluginFusioninventoryDeployGroup&#45;&gt;\\CommonDBTM -->
-<g id="edge73" class="edge"><title>\\PluginFusioninventoryDeployGroup&#45;&gt;\\CommonDBTM</title>
-<path fill="none" stroke="black" d="M1089.1,-4401.07C1056.33,-4397.92 1023.63,-4387.6 1001.67,-4363 861.683,-4206.19 1068.45,-737.888 929.674,-580 911.825,-559.693 884.017,-552.271 857.313,-550.61"/>
-<polygon fill="none" stroke="black" points="857.276,-547.107 847.155,-550.241 857.022,-554.102 857.276,-547.107"/>
-</g>
-<!-- \\PluginFusioninventoryConfiguration -->
-<g id="node85" class="node"><title>\\PluginFusioninventoryConfiguration</title>
-<polygon fill="none" stroke="black" points="1328.67,-4354 1082.67,-4354 1082.67,-4318 1328.67,-4318 1328.67,-4354"/>
-<text text-anchor="middle" x="1205.67" y="-4333.2" font-family="Courier,monospace" font-size="11.00">PluginFusioninventoryConfiguration</text>
-</g>
-<!-- \\PluginFusioninventoryConfiguration&#45;&gt;\\CommonDBTM -->
-<g id="edge74" class="edge"><title>\\PluginFusioninventoryConfiguration&#45;&gt;\\CommonDBTM</title>
-<path fill="none" stroke="black" d="M1082.48,-4346.33C1051.98,-4342.46 1022.16,-4331.94 1001.67,-4309 863.659,-4154.45 1066.49,-735.616 929.674,-580 911.822,-559.695 884.014,-552.274 857.31,-550.613"/>
-<polygon fill="none" stroke="black" points="857.273,-547.109 847.153,-550.243 857.019,-554.105 857.273,-547.109"/>
-</g>
-<!-- \\PluginFusioninventoryIPRange_ConfigSecurity -->
-<g id="node86" class="node"><title>\\PluginFusioninventoryIPRange_ConfigSecurity</title>
-<polygon fill="none" stroke="black" points="1359.17,-1492 1052.17,-1492 1052.17,-1456 1359.17,-1456 1359.17,-1492"/>
-<text text-anchor="middle" x="1205.67" y="-1471.2" font-family="Courier,monospace" font-size="11.00">PluginFusioninventoryIPRange_ConfigSecurity</text>
-</g>
-<!-- \\PluginFusioninventoryIPRange_ConfigSecurity&#45;&gt;\\CommonDBRelation -->
-<g id="edge75" class="edge"><title>\\PluginFusioninventoryIPRange_ConfigSecurity&#45;&gt;\\CommonDBRelation</title>
-<path fill="none" stroke="black" d="M1051.99,-1477.08C1032.96,-1471.17 1015.4,-1461.66 1001.67,-1447 837.558,-1271.76 1089.5,-548.161 929.674,-369 916.88,-354.659 899.209,-346.335 880.527,-341.753"/>
-<polygon fill="none" stroke="black" points="881.191,-338.317 870.686,-339.686 879.753,-345.167 881.191,-338.317"/>
-</g>
-<!-- \\PluginFusioninventoryInventoryComputerLibhook -->
-<g id="node87" class="node"><title>\\PluginFusioninventoryInventoryComputerLibhook</title>
-<polygon fill="none" stroke="black" points="1365.67,-2086 1045.67,-2086 1045.67,-2050 1365.67,-2050 1365.67,-2086"/>
-<text text-anchor="middle" x="1205.67" y="-2065.2" font-family="Courier,monospace" font-size="11.00">PluginFusioninventoryInventoryComputerLibhook</text>
-</g>
-<!-- \\PluginFusioninventoryInventoryComputerStorage_Storage -->
-<g id="node88" class="node"><title>\\PluginFusioninventoryInventoryComputerStorage_Storage</title>
-<polygon fill="none" stroke="black" points="1392.67,-4246 1018.67,-4246 1018.67,-4210 1392.67,-4210 1392.67,-4246"/>
-<text text-anchor="middle" x="1205.67" y="-4225.2" font-family="Courier,monospace" font-size="11.00">PluginFusioninventoryInventoryComputerStorage_Storage</text>
-</g>
-<!-- \\PluginFusioninventoryInventoryComputerStorage_Storage&#45;&gt;\\CommonDBTM -->
-<g id="edge76" class="edge"><title>\\PluginFusioninventoryInventoryComputerStorage_Storage&#45;&gt;\\CommonDBTM</title>
-<path fill="none" stroke="black" d="M1018.55,-4215.89C1012.44,-4211.63 1006.77,-4206.7 1001.67,-4201 867.611,-4050.96 1062.57,-731.072 929.674,-580 911.817,-559.701 884.007,-552.28 857.304,-550.618"/>
-<polygon fill="none" stroke="black" points="857.268,-547.115 847.147,-550.249 857.013,-554.11 857.268,-547.115"/>
-</g>
-<!-- \\PluginFusioninventoryConfigLogField -->
-<g id="node89" class="node"><title>\\PluginFusioninventoryConfigLogField</title>
-<polygon fill="none" stroke="black" points="1332.17,-4192 1079.17,-4192 1079.17,-4156 1332.17,-4156 1332.17,-4192"/>
-<text text-anchor="middle" x="1205.67" y="-4171.2" font-family="Courier,monospace" font-size="11.00">PluginFusioninventoryConfigLogField</text>
-</g>
-<!-- \\PluginFusioninventoryConfigLogField&#45;&gt;\\CommonDBTM -->
-<g id="edge77" class="edge"><title>\\PluginFusioninventoryConfigLogField&#45;&gt;\\CommonDBTM</title>
-<path fill="none" stroke="black" d="M1079.06,-4183.86C1049.76,-4179.64 1021.4,-4169.07 1001.67,-4147 869.588,-3999.22 1060.61,-728.801 929.674,-580 911.814,-559.703 884.003,-552.284 857.301,-550.621"/>
-<polygon fill="none" stroke="black" points="857.265,-547.118 847.144,-550.251 857.01,-554.113 857.265,-547.118"/>
-</g>
-<!-- \\PluginFusioninventoryTask&#45;&gt;\\PluginFusioninventoryTaskView -->
-<g id="edge78" class="edge"><title>\\PluginFusioninventoryTask&#45;&gt;\\PluginFusioninventoryTaskView</title>
-<path fill="none" stroke="black" d="M688.231,-5902C646.766,-5902 597.298,-5902 553.336,-5902"/>
-<polygon fill="none" stroke="black" points="553.169,-5898.5 543.169,-5902 553.169,-5905.5 553.169,-5898.5"/>
+<g id="edge14" class="edge"><title>\\PluginFusioninventoryTimeslot&#45;&gt;\\CommonDBTM</title>
+<path fill="none" stroke="black" d="M1099.62,-2781.66C1063.54,-2779.73 1026.13,-2770.02 1001.67,-2743 836.67,-2560.67 1090.22,-717.271 929.674,-531 912.832,-511.459 886.946,-502.985 861.515,-499.944"/>
+<polygon fill="none" stroke="black" points="861.715,-496.448 851.434,-499.007 861.067,-503.418 861.715,-496.448"/>
+</g>
+<!-- \\PluginFusioninventoryInventoryRuleImport -->
+<g id="node17" class="node"><title>\\PluginFusioninventoryInventoryRuleImport</title>
+<polygon fill="none" stroke="black" points="1349.17,-1114 1062.17,-1114 1062.17,-1078 1349.17,-1078 1349.17,-1114"/>
+<text text-anchor="middle" x="1205.67" y="-1093.2" font-family="Courier,monospace" font-size="11.00">PluginFusioninventoryInventoryRuleImport</text>
+</g>
+<!-- \\Rule -->
+<g id="node122" class="node"><title>\\Rule</title>
+<ellipse fill="none" stroke="black" cx="780.837" cy="-288" rx="29.795" ry="18"/>
+<text text-anchor="middle" x="780.837" y="-284.3" font-family="Times,serif" font-size="14.00" fill="gray">\Rule</text>
+</g>
+<!-- \\PluginFusioninventoryInventoryRuleImport&#45;&gt;\\Rule -->
+<g id="edge15" class="edge"><title>\\PluginFusioninventoryInventoryRuleImport&#45;&gt;\\Rule</title>
+<path fill="none" stroke="black" d="M1062.1,-1101.38C1039.34,-1095.88 1017.96,-1085.9 1001.67,-1069 884.879,-947.798 1043.5,-438.993 929.674,-315 902.411,-285.302 854.201,-281.618 820.262,-283.364"/>
+<polygon fill="none" stroke="black" points="819.961,-279.876 810.226,-284.057 820.444,-286.86 819.961,-279.876"/>
 </g>
 <!-- \\PluginFusioninventoryPrinterLogReport -->
-<g id="node91" class="node"><title>\\PluginFusioninventoryPrinterLogReport</title>
-<polygon fill="none" stroke="black" points="1338.67,-4138 1072.67,-4138 1072.67,-4102 1338.67,-4102 1338.67,-4138"/>
-<text text-anchor="middle" x="1205.67" y="-4117.2" font-family="Courier,monospace" font-size="11.00">PluginFusioninventoryPrinterLogReport</text>
+<g id="node18" class="node"><title>\\PluginFusioninventoryPrinterLogReport</title>
+<polygon fill="none" stroke="black" points="1338.67,-2734 1072.67,-2734 1072.67,-2698 1338.67,-2698 1338.67,-2734"/>
+<text text-anchor="middle" x="1205.67" y="-2713.2" font-family="Courier,monospace" font-size="11.00">PluginFusioninventoryPrinterLogReport</text>
 </g>
 <!-- \\PluginFusioninventoryPrinterLogReport&#45;&gt;\\CommonDBTM -->
-<g id="edge79" class="edge"><title>\\PluginFusioninventoryPrinterLogReport&#45;&gt;\\CommonDBTM</title>
-<path fill="none" stroke="black" d="M1072.48,-4128.79C1045.56,-4123.98 1019.92,-4113.41 1001.67,-4093 871.564,-3947.48 1058.65,-726.529 929.674,-580 911.81,-559.706 884,-552.287 857.297,-550.624"/>
-<polygon fill="none" stroke="black" points="857.262,-547.121 847.141,-550.254 857.007,-554.116 857.262,-547.121"/>
+<g id="edge16" class="edge"><title>\\PluginFusioninventoryPrinterLogReport&#45;&gt;\\CommonDBTM</title>
+<path fill="none" stroke="black" d="M1072.41,-2724.57C1045.57,-2719.75 1019.99,-2709.22 1001.67,-2689 840.621,-2511.18 1086.37,-712.665 929.674,-531 912.824,-511.466 886.937,-502.993 861.506,-499.952"/>
+<polygon fill="none" stroke="black" points="861.707,-496.456 851.426,-499.015 861.059,-503.426 861.707,-496.456"/>
 </g>
-<!-- \\PluginFusioninventoryCollect -->
-<g id="node92" class="node"><title>\\PluginFusioninventoryCollect</title>
-<polygon fill="none" stroke="black" points="1308.67,-4084 1102.67,-4084 1102.67,-4048 1308.67,-4048 1308.67,-4084"/>
-<text text-anchor="middle" x="1205.67" y="-4063.2" font-family="Courier,monospace" font-size="11.00">PluginFusioninventoryCollect</text>
+<!-- \\PluginFusioninventoryDeployFile -->
+<g id="node19" class="node"><title>\\PluginFusioninventoryDeployFile</title>
+<polygon fill="none" stroke="black" points="1318.67,-2680 1092.67,-2680 1092.67,-2644 1318.67,-2644 1318.67,-2680"/>
+<text text-anchor="middle" x="1205.67" y="-2659.2" font-family="Courier,monospace" font-size="11.00">PluginFusioninventoryDeployFile</text>
 </g>
-<!-- \\PluginFusioninventoryCollect&#45;&gt;\\CommonDBTM -->
-<g id="edge80" class="edge"><title>\\PluginFusioninventoryCollect&#45;&gt;\\CommonDBTM</title>
-<path fill="none" stroke="black" d="M1102.61,-4077.97C1065.55,-4076.46 1026.68,-4066.96 1001.67,-4039 873.54,-3895.73 1056.69,-724.257 929.674,-580 911.807,-559.709 883.996,-552.29 857.294,-550.627"/>
-<polygon fill="none" stroke="black" points="857.259,-547.124 847.138,-550.257 857.003,-554.119 857.259,-547.124"/>
+<!-- \\PluginFusioninventoryDeployFile&#45;&gt;\\CommonDBTM -->
+<g id="edge17" class="edge"><title>\\PluginFusioninventoryDeployFile&#45;&gt;\\CommonDBTM</title>
+<path fill="none" stroke="black" d="M1092.5,-2673.16C1058.7,-2670.35 1024.54,-2660.22 1001.67,-2635 844.573,-2461.69 1082.53,-708.059 929.674,-531 912.816,-511.473 886.926,-503.002 861.497,-499.96"/>
+<polygon fill="none" stroke="black" points="861.698,-496.464 851.417,-499.022 861.049,-503.434 861.698,-496.464"/>
+</g>
+<!-- \\PluginFusioninventoryDeployMirror -->
+<g id="node20" class="node"><title>\\PluginFusioninventoryDeployMirror</title>
+<polygon fill="none" stroke="black" points="1325.17,-2626 1086.17,-2626 1086.17,-2590 1325.17,-2590 1325.17,-2626"/>
+<text text-anchor="middle" x="1205.67" y="-2605.2" font-family="Courier,monospace" font-size="11.00">PluginFusioninventoryDeployMirror</text>
+</g>
+<!-- \\PluginFusioninventoryDeployMirror&#45;&gt;\\CommonDBTM -->
+<g id="edge18" class="edge"><title>\\PluginFusioninventoryDeployMirror&#45;&gt;\\CommonDBTM</title>
+<path fill="none" stroke="black" d="M1086.16,-2618.53C1054.47,-2615.01 1023.11,-2604.63 1001.67,-2581 848.524,-2412.2 1078.69,-703.453 929.674,-531 912.882,-511.568 887.146,-503.087 861.827,-500.01"/>
+<polygon fill="none" stroke="black" points="862.075,-496.518 851.789,-499.057 861.413,-503.486 862.075,-496.518"/>
+</g>
+<!-- \\PluginFusioninventoryInventoryNetworkEquipmentLib -->
+<g id="node21" class="node"><title>\\PluginFusioninventoryInventoryNetworkEquipmentLib</title>
+<polygon fill="none" stroke="black" points="1379.17,-2572 1032.17,-2572 1032.17,-2536 1379.17,-2536 1379.17,-2572"/>
+<text text-anchor="middle" x="1205.67" y="-2551.2" font-family="Courier,monospace" font-size="11.00">PluginFusioninventoryInventoryNetworkEquipmentLib</text>
+</g>
+<!-- \\PluginFusioninventoryInventoryNetworkEquipmentLib&#45;&gt;\\CommonDBTM -->
+<g id="edge19" class="edge"><title>\\PluginFusioninventoryInventoryNetworkEquipmentLib&#45;&gt;\\CommonDBTM</title>
+<path fill="none" stroke="black" d="M1032.12,-2549.68C1020.76,-2544.02 1010.4,-2536.61 1001.67,-2527 852.475,-2362.72 1074.85,-698.847 929.674,-531 912.873,-511.576 887.135,-503.097 861.817,-500.019"/>
+<polygon fill="none" stroke="black" points="862.065,-496.527 851.779,-499.065 861.403,-503.495 862.065,-496.527"/>
 </g>
 <!-- \\PluginFusioninventoryMapping -->
-<g id="node93" class="node"><title>\\PluginFusioninventoryMapping</title>
-<polygon fill="none" stroke="black" points="1308.67,-4030 1102.67,-4030 1102.67,-3994 1308.67,-3994 1308.67,-4030"/>
-<text text-anchor="middle" x="1205.67" y="-4009.2" font-family="Courier,monospace" font-size="11.00">PluginFusioninventoryMapping</text>
+<g id="node22" class="node"><title>\\PluginFusioninventoryMapping</title>
+<polygon fill="none" stroke="black" points="1308.67,-2518 1102.67,-2518 1102.67,-2482 1308.67,-2482 1308.67,-2518"/>
+<text text-anchor="middle" x="1205.67" y="-2497.2" font-family="Courier,monospace" font-size="11.00">PluginFusioninventoryMapping</text>
 </g>
 <!-- \\PluginFusioninventoryMapping&#45;&gt;\\CommonDBTM -->
-<g id="edge81" class="edge"><title>\\PluginFusioninventoryMapping&#45;&gt;\\CommonDBTM</title>
-<path fill="none" stroke="black" d="M1102.62,-4023.96C1065.56,-4022.45 1026.68,-4012.95 1001.67,-3985 875.516,-3843.99 1054.73,-721.985 929.674,-580 911.88,-559.798 884.228,-552.357 857.631,-550.652"/>
-<polygon fill="none" stroke="black" points="857.639,-547.15 847.512,-550.264 857.371,-554.145 857.639,-547.15"/>
+<g id="edge20" class="edge"><title>\\PluginFusioninventoryMapping&#45;&gt;\\CommonDBTM</title>
+<path fill="none" stroke="black" d="M1102.58,-2511.74C1065.63,-2510.17 1026.84,-2500.69 1001.67,-2473 856.426,-2313.23 1071.01,-694.241 929.674,-531 912.863,-511.584 887.123,-503.108 861.806,-500.028"/>
+<polygon fill="none" stroke="black" points="862.054,-496.536 851.768,-499.074 861.392,-503.505 862.054,-496.536"/>
 </g>
-<!-- \\PluginFusioninventoryNetworkPortLog -->
-<g id="node94" class="node"><title>\\PluginFusioninventoryNetworkPortLog</title>
-<polygon fill="none" stroke="black" points="1332.17,-3976 1079.17,-3976 1079.17,-3940 1332.17,-3940 1332.17,-3976"/>
-<text text-anchor="middle" x="1205.67" y="-3955.2" font-family="Courier,monospace" font-size="11.00">PluginFusioninventoryNetworkPortLog</text>
+<!-- \\PluginFusioninventoryInventoryComputerComputer -->
+<g id="node23" class="node"><title>\\PluginFusioninventoryInventoryComputerComputer</title>
+<polygon fill="none" stroke="black" points="1369.17,-2464 1042.17,-2464 1042.17,-2428 1369.17,-2428 1369.17,-2464"/>
+<text text-anchor="middle" x="1205.67" y="-2443.2" font-family="Courier,monospace" font-size="11.00">PluginFusioninventoryInventoryComputerComputer</text>
 </g>
-<!-- \\PluginFusioninventoryNetworkPortLog&#45;&gt;\\CommonDBTM -->
-<g id="edge82" class="edge"><title>\\PluginFusioninventoryNetworkPortLog&#45;&gt;\\CommonDBTM</title>
-<path fill="none" stroke="black" d="M1079.08,-3967.84C1049.78,-3963.62 1021.41,-3953.06 1001.67,-3931 877.493,-3792.24 1052.78,-719.714 929.674,-580 911.876,-559.801 884.224,-552.361 857.628,-550.655"/>
-<polygon fill="none" stroke="black" points="857.635,-547.153 847.509,-550.267 857.367,-554.148 857.635,-547.153"/>
+<!-- \\PluginFusioninventoryInventoryComputerComputer&#45;&gt;\\CommonDBTM -->
+<g id="edge21" class="edge"><title>\\PluginFusioninventoryInventoryComputerComputer&#45;&gt;\\CommonDBTM</title>
+<path fill="none" stroke="black" d="M1041.69,-2445.91C1026.58,-2439.9 1012.8,-2431.23 1001.67,-2419 860.377,-2263.74 1067.17,-689.636 929.674,-531 912.853,-511.593 887.11,-503.119 861.794,-500.038"/>
+<polygon fill="none" stroke="black" points="862.043,-496.546 851.757,-499.084 861.381,-503.515 862.043,-496.546"/>
 </g>
-<!-- \\PluginFusioninventoryConfig -->
-<g id="node95" class="node"><title>\\PluginFusioninventoryConfig</title>
-<polygon fill="none" stroke="black" points="1305.17,-3868 1106.17,-3868 1106.17,-3832 1305.17,-3832 1305.17,-3868"/>
-<text text-anchor="middle" x="1205.67" y="-3847.2" font-family="Courier,monospace" font-size="11.00">PluginFusioninventoryConfig</text>
+<!-- \\PluginFusioninventoryConfiguration -->
+<g id="node24" class="node"><title>\\PluginFusioninventoryConfiguration</title>
+<polygon fill="none" stroke="black" points="1328.67,-5974 1082.67,-5974 1082.67,-5938 1328.67,-5938 1328.67,-5974"/>
+<text text-anchor="middle" x="1205.67" y="-5953.2" font-family="Courier,monospace" font-size="11.00">PluginFusioninventoryConfiguration</text>
 </g>
-<!-- \\PluginFusioninventoryConfig&#45;&gt;\\CommonDBTM -->
-<g id="edge83" class="edge"><title>\\PluginFusioninventoryConfig&#45;&gt;\\CommonDBTM</title>
-<path fill="none" stroke="black" d="M1106.05,-3862.06C1067.98,-3861.01 1027.47,-3851.8 1001.67,-3823 881.445,-3688.76 1048.86,-715.17 929.674,-580 911.869,-559.808 884.216,-552.368 857.62,-550.662"/>
-<polygon fill="none" stroke="black" points="857.628,-547.16 847.502,-550.274 857.36,-554.155 857.628,-547.16"/>
+<!-- \\PluginFusioninventoryConfiguration&#45;&gt;\\CommonDBTM -->
+<g id="edge22" class="edge"><title>\\PluginFusioninventoryConfiguration&#45;&gt;\\CommonDBTM</title>
+<path fill="none" stroke="black" d="M1082.66,-5966.45C1052.06,-5962.6 1022.15,-5952.07 1001.67,-5929 802.575,-5704.7 1123.28,-760.05 929.674,-531 912.946,-511.21 886.947,-502.712 861.387,-499.722"/>
+<polygon fill="none" stroke="black" points="861.529,-496.221 851.255,-498.809 860.9,-503.193 861.529,-496.221"/>
 </g>
-<!-- \\PluginFusioninventoryComputerOperatingSystem -->
-<g id="node96" class="node"><title>\\PluginFusioninventoryComputerOperatingSystem</title>
-<polygon fill="none" stroke="black" points="1362.67,-2356 1048.67,-2356 1048.67,-2320 1362.67,-2320 1362.67,-2356"/>
-<text text-anchor="middle" x="1205.67" y="-2335.2" font-family="Courier,monospace" font-size="11.00">PluginFusioninventoryComputerOperatingSystem</text>
+<!-- \\PluginFusioninventoryDeployTask -->
+<g id="node25" class="node"><title>\\PluginFusioninventoryDeployTask</title>
+<polygon fill="none" stroke="black" points="1318.67,-6136 1092.67,-6136 1092.67,-6100 1318.67,-6100 1318.67,-6136"/>
+<text text-anchor="middle" x="1205.67" y="-6115.2" font-family="Courier,monospace" font-size="11.00">PluginFusioninventoryDeployTask</text>
 </g>
-<!-- \\PluginFusioninventoryComputerOperatingSystem&#45;&gt;\\CommonDropdown -->
-<g id="edge84" class="edge"><title>\\PluginFusioninventoryComputerOperatingSystem&#45;&gt;\\CommonDropdown</title>
-<path fill="none" stroke="black" d="M1048.63,-2340.42C1030.82,-2334.41 1014.49,-2325.05 1001.67,-2311 868.279,-2164.76 1059.49,-680.425 929.674,-531 915.64,-514.847 895.426,-506.273 874.431,-502.079"/>
-<polygon fill="none" stroke="black" points="874.86,-498.602 864.419,-500.403 873.704,-505.506 874.86,-498.602"/>
+<!-- \\PluginFusioninventoryTask -->
+<g id="node113" class="node"><title>\\PluginFusioninventoryTask</title>
+<polygon fill="none" stroke="black" points="873.337,-5920 688.337,-5920 688.337,-5884 873.337,-5884 873.337,-5920"/>
+<text text-anchor="middle" x="780.837" y="-5899.2" font-family="Courier,monospace" font-size="11.00">PluginFusioninventoryTask</text>
 </g>
-<!-- \\PluginFusioninventoryComputerOSKernelName -->
-<g id="node97" class="node"><title>\\PluginFusioninventoryComputerOSKernelName</title>
-<polygon fill="none" stroke="black" points="1352.17,-2032 1059.17,-2032 1059.17,-1996 1352.17,-1996 1352.17,-2032"/>
-<text text-anchor="middle" x="1205.67" y="-2011.2" font-family="Courier,monospace" font-size="11.00">PluginFusioninventoryComputerOSKernelName</text>
+<!-- \\PluginFusioninventoryDeployTask&#45;&gt;\\PluginFusioninventoryTask -->
+<g id="edge23" class="edge"><title>\\PluginFusioninventoryDeployTask&#45;&gt;\\PluginFusioninventoryTask</title>
+<path fill="none" stroke="black" d="M1092.67,-6122.97C1060.72,-6119.4 1027.58,-6110.38 1001.67,-6091 938.589,-6043.79 991.597,-5977.72 929.674,-5929 916.304,-5918.48 900.154,-5911.57 883.507,-5907.11"/>
+<polygon fill="none" stroke="black" points="884.206,-5903.68 873.666,-5904.76 882.579,-5910.49 884.206,-5903.68"/>
 </g>
-<!-- \\PluginFusioninventoryComputerOSKernelName&#45;&gt;\\CommonDropdown -->
-<g id="edge85" class="edge"><title>\\PluginFusioninventoryComputerOSKernelName&#45;&gt;\\CommonDropdown</title>
-<path fill="none" stroke="black" d="M1059.14,-2019.4C1037.32,-2013.72 1017.02,-2003.68 1001.67,-1987 891.979,-1867.82 1036.45,-652.797 929.674,-531 915.642,-514.995 895.541,-506.449 874.662,-502.233"/>
-<polygon fill="none" stroke="black" points="875.15,-498.766 864.705,-500.543 873.979,-505.667 875.15,-498.766"/>
+<!-- \\PluginFusioninventoryIgnoredimportdevice -->
+<g id="node26" class="node"><title>\\PluginFusioninventoryIgnoredimportdevice</title>
+<polygon fill="none" stroke="black" points="1349.17,-5920 1062.17,-5920 1062.17,-5884 1349.17,-5884 1349.17,-5920"/>
+<text text-anchor="middle" x="1205.67" y="-5899.2" font-family="Courier,monospace" font-size="11.00">PluginFusioninventoryIgnoredimportdevice</text>
 </g>
-<!-- \\PluginFusioninventoryNetworkPort -->
-<g id="node99" class="node"><title>\\PluginFusioninventoryNetworkPort</title>
-<polygon fill="none" stroke="black" points="1322.17,-3814 1089.17,-3814 1089.17,-3778 1322.17,-3778 1322.17,-3814"/>
-<text text-anchor="middle" x="1205.67" y="-3793.2" font-family="Courier,monospace" font-size="11.00">PluginFusioninventoryNetworkPort</text>
-</g>
-<!-- \\PluginFusioninventoryNetworkPort&#45;&gt;\\CommonDBTM -->
-<g id="edge86" class="edge"><title>\\PluginFusioninventoryNetworkPort&#45;&gt;\\CommonDBTM</title>
-<path fill="none" stroke="black" d="M1089.15,-3807.03C1056.38,-3803.87 1023.68,-3793.56 1001.67,-3769 883.421,-3637.01 1046.9,-712.899 929.674,-580 911.865,-559.811 884.211,-552.372 857.616,-550.665"/>
-<polygon fill="none" stroke="black" points="857.625,-547.163 847.498,-550.277 857.356,-554.158 857.625,-547.163"/>
-</g>
-<!-- \\PluginFusioninventoryModule -->
-<g id="node100" class="node"><title>\\PluginFusioninventoryModule</title>
-<polygon fill="none" stroke="black" points="1305.17,-3706 1106.17,-3706 1106.17,-3670 1305.17,-3670 1305.17,-3706"/>
-<text text-anchor="middle" x="1205.67" y="-3685.2" font-family="Courier,monospace" font-size="11.00">PluginFusioninventoryModule</text>
-</g>
-<!-- \\PluginFusioninventoryModule&#45;&gt;\\CommonDBTM -->
-<g id="edge87" class="edge"><title>\\PluginFusioninventoryModule&#45;&gt;\\CommonDBTM</title>
-<path fill="none" stroke="black" d="M1106.07,-3700.05C1068,-3698.99 1027.49,-3689.79 1001.67,-3661 887.373,-3533.53 1042.98,-708.355 929.674,-580 911.857,-559.818 884.202,-552.381 857.608,-550.673"/>
-<polygon fill="none" stroke="black" points="857.617,-547.171 847.49,-550.284 857.348,-554.166 857.617,-547.171"/>
-</g>
-<!-- \\PluginFusioninventoryInventoryRuleEntityCollection -->
-<g id="node101" class="node"><title>\\PluginFusioninventoryInventoryRuleEntityCollection</title>
-<polygon fill="none" stroke="black" points="1382.67,-1060 1028.67,-1060 1028.67,-1024 1382.67,-1024 1382.67,-1060"/>
-<text text-anchor="middle" x="1205.67" y="-1039.2" font-family="Courier,monospace" font-size="11.00">PluginFusioninventoryInventoryRuleEntityCollection</text>
-</g>
-<!-- \\PluginFusioninventoryInventoryRuleEntityCollection&#45;&gt;\\RuleCollection -->
-<g id="edge88" class="edge"><title>\\PluginFusioninventoryInventoryRuleEntityCollection&#45;&gt;\\RuleCollection</title>
-<path fill="none" stroke="black" d="M1028.6,-1034.91C1018.71,-1029.71 1009.6,-1023.16 1001.67,-1015 892.755,-902.794 1035.84,-429.81 929.674,-315 911.139,-294.957 883.058,-286.788 856.332,-284.134"/>
-<polygon fill="none" stroke="black" points="856.411,-280.63 846.178,-283.374 855.888,-287.611 856.411,-280.63"/>
+<!-- \\PluginFusioninventoryIgnoredimportdevice&#45;&gt;\\CommonDBTM -->
+<g id="edge24" class="edge"><title>\\PluginFusioninventoryIgnoredimportdevice&#45;&gt;\\CommonDBTM</title>
+<path fill="none" stroke="black" d="M1061.97,-5908.71C1038.93,-5903.15 1017.49,-5892.81 1001.67,-5875 804.552,-5652.96 1121.36,-757.747 929.674,-531 912.945,-511.211 886.945,-502.713 861.386,-499.724"/>
+<polygon fill="none" stroke="black" points="861.527,-496.222 851.253,-498.811 860.899,-503.194 861.527,-496.222"/>
 </g>
 <!-- \\PluginFusioninventoryInventoryComputerStorageType -->
-<g id="node102" class="node"><title>\\PluginFusioninventoryInventoryComputerStorageType</title>
+<g id="node27" class="node"><title>\\PluginFusioninventoryInventoryComputerStorageType</title>
 <polygon fill="none" stroke="black" points="1379.17,-1870 1032.17,-1870 1032.17,-1834 1379.17,-1834 1379.17,-1870"/>
 <text text-anchor="middle" x="1205.67" y="-1849.2" font-family="Courier,monospace" font-size="11.00">PluginFusioninventoryInventoryComputerStorageType</text>
 </g>
 <!-- \\PluginFusioninventoryInventoryComputerStorageType&#45;&gt;\\CommonDropdown -->
-<g id="edge89" class="edge"><title>\\PluginFusioninventoryInventoryComputerStorageType&#45;&gt;\\CommonDropdown</title>
-<path fill="none" stroke="black" d="M1031.86,-1847.26C1020.64,-1841.67 1010.37,-1834.39 1001.67,-1825 805.978,-1613.7 1120.2,-746.975 929.674,-531 915.593,-515.038 895.473,-506.508 874.594,-502.293"/>
-<polygon fill="none" stroke="black" points="875.082,-498.826 864.637,-500.603 873.91,-505.727 875.082,-498.826"/>
+<g id="edge25" class="edge"><title>\\PluginFusioninventoryInventoryComputerStorageType&#45;&gt;\\CommonDropdown</title>
+<path fill="none" stroke="black" d="M1031.81,-1847.3C1020.6,-1841.71 1010.35,-1834.41 1001.67,-1825 790.183,-1595.66 1135.55,-657.387 929.674,-423 915.627,-407.008 895.52,-398.467 874.641,-394.251"/>
+<polygon fill="none" stroke="black" points="875.129,-390.784 864.684,-392.562 873.958,-397.686 875.129,-390.784"/>
 </g>
-<!-- \\PluginFusioninventoryComputerLicenseInfo -->
-<g id="node103" class="node"><title>\\PluginFusioninventoryComputerLicenseInfo</title>
-<polygon fill="none" stroke="black" points="1349.17,-3652 1062.17,-3652 1062.17,-3616 1349.17,-3616 1349.17,-3652"/>
-<text text-anchor="middle" x="1205.67" y="-3631.2" font-family="Courier,monospace" font-size="11.00">PluginFusioninventoryComputerLicenseInfo</text>
+<!-- \\PluginFusioninventoryToolbox -->
+<g id="node28" class="node"><title>\\PluginFusioninventoryToolbox</title>
+<polygon fill="none" stroke="black" points="1308.67,-4894 1102.67,-4894 1102.67,-4858 1308.67,-4858 1308.67,-4894"/>
+<text text-anchor="middle" x="1205.67" y="-4873.2" font-family="Courier,monospace" font-size="11.00">PluginFusioninventoryToolbox</text>
 </g>
-<!-- \\PluginFusioninventoryComputerLicenseInfo&#45;&gt;\\CommonDBTM -->
-<g id="edge90" class="edge"><title>\\PluginFusioninventoryComputerLicenseInfo&#45;&gt;\\CommonDBTM</title>
-<path fill="none" stroke="black" d="M1062.12,-3640.58C1039.06,-3635.03 1017.58,-3624.73 1001.67,-3607 889.349,-3481.78 1041.02,-706.084 929.674,-580 911.853,-559.822 884.197,-552.385 857.603,-550.677"/>
-<polygon fill="none" stroke="black" points="857.613,-547.175 847.486,-550.288 857.344,-554.169 857.613,-547.175"/>
+<!-- \\PluginFusioninventoryNetworkPortConnectionLog -->
+<g id="node29" class="node"><title>\\PluginFusioninventoryNetworkPortConnectionLog</title>
+<polygon fill="none" stroke="black" points="1365.67,-5866 1045.67,-5866 1045.67,-5830 1365.67,-5830 1365.67,-5866"/>
+<text text-anchor="middle" x="1205.67" y="-5845.2" font-family="Courier,monospace" font-size="11.00">PluginFusioninventoryNetworkPortConnectionLog</text>
+</g>
+<!-- \\PluginFusioninventoryNetworkPortConnectionLog&#45;&gt;\\CommonDBTM -->
+<g id="edge26" class="edge"><title>\\PluginFusioninventoryNetworkPortConnectionLog&#45;&gt;\\CommonDBTM</title>
+<path fill="none" stroke="black" d="M1045.3,-5849.69C1028.71,-5843.61 1013.59,-5834.43 1001.67,-5821 806.528,-5601.22 1119.44,-755.443 929.674,-531 912.943,-511.213 886.943,-502.715 861.384,-499.725"/>
+<polygon fill="none" stroke="black" points="861.526,-496.224 851.252,-498.812 860.897,-503.195 861.526,-496.224"/>
+</g>
+<!-- \\PluginFusioninventoryCollect_File_Content -->
+<g id="node30" class="node"><title>\\PluginFusioninventoryCollect_File_Content</title>
+<polygon fill="none" stroke="black" points="1352.17,-5812 1059.17,-5812 1059.17,-5776 1352.17,-5776 1352.17,-5812"/>
+<text text-anchor="middle" x="1205.67" y="-5791.2" font-family="Courier,monospace" font-size="11.00">PluginFusioninventoryCollect_File_Content</text>
+</g>
+<!-- \\PluginFusioninventoryCollect_File_Content&#45;&gt;\\CommonDBTM -->
+<g id="edge27" class="edge"><title>\\PluginFusioninventoryCollect_File_Content&#45;&gt;\\CommonDBTM</title>
+<path fill="none" stroke="black" d="M1059.14,-5800C1037.18,-5794.29 1016.84,-5784.08 1001.67,-5767 808.504,-5549.47 1117.52,-753.139 929.674,-531 912.942,-511.214 886.942,-502.716 861.383,-499.726"/>
+<polygon fill="none" stroke="black" points="861.524,-496.225 851.25,-498.813 860.896,-503.197 861.524,-496.225"/>
+</g>
+<!-- \\PluginFusioninventoryInventoryComputerStorage_Storage -->
+<g id="node31" class="node"><title>\\PluginFusioninventoryInventoryComputerStorage_Storage</title>
+<polygon fill="none" stroke="black" points="1392.67,-5758 1018.67,-5758 1018.67,-5722 1392.67,-5722 1392.67,-5758"/>
+<text text-anchor="middle" x="1205.67" y="-5737.2" font-family="Courier,monospace" font-size="11.00">PluginFusioninventoryInventoryComputerStorage_Storage</text>
+</g>
+<!-- \\PluginFusioninventoryInventoryComputerStorage_Storage&#45;&gt;\\CommonDBTM -->
+<g id="edge28" class="edge"><title>\\PluginFusioninventoryInventoryComputerStorage_Storage&#45;&gt;\\CommonDBTM</title>
+<path fill="none" stroke="black" d="M1018.51,-5727.93C1012.4,-5723.66 1006.75,-5718.72 1001.67,-5713 810.481,-5497.73 1115.6,-750.835 929.674,-531 912.94,-511.215 886.94,-502.718 861.381,-499.728"/>
+<polygon fill="none" stroke="black" points="861.523,-496.226 851.249,-498.814 860.894,-503.198 861.523,-496.226"/>
 </g>
 <!-- \\PluginFusioninventoryDeployPackage_User -->
-<g id="node104" class="node"><title>\\PluginFusioninventoryDeployPackage_User</title>
-<polygon fill="none" stroke="black" points="1345.67,-1546 1065.67,-1546 1065.67,-1510 1345.67,-1510 1345.67,-1546"/>
-<text text-anchor="middle" x="1205.67" y="-1525.2" font-family="Courier,monospace" font-size="11.00">PluginFusioninventoryDeployPackage_User</text>
+<g id="node32" class="node"><title>\\PluginFusioninventoryDeployPackage_User</title>
+<polygon fill="none" stroke="black" points="1345.67,-2410 1065.67,-2410 1065.67,-2374 1345.67,-2374 1345.67,-2410"/>
+<text text-anchor="middle" x="1205.67" y="-2389.2" font-family="Courier,monospace" font-size="11.00">PluginFusioninventoryDeployPackage_User</text>
 </g>
 <!-- \\PluginFusioninventoryDeployPackage_User&#45;&gt;\\CommonDBRelation -->
-<g id="edge91" class="edge"><title>\\PluginFusioninventoryDeployPackage_User&#45;&gt;\\CommonDBRelation</title>
-<path fill="none" stroke="black" d="M1065.54,-1534.71C1041.37,-1529.38 1018.6,-1519.13 1001.67,-1501 829.665,-1316.75 1097.17,-557.362 929.674,-369 916.903,-354.638 899.242,-346.306 880.562,-341.723"/>
-<polygon fill="none" stroke="black" points="881.227,-338.286 870.721,-339.655 879.788,-345.136 881.227,-338.286"/>
+<g id="edge29" class="edge"><title>\\PluginFusioninventoryDeployPackage_User&#45;&gt;\\CommonDBRelation</title>
+<path fill="none" stroke="black" d="M1065.43,-2399.1C1041.19,-2393.77 1018.42,-2383.41 1001.67,-2365 860.377,-2209.74 1067.17,-635.636 929.674,-477 916.941,-462.31 899.096,-453.883 880.193,-449.319"/>
+<polygon fill="none" stroke="black" points="880.733,-445.857 870.233,-447.272 879.324,-452.714 880.733,-445.857"/>
 </g>
-<!-- \\PluginFusioninventoryCollect_File -->
-<g id="node105" class="node"><title>\\PluginFusioninventoryCollect_File</title>
-<polygon fill="none" stroke="black" points="1325.17,-3598 1086.17,-3598 1086.17,-3562 1325.17,-3562 1325.17,-3598"/>
-<text text-anchor="middle" x="1205.67" y="-3577.2" font-family="Courier,monospace" font-size="11.00">PluginFusioninventoryCollect_File</text>
+<!-- \\PluginFusioninventoryConfigLogField -->
+<g id="node33" class="node"><title>\\PluginFusioninventoryConfigLogField</title>
+<polygon fill="none" stroke="black" points="1332.17,-5704 1079.17,-5704 1079.17,-5668 1332.17,-5668 1332.17,-5704"/>
+<text text-anchor="middle" x="1205.67" y="-5683.2" font-family="Courier,monospace" font-size="11.00">PluginFusioninventoryConfigLogField</text>
 </g>
-<!-- \\PluginFusioninventoryCollect_File&#45;&gt;\\CommonDBTM -->
-<g id="edge92" class="edge"><title>\\PluginFusioninventoryCollect_File&#45;&gt;\\CommonDBTM</title>
-<path fill="none" stroke="black" d="M1086,-3590.68C1054.31,-3587.16 1022.99,-3576.75 1001.67,-3553 891.326,-3430.04 1039.07,-703.812 929.674,-580 911.849,-559.826 884.192,-552.39 857.598,-550.681"/>
-<polygon fill="none" stroke="black" points="857.608,-547.179 847.481,-550.292 857.339,-554.174 857.608,-547.179"/>
-</g>
-<!-- \\PluginFusioninventoryTaskjoblog -->
-<g id="node106" class="node"><title>\\PluginFusioninventoryTaskjoblog</title>
-<polygon fill="none" stroke="black" points="1318.67,-3544 1092.67,-3544 1092.67,-3508 1318.67,-3508 1318.67,-3544"/>
-<text text-anchor="middle" x="1205.67" y="-3523.2" font-family="Courier,monospace" font-size="11.00">PluginFusioninventoryTaskjoblog</text>
-</g>
-<!-- \\PluginFusioninventoryTaskjoblog&#45;&gt;\\CommonDBTM -->
-<g id="edge93" class="edge"><title>\\PluginFusioninventoryTaskjoblog&#45;&gt;\\CommonDBTM</title>
-<path fill="none" stroke="black" d="M1092.63,-3537.31C1058.72,-3534.54 1024.48,-3524.4 1001.67,-3499 893.302,-3378.3 1037.11,-701.541 929.674,-580 911.844,-559.83 884.186,-552.394 857.594,-550.685"/>
-<polygon fill="none" stroke="black" points="857.604,-547.183 847.477,-550.296 857.335,-554.178 857.604,-547.183"/>
-</g>
-<!-- \\PluginFusioninventorySnmpmodelImportExport -->
-<g id="node107" class="node"><title>\\PluginFusioninventorySnmpmodelImportExport</title>
-<polygon fill="none" stroke="black" points="1355.67,-628 1055.67,-628 1055.67,-592 1355.67,-592 1355.67,-628"/>
-<text text-anchor="middle" x="1205.67" y="-607.2" font-family="Courier,monospace" font-size="11.00">PluginFusioninventorySnmpmodelImportExport</text>
-</g>
-<!-- \\CommonGLPI -->
-<g id="node127" class="node"><title>\\CommonGLPI</title>
-<ellipse fill="none" stroke="black" cx="780.837" cy="-18" rx="67.6881" ry="18"/>
-<text text-anchor="middle" x="780.837" y="-14.3" font-family="Times,serif" font-size="14.00" fill="gray">\CommonGLPI</text>
-</g>
-<!-- \\PluginFusioninventorySnmpmodelImportExport&#45;&gt;\\CommonGLPI -->
-<g id="edge94" class="edge"><title>\\PluginFusioninventorySnmpmodelImportExport&#45;&gt;\\CommonGLPI</title>
-<path fill="none" stroke="black" d="M1201.85,-591.855C1188.45,-512.36 1123.67,-192.243 929.674,-45 909.49,-29.6806 883.343,-22.0988 858.663,-18.5885"/>
-<polygon fill="none" stroke="black" points="858.914,-15.0934 848.565,-17.3599 858.069,-22.0422 858.914,-15.0934"/>
+<!-- \\PluginFusioninventoryConfigLogField&#45;&gt;\\CommonDBTM -->
+<g id="edge30" class="edge"><title>\\PluginFusioninventoryConfigLogField&#45;&gt;\\CommonDBTM</title>
+<path fill="none" stroke="black" d="M1078.97,-5695.94C1049.67,-5691.72 1021.33,-5681.13 1001.67,-5659 812.457,-5445.99 1113.68,-748.531 929.674,-531 912.939,-511.216 886.938,-502.719 861.38,-499.729"/>
+<polygon fill="none" stroke="black" points="861.521,-496.228 851.247,-498.816 860.893,-503.199 861.521,-496.228"/>
 </g>
 <!-- \\PluginFusioninventoryInventoryComputerCriteria -->
-<g id="node108" class="node"><title>\\PluginFusioninventoryInventoryComputerCriteria</title>
-<polygon fill="none" stroke="black" points="1369.17,-3490 1042.17,-3490 1042.17,-3454 1369.17,-3454 1369.17,-3490"/>
-<text text-anchor="middle" x="1205.67" y="-3469.2" font-family="Courier,monospace" font-size="11.00">PluginFusioninventoryInventoryComputerCriteria</text>
+<g id="node34" class="node"><title>\\PluginFusioninventoryInventoryComputerCriteria</title>
+<polygon fill="none" stroke="black" points="1369.17,-5650 1042.17,-5650 1042.17,-5614 1369.17,-5614 1369.17,-5650"/>
+<text text-anchor="middle" x="1205.67" y="-5629.2" font-family="Courier,monospace" font-size="11.00">PluginFusioninventoryInventoryComputerCriteria</text>
 </g>
 <!-- \\PluginFusioninventoryInventoryComputerCriteria&#45;&gt;\\CommonDBTM -->
-<g id="edge95" class="edge"><title>\\PluginFusioninventoryInventoryComputerCriteria&#45;&gt;\\CommonDBTM</title>
-<path fill="none" stroke="black" d="M1042.02,-3472.25C1026.75,-3466.21 1012.84,-3457.43 1001.67,-3445 788.882,-3208.1 1140.62,-818.538 929.674,-580 911.84,-559.834 884.181,-552.399 857.589,-550.689"/>
-<polygon fill="none" stroke="black" points="857.599,-547.187 847.472,-550.3 857.33,-554.182 857.599,-547.187"/>
-</g>
-<!-- \\PluginFusioninventoryMenu -->
-<g id="node109" class="node"><title>\\PluginFusioninventoryMenu</title>
-<polygon fill="none" stroke="black" points="1298.17,-736 1113.17,-736 1113.17,-700 1298.17,-700 1298.17,-736"/>
-<text text-anchor="middle" x="1205.67" y="-715.2" font-family="Courier,monospace" font-size="11.00">PluginFusioninventoryMenu</text>
-</g>
-<!-- \\PluginFusioninventoryMenu&#45;&gt;\\CommonGLPI -->
-<g id="edge96" class="edge"><title>\\PluginFusioninventoryMenu&#45;&gt;\\CommonGLPI</title>
-<path fill="none" stroke="black" d="M1113.02,-729.031C1073.57,-728.522 1030.09,-720.026 1001.67,-691 799.578,-484.568 1126.71,-256.263 929.674,-45 911.133,-25.1206 883.196,-16.9504 856.582,-14.2511"/>
-<polygon fill="none" stroke="black" points="856.709,-10.7506 846.47,-13.4714 856.171,-17.7299 856.709,-10.7506"/>
+<g id="edge31" class="edge"><title>\\PluginFusioninventoryInventoryComputerCriteria&#45;&gt;\\CommonDBTM</title>
+<path fill="none" stroke="black" d="M1041.88,-5632.37C1026.64,-5626.31 1012.77,-5617.49 1001.67,-5605 814.434,-5394.24 1111.76,-746.227 929.674,-531 912.937,-511.217 886.936,-502.721 861.378,-499.73"/>
+<polygon fill="none" stroke="black" points="861.52,-496.229 851.246,-498.817 860.891,-503.201 861.52,-496.229"/>
 </g>
 <!-- \\PluginFusioninventoryTaskjobstate -->
-<g id="node110" class="node"><title>\\PluginFusioninventoryTaskjobstate</title>
-<polygon fill="none" stroke="black" points="1325.17,-3436 1086.17,-3436 1086.17,-3400 1325.17,-3400 1325.17,-3436"/>
-<text text-anchor="middle" x="1205.67" y="-3415.2" font-family="Courier,monospace" font-size="11.00">PluginFusioninventoryTaskjobstate</text>
+<g id="node35" class="node"><title>\\PluginFusioninventoryTaskjobstate</title>
+<polygon fill="none" stroke="black" points="1325.17,-5596 1086.17,-5596 1086.17,-5560 1325.17,-5560 1325.17,-5596"/>
+<text text-anchor="middle" x="1205.67" y="-5575.2" font-family="Courier,monospace" font-size="11.00">PluginFusioninventoryTaskjobstate</text>
 </g>
 <!-- \\PluginFusioninventoryTaskjobstate&#45;&gt;\\CommonDBTM -->
-<g id="edge97" class="edge"><title>\\PluginFusioninventoryTaskjobstate&#45;&gt;\\CommonDBTM</title>
-<path fill="none" stroke="black" d="M1086.02,-3428.66C1054.33,-3425.14 1023,-3414.73 1001.67,-3391 792.834,-3158.62 1136.71,-813.995 929.674,-580 911.835,-559.838 884.175,-552.404 857.584,-550.694"/>
-<polygon fill="none" stroke="black" points="857.595,-547.192 847.467,-550.304 857.325,-554.187 857.595,-547.192"/>
+<g id="edge32" class="edge"><title>\\PluginFusioninventoryTaskjobstate&#45;&gt;\\CommonDBTM</title>
+<path fill="none" stroke="black" d="M1086.11,-5588.84C1054.33,-5585.36 1022.93,-5574.92 1001.67,-5551 816.41,-5342.5 1109.84,-743.924 929.674,-531 912.936,-511.219 886.934,-502.722 861.376,-499.732"/>
+<polygon fill="none" stroke="black" points="861.518,-496.23 851.244,-498.818 860.89,-503.202 861.518,-496.23"/>
 </g>
-<!-- \\PluginFusioninventoryNetworkporttype -->
-<g id="node111" class="node"><title>\\PluginFusioninventoryNetworkporttype</title>
-<polygon fill="none" stroke="black" points="1335.67,-3382 1075.67,-3382 1075.67,-3346 1335.67,-3346 1335.67,-3382"/>
-<text text-anchor="middle" x="1205.67" y="-3361.2" font-family="Courier,monospace" font-size="11.00">PluginFusioninventoryNetworkporttype</text>
+<!-- \\PluginFusioninventoryCommunicationNetworkDiscovery -->
+<g id="node36" class="node"><title>\\PluginFusioninventoryCommunicationNetworkDiscovery</title>
+<polygon fill="none" stroke="black" points="1382.67,-4462 1028.67,-4462 1028.67,-4426 1382.67,-4426 1382.67,-4462"/>
+<text text-anchor="middle" x="1205.67" y="-4441.2" font-family="Courier,monospace" font-size="11.00">PluginFusioninventoryCommunicationNetworkDiscovery</text>
 </g>
-<!-- \\PluginFusioninventoryNetworkporttype&#45;&gt;\\CommonDBTM -->
-<g id="edge98" class="edge"><title>\\PluginFusioninventoryNetworkporttype&#45;&gt;\\CommonDBTM</title>
-<path fill="none" stroke="black" d="M1075.46,-3373.21C1047.48,-3368.65 1020.63,-3358.08 1001.67,-3337 796.786,-3109.13 1132.79,-809.452 929.674,-580 911.83,-559.842 884.169,-552.41 857.578,-550.699"/>
-<polygon fill="none" stroke="black" points="857.59,-547.197 847.462,-550.309 857.32,-554.192 857.59,-547.197"/>
+<!-- \\PluginFusioninventoryInventoryComputerBlacklist -->
+<g id="node37" class="node"><title>\\PluginFusioninventoryInventoryComputerBlacklist</title>
+<polygon fill="none" stroke="black" points="1372.67,-5542 1038.67,-5542 1038.67,-5506 1372.67,-5506 1372.67,-5542"/>
+<text text-anchor="middle" x="1205.67" y="-5521.2" font-family="Courier,monospace" font-size="11.00">PluginFusioninventoryInventoryComputerBlacklist</text>
 </g>
-<!-- \\PluginFusioninventoryCollect_Wmi_Content -->
-<g id="node112" class="node"><title>\\PluginFusioninventoryCollect_Wmi_Content</title>
-<polygon fill="none" stroke="black" points="1349.17,-3328 1062.17,-3328 1062.17,-3292 1349.17,-3292 1349.17,-3328"/>
-<text text-anchor="middle" x="1205.67" y="-3307.2" font-family="Courier,monospace" font-size="11.00">PluginFusioninventoryCollect_Wmi_Content</text>
+<!-- \\PluginFusioninventoryInventoryComputerBlacklist&#45;&gt;\\CommonDBTM -->
+<g id="edge33" class="edge"><title>\\PluginFusioninventoryInventoryComputerBlacklist&#45;&gt;\\CommonDBTM</title>
+<path fill="none" stroke="black" d="M1038.5,-5522.97C1024.59,-5516.97 1011.95,-5508.56 1001.67,-5497 818.386,-5290.76 1107.92,-741.62 929.674,-531 912.934,-511.22 886.933,-502.724 861.374,-499.733"/>
+<polygon fill="none" stroke="black" points="861.516,-496.232 851.243,-498.82 860.888,-503.204 861.516,-496.232"/>
 </g>
-<!-- \\PluginFusioninventoryCollect_Wmi_Content&#45;&gt;\\CommonDBTM -->
-<g id="edge99" class="edge"><title>\\PluginFusioninventoryCollect_Wmi_Content&#45;&gt;\\CommonDBTM</title>
-<path fill="none" stroke="black" d="M1062.16,-3316.54C1039.1,-3311 1017.61,-3300.71 1001.67,-3283 800.738,-3059.64 1128.87,-804.909 929.674,-580 911.824,-559.847 884.163,-552.415 857.573,-550.704"/>
-<polygon fill="none" stroke="black" points="857.585,-547.202 847.457,-550.313 857.314,-554.196 857.585,-547.202"/>
+<!-- \\PluginFusioninventoryCommonView&#45;&gt;\\CommonDBTM -->
+<g id="edge34" class="edge"><title>\\PluginFusioninventoryCommonView&#45;&gt;\\CommonDBTM</title>
+<path fill="none" stroke="black" d="M130.374,-5883.89C137.261,-5558.64 241.439,-957.3 632,-531 649.04,-512.401 674.294,-503.999 699.128,-500.745"/>
+<polygon fill="none" stroke="black" points="699.763,-504.198 709.347,-499.68 699.038,-497.236 699.763,-504.198"/>
+</g>
+<!-- \\PluginFusioninventoryInventoryComputerInventory -->
+<g id="node39" class="node"><title>\\PluginFusioninventoryInventoryComputerInventory</title>
+<polygon fill="none" stroke="black" points="1372.67,-4354 1038.67,-4354 1038.67,-4318 1372.67,-4318 1372.67,-4354"/>
+<text text-anchor="middle" x="1205.67" y="-4333.2" font-family="Courier,monospace" font-size="11.00">PluginFusioninventoryInventoryComputerInventory</text>
+</g>
+<!-- \\PluginFusioninventoryNetworkinventory -->
+<g id="node40" class="node"><title>\\PluginFusioninventoryNetworkinventory</title>
+<polygon fill="none" stroke="black" points="913.837,-6028 647.837,-6028 647.837,-5992 913.837,-5992 913.837,-6028"/>
+<text text-anchor="middle" x="780.837" y="-6007.2" font-family="Courier,monospace" font-size="11.00">PluginFusioninventoryNetworkinventory</text>
+</g>
+<!-- \\PluginFusioninventoryNetworkinventory&#45;&gt;\\PluginFusioninventoryCommunication -->
+<g id="edge35" class="edge"><title>\\PluginFusioninventoryNetworkinventory&#45;&gt;\\PluginFusioninventoryCommunication</title>
+<path fill="none" stroke="black" d="M665.535,-6028.06C632.324,-6033.3 595.898,-6039.06 562.116,-6044.39"/>
+<polygon fill="none" stroke="black" points="561.526,-6040.94 552.194,-6045.96 562.618,-6047.86 561.526,-6040.94"/>
+</g>
+<!-- \\PluginFusioninventoryProfile -->
+<g id="node41" class="node"><title>\\PluginFusioninventoryProfile</title>
+<polygon fill="none" stroke="black" points="1308.67,-898 1102.67,-898 1102.67,-862 1308.67,-862 1308.67,-898"/>
+<text text-anchor="middle" x="1205.67" y="-877.2" font-family="Courier,monospace" font-size="11.00">PluginFusioninventoryProfile</text>
+</g>
+<!-- \\Profile -->
+<g id="node123" class="node"><title>\\Profile</title>
+<ellipse fill="none" stroke="black" cx="780.837" cy="-234" rx="37.8943" ry="18"/>
+<text text-anchor="middle" x="780.837" y="-230.3" font-family="Times,serif" font-size="14.00" fill="gray">\Profile</text>
+</g>
+<!-- \\PluginFusioninventoryProfile&#45;&gt;\\Profile -->
+<g id="edge36" class="edge"><title>\\PluginFusioninventoryProfile&#45;&gt;\\Profile</title>
+<path fill="none" stroke="black" d="M1102.46,-890.554C1066.05,-888.677 1027.67,-879.292 1001.67,-853 815.308,-664.535 1111.42,-453.921 929.674,-261 904.086,-233.839 860.946,-228.6 827.852,-229.265"/>
+<polygon fill="none" stroke="black" points="827.352,-225.781 817.495,-229.668 827.624,-232.776 827.352,-225.781"/>
+</g>
+<!-- \\PluginFusioninventoryDeployPackage -->
+<g id="node42" class="node"><title>\\PluginFusioninventoryDeployPackage</title>
+<polygon fill="none" stroke="black" points="1328.67,-5488 1082.67,-5488 1082.67,-5452 1328.67,-5452 1328.67,-5488"/>
+<text text-anchor="middle" x="1205.67" y="-5467.2" font-family="Courier,monospace" font-size="11.00">PluginFusioninventoryDeployPackage</text>
+</g>
+<!-- \\PluginFusioninventoryDeployPackage&#45;&gt;\\CommonDBTM -->
+<g id="edge37" class="edge"><title>\\PluginFusioninventoryDeployPackage&#45;&gt;\\CommonDBTM</title>
+<path fill="none" stroke="black" d="M1082.41,-5480.4C1051.91,-5476.52 1022.1,-5465.99 1001.67,-5443 820.363,-5239.01 1105.99,-739.316 929.674,-531 912.933,-511.221 886.931,-502.725 861.373,-499.735"/>
+<polygon fill="none" stroke="black" points="861.515,-496.233 851.241,-498.821 860.886,-503.205 861.515,-496.233"/>
+</g>
+<!-- \\PluginFusioninventoryStateInventory -->
+<g id="node43" class="node"><title>\\PluginFusioninventoryStateInventory</title>
+<polygon fill="none" stroke="black" points="1332.17,-5434 1079.17,-5434 1079.17,-5398 1332.17,-5398 1332.17,-5434"/>
+<text text-anchor="middle" x="1205.67" y="-5413.2" font-family="Courier,monospace" font-size="11.00">PluginFusioninventoryStateInventory</text>
+</g>
+<!-- \\PluginFusioninventoryStateInventory&#45;&gt;\\CommonDBTM -->
+<g id="edge38" class="edge"><title>\\PluginFusioninventoryStateInventory&#45;&gt;\\CommonDBTM</title>
+<path fill="none" stroke="black" d="M1078.98,-5425.93C1049.68,-5421.71 1021.34,-5411.12 1001.67,-5389 822.339,-5187.27 1104.07,-737.012 929.674,-531 912.931,-511.223 886.929,-502.727 861.371,-499.736"/>
+<polygon fill="none" stroke="black" points="861.513,-496.235 851.239,-498.823 860.884,-503.207 861.513,-496.235"/>
+</g>
+<!-- \\PluginFusioninventoryComputerRemoteManagement -->
+<g id="node44" class="node"><title>\\PluginFusioninventoryComputerRemoteManagement</title>
+<polygon fill="none" stroke="black" points="1365.67,-5380 1045.67,-5380 1045.67,-5344 1365.67,-5344 1365.67,-5380"/>
+<text text-anchor="middle" x="1205.67" y="-5359.2" font-family="Courier,monospace" font-size="11.00">PluginFusioninventoryComputerRemoteManagement</text>
+</g>
+<!-- \\PluginFusioninventoryComputerRemoteManagement&#45;&gt;\\CommonDBTM -->
+<g id="edge39" class="edge"><title>\\PluginFusioninventoryComputerRemoteManagement&#45;&gt;\\CommonDBTM</title>
+<path fill="none" stroke="black" d="M1045.32,-5363.68C1028.73,-5357.59 1013.6,-5348.42 1001.67,-5335 824.315,-5135.53 1102.15,-734.708 929.674,-531 912.93,-511.224 886.927,-502.729 861.369,-499.738"/>
+<polygon fill="none" stroke="black" points="861.511,-496.237 851.237,-498.824 860.883,-503.208 861.511,-496.237"/>
+</g>
+<!-- \\PluginFusioninventoryComputerOSKernelVersion -->
+<g id="node45" class="node"><title>\\PluginFusioninventoryComputerOSKernelVersion</title>
+<polygon fill="none" stroke="black" points="1362.67,-2086 1048.67,-2086 1048.67,-2050 1362.67,-2050 1362.67,-2086"/>
+<text text-anchor="middle" x="1205.67" y="-2065.2" font-family="Courier,monospace" font-size="11.00">PluginFusioninventoryComputerOSKernelVersion</text>
+</g>
+<!-- \\PluginFusioninventoryComputerOSKernelVersion&#45;&gt;\\CommonDropdown -->
+<g id="edge40" class="edge"><title>\\PluginFusioninventoryComputerOSKernelVersion&#45;&gt;\\CommonDropdown</title>
+<path fill="none" stroke="black" d="M1048.18,-2070.21C1030.56,-2064.2 1014.4,-2054.9 1001.67,-2041 880.13,-1908.29 1047.97,-558.61 929.674,-423 915.608,-406.875 895.382,-398.311 874.386,-394.118"/>
+<polygon fill="none" stroke="black" points="874.815,-390.641 864.374,-392.442 873.659,-397.545 874.815,-390.641"/>
+</g>
+<!-- \\PluginFusioninventoryInventoryRuleEntity -->
+<g id="node46" class="node"><title>\\PluginFusioninventoryInventoryRuleEntity</title>
+<polygon fill="none" stroke="black" points="1349.17,-1168 1062.17,-1168 1062.17,-1132 1349.17,-1132 1349.17,-1168"/>
+<text text-anchor="middle" x="1205.67" y="-1147.2" font-family="Courier,monospace" font-size="11.00">PluginFusioninventoryInventoryRuleEntity</text>
+</g>
+<!-- \\PluginFusioninventoryInventoryRuleEntity&#45;&gt;\\Rule -->
+<g id="edge41" class="edge"><title>\\PluginFusioninventoryInventoryRuleEntity&#45;&gt;\\Rule</title>
+<path fill="none" stroke="black" d="M1062.01,-1155.47C1039.26,-1149.95 1017.9,-1139.95 1001.67,-1123 876.998,-992.799 1051.16,-448.181 929.674,-315 902.505,-285.216 854.275,-281.55 820.306,-283.323"/>
+<polygon fill="none" stroke="black" points="819.993,-279.837 810.261,-284.026 820.481,-286.82 819.993,-279.837"/>
+</g>
+<!-- \\PluginFusioninventoryPrinterLog -->
+<g id="node47" class="node"><title>\\PluginFusioninventoryPrinterLog</title>
+<polygon fill="none" stroke="black" points="1318.67,-5326 1092.67,-5326 1092.67,-5290 1318.67,-5290 1318.67,-5326"/>
+<text text-anchor="middle" x="1205.67" y="-5305.2" font-family="Courier,monospace" font-size="11.00">PluginFusioninventoryPrinterLog</text>
+</g>
+<!-- \\PluginFusioninventoryPrinterLog&#45;&gt;\\CommonDBTM -->
+<g id="edge42" class="edge"><title>\\PluginFusioninventoryPrinterLog&#45;&gt;\\CommonDBTM</title>
+<path fill="none" stroke="black" d="M1092.48,-5319.43C1058.57,-5316.68 1024.35,-5306.51 1001.67,-5281 826.292,-5083.78 1100.23,-732.404 929.674,-531 912.928,-511.226 886.925,-502.731 861.367,-499.739"/>
+<polygon fill="none" stroke="black" points="861.51,-496.238 851.236,-498.826 860.881,-503.21 861.51,-496.238"/>
+</g>
+<!-- \\PluginFusioninventoryInventoryRuleEntityCollection -->
+<g id="node48" class="node"><title>\\PluginFusioninventoryInventoryRuleEntityCollection</title>
+<polygon fill="none" stroke="black" points="1382.67,-1276 1028.67,-1276 1028.67,-1240 1382.67,-1240 1382.67,-1276"/>
+<text text-anchor="middle" x="1205.67" y="-1255.2" font-family="Courier,monospace" font-size="11.00">PluginFusioninventoryInventoryRuleEntityCollection</text>
+</g>
+<!-- \\PluginFusioninventoryInventoryRuleEntityCollection&#45;&gt;\\RuleCollection -->
+<g id="edge43" class="edge"><title>\\PluginFusioninventoryInventoryRuleEntityCollection&#45;&gt;\\RuleCollection</title>
+<path fill="none" stroke="black" d="M1028.42,-1251.08C1018.58,-1245.84 1009.52,-1239.24 1001.67,-1231 869.115,-1091.8 1058.82,-511.372 929.674,-369 911.254,-348.695 883.049,-340.509 856.194,-337.916"/>
+<polygon fill="none" stroke="black" points="856.217,-334.408 845.991,-337.182 855.714,-341.39 856.217,-334.408"/>
 </g>
 <!-- \\PluginFusioninventoryCommunicationRest -->
-<g id="node113" class="node"><title>\\PluginFusioninventoryCommunicationRest</title>
-<polygon fill="none" stroke="black" points="1342.17,-790 1069.17,-790 1069.17,-754 1342.17,-754 1342.17,-790"/>
-<text text-anchor="middle" x="1205.67" y="-769.2" font-family="Courier,monospace" font-size="11.00">PluginFusioninventoryCommunicationRest</text>
+<g id="node49" class="node"><title>\\PluginFusioninventoryCommunicationRest</title>
+<polygon fill="none" stroke="black" points="1342.17,-3868 1069.17,-3868 1069.17,-3832 1342.17,-3832 1342.17,-3868"/>
+<text text-anchor="middle" x="1205.67" y="-3847.2" font-family="Courier,monospace" font-size="11.00">PluginFusioninventoryCommunicationRest</text>
 </g>
-<!-- \\PluginFusioninventoryIPRange -->
-<g id="node114" class="node"><title>\\PluginFusioninventoryIPRange</title>
-<polygon fill="none" stroke="black" points="1308.67,-3058 1102.67,-3058 1102.67,-3022 1308.67,-3022 1308.67,-3058"/>
-<text text-anchor="middle" x="1205.67" y="-3037.2" font-family="Courier,monospace" font-size="11.00">PluginFusioninventoryIPRange</text>
+<!-- \\PluginFusioninventoryModule -->
+<g id="node50" class="node"><title>\\PluginFusioninventoryModule</title>
+<polygon fill="none" stroke="black" points="1305.17,-5272 1106.17,-5272 1106.17,-5236 1305.17,-5236 1305.17,-5272"/>
+<text text-anchor="middle" x="1205.67" y="-5251.2" font-family="Courier,monospace" font-size="11.00">PluginFusioninventoryModule</text>
 </g>
-<!-- \\PluginFusioninventoryIPRange&#45;&gt;\\CommonDBTM -->
-<g id="edge100" class="edge"><title>\\PluginFusioninventoryIPRange&#45;&gt;\\CommonDBTM</title>
-<path fill="none" stroke="black" d="M1102.48,-3051.84C1065.51,-3050.28 1026.74,-3040.78 1001.67,-3013 820.498,-2812.2 1109.29,-782.195 929.674,-580 911.795,-559.873 884.127,-552.447 857.541,-550.732"/>
-<polygon fill="none" stroke="black" points="857.555,-547.23 847.427,-550.34 857.284,-554.225 857.555,-547.23"/>
+<!-- \\PluginFusioninventoryModule&#45;&gt;\\CommonDBTM -->
+<g id="edge44" class="edge"><title>\\PluginFusioninventoryModule&#45;&gt;\\CommonDBTM</title>
+<path fill="none" stroke="black" d="M1105.95,-5266.15C1067.87,-5265.11 1027.37,-5255.89 1001.67,-5227 828.268,-5032.04 1098.31,-730.101 929.674,-531 912.926,-511.227 886.922,-502.732 861.365,-499.741"/>
+<polygon fill="none" stroke="black" points="861.508,-496.24 851.234,-498.827 860.879,-503.211 861.508,-496.24"/>
 </g>
-<!-- \\PluginFusioninventoryDeployFilepart -->
-<g id="node115" class="node"><title>\\PluginFusioninventoryDeployFilepart</title>
-<polygon fill="none" stroke="black" points="1332.17,-682 1079.17,-682 1079.17,-646 1332.17,-646 1332.17,-682"/>
-<text text-anchor="middle" x="1205.67" y="-661.2" font-family="Courier,monospace" font-size="11.00">PluginFusioninventoryDeployFilepart</text>
+<!-- \\PluginFusioninventoryInventoryComputerStorage -->
+<g id="node51" class="node"><title>\\PluginFusioninventoryInventoryComputerStorage</title>
+<polygon fill="none" stroke="black" points="1365.67,-5218 1045.67,-5218 1045.67,-5182 1365.67,-5182 1365.67,-5218"/>
+<text text-anchor="middle" x="1205.67" y="-5197.2" font-family="Courier,monospace" font-size="11.00">PluginFusioninventoryInventoryComputerStorage</text>
+</g>
+<!-- \\PluginFusioninventoryInventoryComputerStorage&#45;&gt;\\CommonDBTM -->
+<g id="edge45" class="edge"><title>\\PluginFusioninventoryInventoryComputerStorage&#45;&gt;\\CommonDBTM</title>
+<path fill="none" stroke="black" d="M1045.32,-5201.67C1028.73,-5195.59 1013.61,-5186.41 1001.67,-5173 830.245,-4980.3 1096.39,-727.797 929.674,-531 912.924,-511.229 886.92,-502.734 861.363,-499.743"/>
+<polygon fill="none" stroke="black" points="861.506,-496.241 851.232,-498.829 860.877,-503.213 861.506,-496.241"/>
+</g>
+<!-- \\PluginFusioninventoryInventoryComputerWebservice -->
+<g id="node52" class="node"><title>\\PluginFusioninventoryInventoryComputerWebservice</title>
+<polygon fill="none" stroke="black" points="1376.17,-3706 1035.17,-3706 1035.17,-3670 1376.17,-3670 1376.17,-3706"/>
+<text text-anchor="middle" x="1205.67" y="-3685.2" font-family="Courier,monospace" font-size="11.00">PluginFusioninventoryInventoryComputerWebservice</text>
 </g>
 <!-- \\PluginFusioninventoryDeployTaskjob -->
-<g id="node116" class="node"><title>\\PluginFusioninventoryDeployTaskjob</title>
-<polygon fill="none" stroke="black" points="1328.67,-3004 1082.67,-3004 1082.67,-2968 1328.67,-2968 1328.67,-3004"/>
-<text text-anchor="middle" x="1205.67" y="-2983.2" font-family="Courier,monospace" font-size="11.00">PluginFusioninventoryDeployTaskjob</text>
+<g id="node53" class="node"><title>\\PluginFusioninventoryDeployTaskjob</title>
+<polygon fill="none" stroke="black" points="1328.67,-5164 1082.67,-5164 1082.67,-5128 1328.67,-5128 1328.67,-5164"/>
+<text text-anchor="middle" x="1205.67" y="-5143.2" font-family="Courier,monospace" font-size="11.00">PluginFusioninventoryDeployTaskjob</text>
 </g>
 <!-- \\PluginFusioninventoryDeployTaskjob&#45;&gt;\\CommonDBTM -->
-<g id="edge101" class="edge"><title>\\PluginFusioninventoryDeployTaskjob&#45;&gt;\\CommonDBTM</title>
-<path fill="none" stroke="black" d="M1082.65,-2996.18C1052.14,-2992.31 1022.28,-2981.83 1001.67,-2959 824.449,-2762.72 1105.37,-777.652 929.674,-580 911.788,-559.879 884.119,-552.454 857.534,-550.738"/>
-<polygon fill="none" stroke="black" points="857.549,-547.236 847.421,-550.346 857.277,-554.231 857.549,-547.236"/>
+<g id="edge46" class="edge"><title>\\PluginFusioninventoryDeployTaskjob&#45;&gt;\\CommonDBTM</title>
+<path fill="none" stroke="black" d="M1082.43,-5156.38C1051.92,-5152.51 1022.12,-5141.98 1001.67,-5119 832.221,-4928.55 1094.47,-725.493 929.674,-531 912.923,-511.23 886.918,-502.736 861.361,-499.744"/>
+<polygon fill="none" stroke="black" points="861.504,-496.243 851.23,-498.83 860.875,-503.215 861.504,-496.243"/>
+</g>
+<!-- \\PluginFusioninventoryDeployCommon&#45;&gt;\\PluginFusioninventoryCommunication -->
+<g id="edge47" class="edge"><title>\\PluginFusioninventoryDeployCommon&#45;&gt;\\PluginFusioninventoryCommunication</title>
+<path fill="none" stroke="black" d="M661.238,-6064C631.873,-6064 600.227,-6064 570.255,-6064"/>
+<polygon fill="none" stroke="black" points="570.16,-6060.5 560.16,-6064 570.16,-6067.5 570.16,-6060.5"/>
+</g>
+<!-- \\PluginFusioninventoryCollect_File -->
+<g id="node55" class="node"><title>\\PluginFusioninventoryCollect_File</title>
+<polygon fill="none" stroke="black" points="1325.17,-5110 1086.17,-5110 1086.17,-5074 1325.17,-5074 1325.17,-5110"/>
+<text text-anchor="middle" x="1205.67" y="-5089.2" font-family="Courier,monospace" font-size="11.00">PluginFusioninventoryCollect_File</text>
+</g>
+<!-- \\PluginFusioninventoryCollect_File&#45;&gt;\\CommonDBTM -->
+<g id="edge48" class="edge"><title>\\PluginFusioninventoryCollect_File&#45;&gt;\\CommonDBTM</title>
+<path fill="none" stroke="black" d="M1086.14,-5102.82C1054.35,-5099.34 1022.95,-5088.9 1001.67,-5065 834.197,-4876.81 1092.55,-723.189 929.674,-531 912.921,-511.232 886.916,-502.738 861.359,-499.746"/>
+<polygon fill="none" stroke="black" points="861.502,-496.245 851.228,-498.832 860.873,-503.217 861.502,-496.245"/>
+</g>
+<!-- \\PluginFusioninventoryCollect_Wmi_Content -->
+<g id="node56" class="node"><title>\\PluginFusioninventoryCollect_Wmi_Content</title>
+<polygon fill="none" stroke="black" points="1349.17,-5056 1062.17,-5056 1062.17,-5020 1349.17,-5020 1349.17,-5056"/>
+<text text-anchor="middle" x="1205.67" y="-5035.2" font-family="Courier,monospace" font-size="11.00">PluginFusioninventoryCollect_Wmi_Content</text>
+</g>
+<!-- \\PluginFusioninventoryCollect_Wmi_Content&#45;&gt;\\CommonDBTM -->
+<g id="edge49" class="edge"><title>\\PluginFusioninventoryCollect_Wmi_Content&#45;&gt;\\CommonDBTM</title>
+<path fill="none" stroke="black" d="M1062.01,-5044.68C1038.96,-5039.12 1017.51,-5028.79 1001.67,-5011 836.174,-4825.07 1090.62,-720.885 929.674,-531 912.919,-511.233 886.914,-502.74 861.357,-499.748"/>
+<polygon fill="none" stroke="black" points="861.5,-496.247 851.226,-498.834 860.871,-503.218 861.5,-496.247"/>
+</g>
+<!-- \\PluginFusioninventoryMenu -->
+<g id="node57" class="node"><title>\\PluginFusioninventoryMenu</title>
+<polygon fill="none" stroke="black" points="1298.17,-844 1113.17,-844 1113.17,-808 1298.17,-808 1298.17,-844"/>
+<text text-anchor="middle" x="1205.67" y="-823.2" font-family="Courier,monospace" font-size="11.00">PluginFusioninventoryMenu</text>
+</g>
+<!-- \\CommonGLPI -->
+<g id="node124" class="node"><title>\\CommonGLPI</title>
+<ellipse fill="none" stroke="black" cx="780.837" cy="-180" rx="67.6881" ry="18"/>
+<text text-anchor="middle" x="780.837" y="-176.3" font-family="Times,serif" font-size="14.00" fill="gray">\CommonGLPI</text>
+</g>
+<!-- \\PluginFusioninventoryMenu&#45;&gt;\\CommonGLPI -->
+<g id="edge50" class="edge"><title>\\PluginFusioninventoryMenu&#45;&gt;\\CommonGLPI</title>
+<path fill="none" stroke="black" d="M1113.15,-836.899C1073.74,-836.363 1030.23,-827.883 1001.67,-799 815.308,-610.535 1111.42,-399.921 929.674,-207 911.033,-187.214 883.078,-179.061 856.477,-176.349"/>
+<polygon fill="none" stroke="black" points="856.612,-172.849 846.371,-175.564 856.07,-179.828 856.612,-172.849"/>
+</g>
+<!-- \\PluginFusioninventoryEntity -->
+<g id="node58" class="node"><title>\\PluginFusioninventoryEntity</title>
+<polygon fill="none" stroke="black" points="1305.17,-5002 1106.17,-5002 1106.17,-4966 1305.17,-4966 1305.17,-5002"/>
+<text text-anchor="middle" x="1205.67" y="-4981.2" font-family="Courier,monospace" font-size="11.00">PluginFusioninventoryEntity</text>
+</g>
+<!-- \\PluginFusioninventoryEntity&#45;&gt;\\CommonDBTM -->
+<g id="edge51" class="edge"><title>\\PluginFusioninventoryEntity&#45;&gt;\\CommonDBTM</title>
+<path fill="none" stroke="black" d="M1105.97,-4996.14C1067.88,-4995.09 1027.38,-4985.88 1001.67,-4957 838.15,-4773.32 1088.7,-718.582 929.674,-531 912.917,-511.235 886.911,-502.742 861.355,-499.75"/>
+<polygon fill="none" stroke="black" points="861.498,-496.249 851.224,-498.836 860.869,-503.22 861.498,-496.249"/>
+</g>
+<!-- \\PluginFusioninventoryFormatconvert -->
+<g id="node59" class="node"><title>\\PluginFusioninventoryFormatconvert</title>
+<polygon fill="none" stroke="black" points="1328.67,-3382 1082.67,-3382 1082.67,-3346 1328.67,-3346 1328.67,-3382"/>
+<text text-anchor="middle" x="1205.67" y="-3361.2" font-family="Courier,monospace" font-size="11.00">PluginFusioninventoryFormatconvert</text>
+</g>
+<!-- \\PluginFusioninventoryIPRange -->
+<g id="node60" class="node"><title>\\PluginFusioninventoryIPRange</title>
+<polygon fill="none" stroke="black" points="1308.67,-4948 1102.67,-4948 1102.67,-4912 1308.67,-4912 1308.67,-4948"/>
+<text text-anchor="middle" x="1205.67" y="-4927.2" font-family="Courier,monospace" font-size="11.00">PluginFusioninventoryIPRange</text>
+</g>
+<!-- \\PluginFusioninventoryIPRange&#45;&gt;\\CommonDBTM -->
+<g id="edge52" class="edge"><title>\\PluginFusioninventoryIPRange&#45;&gt;\\CommonDBTM</title>
+<path fill="none" stroke="black" d="M1102.55,-4942.02C1065.48,-4940.52 1026.62,-4931.01 1001.67,-4903 840.126,-4721.58 1086.78,-716.278 929.674,-531 912.915,-511.237 886.909,-502.744 861.353,-499.752"/>
+<polygon fill="none" stroke="black" points="861.496,-496.251 851.222,-498.837 860.867,-503.222 861.496,-496.251"/>
+</g>
+<!-- \\PluginFusioninventoryDeployGroup_Staticdata -->
+<g id="node61" class="node"><title>\\PluginFusioninventoryDeployGroup_Staticdata</title>
+<polygon fill="none" stroke="black" points="1359.17,-2356 1052.17,-2356 1052.17,-2320 1359.17,-2320 1359.17,-2356"/>
+<text text-anchor="middle" x="1205.67" y="-2335.2" font-family="Courier,monospace" font-size="11.00">PluginFusioninventoryDeployGroup_Staticdata</text>
+</g>
+<!-- \\PluginFusioninventoryDeployGroup_Staticdata&#45;&gt;\\CommonDBRelation -->
+<g id="edge53" class="edge"><title>\\PluginFusioninventoryDeployGroup_Staticdata&#45;&gt;\\CommonDBRelation</title>
+<path fill="none" stroke="black" d="M1052.13,-2341.58C1032.96,-2335.63 1015.32,-2325.98 1001.67,-2311 864.328,-2160.25 1063.33,-631.03 929.674,-477 916.932,-462.317 899.084,-453.893 880.181,-449.33"/>
+<polygon fill="none" stroke="black" points="880.721,-445.868 870.221,-447.283 879.311,-452.725 880.721,-445.868"/>
+</g>
+<!-- \\PluginFusioninventoryInventoryComputerLibhook -->
+<g id="node62" class="node"><title>\\PluginFusioninventoryInventoryComputerLibhook</title>
+<polygon fill="none" stroke="black" points="1365.67,-3220 1045.67,-3220 1045.67,-3184 1365.67,-3184 1365.67,-3220"/>
+<text text-anchor="middle" x="1205.67" y="-3199.2" font-family="Courier,monospace" font-size="11.00">PluginFusioninventoryInventoryComputerLibhook</text>
+</g>
+<!-- \\PluginFusioninventorySearch -->
+<g id="node63" class="node"><title>\\PluginFusioninventorySearch</title>
+<polygon fill="none" stroke="black" points="1305.17,-4840 1106.17,-4840 1106.17,-4804 1305.17,-4804 1305.17,-4840"/>
+<text text-anchor="middle" x="1205.67" y="-4819.2" font-family="Courier,monospace" font-size="11.00">PluginFusioninventorySearch</text>
+</g>
+<!-- \\PluginFusioninventorySearch&#45;&gt;\\CommonDBTM -->
+<g id="edge54" class="edge"><title>\\PluginFusioninventorySearch&#45;&gt;\\CommonDBTM</title>
+<path fill="none" stroke="black" d="M1105.98,-4834.13C1067.89,-4833.08 1027.39,-4823.87 1001.67,-4795 844.079,-4618.09 1082.94,-711.67 929.674,-531 912.911,-511.24 886.904,-502.748 861.348,-499.756"/>
+<polygon fill="none" stroke="black" points="861.492,-496.254 851.217,-498.841 860.862,-503.226 861.492,-496.254"/>
+</g>
+<!-- \\PluginFusioninventoryInventoryComputerChemistry -->
+<g id="node64" class="node"><title>\\PluginFusioninventoryInventoryComputerChemistry</title>
+<polygon fill="none" stroke="black" points="1372.67,-1546 1038.67,-1546 1038.67,-1510 1372.67,-1510 1372.67,-1546"/>
+<text text-anchor="middle" x="1205.67" y="-1525.2" font-family="Courier,monospace" font-size="11.00">PluginFusioninventoryInventoryComputerChemistry</text>
+</g>
+<!-- \\PluginFusioninventoryInventoryComputerChemistry&#45;&gt;\\CommonDropdown -->
+<g id="edge55" class="edge"><title>\\PluginFusioninventoryInventoryComputerChemistry&#45;&gt;\\CommonDropdown</title>
+<path fill="none" stroke="black" d="M1038.63,-1526.2C1024.79,-1520.33 1012.12,-1512.16 1001.67,-1501 837.558,-1325.76 1089.5,-602.161 929.674,-423 915.579,-407.201 895.566,-398.705 874.802,-394.47"/>
+<polygon fill="none" stroke="black" points="875.349,-391.013 864.901,-392.766 874.162,-397.911 875.349,-391.013"/>
+</g>
+<!-- \\PluginFusioninventoryCollect_Registry -->
+<g id="node65" class="node"><title>\\PluginFusioninventoryCollect_Registry</title>
+<polygon fill="none" stroke="black" points="1338.67,-4786 1072.67,-4786 1072.67,-4750 1338.67,-4750 1338.67,-4786"/>
+<text text-anchor="middle" x="1205.67" y="-4765.2" font-family="Courier,monospace" font-size="11.00">PluginFusioninventoryCollect_Registry</text>
+</g>
+<!-- \\PluginFusioninventoryCollect_Registry&#45;&gt;\\CommonDBTM -->
+<g id="edge56" class="edge"><title>\\PluginFusioninventoryCollect_Registry&#45;&gt;\\CommonDBTM</title>
+<path fill="none" stroke="black" d="M1072.43,-4776.84C1045.51,-4772.03 1019.89,-4761.44 1001.67,-4741 846.055,-4566.35 1081.02,-709.367 929.674,-531 912.909,-511.242 886.901,-502.751 861.346,-499.758"/>
+<polygon fill="none" stroke="black" points="861.489,-496.257 851.215,-498.843 860.86,-503.228 861.489,-496.257"/>
+</g>
+<!-- \\PluginFusioninventoryInventoryRuleLocationCollection -->
+<g id="node66" class="node"><title>\\PluginFusioninventoryInventoryRuleLocationCollection</title>
+<polygon fill="none" stroke="black" points="1389.67,-1330 1021.67,-1330 1021.67,-1294 1389.67,-1294 1389.67,-1330"/>
+<text text-anchor="middle" x="1205.67" y="-1309.2" font-family="Courier,monospace" font-size="11.00">PluginFusioninventoryInventoryRuleLocationCollection</text>
+</g>
+<!-- \\PluginFusioninventoryInventoryRuleLocationCollection&#45;&gt;\\RuleCollection -->
+<g id="edge57" class="edge"><title>\\PluginFusioninventoryInventoryRuleLocationCollection&#45;&gt;\\RuleCollection</title>
+<path fill="none" stroke="black" d="M1021.59,-1301.21C1014.37,-1296.68 1007.67,-1291.32 1001.67,-1285 861.229,-1136.79 1066.49,-520.566 929.674,-369 911.304,-348.65 883.107,-340.456 856.246,-337.869"/>
+<polygon fill="none" stroke="black" points="856.264,-334.361 846.04,-337.138 855.764,-341.343 856.264,-334.361"/>
+</g>
+<!-- \\PluginFusioninventoryInventoryRuleLocation -->
+<g id="node67" class="node"><title>\\PluginFusioninventoryInventoryRuleLocation</title>
+<polygon fill="none" stroke="black" points="1355.67,-1060 1055.67,-1060 1055.67,-1024 1355.67,-1024 1355.67,-1060"/>
+<text text-anchor="middle" x="1205.67" y="-1039.2" font-family="Courier,monospace" font-size="11.00">PluginFusioninventoryInventoryRuleLocation</text>
+</g>
+<!-- \\PluginFusioninventoryInventoryRuleLocation&#45;&gt;\\Rule -->
+<g id="edge58" class="edge"><title>\\PluginFusioninventoryInventoryRuleLocation&#45;&gt;\\Rule</title>
+<path fill="none" stroke="black" d="M1055.52,-1045.53C1035.26,-1039.76 1016.41,-1030.18 1001.67,-1015 892.755,-902.794 1035.84,-429.81 929.674,-315 902.303,-285.402 854.115,-281.697 820.211,-283.411"/>
+<polygon fill="none" stroke="black" points="819.925,-279.922 810.186,-284.094 820.401,-286.906 819.925,-279.922"/>
+</g>
+<!-- \\PluginFusioninventoryTaskjob -->
+<g id="node68" class="node"><title>\\PluginFusioninventoryTaskjob</title>
+<polygon fill="none" stroke="black" points="883.837,-6244 677.837,-6244 677.837,-6208 883.837,-6208 883.837,-6244"/>
+<text text-anchor="middle" x="780.837" y="-6223.2" font-family="Courier,monospace" font-size="11.00">PluginFusioninventoryTaskjob</text>
+</g>
+<!-- \\PluginFusioninventoryTaskjobView -->
+<g id="node78" class="node"><title>\\PluginFusioninventoryTaskjobView</title>
+<polygon fill="none" stroke="black" points="553.5,-6190 320.5,-6190 320.5,-6154 553.5,-6154 553.5,-6190"/>
+<text text-anchor="middle" x="437" y="-6169.2" font-family="Courier,monospace" font-size="11.00">PluginFusioninventoryTaskjobView</text>
+</g>
+<!-- \\PluginFusioninventoryTaskjob&#45;&gt;\\PluginFusioninventoryTaskjobView -->
+<g id="edge59" class="edge"><title>\\PluginFusioninventoryTaskjob&#45;&gt;\\PluginFusioninventoryTaskjobView</title>
+<path fill="none" stroke="black" d="M677.738,-6209.87C641.438,-6204.14 600.166,-6197.62 562.221,-6191.62"/>
+<polygon fill="none" stroke="black" points="562.558,-6188.13 552.134,-6190.03 561.465,-6195.05 562.558,-6188.13"/>
+</g>
+<!-- \\PluginFusioninventoryLock -->
+<g id="node69" class="node"><title>\\PluginFusioninventoryLock</title>
+<polygon fill="none" stroke="black" points="1298.17,-4732 1113.17,-4732 1113.17,-4696 1298.17,-4696 1298.17,-4732"/>
+<text text-anchor="middle" x="1205.67" y="-4711.2" font-family="Courier,monospace" font-size="11.00">PluginFusioninventoryLock</text>
+</g>
+<!-- \\PluginFusioninventoryLock&#45;&gt;\\CommonDBTM -->
+<g id="edge60" class="edge"><title>\\PluginFusioninventoryLock&#45;&gt;\\CommonDBTM</title>
+<path fill="none" stroke="black" d="M1113.04,-4726.23C1072.99,-4726.15 1029,-4717.66 1001.67,-4687 848.032,-4514.61 1079.1,-707.063 929.674,-531 912.906,-511.244 886.898,-502.753 861.343,-499.76"/>
+<polygon fill="none" stroke="black" points="861.487,-496.259 851.213,-498.845 860.857,-503.23 861.487,-496.259"/>
+</g>
+<!-- \\PluginFusioninventoryAgentWakeup -->
+<g id="node70" class="node"><title>\\PluginFusioninventoryAgentWakeup</title>
+<polygon fill="none" stroke="black" points="1322.17,-4678 1089.17,-4678 1089.17,-4642 1322.17,-4642 1322.17,-4678"/>
+<text text-anchor="middle" x="1205.67" y="-4657.2" font-family="Courier,monospace" font-size="11.00">PluginFusioninventoryAgentWakeup</text>
+</g>
+<!-- \\PluginFusioninventoryAgentWakeup&#45;&gt;\\CommonDBTM -->
+<g id="edge61" class="edge"><title>\\PluginFusioninventoryAgentWakeup&#45;&gt;\\CommonDBTM</title>
+<path fill="none" stroke="black" d="M1089.07,-4671.09C1056.31,-4667.94 1023.62,-4657.62 1001.67,-4633 850.008,-4462.86 1077.18,-704.759 929.674,-531 912.904,-511.246 886.896,-502.755 861.341,-499.762"/>
+<polygon fill="none" stroke="black" points="861.485,-496.261 851.21,-498.847 860.855,-503.232 861.485,-496.261"/>
+</g>
+<!-- \\PluginFusioninventoryNetworkPort -->
+<g id="node71" class="node"><title>\\PluginFusioninventoryNetworkPort</title>
+<polygon fill="none" stroke="black" points="1322.17,-4624 1089.17,-4624 1089.17,-4588 1322.17,-4588 1322.17,-4624"/>
+<text text-anchor="middle" x="1205.67" y="-4603.2" font-family="Courier,monospace" font-size="11.00">PluginFusioninventoryNetworkPort</text>
+</g>
+<!-- \\PluginFusioninventoryNetworkPort&#45;&gt;\\CommonDBTM -->
+<g id="edge62" class="edge"><title>\\PluginFusioninventoryNetworkPort&#45;&gt;\\CommonDBTM</title>
+<path fill="none" stroke="black" d="M1089.08,-4617.09C1056.31,-4613.94 1023.62,-4603.61 1001.67,-4579 851.984,-4411.12 1075.26,-702.455 929.674,-531 912.976,-511.335 887.124,-502.833 861.679,-499.804"/>
+<polygon fill="none" stroke="black" points="861.869,-496.307 851.59,-498.874 861.226,-503.278 861.869,-496.307"/>
+</g>
+<!-- \\PluginFusioninventorySnmpmodelImportExport -->
+<g id="node72" class="node"><title>\\PluginFusioninventorySnmpmodelImportExport</title>
+<polygon fill="none" stroke="black" points="1355.67,-790 1055.67,-790 1055.67,-754 1355.67,-754 1355.67,-790"/>
+<text text-anchor="middle" x="1205.67" y="-769.2" font-family="Courier,monospace" font-size="11.00">PluginFusioninventorySnmpmodelImportExport</text>
+</g>
+<!-- \\PluginFusioninventorySnmpmodelImportExport&#45;&gt;\\CommonGLPI -->
+<g id="edge63" class="edge"><title>\\PluginFusioninventorySnmpmodelImportExport&#45;&gt;\\CommonGLPI</title>
+<path fill="none" stroke="black" d="M1055.67,-775.054C1035.45,-769.333 1016.58,-759.889 1001.67,-745 831.02,-574.485 1096.15,-381.596 929.674,-207 910.995,-187.41 883.175,-179.264 856.692,-176.503"/>
+<polygon fill="none" stroke="black" points="856.877,-173.007 846.629,-175.696 856.317,-179.984 856.877,-173.007"/>
+</g>
+<!-- \\PluginFusioninventoryTimeslotEntry -->
+<g id="node73" class="node"><title>\\PluginFusioninventoryTimeslotEntry</title>
+<polygon fill="none" stroke="black" points="1328.67,-4570 1082.67,-4570 1082.67,-4534 1328.67,-4534 1328.67,-4570"/>
+<text text-anchor="middle" x="1205.67" y="-4549.2" font-family="Courier,monospace" font-size="11.00">PluginFusioninventoryTimeslotEntry</text>
+</g>
+<!-- \\PluginFusioninventoryTimeslotEntry&#45;&gt;\\CommonDBTM -->
+<g id="edge64" class="edge"><title>\\PluginFusioninventoryTimeslotEntry&#45;&gt;\\CommonDBTM</title>
+<path fill="none" stroke="black" d="M1082.46,-4562.35C1051.96,-4558.48 1022.14,-4547.95 1001.67,-4525 853.961,-4359.38 1073.33,-700.152 929.674,-531 912.974,-511.337 887.121,-502.836 861.676,-499.807"/>
+<polygon fill="none" stroke="black" points="861.866,-496.309 851.587,-498.876 861.223,-503.28 861.866,-496.309"/>
+</g>
+<!-- \\PluginFusioninventoryCollect_Registry_Content -->
+<g id="node74" class="node"><title>\\PluginFusioninventoryCollect_Registry_Content</title>
+<polygon fill="none" stroke="black" points="1365.67,-4516 1045.67,-4516 1045.67,-4480 1365.67,-4480 1365.67,-4516"/>
+<text text-anchor="middle" x="1205.67" y="-4495.2" font-family="Courier,monospace" font-size="11.00">PluginFusioninventoryCollect_Registry_Content</text>
+</g>
+<!-- \\PluginFusioninventoryCollect_Registry_Content&#45;&gt;\\CommonDBTM -->
+<g id="edge65" class="edge"><title>\\PluginFusioninventoryCollect_Registry_Content&#45;&gt;\\CommonDBTM</title>
+<path fill="none" stroke="black" d="M1045.36,-4499.64C1028.76,-4493.56 1013.63,-4484.4 1001.67,-4471 855.937,-4307.63 1071.41,-697.848 929.674,-531 912.972,-511.339 887.118,-502.838 861.673,-499.809"/>
+<polygon fill="none" stroke="black" points="861.864,-496.312 851.584,-498.879 861.221,-503.282 861.864,-496.312"/>
+</g>
+<!-- \\PluginFusioninventoryTaskjoblog -->
+<g id="node75" class="node"><title>\\PluginFusioninventoryTaskjoblog</title>
+<polygon fill="none" stroke="black" points="1318.67,-4408 1092.67,-4408 1092.67,-4372 1318.67,-4372 1318.67,-4408"/>
+<text text-anchor="middle" x="1205.67" y="-4387.2" font-family="Courier,monospace" font-size="11.00">PluginFusioninventoryTaskjoblog</text>
+</g>
+<!-- \\PluginFusioninventoryTaskjoblog&#45;&gt;\\CommonDBTM -->
+<g id="edge66" class="edge"><title>\\PluginFusioninventoryTaskjoblog&#45;&gt;\\CommonDBTM</title>
+<path fill="none" stroke="black" d="M1092.54,-4401.38C1058.63,-4398.63 1024.4,-4388.46 1001.67,-4363 859.889,-4204.14 1067.57,-693.24 929.674,-531 912.967,-511.344 887.112,-502.843 861.668,-499.814"/>
+<polygon fill="none" stroke="black" points="861.858,-496.317 851.579,-498.883 861.215,-503.287 861.858,-496.317"/>
+</g>
+<!-- \\PluginFusioninventoryDeployPackage_Profile -->
+<g id="node76" class="node"><title>\\PluginFusioninventoryDeployPackage_Profile</title>
+<polygon fill="none" stroke="black" points="1355.67,-2194 1055.67,-2194 1055.67,-2158 1355.67,-2158 1355.67,-2194"/>
+<text text-anchor="middle" x="1205.67" y="-2173.2" font-family="Courier,monospace" font-size="11.00">PluginFusioninventoryDeployPackage_Profile</text>
+</g>
+<!-- \\PluginFusioninventoryDeployPackage_Profile&#45;&gt;\\CommonDBRelation -->
+<g id="edge67" class="edge"><title>\\PluginFusioninventoryDeployPackage_Profile&#45;&gt;\\CommonDBRelation</title>
+<path fill="none" stroke="black" d="M1055.47,-2180.51C1035.03,-2174.67 1016.13,-2164.81 1001.67,-2149 876.18,-2011.78 1051.81,-617.215 929.674,-477 916.905,-462.341 899.044,-453.928 880.139,-449.367"/>
+<polygon fill="none" stroke="black" points="880.678,-445.904 870.178,-447.32 879.269,-452.761 880.678,-445.904"/>
+</g>
+<!-- \\PluginFusioninventoryAgent -->
+<g id="node77" class="node"><title>\\PluginFusioninventoryAgent</title>
+<polygon fill="none" stroke="black" points="1301.67,-4300 1109.67,-4300 1109.67,-4264 1301.67,-4264 1301.67,-4300"/>
+<text text-anchor="middle" x="1205.67" y="-4279.2" font-family="Courier,monospace" font-size="11.00">PluginFusioninventoryAgent</text>
+</g>
+<!-- \\PluginFusioninventoryAgent&#45;&gt;\\CommonDBTM -->
+<g id="edge68" class="edge"><title>\\PluginFusioninventoryAgent&#45;&gt;\\CommonDBTM</title>
+<path fill="none" stroke="black" d="M1109.42,-4294.17C1070.37,-4293.58 1028.2,-4284.7 1001.67,-4255 863.842,-4100.66 1063.73,-688.633 929.674,-531 912.961,-511.348 887.105,-502.849 861.661,-499.819"/>
+<polygon fill="none" stroke="black" points="861.853,-496.322 851.573,-498.888 861.209,-503.292 861.853,-496.322"/>
+</g>
+<!-- \\PluginFusioninventoryTaskjobView&#45;&gt;\\PluginFusioninventoryCommonView -->
+<g id="edge69" class="edge"><title>\\PluginFusioninventoryTaskjobView&#45;&gt;\\PluginFusioninventoryCommonView</title>
+<path fill="none" stroke="black" d="M404.901,-6153.9C379.457,-6138.5 343.059,-6115.1 314,-6091 250.326,-6038.18 184.892,-5965.79 151.889,-5927.76"/>
+<polygon fill="none" stroke="black" points="154.534,-5925.46 145.351,-5920.18 149.235,-5930.04 154.534,-5925.46"/>
+</g>
+<!-- \\PluginFusioninventoryCollectRule -->
+<g id="node79" class="node"><title>\\PluginFusioninventoryCollectRule</title>
+<polygon fill="none" stroke="black" points="1322.17,-1222 1089.17,-1222 1089.17,-1186 1322.17,-1186 1322.17,-1222"/>
+<text text-anchor="middle" x="1205.67" y="-1201.2" font-family="Courier,monospace" font-size="11.00">PluginFusioninventoryCollectRule</text>
+</g>
+<!-- \\PluginFusioninventoryCollectRule&#45;&gt;\\Rule -->
+<g id="edge70" class="edge"><title>\\PluginFusioninventoryCollectRule&#45;&gt;\\Rule</title>
+<path fill="none" stroke="black" d="M1088.99,-1214.09C1056.61,-1210.78 1024.17,-1200.62 1001.67,-1177 869.115,-1037.8 1058.82,-457.372 929.674,-315 902.587,-285.141 854.341,-281.49 820.345,-283.288"/>
+<polygon fill="none" stroke="black" points="820.02,-279.802 810.292,-283.998 820.513,-286.785 820.02,-279.802"/>
+</g>
+<!-- \\PluginFusioninventoryPrinter -->
+<g id="node80" class="node"><title>\\PluginFusioninventoryPrinter</title>
+<polygon fill="none" stroke="black" points="1308.67,-4246 1102.67,-4246 1102.67,-4210 1308.67,-4210 1308.67,-4246"/>
+<text text-anchor="middle" x="1205.67" y="-4225.2" font-family="Courier,monospace" font-size="11.00">PluginFusioninventoryPrinter</text>
+</g>
+<!-- \\PluginFusioninventoryPrinter&#45;&gt;\\CommonDBTM -->
+<g id="edge71" class="edge"><title>\\PluginFusioninventoryPrinter&#45;&gt;\\CommonDBTM</title>
+<path fill="none" stroke="black" d="M1102.6,-4239.98C1065.53,-4238.48 1026.66,-4228.97 1001.67,-4201 865.818,-4048.91 1061.81,-686.329 929.674,-531 912.958,-511.351 887.102,-502.852 861.658,-499.822"/>
+<polygon fill="none" stroke="black" points="861.85,-496.325 851.57,-498.891 861.206,-503.295 861.85,-496.325"/>
+</g>
+<!-- \\PluginFusioninventoryDeployPackage_Group -->
+<g id="node81" class="node"><title>\\PluginFusioninventoryDeployPackage_Group</title>
+<polygon fill="none" stroke="black" points="1349.17,-2140 1062.17,-2140 1062.17,-2104 1349.17,-2104 1349.17,-2140"/>
+<text text-anchor="middle" x="1205.67" y="-2119.2" font-family="Courier,monospace" font-size="11.00">PluginFusioninventoryDeployPackage_Group</text>
+</g>
+<!-- \\PluginFusioninventoryDeployPackage_Group&#45;&gt;\\CommonDBRelation -->
+<g id="edge72" class="edge"><title>\\PluginFusioninventoryDeployPackage_Group&#45;&gt;\\CommonDBRelation</title>
+<path fill="none" stroke="black" d="M1062.16,-2128.24C1039.17,-2122.71 1017.7,-2112.5 1001.67,-2095 880.13,-1962.29 1047.97,-612.61 929.674,-477 916.967,-462.434 899.234,-454.037 880.447,-449.459"/>
+<polygon fill="none" stroke="black" points="881.051,-446.01 870.548,-447.401 879.626,-452.863 881.051,-446.01"/>
+</g>
+<!-- \\PluginFusioninventoryInventoryComputerESX -->
+<g id="node82" class="node"><title>\\PluginFusioninventoryInventoryComputerESX</title>
+<polygon fill="none" stroke="black" points="927.337,-5974 634.337,-5974 634.337,-5938 927.337,-5938 927.337,-5974"/>
+<text text-anchor="middle" x="780.837" y="-5953.2" font-family="Courier,monospace" font-size="11.00">PluginFusioninventoryInventoryComputerESX</text>
+</g>
+<!-- \\PluginFusioninventoryInventoryComputerESX&#45;&gt;\\PluginFusioninventoryCommunication -->
+<g id="edge73" class="edge"><title>\\PluginFusioninventoryInventoryComputerESX&#45;&gt;\\PluginFusioninventoryCommunication</title>
+<path fill="none" stroke="black" d="M666.643,-5974.08C654.861,-5976.73 643.132,-5979.7 632,-5983 579.899,-5998.44 522.783,-6023.32 484.107,-6041.43"/>
+<polygon fill="none" stroke="black" points="482.233,-6038.45 474.686,-6045.88 485.223,-6044.78 482.233,-6038.45"/>
+</g>
+<!-- \\PluginFusioninventoryComputerOperatingSystemEdition -->
+<g id="node83" class="node"><title>\\PluginFusioninventoryComputerOperatingSystemEdition</title>
+<polygon fill="none" stroke="black" points="1386.17,-2032 1025.17,-2032 1025.17,-1996 1386.17,-1996 1386.17,-2032"/>
+<text text-anchor="middle" x="1205.67" y="-2011.2" font-family="Courier,monospace" font-size="11.00">PluginFusioninventoryComputerOperatingSystemEdition</text>
+</g>
+<!-- \\PluginFusioninventoryComputerOperatingSystemEdition&#45;&gt;\\CommonDropdown -->
+<g id="edge74" class="edge"><title>\\PluginFusioninventoryComputerOperatingSystemEdition&#45;&gt;\\CommonDropdown</title>
+<path fill="none" stroke="black" d="M1024.89,-2005.62C1016.36,-2000.61 1008.52,-1994.47 1001.67,-1987 884.08,-1858.8 1044.13,-554.006 929.674,-423 915.595,-406.886 895.365,-398.326 874.369,-394.133"/>
+<polygon fill="none" stroke="black" points="874.798,-390.656 864.357,-392.457 873.642,-397.56 874.798,-390.656"/>
+</g>
+<!-- \\PluginFusioninventoryComputerArch -->
+<g id="node84" class="node"><title>\\PluginFusioninventoryComputerArch</title>
+<polygon fill="none" stroke="black" points="1325.17,-1816 1086.17,-1816 1086.17,-1780 1325.17,-1780 1325.17,-1816"/>
+<text text-anchor="middle" x="1205.67" y="-1795.2" font-family="Courier,monospace" font-size="11.00">PluginFusioninventoryComputerArch</text>
+</g>
+<!-- \\PluginFusioninventoryComputerArch&#45;&gt;\\CommonDropdown -->
+<g id="edge75" class="edge"><title>\\PluginFusioninventoryComputerArch&#45;&gt;\\CommonDropdown</title>
+<path fill="none" stroke="black" d="M1086.17,-1808.25C1054.58,-1804.7 1023.27,-1794.37 1001.67,-1771 798.081,-1550.68 1127.87,-648.181 929.674,-423 915.611,-407.023 895.498,-398.487 874.618,-394.271"/>
+<polygon fill="none" stroke="black" points="875.106,-390.804 864.662,-392.582 873.935,-397.706 875.106,-390.804"/>
+</g>
+<!-- \\PluginFusioninventoryConfig -->
+<g id="node85" class="node"><title>\\PluginFusioninventoryConfig</title>
+<polygon fill="none" stroke="black" points="1305.17,-4192 1106.17,-4192 1106.17,-4156 1305.17,-4156 1305.17,-4192"/>
+<text text-anchor="middle" x="1205.67" y="-4171.2" font-family="Courier,monospace" font-size="11.00">PluginFusioninventoryConfig</text>
+</g>
+<!-- \\PluginFusioninventoryConfig&#45;&gt;\\CommonDBTM -->
+<g id="edge76" class="edge"><title>\\PluginFusioninventoryConfig&#45;&gt;\\CommonDBTM</title>
+<path fill="none" stroke="black" d="M1106.02,-4186.09C1067.94,-4185.04 1027.44,-4175.83 1001.67,-4147 867.794,-3997.17 1059.89,-684.026 929.674,-531 912.956,-511.353 887.098,-502.855 861.655,-499.824"/>
+<polygon fill="none" stroke="black" points="861.847,-496.327 851.567,-498.893 861.203,-503.298 861.847,-496.327"/>
+</g>
+<!-- \\PluginFusioninventoryCredential -->
+<g id="node86" class="node"><title>\\PluginFusioninventoryCredential</title>
+<polygon fill="none" stroke="black" points="1318.67,-1762 1092.67,-1762 1092.67,-1726 1318.67,-1726 1318.67,-1762"/>
+<text text-anchor="middle" x="1205.67" y="-1741.2" font-family="Courier,monospace" font-size="11.00">PluginFusioninventoryCredential</text>
+</g>
+<!-- \\PluginFusioninventoryCredential&#45;&gt;\\CommonDropdown -->
+<g id="edge77" class="edge"><title>\\PluginFusioninventoryCredential&#45;&gt;\\CommonDropdown</title>
+<path fill="none" stroke="black" d="M1092.55,-1754.84C1058.85,-1751.99 1024.74,-1741.91 1001.67,-1717 805.978,-1505.7 1120.2,-638.975 929.674,-423 915.593,-407.038 895.473,-398.508 874.594,-394.293"/>
+<polygon fill="none" stroke="black" points="875.082,-390.826 864.637,-392.603 873.91,-397.727 875.082,-390.826"/>
+</g>
+<!-- \\PluginFusioninventoryCollect -->
+<g id="node87" class="node"><title>\\PluginFusioninventoryCollect</title>
+<polygon fill="none" stroke="black" points="1308.67,-4138 1102.67,-4138 1102.67,-4102 1308.67,-4102 1308.67,-4138"/>
+<text text-anchor="middle" x="1205.67" y="-4117.2" font-family="Courier,monospace" font-size="11.00">PluginFusioninventoryCollect</text>
+</g>
+<!-- \\PluginFusioninventoryCollect&#45;&gt;\\CommonDBTM -->
+<g id="edge78" class="edge"><title>\\PluginFusioninventoryCollect&#45;&gt;\\CommonDBTM</title>
+<path fill="none" stroke="black" d="M1102.6,-4131.97C1065.54,-4130.47 1026.67,-4120.97 1001.67,-4093 869.771,-3945.43 1057.97,-681.722 929.674,-531 912.953,-511.356 887.095,-502.858 861.652,-499.827"/>
+<polygon fill="none" stroke="black" points="861.843,-496.33 851.564,-498.896 861.2,-503.301 861.843,-496.33"/>
+</g>
+<!-- \\PluginFusioninventoryNetworkPortLog -->
+<g id="node88" class="node"><title>\\PluginFusioninventoryNetworkPortLog</title>
+<polygon fill="none" stroke="black" points="1332.17,-4084 1079.17,-4084 1079.17,-4048 1332.17,-4048 1332.17,-4084"/>
+<text text-anchor="middle" x="1205.67" y="-4063.2" font-family="Courier,monospace" font-size="11.00">PluginFusioninventoryNetworkPortLog</text>
+</g>
+<!-- \\PluginFusioninventoryNetworkPortLog&#45;&gt;\\CommonDBTM -->
+<g id="edge79" class="edge"><title>\\PluginFusioninventoryNetworkPortLog&#45;&gt;\\CommonDBTM</title>
+<path fill="none" stroke="black" d="M1079.06,-4075.85C1049.77,-4071.63 1021.4,-4061.06 1001.67,-4039 871.747,-3893.68 1056.04,-679.418 929.674,-531 912.95,-511.358 887.091,-502.861 861.648,-499.83"/>
+<polygon fill="none" stroke="black" points="861.84,-496.333 851.561,-498.899 861.196,-503.304 861.84,-496.333"/>
+</g>
+<!-- \\PluginFusioninventoryLogger -->
+<g id="node89" class="node"><title>\\PluginFusioninventoryLogger</title>
+<polygon fill="none" stroke="black" points="1305.17,-1924 1106.17,-1924 1106.17,-1888 1305.17,-1888 1305.17,-1924"/>
+<text text-anchor="middle" x="1205.67" y="-1903.2" font-family="Courier,monospace" font-size="11.00">PluginFusioninventoryLogger</text>
+</g>
+<!-- \\PluginFusioninventoryComputerOperatingSystem -->
+<g id="node90" class="node"><title>\\PluginFusioninventoryComputerOperatingSystem</title>
+<polygon fill="none" stroke="black" points="1362.67,-1708 1048.67,-1708 1048.67,-1672 1362.67,-1672 1362.67,-1708"/>
+<text text-anchor="middle" x="1205.67" y="-1687.2" font-family="Courier,monospace" font-size="11.00">PluginFusioninventoryComputerOperatingSystem</text>
+</g>
+<!-- \\PluginFusioninventoryComputerOperatingSystem&#45;&gt;\\CommonDropdown -->
+<g id="edge80" class="edge"><title>\\PluginFusioninventoryComputerOperatingSystem&#45;&gt;\\CommonDropdown</title>
+<path fill="none" stroke="black" d="M1048.36,-1692.04C1030.71,-1686.06 1014.49,-1676.81 1001.67,-1663 813.875,-1460.72 1112.52,-629.77 929.674,-423 915.574,-407.055 895.447,-398.531 874.567,-394.317"/>
+<polygon fill="none" stroke="black" points="875.055,-390.85 864.611,-392.627 873.884,-397.751 875.055,-390.85"/>
+</g>
+<!-- \\PluginFusioninventoryRuleDictionnaryComputerArch -->
+<g id="node91" class="node"><title>\\PluginFusioninventoryRuleDictionnaryComputerArch</title>
+<polygon fill="none" stroke="black" points="1376.17,-736 1035.17,-736 1035.17,-700 1376.17,-700 1376.17,-736"/>
+<text text-anchor="middle" x="1205.67" y="-715.2" font-family="Courier,monospace" font-size="11.00">PluginFusioninventoryRuleDictionnaryComputerArch</text>
+</g>
+<!-- \\RuleDictionnaryDropdown -->
+<g id="node125" class="node"><title>\\RuleDictionnaryDropdown</title>
+<ellipse fill="none" stroke="black" cx="780.837" cy="-126" rx="111.28" ry="18"/>
+<text text-anchor="middle" x="780.837" y="-122.3" font-family="Times,serif" font-size="14.00" fill="gray">\RuleDictionnaryDropdown</text>
+</g>
+<!-- \\PluginFusioninventoryRuleDictionnaryComputerArch&#45;&gt;\\RuleDictionnaryDropdown -->
+<g id="edge81" class="edge"><title>\\PluginFusioninventoryRuleDictionnaryComputerArch&#45;&gt;\\RuleDictionnaryDropdown</title>
+<path fill="none" stroke="black" d="M1035.03,-713.6C1022.72,-708.051 1011.36,-700.675 1001.67,-691 831.02,-520.485 1096.15,-327.596 929.674,-153 921.234,-144.149 910.928,-137.634 899.723,-132.896"/>
+<polygon fill="none" stroke="black" points="900.713,-129.53 890.12,-129.322 898.272,-136.09 900.713,-129.53"/>
+</g>
+<!-- \\PluginFusioninventoryDisplay -->
+<g id="node92" class="node"><title>\\PluginFusioninventoryDisplay</title>
+<polygon fill="none" stroke="black" points="1308.67,-4030 1102.67,-4030 1102.67,-3994 1308.67,-3994 1308.67,-4030"/>
+<text text-anchor="middle" x="1205.67" y="-4009.2" font-family="Courier,monospace" font-size="11.00">PluginFusioninventoryDisplay</text>
+</g>
+<!-- \\PluginFusioninventoryDisplay&#45;&gt;\\CommonDBTM -->
+<g id="edge82" class="edge"><title>\\PluginFusioninventoryDisplay&#45;&gt;\\CommonDBTM</title>
+<path fill="none" stroke="black" d="M1102.61,-4023.97C1065.55,-4022.46 1026.68,-4012.96 1001.67,-3985 873.723,-3841.94 1054.12,-677.115 929.674,-531 912.946,-511.361 887.087,-502.865 861.645,-499.833"/>
+<polygon fill="none" stroke="black" points="861.837,-496.336 851.557,-498.902 861.193,-503.307 861.837,-496.336"/>
+</g>
+<!-- \\PluginFusioninventoryDeployGroup_Dynamicdata -->
+<g id="node93" class="node"><title>\\PluginFusioninventoryDeployGroup_Dynamicdata</title>
+<polygon fill="none" stroke="black" points="1362.67,-682 1048.67,-682 1048.67,-646 1362.67,-646 1362.67,-682"/>
+<text text-anchor="middle" x="1205.67" y="-661.2" font-family="Courier,monospace" font-size="11.00">PluginFusioninventoryDeployGroup_Dynamicdata</text>
+</g>
+<!-- \\CommonDBChild -->
+<g id="node126" class="node"><title>\\CommonDBChild</title>
+<ellipse fill="none" stroke="black" cx="780.837" cy="-72" rx="79.0865" ry="18"/>
+<text text-anchor="middle" x="780.837" y="-68.3" font-family="Times,serif" font-size="14.00" fill="gray">\CommonDBChild</text>
+</g>
+<!-- \\PluginFusioninventoryDeployGroup_Dynamicdata&#45;&gt;\\CommonDBChild -->
+<g id="edge83" class="edge"><title>\\PluginFusioninventoryDeployGroup_Dynamicdata&#45;&gt;\\CommonDBChild</title>
+<path fill="none" stroke="black" d="M1048.56,-664.868C1031.05,-659.026 1014.81,-650.13 1001.67,-637 831.02,-466.485 1096.15,-273.596 929.674,-99 913.912,-82.4691 891.641,-74.0869 869.157,-70.2134"/>
+<polygon fill="none" stroke="black" points="869.578,-66.738 859.181,-68.7782 868.581,-73.6667 869.578,-66.738"/>
+</g>
+<!-- \\PluginFusioninventoryConfigSecurity -->
+<g id="node94" class="node"><title>\\PluginFusioninventoryConfigSecurity</title>
+<polygon fill="none" stroke="black" points="1332.17,-3976 1079.17,-3976 1079.17,-3940 1332.17,-3940 1332.17,-3976"/>
+<text text-anchor="middle" x="1205.67" y="-3955.2" font-family="Courier,monospace" font-size="11.00">PluginFusioninventoryConfigSecurity</text>
+</g>
+<!-- \\PluginFusioninventoryConfigSecurity&#45;&gt;\\CommonDBTM -->
+<g id="edge84" class="edge"><title>\\PluginFusioninventoryConfigSecurity&#45;&gt;\\CommonDBTM</title>
+<path fill="none" stroke="black" d="M1079.07,-3967.84C1049.78,-3963.63 1021.41,-3953.06 1001.67,-3931 875.699,-3790.2 1052.2,-674.811 929.674,-531 912.943,-511.364 887.083,-502.868 861.641,-499.836"/>
+<polygon fill="none" stroke="black" points="861.833,-496.339 851.554,-498.905 861.189,-503.31 861.833,-496.339"/>
+</g>
+<!-- \\PluginFusioninventoryDeployFilepart -->
+<g id="node95" class="node"><title>\\PluginFusioninventoryDeployFilepart</title>
+<polygon fill="none" stroke="black" points="1332.17,-1600 1079.17,-1600 1079.17,-1564 1332.17,-1564 1332.17,-1600"/>
+<text text-anchor="middle" x="1205.67" y="-1579.2" font-family="Courier,monospace" font-size="11.00">PluginFusioninventoryDeployFilepart</text>
+</g>
+<!-- \\PluginFusioninventoryRulematchedlog -->
+<g id="node96" class="node"><title>\\PluginFusioninventoryRulematchedlog</title>
+<polygon fill="none" stroke="black" points="1332.17,-3922 1079.17,-3922 1079.17,-3886 1332.17,-3886 1332.17,-3922"/>
+<text text-anchor="middle" x="1205.67" y="-3901.2" font-family="Courier,monospace" font-size="11.00">PluginFusioninventoryRulematchedlog</text>
+</g>
+<!-- \\PluginFusioninventoryRulematchedlog&#45;&gt;\\CommonDBTM -->
+<g id="edge85" class="edge"><title>\\PluginFusioninventoryRulematchedlog&#45;&gt;\\CommonDBTM</title>
+<path fill="none" stroke="black" d="M1079.08,-3913.84C1049.78,-3909.62 1021.41,-3899.06 1001.67,-3877 877.676,-3738.45 1050.28,-672.507 929.674,-531 912.94,-511.367 887.079,-502.871 861.637,-499.84"/>
+<polygon fill="none" stroke="black" points="861.83,-496.343 851.55,-498.908 861.186,-503.313 861.83,-496.343"/>
+</g>
+<!-- \\PluginFusioninventoryDeployCheck -->
+<g id="node97" class="node"><title>\\PluginFusioninventoryDeployCheck</title>
+<polygon fill="none" stroke="black" points="1322.17,-1492 1089.17,-1492 1089.17,-1456 1322.17,-1456 1322.17,-1492"/>
+<text text-anchor="middle" x="1205.67" y="-1471.2" font-family="Courier,monospace" font-size="11.00">PluginFusioninventoryDeployCheck</text>
+</g>
+<!-- \\PluginFusioninventoryInventoryRuleImportCollection -->
+<g id="node98" class="node"><title>\\PluginFusioninventoryInventoryRuleImportCollection</title>
+<polygon fill="none" stroke="black" points="1382.67,-1438 1028.67,-1438 1028.67,-1402 1382.67,-1402 1382.67,-1438"/>
+<text text-anchor="middle" x="1205.67" y="-1417.2" font-family="Courier,monospace" font-size="11.00">PluginFusioninventoryInventoryRuleImportCollection</text>
+</g>
+<!-- \\PluginFusioninventoryInventoryRuleImportCollection&#45;&gt;\\RuleCollection -->
+<g id="edge86" class="edge"><title>\\PluginFusioninventoryInventoryRuleImportCollection&#45;&gt;\\RuleCollection</title>
+<path fill="none" stroke="black" d="M1028.29,-1413.2C1018.48,-1407.93 1009.47,-1401.29 1001.67,-1393 845.45,-1226.77 1081.83,-538.961 929.674,-369 911.388,-348.574 883.206,-340.367 856.334,-337.79"/>
+<polygon fill="none" stroke="black" points="856.345,-334.282 846.122,-337.064 855.848,-341.264 856.345,-334.282"/>
+</g>
+<!-- \\PluginFusioninventoryInventoryPrinterLib -->
+<g id="node99" class="node"><title>\\PluginFusioninventoryInventoryPrinterLib</title>
+<polygon fill="none" stroke="black" points="1349.17,-3814 1062.17,-3814 1062.17,-3778 1349.17,-3778 1349.17,-3814"/>
+<text text-anchor="middle" x="1205.67" y="-3793.2" font-family="Courier,monospace" font-size="11.00">PluginFusioninventoryInventoryPrinterLib</text>
+</g>
+<!-- \\PluginFusioninventoryInventoryPrinterLib&#45;&gt;\\CommonDBTM -->
+<g id="edge87" class="edge"><title>\\PluginFusioninventoryInventoryPrinterLib&#45;&gt;\\CommonDBTM</title>
+<path fill="none" stroke="black" d="M1062.1,-3802.6C1039.04,-3797.05 1017.57,-3786.74 1001.67,-3769 881.628,-3634.97 1046.44,-667.9 929.674,-531 912.933,-511.373 887.07,-502.879 861.629,-499.846"/>
+<polygon fill="none" stroke="black" points="861.822,-496.349 851.543,-498.914 861.178,-503.32 861.822,-496.349"/>
+</g>
+<!-- \\PluginFusioninventoryDeployPackage_Entity -->
+<g id="node100" class="node"><title>\\PluginFusioninventoryDeployPackage_Entity</title>
+<polygon fill="none" stroke="black" points="1352.17,-2302 1059.17,-2302 1059.17,-2266 1352.17,-2266 1352.17,-2302"/>
+<text text-anchor="middle" x="1205.67" y="-2281.2" font-family="Courier,monospace" font-size="11.00">PluginFusioninventoryDeployPackage_Entity</text>
+</g>
+<!-- \\PluginFusioninventoryDeployPackage_Entity&#45;&gt;\\CommonDBRelation -->
+<g id="edge88" class="edge"><title>\\PluginFusioninventoryDeployPackage_Entity&#45;&gt;\\CommonDBRelation</title>
+<path fill="none" stroke="black" d="M1059.01,-2289.52C1037.2,-2283.82 1016.95,-2273.75 1001.67,-2257 868.279,-2110.76 1059.49,-626.425 929.674,-477 916.924,-462.324 899.072,-453.904 880.167,-449.342"/>
+<polygon fill="none" stroke="black" points="880.707,-445.879 870.207,-447.295 879.298,-452.736 880.707,-445.879"/>
+</g>
+<!-- \\PluginFusioninventoryComputerLicenseInfo -->
+<g id="node101" class="node"><title>\\PluginFusioninventoryComputerLicenseInfo</title>
+<polygon fill="none" stroke="black" points="1349.17,-3760 1062.17,-3760 1062.17,-3724 1349.17,-3724 1349.17,-3760"/>
+<text text-anchor="middle" x="1205.67" y="-3739.2" font-family="Courier,monospace" font-size="11.00">PluginFusioninventoryComputerLicenseInfo</text>
+</g>
+<!-- \\PluginFusioninventoryComputerLicenseInfo&#45;&gt;\\CommonDBTM -->
+<g id="edge89" class="edge"><title>\\PluginFusioninventoryComputerLicenseInfo&#45;&gt;\\CommonDBTM</title>
+<path fill="none" stroke="black" d="M1062.1,-3748.59C1039.05,-3743.05 1017.57,-3732.74 1001.67,-3715 883.604,-3583.22 1044.52,-665.597 929.674,-531 912.929,-511.376 887.066,-502.883 861.625,-499.85"/>
+<polygon fill="none" stroke="black" points="861.818,-496.353 851.539,-498.918 861.174,-503.323 861.818,-496.353"/>
+</g>
+<!-- \\PluginFusioninventoryNetworkdiscovery -->
+<g id="node102" class="node"><title>\\PluginFusioninventoryNetworkdiscovery</title>
+<polygon fill="none" stroke="black" points="913.837,-6190 647.837,-6190 647.837,-6154 913.837,-6154 913.837,-6190"/>
+<text text-anchor="middle" x="780.837" y="-6169.2" font-family="Courier,monospace" font-size="11.00">PluginFusioninventoryNetworkdiscovery</text>
+</g>
+<!-- \\PluginFusioninventoryNetworkdiscovery&#45;&gt;\\PluginFusioninventoryCommunication -->
+<g id="edge90" class="edge"><title>\\PluginFusioninventoryNetworkdiscovery&#45;&gt;\\PluginFusioninventoryCommunication</title>
+<path fill="none" stroke="black" d="M666.643,-6153.92C654.861,-6151.27 643.132,-6148.3 632,-6145 579.899,-6129.56 522.783,-6104.68 484.107,-6086.57"/>
+<polygon fill="none" stroke="black" points="485.223,-6083.22 474.686,-6082.12 482.233,-6089.55 485.223,-6083.22"/>
+</g>
+<!-- \\PluginFusioninventoryPrinterCartridge -->
+<g id="node103" class="node"><title>\\PluginFusioninventoryPrinterCartridge</title>
+<polygon fill="none" stroke="black" points="1338.67,-3652 1072.67,-3652 1072.67,-3616 1338.67,-3616 1338.67,-3652"/>
+<text text-anchor="middle" x="1205.67" y="-3631.2" font-family="Courier,monospace" font-size="11.00">PluginFusioninventoryPrinterCartridge</text>
+</g>
+<!-- \\PluginFusioninventoryPrinterCartridge&#45;&gt;\\CommonDBTM -->
+<g id="edge91" class="edge"><title>\\PluginFusioninventoryPrinterCartridge&#45;&gt;\\CommonDBTM</title>
+<path fill="none" stroke="black" d="M1072.53,-3642.75C1045.6,-3637.95 1019.95,-3627.38 1001.67,-3607 887.556,-3479.74 1040.68,-660.989 929.674,-531 912.921,-511.382 887.056,-502.891 861.616,-499.857"/>
+<polygon fill="none" stroke="black" points="861.81,-496.361 851.53,-498.925 861.165,-503.331 861.81,-496.361"/>
+</g>
+<!-- \\PluginFusioninventoryInventoryComputerAntivirus -->
+<g id="node104" class="node"><title>\\PluginFusioninventoryInventoryComputerAntivirus</title>
+<polygon fill="none" stroke="black" points="1372.67,-3598 1038.67,-3598 1038.67,-3562 1372.67,-3562 1372.67,-3598"/>
+<text text-anchor="middle" x="1205.67" y="-3577.2" font-family="Courier,monospace" font-size="11.00">PluginFusioninventoryInventoryComputerAntivirus</text>
+</g>
+<!-- \\PluginFusioninventoryInventoryComputerAntivirus&#45;&gt;\\CommonDBTM -->
+<g id="edge92" class="edge"><title>\\PluginFusioninventoryInventoryComputerAntivirus&#45;&gt;\\CommonDBTM</title>
+<path fill="none" stroke="black" d="M1038.61,-3578.87C1024.68,-3572.89 1012,-3564.51 1001.67,-3553 889.532,-3427.99 1038.76,-658.686 929.674,-531 912.917,-511.386 887.051,-502.895 861.612,-499.861"/>
+<polygon fill="none" stroke="black" points="861.806,-496.365 851.526,-498.929 861.161,-503.335 861.806,-496.365"/>
+</g>
+<!-- \\PluginFusioninventoryInventoryComputerImportXML -->
+<g id="node105" class="node"><title>\\PluginFusioninventoryInventoryComputerImportXML</title>
+<polygon fill="none" stroke="black" points="1372.67,-3544 1038.67,-3544 1038.67,-3508 1372.67,-3508 1372.67,-3544"/>
+<text text-anchor="middle" x="1205.67" y="-3523.2" font-family="Courier,monospace" font-size="11.00">PluginFusioninventoryInventoryComputerImportXML</text>
+</g>
+<!-- \\PluginFusioninventoryInventoryComputerImportXML&#45;&gt;\\CommonDBTM -->
+<g id="edge93" class="edge"><title>\\PluginFusioninventoryInventoryComputerImportXML&#45;&gt;\\CommonDBTM</title>
+<path fill="none" stroke="black" d="M1038.62,-3524.87C1024.68,-3518.89 1012,-3510.51 1001.67,-3499 891.509,-3376.25 1036.84,-656.382 929.674,-531 912.913,-511.389 887.046,-502.9 861.607,-499.866"/>
+<polygon fill="none" stroke="black" points="861.801,-496.369 851.521,-498.932 861.156,-503.339 861.801,-496.369"/>
+</g>
+<!-- \\PluginFusioninventoryNetworkEquipment -->
+<g id="node106" class="node"><title>\\PluginFusioninventoryNetworkEquipment</title>
+<polygon fill="none" stroke="black" points="1338.67,-3490 1072.67,-3490 1072.67,-3454 1338.67,-3454 1338.67,-3490"/>
+<text text-anchor="middle" x="1205.67" y="-3469.2" font-family="Courier,monospace" font-size="11.00">PluginFusioninventoryNetworkEquipment</text>
+</g>
+<!-- \\PluginFusioninventoryNetworkEquipment&#45;&gt;\\CommonDBTM -->
+<g id="edge94" class="edge"><title>\\PluginFusioninventoryNetworkEquipment&#45;&gt;\\CommonDBTM</title>
+<path fill="none" stroke="black" d="M1072.55,-3480.74C1045.62,-3475.93 1019.96,-3465.37 1001.67,-3445 893.485,-3324.5 1034.91,-654.079 929.674,-531 912.909,-511.393 887.04,-502.904 861.602,-499.87"/>
+<polygon fill="none" stroke="black" points="861.797,-496.373 851.517,-498.936 861.151,-503.343 861.797,-496.373"/>
+</g>
+<!-- \\PluginFusioninventoryDeployAction -->
+<g id="node107" class="node"><title>\\PluginFusioninventoryDeployAction</title>
+<polygon fill="none" stroke="black" points="1325.17,-1006 1086.17,-1006 1086.17,-970 1325.17,-970 1325.17,-1006"/>
+<text text-anchor="middle" x="1205.67" y="-985.2" font-family="Courier,monospace" font-size="11.00">PluginFusioninventoryDeployAction</text>
+</g>
+<!-- \\PluginFusioninventoryCommunicationNetworkInventory -->
+<g id="node108" class="node"><title>\\PluginFusioninventoryCommunicationNetworkInventory</title>
+<polygon fill="none" stroke="black" points="1382.67,-952 1028.67,-952 1028.67,-916 1382.67,-916 1382.67,-952"/>
+<text text-anchor="middle" x="1205.67" y="-931.2" font-family="Courier,monospace" font-size="11.00">PluginFusioninventoryCommunicationNetworkInventory</text>
+</g>
+<!-- \\PluginFusioninventoryInventoryComputerBatteries -->
+<g id="node109" class="node"><title>\\PluginFusioninventoryInventoryComputerBatteries</title>
+<polygon fill="none" stroke="black" points="1372.67,-3436 1038.67,-3436 1038.67,-3400 1372.67,-3400 1372.67,-3436"/>
+<text text-anchor="middle" x="1205.67" y="-3415.2" font-family="Courier,monospace" font-size="11.00">PluginFusioninventoryInventoryComputerBatteries</text>
+</g>
+<!-- \\PluginFusioninventoryInventoryComputerBatteries&#45;&gt;\\CommonDBTM -->
+<g id="edge95" class="edge"><title>\\PluginFusioninventoryInventoryComputerBatteries&#45;&gt;\\CommonDBTM</title>
+<path fill="none" stroke="black" d="M1038.63,-3416.86C1024.69,-3410.88 1012.01,-3402.51 1001.67,-3391 789.248,-3154.52 1136.31,-772.551 929.674,-531 912.904,-511.397 887.035,-502.909 861.597,-499.874"/>
+<polygon fill="none" stroke="black" points="861.792,-496.377 851.512,-498.941 861.146,-503.348 861.792,-496.377"/>
+</g>
+<!-- \\PluginFusioninventoryDeployGroup -->
+<g id="node110" class="node"><title>\\PluginFusioninventoryDeployGroup</title>
+<polygon fill="none" stroke="black" points="1322.17,-3328 1089.17,-3328 1089.17,-3292 1322.17,-3292 1322.17,-3328"/>
+<text text-anchor="middle" x="1205.67" y="-3307.2" font-family="Courier,monospace" font-size="11.00">PluginFusioninventoryDeployGroup</text>
+</g>
+<!-- \\PluginFusioninventoryDeployGroup&#45;&gt;\\CommonDBTM -->
+<g id="edge96" class="edge"><title>\\PluginFusioninventoryDeployGroup&#45;&gt;\\CommonDBTM</title>
+<path fill="none" stroke="black" d="M1088.94,-3320.95C1056.26,-3317.76 1023.66,-3307.45 1001.67,-3283 797.152,-3055.55 1128.63,-763.337 929.674,-531 912.894,-511.405 887.023,-502.919 861.586,-499.884"/>
+<polygon fill="none" stroke="black" points="861.781,-496.387 851.501,-498.95 861.136,-503.357 861.781,-496.387"/>
+</g>
+<!-- \\PluginFusioninventoryCollect_Wmi -->
+<g id="node111" class="node"><title>\\PluginFusioninventoryCollect_Wmi</title>
+<polygon fill="none" stroke="black" points="1322.17,-3166 1089.17,-3166 1089.17,-3130 1322.17,-3130 1322.17,-3166"/>
+<text text-anchor="middle" x="1205.67" y="-3145.2" font-family="Courier,monospace" font-size="11.00">PluginFusioninventoryCollect_Wmi</text>
+</g>
+<!-- \\PluginFusioninventoryCollect_Wmi&#45;&gt;\\CommonDBTM -->
+<g id="edge97" class="edge"><title>\\PluginFusioninventoryCollect_Wmi&#45;&gt;\\CommonDBTM</title>
+<path fill="none" stroke="black" d="M1088.96,-3158.93C1056.29,-3155.74 1023.68,-3145.44 1001.67,-3121 809.008,-2907.08 1117.1,-749.517 929.674,-531 912.878,-511.419 887.003,-502.936 861.568,-499.899"/>
+<polygon fill="none" stroke="black" points="861.764,-496.402 851.484,-498.964 861.118,-503.373 861.764,-496.402"/>
+</g>
+<!-- \\PluginFusioninventoryUnmanaged -->
+<g id="node112" class="node"><title>\\PluginFusioninventoryUnmanaged</title>
+<polygon fill="none" stroke="black" points="1315.17,-3112 1096.17,-3112 1096.17,-3076 1315.17,-3076 1315.17,-3112"/>
+<text text-anchor="middle" x="1205.67" y="-3091.2" font-family="Courier,monospace" font-size="11.00">PluginFusioninventoryUnmanaged</text>
+</g>
+<!-- \\PluginFusioninventoryUnmanaged&#45;&gt;\\CommonDBTM -->
+<g id="edge98" class="edge"><title>\\PluginFusioninventoryUnmanaged&#45;&gt;\\CommonDBTM</title>
+<path fill="none" stroke="black" d="M1096.12,-3105.51C1061.11,-3103.16 1025.3,-3093.21 1001.67,-3067 812.96,-2857.6 1113.26,-744.91 929.674,-531 912.872,-511.424 886.996,-502.942 861.561,-499.905"/>
+<polygon fill="none" stroke="black" points="861.758,-496.408 851.478,-498.97 861.112,-503.378 861.758,-496.408"/>
+</g>
+<!-- \\PluginFusioninventoryTask&#45;&gt;\\PluginFusioninventoryTaskView -->
+<g id="edge99" class="edge"><title>\\PluginFusioninventoryTask&#45;&gt;\\PluginFusioninventoryTaskView</title>
+<path fill="none" stroke="black" d="M688.231,-5902C646.766,-5902 597.298,-5902 553.336,-5902"/>
+<polygon fill="none" stroke="black" points="553.169,-5898.5 543.169,-5902 553.169,-5905.5 553.169,-5898.5"/>
+</g>
+<!-- \\PluginFusioninventoryComputer -->
+<g id="node114" class="node"><title>\\PluginFusioninventoryComputer</title>
+<polygon fill="none" stroke="black" points="1311.67,-628 1099.67,-628 1099.67,-592 1311.67,-592 1311.67,-628"/>
+<text text-anchor="middle" x="1205.67" y="-607.2" font-family="Courier,monospace" font-size="11.00">PluginFusioninventoryComputer</text>
+</g>
+<!-- \\Computer -->
+<g id="node127" class="node"><title>\\Computer</title>
+<ellipse fill="none" stroke="black" cx="780.837" cy="-18" rx="50.0912" ry="18"/>
+<text text-anchor="middle" x="780.837" y="-14.3" font-family="Times,serif" font-size="14.00" fill="gray">\Computer</text>
+</g>
+<!-- \\PluginFusioninventoryComputer&#45;&gt;\\Computer -->
+<g id="edge100" class="edge"><title>\\PluginFusioninventoryComputer&#45;&gt;\\Computer</title>
+<path fill="none" stroke="black" d="M1201.85,-591.855C1188.45,-512.36 1123.67,-192.243 929.674,-45 904.576,-25.9513 870.26,-18.8659 841.007,-16.6959"/>
+<polygon fill="none" stroke="black" points="841.076,-13.1943 830.894,-16.1218 840.679,-20.1831 841.076,-13.1943"/>
+</g>
+<!-- \\PluginFusioninventoryCredentialIp -->
+<g id="node116" class="node"><title>\\PluginFusioninventoryCredentialIp</title>
+<polygon fill="none" stroke="black" points="1325.17,-1654 1086.17,-1654 1086.17,-1618 1325.17,-1618 1325.17,-1654"/>
+<text text-anchor="middle" x="1205.67" y="-1633.2" font-family="Courier,monospace" font-size="11.00">PluginFusioninventoryCredentialIp</text>
+</g>
+<!-- \\PluginFusioninventoryCredentialIp&#45;&gt;\\CommonDropdown -->
+<g id="edge101" class="edge"><title>\\PluginFusioninventoryCredentialIp&#45;&gt;\\CommonDropdown</title>
+<path fill="none" stroke="black" d="M1086.01,-1646.12C1054.51,-1642.54 1023.29,-1632.23 1001.67,-1609 821.77,-1415.73 1104.85,-620.565 929.674,-423 915.553,-407.074 895.418,-398.556 874.538,-394.343"/>
+<polygon fill="none" stroke="black" points="875.026,-390.876 864.582,-392.652 873.855,-397.777 875.026,-390.876"/>
 </g>
 </g>
 </svg>
