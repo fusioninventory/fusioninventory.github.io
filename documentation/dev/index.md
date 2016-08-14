@@ -58,7 +58,7 @@ Module-specific communication protocols:
 * [Wake on lan module]({{ site.baseurl }}/documentation/dev/spec/protocol/wakeonlan.html)
 * [Vocabulary]({{ site.baseurl }}/documentation/dev/spec/protocol/vocabulary.html)
 
-## Code ducumentation of plugin for GLPI
+## Code documentation of plugin for GLPI
 
 [Plugin FusionInventory for GLPI code documentation]({{ site.baseurl }}/documentation/dev/plugin_doc_code/index.html)
 
