@@ -84,6 +84,58 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 
+.post-content {
+	counter-reset: section-1, section-2, section-3, section-4;
+}
+
+.post-content h1 {
+    color: #333;
+    font-weight: normal;
+    font-family: 'Orienta', sans-serif;
+    font-size: 42px;
+    line-height: 110%;
+    margin: 1.1rem 0 0.68rem 0;
+    counter-increment: section-1;
+    counter-reset: section-2 section-3 section-4;
+}
+
+.post-content h2 {
+    color: #333;
+    font-weight: normal;
+    font-family: 'Orienta', sans-serif;
+    font-size: 30px;
+    line-height: 110%;
+    margin: 1.78rem 0 1.424rem 0;
+    counter-increment: section-2;
+    counter-reset: section-3 section-4;
+}
+
+.post-content h3 {
+    color: #333;
+    font-weight: normal;
+    font-family: 'Orienta', sans-serif;
+    font-size: 24px;
+    line-height: 110%;
+    margin: 1.46rem 0 1.168rem 0;
+    counter-increment: section-3;
+    counter-reset: section-4;
+}
+
+.post-content h4 {
+    color: #333;
+    font-weight: normal;
+    font-family: 'Orienta', sans-serif;
+    font-size: 18px;
+    line-height: 110%;
+    margin: 1.14rem 0 0.912rem 0;
+    counter-increment: section-4;
+}
+
+.post-content h1:before { content: counter(section-1) "/ "; }
+.post-content h2:before { content: counter(section-1) "." counter(section-2) "/ "; }
+.post-content h3:before { content: counter(section-1) "." counter(section-2) "." counter(section-3) "/ "; }
+.post-content h4:before { content: counter(section-1) "." counter(section-2) "." counter(section-3) "." counter(section-4) "/ "; }
+
 
 /**
  * Links
