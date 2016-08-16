@@ -3,9 +3,7 @@ layout: page
 title: FusionInventory for GLPI installation
 ---
 
-# FusionInventory for GLPI installation
-
-## Get the archive for your GLPI
+# Get the archive for your GLPI
 
 First, download archive: 
 
@@ -18,6 +16,8 @@ FusionInventory for GLPI tarball name follow this convention:
 * GLPI major release (0.80, 0.83, 0.84, 0.85, etc)
 * a '+' symbol
 * FusionInventory release
+
+# Install or update
 
 ## Update
 
@@ -50,7 +50,7 @@ It's also always a good idea to do a backup of your database.
 These operations will create or upgrade the database and set the correct rights on the plugin.
 Do the same for all fus* plugins
 
-## Initial configuration
+### Initial configuration
 
 Once the plugin is activated, you will have to go on the _Administration > Entities > Root entity > tab FusionInventory_
 page to set the *Service URL*. You need to enter the location of your GLPI server, for example `http://glpi.mydomain/`.
@@ -59,13 +59,18 @@ page to set the *Service URL*. You need to enter the location of your GLPI serve
 
 Once this is done, you can [install]({{ site.baseurl }}/documentation/agent/installation/) and [configure]({{ site.baseurl }}/documentation/agent/configuration.html).  your first agent.
 
-### Options Detail
+# Options detail in general configuration
+
+In general configuration of the plugin FusionInventory for GLPI, there are the options:
 
 SSL-only for agent: send an error response to an agent when this agent communicates to the server without SSL.
 
-## Security
+# Security
 
 {% include warning.html param="We strongly recommend to activate SSL on the server side to protect human user communications, and eventually agent communications too. See  for details." %}
 
 See [here]({{ site.baseurl }}/documentation/security.html) for details.
 
+# GLPI cron
+
+It's very important for tasks management, see [cron in GLPI]({{ site.baseurl }}/documentation/fi4g/cron.html) for details.

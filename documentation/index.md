@@ -26,13 +26,16 @@ redirect_from: "/documentation/documentation.html"
 * [Import and link rules](fi4g/importrules.html)
 * [How to deal with DMZ network](fi4g/dmz/)
 
-# How to
+## How to 
 
-* [Scan my network](tasks/networkdiscovery.html)
-* [Inventory ESX virtual machines](tasks/esxinventory/)
 * [Deploy softwares](tasks/deploy/)
 * [Deploy > export / import packages](tasks/exportimportpackages.html)
 * [Deploy with mirrors](tasks/deploymirrors.html)
+
+# General how to
+
+* [Scan my network](tasks/networkdiscovery.html)
+* [Inventory ESX virtual machines](tasks/esxinventory/)
 
 # Advanced topics
 

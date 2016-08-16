@@ -7,7 +7,7 @@ redirect_from: "/documentation/agent/bugreport"
 # How to report issues efficiently
 
 In order for the developers to track and fix issues properly, you need to use
-the [forge](http://forge.fusioninventory.org) bug tracker, and report an issue
+[GitHub](https://github.com/fusioninventory/) bug tracker, and report an issue
 with the proper component. This requires an user account.
 
 Here are a few usage rules, so as to avoid wasting efforts both for the
@@ -30,9 +30,9 @@ environment and privileges are not the same as non-interactive executions.
 
 Once the faulty component identified, use either:
 
-* [agent bugtracker](http://forge.fusioninventory.org/projects/fusioninventory-agent/issues) for agent issues
+* [agent bugtracker](https://github.com/fusioninventory/fusioninventory-agent/issues) for agent issues
 
-* [server bugtracker](http://forge.fusioninventory.org/projects/fusioninventory-for-glpi/issues) for server issues
+* [server bugtracker](https://github.com/fusioninventory/fusioninventory-for-glpi/issues) for server issues
 
 ## Problem description
 
