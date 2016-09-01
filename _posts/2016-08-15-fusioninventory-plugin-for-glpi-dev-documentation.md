@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Developper code documentation of plugin FusionInventory for GLPI
+title: Developer code documentation of plugin FusionInventory for GLPI
 ---
 
 Always in doing best quality code, we have many unit tests and now we have documentation of the code.
