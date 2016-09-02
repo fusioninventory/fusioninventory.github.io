@@ -15,7 +15,7 @@ You can find [documentation on FusionInventory Agent 2.2.x]({{ site.baseurl }}/d
 
 
 
-You can get the last [FusionInventory Agent installer for Microsoft Windows](http://forge.fusioninventory.org/projects/fusioninventory-agent-windows-installer/files "http://forge.fusioninventory.org/projects/fusioninventory-agent-windows-installer/files"). The filename of the installer follows this pattern:
+You can get the last [FusionInventory Agent installer for Microsoft Windows](https://github.com/tabad/fusioninventory-agent-windows-installer/releases). The filename of the installer follows this pattern:
 
 
 
@@ -44,6 +44,8 @@ Some notes about the new FusionInventory Agent installer for Microsoft Windows.
 
 * It's possible to install *fusioninventory-agent_windows_x86_\<version>.exe* on a 32-bit or 64-bit Microsoft Windows system but it's only possible to install *fusioninventory-agent_windows_x64_\<version>.exe* on a 64-bit Microsoft Windows system.
 
+
+The old version can be found [here](http://forge.fusioninventory.org/projects/fusioninventory-agent-windows-installer/files "http://forge.fusioninventory.org/projects/fusioninventory-agent-windows-installer/files")
 
 
 ## The Installer Manual
