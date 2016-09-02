@@ -33,6 +33,7 @@ FusionInventory supports different virtualization mechanisms.
 * FreeBSD Jails
 * HPVM
 * Vserver
+* Hyper-V
 
 ## Software deployment
 
@@ -43,6 +44,7 @@ The solution can be run on any kind of operating system, espcially:
 * Windows
 * OS X
 * Linux
+* *BSD
 
 FusionInventory is designed to take care of the network bandwidth.
 
