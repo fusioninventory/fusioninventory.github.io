@@ -45,7 +45,7 @@ Some notes about the new FusionInventory Agent installer for Microsoft Windows.
 * It's possible to install *fusioninventory-agent_windows_x86_\<version>.exe* on a 32-bit or 64-bit Microsoft Windows system but it's only possible to install *fusioninventory-agent_windows_x64_\<version>.exe* on a 64-bit Microsoft Windows system.
 
 
-The old version can be found [here](http://forge.fusioninventory.org/projects/fusioninventory-agent-windows-installer/files "http://forge.fusioninventory.org/projects/fusioninventory-agent-windows-installer/files")
+The old versions can be found [here](http://forge.fusioninventory.org/projects/fusioninventory-agent-windows-installer/files "http://forge.fusioninventory.org/projects/fusioninventory-agent-windows-installer/files").
 
 
 ## The Installer Manual
