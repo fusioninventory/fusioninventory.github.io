@@ -56,7 +56,7 @@ host.
 
 In order to run a network discovery task without a GLPI server, and for easier
 troubleshooting, the fusioninventory-netdiscovery task can be run from command
-line. See [fusioninventory-netdiscovery manpage]({{ site.baseurl }}/documentation/references/agent-task-network/1.0.x/fusioninventory-netdiscovery.html) for
+line. See [fusioninventory-netdiscovery manpage]({{ site.baseurl }}/documentation/agent/man/fusioninventory-netdiscovery.html) for
 details.
 
 ## Server execution
