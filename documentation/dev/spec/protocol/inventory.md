@@ -529,7 +529,7 @@ title: Inventory protocol
           <!ELEMENT REGVALUE (#PCDATA)>
           <!ELEMENT HIVE (#PCDATA)>
 
-        <!ELEMENT RUDDER (AGENT, UUID, HOSTNAME SERVER_ROLES)>
+        <!ELEMENT RUDDER (AGENT, UUID, HOSTNAME, SERVER_ROLES)>
           <!ELEMENT AGENT (#PCDATA)>
           <!ELEMENT UUID (#PCDATA)>
           <!ELEMENT HOSTNAME (#PCDATA)>
