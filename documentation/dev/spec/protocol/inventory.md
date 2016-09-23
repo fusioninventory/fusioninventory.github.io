@@ -529,10 +529,11 @@ title: Inventory protocol
           <!ELEMENT REGVALUE (#PCDATA)>
           <!ELEMENT HIVE (#PCDATA)>
 
-        <!ELEMENT RUDDER (AGENT, UUID, HOSTNAME)>
+        <!ELEMENT RUDDER (AGENT, UUID, HOSTNAME SERVER_ROLES)>
           <!ELEMENT AGENT (#PCDATA)>
           <!ELEMENT UUID (#PCDATA)>
           <!ELEMENT HOSTNAME (#PCDATA)>
+          <!ELEMENT SERVER_ROLES (#PCDATA)>
 
         <!-- a physical connection points including ports, motherboard slots
         and peripherals, and proprietary connection points -->
