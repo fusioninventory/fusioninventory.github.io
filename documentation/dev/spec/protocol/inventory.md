@@ -144,7 +144,7 @@ title: Inventory protocol
 
         <!ELEMENT OPERATINGSYSTEM (KERNEL_NAME, KERNEL_VERSION, NAME, VERSION,
         FULL_NAME, SERVICE_PACK, INSTALL_DATE, FQDN, DNS_DOMAIN, SSH_KEY, ARCH,
-        BOOT_TIME)>
+        BOOT_TIME, TIMEZONE)>
           <!-- kernel name, ie 'freebsd', 'linux', 'hpux', 'win32', etc. -->
           <!ELEMENT KERNEL_NAME (#PCDATA)>
           <!-- kernel version, ie '2.6.32' on Linux, '5.2.x.y' on Windows
@@ -173,6 +173,12 @@ title: Inventory protocol
           <!ELEMENT ARCH (#PCDATA)>
           <!-- computer boot date, ie '2012-12-09 15:58:20' -->
           <!ELEMENT BOOT_TIME (#PCDATA)>
+          <!-- operating system time zone information-->
+          <!ELEMENT TIMEZONE (#PCDATA)>
+            <!-- time zone name, ie 'Europe/Paris' or 'CEST' -->
+            <!ELEMENT NAME (#PCDATA)>
+            <!-- time zone offset to UTC, ie '+0200' -->
+            <!ELEMENT OFFSET (#PCDATA)>
 
         <!ELEMENT ACCESSLOG (USERID, LOGDATE)>
           <!ELEMENT USERID (#PCDATA)>
