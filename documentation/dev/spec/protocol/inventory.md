@@ -386,7 +386,7 @@ title: Inventory protocol
           <!ELEMENT MODEL (#PCDATA)>
 
         <!ELEMENT MONITORS (BASE64, CAPTION, DESCRIPTION, MANUFACTURER, SERIAL,
-          UUENCODE)>
+          ALTSERIAL?, PORT?, UUENCODE)>
           <!-- uuencoded EDID trame -->
           <!ELEMENT BASE64 (#PCDATA)>
           <!ELEMENT CAPTION (#PCDATA)>
@@ -395,6 +395,11 @@ title: Inventory protocol
           <!ELEMENT MANUFACTURER (#PCDATA)>
           <!-- monitor serial number -->
           <!ELEMENT SERIAL (#PCDATA)>
+          <!-- alternative monitor serial number computed from known manufacter
+            formula and if different from SERIAL -->
+          <!ELEMENT ALTSERIAL (#PCDATA)>
+          <!-- Used port to connect the device -->
+          <!ELEMENT PORT (#PCDATA)>
           <!-- uuencoded EDID trame -->
           <!ELEMENT UUENCODE (#PCDATA)>
           <!ELEMENT NAME (#PCDATA)>
