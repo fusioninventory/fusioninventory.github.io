@@ -6,9 +6,9 @@ title: Paris Open Source Summit
 Francais:
 
 Nous seront au [Paris Open Source Summit](http://www.opensourcesummit.paris/) les 16 & 17 Novembre 2016 
-au village associatif, sur un stand partagé avec l'équipe d'Alignak-monitoring.
+au village associatif, sur un stand partagÃ© avec l'Ã©quipe d'Alignak-monitoring.
 
-Venez nous voir et discuter des nouveautés prochaines du plugin FusionInventory for GLPI 9.1+1.0 (pas encore disponible) ainsi que 
+Venez nous voir et discuter des nouveautÃ©s prochaines du plugin FusionInventory for GLPI 9.1+1.0 (pas encore disponible) ainsi que 
 de l'agent.
 
 
