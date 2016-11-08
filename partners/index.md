@@ -64,6 +64,19 @@ This list is open and if you believe your company deservice to be added, please
 
 ***
 
+## DCS
+
+* Mail: Christophe Burette Pommay (product director): c.burette@dcsit-group.com
+* phone: +33 (0)4.78.95.81.70
+* ![]({{ site.baseurl }}/partners/logo/code.png) FusionInventory for GLPI and Agent
+* ![]({{ site.baseurl }}/partners/logo/qa.png) Tests and bug reports: Daily tests and bugfixes.
+* ![]({{ site.baseurl }}/partners/logo/promote.png) Promotion and Communication: Conferences, presentations, TShirts and stickers.
+* ![]({{ site.baseurl }}/partners/logo/doc.png) Documentation: Documentation.
+* ![]({{ site.baseurl }}/partners/logo/support.png) User support (Forum, IRC): Daily support.
+* ![]({{ site.baseurl }}/partners/logo/training.png) Training: GLPI and FusionInventory training.
+
+***
+
 This page is open to now contributor, if you want to be registered here, please contact us.
 
 These companies did some contributions in the past but are not active developer of FusionInventory:
