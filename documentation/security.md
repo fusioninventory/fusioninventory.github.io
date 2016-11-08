@@ -92,4 +92,4 @@ be configured to use them. For instance, on Apache with mod_ssl:
 The certificate file has to be installed on each agent host, and the agent
 should be configured to use it as certification authority, with *ca-cert-file*
 [configuration parameter]({{ site.baseurl }}/documentation/agent/configuration.html) (or alternatively,
-*--ca-cert-file* [command line option]({{ site.baseurl }}/documentation/agent/man/)).
+*--ca-cert-dir* [command line option]({{ site.baseurl }}/documentation/agent/man/)).
