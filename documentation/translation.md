@@ -19,7 +19,7 @@ If you want us to enable another langage, please contact [Gonéri](mailto:goneri
 ## Glossary for translators
 
 Here you will find technical words to be translated or not. Register on the 
-[Mailing list for translators](http://lists.alioth.debian.org/mailman/listinfo/fusioninventory-i18ni)
+[Mailing list for translators](http://lists.alioth.debian.org/mailman/listinfo/fusioninventory-i18n)
 
 * FusionInventory For GLPI :
 * Plugin :
