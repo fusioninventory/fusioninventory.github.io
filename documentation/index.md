@@ -9,7 +9,7 @@ redirect_from: "/documentation/documentation.html"
 
 * [The big picture](bigpicture.html)
 * [FAQ](faq.html)
-* [Bug reporting](bugreport.html)
+* [Bug reporting](bugreport/)
 
 # FusionInventory Agent
 
