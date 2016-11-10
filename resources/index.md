@@ -33,8 +33,9 @@ by the FusionInventory team but by the users.
 
 If you want to report bugs or contact the developement team, please use the
 mailing lists or [Fusioninventory team Github](https://github.com/fusioninventory) issue trackers:
- - [Fusioninventory for GLPI issue tracker](https://github.com/fusioninventory/fusioninventory-for-glpi/issues)
- - [Fusioninventory agent issue tracker](https://github.com/fusioninventory/fusioninventory-agent/issues)
+
+* [Fusioninventory for GLPI issue tracker](https://github.com/fusioninventory/fusioninventory-for-glpi/issues)
+* [Fusioninventory agent issue tracker](https://github.com/fusioninventory/fusioninventory-agent/issues)
 
 For the agent only, if you just want to make suggestions, submit/vote for ideas or talk about wanted features you can also use
 [Fusioninventory agent suggestions](http://fusioninventoryagent.userecho.com/).
