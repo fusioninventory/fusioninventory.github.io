@@ -31,8 +31,13 @@ IRC is used mainly to coordonate developement effort between contributors.
 [A forum](http://forum.fusioninventory.org/) is also avalaible for end users. This forum is not directly supported
 by the FusionInventory team but by the users.
 
-If you want to report bugs or contract the developement team, please use the
-mailing lists or the bug tracker on the forge.
+If you want to report bugs or contact the developement team, please use the
+mailing lists or [Fusioninventory team Github](https://github.com/fusioninventory) issue trackers:
+ - [Fusioninventory for GLPI issue tracker](https://github.com/fusioninventory/fusioninventory-for-glpi/issues)
+ - [Fusioninventory agent issue tracker](https://github.com/fusioninventory/fusioninventory-agent/issues)
+
+For the agent only, if you just want to make suggestions, submit/vote for ideas or talk about wanted features you can also use
+[Fusioninventory agent suggestions](http://fusioninventoryagent.userecho.com/).
 
 ## Partners
 
