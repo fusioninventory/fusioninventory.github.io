@@ -10,6 +10,14 @@ redirect_from:
 # Resources and web sites
 
 
+## Issue tracker
+
+If you want to report bugs or contact the developement team, you can use the
+mailing lists or the following [Fusioninventory team Github](https://github.com/fusioninventory) issue trackers:
+
+* [Fusioninventory for GLPI issue tracker](https://github.com/fusioninventory/fusioninventory-for-glpi/issues)
+* [Fusioninventory agent issue tracker](https://github.com/fusioninventory/fusioninventory-agent/issues)
+
 ## Mailing lists
 
 Please use english langage as much as possible.
@@ -31,14 +39,7 @@ IRC is used mainly to coordonate developement effort between contributors.
 [A forum](http://forum.fusioninventory.org/) is also avalaible for end users. This forum is not directly supported
 by the FusionInventory team but by the users.
 
-If you want to report bugs or contact the developement team, please use the
-mailing lists or [Fusioninventory team Github](https://github.com/fusioninventory) issue trackers:
-
-* [Fusioninventory for GLPI issue tracker](https://github.com/fusioninventory/fusioninventory-for-glpi/issues)
-* [Fusioninventory agent issue tracker](https://github.com/fusioninventory/fusioninventory-agent/issues)
-
-If you just want to make suggestions, submit/vote for ideas or talk about wanted features you can also use
-[Fusioninventory suggestions](http://fusioninventory.userecho.com/) site.
+A [Fusioninventory suggestions dedicated forum](http://fusioninventory.userecho.com/) can also be used to quickly make suggestions, submit/vote for ideas or talk about wanted features.
 
 ## Partners
 
