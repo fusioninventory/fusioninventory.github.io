@@ -1,7 +1,9 @@
 ---
 layout: page
 title: Bug report
-redirect_from: "/documentation/agent/bugreport"
+redirect_from:
+ - /documentation/agent/bugreport
+ - /documentation/agent/bugreport.html
 ---
 
 # How to report issues efficiently
