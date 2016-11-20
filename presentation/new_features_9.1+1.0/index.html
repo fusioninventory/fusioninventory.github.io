@@ -1,0 +1,144 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+		<title>FusionInventory for GLPI 9.1+1.0 - the new features</title>
+
+		<link rel="stylesheet" href="css/reveal.css">
+		<link rel="stylesheet" href="css/theme/moon.css">
+
+		<!-- Theme used for syntax highlighting of code -->
+		<link rel="stylesheet" href="lib/css/zenburn.css">
+
+		<!-- Printing and PDF exports -->
+		<script>
+			var link = document.createElement( 'link' );
+			link.rel = 'stylesheet';
+			link.type = 'text/css';
+			link.href = window.location.search.match( /print-pdf/gi ) ? 'css/print/pdf.css' : 'css/print/paper.css';
+			document.getElementsByTagName( 'head' )[0].appendChild( link );
+		</script>
+	</head>
+	<body>
+		<div class="reveal">
+			<div class="slides">
+<section data-markdown>
+# Plugin FusionInventory for GLPI
+# New features in version 9.1+1.0
+</section>
+
+<section data-markdown>
+## Introduction 
+
+In this major version, we add many features created months / years before.
+
+These features was in milestone _accepted changes still unplanned_.
+
+Don't wait more, let's see that...
+</section>
+
+<section data-markdown>
+<script type="text/template">
+### New operating system organization (1/2)
+
+* The operating system part of GLPI is too simple and informations are hidden in 9.1 version.
+* So we use own operating system part with: <!-- .element: class="fragment" data-fragment-index="1" -->
+  * Architecture (32 bits, 64 bits...) <!-- .element: class="fragment" data-fragment-index="2" -->
+  * Operating system (Windows, Debian, FreeBSD...) <!-- .element: class="fragment" data-fragment-index="3" -->
+  * OS Version (XP, 7, 6.4...) <!-- .element: class="fragment" data-fragment-index="4" -->
+  * Operating system kernel name (MSWin32, Linux...) <!-- .element: class="fragment" data-fragment-index="5" -->
+  * Operating system kernel version (6.1.7601, 3.18.34...) <!-- .element: class="fragment" data-fragment-index="5" -->
+  * Service pack (Service Pack 1...) <!-- .element: class="fragment" data-fragment-index="6" -->
+  * Operating system edition (professional, server standard...) <!-- .element: class="fragment" data-fragment-index="7" -->
+</script>
+</section>
+
+<section data-markdown>
+### New operating system organization (2/2)
+
+An example in main computer form:
+
+![Alt text](image/operatingsystem.png)
+</section>
+
+<section data-markdown>
+### Manage operating system in software version
+
+In a software you can now have more than 1 time the same version number because it's managed by couple (__version__ + __operating system__).
+
+For example, it's possible to have for FusionInventory-agent:
+
+* 2.3.18 - windows
+* 2.3.18 - mac os
+* 2.3.18 - linux
+
+</section>
+
+<section data-markdown>
+### Display remote management information in computer form (Like teamviewer ID)
+
+A tab is added in computer form.
+
+</section>
+
+<section data-markdown>
+### Merge install and uninstall deploy package (simplification)
+
+In package form, you have only install tab renamed _package actions_.
+
+Like this, it's more simple to use and no question to ask himself when create package ;)
+
+</section>
+
+
+<section data-markdown>
+### In tasks, add option to not run again if previously in state OK
+
+![Alt text](image/task.png)
+</section>
+
+<section data-markdown>
+### Self service interface for software deployment
+Prepare packages and define who can install (simplified interface profile + computers/entities...)
+
+![Alt text](image/self-deploy.png)
+</section>
+
+<section data-markdown>
+### Update install date of software version on computer
+
+![Alt text](image/software_installdate.png)
+</section>
+
+<section data-markdown>
+### Enhance security with filter all GET and POST in plugin FusionInventory
+
+</section>
+
+			</div>
+		</div>
+
+		<script src="lib/js/head.min.js"></script>
+		<script src="js/reveal.js"></script>
+
+		<script>
+			// More info https://github.com/hakimel/reveal.js#configuration
+			Reveal.initialize({
+				history: true,
+                                width: 1350,
+                                height: 700,
+                                fragments: true,
+
+				// More info https://github.com/hakimel/reveal.js#dependencies
+				dependencies: [
+					{ src: 'plugin/markdown/marked.js' },
+					{ src: 'plugin/markdown/markdown.js' },
+					{ src: 'plugin/notes/notes.js', async: true },
+					{ src: 'plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } }
+				]
+			});
+		</script>
+	</body>
+</html>
