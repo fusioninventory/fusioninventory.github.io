@@ -31,6 +31,7 @@ redirect_from: "/documentation/documentation.html"
 * [Deploy softwares](tasks/deploy/)
 * [Deploy > export / import packages](tasks/exportimportpackages.html)
 * [Deploy with mirrors](tasks/deploymirrors.html)
+* [Deploy in self-service mode](tasks/deploy_self-service.html)
 
 # General how to
 
