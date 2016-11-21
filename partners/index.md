@@ -19,10 +19,10 @@ This list is open and if you believe your company deservice to be added, please
 
 ***
 
-## siprossii ![]({{ site.baseurl }}/partners/siprossii.png)
+## DCS ![]({{ site.baseurl }}/partners/dcs.png)
 
-* Web: [http://www.siprossii.com/](http://www.siprossii.com/)
-* Mail: d.durieux@siprossii.com
+* Mail: Christophe Burette Pommay (product director): c.burette@dcsit-group.com
+* phone: +33 (0)4.78.95.81.70
 * ![]({{ site.baseurl }}/partners/logo/code.png) FusionInventory for GLPI and Agent
 * ![]({{ site.baseurl }}/partners/logo/qa.png) Tests and bug reports: Daily tests and bugfixes.
 * ![]({{ site.baseurl }}/partners/logo/promote.png) Promotion and Communication: Conferences, presentations, TShirts and stickers.
@@ -61,19 +61,6 @@ This list is open and if you believe your company deservice to be added, please
 * Mail: marc.caissial@zenitique.fr
 * ![]({{ site.baseurl }}/partners/logo/qa.png) Tests and bug reports: bug reports.
 * ![]({{ site.baseurl }}/partners/logo/support.png) User support (Forum, IRC): forum moderator
-
-***
-
-## DCS
-
-* Mail: Christophe Burette Pommay (product director): c.burette@dcsit-group.com
-* phone: +33 (0)4.78.95.81.70
-* ![]({{ site.baseurl }}/partners/logo/code.png) FusionInventory for GLPI and Agent
-* ![]({{ site.baseurl }}/partners/logo/qa.png) Tests and bug reports: Daily tests and bugfixes.
-* ![]({{ site.baseurl }}/partners/logo/promote.png) Promotion and Communication: Conferences, presentations, TShirts and stickers.
-* ![]({{ site.baseurl }}/partners/logo/doc.png) Documentation: Documentation.
-* ![]({{ site.baseurl }}/partners/logo/support.png) User support (Forum, IRC): Daily support.
-* ![]({{ site.baseurl }}/partners/logo/training.png) Training: GLPI and FusionInventory training.
 
 ***
 
