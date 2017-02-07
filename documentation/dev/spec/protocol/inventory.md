@@ -195,6 +195,14 @@ title: Inventory protocol
           <!-- wether the antivirus is up to date (0|1) -->
           <!ELEMENT UPTODATE (#PCDATA)>
           <!ELEMENT VERSION (#PCDATA)>
+          <!-- signatures base creation -->
+          <!ELEMENT BASE_CREATION (#PCDATA)>
+          <!-- signatures base version -->
+          <!ELEMENT BASE_VERSION (#PCDATA)>
+          <!-- 32-bit engine version -->
+          <!ELEMENT 32ENGINE_VERSION (#PCDATA)>
+          <!-- 64-bit engine version -->
+          <!ELEMENT 64ENGINE_VERSION (#PCDATA)>
 
         <!ELEMENT BATTERIES (CAPACITY, CHEMISTRY, DATE, NAME, SERIAL,
         MANUFACTURER, VOLTAGE)>
