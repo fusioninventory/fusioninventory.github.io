@@ -678,7 +678,7 @@ title: Inventory protocol
           <!ELEMENT SUBSYSTEM (#PCDATA)>
           <!- virtualisation technology
             (Physical|Xen|VirtualBox|Virtual Machine|VMware|QEMU|SolarisZone|
-            VServer|OpenVZ|BSDJail|Parallels|Hyper-V|AIX_LPAR)
+            VServer|OpenVZ|BSDJail|Parallels|Hyper-V|AIX_LPAR|Docker)
             -->
           <!ELEMENT VMTYPE (#PCDATA)>
           <!-- memory size, in MB -->
@@ -693,6 +693,8 @@ title: Inventory protocol
           <!ELEMENT COMMENT (#PCDATA)>
           <!ELEMENT OWNER (#PCDATA)>
           <!ELEMENT SERIAL (#PCDATA)>
+          <!-- image used for creation (Docker image for instance) -->
+          <!ELEMENT IMAGE (#PCDATA)>
 
         <!-- a LVM logical volume group -->
         <!ELEMENT VOLUME_GROUPS (VG_NAME, PV_COUNT, LV_COUNT, ATTR, SIZE, FREE,
