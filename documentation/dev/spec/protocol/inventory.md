@@ -369,6 +369,7 @@ title: Inventory protocol
         <!ELEMENT MEMORIES (CAPACITY, CAPTION, FORMFACTOR, REMOVABLE, PURPOSE,
         SPEED, SERIALNUMBER, TYPE, DESCRIPTION, NUMSLOTS, MEMORYCORRECTION,
         MANUFACTURER)>
+          <!-- memory capacity, in MB -->
           <!ELEMENT CAPACITY (#PCDATA)>
           <!ELEMENT CAPTION (#PCDATA)>
           <!-- See Win32_PhysicalMemory documentation -->
