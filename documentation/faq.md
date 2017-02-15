@@ -3,11 +3,9 @@ layout: page
 title: FAQ
 ---
 
-# FAQ
+# Configuration and deployment
 
-## Configuration and deployment
-
-### On which platforms is the FusionInventory agent available?
+## On which platforms is the FusionInventory agent available?
 
 The agent is available on Windows, OS X, Linux, FreeBSD, OpenBSD,
 NetBSD, DragonFlyBSD, AIX, Solaris, HP-UX. The agent shares the same
@@ -15,7 +13,7 @@ codebase on all these platforms.
 
 An agent for Android is also available on [Google Play](https://play.google.com/store/apps/details?id=org.fusioninventory).
 
-### Is FusionInventory agent compatible with OCS Inventory NG Server?
+## Is FusionInventory agent compatible with OCS Inventory NG Server?
 
 Yes, your server will need to be configured to accept the Fusioninventory UserAgent in the ocsinventory-server.conf
 
@@ -41,7 +39,7 @@ If you’re looking for a software deployment solution, FusionInventory
 provides it’s own, which is integrated into GLPI.
 
 
-### How to redirect OCS agent with Apache?
+## How to redirect OCS agent with Apache?
 
 You can use an [alias](http://httpd.apache.org/docs/2.2/mod/mod_alias.html) directive to
 redirect traffic from /ocsinventory to FusionInventory.
@@ -67,7 +65,7 @@ For example:
 
 It's also possible to use a regular expression for that.
 
-## How can I configure two or more servers?
+# How can I configure two or more servers?
 
  In the agent configuration file, you can define several servers to
 communicate with. For example to communicate with three servers:
@@ -78,14 +76,14 @@ FusionInventory Server for GLPI 0.80 and 0.83, and OCSInventory server:
 The agent will contact each server in the order defined in the configuration
 file, and perform the actions requested from each of them.
 
-### Can I use a mastering software like Ghost to deploy my agent?
+## Can I use a mastering software like Ghost to deploy my agent?
 
 Yes. However, take care to not duplicate agent state directory, otherwise
 multiple agents will use the same identifier.
 
-## How can I...
+# How can I...
 
-### inventory my virtual machines ?
+## inventory my virtual machines ?
 
 As for every other machine: install an agent on it.
 
@@ -94,16 +92,16 @@ inventory of its guests, it just retrieve minimal information, such as virtual
 machine identifier, so as to compute the relationship between the guest and the
 host.
 
-### inventory my printers ?
+## inventory my printers ?
 
 For local (USB) printers, run a local inventory on the host.
 
 For network printers, run a network inventory from any agent able to
 communicate through SNMP with the printer.
 
-## Usual issues
+# Usual issues
 
-### *Task X is not enabled* message
+## *Task X is not enabled* message
 
     Task NetInventory is not enabled
     Task NetDiscovery is not enabled
@@ -112,17 +110,17 @@ These messages show up in the agent log when the server do not ask for an Networ
 Discovery or a Network Inventory.
 
 
-### *Unable to find agent to run this job* message
+## *Unable to find agent to run this job* message
 
 You will get *Unable to find agent to run this job* message when the server can't find an agent
 to run a task in push mode:
 
 * Ensure an agent is running as service or daemon
-* The server can contact http://$agentIP:62354 directly
+* The server can contact http://[agentIP]:62354 directly
 * Check in http://glpi/plugins/fusioninventory/front/agent.php if the agent has *Network discovery*
   and *Network inventory (SNMP)* modules turned on
 
-### *Bad token* message
+## *Bad token* message
 
 “Bad token” problems means the agent and the server are not synchronized anymore. You can resolve the situation either:
 
@@ -131,7 +129,7 @@ to run a task in push mode:
 
 {% include warning.html param="A bug fixed in 2.2.7 prevent the use of <code class="highlighter-rouge">rpc-trust-localhost</code> and <code class="highlighter-rouge">httpd-trust</code>." %}
 
-### *end_request: I/O error, dev fd0, sector 0* message
+## *end_request: I/O error, dev fd0, sector 0* message
 
 This can append on Linux box with floppy driver like most of the VMware virtual machine. You can
 work around the problem by unloading the floppy kernel module:
@@ -140,7 +138,7 @@ work around the problem by unloading the floppy kernel module:
 
 The error is generated when the agent launch the following command `fdisk -l`.
 
-### Duplicated computers in inventory
+## Duplicated computers in inventory
 
 With the default settings, FusionInventory for GLPI use the follow criteria to identify computer:
 
@@ -150,16 +148,16 @@ With the default settings, FusionInventory for GLPI use the follow criteria to i
 
 One of this information is probably duplicated.
 
-### Missing information when called from cron
+## Missing information when called from cron
 
 Most of the time, cron do not define a default PATH. In this case the agent won't
-find important tools like `dmidecode`, `lspci`, etc ( [[!bug 1747]] ).
+find important tools like `dmidecode`, `lspci`, etc ( See old [Fusioninventory forge issue 1747](http://forge.fusioninventory.org/issues/1747) ).
 
 Just define the PATH in the crontab:
 
     PATH=/usr/local/sbin:/usr/local/bin:/sbin:/bin:/usr/sbin:/usr/bin
 
-### Strange agent token “12345678”
+## Strange agent token “12345678”
 
 Since the agent 2.3.0, the agent doesn't use any token anymore to authenticate
 server messages. Any target server is automatically trusted, as well as any
