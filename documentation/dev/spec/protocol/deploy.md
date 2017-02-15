@@ -1,9 +1,7 @@
 ---
 layout: page
-title: API-REST deploy
+title: Deploy Rest API
 ---
-
-#  API-REST-deploy
 
 This document covers the agent/server protocol used by the "deploy"
 task.
@@ -11,11 +9,13 @@ task.
 This module is used to do remote software deployments and command
 executions.
 
-##  Jobs request
+#  Jobs request
 
-###  Request
+##  Request
 
-    /deploy?action=getJobs&machineid=$machineid
+```
+/deploy?action=getJobs&machineid=$machineid&version=$version
+```
 
 This method returns the jobs to process for a given machine.
 
@@ -26,15 +26,15 @@ requested everytime the task is started.
 If a job has been processed, the server must remove it from the job
 list.
 
-###  Answer
+##  Answer
 
 Jobs are processed in the order given by the server.
 
 See [Deploy REST API server answer samples](deploy/answer-samples.html)
 
-###  Answer structure format (jobs)
+##  Answer structure format (jobs)
 
-#### actions
+### actions
 
 a list of operation to process
 
@@ -87,13 +87,13 @@ rm -Rf $arg
   epel.
 * version (optional): the version to use, e.g: ">= 3", "= 3.0-2".
 
-#### associatedFiles
+### associatedFiles
 
 The files (sha512 reference) to be downloaded.
 Those sha512 must be listed in the `associatedFiles`
 section (array) of the answer.
 
-#### checks
+### checks
 
 A array of check to evaluate. The code returned to the server and their behaviors a describe below.
 
@@ -130,7 +130,7 @@ interpreted like the following:
   > For example, there is no more space left on the harddrive to
     process installation.
 
-###  Answer structure format (associatedFiles)
+##  Answer structure format (associatedFiles)
 
 Only the files used by the jobs must be in this list.
 
@@ -148,9 +148,9 @@ Only the files used by the jobs must be in this list.
 * `p2p-retention-duration`: how long an archive must be kept for
   sharing before its deletion from cache (minutes)
 
-## Update jobs' status
+# Update jobs' status
 
-###  Request
+##  Request
 
     /deploy?action=setStatus&machineid=$machineid&part=$part&uuid=$uuid&currentStep=$currentStep&status=$status&msg=$msg
 
@@ -193,12 +193,12 @@ The log:
 The log length shouldn't be greater than 1000 caracters. If the value
 is above, the begining may be silently truncated by the agent.
 
-###  Answer
+##  Answer
 
 The expected answer is a JSON encoded empty hash ref {}.
 
 
-##  Multipart
+#  Multipart
 
 The multipart is the list of the file to download (from one to
 unlimited). This can file name can include a relative directory path
@@ -211,7 +211,7 @@ optional compression. So be careful if the initial file has already
 this extension, you need to rename it to something like
 file.tar.gz-01.
 
-### Request
+## Request
 
 POST a log file for a given job.
 
@@ -256,7 +256,7 @@ echo "
 "
 ~~~~
 
-##  Communication examples
+#  Communication examples
 
 Get the job, download the file and run the command.
 
