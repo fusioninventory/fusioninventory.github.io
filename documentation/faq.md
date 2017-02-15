@@ -129,7 +129,7 @@ to run a task in push mode:
 * just by running an inventory
 * by using `httpd-trust` parameter to allow request from the server IP.
 
-{% include warning.html param="A bug fixed in 2.2.7 prevent the use of `rpc-trust-localhost` and `httpd-trust`." %}
+{% include warning.html param="A bug fixed in 2.2.7 prevent the use of <code class="highlighter-rouge">rpc-trust-localhost</code> and <code class="highlighter-rouge">httpd-trust</code>." %}
 
 ### *end_request: I/O error, dev fd0, sector 0* message
 

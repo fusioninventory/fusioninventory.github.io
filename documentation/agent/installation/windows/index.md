@@ -7,7 +7,7 @@ redirect_from:
 
 # Microsoft Windows Installation
 
-{% include warning.html param="The new FusionInventory Agent 2.3.x comes with a **new** Microsoft Windows installer. The documentation you have below concerns this new installer. If you are looking for documentation on FusionInventory Agent 2.2.x (or earlier) and its installer, see link." %}
+{% include warning.html param="The new FusionInventory Agent 2.3.x comes with a <b>new</b> Microsoft Windows installer. The documentation you have below concerns this new installer. If you are looking for documentation on FusionInventory Agent 2.2.x (or earlier) and its installer, see link." %}
 You can find [documentation on FusionInventory Agent 2.2.x]({{ site.baseurl }}/documentation/agent/installation/windows_before_2.3.0.html).
 
 
@@ -60,15 +60,15 @@ The manual is contained within the installer. You can get it in one of the follo
 
 
 
-*         C:\> fusioninventory-agent_windows-<platform>_<version>.exe /help
+* `C:\> fusioninventory-agent_windows-<platform>_<version>.exe /help`
 
 
 
-*         C:\> fusioninventory-agent_windows-<platform>_<version>.exe /dumphelp
+* `C:\> fusioninventory-agent_windows-<platform>_<version>.exe /dumphelp`
 
 
 
-*         C:\> fusioninventory-agent_windows-<platform>_<version>.exe /dumphelp /S
+* `C:\> fusioninventory-agent_windows-<platform>_<version>.exe /dumphelp /S`
 
 
 {% include info.html param="It's recommended that you read through this documentation each time a new version is released; the new FusionInventory Agent installer for Microsoft Windows is still young and it's in constant development, including its manual." %}
