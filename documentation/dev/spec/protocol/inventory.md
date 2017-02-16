@@ -144,7 +144,7 @@ title: Inventory protocol
 
         <!ELEMENT OPERATINGSYSTEM (KERNEL_NAME, KERNEL_VERSION, NAME, VERSION,
         FULL_NAME, SERVICE_PACK, INSTALL_DATE, FQDN, DNS_DOMAIN, SSH_KEY, ARCH,
-        BOOT_TIME, TIMEZONE)>
+        BOOT_TIME, TIMEZONE, HOSTID)>
           <!-- kernel name, ie 'freebsd', 'linux', 'hpux', 'win32', etc. -->
           <!ELEMENT KERNEL_NAME (#PCDATA)>
           <!-- kernel version, ie '2.6.32' on Linux, '5.2.x.y' on Windows
@@ -168,6 +168,7 @@ title: Inventory protocol
           <!ELEMENT INSTALL_DATE (#PCDATA)>
           <!ELEMENT FQDN (#PCDATA)>
           <!ELEMENT DNS_DOMAIN (#PCDATA)>
+          <!ELEMENT HOSTID (#PCDATA)>
           <!ELEMENT SSH_KEY (#PCDATA)>
           <!-- operating system architecture -->
           <!ELEMENT ARCH (#PCDATA)>
@@ -666,7 +667,7 @@ title: Inventory protocol
           <!ELEMENT DOMAIN (#PCDATA)>
 
         <!ELEMENT VIRTUALMACHINES (MEMORY, NAME, UUID, STATUS, SUBSYSTEM,
-        VMTYPE, VCPU, VMID, MAC, COMMENT, OWNER, SERIAL)>
+        VMTYPE, VCPU, VMID, MAC, COMMENT, OWNER, SERIAL, IMAGE)>
           <!-- name -->
           <!ELEMENT NAME (#PCDATA)>
           <!-- UUID -->
