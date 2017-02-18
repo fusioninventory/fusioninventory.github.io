@@ -27,7 +27,7 @@ There has been a long delay since 2.3.18 release, almost 9 months. As a conseque
 
 Check the [Changes file](https://github.com/fusioninventory/fusioninventory-agent/blob/2.3.19/Changes) for more details.
 
-Finally, we recently open a [Userecho suggestion site](http://fusioninventory.userecho.com/) whrere you can want to submit your ideas or whishes for the future of FusionInventory agent and/or plugin for GLPI.
+Finally, we recently open a [Userecho suggestion site](http://fusioninventory.userecho.com/) where you can want to submit your ideas or whishes for the future of FusionInventory agent and/or plugin for GLPI.
 
 Don't hesitate to participate by voting or even put your 2 cents !
 
