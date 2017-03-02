@@ -3,8 +3,6 @@ layout: page
 title: Installation on Mageia and Mandriva
 ---
 
-# Installation of the Agent on Mageia and Mandriva
-
 *fusioninventory-agent* is part of the *official repository* for mageia and
 mandriva.
 
