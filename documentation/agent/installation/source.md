@@ -10,7 +10,7 @@ The latest release is available either from
 
 # Build and installation
 
-We strongly recommend the use of __GNU tar__ because some file path lenght are
+We strongly recommend the use of __GNU tar__ because some file path length are
 greater than 100 caracters. Some tar version will silently ignore those files
 like for example on HP-UX.
 
