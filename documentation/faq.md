@@ -11,8 +11,6 @@ The agent is available on Windows, OS X, Linux, FreeBSD, OpenBSD,
 NetBSD, DragonFlyBSD, AIX, Solaris, HP-UX. The agent shares the same
 codebase on all these platforms.
 
-An agent for Android is also available on [Google Play](https://play.google.com/store/apps/details?id=org.fusioninventory).
-
 ## Is FusionInventory agent compatible with OCS Inventory NG Server?
 
 Yes, your server will need to be configured to accept the Fusioninventory UserAgent in the ocsinventory-server.conf
