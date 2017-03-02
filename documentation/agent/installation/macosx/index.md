@@ -9,11 +9,7 @@ redirect_from:
 
 ## Get the Agent
 
-Build script for recent version (2.3.x) [made by Darkomen78](https://twitter.com/Darkomen78) is available here : [FusionInventory OS X flavor](https://github.com/Darkomen78/Fusioninventory/)
-
-First, get the agent mpkg archive [Intel](http://prebuilt.fusioninventory.org/stable/macosx-intel/) or [PowerPC](http://prebuilt.fusioninventory.org/stable/macosx-ppc/).
-
-You must download the **.pkg.tar.gz** package.
+Download the **.pkg.tar.gz** package here : https://releases.teclib.net/fusioninventory-agent/macosx
 
 ## Extract Agent
 
