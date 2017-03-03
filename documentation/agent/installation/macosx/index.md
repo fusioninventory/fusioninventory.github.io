@@ -9,7 +9,7 @@ redirect_from:
 
 ## Get the Agent
 
-Download the **.pkg.tar.gz** package here : https://releases.teclib.net/fusioninventory-agent/macosx
+Download the **.pkg.tar.gz** package here : https://github.com/fusioninventory/fusioninventory-agent/releases/download/2.3.19/FusionInventory-Agent-2.3.19.pkg.tar.gz
 
 ## Extract Agent
 
