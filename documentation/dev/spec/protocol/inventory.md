@@ -598,6 +598,8 @@ title: Inventory protocol
           <!ELEMENT USERNAME (#PCDATA)>
           <!-- software owner ID -->
           <!ELEMENT USERID (#PCDATA)>
+          <!-- software system category  -->
+          <!ELEMENT SYSTEM_CATEGORY (#PCDATA)>
 
         <!ELEMENT SOUNDS (CAPTION, DESCRIPTION, MANUFACTURER, NAME)>
           <!ELEMENT CAPTION (#PCDATA)>
