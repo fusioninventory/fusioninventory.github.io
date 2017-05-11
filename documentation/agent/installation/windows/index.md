@@ -15,7 +15,7 @@ You can find [documentation on FusionInventory Agent 2.2.x]({{ site.baseurl }}/d
 
 
 
-You can get the last [FusionInventory Agent installer for Microsoft Windows](https://github.com/tabad/fusioninventory-agent-windows-installer/releases). The filename of the installer follows this pattern:
+You can get the last [FusionInventory Agent installer for Microsoft Windows](https://github.com/fusioninventory/fusioninventory-agent/releases). The filename of the installer follows this pattern:
 
 
 

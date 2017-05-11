@@ -26,14 +26,16 @@ redirect_from: "/documentation/documentation.html"
 * [Import and link rules](fi4g/importrules.html)
 * [How to deal with DMZ network](fi4g/dmz/)
 
-## How to 
+# How tos
+
+## FusionInventory for GLPI how tos
 
 * [Deploy softwares](tasks/deploy/)
 * [Deploy > export / import packages](tasks/exportimportpackages.html)
 * [Deploy with mirrors](tasks/deploymirrors.html)
 * [Deploy in self-service mode](tasks/deploy_self-service.html)
 
-# General how to
+## General how tos
 
 * [Scan my network](tasks/networkdiscovery.html)
 * [Inventory ESX virtual machines](tasks/esxinventory/)
@@ -44,7 +46,7 @@ redirect_from: "/documentation/documentation.html"
 * [Extend a computer inventory content](agent/additional_content.html)
 * [Update agent with the deploy task](tasks/updateagentwithdeploytask.html)
 
-# Contributor 
+# Contributing 
 
 * [How to use this wiki](wiki.html)
 * [Translation](translation.html)

@@ -3,9 +3,7 @@ layout: page
 title: Installation on RHEL, CentOS and other RHEL clones
 ---
 
-# Installation of the Agent on RHEL, Centos and other RHEL clones
-
-## RHEL/Centos 7.x
+# RHEL/Centos 7.x
 
 The FusionInventory team maintains RPM packages in the [EPEL repository](https://fedoraproject.org/wiki/EPEL).
 Once the repository is installed, just run:
@@ -17,7 +15,7 @@ If you plan to use agent in daemon mode (default), don't forget to start the ser
     # systemctl start fusioninventory-agent
     # systemctl enable fusioninventory-agent
 
-## RHEL/Centos 6.x
+# RHEL/Centos 6.x
 
 The FusionInventory team maintains RPM packages in the [EPEL repository](https://fedoraproject.org/wiki/EPEL).
 Once the repository is installed, just run:
@@ -29,7 +27,7 @@ If you plan to use agent in daemon mode (default), don't forget to start the ser
     # service fusioninventory-agent start
     # chkconfig fusioninventory-agent on
 
-## RHEL/Centos 5.x
+# RHEL/Centos 5.x
 
 An up-to-date *fusioninventory-agent* package is maintained by FusionInventory
 team. You can retrieve it from [openSUSE Build
@@ -41,7 +39,7 @@ Agent installation:
 
     # yum install fusioninventory-agent fusioninventory-agent-task-inventory
 
-## RHEL/Centos 4.x
+# RHEL/Centos 4.x
 
 **No more package update - Upgrade strongly recommended**
 

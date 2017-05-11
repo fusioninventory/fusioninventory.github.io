@@ -5,9 +5,7 @@ redirect_from:
  - /documentation/agent/installation.html
 ---
 
-# FusionInventory Agent installation
-
-## Package based installation
+# Package based installation
 
 * [OS X]({{ site.baseurl }}/documentation/agent/installation/macosx/)
 * [Linux]({{ site.baseurl }}/documentation/agent/installation/linux/)
@@ -18,6 +16,6 @@ redirect_from:
 * [BSD]({{ site.baseurl }}/documentation/agent/installation/bsd.html)
 * [Android]({{ site.baseurl }}/documentation/agent/installation/android.html)
 
-## Installation from tarball
+# Installation from source
 
-* [from source]({{ site.baseurl }}/documentation/agent/installation/source.html)
+* [from tarball]({{ site.baseurl }}/documentation/agent/installation/source.html)
