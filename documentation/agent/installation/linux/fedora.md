@@ -17,10 +17,14 @@ See [Remi repository configuration](http://blog.famillecollet.com/pages/Config-e
 
 Agent installation:
 
-    # yum install fusioninventory-agent
+    $ sudo dnf install fusioninventory-agent
 
 Only *fusioninventory-agent* is mandatory, other packages are additional tasks.
 
 You can also install the *yum plugin* which will request a inventory after each yum operation
 
-    # yum install fusioninventory-agent-yum-plugin
+    $ sudo dnf install fusioninventory-agent-yum-plugin
+
+If the latest release is not available in stable repositories, you may check on testing:
+
+    $ sudo dnf --enablerepo=updates-testing install fusioninventory-agent
