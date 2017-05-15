@@ -8,6 +8,7 @@ baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://fusioninventory.github.io" # the base hostname & protocol for your site
 twitter_username: fusioninventory
 github_username:  fusioninventory
+favicon: /images/fusioninventory.png
 
 
 paginate: 8
