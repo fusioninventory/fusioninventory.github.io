@@ -309,6 +309,19 @@ title: Inventory protocol
           <!ELEMENT KEY (#PCDATA)>
           <!ELEMENT VAL (#PCDATA)>
 
+        <!-- Firewall -->
+        <!ELEMENT FIREWALL (DESCRIPTION IPADDRESS IPADDRESS6 PROFILE STATUS)>
+          <!-- active connection's interface (Windows only) -->
+          <!ELEMENT DESCRIPTION (#PCDATA)>
+          <!-- active connection's ip (Windows only) -->
+          <!ELEMENT IPADDRESS (#PCDATA)>
+          <!-- active connection's ip v6 (Windows only) -->
+          <!ELEMENT IPADDRESS6 (#PCDATA)>
+          <!-- firewall profile (Windows only) -->
+          <!ELEMENT PROFILE (#PCDATA)>
+          <!-- firewall status -->
+          <!ELEMENT STATUS (#PCDATA)>
+          
         <!ELEMENT INPUTS (NAME, MANUFACTURER, CAPTION, DESCRIPTION, INTERFACE,
         LAYOUT, POINTINGTYPE, TYPE)>
           <!ELEMENT NAME (#PCDATA)>
