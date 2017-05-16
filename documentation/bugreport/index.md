@@ -6,7 +6,7 @@ redirect_from:
  - /documentation/agent/bugreport.html
 ---
 
-# How to report issues efficiently
+{% include info.html param="<br/>How to report issues efficiently ?" %}
 
 In order for the developers to track and fix issues properly, you need to use
 [GitHub](https://github.com/fusioninventory/) bug tracker, and report an issue
@@ -15,7 +15,7 @@ with the proper component. This requires an user account.
 Here are a few usage rules, so as to avoid wasting efforts both for the
 reporters and for the assignees.
 
-## Component identification
+# Component identification
 
 You have to identify if the problems occurs on agent (the agent doesn't report
 the expected value) or on server side (the server doesn't display the expected
@@ -36,7 +36,7 @@ Once the faulty component identified, use either:
 
 * [server bugtracker](https://github.com/fusioninventory/fusioninventory-for-glpi/issues) for server issues
 
-## Problem description
+# Problem description
 
 You have to use english, for sake of internationalization.
 
@@ -51,7 +51,7 @@ you're using, the agent version, and how you did install it.
 
 It is useless to set a priority, it will be re-evaluated by the assignee anyway.
 
-## Execution traces
+# Execution traces
 
 Agent log verbosity may be increased by raising *debug* [configuration parameter](agent/configuration.html) 
 value (alternatively, by using multiple *--debug* [command-line options](agent/man/)).
@@ -63,7 +63,7 @@ Please post only relevant part of logs: we don't care about local inventory
 task execution messages, for instance, when dealing with a remote inventory
 issue.
 
-## External content
+# External content
 
 When the issue is related to some missing or invalid value, most of the time,
 it is caused by a parsing error while processing external data (a command
@@ -76,19 +76,19 @@ any privacy concern, send them by email to *walk at fusioninventory dot org*, wi
 When running any command for such purpose, unset locales first (export LC_ALL=C
 undex Unix) to avoid localized output. Here are other command-specific advices.
 
-### WMI queries
+## WMI queries
 
 Windows WMI queries can be exported with wmic tool:
 
     wmic path <somequery> get /Format:list > <somefile>
 
-### Registry extract
+## Registry extract
 
 Windows registry content can be exported with regedit tool:
 
     regedit /e <somefile.reg> <somekey>
 
-### dmidecode output
+## dmidecode output
 
 dmidecode output can be generated on any system, including windows, as we ship
 a dmidecode executable in windows distribution of the agent, in the perl\bin
@@ -96,7 +96,7 @@ subdirectory.
 
     \path\to\fusion\perl\bin\dmidecode > <somefile>
 
-### snmpwalk output
+## snmpwalk output
 
 snmpwalk output can be generated with the following command:
 
