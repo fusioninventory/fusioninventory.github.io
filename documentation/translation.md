@@ -3,8 +3,6 @@ layout: page
 title: How to translate FusionInventory
 ---
 
-# How to translate FusionInventory
-
 FusionInventory for GLPI can be translated directly on Transifex. You will
 need an account: <https://www.transifex.com/projects/p/FusionInventory/>
 
@@ -14,9 +12,10 @@ a [Git client](http://git-scm.com/) to retrieve a copy of the website.
 For your information, [Lokalize](http://userbase.kde.org/Lokalize) is a great tool
 to translate the .po files.
 
-If you want us to enable another langage, please contact [Gonéri](mailto:goneri@rulezlan.org) or the [Translator mailing list]({{ site.baseurl }}/resources/).
+If you want us to enable another langage, please [contact us]({{ site.baseurl }}/resources/)
+ and better through [Translator mailing list]({{ site.baseurl }}/resources/#mailing-lists).
 
-## Glossary for translators
+# Glossary for translators
 
 Here you will find technical words to be translated or not. Register on the 
 [Mailing list for translators](http://lists.alioth.debian.org/mailman/listinfo/fusioninventory-i18n)
