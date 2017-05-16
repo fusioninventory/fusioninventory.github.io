@@ -1,3 +1,0 @@
-<div class="todobox">
-This page is known for being outdated. Please take its content with care.
-</div>
