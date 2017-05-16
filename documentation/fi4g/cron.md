@@ -3,9 +3,7 @@ layout: page
 title: Cron for GLPI and for FusionInventory
 ---
 
-# Cron GLPI
-
-## The goal of the GLPI cron
+# The goal of the GLPI cron
 
 GLPI has _automatic actions_ like _optimize database_, _alerts on end of contracts_ ...
 The plugin FusionInventory has own _automatic actions_ like the _taskscheduler_ used to prepare the tasks.
@@ -13,7 +11,7 @@ The plugin FusionInventory has own _automatic actions_ like the _taskscheduler_ 
 That's why, these actions must run often.
 
 
-## How to run the GLPI cron?
+# How to run the GLPI cron?
 
 It's not complex, you need create a cron on your operating system run the GLPI cron.
 

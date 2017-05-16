@@ -3,9 +3,7 @@ layout: page
 title: How to push additional content in my inventory
 ---
 
-# How to push additional content in my inventory
-
-## Additional content
+# Additional content
 
 You can use *additional-content* [configuration parameter]({{ site.baseurl }}/documentation/agent/configuration.html) 
 (alternatively, *--additional-content* [command-line options](man/)) to inject arbitary XML content into
@@ -26,7 +24,7 @@ packaging system database:
     </REQUEST>
     $> fusioninventory-agent --additional-content /tmp/foo.xml
 
-## Perl module (Agent side)
+# Perl module (Agent side)
 
 You can extend FusionInventory by creating a custom Perl module, and installing
 it anywhere under 'lib/FusionInventory/Agent/Task/Inventory' directory. It will
@@ -78,7 +76,7 @@ Then, you can modify "fusioninventory-agent_aix-6.1-ppc_2.2.7-4/perl/agent/Fusio
         […]
     ORACLE      => [ qw/INSTANCE VERSION URL PORT PATH STATE/],
 
-## Add content: Server side
+# Add content: Server side
 
 You can create a new PHP class "Oracle.class.php" into ./glpi/plugins/fusioninventory/inc/ if you want to visualise it on GLPI.
 

@@ -5,8 +5,6 @@ redirect_from:
  - /documentation/task/deploy.html
 ---
 
-# Package Deployment
-
 Package Deployment is both integrated with GLPI via *massive actions* and via the Plugin interface.
 
 ![]({{ site.baseurl }}/documentation/tasks/deploy/FusionInventoryMain.png)

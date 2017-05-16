@@ -3,8 +3,6 @@ layout: page
 title: Update FusionInventory agent through a deploy task
 ---
 
-# Howto Update FusionInventory Agent through a deployment task
-
 The basic problem with updating the agent through a deployment task is the agent will have to uninstall itself while in use, thus throwing some errors.
 
 A good method to update the agent without errors is to create a scheduled task that will update the agent to it's latest version onboot.

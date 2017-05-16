@@ -5,9 +5,7 @@ redirect_from:
  - /documentation/agent/man.html
 ---
 
-# Agent man pages
-
-## Executables
+# Executables
 
 * [fusioninventory-agent](fusioninventory-agent.html)
 * [fusioninventory-esx](fusioninventory-esx.html)
@@ -17,6 +15,6 @@ redirect_from:
 * [fusioninventory-netinventory](fusioninventory-netinventory.html)
 * [fusioninventory-wakeonlan](fusioninventory-wakeonlan.html)
 
-## Configuration
+# Configuration
 
 * [agent.cfg](agent.cfg.html)

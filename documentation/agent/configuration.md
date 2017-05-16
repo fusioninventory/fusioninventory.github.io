@@ -3,9 +3,7 @@ layout: page
 title: Agent configuration
 ---
 
-# Agent configuration
-
-## Location
+# Location
 
 On Unix, the agent reads its configuration from a configuration file, whose
 location depends of the installation method:
@@ -20,12 +18,12 @@ location depends on architecture:
 * `HKEY_LOCAL_MACHINE\SOFTWARE\FusionInventory-Agent`: Windows
 * `HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\FusionInventory-Agent`: 32bits agent on 64bits Windows
 
-## Syntax
+# Syntax
 
 Most configuration parameters are single-valued. Multi-valued ones use a comma
 field separator. For instance, `logger = Stderr, File`
 
-## Available parameters
+# Available parameters
 
 The only minimal requirement is an execution target, which can be either:
 
@@ -38,7 +36,7 @@ results (see [bug 2335](http://forge.fusioninventory.org/issues/2335)).
 
 See [agent.cfg man page](man/agent.cfg.html) for full parameters list.
 
-## Command line
+# Command line
 
 All configuration parameters can be overriden by command-line options.
 

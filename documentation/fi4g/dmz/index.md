@@ -5,9 +5,9 @@ redirect_from:
  - /documentation/fi4g/dmz.html
 ---
 
-# A way to deal with inventories in DMZ
+*Ways to deal with inventories in DMZ...*
 
-## Collect the inventories from DMZ agents
+# Collect the inventories from DMZ agents
 
 You can collect your DMZ inventories by using a limited script that get the POST
 request of the agents.
@@ -26,7 +26,7 @@ adjust the $dumDir key at the begining of the script.
 
     $dumpDir = '/tmp';
 
-## Import results with fusioninventory-injector
+# Import results with fusioninventory-injector
 
 Once the xml inventory files are written, you can move them outside of the DMZ and
 finally import these files to GLPI using [fusioninventory-injector]({{ site.baseurl }}/documentation/agent/man/fusioninventory-injector.html).

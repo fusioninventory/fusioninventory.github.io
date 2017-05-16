@@ -3,8 +3,6 @@ layout: page
 title: The big picture
 ---
 
-# The big picture
-
 ![](bigpicture.png)
 
 Original graph source:

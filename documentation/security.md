@@ -3,9 +3,7 @@ layout: page
 title: Security
 ---
 
-# Security
-
-## Threat model
+# Threat model
 
 They are several potential security issues in fusioninventory.
 
@@ -30,7 +28,7 @@ If none of these issues is a concern for your particular case, for instance
 because your network is trusted, you don't need the additional overhead and
 complexity of HTTPS.
 
-## HTTPS support
+# HTTPS support
 
 HTTPS support on server side is enforced by the HTTP server, typically Apache
 with mod_ssl.
@@ -45,7 +43,7 @@ been explicitely disabled, through *no-ssl-check* [configuration
 parameter]({{ site.baseurl }}/documentation/agent/configuration.html) (or alternatively, *--no-ssl-check* [command
 line option]({{ site.baseurl }}/documentation/agent/man/)).
 
-## Self-signed certificate setup
+# Self-signed certificate setup
 
 If you don't have a regular PKI to deliver trusted SSL certificates, here is
 how to quickly create a self-signed certificate, and use it to (moderatly)

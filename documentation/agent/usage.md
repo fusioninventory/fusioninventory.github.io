@@ -3,9 +3,7 @@ layout: page
 title: Agent usage
 ---
 
-# Agent usage
-
-## Execution modes
+# Execution modes
 
 They are multiple ways to run fusioninventory agent:
 
@@ -21,7 +19,7 @@ They are multiple ways to run fusioninventory agent:
   The results are then sent to the server, or kept for delayed upload. This can
   be automated through an external scheduling mechanism (cron, task scheduler).
 
-### Managed mode
+## Managed mode
 
 This mode requires the agent to be run as a server process (daemon under Unix,
 service under Windows), meaning the perl interpreter is permanently loaded in
@@ -39,7 +37,7 @@ Example:
 
     $> fusioninventory-agent --server http://my.server/plugins/fusioninventory/ --daemon
 
-### Half-managed mode
+## Half-managed mode
 
 This mode requires an external scheduling process to run the agent (cron, task
 scheduler, trainee, ...) periodically. There is no impact on memory and
@@ -51,7 +49,7 @@ Example:
 
     $> fusioninventory-agent --server http://my.server/plugins/fusioninventory/
 
-### Autonomous mode
+## Autonomous mode
 
 This mode requires an external scheduling process to run the agent (cron, task
 scheduler, trainee, ...) periodically. There is no impact on memory and
@@ -68,9 +66,9 @@ Immediate upload example:
 
     $> fusioninventory-inventory | curl --data @- http://my.server/plugins/fusioninventory/
 
-## Offline usage
+# Offline usage
 
-### Agent execution
+## Agent execution
 
 Most tasks handled by the agent can be executed directly without server, when
 it is not available, or for easier troubleshooting.
@@ -82,14 +80,14 @@ an inventory:
 
 See [man pages](man/) for details.
 
-### Result import
+## Result import
 
-#### FusionInventory for GLPI Interface
+### FusionInventory for GLPI Interface
 
 Go in *Plugins > FusionInventory > Import agent XML* Menu and upload the XML
 file.
 
-#### fusioninventory-injector
+### fusioninventory-injector
 
 The agent has a dedicated executable for result injection:
 
@@ -98,7 +96,7 @@ The agent has a dedicated executable for result injection:
 See [fusioninventory-injector man page](man/fusioninventory-injector.html) for
 details.
 
-#### curl
+### curl
 
 You can also use curl to push an inventory. This can be useful if your perl
 installation has no SSL support, for instance:
@@ -110,7 +108,7 @@ With no SSL check and no authentification :
     curl --header "Content-Type: Application/x-compress" -k --data @/tmp/monposte.local-2012-10-04-12-21-23.ocs https://my.server/plugins/fusioninventory/
 
 
-## Multiple execution targets
+# Multiple execution targets
 
 Using multiple execution targets (servers or local directory) doesn't mean
 "execute once, upload the result multiple times", but "tries to execute every
