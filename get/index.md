@@ -8,14 +8,17 @@ redirect_from:
  - /wordpress/download-fusioninventory/
 ---
 
-# Get FusionInventory
+# Get FusionInventory Agent
 
-## Agent
+The FusionInventory agent is the software used to collect informations on platforms. This agent
+can also start network discovery, network inventory, ESX inventory and deploy tasks.
 
-The agent is used to collect informations, scan the network, deploy file and package.
+Look at [FusionInventory agent installation]({{ site.baseurl }}/documentation/agent/installation/) page
+and find the best ways to install it for yours platforms.
 
-* [Install the agent]({{ site.baseurl }}/documentation/agent/installation/).
+# Get FusionInventory Server
 
-## Server
+Look at detailed [FusionInventory for GLPI installation]({{ site.baseurl }}/documentation/fi4g/installation.html)
+page to install the server part as a [GLPI](http://glpi-project.org/) plugin.
 
-* [FusionInventory for GLPI]({{ site.baseurl }}/documentation/fi4g/installation.html)
+See our [Overview]({{ site.baseurl }}/overview/) page to get more information on FusionInventory features.
