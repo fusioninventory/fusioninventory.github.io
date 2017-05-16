@@ -3,9 +3,7 @@ layout: page
 title: Release process
 ---
 
-# ReleaseProcess
-
-## Changes list validation
+# Changes list validation
 
 Ensures the Change file contains references to all majors changes since latest release, with references to all resolved bugs.
 
@@ -21,7 +19,7 @@ The changelog section entry must start with a line in the following format:
 * 2 spaces
 * date -R
 
-## Test suite validation
+# Test suite validation
 
 Ensures the full test suite, with developper tests enabled, executes correctly on the following platforms:
 
@@ -30,12 +28,12 @@ Ensures the full test suite, with developper tests enabled, executes correctly o
 
     make test TEST_AUTHOR=1
 
-## Repository tagging
+# Repository tagging
 
     git tag -s X.Z.Z
     git push --tags
 
-## Tarball creation
+# Tarball creation
 
     ./tools/updatePciids.sh # For the agent
     perl Mafile.PL
@@ -44,15 +42,15 @@ Ensures the full test suite, with developper tests enabled, executes correctly o
     make manifest
     make dist
 
-## Tarball upload
+# Tarball upload
 
 Tarball has to be uploaded on the forge and on CPAN.
 
-## Mark bugs as closed
+# Mark bugs as closed
 
 Go on the [forge](http://forge.fusioninventory.org/) and change the status of the fixed from to closed.
 
-## Release announcement
+# Release announcement
 
 Publish official announcement:
 
@@ -65,11 +63,7 @@ At the end the process this should be done:
 * as a post to the user mailing-list
 * as a news on the website
 
-## Bugtracker update
+# Bugtracker update
 
 Switch all bugs resolved by the latest release from 'resolved' to 'closed state'.
 Move all still open bugs to next planned version if you still believe they will be fixed in a timely fashion. Otherwise you should unset the “planned version” field of the bugs.
-
-## Update FreshMe\^WFreecode status
-
-* [FusionInventory Agent page](http://freecode.com/projects/fusioninventory-agent)
