@@ -3,14 +3,37 @@ layout: page
 title: FAQ
 ---
 
+1. [Configuration and deployment](#config-and-deploy)
+   1. [On which platforms is the FusionInventory agent available?](#agent-platform-availability)
+   1. [Is FusionInventory agent compatible with OCS Inventory NG Server?](#agent-ocs-compat)
+   1. [How to redirect OCS agent with Apache?](#redirect-ocs-agent)
+1. [How can I ...](#how-can-i-do)
+   1. [configure two or more servers ?](#more-servers)
+   1. [use a mastering software like Ghost to deploy my agent ?](#mastering-software)
+   1. [inventory my virtual machines ?](#vms)
+   1. [inventory my printers ?](#printers)
+1. [Usual issues](#issues)
+   1. [*Task X is not enabled* message](#task-x-not-enabled)
+   1. [*Unable to find agent to run this job* message](#no-agent-to-run-job)
+   1. [*Bad token* message](#bad-token)
+   1. [*end_request: I/O error, dev fd0, sector 0* message](#floppy-io-error)
+   1. [Duplicated computers in inventory](#dup-computers)
+   1. [Missing information when called from cron](#missing-info-under-cron)
+   1. [Strange agent token “12345678”](#strange-agent-token)
+
+___
+
+<div id='config-and-deploy'/>
 # Configuration and deployment
 
-## On which platforms is the FusionInventory agent available?
+<div id='agent-platform-availability'/>
+## _On which platforms is the FusionInventory agent available?_
 
 The agent is available on Windows, OS X, Linux, FreeBSD, OpenBSD,
 NetBSD, DragonFlyBSD, AIX, Solaris, HP-UX. The agent shares the same
 codebase on all these platforms.
 
+<div id='agent-ocs-compat'/>
 ## Is FusionInventory agent compatible with OCS Inventory NG Server?
 
 Yes, your server will need to be configured to accept the Fusioninventory UserAgent in the ocsinventory-server.conf
@@ -36,7 +59,7 @@ be developped anymore.
 If you’re looking for a software deployment solution, FusionInventory
 provides it’s own, which is integrated into GLPI.
 
-
+<div id='redirect-ocs-agent'/>
 ## How to redirect OCS agent with Apache?
 
 You can use an [alias](http://httpd.apache.org/docs/2.2/mod/mod_alias.html) directive to
@@ -63,7 +86,13 @@ For example:
 
 It's also possible to use a regular expression for that.
 
-# How can I configure two or more servers?
+***
+
+<div id='how-can-i-do'/>
+# How can I ...
+
+<div id='more-servers'/>
+## How can I configure two or more servers?
 
  In the agent configuration file, you can define several servers to
 communicate with. For example to communicate with three servers:
@@ -74,14 +103,14 @@ FusionInventory Server for GLPI 0.80 and 0.83, and OCSInventory server:
 The agent will contact each server in the order defined in the configuration
 file, and perform the actions requested from each of them.
 
-## Can I use a mastering software like Ghost to deploy my agent?
+<div id='mastering-software'/>
+## How can I use a mastering software like Ghost to deploy my agent?
 
 Yes. However, take care to not duplicate agent state directory, otherwise
 multiple agents will use the same identifier.
 
-# How can I...
-
-## inventory my virtual machines ?
+<div id='vms'/>
+## How can I inventory my virtual machines ?
 
 As for every other machine: install an agent on it.
 
@@ -90,15 +119,20 @@ inventory of its guests, it just retrieve minimal information, such as virtual
 machine identifier, so as to compute the relationship between the guest and the
 host.
 
-## inventory my printers ?
+<div id='printers'/>
+## How can I inventory my printers ?
 
 For local (USB) printers, run a local inventory on the host.
 
 For network printers, run a network inventory from any agent able to
 communicate through SNMP with the printer.
 
+***
+
+<div id='issues'/>
 # Usual issues
 
+<div id='task-x-not-enabled'/>
 ## *Task X is not enabled* message
 
     Task NetInventory is not enabled
@@ -107,7 +141,7 @@ communicate through SNMP with the printer.
 These messages show up in the agent log when the server do not ask for an Network
 Discovery or a Network Inventory.
 
-
+<div id='no-agent-to-run-job'/>
 ## *Unable to find agent to run this job* message
 
 You will get *Unable to find agent to run this job* message when the server can't find an agent
@@ -118,6 +152,7 @@ to run a task in push mode:
 * Check in http://glpi/plugins/fusioninventory/front/agent.php if the agent has *Network discovery*
   and *Network inventory (SNMP)* modules turned on
 
+<div id='bad-token'/>
 ## *Bad token* message
 
 “Bad token” problems means the agent and the server are not synchronized anymore. You can resolve the situation either:
@@ -127,6 +162,7 @@ to run a task in push mode:
 
 {% include warning.html param="A bug fixed in 2.2.7 prevent the use of <code class='highlighter-rouge'>rpc-trust-localhost</code> and <code class='highlighter-rouge'>httpd-trust</code>." %}
 
+<div id='floppy-io-error'/>
 ## *end_request: I/O error, dev fd0, sector 0* message
 
 This can append on Linux box with floppy driver like most of the VMware virtual machine. You can
@@ -136,6 +172,7 @@ work around the problem by unloading the floppy kernel module:
 
 The error is generated when the agent launch the following command `fdisk -l`.
 
+<div id='dup-computers'/>
 ## Duplicated computers in inventory
 
 With the default settings, FusionInventory for GLPI use the follow criteria to identify computer:
@@ -146,6 +183,7 @@ With the default settings, FusionInventory for GLPI use the follow criteria to i
 
 One of this information is probably duplicated.
 
+<div id='missing-info-under-cron'/>
 ## Missing information when called from cron
 
 Most of the time, cron do not define a default PATH. In this case the agent won't
@@ -155,6 +193,7 @@ Just define the PATH in the crontab:
 
     PATH=/usr/local/sbin:/usr/local/bin:/sbin:/bin:/usr/sbin:/usr/bin
 
+<div id='strange-agent-token'/>
 ## Strange agent token “12345678”
 
 Since the agent 2.3.0, the agent doesn't use any token anymore to authenticate
