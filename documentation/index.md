@@ -23,7 +23,7 @@ redirect_from: "/documentation/documentation.html"
 
 ## [Usage](agent/usage.html)
 
-## [Force an inventory](agent/launch_the_agent.html)
+## [How to run agent ?](agent/launch_the_agent.html)
 
 # FusionInventory for GLPI
 
