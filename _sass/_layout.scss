@@ -198,6 +198,14 @@
  */
 .post-header {
     margin-bottom: $spacing-unit;
+
+    .edit-icon {
+        float: right;
+    }
+
+    .issue-icon {
+        float: right;
+    }
 }
 
 .post-title {
@@ -214,7 +222,7 @@
     margin-bottom: $spacing-unit;
 
     h2 {
-        font-size: 32px;
+        font-size: $base-font-size * 1.5;
 
         @include media-query($on-laptop) {
             font-size: 28px;
@@ -222,7 +230,7 @@
     }
 
     h3 {
-        font-size: 26px;
+        font-size: $base-font-size * 1.2;
 
         @include media-query($on-laptop) {
             font-size: 22px;
@@ -230,7 +238,7 @@
     }
 
     h4 {
-        font-size: 20px;
+        font-size: $base-font-size;
 
         @include media-query($on-laptop) {
             font-size: 18px;
