@@ -23,7 +23,7 @@ FusionInventory for GLPI tarball name follow this convention:
 
 You *must* *FIRST* disable the FusionInventory plugin via GLPI web interface and then move the `plugins/fusioninventory` folder out of the `plugins/` folder. This ensures any deprecated files will be properly removed.
 
-{% include warning.html param="Don't click on *UNINSTALL* link. If you do this, you will LOOSE all FusionInventory data." %}
+{% include warning.html param="Don't click on <em>UNINSTALL</em> link. If you do this, you will LOOSE all FusionInventory data." %}
 
 ## Installation
 
@@ -50,7 +50,7 @@ It's also always a good idea to do a backup of your database.
 These operations will create or upgrade the database and set the correct rights on the plugin.
 Do the same for all fus* plugins
 
-### Initial configuration
+## Initial configuration
 
 Once the plugin is activated, you will have to go on the _Administration > Entities > Root entity > tab FusionInventory_
 page to set the *Service URL*. You need to enter the location of your GLPI server, for example `http://glpi.mydomain/`.
@@ -67,7 +67,7 @@ SSL-only for agent: send an error response to an agent when this agent communica
 
 # Security
 
-{% include warning.html param="We strongly recommend to activate SSL on the server side to protect human user communications, and eventually agent communications too. See  for details." %}
+{% include warning.html param="We strongly recommend to activate SSL on the server side to protect human user communications, and eventually agent communications too." %}
 
 See [here]({{ site.baseurl }}/documentation/security.html) for details.
 
