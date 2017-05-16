@@ -10,10 +10,9 @@ This feature was added in version 9.1+1.0 of plugin FusionInventory for GLPI.
 The goal is the technicians prepare packages to deploy, not deploy them  but give possibility to 
 end users to install themselves.
 
-## Example
-
-A technician create a Gimp package and the end user _toto_ want install Gimp. He log in GLPI and select Gimp to install on 
-his computer ;)
+{% include info.html param="<em>Example:</em><br/>
+A technician create a Gimp package and the end user <em>toto</em> want install Gimp.
+He log in GLPI and select Gimp to install on his computer ;)" %}
 
 
 # How to enable self-service of a package
