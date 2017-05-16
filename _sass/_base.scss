@@ -137,6 +137,14 @@ h1, h2, h3, h4, h5, h6 {
 .post-content h4:before { content: counter(section-1) "." counter(section-2) "." counter(section-3) "." counter(section-4) ". "; }
 
 
+.post-content hr {
+    margin: 0.8rem 0 0.8rem 0;
+}
+
+.post-content table {
+    line-height: 80%;
+}
+
 /**
  * Links
  */
