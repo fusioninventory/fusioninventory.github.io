@@ -144,6 +144,14 @@ h1, h2, h3, h4, h5, h6 {
 
 .post-content table {
     line-height: 80%;
+    border-spacing: 0;
+    td, th {
+        border-bottom: 1px solid;
+        border-right: 1px solid;
+        padding: 5px 5px;
+        vertical-align: middle;
+        text-align: center;
+    }
 }
 
 /**
