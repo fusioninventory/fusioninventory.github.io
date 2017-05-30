@@ -12,6 +12,7 @@ title: FAQ
    1. [use a mastering software like Ghost to deploy my agent ?](#mastering-software)
    1. [inventory my virtual machines ?](#vms)
    1. [inventory my printers ?](#printers)
+   1. [debug agent ssl issue ?](#debug-ssl)
 1. [Usual issues](#issues)
    1. [*Task X is not enabled* message](#task-x-not-enabled)
    1. [*Unable to find agent to run this job* message](#no-agent-to-run-job)
@@ -126,6 +127,18 @@ For local (USB) printers, run a local inventory on the host.
 
 For network printers, run a network inventory from any agent able to
 communicate through SNMP with the printer.
+
+<div id='debug-ssl'/>
+## How can I debug agent ssl issue ?
+
+With FusionInventory Agent 2.3.20, you can diagnostic agent to server SSL communications
+by starting the agent from a command line with the following parameters:
+
+    fusioninventory-agent --logger=Stderr --debug --debug --server=https://[your-server]/plugins/fusioninventory/
+
+You will obtain very verbose SSL library messages from which you can better understand
+what's going on like wrong server certificate, missing CA certificate on agent side, ...
+
 
 ***
 
