@@ -105,20 +105,32 @@ METHOD 2:
         <th>Tested date</th>
         <th>Agent version</th>
         <th>Debian version</th>
+        <th>Tested date</th>
+        <th>Agent version</th>
+        <th>Debian version</th>
     </tr>
 </thead>
 <tbody>
     <tr>
+        <td>2017/06/07</td>
+        <td>2.3.20</td>
+        <td>Debian 8 minimal</td>
         <td>2017/05/22</td>
         <td>2.3.19</td>
         <td>Debian 8 minimal</td>
     </tr>
     <tr>
+        <td>2017/06/07</td>
+        <td>2.3.20</td>
+        <td>Debian 9 minimal (stretch/testing)</td>
         <td>2017/05/22</td>
         <td>2.3.19</td>
         <td>Debian 9 minimal (stretch/testing)</td>
     </tr>
     <tr>
+        <td>2017/06/07</td>
+        <td>2.3.20</td>
+        <td>Ubuntu 16.04.2 LTS (xenial)</td>
         <td>2017/05/22</td>
         <td>2.3.18</td>
         <td>Debian 9 minimal (stretch/testing)</td>
@@ -134,7 +146,7 @@ METHOD 2:
     apt-get -y install perl perl-modules libmodule-build-perl libmodule-install-perl
     apt-get -y install libfile-which-perl libfile-copy-recursive-perl libuniversal-require-perl
     apt-get -y install libtest-http-server-simple-perl libhttp-server-simple-authen-perl libhttp-proxy-perl
-    apt-get -y install libio-capture-perl libipc-run-perl libnet-snmp-perl libnet-telnet-cisco-perl 
+    apt-get -y install libio-capture-perl libipc-run-perl libnet-snmp-perl libnet-telnet-cisco-perl
     apt-get -y install libtest-compile-perl libtest-deep-perl libtest-exception-perl
     apt-get -y install libtest-mockmodule-perl libtest-mockobject-perl libtest-nowarnings-perl
     apt-get -y install libxml-treepp-perl libproc-daemon-perl libproc-pid-file-perl
@@ -143,25 +155,28 @@ METHOD 2:
 
 ## Download
 
-    wget https://github.com/fusioninventory/fusioninventory-agent/releases/download/2.3.19/FusionInventory-Agent-2.3.19.tar.gz
-    tar xvzf FusionInventory-Agent-2.3.19.tar.gz
-    cd FusionInventory-Agent-2.3.19
+    wget https://github.com/fusioninventory/fusioninventory-agent/releases/download/2.3.20/FusionInventory-Agent-2.3.20.tar.gz
+    tar xvzf FusionInventory-Agent-2.3.20.tar.gz
+    cd FusionInventory-Agent-2.3.20
 
 ## Build and install
 
-### on Debian Stable (tested on Debian 8.8)
+### on Debian Stable (tested on Debian 8.8) and Debian Testing for agent since 2.3.20
 
     perl Makefile.PL
     make
     make install
 
-### on Debian Testing (tested on Debian 9.0)
+### on Debian Testing for agent until 2.3.19 (tested on Debian 9.0)
 
     perl -I. Makefile.PL
     make
     make install
 
 ## Fix installation:
+
+### For Fusioninventory-Agent v2.3.20
+No fix needed, agent runs out of the box.
 
 ### For Fusioninventory-Agent v2.3.19
 
@@ -194,5 +209,30 @@ Install Data::Structure::Util:
 
 ## Configure
 - edit `/usr/local/etc/fusioninventory/agent.cfg`
+
+## Install agent as service
+
+### Create systemd service
+Edit `/etc/systemd/system/fusioninventory-agent.service` file setting this content:
+
+    [Unit]
+    Description=FusionInventory agent
+    After=syslog.target network.target
+     
+    [Service]
+    ExecStart=/usr/local/bin/fusioninventory-agent --daemon --no-fork
+     
+    [Install]
+    WantedBy=multi-user.target
+
+_P.S.: You can also fix and copy `contrib/unix/fusioninventory-agent.service` from source_
+
+### Enable the service
+    systemctl enable fusioninventory-agent
+
+### Start the service
+    systemctl start fusioninventory-agent
+
+_P.S.: The service will not start if no target is setup in `/usr/local/etc/fusioninventory/agent.cfg`_
 
 ***
