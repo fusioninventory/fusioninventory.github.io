@@ -45,7 +45,7 @@ title: Inventory protocol
       LOCAL_GROUPS+, LOCAL_USERS+, LOGICAL_VOLUMES+, MEMORIES+, MONITORS+,
       NETWORKS+, PHYSICAL_VOLUMES+, PORTS+, PRINTERS+, PROCESSES+, SLOTS+,
       SOFTWARES+, USERS+, STORAGES+, SOUNDS+, VIRTUALMACHINES+,
-      VOLUME_GROUPS+, REMOTE_MGMT+)>
+      VOLUME_GROUPS+, REMOTE_MGMT+, SIMCARDS+)>
 
         <!ELEMENT BIOS (SMODEL, SMANUFACTURER, SSN, BDATE, BVERSION,
         BMANUFACTURER, MMANUFACTURER, MSN, MMODEL, ASSETTAG, ENCLOSURESERIAL,
@@ -737,6 +737,22 @@ title: Inventory protocol
             (teamviewer)
             -->
           <!ELEMENT TYPE (#PCDATA)>
+
+        <!ELEMENT SIMCARDS (IMSI, PHONE_NUMBER, ICCID, STATE, COUNTRY, OPERATOR_CODE,OPERATOR_NAME)>
+            <!-- IMSI -->
+            <!ELEMENT IMSI (#PCDATA)>
+            <!-- Phone number -->
+            <!ELEMENT PHONE_NUMBER (#PCDATA)>
+            <!-- ICCID (serial number) -->
+            <!ELEMENT ICCID (#PCDATA)>
+            <!-- State -->
+            <!ELEMENT STATE(#PCDATA)>
+            <!-- Country -->
+            <!ELEMENT COUNTRY (#PCDATA)>
+            <!-- Operator code -->
+            <!ELEMENT OPERATOR_CODE (#PCDATA)>
+            <!-- Operator Name -->
+            <!ELEMENT OPERATOR_NAME(#PCDATA)>
 
       <!-- agent ID (string) -->
       <!ELEMENT DEVICEID (#PCDATA)>
