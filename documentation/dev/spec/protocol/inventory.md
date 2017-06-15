@@ -769,6 +769,8 @@ title: Inventory protocol
           <!ELEMENT POWER (#PCDATA)>)
           <!-- version -->
           <!ELEMENT VERSION (#PCDATA)>>
+          <!-- version -->
+          <!ELEMENT TYPE (#PCDATA)>>
 
   <!-- agent ID (string) -->
   <!ELEMENT DEVICEID (#PCDATA)>
