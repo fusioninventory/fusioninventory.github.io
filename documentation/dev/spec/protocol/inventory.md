@@ -767,7 +767,7 @@ title: Inventory protocol
           <!ELEMENT MANUFACTURER (#PCDATA)>
           <!-- version -->
           <!ELEMENT VERSION (#PCDATA)>>
-          <!-- version -->
+          <!-- type -->
           <!ELEMENT TYPE (#PCDATA)>>
 
   <!-- agent ID (string) -->
