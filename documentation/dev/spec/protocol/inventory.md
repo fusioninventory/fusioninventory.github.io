@@ -765,8 +765,6 @@ title: Inventory protocol
           <!ELEMENT NAME (#PCDATA)>
           <!-- MANUFACTURER -->
           <!ELEMENT MANUFACTURER (#PCDATA)>
-          <!--Power -->
-          <!ELEMENT POWER (#PCDATA)>)
           <!-- version -->
           <!ELEMENT VERSION (#PCDATA)>>
           <!-- version -->
