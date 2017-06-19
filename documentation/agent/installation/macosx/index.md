@@ -5,13 +5,13 @@ redirect_from:
  - /documentation/agent/installation/macosx.html
 ---
 
-## FusionInventory Agent installation on OS X
+# Get the Agent
 
-## Get the Agent
+Download the last **.pkg.tar.gz** package from [FusioInventory Agent releases page](https://github.com/fusioninventory/fusioninventory-agent/releases).
 
-Download the **.pkg.tar.gz** package here : https://github.com/fusioninventory/fusioninventory-agent/releases/download/2.3.19/FusionInventory-Agent-2.3.19.pkg.tar.gz
+{% include info.html param="At the moment of this writing, you should use <a href='https://github.com/fusioninventory/fusioninventory-agent/releases/download/2.3.20/FusionInventory-Agent-2.3.20-1.pkg.tar.gz'>FusionInventory-Agent-2.3.20-1.pkg.tar.gz</a>" %}
 
-## Extract Agent
+# Extract Agent
 
 Once the FusionInventory-Agent-XXX.pkg.tar.gz archive is downloaded, you must extract it this way.
 
@@ -26,7 +26,7 @@ Agent configuration
 
 ![]({{ site.baseurl }}/documentation/agent/installation/macosx/FusionInventoryAgent-4.png)
 
-## Configuration
+# Configuration
 
 To configure the agent, do a right clic on the FusionInventory-Agent.pkg package and select “Show the package content”".
 
@@ -36,7 +36,7 @@ Go in the **Resources** directory and modify the **agent.cfg** file according to
 * you can also uncomment the `logfile = /var/log/fusioninventory.log` to get some log files
 * Increase `backend-collect-timeout` value from `30` to `180` because the command used to get some hardware information can be very long
 
-## Agent Installation
+# Agent Installation
 
 You're done. To launch the installer, just do a double clic on the FusionInventory-Agent.pkg and follow the different steps.
 
@@ -47,7 +47,7 @@ The installer will ask for you login and password during the installation proces
 Once the agent is installed, you can configure it be editing the following file '/opt/fusioninventory-agent/agent.cfg'.
 You will have to restart the service after (see below);
 
-## Command line installation
+# Command line installation
 
 Retrieve the .pkg.tar.gz archive and do:
 
@@ -59,7 +59,7 @@ Retrieve the .pkg.tar.gz archive and do:
 
 You can either reboot or restart the service, see below.
 
-## Manage the service
+# Manage the service
 
 To see if the service is running:
 
@@ -84,7 +84,7 @@ To start the service:
 
     $ sudo launchctl start org.fusioninventory.agent
 
-## Force an inventory
+# Force an inventory
 
 To force an inventory:
 
