@@ -2,6 +2,7 @@
 layout: page
 title: Bug report
 redirect_from:
+ - /documentation/bugreport.html
  - /documentation/agent/bugreport
  - /documentation/agent/bugreport.html
 ---
