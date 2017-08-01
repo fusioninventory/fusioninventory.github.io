@@ -14,16 +14,16 @@ See [download instructions]({{ site.baseurl }}/documentation/agent/installation/
 Since last 2.3.20 release, many bug fixes and enhancements have been accumulated, such as:
 
 - Deploy task bumped as v2.4 has some improvements:
- - a new audit check for win32 (registry value not equal)
- - it introduces the user interaction support for win32 based on WTS API.
-   This features will require the upcoming GLPI 9.2 and Fusioninventory plugin on server-side.
+  - a new audit check for win32 (registry value not equal)
+  - it introduces the user interaction support for win32 based on WTS API.
+    This features will require the upcoming GLPI 9.2 and Fusioninventory plugin on server-side.
 - Few virtualization/container fixes and updates
 - NetDiscovery/NetInventory tasks has also been really improved:
- - device mac discovery handles more generic cases
- - SNMP fields support is even safer now
- - LLDP detection has been impoved by ddurieux
- - duplicated mac case has been fixed by ddurieux
- - "no result" reporting is now completed with the reason
+  - device mac discovery handles more generic cases
+  - SNMP fields support is even safer now
+  - LLDP detection has been impoved by ddurieux
+  - duplicated mac case has been fixed by ddurieux
+  - "no result" reporting is now completed with the reason
 - win32 software inventory is fixed while running 2 times inventory in a run with tasks parameter
 - pci & usb included databases are updated
 - dmidecode v3.1 is still used in windows installer
@@ -33,8 +33,8 @@ Since last 2.3.20 release, many bug fixes and enhancements have been accumulated
   - under unix, the currently running task will also be set in the process command line
 - some erros will now be more comprehensive
 - fusioninventory-injector:
- - now returns the right exit code if something goes wrong
- - support also xml file extension
+  - now returns the right exit code if something goes wrong
+  - support also xml file extension
 - and many more...
 
 A big notice for Lenovo computer users, the model name is now the commercial name instead of a technical designation.
