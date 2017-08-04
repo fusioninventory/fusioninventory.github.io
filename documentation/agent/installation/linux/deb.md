@@ -8,7 +8,99 @@ redirect_from:
 ***
 METHOD 1:
 
-# Using FusionInventory Debian (and Ubuntu) packages
+# Manually install latest maintainers packages
+
+Latest FusionInventory Agent Debian and Ubuntu compatible packages are provided by maintainers.
+
+{% include info.html param="
+<table>
+<thead>
+    <tr class='header'>
+        <th>Tested Debian version</th>
+        <th>Agent version</th>
+        <th>&nbsp;</th>
+        <th>Tested Ubuntu version</th>
+        <th>Agent version</th>
+    </tr>
+</thead>
+<tbody>
+    <tr>
+        <td>Stretch - Debian 9 - Stable</td>
+        <td>2.3.21-2</td>
+        <td>&nbsp;</td>
+        <td>Ubuntu 16.04.3 LTS (xenial)</td>
+        <td>2.3.21-2</td>
+    </tr>
+    <tr>
+        <td>Jessie - Debian 8 - OldStable</td>
+        <td>2.3.21-2</td>
+        <td>&nbsp;</td>
+        <td>&nbsp;</td>
+        <td>&nbsp;</td>
+    </tr>
+</tbody>
+</table>" %}
+
+## Install dependencies as root :
+
+For fusioninventory-agent, you'll need to install these dependencies:
+
+    apt -y install dmidecode hwdata ucf hdparm
+    apt -y install perl libuniversal-require-perl libwww-perl libparse-edid-perl
+    apt -y install libproc-daemon-perl  libproc-pid-file-perl libfile-which-perl
+    apt -y install libxml-treepp-perl libyaml-perl libnet-cups-perl libnet-ip-perl
+    apt -y install libdigest-sha-perl libsocket-getaddrinfo-perl
+
+For fusioninventory-agent-task-network, you'll need to install these other dependencies:
+
+    apt -y install nmap libnet-snmp-perl libcrypt-des-perl libnet-nbname-perl
+
+For fusioninventory-agent-task-deploy, you'll need to install these other dependencies:
+
+    apt -y install libfile-copy-recursive-perl libparallel-forkmanager-perl
+
+## Download desired packages from [Deb packages](http://debian.fusioninventory.org/downloads) :
+
+Packages|Included tasks
+--------|--------------
+[fusioninventory-agent_2.3.21-2_all.deb](http://debian.fusioninventory.org/downloads/fusioninventory-agent_2.3.21-2_all.deb)|Inventory - WakeOnLan - Collect
+[fusioninventory-agent-task-network_2.3.21-2_all.deb](http://debian.fusioninventory.org/downloads/fusioninventory-agent-task-network_2.3.21-2_all.deb)|NetDiscovery - NetInventory
+[fusioninventory-agent-task-deploy_2.3.21-2_all.deb](http://debian.fusioninventory.org/downloads/fusioninventory-agent-task-deploy_2.3.21-2_all.deb)|Deploy
+[fusioninventory-agent-task-esx_2.3.21-2_all.deb](http://debian.fusioninventory.org/downloads/fusioninventory-agent-task-esx_2.3.21-2_all.deb)|ESX
+
+## Install desired packages as root :
+
+Only fusioninventory-agent deb package is mandatory
+
+    dpkg -i fusioninventory-agent_2.3.21-2_all.deb
+    dpkg -i fusioninventory-agent-task-network_2.3.21-2_all.deb
+    dpkg -i fusioninventory-agent-task-deploy_2.3.21-2_all.deb
+    dpkg -i fusioninventory-agent-task-esx_2.3.21-2_all.deb
+
+## Configure the agent :
+
+Edit `/etc/fusioninventory/agent.cfg` setting at least one target
+
+## Start the agent :
+
+    systemctl restart fusioninventory-agent
+
+## On configuration change, reload the agent :
+
+    systemctl reload fusioninventory-agent
+
+## To start an immediate run :
+
+You can send USR1 signal to the process with the following command to start a run immediatly :
+
+    pkill -USR1 -f -P 1 fusioninventory-agent
+
+***
+METHOD 2:
+
+# Using FusionInventory Debian (and Ubuntu) packages:
+
+These packages are based on deprecated source versions.
 
 {% include info.html param="
 <table>
@@ -96,7 +188,7 @@ Deploy task:
     apt-get install fusioninventory-agent-task-deploy
 
 ***
-METHOD 2:
+METHOD 3:
 
 {% include info.html param="
 <table>
