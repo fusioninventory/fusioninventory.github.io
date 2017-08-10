@@ -57,7 +57,7 @@ For Windows host, the Fusioninventory Agent comes with the module. For Linux dis
 
 On Redhat/Centos, run 
 
-    # yum install perl-FusionInventory-Agent-Task-ESX
+    # yum install fusioninventory-agent-task-esx
 
 On Debian/Ubuntu :
 
