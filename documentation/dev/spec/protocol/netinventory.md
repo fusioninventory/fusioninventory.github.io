@@ -69,7 +69,7 @@ title: Network inventory protocol
       <!ELEMENT CONTENT (DEVICE*, MODULEVERSION, PROCESSNUMBER)>
 
         <!-- a device -->
-        <!ELEMENT DEVICE (INFO, PORTS)>
+        <!ELEMENT DEVICE (INFO, PORTS, SIMCARDS)>
 
           <!-- generic information -->
           <!ELEMENT INFO (COMMENTS, CPU, FIRMWARE, ID, IPS, LOCATION, MAC, MEMORY, MODEL, NAME, RAM, SERIAL, TYPE, UPTIME)>
@@ -184,6 +184,23 @@ title: Network inventory protocol
                 <!ELEMENT NAME (#PCDATA)>
                 <!-- VLAN ID (integer) -->
                 <!ELEMENT NUMBER (#PCDATA)>
+
+          <!ELEMENT SIMCARDS (IMSI, PHONE_NUMBER, ICCID, STATE, COUNTRY, OPERATOR_CODE,
+          OPERATOR_NAME)>
+            <!-- IMSI -->
+            <!ELEMENT IMSI (#PCDATA)>
+            <!-- Phone number -->
+            <!ELEMENT PHONE_NUMBER (#PCDATA)>
+            <!-- ICCID (serial number) -->
+            <!ELEMENT ICCID (#PCDATA)>
+            <!-- State -->
+            <!ELEMENT STATE(#PCDATA)>
+            <!-- Country -->
+            <!ELEMENT COUNTRY (#PCDATA)>
+            <!-- Operator code -->
+            <!ELEMENT OPERATOR_CODE (#PCDATA)>
+            <!-- Operator Name -->
+            <!ELEMENT OPERATOR_NAME(#PCDATA)>
 
         <!-- netinventory module version(string) -->
         <!ELEMENT MODULEVERSION (#PCDATA)>
