@@ -69,7 +69,7 @@ title: Network inventory protocol
       <!ELEMENT CONTENT (DEVICE*, MODULEVERSION, PROCESSNUMBER)>
 
         <!-- a device -->
-        <!ELEMENT DEVICE (INFO, PORTS, SIMCARDS)>
+        <!ELEMENT DEVICE (INFO, PORTS, MODEMS+, FIRMWARES+, SIMCARDS+)>
 
           <!-- generic information -->
           <!ELEMENT INFO (COMMENTS, CPU, FIRMWARE, ID, IPS, LOCATION, MAC, MEMORY,
@@ -185,6 +185,35 @@ title: Network inventory protocol
                 <!ELEMENT NAME (#PCDATA)>
                 <!-- VLAN ID (integer) -->
                 <!ELEMENT NUMBER (#PCDATA)>
+
+          <!ELEMENT MODEMS (NAME, DESCRIPTION, TYPE, MODEL, MANUFACTURER, SERIAL)>
+            <!-- modem name -->
+            <!ELEMENT NAME (#PCDATA)>
+            <!-- modem description if available -->
+            <!ELEMENT DESCRIPTION (#PCDATA)>
+            <!-- modem type -->
+            <!ELEMENT TYPE (#PCDATA)>
+            <!-- modem model -->
+            <!ELEMENT MODEL (#PCDATA)>
+            <!-- modem manufacturer -->
+            <!ELEMENT MANUFACTURER (#PCDATA)>
+            <!-- modem serial -->
+            <!ELEMENT SERIAL (#PCDATA)>
+
+          <!-- component firmwares -->
+          <!ELEMENT FIRMWARES (NAME, DESCRIPTION, TYPE, VERSION, DATE, MANUFACTURER)>
+            <!-- component name using the firmware -->
+            <!ELEMENT NAME (#PCDATA)>
+            <!-- firmware description if available -->
+            <!ELEMENT DESCRIPTION (#PCDATA)>
+            <!-- short description of firmware type: modem, bios, ... -->
+            <!ELEMENT TYPE (#PCDATA)>
+            <!-- full firmware version -->
+            <!ELEMENT VERSION (#PCDATA)>
+            <!-- firmware date -->
+            <!ELEMENT DATE (#PCDATA)>
+            <!-- firmware manufacturer -->
+            <!ELEMENT MANUFACTURER (#PCDATA)>
 
           <!ELEMENT SIMCARDS (IMSI, PHONE_NUMBER, ICCID, STATE, COUNTRY, OPERATOR_CODE,
           OPERATOR_NAME)>

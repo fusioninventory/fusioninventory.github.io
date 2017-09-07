@@ -47,8 +47,8 @@ title: Inventory protocol
 
   <!ELEMENT CONTENT (ACCESSLOG, BIOS, HARDWARE, OPERATINGSYSTEM, ANTIVIRUS+,
   BATTERIES+, CONTROLLERS+, CPUS+, DRIVES+, ENVS+, INPUTS+, LICENSEINFOS+,
-  LOCAL_GROUPS+, LOCAL_USERS+, LOGICAL_VOLUMES+, MEMORIES+, MONITORS+,
-  NETWORKS+, PHYSICAL_VOLUMES+, PORTS+, PRINTERS+, PROCESSES+, SLOTS+,
+  LOCAL_GROUPS+, LOCAL_USERS+, LOGICAL_VOLUMES+, MEMORIES+, MODEMS+, FIRMWARES+,
+  MONITORS+, NETWORKS+, PHYSICAL_VOLUMES+, PORTS+, PRINTERS+, PROCESSES+, SLOTS+,
   SOFTWARES+, USERS+, STORAGES+, SOUNDS+, VIRTUALMACHINES+,
   VOLUME_GROUPS+, REMOTE_MGMT+, SIMCARDS+, SENSORS+)>
 
@@ -407,11 +407,34 @@ title: Inventory protocol
        <!ELEMENT MEMORYCORRECTION (#PCDATA)>
        <!ELEMENT MANUFACTURER (#PCDATA)>
 
-     <!ELEMENT MODEMS (DESCRIPTION, NAME)>
+     <!ELEMENT MODEMS (NAME, DESCRIPTION, TYPE, MODEL, MANUFACTURER, SERIAL)>
+       <!-- modem name -->
        <!ELEMENT NAME (#PCDATA)>
+       <!-- modem description if available -->
        <!ELEMENT DESCRIPTION (#PCDATA)>
+       <!-- modem type -->
        <!ELEMENT TYPE (#PCDATA)>
+       <!-- modem model -->
        <!ELEMENT MODEL (#PCDATA)>
+       <!-- modem manufacturer -->
+       <!ELEMENT MANUFACTURER (#PCDATA)>
+       <!-- modem serial -->
+       <!ELEMENT SERIAL (#PCDATA)>
+
+     <!-- component firmwares -->
+     <!ELEMENT FIRMWARES (NAME, DESCRIPTION, TYPE, VERSION, DATE, MANUFACTURER)>
+       <!-- component name using the firmware -->
+       <!ELEMENT NAME (#PCDATA)>
+       <!-- firmware description if available -->
+       <!ELEMENT DESCRIPTION (#PCDATA)>
+       <!-- short description of firmware type: modem, bios, ... -->
+       <!ELEMENT TYPE (#PCDATA)>
+       <!-- full firmware version -->
+       <!ELEMENT VERSION (#PCDATA)>
+       <!-- firmware date -->
+       <!ELEMENT DATE (#PCDATA)>
+       <!-- firmware manufacturer -->
+       <!ELEMENT MANUFACTURER (#PCDATA)>
 
      <!ELEMENT MONITORS (BASE64, CAPTION, DESCRIPTION, MANUFACTURER, SERIAL,
        ALTSERIAL?, PORT?, UUENCODE)>
