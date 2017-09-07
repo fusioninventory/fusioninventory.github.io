@@ -760,7 +760,7 @@ title: Inventory protocol
        <!-- Operator Name -->
        <!ELEMENT OPERATOR_NAME(#PCDATA)>
 
-     <!ELEMENT SENSORS (NAME, MANUFACTURER, POWER, VERSION)>
+     <!ELEMENT SENSORS (NAME, MANUFACTURER, TYPE, VERSION)>
        <!-- Name -->
        <!ELEMENT NAME (#PCDATA)>
        <!-- MANUFACTURER -->
