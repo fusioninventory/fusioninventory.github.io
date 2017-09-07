@@ -72,7 +72,8 @@ title: Network inventory protocol
         <!ELEMENT DEVICE (INFO, PORTS, SIMCARDS)>
 
           <!-- generic information -->
-          <!ELEMENT INFO (COMMENTS, CPU, FIRMWARE, ID, IPS, LOCATION, MAC, MEMORY, MODEL, NAME, RAM, SERIAL, TYPE, UPTIME)>
+          <!ELEMENT INFO (COMMENTS, CPU, FIRMWARE, ID, IPS, LOCATION, MAC, MEMORY,
+          MODEL, NAME, RAM, SERIAL, TYPE, UPTIME)>
             <!-- sysdescr (string) -->
             <!ELEMENT COMMENTS (#PCDATA)>
             <!-- CPU load in % (integer) -->
