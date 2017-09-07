@@ -760,15 +760,15 @@ title: Inventory protocol
        <!-- Operator Name -->
        <!ELEMENT OPERATOR_NAME(#PCDATA)>
 
-        <!ELEMENT SENSORS (NAME, MANUFACTURER, POWER, VERSION)>
-          <!-- Name -->
-          <!ELEMENT NAME (#PCDATA)>
-          <!-- MANUFACTURER -->
-          <!ELEMENT MANUFACTURER (#PCDATA)>
-          <!-- version -->
-          <!ELEMENT VERSION (#PCDATA)>>
-          <!-- type -->
-          <!ELEMENT TYPE (#PCDATA)>>
+     <!ELEMENT SENSORS (NAME, MANUFACTURER, POWER, VERSION)>
+       <!-- Name -->
+       <!ELEMENT NAME (#PCDATA)>
+       <!-- MANUFACTURER -->
+       <!ELEMENT MANUFACTURER (#PCDATA)>
+       <!-- version -->
+       <!ELEMENT VERSION (#PCDATA)>>
+       <!-- type -->
+       <!ELEMENT TYPE (#PCDATA)>>
 
   <!-- agent ID (string) -->
   <!ELEMENT DEVICEID (#PCDATA)>
