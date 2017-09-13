@@ -69,13 +69,14 @@ title: Network inventory protocol
       <!ELEMENT CONTENT (DEVICE*, MODULEVERSION, PROCESSNUMBER)>
 
         <!-- a device -->
-        <!ELEMENT DEVICE (INFO, PORTS, MODEMS+, FIRMWARES+, SIMCARDS+)>
+        <!ELEMENT DEVICE (INFO, PORTS, MODEMS+, FIRMWARES+, SIMCARDS+,
+        PAGECOUNTERS?, CARTRIDGES?)>
 
           <!-- generic information -->
           <!ELEMENT INFO (COMMENTS, CPU, FIRMWARE, ID, IPS, LOCATION, MAC, MEMORY,
-          MODEL, NAME, RAM, SERIAL, TYPE, UPTIME)>
+          MODEL, NAME, RAM, SERIAL, TYPE, UPTIME, MANUFACTURER, CONTACT)>
             <!-- sysdescr (string) -->
-            <!ELEMENT COMMENTS (#PCDATA)>
+            <!ELEMENT DESCRIPTION (#PCDATA)>
             <!-- CPU load in % (integer) -->
             <!ELEMENT CPU (#PCDATA)>
             <!-- firmware (string) -->
@@ -105,6 +106,10 @@ title: Network inventory protocol
             <!ELEMENT TYPE (#PCDATA)>
             <!-- uptime ("X days, HH:MM::SS" format) -->
             <!ELEMENT UPTIME (#PCDATA)>
+            <!-- device manufacturer -->
+            <!ELEMENT MANUFACTURER (#PCDATA)>
+            <!-- admin contact -->
+            <!ELEMENT CONTACT (#PCDATA)>
 
           <!-- ports list -->
           <!ELEMENT PORTS (PORT*)>
@@ -224,13 +229,33 @@ title: Network inventory protocol
             <!-- ICCID (serial number) -->
             <!ELEMENT ICCID (#PCDATA)>
             <!-- State -->
-            <!ELEMENT STATE(#PCDATA)>
+            <!ELEMENT STATE (#PCDATA)>
             <!-- Country -->
             <!ELEMENT COUNTRY (#PCDATA)>
             <!-- Operator code -->
             <!ELEMENT OPERATOR_CODE (#PCDATA)>
             <!-- Operator Name -->
-            <!ELEMENT OPERATOR_NAME(#PCDATA)>
+            <!ELEMENT OPERATOR_NAME (#PCDATA)>
+
+          <!ELEMENT PAGECOUNTERS (TOTAL?, BLACK?, COLOR?, RECTOVERSO?, SCANNED?
+          PRINTOTAL?, PRINTBLACK?, PRINTCOLOR?, COPYTOTAL?, COPYBLACK?,
+          COPYCOLOR?, FAXTOTAL?)>
+            <!ELEMENT TOTAL (#PCDATA)>
+            <!ELEMENT BLACK (#PCDATA)>
+            <!ELEMENT COLOR (#PCDATA)>
+            <!ELEMENT RECTOVERSO (#PCDATA)>
+            <!ELEMENT SCANNED (#PCDATA)>
+            <!ELEMENT PRINTOTAL (#PCDATA)>
+            <!ELEMENT PRINTBLACK(#PCDATA)>
+            <!ELEMENT PRINTCOLOR (#PCDATA)>
+            <!ELEMENT COPYTOTAL (#PCDATA)>
+            <!ELEMENT COPYBLACK (#PCDATA)>
+            <!ELEMENT COPYCOLOR (#PCDATA)>
+            <!ELEMENT FAXTOTAL(#PCDATA)>
+
+          <!-- CARTRIDGES node can content any meaningful printer cartridge info
+          and it is up to the server to interpret given keys and values -->
+          <!ELEMENT CARTRIDGES ANY>
 
         <!-- netinventory module version(string) -->
         <!ELEMENT MODULEVERSION (#PCDATA)>
