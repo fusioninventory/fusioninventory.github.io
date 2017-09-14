@@ -256,6 +256,34 @@ title: Network inventory protocol
           <!-- CARTRIDGES node can content any meaningful printer cartridge info
           and it is up to the server to interpret given keys and values -->
           <!ELEMENT CARTRIDGES ANY>
+          <!-- Following lines are well-known samples, so they are kept as comment
+            <!ELEMENT CARTRIDGEBLACK (#PCDATA)>
+            <!ELEMENT CARTRIDGECYAN (#PCDATA)>
+            <!ELEMENT CARTRIDGEMAGENTA (#PCDATA)>
+            <!ELEMENT CARTRIDGEYELLOW (#PCDATA)>
+            <!ELEMENT TONERBLACK (#PCDATA)>
+            <!ELEMENT TONERCYAN (#PCDATA)>
+            <!ELEMENT TONERMAGENTA (#PCDATA)>
+            <!ELEMENT TONERYELLOW (#PCDATA)>
+            <!ELEMENT WASTETONER (#PCDATA)>
+            <!ELEMENT DRUMBLACK (#PCDATA)>
+            <!ELEMENT DRUMCYAN (#PCDATA)>
+            <!ELEMENT DRUMMAGENTA (#PCDATA)>
+            <!ELEMENT DRUMYELLOW (#PCDATA)>
+            <!ELEMENT DEVELOPERBLACK (#PCDATA)>
+            <!ELEMENT DEVELOPERCYAN (#PCDATA)>
+            <!ELEMENT DEVELOPERMAGENTA (#PCDATA)>
+            <!ELEMENT DEVELOPERYELLOW (#PCDATA)>
+            <!ELEMENT MAINTENANCEKIT (#PCDATA)>
+            <!ELEMENT FUSERKIT (#PCDATA)>
+            <!ELEMENT TRANSFERKIT (#PCDATA)>
+            <!ELEMENT CLEANINGKIT (#PCDATA)>
+            <!ELEMENT STAPLES (#PCDATA)>
+            <!ELEMENT CARTRIDGEGRAY (#PCDATA)>
+            <!ELEMENT CARTRIDGEDARKGRAY (#PCDATA)>
+            <!ELEMENT CARTRIDGEMATTEBLACK (#PCDATA)>
+            <!ELEMENT CARTRIDGEPHOTOBLACK (#PCDATA)>
+            End of samples -->
 
         <!-- netinventory module version(string) -->
         <!ELEMENT MODULEVERSION (#PCDATA)>
