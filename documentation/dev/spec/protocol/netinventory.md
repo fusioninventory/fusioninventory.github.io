@@ -246,12 +246,12 @@ title: Network inventory protocol
             <!ELEMENT RECTOVERSO (#PCDATA)>
             <!ELEMENT SCANNED (#PCDATA)>
             <!ELEMENT PRINTOTAL (#PCDATA)>
-            <!ELEMENT PRINTBLACK(#PCDATA)>
+            <!ELEMENT PRINTBLACK (#PCDATA)>
             <!ELEMENT PRINTCOLOR (#PCDATA)>
             <!ELEMENT COPYTOTAL (#PCDATA)>
             <!ELEMENT COPYBLACK (#PCDATA)>
             <!ELEMENT COPYCOLOR (#PCDATA)>
-            <!ELEMENT FAXTOTAL(#PCDATA)>
+            <!ELEMENT FAXTOTAL (#PCDATA)>
 
           <!-- CARTRIDGES node can content any meaningful printer cartridge info
           and it is up to the server to interpret given keys and values -->
