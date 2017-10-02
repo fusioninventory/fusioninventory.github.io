@@ -35,21 +35,23 @@ redirect_from: "/documentation/documentation.html"
 
 ## [How to deal with DMZ network](fi4g/dmz/)
 
-# FusionInventory for GLPI howtos
+# FusionInventory tasks
 
-## [Deploy softwares](tasks/deploy/)
+## Software deployement
 
-## [Deploy > export / import packages](tasks/exportimportpackages.html)
+### [Deploy softwares](tasks/deploy/)
 
-## [Deploy with mirrors](tasks/deploymirrors.html)
+### [Deploy > export / import packages](tasks/exportimportpackages.html)
 
-## [Deploy in self-service mode](tasks/deploy_self-service.html)
+### [Deploy with mirrors](tasks/deploymirrors.html)
 
-# General howtos
+### [Deploy in self-service mode](tasks/deploy_self-service.html)
 
-## [Scan my network](tasks/networkdiscovery.html)
+## [Network scanning](tasks/networkdiscovery.html)
 
-## [Inventory ESX virtual machines](tasks/esxinventory/)
+## Network devices inventory
+
+## [ESX virtual inventory](tasks/esxinventory/)
 
 # Advanced topics
 
