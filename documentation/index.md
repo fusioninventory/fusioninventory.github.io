@@ -47,9 +47,9 @@ redirect_from: "/documentation/documentation.html"
 
 ### [Deploy in self-service mode](tasks/deploy_self-service.html)
 
-## [Network scanning](tasks/networkdiscovery.html)
+## [Network discovery](tasks/networkdiscovery.html)
 
-## Network devices inventory
+## [Network devices inventory](tasks/networkinventory.html)
 
 ## [ESX virtual inventory](tasks/esxinventory/)
 
