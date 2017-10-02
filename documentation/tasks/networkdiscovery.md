@@ -1,29 +1,38 @@
 ---
 layout: page
-title: How to scan my network
+title: Network discovery
 ---
+
+# Purpose
+
+A network discovery task aims to scan the the network, and reports devices
+found to the GLPI server, so they can be added to the list of known assets.
+
+Once part of the list of known assets, further information can be retrieved from SNMP-enabled devices using a [network inventory task](networkinventory.html).
 
 # Overview
 
-The NetDiscovery task uses the following protocols to scan IP networks:
+This task uses the following protocols to scan IP networks:
 
-* ICMP scan
-* NetBIOS scan
-* SNMP scan
+* ICMP scan (if nmap is available)
+* NetBIOS scan (if Net::NBName is available, and proper credits provided)
+* SNMP scan (if Net::SNMP is available, and proper credits provided)
 
-Any device replying to at least of those protocols will be *discovered*, with
-just minimal information, such as mac address and hostname.
+Any device replying to at least one of those protocols will be *discovered*,
+with minimal information, such as mac address and hostname.
 
 Additionaly, if the device replies to SNMP, the agent will attempt to identify
-it, using its system description (SNMPv2-MIB::sysDescr.0) value. Rule-based
-identification, using rules hardcoded in the agent, allows a minimal level of
-identification. Dictionary-based identification, using a server-provided
-database of known values, allows a more precise identification. If any suceed,
-the device will be *identified*.
+it, using various methods. The primary method relies on retrieving the value of
+the dedicated SNMP variable (SNMPv2-MIB::sysDescr.0), wich is a
+constructor-specific OID identifying a given device model, and comparing it to
+the agent internal database (the sysobject.ids file). If a match is found,
+model, type and manufacturer are added to the information reported to the GLPI
+server, allowing simple identification. If no match is found, various
+heuristics are performed in order to identify the device, with lower
+reliability.
 
-Discovered devices are then reported to the GLPI servers, and import rules are
-applied.  If the device type (printer, network device, etc...) has not been
-set, the device will be considered as 'unknown devices'.
+Discovered devices are then reported to the GLPI servers, and [import
+rules](../fi4g/importrules.html) are applied.
 
 ## Agent configuration
 
