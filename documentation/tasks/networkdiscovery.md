@@ -34,43 +34,35 @@ reliability.
 Discovered devices are then reported to the GLPI servers, and [import
 rules](../fi4g/importrules.html) are applied.
 
-## Agent configuration
+# Running
 
-The agent requires additional software for this task:
+## Pre-requisite
 
-* nmap external command for ICMP suport
-* Net::NBName perl module for NetBios support
-* Net::SNMP perl modules for SNMP support
-You have to check your installation for those optional dependencies.
+The agent performing the task need multiple optional software dependencies, as
+noted earlier.
 
-The agent also requires access to the devices on its target network, using the
-forementioned protocols. You have to check your network filtering rules, as
-well as your access control rules on the devices.
+The agent performing the task need network access the target networks, with
+forementioned protocols, as well as control access, for SNMP: just being able
+to send UDP packets to a device is not enough, if this device is configured to
+ignore them.
 
-## SNMP Credentials
+As for any other server-controled task, the agent should use either managed or
+half-managed mode, as explained in [agent usage](../agent/usage.html). If
+the task is server-triggered, the agent must run in managed mode, and
+its HTTP port should be reachable from the server.
 
-There is now way to distinguish a failed SNMP authentication attempt from a
-non-responding device, meaning the agent will try each available credentials
-against each IP address, and wait for a timeout each time.
-
-## Threads number
-
-In order to perform discovery faster, the agent can use multiple threads. This
-allow multiple simultaneous request, but also increase resource usage on agent
-host.
-
-# Manual execution
+## Manual execution
 
 In order to run a network discovery task without a GLPI server, and for easier
 troubleshooting, the fusioninventory-netdiscovery task can be run from command
 line. See [fusioninventory-netdiscovery manpage]({{ site.baseurl }}/documentation/agent/man/fusioninventory-netdiscovery.html) for
 details.
 
-# Server execution
+## Server execution
 
-## Task activation
+### Task activation
 
-The netdiscovery task is not activated by default for agents. There is two
+The netdiscovery module is not activated by default for agents. There is two
 different way to enable it:
 
 * for all agents: in menu _plugins_ > _FusionInventory_ > _Configuration_ and in tab _Agents modules_.
@@ -78,28 +70,38 @@ different way to enable it:
 * for some agents only: in menu _plugins_ > _FusionInventory_ > _FusionInventory_ > _Agents management_
   go in agent form and in tab _Agents modules_, check _Network discovery_.
 
-## SNMP Credentials
-
-The server always uses all defined credentials, in creation order, as there is
-no way to configure this currently. For faster discovery, you should ensure
-your devices use coherent SNMP credentials, and drop all unused ones.
-
-## Threads number
-
-The thread number can be defined either:
-
-* for all agents: in menu _plugins_ > _FusionInventory_ > _Configuration_ and in tab _FusionInventory SNMP_. define value _Threads number (network discovery)_. 
-* for some agents only: in menu _plugins_ > _FusionInventory_ > _FusionInventory_ > _Agents management_ go in agent form and in tab _Threads number_, and define value _Threads number (network discovery)_.
-
-## Network range
-
-You need to register your network ranges in the “IP range configuration”
-configuration. You can associate a network to an entity, in this case, the
-devices found on this network will be created in the given entity.
-
-## Task creation
+### Task creation
 
 Now your agent is ready and the Network has been registered, you can create
 your first task. Go in _Task management (Normal)_ menu and create a new entry.
 
 Please see the [task creation]({{ site.baseurl }}/documentation/fi4g/tasks.html) page.
+
+## Performance issues
+
+### Credentials
+
+Unfortunatly, there is now way to distinguish a failed SNMP authentication
+attempt on a device, from the absence of a device. It means the agent will try
+each available credentials against each IP address, in given order, and wait
+for timeout each time. The most efficient way to adress this issue if to only
+use the relevant set of credentials, and reduce the specific SNMP timeout.
+
+### Threads number
+
+In order to scan multiple addresses simultaneously, the agent can use multiple
+discovery threads. This allow multiple simultaneous request, but also increase
+resource usage on agent host. And also increase crash probability, if TLS is
+used in any manner (including agent/server communication through HTTPS), as
+perl TLS bindings are not 100% thread-safe. Unfortunatly, there is no way
+currently to avoid thread usage totally, as current implementation always use
+one controlling threads, in addition to a configurable number of working
+threads.
+
+# Troubleshooting
+
+## The task doesn't run at all
+
+## The task runs, but only reports unknown devices
+
+## The agent crashes
