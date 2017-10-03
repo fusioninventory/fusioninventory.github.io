@@ -81,7 +81,7 @@ Please see the [task creation]({{ site.baseurl }}/documentation/fi4g/tasks.html)
 
 ### Credentials
 
-Unfortunatly, there is now way to distinguish a failed SNMP authentication
+Unfortunatly, there is no way to distinguish a failed SNMP authentication
 attempt on a device, from the absence of a device. It means the agent will try
 each available credentials against each IP address, in given order, and wait
 for timeout each time. The most efficient way to adress this issue if to only
