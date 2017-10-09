@@ -8,7 +8,9 @@ title: Network discovery
 A network discovery task aims to scan the the network, and reports devices
 found to the GLPI server, so they can be added to the list of known assets.
 
-Once part of the list of known assets, further information can be retrieved from SNMP-enabled devices using a [network inventory task](networkinventory.html).
+Once part of the list of known assets, further information can be retrieved
+from SNMP-enabled devices using a [network inventory
+task](networkinventory.html).
 
 # Overview
 
@@ -38,10 +40,12 @@ rules](../fi4g/importrules.html) are applied.
 
 ## Pre-requisite
 
-The agent performing the task need multiple optional software dependencies, as
-noted earlier.
+The agent performing the task needs to have the network discovery module
+installed. Many Linux distributions ships agent modules in distinct packages,
+to reduce the burden of dependencies. And the module itself has multiple
+additional optional software dependencies, as noted earlier.
 
-The agent performing the task need network access the target networks, with
+The agent performing the task needs network access the target networks, with
 forementioned protocols, as well as control access, for SNMP: just being able
 to send UDP packets to a device is not enough, if this device is configured to
 ignore them.
@@ -60,22 +64,61 @@ details.
 
 ## Server execution
 
-### Task activation
+### Module activation
 
-The netdiscovery module is not activated by default for agents. There is two
-different way to enable it:
+In order to assign a network discovery task to an agent, the network discovery
+module needs first to be activated for this agent, as this is not the default.
 
-* for all agents: in menu _plugins_ > _FusionInventory_ > _Configuration_ and in tab _Agents modules_.
-  You can check _Network discovery_ by default.
-* for some agents only: in menu _plugins_ > _FusionInventory_ > _FusionInventory_ > _Agents management_
-  go in agent form and in tab _Agents modules_, check _Network discovery_.
+#### Multiple agents
+
+1 from the FusionInventory plugin welcome screen, select the _General_ >
+  _General configuration_ menu item
+2 select the _Agents modules_ tab
+
+You can then either activate the module for any number of agents, and even
+configure it to be activated by default, as illustrated by the following
+screenshot.
+
+![Global modules activation](global_modules_activation.png)
+
+#### Single agent
+
+1 from the FusionInventory plugin welcome screen, select the _General_ >
+  _Agents management_ menu item
+2 select the specific agent in the list
+3 select the _Agents modules_ tab
+
+You can then activate the network discovery module for this agent, as
+illustrated by the following screenshot.
+
+![Agent modules activation](agent_modules_activation.png)
+
+### Target network creation
+
+You now have to define an IP range item, corresponding to the the network to be
+scanned:
+
+1 from the FusionInventory plugin welcome screen, select the _Networking_ > _IP
+ranges_ menu item
+
+You can then create a new item, as illustrated by the following screenshot.
+
+![IP range creation](ip_range_creation.png)
 
 ### Task creation
 
-Now your agent is ready and the Network has been registered, you can create
-your first task. Go in _Task management (Normal)_ menu and create a new entry.
+You now have to define a task, including a network discovery type job:
 
-Please see the [task creation]({{ site.baseurl }}/documentation/fi4g/tasks.html) page.
+1 from the FusionInventory plugin welcome screen, select the _Tasks_ > _Task
+management_ menu item
+2 create a new task, with an arbitrary name (for instance, discovery task), in active state, and save it (screenshot 1)
+3 select _Jobs configuration_ tab
+4 create a new job, with an arbitrary name (for instance, discovery job), using network discovery as module method, and save it (screenshot 2)
+5 configure this job by assigning it a target (the IP range item create previously) and an actor (the elected agent), and update the current configuration (screenshot 3)
+
+![Task creation](task_creation_png)
+![Job creation](job_creation_png)
+![Job configuration](job_configuration_png)
 
 ## Performance issues
 
