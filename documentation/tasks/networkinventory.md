@@ -13,3 +13,9 @@ This task can only be performed on devices already part of the list of known
 assets, either as a result of a previous [network discovery
 task](networkdiscovery.html), or manually created, with proper SNMP
 credentials.
+
+# Overview
+
+# Running
+
+# Troubleshouting
