@@ -105,6 +105,12 @@ You can then create a new item, as illustrated by the following screenshot.
 
 ![IP range creation](ip_range_creation.png)
 
+If you want to associate SNMP credentials to this network, for probing SNMP
+devices during discovery, you have to use the _Associated SNMP authentication_
+tab. Warning: each associated credential implies one additional authentication
+attempt, and another network timeout penalty if not successful. See
+[#Performance concerns] for details.
+
 ### Task creation
 
 You now have to define a task, including a network discovery type job:
@@ -123,7 +129,7 @@ You now have to define a task, including a network discovery type job:
    configuration
 ![Job configuration](job_configuration.png)
 
-## Performance issues
+## Performance concerns
 
 ### Credentials
 
@@ -147,6 +153,11 @@ threads.
 # Troubleshooting
 
 ## The task doesn't run at all
+
+## The task runs, but agent logs show than SNMP is not used
+
+The agent may be lacking the required Net::SNMP perl module, or you may have no
+SNMP credentials associated to the network scanned.
 
 ## The task runs, but only reports unknown devices
 
