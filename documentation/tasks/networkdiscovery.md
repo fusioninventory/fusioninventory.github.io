@@ -71,9 +71,9 @@ module needs first to be activated for this agent, as this is not the default.
 
 #### Multiple agents
 
-1 from the FusionInventory plugin welcome screen, select the _General_ >
+1. from the FusionInventory plugin welcome screen, select the _General_ >
   _General configuration_ menu item
-2 select the _Agents modules_ tab
+1. select the _Agents modules_ tab
 
 You can then either activate the module for any number of agents, and even
 configure it to be activated by default, as illustrated by the following
@@ -83,10 +83,10 @@ screenshot.
 
 #### Single agent
 
-1 from the FusionInventory plugin welcome screen, select the _General_ >
+1. from the FusionInventory plugin welcome screen, select the _General_ >
   _Agents management_ menu item
-2 select the specific agent in the list
-3 select the _Agents modules_ tab
+1. select the specific agent in the list
+1. select the _Agents modules_ tab
 
 You can then activate the network discovery module for this agent, as
 illustrated by the following screenshot.
@@ -98,7 +98,7 @@ illustrated by the following screenshot.
 You now have to define an IP range item, corresponding to the the network to be
 scanned:
 
-1 from the FusionInventory plugin welcome screen, select the _Networking_ > _IP
+1. from the FusionInventory plugin welcome screen, select the _Networking_ > _IP
 ranges_ menu item
 
 You can then create a new item, as illustrated by the following screenshot.
@@ -109,12 +109,16 @@ You can then create a new item, as illustrated by the following screenshot.
 
 You now have to define a task, including a network discovery type job:
 
-1 from the FusionInventory plugin welcome screen, select the _Tasks_ > _Task
-management_ menu item
-2 create a new task, with an arbitrary name (for instance, discovery task), in active state, and save it (screenshot 1)
-3 select _Jobs configuration_ tab
-4 create a new job, with an arbitrary name (for instance, discovery job), using network discovery as module method, and save it (screenshot 2)
-5 configure this job by assigning it a target (the IP range item create previously) and an actor (the elected agent), and update the current configuration (screenshot 3)
+1. from the FusionInventory plugin welcome screen, select the _Tasks_ > _Task
+   management_ menu item
+1. create a new task, with an arbitrary name (for instance, discovery task), in
+   active state, and save it (screenshot 1)
+1. select _Jobs configuration_ tab
+1. create a new job, with an arbitrary name (for instance, discovery job),
+   using network discovery as module method, and save it (screenshot 2)
+1. configure this job by assigning it a target (the IP range item create
+   previously) and an actor (the elected agent), and update the current
+   configuration (screenshot 3)
 
 ![Task creation](task_creation_png)
 ![Job creation](job_creation_png)
