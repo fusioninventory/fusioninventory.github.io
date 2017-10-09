@@ -110,7 +110,7 @@ If you want to associate SNMP credentials to this network, for probing SNMP
 devices during discovery, you have to use the _Associated SNMP authentication_
 tab. Warning: each associated credential implies one additional authentication
 attempt, and another network timeout penalty if not successful. See
-[#Performance concerns] for details.
+[Efficiency concerns](#Efficiency concerns) for details.
 
 ### Task creation
 
@@ -139,7 +139,7 @@ manually reviewed and imported if suitable:
 1. from the FusionInventory plugin welcome screen, select the _Rules_ >
    _Ignored import device_ menu item
 
-## Performance concerns
+## Efficiency concerns
 
 ### Credentials
 
@@ -164,8 +164,8 @@ threads.
 
 ## The task doesn't run at all
 
-The agent may be lacking the Net Discovery module: run fusioninventory-agent
---list-tasks to check.
+The agent may be lacking the Net Discovery module: run `fusioninventory-agent
+--list-tasks` to check.
 
 There may be a server/agent communication issue: check you can reach the agent
 port (62354 by default) from the server host.
@@ -175,8 +175,8 @@ agent logs for "[http server] invalid request (untrusted address)" message.
 
 ## The task runs, but agent logs show than SNMP is not used
 
-The agent may be lacking the required Net::SNMP perl module: run perl
--MNet::SNMP on agent host to check, it should blocks.
+The agent may be lacking the required Net::SNMP perl module: run `perl
+-MNet::SNMP` on agent host to check, it should blocks.
 
 There may be no SNMP credentials associated to the network scanned, check your
 IP range definition on server side (_Networking_ > _IP Ranges_ menu item).
@@ -205,9 +205,9 @@ described in [agent database](../agent/database) to fix the issue.
 This is likely to be a TLS multithreading issue. They are multiple ways to
 reduce the probability of such crash:
 * make sure you only have one TLS perl stack installed on the agent host,
-  preferably IO::Socket::SSL + Net::SSLeay. Having both stacks (IO::Socket::SSL
-  + Net::SSLeay vs Net::SSL + Crypt::SSLeay) usually lead unexpected results,
-  even without thread usage
+  preferably IO::Socket::SSL + Net::SSLeay. Having both stacks at once 
+  (IO::Socket::SSL + Net::SSLeay vs Net::SSL + Crypt::SSLeay) usually leads to
+  unexpected results, even without thread usage
 * use latest upstream release of IO::Socket::SSL, even if your distribution
   doesn't provide it
 * reduce threads number during network discovery tasks
