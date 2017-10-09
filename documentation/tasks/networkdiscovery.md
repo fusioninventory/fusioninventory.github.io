@@ -121,7 +121,9 @@ You now have to define a task, including a network discovery type job:
    configuration (screenshot 3)
 
 ![Task creation](task_creation_png)
+
 ![Job creation](job_creation_png)
+
 ![Job configuration](job_configuration_png)
 
 ## Performance issues
