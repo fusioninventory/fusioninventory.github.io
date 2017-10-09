@@ -112,19 +112,16 @@ You now have to define a task, including a network discovery type job:
 1. from the FusionInventory plugin welcome screen, select the _Tasks_ > _Task
    management_ menu item
 1. create a new task, with an arbitrary name (for instance, discovery task), in
-   active state, and save it (screenshot 1)
+   active state, and save it
+![Task creation](task_creation.png)
 1. select _Jobs configuration_ tab
 1. create a new job, with an arbitrary name (for instance, discovery job),
-   using network discovery as module method, and save it (screenshot 2)
+   using network discovery as module method, and save it
+![Job creation](job_creation.png)
 1. configure this job by assigning it a target (the IP range item create
    previously) and an actor (the elected agent), and update the current
-   configuration (screenshot 3)
-
-![Task creation](task_creation_png)
-
-![Job creation](job_creation_png)
-
-![Job configuration](job_configuration_png)
+   configuration
+![Job configuration](job_configuration.png)
 
 ## Performance issues
 
