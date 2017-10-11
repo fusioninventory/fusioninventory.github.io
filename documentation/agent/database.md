@@ -21,7 +21,7 @@ self-documented. However, local modifications will get lost on upgrade.
 The `sysobject.ids` file is a database of known SNMP devices, indexed by the
 discriminant part of their SysObjectID value:
 
-    9.1.1111	Cisco	NETWORKING	Catalyst 3500
+    9.1.1111    Cisco   NETWORKING      Catalyst 3500
     +           +       +               +
     |           |       |               |
     |           |       |               +-> device model
