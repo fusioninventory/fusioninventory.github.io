@@ -9,9 +9,9 @@ Historical [FusionInventory for Android]({{ site.baseurl }}/2011/09/13/first-rel
 
 By the way, you still can get it from the github release section: [FusionInventory for Android](https://github.com/fusioninventory/fusioninventory-android/releases/download/1.0.1/FusionInventory-1.0.1.apk).
 
-# Inventory Agent by [Flyve](https://flyve-mdm.com/) MDM (beta)
+# Inventory Agent by [Flyve MDM](https://flyve-mdm.com/) (beta)
 
-[Inventory agent](https://github.com/flyve-mdm/flyve-mdm-android-inventory-agent) created by Flyve MDM platform, is an updated and enhanced version of _Legacy Android FusionInventory Agent_ and is actually in beta-test.
+[Inventory Agent](https://github.com/flyve-mdm/flyve-mdm-android-inventory-agent) created by Flyve MDM platform, is an updated and enhanced version of _Legacy Android FusionInventory Agent_ and is actually in beta-test.
 
 It is free-software and its sources are available on [Flyve MDM Android Inventory Agent Github repository](https://github.com/flyve-mdm/flyve-mdm-android-inventory-agent).
 
