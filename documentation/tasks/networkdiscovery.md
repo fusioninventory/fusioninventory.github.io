@@ -110,7 +110,7 @@ If you want to associate SNMP credentials to this network, for probing SNMP
 devices during discovery, you have to use the _Associated SNMP authentication_
 tab. Warning: each associated credential implies one additional authentication
 attempt, and another network timeout penalty if not successful. See
-[Efficiency concerns](#Efficiency concerns) for details.
+[Efficiency concerns](#efficiency-concerns) for details.
 
 ### Task creation
 
