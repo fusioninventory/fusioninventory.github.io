@@ -19,4 +19,4 @@ This software is directly supported by the [Teclib' Editions](https://teclib-edi
 
 If you want to use it, you should:
 1. [register as beta-tester for the package on Google Play](https://play.google.com/apps/testing/org.flyve.inventory.agent).
-2. Install it from the Google Play Store app Beta section.
+2. [Install it from the Google Play Store app Beta section](https://play.google.com/store/apps/details?id=org.flyve.inventory.agent).
