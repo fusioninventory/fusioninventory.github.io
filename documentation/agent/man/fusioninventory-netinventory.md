@@ -1,6 +1,6 @@
 ---
 layout: page
-title: fusioninventory-netdiscovery
+title: fusioninventory-netinventory
 ---
 
 # NAME
