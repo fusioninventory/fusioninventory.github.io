@@ -6,18 +6,17 @@ title: First release for FusionInventory agent for Android
 The FusionInventory team is proud to announce the support of a new platform: Android.
 <h1>FusionInventory Agent for Android 1.0.1 is out!</h1>
 
-## Download<a href="/news_docs/fusioninventory-for-android-1.0.png">
+## Download
 
-<img class="alignright size-full wp-image-1205" title="fusioninventory-for-android-1.0" src="/news_docs/fusioninventory-androidmarket.png" alt="" width="235" height="235" /></a>
+FusionInventory Agent for Android 1.0.1 was available on the market.
 
-FusionInventory Agent for Android 1.0.1 is available on the market.
+You can download the agent at following URL:
 
-You can also download the agent at following URLs (or use the QR code):
+- Android Market: no more available
 
-- Android Market: [https://market.android.com/details?id=org.fusioninventory&amp;feature=search_result](https://market.android.com/details?id=org.fusioninventory&amp;feature=search_result)
+- FusionInventory forge: no more available
 
-- FusionInventory forge: [http://forge.fusioninventory.org/attachments/download/454/FusionInventory-1.0.1.apk
-](http://forge.fusioninventory.org/attachments/download/454/FusionInventory-1.0.1.apk)
+- FusionInventory Android Github: [FusionInventory for Android](https://github.com/fusioninventory/fusioninventory-android/releases/download/1.0.1/FusionInventory-1.0.1.apk)
 
 ## New
 
@@ -27,9 +26,11 @@ This agent is a very special one. It has been written from scratch for the Andro
 
 It features a complete inventory of your Android devices: both hardware and software informations are collected. You get the data about processor, memory, drives, sensors, etc. and also the list and description of installed application (apk).
 
-## Supported<a href="/news_docs/android_logo.gif"><img class="alignright size-thumbnail wp-image-1203" title="android_logo" src="/news_docs/android_logo-150x150.gif" alt="Android Logo" width="90" height="90" /></a>
+## Supported
 
-FusionInventory Agent for Android is running on Android 1.6 and higher. We maintain a [list of tested devices](http://forge.fusioninventory.org/projects/fusioninventory/wiki/Smartphone_Compatibility). Please report any success or failure on [the bug tracker](http://forge.fusioninventory.org/projects/android/issues/new). Some informations (for example serial number) won't be available on devices running Android 2.2 or lower. If you know how to collect them, please open request on the bug tracker.
+<a href="/news_docs/android_logo.gif"><img class="alignright size-thumbnail wp-image-1203" title="android_logo" src="/news_docs/android_logo-150x150.gif" alt="Android Logo" width="90" height="90" /></a>
+
+FusionInventory Agent for Android is running on Android 1.6 and higher. We maintain a [list of tested devices](http://forge.fusioninventory.org/projects/fusioninventory/wiki/Smartphone_Compatibility). Please report any success or failure on [the github issue tracker](https://github.com/fusioninventory/fusioninventory-android/issues). Some informations (for example serial number) won't be available on devices running Android 2.2 or lower. If you know how to collect them, please open request on the bug tracker.
 
 ## Connect
 
