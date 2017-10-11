@@ -3,8 +3,20 @@ layout: page
 title: FusionInventory on Android
 ---
 
-# FusionInventoryAgent on Android
+# Legacy FusionInventory Agent package
 
-[FusionInventory for Android]({{ site.baseurl }}/2011/09/13/first-release-for-fusioninventory-agent-for-android.html) is available directly on the [Google Play](https://play.google.com/store/apps/details?id=org.fusioninventory&hl=en).
+Historical [FusionInventory for Android]({{ site.baseurl }}/2011/09/13/first-release-for-fusioninventory-agent-for-android.html) is no more available on Google Play.
 
-You can get it in our forge: [FusionInventory for Android](http://forge.fusioninventory.org/attachments/download/454/FusionInventory-1.0.1.apk).
+By the way, you still can get it from the github release section: [FusionInventory for Android](https://github.com/fusioninventory/fusioninventory-android/releases/download/1.0.1/FusionInventory-1.0.1.apk).
+
+# [Flyve](https://flyve-mdm.com/) Inventory agent (beta)
+
+[Flyve Inventory agent](https://github.com/flyve-mdm/flyve-mdm-android-inventory-agent) is an updated and enhanced version of _Legacy Android FusionInventory Agent_ and is actually in beta-test.
+
+It is totally open-source and sources are available on [Flyve Inventory agent Github repository](https://github.com/flyve-mdm/flyve-mdm-android-inventory-agent).
+
+This software is directly supported by the [Teclib' Editions](https://teclib-edition.com) developer team. It is compliant with FusionInventory for GLPI plugin and can be tested with OCS Inventory server.
+
+If you want to use it, you should to:
+1. [register as beta-tester for the package on Google Play](https://play.google.com/apps/testing/org.flyve.inventory.agent).
+2. Install it from the Google Play Store app Beta section.
