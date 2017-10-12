@@ -56,13 +56,6 @@ half-managed mode, as explained in [agent usage](../agent/usage.html). If
 the task is server-triggered, the agent must run in managed mode, and
 its HTTP port should be reachable from the server.
 
-## Manual execution
-
-In order to run a network discovery task without a GLPI server, and for easier
-troubleshooting, the fusioninventory-netdiscovery task can be run from command
-line. See [fusioninventory-netdiscovery
-manpage](../agent/man/fusioninventory-netdiscovery.html) for details.
-
 ## Server execution
 
 ### Module activation
@@ -138,6 +131,14 @@ manually reviewed and imported if suitable:
 
 1. from the FusionInventory plugin welcome screen, select the _Rules_ >
    _Ignored import device_ menu item
+
+## Command-line execution
+
+A network discovery task can be also performed without a GLPI server, allowing
+easier control and troubleshooting, with the
+[fusioninventory-netdiscovery](../agent/man/fusioninventory-netdiscovery.html)
+command-line tools. However, there is now way currently to inject the result
+in GLPI.
 
 ## Efficiency concerns
 
