@@ -119,7 +119,7 @@ For example, if you want to include the certificate file
 hash value of the certificate's *subject* field using, for example,
 OpenSSL
 
-    C:\OpenSSL> openssl.exe x509 -in C:\FICert_Class1.crt -subject_hast -noout
+    C:\OpenSSL> openssl.exe x509 -in C:\FICert_Class1.crt -subject_hash -noout
     b760f1ce
 
 and afterwards, move or copy the certificate file to the directory

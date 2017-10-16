@@ -125,7 +125,7 @@ Por ejemplo, si desea incluir el fichero de certificado
 *hash* del campo *subject* del certificado haciendo uso de, por ejemplo,
 OpenSSL
 
-    C:\OpenSSL> openssl.exe x509 -in C:\FICert_Class1.crt -subject_hast -noout
+    C:\OpenSSL> openssl.exe x509 -in C:\FICert_Class1.crt -subject_hash -noout
     b760f1ce
 
 y después, mover o copiar el fichero de certificado al directorio

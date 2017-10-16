@@ -126,7 +126,7 @@ Par exemple, si vous voulez inclure le fichier du certificat
 valeur de hachage pour le champ *subject* du certificat utilisé, par
 exemple, avec OpenSSL
 
-    C:\OpenSSL> openssl.exe x509 -in C:\FICert_Class1.crt -subject_hast -noout
+    C:\OpenSSL> openssl.exe x509 -in C:\FICert_Class1.crt -subject_hash -noout
     b760f1ce
 
 et d'après le résultat, déplacez ou copiez le fichier du certificat dans
