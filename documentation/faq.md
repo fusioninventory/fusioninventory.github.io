@@ -21,6 +21,7 @@ title: FAQ
    1. [Duplicated computers in inventory](#dup-computers)
    1. [Missing information when called from cron](#missing-info-under-cron)
    1. [Strange agent token “12345678”](#strange-agent-token)
+   1. [FusionInventory Agent WakeOnLan task fails on windows](#win32-wakeonlan)
 
 ___
 
@@ -212,3 +213,12 @@ Just define the PATH in the crontab:
 Since the agent 2.3.0, the agent doesn't use any token anymore to authenticate
 server messages. Any target server is automatically trusted, as well as any
 other IP address given through httpd-trust configuration directive.
+
+<div id='win32-wakeonlan'/>
+## FusionInventory Agent WakeOnLan task fails on windows
+
+WakeOnLan agent task requires a system library (DLL) provided by [WinPcap](https://www.winpcap.org).
+
+Just download and install the [lastest WinPcap package](https://www.winpcap.org/install/default.htm) before being able to use WOL from a win32 agent.
+
+_See also: [issue #392](https://github.com/fusioninventory/fusioninventory-agent/issues/392) solved by tabad_
