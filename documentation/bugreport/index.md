@@ -101,8 +101,12 @@ subdirectory.
 
 snmpwalk output can be generated with the following command:
 
-    $> snmpwalk -v <version> -c <community> -t 15 -Cc -On <somehost> .1 > <somefile>
+    $> snmpwalk -v <version> -c <community> -t 15 -Cc -On -Ox <somehost> .1 > <somefile>
 
 Using an explicit root OID (.1 here), a non-default timeout (15s, as the
 agent), and disabling internal consistency checks (-Cc) if often required to
 extract all required information.
+
+Option '-Ox' is not mandatory but can help to enhance debugging but also discovery
+and inventory tasks as we may not know anything about the related MIB. So just
+having full numeric OID can help.
