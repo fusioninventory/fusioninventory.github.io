@@ -49,7 +49,7 @@ For fusioninventory-agent, you'll need to install these dependencies:
     apt -y install perl libuniversal-require-perl libwww-perl libparse-edid-perl
     apt -y install libproc-daemon-perl  libproc-pid-file-perl libfile-which-perl
     apt -y install libxml-treepp-perl libyaml-perl libnet-cups-perl libnet-ip-perl
-    apt -y install libdigest-sha-perl libsocket-getaddrinfo-perl
+    apt -y install libdigest-sha-perl libsocket-getaddrinfo-perl libtext-template-perl
 
 For fusioninventory-agent-task-network, you'll need to install these other dependencies:
 
