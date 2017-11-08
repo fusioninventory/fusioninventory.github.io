@@ -25,7 +25,7 @@ with minimal information, such as mac address and hostname.
 
 Additionaly, if the device replies to SNMP, the agent will attempt to identify
 it, using various methods. The primary method relies on retrieving the value of
-the dedicated SNMP variable (SNMPv2-MIB::sysDescr.0), wich is a
+the dedicated SNMP variable (SNMPv2-MIB::sysObjectID.0), wich is a
 constructor-specific OID identifying a given device model, and comparing it to
 the agent internal database (the sysobject.ids file, described in [agent
 database](../agent/database)). If a match is found, model, type and
