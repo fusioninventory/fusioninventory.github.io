@@ -9,7 +9,7 @@ redirect_from:
 
 Download the last **.pkg.tar.gz** package from [FusioInventory Agent releases page](https://github.com/fusioninventory/fusioninventory-agent/releases).
 
-{% include info.html param="At the moment of this writing, you should use <a href='https://github.com/fusioninventory/fusioninventory-agent/releases/download/2.3.20/FusionInventory-Agent-2.3.20-1.pkg.tar.gz'>FusionInventory-Agent-2.3.20-1.pkg.tar.gz</a>" %}
+{% include info.html param="At the moment of this writing, you should use <a href='https://github.com/fusioninventory/fusioninventory-agent/releases/download/2.3.21/FusionInventory-Agent-2.3.21-1.pkg.tar.gz'>FusionInventory-Agent-2.3.21-1.pkg.tar.gz</a>" %}
 
 # Extract Agent
 
@@ -89,3 +89,7 @@ To start the service:
 To force an inventory:
 
     $ sudo /opt/fusioninventory-agent/bin/fusioninventory-agent
+
+or just:
+
+    $ /opt/fusioninventory-agent/run.sh
