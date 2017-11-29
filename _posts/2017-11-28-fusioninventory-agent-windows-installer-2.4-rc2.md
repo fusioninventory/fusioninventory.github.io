@@ -35,7 +35,7 @@ This release candidate also introduces a new and important feature: **remote win
 Actually this feature is only available throught the `fusioninventory-wmi` dedicated script. For example, you can compare local inventories by running these 2 commands
 from an admin console:
 
-`fusioninventory-wmi --local=- -h 127.0.0.1 >local-only-via-wmi.xml`
+`fusioninventory-wmi --config=none --local=- -h 127.0.0.1 >local-only-via-wmi.xml`
 
 And:
 
