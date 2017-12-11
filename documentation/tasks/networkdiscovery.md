@@ -137,7 +137,7 @@ manually reviewed and imported if suitable:
 A network discovery task can be also performed without a GLPI server, allowing
 easier control and troubleshooting, with the
 [fusioninventory-netdiscovery](../agent/man/fusioninventory-netdiscovery.html)
-command-line tools. However, there is now way currently to inject the result
+command-line tools. However, there is no way currently to inject the result
 in GLPI.
 
 ## Efficiency concerns

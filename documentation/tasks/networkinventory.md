@@ -52,7 +52,7 @@ See [network discovery task documentation](networkdiscovery.html#server-executio
 A network inventory task can be also performed without a GLPI server, allowing
 easier control and troubleshooting, with the
 [fusioninventory-netinventory](../agent/man/fusioninventory-netinventory.html)
-command-line tools. However, there is now way currently to inject the result
+command-line tools. However, there is no way currently to inject the result
 in GLPI.
 
 # Troubleshooting
