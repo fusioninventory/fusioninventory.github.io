@@ -14,6 +14,7 @@ redirect_from:
 * [fusioninventory-netdiscovery](fusioninventory-netdiscovery.html)
 * [fusioninventory-netinventory](fusioninventory-netinventory.html)
 * [fusioninventory-wakeonlan](fusioninventory-wakeonlan.html)
+* [fusioninventory-win32-service](fusioninventory-win32-service.html)
 
 # Configuration
 

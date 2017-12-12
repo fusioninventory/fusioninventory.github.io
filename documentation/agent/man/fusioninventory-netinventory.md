@@ -2,95 +2,114 @@
 layout: page
 title: fusioninventory-netinventory
 ---
+<style>
+.post-content h2 { font-weight: bold ; margin: 1.5rem 0; }
+.post-content h1:before { content: ''; }
+.post-content h2:before { content: ''; }
+.post-content h3:before { content: ''; }
+</style>
+<!-- begin man -->
 
 # NAME
 
 fusioninventory-netinventory - Standalone network inventory
 
+
 # SYNOPSIS
 
-fusioninventory-netinventory \[options\] \[--host &lt;host>|--file &lt;file>\]
+<pre>fusioninventory-netinventory [options] [--host &#60;host&#62;|--file &#60;file&#62;]
 
-    Options:
-      --host <HOST>          target host
-      --file <FILE>          snmpwalk output file
-      --community <STRING>   community string (public)
-      --credentials <STRING> SNMP credentials (version:1,community:public)
-      --timeout <TIME>       SNMP timeout, in seconds (15)
-      --type <TYPE>          force device type
-      --threads <COUNT>      number of inventory threads (1)
-      --control              output control messages
-      --debug                debug output
-      -h --help              print this message and exit
-      --version              print the task version and exit
+  Options:
+    --host &#60;HOST&#62;          target host
+    --file &#60;FILE&#62;          snmpwalk output file
+    --community &#60;STRING&#62;   community string (public)
+    --credentials &#60;STRING&#62; SNMP credentials (version:1,community:public)
+    --timeout &#60;TIME&#62;       SNMP timeout, in seconds (15)
+    --type &#60;TYPE&#62;          force device type
+    --threads &#60;COUNT&#62;      number of inventory threads (1)
+    --control              output control messages
+    --debug                debug output
+    -h --help              print this message and exit
+    --version              print the task version and exit</pre>
 
 # DESCRIPTION
 
-`fusioninventory-netinventory` allows to run a network inventory task without
-a GLPI server.
+_**fusioninventory-netinventory**_ can be used to run a network inventory task without a GLPI server.
+
 
 # OPTIONS
 
-- **--host** _HOST_
+### **\--host** _HOST_
 
-    Run an online inventory against given host. Multiple usage allowed, for
-    multiple hosts.
+Run an online inventory against given host. Multiple usage allowed, for multiple hosts.
 
-- **--file** _FILE_
 
-    Run an offline inventory against snmpwalk output, stored in given file. 
-    Multiple usage allowed, for multiple files.
+### **\--file** _FILE_
 
-- **--communty** _STRING_
+Run an offline inventory against snmpwalk output, stored in given file. Multiple usage allowed, for multiple files.
 
-    Use given string as SNMP community (assume SNMPv1)
 
-- **--credentials** _STRING_
+### **\--communty** _STRING_
 
-    Use given string as SNMP credentials specification. This specification is a
-    comma-separated list of key:value authentication parameters, such as:
+Use given string as SNMP community (assume SNMPv1)
 
-    - version:2c,community:public
-    - version:3,username:admin,authprotocol:sha,authpassword:s3cr3t
-    - etc.
 
-- **--timeout** _TIME_
+### **\--credentials** _STRING_
 
-    Set SNMP timeout, in seconds.
+Use given string as SNMP credentials specification. This specification is a comma-separated list of key:value authentication parameters, such as:
 
-- **--type** _TYPE_
+* version:2c,community:public
+* version:3,username:admin,authprotocol:sha,authpassword:s3cr3t
+* etc.
 
-    Force device type, instead of relying on automatic identification. Currently
-    allowed types:
 
-    - COMPUTER
-    - NETWORKING
-    - PRINTER
-    - STORAGE
-    - POWER
-    - PHONE
+### **\--timeout** _TIME_
 
-- **--threads** _count_
+Set SNMP timeout, in seconds.
 
-    Use given number of inventory threads.
 
-- **--control**
+### **\--type** _TYPE_
 
-    Output server-agent control messages, in addition to inventory result itself.
+Force device type, instead of relying on automatic identification. Currently allowed types:
 
-- **--debug**
+* COMPUTER
+* NETWORKING
+* PRINTER
+* STORAGE
+* POWER
+* PHONE
 
-    Turn the debug mode on. Multiple usage allowed, for additional verbosity.
+
+### **\--threads** _count_
+
+Use given number of inventory threads.
+
+
+### **\--control**
+
+Output server-agent control messages, in addition to inventory result itself.
+
+
+### **\--debug**
+
+Turn the debug mode on. Multiple usage allowed, for additional verbosity.
+
+
+
 
 # EXAMPLES
 
 Run an inventory against a network device, using SNMP version 2c authentication:
 
-    $> fusioninventory-netinventory --host 192.168.0.1
-    --credentials version:2c,community:public
 
-Run an inventory against a network device, using SNMP version 3 authentication
-and forcing its type:
+<pre>    $&#62; fusioninventory-netinventory --host 192.168.0.1 \
+    --credentials version:2c,community:public</pre>
 
-    $> fusioninventory-netinventory --host my.device --type NETWORKING
-    --credentials version:3,username:admin,authprotocol:sha,authpassword:s3cr3t
+Run an inventory against a network device, using SNMP version 3 authentication and forcing its type:
+
+
+<pre>    $&#62; fusioninventory-netinventory --host my.device --type NETWORKING \
+    --credentials version:3,username:admin,authprotocol:sha,authpassword:s3cr3t</pre>
+
+<em class='post-meta'>Last source update: Tue Dec 12 19:24:50 2017</em>
+<!-- end man -->
