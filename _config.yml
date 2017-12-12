@@ -10,6 +10,8 @@ twitter_username: fusioninventory
 github_username:  fusioninventory
 favicon: /images/fusioninventory.png
 
+exclude:
+    - documentation/agent/man/generate-mans.pl
 
 paginate: 8
 paginate_path: "/news/page:num/"
