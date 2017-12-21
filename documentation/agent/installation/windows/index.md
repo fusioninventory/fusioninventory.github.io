@@ -108,7 +108,7 @@ For more information about the *visual mode* installation, please, see the follo
 There is a VBScript (Visual Basic Script) allow you to perform an unattended deployment of 
 *fusioninventory-agent_windows-\<platform>_\<version>.exe* in large (and in not so large) environments. 
 The script is named 
-[fusioninventory-agent-deployment.vbs](https://raw.github.com/fusinv/fusioninventory-agent/2.3.x/contrib/windows/fusioninventory-agent-deployment.vbs "https://raw.github.com/fusinv/fusioninventory-agent/2.3.x/contrib/windows/fusioninventory-agent-deployment.vbs").
+[fusioninventory-agent-deployment.vbs](https://raw.github.com/fusioninventory/fusioninventory-agent/2.4.x/contrib/windows/fusioninventory-agent-deployment.vbs "https://raw.github.com/fusioninventory/fusioninventory-agent/2.4.x/contrib/windows/fusioninventory-agent-deployment.vbs").
 
 
 

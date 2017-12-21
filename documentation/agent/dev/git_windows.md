@@ -28,7 +28,7 @@ Install the following perl modules: `install <module>`
 
 ### From source tarball
 
-You can download latest git content as a [.zip file from github](https://github.com/fusinv/fusioninventory-agent/downloads) web interface.
+You can download latest git content as a [.zip file from github](https://github.com/fusioninventory/fusioninventory-agent/downloads) web interface.
 
 ### From git repository
 
@@ -36,7 +36,7 @@ Download the latest version of MSysGit, and install it. Clone the git repository
 
 * Launch git GUI (from Windows Start Menu)
 * select *clone an existing repository*
-* use *git://github.com/fusinv/fusioninventory-agent.git* as source URL
+* use *git://github.com/fusioninventory/fusioninventory-agent.git* as source URL
 * use any directory as target directory
 * click "clone" button
 

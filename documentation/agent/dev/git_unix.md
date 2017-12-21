@@ -27,13 +27,13 @@ From a terminal, install the following additional modules using cpanplus shell (
 
 ### From an archive file
 
-You can download latest git content as a .tar.gz file from [github web interface](https://github.com/fusinv/fusioninventory-agent/downloads).
+You can download latest git content as a .tar.gz file from [github web interface](https://github.com/fusioninventory/fusioninventory-agent/downloads).
 
 ### From git repository
 
 From a terminal, clone the repository using git client:
 
-    $ git clone git://github.com/fusinv/fusioninventory-agent
+    $ git clone git://github.com/fusioninventory/fusioninventory-agent
     $ cd agent
 
 ## Check the dependencies

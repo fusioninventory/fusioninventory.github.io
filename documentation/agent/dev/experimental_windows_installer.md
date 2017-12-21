@@ -246,14 +246,14 @@ Let's look at an example.
 
 Suppose you know there are new stable release for FusionInventory-Agent. You have the builder ready to build the installers with FusionInventory-Agent v2.3.0 (it is also an assumption) so you want to change it to get the installers with the last releases.
 
-In GitHub you can find all releases of FusionInventory-Agent. In <https://github.com/fusinv> are registered most of the projects of FusionInventory but here we are only interested in one of them. It is, with its URL, the following
+In GitHub you can find all releases of FusionInventory-Agent. In <https://github.com/fusioninventory/> are registered most of the projects of FusionInventory but here we are only interested in one of them. It is, with its URL, the following
 
 * FusionInventory-Agent  
-<https://github.com/fusinv/fusioninventory-agent>
+<https://github.com/fusioninventory/fusioninventory-agent>
 
 You can see the tag (or release) names, the branch names or the commit names of this project the same way you see them of this one. For more information, see section ***How to generate the installers*** above.
 
-By taking a look at <https://github.com/fusinv/fusioninventory-agent/tags> you see that new release is v2.3.1 (it is also an assumption). These are the changes you should to carry out.
+By taking a look at <https://github.com/fusioninventory/fusioninventory-agent/tags> you see that new release is v2.3.1 (it is also an assumption). These are the changes you should to carry out.
 
 Edit the *./Perl/Scripts/load-perl-environment* file and change the value of variable *fusinv_agent_commit* to *2.3.1*. The other variables (*fusinv_agent_mod_name* and *fusinv_agent_repository*) should maintain its values, unless there are changes in GitHub.
 
@@ -279,7 +279,7 @@ The second one is, most of the times, more tedious. You should check whether the
 
 Let's look at an example for FusionInventory-Agent.
 
-In <https://github.com/fusinv/fusioninventory-agent/tags> you can see all stable releases of FusionInventory-Agent. In that, below *2.3.1.zip - 2.3.1 release* appears the sequence *6f67b7d6f6* (it is an assumption); the short form for its SHA1 commit.  Do click on it, and after, do click on *Browse code* (up and right). In the list of files that appears, do click on file *Makefile.PL* and write down the list of required and recommended Perl modules (those lines started by *requires …* and *recommends …*, but not those lines started by *text_requires …*) commons to all operative systems and those specific for Microsoft Windows (those lines under the condition *($OSNAME eq 'MSWin32')*). This list of Perl modules should be the new value of the variable *fusinv_agent_mod_dependences*. Like this list is different of that for 2.3.0 release (repeat the previous process for '2.3.0.zip - 2.3.0 release') you need change the value of the variable *fusinv_agent_mod_dependences*.
+In <https://github.com/fusioninventory/fusioninventory-agent/tags> you can see all stable releases of FusionInventory-Agent. In that, below *2.3.1.zip - 2.3.1 release* appears the sequence *6f67b7d6f6* (it is an assumption); the short form for its SHA1 commit.  Do click on it, and after, do click on *Browse code* (up and right). In the list of files that appears, do click on file *Makefile.PL* and write down the list of required and recommended Perl modules (those lines started by *requires …* and *recommends …*, but not those lines started by *text_requires …*) commons to all operative systems and those specific for Microsoft Windows (those lines under the condition *($OSNAME eq 'MSWin32')*). This list of Perl modules should be the new value of the variable *fusinv_agent_mod_dependences*. Like this list is different of that for 2.3.0 release (repeat the previous process for '2.3.0.zip - 2.3.0 release') you need change the value of the variable *fusinv_agent_mod_dependences*.
 
     -declare -r fusion_agent_mod_dependences='Archive::Extract Crypt::DES
      Compress::Zlib Digest::MD5 Digest::SHA File::Copy::Recursive

@@ -1,9 +1,9 @@
 ---
 layout: page
-title: How to get the last developpment sources
+title: How to get the last development sources
 ---
 
 # How to get the last developpement sources
 
-FusionInventory is maintained with [Git](http://git-scm.com/). We synchronize
-our sources on [Gitorious](http://www.gitorious.org) and [Github](http://github.com/fusinv/)
+FusionInventory is maintained with [Git](http://git-scm.com/). Our sources are
+on [Github](http://github.com/fusioinventory/).
