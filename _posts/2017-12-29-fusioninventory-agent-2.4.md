@@ -1,6 +1,6 @@
 ---
 layout: post
-title: FusionInventory Agent Windows Installer 2.4
+title: FusionInventory Agent 2.4
 ---
 
 The FusionInventory Agent maintainers are proud to announce the 2.4 release.
