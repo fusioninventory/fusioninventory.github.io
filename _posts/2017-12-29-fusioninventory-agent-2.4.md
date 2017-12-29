@@ -5,11 +5,11 @@ title: FusionInventory Agent 2.4
 
 The FusionInventory Agent maintainers are proud to announce the 2.4 release.
 
-You can download sources or dedicated installer from the our github releases page:
+You can download sources or dedicated installer from the [fusioninventory-agent github releases](https://github.com/fusioninventory/fusioninventory-agent/releases/tag/2.4):
 
-* [fusioninventory-agent github releases](https://github.com/fusioninventory/fusioninventory-agent/releases/tag/2.4)
+<button class="button-save large" onclick="window.location.href='https://github.com/fusioninventory/fusioninventory-agent/releases/tag/2.4'">Download FusionInventory Agent v2.4 from Github Releases</button>
 
-See [download instructions]({{ site.baseurl }}/documentation/agent/installation/) for details.
+Or see [download instructions]({{ site.baseurl }}/documentation/agent/installation/) for details.
 
 Since last 2.3.21 release, many bug fixes and enhancements have been accumulated, such as:
 
