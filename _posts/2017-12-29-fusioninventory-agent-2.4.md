@@ -13,7 +13,7 @@ Or see [download instructions]({{ site.baseurl }}/documentation/agent/installati
 
 Since last 2.3.21 release, many bug fixes and enhancements have been accumulated, such as:
 
-- an important fix related to deployment task has been fixed by David Durieux: this should fix agent not able to get files from FusionInventory server or via P2P. 
+- a problem related to deployment task has been fixed by David Durieux: this should fix agent not able to get files from FusionInventory server or via P2P.
 - windows local user is no more changed while user has logged out his computer
 - windows licenses are now also read via WMI so we can report newer MS Office installed licences
 - better antivirus version support on windows, and Windows Defender support
