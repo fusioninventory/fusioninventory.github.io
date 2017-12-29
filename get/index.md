@@ -13,6 +13,8 @@ redirect_from:
 The FusionInventory agent is the software used to collect informations on platforms. This agent
 can also start network discovery, network inventory, ESX inventory and deploy tasks.
 
+Mandatory place to get most recent agent release is the: <button class="button-save large" onclick="window.location.href='https://github.com/fusioninventory/fusioninventory-agent/releases'">Github FusionInventory Agent Releases</button>
+
 Look at [FusionInventory agent installation]({{ site.baseurl }}/documentation/agent/installation/) page
 and find the best ways to install it for yours platforms.
 
