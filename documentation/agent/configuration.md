@@ -12,6 +12,9 @@ location depends of the installation method:
 * `/opt/fusioninventory/agent.cfg`: OS X mpkg
 * `/usr/local/etc/fusioninventory/agent.cfg`: FreeBSD port
 
+It is highly recommanded not to change this file! Just edit it and ensure the `include "conf.d/"` is not commented (does not starts with a `#`).
+Your specific configuration should then go to any `conf.d/*.cfg` file.
+
 On Windows, the agent read its configuration from a registry key, whose
 location depends on architecture:
 
