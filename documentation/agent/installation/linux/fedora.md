@@ -5,13 +5,15 @@ title: Installation on Fedora
 
 # Maintained Fedora version
 
-*fusioninventory-agent* is part of the *official repository* for fedora >= 14
+*fusioninventory-agent* is part of the *official repository* for Fedora. 2.4 agent releases will only be available for Fedora >= 28.
 
-# EOL Fedora version
+# Non maintained Fedora version
 
-An old *fusioninventory-agent* package is available in the *remi* third party repository for for fedora >= 8
+Since there has been many changes in the configuration beetween 2.3 and 2.4 releases; you will have to use our [COPR repository](https://copr.fedorainfracloud.org/coprs/trasher/fusioninventory-agent) to get 2.4 series agent on Fedora 26 and 27.
 
-See [Remi repository configuration](http://blog.famillecollet.com/pages/Config-en) for details.
+To install and activate the repository; run:
+
+    $ sudo dnf copr enable trasher/fusioninventory-agent
 
 # Agent installation
 
