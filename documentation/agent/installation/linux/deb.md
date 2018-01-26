@@ -26,14 +26,14 @@ Latest FusionInventory Agent Debian and Ubuntu compatible packages are provided 
 <tbody>
     <tr>
         <td>Stretch - Debian 9 - Stable</td>
-        <td>2.3.21-2</td>
+        <td>2.4-2</td>
         <td>&nbsp;</td>
         <td>Ubuntu 16.04.3 LTS (xenial)</td>
-        <td>2.3.21-2</td>
+        <td>2.4-2</td>
     </tr>
     <tr>
         <td>Jessie - Debian 8 - OldStable</td>
-        <td>2.3.21-2</td>
+        <td>2.4-2</td>
         <td>&nbsp;</td>
         <td>&nbsp;</td>
         <td>&nbsp;</td>
@@ -47,7 +47,7 @@ For fusioninventory-agent, you'll need to install these dependencies:
 
     apt -y install dmidecode hwdata ucf hdparm
     apt -y install perl libuniversal-require-perl libwww-perl libparse-edid-perl
-    apt -y install libproc-daemon-perl  libproc-pid-file-perl libfile-which-perl
+    apt -y install libproc-daemon-perl libfile-which-perl
     apt -y install libxml-treepp-perl libyaml-perl libnet-cups-perl libnet-ip-perl
     apt -y install libdigest-sha-perl libsocket-getaddrinfo-perl libtext-template-perl
 
@@ -63,19 +63,19 @@ For fusioninventory-agent-task-deploy, you'll need to install these other depend
 
 Packages|Included tasks
 --------|--------------
-[fusioninventory-agent_2.3.21-2_all.deb](http://debian.fusioninventory.org/downloads/fusioninventory-agent_2.3.21-2_all.deb)|Inventory - WakeOnLan - Collect
-[fusioninventory-agent-task-network_2.3.21-2_all.deb](http://debian.fusioninventory.org/downloads/fusioninventory-agent-task-network_2.3.21-2_all.deb)|NetDiscovery - NetInventory
-[fusioninventory-agent-task-deploy_2.3.21-2_all.deb](http://debian.fusioninventory.org/downloads/fusioninventory-agent-task-deploy_2.3.21-2_all.deb)|Deploy
-[fusioninventory-agent-task-esx_2.3.21-2_all.deb](http://debian.fusioninventory.org/downloads/fusioninventory-agent-task-esx_2.3.21-2_all.deb)|ESX
+[fusioninventory-agent_2.4-2_all.deb](http://debian.fusioninventory.org/downloads/fusioninventory-agent_2.4-2_all.deb)|Inventory - WakeOnLan - Collect
+[fusioninventory-agent-task-network_2.4-2_all.deb](http://debian.fusioninventory.org/downloads/fusioninventory-agent-task-network_2.4-2_all.deb)|NetDiscovery - NetInventory
+[fusioninventory-agent-task-deploy_2.4-2_all.deb](http://debian.fusioninventory.org/downloads/fusioninventory-agent-task-deploy_2.4-2_all.deb)|Deploy
+[fusioninventory-agent-task-esx_2.4-2_all.deb](http://debian.fusioninventory.org/downloads/fusioninventory-agent-task-esx_2.4-2_all.deb)|ESX
 
 ## Install desired packages as root :
 
 Only fusioninventory-agent deb package is mandatory
 
-    dpkg -i fusioninventory-agent_2.3.21-2_all.deb
-    dpkg -i fusioninventory-agent-task-network_2.3.21-2_all.deb
-    dpkg -i fusioninventory-agent-task-deploy_2.3.21-2_all.deb
-    dpkg -i fusioninventory-agent-task-esx_2.3.21-2_all.deb
+    dpkg -i fusioninventory-agent_2.4-2_all.deb
+    dpkg -i fusioninventory-agent-task-network_2.4-2_all.deb
+    dpkg -i fusioninventory-agent-task-deploy_2.4-2_all.deb
+    dpkg -i fusioninventory-agent-task-esx_2.4-2_all.deb
 
 ## Configure the agent :
 
