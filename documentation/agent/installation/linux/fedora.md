@@ -15,6 +15,8 @@ To install and activate the repository; run:
 
     $ sudo dnf copr enable trasher/fusioninventory-agent
 
+If the above command does not work, ensure package "dnf-plugins-core" is installed.
+
 # Agent installation
 
 Agent installation:
