@@ -53,6 +53,8 @@ redirect_from: "/documentation/documentation.html"
 
 ## [ESX virtual inventory](tasks/esxinventory/)
 
+## [Collect](tasks/collect.html)
+
 # Advanced topics
 
 ## [Security](security.html)
