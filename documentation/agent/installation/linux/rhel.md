@@ -5,13 +5,15 @@ title: Installation on RHEL, CentOS and other RHEL clones
 
 # Agent 2.4.x
 
-Due to several configuration changes between 2.3 and 2.4 series, RPM for 2.4 releases of the agent are not available from EPEL repository; you'll have to use our  [COPR repository](https://copr.fedorainfracloud.org/coprs/trasher/fusioninventory-agent).
+Due to several configuration changes between 2.3 and 2.4 series, RPM for 2.4 releases of the agent are not available from EPEL repository; you'll have to use our [COPR repository](https://copr.fedorainfracloud.org/coprs/trasher/fusioninventory-agent).
 
 To get it installed, run:
 
     $ sudo yum copr enable trasher/fusioninventory-agent
 
 If the above command does not work, ensure package "yum-plugin-copr" is installed.
+
+If, for any reason, the copr plugin is not available, go to the [COPR repository](https://copr.fedorainfracloud.org/coprs/trasher/fusioninventory-agent) page, click on "Repo Download" button for your version, and put down the file in `/etc/yum.repos.d/` directory.
 
 # RHEL/Centos 7.x
 
