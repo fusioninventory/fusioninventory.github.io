@@ -793,6 +793,27 @@ title: Inventory protocol
        <!-- type -->
        <!ELEMENT TYPE (#PCDATA)>>
 
+     <!ELEMENT POWERSUPPLIES (NAME, POWER_MAX, SERIALNUMBER, PARTNUM
+     MANUFACTURER, MODEL, HOTREPLACEABLE, PLUGGED, STATUS)>
+       <!-- powersupply name -->
+       <!ELEMENT NAME (#PCDATA)>
+       <!-- powersupply max power in Watt -->
+       <!ELEMENT POWER_MAX (#PCDATA)>
+       <!-- powersupply serial number -->
+       <!ELEMENT SERIALNUMBER (#PCDATA)>
+       <!-- powersupply manufacturer -->
+       <!ELEMENT MANUFACTURER (#PCDATA)>
+       <!-- powersupply Part Number -->
+       <!ELEMENT PARTNUM (#PCDATA)>
+       <!-- powersupply model -->
+       <!ELEMENT MODEL (#PCDATA)>
+       <!-- powersupply hotreplaceable feature (Yes|No) -->
+       <!ELEMENT HOTREPLACEABLE (#PCDATA)>
+       <!-- powersupply plugged status (Yes|No) -->
+       <!ELEMENT PLUGGED (#PCDATA)>
+       <!-- powersupply status -->
+       <!ELEMENT STATUS (#PCDATA)>
+
   <!-- agent ID (string) -->
   <!ELEMENT DEVICEID (#PCDATA)>
   <!-- message type, ie "SNMPQUERY" -->
