@@ -24,9 +24,9 @@ This version is a major version.
 
 #### Computer inventory
 
-* display licence fullname if not empty [[issue #2361]](https://github.com/fusioninventory/fusioninventory-for-glpi/issues/2361)
+* display license fullname if not empty [[issue #2361]](https://github.com/fusioninventory/fusioninventory-for-glpi/issues/2361)
 * factorize software import code and add comments [[issue #2424]](https://github.com/fusioninventory/fusioninventory-for-glpi/issues/2424)
-* add a method to check if a drive is a network drive. Consider smbfs and afps as network drives [[issue #2440]](https://github.com/fusioninventory/fusioninventory-for-glpi/issues/2440)
+* add a method to check if a drive is a network drive. Consider smbfs and afpfs as network drives [[issue #2440]](https://github.com/fusioninventory/fusioninventory-for-glpi/issues/2440)
 
 
 #### Network inventory / discovery
@@ -160,7 +160,7 @@ This version is a major version.
    * handle curent_timestamp...
    * default value on longblob
 * fix NetworkEquipment import (by serial) [[issue #2380]](https://github.com/fusioninventory/fusioninventory-for-glpi/issues/2380)
-   * remplacement typo NetworkEquipment import (by serial) by NetworkEquipment update (by serial)
+   * replacement typo NetworkEquipment import (by serial) by NetworkEquipment update (by serial)
 * make consistent messages "Equipment ignored on import" [[issue #2308]](https://github.com/fusioninventory/fusioninventory-for-glpi/issues/2308)
 * fix dropdown values to link an agent to a computer: was sending a wrong entity ID [[issue #2451]](https://github.com/fusioninventory/fusioninventory-for-glpi/issues/2451)
 * fix standalone FIRMWARES and SIMCARDS
