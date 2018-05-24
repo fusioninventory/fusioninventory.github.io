@@ -9,11 +9,11 @@ This version is a major version.
 
 
 
-## Changelog 
+# Changelog
 
-### Features
+## Features
 
-#### Agent management
+### Agent management
 
 * purge agent on computer purge when no task associated [[issue #2323]](https://github.com/fusioninventory/fusioninventory-for-glpi/issues/2323)
 * remove agent tab in computer, and get agent status in auto_inventory block [[issue #2372]](https://github.com/fusioninventory/fusioninventory-for-glpi/issues/2372)
@@ -22,14 +22,14 @@ This version is a major version.
    * call ajax and autorefresh after forceinventory
 
 
-#### Computer inventory
+### Computer inventory
 
 * display license fullname if not empty [[issue #2361]](https://github.com/fusioninventory/fusioninventory-for-glpi/issues/2361)
 * factorize software import code and add comments [[issue #2424]](https://github.com/fusioninventory/fusioninventory-for-glpi/issues/2424)
 * add a method to check if a drive is a network drive. Consider smbfs and afpfs as network drives [[issue #2440]](https://github.com/fusioninventory/fusioninventory-for-glpi/issues/2440)
 
 
-#### Network inventory / discovery
+### Network inventory / discovery
 
 * add column in IP range list to display the name of the SNMP credentials [[issue #2313]](https://github.com/fusioninventory/fusioninventory-for-glpi/issues/2313)
 * remove AES protocols not supported with SNMPv3 [[issue #2385]](https://github.com/fusioninventory/fusioninventory-for-glpi/issues/2385)
@@ -37,11 +37,11 @@ This version is a major version.
 * display FusionInventory SNMP tab even if no inventory has been performed (to set snmp auth and inventory device without discovery) [[issue #2450]](https://github.com/fusioninventory/fusioninventory-for-glpi/issues/2450)
 * import storage devices as network devices in network inventory and network discovery [[issue #2430]](https://github.com/fusioninventory/fusioninventory-for-glpi/issues/2430)
 * check if port exists using logical number first and then mac address
-* add a script to quiclky setup a SNMP discovery/inventory environment
+* add a script to quickly setup a SNMP discovery/inventory environment
 * network ports are sorted naturally by name
 
 
-#### Task management
+### Task management
 
 * uniform fusioninventory group label in task job [[issue #2316]](https://github.com/fusioninventory/fusioninventory-for-glpi/issues/2316)
 * remove dead code in tasks. Translation strings that are not yet translated [[issue #2394]](https://github.com/fusioninventory/fusioninventory-for-glpi/issues/2394)
@@ -55,7 +55,7 @@ This version is a major version.
 * only one job per task [[issue #2403]](https://github.com/fusioninventory/fusioninventory-for-glpi/issues/2403)
 
 
-#### Software deployment
+### Software deployment
 
 * user interactions for Windows software deployment [[issue #2366]](https://github.com/fusioninventory/fusioninventory-for-glpi/issues/2366)
    * require agent 2.3.21 or higher mandatory
@@ -72,17 +72,17 @@ This version is a major version.
 * add csv import feature for static deploy groups
 
 
-#### Installation script
+### Installation script
 
 * add an option to force plugin installation with cli script (for testing purposes) [[issue #2402]](https://github.com/fusioninventory/fusioninventory-for-glpi/issues/2402)
 
 
-#### Collect
+### Collect
 
 * enhancement to support CRSF compliant POST method for collect tasks from agents supporting the method
 
 
-#### Others
+### Others
 
 * import simcards, and factorize code [[issue #2393]](https://github.com/fusioninventory/fusioninventory-for-glpi/issues/2393)
 * update local and manual unit test procedure [[issue #2393]](https://github.com/fusioninventory/fusioninventory-for-glpi/issues/2419)
@@ -103,9 +103,9 @@ This version is a major version.
 
 
 
-### Bugs fixed
+## Bugs fixed
 
-#### Computer inventory
+### Computer inventory
 
 * avoid importing disks with empty serial [[issue #2322]](https://github.com/fusioninventory/fusioninventory-for-glpi/issues/2322)
 * inventory information should not be displayed on computer creation (id <= 0) [[issue #2327]](https://github.com/fusioninventory/fusioninventory-for-glpi/issues/2327)
@@ -119,7 +119,7 @@ This version is a major version.
 * fix license label display in the asset's software tab [[issue #2470]](https://github.com/fusioninventory/fusioninventory-for-glpi/issues/2470)
 
 
-#### Task management
+### Task management
 
 * fix warning in timeslot form [[issue #2318]](https://github.com/fusioninventory/fusioninventory-for-glpi/issues/2318)
 * prevent timeslot display when failing to check entities
@@ -128,7 +128,7 @@ This version is a major version.
 * check if a task and a package were chosen for computer massive action: task target [[issue #2431]](https://github.com/fusioninventory/fusioninventory-for-glpi/issues/2431)
 
 
-#### Software deployment
+### Software deployment
 
 * add missing directory checks in deploy package [[issue #2305]](https://github.com/fusioninventory/fusioninventory-for-glpi/issues/2305)
 * fix deploy locales [[issue #2383]](https://github.com/fusioninventory/fusioninventory-for-glpi/issues/2383)
@@ -137,13 +137,13 @@ This version is a major version.
 * fix > and < in deploy command
 
 
-#### Collect
+### Collect
 
 * run collect shouldn't delete old content for other agents
 * set an entities_id for collected fields [[issue #2416]](https://github.com/fusioninventory/fusioninventory-for-glpi/issues/2416)
 
 
-#### others
+### others
 
 * ensure JS lib is loaded when required [[issue #2067]](https://github.com/fusioninventory/fusioninventory-for-glpi/issues/2318)
 * fix project URL in plugins page
@@ -169,7 +169,7 @@ This version is a major version.
     * create a constant for xml file path and remove tmpmodels and walk directories
 
 
-## Download & install
+# Download & install
 
 You can download the version here: [9.2+2.0](https://github.com/fusioninventory/fusioninventory-for-glpi/releases/tag/glpi9.2%2B2.0)
 
