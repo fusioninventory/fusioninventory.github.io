@@ -813,6 +813,8 @@ title: Inventory protocol
        <!ELEMENT PLUGGED (#PCDATA)>
        <!-- powersupply status -->
        <!ELEMENT STATUS (#PCDATA)>
+       <!-- powersupply location in computer -->
+       <!ELEMENT LOCATION (#PCDATA)>
 
   <!-- agent ID (string) -->
   <!ELEMENT DEVICEID (#PCDATA)>
