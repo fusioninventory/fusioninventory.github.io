@@ -70,3 +70,5 @@ redirect_from: "/documentation/documentation.html"
 ## [Translation](translation.html)
 
 ## [for developers](dev/)
+
+## [Packaging / for maintainers](packaging/)
