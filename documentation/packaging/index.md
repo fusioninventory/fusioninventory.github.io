@@ -1,12 +1,14 @@
 ---
 layout: page
-title: Packaging
+title: Agent Packaging
 ---
+
+# Agent packaging
 
 Here you'll find official developers advises to package fusioninventory-agent.
 
-# [Windows](windows.html)
+## [Windows](windows.html)
 
-# [Linux](linux.html)
+## [Linux](linux.html)
 
-# [Mac](mac.html)
+## [Mac](mac.html)
