@@ -10,7 +10,7 @@ For Linux/Unix platforms only:
 FusionInventory agent is expected to run its tasks on a regular basis and is better
 installed as service. Its memory and load footprints are low enough for this mode.
 
-To know better the FusionInventory agent execution mode, you should be read the [Agent usage page](usage.html).
+To know better about the FusionInventory agent execution mode, you should be read the [Agent usage page](usage.html).
 
 Cron mode could be used if you don't want a fusioninventory-agent process to be running
 all the time and if you don't need to trigger it remotely (from the server
