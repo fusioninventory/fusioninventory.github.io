@@ -23,7 +23,9 @@ redirect_from: "/documentation/documentation.html"
 
 ## [Usage](agent/usage.html)
 
-## [How to run agent ?](agent/launch_the_agent.html)
+### [How to run agent ?](agent/launch_the_agent.html)
+
+### [Cron mode](agent/cron.html)
 
 # FusionInventory for GLPI
 
