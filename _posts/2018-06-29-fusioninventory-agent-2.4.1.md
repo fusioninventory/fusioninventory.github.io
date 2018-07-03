@@ -41,7 +41,7 @@ Check the [Changes file](https://github.com/fusioninventory/fusioninventory-agen
 
 We want also to announce the [fusioninventory-agent github repository](https://github.com/fusioninventory/fusioninventory-agent) will be re-organized according to the [Git Flow](http://git-flow.readthedocs.io/en/latest/) branch model. Also for commits, we now want to follow the [Conventional Commit](http://conventionalcommits.org/).
 
-As a reminder, we want to notice support for some old operating systems is discontinued since 2.4. The agent may continue to work on these platforms but we won't handle any issue reported on them : 
+As a reminder, we want to notice support for some old operating systems is discontinued since 2.4. The agent may continue to work on these platforms but we won't handle any issue reported on them:
 - Windows XP/NT/2000
 - Mac OSX < 10.8 (Mountain Lion)
 - Solaris 8
@@ -53,6 +53,6 @@ We would like to specially thank tabad for his effort to provide an up-to-date p
 
 The Team also reminds you that a [Userecho suggestion site](http://fusioninventory.userecho.com/) is available where you can submit your ideas or whishes for the future of FusionInventory agent and/or plugin for GLPI.
 
-Don't hesitate to participate by voting or even put your 2 cents !
+Don't hesitate to participate by voting or even put your 2 cents!
 
-Still many thanks to all our community, users and contributors !
+As usual many thanks to all our community, users and contributors!
