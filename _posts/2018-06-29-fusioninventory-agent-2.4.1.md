@@ -39,7 +39,7 @@ Since last 2.4 release, many bug fixes and enhancements have been accumulated, s
 
 Check the [Changes file](https://github.com/fusioninventory/fusioninventory-agent/blob/2.4.1/Changes) for more details.
 
-We want also to announce the [fusioninventory-agent github repository](https://github.com/fusioninventory/fusioninventory-agent) will be re-organized according to the [Git Flow](http://git-flow.readthedocs.io/en/latest/) branch model. Also for commits, we now want to follow the [Conventional Commit](http://conventionalcommits.org/).
+We want also to announce the [fusioninventory-agent github repository](https://github.com/fusioninventory/fusioninventory-agent) will be re-organized according to the [Git Flow](http://git-flow.readthedocs.io/en/latest/) branch model. Also for commits, we now want to follow the [Conventional Commit](http://conventionalcommits.org/). For release versioning, we will follow [SemVer](https://semver.org/).
 
 As a reminder, we want to notice support for some old operating systems is discontinued since 2.4. The agent may continue to work on these platforms but we won't handle any issue reported on them:
 - Windows XP/NT/2000
