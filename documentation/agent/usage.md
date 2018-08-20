@@ -38,57 +38,58 @@ The correct mode to use mainly depends on the role assigned to your GLPI server:
 is it a trusted management platform, or just a passive information database ?
 In the first case, you'd rather need server-side control, whereas on the second
 case, you'd rather need agent-side control. But it also depends on your
-technical expertise: if everything sofar sounds like chinese, no need to go
+technical expertise: if everything so far sounds like chinese, no need to go
 further, just select managed mode. Otherwise, the following presents each mode
 with additional details.
 
 ## Managed mode
 
 This mode requires the agent to be run as a server process (daemon under Unix,
-service under Windows), meaning the perl interpreter is permanently loaded in
-memory, which may not be convenient for small systems. Additionaly, a network
-port is opened on the system with a process running with full system privileges
-attached to it.
-
-The agent wake-up schedule is controlled from GLPI server, using PROLOG_FREQ
-setting. More precisely, the agent wakes up at a random time between 50% and
-100% of this value, ie for 24H, it will executes sometimes between 12 and 24H.
-Additionaly, the server may also initiate additional out-of-schedule executions
-by sending HTTP requests to the agent.
+service under Windows). The agent wake-up schedule is controlled from GLPI
+server, using PROLOG_FREQ setting. More precisely, the agent wakes up at a
+random time between 50% and 100% of this value, ie for 24H, it will executes
+sometimes between 12 and 24H. Additionaly, the server may also initiate
+additional out-of-schedule executions by sending HTTP requests to the agent.
 
 Example:
 
-    $> fusioninventory-agent --server http://my.server --daemon
+    $> fusioninventory-agent --server http://my.server/plugins/fusioninventory/ --daemon
 
 That's the easiest mode to set up, offering (almost) complete control from a
 centralized point, fully compatible with all available agent features, and the
-most flexible in term of usage. However, that's also the most expensive in term
-of resources usage, and the less secure. And the more important: who controls
-the GLPI servers also controls all assets where an agent is installed, with
-ability to execute arbitrary code with full system privileges, which is after
-all the intended purpose.
+most flexible in term of usage.
+
+On the downside, this mode involves having a perl interpreter loaded in memory
+permanently, which is insignificant on any modern desktop, but may eventually
+be a concern in specific memory-constraints scenario, such as IoT or minimal
+virtual machines. It also involves having a privilegied process listening on a
+network port, unless run with [**no-httpd** configuration directive](man/agent.cfg).
+
+And the more important: who controls the GLPI servers also controls all assets
+where an agent is installed, with ability to execute code at anytime, which may
+involves running arbitrary command with full privileges if related tasks
+(currently: deploy), are installed AND enabled on agent side. That's the exact
+purpose of this mode: everything the GLPI server wants, when the GLPI server wants.
 
 ## Half-managed mode
 
 This mode requires a local triggering mechanism to launch the agent. It may be
 a scheduling system (cron, task scheduler) to run it automatically and
-regularily, but it may as well be a user session start script, for instance. As
-a consequence, there is no perl interpreter permanently loaded in memory, only
-during agent execution, reducing memory impact. And there is no privileged
-process listening on a network port, which is better for security, but also
-prevents the server to trigger agent executions itself. But the server still
-retains control over execution plan, as the agent ask for its tasks list when
-run.
+regularily, but it may as well be a user session start script, for instance.
 
 Example:
 
-    $> fusioninventory-agent --server http://my.server
+    $> fusioninventory-agent --server http://my.server/plugins/fusioninventory/
 
-This mode is basically a compromise between other modes, with the advantages
-of the autonomous mode in term of resources usage and security concerns, and
-the advantages of the managed mode in term of simplicity and flexibility. 
-The trust model is exactly the same as for the managed mode, which can be
-considered either an advantage or a problem.
+This mode doesn't consume memory permanently, only during agent execution.
+However, it is also less flexible, as scheduling can't get changed without
+reconfiguration. But the server still retains control over execution plan, as
+the agent asks for a tasks list when run.
+
+This mode is a compromise between other modes, with the advantages of the
+autonomous mode in term of resources usage, and the advantages of the managed
+mode in term of simplicity and flexibility. Its purpose can get summarized as:
+everything the GLPI server wants, but only when the agent wants.
 
 ## Autonomous mode
 
@@ -109,17 +110,16 @@ Immediate upload example:
 
     $> fusioninventory-inventory | curl --data @- http://my.server/plugins/fusioninventory/
 
-Warning: in both cases, the URL to use differs from the previous modes, as you
-have to use the exact fusioninventory backend URL, instead of the base URL of
-the GLPI server, as there is no automatic redirection.
-
 This mode is the most complex to set-up, as you have to script the execution of
 multiple programs, this is not just a matter of configuration. It is also
 restricted to a limited set of agent tasks, for which a dedicated launcher
 exists (currently: local inventory, network discovery, network inventory).
-However, if you don't trust the GLPI server for any reason (for instance,
-because it is run by another organization), and if your use case is just to
-report an inventory regularily, it is perfectly suited.
+However, you have a full local control of agent execution.
+
+If you don't trust the GLPI server for any reason (for instance,
+because it is run by another organization), of if your use case is just to
+report an inventory regularily, this mode is perfectly suited. It can get
+summarized as: only what the agent wants, only when the agent wants.
 
 # Offline usage
 
