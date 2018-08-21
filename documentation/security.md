@@ -3,75 +3,93 @@ layout: page
 title: Security
 ---
 
-# Threat model
+# Security concerns
 
-They are several potential security issues in fusioninventory.
+The following presents multiple security-related topics.
 
-First, the server automatically trust any received message, using the
-identifier found in the message (unfortunatly called DEVICEID) to identify the
-sending agent. If you want to protect your inventory from rogue reports, you
-have to restrict access to the plugin location on your GLPI server, typically
-using HTTP authentication. And preferentially over HTTPS, to prevent password
-sniffing.
+## Agent authentication on server side
 
-Second, some messages between the server and the agent may contain sensible
-informations. For instance, NetInventory tasks involves sending SNMP
-credentials from the server to the agent. In this case, HTTPS usage ensures
-proper communication encryption.
+The server automatically trust any received message, using the identifier found
+in the message (unfortunatly called DEVICEID) to identify the sending agent. An
+attacker may then inject data, either to masquerade legitimate data, or just to
+fill GLPI database and trigger a denial of service.
 
-Third, some tasks are explicitely designed to make the agent execute arbitrary
+In order to protect against this threat, access to the actual fusioninventory
+plugin URL should be protected, using any access control mechanism from the web
+server. For instance, source address restriction on an Apache server 2.4.x:
+
+    <Location /plugins/fusioninventory>
+	# only accept requests from trusted network
+	Require ip 192.168.0.0/24
+    </Location>
+
+Unfortunatly, there is no way to safely distinguish an HTTP request from a
+regular user accessing plugin content through a browser, such as images or
+javascript, from a fusioninventory agent retrieving its tasks list or posting a
+task execution result. Using HTTP User Agent will only protect against errors,
+as its value is set by the client:
+
+    <Location /plugins/fusioninventory>
+	<If "%{HTTP_USER_AGENT} =~ /^FusionInventory-Agent_v/">
+	    # only accept agent requests from trusted network
+	    Require ip 192.168.0.0/24
+	</If>
+    </Location>
+
+Until an actual solution is implemented, the best workaround currently
+is to restrict access for POST queries only, as this will prevent
+data injection, without affecting regular usage:
+
+    <Location /plugins/fusioninventory>
+	<Limit POST>
+	    # only accept agent execution results from trusted network
+	    Require ip 192.168.0.0/24
+	</Limit>
+    </Location>
+
+## Arbitrary command execution on agent side
+
+Some tasks are explicitely designed to make the agent execute arbitrary
 commands on its host. For instance, the Deploy task is used to install
-software on agent side. In this case, HTTPS usage ensures proper server
-authentication.
+software on agent side.
 
-If none of these issues is a concern for your particular case, for instance
-because your network is trusted, you don't need the additional overhead and
-complexity of HTTPS.
+If you don't have any interest for those tasks, for instance because you're
+only using local inventory, you'd rather run the agent in a mode where the
+server doesn't control what tasks the agent executes, as detailed on [usage
+page](agent/usage). Or even better, only install the tasks you are interested
+in, and not the other, which is highly dependant on your installation method.
 
-# HTTPS support
+And if you have an interest for this kind of tasks, you should use TLS to
+ensure proper server authentication, unless agent-server communication only
+occurs on a trusted network where host spoofing is considered impossible,
 
-HTTPS support on server side is enforced by the HTTP server, typically Apache
-with mod_ssl.
+## Agent-server exchange confidentiality
 
-HTTPS support on agent side relies on LWP (also known as libwww-perl), the
-standard Perl library for HTTP communication. This library is able to use
-either Crypt::SSLeay or IO::Socket::SSL perl modules transparently for HTTPS
-support. However, only the second one is able to perform server certificate
-validation. As a consequence, the agent will refuse to use HTTPS, and exit
-immediatly if IO::Socket::SSL is not available, unless certificate checking has
-been explicitely disabled, through *no-ssl-check* [configuration
-parameter]({{ site.baseurl }}/documentation/agent/configuration.html) (or alternatively, *--no-ssl-check* [command
-line option]({{ site.baseurl }}/documentation/agent/man/)).
+Some messages between agent and server may contain sensible informations. The
+agent may use a password to authenticate on the server, for instance. Or the
+server may send SNMP credentials to the agent in order to perform a remote inventory.
 
-# Self-signed certificate setup
+Unless agent-server communication only occurs on a trusted network where traffic eavesdropping
+is considered impossible, you should use TLS to protect exchange
+confidentiality.
 
-If you don't have a regular PKI to deliver trusted SSL certificates, here is
-how to quickly create a self-signed certificate, and use it to (moderatly)
-secure your setup.
+# TLS usage
 
-The following command generate a key and a self-signed certificate, valid for
+## Server setup
+
+TLS support on server side is done by the web server, typically using Apache
+mod_ssl module.
+
+If you can't get trusted TLS certificates from regular Certification Authority,
+the following command generates a key and a self-signed certificate, valid for
 two years:
 
-    $> openssl req -new -newkey rsa:2048 -days 730 -nodes -x509 -keyout server.key -out server.crt
+    $> openssl req -new -newkey rsa:2048 -days 730 -nodes -x509 -keyout server.key -out server.crt -subj "/CN=glpi.mycompany.com"
     Generating a 1024 bit RSA private key
     ......++++++
     ...............++++++
     writing new private key to 'server.key'
     -----
-    You are about to be asked to enter information that will be incorporated
-    into your certificate request.
-    What you are about to enter is what is called a Distinguished Name or a DN.
-    There are quite a few fields but you can leave some blank
-    For some fields there will be a default value,
-    If you enter '.', the field will be left blank.
-    -----
-    Country Name (2 letter code) [GB]:FR
-    State or Province Name (full name) [Berkshire]:Ile de France
-    Locality Name (eg, city) [Newbury]:Paris
-    Organization Name (eg, company) [My Company Ltd]:
-    Organizational Unit Name (eg, section) []:
-    Common Name (eg, your name or your server's hostname) []:glpi.mycompany.com
-    Email Address []:
 
 {% include warning.html param="You have to ensure the exact host name in your server URL matches the certificate Common Name attribute. For instance, if your server URL is http(s)://glpi.mycompany.com/, the common name should be 'glpi.mycompany.com'." %}
 
@@ -87,7 +105,24 @@ be configured to use them. For instance, on Apache with mod_ssl:
     SSLCertificateFile /etc/pki/tls/certs/server.crt
     SSLCertificateKeyFile /etc/pki/tls/private/server.key
 
-The certificate file has to be installed on each agent host, and the agent
-should be configured to use it as certification authority, with *ca-cert-file*
-[configuration parameter]({{ site.baseurl }}/documentation/agent/configuration.html) (or alternatively,
+The certificate file also has to be installed on each agent host, and the agent
+should be configured to use it as the Certification Authority certificate.
+
+## Agent setup
+
+TLS support on agent side relies on LWP (also known as libwww-perl), the
+standard Perl library for HTTP communication. This library is able to use
+either Crypt::SSLeay or IO::Socket::SSL perl modules transparently for HTTPS
+support. However, only the second one is able to perform server certificate
+validation. As a consequence, the agent will refuse to use HTTPS, and exit
+immediatly if IO::Socket::SSL is not available, unless certificate checking has
+been explicitely disabled, through *no-ssl-check* [configuration
+parameter]({{ site.baseurl }}/documentation/agent/configuration.html) (or alternatively, *--no-ssl-check* [command
+line option]({{ site.baseurl }}/documentation/agent/man/)).
+
+The Certification Authority certificate must be installed on each agent host,
+and the agent should be configured to use it as certification authority, with
+*ca-cert-file* [configuration parameter]({{ site.baseurl
+}}/documentation/agent/configuration.html) (or alternatively,
 *--ca-cert-dir* [command line option]({{ site.baseurl }}/documentation/agent/man/)).
+
