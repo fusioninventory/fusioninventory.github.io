@@ -14,7 +14,7 @@ in the message (unfortunatly called DEVICEID) to identify the sending agent. An
 attacker may then inject data, either to masquerade legitimate data, or just to
 fill GLPI database and trigger a denial of service.
 
-In order to protect againt this threat, access to the actual fusioninventory
+In order to protect against this threat, access to the actual fusioninventory
 plugin URL should be protected, using any access control mechanism from the web
 server. For instance, source address restriction on an Apache server 2.4.x:
 
