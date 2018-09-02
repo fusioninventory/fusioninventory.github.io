@@ -19,9 +19,9 @@ mailing lists or the following [Fusioninventory team Github](https://github.com/
 
 Please use english langage as much as possible.
 
-* [FusionInventory Users list](http://lists.alioth.debian.org/mailman/listinfo/fusioninventory-user)
-* [FusionInventory Developers list](http://lists.alioth.debian.org/mailman/listinfo/fusioninventory-devel)
-* [FusinInventory translator list](http://lists.alioth.debian.org/mailman/listinfo/fusioninventory-i18n)
+* [FusionInventory users list](http://lists.alioth.debian.org/mailman/listinfo/fusioninventory-user)
+* [FusionInventory developers list](http://lists.alioth.debian.org/mailman/listinfo/fusioninventory-devel)
+* [FusionInventory translators list](http://lists.alioth.debian.org/mailman/listinfo/fusioninventory-i18n)
 
 # IRC-Channel
 
