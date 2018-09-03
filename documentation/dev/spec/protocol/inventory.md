@@ -190,7 +190,9 @@ title: Inventory protocol
        <!ELEMENT USERID (#PCDATA)>
        <!ELEMENT LOGDATE (#PCDATA)>
 
-     <!ELEMENT ANTIVIRUS (COMPANY, NAME, GUID, ENABLED, UPTODATE, VERSION)>
+     <!ELEMENT ANTIVIRUS (COMPANY, NAME, GUID, ENABLED, UPTODATE, VERSION,
+     EXPIRATION, BASE_CREATION, BASE_VERSION, 32ENGINE_VERSION,
+     64ENGINE_VERSION)>
        <!-- company name -->
        <!ELEMENT COMPANY (#PCDATA)>
        <!ELEMENT NAME (#PCDATA)>
@@ -201,6 +203,8 @@ title: Inventory protocol
        <!-- wether the antivirus is up to date (0|1) -->
        <!ELEMENT UPTODATE (#PCDATA)>
        <!ELEMENT VERSION (#PCDATA)>
+       <!-- License expiration date -->
+       <!ELEMENT EXPIRATION (#PCDATA)>
        <!-- signatures base creation -->
        <!ELEMENT BASE_CREATION (#PCDATA)>
        <!-- signatures base version -->
