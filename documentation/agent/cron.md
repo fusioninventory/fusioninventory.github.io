@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Cron
+title: Schedule agent with cron
 ---
 
 For Linux/Unix platforms only:
@@ -8,11 +8,11 @@ For Linux/Unix platforms only:
 {% include warning.html param="FusionInventory Agent would better be installed as systemd service and this is the recommanded way of doing." %}
 
 FusionInventory agent is expected to run its tasks on a regular basis and is better
-installed as service. Its memory and load footprints are low enough for this mode.
+installed as service. Its memory and load footprints are low enough for modern desktop computers.
 
-To know better about the FusionInventory agent execution mode, you should be read the [Agent usage page](usage.html).
+To know better about the FusionInventory agent execution modes, you should be read the [Agent usage page](usage.html).
 
-Cron mode could be used if you don't want a fusioninventory-agent process to be running
+You should use cron if you don't want a fusioninventory-agent process to be running
 all the time and if you don't need to trigger it remotely (from the server
 or manually, locally contacting the `http://localhost:62354/` page).
 
@@ -39,11 +39,12 @@ lazy = 1
 00 */4 * * * /usr/bin/fusioninventory-agent --wait=1800 >/var/lib/fusioninventory-agent/cron.log 2>&1
 ```
 
-For large companies, be aware, if you don't enable lazy option in cron mode and you schedule
-many computer to make inventory at the same cron time, you can flood your GLPI server at the
-scheduled time, even more if you forget to use `--wait` option. To avoid such missconfiguration,
+For large companies, be aware you can lead to [concurrent execution issues](usage.html#concurrent-execution)
+if you don't enable agent `lazy` option with cron scheduling and even more if you forget to
+use `--wait` option. To avoid such missconfiguration,
 you would prefer leave the agent started as systemd service and define a peaceful delay
 on server. You may adjust scheduled time and wait command line only option to your needs.
 
-As a reminder, cron mode disables the httpd daemon listening feature permitting server
-to manually and remotely trigger fusioninventory-agent to run its tasks.
+As a reminder, when launched without the [**daemonize** configuration directive](man/agent.cfg),
+as usually done from cron, the agent is a short-lived process, without
+the ability to listen on the network for out-of-schedule activation requests from the server.
