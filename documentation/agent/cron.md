@@ -45,5 +45,6 @@ scheduled time, even more if you forget to use `--wait` option. To avoid such mi
 you would prefer leave the agent started as systemd service and define a peaceful delay
 on server. You may adjust scheduled time and wait command line only option to your needs.
 
-As a reminder, cron scheduling disables the httpd daemon listening feature permitting server
-to manually and remotely trigger fusioninventory-agent to run its tasks.
+As a reminder, when launched without the [**daemonize** configuration directive](man/agent.cfg),
+as usually done from cron, the agent is a short-lived process, without
+the ability to listen on the network for out-of-schedule activation requests from the server.
