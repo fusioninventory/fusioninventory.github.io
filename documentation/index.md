@@ -25,7 +25,7 @@ redirect_from: "/documentation/documentation.html"
 
 ## Howto
 
-### [How to run agent](agent/launch_the_agent.html)
+### [How to launch agent](agent/launch_the_agent.html)
 
 ### [How to schedule agent with cron (linux)](agent/cron.html)
 
