@@ -203,7 +203,7 @@ title: Inventory protocol
        <!-- wether the antivirus is up to date (0|1) -->
        <!ELEMENT UPTODATE (#PCDATA)>
        <!ELEMENT VERSION (#PCDATA)>
-       <!-- License expiration date -->
+       <!-- License expiration date, in DD/MM/YYYY format -->
        <!ELEMENT EXPIRATION (#PCDATA)>
        <!-- signatures base creation -->
        <!ELEMENT BASE_CREATION (#PCDATA)>
