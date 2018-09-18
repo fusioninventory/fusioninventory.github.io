@@ -255,11 +255,13 @@ title: Inventory protocol
 
      <!ELEMENT CPUS (CACHE, CORE, DESCRIPTION, MANUFACTURER, NAME, THREAD,
      SERIAL, STEPPING, FAMILYNAME, FAMILYNUMBER, MODEL, SPEED, ID,
-     EXTERNAL_CLOCK, ARCH)>
+     EXTERNAL_CLOCK, ARCH, CORECOUNT)>
        <!-- total CPU cache size, in KB -->
        <!ELEMENT CACHE (#PCDATA)>
        <!-- cores number -->
        <!ELEMENT CORE (#PCDATA)>
+       <!-- total available cores,as CORE only reports enabled count -->
+       <!ELEMENT CORECOUNT (#PCDATA)>
        <!ELEMENT DESCRIPTION (#PCDATA)>
        <!-- CPU manufacturer, ie 'Intel', 'AMD', etc. -->
        <!ELEMENT MANUFACTURER (#PCDATA)>
