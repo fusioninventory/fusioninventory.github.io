@@ -51,7 +51,7 @@ title: Inventory protocol
   MONITORS+, NETWORKS+, PHYSICAL_VOLUMES+, PORTS+, PRINTERS+, PROCESSES+, SLOTS+,
   SOFTWARES+, USERS+, STORAGES+, VIDEOS+, SOUNDS+, VIRTUALMACHINES+, USBDEVICES+,
   VOLUME_GROUPS+, REMOTE_MGMT+, SIMCARDS+, SENSORS+, POWERSUPPLIES+, REGISTRY,
-  RUDDER)>
+  RUDDER, CAMERAS+)>
 
      <!ELEMENT BIOS (SMODEL, SMANUFACTURER, SSN, BDATE, BVERSION,
      BMANUFACTURER, MMANUFACTURER, MSN, MMODEL, ASSETTAG, ENCLOSURESERIAL,
@@ -333,7 +333,7 @@ title: Inventory protocol
        <!ELEMENT PROFILE (#PCDATA)>
        <!-- firewall status -->
        <!ELEMENT STATUS (#PCDATA)>
-       
+
      <!ELEMENT INPUTS (NAME, MANUFACTURER, CAPTION, DESCRIPTION, INTERFACE,
      LAYOUT, POINTINGTYPE, TYPE)>
        <!ELEMENT NAME (#PCDATA)>
@@ -822,6 +822,32 @@ title: Inventory protocol
        <!ELEMENT STATUS (#PCDATA)>
        <!-- powersupply location in computer -->
        <!ELEMENT LOCATION (#PCDATA)>
+
+     <!ELEMENT CAMERAS (RESOLUTION, LENSFACING, FLASHUNIT,
+     IMAGEFORMATS+, ORIENTATION, FOCALLENGHT, SENSORSIZE, MANUFACTURER,
+     RESOLUTIONVIDEO, MODEL, SUPPORTS+)>
+       <!-- Camera resolution, ie '1200x800' -->
+       <!ELEMENT RESOLUTION (#PCDATA)>
+       <!-- Direction the camera faces, relative to device screen -->
+       <!ELEMENT LENSFACING (#PCDATA)>
+       <!-- Whether this camera device has a flash unit -->
+       <!ELEMENT FLASHUNIT (#PCDATA)>
+       <!-- Image output formats -->
+       <!ELEMENT IMAGEFORMATS (#PCDATA)>
+       <!-- Orientation camera - Degrees of clockwise rotation -->
+       <!ELEMENT ORIENTATION (#PCDATA)>
+       <!-- List of focal lengths - Units in Millimeters -->
+       <!ELEMENT FOCALLENGHT (#PCDATA)>
+       <!-- This is the physical size of the sensor - Units in Millimeters -->
+       <!ELEMENT SENSORSIZE (#PCDATA)>
+       <!-- Name of the Manufacturer -->
+       <!ELEMENT MANUFACTURER (#PCDATA)>
+       <!--  Video Camera resolution, ie '1200x800'  -->
+       <!ELEMENT RESOLUTIONVIDEO (#PCDATA)>
+       <!-- Name of the Model -->
+       <!ELEMENT MODEL (#PCDATA)>
+       <!-- List of intefaces and protocols about Camera -->
+       <!ELEMENT SUPPORTS (#PCDATA)>
 
   <!-- agent ID (string) -->
   <!ELEMENT DEVICEID (#PCDATA)>
