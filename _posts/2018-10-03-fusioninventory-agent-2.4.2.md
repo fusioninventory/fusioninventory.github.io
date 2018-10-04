@@ -66,6 +66,14 @@ For the NetDiscovery/NetInventory tasks:
 
 Check the [Changes file](https://github.com/fusioninventory/fusioninventory-agent/blob/2.4.2/Changes) for more details.
 
+The FusionInventory Agent Windows Installer has been updated with the following important changes:
+- it registers service with perl modules folders to avoid conflicts from any other local perl install
+- /add-firewall-exception option is now fully implemented
+- /runnow option has been updated to be more reliable
+- it shows now an error combo on command line parsing error, even in silent mode as many people
+  complains to not understand why the installer fails. So before mass publishing the installer
+  in silent mode always test your parameters.
+
 As a reminder, we want to tell you again the support for some old operating systems is discontinued since 2.4. The agent may continue to work on these platforms but we won't handle issues reported for them:
 - Windows XP/NT/2000
 - Mac OSX < 10.8 (Mountain Lion)
