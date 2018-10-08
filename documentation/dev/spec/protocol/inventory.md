@@ -192,8 +192,7 @@ title: Inventory protocol
        <!ELEMENT LOGDATE (#PCDATA)>
 
      <!ELEMENT ANTIVIRUS (COMPANY, NAME, GUID, ENABLED, UPTODATE, VERSION,
-     EXPIRATION, BASE_CREATION, BASE_VERSION, 32ENGINE_VERSION,
-     64ENGINE_VERSION)>
+     EXPIRATION, BASE_CREATION, BASE_VERSION)>
        <!-- company name -->
        <!ELEMENT COMPANY (#PCDATA)>
        <!ELEMENT NAME (#PCDATA)>
@@ -210,10 +209,6 @@ title: Inventory protocol
        <!ELEMENT BASE_CREATION (#PCDATA)>
        <!-- signatures base version -->
        <!ELEMENT BASE_VERSION (#PCDATA)>
-       <!-- 32-bit engine version -->
-       <!ELEMENT 32ENGINE_VERSION (#PCDATA)>
-       <!-- 64-bit engine version -->
-       <!ELEMENT 64ENGINE_VERSION (#PCDATA)>
 
      <!ELEMENT BATTERIES (CAPACITY, CHEMISTRY, DATE, NAME, SERIAL,
      MANUFACTURER, VOLTAGE)>
