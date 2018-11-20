@@ -31,6 +31,13 @@ IRC is used mainly to coordonate developement effort between contributors.
 * Network: [FreeNode](http://irc.freenode.net)
 * Channel: #fusioninventory
 
+# Telegram
+
+Telegram FusionInventory community group is available to discuss in live with other community members or even available developers.
+This channel is also used to centralize development notifications from different sources like github and appveyor builder.
+
+* [Telegram FusionInventory community](https://t.me/fusioninventory)
+
 # Forums
 
 ## FusionInventory users community forum
