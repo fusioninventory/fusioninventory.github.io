@@ -288,7 +288,8 @@ title: Inventory protocol
 
      <!-- a filesystem -->
      <!ELEMENT DRIVES (CREATEDATE, DESCRIPTION, FREE, FILESYSTEM, LABEL,
-     LETTER, SERIAL, SYSTEMDRIVE, TOTAL, TYPE, VOLUMN)>
+     LETTER, SERIAL, SYSTEMDRIVE, TOTAL, TYPE, VOLUMN, ENCRYPTION,
+     ENCRYPTALGO, CRYPTED)>
        <!-- creation date, in DD/MM/YYYY format -->
        <!ELEMENT CREATEDATE (#PCDATA)>
        <!ELEMENT DESCRIPTION (#PCDATA)>
@@ -311,6 +312,12 @@ title: Inventory protocol
        <!ELEMENT SYSTEMDRIVE (#PCDATA)>
        <!-- filesystem mount point (Unix only) -->
        <!ELEMENT TYPE (#PCDATA)>
+       <!-- supported encryption: BitLocker, cryptsetup, FileVault, ... -->
+       <!ELEMENT ENCRYPTION (#PCDATA)>
+       <!-- encryption algorithm: AES_128, AES_256, HARDWARE_ENCRYPTION, ... -->
+       <!ELEMENT ENCRYPTALGO (#PCDATA)>
+       <!-- encryption status: Yes, No, Partially, ... -->
+       <!ELEMENT CRYPTED (#PCDATA)>
 
      <!ELEMENT ENVS (KEY, VAL)>
        <!ELEMENT KEY (#PCDATA)>
@@ -654,7 +661,8 @@ title: Inventory protocol
 
      <!ELEMENT STORAGES (DESCRIPTION, DISKSIZE, INTERFACE, MANUFACTURER,
      MODEL, NAME, TYPE, SERIAL, SERIALNUMBER, FIRMWARE, SCSI_COID,
-     SCSI_CHID, SCSI_UNID, SCSI_LUN, WWN)>
+     SCSI_CHID, SCSI_UNID, SCSI_LUN, WWN, ENCRYPTION, ENCRYPTALGO,
+     CRYPTED)>
        <!-- device name, ie 'hda' on Linux, '\\.\PHYSICALDRIVE0' on Windows
           -->
        <!ELEMENT NAME (#PCDATA)>
@@ -678,6 +686,12 @@ title: Inventory protocol
        <!ELEMENT SCSI_LUN (#PCDATA)>
        <!-- World Wide Name http://fr.wikipedia.org/wiki/World_Wide_Name -->
        <!ELEMENT WWN (#PCDATA)>
+       <!-- supported encryption name -->
+       <!ELEMENT ENCRYPTION (#PCDATA)>
+       <!-- encryption algorithme -->
+       <!ELEMENT ENCRYPTALGO (#PCDATA)>
+       <!-- encryption status -->
+       <!ELEMENT CRYPTED (#PCDATA)>
 
      <!ELEMENT VIDEOS (CHIPSET, MEMORY, NAME, RESOLUTION, PCISLOT)>
        <!ELEMENT CHIPSET (#PCDATA)>
