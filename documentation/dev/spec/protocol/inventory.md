@@ -313,13 +313,13 @@ title: Inventory protocol
        <!-- filesystem mount point (Unix only) -->
        <!ELEMENT TYPE (#PCDATA)>
        <!-- supported encryption: BitLocker, cryptsetup, FileVault, ... -->
-       <!ELEMENT ENCRYPTION (#PCDATA)>
+       <!ELEMENT ENCRYPT_NAME (#PCDATA)>
        <!-- encryption algorithm: AES_128, AES_256, HARDWARE_ENCRYPTION, ... -->
-       <!ELEMENT ENCRYPTALGO (#PCDATA)>
+       <!ELEMENT ENCRYPT_ALGO (#PCDATA)>
        <!-- encryption status: Yes, No, Partially, ... -->
-       <!ELEMENT ENCRYPTED (#PCDATA)>
+       <!ELEMENT ENCRYPT_STATUS (#PCDATA)>
        <!-- encryption type: hardware, software, ... -->
-       <!ELEMENT ENCRYPTTYPE (#PCDATA)>
+       <!ELEMENT ENCRYPT_TYPE (#PCDATA)>
 
      <!ELEMENT ENVS (KEY, VAL)>
        <!ELEMENT KEY (#PCDATA)>
@@ -689,13 +689,13 @@ title: Inventory protocol
        <!-- World Wide Name http://fr.wikipedia.org/wiki/World_Wide_Name -->
        <!ELEMENT WWN (#PCDATA)>
        <!-- supported encryption name -->
-       <!ELEMENT ENCRYPTION (#PCDATA)>
+       <!ELEMENT ENCRYPT_NAME (#PCDATA)>
        <!-- encryption algorithme -->
-       <!ELEMENT ENCRYPTALGO (#PCDATA)>
+       <!ELEMENT ENCRYPT_ALGO (#PCDATA)>
        <!-- encryption status -->
-       <!ELEMENT ENCRYPTED (#PCDATA)>
+       <!ELEMENT ENCRYPT_STATUS (#PCDATA)>
        <!-- encryption type -->
-       <!ELEMENT ENCRYPTTYPE (#PCDATA)>
+       <!ELEMENT ENCRYPT_TYPE (#PCDATA)>
 
      <!ELEMENT VIDEOS (CHIPSET, MEMORY, NAME, RESOLUTION, PCISLOT)>
        <!ELEMENT CHIPSET (#PCDATA)>
