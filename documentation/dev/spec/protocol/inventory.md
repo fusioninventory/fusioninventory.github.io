@@ -288,7 +288,8 @@ title: Inventory protocol
 
      <!-- a filesystem -->
      <!ELEMENT DRIVES (CREATEDATE, DESCRIPTION, FREE, FILESYSTEM, LABEL,
-     LETTER, SERIAL, SYSTEMDRIVE, TOTAL, TYPE, VOLUMN)>
+     LETTER, SERIAL, SYSTEMDRIVE, TOTAL, TYPE, VOLUMN, ENCRYPT_NAME,
+     ENCRYPT_ALGO, ENCRYPT_STATUS, ENCRYPT_TYPE)>
        <!-- creation date, in DD/MM/YYYY format -->
        <!ELEMENT CREATEDATE (#PCDATA)>
        <!ELEMENT DESCRIPTION (#PCDATA)>
@@ -311,6 +312,14 @@ title: Inventory protocol
        <!ELEMENT SYSTEMDRIVE (#PCDATA)>
        <!-- filesystem mount point (Unix only) -->
        <!ELEMENT TYPE (#PCDATA)>
+       <!-- supported encryption: BitLocker, cryptsetup, FileVault, ... -->
+       <!ELEMENT ENCRYPT_NAME (#PCDATA)>
+       <!-- encryption algorithm: AES_128, AES_256, HARDWARE_ENCRYPTION, ... -->
+       <!ELEMENT ENCRYPT_ALGO (#PCDATA)>
+       <!-- encryption status: Yes, No, Partially, ... -->
+       <!ELEMENT ENCRYPT_STATUS (#PCDATA)>
+       <!-- encryption type: hardware, software, ... -->
+       <!ELEMENT ENCRYPT_TYPE (#PCDATA)>
 
      <!ELEMENT ENVS (KEY, VAL)>
        <!ELEMENT KEY (#PCDATA)>
@@ -654,7 +663,8 @@ title: Inventory protocol
 
      <!ELEMENT STORAGES (DESCRIPTION, DISKSIZE, INTERFACE, MANUFACTURER,
      MODEL, NAME, TYPE, SERIAL, SERIALNUMBER, FIRMWARE, SCSI_COID,
-     SCSI_CHID, SCSI_UNID, SCSI_LUN, WWN)>
+     SCSI_CHID, SCSI_UNID, SCSI_LUN, WWN, ENCRYPT_NAME, ENCRYPT_ALGO,
+     ENCRYPT_STATUS, ENCRYPT_TYPE)>
        <!-- device name, ie 'hda' on Linux, '\\.\PHYSICALDRIVE0' on Windows
           -->
        <!ELEMENT NAME (#PCDATA)>
@@ -678,6 +688,14 @@ title: Inventory protocol
        <!ELEMENT SCSI_LUN (#PCDATA)>
        <!-- World Wide Name http://fr.wikipedia.org/wiki/World_Wide_Name -->
        <!ELEMENT WWN (#PCDATA)>
+       <!-- supported encryption name -->
+       <!ELEMENT ENCRYPT_NAME (#PCDATA)>
+       <!-- encryption algorithme -->
+       <!ELEMENT ENCRYPT_ALGO (#PCDATA)>
+       <!-- encryption status -->
+       <!ELEMENT ENCRYPT_STATUS (#PCDATA)>
+       <!-- encryption type -->
+       <!ELEMENT ENCRYPT_TYPE (#PCDATA)>
 
      <!ELEMENT VIDEOS (CHIPSET, MEMORY, NAME, RESOLUTION, PCISLOT)>
        <!ELEMENT CHIPSET (#PCDATA)>
