@@ -57,7 +57,7 @@ For fusioninventory-agent, you'll need to install these dependencies:
 
 For fusioninventory-agent-task-network, you'll need to install these other dependencies:
 
-    apt -y install nmap libnet-snmp-perl libcrypt-des-perl libnet-nbname-perl
+    apt -y install libnet-snmp-perl libcrypt-des-perl libnet-nbname-perl
 
 If you need SNMPv3 support for network inventory, you should also install this one:
     apt -y install libdigest-hmac-perl
@@ -243,70 +243,28 @@ METHOD 3:
 
 ## Install dependencies :   
 
-    apt-get -y install wget dmidecode nmap make hwdata
+    apt-get -y install wget dmidecode make hwdata
     apt-get -y install perl perl-modules libmodule-build-perl libmodule-install-perl
     apt-get -y install libfile-which-perl libfile-copy-recursive-perl libuniversal-require-perl
     apt-get -y install libtest-http-server-simple-perl libhttp-server-simple-authen-perl libhttp-proxy-perl
-    apt-get -y install libio-capture-perl libipc-run-perl libnet-snmp-perl libnet-telnet-cisco-perl
+    apt-get -y install libio-capture-perl libipc-run-perl libnet-snmp-perl
     apt-get -y install libtest-compile-perl libtest-deep-perl libtest-exception-perl
     apt-get -y install libtest-mockmodule-perl libtest-mockobject-perl libtest-nowarnings-perl
-    apt-get -y install libxml-treepp-perl libproc-daemon-perl libproc-pid-file-perl
+    apt-get -y install libxml-treepp-perl libproc-daemon-perl
     apt-get -y install libparallel-forkmanager-perl libnet-ip-perl libparse-edid-perl
     apt-get -y install libdigest-sha-perl libtext-template-perl libsocket-getaddrinfo-perl
 
 ## Download
 
-    wget https://github.com/fusioninventory/fusioninventory-agent/releases/download/2.3.20/FusionInventory-Agent-2.3.20.tar.gz
-    tar xvzf FusionInventory-Agent-2.3.20.tar.gz
-    cd FusionInventory-Agent-2.3.20
+    wget https://github.com/fusioninventory/fusioninventory-agent/releases/download/2.4.2/FusionInventory-Agent-2.4.2.tar.gz
+    tar xvzf FusionInventory-Agent-2.4.2.tar.gz
+    cd FusionInventory-Agent-2.4.2
 
 ## Build and install
-
-### on Debian Stable (tested on Debian 8.8) and Debian Testing for agent since 2.3.20
 
     perl Makefile.PL
     make
     make install
-
-### on Debian Testing for agent until 2.3.19 (tested on Debian 9.0)
-
-    perl -I. Makefile.PL
-    make
-    make install
-
-## Fix installation:
-
-### For Fusioninventory-Agent v2.3.20
-No fix needed, agent runs out of the box.
-
-### For Fusioninventory-Agent v2.3.19
-
-You also need to edit installed `/usr/local/share/fusioninventory/lib/setup.pm` so it contains:
-
-```
-package setup;
-
-use strict;
-use warnings;
-use base qw(Exporter);
-
-our @EXPORT = ('%setup');
-
-our %setup = (
-    confdir => '/usr/local/etc/fusioninventory',
-    datadir => '/usr/local/share/fusioninventory',
-    libdir  => '/usr/local/share/fusioninventory/lib',
-    vardir  => '/usr/local/var/fusioninventory',
-);
-
-1;
-```
-
-### For Fusioninventory-Agent v2.3.18
-
-Install Data::Structure::Util:
-
-    apt-get install libdata-structure-util-perl
 
 ## Configure
 - edit `/usr/local/etc/fusioninventory/agent.cfg`
@@ -318,10 +276,12 @@ Edit `/etc/systemd/system/fusioninventory-agent.service` file setting this conte
 
     [Unit]
     Description=FusionInventory agent
+    Documentation=man:fusioninventory-agent
     After=syslog.target network.target
      
     [Service]
     ExecStart=/usr/local/bin/fusioninventory-agent --daemon --no-fork
+    ExecReload=/bin/kill -HUP $MAINPID
      
     [Install]
     WantedBy=multi-user.target
