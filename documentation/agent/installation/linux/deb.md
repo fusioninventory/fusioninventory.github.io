@@ -59,6 +59,9 @@ For fusioninventory-agent-task-network, you'll need to install these other depen
 
     apt -y install nmap libnet-snmp-perl libcrypt-des-perl libnet-nbname-perl
 
+If you need SNMPv3 support for network inventory, you should also install this one:
+    apt -y install libdigest-hmac-perl
+
 For fusioninventory-agent-task-deploy, you'll need to install these other dependencies:
 
     apt -y install libfile-copy-recursive-perl libparallel-forkmanager-perl
