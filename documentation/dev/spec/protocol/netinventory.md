@@ -10,7 +10,7 @@ title: Network inventory protocol
 ### Specification
 
     {
-	    'id': ''string'',
+            'id': ''string'',
         'type': 'netinventory',
         'workers': ''integer'',
         'targets': [
@@ -255,6 +255,7 @@ title: Network inventory protocol
 
           <!-- CARTRIDGES node can content any meaningful printer cartridge info
           and it is up to the server to interpret given keys and values -->
+          <!-- this element is deprecated, CONSUMABLES should be used instead -->
           <!ELEMENT CARTRIDGES ANY>
           <!-- Following lines are well-known samples, so they are kept as comment
             <!ELEMENT CARTRIDGEBLACK (#PCDATA)>
@@ -284,6 +285,16 @@ title: Network inventory protocol
             <!ELEMENT CARTRIDGEMATTEBLACK (#PCDATA)>
             <!ELEMENT CARTRIDGEPHOTOBLACK (#PCDATA)>
             End of samples -->
+
+          <!-- consumables list ->
+          <!ELEMENT CONSUMABLES (CONSUMABLE)+>
+
+            <!-- a single consumable ->
+            <!ELEMENT CONSUMABLE (TYPE, COLOR, VALUE, UNIT)>
+              <!ELEMENT TYPE (#PCDATA)>
+              <!ELEMENT COLOR (#PCDATA)>
+              <!ELEMENT VALUE (#PCDATA)>
+              <!ELEMENT UNIT (#PCDATA)>
 
         <!-- netinventory module version(string) -->
         <!ELEMENT MODULEVERSION (#PCDATA)>
