@@ -66,6 +66,10 @@ For fusioninventory-agent-task-deploy, you'll need to install these other depend
 
     apt -y install libfile-copy-recursive-perl libparallel-forkmanager-perl
 
+If you need to run WakeOnLan task, you'll need to instal this other dependency:
+
+    apt -y install libwrite-net-perl
+
 ## Download desired packages from [Deb fusioninventory-agent tracker](https://tracker.debian.org/pkg/fusioninventory-agent) :
 
 Packages|Included tasks
