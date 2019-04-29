@@ -3,9 +3,9 @@ layout: page
 title: Installation on RHEL, CentOS and other RHEL clones
 ---
 
-# Agent 2.4.x
+# Agent 2.4.x/2.5.x
 
-Due to several configuration changes between 2.3 and 2.4 series, RPM for 2.4 releases of the agent are not available from EPEL repository; you'll have to use our [COPR repository](https://copr.fedorainfracloud.org/coprs/trasher/fusioninventory-agent).
+Due to several configuration changes since 2.4 series, RPM for 2.4 or 2.5 releases of the agent are not available from EPEL repository; you'll have to use our [COPR repository](https://copr.fedorainfracloud.org/coprs/trasher/fusioninventory-agent).
 
 To get it installed, run:
 
