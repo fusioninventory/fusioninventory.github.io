@@ -1,13 +1,13 @@
 ---
 layout: page
-title: Microsoft Windows installation for agent Agent 2.3.x
+title: Microsoft Windows installation for Fusioninventory Agent
 redirect_from:
  - /documentation/agent/installation/windows.html
 ---
 
 # Microsoft Windows Installation
 
-{% include warning.html param="The new FusionInventory Agent 2.3.x comes with a <b>new</b> Microsoft Windows installer. The documentation you have below concerns this new installer. If you are looking for documentation on FusionInventory Agent 2.2.x (or earlier) and its installer, see link." %}
+{% include warning.html param="Since 2.3.x release, FusionInventory Agent comes with a <b>new</b> Microsoft Windows installer. The documentation you have below concerns this new installer. If you are looking for documentation on FusionInventory Agent 2.2.x (or earlier) and its installer, see link." %}
 You can find [documentation on FusionInventory Agent 2.2.x]({{ site.baseurl }}/documentation/agent/installation/windows_before_2.3.0.html).
 
 
@@ -34,7 +34,7 @@ Some notes about the new FusionInventory Agent installer for Microsoft Windows.
 
 
 
-* The installer for each *\<platform>*, integrates its native, although reduced, version of [Strawberry Perl](http://strawberryperl.com/ "http://strawberryperl.com/") 5.18.1.1.
+* The installer for each *\<platform>*, integrates its native, although reduced, version of [Strawberry Perl](http://strawberryperl.com/ "http://strawberryperl.com/")
 
 
 
@@ -108,7 +108,7 @@ For more information about the *visual mode* installation, please, see the follo
 There is a VBScript (Visual Basic Script) allow you to perform an unattended deployment of 
 *fusioninventory-agent_windows-\<platform>_\<version>.exe* in large (and in not so large) environments. 
 The script is named 
-[fusioninventory-agent-deployment.vbs](https://raw.github.com/fusioninventory/fusioninventory-agent/2.4.x/contrib/windows/fusioninventory-agent-deployment.vbs "https://raw.github.com/fusioninventory/fusioninventory-agent/2.4.x/contrib/windows/fusioninventory-agent-deployment.vbs").
+[fusioninventory-agent-deployment.vbs](https://raw.github.com/fusioninventory/fusioninventory-agent/develop/contrib/windows/fusioninventory-agent-deployment.vbs "https://raw.github.com/fusioninventory/fusioninventory-agent/develop/contrib/windows/fusioninventory-agent-deployment.vbs").
 
 
 
@@ -116,7 +116,7 @@ The script is named
 
 
 
-If you are a developer, or an advanced user, you can also install FusionInventory Agent 2.3.x [from sources]({{ site.baseurl }}/documentation/agent/dev/git_windows.html).
+If you are a developer, or an advanced user, you can also install FusionInventory Agent [from sources]({{ site.baseurl }}/documentation/agent/dev/git_windows.html).
 
 
 
