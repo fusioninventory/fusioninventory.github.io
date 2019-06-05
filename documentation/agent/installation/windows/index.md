@@ -63,12 +63,7 @@ The manual is contained within the installer. You can get it in one of the follo
 * `C:\> fusioninventory-agent_windows-<platform>_<version>.exe /help`
 
 
-
-* `C:\> fusioninventory-agent_windows-<platform>_<version>.exe /dumphelp`
-
-
-
-* `C:\> fusioninventory-agent_windows-<platform>_<version>.exe /dumphelp /S`
+* `C:\> fusioninventory-agent_windows-<platform>_<version>.exe /help /S`
 
 
 {% include info.html param="It's recommended that you read through this documentation each time a new version is released; the new FusionInventory Agent installer for Microsoft Windows is still young and it's in constant development, including its manual." %}
