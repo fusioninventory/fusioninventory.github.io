@@ -243,7 +243,7 @@ title: Inventory protocol
        <!ELEMENT PRODUCTID (#PCDATA)>
        <!-- device PCI subsystem ID, ie '8086:2a40' -->
        <!ELEMENT PCISUBSYSTEMID (#PCDATA)>
-       <!-- device PCI slot, ie '00:02.1' --> 
+       <!-- device PCI slot, ie '00:02.1' -->
        <!ELEMENT PCISLOT (#PCDATA)>
        <!ELEMENT TYPE (#PCDATA)>
        <!-- controller revision, ie 'rev 02' -->
