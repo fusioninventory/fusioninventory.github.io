@@ -418,7 +418,7 @@ title: Inventory protocol
        <!ELEMENT MEMORYCORRECTION (#PCDATA)>
        <!ELEMENT MANUFACTURER (#PCDATA)>
 
-     <!ELEMENT MODEMS (NAME, DESCRIPTION, TYPE, MODEL, MANUFACTURER, SERIAL, IMEI)>
+     <!ELEMENT MODEMS (NAME, DESCRIPTION, TYPE, MODEL, MANUFACTURER, SERIAL, IMEI+)>
        <!-- modem name -->
        <!ELEMENT NAME (#PCDATA)>
        <!-- modem description if available -->
