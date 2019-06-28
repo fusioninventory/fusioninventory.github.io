@@ -76,9 +76,9 @@ Packages|Included tasks
 --------|--------------
 [fusioninventory-agent_2.5-3_all.deb](http://debian.fusioninventory.org/downloads/fusioninventory-agent_2.5-3_all.deb)|Inventory - WakeOnLan
 [fusioninventory-agent-task-collect_2.5-3_all.deb](http://debian.fusioninventory.org/downloads/fusioninventory-agent-task-collect_2.5-3_all.deb)|Collect
-[fusioninventory-agent-task-network_2.5-3_all.deb](http://debian.fusioninventory.org/downloads/fusioninventory-agent-task-deploy_2.5-3_all.deb)|NetDiscovery - NetInventory
-[fusioninventory-agent-task-deploy_2.5-3_all.deb](http://debian.fusioninventory.org/downloads/fusioninventory-agent-task-esx_2.5-3_all.deb)|Deploy
-[fusioninventory-agent-task-esx_2.5-3_all.deb](http://debian.fusioninventory.org/downloads/fusioninventory-agent-task-network_2.5-3_all.deb)|ESX
+[fusioninventory-agent-task-network_2.5-3_all.deb](http://debian.fusioninventory.org/downloads/fusioninventory-agent-task-network_2.5-3_all.deb)|NetDiscovery - NetInventory
+[fusioninventory-agent-task-deploy_2.5-3_all.deb](http://debian.fusioninventory.org/downloads/fusioninventory-agent-task-deploy_2.5-3_all.deb)|Deploy
+[fusioninventory-agent-task-esx_2.5-3_all.deb](http://debian.fusioninventory.org/downloads/fusioninventory-agent-task-esx_2.5-3_all.deb)|ESX
 
 ## Install desired packages as root :
 
