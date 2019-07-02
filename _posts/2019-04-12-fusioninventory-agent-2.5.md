@@ -39,7 +39,7 @@ For the core:
   directory.
 
 For the Inventory task:
-- few minor fixes has been included for linuw and win32
+- few minor fixes has been included for linux and win32
 - pci & usb included databases has been updated
 
 For the NetDiscovery/NetInventory tasks:
