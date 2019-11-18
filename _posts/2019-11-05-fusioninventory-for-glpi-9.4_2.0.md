@@ -124,7 +124,7 @@ These new rules are:
 *	_Device update (by mac+ifnumber not restricted port)_
 *	_Device update (by ip+ifdescr restricted port)_
 *	_Device update (by ip+ifdescr not restricted port)_
-*	_Device import (by mac+ifnumber)
+*	_Device import (by mac+ifnumber)_
 *	_Device import (by ip+ifdescr)_
 *	_Update only mac address (mac on switch port)_
 *	_Import only mac address (mac on switch port)_
