@@ -22,3 +22,5 @@ markdown: kramdown
 # Used gem
 gems:
     - jekyll-redirect-from
+
+plugins: [jekyll-paginate]
