@@ -15,6 +15,28 @@ If the above command does not work, ensure package "yum-plugin-copr" is installe
 
 If, for any reason, the copr plugin is not available, go to the [COPR repository](https://copr.fedorainfracloud.org/coprs/trasher/fusioninventory-agent) page, click on "Repo Download" button for your version, and put down the file in `/etc/yum.repos.d/` directory.
 
+# RHEL/Centos 8.x
+
+The FusionInventory team maintains RPM packages in the [EPEL repository](https://fedoraproject.org/wiki/EPEL).
+Once the repository is installed, you also need to enable another repository:
+
+For RHEL 8 users with certificate subcriptions, you need to enable 'codeready-builder' repository:
+
+    # subscription-manager repos --enable "codeready-builder-for-rhel-8-$(arch)-rpms"
+
+For CenOS 8 users, you need to enable 'PowerTools' repository:
+
+    # dnf config-manager --set-enabled PowerTools
+
+Than just run:
+
+    # dnf install fusioninventory-agent fusioninventory-agent-task-inventory
+
+If you plan to use agent in daemon mode (default), don't forget to start the service and enable it:
+
+    # systemctl start fusioninventory-agent
+    # systemctl enable fusioninventory-agent
+
 # RHEL/Centos 7.x
 
 The FusionInventory team maintains RPM packages in the [EPEL repository](https://fedoraproject.org/wiki/EPEL).
