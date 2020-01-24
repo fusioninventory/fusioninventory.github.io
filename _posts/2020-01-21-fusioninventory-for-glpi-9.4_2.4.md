@@ -14,7 +14,7 @@ It's a bug fixes version:
 
 # Download & install
 
-You can download the versions here: 
+You can download the version here: 
 
 * [9.4+2.4](https://github.com/fusioninventory/fusioninventory-for-glpi/releases/tag/glpi9.4%2B2.4)
 
