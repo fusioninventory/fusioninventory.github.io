@@ -295,6 +295,8 @@ title: Network inventory protocol
               <!ELEMENT COLOR (#PCDATA)>
               <!ELEMENT VALUE (#PCDATA)>
               <!ELEMENT UNIT (#PCDATA)>
+              <!-- use MAX if available, or assume it's 100 when UNIT is not set -->
+              <!ELEMENT MAX (#PCDATA)>
 
         <!-- netinventory module version(string) -->
         <!ELEMENT MODULEVERSION (#PCDATA)>
