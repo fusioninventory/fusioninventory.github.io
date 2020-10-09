@@ -235,6 +235,10 @@ title: Inventory protocol
        <!ELEMENT CAPTION (#PCDATA)>
        <!-- manifacturer name -->
        <!ELEMENT MANUFACTURER (#PCDATA)>
+       <!-- device model -->
+       <!ELEMENT MODEL (#PCDATA)>
+       <!-- device serial number -->
+       <!ELEMENT SERIAL (#PCDATA)>
        <!-- device PCI class ID -->
        <!ELEMENT PCICLASS (#PCDATA)>
        <!-- device PCI vendor ID -->
@@ -411,6 +415,8 @@ title: Inventory protocol
        <!ELEMENT SPEED (#PCDATA)>
        <!-- memory serial number -->
        <!ELEMENT SERIALNUMBER (#PCDATA)>
+       <!-- memory model -->
+       <!ELEMENT MODEL (#PCDATA)>
        <!ELEMENT TYPE (#PCDATA)>
        <!ELEMENT DESCRIPTION (#PCDATA)>
        <!-- memory slot number -->
