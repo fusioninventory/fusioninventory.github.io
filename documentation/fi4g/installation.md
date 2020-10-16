@@ -23,7 +23,7 @@ FusionInventory for GLPI tarball name follow this convention:
 
 You *must* *FIRST* disable the FusionInventory plugin via GLPI web interface and then move the `plugins/fusioninventory` folder out of the `plugins/` folder. This ensures any deprecated files will be properly removed.
 
-{% include warning.html param="Don't click on <em>UNINSTALL</em> link. If you do this, you will LOOSE all FusionInventory data." %}
+{% include warning.html param="Don't click on <em>UNINSTALL</em> link. If you do this, you will LOSE all FusionInventory data." %}
 
 ## Installation
 
@@ -31,7 +31,7 @@ You *must* *FIRST* disable the FusionInventory plugin via GLPI web interface and
 
 It's also always a good idea to do a backup of your database.
 
-* Uncompress the archive into the plugin folder of GLPI. File list seems to be like :
+* Uncompress the archive into the plugin folder of GLPI. File list looks like:
 
     - _folder_ glpi
       - _folder_ plugins
