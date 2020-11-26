@@ -19,35 +19,35 @@ For the core:
 
 For the Inventory task:
 - some fixes has been included for unix systems and win32:
- - we fixed Batteries support and added an information to report capacity usage
- - we added some new Acer monitor serial support
- - on linux, the support for [Snap](https://snapcraft.io/) packages in softwares has been fixed when a package with a long summary is installed
- - on debian linux, we fixed the support of packages with no size set
- - on win32, Surface Go 2 are no more reported as Hyper-V
- - on linux, disk encryption detection has been enhanced
- - on linux, Qemu Kvm virtualization inventory has been enhanced
- - dmidecode parsing result has been cleaned a little
- - on linux, virtual overlayfs related to docker are now filtered out
- - on linux, ASM storage inventory has been enhanced
- - manufacturer reporting is now better
- - we now support parsing few manufacturer PartNumbers which can enhance inventory for memories and controllers
- - thanks to a great work from Vadim Pisarev (aka po1vo):
-  - smartctl could be used to enhanced storage support on linux
-  - memory model is now included in inventory
-  - controller model and serial are also supported
-  - memory and controller inventory can also be enhanced using IPMI
-  - Storage inventory has been enhanced
-  - we have Micron PartNumber memory support
+  - we fixed Batteries support and added an information to report capacity usage
+  - we added some new Acer monitor serial support
+  - on linux, the support for [Snap](https://snapcraft.io/) packages in softwares has been fixed when a package with a long summary is installed
+  - on debian linux, we fixed the support of packages with no size set
+  - on win32, Surface Go 2 are no more reported as Hyper-V
+  - on linux, disk encryption detection has been enhanced
+  - on linux, Qemu Kvm virtualization inventory has been enhanced
+  - dmidecode parsing result has been cleaned a little
+  - on linux, virtual overlayfs related to docker are now filtered out
+  - on linux, ASM storage inventory has been enhanced
+  - manufacturer reporting is now better
+  - we now support parsing few manufacturer PartNumbers which can enhance inventory for memories and controllers
+  - thanks to a great work from Vadim Pisarev (aka po1vo):
+    - smartctl could be used to enhanced storage support on linux
+    - memory model is now included in inventory
+    - controller model and serial are also supported
+    - memory and controller inventory can also be enhanced using IPMI
+    - Storage inventory has been enhanced
+    - we have Micron PartNumber memory support
 - pci & usb included databases has been updated
 
 For the NetDiscovery/NetInventory tasks:
 - the following enhancement has been included:
- - a better Ricoh and Zebra printers support with better hostname detection
- - Oki printers support has been enhanced with model detection
- - support for few Siemens and MultiTech industrial modules
- - LinuxAppliance support has been extended to support Ubiquiti UniFi AP
- - Hwg support has been added thanks to Bertrand Keller
- - HP switches support has been enhanced
+  - a better Ricoh and Zebra printers support with better hostname detection
+  - Oki printers support has been enhanced with model detection
+  - support for few Siemens and MultiTech industrial modules
+  - LinuxAppliance support has been extended to support Ubiquiti UniFi AP
+  - Hwg support has been added thanks to Bertrand Keller
+  - HP switches support has been enhanced
 - few more devices are fully detected with the updated [sysobject.ids](https://github.com/fusioninventory/sysobject.ids/releases/tag/fia-2.6)
 
 For ESX task:
