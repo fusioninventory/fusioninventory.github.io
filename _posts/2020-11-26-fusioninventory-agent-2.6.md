@@ -63,9 +63,9 @@ On packaging side:
 
 Check the [Changes file](https://github.com/fusioninventory/fusioninventory-agent/blob/2.6/Changes) for more details.
 
-As a reminder, we want to tell you again the support for some old operating systems is discontinued since 2.4. The agent may continue to work on these platforms but we won't handle issues reported for them:
+The agent is no more supported for old operating systems. It may continue to work on these platforms but we won't handle issues reported for them:
 - Windows XP/NT/2000
-- Mac OSX < 10.8 (Mountain Lion)
+- Mac OSX < 10.10 (Yosemite)
 - Solaris 8
 
 As another reminder, Windows agent installers are built from the [fusioninventory-agent-windows-installer github repository](https://github.com/fusioninventory/fusioninventory-agent-windows-installer).
