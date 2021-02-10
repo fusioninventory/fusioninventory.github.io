@@ -73,7 +73,7 @@ On Unix, fusioninventory-agent executables read their configuration from
 - **ca-cert-file**
 
     Specifies the file containing aggregated Certification Authority (CA)
-    certificates.
+    certificates. CA file has to a base64 encrypted \*.pem file.
 
 - **no-ssl-check**
 
