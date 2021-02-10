@@ -120,9 +120,22 @@ been explicitely disabled, through *no-ssl-check* [configuration
 parameter]({{ site.baseurl }}/documentation/agent/configuration.html) (or alternatively, *--no-ssl-check* [command
 line option]({{ site.baseurl }}/documentation/agent/man/)).
 
-The Certification Authority certificate must be installed on each agent host,
-and the agent should be configured to use it as certification authority, with
+The Certification Authority (CA) certificate of the webserver is to be used.
+The CA certificate must be installed on each agent host.
+The agent should be configured to use it as certification authority, with
 *ca-cert-file* [configuration parameter]({{ site.baseurl
 }}/documentation/agent/configuration.html) (or alternatively,
 *--ca-cert-dir* [command line option]({{ site.baseurl }}/documentation/agent/man/)).
+
+It is recommended to use *ca-cert-file* for using a Certification Authority certificate. The
+certificate should be stored as a \*.pem file.
+
+{% include warning.html param="If you use a certificate chain with more than one CA. You have to add the chain
+to one \*.pem file.
+--- BEGIN Certificate ---
+(Your Sub-CA-Certificate as base64 encrypted)
+--- END Certificate ---
+--- BEGIN Certificate ---
+(Your Root-CA-Certificate as base64 encrypted)
+--- END Certificate --- %}
 
