@@ -8,13 +8,13 @@ title: How to work 'Equipment import and link rules'
 # First thing to know
 
 The rules engine goal is to detect if a device exists
-of if it has to be created.
+or if it has to be created.
 
 The rule engine is used for:
 
-* computer
+* computers
 * network devices
-* network printer
+* network printers
 
 Common problems related to the rule engine are:
 
