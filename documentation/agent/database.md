@@ -12,6 +12,8 @@ The agent database is located in agent data directory. It consist of the followi
 * `edid.ids` is a database of Screen manufacturer, used by local inventory module
 * `sysobject.ids` is a database of SNMP devices, used by network discovery and
   network inventory modules
+  * For Linux servers (when `SNMPv2-MIB::sysObjectID.0 = OID:
+  NET-SNMP-MIB::netSnmpAgentOIDs.10`), an additional check is done by [`LinuxAppliance.pm`](https://github.com/fusioninventory/fusioninventory-agent/blob/develop/lib/FusionInventory/Agent/SNMP/MibSupport/LinuxAppliance.pm).
 
 Those files can easily be customized if needed, as their format is
 self-documented. However, local modifications will get lost on upgrade.
