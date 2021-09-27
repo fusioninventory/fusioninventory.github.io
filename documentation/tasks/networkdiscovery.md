@@ -16,7 +16,7 @@ task](networkinventory.html).
 
 This task uses the following protocols to scan IP networks:
 
-* ICMP scan (if `nmap` is available)
+* ICMP scan (since v2.4.1, if `Net::Ping` is available, try first ICMP Echo and then ICMP TimeStamp)
 * NetBIOS scan (if `Net::NBName` is available, and proper credits provided)
 * SNMP scan (if `Net::SNMP` is available, and proper credits provided)
 
