@@ -16,21 +16,24 @@ task](networkinventory.html).
 
 This task uses the following protocols to scan IP networks:
 
-* ICMP scan (if nmap is available)
-* NetBIOS scan (if Net::NBName is available, and proper credits provided)
-* SNMP scan (if Net::SNMP is available, and proper credits provided)
+* ICMP scan (since v2.4.1, if `Net::Ping` is available, try first ICMP Echo and then ICMP TimeStamp)
+* NetBIOS scan (if `Net::NBName` is available, and proper credits provided)
+* SNMP scan (if `Net::SNMP` is available, and proper credits provided)
 
 Any device replying to at least one of those protocols will be *discovered*,
 with minimal information, such as mac address and hostname.
 
 Additionaly, if the device replies to SNMP, the agent will attempt to identify
-it, using various methods. The primary method relies on retrieving the value of
-the dedicated SNMP variable (SNMPv2-MIB::sysObjectID.0), wich is a
+it, using various methods:
+
+* The primary method relies on retrieving the value of
+the dedicated SNMP variable (`SNMPv2-MIB::sysObjectID.0`), wich is a
 constructor-specific OID identifying a given device model, and comparing it to
-the agent internal database (the sysobject.ids file, described in [agent
-database](../agent/database)). If a match is found, model, type and
-manufacturer are added to the information reported to the GLPI server, allowing
-simple identification. If no match is found, various heuristics are performed
+the agent internal database (the `sysobject.ids` file, described in [agent
+database](../agent/database)). If a match is found, `model`, `type` and
+`manufacturer` are added to the information reported to the GLPI server, allowing
+simple identification.
+* If no match is found, various heuristics are performed
 in order to identify the device, with lower reliability.
 
 Discovered devices are then reported to the GLPI servers, and [import
