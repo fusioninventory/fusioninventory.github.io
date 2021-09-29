@@ -130,7 +130,8 @@ The agent should be configured to use it as certification authority, with
 It is recommended to use *ca-cert-file* for using a Certification Authority certificate. The
 certificate should be stored as a \*.pem file.
 
-In the case you use a certificate chain with more than one CA. You have to add the chain to one \*.pem file.
+In the case you use a certificate chain with more than one CA. You have to keep the chain in one \*.pem file.
+
     --- BEGIN Certificate ---
     (Your Sub-CA-Certificate as base64 encrypted)
     --- END Certificate ---
