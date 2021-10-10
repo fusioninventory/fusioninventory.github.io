@@ -5,7 +5,7 @@
     border-top: 5px solid $grey-color-dark;
     border-bottom: 1px solid $grey-color-light;
     min-height: 56px;
-    background-color: #ffffff;
+    background-color: #f2f2f2;
 
     // Positioning context for the mobile navigation icon
     position: relative;
@@ -16,7 +16,7 @@
     line-height: 90px;
     letter-spacing: -1px;
     margin-bottom: 0;
-    background-color: #ffffff;
+    background-color: #f2f2f2;
     width: 100%;
 
     &,
@@ -26,7 +26,7 @@
 }
 
 .site-nav {
-    float: right;
+    float: left;
     line-height: 56px;
 
     .menu-icon {
@@ -95,7 +95,7 @@
  */
 .site-footer {
     border-top: 1px solid $grey-color-light;
-    padding: $spacing-unit 0;
+    padding: 15px 0;
     background-color: #A6A6A6;
 }
 
@@ -112,14 +112,14 @@
 
 .footer-col-wrapper {
     font-size: 15px;
-    color: $grey-color;
+    color: #333;
     margin-left: -$spacing-unit / 2;
     @extend %clearfix;
 }
 
 .footer-col {
     float: left;
-    margin-bottom: $spacing-unit / 2;
+    /*margin-bottom: $spacing-unit-footer / 2; no more needed @algorys */
     padding-left: $spacing-unit / 2;
 }
 
@@ -165,7 +165,7 @@
  * Page content
  */
 .page-content {
-    padding: $spacing-unit 0 0 0;
+    padding: 15px 0;
 }
 
 .page-heading {
@@ -198,14 +198,6 @@
  */
 .post-header {
     margin-bottom: $spacing-unit;
-
-    .edit-icon {
-        float: right;
-    }
-
-    .issue-icon {
-        float: right;
-    }
 }
 
 .post-title {
@@ -222,7 +214,7 @@
     margin-bottom: $spacing-unit;
 
     h2 {
-        font-size: $base-font-size * 1.5;
+        font-size: 32px;
 
         @include media-query($on-laptop) {
             font-size: 28px;
@@ -230,7 +222,7 @@
     }
 
     h3 {
-        font-size: $base-font-size * 1.2;
+        font-size: 26px;
 
         @include media-query($on-laptop) {
             font-size: 22px;
@@ -238,29 +230,12 @@
     }
 
     h4 {
-        font-size: $base-font-size;
+        font-size: 20px;
 
         @include media-query($on-laptop) {
             font-size: 18px;
         }
     }
-}
-
-.post-footer {
-    margin-top: $spacing-unit;
-}
-
-.post-footer-nav {
-    font-size: $smaller-font-size;
-    color: $grey-color;
-}
-
-.post-footer-prev-nav {
-    float: left;
-}
-
-.post-footer-next-nav {
-    float: right;
 }
 
 
@@ -278,7 +253,7 @@
 }
 
 .breadcrumb { border: 0px;  display: block;}
-.breadcrumb li {font-size: 14px;}
+.breadcrumb li {font-size: 12px;}
 .breadcrumb a {color: $text-color;}
 .breadcrumb a:hover {color: darken($text-color, 20%);}
 .breadcrumb>.active {color: lighten($text-color, 20%)}
@@ -348,4 +323,36 @@ code {
 
 .hidden {
    visibility: hidden;
+}
+
+.ph-button {
+    box-shadow: 0 -1px 0 rgba(255, 255, 255, 0.1) inset;
+    color: #FFFFFF;	   
+    border-radius: 0px;
+    cursor: pointer;
+    display: inline-block;
+    font-style: normal;
+    overflow: hidden;
+    text-align: center;
+    text-decoration: none;
+    text-overflow: ellipsis;
+    transition: all 200ms ease-in-out 0s;
+    white-space: nowrap;	
+    font-family: "Gotham Rounded A","Gotham Rounded B",Helvetica,Arial,sans-serif;
+    font-weight: 700;	
+    padding: 11px 39px 10px;
+    font-size: 18px;
+	 width: 160px;
+}
+
+.ph-btn-blue {
+    background-color: #DE875A;
+    color: #FFFFFF;	   
+    text-decoration: none;
+}
+
+a.ph-btn-blue:hover, a.ph-btn-blue:focus, a.ph-btn-blue:active, a.ph-btn-blue:link, a.ph-btn-blue:visited {
+    background-color: #DE875A;
+    color: #FFFFFF;	   
+    text-decoration: none;
 }
