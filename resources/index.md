@@ -23,7 +23,18 @@ Please use english langage as much as possible.
 * [FusionInventory developers list](http://lists.alioth.debian.org/mailman/listinfo/fusioninventory-devel)
 * [FusionInventory translators list](http://lists.alioth.debian.org/mailman/listinfo/fusioninventory-i18n)
 
-# IRC-Channel
+# Discord
+
+A discord server is open for exchange between users and with developers:
+
+* [Discord server](https://discord.gg/APsfqaZA)
+
+
+# Obsolete contact channels 
+
+These channels are not used anymore
+
+## IRC-Channel
 
 FusionInventory has got an IRC chanel on Freenode call __#fusioninventory__.
 IRC is used mainly to coordonate developement effort between contributors.
@@ -31,21 +42,21 @@ IRC is used mainly to coordonate developement effort between contributors.
 * Network: [FreeNode](http://irc.freenode.net)
 * Channel: #fusioninventory
 
-# Telegram
+## Telegram
 
 Telegram FusionInventory community group is available to discuss in live with other community members or even available developers.
 This channel is also used to centralize development notifications from different sources like github and appveyor builder.
 
 * [Telegram FusionInventory community](https://t.me/fusioninventory)
 
-# Forums
+## Forums
 
-## FusionInventory users community forum
+### FusionInventory users community forum
 
 * This [forum](http://forum.fusioninventory.org/) is also avalaible for end users.
 * It is not directly supported by the FusionInventory team but by FusionInventory users.
 
-## Fusioninventory suggestions forum
+### Fusioninventory suggestions forum
 
 * This [forum](http://fusioninventory.userecho.com/) can also be used to quickly
 submit your ideas or needs.
