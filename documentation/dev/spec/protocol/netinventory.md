@@ -185,11 +185,13 @@ title: Network inventory protocol
             <!-- VLANs list -->
             <!ELEMENT VLANS (VLAN+)>
               <!-- a VLAN -->
-              <!ELEMENT VLAN (NAME, NUMBER)>
+              <!ELEMENT VLAN (NAME, NUMBER, TAGGED)>
                 <!-- VLAN name (string) -->
                 <!ELEMENT NAME (#PCDATA)>
                 <!-- VLAN ID (integer) -->
                 <!ELEMENT NUMBER (#PCDATA)>
+                <!-- TAGGED flag (0|1) -->
+                <!Element TAGGED (#PCDATA)>
 
           <!ELEMENT MODEMS (NAME, DESCRIPTION, TYPE, MODEL, MANUFACTURER, SERIAL)>
             <!-- modem name -->
