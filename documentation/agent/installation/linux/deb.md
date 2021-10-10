@@ -242,6 +242,14 @@ METHOD 3:
         <td>2.3.18</td>
         <td>Debian 9 minimal (stretch/testing)</td>
     </tr>
+     <tr>
+        <td>2021/06/08</td>
+        <td>2.6.1</td>
+        <td>Ubuntu 20.04.2 LTS (focal fossa)</td>
+        <td>&nbsp;</td>
+        <td>&nbsp;</td>
+        <td>&nbsp;</td>
+    </tr>
 </tbody>
 </table>" %}
 
@@ -259,22 +267,46 @@ METHOD 3:
     apt-get -y install libxml-treepp-perl libproc-daemon-perl
     apt-get -y install libparallel-forkmanager-perl libnet-ip-perl libparse-edid-perl
     apt-get -y install libdigest-sha-perl libtext-template-perl libsocket-getaddrinfo-perl
+    apt-get -y install libnet-cups-perl libxml-xpath-perl libyaml-perl
 
 ## Download
-
+ 
+ To download FusionInventory Agent (< 2.4.3):
+ 
     wget https://github.com/fusioninventory/fusioninventory-agent/releases/download/2.4.2/FusionInventory-Agent-2.4.2.tar.gz
     tar xvzf FusionInventory-Agent-2.4.2.tar.gz
     cd FusionInventory-Agent-2.4.2
-
+    
+ To download FusionInventory Agent (>= 2.4.3):
+ 
+    wget https://github.com/fusioninventory/fusioninventory-agent/releases/download/2.6/fusioninventory-agent_2.6-1_all.deb
+    
 ## Build and install
 
+FusionInventory Agent (< 2.4.3):
+ 
     perl Makefile.PL
     make
     make install
+    
+FusionInventory Agent (>= 2.4.3):
+ 
+    `sudo dpkg -i fusioninventory-agent_2.6-1_all.deb`
 
 ## Configure
-- edit `/usr/local/etc/fusioninventory/agent.cfg`
 
+FusionInventory Agent (< 2.4.3):
+  
+    `sudo nano /usr/local/etc/fusioninventory/agent.cfg`
+
+FusionInventory Agent (>= 2.4.3):
+ 
+    `sudo nano /etc/fusioninventory/agent.cfg`
+    
+At least the server parameter must be added, e.g. the url of the GLPI FusionInventory plugin: 
+ `server = http://127.0.0.1/glpi/plugins/fusioninventory/`
+  
+  
 ## Install agent as service
 
 ### Create systemd service
