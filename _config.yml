@@ -86,6 +86,9 @@ include: ["_pages","_documentation", "_presentation"]
 # paginate: 8
 # paginate_path: /news/page:num/
 
+collections:
+  documentation:
+    output: true
 
 defaults:
   # _pages
