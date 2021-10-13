@@ -1,0 +1,85 @@
+main:
+  - title: "Get it"
+    url: /get/
+  - title: "News"
+    url: /news/
+  - title: "Overview"
+    url: "/overview/"
+  - title: "Screenshot"
+    url: "/screenshot/"
+  - title: "Contact"
+    url: "/resources/"
+  - title: "Docs"
+    url: "/documentation/"
+  - title: "Partners"
+    url: "/partners/"
+
+documentation:
+  - title: Global
+    children:
+      - title: "The big picture"
+        url: /documentation/bigpicture.html
+      - title: "FAQ"
+        url: /documentation/faq.html
+      - title: "Bug reporting"
+        url: /documentation/bugreport/
+  - title: FusionInventory Agent
+    children:
+      - title: "Installation"
+        url: /documentation/installation/
+      - title: "Configuration"
+        url: /documentation/agent/configuration.html
+      - title: "Man pages"
+        url: /documentation/agent/man/
+      - title: "Usage"
+        url: /documentation/agent/usage.html
+      - title: "How to launch agent"
+        url: /documentation/agent/launch_the_agent.html
+      - title: "How to schedule agent with cron (linux)"
+        url: /documentation/agent/cron.html
+  - title: FusionInventory for GLPI
+    children:
+      - title: "Installation and update"
+        url: /documentation/fi4g/installation.html
+      - title: "Cron in GLPI"
+        url: /documentation/fi4g/cron.html
+      - title: "Import and link rules"
+        url: /documentation/fi4g/importrules.html
+      - title: "How to deal with DMZ network"
+        url: /documentation/fi4g/dmz/
+  - title: FusionInventory tasks
+    children:
+      - title: "Software deployement - deploy softwares"
+        url: /documentation/tasks/deploy/
+      - title: "Software deployement - export / import packages"
+        url: /documentation/tasks/exportimportpackages.html
+      - title: "Software deployement - deploy with mirrors"
+        url: /documentation/tasks/deploymirrors.html
+      - title: "Software deployement - Deploy in self-service mode"
+        url: /documentation/
+      - title: "Network discovery"
+        url: /documentation/tasks/networkdiscovery.html
+      - title: "Network devices inventory"
+        url: /documentation/tasks/networkinventory.html
+      - title: "ESX virtual inventory"
+        url: /documentation/tasks/esxinventory/
+      - title: "Collect"
+        url: /documentation/tasks/collect.html
+  - title: Advanced topics
+    children:
+      - title: "Security"
+        url: /documentation/security.html
+      - title: "Extend a computer inventory content"
+        url: /documentation/agent/additional_content.html
+      - title: "Update agent with the deploy task"
+        url: /documentation/tasks/updateagentwithdeploytask.html
+  - title: Advanced topics
+    children:
+      - title: "How to use this wiki"
+        url: /documentation/wiki.html
+      - title: "Translation"
+        url: /documentation/translation.html
+      - title: "for developers"
+        url: /documentation/dev/
+      - title: "Packaging / for maintainers"
+        url: /documentation/packaging/
