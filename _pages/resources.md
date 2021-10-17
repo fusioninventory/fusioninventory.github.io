@@ -19,7 +19,7 @@ mailing lists or the following [Fusioninventory team Github](https://github.com/
 
 A discord server is open for exchange between users and with developers:
 
-* [Discord server](https://discord.gg/APsfqaZA)
+* [Discord server](https://discord.gg/Kj72FwAKTC)
 
 # Mailing lists
 
