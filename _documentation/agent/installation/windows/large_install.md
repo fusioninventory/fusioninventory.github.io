@@ -9,7 +9,7 @@ title: Windows large installation
 
 ## fusioninventory.vbs
 
-[fusioninventory.vbs](https://raw.githubusercontent.com/fusioninventory/fusioninventory.github.io/master/documentation/agent/installation/windows/fusioninventory.vbs) is a VBS script used to:
+[fusioninventory.vbs](https://raw.githubusercontent.com/fusioninventory/fusioninventory.github.io/master/_documentation/agent/installation/windows/fusioninventory.vbs) is a VBS script used to:
 
 * Download the fusioninventory Windows installer
 * Remove OCS Inventory Agent
@@ -60,12 +60,12 @@ Create a GPO and copy the script within and associate the fusioninventory.vbs sc
 
 You may be interested by these two GPO templates:
 
-* [FusionInventory.adml](https://raw.githubusercontent.com/fusioninventory/fusioninventory.github.io/master/documentation/agent/installation/windows/FusionInventory.adml)
-* [FusionInventory.admx](https://raw.githubusercontent.com/fusioninventory/fusioninventory.github.io/master/documentation/agent/installation/windows/FusionInventory.admx)
+* [FusionInventory.adml](https://raw.githubusercontent.com/fusioninventory/fusioninventory.github.io/master/_documentation/agent/installation/windows/FusionInventory.adml)
+* [FusionInventory.admx](https://raw.githubusercontent.com/fusioninventory/fusioninventory.github.io/master/_documentation/agent/installation/windows/FusionInventory.admx)
 
 # Alternative VBS script
 
-An [alternative script](https://raw.githubusercontent.com/fusioninventory/fusioninventory.github.io/master/documentation/agent/installation/windows/fusioninventory-alternative.vbs) maintained
+An [alternative script](https://raw.githubusercontent.com/fusioninventory/fusioninventory.github.io/master/_documentation/agent/installation/windows/fusioninventory-alternative.vbs) maintained
 by ZenAdm also exists.
 
 This script is still *experimental* but it is already much easier to understand.
