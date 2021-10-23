@@ -12,7 +12,7 @@ redirect_from:
 You can collect your DMZ inventories by using a limited script that get the POST
 request of the agents.
 
-Download [collect.php](https://raw.githubusercontent.com/fusioninventory/fusioninventory.github.io/master/documentation/fi4g/dmz/collect.php) and copy it somewhere
+Download [collect.php](https://raw.githubusercontent.com/fusioninventory/fusioninventory.github.io/master/_documentation/fi4g/dmz/collect.php) and copy it somewhere
 PHP is enabled. For example `/var/www` or `/var/www/html`.
 
 Then, you can configure agents in DMZ machines this way:
