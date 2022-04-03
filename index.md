@@ -11,7 +11,7 @@ header:
       url: "/documentation/fi4g/installation.html"
 excerpt: >
   A **free software solution** for devices inventory & software deployment.<br />
-  <small><a href="https://github.com/fusioninventory/fusioninventory-agent/releases/tag/2.6">Latest release FusionInventory Agent v2.6</a><br/><a href="https://github.com/fusioninventory/fusioninventory-for-glpi/releases/tag/glpi9.5%2B3.0">Latest release plugin FusionInventory for GLPI v9.5+3.0</a></small>
+  <small><a href="https://github.com/fusioninventory/fusioninventory-agent/releases/tag/2.6">Latest release FusionInventory Agent v2.6</a><br/><a href="https://github.com/fusioninventory/fusioninventory-for-glpi/releases/tag/glpi9.5%2B4.0">Latest release plugin FusionInventory for GLPI v9.5+4.0</a></small>
 feature_row:
   - image_path: /assets/images/mm-feature-inventory.png
     alt: "inventory"
