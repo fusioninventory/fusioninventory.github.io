@@ -1,6 +1,6 @@
 ---
 layout: single
-title: FusionInventory for GSIT & GLPI 9.5+4.0
+title: FusionInventory for GSIT and GLPI 9.5+4.0
 ---
 
 We have released a new version of plugin FusionInventory for GSIT & GLPI.
