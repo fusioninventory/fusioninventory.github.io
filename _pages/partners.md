@@ -25,19 +25,7 @@ on github via top right related icons.
 |![]({{ site.baseurl }}/partners/logo/qa.png)|Tests and bug reports: Daily tests and bugfixes|
 |![]({{ site.baseurl }}/partners/logo/promote.png)|Promotion and Communication: Conferences, presentations, TShirts and stickers|
 |![]({{ site.baseurl }}/partners/logo/doc.png)|Documentation: Documentation|
-|![]({{ site.baseurl }}/partners/logo/support.png)|User support (Forum, IRC): Daily support|
-|![]({{ site.baseurl }}/partners/logo/training.png)|Training: GLPI and FusionInventory training|
-
-# Teclib' Editions
-
-||![Teclib' Editions](/assets/partners/teclib.png)|
-|Web  |: [http://www.teclib-edition.com/](http://www.teclib-edition.com/en/contact-us/)|
-|Mail |: contact@teclib.com|
-|![]({{ site.baseurl }}/partners/logo/code.png)|FusionInventory for GLPI and Agent|
-|![]({{ site.baseurl }}/partners/logo/qa.png)|Tests and bug reports: Daily tests and bugfixes|
-|![]({{ site.baseurl }}/partners/logo/promote.png)|Promotion and Communication: Conferences, presentations, TShirts and stickers|
-|![]({{ site.baseurl }}/partners/logo/doc.png)|Documentation: Documentation|
-|![]({{ site.baseurl }}/partners/logo/support.png)|User support (Forum, IRC): Daily support|
+|![]({{ site.baseurl }}/partners/logo/support.png)|User support (Discord / github): Daily support|
 |![]({{ site.baseurl }}/partners/logo/training.png)|Training: GLPI and FusionInventory training|
 
 # Normation
@@ -55,7 +43,7 @@ on github via top right related icons.
 |Web  |: [http://zenitique.fr/](http://zenitique.fr/)|
 |Mail |: marc.caissial@zenitique.fr|
 |![]({{ site.baseurl }}/partners/logo/qa.png)|Tests and bug reports: bug reports|
-|![]({{ site.baseurl }}/partners/logo/support.png)|User support (Forum, IRC): forum moderator|
+|![]({{ site.baseurl }}/partners/logo/support.png)|User support (Discord)|
 
 # No longer active
 
@@ -64,5 +52,6 @@ This page is open to now contributor, if you want to be registered here, please 
 These companies did some contributions in the past but are not active developer of FusionInventory:
 
 |[OpenSides](http://www.opensides.be) |: Benoit Mortier <benoit.mortier@opensides.be>|
+|[Teclib' Editions](http://www.teclib-edition.com/en/contact-us/) |: contact@teclib.com||
 
 
