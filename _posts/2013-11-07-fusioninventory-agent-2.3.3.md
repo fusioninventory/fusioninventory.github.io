@@ -13,7 +13,7 @@ You can download it from the usual places:
 * [the forge](http://forge.fusioninventory.org/projects/fusioninventory-agent-windows-installer/files) for the windows archive
 * etc...
 
-See [download instructions]({{ site.baseurl }}/documentation/agent/installation/) for details.
+See [download instructions](https://forge.fusioninventory.org/documentation/%20FusionInventory_agent/%20%20%20Installation/windows/) for details.
 
 This release fix some bugs in network inventory with some specific devices
 (timeout issues, crashes with multiple vlans), and a bug in local inventory on

@@ -9,7 +9,7 @@ FusionInventory plugin for GLPI 0.84+3.0
 The FusionInventory plugin for GLPI maintainers (ddurieux and kiniou)
 are glad to announce the 0.84+3.0 release.
 
-You can download it from [the forge](http://forge.fusioninventory.org/projects/fusioninventory-for-glpi/files) and read installation instructions from [documentation](http://www.fusioninventory.org/documentation/fi4g/installation.html).
+You can download it from [the forge](http://forge.fusioninventory.org/projects/fusioninventory-for-glpi/files) and read installation instructions from [documentation](https://forge.fusioninventory.org/documentation/%20FusionInventory_for_GLPI/%20%20Installation%20%26%20update/1.installation/).
 
 This version brings the following new features:
 

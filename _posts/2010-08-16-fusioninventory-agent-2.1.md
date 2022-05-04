@@ -11,7 +11,7 @@ You can download the archive from CPAN [http://search.cpan.org/~fusinv/](http://
 
 Prebuilt standalone installers are also available as a convenience for other operating systems. Just uncompress the archive and you get an usable agent for your platform [http://prebuilt.fusioninventory.org](http://prebuilt.fusioninventory.org).
 
-More information on the [download page]({{ site.baseurl }}/documentation/agent/installation/).
+More information on the [download page](https://forge.fusioninventory.org/documentation/%20FusionInventory_agent/%20%20%20Installation/windows/).
 
 <a href="/news_docs/fusioninventory-2.1-goneri.png"><img class="aligncenter size-medium wp-image-532" title="fusioninventory-2.1-goneri" src="/news_docs/fusioninventory-2.1-goneri-300x225.png" alt="" width="300" height="225" /></a>
 

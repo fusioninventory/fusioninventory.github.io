@@ -33,7 +33,7 @@ The fixes:
 
 You can download the version [0.90+1.2](https://github.com/fusioninventory/fusioninventory-for-glpi/releases/tag/glpi090%2B1.2)
 
-Don't forget to read the documentation for [install / update the plugin](http://fusioninventory.org/documentation/fi4g/installation.html)
+Don't forget to read the documentation for [install / update the plugin](https://forge.fusioninventory.org/documentation/%20FusionInventory_for_GLPI/%20%20Installation%20%26%20update/1.installation/)
 
 
 

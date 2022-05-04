@@ -18,7 +18,7 @@ This version is a major version.
 
 You can download the version [9.1+1.0](https://github.com/fusioninventory/fusioninventory-for-glpi/releases/tag/glpi9.1%2B1.0)
 
-Don't forget to read the documentation for [install / update the plugin](http://fusioninventory.org/documentation/fi4g/installation.html)
+Don't forget to read the documentation for [install / update the plugin](https://forge.fusioninventory.org/documentation/%20FusionInventory_for_GLPI/%20%20Installation%20%26%20update/1.installation/)
 
 
 Important information: this version need GLPI 9.1.1 minimum (9.1 not works)

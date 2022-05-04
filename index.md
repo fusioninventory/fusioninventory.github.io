@@ -6,9 +6,9 @@ header:
   overlay_color: "#5e616c"
   actions:
     - label: "<i class='fas fa-download'></i> Agent"
-      url: "/documentation/installation/"
+      url: "https://forge.fusioninventory.org/documentation/%20FusionInventory_agent/%20%20%20Installation/windows/"
     - label: "<i class='fas fa-download'></i> Server (plugin for GLPI)"
-      url: "/documentation/fi4g/installation.html"
+      url: "https://forge.fusioninventory.org/documentation/%20FusionInventory_for_GLPI/%20%20Installation%20%26%20update/1.installation/"
 excerpt: >
   A **free software solution** for devices inventory & software deployment.<br />
   <small><a href="https://github.com/fusioninventory/fusioninventory-agent/releases/tag/2.6">Latest release FusionInventory Agent v2.6</a><br/><a href="https://github.com/fusioninventory/fusioninventory-for-glpi/releases/tag/glpi9.5%2B4.0">Latest release plugin FusionInventory for GLPI v9.5+4.0</a></small>
