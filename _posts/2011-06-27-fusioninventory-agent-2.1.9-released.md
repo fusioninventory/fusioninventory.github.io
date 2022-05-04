@@ -6,7 +6,7 @@ title: FusionInventory agent 2.1.9 released
 Hello FusionInventory users,
 
 Last week, we did a new maintenance release of FusionInventory Agent.
-[Get FusionInventory agent]({{ site.baseurl }}/documentation/agent/installation/)
+[Get FusionInventory agent](https://forge.fusioninventory.org/documentation/%20FusionInventory_agent/%20%20%20Installation/windows/)
 
 We also regenerated new "prebuilt" package to embed two new scripts:
  - fusioninventory-esx: generate inventory of remote ESX/ESXi/vCenter server

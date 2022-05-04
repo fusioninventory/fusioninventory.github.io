@@ -33,5 +33,5 @@ FusionInventory-Agent-Task-Network distribution is released.
 
 Packages have been finally generated, including the last Deploy and Network bug fix releases.
 
-Please read the [agent installation]({{ site.baseurl }}/documentation/agent/installation/)
+Please read the [agent installation](https://forge.fusioninventory.org/documentation/%20FusionInventory_agent/%20%20%20Installation/windows/)
 page for further informations.

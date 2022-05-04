@@ -173,7 +173,7 @@ This version is a major version.
 
 You can download the version here: [9.2+2.0](https://github.com/fusioninventory/fusioninventory-for-glpi/releases/tag/glpi9.2%2B2.0)
 
-Don't forget to read the documentation for [install / update the plugin](http://fusioninventory.org/documentation/fi4g/installation.html)
+Don't forget to read the documentation for [install / update the plugin](https://forge.fusioninventory.org/documentation/%20FusionInventory_for_GLPI/%20%20Installation%20%26%20update/1.installation/)
 
 Important information: this version is for GLPI 9.2 (and fixes versions like 9.2.1, 9.2.2 ... so 9.2.x).
 

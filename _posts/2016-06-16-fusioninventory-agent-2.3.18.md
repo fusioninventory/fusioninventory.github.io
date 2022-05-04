@@ -11,7 +11,7 @@ You can download it from the usual places:
 * [tabad repo for the windows distribution](https://github.com/tabad/fusioninventory-agent-windows-installer/releases/tag/2.3.18)
 * etc...
 
-See [download instructions]({{ site.baseurl }}/documentation/agent/installation/) for details.
+See [download instructions](https://forge.fusioninventory.org/documentation/%20FusionInventory_agent/%20%20%20Installation/windows/) for details.
 
 There has been a long delay since 2.3.17 release, almost 9 months. As a consequence, a large number of bug fixes have been accumulated, some of them fixing long-standing issues, such as:
 

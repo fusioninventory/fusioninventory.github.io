@@ -35,7 +35,7 @@ This version is a bugfix version (with some little features).
 
 You can download the version here: [9.3+1.2](https://github.com/fusioninventory/fusioninventory-for-glpi/releases/tag/glpi9.3%2B1.2)
 
-Don't forget to read the documentation for [install / update the plugin](http://fusioninventory.org/documentation/fi4g/installation.html)
+Don't forget to read the documentation for [install / update the plugin](https://forge.fusioninventory.org/documentation/%20FusionInventory_for_GLPI/%20%20Installation%20%26%20update/1.installation/)
 
 Important information: this version is for GLPI 9.3 (and fixes versions like 9.3.1, 9.3.2 ... so 9.3.x).
 Recommanded if you have 9.3.2 or newer.
