@@ -15,7 +15,7 @@ You can download it from the usual places:
 * [the forge](http://forge.fusioninventory.org/projects/fusioninventory-agent-windows-installer/files) for the windows distribution
 * etc...
 
-See [download instructions](https://forge.fusioninventory.org/documentation/%20FusionInventory_agent/%20%20%20Installation/windows/) for details.
+See [download instructions](https://documentation.fusioninventory.org/%20FusionInventory_agent/%20%20%20Installation/windows/) for details.
 
 This release improves device indentification during network discovery, and
 provides better identification of adjoining devices when running a remote

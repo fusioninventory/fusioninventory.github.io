@@ -10,7 +10,7 @@ If you already test GLPI 0.84, you can help [us to debug the future stable relea
 
 As usual, the upgrade process is documented. Please take 5 minutes of
 your time to read the documentation first:
-<https://forge.fusioninventory.org/documentation/%20FusionInventory_for_GLPI/%20%20Installation%20%26%20update/1.installation/>
+<https://documentation.fusioninventory.org/%20FusionInventory_for_GLPI/%20%20Installation%20%26%20update/1.installation/>
 
 This version fixes:
 

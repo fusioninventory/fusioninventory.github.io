@@ -9,7 +9,7 @@ You can download sources or dedicated installer from the [fusioninventory-agent 
 
 <button class="button-save large" onclick="window.location.href='https://github.com/fusioninventory/fusioninventory-agent/releases/tag/2.5.1'">Download FusionInventory Agent v2.5.1 from Github Releases</button>
 
-Or see [download instructions](https://forge.fusioninventory.org/documentation/%20FusionInventory_agent/%20%20%20Installation/windows/) for details.
+Or see [download instructions](https://documentation.fusioninventory.org/%20FusionInventory_agent/%20%20%20Installation/windows/) for details.
 
 Since last 2.5 release, many bug fixes and enhancements have been accumulated, such as:
 

@@ -15,12 +15,12 @@ can also start network discovery, network inventory, ESX inventory and deploy ta
 
 Mandatory place to get most recent agent release is the: <button class="button-save large" onclick="window.location.href='https://github.com/fusioninventory/fusioninventory-agent/releases'">Github FusionInventory Agent Releases</button>
 
-Look at [FusionInventory agent installation](https://forge.fusioninventory.org/documentation/%20FusionInventory_agent/%20%20%20Installation/windows/) page
+Look at [FusionInventory agent installation](https://documentation.fusioninventory.org/%20FusionInventory_agent/%20%20%20Installation/windows/) page
 and find the best ways to install it for yours platforms.
 
 # Get FusionInventory Server
 
-Look at detailed [FusionInventory for GLPI installation](https://forge.fusioninventory.org/documentation/%20FusionInventory_for_GLPI/%20%20Installation%20%26%20update/1.installation/)
+Look at detailed [FusionInventory for GLPI installation](https://documentation.fusioninventory.org/%20FusionInventory_for_GLPI/%20%20Installation%20%26%20update/1.installation/)
 page to install the server part as a [GLPI](http://glpi-project.org/) plugin.
 
 See our [Overview]({{ site.baseurl }}/overview/) page to get more information on FusionInventory features.

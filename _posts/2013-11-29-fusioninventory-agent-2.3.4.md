@@ -13,7 +13,7 @@ You can download it from the usual places:
 * [the forge](http://forge.fusioninventory.org/projects/fusioninventory-agent-windows-installer/files) for the windows archive
 * etc...
 
-See [download instructions](https://forge.fusioninventory.org/documentation/%20FusionInventory_agent/%20%20%20Installation/windows/) for details.
+See [download instructions](https://documentation.fusioninventory.org/%20FusionInventory_agent/%20%20%20Installation/windows/) for details.
 
 This release fixes a painful bug in network discovery and inventory where an
 infinite loops triggers an 'memory exhausted' error. It also fixes an

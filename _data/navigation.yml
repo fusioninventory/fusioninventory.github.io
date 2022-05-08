@@ -10,6 +10,6 @@ main:
   - title: "Contact"
     url: "/resources/"
   - title: "Docs"
-    url: "https://forge.fusioninventory.org/documentation/"
+    url: "https://documentation.fusioninventory.org/"
   - title: "Partners"
     url: "/partners/"
