@@ -15,7 +15,7 @@ You can download it from the usual places:
 * [the forge](http://forge.fusioninventory.org/projects/fusioninventory-agent-windows-installer/files) for the windows distribution
 * etc...
 
-See [download instructions](https://forge.fusioninventory.org/documentation/%20FusionInventory_agent/%20%20%20Installation/windows/) for details.
+See [download instructions](https://documentation.fusioninventory.org/%20FusionInventory_agent/%20%20%20Installation/windows/) for details.
 
 This release fixes multiple minor issues with network discovery and inventory,
 especially for SNMPv3 users. It also introduces a more explicit error message

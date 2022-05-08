@@ -24,7 +24,7 @@ The fixes:
 
 You can download the version [0.90+1.4](https://github.com/fusioninventory/fusioninventory-for-glpi/releases/tag/glpi090%2B1.4)
 
-Don't forget to read the documentation for [install / update the plugin](https://forge.fusioninventory.org/documentation/%20FusionInventory_for_GLPI/%20%20Installation%20%26%20update/1.installation/)
+Don't forget to read the documentation for [install / update the plugin](https://documentation.fusioninventory.org/%20FusionInventory_for_GLPI/%20%20Installation%20%26%20update/1.installation/)
 
 
 Some other important information:

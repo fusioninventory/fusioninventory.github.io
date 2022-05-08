@@ -52,5 +52,5 @@ You can download the version here:
 * [9.5+4.0](https://github.com/fusioninventory/fusioninventory-for-glpi/releases/download/glpi9.5%2B4.0/fusioninventory-9.5+4.0.tar.bz2)
 
 
-Don't forget to read the documentation for [install / update the plugin](https://forge.fusioninventory.org/documentation/%20FusionInventory_for_GLPI/%20%20Installation%20%26%20update/1.installation/)
+Don't forget to read the documentation for [install / update the plugin](https://documentation.fusioninventory.org/%20FusionInventory_for_GLPI/%20%20Installation%20%26%20update/1.installation/)
 

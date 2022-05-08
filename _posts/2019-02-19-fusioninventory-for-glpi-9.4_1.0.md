@@ -21,7 +21,7 @@ This version is a major version, so works with GLPI 9.4.x.
 
 You can download the version here: [9.4.0+1.0](https://github.com/fusioninventory/fusioninventory-for-glpi/releases/tag/glpi9.4.0%2B1.0)
 
-Don't forget to read the documentation for [install / update the plugin](https://forge.fusioninventory.org/documentation/%20FusionInventory_for_GLPI/%20%20Installation%20%26%20update/1.installation/)
+Don't forget to read the documentation for [install / update the plugin](https://documentation.fusioninventory.org/%20FusionInventory_for_GLPI/%20%20Installation%20%26%20update/1.installation/)
 
 Important information: this version is for GLPI 9.4.
 
