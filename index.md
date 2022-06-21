@@ -12,7 +12,7 @@ header:
 excerpt: >
   A **free software solution** for devices inventory & software deployment.<br />
   <small>
-  Relases:
+  Relases:<br/>
   * FusionInventory agent: <a href="https://github.com/fusioninventory/fusioninventory-agent/releases/tag/2.6">2.6</a>
   * FusionInventory server:
     * <a href="https://github.com/glpi-project/glpi/">GLPI</a> 9.5.3 mini: <a href="https://github.com/fusioninventory/fusioninventory-for-glpi/releases/tag/glpi9.5%2B4.2">9.5+4.2</a>
