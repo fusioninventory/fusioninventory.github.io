@@ -11,7 +11,21 @@ header:
       url: "https://documentation.fusioninventory.org/%20FusionInventory_for_GLPI/%20%20Installation%20%26%20update/1.installation/"
 excerpt: >
   A **free software solution** for devices inventory & software deployment.<br />
-  <small><a href="https://github.com/fusioninventory/fusioninventory-agent/releases/tag/2.6">Latest release FusionInventory Agent v2.6</a><br/><a href="https://github.com/fusioninventory/fusioninventory-for-glpi/releases/tag/glpi9.5%2B4.0">Latest release plugin FusionInventory for GLPI v9.5+4.0</a></small>
+  <small>
+  Relases:
+  <ul>
+    <li>FusionInventory agent: <a href="https://github.com/fusioninventory/fusioninventory-agent/releases/tag/2.6">2.6</a></li>
+    <li>FusionInventory server:
+      <ul>
+        <li><a href="https://github.com/glpi-project/glpi/">GLPI</a> 9.5.3 mini: <a href="https://github.com/fusioninventory/fusioninventory-for-glpi/releases/tag/glpi9.5%2B4.2">9.5+4.2</a></li>
+        <li><a href="https://github.com/dCS-Easyware/gsit">GSIT</a> 9.5.x: <a href="https://github.com/fusioninventory/fusioninventory-for-glpi/releases/tag/glpi9.5%2B4.2">9.5+4.2</a></li>
+        <li><a href="https://github.com/glpi-project/glpi/">GLPI</a> 10.0.0: <a href="https://github.com/fusioninventory/fusioninventory-for-glpi/releases/tag/glpi10.0.0%2B1.1">10.0.0+1.1</a></li>
+        <li><a href="https://github.com/glpi-project/glpi/">GLPI</a> 10.0.1: <a href="https://github.com/fusioninventory/fusioninventory-for-glpi/releases/tag/glpi10.0.1%2B1.0">10.0.1+1.0</a></li>
+      </ul>
+    </li>
+  </ul>
+  <a href="https://github.com/fusioninventory/fusioninventory-for-glpi/releases/tag/glpi9.5%2B4.0">Latest release plugin FusionInventory for GLPI v9.5+4.0</a>
+  </small>
 feature_row:
   - image_path: /assets/images/mm-feature-inventory.png
     alt: "inventory"
