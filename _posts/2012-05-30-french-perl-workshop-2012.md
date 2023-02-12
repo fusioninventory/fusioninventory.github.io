@@ -1,6 +1,8 @@
 ---
-layout: single
+layout: post
 title: French perl workshop 2012
+categories: news
+lang: en
 ---
 
 <img src="/news_docs/perl-onion-300x300.png" alt="" title="perl-onion" width="300" height="300" class="aligncenter size-medium wp-image-1390" />

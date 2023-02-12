@@ -1,6 +1,8 @@
 ---
-layout: single
+layout: post
 title: The EON community shows interest for FusionInventory
+categories: news
+lang: en
 ---
 
 The monitoring-fr team made an interview of people from the Eyes Of Network community. EON is a software appliance grouping OpenSource tools acting in the domain of supervision.

@@ -1,0 +1,479 @@
+#
+# Work based on https://github.com/mmistakes/minimal-mistakes/blob/master/_data/ui-text.yml
+#
+# Configuration: Add to _config.yml
+# locale: "en-US"  [YOUR PREFERRED LOCALE]
+#
+# How to use:
+# {{ site.data.ui-text[page.lang].<var_name> | default: 'text' }}
+
+# English (default)
+# -----------------
+en: &DEFAULT_EN
+  header:
+    title: Welcome to FusionInventory!
+    text: The power of inventory and software deployment
+    button: Tell Me More
+    buttonlink: "#features"
+
+  features:
+    title: "Features"
+    text: "FusionInventory is a software can help you to inventory your IT assets and do software deployment."
+    section: features
+    list:
+      - title: "computer & server hardware inventory"
+        desc: "Inventory the computer & server hardware (bios, components...)."
+        icon: fas fa-microchip
+      - title: "software inventory"
+        desc: "Inventory the computer/server softwares installed."
+        icon: fas fa-boxes-packing
+      - title: "network discovery"
+        desc: "Scan the network and find devices connected."
+        icon: fas fa-network-wired
+      - title: "switches inventory (SNMP)"
+        desc: "Inventory the switches by SNMP (hardware, ports...)."
+        icon: fas fa-ethernet
+      - title: "printers inventory (SNMP)"
+        desc: "Inventory the printers by SNMP (hardware, pages counter, cartridge state...)."
+        icon: fas fa-print
+      - title: "software deployment"
+        desc: "Deploy the softwares on the computers"
+        icon: fas fa-file-import
+      - title: "Virtual Machines & containers inventory"
+        desc: "Inventory the VM & containers: Virtualbox, libvirt, xen, Jails, hyper-v..."
+        icon: fab fa-docker
+      - title: "VMWare inventory"
+        desc: "Inventory the VM on ESX servers."
+        icon: fas fa-asterisk
+      - title: "smartphone inventory"
+        desc: "Inventory the smartphones information"
+        icon: fas fa-mobile-screen
+      # - title: "Works with FusionSuite"
+      #   desc: ""
+      #   icon:
+      - title: "Works with GSIT"
+        desc: "Server plugin for the stable and secure fork of GLPI: GSIT"
+        icon: fas fa-server
+      - title: "Works with GLPI"
+        desc: "Server plugin for GLPI"
+        icon: fas fa-server
+      # - title: "REST API"
+      #   desc: "The agent offer a standard REST API and documented. Very good to integrated to other projects."
+      #   icon: fab fa-dev
+      - title: "Free software"
+        desc: "FusionInventory is a free software with an open project management."
+        icon: fab fa-osi #find more at https://fontawesome.com/icons
+      - title: "Secured"
+        desc: "Code and data security is a priority."
+        icon: fas fa-shield-alt
+      - title: "Performances"
+        desc: "The application is fast, we need this!"
+        icon: fas fa-fighter-jet
+      - title: "Contributions welcome"
+        desc: "The contributions from the community are welcome on our [github](https://github.com/fusioninventory)."
+        icon: fab fa-github
+      - title: "Chat with us<br>Chat between users"
+        desc: "Come chat with the FusionInventory team and with others users on our [Discord server](https://discord.gg/Kj72FwAKTC)."
+        icon: fas fa-comments
+
+  timeline:
+    title: "Timeline"
+    text: " "
+    section: timeline
+    # left is the default
+    #start_align: "left"
+    events:
+      - title: "Preparation of the future agent version and FusionSuite (server)"
+        year: "2022"
+        desc: "We prepare the features and modification on agent we want and the integration with FusionSuite project (server part)"
+        alt: 
+        align: right
+      - title: "FusionInventory agent 2.6"
+        year: "2020"
+        desc: "Release of the FusionInventory agent 2.6"
+        alt: 
+        align: left
+      - title: "FusionInventory agent 2.5"
+        year: "2019"
+        desc: "Release of the FusionInventory agent 2.5"
+        alt: 
+        align: right
+      - title: "Plugin FusionInventory for GLPI 9.4"
+        year: "2019"
+        desc: "Release of the plugin FusionInventory for GLPI 9.4"
+        alt: 
+        align: left
+      - title: "Plugin FusionInventory for GLPI 9.2"
+        year: "2017"
+        desc: "Release of the plugin FusionInventory for GLPI 9.2"
+        alt: 
+        align: right
+      - title: "FusionInventory agent 2.4"
+        year: "2017"
+        desc: "Release of the FusionInventory agent 2.4"
+        alt: 
+        align: left
+      - title: "Plugin FusionInventory for GLPI 9.1"
+        year: "2016"
+        desc: "Release of the plugin FusionInventory for GLPI 9.1"
+        alt: 
+        align: right
+      - title: "Migration of code on GitHub platform"
+        year: "2015"
+        desc: "We migrate the code of all parts of FusionInventory on GitHub"
+        alt: 
+        align: left
+      - title: "Plugin FusionInventory for GLPI 0.85"
+        year: "2014"
+        desc: "Release of the plugin FusionInventory for GLPI 0.85"
+        alt: 
+        align: right
+      - title: "Plugin FusionInventory for GLPI 0.84"
+        year: "2013"
+        desc: "Release of the plugin FusionInventory for GLPI 0.84"
+        alt: 
+        align: left
+      - title: "FusionInventory agent 2.3.0"
+        year: "2013"
+        desc: "Release of the FusionInventory agent 2.3.0"
+        alt: 
+        align: right
+      - title: "Plugin FusionInventory for GLPI 0.83"
+        year: "2012"
+        desc: "Release of the plugin FusionInventory for GLPI 0.83"
+        alt: 
+        align: left
+      - title: "Android agent"
+        year: "2011"
+        desc: "Release of the Android agent"
+        alt: 
+        align: right
+      - title: "Rudder integration"
+        year: "2011"
+        desc: "Rudder integrate the FusionInventory agent"
+        alt: 
+        align: left
+      - title: "Uranos integration"
+        year: "2010"
+        desc: "The projet Uranos use the FusionInventory agent"
+        alt: 
+        align: right
+      - title: "FusionInventory project"
+        year: "2010"
+        desc: "The FusionInventory project was born"
+        alt: 
+        align: left
+      - title: "Agent/Server integration"
+        year: "2009"
+        desc: "integration of the agent with plugin Tracker"
+        alt: 
+        align: right
+      - title: "Server project (Tracker, a GLPI plugin)"
+        year: "2008"
+        desc: "Tracker plugin for GLPI, for SMNP inventory and network discovery"
+        alt:
+        align: left
+      - title: "Linux OCSInventory Agent creation"
+        year: "2006"
+        desc: "Creation of the OCSInventory linux agent for local inventory, will be in the future the FusionInventory agent."
+        # image: assets/img/timeline/4.jpg
+        alt:
+        # you can enforce the alignment
+        align: right
+    end: "Our <br> great <br> story!"
+
+  download:
+    section: download
+    max-height: 100px
+    horizontal-scrolling: "" #"yes/no"
+    title: Download
+    text: Last releases of FusionInventory
+    list:
+      - title: "FusionInventory agent 2.6"
+        url: "https://github.com/fusioninventory/fusioninventory-agent/releases/tag/2.6"
+        recommended: recommended agent version
+        desc: "Agent  version 2.6 for Windows, Linux, OSX, *BSD..."
+      - title: "FusionInventory for GSIT & GLPI 9.5+4.2"
+        url: "https://github.com/fusioninventory/fusioninventory-for-glpi/releases/tag/glpi9.5%2B4.2"
+        recommended: recommended server version
+        desc: "(server part) Plugin for GSIT and GLPI 9.5.x"
+      - title: "FusionInventory for GLPI 10.0.3+1.0"
+        url: "https://github.com/fusioninventory/fusioninventory-for-glpi/releases/tag/glpi10.0.3%2B1.0"
+        desc: "(server part) Plugin for GLPI 10.0.3"
+
+  presentation:
+    section: presentation
+    list:
+      - title: "Retrospective & roadmap 2023 (2023, January 12)"
+        text: "Go to the slides of the project"
+        url: 'presentation/2023/presentation.html'
+      - title: "Fosdem 2011 - presentation"
+        text: "Go to the slides of the project"
+        url: 'presentation/2011/fosdem.pdf'
+      - title: "Loadays 2010 - presentation"
+        text: "Go to the slides of the project"
+        url: 'presentation/2010/fusioninventory-at-loadays-2010.pdf'
+
+  partners:
+    section: partners
+    max-height: 100px
+    horizontal-scrolling: "" #"yes/no"
+    title: Partners
+    list:
+      - title: "DCS Easyware"
+        url: https://www.dcsit-group.com/
+        mail:
+        phone:
+        logo: assets/img/clients/partner_dcs.png
+        scope:
+          - name: "FusionInventory for GLPI and Agent"
+          - name: "Tests and bug reports: Daily tests and bugfixes"
+          - name: "Promotion and Communication: Conferences, presentations"
+          - name: "Documentation"
+          - name: "User support (Discord / github): Daily support"
+          - name: "Training: GLPI and FusionInventory training"
+      - title: "Normation"
+        url: http://normation.com
+        mail: "contact@normation.com"
+        logo: /assets/partners/normation.png
+        scope:
+          - name: "Agent"
+          - name: "Tests and bug reports: bug reports"
+          - name: "Promotion and Communication: Conferences and website hosting"
+      - title: "Zenitique"
+        url: http://zenitique.fr/
+        mail: "marc.caissial@zenitique.fr"
+        logo: /assets/partners/zenetique.jpg
+        scope:
+          - name: "bug reports"
+          - name: "user support"
+
+  team:
+    title: "THE FUSIONINVENTORY TEAM"
+    text: "Let us introduce you to the people who make the FusionInventory project a reality."
+    subtext: 
+    section: team
+    people:
+      - name: "David Durieux"
+        role: "Project Leader"
+        image: assets/img/team/ddurieux.jpg
+        social:
+          - url: https://twitter.com/ddurieux_
+            icon: fab fa-twitter
+          - url: https://www.linkedin.com/in/david-durieux-2099459/
+            icon: fab fa-linkedin-in
+          - url: https://david.durieux.family
+            icon: fas fa-blog
+
+      - name: "Perhaps you!"
+        role: "Contact us to contribute!"
+        image: assets/img/team/you.png
+        social:
+          - url: https://discord.gg/KdR6dyzNUU
+            icon: "fab fa-discord"
+
+  contact:
+    title: "Contact Us"
+    text: "Several channels to contact us "
+    items:
+      - url: '#team'
+        icon: "fas fa-users"
+      - url: https://discord.gg/KdR6dyzNUU
+        icon: "fab fa-discord"
+      - url: 'https://github.com/fusioninventory'
+        icon: "fab fa-github"
+
+  footer:
+    legal: "Privacy Policy"
+    social:
+      - url: https://twitter.com/FusionInventory
+        icon: "fab fa-twitter"
+      - url: https://github.com/fusioninventory
+        icon: "fab fa-github"
+      - url: https://discord.gg/KdR6dyzNUU
+        icon: "fab fa-discord"
+      - url: https://www.youtube.com/channel/UClK5zin1sdONo2_P2fVuFKg
+        icon: "fab fa-youtube"
+en-US:
+  <<: *DEFAULT_EN
+en-CA:
+  <<: *DEFAULT_EN
+en-GB:
+  <<: *DEFAULT_EN
+en-AU:
+  <<: *DEFAULT_EN
+
+# Français
+# -------
+fr: &DEFAULT_FR
+  header:
+    title: Bienvenue sur FusionInventory!
+    text: La puissance de la <br>gestion de l'inventaire et du déploiement de logiciels 
+    button: M'en dire plus
+    buttonlink: "#features"
+
+  features:
+    title: "Fonctionnalités"
+    text: "FusionInventory est un logiciel qui vous permet d'inventorier votre parc informatique et déployer des logiciels."
+    section: features
+    list:
+      - title: "ITSM"
+        desc: "Incident, demande, problème, changement, connaissance..."
+        icon: fas fa-user-check
+      - title: "Gestion des actifs"
+        desc: "Gestion des actifs informatiques ou non informatiques."
+        icon: fas fa-network-wired
+      - title: "Items dynamiques"
+        desc: "Création d'items dynamiques, avec les propriétés que vous souhaitez. C'est souple"
+        icon: fas fa-tools
+      - title: "Règles"
+        desc: "Règles pour modifier des champs.<br>Règles pour envoyer des notifications."
+        icon: fas fa-cogs
+      - title: "Responsive"
+        desc: "FusionSuite a une interface web avec un design responsive : il s'adapte à l'écran de l'appareil."
+        icon: fas fa-mobile-alt
+      - title: "Fonctionne avec FusionInventory"
+        desc: "Le backend contient du code de serveur FusionInventory et fonctionne avec l'agent FusionInventory."
+        icon: fas fa-heart
+      - title: "API REST"
+        desc: "Le backend offre une API REST standard et documentée. Très simple à intégrer à d'autres projets."
+        icon: fab fa-dev
+      - title: "Bases de données"
+        desc: "Compatible avec MySQL, MariaDB, SQLite et Microsoft SQL Server."
+        icon: fas fa-database
+      - title: "Logiciel libre"
+        desc: "FusionSuite est un logiciel libre et la gestion du projet est ouverte."
+        icon: fab fa-osi #find more at https://fontawesome.com/icons
+      - title: "Moderne"
+        desc: "Construit avec des technologies puissantes (Ionic/Angular, Slim/Eloquent), afin d'assurer des fonctionnalités modernes et une certaine compatibilité."
+        icon: fas fa-certificate
+      - title: "Securisé"
+        desc: "Le code, les données et la sécurité des données est une priorité."
+        icon: fas fa-shield-alt
+      - title: "Performances"
+        desc: "L'application est rapide, on en a besoin!"
+        icon: fas fa-fighter-jet
+      - title: "Les contributions sont les bienvenues"
+        desc: "Les contributions provenant de la communauté sont les bienvenues sur notre [github](https://github.com/fusionSuite)."
+        icon: fab fa-github
+      - title: "Echangez avec nous<br>Echangez entre utilisateurs"
+        desc: "Venez échangez avec l'équipe de FusionSuite ainsi qu'avec d'autres utilisateurs sur notre [serveur Discord](https://discord.gg/KdR6dyzNUU)."
+        icon: fas fa-comments
+
+  timeline:
+    title: "Timeline"
+    text: " "
+    section: timeline
+    # left is the default
+    #start_align: "left"
+    events:
+      - title: "Rétrospective && roadmap 2023"
+        year: "Janvier 2023"
+        desc: "Présentation de la rétrospective de 2022 et roadmap de 2023"
+        # image: assets/img/timeline/1.jpg
+        alt: 
+        align: left
+      - title: "Présentation du project"
+        year: "Janvier 2022"
+        desc: "The projet est dévoilé au monde. YEAH!"
+        # image: assets/img/timeline/1.jpg
+        alt: 
+        align: right
+      - title: "Le POC est validé!"
+        year: "Décembre 2021"
+        desc: "Le code des fonctionnalités est testé et les performances passent la validation pour continuer le projet.<br>Création du logo et préparation de l'annonce."
+        # image: assets/img/timeline/2.jpg
+        alt: 
+        align: left
+      - title: "Amélioration des performances du POC"
+        year: "Septembre 2021"
+        desc: "Très mauvaises performances détectées, plusieurs modifications et optimisations commencent dans le code afin d'être plus efficace."
+        # image: assets/img/timeline/3.jpg
+        alt: 
+        align: right
+      - title: "Spécifications"
+        year: "Novembre 2020"
+        desc: "Réflexions sur les fonctionnalités et début de la rédaction des spécifications."
+        # image: assets/img/timeline/2.jpg
+        alt: 
+        align: left
+      - title: "Création du POC"
+        year: "Mars 2020"
+        desc: "Début du POC après que GLPI ait poussé dehors les derniers développeurs communautaires."
+        # image: assets/img/timeline/4.jpg
+        alt:
+        # you can enforce the alignment
+        align: right
+    end: "Notre <br> grande <br> histoire!"
+
+  presentation:
+    section: presentation
+    list:
+      - title: "Rétrospective & roadmap 2023 (12 janvier 2023)"
+        text: "Aller voir les slides du projet"
+        url: 'presentation/2023-01/presentation.html'
+      - title: "Première présentation de FusionSuite (12 janvier 2022)"
+        text: "Aller voir les slides du projet"
+        url: 'presentation/index.html'
+
+  partners:
+    section: partners
+    max-height: 100px
+    horizontal-scrolling: "" #"yes/no"
+    title: Partenaires
+    text: Liste des entreprises qui contribuent au projet.<br>Elles ont l'expertise que vous pourriez avoir besoin sur FusionInventory!
+    list:
+      - title: "DCS Easyware"
+        url: https://github.com/raviriley/agency-jekyll-theme
+        logo: assets/img/clients/partner_dcs.png
+        desc: "Spécialiste du support, de la gestion des environnements utilisateurs et de la gestion des infrastructures (production et exploitation), DCS poursuit sa stratégie en développant notamment l'intégration de solutions afin d'augmenter la valeur de ses prestations et répondre aux enjeux de ses clients."
+
+  team:
+    title: "L'EQUIPE DE FUSIONINVENTORY"
+    text: "Laissez-nous introduire les personnes qui font du projet FusionInventory une réalité."
+    subtext: 
+    section: team
+    people:
+      - name: "David Durieux"
+        role: "Chef du projet"
+        image: assets/img/team/ddurieux.jpg
+        social:
+          - url: https://twitter.com/ddurieux_
+            icon: fab fa-twitter
+          - url: https://www.linkedin.com/in/david-durieux-2099459/
+            icon: fab fa-linkedin-in
+          - url: https://david.durieux.family
+            icon: fas fa-blog
+
+      - name: "Peut être vous!"
+        role: "Contactez-nous pour contribuer!"
+        image: assets/img/team/you.png
+        social:
+          - url: https://discord.gg/KdR6dyzNUU
+            icon: "fab fa-discord"
+
+  contact:
+    title: "Contactez-nous"
+    text: "Plusieurs canaux pour nous contacter "
+    items:
+      - url: '#team'
+        icon: "fas fa-users"
+      - url: https://discord.gg/KdR6dyzNUU
+        icon: "fab fa-discord"
+      - url: 'https://github.com/fusionSuite'
+        icon: "fab fa-github"
+
+
+  footer:
+    legal: "Politique de confidentialité"
+    social:
+      - url: https://twitter.com/FusionSuite
+        icon: "fab fa-twitter"
+      - url: https://github.com/fusionSuite
+        icon: "fab fa-github"
+      - url: https://discord.gg/KdR6dyzNUU
+        icon: "fab fa-discord"
+      - url: https://www.youtube.com/channel/UClK5zin1sdONo2_P2fVuFKg
+        icon: "fab fa-youtube"
+fr-FR:
+  <<: *DEFAULT_FR

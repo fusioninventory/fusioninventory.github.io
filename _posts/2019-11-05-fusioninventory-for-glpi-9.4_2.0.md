@@ -1,6 +1,8 @@
 ---
-layout: single
+layout: post
 title: FusionInventory for GLPI 9.4+2.0, 9.4+2.1
+categories: news
+lang: en
 ---
 
 # Introduction

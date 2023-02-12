@@ -1,6 +1,8 @@
 ---
-layout: single
+layout: post
 title: FusionInventory for GLPI 0.80+1.4 released
+categories: news
+lang: en
 ---
 
 It's a pleasure to announce the version 0.80+1.4 of plugins fusioninventory for GLPI (<strong>so for GLPI 0.80.x</strong>, not for GLPI 0.83.x !).

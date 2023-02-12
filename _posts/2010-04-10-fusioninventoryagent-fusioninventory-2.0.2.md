@@ -1,6 +1,8 @@
 ---
-layout: single
+layout: post
 title: FusionInventory agent 2.0.2
+categories: news
+lang: en
 ---
 
 2.0.2     Sat Apr 10 23:31:48 2010 +0200

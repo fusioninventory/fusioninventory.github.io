@@ -1,6 +1,8 @@
 ---
-layout: single
+layout: post
 title: FusionInventory for GLPI 0.83+2.2.1
+categories: news
+lang: en
 ---
 
 Some days ago, we publish a new stable release of FusionInventory for GLPI ( 0.83+2.2.1 ).

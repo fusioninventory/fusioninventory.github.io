@@ -1,0 +1,37 @@
+name: Publish website to the ddurieux server
+on:
+  push:
+    branches:
+      - master
+
+jobs:
+  build:
+    name: Deploy website
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - uses: actions/cache@v3
+        with:
+          path: vendor/bundle
+          key: ${{ runner.os }}-gems-${{ hashFiles('**/Gemfile') }}
+          restore-keys: |
+            ${{ runner.os }}-gems-
+      - name: install bundle
+        run: sudo gem install bundler
+      - name: install dep gem
+        run: sudo bundle install
+      - name: build
+        run: bundle exec jekyll build
+      - name: Deploy with rsync
+        uses: "Pendect/action-rsyncer@v1.1.0"
+        env: 
+          DEPLOY_KEY: ${{ secrets.SSH_DOCUMENTATION_KEY }}
+        with:
+          flags: '-avzr --delete'
+          options: ''
+          ssh_options: ''
+          src: '_site/'
+          dest: '${{ secrets.SSH_DOCUMENTATION_USER }}@${{ secrets.SSH_HOST }}:${{ secrets.WEBSITE_PATH }}'
+
+      - name: Display status from deploy
+        run: echo "${{ steps.deploy.outputs.status }}"

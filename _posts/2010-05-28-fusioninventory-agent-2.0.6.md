@@ -1,6 +1,8 @@
 ---
-layout: single
+layout: post
 title: FusionInventory agent 2.0.6
+categories: news
+lang: en
 ---
 
 This stable release fix a serious bug with nmap and local inventory.

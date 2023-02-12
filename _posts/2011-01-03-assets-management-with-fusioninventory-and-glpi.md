@@ -1,6 +1,8 @@
 ---
-layout: single
+layout: post
 title: Assets management with FusionInventory and GLPI
+categories: news
+lang: en
 ---
 
 Another presentation about assets management with FusionInventory and GLPI, made for Esquimaux/Inuits training sessions :

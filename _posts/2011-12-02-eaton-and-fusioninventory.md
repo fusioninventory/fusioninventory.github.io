@@ -1,6 +1,8 @@
 ---
-layout: single
+layout: post
 title: EATON and FusionInventory
+categories: news
+lang: en
 ---
 
 [EATON](http://www.eaton.com/) sent us an Eaton 5PX to help us support it in FusionInventory.

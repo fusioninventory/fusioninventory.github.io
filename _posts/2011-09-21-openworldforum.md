@@ -1,6 +1,8 @@
 ---
-layout: single
+layout: post
 title: Open World Forum 2011
+categories: news
+lang: en
 ---
 
 <img src="/news_docs/logo_owf-300x113.png" alt="" title="logo_owf" width="300" height="113" class="aligncenter size-medium wp-image-1256" />

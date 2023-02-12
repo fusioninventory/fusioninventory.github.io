@@ -1,6 +1,8 @@
 ---
-layout: single
+layout: post
 title: Agent development process changes
+categories: news
+lang: en
 ---
 
 Hello all,

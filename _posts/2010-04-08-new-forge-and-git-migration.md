@@ -1,6 +1,8 @@
 ---
-layout: single
+layout: post
 title: New forge and GIT migration
+categories: news
+lang: en
 ---
 
 Hi,

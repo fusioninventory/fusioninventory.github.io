@@ -1,6 +1,8 @@
 ---
-layout: single
+layout: post
 title: FusionInventory agent task-network 1.0.2 released
+categories: news
+lang: en
 ---
 
 Hello folks.

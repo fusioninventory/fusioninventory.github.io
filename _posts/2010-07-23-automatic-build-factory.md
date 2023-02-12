@@ -1,6 +1,8 @@
 ---
-layout: single
+layout: post
 title: Automatic build factory
+categories: news
+lang: en
 ---
 
 We're happy to introduce our new agent's build factory.

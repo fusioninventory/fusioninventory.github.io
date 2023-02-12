@@ -1,6 +1,8 @@
 ---
-layout: single
+layout: post
 title: Windows support in agent
+categories: news
+lang: en
 ---
 
 We're still working on Windows portage. Progress are good on the Inventory part, there is still some code to clean up and missing section.

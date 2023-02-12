@@ -1,6 +1,8 @@
 ---
-layout: single
+layout: post
 title: Network discovery improvement
+categories: news
+lang: en
 ---
 
 # Network discovery improvement: good bye SysDescr, welcome SysObjectID

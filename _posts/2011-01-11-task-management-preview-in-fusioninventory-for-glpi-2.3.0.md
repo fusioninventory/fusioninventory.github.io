@@ -1,6 +1,8 @@
 ---
-layout: single
+layout: post
 title: Task management preview in FusionInventory for GLPI 2.3.0
+categories: news
+lang: en
 ---
 
 An update from FusionInventory for GLPI development branch ...

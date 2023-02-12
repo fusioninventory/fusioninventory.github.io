@@ -1,6 +1,8 @@
 ---
-layout: single
+layout: post
 title: FusionInventory agent task-esx 2.2.1
+categories: news
+lang: en
 ---
 
 Happy new year!

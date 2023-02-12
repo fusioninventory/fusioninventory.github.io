@@ -1,6 +1,8 @@
 ---
-layout: single
+layout: post
 title: FusionInventory store
+categories: news
+lang: en
 ---
 
 Hi,

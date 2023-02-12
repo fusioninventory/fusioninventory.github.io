@@ -1,6 +1,8 @@
 ---
-layout: single
+layout: post
 title: FusionInventory agent 2.1 aka Windows support - call for tester
+categories: news
+lang: en
 ---
 
 <div>

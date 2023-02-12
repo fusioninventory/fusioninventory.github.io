@@ -1,6 +1,8 @@
 ---
-layout: single
+layout: post
 title: Monthly report - october 2021
+categories: news
+lang: en
 ---
 
 Hi all, 

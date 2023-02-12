@@ -1,6 +1,8 @@
 ---
-layout: single
+layout: post
 title: French FusionInventory meeting in Paris
+categories: news
+lang: en
 ---
 
 <p style="text-align: left;">The FusionInventory team organize a meeting in Paris. This meeting is in french, and you need to confirm before coming (see the flyers below).</p>

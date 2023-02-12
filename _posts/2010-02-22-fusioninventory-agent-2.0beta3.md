@@ -1,6 +1,8 @@
 ---
-layout: single
+layout: post
 title: FusionInventory agent 2.0beta3
+categories: news
+lang: en
 ---
 
 ﻿﻿﻿2.0beta3 Mon, 22 Feb 2010 00:51:36 +0100

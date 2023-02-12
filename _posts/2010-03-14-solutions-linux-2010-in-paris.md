@@ -1,6 +1,8 @@
 ---
-layout: single
+layout: post
 title: Solutions Linux 2010 in Paris
+categories: news
+lang: en
 ---
 
 We will be present during [Solutions Linux](http://www.solutionslinux.fr/) meeting in Paris.

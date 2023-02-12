@@ -1,0 +1,25 @@
+<!-- About -->
+<section class="page-section" id="{{ site.data.sitetext[page.lang].presentation.section | default: "presentation" }}">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-12 text-center">
+        <h2 class="section-heading text-uppercase">{{ site.data.sitetext[page.lang].presentation.title | default: "Presentation" }}</h2>
+      </div>
+    </div>
+
+    <div class="row text-center" style="justify-content: center;">
+      {% for presentation in site.data.sitetext[page.lang].presentation.list %}
+      <div class="col-md-3">
+        <a href="{{ presentation.url | default: '' }}" target="_blank">
+          <span class="fa-stack fa-4x">
+            <i class="fas fa-circle fa-stack-2x text-primary"></i>
+            <i class="fab fa-slideshare fa-stack-1x fa-inverse"></i>
+          </span>
+          <div class="text-muted">{{ presentation.title | default: "Slides" }}</div>
+        </a>
+      </div>
+      {% endfor %}
+    </div>
+  </div>
+</section>
+<!-- End About -->

@@ -1,6 +1,8 @@
 ---
-layout: single
+layout: post
 title: FusionInventory meeting in Paris on 13th october at 7pm
+categories: news
+lang: en
 ---
 
 The FusionInventory team organize a meeting in Paris the 13th of october at 7pm. We will introduce last months major releases and talk about the future or the project.

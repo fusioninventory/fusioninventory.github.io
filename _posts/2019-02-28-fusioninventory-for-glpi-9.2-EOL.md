@@ -1,6 +1,8 @@
 ---
-layout: single
+layout: post
 title: Version 9.2 of FusionInventory for GLPI EOL (End-Of-Life)
+categories: news
+lang: en
 ---
 
 Like you can see on our page [EOL](http://fusioninventory.org/EOL/), the branch 9.2+x.x of the plugin FusionInventory is EOL (End-Of-Life), so no more release will be appear for GLPI 9.2.

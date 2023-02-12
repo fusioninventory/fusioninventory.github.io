@@ -1,129 +1,43 @@
 # Welcome to Jekyll!
 #
 # This config file is meant for settings that affect your whole blog, values
-# which you are expected to set up once and rarely edit after that. If you find
-# yourself editing this file very often, consider using Jekyll's data files
-# feature for the data you need to update frequently.
-#
-# For technical reasons, this file is *NOT* reloaded automatically when you use
-# 'bundle exec jekyll serve'. If you change this file, please restart the server process.
-#
-# If you need help with YAML syntax, here are some quick references for you: 
-# https://learn-the-web.algonquindesign.ca/topics/markdown-yaml-cheat-sheet/#yaml
-# https://learnxinyminutes.com/docs/yaml/
-#
+# which you are expected to set up once and rarely edit after that.
+# This file is *NOT* reloaded automatically when you use 'bundle exec jekyll serve'.
+# If you change this file, please restart the server process.
+
 # Site settings
-# These are used to personalize your new site. If you look in the HTML files,
+# are used to personalize your new site. If you look in the HTML files,
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://fusioninventory.github.io" # the base hostname & protocol for your site, e.g. http://example.com
-# twitter_username: jekyllrb
-# github_username:  jekyll
+#theme: jekyll-agency
+remote_theme: raviriley/agency-jekyll-theme
 
-# Build settings
-# theme: minimal-mistakes-jekyll
-remote_theme: "mmistakes/minimal-mistakes@4.24.0"
-minimal_mistakes_skin: "default"
-plugins:
-  - jekyll-feed
-  - jekyll-paginate
-  - jekyll-sitemap
-  - jekyll-feed
-  - jekyll-include-cache
+url    : "https://fusioninventory.org" # the base hostname & protocol for your site, e.g. http://example.com
+baseurl: "/" # the subpath of your site, e.g. /blog
 
+title      : FusionInventory
+email      : david@durieux.family #this is also the email contact forms will go to
+description: "FusionInventory project - free software - Inventory & software deployment"
+author     : David Durieux
+logo:     #optional, defaults to site title
+  path: \assets\img\logo_fusioninventory.png
+  height: 60 #height in px, defaults to 52px
 
-# Exclude from processing.
-# The following items will not be processed, by default.
-# Any item listed under the `exclude:` key here will be automatically added to
-# the internal "default list".
-#
-# Excluded items can be processed by explicitly listing the directories or
-# their entries' file path in the `include:` list.
-#
-# exclude:
-#   - .sass-cache/
-#   - .jekyll-cache/
-#   - gemfiles/
-#   - Gemfile
-#   - Gemfile.lock
-#   - node_modules/
-#   - vendor/bundle/
-#   - vendor/cache/
-#   - vendor/gems/
-#   - vendor/ruby/
+locale: "en-US" # See available languages in _data/sitetext.yml
 
-title                    : "FusionInventory"
-subtitle                 : "Inventory & software deployment"
-name                     : "FusionInventory team"
-url                      : "http://fusioninventory.org"
-logo                     : "/assets/images/logo.png"
-breadcrumbs: false
-read_time: true
-include: ["_pages","_documentation", "_presentation"]
-
-#author:
-#  name     : "FusionInventory team"
-#  avatar   : "/assets/images/bio-photo.jpg"
-#  bio      : "My awesome biography constrained to a sentence or two goes here."
-#  location : "Somewhere, France"
-#  links:
-#    - label: "Made Mistakes"
-#      icon: "fas fa-fw fa-link"
-#      url: "https://mademistakes.com"
-#    - label: "Twitter"
-#      icon: "fab fa-fw fa-twitter-square"
-#      url: "https://twitter.com/mmistakes"
-#    - label: "GitHub"
-#      icon: "fab fa-fw fa-github"
-#      url: "https://github.com/mmistakes"
-#    - label: "Instagram"
-#      icon: "fab fa-fw fa-instagram"
-#      url: "https://instagram.com/mmistakes"
-
-# paginate: 8
-# paginate_path: /news/page:num/
+analytics:
+  google: #Google Analytics tracking code here
 
 collections:
-  documentation:
-    output: true
+  portfolio:
 
-defaults:
-  # _pages
-  - scope:
-      path: ""
-      type: pages
-    values:
-      layout: single
-      classes: wide
+markdown: kramdown
 
-  # _posts
-  - scope:
-      path: ""
-      type: posts
-    values:
-      layout: single
-      author_profile: false
-      read_time: true
-      comments: true
-      share: true
-      related: true
-      show_date: true
-      classes: wide
+# Uncomment following line to use Formspree form ID based URL instead of email based URL
+# Details: https://help.formspree.io/hc/en-us/articles/360017735154-How-to-prevent-spam
+# formspree_form_path: "f/a_form_id"
 
-  # _documentation
-  - scope:
-      path: ""
-      type: documentation
-    values:
-      layout: single
-      read_time: false
-      author_profile: false
-      share: false
-      comments: false
-      classes: wide
-      toc: true
-      sidebar:
-        nav: "documentation"
+plugins:
+  - jekyll-remote-theme

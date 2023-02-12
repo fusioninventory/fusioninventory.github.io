@@ -1,6 +1,8 @@
 ---
-layout: single
+layout: post
 title: Website translation enabled
+categories: news
+lang: en
 ---
 
 Hi all,

@@ -1,6 +1,8 @@
 ---
-layout: single
+layout: post
 title: FusionInventory agent 2.0beta1
+categories: news
+lang: en
 ---
 
 Hi!

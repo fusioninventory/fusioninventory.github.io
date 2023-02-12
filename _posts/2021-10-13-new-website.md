@@ -1,6 +1,8 @@
 ---
-layout: single
+layout: post
 title: New website
+categories: news
+lang: en
 ---
 
 I'm worked since few months on a new website design.

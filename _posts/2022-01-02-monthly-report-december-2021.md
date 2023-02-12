@@ -1,6 +1,8 @@
 ---
-layout: single
+layout: post
 title: Monthly report - December 2021
+categories: news
+lang: en
 ---
 
 This is the monthly report for December 2021, the last month of the 2021 year about FusionInventory project.

@@ -1,6 +1,8 @@
 ---
-layout: single
+layout: post
 title: FusionInventory at JM2L in Sofia Antipolis
+categories: news
+lang: en
 ---
 
 <strong>French (JM2L 2010)</strong>

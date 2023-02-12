@@ -1,6 +1,8 @@
 ---
-layout: single
+layout: post
 title: FusionInventory presentation during RMLL 2011
+categories: news
+lang: en
 ---
 
 Hi,

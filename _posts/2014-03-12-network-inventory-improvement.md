@@ -1,6 +1,8 @@
 ---
-layout: single
+layout: post
 title: Network inventory improvement
+categories: news
+lang: en
 ---
 
 # No mandatory SNMP model anymore

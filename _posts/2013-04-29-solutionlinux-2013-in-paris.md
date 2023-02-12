@@ -1,6 +1,8 @@
 ---
-layout: single
+layout: post
 title: Solutions Linux 2013 in Paris
+categories: news
+lang: en
 ---
 
 Like every year, FusionInventory project will be at the [Solution Linux](http://www.solutionslinux.fr/Le+village+associatif+_154_161.html)

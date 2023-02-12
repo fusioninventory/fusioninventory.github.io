@@ -1,6 +1,8 @@
 ---
-layout: single
+layout: post
 title: FusionInventory for GLPI 9.3 and 9.4 security update
+categories: news
+lang: en
 ---
 
 We have released a new version of plugin FusionInventory for GLPI 9.3 and 9.4.

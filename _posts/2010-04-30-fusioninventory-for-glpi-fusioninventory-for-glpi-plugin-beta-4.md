@@ -1,6 +1,8 @@
 ---
-layout: single
+layout: post
 title: FusionInventory for GLPI plugin beta4
+categories: news
+lang: en
 ---
 
 New beta version with a lot of fixes.

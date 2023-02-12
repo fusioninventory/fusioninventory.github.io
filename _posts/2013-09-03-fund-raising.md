@@ -1,6 +1,8 @@
 ---
-layout: single
+layout: post
 title: Fund Raising
+categories: news
+lang: en
 ---
 
 FusionInventory.org website is hosted by <http://www.Branchable.com>. 

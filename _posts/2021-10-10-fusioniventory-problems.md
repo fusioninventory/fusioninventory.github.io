@@ -1,6 +1,8 @@
 ---
-layout: single
+layout: post
 title: FusionInventory - management problems
+categories: news
+lang: en
 ---
 
 Hi all.

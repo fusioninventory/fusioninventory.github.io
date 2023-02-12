@@ -1,6 +1,8 @@
 ---
-layout: single
+layout: post
 title: FusionInventory agent task-deploy 2.0.3
+categories: news
+lang: en
 ---
 
 Hello FusionInventory users,

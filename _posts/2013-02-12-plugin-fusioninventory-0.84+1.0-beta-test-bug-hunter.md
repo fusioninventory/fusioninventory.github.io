@@ -1,6 +1,8 @@
 ---
-layout: single
+layout: post
 title: FusionInventory for GLPI 0.84+1.0 beta test - bug hunter
+categories: news
+lang: en
 ---
 
 GLPI 0.84 version is now in beta test, see this post in [GLPI forum](http://www.glpi-project.org/forum/search.php?search_id=1785690941).

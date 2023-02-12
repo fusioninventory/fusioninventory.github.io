@@ -1,6 +1,8 @@
 ---
-layout: single
+layout: post
 title: FusionInventory slideshow
+categories: news
+lang: en
 ---
 
 <strong>English (FrOSCamp 2010)</strong>

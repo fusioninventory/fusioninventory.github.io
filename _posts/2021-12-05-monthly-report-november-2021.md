@@ -1,6 +1,8 @@
 ---
-layout: single
+layout: post
 title: Monthly report - November 2021
+categories: news
+lang: en
 ---
 
 This is the monthly report for November 2021 about FusionInventory project.

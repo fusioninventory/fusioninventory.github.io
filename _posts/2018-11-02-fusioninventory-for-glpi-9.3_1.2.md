@@ -1,6 +1,8 @@
 ---
-layout: single
+layout: post
 title: Release FusionInventory for GLPI 9.3+1.2
+categories: news
+lang: en
 ---
 
 It's a pleasure to announce the release of plugin FusionInventory for GLPI in version 9.3+1.2.
@@ -38,5 +40,5 @@ You can download the version here: [9.3+1.2](https://github.com/fusioninventory/
 Don't forget to read the documentation for [install / update the plugin](https://documentation.fusioninventory.org/%20FusionInventory_for_GLPI/%20%20Installation%20%26%20update/1.installation/)
 
 Important information: this version is for GLPI 9.3 (and fixes versions like 9.3.1, 9.3.2 ... so 9.3.x).
-Recommanded if you have 9.3.2 or newer.
+recommended if you have 9.3.2 or newer.
 

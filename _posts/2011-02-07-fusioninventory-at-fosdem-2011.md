@@ -1,6 +1,8 @@
 ---
-layout: single
+layout: post
 title: FusionInventory at Fosdem 2011
+categories: news
+lang: en
 ---
 
 Most of the project's european contributors and developers where present at FOSDEM 2011 in Brussels, Belgium. We had very interesting talks about the future of the project.

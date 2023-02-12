@@ -1,6 +1,8 @@
 ---
-layout: single
+layout: post
 title: Solutions Linux meeting in Paris in May 2011
+categories: news
+lang: en
 ---
 
 Hello,

@@ -1,6 +1,8 @@
 ---
-layout: single
+layout: post
 title: News from plugin FusionInventory for GLPI
+categories: news
+lang: en
 ---
 
 We're working hard to split the  FusionInventoroy For GLPI plugin (for GLPI 0.78) in serveral plugins. It'll be easier to maintain and become possible to write additionnal modules.

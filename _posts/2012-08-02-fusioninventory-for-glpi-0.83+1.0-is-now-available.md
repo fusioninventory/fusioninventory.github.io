@@ -1,6 +1,8 @@
 ---
-layout: single
+layout: post
 title: FusionInventory for GLPI 0.83+1.0 is now available
+categories: news
+lang: en
 ---
 
 The FusionInventory is proud to introduce the first release compatible with GLPI 0.83, after several months of beta and RC versions!

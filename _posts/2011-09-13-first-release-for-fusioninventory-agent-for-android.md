@@ -1,6 +1,8 @@
 ---
-layout: single
+layout: post
 title: First release for FusionInventory agent for Android
+categories: news
+lang: en
 ---
 
 The FusionInventory team is proud to announce the support of a new platform: Android.

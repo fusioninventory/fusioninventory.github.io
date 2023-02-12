@@ -1,6 +1,8 @@
 ---
-layout: single
+layout: post
 title: Task-network plugin release 1.0.0
+categories: news
+lang: en
 ---
 
 Hello dear fusioninventory users.

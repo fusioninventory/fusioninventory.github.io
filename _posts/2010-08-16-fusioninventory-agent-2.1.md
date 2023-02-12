@@ -1,6 +1,8 @@
 ---
-layout: single
+layout: post
 title: FusionInventory agent 2.1
+categories: news
+lang: en
 ---
 
 <strong>This is the first release of FusionInventory Agent with Windows support!</strong>
