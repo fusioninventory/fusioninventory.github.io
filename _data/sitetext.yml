@@ -193,13 +193,16 @@ en: &DEFAULT_EN
         url: "https://github.com/fusioninventory/fusioninventory-agent/releases/tag/2.6"
         recommended: recommended agent version
         desc: "Agent  version 2.6 for Windows, Linux, OSX, *BSD..."
-      - title: "FusionInventory for GSIT & GLPI 9.5+4.2"
-        url: "https://github.com/fusioninventory/fusioninventory-for-glpi/releases/tag/glpi9.5%2B4.2"
+      - title: "FusionInventory for GSIT 9.5+5.0 (LTS version)"
+        url: "https://github.com/fusioninventory/fusioninventory-for-gsit/releases/tag/gsit9.5%2B5.0"
         recommended: recommended server version
-        desc: "(server part) Plugin for GSIT and GLPI 9.5.x"
-      - title: "FusionInventory for GLPI 10.0.3+1.0"
-        url: "https://github.com/fusioninventory/fusioninventory-for-glpi/releases/tag/glpi10.0.3%2B1.0"
-        desc: "(server part) Plugin for GLPI 10.0.3"
+        desc: "(server part) Plugin for <a href='https://github.com/DCS-Easyware/gsit' target='_blank'>GSIT</a> 9.5.x (>= 9.5.7)"
+      - title: "FusionInventory for GLPI 10.0.6+1.0"
+        url: "https://github.com/fusioninventory/fusioninventory-for-glpi/releases/tag/glpi10.0.6%2B1.0"
+        desc: "(server part) Plugin for GLPI 10.0.6"
+      - title: "FusionInventory for GLPI 9.5.x"
+        url: ""
+        desc: "(server part) - abandoned"
 
   presentation:
     section: presentation
