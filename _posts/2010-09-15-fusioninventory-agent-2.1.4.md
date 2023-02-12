@@ -1,6 +1,8 @@
 ---
-layout: single
+layout: post
 title: FusionInventory agent 2.1.4
+categories: news
+lang: en
 ---
 
 Hi,

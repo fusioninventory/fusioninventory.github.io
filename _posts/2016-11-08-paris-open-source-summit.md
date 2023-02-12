@@ -1,6 +1,8 @@
 ---
-layout: single
+layout: post
 title: Paris Open Source Summit 
+categories: news
+lang: en
 ---
 
 Francais:

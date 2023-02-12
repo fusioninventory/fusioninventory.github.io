@@ -1,6 +1,8 @@
 ---
-layout: single
+layout: post
 title: FusionInventory agent 2.0beta2
+categories: news
+lang: en
 ---
 
 And the second release to fix SNMP/NetDiscovery issues :)

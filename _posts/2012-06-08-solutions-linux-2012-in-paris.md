@@ -1,6 +1,8 @@
 ---
-layout: single
+layout: post
 title: Solutions Linux 2012 in Paris
+categories: news
+lang: en
 ---
 
 Hi,

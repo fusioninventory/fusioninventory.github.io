@@ -1,6 +1,8 @@
 ---
-layout: single
+layout: post
 title: FusionInventory facts at Libre Software Meeting 2010
+categories: news
+lang: en
 ---
 
 <!-- p, li { white-space: pre-wrap; } -->

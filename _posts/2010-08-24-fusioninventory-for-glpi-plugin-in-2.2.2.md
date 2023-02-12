@@ -1,6 +1,8 @@
 ---
-layout: single
+layout: post
 title: FusionInventory for GLPI 2.2.2
+categories: news
+lang: en
 ---
 
 <div>

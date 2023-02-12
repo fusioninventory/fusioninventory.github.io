@@ -1,6 +1,8 @@
 ---
-layout: single
+layout: post
 title: News from FusionInventory
+categories: news
+lang: en
 ---
 
 <strong>Windows support</strong>

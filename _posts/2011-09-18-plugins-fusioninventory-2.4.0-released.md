@@ -1,6 +1,8 @@
 ---
-layout: single
+layout: post
 title: FusionInventory for GLPI 2.4.0 released
+categories: news
+lang: en
 ---
 
 After 6 months of developpement, the FusionInventory is proud to announce FusionInventory for GLPI 2.4.0. This release is the first version compatible with GLPI 0.80.

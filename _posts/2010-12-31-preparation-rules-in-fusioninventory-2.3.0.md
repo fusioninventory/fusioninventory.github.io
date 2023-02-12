@@ -1,6 +1,8 @@
 ---
-layout: single
+layout: post
 title: Preparation rules in FusionInventory for GLPI 2.3.0
+categories: news
+lang: en
 ---
 
 We have implemented rules in differents parts of FusionInventory 2.3.0 :

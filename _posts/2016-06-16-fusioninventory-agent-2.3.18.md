@@ -1,6 +1,8 @@
 ---
-layout: single
+layout: post
 title: FusionInventory agent 2.3.18
+categories: news
+lang: en
 ---
 
 The FusionInventory Agent maintainers are glad to announce the 2.3.18 release.

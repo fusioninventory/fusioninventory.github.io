@@ -1,6 +1,8 @@
 ---
-layout: single
+layout: post
 title: FusionInventory for GLPI in beta1
+categories: news
+lang: en
 ---
 
 Dear FusionInventory users !

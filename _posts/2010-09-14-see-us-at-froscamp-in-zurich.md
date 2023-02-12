@@ -1,6 +1,8 @@
 ---
-layout: single
+layout: post
 title: See us at FrOSCamp in Zurich
+categories: news
+lang: en
 ---
 
 Most of the team will be at [FrOSCamp](http://froscamp.org) in Zürich. We will share a booth with [GLPI](http://www.glpi-project.org) during the event.

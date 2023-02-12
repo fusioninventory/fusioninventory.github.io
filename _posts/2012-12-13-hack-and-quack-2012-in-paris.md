@@ -1,6 +1,8 @@
 ---
-layout: single
+layout: post
 title: Hack and Quack 2012 in Paris
+categories: news
+lang: en
 ---
 
 Last week end, we had a great time with the Perl community at the

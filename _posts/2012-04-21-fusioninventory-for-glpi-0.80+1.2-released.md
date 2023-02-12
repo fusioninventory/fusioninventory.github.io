@@ -1,6 +1,8 @@
 ---
-layout: single
+layout: post
 title: FusionInventory for GLPI 0.80+1.2 released
+categories: news
+lang: en
 ---
 
 The team is proud to introduce FusionInventory for GLPI 0.80+1.2. This new minor release brings a lot of [bug fixes](http://forge.fusioninventory.org/projects/fusioninventory-for-glpi/issues?query_id=16).

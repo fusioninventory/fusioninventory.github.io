@@ -1,6 +1,8 @@
 ---
-layout: single
+layout: post
 title: FusionInventory at RMLL in July 2012 in Geneva Switzerland
+categories: news
+lang: en
 ---
 
 <img src="/news_docs/logo-rmll-2012-en.png" alt="" title="logo-rmll-2012-en" width="206" height="83" class="aligncenter size-full wp-image-1397" />

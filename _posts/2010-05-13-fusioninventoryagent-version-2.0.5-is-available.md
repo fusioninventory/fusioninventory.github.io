@@ -1,6 +1,8 @@
 ---
-layout: single
+layout: post
 title: FusionInventory agent version 2.0.5 is available
+categories: news
+lang: en
 ---
 
 This is a maintenance release.

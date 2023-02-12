@@ -1,6 +1,8 @@
 ---
-layout: single
+layout: post
 title: FusionInventory for GLPI 2.4.0 rc3 available
+categories: news
+lang: en
 ---
 
 We have released 2.4.0 RC3 version (so release in couple of days :) ).

@@ -1,6 +1,8 @@
 ---
-layout: single
+layout: post
 title: Happy birthday FusionInventory
+categories: news
+lang: en
 ---
 
 The FusionInventory project was started 1 year ago, during FOSDEM 2010.

@@ -1,6 +1,8 @@
 ---
-layout: single
+layout: post
 title: Uranos screenshots
+categories: news
+lang: en
 ---
 
 <img class="alignnone size-full wp-image-420" title="Uranos" src="/news_docs/unattended-gui.jpg" alt="" width="140" height="130" />

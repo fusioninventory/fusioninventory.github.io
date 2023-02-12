@@ -1,6 +1,8 @@
 ---
-layout: single
+layout: post
 title: Website migration
+categories: news
+lang: en
 ---
 
 Last week, FusionInventory.org website was migrated from

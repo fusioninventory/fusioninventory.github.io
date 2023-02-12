@@ -1,6 +1,8 @@
 ---
-layout: single
+layout: post
 title: FusionInventory for GLPI 0.83+2.3 is available (maintenance version)
+categories: news
+lang: en
 ---
 
 This maintenance version comes with no new feature. It only fixes various problem.

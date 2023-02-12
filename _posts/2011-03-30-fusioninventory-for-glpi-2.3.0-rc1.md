@@ -1,6 +1,8 @@
 ---
-layout: single
+layout: post
 title: FusionInventory for GLPI 2.3.0 rc1
+categories: news
+lang: en
 ---
 
 After 8 month of development and 4 beta version, the FusionInventory team is happy to announce the first release candidate of the FusionInventory for GLPI 2.3.0 plugin.

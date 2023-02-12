@@ -1,15 +1,58 @@
-main:
-  - title: "Get it"
-    url: /get/
-  - title: "News"
-    url: /news/
-  - title: "Overview"
-    url: "/overview/"
-  - title: "Screenshot"
-    url: "/screenshot/"
-  - title: "Contact"
-    url: "/resources/"
-  - title: "Docs"
-    url: "https://documentation.fusioninventory.org/"
-  - title: "Partners"
-    url: "/partners/"
+#
+# Work based on https://github.com/mmistakes/minimal-mistakes/blob/master/_data/ui-text.yml
+#
+# Configuration: Add to _config.yml
+# locale: "en-US"  [YOUR PREFERRED LOCALE]
+#
+# How to use:
+# {{ site.data.navigation[page.lang].nav.<var_name> | default: 'text' }}
+
+# English (default)
+# -----------------
+en: &DEFAULT_EN
+  nav:
+    - title: "Features"
+      section: features
+    - title: "News"
+      url: /news.html
+    - title: "Download"
+      section: download
+    - title: "Documentation"
+      url: https://documentation.fusioninventory.org/
+    - title: "Presentation"
+      section: presentation
+    - title: "Timeline"
+      section: timeline
+    - title: "Contact"
+      section: contact
+en-US:
+  <<: *DEFAULT_EN
+en-CA:
+  <<: *DEFAULT_EN
+en-GB:
+  <<: *DEFAULT_EN
+en-AU:
+  <<: *DEFAULT_EN
+
+# Français
+# -------
+fr: &DEFAULT_FR
+  nav:
+    - title: "Fonctionnalités"
+      section: features
+    - title: "Actualités"
+      url: /news.fr.html
+    - title: "Téléchargement"
+      section: download
+    - title: "Documentation"
+      url: https://documentation.fusioninventory.org/
+    - title: "Présentation"
+      section: presentation
+    - title: "Timeline"
+      section: timeline
+    - title: "Partenaires"
+      section: partners
+    - title: "Contact"
+      section: contact
+fr-FR:
+  <<: *DEFAULT_FR

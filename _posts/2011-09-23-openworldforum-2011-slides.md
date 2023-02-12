@@ -1,6 +1,8 @@
 ---
-layout: single
+layout: post
 title: Open World Forum 2011 slides
+categories: news
+lang: en
 ---
 
 FusionInventory room at OpenWorldForum was full and we got some good feedback and nice question. Thank you!

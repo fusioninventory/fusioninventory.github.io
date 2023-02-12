@@ -1,6 +1,8 @@
 ---
-layout: single
+layout: post
 title: FusionInventory Agent Windows Installer 2.4-rc2
+categories: news
+lang: en
 ---
 
 The FusionInventory Agent maintainers are proud to announce the 2.4-rc2 FusionInventory agent windows installer release.

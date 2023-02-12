@@ -1,6 +1,8 @@
 ---
-layout: single
+layout: post
 title: FusionInventory for GLPI 0.84+3.2
+categories: news
+lang: en
 ---
 
 # FusionInventory GLPI plugin 0.84+3.2 release

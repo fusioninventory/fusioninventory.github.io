@@ -1,6 +1,8 @@
 ---
-layout: single
+layout: post
 title: FusionInventory agent 2.3.10
+categories: news
+lang: en
 ---
 
 # FusionInventory Agent 2.3.10 release

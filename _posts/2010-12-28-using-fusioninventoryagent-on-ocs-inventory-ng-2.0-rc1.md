@@ -1,6 +1,8 @@
 ---
-layout: single
+layout: post
 title: Using FusionInventory agent on OCS Inventory-ng server 2.0rc1
+categories: news
+lang: en
 ---
 
 The Ocs Inventory team just released the first release candidate of their new version 2.0, with new features like UTF8 support, new web console and improved IPDiscover. We would like to congratulate them for their hard work on this new release.

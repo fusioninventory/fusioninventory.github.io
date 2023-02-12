@@ -1,6 +1,8 @@
 ---
-layout: single
+layout: post
 title: FusionInventory for GLPI 0.80+1.1 rc1
+categories: news
+lang: en
 ---
 
 We released a first release candidat of 0.80+1.1.

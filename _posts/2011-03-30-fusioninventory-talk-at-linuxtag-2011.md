@@ -1,6 +1,8 @@
 ---
-layout: single
+layout: post
 title: FusionInventory talk at LinuxTag 2011
+categories: news
+lang: en
 ---
 
 <a href="/news_docs/800pxLogo_LinuxTag.svg_.png"><img class="aligncenter size-medium wp-image-991" title="800pxLogo_LinuxTag.svg_" src="/news_docs/800pxLogo_LinuxTag.svg_-300x200.png" alt="" width="300" height="200" /></a>

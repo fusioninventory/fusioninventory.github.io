@@ -1,6 +1,8 @@
 ---
-layout: single
+layout: post
 title: Release FusionInventory for GLPI 0.90+1.2
+categories: news
+lang: en
 ---
 
 It's a pleasure to announce the release of plugin FusionInventory for GLPI in version 0.90+1.2.

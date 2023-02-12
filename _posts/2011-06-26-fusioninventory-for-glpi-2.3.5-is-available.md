@@ -1,6 +1,8 @@
 ---
-layout: single
+layout: post
 title: FusionInventory for GLPI 2.3.5 is available
+categories: news
+lang: en
 ---
 
 The plugins FusionInventory for GLPI is now available in 2.3.5. It's a fix version.

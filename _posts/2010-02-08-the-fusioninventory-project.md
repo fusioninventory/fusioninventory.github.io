@@ -1,8 +1,8 @@
 ---
-layout: single
+layout: post
 title: The FusionInventory project
-redirect_from:
- - /wordpress/2010/02/08/hello-world/
+categories: news
+lang: en
 ---
 
 <strong>The FusionInventory project</strong>

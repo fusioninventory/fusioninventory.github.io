@@ -1,6 +1,8 @@
 ---
-layout: single
+layout: post
 title: FusionDirectory handles at present inventories managed by FusionInventory-agent
+categories: news
+lang: en
 ---
 
 For those who do not know [FusionDirectory](https://www.fusiondirectory.org/), this is an infrastructure manager.

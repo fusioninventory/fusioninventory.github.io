@@ -1,6 +1,8 @@
 ---
-layout: single
+layout: post
 title: New website
+categories: news
+lang: en
 ---
 
 Hello FusionInventory users,

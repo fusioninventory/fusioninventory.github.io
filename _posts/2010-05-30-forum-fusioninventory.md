@@ -1,6 +1,8 @@
 ---
-layout: single
+layout: post
 title: Forum FusionInventory
+categories: news
+lang: en
 ---
 
 The forum is now open at: <a title="http://forum.fusioninventory.org/" href="http://forum.fusioninventory.org/">http://forum.fusioninventory.org/</a>

@@ -1,0 +1,80 @@
+  <!-- Navigation -->
+  <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
+    <div class="container">
+	  <a class="navbar-brand js-scroll-trigger" href="#page-top">
+          {%- if site.logo -%}
+            <img height="{{ site.logo.height | default: 52 }}" src="{{ site.logo.path }}"/>
+          {%- else -%}
+            {{ site.title }}
+          {%- endif -%}
+      </a>
+      <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+        Menu
+        <i class="fas fa-bars"></i>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarResponsive">
+        <ul class="navbar-nav ml-auto">
+        {% for link in site.data.navigation[page.lang].nav %}
+          <li class="nav-item">
+            {%- if link.url -%}
+              <a class="nav-link js-scroll-trigger" href="{{ link.url }}">{{ link.title }}</a>
+            {%- else if link.section -%}
+              <a class="nav-link js-scroll-trigger" href="#{{ link.section }}">{{ link.title }}</a>
+            {%- else -%}
+              <a class="nav-link js-scroll-trigger" href="#">{{ link.title }}</a>
+            {%- endif -%}
+          </li>
+        {% endfor %}
+          <!-- <li class="nav-item">
+            <a class="nav-flag js-scroll-trigger" href="/index.html">
+              <img src="/assets/img/locale/en.png">
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-flag js-scroll-trigger" href="/index.fr.html">
+              <img src="/assets/img/locale/fr.png">
+            </a>
+          </li> -->
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <!-- End Navigation -->
+  
+  <!-- Header -->
+  {% if page.layout == "post" %}
+  <header class="masthead" style="background-color: #5e616c; background: unset !important; height: 130px !important;">
+    <div class="container">
+      <div class="intro-text">
+    {%- if site.data.sitetext[page.lang].header.title -%}
+        <div class="intro-lead-in">{{ site.data.sitetext[page.lang].header.title | markdownify }}</div>
+    {%- endif -%}
+    {%- if site.data.sitetext[page.lang].header.text -%}
+        <div class="intro-heading text-uppercase">{{ site.data.sitetext[page.lang].header.text | markdownify }}</div>
+    {%- endif -%}
+    {%- if site.data.sitetext[page.lang].header.button -%}
+        <a class="btn-header btn btn-primary btn-xl text-uppercase js-scroll-trigger" href="{{ site.data.sitetext[page.lang].header.buttonlink }}">{{ site.data.sitetext[page.lang].header.button }}</a>
+    {%- endif -%}
+      </div>
+    </div>
+  </header>
+
+  {% else %}
+    <header class="masthead">
+      <div class="container">
+        <div class="intro-text">
+      {%- if site.data.sitetext[page.lang].header.title -%}
+          <div class="intro-lead-in">{{ site.data.sitetext[page.lang].header.title | markdownify }}</div>
+      {%- endif -%}
+      {%- if site.data.sitetext[page.lang].header.text -%}
+          <div class="intro-heading text-uppercase">{{ site.data.sitetext[page.lang].header.text | markdownify }}</div>
+      {%- endif -%}
+      {%- if site.data.sitetext[page.lang].header.button -%}
+          <a class="btn-header btn btn-primary btn-xl text-uppercase js-scroll-trigger" href="{{ site.data.sitetext[page.lang].header.buttonlink }}">{{ site.data.sitetext[page.lang].header.button }}</a>
+      {%- endif -%}
+        </div>
+      </div>
+    </header>
+  {% endif %}
+  
+  <!-- End Header -->

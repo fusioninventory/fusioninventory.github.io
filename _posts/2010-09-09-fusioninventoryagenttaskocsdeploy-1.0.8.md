@@ -1,6 +1,8 @@
 ---
-layout: single
+layout: post
 title: FusionInventory agent task OCS deploy 1.0.8
+categories: news
+lang: en
 ---
 
 We are glade to annonce a new release of the plugin for the agent that add OCS Inventory software deploment support. It comes after intensive testing on various platforms (Windows, Linux and Mac OS X).

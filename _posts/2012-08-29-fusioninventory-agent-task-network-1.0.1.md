@@ -1,6 +1,8 @@
 ---
-layout: single
+layout: post
 title: FusionInventory agent task-network 1.0.1
+categories: news
+lang: en
 ---
 
 Hello FusionInventory users,

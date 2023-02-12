@@ -1,6 +1,8 @@
 ---
-layout: single
+layout: post
 title: FusionInventory at Solutions Linux 2014 in Paris
+categories: news
+lang: en
 ---
 
 Hello FusionInventory users and future users,
