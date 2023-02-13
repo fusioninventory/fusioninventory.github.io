@@ -197,8 +197,8 @@ en: &DEFAULT_EN
         url: "https://github.com/fusioninventory/fusioninventory-for-gsit/releases/tag/gsit9.5%2B5.0"
         recommended: recommended server version
         desc: "(server part) Plugin for <a href='https://github.com/DCS-Easyware/gsit' target='_blank'>GSIT</a> 9.5.x (>= 9.5.7)"
-      - title: "FusionInventory for GLPI 10.0.6+1.0"
-        url: "https://github.com/fusioninventory/fusioninventory-for-glpi/releases/tag/glpi10.0.6%2B1.0"
+      - title: "FusionInventory for GLPI 10.0.6+1.1"
+        url: "https://github.com/fusioninventory/fusioninventory-for-glpi/releases/tag/glpi10.0.6%2B1.1"
         desc: "(server part) Plugin for GLPI 10.0.6"
       - title: "FusionInventory for GLPI 9.5.x"
         url: ""
