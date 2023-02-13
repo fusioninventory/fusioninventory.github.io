@@ -5,6 +5,8 @@ categories: news
 lang: en
 ---
 
+This is the bug fixes version 10.0.6+1.1 of the plugin FusionInventory for GLPI.
+
 # Problem detected in version 10.0.6+1.0!
 
 Hi, some of you has created issues this morning about a dropdown displaying.
