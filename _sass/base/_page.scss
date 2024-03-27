@@ -29,6 +29,7 @@ h6 {
   @include heading-font;
 }
 
+
 .page-section {
   padding: 100px 0;
   h2.section-heading {
@@ -45,6 +46,7 @@ h6 {
     @include serif-font;
   }
 }
+
 @media (min-width: 768px) {
   section {
     padding: 150px 0;
@@ -72,6 +74,19 @@ img::-moz-selection {
 
 .container {
   max-width: 1400px !important;
+
+  h1 {
+    margin-top: 70px;
+    color: #424242;
+  }
+  
+  h2 {
+    margin-top: 25px;
+  }
+  
+  h3 {
+    margin-top: 10px;
+  }
 }
 
 .ml-auto, .mx-auto {
