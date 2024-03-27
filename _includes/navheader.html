@@ -69,6 +69,30 @@
       {%- if site.data.sitetext[page.lang].header.text -%}
           <div class="intro-heading text-uppercase">{{ site.data.sitetext[page.lang].header.text | markdownify }}</div>
       {%- endif -%}
+
+      <div style="font-size: 20px;margin-bottom: 20px; display: flex;">
+        <div style="margin-left: auto;margin-right: auto;border-left: 2px solid white;border-right: 2px solid white;padding-left: 10px;padding-right: 10px;">
+        <i class="fas fa-bullhorn"></i>
+        {% if page.lang == "fr" %}
+          {% assign frPosts = site.posts | where: 'lang', 'fr' %}
+          {% for post in frPosts limit:1 %}
+            <span><i>{{ post.date  | date: "Dernière news le %-d %B %Y" }} :</i></span>
+            <br>
+            <a href="{{ post.url }}" style="color: white;"><i class="fas fa-sign-in-alt"></i> {{ post.title }}</a>
+          {% endfor %}
+        {% endif %}
+
+        {% if page.lang == "en" %}
+          {% assign enPosts = site.posts | where: 'lang', 'en' %}
+          {% for post in enPosts limit:1 %}
+            <span><i>{{ post.date  | date: "The last news on %-d %B %Y" }}:</i></span>
+            <br>
+            <a href="{{ post.url }}" style="color: white;"><i class="fas fa-sign-in-alt"></i> {{ post.title }}</a>
+          {% endfor %}
+        {% endif %}
+        </div>
+      </div>
+
       {%- if site.data.sitetext[page.lang].header.button -%}
           <a class="btn-header btn btn-primary btn-xl text-uppercase js-scroll-trigger" href="{{ site.data.sitetext[page.lang].header.buttonlink }}">{{ site.data.sitetext[page.lang].header.button }}</a>
       {%- endif -%}
