@@ -18,9 +18,13 @@
           {% if download.recommended and download.recommended != nil %}
             <i class="fas fa-check fa-stack-2x fa-inverse" style="margin-left: 35px;margin-top: 20px; color: #68d3ff"></i>
           {% endif %}
+          {% if download.discontinued and download.discontinued != nil %}
+            <i class="fas fa-xmark fa-stack-2x fa-inverse" style="margin-left: 35px;margin-top: 20px; color: #ff4b4b"></i>
+          {% endif %}
           <h4 class="service-heading">{{ download.title | default: "Download" }}</h4>
         </a>
         <div style="font-weight: bold; font-style: italic;color: #68d3ff">{{ download.recommended | default: "" }}</div>
+        <div style="font-weight: bold; font-style: italic;color: #ff4b4b">{{ download.discontinued | default: "" }}</div>
         <div class="text-muted">{{ download.desc | default: "" }}</div>
       </div>
       {% endfor %}
