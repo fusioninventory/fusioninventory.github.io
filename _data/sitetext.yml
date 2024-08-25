@@ -52,10 +52,7 @@ en: &DEFAULT_EN
       #   desc: ""
       #   icon:
       - title: "Works with GSIT"
-        desc: "Server plugin for the stable and secure fork of GLPI: GSIT"
-        icon: fas fa-server
-      - title: "Works with GLPI"
-        desc: "Server plugin for GLPI"
+        desc: "Server plugin for the stable and secure fork of GLPI: [GSIT](https://github.com/DCS-Easyware/gsit)"
         icon: fas fa-server
       # - title: "REST API"
       #   desc: "The agent offer a standard REST API and documented. Very good to integrated to other projects."
@@ -83,6 +80,11 @@ en: &DEFAULT_EN
     # left is the default
     #start_align: "left"
     events:
+      - title: "Rewrite agent in RUST"
+        year: "2024"
+        desc: "Rewrite agent in RUST (for 3.0 version), more secure and new data format..."
+        alt: 
+        align: left
       - title: "Preparation of the future agent version and FusionSuite (server)"
         year: "2022"
         desc: "We prepare the features and modification on agent we want and the integration with FusionSuite project (server part)"
@@ -199,9 +201,11 @@ en: &DEFAULT_EN
         desc: "(server part) Plugin for <a href='https://github.com/DCS-Easyware/gsit' target='_blank'>GSIT</a> 9.5.x (>= 9.5.7)"
       - title: "FusionInventory for GLPI 10.0.6+1.1"
         url: "https://github.com/fusioninventory/fusioninventory-for-glpi/releases/tag/glpi10.0.6%2B1.1"
+        discontinued: discontinued
         desc: "(server part) Plugin for GLPI 10.0.6"
       - title: "FusionInventory for GLPI 9.5.x"
         url: ""
+        discontinued: discontinued
         desc: "(server part) - abandoned"
 
   presentation:
